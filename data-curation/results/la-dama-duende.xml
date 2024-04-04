@@ -5,7 +5,16 @@
       <titleStmt>
         <title type="main">La dama duende</title>
         <title type="sub">Comedia famosa</title>
-        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <author>
+          <persName>
+            <forename>Pedro</forename>
+            <surname sort="1">Calderón</surname>
+            <nameLink>de la</nameLink>
+            <surname>Barca</surname>
+          </persName>
+          <idno type="wikidata">Q170800</idno>
+          <idno type="pnd">118518399</idno>
+        </author>
         <respStmt>
           <resp>Data curation (cleaning, normalization and scene division)</resp>
           <persName xml:id="rojas">Rojas Castro, Antonio</persName>
@@ -14,64 +23,62 @@
       <publicationStmt>
         <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2019-05-27"><time when="20:41:55"/></date>
+        <date when="2019-05-27">
+          <time when="20:41:55"/>
+        </date>
         <idno type="quadramaX">La dama duende</idno>
         <availability>
-          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-dama-duende-comedia-famosa/html/</idno><bibl type="originalSource"><title>Edición de Luis Iglesias Feijoo. Esta obra pertenece a la Colección Teatro clásico español. Canon 60. La colección esencial del TC/12. Grupo de investigación Calderón</title></bibl></bibl>
+        <bibl type="digitalSource">
+          <name>Biblioteca Virtual Miguel de Cervantes</name>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-dama-duende-comedia-famosa/html/</idno>
+          <bibl type="originalSource">
+            <title>Edición de Luis Iglesias Feijoo. Esta obra pertenece a la Colección Teatro clásico español. Canon 60. La colección esencial del TC/12. Grupo de investigación Calderón</title>
+          </bibl>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
           <person xml:id="don-manuel" sex="MALE">
-            <persName>Don Manuel</persName>
+            <persName>DON MANUEL</persName>
           </person>
           <person xml:id="cosme" sex="MALE">
-            <persName>Cosme</persName>
-            <trait source="castlist">
-              <desc>gracioso</desc>
-            </trait>
+            <persName>COSME, gracioso</persName>
           </person>
           <person xml:id="doña-ángela" sex="FEMALE">
-            <persName>Doña Ángela</persName>
+            <persName>DOÑA ÁNGELA</persName>
           </person>
           <person xml:id="isabel" sex="FEMALE">
-            <persName>Isabel</persName>
-            <trait source="castlist">
-              <desc>criada</desc>
-            </trait>
+            <persName>ISABEL, criada</persName>
           </person>
           <person xml:id="rodrigo" sex="MALE">
-            <persName>Rodrigo</persName>
-            <trait source="castlist">
-              <desc>criado</desc>
-            </trait>
+            <persName>RODRIGO, criado</persName>
           </person>
           <person xml:id="don-luis" sex="MALE">
-            <persName>Don Luis</persName>
+            <persName>DON LUIS</persName>
           </person>
           <person xml:id="don-juan" sex="MALE">
-            <persName>Don Juan</persName>
+            <persName>DON JUAN</persName>
           </person>
           <person xml:id="doña-beatriz" sex="FEMALE">
-            <persName>Doña Beatriz</persName>
+            <persName>DOÑA BEATRIZ</persName>
           </person>
           <person xml:id="clara" sex="FEMALE">
-            <persName>Clara</persName>
-            <trait source="castlist">
-              <desc>criada</desc>
-            </trait>
+            <persName>CLARA, criada</persName>
           </person>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term source="dracor" type="genreTitle">comedia de capa y espada</term>
-          <term source="kroll" type="main">comedia cómica</term>
+          <term type="genreTitle">comedia de capa y espada</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -112,7 +119,7 @@
     </front>
     <body>
       <div type="act" n="1">
-        <div type="scene" resp="#rojas" n="1">
+        <div type="scene">
           <head>Jornada I</head>
           <stage>Salen DON MANUEL y COSME, de camino.</stage>
           <sp who="#don-manuel">
@@ -224,8 +231,6 @@
             <l>Llegamos tarde en efeto,</l>
             <l part="I">porque...</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
           <stage>Salen DOÑA ÁNGELA y ISABEL, en corto, tapadas.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
@@ -242,11 +247,8 @@
             <l n="110">una desdicha, una afrenta,</l>
             <l>que podrá ser que algún día... </l>
             <l>¡Adiós, adiós, que voy muerta!</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage>Vase.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
             <l> ¿Es dama o es torbellino?</l>
@@ -288,8 +290,6 @@
             <l>Esta carta, que encomienda</l>
             <l>es de un amigo, me valga.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
           <stage>Sale DON LUIS y RODRIGO, su criado.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
@@ -418,8 +418,6 @@
             <l>y sin cédula o palabra</l>
             <l part="I"> no puedo sacarla.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
           <stage>Sale DOÑA BEATRIZ teniendo a DON JUAN, y CLARA, criada, y gente.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
@@ -588,8 +586,6 @@
             <l>por que no se meta a ser</l>
             <l>don Quijote de la legua!</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
           <stage>Vanse los tres y llega DON LUIS a DOÑA BEATRIZ, que está aparte.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
@@ -651,11 +647,8 @@
             <l>por ser cosa que se halla</l>
             <l>con dificultad en ella.</l>
             <l part="I">Quedad con Dios.</l>
-
+            <stage>Vase con su criada.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage>Vase con su criada.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
             <l part="F"> Id con Dios. </l>
@@ -761,8 +754,6 @@
             <l> de su honor más que unos vidrios, </l>
             <l> que al primer golpe se quiebran. </l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
           <stage>Vanse y salen DOÑA ÁNGELA y ISABEL.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
@@ -862,11 +853,8 @@
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l part="F"> Oye, espera. </l>
-
+            <stage>Sale DON LUIS.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
-          <stage>Sale DON LUIS.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
             <l part="I"> Ángela. </l>
@@ -1045,11 +1033,8 @@
             <l n="540">veas no dárseme nada,</l>
             <l>a verle voy y aun con él</l>
             <l>haré una galantería. </l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage>Vase.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
             <l>¿Qué dirás, señora mía,</l>
@@ -1223,8 +1208,6 @@
             <l>que echara una mala lengua</l>
             <l>tan buenas partes a mal.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
           <stage>Vanse. Salen DON JUAN, DON MANUEL y un criado con luz.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
@@ -1254,8 +1237,6 @@
             <l>de su estilo admirado,</l>
             <l>y he de ser muy su amigo y su criado.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
           <stage>Sale DON LUIS y un criado con un azafate cubierto y en él un aderezo de espada.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
@@ -1298,8 +1279,6 @@
             <l n="695">pagar tantos favores!</l>
             <l>Los dos os competís en darme honores.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="13">
           <stage>Sale COSME cargado de maletas y cojines.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -1429,8 +1408,6 @@
             <l n="750">y en el cuarto la deja y cada día</l>
             <l part="I"> vendrán a aderezarle.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="14">
           <stage>Vanse y queda COSME.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -1465,8 +1442,6 @@
             <l>desto, Cosme? Tendré. Pues, Cosme, vamos,</l>
             <l>que antes son nuestros gustos que los amos.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
           <stage>Vase. Por una alacena que estará hecha con anaqueles y vidrios en ella, quitándose con goznes como que se desencaja, salen DOÑA ÁNGELA y ISABEL.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
@@ -1730,8 +1705,6 @@
             <speaker>ISABEL</speaker>
             <l part="F"> Alacena me fecit.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="16">
           <stage>Vanse por el alacena y queda como estaba. Sale COSME.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -1765,8 +1738,6 @@
             <l>en lo que mandares vuelve,</l>
             <l n="920">mas el que yo hurto, ¿por qué?</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="17">
           <stage>Salen DON JUAN, DON LUIS y DON MANUEL.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
@@ -1837,11 +1808,8 @@
             <l>el duende de la posada,</l>
             <l>y aconsejalde que intente</l>
             <l>otras burlas al criado. </l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="18">
-          <stage>Vase.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
             <l>No en vano sois tan valiente</l>
@@ -1849,11 +1817,8 @@
             <l>desnuda la espada siempre,</l>
             <l>saliendo de los disgustos</l>
             <l>en que este loco os pusiere. </l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="19">
-          <stage>Vase.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
             <l>¿Ves cuál me tratan por ti?</l>
@@ -2230,14 +2195,12 @@
             <l>quien tome tabaco en humo.</l>
           </sp>
         </div>
-
-
-
       </div>
       <div type="act" n="2">
-        <div type="scene" resp="#rojas" n="1">
+        <div type="scene">
           <head>Jornada II</head>
-          <stage>de </stage>
+          <stage>de<emph>La dama duende</emph>
+          </stage>
           <stage>Salen DOÑA ÁNGELA, DOÑA BEATRIZ y ISABEL.</stage>
           <sp who="#doña-beatriz">
             <speaker>BEATRIZ</speaker>
@@ -2307,8 +2270,6 @@
             <l part="F"> No me pesa, </l>
             <l>si hemos de decir verdades.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
           <stage>Sale DON JUAN.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
@@ -2411,11 +2372,8 @@
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
             <l n="1205" part="F"> Dios os guarde.</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage>Vase.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l>Si cuidado con su huésped</l>
@@ -2595,8 +2553,6 @@
             <l>Vamos de aquí, que no quiero</l>
             <l>que don Luis llegue a hablarme.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
           <stage>Quiérese ir y sale DON LUIS.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
@@ -2679,11 +2635,8 @@
             <speaker>BEATRIZ</speaker>
             <l>No he de escucharos; por Dios,</l>
             <l>amiga, que le detengas. </l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage>Vase.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l>¡Que tan poco valor tengas</l>
@@ -2699,8 +2652,6 @@
             <l>que querer aborrecido</l>
             <l>es morir y no querer.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
           <stage>Vase con ISABEL.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
@@ -2715,8 +2666,6 @@
             <l>es porque el favor no duele</l>
             <l>de la suerte que el agravio.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
           <stage>Sale RODRIGO.</stage>
           <sp who="#rodrigo">
             <speaker>RODRIGO</speaker>
@@ -2763,8 +2712,6 @@
             <l n="1400">Mira que don Manuel puede</l>
             <l>oírte, que viene allí.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
           <stage>Sale DON MANUEL.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
@@ -2905,8 +2852,6 @@
             <l>terceros para alcanzar</l>
             <l>y ella huye por terceros.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
           <stage>Vase él y RODRIGO.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
@@ -2931,8 +2876,6 @@
             <l>confusión de confusiones?</l>
             <l>¡Válgate Dios por mujer!</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
           <stage>Sale COSME.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -2993,11 +2936,8 @@
             <l>el tiempo en efeto pierdo.</l>
             <l>En tanto que me despido</l>
             <l part="I">de don Juan, ten luz.</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
-          <stage>Vase.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
             <l part="F"> Sí haré,</l>
@@ -3012,8 +2952,6 @@
             <l>Y entre estas y estotras voy</l>
             <l>titiritando de miedo.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
           <stage>Vase y sale ISABEL por la alacena con un azafate cubierto.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
@@ -3044,8 +2982,6 @@
             <l>que ya ni puedo esconderme</l>
             <l n="1555">ni volver a salir puedo.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="13">
           <stage>Sale COSME con luz.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -3098,8 +3034,6 @@
             <l part="F">(Ahora podré</l>
             <l part="I">escaparme).</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="14">
           <stage>Al querer huir ISABEL, sale DON MANUEL.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
@@ -3151,19 +3085,14 @@
           <sp who="#cosme">
             <speaker>COSME</speaker>
             <l part="I"> Tenle bien.</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
-          <stage>Vase.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
             <l part="F">(Del azafate</l>
             <l>asió; en sus manos le dejo.</l>
             <l n="1600">Hallé la alacena. ¡Adiós!).</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="16">
           <stage>Vase, y él tiene el azafate.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
@@ -3177,8 +3106,6 @@
             <l>¿Qué será? ¡Válgame Dios,</l>
             <l>que en más confusión me ha puesto!</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="17">
           <stage>Sale COSME con luz.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -3383,8 +3310,6 @@
             <l>donde el honor es lo más,</l>
             <l>todo lo demás es menos.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="18">
           <stage>Vanse. Salen DOÑA ÁNGELA, DOÑA BEATRIZ y ISABEL.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
@@ -3455,8 +3380,6 @@
             <l>y fuera aventurarme,</l>
             <l n="1765">no ausentándose ellos, empeñarme.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="19">
           <stage>Sale DON LUIS al paño.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
@@ -3561,18 +3484,13 @@
             <l>que el estorbar es último remedio</l>
             <l>de un celoso. ¡Valedme, santos cielos,</l>
             <l n="1825">que, abrasado de amor, muero de celos!).</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="20">
-          <stage>Vase.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l>Está bien prevenido,</l>
             <l>y mañana diremos que te has ido.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="21">
           <stage>Sale DON JUAN.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
@@ -3667,11 +3585,8 @@
             <l>una luz y en qué pueda ir escondida;</l>
             <l>porque no ha de tener, contra mi fama,</l>
             <l>quien me escribe retrato de otra dama).</l>
-
+            <stage>Vanse.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="22">
-          <stage>Vanse.</stage>
           <sp who="#doña-beatriz">
             <speaker>BEATRIZ</speaker>
             <l> No creo que te debo </l>
@@ -3722,8 +3637,6 @@
             <l>para olvidarte, pues que no te amara</l>
             <l n="1915">el rato que tratara de olvidarte.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="23">
           <stage>Vanse y sale DON MANUEL tras COSME, que viene huyendo.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
@@ -3844,8 +3757,6 @@
             <l>que alborotemos a quien</l>
             <l>buen hospedaje debemos.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="24">
           <stage>Vanse y salen por la alacena DOÑA ÁNGELA y ISABEL.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
@@ -3872,8 +3783,6 @@
             <speaker>ISABEL</speaker>
             <l n="1995" part="F"> Aquí me espera.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="25">
           <stage>Vase ISABEL, cierra la alacena y salen, como a escuras, DON MANUEL y COSME.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -4222,11 +4131,8 @@
           <sp who="#cosme">
             <speaker>COSME</speaker>
             <l>Yo ¿no lo dije también?</l>
-
+            <stage>Vanse los dos.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="26">
-          <stage>Vanse los dos.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l>Cerrada estoy por defuera.</l>
@@ -4236,8 +4142,6 @@
             <l>y que el huésped me ha cogido</l>
             <l part="I"> aquí.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="27">
           <stage>Sale ISABEL a la alacena.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
@@ -4250,8 +4154,6 @@
             <l>de la alacena. ¡Ay, amor,</l>
             <l>la duda se queda en pie!</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="28">
           <stage>Vanse y cierran la alacena y vuelven a salir DON MANUEL y COSME.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
@@ -4378,24 +4280,20 @@
             <l>sea el demonio mujer.</l>
           </sp>
         </div>
-
-
       </div>
       <div type="act" n="3">
-        <div type="scene" resp="#rojas" n="1">
+        <div type="scene">
           <head>Jornada III</head>
-          <stage>de </stage>
+          <stage>de <emph>La dama duende</emph>
+          </stage>
           <stage>Sale DON MANUEL como a escuras, guiándole ISABEL.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
             <l>Espérame en esta sala;</l>
             <l>luego saldrá a verte aquí</l>
             <l part="I"> mi señora.</l>
-
+            <stage>Vase como cerrando.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
-          <stage>Vase como cerrando.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
             <l part="F"> No está mala </l>
@@ -4438,8 +4336,6 @@
             <l n="2280">¡Qué damas tan bien prendidas!</l>
             <l>¡Qué beldad tan estremada!</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
           <stage>Salen todas las mujeres con toallas y conservas y agua y haciendo reverencia todas. Sale DOÑA ÁNGELA ricamente vestida.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
@@ -4680,11 +4576,8 @@
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
             <l part="I"> Vamos presto.</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
-          <stage>Vase.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
             <l part="F"> ¿No acabáis </l>
@@ -4695,11 +4588,8 @@
             <l n="2435" part="F">¡Valedme, </l>
             <l>cielos, que vida y honor</l>
             <l>van jugadas a una suerte!</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage>Vase.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
             <l> La puerta echaré en el suelo. </l>
@@ -4709,14 +4599,11 @@
             <l>Retírate tú, pues puedes,</l>
             <l n="2440">en esa cuadra, Beatriz;</l>
             <l part="I"> no te hallen aquí.</l>
-
+            <stage>Sale DON JUAN.</stage>
             <l part="F"> ¿Qué quieres </l>
             <l>a estas horas en mi cuarto,</l>
             <l>que así a alborotarnos vienes?</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
-          <stage>Sale DON JUAN.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
             <l>Respóndeme tú primero,</l>
@@ -4762,20 +4649,14 @@
             <l>verla y hablarla esta noche.</l>
             <l n="2465">Quédate con Dios y advierte</l>
             <l>que ya no es tuyo ese traje. </l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage>Vase.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l> Vaya Dios contigo y vete.</l>
-
+            <stage>Sale BEATRIZ.</stage>
             <l> Cierra esa puerta, Beatriz. </l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
-          <stage>Sale BEATRIZ.</stage>
           <sp who="#doña-beatriz">
             <speaker>BEATRIZ</speaker>
             <l>Bien hemos salido deste</l>
@@ -4793,10 +4674,8 @@
           <sp who="#doña-beatriz">
             <speaker>BEATRIZ</speaker>
             <l> Si esto te sucede, bien </l>
-            <l>te llaman .la dama duende</l>
+            <l>te llaman <emph>la dama duende</emph>.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
           <stage>Vanse. Salen por el alacena DON MANUEL y ISABEL.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
@@ -4812,11 +4691,8 @@
             <speaker>ISABEL</speaker>
             <l>(Quieran los cielos que acierte</l>
             <l>a cerrar, que estoy turbada).</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage>Vase.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
             <l>¡Oh, a cuánto, cielos, se atreve</l>
@@ -4833,8 +4709,6 @@
             <l>que a esta parte alguna puerta</l>
             <l n="2495">abren. Sí, y ha entrado gente.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
           <stage>Sale COSME.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -4873,7 +4747,7 @@
             <l>Señor, el dueño y la casa</l>
             <l n="2515">son el diablo que me lleve,</l>
             <l>porque aquí vive una dama,</l>
-            <l>que llaman ,la dama duende</l>
+            <l>que llaman <emph>la dama duende</emph>,</l>
             <l>que es un demonio en figura</l>
             <l part="I"> de mujer. </l>
           </sp>
@@ -4975,18 +4849,13 @@
             <speaker>MANUEL</speaker>
             <l part="F"> Bien dices.</l>
             <l> Iré a examinarle y verle.</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
-          <stage>Vase.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
             <l n="2560">Señores, ¿cuándo saldremos</l>
             <l>de tanto embuste aparente?</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="13">
           <stage>Sale ISABEL por la alacena.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
@@ -5010,8 +4879,6 @@
             <speaker>COSME</speaker>
             <l part="F"> (¿Qué señor es este?).</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="14">
           <stage>Sale DON MANUEL.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
@@ -5063,8 +4930,6 @@
             <l n="2590">hasta averiguar quién es</l>
             <l>esta hermosa dama duende.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
           <stage>Vase y salen todas las mujeres, una con luces y otra con algunas cajas y otra con un vidrio de agua.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
@@ -5091,8 +4956,6 @@
             <l part="F"> Sí,</l>
             <l> que ya siento sus pisadas. </l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="16">
           <stage>Sale ISABEL trayendo a COSME de la mano.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -5271,11 +5134,8 @@
           <sp who="#doña-beatriz">
             <speaker>BEATRIZ</speaker>
             <l part="I"> Yo me escondo.</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="17">
-          <stage>Vase.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
             <l part="F"> Este sin duda</l>
@@ -5289,8 +5149,6 @@
             <speaker>COSME</speaker>
             <l part="F"> Sí haré. </l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="18">
           <stage>Vanse. Sale DON LUIS.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
@@ -5360,11 +5218,8 @@
             <l>Luz tomaré, aunque imprudente,</l>
             <l>pues todo se halla con luz</l>
             <l>y el honor con luz se pierde. </l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="19">
-          <stage>Vase.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l n="2710">¡Ay, Beatriz, perdidas somos,</l>
@@ -5399,24 +5254,17 @@
             <l>si a ti te trujo un pesar,</l>
             <l n="2725">a mí otro pesar me lleve.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="20">
           <stage>Vanse. Salen por el alacena ISABEL y COSME y por otra parte DON MANUEL.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
             <l part="I"> Entra presto.</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="21">
-          <stage>Vase.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
             <l part="F"> Ya otra vez </l>
             <l> en la cuadra siento gente. </l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="22">
           <stage>Sale DON LUIS con luz.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
@@ -5643,11 +5491,8 @@
             <l>diligencias tan urgentes,</l>
             <l n="2830">que para que yo no riña</l>
             <l>cuidado escusado es ese.</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="23">
-          <stage>Vase.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
             <l> Ya estamos solos los dos. </l>
@@ -5703,11 +5548,8 @@
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
             <l> A Dios, don Manuel, que os guarde.</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="24">
-          <stage>Vase.</stage>
           <sp who="#don-manuel">
             <speaker>MANUEL</speaker>
             <l n="2855"> A Dios, que con bien os lleve. </l>
@@ -5743,8 +5585,6 @@
             <l>del discurso que no hay</l>
             <l>cosa que más me atormente.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="25">
           <stage>Vase y salen DON JUAN y ÁNGELA con manto y sin chapines.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
@@ -5760,19 +5600,14 @@
             <l>la dejo y, por si él viniere,</l>
             <l n="2890">pondré a la puerta un criado</l>
             <l>que le diga que no entre).</l>
-
+            <stage>Vase.</stage>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="26">
-          <stage>Vase.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l>¡Ay, infelice de mí!</l>
             <l>Unas a otras suceden</l>
             <l>mis desdichas. ¡Muerta soy!</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="27">
           <stage>Salen DON MANUEL y COSME.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -5978,8 +5813,6 @@
             <l part="F"> Segura estás.</l>
             <l> Ponte luego a mis espaldas. </l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="28">
           <stage>Sale DON LUIS.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
@@ -6052,8 +5885,6 @@
             <l>con la obligación jurada,</l>
             <l>a tu hermana doy la mano.</l>
           </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="29">
           <stage>Salen por una puerta BEATRIZ y ISABEL y por otra DON JUAN.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
@@ -6113,7 +5944,6 @@
             <l>os le pide a vuestras plantas.</l>
           </sp>
         </div>
-
       </div>
     </body>
   </text>
