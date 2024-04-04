@@ -1,0 +1,2765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000012" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El divino Orfeo</title>
+        <title type="sub">Auto sacramental alegórico. Versión de 1663</title>
+        <author>
+          <persName>
+            <forename>Pedro</forename>
+            <surname sort="1">Calderón</surname>
+            <nameLink>de la</nameLink>
+            <surname>Barca</surname>
+          </persName>
+          <idno type="wikidata">Q170800</idno>
+          <idno type="pnd">118518399</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-09">
+          <time when="09:49:55"/>
+        </date>
+        <idno type="quadramaX">El divino Orfeo</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Biblioteca Virtual Miguel de Cervantes</name>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-divino-orfeo-version-de-1663--0/html/</idno>
+          <bibl type="originalSource">
+            <title>Texto crítico preparado por J. Enrique Duarte procedente de la edición Calderón de la Barca, Pedro, El divino Orfeo, ed. J. Enrique Duarte, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1999. ISBN: 3-931887-51-0.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="príncipe-de-las-tinieblas" sex="MALE">
+            <persName>EL PRÍNCIPE DE LAS TINIEBLAS.</persName>
+          </person>
+          <person xml:id="envidia" sex="FEMALE">
+            <persName>LA ENVIDIA.</persName>
+          </person>
+          <person xml:id="orfeo" sex="MALE">
+            <persName>ORFEO.</persName>
+          </person>
+          <person xml:id="naturaleza-humana" sex="FEMALE">
+            <persName>LA NATURALEZA HUMANA.</persName>
+          </person>
+          <person xml:id="día-1" sex="MALE">
+            <persName>DÍA 1.</persName>
+          </person>
+          <person xml:id="día-2" sex="MALE">
+            <persName>DÍA 2.</persName>
+          </person>
+          <person xml:id="día-3" sex="MALE">
+            <persName>DÍA 3.</persName>
+          </person>
+          <person xml:id="día-4" sex="MALE">
+            <persName>DÍA 4.</persName>
+          </person>
+          <person xml:id="día-5" sex="MALE">
+            <persName>DÍA 5.</persName>
+          </person>
+          <person xml:id="día-6" sex="MALE">
+            <persName>DÍA 6.</persName>
+          </person>
+          <person xml:id="día-7" sex="MALE">
+            <persName>DÍA 7.</persName>
+          </person>
+          <person xml:id="leteo" sex="MALE">
+            <persName>LETEO, barquero.</persName>
+          </person>
+          <person xml:id="placer" sex="MALE">
+            <persName>PLACER, villano.</persName>
+          </person>
+          <person xml:id="coro-1" sex="MALE">
+            <persName>CORO 1.</persName>
+          </person>
+          <person xml:id="coro-2" sex="MALE">
+            <persName>CORO 2.</persName>
+          </person>
+          <person xml:id="eurídice" sex="FEMALE">
+            <persName>EURÍDICE</persName>
+          </person>
+          <person xml:id="música" sex="MALE">
+            <persName>MÚSICOS.</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1677">
+        <label/>
+      </event>
+      <event type="written" when="1663">
+        <label/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000012" passive="http://www.wikidata.org/entity/Q68902927"/>
+    </listRelation>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">El divino Orfeo</titlePart>
+        <titlePart type="sub">Auto sacramental alegórico</titlePart>
+      </docTitle>
+      <castList>
+        <head>[PERSONAS]</head>
+        <castItem>EL PRÍNCIPE DE LAS TINIEBLAS.</castItem>
+        <castItem>LA ENVIDIA.</castItem>
+        <castItem>ORFEO.</castItem>
+        <castItem>LA NATURALEZA HUMANA.</castItem>
+        <castItem>DÍA 1.</castItem>
+        <castItem>DÍA 2.</castItem>
+        <castItem>DÍA 3.</castItem>
+        <castItem>DÍA 4.</castItem>
+        <castItem>DÍA 5.</castItem>
+        <castItem>DÍA 6.</castItem>
+        <castItem>DÍA 7.</castItem>
+        <castItem>LETEO, barquero.</castItem>
+        <castItem>PLACER, villano.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene">
+          <stage>Suena un clarín. En el carro primero que será una nave negra y negras sus flámulas, banderolas, jarcias y gallardetes, pintadas de áspides por armas y dando vuelta, se ven en su popa el PRÍNCIPE DE LAS TINIEBLAS y la ENVIDIA con bandas, plumas y bengalas negras.</stage>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Ya que sulcar me veo</l>
+            <l>sobre las negras ondas del Leteo,</l>
+            <l>imaginado río</l>
+            <l>que entre el caos y el abismo, imperio mío,</l>
+            <l n="5">corre veloz, por cuyas pardas nieblas</l>
+            <l>el gran Príncipe soy de las tinieblas,</l>
+            <l>ya que sulcar, digo otra vez, me veo</l>
+            <l>sobre las negras ondas del Leteo,</l>
+            <l>a quien por lo letal otro sentido</l>
+            <l n="10">ha de llamar el río del olvido,</l>
+            <l>dé un bordo y otro esta supuesta nave,</l>
+            <l>no del Austro impelida, que süave</l>
+            <l>corre del mediodía,</l>
+            <l>sino del Aquilón que el Norte envía.</l>
+            <l n="15">En corso ande hasta ver si erradas güellas</l>
+            <l>me vuelven a rozar con las estrellas,</l>
+            <l>y sí harán, si es que el día</l>
+            <l>llega que ya antevió la ciencia mía</l>
+            <l>en el retrato de la soberana,</l>
+            <l n="20">siempre feliz Naturaleza humana,</l>
+            <l>por quien cosario intento</l>
+            <l>dar fuerza a un alegórico argumento</l>
+            <l>viendo que es ella, el día que ella sea</l>
+            <l>alto ejemplar de la divina idea,</l>
+            <l n="25">el infestado triunfo que interesa</l>
+            <l>mi aborrecido amor, siendo la presa</l>
+            <l>con quien mi grande espíritu atrevido</l>
+            <l>vuelva a sulcar las ondas del olvido.</l>
+          </sp>
+          <stage>Suena el clarín, dando vuelta la nave.</stage>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Si el sacro texto, al prevenir tus artes,</l>
+            <l n="30">ladrón te ha de llamar en tantas partes</l>
+            <l>cuantas tus robos ya en mi mente llora,</l>
+            <l>de Jericó en los campos de la aurora</l>
+            <l>errante peregrino;</l>
+            <l>cuantas al Padre de familias, digno</l>
+            <l n="35">precepto manda que en su guarda anhele</l>
+            <l>y impedirá tus hurtos como vele;</l>
+            <l>cuantas ronde el portillo, porque advierta</l>
+            <l>el pastor que el ladrón no va a la puerta,</l>
+            <l>sin otros infinitos</l>
+            <l n="40">lugares que baldón de tus delitos</l>
+            <l>tu ilustre ser disfamen,</l>
+            <l>¿qué mucho, ya que ellos ladrón te llamen,</l>
+            <l>que añadiendo pesares a pesares</l>
+            <l>te llames tú pirata de los mares?</l>
+            <l n="45">Y no sin opiniones</l>
+            <l>auténticas también tribulaciones</l>
+            <l>las aguas se interpretan,</l>
+            <l>pues ¿qué daños habrá que no cometan</l>
+            <l>tus iras en su espuma,</l>
+            <l n="50">si hay quien tribulaciones las presuma?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Hermosa Envidia mía,</l>
+            <l>ya que el día vagamos sin el día</l>
+            <l>y que hasta agora todo es noche oscura,</l>
+            <l>vestido del color de mi ventura,</l>
+            <l n="55">al sacro solio mira,</l>
+            <l>pues siempre perspicaz tu vista aspira</l>
+            <l>a lo más alto, a ver si descubrimos</l>
+            <l>señas del rumbo que a buscar venimos.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Informe globo, aún la materia prima</l>
+            <l n="60">se está como se estaba; nada anima,</l>
+            <l>nada vive ni alienta.</l>
+            <stage>Dentro, un instrumento.</stage>
+            <l part="I">Sólo escucho una voz.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F">Pues oye atenta.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="I">Suena muy lejos.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F">Para nuestro oído</l>
+            <l>no hay distancia que impida su sonido</l>
+            <l n="65">y voz que agora dulcemente grave</l>
+            <l>quiera unir lo imperioso y lo süave,</l>
+            <l>no dudo que voz sea</l>
+            <l>que atraiga a sí cuanto atraer desea</l>
+            <l>y más si atiendo en la sabiduría</l>
+            <l n="70">que debajo de métrica armonía</l>
+            <l>todo ha de estar constando en cierto modo</l>
+            <l>de número, medida y regla todo,</l>
+            <l>tanto que disonara</l>
+            <l>si faltara una sílaba o sobrara.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l n="75">Pues siendo así, ¿qué mucho</l>
+            <l part="I">músicas oiga?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="M">Escucha, pues.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">Ya escucho.</l>
+          </sp>
+          <stage>Puesta en través la nave y ellos en su costado, se abre el segundo carro que será un globo celeste pintado de astros, signos y planetas en dos mitades, cayendo la una sobre el tablado y quedando la otra fija, de suerte que ORFEO, que sale de la una, pueda representar sobre la otra. Adviértase que cuanto represente ha de ser cantado en estilo recitativo, a cuya primer copla se abrirá el carro tercero en otras dos mitades, viéndose dentro de él los siete DÍAS reclinados, como dormidos, y en medio de ellos la NATURALEZA HUMANA.</stage>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>¡Ah de ese informe embrión!</l>
+            <l>¡Ah de esa masa confusa</l>
+            <l>a quien llamará el poeta</l>
+            <l n="80">caos y nada la escritura!</l>
+          </sp>
+          <sp who="#día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <stage>Dormidos.</stage>
+            <l>¿Quién será quien nos busca?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Quien de la nada hacer el todo gusta.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>En no bien formado acento</l>
+            <l>de torpe asonancia ruda</l>
+            <l n="85">aquella unida cadena,</l>
+            <l>que todas las cosas junta</l>
+            <l>y nada cada una espera</l>
+            <l>ser un todo cada una,</l>
+            <l part="I">le responden.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F">Atendamos</l>
+            <l n="90">a lo que el misterio oculta.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>¡Ah de ese lóbrego seno!</l>
+            <l>¡Ah de esa cárcel obscura</l>
+            <l>sobre cuya faz, de Dios</l>
+            <l>el espíritu fluctúa!</l>
+          </sp>
+          <sp who="#día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l n="95">¿Quién será quien nos busca?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Quien de la nada hacer el todo gusta.</l>
+            <l>Hágase la luz hermosa</l>
+            <l>y en esa trabada lucha</l>
+            <l>dividida de las sombras</l>
+            <l n="100">ella arda y todo luzga.</l>
+          </sp>
+          <sp who="#día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODO</speaker>
+            <stage>Entre sueños.</stage>
+            <l>¿Qué esplendor nos ilustra?</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l>El que en mi luz de las tinieblas triunfa.</l>
+            <stage>Sale de la parte de adentro, como rompiendo el peñasco, una hacha encendida, despierta el DÍA 1.º y tomándola en la mano, representa yéndose con ella.</stage>
+            <l>Siendo del Día Primero</l>
+            <l>obra luciente esta pura</l>
+            <l n="105">antorcha que dividida</l>
+            <l>de las sombras os alumbra.</l>
+          </sp>
+          <sp who="#día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l>¿Quién te dio luz tan pura?</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l>Voz que atractiva mueve a ir en su busca.</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Divididas de las aguas</l>
+            <l n="110">también hoy las aguas, unas</l>
+            <l>queden en la tierra y otras</l>
+            <l>a ser firmamento suban.</l>
+          </sp>
+          <sp who="#día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <stage>Entre sueños.</stage>
+            <l>¿Qué esfera nos circunda?</l>
+          </sp>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l>Del Día Segundo, la estación segunda.</l>
+            <stage>Descúbrense en lo lejos del peñasco una perspectiva de ondas y despierta el DÍA 2.º</stage>
+            <l n="115">Pues las aguas divididas</l>
+            <l>en transparente cerúlea</l>
+            <l>tez forman un pabellón</l>
+            <l>que todo el ámbito cubra.</l>
+          </sp>
+          <sp who="#día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <stage>En sueños.</stage>
+            <l>¿Quién dio su arquitectura?</l>
+          </sp>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l n="120">Voz que atractiva mueve a ir en su busca.</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Las aguas que se quedaron</l>
+            <l>sobre la tierra que inundan,</l>
+            <l>dejándola árida y seca</l>
+            <l>a un espacio se reduzcan</l>
+            <l n="125">que mar se llame; y porque</l>
+            <l>estéril no esté, produzga</l>
+            <l>fértiles plantas que crezcan</l>
+            <l>según las especies suyas.</l>
+          </sp>
+          <sp who="#día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <stage>En sueños.</stage>
+            <l>Qué golfos, qué verduras...</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l n="130">Del Día Tercero son mansión fecunda.</l>
+            <stage>Despierta el DÍA 3.º con guirnalda de flores y ramos de frutas en las manos.</stage>
+            <l>Pues ya a la tierra, que estaba</l>
+            <l>llena de grietas y arrugas,</l>
+            <l>árboles, frutos y flores</l>
+            <l>a matices la dibujan.</l>
+          </sp>
+          <sp who="#día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <stage>En sueños.</stage>
+            <l n="135">¿Quién les dio flor y fruta?</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l>Voz que atractiva mueve a ir en su busca.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>¿Qué voz es la que tras sí</l>
+            <l>se lleva cuanto la escucha?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Absorto estoy, pero atiende</l>
+            <l n="140">hasta ver lo que resulta.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Los dos bellos luminares</l>
+            <l>se hagan del sol y la luna,</l>
+            <l>que él presida al claro día</l>
+            <l>y ella a la noche nocturna.</l>
+          </sp>
+          <sp who="#día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l n="145">¡Qué dos bellas criaturas!</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l>Del Cuarto Día majestad augusta</l>
+            <stage>Descúbrense en la cumbre del peñasco un sol, estrellas y luna y despierta el DÍA 4.º</stage>
+            <l>son las dos y no en las dos</l>
+            <l>solas su esplendor se aúna,</l>
+            <l>que todo el cielo se esmalta</l>
+            <l n="150">de hermosas estrellas rubias.</l>
+          </sp>
+          <sp who="#día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <stage>En sueños.</stage>
+            <l>¿Quién tanta luz divulga?</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l>Voz que atractiva mueve a ir en su busca.</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>El vago espacio del aire,</l>
+            <l>del mar la estación profunda</l>
+            <l n="155">habiten aves y peces,</l>
+            <l>bajeles de escama y pluma.</l>
+          </sp>
+          <sp who="#día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <stage>En sueños.</stage>
+            <l>¡Qué dos veloces turbas!</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l>Del Quinto Día el alto afán anuncian.</l>
+            <stage>En las ondas que se descubrieron se ven correr por ellas algunos pescados y se echan a volar pájaros y despierta el DÍA 5.º</stage>
+            <l>Pues en el de mar y viento</l>
+            <l n="160">pueblan páramos y espumas</l>
+            <l>los peces que le atraviesan</l>
+            <l>y las aves que le cruzan.</l>
+          </sp>
+          <sp who="#día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <stage>En sueños.</stage>
+            <l>¿Quién hay que su alma infunda?</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l>Voz que atractiva mueve a ir en su busca.</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l n="165">De diversos animales</l>
+            <l>valles y montes se cubran,</l>
+            <l>que rústicamente moren</l>
+            <l>las entrañas de sus grutas.</l>
+          </sp>
+          <sp who="#día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <stage>En sueños.</stage>
+            <l>¡Qué variedad tan bella y tan robusta!</l>
+          </sp>
+          <sp who="#día-6">
+            <speaker>DÍA 6.º</speaker>
+            <l n="170">La fatiga del Sexto Día divulga</l>
+            <stage>Por varias concavidades del peñasco se ven testas de diversos animales y despierta el DÍA 6.º</stage>
+            <l>esa bruta especie, pero</l>
+            <l>no por eso se desluzga</l>
+            <l>su Hacedor, pues ser no deja</l>
+            <l>animada por ser bruta.</l>
+          </sp>
+          <sp who="#día-7">
+            <speaker>TODOS</speaker>
+            <l n="175">¿Quién les dio la fiereza y la hermosura?</l>
+          </sp>
+          <sp who="#día-6">
+            <speaker>DÍA 6.º</speaker>
+            <l>Voz que atrativa mueve a ir en su busca.</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¡Absorto a tantos prodigios</l>
+            <l part="I">estoy!</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">Yo elevada y muda</l>
+            <l>y aun temo que aquí no paren</l>
+            <l part="I">las maravillas.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="180" part="F">Escucha.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Ya que agua, aire, tierra y fuego,</l>
+            <l>firmamento, sol y luna,</l>
+            <l>estrellas, frutos y flores,</l>
+            <l>pieles, escamas y plumas</l>
+            <l n="185">vienen a mi voz, de todos</l>
+            <l>con majestad absoluta</l>
+            <l>la humana Naturaleza</l>
+            <l>goce ufana, porque en suma</l>
+            <l>conozcan las criaturas</l>
+            <l n="190">que la Naturaleza de todo triunfa.</l>
+          </sp>
+          <stage>Despierta la NATURALEZA HUMANA.</stage>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>¿Qué soberano poder</l>
+            <l>del no ser al ser me muda</l>
+            <l>con vida para que anime</l>
+            <l>y alma para que discurra?</l>
+            <l n="195">¿Qué soberano poder,</l>
+            <l>digo otra vez y otras muchas,</l>
+            <l>de potencias me ilumina</l>
+            <l>y de sentidos me ilustra?</l>
+            <l>Y esto el mismo día que llama</l>
+            <l n="200">a los brutos, porque arguya</l>
+            <l>cuánto a su ser diferencia</l>
+            <l>mi ser, pues a vista suya</l>
+            <l>con perfección más suma</l>
+            <l>en mí el Día Sexto coronar procura.</l>
+          </sp>
+          <stage>Canta ORFEO como siempre y ella le escucha sin verle suspensa.</stage>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l n="205">El que quiere que poseas</l>
+            <l>todo el universo, a cuya</l>
+            <l>causa en la porción del alma</l>
+            <l>te hace a semejanza suya.</l>
+            <l>Vive, pues, vive y anima,</l>
+            <l n="210">ya que para que nos una</l>
+            <l>un lazo de amor y sea</l>
+            <l>süave nuestra coyunda,</l>
+            <l>mi voz te inspira, si ya</l>
+            <l>tú no haces en la caduca,</l>
+            <l n="215">terrestre porción del cuerpo</l>
+            <l>del que es tu oriente, tu tumba.</l>
+            <l>Y pues de tanta tarea</l>
+            <l>es bien que al descanso acuda,</l>
+            <l>para que el Séptimo Día</l>
+            <l n="220">a mi culto se atribuya.</l>
+            <l>Sobre todos esos seis,</l>
+            <l>en quien mi voz ejecuta</l>
+            <l>lo imperioso y lo atractivo,</l>
+            <l>de tu libre albedrío usa;</l>
+            <l n="225">conozcan las criaturas</l>
+            <l>que la Naturaleza de todo triunfa.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Conozcan las criaturas</l>
+            <l>que la Naturaleza de todo triunfa.</l>
+          </sp>
+          <stage>Ciérrase el globo con él dentro.</stage>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Suave acento que tras ti</l>
+            <l n="230">me llevas aguarda, escucha,</l>
+            <l>que ya te sigo por donde</l>
+            <l>no sé, que absorta y confusa</l>
+            <l>dudo dónde se oculta</l>
+            <l>voz que atractiva mueve a ir en su busca.</l>
+          </sp>
+          <stage>Ciérrase el peñasco con ella dentro.</stage>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="235">Aquella hermosa beldad,</l>
+            <l>que también en veloz fuga</l>
+            <l>va tras la voz, es, Envidia,</l>
+            <l>la que en sombras y figuras</l>
+            <l>de un retrato me enseñó</l>
+            <l n="240">en mi primer patria augusta</l>
+            <l>para jurarla mi reina</l>
+            <l>y su esposa Dios, a cuya</l>
+            <l>vista a un tiempo padecí</l>
+            <l>las dos mortales angustias</l>
+            <l n="245">de odio y amor, empleando</l>
+            <l>en mí sus dos fieras puntas,</l>
+            <l>siendo, para que no extrañes</l>
+            <l>el que me embistiesen juntas,</l>
+            <l>de amor, por hacerla mía,</l>
+            <l n="250">de odio, por no verla suya;</l>
+            <l>y pues brotando en baldones,</l>
+            <l>en oprobios y en injurias</l>
+            <l>mi rencor, dije que siendo,</l>
+            <l>como era, inferior criatura,</l>
+            <l n="255">yo no había de adorarla,</l>
+            <l>con cuya obstinada furia,</l>
+            <l>comunero del impíreo,</l>
+            <l>trayendo a mi bando muchas</l>
+            <l>rebeldes tropas, en arma</l>
+            <l n="260">puse la celeste curia,</l>
+            <l>de que resultó, perdida</l>
+            <l>la batalla, hacer que huya</l>
+            <l>a las tinieblas adonde</l>
+            <l>sienta, llore, gima y sufra.</l>
+            <l n="265">Ya es tiempo de que borremos</l>
+            <l>a Dios esta hermosa hechura</l>
+            <l>haciéndola mía, si tú,</l>
+            <l>Envidia, mi intento ayudas.</l>
+            <l>Veamos si es muerta en culpa,</l>
+            <l n="270">que la Naturaleza de todo triunfa.</l>
+          </sp>
+          <stage>Él y MÚSICA, dentro, a lo lejos.</stage>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Si soy Envidia y padezco,</l>
+            <l>Príncipe, las penas tuyas</l>
+            <l>en la parte de ser de otros</l>
+            <l>felicidades, ¿qué dudas?</l>
+            <l n="275">Áspid me llaman y pues</l>
+            <l>hay flores, plantas y frutas</l>
+            <l>y en frutas, plantas y flores</l>
+            <l>dicen que el áspid se oculta.</l>
+            <l>Ya que hay tierra, a tierra vamos</l>
+            <l n="280">y no receles, que astuta,</l>
+            <l>arrastrando por la hierba</l>
+            <l>que es la piel de mis calumnias,</l>
+            <l>la planta le muerda el fiero</l>
+            <l>veneno de mi cicuta,</l>
+            <l n="285">que corriendo al corazón</l>
+            <l>sentido y razón ofusca;</l>
+            <l>con cuyo desmayo tú,</l>
+            <l>si a la tierra se la hurtas</l>
+            <l>y con ella del olvido</l>
+            <l n="290">otra vez las ondas sulcas...</l>
+          </sp>
+          <sp who="#envidia #música">
+            <speaker>ELLA y MÚSICA</speaker>
+            <l>Verás si el eco repetir rehúsa</l>
+            <l>que la Naturaleza de todo triunfa.</l>
+          </sp>
+          <stage>Dentro a lo lejos.</stage>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>En esa esperanza y esta</l>
+            <l>ira, atiende a cuanto estudia</l>
+            <l n="295">de delirios un amor</l>
+            <l>que en agua sus torres funda.</l>
+            <l>¡Oh tú, río del olvido!,</l>
+            <l>pues que mi voz te conjura,</l>
+            <l>para que también mi voz</l>
+            <l n="300">por la oposición perjura</l>
+            <l>de Dios prodigios intente,</l>
+            <l>de la verdinegra bruma</l>
+            <l>de las ondas, cuyo seno</l>
+            <l>en bóvedas te sepulta</l>
+            <l n="305">que han de ser a los mortales,</l>
+            <l>si puedo, lóbregas urnas,</l>
+            <l>la yerta cerviz levanta</l>
+            <l>y haciendo que se sacuda</l>
+            <l>de ella la escamada crencha,</l>
+            <l n="310">mi mágica voz escucha.</l>
+          </sp>
+          <stage>Entre la ondas en que se mueve la nave ha de haber un escollo; este se abre y sale de él LETEO, vestido de barquero, con una guadaña por tridente.</stage>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>¿Qué es, Príncipe, lo que quieres?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Que esta nave que fluctúa</l>
+            <l>el negro Ponto a tus ondas,</l>
+            <l>en ellas se quede surta</l>
+            <l n="315">a tu gobierno con orden</l>
+            <l>de que persona ninguna</l>
+            <l>pase tu golfo sin que</l>
+            <l>a mi imperio la reduzgas,</l>
+            <l>en tanto que a tierra yo</l>
+            <l n="320">voy, llevado de mi astucia</l>
+            <l>(¡mejor mi rencor dijera!)</l>
+            <l>en otro traje a hacer una</l>
+            <l>presa por quien diga Pablo,</l>
+            <l>cuando al mundo te introduzgas,</l>
+            <l n="325">«la culpa entró por el hombre</l>
+            <l>y la muerte por la culpa».</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>De mí fía que no en vano</l>
+            <l>a mi amarillez adusta</l>
+            <l>el griego idioma Aqueronte,</l>
+            <l n="330">que es decir fría, caduca,</l>
+            <l>vil, yerta y pálida imagen,</l>
+            <l>hará que el nombre traduzga,</l>
+            <l>cuando al tocar mis orillas</l>
+            <l>vea el cielo que se asustan</l>
+            <l n="335">los humanos pavoridos</l>
+            <l>de mi macilenta, mustia</l>
+            <l>tez, haciendo que obedezcan</l>
+            <l>tus órdenes con tan dura</l>
+            <l>ley que el que una vez las pase,</l>
+            <l n="340">no vuelva a pasarlas nunca.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>De ti lo espero y yo haré,</l>
+            <l>si es que me vale mi industria,</l>
+            <l>que tu tridente sus fueros</l>
+            <l part="I">pase al orbe.</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l part="F">Sus agudas</l>
+            <l n="345">cuchillas serán guadaña</l>
+            <l>que en fúnebres sepolturas</l>
+            <l>abran la tierra, si tú</l>
+            <l part="I">la posees.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">La chalupa</l>
+            <l>llegue a bordo, que has de verte...</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l n="350">Sí hará, si mi horror te ayuda.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>De aquesa presa pirata...</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>Ladrón de aquesa hermosura...</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Por más que dice ese acento...</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>Por más que esa voz pronuncia...</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="355">Si ambos me ayudáis, ¿qué importa</l>
+            <l>que ellos repetir presuman:</l>
+          </sp>
+          <sp who="#envidia #leteo #príncipe-de-las-tinieblas #orfeo #música">
+            <speaker>ELLOS y MÚSICA</speaker>
+            <l>Puesto que es de tantas bellas criaturas</l>
+            <l>la Naturaleza reina absoluta,</l>
+            <l>hoy el Placer vea de todas juntas</l>
+            <l n="360">que la Naturaleza de todas triunfa?</l>
+          </sp>
+          <stage>Con esta repetición, sonando a un tiempo el clarín, la MÚSICA y la representación, da vuelta la nave con el PRÍNCIPE y la ENVIDIA; el escollo se cierra con LETEO y salen del carro del peñasco los DÍAS cantando y bailando delante de la NATURALEZA y el PLACER con ellos, introducido en su festejo, cuya copla se repite lo que tarden en desaparecer escollo y nave.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Puesto que es de tantas bellas criaturas</l>
+            <l>la Naturaleza reina absoluta,</l>
+            <l>hoy el placer vea de todas juntas</l>
+            <l>que la Naturaleza de todas triunfa.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="365">Si es que el Placer lo ha de ver,</l>
+            <l>bien es que a la fiesta acuda,</l>
+            <l>pues para aquesta ocasión</l>
+            <l>fue de otro festín resulta,</l>
+            <l>y así, pues todos tenéis</l>
+            <l n="370">hoy el placer de que cumpla</l>
+            <l>el cielo las perfecciones</l>
+            <l>del ser que no fuera nunca,</l>
+            <l>si él no quisiera que fuera,</l>
+            <l>usando de la dulzura</l>
+            <l n="375">de su voz no viene mal</l>
+            <l>que con todas me introduzga</l>
+            <stage>Canta.</stage>
+            <l>diciendo de fiesta, de jira y de bulla...</l>
+            <stage>Con todos.</stage>
+            <l>puesto que es de tantas bellas criaturas</l>
+            <stage>Y baila.</stage>
+            <l>la Naturaleza reina absoluta,</l>
+            <l n="380">hoy el Placer vea de todas juntas</l>
+            <l>que la Naturaleza de todas triunfa.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Ya que vamos, claros Días,</l>
+            <l>en busca de aquella voz</l>
+            <l>que dulcemente veloz</l>
+            <l n="385">vuestras dichas y las mías</l>
+            <l>del no ser al ser eleva,</l>
+            <l>sin ver a quién se le debe,</l>
+            <l>pues sólo un «sea» nos mueve,</l>
+            <l>sólo un «hágase» nos lleva,</l>
+            <l n="390">¿no será bien que rendidos,</l>
+            <l>en fee de que pretendemos</l>
+            <l>conocerle, que a él pasemos</l>
+            <l>la alabanza agradecidos</l>
+            <l>que a mí me ofrecéis y en muestras</l>
+            <l n="395">de amor, de nuestra alegría,</l>
+            <l>al descanso de su día,</l>
+            <l>de las grandes obras nuestras</l>
+            <l part="I">debidas gracias?</l>
+          </sp>
+          <sp who="#placer #príncipe-de-las-tinieblas #leteo #envidia">
+            <speaker>TODOS</speaker>
+            <l part="M">Sí.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">Pues</l>
+            <l>conmigo decid en tanto</l>
+            <l n="400">que a él hallemos ahora un canto</l>
+            <l>que será salmo después.</l>
+            <stage>Ella representa y todos cantan alrededor de ella, danzando y bailando. Representando.</stage>
+            <l>Al Señor confesemos...</l>
+          </sp>
+          <sp who="#placer #príncipe-de-las-tinieblas #leteo #envidia">
+            <speaker>[TODOS]</speaker>
+            <stage>Cantado.</stage>
+            <l>Al Señor confesemos...</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Que con una voz sola...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="405">Que con una voz sola...</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Es el principio y fin...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Es el principio y fin...</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>De tantas bellas obras.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>De tantas bellas obras.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l n="410">Confesemos su gloria...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Confesemos su gloria...</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Pues es en eterno su misericordia.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Pues es en eterno su misericordia.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Al que es Dios de los dioses</l>
+            <l n="415">y, según la fee informa,</l>
+            <l>es en la esencia uno</l>
+            <l>y trino en las personas.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Confesemos su gloria</l>
+            <l>pues es en eterno su misericordia.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l n="420">Señor de los señores,</l>
+            <l>que con su poderosa</l>
+            <l>mano da a la más ruda</l>
+            <l>materia bella forma.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Confesemos su gloria</l>
+            <l n="425">pues es en eterno su misericordia.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Al que en su entendimiento,</l>
+            <l>con sólo querer obra</l>
+            <l>de nuevas maravillas</l>
+            <l>las fábricas hermosas.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="430">Confesemos su gloria</l>
+            <l>pues es en eterno su misericordia.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Al que afirmó la tierra</l>
+            <l>sobre las vagas ondas</l>
+            <l>y hizo dos luminares</l>
+            <l n="435">de luces y de sombras.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Confesemos su gloria</l>
+            <l>pues es en eterno su misericordia.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Al que pobló la tierra</l>
+            <l>de escuadrones de rosas</l>
+            <l n="440">y de peces y aves,</l>
+            <l>el mar y el aire a tropas.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Confesemos su gloria</l>
+            <l>pues es en eterno su misericordia.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Al que manchó de varios</l>
+            <l n="445">colores pieles toscas,</l>
+            <l>que en solo brutos pueden</l>
+            <l>ser las manchas curiosas.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Confesemos su gloria</l>
+            <l>pues es en eterno su misericordia.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l n="450">Y pidámosle todos</l>
+            <l>con mil ansias devotas</l>
+            <l>que de los que le buscan</l>
+            <l>ni se oculte ni esconda.</l>
+          </sp>
+          <stage>Sale ORFEO cantando.</stage>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>No hará, beldad hermosa,</l>
+            <l n="455">porque es en eterno su misericordia.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>¿Siempre su voz ha de ser</l>
+            <l>suave, dulce y amorosa?</l>
+          </sp>
+          <sp who="#día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>LOS DÍAS</speaker>
+            <l>Sí, que como es perfección</l>
+            <l>el canto, hasta de él se adorna.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l n="460">Y para que vean los Días</l>
+            <l>que alimentaron las horas,</l>
+            <l>que quien me busque me halle,</l>
+            <l>que a quien me llame responda</l>
+            <l>y a quien me pida conceda,</l>
+            <l n="465">al paso os salgo, de forma</l>
+            <l>que agradecida mi fee</l>
+            <l>a esas ansias amorosas</l>
+            <l>quiero que se conozca</l>
+            <l>cuánto es en eterno mi misericordia.</l>
+            <l n="470">Enamorado de ti,</l>
+            <l>porque a mi amor correspondas,</l>
+            <l>la gala de las finezas</l>
+            <l>vestí en traje de lisonjas</l>
+            <l>usando de aquella voz,</l>
+            <l n="475">que a tus ojos misteriosa</l>
+            <l>la gran fábrica del mundo</l>
+            <l>puso en primores de solfa,</l>
+            <l>y tanto que si a la tierra</l>
+            <l>sobresaliera una roca,</l>
+            <l n="480">un átomo al aire, al fuego</l>
+            <l>un rayo, al mar una gota,</l>
+            <l>todo disonara y siendo</l>
+            <l>así que es música toda</l>
+            <l>su acorde unión, bien en fee</l>
+            <l n="485">de habilidad tan heroica</l>
+            <l>y de ser Hijo del Sol</l>
+            <l>de Justicia, cuya antorcha</l>
+            <l>Dios de Dios y Luz de Luz</l>
+            <l>en sus símbolos me nombra,</l>
+            <l n="490">espero que de mi amor</l>
+            <l>te obligues, zagala hermosa,</l>
+            <l>pues ya se sabe que un alma</l>
+            <l>en gracia es mi mejor boda,</l>
+            <l>mostrando al ser mi esposa</l>
+            <l n="495">cuánto es en eterno mi misericordia.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Bello músico que inspiras,</l>
+            <l>galán poeta que formas</l>
+            <l>tan perfectos los acentos</l>
+            <l>que a sus cláusulas sonoras</l>
+            <l n="500">las aves su vuelo inclinan,</l>
+            <l>los peces su esfera cortan,</l>
+            <l>los brutos su estancia dejan,</l>
+            <l>las flores dejan su alfombra,</l>
+            <l>los árboles sus raíces</l>
+            <l n="505">y aun yendo andando sus copas,</l>
+            <l>sin ser la voluntad tuya,</l>
+            <l>no se movieran sus hojas;</l>
+            <l>tan humilde, tan rendida,</l>
+            <l>tan voluntaria se postra</l>
+            <l n="510">a ti el alma que confiesa</l>
+            <l>ser más esclava que esposa.</l>
+            <l>Mas ¿qué mucho, si te ama, si te adora?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Porque es en eterno tu misericordia.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Entra a mi florido alcázar</l>
+            <l n="515">cuya estancia deleitosa</l>
+            <l>tu eterna patria será</l>
+            <l>edades siempre dichosas</l>
+            <l>sin que conozcas qué es</l>
+            <l>penalidad ni congoja,</l>
+            <l n="520">pues aun lo que es muerte yo</l>
+            <l>haré que no lo conozcas,</l>
+            <l>mientras tú advertida vivas</l>
+            <l>de que entre flores y rosas</l>
+            <l>puede haber áspid que intente</l>
+            <l n="525">verter la amarga ponzoña</l>
+            <l>de sus iras, infestando</l>
+            <l>la más matizada poma</l>
+            <l>que yo te señale en quien</l>
+            <l>su mortal veneno ponga.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l n="530">Si tú me adviertes y yo</l>
+            <l>a tu voz he de estar pronta,</l>
+            <l>¿qué veneno habrá que tema,</l>
+            <l>si no ha de haber ley que rompa?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Ven, pues, y todos venid,</l>
+            <l n="535">pues en su edad venturosa</l>
+            <l>ella ha de gozar los días</l>
+            <l>que eternos siglos compongan.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Venid y cantando sea,</l>
+            <l>para que, hablando en su propia</l>
+            <l n="540">frase, le suene mejor</l>
+            <l>lo que de nosotros oiga.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Al Señor confesemos,</l>
+            <l>que con una voz sola</l>
+            <l>es el principio y fin</l>
+            <l n="545">de tantas bellas obras.</l>
+          </sp>
+          <sp who="#placer #envidia #leteo #orfeo #naturaleza-humana #príncipe-de-las-tinieblas #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l>Confesemos su gloria,</l>
+            <l>pues es en eterno su misericordia.</l>
+          </sp>
+          <stage>Haciendo la MÚSICA y los DÍAS dos alas, se entran por en medio de ellos ORFEO y la NATURALEZA, dadas las manos, y todos con sumisión los siguen cantando. Queda el PLACER solo y salen el PRÍNCIPE y la ENVIDIA, vestidos de villanos.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>¿No es bueno que ya de miedo</l>
+            <l>no puedo entrar en la trova</l>
+            <l n="550">al oír que entre las flores</l>
+            <l>hay áspides que se escondan?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Ya a la vista del empeño,</l>
+            <l>Envidia, estamos, si notas</l>
+            <l>que del damasceno campo,</l>
+            <l n="555">donde la busca y la informa,</l>
+            <l>a su ameno paraíso</l>
+            <l part="I">la lleva.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">Pensemos forma</l>
+            <l>de introducirnos en él.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Pues lo primero que topa</l>
+            <l n="560">la Envidia es con el Placer</l>
+            <l>de otros y el ser nos emboza</l>
+            <l>villanos como él y el traje</l>
+            <l>tal vez las almas conforma,</l>
+            <l part="I">de él nos valgamos.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">¿No fuera</l>
+            <l n="565">más conveniente por otra</l>
+            <l part="I">razón?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="M">¿Qué razón?</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">Que siendo</l>
+            <l>su Placer, fuera gran cosa</l>
+            <l>le hiciéramos su pesar.</l>
+          </sp>
+          <stage>Vanse acercando a él.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>¿Quién anda por aquí? ¡Hola!</l>
+            <l n="570">¿Qué fuera que fuera el áspid?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Quien no se atreve, no logra;</l>
+            <l>ignorantes nos finjamos</l>
+            <l>con sencillez cautelosa</l>
+            <l part="I">para asegurarle.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">Pues</l>
+            <l n="575">atrás le deja la tropa,</l>
+            <l>quizá porque menester</l>
+            <l>no ha más Placer del que goza,</l>
+            <l part="I">tenle.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F">Sí haré; mas ¡ay, triste!</l>
+            <stage>Retírase de él.</stage>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>¿Qué te retiras y asombras?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="580">¡Ay! Que es Placer y no puedo</l>
+            <l part="I">tenerle yo.</l>
+          </sp>
+          <stage>Tiénele la ENVIDIA.</stage>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">Llega agora,</l>
+            <l>que para hacerle pesar</l>
+            <l>que sea Placer, ¿qué importa?</l>
+            <l>Tente, rústico pastor.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="I">Villano, tente.</l>
+          </sp>
+          <stage>Cógenle los dos en medio.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="585" part="F">¡Ay de mí!</l>
+            <l>¿Si anda el áspid por aquí?</l>
+          </sp>
+          <sp who="#envidia #príncipe-de-las-tinieblas">
+            <speaker>LOS DOS</speaker>
+            <l>¿Pues de qué tienes temor?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>De veros a vos y a vos.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¿Eso qué te desconfía?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="590">Que cuando un áspid temía,</l>
+            <l>pienso que he dado con dos.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>¿Por qué lo dices, villano?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Porque tenéis, a mi ver,</l>
+            <l>cara de echar a perder</l>
+            <l n="595">a todo el género humano.</l>
+            <l>¿Quién diablo sois que no os vi</l>
+            <l>otra vez ni veros quiero?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Tan instante mi primero</l>
+            <l>placer fue que sería así.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l n="600">Dos extranjeros pastores</l>
+            <l>somos que huyendo venimos</l>
+            <l>de otra patria en que nacimos</l>
+            <l>los siempre usados rigores</l>
+            <l>con que la propia nos trata;</l>
+            <l n="605">y así a restaurar su pena</l>
+            <l>vamos buscando la ajena</l>
+            <l>y viendo que se dilata</l>
+            <l>de esta la voz, en cuanto es</l>
+            <l>abundante, rica y bella,</l>
+            <l n="610">nos quedaremos en ella,</l>
+            <l>si hay en qué ocuparnos, pues</l>
+            <l>habiendo jardines bellos</l>
+            <l>y sabiendo agricultura,</l>
+            <l>será de todos ventura</l>
+            <l n="615">introducirnos en ellos.</l>
+            <l>A aqueste efecto de ti</l>
+            <l>nos quisiéramos valer.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Y de camino saber</l>
+            <l>qué tierra es y quién aquí</l>
+            <l n="620">vive y qué voz es aquesta</l>
+            <l>que hace los montes mudar.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Por Dios, que me he de vengar</l>
+            <l>del susto y que ha de haber fiesta,</l>
+            <l>pues para dar que reír,</l>
+            <l n="625">propio oficio del Placer,</l>
+            <l>una fábula ha de ser</l>
+            <l>la que les he de decir.</l>
+            <l>La tierra a que habéis llegado,</l>
+            <l>haced labradores cuenta</l>
+            <l n="630">que es la gran isla de Tracia,</l>
+            <l>fértil pedazo de Grecia,</l>
+            <stage>Aparte.</stage>
+            <l>bravos delirios les digo,</l>
+            <l>si ya el curioso no atienda</l>
+            <l>que los delirios adrede</l>
+            <l n="635">tal vez fueron sutilezas.</l>
+            <l>Entre otras grandezas suyas,</l>
+            <l>es hoy su mayor grandeza</l>
+            <l>un músico que a su voz</l>
+            <l>no hay cosa que no se mueva,</l>
+            <l n="640">a cuya causa es su nombre</l>
+            <l>Orfeo, que se interpreta</l>
+            <l>dorada voz o voz de oro,</l>
+            <l>porque como el oro tenga</l>
+            <l>virtud atractiva, pasa</l>
+            <l n="645">a la voz sus excelencias.</l>
+            <l>Hijo dicen que es del Sol</l>
+            <l>y aun el Sol mismo pudiera</l>
+            <l>ser, según igual el Padre</l>
+            <l>concepto de luz le engendra.</l>
+            <l n="650">Este músico de Gracia</l>
+            <l>(equivocóse la lengua,</l>
+            <l>de Tracia quise decir...);</l>
+            <l>pero poco hay que se pierda</l>
+            <l>en que de Gracia le llame</l>
+            <l n="655">y pues es la suya inmensa,</l>
+            <l>con tuis amicis non te</l>
+            <l>ponas in una litera,</l>
+            <l>tiene una esposa tan linda</l>
+            <l>que lo menos que hay en ella</l>
+            <l n="660">es la belleza, mirad</l>
+            <l>cuáles en sus excelencias</l>
+            <l>las demás serán, si es</l>
+            <l>la de menos la belleza.</l>
+            <l>No hay ciencia de que no esté</l>
+            <l n="665">dotada, tanto que al verla</l>
+            <l>tan sabia que incluye toda</l>
+            <l>la erudición de las ciencias,</l>
+            <l>Eurídice la han llamado</l>
+            <l>los que al pronunciarla alteran</l>
+            <l n="670">al nombre de erudición</l>
+            <l>el acento o la cadencia</l>
+            <l>(¡cuáles están, aunque en griego</l>
+            <l>les hablo, la boca abierta!).</l>
+            <l>Dríade, ninfa del agua,</l>
+            <l n="675">hay quien diga que es; mas esta</l>
+            <l>razón pienso que es porque</l>
+            <l>una gran ventura espera</l>
+            <l>que por agua ha de venirla.</l>
+            <l>En fin, en estas florestas</l>
+            <l n="680">que son bello paraíso</l>
+            <l>(bien que poco el serlo cuesta,</l>
+            <l>pues si él dice: vengan flores,</l>
+            <l>vienen flores; frutos vengan,</l>
+            <l>vienen frutos, fuentes, ríos,</l>
+            <l n="685">troncos, aves, peces, fieras)</l>
+            <l>tanto a Eurídice Orfeo ama</l>
+            <l>que pienso que si la viera</l>
+            <stage>Dentro, los instrumentos.</stage>
+            <l>en el infierno... Mas esto</l>
+            <l>para adelante se queda</l>
+            <l n="690">pendiente agora, porque</l>
+            <l>él se ha retirado y ella</l>
+            <l>discurriendo espacios ya</l>
+            <l>de jardines, ya de selvas,</l>
+            <l>viene hacia aquí; si servirla</l>
+            <l n="695">deseáis, la diligencia</l>
+            <l>con ella haced, no conmigo,</l>
+            <l>que si por mi voto fuera,</l>
+            <l>no os recibiera, porque,</l>
+            <l>si no me mienten las señas,</l>
+            <l n="700">traza tenéis de no ser</l>
+            <l>buenos en Dios y en conciencia</l>
+            <l>para nada de esta vida.</l>
+            <l>Con esto, adiós; buenos quedan</l>
+            <l>con la fabulilla y más</l>
+            <l n="705">si agora engañados llegan</l>
+            <l>como a Eurídice a decirla</l>
+            <l>que en su servicio los tenga.</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>¿De qué suspenso has quedado?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>De que este villano crea</l>
+            <l n="710">que con la verdad me engaña.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Pues ¿puede ser verdad esta?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>La Gentilidad, Envidia,</l>
+            <l>idólatramente ciega,</l>
+            <l>teniendo de las verdades</l>
+            <l n="715">lejanas noticias, piensa</l>
+            <l>que a falsos dioses y ninfas</l>
+            <l>atribuya las inmensas</l>
+            <l>obras de un Dios solo y como</l>
+            <l>sin luz de fee andan a ciegas,</l>
+            <l n="720">hará con las ignorancias</l>
+            <l>sospechosas las creencias.</l>
+            <l>¡Cuántas veces se verán</l>
+            <l>los poetas y profetas</l>
+            <l>acordes donde se rocen</l>
+            <l n="725">verdades en sombra envueltas!</l>
+            <l>¿Qué más Faetonte que yo,</l>
+            <l>que por gobernar la excelsa</l>
+            <l>carroza del Sol caí?</l>
+            <l>Y de esta misma manera</l>
+            <l n="730">habrá infinitos lugares</l>
+            <l>que por repetidos deja</l>
+            <l>mi voz en que se confronten</l>
+            <l>divinas y humanas letras,</l>
+            <l>en la consonancia amigas</l>
+            <l n="735">y en la religión opuestas.</l>
+            <l>Y siendo así que aquel texto</l>
+            <l>de la sabiduría eterna</l>
+            <l>que la armonía del mundo</l>
+            <l>medida y número tenga,</l>
+            <l n="740">careado con Isaías</l>
+            <l>adonde cantar intenta</l>
+            <l>lo que Cristo cantará</l>
+            <l>a su viña que es la Iglesia</l>
+            <l>de este soberano Orfeo,</l>
+            <l n="745">le han de entender cuantos vean</l>
+            <l>que la música no es más</l>
+            <l>que una consonancia y que esta</l>
+            <l>está tan ejecutada</l>
+            <l>en la fábrica perfecta</l>
+            <l n="750">del instrumento del mundo</l>
+            <l>que en segura consecuencia</l>
+            <l>es Dios su músico, pues</l>
+            <l>voz y instrumento concuerda.</l>
+            <l>¿Quién quita que haya adelante</l>
+            <l n="755">quien una verdad tan cierta</l>
+            <l>la vicie hacia algún mortal,</l>
+            <l>refiriendo a la elocuencia</l>
+            <l>de su voz, que a su dictamen</l>
+            <l>se mude cuanto le atienda?</l>
+            <l n="760">Y así, para ver si sale</l>
+            <l>la fábula en todo entera,</l>
+            <l>he de ser yo el Aristeo</l>
+            <l>que esta hermosura previerta,</l>
+            <l>no sin etimología</l>
+            <l n="765">también; ¿de Antitheos la letra</l>
+            <l>contra Dios no se traduce?</l>
+            <l>Y corrompida, ¿no suena</l>
+            <l>casi lo mismo Antitheo</l>
+            <l>que Aristeo? Pues atenta</l>
+            <l n="770">desde aquí, Envidia, a dos luces,</l>
+            <l>a dos visos, dos ideas,</l>
+            <l>verás si dice la historia</l>
+            <l>lo que a la fábula resta.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Yo, pues en la alegoría,</l>
+            <l n="775">si algo penetro a tus ciencias,</l>
+            <l>discurro que ha de haber áspid</l>
+            <l>que el pie a la Eurídice muerda.</l>
+            <l>Haré mi papel en flores</l>
+            <l>y frutos, pues nadie llega</l>
+            <l n="780">a ignorar cuánto la Envidia</l>
+            <l part="I">áspid es.</l>
+          </sp>
+          <stage>Los instrumentos.</stage>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F">Calla, que llega.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Bien las músicas lo dicen</l>
+            <l>de la hermosa primavera</l>
+            <l part="I">de sus días.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F">Toda es</l>
+            <l n="785">aplausos, dichas y fiestas.</l>
+          </sp>
+          <stage>Salen los DÍAS y músicos cantando y la NATURALEZA ricamente vestida detrás, como señora de ellos; cada uno tray las insinias de su creación, la hacha el DÍA 1.º y el 3.º, las frutas y flores, etc.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Pisa, pisa con tiento las flores,</l>
+            <l>quedito, pasito, divina belleza;</l>
+            <l>pisa, pisa, con tiento las flores,</l>
+            <l>que dice el amor que anda el áspid en ellas.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l n="790">¡Qué alegres que son los días</l>
+            <l>que en esta apacible esfera</l>
+            <l>me asisten, pues no hay sentido</l>
+            <l>que sus obras no diviertan!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Quedito, pasito, divina belleza.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l n="795">Dígalo la vista en luces,</l>
+            <l>dígalo el oído en tiernas</l>
+            <l>cláusulas de fuentes y aves;</l>
+            <l>el tacto, en las auras bellas;</l>
+            <l>el olfato, en los aromas</l>
+            <l n="800">y el gusto, en frutas diversas.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Quedito, pasito, que anda el áspid en ellas.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Feliz yo, que tantas dichas</l>
+            <l>gozo. Mas... ¿qué gente es esta?</l>
+            <stage>Ve a los dos.</stage>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¡Turbado estoy! Llega tú,</l>
+            <l n="805">que yo inspiraré tu lengua.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Cuidado con que habla el áspid,</l>
+            <l>porque el demonio le alienta.</l>
+            <stage>Llega a hablarla la ENVIDIA y el PRÍNCIPE detrás de ella, como que la dicta al oído lo que dice, representando lo mismo el uno quedo que la otra en voz.</stage>
+            <l>Quien de otra extranjera patria,</l>
+            <l>sabiendo las dichas de esta,</l>
+            <l n="810">no sin mérito en alguna</l>
+            <l>habilidad que profesa,</l>
+            <l>viene a servirte, si es</l>
+            <l>que tanta dicha merezca.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>¿Qué habilidad es la tuya?</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l n="815">La agricultura en que emplea</l>
+            <l>mi estudio tantas auroras,</l>
+            <l>que no hay flor, planta ni hierba,</l>
+            <l>fruta ni hoja de quien yo</l>
+            <l>las cualidades no sepa.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="820">Y para que lo conozcas,</l>
+            <stage>Al oído.</stage>
+            <l>pasemos a una experiencia.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Y para que lo conozcas,</l>
+            <stage>En voz.</stage>
+            <l>pasemos a una experiencia.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¿Por qué de todas las frutas...?</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l n="825">¿Por qué de todas las frutas...?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¿Que te previno la tierra...?</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>¿Que te previno la tierra...?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¿No comes?</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="I">¿No comes?</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">De todas como,</l>
+            <l n="830">sino solamente de esta</l>
+            <l>que de mi esposo excetada</l>
+            <l>sólo me permite verla.</l>
+            <stage>Señala un manzano que habrá entre otros árboles en el peñasco.</stage>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¿Por qué?</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="I">¿Por qué?</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">O porque más hermosa</l>
+            <l n="835">está a más riesgos expuesta</l>
+            <l>de los tósigos de un áspid</l>
+            <l>o porque al mandarlo él, tenga</l>
+            <l>lo superior de su ser</l>
+            <l>algún culto en la obediencia</l>
+            <l n="840">que inferior me reconozca.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¡Ay! Que no es la causa esa.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>¡Ay! Que no es la causa esa.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="I">Pues, ¿cuál es?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F">Que en ella está.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Que en ella está.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="845">Del bien y del mal la ciencia.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Del bien y del mal la ciencia.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Porque no seas divina</l>
+            <l>como él, ese árbol te veda.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Porque no seas divina</l>
+            <l n="850">como él, ese árbol te veda.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Y para que no lo dudes,</l>
+            <l>llega a examinarlo, llega.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Y para que no lo dudes</l>
+            <l>llega a examinarlo, llega.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="855">Come y como Dios serás.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Come y como Dios serás.</l>
+            <stage>Toma una manzana del árbol.</stage>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>¡Qué misteriosa propuesta!</l>
+            <l>¡Y qué hermosa es la manzana!</l>
+            <l>Mas no a tocarla me atreva,</l>
+            <l n="860">no se ofenda, aunque si soy</l>
+            <l>divina como él, no tema;</l>
+            <l>pues en viéndome su igual,</l>
+            <l>¿qué imperio tendrá la ofensa?</l>
+            <stage>Tómala y hace como que la gusta.</stage>
+            <l>Mas ¡ay infeliz de mí!</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l n="865">Mientras padece la fuerza</l>
+            <l>del veneno de que ya</l>
+            <l>la nueva Eurídice queda</l>
+            <l>herida, a esperarla tú</l>
+            <l>ve a la lóbrega ribera</l>
+            <l n="870">del olvido, que yo haré,</l>
+            <l>pues me he de quedar con ella</l>
+            <l>sombra siendo de su culpa,</l>
+            <l>que, como noche funesta,</l>
+            <l>al ir pasando los Días,</l>
+            <l n="875">a dar en tus manos venga.</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="I">A esperarla voy.</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">¡Ay triste!</l>
+            <l>¡Qué nuevo pasmo! ¡Qué nueva</l>
+            <l>ansia! ¡Qué nueva aflicción,</l>
+            <l>tanto el corazón estrecha</l>
+            <l n="880">que ya no cabiendo en el pecho revienta</l>
+            <l>y para salir, a pedazos se quiebra!</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas #naturaleza-humana #música">
+            <speaker>TODOS</speaker>
+            <l part="I">¿Qué es lo que sientes?</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">No sé.</l>
+            <l>¡Una agonía, una pena,</l>
+            <l>una angustia, una congoja,</l>
+            <l n="885">un dolor, una violencia,</l>
+            <l>un parasismo, un letargo,</l>
+            <l>un frenesí, una tristeza,</l>
+            <l>un delirio, una ilusión...,</l>
+            <l>que tras sí la vida lleva</l>
+            <l n="890">tan arrastrada que apenas conozco</l>
+            <l>mi ser, y es verdad, pues que sólo es a penas!</l>
+          </sp>
+          <sp who="#día-6">
+            <speaker>DÍA 6.º</speaker>
+            <l>¿No dirás de que te afliges?</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l part="I">¿De qué lloras?</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l part="F">¿De qué tiemblas?</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l part="I">¿Qué te asusta?</l>
+          </sp>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l part="F">¿Qué te asombra?</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l part="I">¿Qué te atemoriza?</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l n="895" part="F">Esa</l>
+            <l>llama que espada de fuego</l>
+            <l>Primer Día representa,</l>
+            <l>blandida en tu mano una</l>
+            <l>ardiente ondeada culebra</l>
+            <l n="900">que de mi patria me arroja.</l>
+            <l>No, no la esgrimas, espera,</l>
+            <l>detente, no pases, que al ver que te acercas</l>
+            <l>me afliges, me asustas, me abrasas, me quemas.</l>
+          </sp>
+          <stage>Va pasando el DÍA 1.º y sale por detrás de él la ENVIDIA vestida de negro, con manto largo y banda en el rostro y, haciendo ación como que le apresura para que pase, se queda ella en su lugar y con todos hace lo mismo de suerte que siempre haya noche entre uno y otro DÍA.</stage>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>¡Oh, quién hiciera que en culpa</l>
+            <l n="905">pasaran los días apriesa!</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="I">Detente.</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l part="F">¿Cómo es posible?</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="I">¿Qué?</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l part="F">¿Que el Día se detenga</l>
+            <l>y más cuando está la noche</l>
+            <l>haciendo a que pase fuerza?</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l n="910">¿Qué me ha sucedido en ti?</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l>Dígalo el que me suceda,</l>
+            <l>que si hasta aquí fuimos todos</l>
+            <l>uno en la igualdad de aquella</l>
+            <l>tranquila paz, es preciso</l>
+            <l n="915">que ya unos tras otros vengan.</l>
+          </sp>
+          <stage>Pasa el DÍA 1.º</stage>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>¡Ay, que entre uno y otro Día</l>
+            <l>está la noche interpuesta!</l>
+            <l>¡Qué horrible! ¡Qué oscura! ¡Qué triste! ¡Qué negra!</l>
+            <l>Mas ¡ay, que es imagen de mi inobediencia!</l>
+            <l n="920">¿Quién pudiera de ella huir?</l>
+          </sp>
+          <stage>Pasa el DÍA 2.º, apresurándole la Noche.</stage>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l part="I">¿Dónde has de ir?</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">Donde no vea,</l>
+            <l>Día Segundo, que tu cielo</l>
+            <l>se viste de nubes densas</l>
+            <l>en llegándole la noche</l>
+            <l n="925">y que ellas rayos engendran</l>
+            <l>que en relámpagos y truenos</l>
+            <l>no hay monte que no estremezcan.</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l part="I">Mira.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">¿Qué, Tercero Día,</l>
+            <l>he de ver, si veo la Tierra</l>
+            <l n="930">que en ti vi llena de flores,</l>
+            <l>de abrojos y espinas llena?</l>
+            <l>¡Mal hayan tus frutas, tus plantas, tus hierbas,</l>
+            <l>que perlas conciben y áspides engendran!</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l part="I">Advierte.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">¿Qué he de advertir,</l>
+            <l n="935">si astros, sol, luna y estrellas,</l>
+            <l>adornos del Cuarto Día,</l>
+            <l>a la crisis se sujetan</l>
+            <l>de las fiebres de un eclipse?</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l part="I">Atiende.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">¿A qué, si me anegas,</l>
+            <l n="940">Día Quinto, al explayar</l>
+            <l>de tus cárceles de arena</l>
+            <l>las ondas de mil marinos</l>
+            <l>monstruos tu espuma cubierta,</l>
+            <l>y tu aire de funestos</l>
+            <l n="945">pájaros que en vez de tiernas</l>
+            <l>cláusulas, roncos gemidos</l>
+            <l part="I">sólo entonan?</l>
+          </sp>
+          <sp who="#día-6">
+            <speaker>DÍA 6.º</speaker>
+            <l part="F">Considera.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>¿Qué puedo considerar,</l>
+            <l>Sexto Día, si tus fieras,</l>
+            <l n="950">que humildes estaban, contra mí sangrientas</l>
+            <l>las garras aguzan, afilan las presas?</l>
+            <l>¿Qué rebelado motín</l>
+            <l>contra la Naturaleza</l>
+            <l>es este? ¿Todos los Días</l>
+            <l part="I">contra mí?</l>
+          </sp>
+          <sp who="#día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l part="M">Sí.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l n="955" part="F">¿Que aún no fuera</l>
+            <l part="I">alguno en mi favor?</l>
+          </sp>
+          <sp who="#día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l part="F">No.</l>
+          </sp>
+          <sp who="#día-1 #día-2 #día-3">
+            <speaker>UNOS</speaker>
+            <l part="I">Porque mires...</l>
+          </sp>
+          <sp who="#día-4 #día-5 #día-6 #día-7">
+            <speaker>OTROS</speaker>
+            <l part="F">Porque adviertas...</l>
+          </sp>
+          <sp who="#día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l>Que los Días las desdichas</l>
+            <l>las ven, mas no las remedian.</l>
+          </sp>
+          <stage>Sale el PLACER.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="960">¿«Que los Días las desdichas</l>
+            <l>las ven, mas no las remedian»?</l>
+            <l>¿Qué alboroto será este?</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="I">¿Quién eres tú?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F">Quien quisiera,</l>
+            <l>por no mirarte tan otra,</l>
+            <l n="965">tan ajada y tan deshecha,</l>
+            <l>como hermosura por quien</l>
+            <l>pasan días, que la tierra</l>
+            <l part="I">le tragara.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">Pues, Placer,</l>
+            <l>¿también tú el pesar me aumentas?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="970">¿Qué culpa el Placer tendrá,</l>
+            <l>si tú el oficio le truecas?</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Grande fue mi culpa, pues pudo su ofensa</l>
+            <l>hacer que el Placer en pesar se convierta;</l>
+            <l>mas ¿cómo si los Días pasan,</l>
+            <l n="975">fija la noche se queda?</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Es la imagen de tu culpa</l>
+            <l>y así que te siga es fuerza.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l part="I">De ti huiré.</l>
+            <stage>Vase hacia la nave del LETEO.</stage>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">Será hacia donde</l>
+            <l>quiero yo, porque se vea</l>
+            <l n="980">que no hay otra senda ya.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Y tan pavorosa senda</l>
+            <l>que, mal afirmado el pie,</l>
+            <l>al pisarla desalienta,</l>
+            <l>el corazón desfallece;</l>
+            <l n="985">mas si los Días me dejan,</l>
+            <l>claro es que faltar los Días</l>
+            <l>es morir, ¿dónde suspensa,</l>
+            <l>helada, torpe, caduca,</l>
+            <l>desmayada, absorta y ciega</l>
+            <l part="I">iré a parar?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="990" part="F">A mis brazos,</l>
+            <stage>Sale el PRÍNCIPE a tiempo que ella, tropezando, cay en sus brazos desmayada.</stage>
+            <l>de donde pasarte pueda</l>
+            <l>a las ondas del olvido.</l>
+            <l part="I">¡Leteo!</l>
+          </sp>
+          <stage>Sale LETEO.</stage>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l part="M">¿Qué mandas?</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F">Esta</l>
+            <l>es la presa que cosario</l>
+            <l n="995">del mar, ladrón de la tierra,</l>
+            <l>robada a mi imperio traigo;</l>
+            <l>ya es tuya, carga con ella</l>
+            <l>y pase de esotra parte</l>
+            <l part="I">del vivir.</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l part="F">Temor no tengas,</l>
+            <l n="1000">que ya en mi poder y ya</l>
+            <l>introducida mi fiera</l>
+            <l>saña en los mortales haya</l>
+            <l>quien pase mi línea y vuelva.</l>
+          </sp>
+          <stage>Vase LETEO, llevándola.</stage>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="I">Yo lo dudo.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F">¿Tú lo dudas?</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l n="1005">Sí, si hay curioso que atienda</l>
+            <l>que no es la muerte del cuerpo,</l>
+            <l>sino la del alma esta.</l>
+          </sp>
+          <stage>Vanse los dos. EURÍDICE, dentro.</stage>
+          <sp who="#eurídice">
+            <speaker>EURÍDICE</speaker>
+            <l>¡Ay infelice de mí!</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>¿Cómo, decí, a socorrerla</l>
+            <l n="1010">no vais, perezosos Días?</l>
+          </sp>
+          <sp who="#naturaleza-humana #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l>Como nos faltan las fuerzas,</l>
+            <l>que los Días las desdichas</l>
+            <l>las ven, mas no las remedian...</l>
+          </sp>
+          <stage>Sale ORFEO.</stage>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>¿Que los Días las desdichas</l>
+            <l n="1015">las ven mas no las remedian?</l>
+            <l>Bien lo sé; pero aquí importa</l>
+            <l>que humano modo se entienda.</l>
+            <l>¿Qué voces aquestas son?</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l>Dígalo esta llama muerta.</l>
+          </sp>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l n="1020">Dígalo empañado el cielo.</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l>Las flores de espinas llenas.</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l>De luna y sol los eclipses.</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l>De viento y mar las tormentas.</l>
+          </sp>
+          <sp who="#día-6">
+            <speaker>DÍA 6.º</speaker>
+            <l>El rebelión de los brutos.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1025">Y el Placer vuelto en tristeza.</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l>Al ver que de un áspid.</l>
+          </sp>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l>Herida se lleva.</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l>Tirano pirata.</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l>De esas ondas negras.</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l n="1030">Orfeo divino.</l>
+          </sp>
+          <sp who="#día-6">
+            <speaker>DÍA 6.º</speaker>
+            <l>A tu Eurídice bella.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <stage>Canta, como llorando.</stage>
+            <l>¡Ay infeliz de aquella</l>
+            <l>que hizo verdad haber quien de error muera!</l>
+            <l>Moriste, ninfa bella,</l>
+            <l n="1035">en edad floreciente;</l>
+            <l>tu ocaso fue tu oriente,</l>
+            <l>pues su primera güella</l>
+            <l>ajó la luz de tu mejor estrella.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¡Ay infeliz de aquella</l>
+            <l n="1040">que hizo verdad haber quien de error muera!</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Mal mi amor has pagado,</l>
+            <l>mal las finezas mías;</l>
+            <l>díganlo alegres Días</l>
+            <l>que tristes han quedado,</l>
+            <l n="1045">llorando todos tu infelice estado,</l>
+            <l>y yo también lo diga,</l>
+            <l>pues si llorar pudiera</l>
+            <l>mi ser, de celos fuera,</l>
+            <l>cuando tan enemiga</l>
+            <l n="1050">ingratitud al sentimiento obliga.</l>
+            <l>Pero aunque nada abona</l>
+            <l>usar de tu albedrío</l>
+            <l>contra mí, el amor mío</l>
+            <l>de tan fino blasona</l>
+            <l n="1055">que lo que ama dirá lo que perdona,</l>
+            <l>y así, aunque es infinito</l>
+            <l>tu delito y le siento</l>
+            <l>por tal, un instrumento</l>
+            <l>que labrar solicito</l>
+            <l n="1060">dirá si es más mi amor que tu delito,</l>
+            <l>cuando en dulce querella</l>
+            <l>llegue al cielo mi llanto,</l>
+            <l>que, convertido en canto,</l>
+            <l>diga a su esfera bella...</l>
+          </sp>
+          <stage>Con la MÚSICA.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1065">¡Ay infeliz de aquella</l>
+            <l>que hizo verdad haber quien de amor muera!</l>
+          </sp>
+          <stage>Vase ORFEO.</stage>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l>¿En qué pararán extremos</l>
+            <l>que unir saben armonías</l>
+            <l part="I">y lágrimas?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F">Pues sois Días,</l>
+            <l n="1070">id pasando y lo veremos.</l>
+          </sp>
+          <stage>Pasan los DÍAS mirando adentro.</stage>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l>Los ojos en el madero</l>
+            <l>que el áspid avenenó</l>
+            <l part="I">puso tiernos.</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l part="F">Y notó</l>
+            <l>otro después, de que infiero</l>
+            <l n="1075">que ya que la muerte está</l>
+            <l>en un madero escondida,</l>
+            <l>piensa en otro hallar la vida.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Así el himno lo dirá.</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l>Ya elegido con mil pías</l>
+            <l n="1080">ansias a él se abraza en fee</l>
+            <l part="I">de su amor.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F">¡Oh, lo que ve</l>
+            <l>el que ve pasar los días!</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l>Como es dar salud su intento,</l>
+            <l>de él (dejando lo historial</l>
+            <l n="1085">por lo mixto) el celestial</l>
+            <l>Orfeo labra el instrumento</l>
+            <l>en que ha de cantar humano</l>
+            <l>la letra de una canción,</l>
+            <l>que fue en la R, Redención.</l>
+          </sp>
+          <sp who="#día-6">
+            <speaker>DÍA 6.º</speaker>
+            <l n="1090">Dos líneas que soberano</l>
+            <l>cruzar en él solicita,</l>
+            <l>de tres clavijas compone.</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l>Y las cuerdas que le pone</l>
+            <l>de las manos se las quita.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1095">Con que en tres pruebas si dio</l>
+            <l>salud, si salud espera</l>
+            <l>dar y salud verdadera,</l>
+            <l>en Jesús se interpretó</l>
+            <l>ese instrumento de tres</l>
+            <l n="1100">clavijas y tres maderos</l>
+            <l>a los siglos venideros</l>
+            <l>cítara de Jesús es.</l>
+          </sp>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l>Al hombro carga con ella.</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l>Y su yugo para él grave</l>
+            <l n="1105">a todos será süave.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Oíd su amorosa querella.</l>
+          </sp>
+          <stage>Sale ORFEO con una arpa al hombro, cantando, en cuyo bastón vendrá hecha una Cruz.</stage>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Perdida esposa mía,</l>
+            <l>que mordida de un áspid</l>
+            <l>del Reino del Olvido</l>
+            <l n="1110">en las tinieblas yaces,</l>
+            <l>mira lo que me debes,</l>
+            <l>pues si en desdichas tales</l>
+            <l>te pierdo como esposo,</l>
+            <l>te busco como amante.</l>
+            <l n="1115">No sólo por ti al suelo</l>
+            <l>quiso el Amor que baje,</l>
+            <l>mas por ti también quiere</l>
+            <l>que hasta el abismo pase,</l>
+            <l>para cuyo camino</l>
+            <l n="1120">ha dispuesto que labre</l>
+            <l>instrumento que al hombro</l>
+            <l>arrodillar me hace,</l>
+            <l>siendo cada clavija</l>
+            <l>un hierro penetrante,</l>
+            <l n="1125">cada cuerda un azote</l>
+            <l>y un golpe cada traste.</l>
+            <l>Tan llena está de abrojos</l>
+            <l>la senda que dejaste</l>
+            <l>que al pisarla la voy</l>
+            <l n="1130">regando con mi sangre.</l>
+            <l>Mas aunque áspera sea</l>
+            <l>y el instrumento grave,</l>
+            <l>orillas del Leteo</l>
+            <l>por si le muevo, cante.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1135">Oigan cuales los Días</l>
+            <l>admirados no saben</l>
+            <l>lo que pasa por ellos.</l>
+          </sp>
+          <sp who="#música #naturaleza-humana #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l>¿Quién quieres que lo alcance?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>¡Ah de las negras ondas,</l>
+            <l n="1140">piloto de esa nave,</l>
+            <l>a quien llamó Aqueronte</l>
+            <l>su pálido semblante!</l>
+          </sp>
+          <stage>Sale LETEO del escollo.</stage>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>¿Cúya será esta voz</l>
+            <l>que el eco al viento esparce,</l>
+            <l n="1145">tal que aun a mí me elevan</l>
+            <l>sus cláusulas finales?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>¡Ah del siempre temido</l>
+            <l>golfo cuyos embates</l>
+            <l>entre tierra y abismo</l>
+            <l n="1150">juridiciones parten!</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>¿Quién sin temor se atreve</l>
+            <l>a pisar de este margen</l>
+            <l>las víboras nocivas</l>
+            <l>que en sus arenas nacen?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l n="1155">Quien su erizado golfo</l>
+            <l>pretende que le pases.</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>El primer mortal eres</l>
+            <l>que voluntario trae</l>
+            <l>ese intento, que aquí</l>
+            <l n="1160">hasta hoy no llegó nadie</l>
+            <l part="I">sino forzado.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l part="F">Yo</l>
+            <l>no sólo he de mostrarte</l>
+            <l>que voluntario quiero</l>
+            <l>navegar tus raudales,</l>
+            <l n="1165">pero para volver</l>
+            <l>pasar de esotra parte.</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>Pasar es fácil, pero</l>
+            <l>volver no será fácil,</l>
+            <l>que el pasar es morir</l>
+            <l n="1170">y es el morir cerrarte</l>
+            <l>las puertas de la vida.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Para ellas habrá llave.</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l part="I">¿Cuál puede ser?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l part="F">Mi voz,</l>
+            <l>pues hará que se ablanden</l>
+            <l n="1175">en láminas de bronce</l>
+            <l>candados de diamante,</l>
+            <l>por quien sagrado texto</l>
+            <l>dirá en altos anales</l>
+            <l>que al dejar exaltado</l>
+            <l n="1180">la tierra por el aire,</l>
+            <l>no hubo cosa que a mí</l>
+            <l part="I">no trujese.</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l part="F">Cobarde</l>
+            <l>tu voz escucho. ¿Quién</l>
+            <l>fue a suspender bastante,</l>
+            <l n="1185">con miedos en que viva,</l>
+            <l>temores con que mate?</l>
+            <l>Pero ¿yo me suspendo?</l>
+            <l>Tente, mortal, no pases</l>
+            <l>mi línea en confianza</l>
+            <l n="1190">de canto semejante,</l>
+            <l>que pues mortal te veo,</l>
+            <l>sin que respeto guarde</l>
+            <l>ni a luz que me retira,</l>
+            <l>ni a lira que me atrae,</l>
+            <l n="1195">harás que mi tridente,</l>
+            <l>blandidos los fatales</l>
+            <l>filos de tres cuchillas,</l>
+            <l>primero haya de darte</l>
+            <l>la muerte, si es que quieres</l>
+            <l n="1200">que en mi bajel te embarque.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Yo te doy la licencia</l>
+            <l>que antes di a otros ultrajes</l>
+            <l>y pues yo lo permito,</l>
+            <l>¿qué habrá que te acobarde?</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l n="1205">No sé, que a ti te teme</l>
+            <l>quien no ha temido a nadie.</l>
+            <l>Pero mortal te veo</l>
+            <l>y bañado en la sangre</l>
+            <l>de mortales heridas;</l>
+            <l n="1210">no sé más y así acabe</l>
+            <l>contigo mi fiereza.</l>
+            <stage>Hace como que le hiere y, dado el golpe, cay a sus plantas y pasa encima de él ORFEO.</stage>
+            <l>Mas, ¡ay!, que al mismo instante</l>
+            <l>que mato muero, pues</l>
+            <l>toda mi furia cae</l>
+            <l n="1215">a tus plantas, adonde</l>
+            <l>muerta la muerte yace.</l>
+            <l>Por encima de mí</l>
+            <l>trasciende los umbrales</l>
+            <l part="I">del morir.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l part="F">En tan triste,</l>
+            <l n="1220">en tan estrecho trance,</l>
+            <l>Padre mío, Padre mío,</l>
+            <l>¿por qué me desamparaste?</l>
+          </sp>
+          <stage>Cayendo LETEO y levantando y cantando ORFEO, se abre el peñasco y entran los dos en él, a cuyo tiempo se hace dentro ruido de terremoto.</stage>
+          <sp who="#día-1 #día-2 #día-3">
+            <speaker>UNOS</speaker>
+            <l part="I">¡Qué asombro!</l>
+          </sp>
+          <sp who="#día-4 #día-5 #día-6 #día-7">
+            <speaker>OTROS</speaker>
+            <l part="F">¡Qué confusión!</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l>¡Todo es escándalo el aire!</l>
+          </sp>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l n="1225">¡Toda temblores la tierra!</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l>¡Todos tormentas los mares!</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l>¡Todo el cielo confusiones!</l>
+          </sp>
+          <stage>Siempre el ruido.</stage>
+          <sp who="#día-6">
+            <speaker>DÍA 6.º</speaker>
+            <l>En terremoto tan grande,</l>
+            <l>¡ay infelice de mí,</l>
+            <l n="1230">la luz a mis ojos falte!</l>
+          </sp>
+          <stage>Cai el DÍA 6.º desmayado y todos alrededor de él, como asombrados.</stage>
+          <sp who="#día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS</speaker>
+            <l part="I">¿Qué es esto?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F">Que el Sexto Día,</l>
+            <l>aunque habrá quien le consagre</l>
+            <l>a Venus por cuya estrella</l>
+            <l>Día Veneris se llame,</l>
+            <l n="1235">de quien se derive el Viernes,</l>
+            <l>viendo que a la media tarde</l>
+            <l>de su edad padece el sol</l>
+            <l>un parasismo tan grande,</l>
+            <stage>El ruido.</stage>
+            <l part="I">se ha desmayado.</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l part="F">¿Qué mucho</l>
+            <l n="1240">si a todos temblar nos hace?</l>
+          </sp>
+          <sp who="#día-3 #día-4">
+            <speaker>UNOS</speaker>
+            <l part="I">¡Qué pasmo!</l>
+          </sp>
+          <sp who="#día-5 #día-6 #día-7">
+            <speaker>OTROS</speaker>
+            <l part="M">¡Qué horror!</l>
+          </sp>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l part="F">Más es</l>
+            <l>que al ruido de asombros tales</l>
+            <l>el Sexto Día no vuelva.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Esto en silencio no pase</l>
+            <l n="1245">y es que la Naturaleza</l>
+            <l>fue del Sexto Día dictamen</l>
+            <l>y responde al que se críe</l>
+            <l>el día que se restaure.</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l part="I">Vuelve en ti.</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l part="F">Cobra el aliento.</l>
+          </sp>
+          <sp who="#día-2">
+            <speaker>DÍA 2.º</speaker>
+            <l part="I">Respira.</l>
+          </sp>
+          <sp who="#día-4">
+            <speaker>DÍA 4.º</speaker>
+            <l part="M">Anima.</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l n="1250" part="F">Dejadme</l>
+            <l part="I">llegar a mí.</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l part="F">Y a mí y todo.</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l>Que yo sé de sus pesares</l>
+            <l part="I">el remedio ya.</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l part="F">Y yo he visto</l>
+            <l>ya de su salud señales.</l>
+          </sp>
+          <sp who="#día-3">
+            <speaker>DÍA 3.º</speaker>
+            <l n="1255">Feliz Día, vuelve en ti,</l>
+            <l>que el Orfeo, a quien tan grandes</l>
+            <l>finezas debió su esposa</l>
+            <l>ya que se arrojó constante</l>
+            <l>a los golfos de la muerte,</l>
+            <l n="1260">de ella vitorioso sale.</l>
+          </sp>
+          <sp who="#día-1">
+            <speaker>DÍA 1.º</speaker>
+            <l>Y tanto que ya en el alto</l>
+            <l>árbol mayor de su nave</l>
+            <l>con ella a sus pies vencida</l>
+            <l part="I">se ve.</l>
+          </sp>
+          <sp who="#día-6">
+            <speaker>DÍA 6.º</speaker>
+            <l part="F">Vuelva a nuevas tales</l>
+            <l n="1265">en mí, pues que me le enseñan</l>
+            <l>en sus afectos iguales</l>
+            <l>la piedad del Primer Día,</l>
+            <l>al Tercero Día triunfante</l>
+            <l>de las fuerzas del abismo</l>
+            <l n="1270">y el instrumento que trae</l>
+            <l>en su mano, porque juntas</l>
+            <l>suenen realidad y imagen.</l>
+          </sp>
+          <stage>Vese en el carro de la nave negra, arrimado al árbol mayor, que será una Cruz, el ORFEO y a sus pies LETEO y, subiendo en elevación, da vuelta la nave con un CORO de música; y a este tiempo salen al tablado PRÍNCIPE y ENVIDIA.</stage>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Abrid las puertas, abrid,</l>
+            <l>funestas obscuridades,</l>
+            <l n="1275">las aldabas y cerrojos</l>
+            <l>de vuestra lóbrega cárcel.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¿Quién, Leteo, pudo ser</l>
+            <l>cisne que en tus ondas cante?</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>Quien muriendo destruyó</l>
+            <l n="1280">la muerte, porque repare</l>
+            <l>la ajena vida, siendo hoy</l>
+            <l>él el muerto y yo el cadáver.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¡Qué miro, Envidia! ¿qué es esto?</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>No sé, porque la que antes</l>
+            <l n="1285">fue áspid al veneno, agora</l>
+            <l>también al conjuro es áspid.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Abrid las puertas, abrid.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Su vista y su voz me espanten.</l>
+            <l part="I">¿A quién?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l part="F">Al Príncipe vuestro.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1290">No más, esas señas basten</l>
+            <l>y no es la primera vez</l>
+            <l>que el arpa espíritus lance,</l>
+            <l>pues sombra de esa Saúl</l>
+            <l>la tembló en David no en balde.</l>
+            <l n="1295">¿Qué quieres, divino Orfeo,</l>
+            <l>ya que tu voz en mí mande?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Que me vuelvas a mi Esposa</l>
+            <l>que en tus calabozos yace.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="I">Es presa mía.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <stage>Representado.</stage>
+            <l part="F">No basta</l>
+            <l n="1300">a que mi voz no la saque</l>
+            <l>del limbo que la sepulta,</l>
+            <l>como repitiendo a él llame.</l>
+            <stage>Cantado.</stage>
+            <l>Abrid las puertas, abrid,</l>
+            <l>confusas obscuridades,</l>
+            <l n="1305">las aldabas y cerrojos</l>
+            <l>de vuestra lóbrega cárcel.</l>
+          </sp>
+          <stage>Ábrese el escollo y sale la NATURALEZA como admirada.</stage>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>¿Quién ilumina las sombras</l>
+            <l>con tan divinos celajes,</l>
+            <l>que en ellas segundo sol</l>
+            <l n="1310">de segunda aurora nace?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Quien para sacarte de ellas</l>
+            <l>de este instrumento se vale,</l>
+            <l>logrando honores de esposo</l>
+            <l>sobre finezas de amante.</l>
+            <l n="1315">Vuelve a cobrarte en los Días</l>
+            <l>felices que antes gozaste</l>
+            <l>y pues yo en la nave quedo</l>
+            <l>de la muerte por librarte,</l>
+            <l>a la nave de la vida</l>
+            <l part="I">pasa tú.</l>
+          </sp>
+          <sp who="#día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>LOS DÍAS</speaker>
+            <l n="1320" part="F">Ven donde halles</l>
+            <l>en nosotros la obediencia</l>
+            <l>de antiguas felicidades.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Tan gran fineza de amor</l>
+            <l>solo el silencio la ensalce.</l>
+          </sp>
+          <stage>Llévanla los DÍAS al cuarto carro, que será una nave, en oposición de la primera, dorada, con flámulas y gallardetes blancos y encarnados, pintados en ellos el Sacramento y por fanal un Cáliz grande con una Hostia.</stage>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1325">¿Qué importa que ellos la lleven,</l>
+            <l>si siempre que ella inconstante</l>
+            <l>peque y tú el rostro la vuelvas</l>
+            <l>ha de volver a mi cárcel?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Cuidado, porque ni aun esto</l>
+            <l n="1330">a la metáfora falte.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <stage>Representado.</stage>
+            <l>Ley es, el partido aceto,</l>
+            <l>pero para asegurarle,</l>
+            <l>en la nave de la vida</l>
+            <l>tendrá Sacramentos tales</l>
+            <l n="1335">que en ellos ese peligro</l>
+            <l>enmiende, asegure y salve.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>¿Qué nave y qué Sacramentos?</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l>Cielo y tierra los declaren,</l>
+            <l>cuando yo en muerte y en vida</l>
+            <l n="1340">digan al ver que se embarque...</l>
+          </sp>
+          <stage>Han subido a la nave los DÍAS con la NATURALEZA y dando vuelta, se ve en su árbol mayor el DÍA 5.º en otra elevación, con un escudo, pintado en él el Sacramento y dicen todos con otro CORO de música.</stage>
+          <sp who="#naturaleza-humana #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7 #música">
+            <speaker>TODOS y MÚSICA</speaker>
+            <l>A la nave de la vida...</l>
+          </sp>
+          <sp who="#coro-1">
+            <speaker>CORO 1.º</speaker>
+            <l>La Naturaleza pase,</l>
+            <l>pues la nave de la Iglesia</l>
+            <l>es de la vida la nave.</l>
+            <l part="I">Buen viaje.</l>
+          </sp>
+          <sp who="#coro-2">
+            <speaker>CORO 2.º</speaker>
+            <l n="1345" part="F">Buen pasaje.</l>
+          </sp>
+          <stage>Dan vuelta ambas naves, saludándose a coros.</stage>
+          <sp who="#coro-1 #coro-2">
+            <speaker>LOS DOS</speaker>
+            <l>¿Qué Sacramentos son esos</l>
+            <l>en quien pueda asegurarse?</l>
+          </sp>
+          <sp who="#día-5">
+            <speaker>DÍA 5.º</speaker>
+            <l>Siete en quien los siete Días</l>
+            <l>logran su mayor realce,</l>
+            <l n="1350">de quien el mayor de todos</l>
+            <l>por obra de amor más grande</l>
+            <l>es el que en ese fanal</l>
+            <l>rayos brilla y luz esparce,</l>
+            <l>siendo el quinto Día del Jueves</l>
+            <l n="1355">el que a todos les declare,</l>
+            <l>como allí muerto, aquí vivo,</l>
+            <l>en esa Hostia y el Cáliz,</l>
+            <l>debajo de especies son</l>
+            <l>Pan y Vino, Cuerpo y Sangre.</l>
+          </sp>
+          <sp who="#coro-1">
+            <speaker>CORO 1.º</speaker>
+            <l part="I">Buen pasaje.</l>
+          </sp>
+          <sp who="#coro-2">
+            <speaker>CORO 2.º</speaker>
+            <l n="1360" part="F">Buen viaje.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>A tanto misterio tiemble.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>A tanto prodigio pasme.</l>
+          </sp>
+          <sp who="#leteo">
+            <speaker>LETEO</speaker>
+            <l>A tanto sol me deslumbre.</l>
+          </sp>
+          <sp who="#naturaleza-humana">
+            <speaker>NATURALEZA</speaker>
+            <l>Y yo a tanta luz me exalte.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l n="1365">Y yo a tanto triunfo vuelva</l>
+            <l>a decir en voces graves...</l>
+            <stage>Canta.</stage>
+            <l>A la nave de la vida</l>
+            <l>la Naturaleza pase...</l>
+          </sp>
+          <sp who="#coro-1 #coro-2">
+            <speaker>DOS COROS</speaker>
+            <l>Buen viaje.</l>
+          </sp>
+          <sp who="#orfeo">
+            <speaker>ORFEO</speaker>
+            <l n="1370">Pues la nave de la Iglesia</l>
+            <l>es de la vida la nave.</l>
+          </sp>
+          <sp who="#coro-1 #coro-2">
+            <speaker>DOS COROS</speaker>
+            <l>Buen pasaje.</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¡Oh, acaben con sus placeres</l>
+            <l>de una vez nuestros pesares!</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l n="1375">Nuestros pesares no pueden,</l>
+            <l>mas basta que el Auto acabe...</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Diciendo al pedir perdón,</l>
+            <l>al compás de sus compases...</l>
+          </sp>
+          <sp who="#príncipe-de-las-tinieblas #envidia #coro-1 #coro-2 #leteo #orfeo #placer #música #naturaleza-humana #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+            <speaker>TODOS y MÚSICA</speaker>
+            <l>A la nave de la vida</l>
+            <l n="1380">la Naturaleza pase,</l>
+            <l>buen viaje, buen pasaje;</l>
+            <l>pues la nave de la Iglesia</l>
+            <l>es de la vida la nave,</l>
+            <l>buen pasaje, buen viaje.</l>
+          </sp>
+          <stage>Con esta repetición, sonando a un tiempo representación, música y clarín, dando una y otra vuelta las naves, acaba el auto.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

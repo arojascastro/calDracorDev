@@ -1,0 +1,4411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000026" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La devoción de la Cruz</title>
+        <title type="sub">Comedia famosa</title>
+        <author>
+          <persName>
+            <forename>Pedro</forename>
+            <surname sort="1">Calderón</surname>
+            <nameLink>de la</nameLink>
+            <surname>Barca</surname>
+          </persName>
+          <idno type="wikidata">Q170800</idno>
+          <idno type="pnd">118518399</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-22">
+          <time when="22:25:37"/>
+        </date>
+        <idno type="quadramaX">La devoción de la Cruz</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Biblioteca Virtual Miguel de Cervantes</name>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-devocion-de-la-cruz--0/html/</idno>
+          <bibl type="originalSource">
+            <title> Edición digital a partir de Primera parte de Comedias de Don Pedro Calderón de la Barca. Recogidas por Don Joseph Calderón de la Barca, su hermano, Madrid, Por la viuda de Juan Sánchez, a costa de Gabriel de León, 1640. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+          </bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="eusebio" sex="MALE">
+            <persName>EUSEBIO</persName>
+          </person>
+          <person xml:id="lisardo" sex="MALE">
+            <persName>LISARDO</persName>
+          </person>
+          <person xml:id="curcio" sex="MALE">
+            <persName>CURCIO, viejo</persName>
+          </person>
+          <person xml:id="octavio" sex="MALE">
+            <persName>OCTAVIO</persName>
+          </person>
+          <person xml:id="celio" sex="MALE">
+            <persName>CELIO</persName>
+          </person>
+          <person xml:id="ricardo" sex="MALE">
+            <persName>RICARDO</persName>
+          </person>
+          <person xml:id="arminda" sex="FEMALE">
+            <persName>ARMINDA</persName>
+          </person>
+          <person xml:id="gil" sex="MALE">
+            <persName>GIL, gracioso</persName>
+          </person>
+          <person xml:id="menga" sex="FEMALE">
+            <persName>MENGA</persName>
+          </person>
+          <person xml:id="julia" sex="FEMALE">
+            <persName>JULIA</persName>
+          </person>
+          <person xml:id="villanos" sex="MALE">
+            <persName>Villanos</persName>
+          </person>
+          <person xml:id="alberto" sex="MALE">
+            <persName>ALBERTO</persName>
+          </person>
+          <person xml:id="bandoleros" sex="MALE">
+            <persName>Bandoleros</persName>
+          </person>
+          <person xml:id="chilindrina" sex="FEMALE">
+            <persName>CHILINDRINA</persName>
+          </person>
+          <person xml:id="blas" sex="MALE">
+            <persName>BLAS</persName>
+          </person>
+          <person xml:id="tirso" sex="MALE">
+            <persName>TIRSO</persName>
+          </person>
+          <person xml:id="toribio" sex="MALE">
+            <persName>TORIBIO</persName>
+          </person>
+          <person xml:id="una-voz" sex="FEMALE">
+            <persName>UNA VOZ</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedia religiosa</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1640">
+        <label/>
+      </event>
+      <event type="written" when="1625">
+        <label/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000026" passive="http://www.wikidata.org/entity/Q10861205"/>
+    </listRelation>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">La devoción de la Cruz</titlePart>
+        <titlePart type="sub">Comedia famosa</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas que hablan en ella</head>
+        <castItem>EUSEBIO.</castItem>
+        <castItem>LISARDO.</castItem>
+        <castItem>CURCIO, viejo.</castItem>
+        <castItem>OCTAVIO.</castItem>
+        <castItem>CELIO.</castItem>
+        <castItem>RICARDO.</castItem>
+        <castItem>ARMINDA.</castItem>
+        <castItem>GIL, gracioso.</castItem>
+        <castItem>MENGA.</castItem>
+        <castItem>JULIA.</castItem>
+        <castItem>Villanos.</castItem>
+        <castItem>ALBERTO.</castItem>
+        <castItem>Bandoleros.</castItem>
+        <castItem>[CHILINDRINA.]</castItem>
+        <castItem>[BLAS.]</castItem>
+        <castItem>[TIRSO.]</castItem>
+        <castItem>[TORIBIO.]</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene">
+          <head>Jornada I</head>
+          <stage>Dentro.</stage>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>¡Verá por dó va la burra!</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¡Lo demonio, jo mohína!</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Ya verás por do camina:</l>
+            <l part="I">¡arre acá!</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¡El diabro me aburra!,</l>
+            <l n="5">¿no hay quien una cola tenga,</l>
+            <l>pudiendo tenerla mil?</l>
+          </sp>
+          <stage>Salen.</stage>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>¡Buena hacienda has hecho, Gil!</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¡Buena hacienda has hecho, Menga,</l>
+            <l>que tú la culpa tuviste!</l>
+            <l n="10">Que como ibas caballera,</l>
+            <l>que en el hoyo se metiera</l>
+            <l>al oído le dijiste</l>
+            <l>por hacerme regañar.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Por verme caer a mí</l>
+            <l n="15">se lo dijiste, eso sí.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿Cómo la hemos de sacar?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>¿Pues en el lodo la dejas?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>No puede mi fuerza sola.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Yo tiraré de la cola;</l>
+            <l n="20">tira tú de las orejas.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Mejor remedio sería</l>
+            <l>hacer el que aprovechó</l>
+            <l>a un coche que se atascó</l>
+            <l>en la corte esotro día.</l>
+            <l n="25">Este coche, Dios delante,</l>
+            <l>que arrastrado de dos potros,</l>
+            <l>parecía entre los otros</l>
+            <l>pobre coche vergonzante,</l>
+            <l>y por maldición muy cierta</l>
+            <l n="30">de sus padres, ¡hado esquivo!,</l>
+            <l>iba de estribo en estribo,</l>
+            <l>ya que no de puerta en puerta.</l>
+            <l>En un arroyo atascado,</l>
+            <l>con ruegos el caballero,</l>
+            <l n="35">con azotes el cochero,</l>
+            <l>ya por fuerza, ya por grado,</l>
+            <l>ya por gusto, ya por miedo,</l>
+            <l>que saliesen procuraban,</l>
+            <l>por recio que lo mandaban,</l>
+            <l n="40">mi coche quedo que quedo.</l>
+            <l>Viendo que no importa nada</l>
+            <l>cuantos remedios hicieron,</l>
+            <l>delante el coche pusieron</l>
+            <l>un harnero de cebada.</l>
+            <l n="45">Los caballos, por comer,</l>
+            <l>de tal manera tiraron,</l>
+            <l>que tosieron y arrancaron,</l>
+            <l>y esto podemos hacer.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>¡Que nunca valen dos cuartos</l>
+            <l part="I">tus cuentos!</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="50" part="F">Menga, yo siento</l>
+            <l>ver un animal hambriento,</l>
+            <l>donde hay animales hartos.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Voy al camino a mirar</l>
+            <l>si pasa de nuestra aldea</l>
+            <l n="55">gente, cualquiera que sea,</l>
+            <l>porque te venga a ayudar,</l>
+            <l>pues te das tan pocas mañas.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿Vuelve, Menga, tu porfía?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>¡Ay burra del alma mía!</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="60">¡Ay burra de mis entrañas!</l>
+            <l>Tú fuiste la más honrada</l>
+            <l>burra de toda la aldea;</l>
+            <l>que no ha habido quien te vea</l>
+            <l>nunca mal acompañada.</l>
+            <l n="65">No eras nada callejera,</l>
+            <l>di mijor gana te estabas</l>
+            <l>en tu pesebre, que andabas</l>
+            <l>cuando te llevaban fuera.</l>
+            <l>Pues ¿altanera y liviana?</l>
+            <l n="70">Bien me atrevo a jurar yo,</l>
+            <l>que ninguno burro la vio</l>
+            <l>asomada a la ventana.</l>
+            <l>Ya sé que no merecía</l>
+            <l>tu lengua desdicha tal;</l>
+            <l n="75">pues jamás para habrar mal</l>
+            <l>dijo «aquesta boca es mía».</l>
+            <l>Pues como a ella le sobre</l>
+            <l>de lo que comiendo está,</l>
+            <l>luego al punto se lo da</l>
+            <l n="80">a alguna borrica pobre.</l>
+            <stage>Dentro ruido.</stage>
+            <l>Mas ¿qué ruido es este? Allí</l>
+            <l>de dos caballos se apean</l>
+            <l>dos hombres, y hacia mí vienen,</l>
+            <l>después que atados los dejan.</l>
+            <l n="85">¡Descoloridos, y al campo</l>
+            <l>de mañana! Cosa es cierta,</l>
+            <l>que comen barro o están</l>
+            <l>opilados. Mas ¿si fueran</l>
+            <l>bandoleros?, ¡aquí es ello!</l>
+            <l n="90">Pero lo que fuere sea,</l>
+            <l>aquí me escondo, que andan,</l>
+            <l>que corren, que salen, que entran.</l>
+          </sp>
+          <stage>Salen LISARDO y EUSEBIO.</stage>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l>No pasemos adelante,</l>
+            <l>porque esta estancia encubierta</l>
+            <l n="95">y apartada del camino,</l>
+            <l>es para mi intento buena.</l>
+            <l>Sacad, Eusebio, la espada,</l>
+            <l>que yo de aquesta manera</l>
+            <l>a los hombres como vós</l>
+            <l part="I">saco a reñir.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="100" part="F">Aunque tenga</l>
+            <l>bastante causa en haber</l>
+            <l>llegado al campo, quisiera</l>
+            <l>saber lo que a vós os mueve.</l>
+            <l>Decid, Lisardo, la queja</l>
+            <l part="I">que de mí tenéis.</l>
+          </sp>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l n="105" part="F">Son tantas,</l>
+            <l>que falta voz a la lengua,</l>
+            <l>razones a la razón,</l>
+            <l>al sufrimiento paciencia.</l>
+            <l>Quisiera, Eusebio, callarlos,</l>
+            <l n="110">y aun olvidarlos quisiera;</l>
+            <l>porque cuando se repite</l>
+            <l>hace de nuevo la ofensa.</l>
+            <l>¿Conocéis estos papeles?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Arrojaldos en la tierra,</l>
+            <l part="I">yo los alzaré.</l>
+          </sp>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l n="115" part="F">Tomad,</l>
+            <l>¿qué os suspendéis? ¿qué os altera?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>¡Mal haya el hombre, mal haya</l>
+            <l>mil veces aquel que entrega</l>
+            <l>sus secretos a un papel!</l>
+            <l n="120">Porque es disparada piedra,</l>
+            <l>que se sabe quién la tira,</l>
+            <l>y no se sabe a quién llega.</l>
+          </sp>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l>¿Habeislos ya conocido?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Todos están de mi letra,</l>
+            <l n="125">que no la puedo negar.</l>
+          </sp>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l>Pues yo soy Lisardo, en Sena,</l>
+            <l>hijo de Lisardo Curcio.</l>
+            <l>Bien excusadas grandezas</l>
+            <l>de mi padre consumieron</l>
+            <l n="130">en breve tiempo la hacienda</l>
+            <l>que los suyos le dejaron;</l>
+            <l>que no sabe cuánto yerra</l>
+            <l>quien, por excesivos gastos,</l>
+            <l>pobres a sus hijos deja.</l>
+            <l n="135">Pero la necesidad,</l>
+            <l>aunque ultraje la nobleza,</l>
+            <l>no excusa de obligaciones</l>
+            <l>a los que nacen con ellas.</l>
+            <l>Julia, pues, ¡saben los cielos</l>
+            <l n="140">cuánto en nombrarla me pesa!,</l>
+            <l>o no supo conservallas,</l>
+            <l>o no llegó a conocellas.</l>
+            <l>Pero, al fin, Julia es mi hermana,</l>
+            <l>¡pluguiera a Dios no lo fuera!,</l>
+            <l n="145">y advertid que no se sirven</l>
+            <l>las mujeres de sus prendas</l>
+            <l>con amorosos papeles,</l>
+            <l>con razones lisonjeras,</l>
+            <l>con ilícitos recados,</l>
+            <l n="150">ni con infames terceras.</l>
+            <l>No os culpo en el todo a vós,</l>
+            <l>que yo confieso que hiciera</l>
+            <l>lo mismo, a darme una dama</l>
+            <l>para servirla licencia.</l>
+            <l n="155">Pero cúlpoos en la parte</l>
+            <l>de ser mi amigo, y en esta</l>
+            <l>con más culpa os comprende</l>
+            <l>la culpa que tuvo ella.</l>
+            <l>Si mi hermana os agradó</l>
+            <l n="160">para mujer (que no era</l>
+            <l>posible, ni yo lo creo,</l>
+            <l>que os atrevierais a vella</l>
+            <l>con otro fin, ni aun con este;</l>
+            <l>pues, ¡vive Dios!, que quisiera</l>
+            <l n="165">antes que con vós casada,</l>
+            <l>mirarla a mis manos muerta);</l>
+            <l>en fin, si vós la eligistes</l>
+            <l>para mujer, justo fuera</l>
+            <l>descubrir vuestros deseos</l>
+            <l n="170">a mi padre, antes que a ella.</l>
+            <l>Este era término justo,</l>
+            <l>y entonces mi padre viera</l>
+            <l>si le estaba bien el darla,</l>
+            <l>que pienso que no os la diera;</l>
+            <l n="175">porque un caballero pobre,</l>
+            <l>cuando en cosas como estas</l>
+            <l>no puede medir iguales</l>
+            <l>la calidad y la hacienda,</l>
+            <l>por no deslucir su sangre</l>
+            <l n="180">con una hija doncella,</l>
+            <l>hace sagrado un convento,</l>
+            <l>que es delito la pobreza.</l>
+            <l>Aqueste a Julia mi hermana</l>
+            <l>con tanta priesa la espera,</l>
+            <l n="185">que mañana ha de ser monja,</l>
+            <l>por voluntad o por fuerza.</l>
+            <l>Y porque no será bien</l>
+            <l>que una religiosa tenga</l>
+            <l>prendas de tan loco amor</l>
+            <l n="190">y de voluntad tan necia,</l>
+            <l>a vuestras manos las vuelvo,</l>
+            <l>con resolución tan ciega,</l>
+            <l>que no solo he de quitarlas,</l>
+            <l>mas también la causa dellas.</l>
+            <l n="195">Sacad la espada, y aquí</l>
+            <l>el uno de los dos muera,</l>
+            <l>vós, porque no la sirváis,</l>
+            <l>o yo, porque no lo vea.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Tened, Lisardo, la espada,</l>
+            <l n="200">y pues yo he tenido flema</l>
+            <l>para oír desprecios míos,</l>
+            <l>escuchadme la respuesta,</l>
+            <l>y aunque el discurso sea largo,</l>
+            <l>de mi suceso, y parezca</l>
+            <l n="205">que estando solos los dos,</l>
+            <l>es demasiada paciencia;</l>
+            <l>pues que ya es fuerza reñir,</l>
+            <l>y morir el uno es fuerza,</l>
+            <l>por si los cielos permiten,</l>
+            <l n="210">que yo el desdichado sea,</l>
+            <l>oíd prodigios que admiran</l>
+            <l>y maravillas que elevan;</l>
+            <l>que no es bien que con mi muerte</l>
+            <l>eterno silencio tengan.</l>
+            <l n="215">Yo no sé quién fue mi padre,</l>
+            <l>pero sé que la primera</l>
+            <l>cuna fue el pie de una cruz,</l>
+            <l>y el primer lecho una piedra.</l>
+            <l>Raro fue mi nacimiento,</l>
+            <l n="220">según los pastores cuentan,</l>
+            <l>que desta suerte me hallaron</l>
+            <l>en la falda de esas sierras.</l>
+            <l>Tres días dicen que oyeron</l>
+            <l>mi llanto, y que a la aspereza</l>
+            <l n="225">donde estaba no llegaron</l>
+            <l>por el temor de las fieras;</l>
+            <l>mas ninguna me hizo mal;</l>
+            <l>pero ¿quién duda que era</l>
+            <l>por respeto de la cruz</l>
+            <l n="230">que tenía en mi defensa?.</l>
+            <l>Hallome un pastor, que acaso</l>
+            <l>buscó una perdida oveja</l>
+            <l>en la aspereza del monte,</l>
+            <l>y trayéndome al aldea</l>
+            <l n="235">de Eusebio, que no sin causa</l>
+            <l>estaba entonces en ella,</l>
+            <l>le contó mi prodigioso</l>
+            <l>nacimiento, y la clemencia</l>
+            <l>del cielo asistió a la suya.</l>
+            <l n="240">Mandó, en fin, que me trujeran</l>
+            <l>a su casa, y como a hijo</l>
+            <l>me dio la crïanza en ella.</l>
+            <l>Eusebio soy de la Cruz,</l>
+            <l>por su nombre, y por aquella</l>
+            <l n="245">que fue mi primera guía</l>
+            <l>y fue mi guarda primera.</l>
+            <l>Tomé por gusto las armas,</l>
+            <l>por pasatiempo las letras;</l>
+            <l>murió Eusebio, y yo quedé</l>
+            <l n="250">heredero de su hacienda.</l>
+            <l>Si fue prodigioso el parto,</l>
+            <l>no lo fue menos la estrella,</l>
+            <l>que enemiga me amenaza</l>
+            <l>y piadosa me reserva.</l>
+            <l n="255">Bello infante era en los brazos</l>
+            <l>del ama, cuando mi fiera</l>
+            <l>condición, bárbara en todo,</l>
+            <l>dio de sus rigores muestra.</l>
+            <l>Pues con solas las encías,</l>
+            <l n="260">no sin diabólica fuerza,</l>
+            <l>partí el pecho de quien tuve</l>
+            <l>el dulce alimento; y ella,</l>
+            <l>del dolor desesperada</l>
+            <l>y de la cólera ciega,</l>
+            <l n="265">en un pozo me arrojó,</l>
+            <l>sin que ninguno supiera</l>
+            <l>de mí; oyéndome reír,</l>
+            <l>bajaron a él, y cuentan</l>
+            <l>que estaba sobre las aguas,</l>
+            <l n="270">y que con las manos tiernas</l>
+            <l>tenía una formada cruz,</l>
+            <l>y sobre los labios puesta.</l>
+            <l>Un día que se abrasaba</l>
+            <l>la casa, y la llama fiera</l>
+            <l n="275">cerraba el paso a la vida,</l>
+            <l>y a la salida la puerta,</l>
+            <l>entre las llamas estuve</l>
+            <l>libre, sin que me ofendieran,</l>
+            <l>y advertí después dudando</l>
+            <l n="280">que haya en el fuego clemencia,</l>
+            <l>que era día de la Cruz.</l>
+            <l>Tres lustros contaba apenas,</l>
+            <l>cuando por el mar fui a Roma,</l>
+            <l>y en una brava tormenta,</l>
+            <l n="285">desesperada mi nave,</l>
+            <l>chocó en una oculta peña;</l>
+            <l>en pedazos dividida,</l>
+            <l>por los costados abierta,</l>
+            <l>abrazado de un madero</l>
+            <l n="290">salí venturoso a tierra;</l>
+            <l>y este madero tenía</l>
+            <l>forma de cruz. Por las sierras</l>
+            <l>de esos montes caminaba</l>
+            <l>con otro hombre, y en la senda</l>
+            <l n="295">que dos caminos partía,</l>
+            <l>una cruz estaba puesta.</l>
+            <l>En tanto que me quedé</l>
+            <l>haciendo oración en ella,</l>
+            <l>se adelantó el compañero;</l>
+            <l n="300">y después, dándome priesa</l>
+            <l>para alcanzalle, le hallé</l>
+            <l>muerto en las manos sangrientas</l>
+            <l>de bandoleros. Un día,</l>
+            <l>riñendo en una pendencia,</l>
+            <l n="305">de una estocada caí,</l>
+            <l>sin que hiciese resistencia</l>
+            <l>en la tierra; y cuando todos</l>
+            <l>pensaron hallarla ajena</l>
+            <l>de remedio, solo hallaron</l>
+            <l n="310">señal de la punta fiera</l>
+            <l>en una cruz que traía</l>
+            <l>al cuello, que en mi defensa</l>
+            <l>recibió el golpe. Cazando</l>
+            <l>una vez por la aspereza</l>
+            <l n="315">deste monte, se cubrió</l>
+            <l>el cielo de nubes negras,</l>
+            <l>y publicando con truenos</l>
+            <l>al mundo espantosa guerra,</l>
+            <l>lanzas arrojaba en agua,</l>
+            <l n="320">balas disparaba en piedras.</l>
+            <l>Todos hicieron las hojas</l>
+            <l>contra las nubes defensa,</l>
+            <l>siendo ya tiendas de campos</l>
+            <l>las más ocultas malezas;</l>
+            <l n="325">y un rayo, que fue en el viento</l>
+            <l>caliginoso cometa,</l>
+            <l>volvió en ceniza los dos</l>
+            <l>que de mí estaban más cerca.</l>
+            <l>Ciego, turbado y confuso,</l>
+            <l n="330">vuelvo a mirar lo que era,</l>
+            <l>y hallé a mi lado una cruz,</l>
+            <l>que yo pienso que es la misma</l>
+            <l>que asistió a mi nacimiento,</l>
+            <l>y la que yo tengo impresa</l>
+            <l n="335">en los pechos, pues los cielos</l>
+            <l>me han señalado con ella</l>
+            <l>para públicos efetos</l>
+            <l>de alguna cosa secreta.</l>
+            <l>Pero aunque no sé quién soy,</l>
+            <l n="340">tal espíritu me alienta,</l>
+            <l>tal inclinación me anima</l>
+            <l>y tal animo me fuerza,</l>
+            <l>que por mí me da valor</l>
+            <l>para que a Julia merezca;</l>
+            <l n="345">porque no es más la heredada,</l>
+            <l>que la adquirida nobleza.</l>
+            <l>Este soy, y aunque conozco</l>
+            <l>la razón, y aunque pudiera</l>
+            <l>dar satisfación bastante</l>
+            <l n="350">a vuestro agravio, me ciega</l>
+            <l>tanto la pasión de veros</l>
+            <l>hablando de esa manera,</l>
+            <l>que ni os quiero dar disculpa,</l>
+            <l>ni os quiero admitir la queja.</l>
+            <l n="355">Y pues queréis estorbar</l>
+            <l>que yo su marido sea,</l>
+            <l>aunque su casa la guarde,</l>
+            <l>aunque un convento la tenga,</l>
+            <l>de mí no ha de estar segura,</l>
+            <l n="360">y la que no ha sido buena</l>
+            <l>para mujer, lo será</l>
+            <l>para amiga; así desea,</l>
+            <l>desesperado mi amor</l>
+            <l>y ofendida mi paciencia,</l>
+            <l n="365">castigar vuestro desprecio,</l>
+            <l>y satisfacer mi afrenta.</l>
+          </sp>
+          <stage>Sacan las espadas, riñen y LISARDO cae en el suelo, y procura levantarse, y torna a caer.</stage>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l>Eusebio, donde el acero</l>
+            <l>ha de hablar, calle la lengua.</l>
+            <l part="I">¡Herido estoy!</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">¿Y no muerto?</l>
+          </sp>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l n="370">No, que en los brazos me queda</l>
+            <l>aliento para... ¡Ay de mí!</l>
+            <l>Faltó a mis plantas la tierra.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Y falte a tu voz la vida.</l>
+          </sp>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l>No me permitas que muera</l>
+            <l part="I">sin confesión.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="375" part="F">¡Muere, infame!</l>
+          </sp>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l>No me mates, por aquella</l>
+            <l>cruz en que Cristo murió.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Aquesa voz te defienda</l>
+            <l>de la muerte. Alza del suelo,</l>
+            <l n="380">que cuando por ella ruegas,</l>
+            <l>falta rigor a la ira,</l>
+            <l>y falta a los brazos fuerza.</l>
+            <l part="I">Alza del suelo.</l>
+          </sp>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l part="F">No puedo,</l>
+            <l>porque ya en mi sangre envuelta</l>
+            <l n="385">voy despreciando la vida,</l>
+            <l>y el alma pienso que espera</l>
+            <l>a salir, porque entre tantas</l>
+            <l>no sabe cuál es la puerta.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Pues fíate de mis brazos,</l>
+            <l n="390">y anímate, que aquí cerca</l>
+            <l>unos penitentes monjes</l>
+            <l>viven en oscuras cuevas,</l>
+            <l>donde podrás confesarte</l>
+            <l>si vivo a sus puertas llegas.</l>
+          </sp>
+          <sp who="#lisardo">
+            <speaker>LISARDO</speaker>
+            <l n="395">Pues yo te doy mi palabra,</l>
+            <l>por esa piedad que muestras,</l>
+            <l>que si yo merezco verme</l>
+            <l>en la divina presencia</l>
+            <l>de Dios, pediré que tú</l>
+            <l n="400">sin confesarte no mueras.</l>
+          </sp>
+          <stage>Llévale en los brazos, y sale GIL de donde estaba escondido, y TIRSO, BLAS, y MENGA y TORIBIO.</stage>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿Han visto lo que le debe?</l>
+            <l>La caridad está buena;</l>
+            <l>pero yo se la perdono.</l>
+            <l>¡Matarlo, y llevarlo a cuestas!</l>
+          </sp>
+          <sp who="#toribio">
+            <speaker>TORIBIO</speaker>
+            <l n="405">¿Aquí dices que quedaba?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Aquí se quedó con ella.</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l>Mírale allí embelesado.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="I">Gil, ¿qué miras?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¡Ay Menga!</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l part="I">¿Qué te ha sucedido?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¡Ay Tirso!</l>
+          </sp>
+          <sp who="#toribio">
+            <speaker>TORIBIO</speaker>
+            <l part="I">¿Qué has visto?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="410" part="F">¡Ay Toribio!</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l part="I">¿Qué es lo que tienes?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¡Ay Blas!</l>
+            <l>No lo sé más que una bestia.</l>
+            <l>Matole y cargó con él;</l>
+            <l>sin duda a salar le lleva.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="I">¿Quién le mato?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="415" part="F">¿Qué sé yo?</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l part="I">¿Quién murió?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">No sé quién era.</l>
+          </sp>
+          <sp who="#toribio">
+            <speaker>TORIBIO</speaker>
+            <l part="I">¿Quién cargó?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¿Qué sé yo quién?</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l part="I">¿Y quién le llevó?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">Quien quiera.</l>
+            <l>Pero, porque lo sepáis,</l>
+            <l part="I">venid todos.</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l n="420" part="F">¿Dó nos llevas?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>No lo sé, pero venid,</l>
+            <l>que los dos van aquí cerca.</l>
+          </sp>
+          <stage>Vanse todos y salen ARMINDA y JULIA.</stage>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Déjame, Arminda, llorar,</l>
+            <l>una libertad perdida;</l>
+            <l n="425">pues donde acaba la vida,</l>
+            <l>también acaba el pesar.</l>
+            <l>¿Nunca has visto de una fuente</l>
+            <l>bajar un arroyo manso,</l>
+            <l>siendo apacible descanso,</l>
+            <l n="430">el valle de su corriente;</l>
+            <l>y cuando le juzgan falto</l>
+            <l>de fuerza a las flores bellas,</l>
+            <l>pasa por encima dellas</l>
+            <l>rompiendo por lo más alto?</l>
+            <l n="435">Pues mis penas, mis enojos</l>
+            <l>la misma experiencia han hecho:</l>
+            <l>detuviéronse en el pecho,</l>
+            <l>y salieron por los ojos.</l>
+            <l>Deja que llore el rigor</l>
+            <l part="I">de un padre.</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l n="440" part="F">Señora, advierte...</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>¿Qué más venturosa suerte</l>
+            <l>hay, que morir de dolor?</l>
+            <l>Pena que deja vencida</l>
+            <l>la vida, o ser gloria ordena;</l>
+            <l n="445">que no es muy grande la pena,</l>
+            <l>que no acaba con la vida.</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l>¿Qué novedad obligó</l>
+            <l part="I">tu llanto?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">¡Ay, Arminda mía!</l>
+            <l>Cuantos papeles tenía</l>
+            <l n="450">de Eusebio, Lisardo halló</l>
+            <l part="I">en mi escritorio.</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l part="F">¿Pues él</l>
+            <l>supo que estaban allí?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Como aqueso contra mí</l>
+            <l>hará mi estrella cruel.</l>
+            <l n="455">Yo, (¡ay de mí!), cuando le vía</l>
+            <l>el cuidado con que andaba,</l>
+            <l>pensé que lo sospechaba,</l>
+            <l>pero no que lo sabía.</l>
+            <l>Llegó a mí descolorido,</l>
+            <l n="460">y entre apacible y airado,</l>
+            <l>me dijo que había jugado,</l>
+            <l>Arminda, y que había perdido,</l>
+            <l>que una joya le prestase</l>
+            <l>para volver a jugar:</l>
+            <l n="465">por presto que la iba a dar,</l>
+            <l>no aguardó a que la sacase.</l>
+            <l>Tomó él la llave, y abrió</l>
+            <l>con una cólera inquieta,</l>
+            <l>y en la primera naveta</l>
+            <l n="470">con los papeles topó.</l>
+            <l>Miróme y volvió a cerrar,</l>
+            <l>y sin decir nada, ¡ay Dios!,</l>
+            <l>buscó a mi padre, y los dos</l>
+            <l>(¿quién duda para tratar</l>
+            <l n="475">mi muerte?) gran rato hablaron</l>
+            <l>cerrados en su aposento.</l>
+            <l>Salieron, y hacia el convento</l>
+            <l>los dos sus pasos guiaron,</l>
+            <l>según Octavio me dijo.</l>
+            <l n="480">Y si lo que está tratado,</l>
+            <l>ya mi padre ha efetuado,</l>
+            <l>con justa causa me aflijo;</l>
+            <l>porque si de aquesta suerte,</l>
+            <l>que olvide a Eusebio desea,</l>
+            <l n="485">antes que monja me vea,</l>
+            <l>yo misma me daré muerte.</l>
+          </sp>
+          <stage>Sale EUSEBIO.</stage>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <stage>Aparte.</stage>
+            <l>Ninguno tan atrevido,</l>
+            <l>si no tan desesperado,</l>
+            <l>viene a tomar por sagrado</l>
+            <l n="490">la casa del ofendido.</l>
+            <l>Antes que sepa la muerte</l>
+            <l>de Lisardo, Julia bella,</l>
+            <l>hablar quisiera con ella,</l>
+            <l>porque a mi tirana suerte</l>
+            <l n="495">algún remedio consigo</l>
+            <l>si, ignorando mi rigor,</l>
+            <l>puede obligarle el amor</l>
+            <l>a que se vaya conmigo;</l>
+            <l>y cuando llegue a saber</l>
+            <l n="500">de Lisardo el hado injusto,</l>
+            <l>hará de la fuerza gusto</l>
+            <l>mirándose en mi poder.)</l>
+            <l part="I">Hermosa Julia.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">¿Qué es esto?</l>
+            <l part="I">¿Tú en esta casa?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">El rigor</l>
+            <l n="505">de mi desdicha y tu amor</l>
+            <l>en tal peligro me ha puesto.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Pues ¿cómo has entrado aquí</l>
+            <l>y emprendes tan loco extremo?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Como la muerte no temo...</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l n="510">¿Qué es lo que intentas así?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Hoy obligarte deseo,</l>
+            <l>Julia, porque agradecida</l>
+            <l>des a mi amor nueva vida,</l>
+            <l>nueva gloria a mi deseo.</l>
+            <l n="515">Yo he sabido cuánto ofende</l>
+            <l>a tu padre mi cuidado,</l>
+            <l>que a su noticia ha llegado</l>
+            <l>nuestro amor, y que pretende</l>
+            <l>que tú recibas mañana</l>
+            <l n="520">el estado que desea,</l>
+            <l>para que mi dicha sea,</l>
+            <l>cuanto mi esperanza, vana.</l>
+            <l>Si ha sido gusto, si ha sido</l>
+            <l>amor el que me has mostrado,</l>
+            <l n="525">si es verdad que me has amado,</l>
+            <l>si es cierto que me has querido,</l>
+            <l>vente conmigo, pues ves</l>
+            <l>que no tiene resistencia</l>
+            <l>de tu padre la obediencia;</l>
+            <l n="530">deja tu casa, y después,</l>
+            <l>que habrá mil remedios piensa;</l>
+            <l>pues en mi poder es justo</l>
+            <l>que haga de la fuerza gusto,</l>
+            <l>y obligación de la ofensa.</l>
+            <l n="535">Villas tengo en que guardarte,</l>
+            <l>gente con que defenderte,</l>
+            <l>hacienda para ofrecerte,</l>
+            <l>y un alma para adorarte.</l>
+            <l>Si darme vida deseas,</l>
+            <l n="540">si es verdadero tu amor,</l>
+            <l>atrévete, o el dolor</l>
+            <l>hará que mi muerte veas.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="I">¡Oye, Eusebio!</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l part="F">Mi señor</l>
+            <l part="I">viene, señora.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">¡Ay de mí!</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="545">¿Pudiera hallar contra mí</l>
+            <l>la fortuna más rigor?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="I">¿Podrá salir?</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l part="F">No es posible</l>
+            <l>que se vaya, porque ya</l>
+            <l>llamando a la puerta está.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="I">¡Grave mal!</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="550" part="F">¡Pena terrible!</l>
+            <l part="I">¿Qué haré?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Esconderse es ya forzoso.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿Dónde?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">En aquese aposento.</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l>Presto, que sus pasos siento.</l>
+          </sp>
+          <stage>Escóndese EUSEBIO, y sale CURCIO, viejo venerable, padre de JULIA.</stage>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>Hija, si por el dichoso</l>
+            <l n="555">estado que tú codicias,</l>
+            <l>y que ya seguro tienes,</l>
+            <l>no das a mis parabienes</l>
+            <l>la vida, y alma en albricias,</l>
+            <l>del deseo que he tenido</l>
+            <l n="560">no agradeces el cuidado.</l>
+            <l>Todo queda efetuado,</l>
+            <l>y todo tan prevenido,</l>
+            <l>que solo falta ponerte</l>
+            <l>la más bizarra y hermosa,</l>
+            <l n="565">para ser de Cristo esposa,</l>
+            <l>¡mira que dichosa suerte!,</l>
+            <l>hoy aventajas a todas</l>
+            <l>cuantas saben envidiar,</l>
+            <l>pues te verán celebrar</l>
+            <l n="570">aquestas divinas bodas.</l>
+            <l part="I">¿Qué dices?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <stage>Aparte.</stage>
+            <l part="F">¿Qué puedo hacer?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <stage>Aparte.</stage>
+            <l>Yo me doy la muerte aquí,</l>
+            <l>si ella le dice que sí.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <stage>Aparte.</stage>
+            <l>No sé cómo responder.)</l>
+            <l n="575">Bien, señor, la autoridad</l>
+            <l>de padre, que es preferida,</l>
+            <l>imperio tiene en la vida,</l>
+            <l>pero no en la libertad.</l>
+            <l>¿Pues que supiera antes yo</l>
+            <l n="580">tu intento, no fuera bien?</l>
+            <l>¿Y que tú, señor, también</l>
+            <l part="I">supieras mi gusto?</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">No,</l>
+            <l>que sola mi voluntad,</l>
+            <l>en lo justo o en lo injusto</l>
+            <l n="585">has de tener por tu gusto.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Solo tiene libertad</l>
+            <l>un hijo para escoger</l>
+            <l>estado; que el hado impío</l>
+            <l>no fuerza el libre albedrío.</l>
+            <l n="590">Déjame pensar y ver</l>
+            <l>despacio eso, y no te espante</l>
+            <l>ver que término te pida,</l>
+            <l>que el estado de una vida</l>
+            <l>no se toma en un instante.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l n="595">Basta, que yo le he mirado,</l>
+            <l>y yo por ti he dado el sí.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Pues si tú vives por mí,</l>
+            <l>toma también el estado.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>¡Calla infame!, ¡Calla loca!;</l>
+            <l n="600">que haré de aquese cabello</l>
+            <l>un lazo para tu cuello,</l>
+            <l>o sacaré de tu boca</l>
+            <l>con mis manos la atrevida</l>
+            <l>lengua, que de oír me ofendo.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l n="605">La libertad te defiendo,</l>
+            <l>señor, pero no la vida.</l>
+            <l>Acaba su curso triste,</l>
+            <l>y acabará tu pesar;</l>
+            <l>que mal te puedo negar</l>
+            <l n="610">la vida que tú me diste:</l>
+            <l>la libertad que me dio</l>
+            <l>el cielo, es la que te niego.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>En este punto a creer llego</l>
+            <l>lo que el alma sospechó,</l>
+            <l n="615">que no fue buena tu madre,</l>
+            <l>y manchó mi honor alguno;</l>
+            <l>que hoy el error importuno,</l>
+            <l>ofende el honor de un padre</l>
+            <l>a quien el sol lo igualó</l>
+            <l n="620">con resplandor y belleza,</l>
+            <l>sangre, honor, lustre y nobleza.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Eso he entendido yo,</l>
+            <l>por eso no he respondido.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>Arminda, salte allá fuera.</l>
+            <stage>Vase ARMINDA.</stage>
+            <l n="625">Y ya que mi pena fiera</l>
+            <l>tantos años he tenido</l>
+            <l>secreta, de mis enojos</l>
+            <l>la ciega pasión obliga</l>
+            <l>a que la lengua te diga</l>
+            <l n="630">lo que te han dicho los ojos.</l>
+            <l>La señoría de Sena,</l>
+            <l>por dar a mi sangre fama,</l>
+            <l>en su nombre me envió</l>
+            <l>a dar la obediencia al Papa</l>
+            <l n="635">Urbano Tercio. Tu madre,</l>
+            <l>que con opinión de santa</l>
+            <l>fue en Sena común ejemplo</l>
+            <l>de las matronas romanas,</l>
+            <l>y aun de las nuestras (no sé</l>
+            <l n="640">cómo mi lengua la agravia;</l>
+            <l>mas, ¡ay infelice!, tanto</l>
+            <l>la satisfación engaña),</l>
+            <l>en Sena quedó, y yo estuve</l>
+            <l>en Roma con la embajada</l>
+            <l n="645">ocho meses, porque entonces</l>
+            <l>por concierto se trataba</l>
+            <l>que esta señoría fuese</l>
+            <l>del Pontífice: Dios haga</l>
+            <l>lo que a su estado convenga,</l>
+            <l n="650">que aquí importa poco, o nada.</l>
+            <l>Volví a Sena, y hallé en ella...</l>
+            <l>Aquí el aliento me falta,</l>
+            <l>aquí la lengua enmudece,</l>
+            <l>aquí el ánimo desmaya.</l>
+            <l n="655">Hallé, ¡ay injusto temor!,</l>
+            <l>a tu madre tan preñada,</l>
+            <l>que para el infame parto</l>
+            <l>cumplía las nueve faltas.</l>
+            <l>Ya me había prevenido</l>
+            <l n="660">por sus mentirosas cartas</l>
+            <l>esta desdicha, diciendo</l>
+            <l>que, cuando me fui, quedaba</l>
+            <l>con sospecha; y yo la tuve</l>
+            <l>de mi deshonra tan clara,</l>
+            <l n="665">que discurriendo en mi agravio</l>
+            <l>imaginé mi desgracia.</l>
+            <l>No digo que verdad sea,</l>
+            <l>pero quien nobleza trata,</l>
+            <l>no ha de aguardar a creer</l>
+            <l n="670">que el imaginar le basta.</l>
+            <l>¿Qué importa que un noble sea</l>
+            <l>desdichado, (¡oh ley tirana</l>
+            <l>de honor!, ¡oh bárbaro fuero</l>
+            <l>del mundo!), si la ignorancia</l>
+            <l n="675">le disculpa? Mienten, mienten</l>
+            <l>las leyes; porque no alcanza</l>
+            <l>los misterios al efeto</l>
+            <l>quien no previene la causa.</l>
+            <l>¿Qué ley culpa a un inocente?</l>
+            <l n="680">¿Qué opinión a un libre agravia?</l>
+            <l>Miente otra vez; que no es</l>
+            <l>deshonra, sino desgracia.</l>
+            <l>¡Bueno es que en leyes de honor</l>
+            <l>le comprenda tanta infamia,</l>
+            <l n="685">al Mercurio que le roba,</l>
+            <l>como al Argos que le guarda!</l>
+            <l>¿Qué deja el mundo, qué deja,</l>
+            <l>si así al inocente infama,</l>
+            <l>de deshonra para aquel,</l>
+            <l n="690">que lo sabe y que lo calla?</l>
+            <l>Yo entre tantos pensamientos,</l>
+            <l>yo entre confusiones tantas,</l>
+            <l>ni vi regalo en la mesa,</l>
+            <l>ni hice descanso en la cama.</l>
+            <l n="695">Tan desabrido conmigo</l>
+            <l>estuve, que me trataba</l>
+            <l>como ajeno el corazón,</l>
+            <l>y como a tirano el alma.</l>
+            <l>Y aunque a veces discurría</l>
+            <l n="700">en su abono, y aunque hallaba</l>
+            <l>verosímil la disculpa,</l>
+            <l>pudo en mí tanto la instancia</l>
+            <l>del temor que me ofendía,</l>
+            <l>que con saber que fue casta,</l>
+            <l n="705">tomé de mis pensamientos,</l>
+            <l>no de sus culpas, venganza.</l>
+            <l>Y porque con más secreto</l>
+            <l>fuese, previne una caza</l>
+            <l>fingida, porque a un celoso</l>
+            <l n="710">solo lo fingido agrada.</l>
+            <l>Al monte fui, y cuando todos</l>
+            <l>entretenidos estaban</l>
+            <l>en su alegre regocijo,</l>
+            <l>con amorosas palabras,</l>
+            <l n="715">(¡qué bien las dice quien miente!,</l>
+            <l>¡qué bien las cree quien ama!),</l>
+            <l>llevé a Rosmira, su madre,</l>
+            <l>por una senda apartada</l>
+            <l>del camino, y divertida</l>
+            <l n="720">llegó a una secreta estancia</l>
+            <l>deste monte, a cuyo albergue</l>
+            <l>el sol ignora la entrada,</l>
+            <l>porque se la defendían</l>
+            <l>rústicamente enlazadas,</l>
+            <l n="725">por no decir que amorosas,</l>
+            <l>árboles, hojas y ramas.</l>
+            <l>Aquí, pues, donde apenas</l>
+            <l>huella imprimió mortal planta,</l>
+            <l part="I">solos los dos...</l>
+          </sp>
+          <stage>Sale ARMINDA.</stage>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l part="F">Si el valor</l>
+            <l n="730">que el noble pecho acompaña,</l>
+            <l>señor, y si la experiencia</l>
+            <l>que te han dado honrosas canas,</l>
+            <l>en la desdicha presente</l>
+            <l>no te niega o no te falta,</l>
+            <l n="735">examen será el valor</l>
+            <l part="I">de tu ánimo.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">¿Qué causa</l>
+            <l>te obliga a que así interrompas</l>
+            <l part="I">mi razón?</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l part="M">Señor...</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">Acaba,</l>
+            <l>que más la duda ofende.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l n="740">¿Por qué te suspendes? Habla.</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l>No quisiera ser la voz</l>
+            <l>de mi pena y tu desgracia.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>No temas decirla tú,</l>
+            <l>pues yo no temo escuchalla.</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l n="745">A Lisardo, mi señor...</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <stage>Aparte.</stage>
+            <l>Esto solo me faltaba.</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l>...bañado en su sangre traen</l>
+            <l>en una silla por andas,</l>
+            <l>cuatro rústicos pastores,</l>
+            <l n="750">muerto (¡ay Dios!) a puñaladas;</l>
+            <l>mas ya a tu presencia llega:</l>
+            <l part="I">no le veas.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">¡Cielos! ¿Tantas</l>
+            <l>penas para un desdichado?</l>
+            <l part="I">¡Ay de mí!</l>
+          </sp>
+          <stage>Salen los villanos con LISARDO en una silla, ensangrentado el rostro.</stage>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Pues ¿qué inhumana</l>
+            <l n="755">fuerza ensangrentó la ira</l>
+            <l>en su pecho? ¿Qué tirana</l>
+            <l>mano se bañó en mi sangre,</l>
+            <l>contra su inocencia airada?</l>
+            <l part="I">¡Ay de mí!</l>
+          </sp>
+          <sp who="#arminda">
+            <speaker>ARMINDA</speaker>
+            <l part="F">Mira señora...</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l part="I">No llegues a verle.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l n="760" part="F">Aparta.</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l part="I">Detente, señor.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">Octavio,</l>
+            <l>no puede sufrirlo el alma.</l>
+            <l>Dejadme ver ese cadáver frío,</l>
+            <l>depósito infeliz de heladas venas,</l>
+            <l n="765">ruina del tiempo, estrago del impío</l>
+            <l>hado, teatro funesto de mis penas;</l>
+            <l>¿Qué tirano rigor, ¡ay hijo mío!,</l>
+            <l>trágico monumento en las arenas</l>
+            <l>construyó porque hiciese en quejas vanas</l>
+            <l n="770">mortaja triste de mis blancas canas?</l>
+            <l>¡Ay, amigos! Decid: ¿quién fue homicida</l>
+            <l>de un hijo en cuya vida yo animaba?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Gil lo dirá, que al verle dar la herida,</l>
+            <l>oculto en unos árboles estaba.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l n="775">Di, amigo, di, ¿quién me quitó esta vida?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Yo solo sé que Eusebio le llamaba,</l>
+            <l part="I">cuando con él reñía.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">¿Hay más deshonra?</l>
+            <l>Eusebio me ha quitado vida y honra.</l>
+            <stage>A JULIA.</stage>
+            <l>Disculpa agora tú de sus crüeles</l>
+            <l n="780">deseos la ambición; di que concibe</l>
+            <l>casto amor, pues a falta de papeles,</l>
+            <l>lascivos gustos con su sangre escribe.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="I">Señor...</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">No me respondas como sueles;</l>
+            <l>a tomar estado te apercibe,</l>
+            <l n="785">o apercibe también a tu hermosura,</l>
+            <l>con Lisardo temprana sepultura.</l>
+            <l>Los dos a un tiempo el sentimiento esquivo,</l>
+            <l>en este día sepultar concierta,</l>
+            <l>él muerto al mundo, en mi memoria vivo,</l>
+            <l n="790">tú, viva al mundo, en mi memoria muerta.</l>
+            <l>Y en tanto que el entierro os apercibo,</l>
+            <l>porque no huyas cerraré esta puerta;</l>
+            <l>queda con él, porque de aquesa suerte</l>
+            <l>liciones al morir te dé su muerte.</l>
+          </sp>
+          <stage>Vanse todos, y queda JULIA en medio de LISARDO y EUSEBIO, que sale por otra puerta.</stage>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l n="795">Mil veces procuro hablarte,</l>
+            <l>tirano Eusebio, y mil veces</l>
+            <l>el alma duda, el aliento</l>
+            <l>falta, y la lengua enmudece.</l>
+            <l>No sé, no sé cómo pueda</l>
+            <l n="800">hablar, porque a un tiempo vienen</l>
+            <l>envueltas iras piadosas</l>
+            <l>entre verdades crüeles.</l>
+            <l>Quisiera cerrar los ojos</l>
+            <l>a aquesta sangre inocente</l>
+            <l n="805">que está pidiendo venganza</l>
+            <l>desperdiciando claveles.</l>
+            <l>Y quisiera hallar disculpa</l>
+            <l>en las lágrimas que viertes,</l>
+            <l>que al fin heridas y ojos</l>
+            <l n="810">son bocas que nunca mienten.</l>
+            <l>Y en una mano el amor,</l>
+            <l>y en otra el rigor presente,</l>
+            <l>quisiera a un tiempo, quisiera</l>
+            <l>castigarte y defenderte.</l>
+            <l n="815">Y entre ciegas confusiones</l>
+            <l>de pensamientos tan fuertes,</l>
+            <l>la clemencia me combate,</l>
+            <l>el sentimiento me vence.</l>
+            <l>¿Desta suerte solicitas</l>
+            <l n="820">obligarme?, ¿desta suerte,</l>
+            <l>Eusebio, en vez de finezas</l>
+            <l>con crueldades me pretendes?</l>
+            <l>Cuando de mi boda el día</l>
+            <l>resuelta espera, ¡quieres</l>
+            <l n="825">que en vez de apacibles bodas,</l>
+            <l>tristes obsequias celebre!</l>
+            <l>Cuando por tu gusto era</l>
+            <l>a mi padre inobediente,</l>
+            <l>¡funestos lutos me das,</l>
+            <l n="830">en vez de galas alegres!</l>
+            <l>Cuando, arriesgando mi vida,</l>
+            <l>hice posible el quererte,</l>
+            <l>¡en vez de tálamo, (¡ay cielos!)</l>
+            <l>un sepulcro me previenes!</l>
+            <l n="835">Y cuando mi mano ofrezco,</l>
+            <l>despreciando inconvenientes,</l>
+            <l>de honor, ¡la tuya bañada</l>
+            <l>en mi sangre me la ofreces!</l>
+            <l>¿Qué gusto tendré en tus brazos,</l>
+            <l n="840">si para llegar a verme,</l>
+            <l>dando vida a nuestro amor,</l>
+            <l>voy tropezando en la muerte?</l>
+            <l>¿Qué dirá el mundo de mí,</l>
+            <l>sabiendo que tengo siempre,</l>
+            <l n="845">si no presente el agravio,</l>
+            <l>quien le cometió presente?</l>
+            <l>Pues cuando quiera el olvido</l>
+            <l>sepultarle, solo el verte</l>
+            <l>entre mis brazos será</l>
+            <l n="850">memoria con que me acuerde.</l>
+            <l>Yo entonces, yo, aunque te adore,</l>
+            <l>los amorosos placeres</l>
+            <l>trocaré en iras, pidiendo</l>
+            <l>venganzas, pues ¿cómo quieres,</l>
+            <l n="855">que viva sujeta un alma</l>
+            <l>a efetos tan diferentes</l>
+            <l>que esté esperando el castigo,</l>
+            <l>deseando que no llegue?</l>
+            <l>Basta, por lo que te quise,</l>
+            <l n="860">perdonarte, sin que esperes</l>
+            <l>verme en tu vida, ni hablarme.</l>
+            <l>Esa ventana, que tiene</l>
+            <l>salida al jardín, podrá</l>
+            <l>darte paso; por ahí puedes</l>
+            <l n="865">escaparte; huye el peligro,</l>
+            <l>porque, si mi padre viene</l>
+            <l>no te halle aquí. Vete, Eusebio,</l>
+            <l>y mira que no te acuerdes</l>
+            <l>de mí, que hoy me pierdes tú,</l>
+            <l n="870">porque quisiste perderme.</l>
+            <l>Vete, y vive tan dichoso,</l>
+            <l>que tengas felicemente</l>
+            <l>bienes, sin que a los pesares</l>
+            <l>pagues pensión de los bienes.</l>
+            <l n="875">Que yo haré para mi vida</l>
+            <l>una celda, prisión breve,</l>
+            <l>si no sepulcro, pues ya</l>
+            <l>mi padre enterrarme quiere.</l>
+            <l>Allí lloraré desdichas</l>
+            <l n="880">de un hado tan inclemente,</l>
+            <l>de una fortuna tan fiera,</l>
+            <l>de una inclinación tan fuerte,</l>
+            <l>de un planeta tan opuesto,</l>
+            <l>de una estrella tan rebelde,</l>
+            <l n="885">de un amor tan desdichado,</l>
+            <l>de una mano tan aleve,</l>
+            <l>que me ha quitado la vida</l>
+            <l>y no me ha dado la muerte,</l>
+            <l>porque entre tantos pesares</l>
+            <l n="890">siempre viva y muera siempre.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Si acaso más que tus voces,</l>
+            <l>son ya tus manos crüeles,</l>
+            <l>para tomar la venganza,</l>
+            <l>rendido a tus pies me tienes.</l>
+            <l n="895">Preso me trae mi delito,</l>
+            <l>tu amor es la cárcel fuerte,</l>
+            <l>las cadenas son mis yerros,</l>
+            <l>prisiones que el alma teme.</l>
+            <l>Verdugo es mi pensamiento,</l>
+            <l n="900">si son tus ojos los jueces,</l>
+            <l>y ellos me dan la sentencia,</l>
+            <l>por fuerza será de muerte.</l>
+            <l>Mas diga entonces la fama</l>
+            <l>en su pregón: «Este muere</l>
+            <l n="905">porque quiso», pues que solo</l>
+            <l>es mi delito quererte.</l>
+            <l>No pienso darte disculpa,</l>
+            <l>no parezca que la tiene</l>
+            <l>tan grande error; solo quiero</l>
+            <l n="910">que me mates y te vengues.</l>
+            <l>Toma esta daga, y con ella</l>
+            <l>rompe un pecho que te ofende,</l>
+            <l>saca un alma que te adora,</l>
+            <l>y tu misma sangre vierte.</l>
+            <l n="915">Y si no quieres matarme,</l>
+            <l>para que a vengarse llegue</l>
+            <l>tu padre, diré que estoy</l>
+            <l part="I">en tu aposento.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">¡Detente!</l>
+            <l>Y por última razón,</l>
+            <l n="920">que he de hablarte eternamente,</l>
+            <l>¿has de hacer lo que te digo?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">Yo lo concedo.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Pues vete</l>
+            <l>adonde guardes tu vida.</l>
+            <l>Hacienda tienes, y gente</l>
+            <l n="925">que la podrá defender.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Mejor será que yo quede</l>
+            <l>sin ella; porque si vivo,</l>
+            <l>será imposible que deje</l>
+            <l>de adorarte, y no has de estar,</l>
+            <l n="930">aunque un convento te encierre,</l>
+            <l part="I">segura.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Guárdate tú,</l>
+            <l>que yo sabré defenderme.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿Volveré yo a verte?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">No.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿No hay remedio?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">No le esperes.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="935">¿Que al fin me aborreces ya?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Haré por aborrecerte.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿Olvidarasme?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">No sé.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿Verete yo?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Eternamente.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Pues ¿aquel pasado amor...?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l n="940">Pues ¿esta sangre presente...?</l>
+            <l>La puerta abren; vete, Eusebio.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Iré por obedecerte.</l>
+            <l>¡Que no he de volver a verte!</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>¡Que no has de volver a verme!</l>
+          </sp>
+          <stage>Ruido dentro, vanse cada uno por su puerta y llevan el cuerpo.</stage>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <div type="scene">
+          <head>Jornada II</head>
+          <stage>Ruido de arcabuces, salen RICARDO, CELIO y EUSEBIO de bandoleros con arcabuces.</stage>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>Pasó el plomo ardiente</l>
+            <l part="I">el pecho.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="F">Y hace el golpe más violento,</l>
+            <l>que con su sangre la tragedia imprima</l>
+            <l part="I">en tierna flor.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Ponle una cruz encima,</l>
+            <l part="I">y perdónele Dios.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l n="5" part="F">Las devociones</l>
+            <l>nunca faltan del todo a los ladrones.</l>
+            <stage>Vase RICARDO.</stage>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Y pues mis hados fïeros</l>
+            <l>me traen a capitán de bandoleros,</l>
+            <l>llegarán mis delitos</l>
+            <l n="10">a ser, como mis penas, infinitos.</l>
+            <l>Como si diera muerte</l>
+            <l>a Lisardo a traición, de aquesta suerte</l>
+            <l>mi patria me persigue,</l>
+            <l>porque su furia y mi despecho obligue</l>
+            <l n="15">a que guarde una vida,</l>
+            <l>siendo de tantas bárbaro homicida.</l>
+            <l>Mi hacienda me han quitado,</l>
+            <l>mis villas confiscado,</l>
+            <l>y a tanto rigor llegan,</l>
+            <l n="20">que el sustento me niegan;</l>
+            <l>y pues le he de buscar desesperado,</l>
+            <l>no toque pasajero</l>
+            <l>el término del monte, si primero</l>
+            <l>no rinde hacienda y vida.</l>
+          </sp>
+          <stage>Salen con ALBERTO, viejo.</stage>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l n="25">Llegando a ver la boca de la herida,</l>
+            <l>escucha, capitán, el más extraño</l>
+            <l part="I">suceso.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Ya deseo el desengaño.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>Hallé el plomo deshecho</l>
+            <l>en este libro que tenía en el pecho,</l>
+            <l n="30">sin haber penetrado,</l>
+            <l>y al caminante solo desmayado:</l>
+            <l>vesle aquí sano y bueno.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>De espanto estoy y admiraciones lleno.</l>
+            <l>¿Quién eres, venerable</l>
+            <l n="35">caduco, a quien los cielos admirable</l>
+            <l>han hecho con prodigio milagroso?</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l>Yo soy, ¡oh capitán!, el más dichoso</l>
+            <l>de cuantos hombres hay, que ha merecido</l>
+            <l>ser sacerdote indigno; yo he leído</l>
+            <l n="40">en Bolonia sagrada teología</l>
+            <l>cuarenta y cuatro años.</l>
+            <l>Su Santidad me daba</l>
+            <l>de Trento el obispado,</l>
+            <l>premio de mis estudios; y admirado</l>
+            <l n="45">de ver que yo tenía</l>
+            <l>cuenta de tantas almas,</l>
+            <l>y que apenas la daba de la mía,</l>
+            <l>los laureles dejé, dejé las palmas,</l>
+            <l>y huyendo sus engaños</l>
+            <l n="50">vengo a buscar seguros desengaños</l>
+            <l>en estas soledades,</l>
+            <l>donde viven desnudas las verdades.</l>
+            <l>Paso a Roma, a que el Papa me conceda</l>
+            <l>licencia, capitán, para que pueda</l>
+            <l n="55">fundar un orden santo de eremitas,</l>
+            <l>mas tu saña atrevida</l>
+            <l>quita el hilo a mi suerte, y a la vida.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿Qué libro es este?</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="F">Este es el fruto,</l>
+            <l>que rinde a mis estudios el tributo</l>
+            <l part="I">de tantos años.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="60" part="F">¿Qué es lo que contiene?</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l>Él trata del origen verdadero</l>
+            <l>de aquel divino y celestial madero;</l>
+            <l>el libro, al fin, se llama,</l>
+            <l part="I"><emph>Milagros de la Cruz</emph>.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">¡Qué bien la llama</l>
+            <l n="65">de aquel plomo inclemente,</l>
+            <l>más que la cera se mostró obediente!</l>
+            <l>¡Pluguiera Dios, mi mano,</l>
+            <l>antes que blanco su papel hiciera,</l>
+            <l>de aquel golpe tirano,</l>
+            <l n="70">entre su fuego ardiera!</l>
+            <l>Lleva ropa y dinero,</l>
+            <l>y la vida; solo este libro quiero.</l>
+            <l>Y vosotros salilde acompañando</l>
+            <l part="I">hasta dejarle libre.</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="F">Iré rogando</l>
+            <l n="75">al Señor te dé luz para que veas</l>
+            <l part="I">el error en que vives.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Si deseas</l>
+            <l>mi bien, pídele a Dios que no permita</l>
+            <l part="I">muera sin confesión.</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="F">Yo te prometo,</l>
+            <l>seré ministro en tan piadoso efeto,</l>
+            <l n="80">y te doy mi palabra,</l>
+            <l>(tanto en mi pecho tu clemencia labra),</l>
+            <l>que si me llamas en cualquiera parte,</l>
+            <l>dejaré mi desierto</l>
+            <l>por ir a confesarte:</l>
+            <l n="85">un sacerdote soy; mi nombre, Alberto.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿Tal palabra me das?</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="F">Y la confieso</l>
+            <l part="I">con la mano.</l>
+          </sp>
+          <stage>Vase, y sale CHILINDRINA, bandolero.</stage>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Otra vez tus plantas beso.</l>
+          </sp>
+          <sp who="#chilindrina">
+            <speaker>CHILINDRINA</speaker>
+            <l>Hasta venir a hablarte</l>
+            <l>el monte atravesé de parte a parte.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿Qué hay, amigo?</l>
+          </sp>
+          <sp who="#chilindrina">
+            <speaker>CHILINDRINA</speaker>
+            <l n="90" part="F">Dos nuevas harto malas.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>A mi temor el sentimiento igualas.</l>
+            <l part="I">¿Qué son?</l>
+          </sp>
+          <sp who="#chilindrina">
+            <speaker>CHILINDRINA</speaker>
+            <l part="F">Es la primera,</l>
+            <l>(decirla no quisiera),</l>
+            <l>que al padre de Lisardo</l>
+            <l part="I">han dado...</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="95" part="F">Acaba, que el efeto aguardo.</l>
+          </sp>
+          <sp who="#chilindrina">
+            <speaker>CHILINDRINA</speaker>
+            <l>...comisión de prenderte o de matarte.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Esotra nueva temo</l>
+            <l>más, porque con un confuso extremo</l>
+            <l>al corazón parece que camina</l>
+            <l n="100">toda el alma, adivina</l>
+            <l>de algún futuro daño.</l>
+            <l part="I">¿Qué ha sucedido?</l>
+          </sp>
+          <sp who="#chilindrina">
+            <speaker>CHILINDRINA</speaker>
+            <l part="M">A Julia...</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">No me engaño</l>
+            <l>en prevenir tristezas,</l>
+            <l>si para ver mi mal por Julia empiezas.</l>
+            <l n="105">¿Julia no me dijiste?</l>
+            <l>Pues eso basta para verme triste.</l>
+            <l>¡Mal haya amén la rigurosa estrella,</l>
+            <l>que me obligó a querella!</l>
+            <l>En fin, Julia..., prosigue.</l>
+          </sp>
+          <sp who="#chilindrina">
+            <speaker>CHILINDRINA</speaker>
+            <l n="110">En un convento seglar está.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>¡Que el cielo me castigue</l>
+            <l>con tan grandes venganzas,</l>
+            <l>de perdidos deseos,</l>
+            <l>de muertas esperanzas,</l>
+            <l n="115">que de los mismos cielos,</l>
+            <l>por quien me deja vengo a tener celos!</l>
+            <l>Mas ya tan atrevido,</l>
+            <l>que viviendo matando,</l>
+            <l>me sustento robando:</l>
+            <l n="120">no puedo ser peor de lo que he sido.</l>
+            <l>Despéñese el intento,</l>
+            <l>pues ya se ha despeñado el pensamiento.</l>
+            <l part="I">Llama a Celio, y Ricardo.</l>
+            <stage>Aparte.</stage>
+            <l part="F">¡Amando muero!</l>
+          </sp>
+          <sp who="#chilindrina">
+            <speaker>CHILINDRINA</speaker>
+            <l part="I">Yo voy por él.</l>
+            <stage>Vase.</stage>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Ve, y dile que aquí espero:</l>
+            <l n="125">asaltaré el convento que la guarda.</l>
+            <l>Ningún grave castigo me acobarda,</l>
+            <l>que por verme señor de su hermosura,</l>
+            <l>tirano amor me fuerza</l>
+            <l>a acometer la fuerza,</l>
+            <l n="130">a romper la clausura</l>
+            <l>y a violar el sagrado;</l>
+            <l>que ya del todo estoy desesperado;</l>
+            <l>pues si no me pusiera</l>
+            <l>amor en tales puntos,</l>
+            <l n="135">solamente lo hiciera</l>
+            <l>por cometer tantos delitos juntos.</l>
+          </sp>
+          <stage>Salen GIL y MENGA.</stage>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Mas ¿qué topamos con él,</l>
+            <l>según mezquina nací?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Menga, ¿yo no voy aquí?</l>
+            <l n="140">No temas ese crüel</l>
+            <l>capitán de buñuleros,</l>
+            <l>ni el toparlos te alborote,</l>
+            <l>que honda llevo yo, y garrote.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Temo, Gil, sus hechos fieros,</l>
+            <l n="145">si no, a Silvia a mirar ponte</l>
+            <l>cuando aquí la acometió,</l>
+            <l>que doncella al monte entró,</l>
+            <l>y dueña salió del monte,</l>
+            <l>que no es peligro pequeño.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="150">Conmigo fuera cruel,</l>
+            <l>que también entro doncel,</l>
+            <l>y pudiera salir dueño.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <stage>A EUSEBIO.</stage>
+            <l>¡Ah, señor, que va perdido,</l>
+            <l>que anda Eusebio por aquí!</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="155">No eche, señor, por ahí.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <stage>Aparte.</stage>
+            <l>Estos no me han conocido,</l>
+            <l>y quiero disimular.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿Quiere que aquese ladrón</l>
+            <l part="I">le mate?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <stage>Aparte.</stage>
+            <l part="F">Villanos son.)</l>
+            <l n="160">¿Con qué podré yo pagar</l>
+            <l part="I">ese aviso?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">Con hüir</l>
+            <l part="I">de ese bellaco.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="F">Si os coge,</l>
+            <l>señor, aunque no le enoje</l>
+            <l>ni vuestro hacer ni decir,</l>
+            <l n="165">luego os matará; y creed</l>
+            <l>que con poner tras la ofensa</l>
+            <l>una cruz encima, piensa</l>
+            <l>que os hace mucha merced.</l>
+          </sp>
+          <stage>Salen RICARDO y CELIO.</stage>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="I">¿Dónde le dejaste?</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="F">Aquí.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="170">Es un ladrón, no le esperes.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>Eusebio, ¿qué es lo que quieres?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="I">¿Eusebio le llamó?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Eusebio soy, ¿pues qué os mueve</l>
+            <l>contra mí? ¿no hay quien responda?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l n="175">Gil, ¿tienes garrote y honda?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Tengo el diablo que te lleve.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l>Por los apacibles llanos</l>
+            <l>que hace del monte la falda,</l>
+            <l>a quien guarda el mar la espalda,</l>
+            <l n="180">vi un escuadrón de villanos</l>
+            <l>que armado contra ti viene,</l>
+            <l>y pienso que se avecina;</l>
+            <l>que así Curcio determina</l>
+            <l>la venganza que previene.</l>
+            <l n="185">Mira qué piensas hacer,</l>
+            <l>junta tu gente, y partamos.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Mejor es que agora huyamos,</l>
+            <l>que esta noche hay más que hacer.</l>
+            <l>Venid conmigo los dos,</l>
+            <l n="190">de quien justamente fío</l>
+            <l>la opinión y el honor mío.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>Muy bien puedes, que por Dios,</l>
+            <l>que he de morir a tu lado.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Villanos, vida tenéis</l>
+            <l n="195">solo porque le llevéis</l>
+            <l>a mi enemigo un recado.</l>
+            <l>Decid a Curcio que yo</l>
+            <l>con tanta gente atrevida,</l>
+            <l>solo defiendo la vida,</l>
+            <l n="200">pero que le busco, no.</l>
+            <l>Y que no tiene ocasión</l>
+            <l>de buscarme desta suerte,</l>
+            <l>pues no di a Lisardo muerte</l>
+            <l>con engaño o con traición.</l>
+            <l n="205">Cuerpo a cuerpo le maté,</l>
+            <l>sin ventaja conocida,</l>
+            <l>y antes de acabar la vida</l>
+            <l>en mis brazos le llevé</l>
+            <l>adonde se confesó,</l>
+            <l n="210">digna acción para estimarse;</l>
+            <l>mas que si quiere vengarse,</l>
+            <l>que he de defenderme yo.</l>
+            <stage>A los bandoleros.</stage>
+            <l>Y agora, porque no vean</l>
+            <l>aquestos por donde vamos,</l>
+            <l n="215">ataldos entre estos ramos;</l>
+            <l>paredes sus ojos sean,</l>
+            <l part="I">porque no avisen.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="F">Aquí</l>
+            <l part="I">hay cordel.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="F">Pues llega presto.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>De San Sebastián me han puesto.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l n="220">De San Sebastián a mí,</l>
+            <l>mas ate cuanto quisiere,</l>
+            <l>señor, como no me mate.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Oye, señor, no me ate,</l>
+            <l>y puto sea yo si huyere.</l>
+            <l n="225">Jura tú, Menga, también</l>
+            <l>este mismo juramento.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="I">Ya están atados.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Mi intento</l>
+            <l>se va ejecutando bien.</l>
+            <l>La noche amenaza oscura</l>
+            <l n="230">tendiendo su negro velo.</l>
+            <l>Julia, aunque te guarde el cielo,</l>
+            <l>he de gozar tu hermosura.</l>
+          </sp>
+          <stage>Vanse.</stage>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿Quién habrá que agora nos vea,</l>
+            <l>Menga, aunque caro nos cueste,</l>
+            <l n="235">que no diga que es aqueste</l>
+            <l>Peralvillo del Aldea?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Vete llegando hacia aquí,</l>
+            <l>Gil, que yo no puedo andar.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Menga, venme a desatar,</l>
+            <l n="240">y yo te desataré a ti</l>
+            <l part="I">luego al punto.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="F">Ven primero</l>
+            <l>tú, que ya estas importuno.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿Es decir, que vendrá alguno?</l>
+            <l>Pondré que falta un arriero</l>
+            <l n="245">las tres ánades cantando,</l>
+            <l>un caminante pidiendo,</l>
+            <l>un estudiante comiendo,</l>
+            <l>una santera rezando,</l>
+            <l>hoy en aqueste camino,</l>
+            <l n="250">lo que a ninguno faltó,</l>
+            <l>mas la culpa tengo yo.</l>
+          </sp>
+          <sp who="#una-voz">
+            <speaker>[UNA VOZ]</speaker>
+            <stage>Dentro.</stage>
+            <l>Hacia esta parte imagino</l>
+            <l>que oigo voces, llegad presto.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Señor, en buen hora acuda</l>
+            <l n="255">a desatar una duda</l>
+            <l>en que ha rato que estoy puesto.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Si acaso buscáis, señor,</l>
+            <l>por el monte algún cordel,</l>
+            <l>yo os puedo servir con él.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="260">Este es más gordo y mijor.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Yo, por ser mujer, espero</l>
+            <l>remedio en las ansias mías.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>No repare en cortesías,</l>
+            <l>desáteme a mí primero.</l>
+          </sp>
+          <stage>Salen CURCIO, TIRSO y OCTAVIO.</stage>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l n="265">Hacia aquesta parte suena</l>
+            <l part="I">la voz.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="M">¡Que te quemas!</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l part="F">Gil,</l>
+            <l part="I">¿qué es esto?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">El diablo es sutil;</l>
+            <l>desata, Tirso, y mi pena</l>
+            <l part="I">te diré después.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">¿Qué es esto?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l n="270">Venga en buen hora, señor,</l>
+            <l>a castigar un traidor.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>¿Quién desta suerte os ha puesto?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿Quién? Eusebio, que, en efeto,</l>
+            <l>dice... pero ¿qué sé yo</l>
+            <l n="275">lo que se dice? Él nos dejó</l>
+            <l>aquí en semejante aprieto.</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l>No llores, pues que no ha estado</l>
+            <l>hoy muy poco liberal</l>
+            <l part="I">contigo.</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l part="F">No lo ha hecho mal,</l>
+            <l n="280">pues a Menga te ha dejado.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¡Ay Tirso! No lloro yo</l>
+            <l>porque piadoso no fue.</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l part="I">¿Pues por qué lloras?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¿Por qué?</l>
+            <l>Porque a Menga se dejó.</l>
+            <l n="285">La de Antón llevó, y al cabo</l>
+            <l>de seis, que no parecía,</l>
+            <l>halló a su mujer un día;</l>
+            <l>hicimos un baile bravo</l>
+            <l>del hallazgo, y gastó cien reales.</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l n="290">¿Bartolo no se casó</l>
+            <l>con Catalina, y parió</l>
+            <l>a seis meses no cabales?</l>
+            <l>Y andaba con gran placer</l>
+            <l>diciendo: «¡Si tú le vieses!,</l>
+            <l n="295">lo que otra hace en nueve meses,</l>
+            <l>hace en cinco mi mujer».</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l>Ello, no hay honra segura.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>¡Que esto llegue a escuchar yo</l>
+            <l>deste tirano! ¿Quién vio</l>
+            <l n="300">tan notable desventura?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>Cómo destruirle piensa,</l>
+            <l>que hasta las mismas mujeres</l>
+            <l>tomaremos, si tú quieres,</l>
+            <l>las armas contra su ofensa.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="305">Aquí acude lo más cierto,</l>
+            <l>toda aquesta procesión</l>
+            <l>de cruces que miras son,</l>
+            <l>señor, de hombres que ha muerto.</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l>Es aquí lo más secreto,</l>
+            <l part="I">de todo el monte.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <stage>Aparte.</stage>
+            <l n="310" part="F">Y aquí</l>
+            <l>fue, ¡cielos!, donde yo vi</l>
+            <l>aquel milagroso efeto</l>
+            <l>de inocencia y castidad,</l>
+            <l>cuya beldad, atrevido,</l>
+            <l n="315">tantas veces he ofendido</l>
+            <l>con dudas, siendo verdad</l>
+            <l>un milagro tan patente.</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l>Señor, ¿qué nueva pasión</l>
+            <l>causa tu imaginación?</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l n="320">Rigores que el alma siente</l>
+            <l>son, Octavio, y mis enojos</l>
+            <l>para publicar mi mengua,</l>
+            <l>como los niego a la lengua,</l>
+            <l>me van saliendo a los ojos.</l>
+            <l n="325">Haz, Octavio, que me deje</l>
+            <l>solo esa gente que sigo,</l>
+            <l>porque aquí de mí y conmigo</l>
+            <l>hoy a los cielos me queje.</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l>Ea soldados, despejad.</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l part="I">¿Qué decís?</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l n="330" part="F">¿Qué pretendéis?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Despiojad, ¿no lo entendéis?,</l>
+            <l>que nos vamos a espulgar.</l>
+          </sp>
+          <stage>Vanse.</stage>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>¿A quién no habrá sucedido,</l>
+            <l>tal vez lleno de pesares,</l>
+            <l n="335">descansar consigo a solas,</l>
+            <l>por no descubrirse a nadie?</l>
+            <l>Yo, a quien tantos pensamientos</l>
+            <l>a un tiempo afligen, que hacen</l>
+            <l>con lágrimas y suspiros</l>
+            <l n="340">competencia al mar y al aire,</l>
+            <l>compañero de mí mismo</l>
+            <l>en las mudas soledades,</l>
+            <l>con la pensión de mis bienes</l>
+            <l>quiero divertir mis males.</l>
+            <l n="345">Ni las aves, ni las fuentes</l>
+            <l>sean testigos bastantes;</l>
+            <l>que al fin las fuentes murmuran</l>
+            <l>y tienen lenguas las aves.</l>
+            <l>No quiero más compañía</l>
+            <l n="350">de aquestos troncos salvajes,</l>
+            <l>que quien escucha y no aprende,</l>
+            <l>será fuerza que no hable.</l>
+            <l>Teatro este monte fue</l>
+            <l>del suceso más notable,</l>
+            <l n="355">que entre prodigios de celos</l>
+            <l>cuentan las antigüedades,</l>
+            <l>de una inocente verdad.</l>
+            <l>Pero ¿quién podrá librarse</l>
+            <l>de sospechas, en quien son</l>
+            <l n="360">mentirosas las verdades?</l>
+            <l>Muerte de amor son los celos,</l>
+            <l>que no perdonan a nadie,</l>
+            <l>ni por humilde le dejan,</l>
+            <l>ni le respetan por grave.</l>
+            <l n="365">Aquí, pues, donde yo digo,</l>
+            <l>Rosmira, y yo... De acordarme,</l>
+            <l>no es mucho que el alma tiemble,</l>
+            <l>no es mucho que la voz falte,</l>
+            <l>que no hay flor que no me asombre,</l>
+            <l n="370">no hay hoja que no me espante,</l>
+            <l>no hay piedra que no me admire,</l>
+            <l>tronco que no me acobarde,</l>
+            <l>peñasco que no me oprima,</l>
+            <l>monte que no me amenace;</l>
+            <l n="375">porque todos son testigos</l>
+            <l>de una hazaña tan infame.</l>
+            <l>Saqué al fin la espada, y ella,</l>
+            <l>sin temerme y sin turbarse,</l>
+            <l>porque en riesgos de honor nunca</l>
+            <l n="380">el inocente es cobarde:</l>
+            <l>«Esposo -dijo-, detente;</l>
+            <l>no digo que no me mates,</l>
+            <l>si es tu gusto, porque yo</l>
+            <l>¿cómo he de poder negarte</l>
+            <l n="385">la misma vida que es tuya?</l>
+            <l>Solo te pido que antes</l>
+            <l>me digas por lo que muero,</l>
+            <l>y déjame que te abrace».</l>
+            <l>Yo la dije: «En tus entrañas,</l>
+            <l n="390">como la víbora, traes</l>
+            <l>a quien te ha de dar la muerte.</l>
+            <l>Indicio ha sido bastante</l>
+            <l>el parto infame que esperas;</l>
+            <l>mas no lo verás, que antes,</l>
+            <l n="395">dándote muerte, seré</l>
+            <l>verdugo tuyo y de un ángel».</l>
+            <l>«Si acaso -me dijo entonces-,</l>
+            <l>si acaso, esposo, llegaste</l>
+            <l>a creer flaquezas mías,</l>
+            <l n="400">justo será que me mates.</l>
+            <l>Mas a esta cruz abrazada,</l>
+            <l>a esta que estaba delante,</l>
+            <l>-prosiguió-, doy por testigo</l>
+            <l>de que no supe agraviarte</l>
+            <l n="405">ni ofenderte, que ella sola</l>
+            <l>será justo que me ampare».</l>
+            <l>Bien quisiera entonces yo,</l>
+            <l>arrepentido, arrojarme</l>
+            <l>a sus pies, porque se vía</l>
+            <l n="410">su inocencia en su semblante.</l>
+            <l>El que intenta una traición</l>
+            <l>antes mire lo que hace,</l>
+            <l>porque una vez declarado,</l>
+            <l>aunque procure enmendarse,</l>
+            <l n="415">por decir que tuvo causa,</l>
+            <l>lo ha de llevar adelante.</l>
+            <l>Yo, pues, no porque dudaba</l>
+            <l>ser la disculpa bastante,</l>
+            <l>sino porque mi delito</l>
+            <l n="420">más amparado quedase,</l>
+            <l>el brazo levanté airado,</l>
+            <l>tirando por varias partes</l>
+            <l>mil heridas, pero solo</l>
+            <l>las ejecuté en el aire.</l>
+            <l n="425">Por muerta al pie de la cruz</l>
+            <l>quedó, y queriendo escaparme,</l>
+            <l>a casa llegué, y halléla</l>
+            <l>con más belleza que sale</l>
+            <l>el alba, cuando en sus brazos</l>
+            <l n="430">nos presenta el sol infante.</l>
+            <l>Ella en sus brazos tenía</l>
+            <l>a Julia, divina imagen</l>
+            <l>de hermosura y discreción,</l>
+            <l>(¿qué gloria puede igualarse</l>
+            <l n="435">a la mía?), que su parto</l>
+            <l>había sido aquella tarde</l>
+            <l>al mismo pie de la cruz;</l>
+            <l>y por divinas señales</l>
+            <l>con que al mundo descubría</l>
+            <l n="440">Dios un milagro tan grande,</l>
+            <l>la niña que había parido,</l>
+            <l>dichosa con señales tales,</l>
+            <l>tenía en el pecho una cruz</l>
+            <l>labrada de fuego y sangre.</l>
+            <l n="445">Pero que tanta ventura</l>
+            <l>templaba, que se quedase</l>
+            <l>otra criatura en el monte,</l>
+            <l>que ella, entre penas tan graves,</l>
+            <l>sintió haber parido dos;</l>
+            <l part="I">y yo entonces...</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l n="450" part="F">Por el valle</l>
+            <l>atraviesa un escuadrón</l>
+            <l>de bandoleros, y antes</l>
+            <l>que cierre la noche triste,</l>
+            <l>será bien, señor, que baje</l>
+            <l n="455">a buscarlos, no escurezca;</l>
+            <l>porque ellos el monte saben,</l>
+            <l part="I">y nosotros no.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">Pues junta</l>
+            <l>la gente vaya delante,</l>
+            <l>que no hay gloria para mí</l>
+            <l n="460">hasta llegar a vengarme.</l>
+          </sp>
+          <stage>Vanse y salen EUSEBIO, CELIO y RICARDO con una escala.</stage>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>Llega con silencio y pon</l>
+            <l>a esa parte las escalas.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Ícaro seré sin alas,</l>
+            <l>sin fuego seré Faetón,</l>
+            <l n="465">escalar al sol intento,</l>
+            <l>y si me quiere ayudar</l>
+            <l>la luz, tengo de pasar</l>
+            <l>más allá del firmamento.</l>
+            <l>Amor ser tirano enseña;</l>
+            <l n="470">en subiendo yo, quitad</l>
+            <l>esa escala y esperad</l>
+            <l>hasta que os haga una seña.</l>
+            <l>Quien subiendo se despeña,</l>
+            <l>suba yo y baje ofendido,</l>
+            <l n="475">en cenizas convertido;</l>
+            <l>que la pena del bajar,</l>
+            <l>no será parte a quitar</l>
+            <l>la gloria de haber subido.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="I">¿Qué esperas?</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="F">Pues ¿qué rigor</l>
+            <l n="480">tu altivo orgullo embaraza?</l>
+            <l>¿No veis cómo me amenaza</l>
+            <l part="I">un vivo fuego?</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="F">Señor,</l>
+            <l>fantasmas son del temor.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿Yo temor?</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="M">Sube.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Ya llego,</l>
+            <l n="485">aunque a tantos rayos ciego</l>
+            <l>por las llamas he de entrar,</l>
+            <l>que no podrá estorbar</l>
+            <l>de todo el infierno el fuego.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="I">Ya entró.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="F">Alguna fantasía</l>
+            <l n="490">de su mismo horror fundada,</l>
+            <l>en la idea acreditada,</l>
+            <l>o alguna ilusión sería.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="I">Quita la escala.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="F">Hasta el día</l>
+            <l>aquí le hemos de esperar.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l n="495">Atrevimiento fuera entrar,</l>
+            <l>aunque yo de mejor gana</l>
+            <l>me fuera con mi villana,</l>
+            <l>mas después habrá lugar.</l>
+          </sp>
+          <stage>Vanse, y sale EUSEBIO.</stage>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Por todo el convento he andado</l>
+            <l n="500">sin ser de nadie sentido,</l>
+            <l>y por cuanto he discurrido</l>
+            <l>de mi destino guiado,</l>
+            <l>a mil celdas he llegado</l>
+            <l>de religiosas, que abiertas</l>
+            <l n="505">tienen las estrechas puertas,</l>
+            <l>y en ninguna a Julia vi.</l>
+            <l>¿Dónde me lleváis así,</l>
+            <l>esperanzas siempre inciertas?</l>
+            <l>¡Qué horror! ¡Qué silencio mudo!</l>
+            <l n="510">¡Qué oscuridad tan funesta!</l>
+            <l>Luz hay aquí; celda es esta,</l>
+            <stage>Corre una cortina.</stage>
+            <l>y en ella Julia, ¿qué dudo?</l>
+            <l>¿Tan poco el valor ayudo,</l>
+            <l>que agora en hablalla tardo?</l>
+            <l n="515">¿Qué es lo que espero? ¿Qué aguardo?</l>
+            <l>Mas con impulso dudoso,</l>
+            <l>si me animo temeroso,</l>
+            <l>animoso me acobardo.</l>
+            <l>Más belleza la humildad</l>
+            <l n="520">deste traje la asegura,</l>
+            <l>que en la mujer la hermosura</l>
+            <l>es la misma honestidad.</l>
+            <l>Su peregrina beldad,</l>
+            <l>de mi torpe amor objeto,</l>
+            <l n="525">hace en mí mayor efeto;</l>
+            <l>que a un tiempo a mi amor incito,</l>
+            <l>con la hermosura, apetito;</l>
+            <l>con la honestidad, respeto.</l>
+            <l part="I">¡Julia! ¡Ah Julia!</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">¿Quién me nombra?</l>
+            <l n="530">Mas, ¡cielos!, ¿qué es lo que veo?</l>
+            <l>¿Eres sombra del deseo,</l>
+            <l>o del pensamiento sombra?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>¿Tanto el mirarme te asombra?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Pues ¿quién habrá que no intente</l>
+            <l part="I">huir de ti?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="535" part="F">Julia, detente.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>¿Qué quieres, forma fingida,</l>
+            <l>de la idea repetida?</l>
+            <l>¿Solo a la vista aparente,</l>
+            <l>eres, para pena mía,</l>
+            <l n="540">voz de la imaginación?,</l>
+            <l>¿retrato de la ilusión?,</l>
+            <l>¿cuerpo de la fantasía?,</l>
+            <l>¿fantasma en la noche fría?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Julia, escucha; Eusebio soy,</l>
+            <l n="545">que vivo a tus pies estoy;</l>
+            <l>que si el pensamiento fuera,</l>
+            <l>siempre contigo estuviera.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Desengañándome voy</l>
+            <l>con oírte, y considero</l>
+            <l n="550">que mi recato ofendido,</l>
+            <l>más te quisiera fingido,</l>
+            <l>Eusebio, que verdadero.</l>
+            <l>Donde yo llorando muero,</l>
+            <l>donde yo vivo penando,</l>
+            <l n="555">¿qué quieres? ¡Estoy temblando!</l>
+            <l>¿Qué buscas? ¡Estoy muriendo!</l>
+            <l>¿Qué emprendes? ¡Estoy temiendo!</l>
+            <l>¿Qué intentas? ¡Estoy dudando!</l>
+            <l>¿Cómo has llegado hasta aquí?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="560">Todo es extremos amor,</l>
+            <l>y mi pena y tu rigor</l>
+            <l>hoy han de triunfar de mí.</l>
+            <l>Hasta verte aquí sufrí</l>
+            <l>con esperanza segura;</l>
+            <l n="565">pero viendo tu hermosura</l>
+            <l>perdida, he atropellado</l>
+            <l>el respeto del sagrado,</l>
+            <l>y la ley de la clausura.</l>
+            <l>De lo cierto, o de lo injusto,</l>
+            <l n="570">los dos la culpa tenemos,</l>
+            <l>y en mí vienen dos extremos,</l>
+            <l>que son la fuerza y el gusto.</l>
+            <l>No puede darle disgusto</l>
+            <l>al cielo mi pretensión:</l>
+            <l n="575">antes desta ejecución</l>
+            <l>casada eras en secreto,</l>
+            <l>y no cabe en un sujeto</l>
+            <l>matrimonio y religión.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>No niego el lazo amoroso,</l>
+            <l n="580">que hizo con felicidades</l>
+            <l>unir a dos voluntades;</l>
+            <l>que fue su efeto forzoso,</l>
+            <l>que te llamé amado esposo</l>
+            <l>y que todo eso fue así,</l>
+            <l n="585">confieso; pero ya aquí,</l>
+            <l>con voto de religiosa,</l>
+            <l>a Cristo de ser su esposa</l>
+            <l>mano y palabra le di.</l>
+            <l>Ya soy suya, ¿qué me quieres?</l>
+            <l n="590">Vete, porque el mundo asombres,</l>
+            <l>donde mates a los hombres,</l>
+            <l>donde fuerces las mujeres.</l>
+            <l>Vete, Eusebio; ya no esperes</l>
+            <l>fruto de tu loco amor;</l>
+            <l n="595">para que te cause horror,</l>
+            <l>que estoy en sagrado piensa.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Cuanto es mayor tu defensa,</l>
+            <l>es mi apetito mayor.</l>
+            <l>Ya las paredes salté</l>
+            <l n="600">del convento, ya te vi;</l>
+            <l>no es amor quien vive en mí,</l>
+            <l>causa más oculta fue.</l>
+            <l>Cumple mi gusto, o diré</l>
+            <l>que tú misma me has llamado,</l>
+            <l n="605">que me has tenido encerrado</l>
+            <l>en tu celda muchos días,</l>
+            <l>y pues las desdichas mías</l>
+            <l>me tienen desesperado,</l>
+            <l part="I">daré voces: sepan...</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Tente,</l>
+            <l n="610">Eusebio, mira... ¡ay de mí!,</l>
+            <l>pasos siento por aquí,</l>
+            <l>al coro atraviesa gente.</l>
+            <l>¡Cielo, no sé lo que intente!</l>
+            <l>Cierra esa celda, y en ella</l>
+            <l n="615">estarás, pues atropella</l>
+            <l>un temor a otro temor.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>¡Qué poderoso es mi amor!</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>¡Qué rigurosa mi estrella!</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>Ya son las tres, mucho tarda.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l n="620">El que goza su ventura,</l>
+            <l>Ricardo, en la noche oscura,</l>
+            <l>nunca el claro sol aguarda.</l>
+            <l>Yo apuesto que le parece</l>
+            <l>que nunca el sol madrugó</l>
+            <l n="625">tanto, y que hoy apresuró</l>
+            <l part="I">su curso.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="F">Siempre amanece</l>
+            <l>más temprano a quien desea;</l>
+            <l>pero al que goza, más tarde.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l>No creas que al sol aguarde</l>
+            <l n="630">que en el oriente se vea.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="I">Dos horas son ya.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="F">No creo</l>
+            <l part="I">que Eusebio lo diga.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="F">Es justo,</l>
+            <l>porque al fin son de su gusto</l>
+            <l>las horas de tu deseo.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l n="635">¿No sabes lo que he llegado</l>
+            <l>hoy, Ricardo, a sospechar?</l>
+            <l>Que Julia le envió a llamar.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>Pues si no fuera llamado,</l>
+            <l>¿quién a escalar se atreviera</l>
+            <l part="I">un convento?</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l n="640" part="F">¿No has sentido,</l>
+            <l>Ricardo, a esta parte ruido?</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="I">Sí.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="F">Pues llega la escalera.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">Déjame, mujer.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Pues cuando</l>
+            <l>vencida de tus deseos,</l>
+            <l n="645">movida de tus suspiros,</l>
+            <l>obligada de tus ruegos,</l>
+            <l>de tu llanto agradecida,</l>
+            <l>dos veces a Dios ofendo,</l>
+            <l>como a Dios y como a esposo,</l>
+            <l n="650">¡mis brazos dejas, haciendo</l>
+            <l>sin esperanzas desdenes,</l>
+            <l>y sin posesión desprecios!</l>
+            <l part="I">¿Dónde vas?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Mujer, ¿qué intentas?</l>
+            <l>Déjame, que voy huyendo</l>
+            <l n="655">de tus brazos, porque he visto</l>
+            <l>no sé qué deidad en ellos.</l>
+            <l>Llamas arrojan tus ojos,</l>
+            <l>tus suspiros son de fuego,</l>
+            <l>un volcán cada razón,</l>
+            <l n="660">un rayo cada cabello,</l>
+            <l>cada palabra es mi muerte,</l>
+            <l>cada regalo un infierno;</l>
+            <l>tantos temores me causa</l>
+            <l>la cruz que he visto en tu pecho.</l>
+            <l n="665">Señal prodigiosa ha sido,</l>
+            <l>y no permitan los cielos</l>
+            <l>que, aunque tanto los ofenda,</l>
+            <l>pierda a la cruz el respeto;</l>
+            <l>porque si la hago testigo</l>
+            <l n="670">de las culpas que cometo,</l>
+            <l>¿con qué vergüenza después</l>
+            <l>llamarla en mi ayuda puedo?</l>
+            <l>Quédate en tu religión,</l>
+            <l>Julia, yo no te desprecio,</l>
+            <l n="675">pues más agora te adoro.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Escucha, detente, Eusebio.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">Esta es la escala.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Detente,</l>
+            <l part="I">o llévame allá.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">No puedo,</l>
+            <l>pues que sin gozar la gloria</l>
+            <l n="680">que tanto esperé, te dejo.</l>
+            <l part="I">¡Válgame el cielo! Caí.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="F">¿Qué ha sido?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>¿No ves la esfera del fuego</l>
+            <l>poblada de ardientes rayos?</l>
+            <l>¿No miras sangriento el cielo,</l>
+            <l n="685">que todo sobre mí viene?</l>
+            <l>¿Dónde estar seguro puedo,</l>
+            <l>si airado el cielo se muestra?</l>
+            <l>Divina cruz, yo os prometo</l>
+            <l>y os hago solemne voto,</l>
+            <l n="690">con cuantas cláusulas puedo,</l>
+            <l>de en cualquier parte que os vea,</l>
+            <l>las rodillas por el suelo,</l>
+            <l>rezar un Ave María.</l>
+          </sp>
+          <stage>Vanse llevándole, y dejan la escalera.</stage>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Turbada y confusa quedo.</l>
+            <l n="695">¿Aquestas fueron, ingrato,</l>
+            <l>las firmezas? ¿Estos fueron</l>
+            <l>los extremos de tu amor?</l>
+            <l>¿O son de mi amor extremos?</l>
+            <l>Hasta vencerme a tu gusto,</l>
+            <l n="700">con amenazas, con ruegos,</l>
+            <l>aquí amante, allí tirano</l>
+            <l>porfiaste; pero luego</l>
+            <l>que de tu gusto y mi pena</l>
+            <l>pudiste llamarte dueño,</l>
+            <l n="705">antes de vencer, huiste.</l>
+            <l>¿Quién, sino tú, venció huyendo?</l>
+            <l>¡Muerta soy, cielos piadosos!</l>
+            <l>¿Por qué introdujo venenos</l>
+            <l>Naturaleza, si había,</l>
+            <l n="710">para dar muerte, desprecios?</l>
+            <l>Ellos me quitan la vida,</l>
+            <l>pues que con nuevo tormento</l>
+            <l>lo que me desprecia busco.</l>
+            <l>¿Quién vio tan dudoso efeto</l>
+            <l n="715">de amor? Cuando me rogaba</l>
+            <l>con mil lágrimas, Eusebio,</l>
+            <l>le dejaba, pero agora,</l>
+            <l>porque él me deja, le ruego.</l>
+            <l>Tales somos las mujeres,</l>
+            <l n="720">que, contra nuestros deseos,</l>
+            <l>aun no queremos dar gusto</l>
+            <l>con lo mismo que queremos.</l>
+            <l>Ninguno nos quiera bien,</l>
+            <l>si pretende alcanzar premio,</l>
+            <l n="725">que queridas despreciamos,</l>
+            <l>y aborrecidas queremos.</l>
+            <l>No siento que no me quiera,</l>
+            <l>solo que me deje siento.</l>
+            <l>Por aquí cayó; tras él</l>
+            <l n="730">me arrojaré. Mas ¿qué es esto?,</l>
+            <l>¿Esta no es escala? Sí.</l>
+            <l>¡Qué terrible pensamiento!</l>
+            <l>Detente, imaginación,</l>
+            <l>no me despeñes, que creo</l>
+            <l n="735">que si llego a consentir,</l>
+            <l>a hacer el delito llego.</l>
+            <l>¿No saltó Eusebio por mí</l>
+            <l>las paredes del convento?</l>
+            <l>¿No me holgué de verle yo</l>
+            <l n="740">en tantos peligros puesto</l>
+            <l>por mi causa? Pues ¿qué dudo?</l>
+            <l>¿Qué me acobardo? ¿Qué temo?</l>
+            <l>Lo mismo haré yo en salir,</l>
+            <l>que él en entrar: si es lo mismo,</l>
+            <l n="745">también se holgará de verme</l>
+            <l>por su causa en tales riesgos.</l>
+            <l>Ya, por haber consentido,</l>
+            <l>la misma culpa merezco;</l>
+            <l>que si es tan grande el pecado,</l>
+            <l n="750">¿por qué el gusto ha de ser menos?</l>
+            <l>Si consentí y me dejó</l>
+            <l>Dios de su mano, ¿no puedo</l>
+            <l>de una culpa que es tan grande</l>
+            <l>tener perdón? Pues ¿qué espero?</l>
+            <l n="755">Al mundo, al honor, a Dios,</l>
+            <l>hallo perdido el respeto,</l>
+            <l>cuando a ceguedad tan grande</l>
+            <l>vendados los ojos vuelvo.</l>
+            <l>Demonio soy, que he caído</l>
+            <l n="760">despeñado deste cielo,</l>
+            <l>pues sin tener esperanzas</l>
+            <l>de subir, no me arrepiento.</l>
+            <l>Ya estoy fuera de sagrado,</l>
+            <l>y de la noche el silencio,</l>
+            <l n="765">con su escuridad me tiene</l>
+            <l>cubierta de horror y miedo.</l>
+            <l>Tan deslumbrada camino,</l>
+            <l>que en las tinieblas tropiezo,</l>
+            <l>y aun no caigo en mi pecado.</l>
+            <l n="770">¿Dónde voy? ¿Qué hago? ¿Qué intento?</l>
+            <l>Con la muda confusión</l>
+            <l>de tantos temores, temo</l>
+            <l>que se me altera la sangre,</l>
+            <l>que se me eriza el cabello.</l>
+            <l n="775">Turbada la fantasía,</l>
+            <l>en el aire forma cuerpos,</l>
+            <l>y sentencias contra mí</l>
+            <l>pronuncia la voz del eco.</l>
+            <l>El delito, que antes era</l>
+            <l n="780">quien me animaba, soberbio,</l>
+            <l>es quien me acobarda agora.</l>
+            <l>Apenas las plantas puedo</l>
+            <l>mover, que el mismo temor</l>
+            <l>grillos a mis pies ha puesto.</l>
+            <l n="785">Sobre mis hombros parece</l>
+            <l>que caiga un prolijo peso</l>
+            <l>que me oprime, y toda yo</l>
+            <l>estoy cubierta de yelo.</l>
+            <l>No quiero pasar de aquí,</l>
+            <l n="790">quiero volverme al convento,</l>
+            <l>donde de aqueste pecado</l>
+            <l>alcance perdón; pues creo</l>
+            <l>de la clemencia divina,</l>
+            <l>que no hay luces en el cielo,</l>
+            <l n="795">que no hay en el mar arenas,</l>
+            <l>no hay átomos en el viento,</l>
+            <l>que sumados todos juntos,</l>
+            <l>no sean número pequeño</l>
+            <l>de los pecados que sabe</l>
+            <l n="800">Dios perdonar. Pasos siento.</l>
+            <l>A esta parte me retiro</l>
+            <l>en tanto que pasan; luego</l>
+            <l>subiré sin que me vean.</l>
+          </sp>
+          <stage>Salen RICARDO y CELIO.</stage>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>Con el espanto de Eusebio,</l>
+            <l n="805">aquí se quedó la escala,</l>
+            <l>y agora por ella vuelvo,</l>
+            <l>no aclare el día y la vean</l>
+            <l part="I">a esta pared.</l>
+          </sp>
+          <stage>Vuélvense a entrar los dos con la escala.</stage>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Ya se fueron,</l>
+            <l>agora podré subir</l>
+            <l n="810">sin que me sientan. ¿Qué es esto?</l>
+            <l>¿No es aquesta la pared</l>
+            <l>de la escala? Pero creo</l>
+            <l>que hacia estotra parte está.</l>
+            <l>Ni aquí está tampoco. ¡Cielos!</l>
+            <l n="815">¿Cómo he de subir sin ella?</l>
+            <l>Mas ya mi desdicha entiendo:</l>
+            <l>desta suerte me negáis</l>
+            <l>la entrada vuestra, pues creo</l>
+            <l>que cuando quiera subir</l>
+            <l n="820">arrepentida, no puedo.</l>
+            <l>Pues si ya me habéis negado</l>
+            <l>vuestra clemencia, mis hechos</l>
+            <l>de mujer desesperada</l>
+            <l>darán asombros al cielo,</l>
+            <l n="825">darán espantos al mundo,</l>
+            <l>admiración a los tiempos,</l>
+            <l>horror al mismo pecado,</l>
+            <l>y terror al mismo infierno.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <div type="scene">
+          <head>Jornada III</head>
+          <stage>Sale GIL con muchas cruces, y una muy grande al pecho.</stage>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Por leña a este monte voy,</l>
+            <l>que Menga me lo ha mandado,</l>
+            <l>y para ir seguro he hallado</l>
+            <l>una brava invención hoy.</l>
+            <l n="5">Que de la cruz diz que es</l>
+            <l>devoto Eusebio, y así</l>
+            <l>he salido armado aquí</l>
+            <l>de la cabeza a los pies.</l>
+            <l>Dicho y hecho. ¡Él es, pardiez!;</l>
+            <l n="10">no topo, lleno de miedo,</l>
+            <l>donde estar seguro puedo;</l>
+            <l>sin alma quedo. Esta vez</l>
+            <l>no me ha visto; yo quisiera</l>
+            <l>esconderme hacia este lado</l>
+            <l n="15">mientras pasa; yo he tomado</l>
+            <l>por guarda una cambronera</l>
+            <l>para esconderme. ¡No es nada!</l>
+            <l>Tanta púa es la más chica.</l>
+            <l>¡Pléguete Cristo!, más pica</l>
+            <l n="20">que perder una trocada,</l>
+            <l>más que sentir un desprecio</l>
+            <l>de una dama Fierabrás,</l>
+            <l>que a todos admite, y más</l>
+            <l>que tener celos de un necio.</l>
+          </sp>
+          <stage>Sale EUSEBIO.</stage>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="25">No sé dónde podré ir,</l>
+            <l>larga vida un triste tiene,</l>
+            <l>que nunca la muerte viene</l>
+            <l>a quien le cansa el vivir.</l>
+            <l>Julia, yo me vi en tus brazos,</l>
+            <l n="30">cuando tan dichoso era,</l>
+            <l>que de tus brazos pudiera</l>
+            <l>hacer amor nuevos lazos.</l>
+            <l>Sin gozar al fin dejé</l>
+            <l>la gloria que no tenía;</l>
+            <l n="35">mas no fue la causa mía,</l>
+            <l>causa más secreta fue,</l>
+            <l>pues teniendo mi albedrío,</l>
+            <l>superior efeto ha hecho</l>
+            <l>que yo respete en tu pecho</l>
+            <l n="40">la cruz que tengo en el mío.</l>
+            <l>Y pues con ella los dos,</l>
+            <l>¡ay Julia!, habemos nacido,</l>
+            <l>secreto misterio ha sido,</l>
+            <l>que lo entiende solo Dios.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <stage>Aparte.</stage>
+            <l n="45">Mucho pica, ya no puedo</l>
+            <l part="I">más sufrillo.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Entre estos ramos</l>
+            <l part="I">hay gente. ¿Quién va?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <stage>Aparte.</stage>
+            <l part="F">Aquí echamos</l>
+            <l>a perder todo el enredo.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <stage>Aparte.</stage>
+            <l>Un hombre a un árbol atado,</l>
+            <l n="50">y una cruz al cuello tiene;</l>
+            <l>cumplir mi voto conviene</l>
+            <l>en el suelo arrodillado.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿A quién, Eusebio, enderezas</l>
+            <l>la oración, o de qué tratas?</l>
+            <l n="55">Si me adoras, ¿qué me atas?</l>
+            <l>Si me atas, ¿qué me rezas?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿Quién es?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¿A Gil no conoces?</l>
+            <l>Desde que con el recado</l>
+            <l>aquí me dejaste atado,</l>
+            <l n="60">no han aprovechado voces,</l>
+            <l>para que alguien, (¡qué rigor!)</l>
+            <l>me llegase a desatar.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Pues no es aqueste el lugar</l>
+            <l part="I">donde te dejé.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">Señor,</l>
+            <l n="65">es verdad; mas yo, que vi</l>
+            <l>que nadie llegaba, he andado</l>
+            <l>de árbol en árbol atado</l>
+            <l>hasta haber llegado aquí.</l>
+            <l>Aquesta la causa fue</l>
+            <l n="70">de suceso tan extraño.</l>
+            <stage>Desátale.</stage>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <stage>Aparte.</stage>
+            <l>Este es simple, y de mi daño</l>
+            <l>cualquier suceso sabré.)</l>
+            <l>Gil, yo te tengo afición,</l>
+            <l>desde que otra vez hablamos,</l>
+            <l n="75">y aquí quiero que seamos</l>
+            <l part="I">amigos.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">Tiene razón,</l>
+            <l>y quisiera, pues nos vemos</l>
+            <l>tan amigos, no ir allá,</l>
+            <l>sino andarme por acá,</l>
+            <l n="80">pues aquí todos seremos</l>
+            <l>buñuleros, que diz que es</l>
+            <l>holgada vida, y no andar</l>
+            <l>todo el año a trabajar.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Quédate conmigo, pues.</l>
+          </sp>
+          <stage>Sale RICARDO y bandoleros, y traen a JULIA vestida de hombre, y cubierto el rostro.</stage>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l n="85">En lo bajo del camino,</l>
+            <l>que esta montaña atraviesa,</l>
+            <l>ahora hicimos una presa,</l>
+            <l>que según es, imagino,</l>
+            <l part="I">que te dé gusto.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Está bien;</l>
+            <l n="90">luego della trataremos.</l>
+            <l>Sabe agora que tenemos</l>
+            <l part="I">un nuevo soldado.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="F">¿Quién?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="I">Gil, ¿no me ve?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Este villano,</l>
+            <l>aunque le veis inocente,</l>
+            <l n="95">conoce notablemente</l>
+            <l>desta tierra monte y llano,</l>
+            <l>y en él será nuestra guía.</l>
+            <l>Fuera desto al campo irá</l>
+            <l>del enemigo, y será</l>
+            <l n="100">en él mi perdida espía.</l>
+            <l>Arcabuz le podéis dar,</l>
+            <l part="I">y un vestido.</l>
+          </sp>
+          <sp who="#celio">
+            <speaker>CELIO</speaker>
+            <l part="F">Ya está aquí.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Tengan lástima de mí,</l>
+            <l>que me quedo a bandolear.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="105">¿Quién es ese gentilhombre,</l>
+            <l part="I">que el rostro encubre?</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l part="F">No ha sido</l>
+            <l>posible que haya querido</l>
+            <l>decir la patria y el nombre,</l>
+            <l>porque al capitán no más</l>
+            <l n="110">dice que lo ha de decir.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Bien te puedes descubrir,</l>
+            <l>pues ya en mi presencia estás.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="I">¿El capitán sois?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="M">Sí.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">¡Ay Dios!</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Dime quién eres y a qué</l>
+            <l part="I">veniste.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l n="115" part="F">Yo lo diré</l>
+            <l>estando solos los dos.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Retiraos todos un poco.</l>
+            <stage>Vanse.</stage>
+            <l>Ya estás a solas conmigo;</l>
+            <l>solos árboles y flores,</l>
+            <l n="120">pueden ser mudos testigos</l>
+            <l>de tus voces; quita el velo</l>
+            <l>con que cubierto has traído</l>
+            <l>el rostro, y dime, ¿quién eres?</l>
+            <l>¿Dónde vas? ¿Qué has pretendido?</l>
+            <l part="I">Habla.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l n="125" part="F">Porque de una vez</l>
+            <l>sepas a lo que he venido,</l>
+            <l>y quién soy, saca la espada,</l>
+            <l>pues desta manera digo,</l>
+            <l>que soy quien viene a matarte.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="130">Con la defensa resisto</l>
+            <l>tu osadía y mi temor,</l>
+            <l>porque mayor había sido</l>
+            <l>de la acción que de la voz.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Riñe, cobarde, conmigo,</l>
+            <l n="135">y verás que con tu muerte</l>
+            <l>vida y confusión te quito.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Yo, por defenderme, más</l>
+            <l>que por ofenderte, riño,</l>
+            <l>que ya tu vida me importa,</l>
+            <l n="140">que si en este desafío</l>
+            <l>te mato, no sé porqué,</l>
+            <l>y si me matas lo mismo.</l>
+            <l>Descúbrete agora pues,</l>
+            <l part="I">si te agrada.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Bien has dicho,</l>
+            <l n="145">porque en venganzas de honor,</l>
+            <l>si no es que conste el castigo</l>
+            <l>al que fue ofensor, no queda</l>
+            <l>satisfecho el ofendido.</l>
+            <stage>Descúbrese.</stage>
+            <l>¿Conócesme? ¿Qué te espantas?</l>
+            <l part="I">¿Qué me miras?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="150" part="F">Que rendido</l>
+            <l>a la verdad y a la duda</l>
+            <l>en confusos desvaríos,</l>
+            <l>me espanto de lo que veo,</l>
+            <l>me asombro de lo que miro.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="I">Ya me has visto.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="155" part="F">Sí, y de verte</l>
+            <l>mi confusión ha crecido</l>
+            <l>tanto, que si antes de agora</l>
+            <l>alterados mis sentidos,</l>
+            <l>desearon verte, ya</l>
+            <l n="160">desengañados, lo mismo</l>
+            <l>que dieran antes por verte,</l>
+            <l>dieran por no haberte visto.</l>
+            <l>¿Tú, Julia, tú en este monte?</l>
+            <l>¿Tú con profano vestido,</l>
+            <l n="165">dos veces violento en ti?</l>
+            <l>¿Cómo sola aquí has venido?</l>
+            <l part="I">¿Qué es esto?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">Desprecios tuyos</l>
+            <l>y desengaños míos.</l>
+            <l>Y porque veas que es flecha</l>
+            <l n="170">disparada, ardiente tiro,</l>
+            <l>veloz rayo, una mujer</l>
+            <l>que corre tras su apetito.</l>
+            <l>No solo me han dado gusto</l>
+            <l>los pecados cometidos</l>
+            <l n="175">hasta agora, mas también</l>
+            <l>me la dan si los repito.</l>
+            <l>Salí del convento, fui</l>
+            <l>al monte, y porque me dijo</l>
+            <l>un pastor que mal guiada</l>
+            <l n="180">iba por aquel camino,</l>
+            <l>neciamente temerosa,</l>
+            <l>por evitar mi peligro</l>
+            <l>le aseguré y le di muerte,</l>
+            <l>siendo instrumento un cuchillo</l>
+            <l n="185">que en la petrina traía.</l>
+            <l>Con este, que fue ministro</l>
+            <l>de la muerte, a un caminante</l>
+            <l>que cortésmente previno</l>
+            <l>en las ancas de un caballo</l>
+            <l n="190">a tanto cansancio alivio,</l>
+            <l>a la vista de una aldea,</l>
+            <l>porque entrar en ella quiso,</l>
+            <l>huyendo al poblado paga</l>
+            <l>con la muerte el beneficio.</l>
+            <l n="195">Tres días fueron, y noches</l>
+            <l>los que aquel desierto me hizo</l>
+            <l>mesa de silvestres plantas,</l>
+            <l>lechos de peñascos fríos.</l>
+            <l>Llegué a una pobre cabaña,</l>
+            <l n="200">a cuyo techo pajizo</l>
+            <l>juzgué pabellón dorado</l>
+            <l>en la paz de mis sentidos.</l>
+            <l>Liberal huéspeda fue</l>
+            <l>una serrana conmigo,</l>
+            <l n="205">compitiendo en los deseos</l>
+            <l>con el pastor, su marido.</l>
+            <l>A la hambre y al cansancio</l>
+            <l>dejé en su albergue vencidos</l>
+            <l>con buena mesa; aunque pobre,</l>
+            <l n="210">manjar; aunque humilde, limpio.</l>
+            <l>Pero al despedirme dellos,</l>
+            <l>habiendo antes prevenido,</l>
+            <l>que al buscarme no pudiesen</l>
+            <l>decir: «Nosotros la vimos»;</l>
+            <l n="215">al cortés pastor, que al monte</l>
+            <l>salió a enseñarme el camino,</l>
+            <l>maté, y entré donde luego</l>
+            <l>hago en su mujer lo mismo.</l>
+            <l>Mas considerando entonces,</l>
+            <l n="220">que en este vestido mío</l>
+            <l>mi pesquisidor llevaba,</l>
+            <l>mudármele determino.</l>
+            <l>Al fin, pues, por varios casos,</l>
+            <l>con las armas y el vestido</l>
+            <l n="225">de un cazador, cuyo sueño,</l>
+            <l>no imagen, trasunto vivo</l>
+            <l>fue de la muerte, llegué</l>
+            <l>aquí venciendo peligros,</l>
+            <l>despreciando inconvenientes,</l>
+            <l n="230">y atropellando desinios.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Con tanto asombro te escucho,</l>
+            <l>con tanto temor te miro,</l>
+            <l>que eres al oído encanto,</l>
+            <l>si a la vista basilisco.</l>
+            <l n="235">Julia, yo no te desprecio;</l>
+            <l>pero temo los peligros</l>
+            <l>con que el cielo me amenaza,</l>
+            <l>yo por eso me retiro.</l>
+            <l>Vuélvete tú a tu convento,</l>
+            <l n="240">que yo temeroso vivo</l>
+            <l>de esa cruz tanto, que huyo</l>
+            <l>de ti. Mas, ¿de qué es este ruido?</l>
+          </sp>
+          <stage>Salen los bandoleros.</stage>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>Prevén, señor, la defensa,</l>
+            <l>que, apartados del camino,</l>
+            <l n="245">al monte Curcio y su gente</l>
+            <l>en busca tuya han salido.</l>
+            <l>De todas esas aldeas,</l>
+            <l>tanto el número han crecido,</l>
+            <l>que han venido contra ti,</l>
+            <l n="250">viejos, mujeres y niños,</l>
+            <l>diciendo que han de vengar</l>
+            <l>en tu sangre la de un hijo</l>
+            <l>muerto a tus manos, y juran</l>
+            <l>de llevarte por castigo,</l>
+            <l n="255">o por venganza de tantos,</l>
+            <l>preso a Sena, muerto o vivo.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Julia, después hablaremos.</l>
+            <l>Cubre el rostro y ven conmigo,</l>
+            <l>que no es bien que en poder quedes</l>
+            <l n="260">de tu padre, tu enemigo.</l>
+            <l>Soldados, este es el día</l>
+            <l>de mostrar aliento y brío.</l>
+            <l>Porque ninguno desmaye,</l>
+            <l>considere que atrevidos</l>
+            <l n="265">vienen a darnos la muerte,</l>
+            <l>o prendernos, que es lo mismo;</l>
+            <l>y si no, en pública cárcel</l>
+            <l>de desdichas perseguidos,</l>
+            <l>y sin honra, nos veremos;</l>
+            <l n="270">pues si esto hemos conocido,</l>
+            <l>por la vida y por la honra,</l>
+            <l>¿quién temió el mayor peligro?</l>
+            <l>No piensen que los tememos,</l>
+            <l>salgamos a recibillos,</l>
+            <l n="275">que siempre está la fortuna</l>
+            <l>de parte del atrevido.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l>No hay que salir, que ya llegan</l>
+            <l part="I">a nosotros.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Preveníos,</l>
+            <l>y ninguno sea cobarde,</l>
+            <l n="280">que, ¡vive el cielo!, si miro</l>
+            <l>huir alguno o retirarse,</l>
+            <l>que he de ensangrentar los filos</l>
+            <l>de aqueste acero en su pecho</l>
+            <l>primero que en mi enemigo.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <stage>Dentro.</stage>
+            <l n="285">En lo encubierto del monte</l>
+            <l>al traidor de Eusebio he visto,</l>
+            <l>y para inútil defensa</l>
+            <l>hace murallas sus riscos.</l>
+          </sp>
+          <sp who="#bandoleros">
+            <speaker>OTRO</speaker>
+            <stage>Dentro.</stage>
+            <l>Ya entre las espesas ramas</l>
+            <l n="290">desde aquí los descubrimos.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="I">¡A ellos!</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Esperad, villanos,</l>
+            <l>que, ¡vive Dios!, que teñidos</l>
+            <l>con vuestra sangre los campos</l>
+            <l>han de ser ondosos ríos.</l>
+          </sp>
+          <sp who="#ricardo">
+            <speaker>RICARDO</speaker>
+            <l n="295">De los cobardes villanos</l>
+            <l>es el número excesivo.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <stage>Dentro.</stage>
+            <l>¿Adónde, Eusebio, te escondes?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>No escondo, que ya te sigo.</l>
+          </sp>
+          <stage>Ruido dentro, y sale JULIA.</stage>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Del monte que yo he buscado,</l>
+            <l n="300">apenas las yerbas piso,</l>
+            <l>cuando horribles voces oigo,</l>
+            <l>marciales campañas miro.</l>
+            <l>De la pólvora los ecos,</l>
+            <l>y del acero los filos,</l>
+            <l n="305">unos ofenden la vista,</l>
+            <l>y otros turban el oído.</l>
+            <l>Mas ¿qué es aquello que veo?</l>
+            <l>Desbaratado y vencido</l>
+            <l>todo el escuadrón de Eusebio</l>
+            <l n="310">le deja ya el enemigo.</l>
+            <l>Quiero volver a juntar</l>
+            <l>toda la gente que ha habido</l>
+            <l>de Eusebio, y volver a dalles</l>
+            <l>favor, que si los animo,</l>
+            <l n="315">seré en su defensa asombro</l>
+            <l>del mundo, seré cuchillo</l>
+            <l>de la parca, estrago fiero</l>
+            <l>de sus vidas, vengativo</l>
+            <l>espanto de los futuros</l>
+            <l n="320">y admiración de los siglos.</l>
+          </sp>
+          <stage>Vase y sale GIL de bandolero.</stage>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>Por estar seguro, apenas</l>
+            <l>fui bandolero novicio,</l>
+            <l>cuando por ser bandolero</l>
+            <l>me veo en tanto peligro.</l>
+            <l n="325">Cuando yo era labrador</l>
+            <l>eran ellos los vencidos,</l>
+            <l>y hoy, porque soy de la carda,</l>
+            <l>va sucediendo lo mismo.</l>
+            <l>Sin ser avariento traigo</l>
+            <l n="330">la desventura conmigo,</l>
+            <l>pues tan desgraciado soy,</l>
+            <l>que mil veces imagino</l>
+            <l>que, a ser yo judío, fueran</l>
+            <l>desgraciados los judíos.</l>
+          </sp>
+          <stage>Salen MENGA y BLAS, y otros villanos.</stage>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l n="335">¡A ellos, que van huyendo!</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l>No ha de quedar uno vivo</l>
+            <l part="I">tan solamente.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="F">Hacia aquí</l>
+            <l>uno dellos se ha escondido.</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l part="I">Muera este ladrón.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">Mirad,</l>
+            <l part="I">que yo soy.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l n="340" part="F">Ya nos ha dicho</l>
+            <l>el traje que es bandolero.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>El traje les ha mentido</l>
+            <l>como muy grande bellaco.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="I">Dale tú.</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l part="F">Pégale, digo.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l n="345">Bien dado estoy y pegado.</l>
+            <l part="I">Advertid...</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="F">No hay que advertirnos.</l>
+            <l part="I">Bandolero sois.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">Mirad,</l>
+            <l>que soy Gil, voto a Cristo.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l>¿Pues no hablaras antes, Gil?</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l n="350">Pues, Gil, ¿no lo hubieras dicho?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿Qué más antes, si el yo soy</l>
+            <l>os dije desde el principio?</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="I">¿Qué haces aquí?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¿No lo ves?</l>
+            <l>Ofendo a Dios en el quinto:</l>
+            <l n="355">mato solo, más que juntos</l>
+            <l>un médico y un estío.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="I">¿Qué traje es este?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">Es el diablo.</l>
+            <l>Maté a uno y su vestido</l>
+            <l part="I">me puse.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="F">¿Pues cómo, di,</l>
+            <l n="360">no está de sangre teñido</l>
+            <l part="I">si le mataste?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">Eso es fácil:</l>
+            <l>murió de miedo; esta ha sido</l>
+            <l part="I">la causa.</l>
+          </sp>
+          <sp who="#menga">
+            <speaker>MENGA</speaker>
+            <l part="F">Ven con nosotros,</l>
+            <l>que vitoriosos seguimos</l>
+            <l n="365">los bandoleros, que agora</l>
+            <l>cobardes nos han hüido.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>No más vestido, aunque vaya</l>
+            <l>titiritando de frío.</l>
+          </sp>
+          <stage>Vanse, y salen EUSEBIO y CURCIO peleando.</stage>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>Ya estamos solos los dos,</l>
+            <l n="370">gracias al cielo, que quiso</l>
+            <l>dar la venganza a mi mano</l>
+            <l>hoy, sin haber remitido</l>
+            <l>a las ajenas mi agravio,</l>
+            <l>ni tu muerte a ajenos filos.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="375">No ha sido en esta ocasión</l>
+            <l>airado el cielo conmigo,</l>
+            <l>Curcio, en haberte topado,</l>
+            <l>porque si tu pecho vino</l>
+            <l>ofendido, volverá</l>
+            <l n="380">castigado y ofendido.</l>
+            <l>Aunque no sé qué respeto</l>
+            <l>has puesto en mí, que he temido</l>
+            <l>más tu enojo que tu acero,</l>
+            <l>y aunque pudieran tus bríos</l>
+            <l n="385">darme temor, solo temo,</l>
+            <l>cuando aquesas canas miro,</l>
+            <l part="I">que me hacen cobarde.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">Eusebio,</l>
+            <l>yo confieso que has podido</l>
+            <l>templar en mí de la ira</l>
+            <l n="390">con que agraviado te miro,</l>
+            <l>gran parte; pero no quiero</l>
+            <l>que pienses inadvertido</l>
+            <l>que te dan temor mis canas,</l>
+            <l>cuando puede el valor mío.</l>
+            <l n="395">Vuelve a reñir, que una estrella</l>
+            <l>o algún favorable signo</l>
+            <l>no es bastante a que yo pierda</l>
+            <l>la venganza que consigo.</l>
+            <l part="I">Vuelve a reñir.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">¿Yo temor?</l>
+            <l n="400">Neciamente has presumido</l>
+            <l>que es temor lo que es respeto,</l>
+            <l>aunque, si verdad te digo,</l>
+            <l>la vitoria que deseo</l>
+            <l>es, a tus plantas rendido,</l>
+            <l n="405">pedirte perdón, y a ellas</l>
+            <l>pongo la espada que ha sido</l>
+            <l part="I">temor de tantos.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">Eusebio,</l>
+            <l>no has de pensar que me animo</l>
+            <l>a matarte con ventaja.</l>
+            <l part="I">Esta es mi espada.</l>
+            <stage>Aparte.</stage>
+            <l n="410" part="F">Así quito</l>
+            <l>la ocasión de darle muerte.)</l>
+            <l>Ven a los brazos conmigo.</l>
+          </sp>
+          <stage>Abrázanse y luchan.</stage>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>No sé qué efeto has hecho</l>
+            <l>en mí, que el corazón dentro el pecho,</l>
+            <l n="415">a pesar de venganzas y de enojos,</l>
+            <l>en lágrimas se asoma por los ojos,</l>
+            <l>y en confusión tan fuerte,</l>
+            <l>quisiera, por vengarte, darme muerte.</l>
+            <l>Véngate en mí, tendida</l>
+            <l n="420">a tus plantas, señor, está mi vida.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>El acero de un noble, aunque ofendido,</l>
+            <l>no se mancha en la sangre de un tendido,</l>
+            <l>que quita grande parte de la gloria</l>
+            <l>el que con sangre borra la vitoria.</l>
+          </sp>
+          <sp who="#villanos">
+            <speaker>[VOCES]</speaker>
+            <stage>Dentro.</stage>
+            <l part="I">Hacia aquí están.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l n="425" part="F">Mi gente vitoriosa</l>
+            <l>viene a buscarme, cuando temerosa</l>
+            <l>la tuya vuelve huyendo.</l>
+            <l>Darte vida pretendo;</l>
+            <l>escóndete, que en vano</l>
+            <l n="430">defenderé el enojo vengativo</l>
+            <l>de un escuadrón villano;</l>
+            <l>y solo tú imposible es quedar vivo.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Yo, Curcio, nunca huyo</l>
+            <l>de otro poder, aunque he temido el tuyo,</l>
+            <l n="435">que si mi mano aquesta espada cobra,</l>
+            <l>verás cuánto valor en ti me falta,</l>
+            <l>que en tu gente me sobra.</l>
+          </sp>
+          <stage>Salen todos.</stage>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l>Desde el más hondo valle a la más alta</l>
+            <l>cumbre de aqueste monte, no ha quedado</l>
+            <l n="440">vivo ninguno, solo se ha escapado</l>
+            <l>Eusebio, porque huyendo aquesta tarde...</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Mientes, que Eusebio nunca fue cobarde.</l>
+          </sp>
+          <sp who="#octavio #curcio #alberto #ricardo #celio #blas">
+            <speaker>TODOS</speaker>
+            <l>¿Aquí está Eusebio? ¡Muera!</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¡Llegad, villanos!</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">¡Tente, Octavio, espera!</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l n="445">¿Pues tú, señor, que habías</l>
+            <l>de animarnos, agora desconfías?</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l>¿A un hombre amparas, que en tu sangre y honra</l>
+            <l>introdujo el acero y la deshonra?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¿A un hombre que, atrevido,</l>
+            <l n="450">toda aquesta montaña ha destruido?</l>
+            <l>Y a quien en el aldea no ha dejado</l>
+            <l>melón, doncella que no haya catado,</l>
+            <l>a quien tantos ha muerto,</l>
+            <l>¿cómo así le defiendes?</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l n="455">¿Qué es, señor, lo que dices? ¿Qué pretendes?</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>Esperad, escuchad, (¡triste suceso!);</l>
+            <l>¿cuánto es mejor que a Sena vaya preso?</l>
+            <l>Date a prisión, Eusebio, que prometo,</l>
+            <l>y como noble juro, de ampararte,</l>
+            <l n="460">siendo abogado tuyo, aunque soy parte.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Como a Curcio no más, yo me rindiera;</l>
+            <l>mas como a juez no puedo,</l>
+            <l>porque aquel es respeto, y esto es miedo.</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l part="I">¡Muera Eusebio!</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="M">Advertid...</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l part="F">¿Pues qué? ¿Tú quieres</l>
+            <l n="465">defenderle? ¿A la patria traidor eres?</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>¿Yo traidor? Pues me agravias desta suerte,</l>
+            <l>perdona, Eusebio, porque yo el primero</l>
+            <l>tengo de ser en darte triste muerte.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Quítate de delante,</l>
+            <l n="470">señor, porque tu vista no me espante,</l>
+            <l>que viéndote, no dudo</l>
+            <l>que te tenga tu gente por escudo.</l>
+          </sp>
+          <stage>Vanse peleando adentro.</stage>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>Apretándole van, ¡oh quien pudiera</l>
+            <l>darte agora la vida,</l>
+            <l n="475">Eusebio, aunque la suya misma diera!</l>
+            <l>En el monte se ha entrado,</l>
+            <l>por mil partes herido;</l>
+            <l>retirándose va ya despeñado</l>
+            <l>al valle. Voy volando,</l>
+            <l n="480">que aquella sangre fría,</l>
+            <l>que con tímida voz me está llamando,</l>
+            <l>algo tiene de mía;</l>
+            <l>que sangre que no fuera</l>
+            <l>propia, ni me llamara, ni la oyera.</l>
+          </sp>
+          <stage>Vase CURCIO, y baja despeñado EUSEBIO.</stage>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="485">Cuando, de la vida incierto,</l>
+            <l>me despeña la más alta</l>
+            <l>cumbre, veo que me falta</l>
+            <l>tierra donde caiga muerto;</l>
+            <l>pero si mi culpa advierto,</l>
+            <l n="490">al alma reconocida,</l>
+            <l>no el ver la vida perdida</l>
+            <l>me atormenta, sino el ver</l>
+            <l>cómo ha de satisfacer</l>
+            <l>tantas culpas una vida.</l>
+            <l n="495">Ya me vuelve a perseguir</l>
+            <l>este escuadrón vengativo,</l>
+            <l>pues no puedo quedar vivo,</l>
+            <l>he de matar o morir,</l>
+            <l>aunque mejor será ir</l>
+            <l n="500">donde al cielo perdón pida;</l>
+            <l>pero mis pasos impida</l>
+            <l>la cruz, porque desta suerte</l>
+            <l>ellos me den breve muerte</l>
+            <l>y ella me dé eterna vida.</l>
+            <l n="505">Árbol donde el cielo quiso</l>
+            <l>dar el fruto verdadero</l>
+            <l>contra el bocado primero,</l>
+            <l>flor del nuevo paraíso,</l>
+            <l>arco de luz cuyo aviso</l>
+            <l n="510">en piélago más profundo</l>
+            <l>la paz publicó del mundo;</l>
+            <l>planta hermosa, fértil vid,</l>
+            <l>arpa del nuevo David,</l>
+            <l>tabla del Moisés segura:</l>
+            <l n="515">pecador soy, tus favores</l>
+            <l>pido por justicia yo,</l>
+            <l>pues Dios en ti padeció</l>
+            <l>solo por los pecadores.</l>
+            <l>A mí me debes tus loores,</l>
+            <l n="520">que por mí solo muriera</l>
+            <l>Dios si más mundo no hubiera;</l>
+            <l>luego eres tú, cruz, por mí,</l>
+            <l>que Dios no muriera en ti,</l>
+            <l>si yo pecador no fuera.</l>
+            <l n="525">Mi natural devoción</l>
+            <l>siempre os pido con fe tanta,</l>
+            <l>no permitieseis, cruz santa,</l>
+            <l>muriese sin confesión.</l>
+            <l>No seré el primer ladrón,</l>
+            <l n="530">que en vós se confiese a Dios.</l>
+            <l>Y pues que ya somos dos,</l>
+            <l>y yo no le he de negar,</l>
+            <l>tampoco me ha de faltar</l>
+            <l>redención que se obró en vós.</l>
+            <l n="535">Lisardo, cuando en mis brazos</l>
+            <l>pude ofendido matarte,</l>
+            <l>lugar di de confesarte,</l>
+            <l>antes que en tan breves plazos</l>
+            <l>se desatasen los lazos</l>
+            <l n="540">mortales. Y agora advierto</l>
+            <l>en aquel viejo, aunque muerto:</l>
+            <l>piedad de los dos aguardo.</l>
+            <l>¡Mira que muero, Lisardo;</l>
+            <l>mira que te llamo, Alberto!</l>
+          </sp>
+          <stage>Sale CURCIO.</stage>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l n="545">Hacia aquesta parte está.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Si es que venís a matarme,</l>
+            <l>muy poco haréis en quitarme</l>
+            <l>vida que no tengo ya.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>¿Qué bronce no ablandará</l>
+            <l n="550">tanta sangre derramada?</l>
+            <l>Eusebio, rinde la espada.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¿A quién?</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="M">A Curcio.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Esta es.</l>
+            <l>Y yo también a tus pies,</l>
+            <l>de aquella ofensa pasada,</l>
+            <l n="555">te pido perdón. No puedo</l>
+            <l>hablar más, porque una herida</l>
+            <l>quita el aliento a la vida,</l>
+            <l>cubriendo de horror y miedo</l>
+            <l part="I">el alma.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">Confuso quedo.</l>
+            <l n="560">¿Será en ella de provecho</l>
+            <l part="I">remedio humano?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Sospecho</l>
+            <l>que la mejor medicina</l>
+            <l>para el alma es la divina.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="I">¿Dónde es la herida?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">En el pecho.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l n="565">Déjame poner en ella</l>
+            <l>la mano, a ver si resiste</l>
+            <l>el aliento. ¡Ay de mí, triste!</l>
+            <l>¿Qué señal divina y bella</l>
+            <l>es esta, que al conocella</l>
+            <l n="570">toda el alma se turbó?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>Son las armas que me dio</l>
+            <l>esta cruz, a cuyo pie</l>
+            <l>nací, porque más no sé</l>
+            <l>de mi nacimiento yo.</l>
+            <l n="575">Mi padre, que no señalo,</l>
+            <l>aun la cuna me negó,</l>
+            <l>que sin duda imaginó,</l>
+            <l>que había de ser tan malo.</l>
+            <l part="I">Aquí nací.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">Y aquí igualo</l>
+            <l n="580">el dolor con el contento,</l>
+            <l>con el gusto el sentimiento,</l>
+            <l>efetos de un hado impío</l>
+            <l>y agradable. ¡Ay, hijo mío!,</l>
+            <l>pena y gloria en verte siento.</l>
+            <l n="585">Tú eres, Eusebio, mi hijo,</l>
+            <l>si tantas señas advierto,</l>
+            <l>que para llorarte muerto</l>
+            <l>que justamente me aflijo,</l>
+            <l>de tus razones colijo</l>
+            <l n="590">lo que el alma adivinó.</l>
+            <l>Tu madre aquí te dejó</l>
+            <l>en el lugar que te he hallado:</l>
+            <l>donde cometí el pecado</l>
+            <l>el cielo me castigó.</l>
+            <l n="595">Y aqueste lugar previene</l>
+            <l>información de mi error;</l>
+            <l>¿pero cuál seña mayor</l>
+            <l>que aquesta cruz, que conviene</l>
+            <l>con otra que Julia tiene?</l>
+            <l n="600">Que no sin misterio el cielo</l>
+            <l>os señaló, porque al suelo</l>
+            <l>fuerais prodigio los dos.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l>No puedo hablar, padre ¡adiós!</l>
+            <l>porque ya de un mortal velo</l>
+            <l n="605">se cubre el cuerpo y la muerte</l>
+            <l>niega, pasando veloz,</l>
+            <l>para responderte voz,</l>
+            <l>vida para conocerte</l>
+            <l>y alma para obedecerte.</l>
+            <l n="610">Ya llega el golpe más fuerte,</l>
+            <l>ya llega el trance más cierto.</l>
+            <l part="I">¡Alberto!</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">¡Que llore muerto</l>
+            <l>a quien aborrecí vivo!...</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¡Ven, Alberto!</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">¡Oh, trance esquivo!</l>
+            <l part="I">¡Guerra injusta!</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l n="615" part="F">Alberto, Alberto.</l>
+            <stage>Muere.</stage>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>Ya el golpe más violento</l>
+            <l>rindió el último aliento;</l>
+            <l>paguen mis blancas canas</l>
+            <l part="I">tanto dolor.</l>
+          </sp>
+          <stage>Tírase de las barbas y sale BLAS.</stage>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l part="F">Ya son tus quejas vanas.</l>
+            <l n="620">¿Cuándo puso inconstante la fortuna</l>
+            <l part="I">en tu valor extremos?</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">En ninguna</l>
+            <l>llegó el rigor a tanto.</l>
+            <l>Aneguen mis enojos</l>
+            <l>este monte con llanto,</l>
+            <l n="625">puesto que es fuego el llanto de mis ojos.</l>
+            <l>¡Oh triste estrella! ¡Oh rigurosa suerte!</l>
+            <l part="I">¡Oh atrevido dolor!</l>
+          </sp>
+          <stage>Sale OCTAVIO.</stage>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l part="F">Hoy, Curcio, advierte</l>
+            <l>la fortuna en los males de tu estado,</l>
+            <l>cuantos puede sufrir un desdichado.</l>
+            <l n="630">El cielo sabe cuánto hablarte siento.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="I">¿Qué ha sido?</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l part="F">Julia falta del convento.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>El mismo pensamiento, di, ¿pudiera</l>
+            <l>con el discurso hallar pena tan fiera,</l>
+            <l>que [es] mi desdicha airada,</l>
+            <l n="635">sucedida, mayor que imaginada?</l>
+            <l>Este cadáver frío,</l>
+            <l>este que ves, Octavio, es hijo mío;</l>
+            <l>mira si basta en confusión tan fuerte,</l>
+            <l>cualquiera pena destas a una muerte.</l>
+            <l n="640">Dadme paciencia, ¡cielos!,</l>
+            <l>o quitadme la vida</l>
+            <l>agora perseguida</l>
+            <l>de tormentos tan fieros.</l>
+          </sp>
+          <stage>Sale GIL.</stage>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="I">¡Señor!</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="M">¿Hay más dolor?</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">Los bandoleros</l>
+            <l n="645">que huyeron castigados,</l>
+            <l>en busca tuya vuelven animados</l>
+            <l>de un demonio de hombre,</l>
+            <l>que encubre dellos mismos rostro y nombre.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>Agora que mis penas fueron tales,</l>
+            <l n="650">que son lisonjas los mayores males.</l>
+            <l>El cuerpo se retire lastimoso</l>
+            <l>de Eusebio, en tanto que un sepulcro honroso,</l>
+            <l>vuelto en cenizas, ve mi desventura.</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l>Pues ¿cómo piensas darle sepultura</l>
+            <l n="655">tú en lugar sagrado</l>
+            <l>a un hombre que murió descomulgado?</l>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l>Quien desta suerte ha muerto,</l>
+            <l>digno sepulcro sea este desierto.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>¡Oh villana venganza!</l>
+            <l n="660">¿Tanto poder en ti la ofensa alcanza,</l>
+            <l>que pasas desta suerte</l>
+            <l>los últimos umbrales de la muerte?</l>
+            <stage>Vase CURCIO.</stage>
+          </sp>
+          <sp who="#blas">
+            <speaker>BLAS</speaker>
+            <l>Sea en penas tan graves,</l>
+            <l>su sepulcro las fieras y las aves.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>OTRO</speaker>
+            <l n="665">Del monte despeñado</l>
+            <l>caiga por más rigor despedazado.</l>
+          </sp>
+          <sp who="#tirso">
+            <speaker>TIRSO</speaker>
+            <l>Mejor es darle agora</l>
+            <l>rústica sepultura entre estos ramos,</l>
+            <l>pues ya la noche baja</l>
+            <l n="670">envuelta en esa lóbrega mortaja,</l>
+            <l>aquí en el monte, Gil, con él te queda,</l>
+            <l>porque sola tu voz avisar pueda,</l>
+            <l>si algunas gentes vienen</l>
+            <l part="I">de las que huyeron.</l>
+          </sp>
+          <stage>Vanse.</stage>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¡Linda flema tienen!</l>
+            <l n="675">A Eusebio han enterrado</l>
+            <l>allí, y a mí aquí solo me han dejado.</l>
+            <l>Señor Eusebio, acuérdese, le digo,</l>
+            <l>que un tiempo fui su amigo.</l>
+            <l>Mas ¿qué es esto? O me engaña mi deseo</l>
+            <l n="680">o mil personas a esta parte veo.</l>
+          </sp>
+          <stage>Sale ALBERTO.</stage>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l>Viniendo agora de Roma,</l>
+            <l>en la muda suspensión</l>
+            <l>de la noche, en este monte</l>
+            <l>perdido otra vez estoy.</l>
+            <l n="685">Aquesta es la parte adonde</l>
+            <l>la vida Eusebio me dio,</l>
+            <l>y de sus soldados temo</l>
+            <l>que en grande peligro estoy.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¡Alberto!</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="F">¿Qué aliento es este</l>
+            <l n="690">de una temerosa voz</l>
+            <l>que repitiendo mi nombre</l>
+            <l>en mis oídos sonó?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¡Alberto!</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="F">Otra vez pronuncia</l>
+            <l>mi nombre, y me pareció</l>
+            <l n="695">que es a esta parte; yo quiero</l>
+            <l part="I">ir llegando.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="F">¡Santo Dios!</l>
+            <l>Eusebio es, y ya es mi miedo</l>
+            <l>de los miedos el mayor.</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="I">¡Alberto!</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="F">Más cerca suena.</l>
+            <l n="700">Voz que discurres veloz</l>
+            <l>el viento y mi nombre dices,</l>
+            <l part="I">¿quién eres?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">Eusebio soy;</l>
+            <l>llega, Alberto, hacia esta parte,</l>
+            <l>adonde enterrado estoy;</l>
+            <l n="705">llega y levanta estos ramos.</l>
+            <l part="I">No temas.</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="F">No temo yo.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l part="I">Yo sí.</l>
+            <stage>Descúbrele.</stage>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="F">Ya estás descubierto.</l>
+            <l>Dime, de parte de Dios,</l>
+            <l part="I">¿qué me quieres?</l>
+          </sp>
+          <sp who="#eusebio">
+            <speaker>EUSEBIO</speaker>
+            <l part="F">De su parte,</l>
+            <l n="710">mi fe, Alberto, te llamó</l>
+            <l>para que antes de morir</l>
+            <l>me oyeses de confesión.</l>
+            <l>Rato ha que hubiera muerto;</l>
+            <l>pero libre se quedó</l>
+            <l n="715">del espíritu el cadáver,</l>
+            <l>que de la muerte el feroz</l>
+            <l>golpe le privó del uso,</l>
+            <l>pero no le dividió.</l>
+            <stage>Levántase.</stage>
+            <l>Ven adonde mis pecados</l>
+            <l n="720">confiese, Alberto, que son</l>
+            <l>más que del mar las arenas,</l>
+            <l>y los átomos del sol.</l>
+            <l>¡Tanto con el cielo puede</l>
+            <l>de la cruz la devoción!</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l n="725">Pues yo cuantas penitencias</l>
+            <l>hice hasta agora te doy,</l>
+            <l>para que en tu culpa sirvan</l>
+            <l>de alguna satisfación.</l>
+          </sp>
+          <stage>Vanse, y salen por otra puerta JULIA, y bandoleros.</stage>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>¡Por Dios, que va por su pie!</l>
+            <l n="730">Y para verlo mejor,</l>
+            <l>el sol descubre sus rayos.</l>
+            <l>A decirlo a todos voy.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Agora que descuidados</l>
+            <l>la vitoria los dejó</l>
+            <l n="735">entre los brazos del sueño,</l>
+            <l>nos dan bastante ocasión.</l>
+          </sp>
+          <sp who="#octavio">
+            <speaker>OCTAVIO</speaker>
+            <l>Si has de salirlos al paso,</l>
+            <l>por esta parte es mejor,</l>
+            <l>que ellos vienen por aquí.</l>
+          </sp>
+          <stage>Salen todos y CURCIO.</stage>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l n="740">Sin duda que inmortal soy</l>
+            <l>en los males que me matan,</l>
+            <l>pues no me ha muerto el dolor.</l>
+          </sp>
+          <sp who="#gil">
+            <speaker>GIL</speaker>
+            <l>A todas partes hay gente;</l>
+            <l>sepan todos de mi voz</l>
+            <l n="745">el más admirable caso</l>
+            <l>que jamás el mundo vio.</l>
+            <l>De donde enterrado estaba</l>
+            <l>Eusebio, se levantó,</l>
+            <l>llamando un clérigo a voces.</l>
+            <l n="750">Mas ¿para qué os cuento yo</l>
+            <l>lo que todos podéis ver?</l>
+            <l>Mirad con la devoción</l>
+            <l>que está puesto de rodillas.</l>
+          </sp>
+          <stage>Descúbrese de rodillas, y ALBERTO confesándole.</stage>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>¡Mi hijo es, divino Dios!</l>
+            <l n="755">¿Qué maravillas son estas?</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>¿Quién vio prodigio mayor?</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>Así como el santo viejo</l>
+            <l>hizo de la absolución</l>
+            <l>la forma, segunda vez</l>
+            <l n="760">muerto a sus plantas cayó.</l>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l>Entre sus grandezas tantas,</l>
+            <l>sepa el mundo la mayor</l>
+            <l>maravilla de las suyas,</l>
+            <l>porque la ensalce mi voz.</l>
+            <l n="765">Eusebio, después de muerto,</l>
+            <l>el cielo depositó</l>
+            <l>su espíritu en su cadáver</l>
+            <l>hasta que se confesó,</l>
+            <l>que tanto con Dios alcanza</l>
+            <l n="770">de la cruz la devoción.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l>¡Ay, hijo del alma mía!</l>
+            <l>No fue desdichado, no,</l>
+            <l>quien en su trágica muerte</l>
+            <l>tantas glorias mereció.</l>
+            <l n="775">¡Así Julia conociera</l>
+            <l part="I">sus culpas!</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l part="F">¡Válgame Dios!</l>
+            <l>¿Qué es lo que estoy escuchando?</l>
+            <l>¿Qué prodigio es este? ¿Yo</l>
+            <l>soy la que a Eusebio pretende,</l>
+            <l n="780">y hermana de Eusebio soy?</l>
+            <l>Pues sepan Curcio y el mundo,</l>
+            <l>y sepan ya todos hoy</l>
+            <l>mis graves culpas: yo misma,</l>
+            <l>asombrada de mi error,</l>
+            <l n="785">daré voces; sepan todos</l>
+            <l>cuantos hoy viven que yo</l>
+            <l>soy Julia, en número infame</l>
+            <l>de las malas la peor.</l>
+            <l>Mas ya que ha sido común</l>
+            <l n="790">mi pecado, desde hoy</l>
+            <l>lo será mi penitencia;</l>
+            <l>y pidiéndole perdón</l>
+            <l>al mundo del mal ejemplo,</l>
+            <l>de la mala vida a Dios.</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l n="795">¡Oh asombro de las maldades!</l>
+            <l>Con mis propias manos hoy</l>
+            <l>te mataré, porque sean</l>
+            <l>tu vida y tu muerte atroz.</l>
+          </sp>
+          <sp who="#julia">
+            <speaker>JULIA</speaker>
+            <l>Valedme voz, cruz divina,</l>
+            <l n="800">que yo mi palabra os doy</l>
+            <l>de volverme a mi convento</l>
+            <l>y hacer nueva vida. ¡Adiós!</l>
+            <stage>Vase JULIA a lo alto, asida de la cruz que está en el sepulcro de EUSEBIO.</stage>
+          </sp>
+          <sp who="#alberto">
+            <speaker>ALBERTO</speaker>
+            <l part="I">¡Gran milagro!</l>
+          </sp>
+          <sp who="#curcio">
+            <speaker>CURCIO</speaker>
+            <l part="F">Y con el fin</l>
+            <l>de tan grande admiración,</l>
+            <l n="805">la devoción de la Cruz</l>
+            <l>da felice fin su autor.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

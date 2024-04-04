@@ -1,0 +1,3476 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000027" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La devoción de la misa</title>
+        <title type="sub">Auto historial alegórico</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName>Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-06-12"><time when="20:36:35"/></date>
+        <idno type="quadramaX">La devoción de la misa</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-devocion-de-la-misa--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por J. Enrique Duarte procedente de la edición Calderón de la Barca, Pedro, La devoción de la misa, ed. J. Enrique Duarte, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2001. ISBN: 3-935004-41-9.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="garcía" sex="MALE">
+            <persName>El Conde Garci Fernández de Castilla</persName>
+          </person>
+          <person xml:id="almanzor" sex="MALE">
+            <persName>Almanzor</persName>
+            <trait source="castlist">
+              <desc>rey de Córdoba</desc>
+            </trait>
+          </person>
+          <person xml:id="seta" sex="FEMALE">
+            <persName>La Seta de Mahoma</persName>
+          </person>
+          <person xml:id="ángel" sex="MALE">
+            <persName>Un Ángel</persName>
+          </person>
+          <person xml:id="demonio-pascual-vivas" sex="MALE">
+            <persName>El Demonio Pascual Vivas</persName>
+            <trait source="castlist">
+              <desc>soldado</desc>
+            </trait>
+          </person>
+          <person xml:id="pascual" sex="MALE">
+            <persName>Pascual Vivas</persName>
+            <trait source="name">
+              <desc>soldado galán</desc>
+            </trait>
+          </person>
+          <person xml:id="pernil" sex="MALE">
+            <persName>Pernil</persName>
+            <trait source="castlist">
+              <desc>soldado gracioso</desc>
+            </trait>
+          </person>
+          <person xml:id="lelio" sex="MALE">
+            <persName>Lelio</persName>
+            <trait source="castlist">
+              <desc>soldado</desc>
+            </trait>
+          </person>
+          <person xml:id="aminta" sex="FEMALE">
+            <persName>Aminta</persName>
+            <trait source="castlist">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <personGrp xml:id="soldados-montañeses" sex="MALE">
+            <persName>Soldados montañeses</persName>
+          </personGrp>
+          <personGrp xml:id="soldados-moros" sex="MALE">
+            <persName>Soldados moros</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="música">
+            <persName>Músicos</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1760">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">La devoción de la misa</titlePart>
+        <titlePart type="sub">Auto historial alegórico</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas</head>
+        <castItem>EL CONDE GARCI FERNÁNDEZ DE CASTILLA.</castItem>
+        <castItem>ALMANZOR, rey de Córdoba</castItem>
+        <castItem>LA SETA DE MAHOMA.</castItem>
+        <castItem>UN ÁNGEL.</castItem>
+        <castItem>EL DEMONIO PASCUAL VIVAS, soldado.</castItem>
+        <castItem>PERNIL, soldado gracioso.</castItem>
+        <castItem>LELIO, soldado.</castItem>
+        <castItem>AMINTA, dama.</castItem>
+        <castItem>SOLDADOS MONTAÑESES.</castItem>
+        <castItem>SOLDADOS MOROS.</castItem>
+        <castItem>MÚSICOS.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene" n="1">
+          <stage>Dentro cajas y trompetas a una parte y a otra música y, después de las primeras voces, salen luchando EL ÁNGEL y LA SETA DE MAHOMA</stage>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <stage>Dentro.</stage>
+            <l>A sangre y fuego la lid</l>
+            <l part="I">publicad.</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros #pernil #música">
+            <speaker>TODOS</speaker>
+            <l part="F">Arma, arma, guerra.</l>
+          </sp>
+          <stage>La caja.</stage>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <stage>Dentro.</stage>
+            <l>Con lágrimas y suspiros</l>
+            <l>moved del cielo la esfera.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="5">Ten de nosotros, Señor, </l>
+            <stage>La música.</stage>
+            <l>misericordia y clemencia.</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>Haced alto hasta que el día</l>
+            <l>a estos montes amanezca.</l>
+          </sp>
+          <stage>La caja.</stage>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>No dejen toda la noche</l>
+            <l n="10">de clamar las voces vuestras.</l>
+          </sp>
+          <stage>La música todo junto, arma y música.</stage>
+          <sp who="#soldados-montañeses #soldados-moros #música">
+            <speaker>TODOS</speaker>
+            <l part="I">Arma, arma.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Piedad, piedad,</l>
+            <l part="I">favor, favor.</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros #música">
+            <speaker>TODOS</speaker>
+            <l part="F">Guerra, guerra.</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l part="I">Todo sea horror.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">Sea todo</l>
+            <stage>Él y música.</stage>
+            <l>misericordia y clemencia.</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros">
+            <speaker>UNOS</speaker>
+            <l part="I">Piedad, piedad.</l>
+          </sp>
+          <sp who="#pernil #música">
+            <speaker>OTROS</speaker>
+            <l n="15" part="F">Arma, arma.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Salen el ÁNGEL y la SETA luchando.</stage>
+          <sp who="#soldados-montañeses #soldados-moros">
+            <speaker>UNOS</speaker>
+            <l part="I">Favor, favor.</l>
+          </sp>
+          <sp who="#pernil #música">
+            <speaker>OTROS</speaker>
+            <l part="F">Guerra, guerra.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">Deja esta tierra.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l part="F">¿Por qué,</l>
+            <l>habiéndome dado de ella</l>
+            <l>el derecho de las armas</l>
+            <l n="20">posesión en mi primera </l>
+            <l>invasión, cuyo dominio</l>
+            <l>después el tiempo hizo herencias,</l>
+            <l>pues ha ya quinientos años</l>
+            <l>que en ella mis gentes reinan,</l>
+            <l n="25">contra la prescripta acción </l>
+            <l>de uno y otro fuero, intentas,</l>
+            <l>¡oh, tú, que no sé quién eres,</l>
+            <l>bien que al verte el alma tiembla!,</l>
+            <stage>Desásese dél.</stage>
+            <l part="I">de ella arrojarme?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Porque</l>
+            <l n="30">contra el derecho que alegas </l>
+            <l>hoy de las armas y contra</l>
+            <l>los cinco siglos que cuentas</l>
+            <l>hay ley de que no prescriba</l>
+            <l>quien con mala fee posea</l>
+            <l n="35">y tu siempre loco error, </l>
+            <l>bárbara religión ciega,</l>
+            <l>nunca con buena fee pudo</l>
+            <l part="I">poseer.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l part="F">Detén la lengua</l>
+            <l>que siendo yo como soy</l>
+            <l n="40">hija del mayor profeta </l>
+            <l>de Alá, descendiente ilustre</l>
+            <l>de Ismael, cuya nobleza</l>
+            <l>desde Abraham, por Agar</l>
+            <l>y Sarra el nombre conserva</l>
+            <l n="45">de ismaelitas, agarenos</l>
+            <l>y sarracenos, me niegas</l>
+            <l>injustamente la acción</l>
+            <l part="I">de la buena fee.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Tú mesma</l>
+            <l>contra ti mesma litigas,</l>
+            <l n="50">si de tu origen te acuerdas, </l>
+            <l>pues no me podrás negar,</l>
+            <l>ya que de Ismael desciendas,</l>
+            <l>el ser de la idolatría</l>
+            <l>hija espúrea, pues su ofensa</l>
+            <l n="55">de la casa de su padre</l>
+            <l>le desterró a las desiertas</l>
+            <l>montañas de Farán donde</l>
+            <l>después de una y muchas vueltas</l>
+            <l>que dio el sol, le halló en sus hijos</l>
+            <l n="60">del vil, el pseudo profeta</l>
+            <l>la bárbara religión</l>
+            <l>que tú en sombras representas,</l>
+            <l>diabólicamente horribles,</l>
+            <l>tanto que sin que merezcas</l>
+            <l n="65">nombre de ley, con el nombre</l>
+            <l>de seta (que se interpreta</l>
+            <l>seguido dogma) hasta hoy</l>
+            <l part="I">te has conservado.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l part="F">Aunque pueda</l>
+            <l>responderte con razones</l>
+            <l n="70">no quiero, porque me enseña</l>
+            <l>esa misma ley que agravias,</l>
+            <l>ese mismo honor que afrentas</l>
+            <l>que antes que la voz la arguya,</l>
+            <l>el acero la defienda.</l>
+            <l n="75">Y supuesto que al acero</l>
+            <l>de su Alcorán la severa</l>
+            <l>cuestión remite, hable él dando</l>
+            <l>sus aplausos la respuesta.</l>
+            <l>¿Qué ley, qué culto, qué rito,</l>
+            <l n="80">sea dogma o no lo sea,</l>
+            <l>hoy en el orbe contiene</l>
+            <l>más trofeos? Asia llena</l>
+            <l>de sus séquitos lo diga.</l>
+            <l>Dígalo África cubierta</l>
+            <l n="85">de sus familias; y cuando</l>
+            <l>no baste decirlo ellas</l>
+            <l>dígalo también Europa</l>
+            <l>no tanto porque diadema</l>
+            <l>de su oriental frente altiva</l>
+            <l n="90">Constantinopla se ostenta,</l>
+            <l>cuanto porque aun no cabiendo</l>
+            <l>en márgenes tan estrechas</l>
+            <l>saliendo de sí, hasta España</l>
+            <l>sus avenidas revienta.</l>
+            <l n="95">De mis arábigas güestes </l>
+            <l>las andaluces riberas</l>
+            <l>inundadas lo publiquen</l>
+            <l>desde el día que sangrienta</l>
+            <l>la campaña de Jerez</l>
+            <l n="100">rompiendo el Tarif sus presas,</l>
+            <l>sus presas rompiendo el Muza</l>
+            <l>vio mis medias lunas llenas</l>
+            <l>del honor de sus vitorias</l>
+            <l>y el dolor de sus tragedias.</l>
+            <l n="105">Acuérdate de las ruinas,</l>
+            <l>las desdichas, las miserias,</l>
+            <l>las lágrimas, los lamentos,</l>
+            <l>calamidades y penas</l>
+            <l>en que quedó de Rodrigo</l>
+            <l n="110">la pompa, con tan deshecha</l>
+            <l>fortuna que aun en cenizas</l>
+            <l>su tumba no nos le acuerda.</l>
+            <l>Acuérdate que con él</l>
+            <l>viudas sus más ricas fembras,</l>
+            <l n="115">muertos sus más nobles héroes,</l>
+            <l>sus infantes sin defensa,</l>
+            <l>sin consejo sus ancianos,</l>
+            <l>quedó España tan sujeta</l>
+            <l>que ya establos sus altares,</l>
+            <l n="120">ya mezquitas sus iglesias,</l>
+            <l>cautiva en su patria no hubo</l>
+            <l>desde el Guadalete al Ezla,</l>
+            <l>(ese río que divide</l>
+            <l>las dos montañas soberbias</l>
+            <l n="125">de León y de Castilla)</l>
+            <l>al impulso de mi diestra</l>
+            <l>o ciudad que no se rinda</l>
+            <l>o gente que no perezca,</l>
+            <l>capitulando al mirar</l>
+            <l n="130">arboladas mis banderas</l>
+            <l>la esclavitud o la fuga,</l>
+            <l>siendo el que huye y el que queda</l>
+            <l>o mistiárabe cautivo</l>
+            <l>o racional bruto de esas</l>
+            <l n="135">rústicas montañas, donde</l>
+            <l>al abrigo de sus breñas</l>
+            <l>forajidas las más nobles</l>
+            <l>godas reliquias se albergan.</l>
+            <l>Pues siendo así que triunfante</l>
+            <l n="140">más la ley de mi profeta</l>
+            <l>que la del profeta Cristo</l>
+            <l>vive, ¿quién duda, quién niega,</l>
+            <l>que tanto favor de Alá</l>
+            <l>y tanto castigo sean</l>
+            <l n="145">argumento de que no</l>
+            <l>está en mis ritos su ofensa</l>
+            <l>sino en los suyos, pues siendo</l>
+            <l>su suma piedad inmensa</l>
+            <l>claro está que al que castiga</l>
+            <l n="150">quiere menos que al que premia?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>En las padecidas ansias</l>
+            <l>que el hombre en su culpa engendra,</l>
+            <l>los ceños de Dios no son</l>
+            <l>castigos, sino clemencias,</l>
+            <l n="155">pues nunca llega el castigo</l>
+            <l>adonde la culpa llega,</l>
+            <l>y para que lo conozcas</l>
+            <l>un ejemplo te convenza:</l>
+            <l>el padre castiga al hijo</l>
+            <l n="160">no porque al hijo aborrezca</l>
+            <l>sino porque le ama, pues</l>
+            <l>cuando le hiere, le enmienda.</l>
+            <l>Así Dios, padre piadoso,</l>
+            <l>con el hijo que más precia</l>
+            <l n="165">por enmendarle le aflige</l>
+            <l>sin que por eso se entienda</l>
+            <l>que quiere más al azote</l>
+            <l>que al hijo, cuya evidencia</l>
+            <l>lo es para que consideres</l>
+            <l n="170">que en las merecidas penas</l>
+            <l>de su pueblo, de quien es</l>
+            <l>el que tú presumes necia</l>
+            <l>su profeta su Dios mismo,</l>
+            <l>no es la aflicción consecuencia</l>
+            <l n="175">de enojo, sino de amor,</l>
+            <l>de ira, sino de clemencia,</l>
+            <l>pues le oprime en esta vida</l>
+            <l>para premiarle en la eterna;</l>
+            <l>y así el darte a ti vitorias</l>
+            <l n="180">y a él desdichas, a ti empresas</l>
+            <l>y a él ruinas, a ti trofeos</l>
+            <l>y a él ansias, a ti grandezas</l>
+            <l>y a él afliciones, solo es</l>
+            <l>argumento de que sea</l>
+            <l n="185">él el hijo que ama y tú</l>
+            <l>la vara que le escarmienta.</l>
+            <l>Y siendo así que no hay vez</l>
+            <l>que el padre el amago mueva</l>
+            <l>que no haga el amor que el golpe</l>
+            <l n="190">antes que le dé, le sienta</l>
+            <l>¿qué extrañas que llegue el día</l>
+            <l>en que del hijo se duela</l>
+            <l>y lastimado el enojo</l>
+            <l>a sus cariños le vuelva?</l>
+            <l n="195">El gran príncipe de Asturias,</l>
+            <l>Pelayo, testigo sea,</l>
+            <l>de que en él terminó el ceño</l>
+            <l>y empezó el halago, en prueba</l>
+            <l>de que España vinculadas</l>
+            <l n="200">sus felicidades vea</l>
+            <l>en los Príncipes de Asturias,</l>
+            <l>pues de todas sus tristezas</l>
+            <l>tendrá alivio siempre que</l>
+            <l>príncipe en Asturias tenga.</l>
+            <l n="205">Desde su primer vitoria</l>
+            <l>continuadas las proezas</l>
+            <l>de Covadonga lo digan</l>
+            <l>y pues continuándose a ella</l>
+            <l>una y muchas ven León</l>
+            <l n="210">y Castilla de su opresa</l>
+            <l>cerviz sacudido el yugo,</l>
+            <l>tanto que en libertad puestas</l>
+            <l>van restituyendo altivas</l>
+            <l>a su dominio las fuerzas,</l>
+            <l n="215">a su religión las aras,</l>
+            <l>y a su culto las iglesias,</l>
+            <l>a cuya causa, yo que</l>
+            <l>titular inteligencia</l>
+            <l>soy de Castilla, (pues nadie</l>
+            <l n="220">ignora que su ángel tengan</l>
+            <l>no las repúblicas sólo,</l>
+            <l>mas las especies diversas</l>
+            <l>de frutos y de animales</l>
+            <l>como doctores asientan</l>
+            <l n="225">difiniendo esta custodia</l>
+            <l>con nombre de presidencia)</l>
+            <l>a cuya causa (otra vez</l>
+            <l>digo) yo que inteligencia</l>
+            <l>soy de Castilla a quien tuvo</l>
+            <l n="230">por tantos años sujeta</l>
+            <l>el inescrutable juicio</l>
+            <l>de la ciencia de las ciencias;</l>
+            <l>a intimarte tu destierro</l>
+            <l>me dejo hoy ver porque veas</l>
+            <l n="235">que día que tus caudillos</l>
+            <l>con cajas y con trompetas</l>
+            <l>la amenazan y ella en himnos</l>
+            <l>llenos de lágrimas tiernas</l>
+            <l>responden clamando al cielo</l>
+            <l n="240">está su vitoria cierta.</l>
+            <l>Y porque mejor lo digas,</l>
+            <l>oye esas voces diversas</l>
+            <l>con que unos dicen altivos.</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros">
+            <speaker>UNOS</speaker>
+            <l>Arma, arma, guerra guerra.</l>
+          </sp>
+          <stage>La caja.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">Y otros humildes.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="245" part="F">Señor,</l>
+            <l>misericordia y clemencia.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>Pues, ¿cómo (no puedo hablar)</l>
+            <l>es (enmudece la lengua)</l>
+            <l>posible (la voz se pasma)</l>
+            <l n="250">que tú (el aliento se hiela)</l>
+            <l>quieras (la razón delira)</l>
+            <l>arrojándome (qué pena)</l>
+            <l>violentamente (qué ansia)</l>
+            <l>abreviar (el alma tiembla)</l>
+            <l n="255">plazos (volcán es el pecho) </l>
+            <l>que el tiempo (el corazón Etna)</l>
+            <l>concede al valor (qué ira)</l>
+            <l>para que invencible venza?</l>
+            <l>Y pues al principio dije</l>
+            <l n="260">que no ha de argüir mi lengua</l>
+            <l>sino la espada mi ley,</l>
+            <l>dejando argumentos, deja</l>
+            <l>obrar las segundas causas.</l>
+            <l>Veamos si piadosa esa</l>
+            <l n="265">religión que tanto ensalzas,</l>
+            <l>cristiandad que tanto aprecias</l>
+            <l>en fee de sus sacrificios</l>
+            <l>más triunfante a verse llega</l>
+            <l>que yo en fee de mi valor</l>
+            <l part="I">y mis armas.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="270" part="F">Norabuena,</l>
+            <l>y pues a segundas causas</l>
+            <l>se remite la experiencia</l>
+            <l>haciendo de la historial</l>
+            <l>alegórica materia</l>
+            <l n="275">atiende y atiendan todos</l>
+            <l>para que nada se pierda.</l>
+            <l>Castilla, afligido pueblo</l>
+            <l>de Dios por causas secretas</l>
+            <l>que él guarda en sí, signifique</l>
+            <l n="280">a la primitiva Iglesia</l>
+            <l>retraída por los montes.</l>
+            <l>Garci Fernández en ella</l>
+            <l>o Conde o comes que es</l>
+            <l>ser compañero en sus penas,</l>
+            <l n="285">haciendo el nombre anagrama,</l>
+            <l>pues con mudarle una letra</l>
+            <l>el que dice García dice</l>
+            <l>gracia, su caudillo sea</l>
+            <l>que de la Iglesia la Gracia</l>
+            <l n="290">siempre es la mayor defensa.</l>
+            <l>Tú, que de la venenosa</l>
+            <l>hidra de siete cabezas</l>
+            <l>la principal eres, siendo</l>
+            <l>de siete cuellos compuesta,</l>
+            <l n="295">pues en ti la idolatría</l>
+            <l>y gentilidad se encierran,</l>
+            <l>judaísmo, apostasía,</l>
+            <l>y paganismo, soberbia</l>
+            <l>serás quien la guerra la haga</l>
+            <l n="300">y el hombre quien la defienda.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>Pues ya que tan misterioso</l>
+            <l>lo historial quieres que sea</l>
+            <l>alegórico, ¿qué hombre</l>
+            <l>de cuantos la historia cuenta</l>
+            <l n="305">sin que le añada el ingenio</l>
+            <l>circunstancia que no tenga</l>
+            <l>representará en común</l>
+            <l>el que a dos luces intentas</l>
+            <l part="I">introducir?</l>
+          </sp>
+          <stage>Dentro PERNIL como llamando.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">¡Pascual Vivas!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="310">El aire dio la respuesta</l>
+            <l>pues un soldado que llama</l>
+            <l>a otro, no sin providencia,</l>
+            <l>articuló nombre en quien</l>
+            <l>cobre el sentido más fuerza.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l part="I">¿Más fuerza el sentido?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="315" part="F">Sí.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>Por si es posible le entienda,</l>
+            <l part="I">oiré otra vez.</l>
+          </sp>
+          <stage>Dentro PERNIL.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">¡Pascual Vivas!</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>Pascual Vivas dijo. Sepa</l>
+            <l>en qué el misterio consiste.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="320">En que dijo el real profeta</l>
+            <l>«sea el hombre de tu pascua</l>
+            <l>víctima, Señor»; y llega</l>
+            <l>casi a frisar el sonido</l>
+            <l>de Pascual Vivas que aquella</l>
+            <l n="325">voz dijo con ser pascual</l>
+            <l>víctima de Dios y ofrenda.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>Yo convengo en el sentido</l>
+            <l>y aun me güelgo de que sea</l>
+            <l>Pascual Vivas en quien hoy</l>
+            <l n="330">fundar tu razón pretendas</l>
+            <l>porque le conozco y sé</l>
+            <l>de sus costumbres perversas</l>
+            <l part="I">que está en pecado.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Eso hará</l>
+            <l>la metáfora más cierta</l>
+            <l n="335">si sobre estar en pecado</l>
+            <l>alguna virtud le enmienda.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>Pues aunque en García y Pascual</l>
+            <l>varios sentidos penetras,</l>
+            <l>yo sin buscar más sentidos</l>
+            <l n="340">que militar en tu ofensa</l>
+            <l>mis esperanzas pondré</l>
+            <l>en Almanzor que es quien reina</l>
+            <l>hoy en Córdoba y quien hoy</l>
+            <l>estas campañas infesta,</l>
+            <l n="345">que de la antigua Numancia</l>
+            <l>ruinas son, cuyas trompetas</l>
+            <l>apenas oyó Castilla</l>
+            <l>cuando a su opósito intenta</l>
+            <l>su Conde salir, haciendo</l>
+            <l n="350">de armas plaza en Santisteban</l>
+            <l>de Gormaz, en cuyo campo</l>
+            <l>casi a la vista las tiendas</l>
+            <l>están esperando al alba.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Pues ¿qué aguardas? Pues ¿qué esperas?</l>
+            <l n="355">Ve a conducirle sus tropas.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>Ve tú a tratar sus defensas.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Sí haré, y pues no se da tiempo</l>
+            <l>ni lugar en las ideas</l>
+            <l>alegóricas, verás</l>
+            <l n="360">cómo desde aquí le alienta</l>
+            <l>la dulzura de mi voz.</l>
+          </sp>
+          <stage>Apartándose los dos.</stage>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>También en esa acción mesma</l>
+            <l>verás cómo desde aquí</l>
+            <l>de la mía el horror llega</l>
+            <l n="365">a sus oídos porque</l>
+            <l>mi fuego su fuego encienda.</l>
+            <stage>Cantando hacia un carro.</stage>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Conde ilustre de Castilla.</l>
+            <stage>Representando hacia otro.</stage>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>Rey de Córdoba la bella.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Invicto Garci Fernández,</l>
+            <l n="370">godo Atlante de la Iglesia.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l>Grande Almanzor africano,</l>
+            <l>Alcides de la ley nuestra.</l>
+          </sp>
+          <stage>Ábrense los dos carros que serán dos tiendas de campaña y vese en el uno el CONDE GARCI FERNÁNDEZ, viejo venerable, armado de todas armas, sentado durmiendo y en el otro ALMANZOR durmiendo también sentado en otra silla.</stage>
+          <stage>En sueños.</stage>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="I">¿Quién me nombra?</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l part="F">¿Quién me llama?</l>
+          </sp>
+          <stage>Cantando.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">Despierta a mi voz.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l part="F">Despierta</l>
+            <l part="I">a mi acento.</l>
+          </sp>
+          <stage>En sueños.</stage>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l n="375" part="F">¿Quién, quién eres</l>
+            <l>divina inspiración bella</l>
+            <l>que iluminas mis sentidos</l>
+            <l>en las pardas sombras negras</l>
+            <l part="I">de la noche?</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l part="F">¿Quién, quién eres</l>
+            <l n="380">caduca sombra funesta</l>
+            <l>que en las fantasmas del sueño</l>
+            <l>nueva pesadez aumentas?</l>
+          </sp>
+          <stage>Cantando.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>De tu fe y tu religión</l>
+            <l>espíritu soy que alienta</l>
+            <l n="385">con los suaves acentos</l>
+            <l>de dulces cláusulas tiernas</l>
+            <l>tu valor, para que acudas</l>
+            <l>a la piadosa defensa</l>
+            <l>de la honra de Dios cuidando</l>
+            <l n="390">de los triunfos de su Iglesia.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>De tu espíritu valiente</l>
+            <l>alma soy, que altiva intenta</l>
+            <l>con las horrorosas voces,</l>
+            <l>idiomas de mi soberbia,</l>
+            <l n="395">encender tu pecho en iras</l>
+            <l>porque en rencorosa ofensa</l>
+            <l>del crucificado Cristo</l>
+            <l>a Castilla a cobrar vuelvas.</l>
+          </sp>
+          <stage>Cantando.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¡Al arma, al arma Castilla,</l>
+            <l n="400">pues Dios sus gentes te entrega!</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>¡Al arma, al arma Almanzor,</l>
+            <l>que Alá su valor te presta!</l>
+          </sp>
+          <stage>Yéndose cada uno a su carro.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Lidia, pues, clamando al cielo</l>
+            <l>diciendo en lágrimas tiernas....</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l n="405">Lidia, pues, diciendo al son</l>
+            <l>de cajas y de trompetas....</l>
+          </sp>
+          <stage>Las cajas.</stage>
+          <sp who="#ángel #música">
+            <speaker>ÁNGEL Y MÚSICA</speaker>
+            <l>Ten de nosotros, Señor,</l>
+            <l>misericordia y clemencia.</l>
+          </sp>
+          <stage>La música.</stage>
+          <sp who="#seta">
+            <speaker>SECTA</speaker>
+            <l>A sangre y fuego la lid</l>
+            <l part="I">proseguid.</l>
+          </sp>
+          <stage>Las cajas.</stage>
+          <sp who="#seta #ángel #música">
+            <speaker>TODOS</speaker>
+            <l n="410" part="F">Arma, arma, guerra.</l>
+          </sp>
+          <stage>Música y cajas junto.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="I">Piedad, piedad.</l>
+          </sp>
+          <sp who="#seta #ángel #música">
+            <speaker>TODOS</speaker>
+            <l part="F">Arma, arma.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="I">Favor, favor.</l>
+          </sp>
+          <sp who="#seta #ángel #música">
+            <speaker>TODOS</speaker>
+            <l part="F">Guerra, guerra.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Vanse los dos y despiertan GARCÍA y ALMANZOR.</stage>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Espera, oye, escucha, aguarda.</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>Aguarda, oye, escucha, espera.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l n="415">Nueva luz de mis sentidos.</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>Nuevo horror de mis tinieblas.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="I">¿Mas qué lumbre...</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l part="F">¿Mas qué sombra...</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="I">...mi fe anima...?</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l part="F">...mi ira alienta...?</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Pero, ¿qué dudo que el cielo</l>
+            <l n="420">mis deseos favorezca </l>
+            <l>con sus auxilios, si es</l>
+            <l>mi fee mi mayor empresa?</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>Pero, ¿qué extraño que el alma</l>
+            <l>que no duerme y siempre vela</l>
+            <l n="425">dicte a mi vida dormida</l>
+            <l>los rencores de despierta?</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Y así, pues que ya amanece</l>
+            <l>del opósito la vuelta</l>
+            <l part="I">marche el campo.</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l part="F">Y así, pues</l>
+            <l n="430">ya la aurora su luz muestra,</l>
+            <l>en sus términos mis güestes</l>
+            <l>la anciana Castilla sienta.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Diciendo con quien me inspira....</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>Diciendo con quien me alienta....</l>
+          </sp>
+          <sp who="#garcía #música">
+            <speaker>GARCÍA Y MÚSICA</speaker>
+            <l n="435">Ten de nosotros, Señor,</l>
+            <l>misericordia y clemencia.</l>
+          </sp>
+          <stage>Las cajas.</stage>
+          <sp who="#almanzor #garcía #música">
+            <speaker>ALMANZOR Y TODOS</speaker>
+            <l part="I">Arma, Arma.</l>
+          </sp>
+          <sp who="#garcía #música">
+            <speaker>GARCÍA Y MÚSICA</speaker>
+            <l part="F">Piedad, piedad,</l>
+            <l part="I">favor, favor.</l>
+          </sp>
+          <sp who="#almanzor #garcía #música">
+            <speaker>TODOS</speaker>
+            <l part="F">Guerra, guerra.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Con la música, cajas y trompetas, se cierran las dos tiendas y sale por una parte PERNIL, soldado ridículo, y por otra, PASCUAL, soldado galán.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="I">¿Pascual Vivas?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">¿Qué andas loco</l>
+            <l part="I">pregonándome?</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l n="440" part="F">No seas</l>
+            <l>tú cosa perdida y no</l>
+            <l>te pregonaré. Si apenas</l>
+            <l>empieza la blanca aurora</l>
+            <l>a desvanecer las negras</l>
+            <l n="445">sombras de la noche, cuando</l>
+            <l>de la barraca te ausentas</l>
+            <l>dejando a Aminta y a mí</l>
+            <l>con la precisa sospecha</l>
+            <l>de que uno de tantos riesgos</l>
+            <l n="450">como te amenazan sea</l>
+            <l>causa de que de ella faltes</l>
+            <l>y hasta mediodía no vuelvas,</l>
+            <l>¿qué extrañas que con su susto</l>
+            <l>y el mío a buscarte venga?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l n="455">Pues dime, ¿qué riesgos yo</l>
+            <l part="I">tengo?</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">¿Ah, sí? ¡No se me acuerda</l>
+            <l>de que eres un angelito!</l>
+            <l>Perdona, que pensé que eras</l>
+            <l>un amo que allá en León,</l>
+            <l n="460">asturiana patria nuestra,</l>
+            <l>dio la muerte a cierto hidalgo</l>
+            <l>celoso de la belleza</l>
+            <l>de una Aminta a quien por no</l>
+            <l>dejar en riesgos que de ella</l>
+            <l n="465">resultaron de su casa,</l>
+            <l>a pesar de las ofensas</l>
+            <l>de su padre y sus hermanos,</l>
+            <l part="I">robada se trujo.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Deja</l>
+            <l>locuras que aunque es verdad</l>
+            <l n="470">que deudos el muerto tenga</l>
+            <l>y hermano y padre la dama,</l>
+            <l>no hay por qué unos ni otros tema,</l>
+            <l>que sabe que arriesga mucho</l>
+            <l>quien a buscarme se arriesga,</l>
+            <l n="475">mayormente cuando estoy</l>
+            <l>a sombra de la grandeza</l>
+            <l>del Conde Garci Fernández,</l>
+            <l>que obligado a la fineza</l>
+            <l>con que en todas ocasiones</l>
+            <l n="480">he servido, estima y precia</l>
+            <l>mi valor, bien que con puestos</l>
+            <l>ni me adelanta ni premia</l>
+            <l>ofendido de saber</l>
+            <l>que conmigo a Aminta tenga.</l>
+            <l n="485">Pero esto ahora no es del caso.</l>
+            <l>Salir antes que amanezca</l>
+            <l>fue porque en ese convento</l>
+            <l>que en las despobladas quiebras</l>
+            <l>del monte los monjes tienen</l>
+            <l n="490">de Benito, cuya iglesia</l>
+            <l>a san Martín dedicada</l>
+            <l>está, vi a la luz primera</l>
+            <l>tocar a misa del alba</l>
+            <l>a oírla fui; no tan apriesa</l>
+            <l n="495">salió como pensé; hube</l>
+            <l>de esperarla y bien pudieras,</l>
+            <l>pues en tantas cosas malas</l>
+            <l>sabes que tengo esta buena</l>
+            <l>de oír las más que puedo, haberme</l>
+            <l part="I">allí buscado.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l n="500" part="F">Si fuera</l>
+            <l>ermita de San Martín</l>
+            <l>y ya que ermita no sea</l>
+            <l>fuera, ya que iglesia es,</l>
+            <l>San Martín de Valdeiglesias,</l>
+            <l n="505">cuya capa abriga más</l>
+            <l>hacia dentro que hacia fuera,</l>
+            <l>ten por sin duda que yo</l>
+            <l>te hubiera buscado en ella</l>
+            <l>aunque temiera por puerco</l>
+            <l n="510">que mi san Martín me venga.</l>
+            <l>Mas déjame que me ría.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">¿De qué?</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">De que hacer pretendas</l>
+            <l>el adagio del ladrón</l>
+            <l>y de la otra buena pieza</l>
+            <l n="515">que sin decirse se entiende</l>
+            <l>verdad, pues como él y ella</l>
+            <l>no te faltan devociones.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Por malo que un hombre sea,</l>
+            <l>no ha de vivir olvidado</l>
+            <l n="520">tanto de Dios que no tenga</l>
+            <l>alguna luz de cristiano,</l>
+            <l>fuera de que si advirtiera</l>
+            <l>el peor cuánto el misterio</l>
+            <l>de la misa incluye y cierra</l>
+            <l n="525">desde la primera edad</l>
+            <l>del mundo hasta la postrera</l>
+            <l>edad del mundo en que Dios</l>
+            <l>por fuego a juzgarle venga,</l>
+            <l>no habría olvido tan rebelde,</l>
+            <l n="530">no habría voluntad tan ciega</l>
+            <l>que no fuera su devoto.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>¿Cómo es eso que contenga</l>
+            <l>desde el principio del mundo</l>
+            <l part="I">hasta el fin?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Desta manera:</l>
+            <l n="535">oye en tanto que llegamos</l>
+            <l>donde Aminta nos espera.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>Muy bien viene uno con otro.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¿Qué quieres? Uno es flaqueza</l>
+            <l part="I">y otro es fee.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">Atención que el diablo</l>
+            <l part="I">predica.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l n="540" part="F">Verdades ciertas</l>
+            <l>no se atienda a quien las dice,</l>
+            <l>sólo a que lo son se atienda.</l>
+            <l>La ley natural, en quien</l>
+            <l>Adán su culpa lamenta,</l>
+            <l n="545">cuando en él comprometida</l>
+            <l>toda la naturaleza</l>
+            <l>la dejó por mayorazgo</l>
+            <l>de su miserable herencia</l>
+            <l>que pan de dolores coma</l>
+            <l n="550">y agua de lágrimas beba,</l>
+            <l>en la confesión que hace</l>
+            <l>el preste se representa</l>
+            <l>cuando fuera del altar</l>
+            <l>nos dice que el hombre fuera</l>
+            <l n="555">de su feliz primer patria</l>
+            <l>viador gima, llore y sienta.</l>
+            <l>Compadece a Dios su llanto</l>
+            <l>y viendo que al hombre sea,</l>
+            <l>siendo como es infinita</l>
+            <l n="560">por el objeto la deuda,</l>
+            <l>imposible que por sí</l>
+            <l>alcance a satisfacerla,</l>
+            <l>determina su bondad,</l>
+            <l>su amor, su poder, su ciencia</l>
+            <l n="565">que hombre y Dios la satisfaga.</l>
+            <l>Dios hombre, para que tenga</l>
+            <l>lo infinito en lo infinito</l>
+            <l>conforme la recompensa.</l>
+            <l>A este fin elige el pueblo</l>
+            <l n="570">de Israel, para ascendencia</l>
+            <l>a quien de esclavitud saca</l>
+            <l>y en Sinaí la ley le entrega</l>
+            <l>escrita, significada</l>
+            <l>en la sumisión primera</l>
+            <l n="575">con que entra el preste al altar</l>
+            <l>que es decir que el pueblo entra</l>
+            <l>ya en tierra de promisión</l>
+            <l>con que en el introito empieza</l>
+            <l>la escrita, cuando besando</l>
+            <l n="580">la ara el preste al misal llega</l>
+            <l>porque como ley escrita</l>
+            <l>explique que lo es el leerla.</l>
+            <l>De ella y de la natural,</l>
+            <l>patriarcas y profetas</l>
+            <l n="585">teniendo del cielo tantas,</l>
+            <l>tan infalibles promesas,</l>
+            <l>de que había de llover</l>
+            <l>su rocío el alba bella,</l>
+            <l>de que había de cuajar</l>
+            <l n="590">el blanco vellón sus perlas,</l>
+            <l>de que habían de medir</l>
+            <l>ángeles la escala excelsa,</l>
+            <l>siendo el hombre cuando suban</l>
+            <l>y el verbo cuando desciendan,</l>
+            <l n="595">y en fin, que había de enviar</l>
+            <l>Dios su salud y la tierra</l>
+            <l>producir su salvador,</l>
+            <l>en dulces lágrimas tiernas</l>
+            <l>al cielo clamaron, cuyas</l>
+            <l n="600">voces desde las tinieblas</l>
+            <l>del seno de Abraham repiten</l>
+            <l>los quiries y así se alternan</l>
+            <l>una y más veces pidiendo</l>
+            <l>misericordia y clemencia.</l>
+            <l n="605">Vuelve Dios compadecido</l>
+            <l>a oír sus ansias, que no cierran</l>
+            <l>nunca a músicas de llanto</l>
+            <l>sus piedades las orejas</l>
+            <l>con que en fee de la esperanza</l>
+            <l n="610">que ya va cumpliendo suena</l>
+            <l>consecutiva a los quiries</l>
+            <l>la gloria, cantando llenas</l>
+            <l>de angélicas armonías</l>
+            <l>una y otra dulce esfera</l>
+            <l n="615">gloria a Dios en las alturas</l>
+            <l>y paz al hombre en la tierra.</l>
+            <l>Nace, pues, Cristo encarnado</l>
+            <l>en las siempre puras, bellas,</l>
+            <l>entrañas de Virgen Madre</l>
+            <l n="620">antes del parto doncella,</l>
+            <l>doncella en el parto y</l>
+            <l>después del parto; y aunque esta</l>
+            <l>señal prometida a Acaz</l>
+            <l>de que una intacta pureza</l>
+            <l n="625">fecunda y virgen sería</l>
+            <l>trujo tan claras las señas</l>
+            <l>de la ley de Gracia, no</l>
+            <l>por eso la escrita cesa</l>
+            <l>que ha de vivir aunque nazca</l>
+            <l n="630">Cristo hasta que Cristo muera.</l>
+            <l>Y así la epístola dice</l>
+            <l>lo que de vida le resta,</l>
+            <l>que es el tiempo que durando</l>
+            <l>su predicación, la ciega</l>
+            <l n="635">sinagoga ni la admite,</l>
+            <l>ni la estima, ni la precia</l>
+            <l>con que pasar el ministro</l>
+            <l>el misal de la siniestra</l>
+            <l>mano a la diestra, es decir</l>
+            <l n="640">que por no recebir ella</l>
+            <l>la evangélica ley, pasa</l>
+            <l>a la gentilidad; esta</l>
+            <l>es la causa porque el coro</l>
+            <l>en la epístola se sienta</l>
+            <l n="645">y en el evangelio en pie</l>
+            <l>se pone, bien como en prueba</l>
+            <l>de que ya la anciana ley</l>
+            <l>caduca, yace y flaquea</l>
+            <l>y la nueva ley está</l>
+            <l n="650">y ha de estar siempre en pie atenta</l>
+            <l>al credo, que al evangelio</l>
+            <l>sucede, porque no fuera</l>
+            <l>bastante al fiel el oírla</l>
+            <l>sin protestar el creerla.</l>
+            <l n="655">Y como ya entre las sombras</l>
+            <l>de luz fallecida es fuerza</l>
+            <l>haber luces, los ciriales,</l>
+            <l>con luz encendida llegan</l>
+            <l>al diácono y al credo</l>
+            <l n="660">sigue el ofertorio en muestra</l>
+            <l>de que ya sus sacrificios</l>
+            <l>no han de ser como antes eran</l>
+            <l>de sangre de reses, siendo</l>
+            <l>en cumplimiento a la eterna</l>
+            <l n="665">orden de Melquisedech</l>
+            <l>de pan y vino la ofrenda.</l>
+            <l>Pónese la Hostia en el ara</l>
+            <l>y en fee de que presto sea</l>
+            <l>carne y sangre de Dios hombre,</l>
+            <l n="670">el vino y el agua mezcla</l>
+            <l>la preparación del cáliz,</l>
+            <l>significando la inmensa</l>
+            <l>divinidad en el vino</l>
+            <l>y en menos noble materia</l>
+            <l n="675">la humanidad en el agua.</l>
+            <l>Por esto, al vino no se echa</l>
+            <l>bendición y al agua sí,</l>
+            <l>mostrando que una se eleva</l>
+            <l>por la hispostática unión</l>
+            <l n="680">de las dos naturalezas,</l>
+            <l>y otra aunque se abata, siempre</l>
+            <l>bendita está por sí mesma.</l>
+            <l>Al ver aquí el preste al pueblo</l>
+            <l>que ore le absorta y le alienta;</l>
+            <l n="685">oye el judaísmo absorto</l>
+            <l>la proposición y ciega</l>
+            <l>su obstinación se espavece</l>
+            <l>confundido de que pueda</l>
+            <l>ser que caribe de Dios</l>
+            <l n="690">el hombre su sangre beba</l>
+            <l>y su carne coma, andando</l>
+            <l>su incredulidad tan fuera</l>
+            <l>de sí que prevaricada</l>
+            <l>en preguntas y respuestas,</l>
+            <l n="695">tal vez maquina calumnias</l>
+            <l>y tal vez previene fiestas.</l>
+            <l>Dígalo el prefacio, pues</l>
+            <l>para darle muerte fiera</l>
+            <l>al quinto día le aplaude</l>
+            <l n="700">diciendo «bendito sea</l>
+            <l>el que en nombre del Señor</l>
+            <l>viene» y a sus plantas puestas</l>
+            <l>olivas, palmas y ropas</l>
+            <l>una y mil veces vocea</l>
+            <l n="705">santo, santo, santo; aquí</l>
+            <l>entorpecida la lengua</l>
+            <l>no se atreve a proseguir</l>
+            <l>que el respeto y reverencia</l>
+            <l>de los misterios que incluye</l>
+            <l n="710">cada ápice, cada letra</l>
+            <l>de sacro canon me turba</l>
+            <l>sin que a articular me atreva</l>
+            <l>que el memento es la oración</l>
+            <l>que hace al padre, en que encomienda,</l>
+            <l n="715">segundo Adán de la Gracia,</l>
+            <l>toda la naturaleza</l>
+            <l>también en él comprehendida</l>
+            <l>en fee de cuya obediencia,</l>
+            <l>refiriendo las palabras</l>
+            <l n="720">de la sacramental cena,</l>
+            <l>el preste obra el sacramento</l>
+            <l>que Él obró con la suprema</l>
+            <l>delegada potestad</l>
+            <l>que Dios a Pedro le entrega</l>
+            <l n="725">y Pedro a sus sucesores,</l>
+            <l>vicedioses de la tierra,</l>
+            <l>para que comunicada</l>
+            <l>a los obispos se extienda</l>
+            <l>a sus sacerdotes, dando</l>
+            <l n="730">a cinco palabras fuerza</l>
+            <l>tan superior que a sus manos</l>
+            <l>baje Dios. ¡Oh!, aquí enmudezca</l>
+            <l>otra vez sin que pronuncie</l>
+            <l>que la consagración hecha</l>
+            <l n="735">es el levantar la Hostia</l>
+            <l>levantar la cruz y en ella</l>
+            <l>pendiente de tres escarpias</l>
+            <l>puesto Dios a la vergüenza;</l>
+            <l>con la diferencia solo</l>
+            <l n="740">(si en Dios se da diferencia)</l>
+            <l>que allí fue cruenta oblación</l>
+            <l>y aquí oblación incruenta.</l>
+            <l>Vuelva, pues, a enmudecer</l>
+            <l>sin que ni aun a pensar vuelva</l>
+            <l n="745">que es la sangre que derraman</l>
+            <l>sus rotas heridas venas</l>
+            <l>la que alza el cáliz, corriendo</l>
+            <l>en agua la sangre envuelta</l>
+            <l>de su costado los siete</l>
+            <l n="750">sacramentos de su Iglesia;</l>
+            <l>que el partir después la Hostia</l>
+            <l>es el dividirse aquella</l>
+            <l>divina alma del humano</l>
+            <l>cuerpo, siendo la pequeña</l>
+            <l n="755">partícula que da al cáliz</l>
+            <l>significación perfecta</l>
+            <l>de que la divinidad</l>
+            <l>en el sepulcro se queda</l>
+            <l>unida al cuerpo y unida</l>
+            <l n="760">al alma, quedando entera,</l>
+            <l>también va entera a romper</l>
+            <l>de los infiernos las puertas;</l>
+            <l>que volver las dos mitades</l>
+            <l>a unirse en la Hostia postrera</l>
+            <l n="765">es volver a unirse cuerpo</l>
+            <l>y alma en la suma, en la excelsa</l>
+            <l>resurrección suya, siendo</l>
+            <l>el quitarse allí la hijuela</l>
+            <l>que al cáliz cubre quitarse</l>
+            <l n="770">de su sepulcro la piedra;</l>
+            <l>con que el consumirle haciendo</l>
+            <l>que a la vista desparezca</l>
+            <l>es subirse al cielo donde</l>
+            <l>por siglos de siglos reina.</l>
+            <l n="775">Y pues no puedo atreverme</l>
+            <l>yo a tan sagradas materias,</l>
+            <l>baste decir que el hacer</l>
+            <l>que el ministro el misal vuelva</l>
+            <l>a su primero lugar,</l>
+            <l n="780">es decir que en la postrera</l>
+            <l>edad la predicación</l>
+            <l>volverá para que sea</l>
+            <l>sólo un pastor y un rebaño</l>
+            <l>el que todo el orbe tenga,</l>
+            <l n="785">el día que el evangelio</l>
+            <l>último en que Juan empieza</l>
+            <l>que en el principio era el verbo</l>
+            <l>y acaba en que el verbo sea</l>
+            <l>carne, confesemos todos</l>
+            <l n="790">que hombre y Dios será el que venga</l>
+            <l>en la última bendición</l>
+            <l>a juzgarnos. De manera</l>
+            <l>que continiendo la misa</l>
+            <l>la ley que culpas confiesa,</l>
+            <l n="795">la que preceptos escribe,</l>
+            <l>la que méritos aumenta,</l>
+            <l>siendo el nombre de misal</l>
+            <l>traducido de la hebrea</l>
+            <l>frase «hacimiento de gracias»</l>
+            <l n="800">y de la latina lengua</l>
+            <l>misa «enviada oblación»</l>
+            <l>del Hijo al Padre en ofrenda.</l>
+            <l>El no oírla cada día</l>
+            <l>no solamente es tibieza</l>
+            <l n="805">del perezoso, sino</l>
+            <l>descortesía grosera</l>
+            <l>que se hace a Dios, pues de veinte</l>
+            <l>y cuatro horas que le entrega</l>
+            <l>de vida cada día, aún no</l>
+            <l n="810">le sabe volver la media.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>Bueno es eso para mí</l>
+            <l>que si la oigo un día de fiesta</l>
+            <l>es solamente pensando</l>
+            <l>si se alarga o si se abrevia.</l>
+            <l n="815">Las cajas dentro a marchar</l>
+            <l>Pero, ¿qué novedad hay</l>
+            <l part="I">en el campo?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">En orden puesta</l>
+            <l>la gente marcha, no sé</l>
+            <l part="I">a qué fin.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Sale AMINTA vestida de mujer a lo soldado.</stage>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l part="F">Yo sí, que apenas</l>
+            <l n="820">te vi cuando vengo a darte</l>
+            <l>de lo que sucede cuenta.</l>
+            <l>El Conde don García,</l>
+            <l>de quien el cielo sus aplausos fía</l>
+            <l>tanto que si dijera</l>
+            <l n="825">Gracia en vez de García no mintiera</l>
+            <l>equívoca mi voz, aunque al abrigo</l>
+            <l>de Santisteban quiso al enemigo</l>
+            <l>esperar, hecha frente de banderas</l>
+            <l>la fortificación de las trincheras</l>
+            <l n="830">que contra la campaña</l>
+            <l>le delineó ingeniera la montaña,</l>
+            <l>habiendo dado al sueño</l>
+            <l>esta noche el pequeño</l>
+            <l>espacio que permite su cuidado,</l>
+            <l n="835">de no sé qué esplendor iluminado</l>
+            <l>despertó, según dicen, dando voces</l>
+            <l>que, a un mismo tiempo graves y veloces,</l>
+            <l>mudaron el motivo</l>
+            <l>mandando que del eco fugitivo</l>
+            <l n="840">inspirado el metal y herido el parche,</l>
+            <l>el ejército marche</l>
+            <l>la vuelta de Almanzor y aunque en aprestos</l>
+            <l>al designio importantes,</l>
+            <l>como no estaban antes</l>
+            <l n="845">para tan no pensada acción dispuestos,</l>
+            <l>formando escuadras y ocupando puestos</l>
+            <l>consumió su mejor edad el día,</l>
+            <l>con todo sin temor que de la fría</l>
+            <l>noche la tez, ni el hielo ni la escarcha</l>
+            <l n="850">los tránsitos le impidan de la marcha</l>
+            <l>del espíritu instado que le lleva,</l>
+            <l>manda que todo a buen compás se mueva.</l>
+          </sp>
+          <stage>La caja.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Pues ven, Aminta mía,</l>
+            <l>al puesto que tocó a mi compañía;</l>
+            <l n="855">no vea el Conde que de ella</l>
+            <l>falto en esta ocasión.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>Mal podrás vella</l>
+            <l>sin que él te vea, que acaso</l>
+            <l>destribuyendo órdenes al paso</l>
+            <l part="I">sale.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l n="860" part="F">Allí te retira;</l>
+            <l>aunque el semblante con que ya me mira</l>
+            <l part="I">da a entender que te vio.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Retírase AMINTA a un lado, tocan las cajas y sale el CONDE y SOLDADOS y mirando a PASCUAL y a ella da a entender que la ha visto con la acción quedando PASCUAL entre los dos como turbado.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">¡Cuál se ha quedado!</l>
+            <l>Mas, ¿qué mucho que absorto y que turbado</l>
+            <l>esté si cuando recatar intenta </l>
+            <l n="865">a Aminta, que es su culpa, representa,</l>
+            <l>viendo su superior contra él airado,</l>
+            <l>al hombre entre la gracia y el pecado?</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>¿Cómo a vuestra obligación</l>
+            <l>faltáis, Pascual, este día</l>
+            <l n="870">y de aquella compañía</l>
+            <l>que ha de ser vuestra opinión,</l>
+            <l>lustre, honor, fama y blasón</l>
+            <l>el batallón no seguís</l>
+            <l>y desmandado venís</l>
+            <l n="875">tan por otra parte que</l>
+            <l>aunque conozca la fee</l>
+            <l>con que tal vez me servís,</l>
+            <l>no os puedo premiar al ver,</l>
+            <l>cuando me dais que sentir,</l>
+            <l n="880">que servís para servir</l>
+            <l>y no para merecer?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">Yo, señor....</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">No, no hay que hacer</l>
+            <l>cargos en vuestra disculpa.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¿Tanto una culpa me culpa</l>
+            <l n="885">en que caí por desgracia?</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Sí, que no puede en mi gracia</l>
+            <l>estar quien está en su culpa.</l>
+            <l>Id y enmendaos, que yo</l>
+            <l>daré como os enmendéis</l>
+            <l n="890">ocasión en que cobréis</l>
+            <l>el mérito que os faltó.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">La fee con que os sirvo....</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">No,</l>
+            <l part="I">no basta.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="M">¿Por qué?</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">Porque</l>
+            <l>aunque vuestra fee se ve</l>
+            <l n="895">en hazañas tan altivas</l>
+            <l>son obras muertas, no vivas</l>
+            <l>a que no basta la fee.</l>
+            <l>Y porque lleguéis a ver</l>
+            <l>si os deseo reducir,</l>
+            <l n="900">daros quiero en qué servir,</l>
+            <l>no puedo en qué merecer</l>
+            <l>que eso vos lo habéis de hacer.</l>
+            <l>Y así para que sigáis</l>
+            <l>mejor senda que lleváis,</l>
+            <l n="905">en busca del enemigo</l>
+            <l>voy. Y aunque su busca sigo</l>
+            <l>con la prisa que miráis</l>
+            <l>no tengo bastante día</l>
+            <l>para la batalla que</l>
+            <l n="910">darle intento, y así habré</l>
+            <l>de hacer esta noche fría</l>
+            <l>alto; en ella de vos fía</l>
+            <l>mi justa satisfacción</l>
+            <l>el peso de la facción,</l>
+            <l n="915">pues quiero que en la vanguardia</l>
+            <l>esta noche estéis de guardia</l>
+            <l>poniéndoos en ocasión</l>
+            <l>de que el valor que os desvela</l>
+            <l>logréis, sin dudar jamás</l>
+            <l n="920">ser de mi campo la más</l>
+            <l>avanzada centinela.</l>
+            <stage>Háblale al oído yéndose.</stage>
+            <l>María es el nombre en vela;</l>
+            <l>esperad la luz del día,</l>
+            <l>que apenas veréis que envía</l>
+            <l n="925">sus rayos luciente el alba,</l>
+            <l>cuando su primera salva</l>
+            <l>mi militar armonía</l>
+            <l>sea tocando a embestir.</l>
+            <l>Id, pues, a ocupar el puesto</l>
+            <l part="I">que de vos fío.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l n="930" part="F">Dispuesto</l>
+            <l>en tu servicio a morir</l>
+            <l part="I">estoy.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">Esto es advertir</l>
+            <l>que si un afecto cruel</l>
+            <l>postra al que creyendo fiel</l>
+            <l n="935">yerra, toca en tal desgracia</l>
+            <l>darle su auxilio a la gracia</l>
+            <l>pero aprovecharle a él.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Vase el CONDE y SOLDADOS y vuelve AMINTA.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>Cuerdamente te ha reñido</l>
+            <l>y aún poniéndote en aprieto,</l>
+            <l n="940">castigado a lo discreto</l>
+            <l>sin darse por entendido.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Favor, no castigo, ha sido</l>
+            <l>el ponerme en ocasión</l>
+            <l>que acuerde mi obligación.</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l n="945">¡Ay, de quien ha de quedar</l>
+            <l>luchando con el pesar</l>
+            <l part="I">de tu peligro!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Estos son</l>
+            <l>lances a que siempre está</l>
+            <l>expuesto, Aminta, el soldado.</l>
+            <l n="950">Y pues ves cuán empeñado</l>
+            <l>todo el ejército va</l>
+            <l>buscando a Almanzor, será </l>
+            <l>ya que mi vida aventure</l>
+            <l>bien que la tuya procure,</l>
+            <l n="955">pues sentiré más tu susto</l>
+            <l>que mi riesgo, y así es justo</l>
+            <l>como pueda le asegure.</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l>¿Y qué seguridad, di,</l>
+            <l>hay que a mi vida resuelvas?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l n="960">Que a Santisteban te vuelvas.</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l part="I">¿Y esa es seguridad?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Sí.</l>
+            <l>Mejor estarás allí</l>
+            <l>que en los trances estarás</l>
+            <l part="I">de una batalla.</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l part="F">Eso más</l>
+            <l n="965">es darme que padecer</l>
+            <l>que asegurarme, que el ver</l>
+            <l>que tú hacia el peligro vas</l>
+            <l>no es quitarme dél a mí,</l>
+            <l>que va en tu vida mi vida</l>
+            <l n="970">tanto menos defendida</l>
+            <l>cuanto más lejos de ti.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¿Ahora lágrimas? No así</l>
+            <l>me aflijas, Aminta bella.</l>
+            <l part="I">¡Pernil!</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="M">¿Señor?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Tú con ella</l>
+            <l part="I">irás.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l n="975" part="F">Aqueso haré yo</l>
+            <l part="I">de muy buena gana.</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l part="F">¡No</l>
+            <l>sé qué quieres de mi estrella!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>No tan hermosos despojos</l>
+            <l>eches, Aminta, a perder.</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l n="980">Déjame, ¿pues, no han de ver</l>
+            <l>que sirvan de algo los ojos?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Porque alivies tus enojos</l>
+            <l part="I">seguro voy.</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l part="F">¿Cómo así?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Como hoy misa, Aminta, oí</l>
+            <l n="985">y el nombre que se me fía</l>
+            <l>es el nombre de María.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <stage>Vanse cada uno por su parte y salen, como que acechando han oído lo que han hablado, LELIO y el DEMONIO, vestidos de soldados.</stage>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="I">¿Haslo oído todo?</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l part="F">Sí,</l>
+            <l>y pues sabemos que va</l>
+            <l>donde solo le hallaremos</l>
+            <l n="990">y el nombre también sacamos</l>
+            <l>con que a él llegar ¿quién podrá</l>
+            <l part="I">defenderle?</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="F">Claro está.</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l>Pues porque no le perdamos</l>
+            <l>de vista, tú entre estos ramos</l>
+            <l n="995">te queda a saber cuál fue</l>
+            <l>el puesto, entre tanto que</l>
+            <l>yo, porque escapar podamos</l>
+            <l>en matándole, a hacer voy</l>
+            <l>que prevenidos estén</l>
+            <l part="I">dos caballos.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l n="1000" part="F">Dices bien.</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l part="I">Adiós, pues.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <stage>Vase LELIO.</stage>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="F">¡Infiernos! Si hoy</l>
+            <l>muerte a Pascual Vivas doy,</l>
+            <l>de mi mayor enemigo</l>
+            <l>el mayor triunfo consigo,</l>
+            <l n="1005">pues cogiéndole en pecado</l>
+            <l>de su devoción vengado</l>
+            <l>quedaré, a cuyo fin sigo</l>
+            <l>en humana forma, siendo</l>
+            <l>como soy aborrecido</l>
+            <l n="1010">espíritu, al que ofendido</l>
+            <l>en ira y cólera enciendo</l>
+            <l>disimulando y fingiendo</l>
+            <l>que un deudo que estaba ausente</l>
+            <l>soy, que atrevido y valiente</l>
+            <l n="1015">para ayudar a vengalle</l>
+            <l>ha venido a acompañalle</l>
+            <l>sabiendo cuán fieramente</l>
+            <l>a su hermano le mató,</l>
+            <l>y pues para que le asista</l>
+            <l n="1020">y en él mi furor revista</l>
+            <l>licencia el cielo me dio,</l>
+            <l>ya que por mi mano no</l>
+            <l>puedo matar a un tirano,</l>
+            <l>veré si por otra gano</l>
+            <l n="1025">este triunfo, en testimonio</l>
+            <l>que el impulso del demonio</l>
+            <l>está mortal en tu mano.</l>
+            <l>Y pues ya la noche baja,</l>
+            <l>envolviendo obscura y fría</l>
+            <l n="1030">el gran cadáver del día</l>
+            <l>en su lóbrega mortaja</l>
+            <l>y por esta parte ataja</l>
+            <l>a hacer la posta Pascual,</l>
+            <l>invocando mi mortal</l>
+            <l n="1035">saña, espíritus que son</l>
+            <l>del aire perturbación,</l>
+            <l>cegaré a ese celestial</l>
+            <l>Argos los ojos serenos</l>
+            <l>para darle más desmayos</l>
+            <l n="1040">con relámpagos que a rayos</l>
+            <l>deslumbren bramando a truenos,</l>
+            <stage>Dentro terremoto.</stage>
+            <l>porque teniendo así menos</l>
+            <l>que temer a instancia mía</l>
+            <l>de Lelio la alevosía,</l>
+            <l n="1045">vea de qué le sirvió</l>
+            <l>ni la misa que hoy oyó,</l>
+            <l>ni el ser el nombre María.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <stage>Vase y sale PASCUAL con una pica como con asombro y prosigue el terremoto.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¡Qué medrosamente horrible</l>
+            <l>la noche de un punto a otro</l>
+            <l n="1050">ha convertido la hermosa</l>
+            <l>serenidad en asombro!</l>
+            <l>Las derramadas estrellas,</l>
+            <l>en quien como espejo roto</l>
+            <l>se había quedado el sol,</l>
+            <l n="1055">brillando en menudos trozos</l>
+            <l>empañados del tupido</l>
+            <l>velo de nubes, no solo</l>
+            <l>a la luna asisten, pero</l>
+            <l>ni aun ella su temeroso,</l>
+            <l n="1060">trémulo semblante deja</l>
+            <l>que puedan humanos ojos</l>
+            <l>penetrar del manto de humo</l>
+            <l>la brújula del embozo.</l>
+            <stage>El terremoto.</stage>
+            <l>¡Jesús mil veces! ¡Qué fiero</l>
+            <l n="1065">el trueno gemido es ronco</l>
+            <l>con que el embrión del rayo</l>
+            <l>siente la nube el aborto!</l>
+            <l>Pero, ¿qué me atemoriza?</l>
+            <l>¿De cuando acá generoso</l>
+            <l n="1070">mi espíritu le vio al miedo</l>
+            <l>la pálida tez del rostro?</l>
+            <stage>El terremoto.</stage>
+            <l>¿Yo espanto? ¿Yo horror? ¿Yo susto?</l>
+            <l>Mas, ¡ay!, que si a hacer me pongo</l>
+            <l>discursos que siempre vagos</l>
+            <l n="1075">dictaron soledad y ocio,</l>
+            <l>no sin causa temo, pues</l>
+            <l>al ver ese obscuro globo</l>
+            <l>desquiciado de sus ejes,</l>
+            <l>desplomado de sus polos</l>
+            <l n="1080">que sobre mí titubea</l>
+            <l>imagen me reconozco</l>
+            <l>del primero padre, cuando</l>
+            <l>arrojado del hermoso</l>
+            <l>centro suyo le asaltó</l>
+            <l n="1085">de la noche el pavoroso</l>
+            <l>escándalo, que a su culpa</l>
+            <stage>El terremoto.</stage>
+            <l>le fue el retrato más propio.</l>
+            <l>Y si del concepto, ¡ay, triste!</l>
+            <l>toda la paridad corro,</l>
+            <l n="1090">no solamente en mi culpa</l>
+            <l>la imagen que soy supongo,</l>
+            <l>pero en que comprometido</l>
+            <l>está aquese numeroso</l>
+            <l>campo en mí, pues en mí estriba</l>
+            <l n="1095">o su blasón o su oprobio,</l>
+            <l>supuesto que si yo agora</l>
+            <l>nigligente o perezoso</l>
+            <l>faltara a aqueste precepto,</l>
+            <l>en mí peligraran todos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <stage>Dentro la música y sale el ÁNGEL cantando y responde la música dentro a sus finales.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="1100">Pues, vela Pascual.</l>
+          </sp>
+          <sp who="#soldados-moros">
+            <speaker>CORO 1º</speaker>
+            <l>Vela.</l>
+          </sp>
+          <sp who="#soldados-montañeses">
+            <speaker>CORO 2º</speaker>
+            <l>Vela.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Que alguien cuidadoso</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Que alguien cuidadoso.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="1105">Velará por ti</l>
+            <l>cuando tú por otros.</l>
+          </sp>
+          <stage>El terremoto y la música juntos.</stage>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>Porque no le cobre el canto,</l>
+            <stage>Dentro.</stage>
+            <l>seguid el terror vosotros.</l>
+          </sp>
+          <sp who="#ángel #música">
+            <speaker>ÁNGEL Y MÚSICA</speaker>
+            <l>Pues, vela Pascual,</l>
+            <l n="1110">vela,</l>
+            <l>que alguien cuidadoso,</l>
+            <l>vela, </l>
+            <l>velará por ti</l>
+            <l>cuando tú por otros.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l n="1115">¡Qué nueva confusión, cielos,</l>
+            <l>quiere hacerme creer que oigo,</l>
+            <l>entre tanto horrible espanto</l>
+            <l>de rayos y truenos como</l>
+            <l>perturban el aire ecos</l>
+            <l n="1120">que dulcemente sonoros</l>
+            <l>sirviéndoles de instrumento</l>
+            <l>el rumor del terremoto,</l>
+            <l>persuaden a que a la vela</l>
+            <l>no deje de acudir pronto</l>
+            <l n="1125">diciéndome cuando digo</l>
+            <l>que en mí peligraran todos!</l>
+          </sp>
+          <stage>Otra vez terremoto y música.</stage>
+          <sp who="#ángel #música">
+            <speaker>ÁNGEL Y MÚSICA</speaker>
+            <l>Pues, vela Pascual,</l>
+            <l>vela, vela,</l>
+            <l>que alguien cuidadoso,</l>
+            <l n="1130">vela, vela,</l>
+            <l>velará por ti</l>
+            <l>cuando tú por otros.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Que es ilusión no lo dudo</l>
+            <l>pero con muy poderoso</l>
+            <l n="1135">afecto, pues que me deja</l>
+            <l>helado, mudo y absorto.</l>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <stage>Arrímase a la pica y sale LELIO con un ballestón y el DEMONIO con él.</stage>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>Este es el puesto y la noche</l>
+            <l>tan favorable a nosotros</l>
+            <l>que para matar y huir</l>
+            <l n="1140">parece que yo la formo.</l>
+            <l part="I">Llega, allí está.</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l part="F">Ya a la luz</l>
+            <l>de un relámpago que sordo</l>
+            <l>vino a alumbrar sin el trueno</l>
+            <l>le miro y le reconozco,</l>
+            <l n="1145">mas porque en la obscuridad</l>
+            <l>no yerre el tiro, oye el modo</l>
+            <l>con que hemos de llegar; tú,</l>
+            <l>pues con el nombre es forzoso</l>
+            <l>que le asegures, has de ir</l>
+            <l n="1150">delante y sin ver que somos</l>
+            <l>dos, detrás de ti podré</l>
+            <l>de más cerca el venenoso</l>
+            <l>arpón dejar de su pecho</l>
+            <l>en la aleve sangre rojo.</l>
+          </sp>
+          <stage>Llegando los dos, el DEMONIO delante y LELIO detrás.</stage>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="I">Sígueme, pues.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="M">¿Quién va?</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l n="1155" part="F">Amigos.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">¡El nombre!</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <stage>Quiere pronunciarle y no puede.</stage>
+            <l part="F">Ma..., ma..., ¡qué asombro!</l>
+            <l>Mar.... No puedo pronuncialle.</l>
+            <l>¡Oh tú, nombre misterioso!</l>
+            <l>Sirve a un rigor un día, pues</l>
+            <l n="1160">sirves a una piedad todos.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>El nombre digo o el pecho</l>
+            <l>al primer bote le rompo.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="I">Mar..., mar....</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l part="F">¿Por qué no le dices?</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>Porque con huir respondo,</l>
+            <l n="1165">que no hace a traiciones nombre</l>
+            <l>que está hecho a favores solo.</l>
+          </sp>
+          <stage>El DEMONIO se retira como asombrado. Queda LELIO descubierto y al disparar quita el ÁNGEL el arpón de la ballesta, yéndose con él.</stage>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l>¿Agora tiemblas y huyes?</l>
+            <l>Mas yo a mí sin ti me sobro.</l>
+            <l part="I">¡Muere traidor!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Eso no,</l>
+            <l n="1170">que así yo su muerte estorbo</l>
+            <l>cuidando yo de él, pues él cuida de otros.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¡Ah, traidor! No solo callas</l>
+            <l>el nombre, pero alevoso</l>
+            <l>me ha dicho el tiro que erraste</l>
+            <l part="I">quién eres.</l>
+          </sp>
+          <stage>Huyendo LELIO.</stage>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l n="1175" part="F">Fortuna, ¿cómo</l>
+            <l>pude errarle de tan cerca?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">Espera, aguarda.</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l part="F">Forzoso</l>
+            <l part="I">es que huya de aquí.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <stage>Vase.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Aunque quieran</l>
+            <l>seguirle valor y enojo,</l>
+            <l n="1180">no puedo dejar el puesto.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>Ya que ha embarazado el logro</l>
+            <l>de mis iras de ese campo</l>
+            <l>el presidente o custodio,</l>
+            <l>¡espíritus que del aire</l>
+            <l n="1185">alteráis los terremotos</l>
+            <l>desmandad de tantos rayos</l>
+            <l>uno contra el que os invoco!</l>
+          </sp>
+          <stage>Dentro el terremoto y voces como en el aire.</stage>
+          <sp who="#soldados-montañeses #soldados-moros">
+            <speaker>UNOS</speaker>
+            <l part="I">No podemos.</l>
+          </sp>
+          <sp who="#ángel #música">
+            <speaker>OTROS</speaker>
+            <l part="F">No podemos.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>¿Pues a quién teméis vosotros?</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros #ángel #música">
+            <speaker>TODOS</speaker>
+            <l n="1190">Al socorro que hoy consigo</l>
+            <l part="I">tray.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="F">¿Consigo hoy, qué socorro?</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros #ángel #música">
+            <speaker>TODOS</speaker>
+            <l>El que en la misa que oyó</l>
+            <l>al oír lo prodigioso</l>
+            <l>de que fue hecho carne el verbo,</l>
+            <l n="1195">se postró humilde y devoto.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>¡Oh, María, y oh misterio</l>
+            <l>que en tu virgen claustro hermoso</l>
+            <l>pudo obrarse cuanto amparo</l>
+            <l>el hombre tiene en vosotros!</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <stage>Vase.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l n="1200">Toda la noche es prodigios,</l>
+            <l>pero yo se los perdono</l>
+            <l>que aunque traidor enemigo</l>
+            <l>me busque y caliginoso</l>
+            <l>rayo me amenace, no</l>
+            <l n="1205">iguala el pavor al gozo</l>
+            <l>que aquel acento que oí.</l>
+            <l>¡Oh si volviera dichoso</l>
+            <l>a escucharle por si acaso</l>
+            <l>puedo engañarme a mí propio!</l>
+            <l n="1210">Adonde sonó, el oído</l>
+            <l part="I">aplico.</l>
+          </sp>
+          <stage>Dentro a lo lejos AMINTA.</stage>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l part="F">¡Cielos piadosos!</l>
+            <l>¿No hay quién ampare mi vida?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>De Aminta es la voz que oigo.</l>
+            <l>¡Oh, qué poco a un infelice</l>
+            <l n="1215">le duran los alborozos,</l>
+            <l>pues va a buscar un halago</l>
+            <l>y encuentra con un sollozo!</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l part="I">¡Piedad, cielos!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">¿Cómo, ay triste,</l>
+            <l>escucho tan lastimoso</l>
+            <l n="1220">acento sin que tras él</l>
+            <l>vaya? Mas, ¡ay de mí! ¿Cómo</l>
+            <l>seguir podré aquel acento,</l>
+            <l>si es lo que me dijo el otro...?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Vela, Pascual, vela,</l>
+            <l n="1225">que alguien cuidadoso</l>
+            <l>velará por ti.</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l>¿Nadie hay que me dé socorro?</l>
+          </sp>
+          <stage>Al irse, vuelve a la MÚSICA.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">¡Sí hay, Aminta!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Vela, vela.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¿Mas, cómo puedo si noto</l>
+            <l n="1230">que me acuerda mis empeños</l>
+            <l>quien me olvida tus ahogos?</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l>¡Favor, cielos piadosos!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Alguien cuidadoso</l>
+            <l>velará por ti,</l>
+            <l n="1235">mientras tú por otros.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Acero de dos imanes</l>
+            <l>soy llamado a un tiempo propio.</l>
+            <l>¿Quién vio igual pena, igual duda?</l>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <stage>Sale PERNIL como cayendo.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>¿Hiciera más el demonio?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">¿Quién va, quién es?</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l n="1240" part="F">¿Hay tal dicha</l>
+            <l>amo mío de mis ojos?</l>
+            <l part="I">tu voz conozco y....</l>
+          </sp>
+          <stage>Al irle a abrazar le pone la pica a los pechos.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">¡Detente!,</l>
+            <l>porque yo a nadie conozco;</l>
+            <l part="I">¡el nombre!</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="M">Pernil.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">No des</l>
+            <l n="1245">más paso, si riguroso</l>
+            <l>no quieres te rompa el pecho.</l>
+            <l part="I">¡El nombre digo!</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">¿Estás sordo?</l>
+            <l part="I">¿No he dicho Pernil?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">El nombre</l>
+            <l part="I">vuelvo a decir.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">No tengo otro.</l>
+            <l n="1250">Pernil soy, señor, que yendo</l>
+            <l>con Aminta el tenebroso</l>
+            <l>nublado perdió el camino</l>
+            <l>y dimos en lo fragoso</l>
+            <l>de ese monte, en una inculta</l>
+            <l n="1255">emboscada de rabiosos</l>
+            <l>canes blancos, de quien fue</l>
+            <l>Aminta sola despojo,</l>
+            <l>que como pernil debieron</l>
+            <l>de codiciarme a mí poco,</l>
+            <l n="1260">de suerte que huyendo pude,</l>
+            <l>rodando de un risco en otro,</l>
+            <l>haber llegado a tus plantas;</l>
+            <l>y puesto que en ellas logro</l>
+            <l>la dicha de hallarte junta</l>
+            <l n="1265">tus camaradas y en cobro</l>
+            <l>de Aminta ven, que allí quedan</l>
+            <l>porque en lo inculto del soto</l>
+            <l>cuerpo es de guardia que está</l>
+            <l part="I">avanzado.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">¡Rigurosos</l>
+            <l n="1270">hados! ¿Quién se vio en el mundo</l>
+            <l>en empeños tan forzosos?</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>¡Hay tal flema! ¿Hasme oído?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">Sí.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">Pues, ¿cómo te estás ocioso?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Como dejar este puesto</l>
+            <l part="I">no puedo.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l n="1275" part="F">Que debe noto</l>
+            <l>de ser gran gusto ver uno</l>
+            <l>su dama en poder de moros.</l>
+            <l part="I">Mira que dice....</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l part="F">¡Ay de mí!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¿Qué importa si dicen otros...?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1280">Vela cuidadoso.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¡Oh, si ya, pues el aurora</l>
+            <l>descubre sus rayos rojos,</l>
+            <l>rompiera el nombre la salva</l>
+            <l>sola esta vez en mi abono!</l>
+            <stage>Las cajas.</stage>
+            <l n="1285">Vi al acaso.... Y pues las cajas</l>
+            <l>ya el nombre han dejado roto</l>
+            <l>y yo retirarme puedo</l>
+            <l>con reputación airoso,</l>
+            <l part="I">traime un caballo.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">Volando</l>
+            <l part="I">voy por él.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <stage>Vase.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l n="1290" part="F">Verás si expongo</l>
+            <l>la vida en su amparo, bien</l>
+            <l>que haré en aventurar poco</l>
+            <l>una vida que aborrezco</l>
+            <l>por una beldad que adoro.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l n="1295">Ya aquí caballo y pavés</l>
+            <l part="I">están.</l>
+          </sp>
+          <stage>Vuelve PERNIL con un pavés y unas riendas en la mano, arrimado al carro como que tiene el caballo.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Muestra. ¿Mas qué oigo?</l>
+            <stage>La caja.</stage>
+            <stage>Dentro.</stage>
+            <l>¡Arma, arma, guerra, guerra!</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>Es que el Conde valeroso</l>
+            <l>apenas vio que del día,</l>
+            <l n="1300">árbitro el señor Apolo,</l>
+            <l>la primera luz rayaba,</l>
+            <l>cuando el vado de ese arroyo</l>
+            <l>que llaman del Cascajal,</l>
+            <l>esguazar manda con todo</l>
+            <l n="1305">el grueso, cuyo pasaje</l>
+            <l>por impedirle de esotro</l>
+            <l>margen Almanzor avanza</l>
+            <l part="I">sus tropas.</l>
+          </sp>
+          <stage>Las cajas.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Ya de ambos cotos</l>
+            <l>la línea parten. ¿Quién vio</l>
+            <l n="1310">batallas de tierra en golfos?</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros">
+            <stage>Dentro.</stage>
+            <l>¡Arma, arma, guerra, guerra!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¡Ay de mí, que ya es forzoso</l>
+            <l>que allí acuda, no se diga</l>
+            <l>de mí que amante abandono</l>
+            <l n="1315">por ganar lo interesable</l>
+            <l>a la censura lo heroico!</l>
+            <l>¡Ay honra, alhaja del siglo,</l>
+            <l>que tenida importas poco</l>
+            <l>y perdida importas mucho!</l>
+            <l n="1320">Mas así acudiré a todo;</l>
+            <l>llega el caballo y vea el mundo</l>
+            <l>si el estribo una vez cobro,</l>
+            <l>el fuste ocupo, el pavés</l>
+            <l>embrazo y el freno tomo,</l>
+            <l n="1325">que no hay alarbes en quien</l>
+            <l>no sepa vengar mi oprobio.</l>
+            <l>Llega pues. ¿Pero, qué es esto?</l>
+          </sp>
+          <stage>Tocan la campana en el carro del templo y ábrese la escala que caerá sobre el tablado quedando lo demás cubierto de una cortina.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>¿Qué ha de ser? Los religiosos</l>
+            <l>que abren y tocan a misa</l>
+            <l n="1330">porque militantes todos,</l>
+            <l>mientras los unos pelean,</l>
+            <l>estén orando los otros.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>En mi vida el eco oí</l>
+            <l>de este metal, que sonoro</l>
+            <l n="1335">clarín de la fee es, que no</l>
+            <l>le respondiese piadoso</l>
+            <l>si no es hoy. ¿Pero qué mucho</l>
+            <l>si oigo al tiempo que le oigo...?</l>
+          </sp>
+          <stage>Campana y cajas.</stage>
+          <sp who="#soldados-moros #soldados-montañeses">
+            <stage>Dentro.</stage>
+            <l part="I">¡Arma, arma!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">¿Qué he de hacer?</l>
+            <l n="1340">Mas vamos a lo forzoso</l>
+            <l>del honor, que nunca el mundo</l>
+            <l>toma en cuenta lo devoto.</l>
+            <l>Pero, ¡ay, con qué desconsuelo</l>
+            <l>voy! ¡De cuán temporal rompo</l>
+            <l n="1345">devoción de tantos días</l>
+            <stage>La campana.</stage>
+            <l>por un pundonor! Ya torno</l>
+            <l>a ti, caja de la fee.</l>
+          </sp>
+          <stage>La caja.</stage>
+          <sp who="#soldados-moros #soldados-montañeses">
+            <l part="I">¡Arma, arma!</l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Y a ti y todo,</l>
+            <l>campana de la fortuna.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l n="1350">Pareces criado bobo</l>
+            <l>de aquellos que no hacen nada</l>
+            <l>por querer hacerlo todo.</l>
+            <l part="I">¡Resuélvete pues!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Sí haré.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="I">¿En qué?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">En que si vitorioso</l>
+            <l n="1355">de mi amor quedó mi honor</l>
+            <l>no de mi fee, y en el corto,</l>
+            <l>breve espacio de una misa,</l>
+            <l part="I">¿qué falta haré?</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">Según como</l>
+            <l part="I">se esté el monje.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Aquí me espera</l>
+            <l n="1360">teniéndome al salir prontos</l>
+            <l>caballo, lanza y pavés;</l>
+            <l>y cuando se pierda todo</l>
+            <l>allí Aminta, allí la fama,</l>
+            <l>allí el gusto, allí el decoro,</l>
+            <l n="1365">no se pierda aquí la fee</l>
+            <l>con que el sacrificio adoro</l>
+            <l>de la misa: ¡Honor y vida,</l>
+            <l>Señor, en tus manos pongo!</l>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <stage>Subiendo la escala, se entra. Éntrase en el carro del templo, dejando a PERNIL con pavés, lanza y rienda.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>«Dame el caballo. Verás</l>
+            <l n="1370">si voy, si vengo, si torno,</l>
+            <l>si hago, si digo, si mato...»</l>
+            <l>y viene y pónese en cobro.</l>
+            <l>Eso, señor Pascual, yo</l>
+            <l>lo hiciera con ser un tonto.</l>
+            <l n="1375">Pero, bueno.... Me ha dejado</l>
+            <l>a puertas del suntuoso</l>
+            <l>templo con caballo, lanza</l>
+            <l>y pavés. Pero ¿qué ignoro</l>
+            <l>que haya de quedar por puertas</l>
+            <l n="1380">el simple que sirve a un loco?</l>
+            <stage>Las cajas.</stage>
+            <l>Mas, ¡cuál anda la batalla</l>
+            <l>repitiendo unos y otros!</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros">
+            <speaker>UNOS</speaker>
+            <l part="I">¡Arma, arma!</l>
+          </sp>
+          <sp who="#ángel #música">
+            <speaker>OTROS</speaker>
+            <l part="F">¡Guerra, guerra!</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="I">¡Viva España!</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l part="F">¡Mueran todos!</l>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <stage>Dase la batalla dentro y sale la SETA con espada y bengala.</stage>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l n="1385">Desde que hicimos porfía</l>
+            <l>para el fin de esta vitoria</l>
+            <l>que haya de tener la historia</l>
+            <l>vislumbres de alegoría,</l>
+            <l>nunca de vista perdí</l>
+            <l n="1390">a aqueste soldado, en quien</l>
+            <l>las esperanzas se ven</l>
+            <l>de quien lidia contra mí;</l>
+            <l>y sabiendo que aquí estaba</l>
+            <l>de posta, vengo a impedir</l>
+            <l n="1395">que pueda al empeño ir</l>
+            <l>de la lid más fiera y brava</l>
+            <l>que vio el sol desde su esfera.</l>
+            <stage>Mirando dentro.</stage>
+            <l>Mas poco tendré que hacer</l>
+            <l>en impedirle si al ver</l>
+            <l n="1400">que allí el peligro le espera,</l>
+            <l>veo que en el templo ha entrado,</l>
+            <l>pero aunque lo sea, no puedo</l>
+            <l>persuadirme a que sea miedo</l>
+            <l>el que le haya retirado</l>
+            <l n="1405">y así he de ver en qué agora</l>
+            <l>se detiene; suba, pues,</l>
+            <l part="I">sus gradas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <stage>Empieza a subir las gradas y sale por la cortina el ÁNGEL sin correrla.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">Sin duda es</l>
+            <l>buena cristiana esta mora,</l>
+            <l>pues por oír misa ha dejado</l>
+            <l part="I">la batalla.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="1410" part="F">¿Dónde vas,</l>
+            <l>fiera? ¿No sabes que estás</l>
+            <l>negada a entrar en sagrado?</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l>Como esos sagrados yo</l>
+            <l>no tan solamente entré,</l>
+            <l n="1415">pero ultrajé y profané.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Pues este, enemiga, no,</l>
+            <l>que si por secreto juicio</l>
+            <l>de Dios tuviste licencia,</l>
+            <l>no fue nunca en la presencia</l>
+            <l n="1420">del inmenso sacrificio</l>
+            <l>que celebrándose está</l>
+            <l>y si has venido por ver</l>
+            <l>cómo puede, aleve, ser</l>
+            <l>que te dé cuidado allá</l>
+            <l n="1425">el que por caudillo mío</l>
+            <l>en la cuestión elegí,</l>
+            <l>estando escondido aquí</l>
+            <l>porque veas que dél fío</l>
+            <l>no en vano mi honor, dispongo</l>
+            <l n="1430">mostrar cómo su valor</l>
+            <l part="I">desde aquí lidia.</l>
+          </sp>
+          <stage>Corre el ÁNGEL la cortina y vese PASCUAL VIVAS hincado de rodillas delante de un altar que estará pintado con su retablo en el foro del carro.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Señor,</l>
+            <l>mi vida en tus manos pongo</l>
+            <l>y pues la misa acabó,</l>
+            <stage>Levántase.</stage>
+            <l>ahora a la batalla iré</l>
+            <l n="1435">que tan trabada se ve.</l>
+            <l>Pero otra misa salió</l>
+            <stage>Mirando dentro.</stage>
+            <l>sin quien la llegue a ayudar;</l>
+            <l>a ella vaya, no me note</l>
+            <l>el mundo que a un sacerdote</l>
+            <l n="1440">dejé solo en el altar.</l>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <stage>Éntrase por dentro del carro y el ÁNGEL vuelve a cubrir la cortina.</stage>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l>Aunque por darme disgusto</l>
+            <l>me le has dejado ver, yo</l>
+            <l>lo tengo a placer, pues no</l>
+            <l>me da ni temor ni susto</l>
+            <l n="1445">que orando lidie y porque</l>
+            <l>veas si lidia o no, mira</l>
+            <stage>Las cajas.</stage>
+            <l>si tu gente se retira</l>
+            <l>cuyo alcance seguiré</l>
+            <l>hasta que aquesta campaña</l>
+            <l n="1450">dejen y de mi cuchilla</l>
+            <l>esclava otra vez Castilla</l>
+            <l>se retire a la montaña.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <stage>Vase.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Ve, fiera, que también yo</l>
+            <stage>Bajando al tablado.</stage>
+            <l>en tu oposición iré.</l>
+            <l n="1455">Hombre en quien pudo la fee</l>
+            <l>más que honor y fama no</l>
+            <l>dejes de tu devoción</l>
+            <l>el impulso soberano</l>
+            <l>que primero es ser cristiano</l>
+            <l n="1460">que caballero; blasón</l>
+            <l>más heroico has de ver que halla</l>
+            <l>la fama que has de lograr</l>
+            <l>en el ara del altar</l>
+            <l>que en el fin de la batalla.</l>
+            <l n="1465">Y pues tú en el sacrificio</l>
+            <l>de la misa que salió</l>
+            <l>mi oficio has tomado, yo</l>
+            <l>tomaré también tu oficio;</l>
+            <l>troquemos los dos y así</l>
+            <l n="1470">será igual nuestra divisa:</l>
+            <l>ayuda por mí esa misa</l>
+            <l>que yo lidiaré por ti,</l>
+            <l>que es Dios tan honrado que</l>
+            <l>al ver que tú dél te acuerdas</l>
+            <l n="1475">aun no permite que pierdas</l>
+            <l>la honra humana, y así, en fee</l>
+            <l>de ese afecto, porque asombre</l>
+            <l>al infierno su poder,</l>
+            <l>hombre el ángel se ha de ver</l>
+            <l n="1480">ya que se ve ángel el hombre.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <stage>Vase.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>De una mora que subió</l>
+            <l>y un no sé quién que ha bajado,</l>
+            <l>bien la plática he escuchado</l>
+            <l>pero entendídola no</l>
+            <l n="1485">y sean quien fueren, no es bueno</l>
+            <l>que tan despacio se esté</l>
+            <l>mi amo. Lo que hace veré</l>
+            <l>por si es que de temor lleno</l>
+            <l>no osa salir; ato aquí</l>
+            <l n="1490">el caballo y subir quiero</l>
+            <l>al templo a acecharle; pero....</l>
+            <l>¡Ay desdichado de mí</l>
+            <l>que el caballo echa a correr!</l>
+            <l>Ir tras él será mejor.</l>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <stage>Vase, dejando el pavés y lanza en el suelo. Suena dentro las cajas y ruido de batalla.</stage>
+          <sp who="#soldados-moros #soldados-montañeses">
+            <stage>Dentro.</stage>
+            <l n="1495">¡Vitoria por Almanzor!</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>¡Fieles, morir o vencer!</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>¡Morir o vencer valientes</l>
+            <l>africanos que el día es nuestro!</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l>Pues ya rotos se retiran,</l>
+            <l part="I">¡A ellos, Almanzor!</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l n="1500" part="F">¡A ellos!</l>
+          </sp>
+          <sp who="#garcía #almanzor #seta">
+            <speaker>TODOS</speaker>
+            <l>¡Arma, arma, guerra, guerra!</l>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <stage>Salen LELIO y el DEMONIO.</stage>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>Entre el militar estruendo</l>
+            <l>que lo peor da a Castilla,</l>
+            <l>pues roto, herido y deshecho</l>
+            <l n="1505">el Conde va retirando</l>
+            <l>su gente, a buscar te vengo.</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l>¿Para qué, si has de dejarme</l>
+            <l>como anoche en el empeño</l>
+            <l>que solicito, que es</l>
+            <l n="1510">ver si en la batalla encuentro</l>
+            <l>a este traidor para darle</l>
+            <l part="I">muerte?</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="F">Disculpar no quiero</l>
+            <l>las turbaciones de anoche,</l>
+            <l>pues te pasó a ti lo mesmo,</l>
+            <l n="1515">que si yo erré el nombre, tú</l>
+            <l>el tiro. Lo que pretendo</l>
+            <l>es enmendarlas agora</l>
+            <l>con decirte que no atento</l>
+            <l>a tu venganza en la lid</l>
+            <l n="1520">busques a ese traidor, puesto</l>
+            <l>que yo, que nunca de vista</l>
+            <l>le he perdido, sé de cierto</l>
+            <l part="I">que no está en ella.</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l part="F">¿Pues dónde</l>
+            <l part="I">está?</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="F">En aqueste convento</l>
+            <l n="1525">donde el temor le ha tenido</l>
+            <l>escondido todo el tiempo</l>
+            <l>de la batalla; conmigo</l>
+            <l>sube. Solo está en el templo</l>
+            <stage>Sube el DEMONIO como mirando dentro de la cortina.</stage>
+            <l>donde el fin de tu venganza</l>
+            <l n="1530">logres. (Y aun tres fines, puesto</l>
+            <l>que él muere y cometes tú</l>
+            <l>homicidio y sacrilegio).</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l>Y aun por eso no le hallaba</l>
+            <l part="I">yo.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="M">¿No le ves?</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l part="F">Ya le veo.</l>
+          </sp>
+          <stage>Corre el DEMONIO la cortina y vese hincado de rodillas en la ación que se vio PASCUAL primero, una estatua que sea retrato de bulto suyo con el mismo vestido lo más semejante que se pueda.</stage>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l n="1535">¿Pues, qué esperas? ¿Pues, qué aguardas?</l>
+            <l>Sube esa grada y resuelto</l>
+            <l part="I">dale la muerte.</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l part="F">Sí haré.</l>
+            <l>Mas ¡ay que al pisarla tiemblo!</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="I">¿De qué?</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l part="F">No sé, porque solo</l>
+            <l n="1540">sé que embargado el aliento</l>
+            <l>ni aún a respirar me animo,</l>
+            <l>quebrado dentro del pecho</l>
+            <l>el corazón.... Hombre a quien</l>
+            <l>ampara, sin duda, el cielo</l>
+            <l n="1545">yo te perdono, no vibres</l>
+            <l part="I">más rayos contra mí.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <stage>Vase.</stage>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="F">Infiernos,</l>
+            <l>agora de vuestras iras</l>
+            <l>la saña me falta; huyendo</l>
+            <l>dél aun más que del contrario</l>
+            <l n="1550">que al Conde retira haciendo</l>
+            <l>que a las fortificaciones</l>
+            <l>intente cobrar los puestos</l>
+            <l>sin proseguir su venganza</l>
+            <l>con todos la espalda ha vuelto.</l>
+            <stage>Esto dice sin bajar de la grada ni correr la cortina.</stage>
+            <l n="1555">Más consuéleme, si puede</l>
+            <l>haber para mí consuelo</l>
+            <l>que ya que este fin no logro,</l>
+            <l>logro el de ver que cayendo</l>
+            <l>en la retirada el Conde</l>
+            <l n="1560">de su caballo de muerto</l>
+            <l>o prisionero no puede</l>
+            <l part="I">escapar.</l>
+          </sp>
+        </div>
+        <div type="scene" n="26">
+          <stage>Sale el CONDE como cayendo y sobre él ALMANZOR y la SETA y MOROS.</stage>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">¡Válgame el cielo!</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>Date a prisión o la vida.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>La vida importara menos,</l>
+            <l n="1565">pues he de morir matando.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l>Es desesperado intento.</l>
+            <l>La vida o la libertad</l>
+            <l part="I">escoge.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Monstruo soberbio,</l>
+            <l>ni la libertad, ni vida</l>
+            <l n="1570">que yo una y otra defiendo.</l>
+          </sp>
+          <stage>Con estos versos que dice dentro el ÁNGEL, baja en un caballo PASCUAL y apeándose dél como dicen los versos, sube en él el CONDE y desaparece. Todos embisten con PASCUAL y él los retira huyendo de su vista.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Sube, Conde, en mi caballo</l>
+            <l>mientras yo a lidiar me quedo</l>
+            <l part="I">en tu defensa.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">A tu lado</l>
+            <l>Pascual sabré quedar muerto.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l n="1575">¿Qué es esto? ¡Ay de mí! ¿Pues cómo...</l>
+            <l>pues cómo un alma en dos cuerpos</l>
+            <l>allí orando, aquí lidiando,</l>
+            <l>puede hallarse a un mismo tiempo?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Más a la Iglesia le importas</l>
+            <l n="1580">vivo. Ve donde poniendo</l>
+            <l>en orden la gente vuelvas</l>
+            <l>a la lid que yo te ofrezco</l>
+            <l part="I">la vitoria.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">No sé qué</l>
+            <l>dominio, no sé qué imperio,</l>
+            <l n="1585">Pascual, hay hoy en tu voz</l>
+            <l>que forzado te obedezco.</l>
+            <stage>Pónese en el caballo y desaparece.</stage>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Cobra el caballo seguro</l>
+            <l>que yo tu vida defiendo.</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>Bárbaro, que contra tantos</l>
+            <l n="1590">temerariamente opuesto</l>
+            <l>piensas guardarle y guardarte.</l>
+            <l part="I">¡Muere a mis manos!</l>
+          </sp>
+          <stage>Pelean contra él y él los retira.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">No puedo</l>
+            <l part="I">morir yo.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l part="F">De cuantas flechas</l>
+            <l>se disparan a su pecho,</l>
+            <l n="1595">ninguna le hiere y todas</l>
+            <l>se vuelven contra los nuestros.</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>Rayo de acero es su espada</l>
+            <l>a cuyas vislumbres ciego</l>
+            <l>he quedado al ver que esgrime</l>
+            <l n="1600">en cada golpe un incendio.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <stage>Dentro.</stage>
+            <l>Volved a la lid, soldados,</l>
+            <l>pues yo os animo y aliento.</l>
+          </sp>
+          <sp who="#soldados-moros #garcía #seta #almanzor">
+            <speaker>TODOS</speaker>
+            <l>¡Arma, arma, guerra, guerra!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¡A ellos, Conde invicto!</l>
+          </sp>
+          <sp who="#soldados-moros #garcía #seta #almanzor">
+            <speaker>TODOS</speaker>
+            <l part="I">¡A ellos!</l>
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <stage>Salen todos.</stage>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l n="1605" part="F">Soldados, a retirar,</l>
+            <l>pues el Conde componiendo</l>
+            <l>sus güestes contra nosotros</l>
+            <l>vuelve con mayor esfuerzo.</l>
+            <stage>Dase la batalla y retíranse los MOROS.</stage>
+            <l>Al amparo deste asombro,</l>
+            <l n="1610">este horror, este portento,</l>
+            <l>a cuya vista me pasmo</l>
+            <l>y a cuyo semblante tiemblo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="28">
+          <stage>Vanse todos peleando.</stage>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>¡Ay de mí, que bien conozco</l>
+            <l>que no es posible que un cuerpo</l>
+            <l n="1615">en dos lugares asista,</l>
+            <l>si no es en el sacramento</l>
+            <l>de quien él es tan devoto!</l>
+            <l>Y así han querido los cielos</l>
+            <l>con señas suyas premiar</l>
+            <l n="1620">su devoción y su afecto.</l>
+          </sp>
+        </div>
+        <div type="scene" n="29">
+          <stage>Vase y córrese la cortina y vuelven a salir peleando la SETA y PASCUAL.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¿Cómo huyendo todos, tú</l>
+            <l part="I">no huyes también?</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l part="F">Como tengo</l>
+            <l>yo más raíces que todos</l>
+            <l>y por más que sea tu acero</l>
+            <l n="1625">corva segur, deste tronco</l>
+            <l>podrá atrevido y resuelto</l>
+            <l>cortar sus ramas, mas no</l>
+            <l>arrancarlas de su centro.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Sí podrá, pero no agora</l>
+            <l n="1630">porque hay superior decreto</l>
+            <l>para que aquesas raíces</l>
+            <l>se arranquen en otro tiempo,</l>
+            <l>y así hoy quedarás vencida</l>
+            <l part="I">si no arrancada.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l part="F">Primero</l>
+            <l n="1635">que ese tiempo llegue, yo</l>
+            <l>entre mis brazos pretendo</l>
+            <l part="I">hacerte pedazos.</l>
+          </sp>
+          <stage>Arroja la espada y al irse a abrazar con él se pone en la peana de un torno que dando vuelta tendrá a las espaldas al ÁNGEL de suerte que yendo a abrazarse con PASCUAL se halle abrazada luchando con el ÁNGEL.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Pues</l>
+            <l>si te atreves, llega a ellos.</l>
+            <l>Verás quién soy y que no</l>
+            <l n="1640">te será fácil vencerlos.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l part="I">¿Cómo no?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Como son míos.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l>¿Qué es esto, ay de mí, qué es esto?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Esto es que desde allí orando</l>
+            <l>el hombre está aquí venciendo</l>
+            <l n="1645">para que conozcas, fiera,</l>
+            <l>si son armas los afectos,</l>
+            <l>mayormente cuando son,</l>
+            <l>si a la metáfora vuelvo,</l>
+            <l>de Pascual víctima y gracia</l>
+            <l n="1650">en orden al sacramento,</l>
+            <l>sacrificio que en la misa</l>
+            <l>se celebra a cuyo efeto</l>
+            <l>mira de su devoción</l>
+            <stage>Las cajas a marchar.</stage>
+            <l>los soberanos trofeos,</l>
+            <l n="1655">pues el Conde vitorioso</l>
+            <l>con Almanzor prisionero</l>
+            <l>y libres cuantos cautivos</l>
+            <l>había en estos montes hecho,</l>
+            <l>en hacimiento de gracias</l>
+            <l n="1660">viene acercándose al templo.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l>¡Oh, quién antes que lo viera</l>
+            <l>cegara para no verlo!</l>
+            <l>Pero como dije, aunque</l>
+            <l>hoy me venzas, por lo menos</l>
+            <l n="1665">no me arrojas de tu patria.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>También yo respondí a eso</l>
+            <l>que habrá tiempo en que la dejes.</l>
+          </sp>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l>Pues dile que corra al tiempo.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Él se lo tendrá en cuidado.</l>
+          </sp>
+          <stage>La caja.</stage>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l n="1670">Pues, entonces nos veremos,</l>
+            <l>que por no ver este triunfo</l>
+            <l>me aparto, mas no me ausento.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="30">
+          <stage>Vase.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¿Qué importa si donde quiera</l>
+            <l>que vayas has de ir oyendo...?</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="31">
+          <stage>Vase.</stage>
+          <stage>Tocan las cajas y trompetas y salen por lo bajo del tablado PERNIL y por lo alto PASCUAL VIVAS después de las voces que dirán dentro.</stage>
+          <sp who="#pernil #soldados-montañeses #soldados-moros">
+            <speaker>TODOS</speaker>
+            <l n="1675">¡Viva el Conde don García!</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Mejor dirá vuestro acento,</l>
+            <l>¡Viva Pascual Vivas!, que es</l>
+            <l>a quien yo la vida debo</l>
+            <stage>Dentro.</stage>
+            <l>y vosotros la vitoria.</l>
+            <l n="1680">Y puesto que él de modesto</l>
+            <l>no aparece, dalde voces,</l>
+            <l>llamalde todos diciendo,</l>
+            <l part="I">¡Pascual Vivas!</l>
+          </sp>
+          <sp who="#pernil #soldados-montañeses #soldados-moros">
+            <speaker>TODOS</speaker>
+            <l part="F">¡Pascual Vivas!</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>Cobrado el caballo, vuelvo</l>
+
+            <l n="1685">a ver si sale mi amo,</l>
+            <l>que pues se ha pasado el riesgo</l>
+            <l>ya, ¿qué tiene que esperar?</l>
+          </sp>
+        </div>
+        <div type="scene" n="32">
+          <stage>Sale.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Una a otra sucediendo</l>
+
+            <l>tantas misas nunca tuve</l>
+            <l n="1690">para dejarlas aliento.</l>
+            <l>¡Pernil! Caballo, pavés</l>
+            <l part="I">y lanza me da.</l>
+          </sp>
+        </div>
+        <div type="scene" n="33">
+          <stage>Sale.</stage>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">¡A buen tiempo!</l>
+          </sp>
+          <stage>Alza el pavés lleno de flechas.</stage>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>¿Quien aquí estas flechas puso?</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>Yo me le dejé en el suelo</l>
+            <l n="1695">yéndose el caballo y alguien</l>
+            <l>por burla las habrá puesto.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Y aun teñídome con sangre</l>
+            <l>de la lanza el asta y yerro.</l>
+            <l>Yo responderé al baldón</l>
+            <l n="1700">en la batalla. No puedo</l>
+            <l part="I">quitarlas dél.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">Ya acabada,</l>
+            <l>¿sales agora con eso?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">¿Y quién venció?</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros">
+            <speaker>TODOS</speaker>
+            <stage>Dentro.</stage>
+            <l part="F">¡Pascual Vivas!</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>Pascual Vivas dice el viento.</l>
+            <stage>Haciendo burla.</stage>
+            <l n="1705">Tú debes de haber vencido,</l>
+            <l>si no es que está de bureo</l>
+            <l>desparramando ironías.</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Pascual Vivas!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">¡Vive el cielo!</l>
+            <l>Que todos me buscan y es</l>
+            <l n="1710">sin duda que echado menos</l>
+            <l>en la ocasión querrá el Conde</l>
+            <l>prenderme y sobre el desprecio</l>
+            <l>que harán de mí, quizá darme</l>
+            <l>la muerte para escarmiento</l>
+            <l n="1715">de otros. Di que no me has visto</l>
+            <l>mientras yo esconderme intento.</l>
+          </sp>
+        </div>
+        <div type="scene" n="34">
+          <stage>Al irse como huyendo, salen al encuentro don GARCÍA, ALMANZOR, prisionero, y otros MOROS, AMINTA y SOLDADOS y entre ellos LELIO y el DEMONIO.</stage>
+          <sp who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas">
+            <speaker>TODOS</speaker>
+            <l part="I">Aquí está.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">Ya no es posible.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Pascual Vivas. ¿Vos huyendo?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">¿Yo, señor...?</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">¿...De la ocasión</l>
+            <l n="1720">de más honor que los cielos</l>
+            <l part="I">pudieron daros?</l>
+            <stage>Turbado.</stage>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">No es</l>
+            <l part="I">huir faltar por....</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">Ya os entiendo.</l>
+            <l>Claro está que no es huir</l>
+            <l>faltar, porque humilde y cuerdo</l>
+            <l n="1725">no queréis que os dé las gracias</l>
+            <l>de la vitoria que os debo:</l>
+            <l>¡que valiente habéis andado!</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>¡No está malo el cordelejo!</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Castilla os debe su honor,</l>
+            <l part="I">yo la vida.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l n="1730" part="F">¡Bueno es esto!</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l>Y yo, en mi ruina, ser vos</l>
+            <l>quien me venza es mi consuelo.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l>¡Hasta el moro está de gorja!</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l>Dichosa yo que te veo,</l>
+            <l n="1735">mayormente cuando sé</l>
+            <l>que estoy de mi cautiverio</l>
+            <l part="I">libre por ti.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">¡Y aun Aminta</l>
+            <l part="I">también!</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="F">De vergüenza muero,</l>
+            <l>cuando de sus alabanzas</l>
+            <l n="1740">se componen mis desprecios.</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l>Si yo en el templo le vi,</l>
+            <l>¿cómo es suyo el vencimiento?</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>¡Oh, quién pudiera ocultar</l>
+            <l>la verdad deste misterio!</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l n="1745">Llegad, llegad a mis brazos,</l>
+            <l>honor, blasón, lauro y premio</l>
+            <l>de León y de Castilla.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <stage>De rodillas.</stage>
+            <l>Señor, baste el fingimiento</l>
+            <l>y si me has de dar la muerte</l>
+            <l n="1750">que por mi culpa merezco,</l>
+            <l>cójame en mejor estado.</l>
+            <l>La mano a Aminta le ofrezco</l>
+            <l>que es propósito que hice</l>
+            <l>de enmendar pasados yerros,</l>
+            <l n="1755">si a verla libre volvía</l>
+            <l>en las misas que hoy oyendo</l>
+            <l>he estado por quien falté</l>
+            <l part="I">de la lid.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">Eso no entiendo</l>
+            <l>¿Vos faltado de la lid?</l>
+            <l n="1760">¿Pues, yo no os vi en ella siendo</l>
+            <l>quien su caballo me dio</l>
+            <l>y se quedó en el empeño?</l>
+            <l>Las plumas de aquesas flechas</l>
+            <l>que en vuestro pavés advierto,</l>
+            <l n="1765">¿no son con las que la fama</l>
+            <l>ha de escribir vuestros hechos,</l>
+            <l>siendo la tinta esa sangre</l>
+            <l>en los anales del tiempo?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Todo aqueso es afrentarme,</l>
+            <l n="1770">cuando yo, señor, confieso</l>
+            <l part="I">mi culpa a voces.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l part="F">Porque</l>
+            <l>aun no falte este pequeño</l>
+            <l>rasgo de la alegoría,</l>
+            <l>con la confesión que ha hecho</l>
+            <l n="1775">y propósito a la enmienda,</l>
+            <l>bien con la gracia se ha puesto,</l>
+            <l>pues ella le da los brazos.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Otra vez a dudar vuelvo.</l>
+            <l>¿Por qué negáis haber sido</l>
+            <l n="1780">de tan gran vitoria dueño?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l>Porque no he sido, señor,</l>
+            <l>yo quien tanto honor merezco.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="I">¿No le vistis todos?</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros #almanzor #aminta #lelio #demonio-pascual-vivas">
+            <speaker>TODOS</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="I">Pues no fui yo.</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="F">No seas necio.</l>
+            <l n="1785">Déjate honrar mentecato,</l>
+            <l>que no serás el primero</l>
+            <l>que se deje dar las gracias</l>
+            <l>de cosas que no haya hecho.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="I">¿Vos no fuistis?</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l part="M">No.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l part="F">¿Quién pudo</l>
+            <l part="I">ser?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="1790" part="F">Yo responderé a eso,</l>
+            <stage>Las chirimías y en el carro primero donde en lo bajo se vio la tienda de campaña del Conde, se abre en lo alto una nube donde aparece el ÁNGEL con una pirámide en que sube el sacramento en su remate.</stage>
+            <l>pues quiere el cielo que quede</l>
+            <l>público al mundo este ejemplo.</l>
+            <l>Yo fui quien en su lugar</l>
+            <l>peleaba por él, al tiempo</l>
+            <l n="1795">que estaba él por mí ayudando</l>
+            <l>las misas que estaba oyendo;</l>
+            <l>y porque veáis que el día</l>
+            <l>que el hombre adora en el suelo</l>
+            <l>en este gran sacrificio</l>
+            <l n="1800">al divino sacramento</l>
+            <l>de la Eucaristía, hacen fiesta</l>
+            <l>los ángeles en el cielo,</l>
+            <l>volved los ojos. Veréis</l>
+            <l>en pirámides del viento</l>
+            <l n="1805">como le adoran postrados</l>
+            <l>en altas voces diciendo.</l>
+            <l>¿Cómo puede en dos partes estar un cuerpo? </l>
+          </sp>
+          <stage>Cantando.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Solo Dios en la Hostia del sacramento.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¿Pues cómo hoy en dos partes Pascual se ha visto?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1810">Como uno era su imagen que no era él mismo.</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel">
+            <speaker>TODOS</speaker>
+            <l>Porque el cielo quiso premiar su valor</l>
+            <l>con vislumbres y rasgos de su devoción.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l>Aunque el cielo le ha premiado,</l>
+            <l>ya que yo sufrir no puedo</l>
+            <l n="1815">la cárcel de aquesta humana</l>
+            <l>forma, a tus triunfos opuesto</l>
+            <l>me vengaré, pues no pude</l>
+            <l>en su vida, en sus aumentos,</l>
+            <l>pues nuevamente juntando</l>
+            <l n="1820">alarbes tropas mi incendio</l>
+            <l>el rey de Sevilla, Azarque</l>
+            <l>y Alimaimón de Toledo</l>
+            <l>en venganza de Almanzor,</l>
+            <l>haré que infesten soberbios</l>
+            <l n="1825">los términos de Castilla,</l>
+            <l>porque nunca falte de ellos</l>
+            <l part="I">la arábiga seta.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Ya</l>
+            <l>respondí otra vez a eso:</l>
+            <l>que habrá tiempo en que de España</l>
+            <l part="I">expulsa salga.</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l n="1830" part="F">¿Qué tiempo?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>El que viniendo del Austro</l>
+            <l>el señor, según el verso</l>
+            <l>del cántico de Habacuc,</l>
+            <l>vea el castellano imperio</l>
+            <l n="1835">que reina el Austria en España,</l>
+            <l>generosamente uniendo</l>
+            <l>la melena del León</l>
+            <l>al águila de dos cuellos,</l>
+            <l>siendo aquesta devoción</l>
+            <l n="1840">culto, devoción y celo</l>
+            <l>del sacramento, el mejor</l>
+            <l>patrimonio de sus reinos.</l>
+            <l>Y porque desde hoy lo sientas,</l>
+            <l>mira en las sombras y lejos</l>
+            <l n="1845">de aquella antevista luz</l>
+            <l>al gran Felipe tercero</l>
+            <l>hollar de esa injusta fiera</l>
+            <l part="I">la cerviz.</l>
+          </sp>
+          <stage>Las chirimías y ábrese otra nube en el carro donde se vio primero ALMANZOR en su tienda, y vese en ella retratado en estatua Felipe tercero a caballo y a sus pies la SETA.</stage>
+          <sp who="#seta">
+            <speaker>SETA</speaker>
+            <l part="F">Yo diré eso,</l>
+            <l>porque inficionado el aire</l>
+            <l n="1850">del tósigo de mi aliento</l>
+            <l>pueda persuadirme a que</l>
+            <l>con respirarle me vengo.</l>
+            <l>Este héroe generoso,</l>
+            <l>a cuyas plantas me veo,</l>
+            <l n="1855">agora en sombras será</l>
+            <l>que realmente sucediendo</l>
+            <l>siglos a siglos, arranque</l>
+            <l>del campo de sus imperios</l>
+            <l>de mis últimas raíces</l>
+            <l n="1860">los mal arraigados feudos,</l>
+            <l>porque ese misterio que hoy</l>
+            <l>en tanta ruina me ha puesto</l>
+            <l>continuado en su justicia,</l>
+            <l>piedad, religión y celo</l>
+            <l n="1865">es quien desta primer causa</l>
+            <l>logrará el postrer efeto</l>
+            <l>con la expulsión que ha de hacer</l>
+            <l>de mí en todos sus imperios</l>
+            <l>para que el cuarto Felipe,</l>
+            <l n="1870">gloriosamente heredero,</l>
+            <l>de su celo, su piedad,</l>
+            <l>su fee y religión, teniendo</l>
+            <l>esta misma devoción</l>
+            <l>por patrimonio que el cielo</l>
+            <l n="1875">vinculó en España al Austria,</l>
+            <l>goce feliz sus aumentos</l>
+            <l>dejando para después</l>
+            <l>que reine siglos eternos</l>
+            <l>por sucesor suyo.... Aquí</l>
+            <l n="1880">ni puedo, ¡ay de mí!, ni quiero</l>
+            <l>proseguir porque la voz</l>
+            <l>desmaya y falta el aliento.</l>
+          </sp>
+          <sp who="#garcía">
+            <speaker>GARCÍA</speaker>
+            <l>Dichoso vos por quien hoy</l>
+            <l>en rasgos y visos veo</l>
+            <l part="I">esta dicha.</l>
+          </sp>
+          <sp who="#pascual">
+            <speaker>PASCUAL</speaker>
+            <l n="1885" part="F">De Dios es,</l>
+            <l>no mío el merecimiento.</l>
+          </sp>
+          <sp who="#lelio">
+            <speaker>LELIO</speaker>
+            <l>Ya perdonado, no sólo</l>
+            <l>vuestro amigo, esclavo vuestro</l>
+            <l part="I">seré.</l>
+          </sp>
+          <sp who="#aminta">
+            <speaker>AMINTA</speaker>
+            <l part="M">¡Qué gozo!</l>
+          </sp>
+          <sp who="#almanzor">
+            <speaker>ALMANZOR</speaker>
+            <l part="F">¡Qué agravio!</l>
+          </sp>
+          <sp who="#pernil">
+            <speaker>PERNIL</speaker>
+            <l part="I">¡Qué ventura!</l>
+          </sp>
+          <sp who="#demonio-pascual-vivas">
+            <speaker>DEMONIO</speaker>
+            <l n="1890" part="F">¡Qué tormento!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Pues para que más lo sea</l>
+            <l>tuyo y de todos aliento</l>
+            <l>tener el Austria en España</l>
+            <l>este patrimonio inmenso,</l>
+            <l n="1895">todos aplaudid su triunfo</l>
+            <l>una y otra vez diciendo</l>
+            <l>los unos para castigo,</l>
+            <l>los otros para consuelo....</l>
+          </sp>
+          <sp who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel #música">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>¿Cómo puede en dos partes estar un cuerpo?</l>
+            <l n="1900">Solo Dios en la Hostia del sacramento.</l>
+            <l>¿Pues cómo hoy en dos partes Pascual se ha visto?</l>
+            <l>Como uno era su imagen que no era él mismo,</l>
+            <l>porque el cielo quiso premiar su valor</l>
+            <l>con vislumbres y rasgos de su devoción.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

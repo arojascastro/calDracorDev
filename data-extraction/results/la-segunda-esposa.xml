@@ -1,0 +1,2927 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000036" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La segunda esposa</title>
+        <title type="sub">Auto sacramental alegórico</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName>Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-16"><time when="07:57:02"/></date>
+        <idno type="quadramaX">La segunda esposa</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-segunda-esposa--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de V. García Ruiz, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1993. ISBN: 3-928064-48-7</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="placer" sex="MALE">
+            <persName>El Placer</persName>
+            <trait source="castlist">
+              <desc>villano</desc>
+            </trait>
+          </person>
+          <person xml:id="bauptismo" sex="MALE">
+            <persName>El Bauptismo</persName>
+          </person>
+          <person xml:id="confirmación" sex="FEMALE">
+            <persName>La Confirmación</persName>
+          </person>
+          <person xml:id="penitencia" sex="FEMALE">
+            <persName>La Penitencia</persName>
+          </person>
+          <person xml:id="comunión" sex="FEMALE">
+            <persName>La Comunión</persName>
+          </person>
+          <person xml:id="orden" sex="MALE">
+            <persName>El Orden</persName>
+            <trait source="castlist">
+              <desc>viejo</desc>
+            </trait>
+          </person>
+          <person xml:id="matrimonio" sex="MALE">
+            <persName>El Matrimonio</persName>
+          </person>
+          <person xml:id="esposo" sex="MALE">
+            <persName>El Esposo</persName>
+          </person>
+          <person xml:id="pecado" sex="MALE">
+            <persName>El Pecado</persName>
+          </person>
+          <person xml:id="muerte" sex="FEMALE">
+            <persName>La Muerte</persName>
+          </person>
+          <person xml:id="hombre" sex="MALE">
+            <persName>El Hombre</persName>
+          </person>
+          <person xml:id="esposa" sex="FEMALE">
+            <persName>La Esposa</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1759">
+        <label/>
+      </event>
+      <event type="written" when="1648">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">La segunda esposa</titlePart>
+        <titlePart type="sub">Auto sacramental alegórico</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas</head>
+        <castItem>EL PLACER, villano.</castItem>
+        <castItem>EL BAUPTISMO.</castItem>
+        <castItem>LA CONFIRMACIÓN.</castItem>
+        <castItem>LA PENITENCIA.</castItem>
+        <castItem>LA COMUNIÓN.</castItem>
+        <castItem>EL ORDEN, viejo.</castItem>
+        <castItem>EL MATRIMONIO.</castItem>
+        <castItem>EL ESPOSO.</castItem>
+        <castItem>EL PECADO.</castItem>
+        <castItem>LA MUERTE.</castItem>
+        <castItem>EL HOMBRE.</castItem>
+        <castItem>LA ESPOSA.</castItem>
+        <castItem>OSORIO.</castItem>
+        <castItem>UN NIÑO.</castItem>
+        <castItem>JULIANA.</castItem>
+        <castItem>CONTRERAS.</castItem>
+        <castItem>LA AUCTORA.</castItem>
+        <castItem>GODOY.</castItem>
+        <castItem>BERNARDA.</castItem>
+        <castItem>RUEDA.</castItem>
+        <castItem>MORALES.</castItem>
+        <castItem>MARÍA DE QUIÑONES.</castItem>
+        <castItem>NAVARRO.</castItem>
+        <castItem>MARÍA DE VIVAS.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene" n="1">
+          <stage>Suena dentro la música y sale el PLACER, de villano. Música dentro.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Venid, mortales, venid </l>
+            <l> si queréis no serlo y eternos vivir, </l>
+            <l> que aquí está la Vida, puesto que está aquí </l>
+            <l> quien, muriendo, a la Muerte ha de destruir. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="5"> Mil extremos he de hacer </l>
+            <l> de contento y alegría. </l>
+            <l> ¡Albricias, que hoy es mi día </l>
+            <l> pues es día de Placer! </l>
+            <l> Cantar, bailar y tañer </l>
+            <l n="10"> sean todos mis intentos, </l>
+            <l> suenen voces e instrumentos </l>
+            <l> pues contra la Muerte el Rey </l>
+            <l> hace de Gracia una ley </l>
+            <l> con todos sus sacramentos. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Salen en tropa toda la música del carro de la nave, que ha de ser el segundo; el BAUPTISMO, niño, vestido de blanco, la CONFIRMACIÓN de dama, la PENITENCIA de pieles, el ORDEN SACERDOTAL, viejo venerable, el MATRIMONIO, galán; detrás de todos el ESPOSO con potencias en el sombrero. Dando vuelta al tablado, quedan todos en ala y él delante.</stage>
+          <stage>Música.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="15"> Venid, mortales, venid </l>
+            <l> si queréis no serlo y eternos vivir, </l>
+            <l> que aquí está la Vida, puesto que está aquí </l>
+            <l> quien, muriendo, a la Muerte ha de destruir. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Ya que esa altiva, esa bella </l>
+            <l n="20"> Jersusalén militante, </l>
+            <l> -sombra de la que triunfante </l>
+            <l> vio en su Apocalipsi aquella </l>
+            <l> águila que estrella a estrella </l>
+            <l> bebe uno y otro arrebol, </l>
+            <l n="25"> subiendo ardiente farol </l>
+            <l> a ser dórica <emph>coluna-</emph>, </l>
+            <l> de la esfera de la luna, </l>
+            <l> se nos pasa a la del sol; </l>
+            <l> ya que en la vaga región, </l>
+            <l n="30"> trepando enlazada vid, </l>
+            <l><emph>si no</emph> torre de David, </l>
+            <l> si no alcázar de Sión </l>
+            <l> o templo de Salomón, </l>
+            <l><emph>es</emph> altiva imagen fuerte </l>
+            <l n="35"> que sus triunfos nos advierte, </l>
+            <l> pues murada y guarnecida </l>
+            <l> plaza de armas de la vida </l>
+            <l> ha de ser contra la Muerte, </l>
+            <l> antes que a su fortaleza </l>
+            <l n="40"> entremos, saber espero, </l>
+            <l> pues <emph>obras</emph> de Gracia quiero </l>
+            <l> medir, para más fineza, </l>
+            <l> con las de naturaleza, </l>
+            <l> de qué una gran monarquía </l>
+            <l n="45"> consta desde el primer día </l>
+            <l> que se funda, porque en todo </l>
+            <l> he de ajustarme en el modo </l>
+            <l> de esta nueva alegoría. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l> Una república bella </l>
+            <l n="50"> consta, señor, de la gente, </l>
+            <l> y así es lo más conveniente </l>
+            <l> que a poblalla y poseella </l>
+            <l> nazcan vasallos en ella </l>
+            <l> que comercien en su abismo. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l n="55"> Suceda en esta lo mismo </l>
+            <l> pues cuantos a ella vendrán </l>
+            <l> segunda vez nacerán </l>
+            <l> por ti siendo tú el Bauptismo. </l>
+            <stage>Hace reverencia al nombrarle y todos después.</stage>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l> Nacer, señor, no es bastante </l>
+            <l n="60"> si no se sigue al nacer </l>
+            <l> a perfecta edad crecer </l>
+            <l> y ser hombre el que era infante </l>
+            <l> porque con fervor constante </l>
+            <l> confirme en el corazón </l>
+            <l n="65"> la Ley y la Religión </l>
+            <l part="I"> que les des. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l part="F"> Pues tú serás </l>
+            <l> quien se la confirmarás </l>
+            <l> siendo la Confirmación. </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l> Nacer, señor, y crecer </l>
+            <l n="70"> a pefecta juventud </l>
+            <l> no es la segura salud </l>
+            <l> que el mortal ha menester. </l>
+            <l> Y así, le importa tener </l>
+            <l> remedios a la dolencia </l>
+            <l n="75"> de una y otra intercadencia. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Pues tú serás de esa ruina </l>
+            <l> saludable medicina, </l>
+            <l> siendo tú la Penitencia. </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l> Aunque le podré curar </l>
+            <l n="80"> será fuerza que le des </l>
+            <l> convalecencia después </l>
+            <l> con que pueda desechar </l>
+            <l> las reliquias que dejar </l>
+            <l part="I"> suele el mal. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l part="F"> De esa aflicción </l>
+            <l n="85"> conforte una ungida acción </l>
+            <l> -la extrema necesidad </l>
+            <l> que deje la enfermedad- </l>
+            <l> con nombre de Extremaunción. </l>
+          </sp>
+          <sp who="#comunión">
+            <speaker>COMUNIÓN</speaker>
+            <l> Ves aquí, señor, que atento </l>
+            <l n="90"> nace el Hombre, vive y crece, </l>
+            <l> que adolece y convalece. </l>
+            <l> ¿Qué hará sin el alimento </l>
+            <l> que le sirva de sustento? </l>
+            <l> pues el más fuerte varón, </l>
+            <l n="95"> sin esta vital porción, </l>
+            <l part="I"> fallecerá. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l part="F"> Pan de Vida </l>
+            <l> tendrás tú para comida </l>
+            <l> siendo tú la Comunión. </l>
+          </sp>
+          <sp who="#orden">
+            <speaker>ORDEN</speaker>
+            <l> ¿Qué importará que nacido </l>
+            <l n="100"> se vea el Hombre y confirmado, </l>
+            <l> convalecido y curado </l>
+            <l> y en efecto mantenido, </l>
+            <l> si en justicia y paz regido </l>
+            <l> no es de algún gran tribunal </l>
+            <l n="105"> que le mantenga en igual </l>
+            <l> Ley? Luego habrá menester </l>
+            <l part="I"> jueces. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l part="F"> Y tú lo has de ser </l>
+            <l> siendo Orden Sacerdotal. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> Aunque todos lograr puedan </l>
+            <l n="110"> tantos favores, ningunos </l>
+            <l> vendrán a ser, como unos </l>
+            <l> en otros no se sucedan. </l>
+            <l> Monarquías que se heredan </l>
+            <l> de una en otra sucesión </l>
+            <l n="115"> las más asentadas son. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Da tú de eso testimonio </l>
+            <l> siendo tú del Matrimonio </l>
+            <l> legítima sucesión. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> Pues ya que a todos nos das </l>
+            <l n="120"> cargos, con que de honor llenos, </l>
+            <l> ninguno te tiene en menos, </l>
+            <l> porque no puedes ser más, </l>
+            <l> ¿licencia no nos darás </l>
+            <l> para que todos por mí </l>
+            <l n="125"> te hagan un acuerdo aquí </l>
+            <l> ya que en mí la sucesión </l>
+            <l> legítima es el blasón </l>
+            <l part="I"> de que me coronas? </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l part="F"> Sí. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> Pues dicen, señor, que aunque </l>
+            <l n="130"> de tal virtud y belleza </l>
+            <l> la humana naturaleza </l>
+            <l> tu primera esposa fue, </l>
+            <l> -tanto que en ella hoy se ve </l>
+            <l> el cielo cumplido, aquel </l>
+            <l n="135"> arco, pacto y signo fiel </l>
+            <l> de su gran prometimiento- </l>
+            <l> y así como «Juramento </l>
+            <l> de Dios» se llamó Isabel </l>
+            <l> y aunque tu amor no ha olvidado </l>
+            <l n="140"> lo que ya una vez amó </l>
+            <l> y de ella al mundo quedó </l>
+            <l> el bellísimo traslado </l>
+            <l> que de tu mente engendrado </l>
+            <l> fue reparo de su ruina, </l>
+            <l n="145"> que es la gloria peregrina </l>
+            <l> que comunicaste en ella </l>
+            <l> al mundo, siendo esta bella </l>
+            <l> prenda una infanta divina, </l>
+            <l> con todo eso, asegurar </l>
+            <l n="150"> conviene tu sucesión </l>
+            <l> en la propagada unión </l>
+            <l> de fieles que ha de igualar </l>
+            <l> átomos de viento y mar. </l>
+            <l> Y así, atentos a este bien </l>
+            <l n="155"> te consultan, porque ven </l>
+            <l> cuánto a honrarlos te acomodas, </l>
+            <l> celebres segundas bodas, </l>
+            <l> escucha, señor, con quién: </l>
+            <l> La Caridad, soberana </l>
+            <l n="160"> virtud, no sintiendo, digo, </l>
+            <l> ser tu hermana, pues contigo </l>
+            <l> nació, luego si es tu hermana </l>
+            <l> de tu sangre cosa es llana </l>
+            <l> que nace la Fe se ve, </l>
+            <l n="165"> pues de la Caridad fue </l>
+            <l> hija esta virtud divina, </l>
+            <l> luego de esposa y sobrina </l>
+            <l> méritos tendrá la Fe, </l>
+            <l> su madre siendo María, </l>
+            <l n="170"> que exaltada es ya feliz </l>
+            <l> le fue pues emperatriz </l>
+            <l> la vio en rosicler del día, </l>
+            <l> en la imperial monarquía </l>
+            <l> donde engendró soberana </l>
+            <l n="175"> a la Fe con nombre de Ana </l>
+            <l> que es Gracia, luego la esposa </l>
+            <l> será exaltada y graciosa </l>
+            <l> siendo como es María Ana. </l>
+            <l> Pues siendo así que elegida </l>
+            <l n="180"> está ya esta niña bella </l>
+            <l> y has labrado para ella </l>
+            <l> ese alcázar de la Vida, </l>
+            <l> con familia prevenida, </l>
+            <l> para que la recibamos </l>
+            <l n="185"> humildes te suplicamos </l>
+            <l> que su presencia gocemos </l>
+            <l> porque fieles la adoremos </l>
+            <l> porque leales la sirvamos. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> De vuestra razón de estado </l>
+            <l n="190"> ninguna cuerda consulta </l>
+            <l> mi voluntad dificulta; </l>
+            <l> y así, atento a ese cuidado, </l>
+            <l> tú, Matrimonio, enviado </l>
+            <l> con mi poder, donde está </l>
+            <l part="I"> irás. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l n="195" part="F"> Tus plantas me da </l>
+            <l part="I"> a besar. </l>
+
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Vase al carro del águila.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F"> Yo que callé </l>
+            <l> cuanto hablar <emph>lo </emph>serio fue, </l>
+            <l> hablando de bodas ya </l>
+            <l> licencia tendré, señor, </l>
+            <l n="200"> para que contento diga </l>
+            <l> que la música prosiga. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Ven, que de mi nuevo amor </l>
+            <l> tú, Placer, anunciador </l>
+            <l> a todo el mundo has de ser. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="205"> Propio oficio de Placer </l>
+            <l> es llevar nuevas de gusto. </l>
+            <l> Volved todos, pues es justo, </l>
+            <l> hoy a cantar y tañer. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Vanse tocando y cantando al carro de los leones y a este tiempo sale del carro de las águilas la MUERTE vestida de negro con manto, sombrero, espada y véngala como oyendo la música.</stage>
+          <stage>Música.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Venid, mortales, venid </l>
+            <l n="210"> si queréis no serlo y eternos vivir </l>
+            <l> que aquí está la Vida, puesto que está aquí </l>
+            <l> quien, muriendo, a la Muerte ha de destruir. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿«Que aquí esta la vida, puesto que está aquí </l>
+            <l> quien, muriendo, a la Muerte ha de destruir»? </l>
+            <l n="215"> ¿Qué fábrica y qué voz, </l>
+            <l> una piramidal, otra veloz, </l>
+            <l> al sol y al viento igual, </l>
+            <l> en lo veloz y en lo piramidal </l>
+            <l> opuestas sin desdén, </l>
+            <l n="220"> mis oídos oyen y mis ojos ven </l>
+            <l> siendo así que una y otra admiración </l>
+            <l> todo me estremeciera el corazón, </l>
+            <l> si algo pudiera ser </l>
+            <l> que en lo mortal de mí, inmortal poder, </l>
+            <l n="225"> temor me diera, dando yo el temor? </l>
+            <l> ¿Qué horror, pues, se le atreve al mismo horror? </l>
+            <l> Mas ¡ay de mí!, mas ¡ay de mí! que aunque </l>
+            <l> sé que no puedo yo temer, no sé </l>
+            <l> qué angustia, qué pasión </l>
+            <l n="230"> qué letargo, qué ansia, qué aflicción </l>
+            <l> me confunde el mirar </l>
+            <l> ese nuevo edificio singular </l>
+            <l> en quien deslumbra el trémulo farol, </l>
+            <l> su faz la luna y su semblante el sol, </l>
+            <l n="235"> y más, cielos, y más, </l>
+            <l> cuando de fuentes y aves al compás, </l>
+            <l> oigo a su dulce música decir </l>
+            <stage>Dentro música.</stage>
+            <l> Venid, mortales, venid, </l>
+            <l> si queréis no serlo y eternos vivir... </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="240"> ¿Cómo, métrico engaño, puede ser </l>
+            <l> vivir eterno cuando da a entender </l>
+            <l> tu numerosa cláusula vocal </l>
+            <l> que habla con el mortal? Pues, si es mortal, </l>
+            <l> ¿cómo eterno le anuncia tu canción? </l>
+            <l n="245"> Mortal y eterno ¿no es contradición </l>
+            <l> que implica? ¿Sí? Pues, ¿<emph>cómo</emph>, cómo oí... </l>
+            <stage>Música.</stage>
+            <l> ...que aquí está la Vida, puesto que está aquí </l>
+            <l> quien, muriendo, a la Muerte ha de destruir? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Pero mal, ¡ay de mí!, podré apurar </l>
+            <l n="250"> yo la razón que tengo de dudar </l>
+            <l> que aunque en ella se funda mi ambición </l>
+            <l> es de Dios, que no es mía, mi razón! </l>
+            <l> Y así, pues discurrir no me tocó, </l>
+            <l> dígamela quien sepa más que yo. </l>
+            <l n="255"> ¡Ah del profundo horror </l>
+            <l> del centro de esa fábrica inferior </l>
+            <l> del mundo, cuyo vil </l>
+            <l> seno, poblado de sepulcros mil, </l>
+            <l> sólo un sepulcro es! </l>
+            <l n="260"> ¡Ah del abismo! ¡Ah del Pecado! Pues </l>
+            <l> hija tuya nací, </l>
+            <l part="I"> atiende. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Sale el PECADO vestido de demonio.</stage>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="M"> ¿Qué me quieres? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="M"> Oye. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Di. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Ya sabes que mi principio </l>
+            <l> fue en el hermoso jardín </l>
+            <l n="265"> de la original justicia, </l>
+            <l> adonde engendrada fui </l>
+            <l> de la voz de la serpiente, </l>
+            <l> llegándome a concebir </l>
+            <l> la oreja de la mujer, </l>
+            <l n="270"> y <emph>a</emph> alimentar desde allí </l>
+            <l> la culpa del hombre, para </l>
+            <l> que me viniese a parir </l>
+            <l> la abierta herida de Abel </l>
+            <l> por la mano de Caín, </l>
+            <l n="275"> siendo los cuatro costados </l>
+            <l> del solar en que nací </l>
+            <l> una mentira de un áspid, </l>
+            <l> un deseo mujeril, </l>
+            <l> un error inobediente </l>
+            <l n="280"> y un homicidio infeliz, </l>
+            <l> en cuya primera pavorosa lid </l>
+            <l> es cierto que tuvo su principio el fin. </l>
+            <l> Pero mal hago, mal hago </l>
+            <l> en alegar desde aquí </l>
+            <l n="285"> mi origen, puesto que es más </l>
+            <l> antiguo que referí; </l>
+            <l> pues aún no era de los cielos </l>
+            <l> el cristalino viril, </l>
+            <l><emph>no</emph> eran del mar y la tierra </l>
+            <l n="290"> el verde y azul país, </l>
+            <l> no era el sol, no era la luna </l>
+            <l> noble luz y sombra vil, </l>
+            <l> plantas, fieras, peces ni aves, </l>
+            <l> cuando yo pienso que fui. </l>
+            <l n="295"> Pues antes que todos tú </l>
+            <l> ya me concebiste en ti </l>
+            <l> fatal ira de tus iras, </l>
+            <l> cuando valiente adalid </l>
+            <l> de vasallos rebelados, </l>
+            <l n="300"> procuraste competir </l>
+            <l> la Divinidad; a cuyo </l>
+            <l> rumor de armas, confundir </l>
+            <l> se vio en la celeste curia </l>
+            <l> todo su eterno cenit, </l>
+            <l n="305"> escándalos dando al osado motín, </l>
+            <l> si ronca la caja, bastardo el clarín. </l>
+            <l> No me quiero detener </l>
+            <l> en pintar, en <emph>describir</emph></l>
+            <l> tus ruinas o tus victorias, </l>
+            <l n="310"> que bien se pueden decir </l>
+            <l> victorias ruinas tan nobles </l>
+            <l> que se trujeron tras sí </l>
+            <l> el aplauso de intentar </l>
+            <l> ya que no el de conseguir; </l>
+            <l n="315"> pues sólo toca a mi intento </l>
+            <l> que ya en el campo turquí, </l>
+            <l> que ya en la verde campaña, </l>
+            <l> hija de tu horror nací, </l>
+            <l> pues del pecado la muerte </l>
+            <l n="320"> miró el mundo introducir, </l>
+            <l> poniendo o su saña o su fuerza o su ardid, </l>
+            <l> en uso el matar, en ley el morir. </l>
+            <l> No traidoramente afable, </l>
+            <l> para engañar y fingir, </l>
+            <l n="325"> a vista salí del siglo, </l>
+            <l> pues desde luego salí </l>
+            <l> tan horrorosa, tan fiera, </l>
+            <l> que al primer estrago di </l>
+            <l> a entender que venía a ser </l>
+            <l n="330"> bárbara, atroz y gentil, </l>
+            <l> tan doméstico veneno, </l>
+            <l> tan cauto ladrón sutil, </l>
+            <l> tan familiar enemigo </l>
+            <l> y batalla tan civil </l>
+            <l n="335"> del hombre, que tropezando </l>
+            <l> aun más que en su sombra en mí, </l>
+            <l> a todas horas me había </l>
+            <l> de tener dentro de sí; </l>
+            <l> a cuyo efecto cadáver </l>
+            <l n="340"> y homicida, a un tiempo vi, </l>
+            <l> estrenando uno la saña </l>
+            <l> y otro el golpe, confundir </l>
+            <l> los temblores del matar </l>
+            <l> con los pasmos del morir; </l>
+            <l n="345"> tanto, que pudiera mal, </l>
+            <l> aun el día, distinguir </l>
+            <l> la activa o pasiva acción, </l>
+            <l> viendo entre los dos teñir </l>
+            <l> en cárdeno, en triste, troncado alhelí, </l>
+            <l n="350"> la faz y la mano sangriento zafir. </l>
+            <l> Desde este tremendo día, </l>
+            <l> cuya luz, a no lucir, </l>
+            <l> sólo haga memoria el año, </l>
+            <l> poseyendo su matiz </l>
+            <l n="355"> caliginosas tinieblas </l>
+            <l> desde un abril a otro abril, </l>
+            <l> desde este, pues, día tremendo, </l>
+            <l> la posesión adquirí </l>
+            <l> del más propagado imperio </l>
+            <l n="360"> a que se supo rendir </l>
+            <l> la naturaleza humana, </l>
+            <l> llegando toda a sentir </l>
+            <l> el yugo de mi poder </l>
+            <l> en su agobiada cerviz. </l>
+            <l n="365"> Tanto que de mis tributos </l>
+            <l> fue el universal confín </l>
+            <l> del orbe jurisdición, </l>
+            <l> cuando anegado le vi </l>
+            <l> en un diluvio de llanto </l>
+            <l n="370"> llorando su Emperatriz; </l>
+            <l> y aunque empecé en tiranía </l>
+            <l> (no lo he de contradecir), </l>
+            <l> hereditaria me hice, </l>
+            <l> ganando decretos mil </l>
+            <l n="375"> pues como el agua que va </l>
+            <l> por campañas de jazmín </l>
+            <l> deslizándose, es la vida </l>
+            <l> dijo en un salmo David, </l>
+            <l> la Teüquis, y San Pablo </l>
+            <l n="380"> lo confirma con decir </l>
+            <l> que está establecido haber de seguir </l>
+            <l> a una vez nacer, una vez morir. </l>
+            <l> Pues siendo así que los cielos </l>
+            <l> lo dicen, pues siendo así </l>
+            <l n="385"> que es ley suya que no tiene </l>
+            <l> que interpretar ni argüir, </l>
+            <l> ¿cómo esa fábrica bella </l>
+            <l> en quien se ven esculpir </l>
+            <l> a <emph>mordeduras</emph> del bronce, </l>
+            <l n="390"> el ébano y el marfil, </l>
+            <l> esa perspectiva en cuya </l>
+            <l> majestad se ven pulir </l>
+            <l> lo prolijo del cincel, </l>
+            <l> lo afectado del buril, </l>
+            <l n="395"> estudiosamente al tope, </l>
+            <l> viendo <emph>anudar</emph> y embutir </l>
+            <l> el crisolito y topacio </l>
+            <l> la amatista y el rubí, </l>
+            <l> esa casa de placer, </l>
+            <l n="400"> mejor pudiera decir </l>
+            <l> casa fuerte, pues a partes, </l>
+            <l> ya vergel, ya rebellín, </l>
+            <l> ostenta de Jericó </l>
+            <l> los muros, y de Efraín </l>
+            <l n="405"> las amenidades, siendo </l>
+            <l> lo menos precioso ahí </l>
+            <l> lo precioso; pues aunque </l>
+            <l> se ven engarzar y unir </l>
+            <l> la arquitrabe de sus cimbrias, </l>
+            <l n="410"> de su cúpula el perfil, </l>
+            <l> con oro y plata Pactolo y Ofir, </l>
+            <l> con palmas y cedros Líbano y Setín, </l>
+            <l> no es esto, no, lo que más </l>
+            <l> me ha obligado a discurrir </l>
+            <l n="415"> (y aun no sé, no sé si diga </l>
+            <l> que a suspirar y gemir) </l>
+            <l> sino cuatro frutos que </l>
+            <l> miro su cerco incluir, </l>
+            <l> persuadiéndome a que ciega </l>
+            <l n="420"> estoy viendo desde aquí </l>
+            <l> las olivas del Cedrón, </l>
+            <l> las fuentes de Rafidín, </l>
+            <l> las espigas de Booz </l>
+            <l> y las viñas de Engadí, </l>
+            <l n="425"> mostrándome algún misterio feliz </l>
+            <l> el agua y el olio, la mies y la vid; </l>
+            <l> ¿cómo esa máquina, pues, </l>
+            <l> contra mí y aun contra ti, </l>
+            <l> en su recinto y su acento, </l>
+            <l n="430"> convida al hombre a vivir </l>
+            <l> eterno, si ya no tiene </l>
+            <l> trasplantada la raíz </l>
+            <l> de aquel árbol de la Vida, </l>
+            <l> por quien Dios mandó salir </l>
+            <l n="435"> al hombre del paraíso? </l>
+            <l> Mas no fuera, siendo así </l>
+            <l> que la fruta de aquel árbol </l>
+            <l> la había de restituir, </l>
+            <l> que tan presto le arrojara </l>
+            <l n="440"> indignado querubín. </l>
+            <l> Estas, pues, contradiciones </l>
+            <l> me tienen a mí sin mí; </l>
+            <l> para que me saques de ellas </l>
+            <l> te llamé; y porque no aquí </l>
+            <l n="445"> te dejes de mi ilusión </l>
+            <l> o vencer o persuadir, </l>
+            <l> llega tú, llega, verás </l>
+            <l> con cuánta ocasión sentí, </l>
+            <l> con cuánta razón dudé, </l>
+            <l n="450"> con cuánta causa gemí, </l>
+            <l> con cuánto temor, con cuánto </l>
+            <l> asombro, el asombro, en fin, </l>
+            <l> tiembla, gime, siente y llora </l>
+            <l> oyendo a esa voz decir </l>
+          </sp>
+          <sp who="#muerte #música">
+            <speaker>ELLA Y MÚSICA</speaker>
+            <l n="455"> Que aquí está la Vida, puesto que está aquí </l>
+            <l> quien, muriendo, a la Muerte ha de destruir. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> La voz escuché, y no menos </l>
+            <l> que a ti te admiró, me admira, </l>
+            <l> a cuyo acento, la ira </l>
+            <l n="460"> deja mis discursos llenos </l>
+            <l> de más confusión que a ti, </l>
+            <l> cuanto es la pena más grave </l>
+            <l> del que sabe al que no sabe. </l>
+            <l> Suma inteligencia fui </l>
+            <l n="465"> y aunque en la gran competencia </l>
+            <l> de mi lid sangrienta y dura, </l>
+            <l> perdí gracia y hermosura, </l>
+            <l> no perdí aprehensión ni ciencia; </l>
+            <l> y con todo eso, no puedo </l>
+            <l n="470"> rastrear y percibir </l>
+            <l> lo que esa voz va a decir, </l>
+            <l> a cuyo sentido quedo </l>
+            <l> atónito y elevado, </l>
+            <l> tanto, que juzgo anda aquí </l>
+            <l n="475"> un misterio, que de mí </l>
+            <l> tiene el cielo reservado, </l>
+            <l> de quien fue figura aquella </l>
+            <l> gran escala que ceñía </l>
+            <l> cielo y tierra, en quien se vía </l>
+            <l n="480"> bajar y subir por ella </l>
+            <l> tropas de alados querubes, </l>
+            <l> bien como aquí resplandores </l>
+            <l> del tapete de las flores </l>
+            <l> al volante de las nubes. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="485"> Gente de allí veo salir. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Retírate y no te mueve. </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Sale el PLACER.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Lo que es en ir, seré breve </l>
+            <l> mas no lo seré en venir </l>
+            <l> porque aunque soy el Placer </l>
+            <l n="490"> y sé correr y volar, </l>
+            <l> siempre he sido de ausentar </l>
+            <l> más fácil que de volver. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¿Hasle conocido? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> No. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> Ni yo. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> Pues ¿quién podrá ser </l>
+            <l n="495"> humano, que a conocer </l>
+            <l> no lleguemos tú ni yo? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Déjale llegar, veremos </l>
+            <l> si le podemos asir. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Ahora bien, si hemos de ir, </l>
+            <l n="500"> señor, camino, cantemos. </l>
+            <l part="I"> Venid, mortales... </l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Salen a él y cada uno le toma la mano.</stage>
+          <sp who="#muerte #pecado">
+            <speaker>LOS DOS</speaker>
+            <l part="F">Villano, </l>
+            <l part="I"> tente. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F"> ¿Qué es lo que me pasa </l>
+            <l> que una mano se me abrasa </l>
+            <l> y se me hiela otra mano? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¿Quién eres? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="505" part="F"> Era el Placer </l>
+            <l> mas, ya que aquí vine a dar, </l>
+            <l> debo de ser el Pesar. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Fuerza era haberlo de ser, </l>
+            <l> pues ninguno de los dos </l>
+            <l n="510"> pudo haberte conocido, </l>
+            <l> que nunca te hemos tenido. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Ni aun ahora, plugiera a Dios, </l>
+            <l> tan tenido me tuvieran. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Esto no es tenerte yo </l>
+            <l n="515"> sino embarazar que no </l>
+            <l> te tengan los que te esperan </l>
+            <l> y saber, si Placer eres, </l>
+            <l> cómo te arroja de sí </l>
+            <l part="I"> quien ahí vive. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F"> Porque ahí </l>
+            <l n="520"> cuantos quedan son placeres. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Pues ¿qué casa aquesa fue </l>
+            <l> que al sol sus torres eleva? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Una república nueva, </l>
+            <l> una nueva corte que </l>
+            <l n="525"> del Austro el Rey soberano </l>
+            <l> para templo fabricó </l>
+            <l> de la esposa que eligió. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> ¿Qué Rey es ese, villano, </l>
+            <l part="I"> que yo no conozco? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F"> Un Rey, </l>
+            <l n="530"> tan humano y tan divino, </l>
+            <l> que, siendo Austral, a dar vino </l>
+            <l> al clima occidental ley, </l>
+            <l> tan de Gracia, que la da </l>
+            <l> de balde su condición. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> ¿Qué señas tiene? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="535" part="F"> El León </l>
+            <l> coronado de Judá </l>
+            <l> es su empresa y, como viene </l>
+            <l> a dar vida y lo mostró </l>
+            <l> en Magdalo, dél tomó </l>
+            <l n="540"> el castillo y así tiene </l>
+            <l> su alcázar para más fama </l>
+            <l> ilustrados sus blasones </l>
+            <l> de castillos y leones. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Dinos ya, ¿cómo se llama? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="545"> Si es león, ¿no consideras </l>
+            <l> que ya su nombre anticipo </l>
+            <l> en sus señas, pues Filipo </l>
+            <l> es ser domador de fieras? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> ¿Con quién casa? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F"> ¡Oh, cielo santo! </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="550"> ¿Qué hay que ahora te alborote? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Denme con este garrote </l>
+            <l> y no me pregunten tanto. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> ¿Con quién casa?, di. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F"> En su corte </l>
+            <l> la paz aspira a su plaustro </l>
+            <l n="555"> y así, con ser él el Austro, </l>
+            <l> la ha firmado con el Norte </l>
+            <l> en esperanzas de que </l>
+            <l> de su grande monarquía </l>
+            <l> los rebeldes a porfía </l>
+            <l part="I"> se reducirán. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="560" part="F"> ¿Por qué? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Porque en ella dos que infiero </l>
+            <l> talar poblado y campiña, </l>
+            <stage>A la MUERTE.</stage>
+            <stage>Al DEMONIO.</stage>
+            <l n="565"> y así, aves y fieras mal </l>
+            <l> lograrán su pretensión, </l>
+            <l> casándose el Rey león </l>
+            <l> con el águila imperial: </l>
+            <l> de la alta Alemania viene </l>
+            <l n="570"> la bella esposa que adora. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Y tú dónde vas ahora? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Como sus bodas previene, </l>
+            <l> un convite voy a hacer </l>
+            <l part="I"> de su parte. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> ¿A quién, villano? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="575"> A todo el género humano. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Pues ¿a ti te han de creer? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Sí, que llevo cartas yo </l>
+            <l> de grande crédito y fe. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¿Dónde están? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F"> Yo lo diré; </l>
+            <l n="580"> estas son, que él me mandó </l>
+            <l> que las dé, sin <emph>escetar</emph></l>
+            <l part="I"> personas. </l>
+          </sp>
+          <stage>Dale cuatro memoriales; retirándose a leer, el PLACER se va retirando como a hurto.</stage>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> Su nema abramos </l>
+            <l> y lo que escribe sepamos. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> [Aparte.]Yo, en tanto he de procurar, </l>
+            <l n="585"> como dicen, escurrir </l>
+            <l> la bola, sólo por ver </l>
+            <l> si es que es verdad que el Placer </l>
+            <l> siempre se va sin sentir. </l>
+
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <stage>Vase.</stage>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Cuya la primera es? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="590"> A lo que en la firma veo, </l>
+            <l> letra y signo es de Mateo. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> ¿Y qué dice? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Escucha, pues: </l>
+            <stage>Lee.</stage>
+            <l> «Convida el Rey a sus bodas </l>
+            <l> príncipes y emperadores, </l>
+            <l n="595"> potentados y señores </l>
+            <l> y luego a las gentes todas, </l>
+            <l> desde el Rey al peregrino, </l>
+            <l> que a nadie excepta, y admite </l>
+            <l> los pobres a su convite». </l>
+            <stage>Lee otro.</stage>
+            <l n="600"> «Estas bodas que previno </l>
+            <l> el Rey, ser dos imagina: </l>
+            <l> la católica pureza, </l>
+            <l> la humana naturaleza </l>
+            <l> y la Iglesia y Fe divina; </l>
+            <l n="605"> y así, creer es notorio </l>
+            <l> que tuvo en unión dichosa </l>
+            <l> primera y segunda esposa». </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> ¿Y quién dice eso? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Gregorio. </l>
+            <stage>Lee otro.</stage>
+            <l> «Quien comiere de este Pan </l>
+            <l n="610"> y de este Vino bebiere, </l>
+            <l> eterno vivir espere». </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> ¿Y eso quién lo dice? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Juan. </l>
+            <stage>Lee otro.</stage>
+            <l> «Oíd, gentes, con todos hablo: </l>
+            <l> quien coma de este Pan fiel </l>
+            <l n="615"> vive en Mí y Yo vivo en él </l>
+            <l> Vida, en que no hay Muerte. Pablo». </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> No leas más, que me enfurece </l>
+            <l> tan nueva proposición </l>
+            <l> y quebrado el corazón </l>
+            <l n="620"> dentro del pecho, parece </l>
+            <l> que a pedazos mis enojos </l>
+            <l> le arrancan con ira loca, </l>
+            <l> en suspiros a la boca </l>
+            <l> y en lágrimas a los ojos. </l>
+            <l n="625"> ¿No es ley del cielo severa </l>
+            <l> que en pecado concebido </l>
+            <l> nazca el hombre y que, nacido, </l>
+            <l> sólo porque nazca, muera? </l>
+            <l> Pues ¿quién inmortal le ha hecho? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="630"> ¿Qué me preguntas, si miras </l>
+            <l> que el veneno de mis iras </l>
+            <l> es víbora de mi pecho? </l>
+            <l part="I"> ¿Qué se hizo el Placer? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> Huyó, </l>
+            <l> que después de conocelle </l>
+            <l n="635"> tenelle ni aun detenelle </l>
+            <l> no pudimos tú ni yo. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Pues harto nos importara </l>
+            <l> porque la voz no corriera </l>
+            <l part="I"> de esto a la Esposa. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> No fuera </l>
+            <l n="640"> posible que se estorbara </l>
+            <l> pues, águila perspicaz, </l>
+            <l> bien que del sol no lo fui, </l>
+            <l> estoy viendo desde aquí </l>
+            <l> que, como el arco de paz </l>
+            <l n="645"> es tranquilo testimonio, </l>
+            <l> así obediente a la ley, </l>
+            <l> con poderes de su Rey, </l>
+            <l> capitula el Matrimonio. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <stage>Mirando al carro de las águilas.</stage>
+            <l> Haciendo oración está, </l>
+            <l n="650"> cuando el joven llega a ella. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Oye al saludalla y vella </l>
+            <l> la embajada que la da. </l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <stage>Salen en lo alto por una parte el MATRIMONIO vestido de ángel, hincada la rodilla, con cruz y rótulo de Ave María, y por otra la ESPOSA con unas Horas en uno como veladorcillo, hincada de rodillas también, vuelto el rostro y abiertas las manos, mirándole, y suenan chirimías.</stage>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> ¡Oh, quién de una vez cegara! </l>
+            <l> ¡No viera en este hemisferio </l>
+            <l n="655"> la alusión de aquel misterio </l>
+            <l> que a mí no se me declara! </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> Si Exaltación María es, </l>
+            <l> si Ana es Gracia soberana, </l>
+            <l><emph>bien de</emph> quien es María Ana, </l>
+            <l n="660"> podré humillarme a los pies, </l>
+            <l> donde el sol sus rayos peina; </l>
+            <l> con la fe y amor que tengo, </l>
+            <l> pues a que seas Reina vengo. </l>
+            <stage>A la música.</stage>
+            <l part="I">Decid. </l>
+            <stage>Canta toda la música en el otro carro. Cada vez que viene la música vuelven los dos PECADO y MUERTE suspensos.</stage>
+            <stage>Música.</stage>
+            <l part="F"> Dios te salve, Reina. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l n="665"> Para vencer la discordia </l>
+            <l> de nuestros males prolijos, </l>
+            <l> ven a ser de muchos hijos </l>
+            <stage>Música.</stage>
+            <l> Madre de Misericordia. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> Que templará tu amor muestra </l>
+            <l n="670"> de la Muerte la amargura </l>
+            <l part="I"> pues eres... </l>
+            <stage>Música.</stage>
+            <l part="F"> ...vida y dulzura, </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l part="I"> y eres... </l>
+            <stage>Música.</stage>
+            <l part="F"> ...Esperanza nuestra. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Lo que allí admira aquí eleva. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> Los que en este valle estamos, </l>
+            <l part="I"> llorando </l>
+            <stage>Música.</stage>
+            <l n="675" part="F"> a Ti suspiramos, </l>
+            <l> desterrados hijos de Eva. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> La voz mi espíritu adiestra. </l>
+            <l> Ven, pues que su llanto ves, </l>
+            <l part="I"> a aliviarme presto, </l>
+            <stage>Música.</stage>
+            <l part="F"> ea, pues, </l>
+            <l n="680"> Señora, Abogada nuestra. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> A ampararnos te resuelve, </l>
+            <l> pues nos ves menesterosos, </l>
+            <stage>Música.</stage>
+            <l> esos misericordiosos </l>
+            <l> ojos a nosotros vuelve. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l n="685"> En soledades extrañas </l>
+            <l> lamentando están el yerro, </l>
+            <stage>Música.</stage>
+            <l> danos en este destierro </l>
+            <l> el fruto de tus entrañas. </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> Siempre atenta mi humildad, </l>
+            <l n="690"> al supremo Emperador, </l>
+            <l> esclava soy del Señor, </l>
+            <l> cúmplase su voluntad. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> Con sola esa dulce, grave </l>
+            <l> voz, que el sí pudo firmar, </l>
+            <l n="695"> ven, Señora, que en el mar </l>
+            <l> de Pedro espera la Nave. </l>
+            <l> Hoy galera no ha de ser </l>
+            <l> la embarcación de tus hados, </l>
+            <l> porque es la gente forzados </l>
+            <l n="700"> y en Ti no los ha de haber. </l>
+            <l> Ven, que la tranquilidad </l>
+            <l> lleva el iris de tu amor. </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> Esclava soy del Señor, </l>
+            <l> cúmplase su voluntad. </l>
+            <stage>Música.</stage>
+            <l n="705"> Esclava soy del Señor, </l>
+            <l> cúmplase su voluntad. </l>
+            <stage>Ciérrase la apariencia.</stage>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Ves cómo imposible fuera </l>
+            <l> las nuevas embarazar? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Monstruo me llamó del mar, </l>
+            <l n="710"> de la tierra bestia fiera </l>
+            <l> Juan; y así, con ira suma, </l>
+            <l> en tanto que aquella nave </l>
+            <l> tormenta padece grave </l>
+            <l> sobre estos campos de espuma, </l>
+            <l n="715"> he de salir al camino </l>
+            <l> para que ese gremio fiel, </l>
+            <l> a ese convite, por él </l>
+            <l> no nos pase peregrino. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Dices bien y en eso fundo </l>
+            <l n="720"> la persecución primera: </l>
+            <l> quien viniere al mundo, muera, </l>
+            <l part="I"> muera. </l>
+          </sp>
+          <stage>Dentro el HOMBRE con voz muy triste.</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> ¡Ah del mundo! ¡ah del mundo! </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Oye qué triste clamor </l>
+            <l> en las entrañas se encierra </l>
+            <l part="I"> de la tierra. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="725" part="F"> Es que la tierra </l>
+            <l> de parto está con dolor </l>
+            <l> y así el orbe cristalino </l>
+            <l> con tan triste, tan profundo </l>
+            <l part="I"> gemido hiere. </l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> ¡Ah del mundo! </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¿Quién va? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="730" part="F"> El Hombre, el peregrino </l>
+
+            <l> que a puertas del nacer llama, </l>
+            <l> tan torpe, tan extranjero, </l>
+            <l> que ignora el paso primero </l>
+            <l> aunque le alumbra la llama </l>
+            <l part="I"> de la vida. </l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <stage>Sale el HOMBRE vestido de peregrino con una hacha en la mano la cual se ha de componer de seis velas de manera que pueda dividirse en luces cada una de por sí.</stage>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="735" part="F"> Llega, que </l>
+            <l> la senda mi voz te dice. </l>
+            <l part="I"> Ven hacia mí. </l>
+            <stage>Va hacia él y se espanta.</stage>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> ¡Ay, infelice! </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¿De qué te asombras? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> De que </l>
+            <l> en el primer umbral vi </l>
+            <stage>Llorando.</stage>
+            <l n="740">un horror que me asustó. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¿Hasme conocido? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> No. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¿Y lloras de verme? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> Sí. </l>
+            <l> Lágrimas son el primero </l>
+            <l> fruto que a la tierra doy. </l>
+            <l part="I"> ¿Quién eres? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="745" part="F"> Tu culpa soy. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> Pues nacer en ti no quiero </l>
+            <l> sino al centro en quien viví </l>
+            <l part="I"> volverme. </l>
+            <stage>Quiere ir atrás y no puede.</stage>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Ya no podrás, </l>
+            <l> que el nacer no vuelve atrás </l>
+            <l n="750"> ni se elige. Desde aquí </l>
+            <l part="I"> delante has de ir siempre. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> Iré </l>
+            <l part="I"> huyendo de ti. </l>
+          </sp>
+          <stage>Retirándose del PECADO que va tras él, ve a la MUERTE.</stage>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Contigo </l>
+            <l> voy, dondequiera te sigo. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¡Ay de mí! Huyendo encontré, </l>
+            <l n="755"> una sombra, otra más fuerte. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Fuerza era que habiendo dado </l>
+            <l> en las manos del Pecado, </l>
+            <l> pases a las de la Muerte. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> Pues también huiré de ti. </l>
+          </sp>
+          <stage>Con pasos atrás a la MUERTE, se retira. Él va tras la MUERTE y el PECADO tras él.</stage>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="760"> Mira cómo no podrás, </l>
+            <l> pues cualquier paso que das </l>
+            <l> de mí huyendo, es hacia mí. </l>
+            <l> No puedes desde este instante </l>
+            <l> los dos, entre quien estás, </l>
+            <l n="765"> huir, ni dél volviendo atrás, </l>
+            <l> ni de mí, yendo adelante. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <stage>Con asombro.</stage>
+            <l> ¡Triste trance, dolor fuerte </l>
+            <l> es nacer en tal estado </l>
+            <l> que a mí me siga el Pecado </l>
+            <l n="770"> y que yo siga a la Muerte! </l>
+            <stage>Tropieza y cae a los pies de la MUERTE.</stage>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> En mis manos estás, pero </l>
+            <l> no has los alientos cumplido </l>
+            <l> que el cielo te ha concedido, </l>
+            <l> y así su número espero </l>
+            <l n="775"> para apagar mi crueldad </l>
+            <l part="I"> esa llama. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> ¿Luego son... </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> Di. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> ...tuya la ejecución </l>
+            <l> y ajena la voluntad? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Sí, porque si fuera mía, </l>
+            <l n="780"> y mi voluntad gozara, </l>
+            <l> de solo un soplo apagara </l>
+            <l> toda la antorcha del día. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <stage>Consolado y alegre.</stage>
+            <l> Perdí el miedo a tu violencia, </l>
+            <l> que a aquel no he de temer yo </l>
+            <l n="785"> que el golpe ha de dar sino </l>
+            <l> al que ha de dar la licencia; </l>
+            <l> y así, mi afecto leal </l>
+            <l> busque al que a ti te enfrenó. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Quién esa razón te dio? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="790"> ¿Quién? La razón natural. </l>
+            <l> Pues si hay quien mande a la Muerte, </l>
+            <l> causa es de causas, sin duda, </l>
+            <l> y es bien que a buscarle acuda. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Pues para que de esa suerte </l>
+            <l n="795"> no discurras, has de ver </l>
+            <l> el imperio que mi fama </l>
+            <l> tiene sobre aquesa llama, </l>
+            <l> aun antes de fenecer. </l>
+            <l> Mira cómo mi crueldad </l>
+            <l n="800"> mata desde el primer día </l>
+            <l> con el sueño, imagen mía, </l>
+            <l> de esta antorcha la mitad. </l>
+            <stage>Quita una luz y apágala.</stage>
+            <l> Mira a hambre y sed cómo luego </l>
+            <l> otra mitad desfallece. </l>
+            <l n="805"> Mira el mal que se padece </l>
+            <l> cuánto apaga de ese fuego. </l>
+            <stage>Quita otra.</stage>
+            <l> Mira ansia, angustia o tristeza, </l>
+            <l> cansancio, aflicción, anhelo, </l>
+            <stage>Otra.</stage>
+            <l> desdicha, pena, desvelo, </l>
+            <stage>Otra.</stage>
+            <l n="810"> necesidad y pobreza, </l>
+            <stage>Otra.</stage>
+            <l> de aquesa luz que recibes, </l>
+            <l> cómo apagan cuanto toco </l>
+            <l> y mira ahora cuán poco </l>
+            <stage>Queda con una sola.</stage>
+            <l> aun de lo que vives, vives. </l>
+            <l n="815"> ¿Qué se hizo la llama bella </l>
+            <l> que a despecho de los dos </l>
+            <l part="I"> ardía? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> ¡Oh válgame Dios, </l>
+            <l> qué poco me queda de ella! </l>
+            <l> ¡Con qué anticipado horror, </l>
+            <l n="820"> a millares de millares </l>
+            <l> nos consumen los pesares </l>
+            <l> de la vida lo mejor! </l>
+            <l> ¡Oh, tú, antorcha que en esa breve, en esa </l>
+            <l> tibia llama contienes sombras sumas, </l>
+            <l n="825"> no por hermosa de inmortal presumas, </l>
+            <l> pues puedes ser, antes que luz, pavesa. </l>
+            <l> Si no ardes, mueres pues tu lumbre cesa. </l>
+            <l> Si ardes, también, pues fuerza es la consuma. </l>
+            <l> Luego ardiendo o no ardiendo, siempre ahúma </l>
+            <l n="830"> las lóbregas paredes de la huesa. </l>
+            <l> ¡Qué luciente, qué bella te creía </l>
+            <l> cuando, cabal, no imaginé que pueda </l>
+            <l> destroncarte el rigor del primer día! </l>
+            <l> ¡Oh, mortal! ¡Oh, mortal! Deshaz la rueda, </l>
+            <l n="835"> pues de vida, a merced de la agonía, </l>
+            <l> lo que te queda es lo que no te queda. </l>
+            <l> Pero esto poco, esto poco </l>
+            <l> procuraré aprovechar. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¿De qué suerte? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> Con buscar </l>
+            <l n="840"> los desengaños que toco. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Dónde hallarlos piensas, di? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¿No hay quien te venza, cruel? </l>
+            <l> Pues con buscarle yo a él, </l>
+            <l part="I"> él... </l>
+          </sp>
+          <sp who="#muerte #pecado">
+            <speaker>LOS DOS</speaker>
+            <l part="M">¿Qué? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> ...sabrá hallarme a mí. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="845"> Por donde quiera que fueres </l>
+            <l> de mi esclavo llevarás </l>
+            <l> el hierro porque jamás </l>
+            <l> blasonar de libre esperes. </l>
+          </sp>
+          <stage>Tiénele la MUERTE las manos y el PECADO le pone un hierro en la frente.</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¿No hay quien me socorra? ¿No </l>
+            <l n="850"> hay gente ninguna aquí </l>
+            <l part="I"> que me favorezca? </l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <stage>Sale el BAUTISMO con un aguamanil y tohalla al hombro.</stage>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l part="F"> Sí. </l>
+          </sp>
+          <sp who="#muerte #pecado">
+            <speaker>LOS DOS</speaker>
+            <l part="I"> ¿Quién podrá ampararle? </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l part="F"> Yo. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> ¿Quién eres, infante tierno... </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Quién eres, cándido niño... </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="855"> ...que de ese soberbio alcázar... </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ...que de ese grande edificio... </l>
+          </sp>
+          <sp who="#muerte #pecado">
+            <speaker>LOS DOS</speaker>
+            <l> ...estás a la primer puerta? </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l> Soy el primero ministro </l>
+            <l> de cuantos para su esposa </l>
+            <l n="860"> tiene el Rey en su servicio. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Y qué pretendes? ¿Qué intentas? </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l> De este mortal peregrino </l>
+            <l> oí la voz y vengo a darle </l>
+            <l part="I"> favor. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Es esclavo mío </l>
+            <l n="865"> y contra su dueño, nadie </l>
+            <l> tiene en esclavos dominio. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l> El Rey es dueño de todos, </l>
+            <l> y a aquel que injusticia hizo </l>
+            <l> a su esclavo, podrá el Rey </l>
+            <l n="870"> sobreseer a su castigo, </l>
+            <l part="I"> y aun librarle. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> ¿Cómo, pues, </l>
+            <l> el hierro que yo le imprimo </l>
+            <l> podrá borrársele nadie? </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <stage>Al HOMBRE.</stage>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> Fe pido </l>
+            <l n="875"> para creer tus misterios. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l> Pues con este cristalino </l>
+            <l> licor, la mancha te lava </l>
+            <l> del hierro, que esclavo te hizo. </l>
+            <stage>Échale agua en la mano donde no tiene la luz, dale en la frente y quita el hierro, toma la tohalla y límpiase.</stage>
+            <stage>Al PECADO.</stage>
+            <l>Mira si con la ablución </l>
+            <l n="880"> del agua que es el Bauptismo </l>
+            <l> de la mancha del Pecado </l>
+            <l> ha quedado libre y limpio. </l>
+            <stage>Pásase delante dél.</stage>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Limpio sí, por causa oculta </l>
+            <l> quizá que esa agua ha tenido; </l>
+            <l n="885"> libre no, que aún es mi esclavo </l>
+            <l> porque, habiéndolo nacido, </l>
+            <l> ¿quién le ha dado libertad? </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l> Si esclavo el nacer le hizo, </l>
+            <l> el nacer segunda vez </l>
+            <l part="I"> se la ha dado. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="890" part="F"> ¡Qué delirio! </l>
+            <l> ¿Por qué? ¿Cómo? Mas bajeza </l>
+            <l> siendo un tierno infante, un niño, </l>
+            <l> aún no capaz de razón, </l>
+            <l> es ponerme a argüir contigo. </l>
+            <l n="895"> ¿Habrá quien por ti se atreva </l>
+            <l> a escuchar mis silogismos </l>
+            <l part="I"> y responder a ellos? </l>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <stage>Sale la CONFIRMACIÓN con una pistola en la mano.</stage>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l part="F"> Yo, </l>
+            <l> que cuanto él dice, confirmo. </l>
+            <l> [Al HOMBRE.] Pásate a mi adulta edad </l>
+            <l n="900"> y entiende lo que argüimos. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <stage>Pónese delante.</stage>
+            <l> ¡Oh, en un instante, que apenas </l>
+            <l> la verde juventud piso, </l>
+            <l> cuánto mundo he descubierto </l>
+            <l> y cuántas cosas he visto! </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="905"> Absorta estoy de mirar </l>
+            <l> tan nunca usados prodigios. </l>
+            <stage>Retírase.</stage>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l> ¿Qué aguardas? Prosigue, pues. </l>
+            <l part="I"> ¿Qué decías? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Que es delirio </l>
+            <l> pensar que pueda volver </l>
+            <l n="910"> al vientre de que ha nacido </l>
+            <l> el Hombre a nacer de nuevo. </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l> El Bauptismo no te ha dicho </l>
+            <l> que ha de nacer de la carne </l>
+            <l> y natural apetito </l>
+            <l n="915"> sino que, regenerado, </l>
+            <l> puede nacer de Dios mismo, </l>
+            <l> hijo de Dios por la Gracia. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¿Quién lo dijo? </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l part="F"> Juan lo dijo. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> También el día en que nace </l>
+            <l n="920"> dijo Job que era maldito; </l>
+            <l> y David dice que fue </l>
+            <l> en pecado concebido; </l>
+            <l> y en él Pablo también dice </l>
+            <l> que todos son comprendidos. </l>
+            <l n="925"> Luego para un texto tuyo, </l>
+            <l> tres afirman que ha nacido </l>
+            <l> el Hombre en pecado, luego </l>
+            <l part="I"> esclavo nace. </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l part="F"> Distingo: </l>
+            <l> hasta aquesta ablución de agua </l>
+            <l n="930"> que segunda Vida ha sido, </l>
+            <l> concedo. Desde aquí, niego. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> A la distinción replico: </l>
+            <l> ¿quién da esa segunda Vida </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l> Quien lo es, Verdad y Camino. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="935"> Camino, Vida y Verdad </l>
+            <l part="I"> ¿quién lo es en el mundo? </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l part="F"> Cristo, </l>
+            <stage>Dispara una pistola, cae en el suelo el PECADO, llega y vuelve donde está la MUERTE, cayendo.</stage>
+            <l> cuyo nombre es rayo que </l>
+            <l> yo en mi fortaleza vibro. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Calla, que esa voz me ha muerto; </l>
+            <l n="940"> rayo ha sido, rayo ha sido, </l>
+            <l> que aun antes que con la llama </l>
+            <l> me mató con el aviso. </l>
+            <l> ¡Ay, Muerte, si tú lo fueras </l>
+            <l> para mí, cuando rendido </l>
+            <l n="945"> con otro carácter veo </l>
+            <l> borrado el carácter mío! </l>
+            <stage>Acércase a la MUERTE.</stage>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¡Oh, cobarde, cómo vuelves, </l>
+            <l> no sin infamia, vencido! </l>
+            <l> Pues yo mi jurisdición </l>
+            <l n="950"> no he de dar a sus partidos. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l part="I"> ¿Quién va? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> La Muerte del Hombre. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l> ¿La natural del sentido </l>
+            <l> o la sobrenatural </l>
+            <l> del alma, que yo le libro? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> La natural. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l n="955" part="F"> Pase, que a esa </l>
+            <l> yo la entrada no resisto. </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l part="I"> Ni yo. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> Mortal me le dejan </l>
+            <l> Confirmación y Bauptismo. </l>
+            <stage>Pasa adonde estaba el HOMBRE.</stage>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¿Qué me quieres, viva sombra? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="960"> Que veas que aquí te sigo. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¡Oh, no dejaras siquiera </l>
+            <l> que gozara sin peligro </l>
+            <l> la juventud de mis años </l>
+            <l> en objectos tan distintos </l>
+            <l n="965"> como la vida me ofrece! </l>
+            <l> Pero en ellos divertido </l>
+            <l> daré al olvido tu asombro. </l>
+          </sp>
+          <stage>Vuelve las espaldas y como va representando se van entristeciendo BAUPTISMO y CONFIRMACIÓN, poniéndose las manos en los ojos. La MUERTE hace señas llamando al PECADO y él pasa por las dos.</stage>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> La Muerte pone en olvido. </l>
+            <l> Escuchemos desde lejos </l>
+            <l n="970"> si me acerco o me retiro. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¡Qué de pobladas ciudades, </l>
+            <l> qué de hermosos edificios, </l>
+            <l> qué de diversos comercios, </l>
+            <l> qué de varios ejercicios! </l>
+            <l n="975"> ¡Divina es la majestad! </l>
+            <l> ¡Quién ciñera sus invictos </l>
+            <l> laureles, aunque comprara </l>
+            <l> su aplauso con homicidios! </l>
+            <l> ¡Lo que me ofenden los pobres, </l>
+            <l n="980"> lo que me agradan los ricos, </l>
+            <l> la opulencia de sus mesas, </l>
+            <l> donde destilar envidio </l>
+            <l> los ámbares en las aguas, </l>
+            <l> los néctares en los vinos! </l>
+            <l n="985"> ¡Qué hermosas son las mujeres! </l>
+            <l> Los adornos son del siglo, </l>
+            <l> la menos bella, es tan bella </l>
+            <l> que merece mi albedrío </l>
+            <l> porque acompaña en lo airoso </l>
+            <l n="990"> la soledad de lo lindo. </l>
+            <l> Cualquiera se lleva el alma, </l>
+            <l> tras ellas voy, mas... ¿qué miro? </l>
+            <stage>Al volverse ve al PECADO.</stage>
+            <l> ¿A qué vuelve el horror tuyo? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> A que vuelvas a ser mío. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="995"> ¿Por qué permitís los dos </l>
+            <l> que haya las puertas rompido? </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <stage>De espaldas, con tristeza y desdén.</stage>
+            <l> Porque para entrar por ellas </l>
+            <l> las has abierto tú mismo. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¿Yo abrí la puerta al Pecado? </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l n="1000"> Sí, en haberle consentido. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¿Por eso me habláis los dos </l>
+            <l> con ceños y sin cariños? </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l> ¿Cómo quieres que te hablemos </l>
+            <l> si has nuestra gracia perdido? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I"> ¿El Bauptismo perdí? </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l n="1005" part="F"> No, </l>
+            <l> que el carácter que te dimos </l>
+            <l> fijo se queda en el alma. </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l> Pero ultrajado, aunque fijo. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¡Ay, infelice de mí! </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="1010"> ¡Ay, Muerte, prevén el filo, </l>
+            <l> que va a llorar, no le des </l>
+            <l> lugar para conseguirlo! </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> No puedo, que aún hay materia </l>
+            <l> que cebe aquel fuego activo. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="1015"> No llores, vuelve a correr </l>
+            <l> ese campo de los vicios. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> No quiero, sino llorarlos </l>
+            <l> ya que llegué a consentirlos, </l>
+            <l> por ver si segunda vez </l>
+            <l n="1020"> con agua también te rindo, </l>
+            <l> porque si aquella primera </l>
+            <l> el hierro me borró esquivo, </l>
+            <l> ¿quién duda que a esta segunda </l>
+            <l> suceda también lo mismo? </l>
+            <l n="1025"> Que puesto que tiene el agua </l>
+            <l> sobre tus fuerzas dominio, </l>
+            <l> hoy de una causa he de ver </l>
+            <l> si dos efectos consigo, </l>
+            <l> una vez porque la vierto </l>
+            <l n="1030"> y otra porque la recibo. </l>
+            <stage>Como va diciendo esto, vuelven a alegrarse los dos y a mostrarse.</stage>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Yo también porque segunda </l>
+            <l> vez no suceda lo mismo, </l>
+            <l> haré del hierro cadena </l>
+            <l> porque otra vez fugitivo </l>
+            <l n="1035"> no puedas huir. Veré </l>
+            <l> si dos efectos <emph>consigo</emph></l>
+            <l> también de una causa yo, </l>
+            <stage>Saca una cadena y pónesela.</stage>
+            <l> haciéndote el hierro mío </l>
+            <l> una vez porque le ato, </l>
+            <l n="1040"> y otra vez porque le imprimo. </l>
+            <l part="I"> Huye ahora. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> Mal podré, </l>
+            <l> que es muy grave, es muy prolijo </l>
+            <l> el peso de mi cuidado </l>
+            <l> a quien se sigue un delirio. </l>
+            <l n="1045"> Malo estoy, ¿quién podrá darme </l>
+            <l> la salud que al cielo pido? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Aunque la pidas al cielo </l>
+            <l> ¿quién quieres, ni el cielo mismo, </l>
+            <l part="I"> que pueda dártela? </l>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <stage>Sale la PENITENCIA de pieles.</stage>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="F"> Yo. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="I"> ¡Otro asombro! </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="1050" part="F"> ¡Otro prodigio! </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Triste esqueleto que en brutas </l>
+            <l> pieles vives los retiros, </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ...compañero de las fieras, </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> ...ciudadano de los riscos, </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="1055"> ¿cómo has de curarle tú? </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <stage>Al HOMBRE.</stage>
+            <l> ¿No dices que arrepentido </l>
+            <l> lloras aquella soberbia </l>
+            <l> pasada, aquel apetito </l>
+            <l> de la lascivia y vïanda, </l>
+            <l n="1060"> el deseo de homicidios, </l>
+            <l> el desprecio de los pobres </l>
+            <l> y la envidia de los ricos? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> Y una y mil veces llorando </l>
+            <l> una y mil veces lo digo. </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l n="1065"> Pues yo de las ataduras </l>
+            <l> y vínculos que cautivo </l>
+            <l part="I"> te <emph>tienen</emph>, te absuelvo; </l>
+            <stage>Quítale la cadena y pónesela delante.</stage>
+            <l part="F"> pasa </l>
+            <l part="I"> mi puerta también. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Divinos </l>
+            <l> cielos, ¿qué familia es esta </l>
+            <l n="1070"> que a la esposa se previno, </l>
+            <l part="I"> toda misteriosa? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> A tanto </l>
+            <l> asombro, fiera, me irrito </l>
+            <l> y violentamente quiero, </l>
+            <l> sin punto esperar preciso, </l>
+            <l part="I"> apagar la llama. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="1075" part="F"> Tente. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> ¿Tú lo evitas? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l part="F"> Yo lo evito, </l>
+            <l> que no me está bien que muera </l>
+            <l> tras la confesión que hizo. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <stage>Al PECADO.</stage>
+            <l>Vuelve a salir <emph>del</emph> palacio. </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l n="1080"> Vuelve a dejar este sitio. </l>
+            <stage>Échanle muy alegres.</stage>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¡Cuánto me huelgo de ver </l>
+            <l> a los dos en favor mío! </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l> A nuestra gracia volviste </l>
+            <l> con haberte arrepentido. </l>
+            <stage>Abrázanle.</stage>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l n="1085"> Pues yo también volveré </l>
+            <l> a prevaricar su juicio </l>
+            <l> y entre todos disfrazado </l>
+            <l> tengo de ver si averiguo </l>
+            <l> qué templo y familia es esta, </l>
+            <l n="1090"> si ya no es que siempre impíos </l>
+            <l> para mí solos los cielos </l>
+            <l> embarazan mis designios. </l>
+
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <stage>Vase.</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> ¿Cómo no arrojáis la Muerte? </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l> Aún no la habemos vencido. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="1095"> No me venceréis jamás. </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l> Eso el tiempo ha de decirlo. </l>
+            <stage>Al HOMBRE.</stage>
+            <l part="I"> ¿Cómo te sientes? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> Mejor, </l>
+            <l> aunque no convalecido. </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l> Pues para convalecer </l>
+            <l part="I"> pide remedio. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="1100" part="F"> Sí pido. </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l> En necesidad extrema </l>
+            <l part="I"> yo le ofrezco. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> Y yo le admito. </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l> Ahora, porque confortes, </l>
+            <l> como médico divino, </l>
+            <l n="1105"> de esa debilitación </l>
+            <l> comer y beber permito, </l>
+            <l> con que aumentos de la vida </l>
+            <l part="I"> cobres. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> A aqueso replico: </l>
+            <l> ¿quién puede darle manjar </l>
+            <l n="1110"> que pueda restituido </l>
+            <l part="I"> la vida aumentar? </l>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <stage>Sale la COMUNIÓN con cáliz y hostia.</stage>
+          <sp who="#comunión">
+            <speaker>COMUNIÓN</speaker>
+            <l part="F"> Yo. Toma </l>
+            <l> aqueste Pan y este Vino </l>
+            <l> y, aunque vino y pan lo ves, </l>
+            <l> la Comunión que es mi oficio, </l>
+            <l part="I"> carne y sangre lo hará. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="1115" part="F"> Así </l>
+            <l> lo creo, con sólo oírlo. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Cómo lo crees, desmintiendo </l>
+            <l> todos tus cinco sentidos? </l>
+            <l part="I"> ¿Quién te lo ha dicho? </l>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <stage>Sale la ORDEN SACERDOTAL.</stage>
+          <sp who="#orden">
+            <speaker>ORDEN</speaker>
+            <l part="F"> Yo que Orden </l>
+            <l n="1120"> Sacerdotal soy, lo digo. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> Pues, ¿qué Pan es este? </l>
+          </sp>
+          <sp who="#orden">
+            <speaker>ORDEN</speaker>
+            <l part="F"> Es </l>
+            <l> aquel cándido rocío, </l>
+            <l> neutral sabor de vïandas, </l>
+            <l> que llovió el cielo, el racimo </l>
+            <l n="1125"> de tierra de promisión, </l>
+            <l> no sin misterio exprimido </l>
+            <l> en la viga del lagar </l>
+            <l> que Isaías nos predijo. </l>
+            <l> Y este, en fin, es Pan de Vida. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="1130"> ¿De Vida? (¡tiemblo al oírlo!) </l>
+            <l> ¿Cómo (¡dos veces soy hielo!) </l>
+            <l> puede (¡veneno respiro!) </l>
+            <l> un Pan, (¡de cólera tiemblo!) </l>
+            <l> que sólo es Pan, (¡de ira gimo! </l>
+            <l n="1135"> dar (¡con mi aliento me ahogo!) </l>
+            <l> Vida, (¡con mi voz me aflijo!) </l>
+            <l> si yo (¡un áspid es mi pecho!) </l>
+            <l> soy (¡mi vista un basilisco!) </l>
+            <l> Muerte que, contra la Vida, </l>
+            <l n="1140"> para sólo matar vivo? </l>
+            <l> Y, pues de aquella luz veo </l>
+            <l> pulsar los rayos más tibios, </l>
+            <l> habéis de ver entre todos </l>
+            <l> cómo a mis suspiros rindo </l>
+            <l n="1145"> la poca llama que dura </l>
+            <l> a pesar de mis gemidos. </l>
+            <l> Veamos qué aumentos de vida </l>
+            <l> le dan ese Pan y Vino. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I"> Valedme todos. </l>
+          </sp>
+          <stage>Pónense todos delante y ella como luchando con todos.</stage>
+          <sp who="#hombre #bauptismo #confirmación #penitencia #comunión #orden">
+            <speaker>TODOS</speaker>
+            <stage>A la MUERTE.</stage>
+            <l part="F"> Detente. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="1150"> Mal podréis templar mis bríos, </l>
+            <l> volcán soy, llamas arrojo, </l>
+            <l> Etna soy, rayos respiro. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l part="I"> ¡Rey y Señor! </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> No responde </l>
+            <l part="I"> a tu voz. </l>
+            <stage>Pasa por él apartándole.</stage>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l part="F"> ¡Monarca invicto! </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="I"> Ni a la tuya. </l>
+          </sp>
+          <stage>Pasa de la CONFIRMACIÓN.</stage>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l n="1155" part="F"> ¡León cordero! </l>
+          </sp>
+          <sp who="#comunión">
+            <speaker>COMUNIÓN</speaker>
+            <l part="I"> ¡Padre y Rey! </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l part="F"> Aún no os ha oído. </l>
+            <stage>Apártalos.</stage>
+          </sp>
+          <sp who="#orden">
+            <speaker>ORDEN</speaker>
+            <l> Hombre y Dios, ¿tú no dijiste </l>
+            <l> aqueste es el Cuerpo mío? </l>
+            <l part="I"> Pues ven a esta voz. </l>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <stage>Sale el ESPOSO, túrbase la MUERTE, el HOMBRE le da el hacha y él la toma.</stage>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l part="F"> Sí haré, </l>
+            <l n="1160"> que a aquesas palabras cinco, </l>
+            <l> en boca del sacerdocio, </l>
+            <l> siempre que él me llama asisto. </l>
+            <l part="I"> ¿Qué es esto? </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> Echarse a tus plantas </l>
+            <l> el humano peregrino. </l>
+            <l n="1165"> Mi vida pongo en tus manos, </l>
+            <l> líbrala de ese peligro. </l>
+            <stage>Pónese detrás de él.</stage>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Sí haré, y haciéndola mía </l>
+            <l> ya como humana la admito </l>
+            <l> porque vean los mortales </l>
+            <l n="1170"> que tienen Rey tan benigno </l>
+            <l> que toma sobre sus hombros </l>
+            <l> de su vida los conflictos, </l>
+            <l> ansias y tribulaciones; </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Yo personas no distingo. </l>
+            <l n="1175"> Ciega estoy, no sé quién eres, </l>
+            <l> en últimos parasismos, </l>
+            <l> una humana vida veo, </l>
+            <l> una humana vida quito. </l>
+            <stage>Apaga la luz y suena terremoto.</stage>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> ¿Por qué me desamparaste, </l>
+            <l n="1180"> padre mío, padre mío? </l>
+          </sp>
+          <sp who="#bauptismo #confirmación">
+            <speaker>BAUPTISMO Y CONFIRMACIÓN</speaker>
+            <l> ¿Qué has hecho, bárbaro, fiera? </l>
+          </sp>
+          <sp who="#orden #comunión">
+            <speaker>ORDEN Y COMUNIÓN</speaker>
+            <l part="I"> ¿Qué has hecho? </l>
+          </sp>
+          <sp who="#penitencia #hombre">
+            <speaker>PENITENCIA Y HOMBRE</speaker>
+            <l part="F">¿Qué has cometido? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> No sé, no sé, porque sólo </l>
+            <l> sé que a mi furor me rindo </l>
+            <l n="1185"> viendo turbar cielo y tierra. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l part="I"> ¡Qué portento! </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l part="F"> ¡Qué prodigio! </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="I"> ¡Qué asombro! </l>
+          </sp>
+          <sp who="#comunión">
+            <speaker>COMUNIÓN</speaker>
+            <l part="F"> ¡Qué confusión! </l>
+          </sp>
+          <sp who="#orden">
+            <speaker>ORDEN</speaker>
+            <l part="I"> ¡Qué terremoto! </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F"> ¡Qué abismo! </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Verdaderamente era </l>
+            <l n="1190"> hijo de Dios pues, divino </l>
+            <l> y humano, vence muriendo. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Aun ahora no te he vencido. </l>
+            <stage>Suena terremoto.</stage>
+            <l> La victoria empieza ahora </l>
+            <l> viendo que estas flores tiño </l>
+            <l n="1195"> debilitado en mi sangre. </l>
+            <l> ¿No hay quien dé a mi cuerpo alivio? </l>
+          </sp>
+          <sp who="#comunión">
+            <speaker>COMUNIÓN</speaker>
+            <l> Yo en mi cáliz la recojo. </l>
+          </sp>
+          <sp who="#orden">
+            <speaker>ORDEN</speaker>
+            <l> Yo en mis manos la recibo. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Sacerdocio y Comunión </l>
+            <l n="1200"> son los dos que han admitido </l>
+            <l> mi cuerpo y sangre; y así </l>
+            <l> has de ver que en ellos vivo </l>
+            <stage>Suena terremoto.</stage>
+            <l> porque viva el Hombre en mí </l>
+            <l> pues como yo resucito, </l>
+            <l n="1205"> resucitará glorioso </l>
+            <l> en el postrero jüicio, </l>
+            <l> siendo la muerte del justo </l>
+            <l> sólo un espacio preciso </l>
+            <l> para pasar a la eterna </l>
+            <l n="1210"> vida; y siendo el Pan y el Vino </l>
+            <l> misterioso sacramento </l>
+            <l> en que yo me deposito, </l>
+            <l> para que venza muriendo </l>
+            <l> por los siglos de los siglos. </l>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <stage>Vanse llevando al ESPOSO los dos gloriosos al carro del triunfo.</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="1215"> Felice yo que tan grandes </l>
+            <l> finezas he merecido. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Y infelice yo que a tanto </l>
+            <l> eclipse, escándalo y ruido </l>
+            <l> una vez mato y dos muero. </l>
+            <stage>Suena terremoto.</stage>
+            <l n="1220"> Y más ahora que el sol miro </l>
+            <l> a media tarde expirando </l>
+            <l> entre celajes y visos, </l>
+            <l> amortiguados a rayos </l>
+            <l> y ensangrentados a giros; </l>
+            <l n="1225"> agonizando la luna, </l>
+            <l> aun de sus siempre mendigos </l>
+            <l> resplandores, luz escasa </l>
+            <l> y tanto que ha parecido </l>
+            <l> que el sol y ella hechos pedazos, </l>
+            <l n="1230"> bien como espejos partidos, </l>
+            <l> se han desatado en menores </l>
+            <l> astros, corriendo a su arbitrio, </l>
+            <l> crinadas aves de fuego </l>
+            <l> por negros campos de vidro, </l>
+            <l n="1235"> las tropas de las estrellas, </l>
+            <l> las escuadras de los signos. </l>
+            <l> Estremecida la tierra, </l>
+            <l> caducan montes y riscos, </l>
+            <l> titubean las ciudades, </l>
+            <l n="1240"> deliran los edificios, </l>
+            <l> rásgase el velo del Templo, </l>
+            <l> chocan las piedras y frisos, </l>
+            <l> los monumentos arrojan </l>
+            <l> de sí cadáveres vivos. </l>
+            <l n="1245"> El mar, escamado monstruo, </l>
+            <l> sin freno, rienda ni aviso </l>
+            <l> sacude sobre las nubes </l>
+            <l> los desmelenados rizos </l>
+            <l> de su mal peinada greña, </l>
+            <l n="1250"> siendo azote cristalino </l>
+            <l> de una nave que entre todas </l>
+            <l> naufraga, vence el conflicto. </l>
+            <l> Pero qué mucho, ¡ay de mí!, </l>
+            <l> si al no borrado camino </l>
+            <l n="1255"> de sus rumbos obedece </l>
+            <l> sereno el cielo y tranquilo </l>
+            <l> el mar, sucediendo a tantos </l>
+            <l> amenazados peligros </l>
+            <l> alegre paz, que serena </l>
+            <l n="1260"> aire, mar, campos y ríos; </l>
+            <l> apenas al tercer día </l>
+            <l> el día ha convalecido </l>
+            <l> cuando el Rey de mí triunfando, </l>
+            <l> mostrando que siempre invicto </l>
+            <l n="1265"> entre sus tribulaciones </l>
+            <l> vencerá sus enemigos, </l>
+            <l> a recibirla en triunfal </l>
+            <l> carro sale al puerto mismo, </l>
+            <l> a cuya vista la pena, </l>
+            <l n="1270"> vuelta en aplausos festivos, </l>
+            <l> de tierra y mar le responden </l>
+            <l> con canciones y con himnos. </l>
+          </sp>
+          <stage>Da vuelta la nave y viene sentada en la popa la ESPOSA, el MATRIMONIO en la quilla y todos los músicos que son de la otra tropa en las gradas del trono. El carro a este tiempo da vuelta con el ESPOSO en el trono, y en sus gradas BAUPTISMO, CONFIRMACIÓN, PENITENCIA, COMUNIÓN, ORDEN y HOMBRE; y suena la música y a cada copla uno y otro da vuelta.</stage>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="I"> ¡Ah del mar! </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l part="F">¡Ah de la tierra! </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="I"> ¿Qué nave es esa? </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l part="F">Esta es, </l>
+            <l n="1275"> pues trae la piedra preciosa, </l>
+            <l> la Nave del Mercader. </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="I"> ¡Qué ventura! </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l part="F"> ¡Qué placer! </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="I"> ¡Buen vïaje... </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l part="F"> ¡Buen pasaje... </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
+            <speaker>LOS DOS</speaker>
+            <l>...el mar y la tierra alegres le den! </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="I"> Y venga con bien, </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l n="1280" part="F">Y venga con bien, </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
+            <speaker>LOS DOS</speaker>
+            <l> ...pues que nuestros puertos viene a enriquecer. </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l part="I"> ¡Ah de la tierra! </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="F"> ¡Ah del mar! </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l part="I"> ¿Qué triunfo es ese? </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="F"> Este es, </l>
+            <l> del que ha vencido a la Muerte, </l>
+            <l n="1285"> el carro que vio Ezequiel. </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l part="I"> ¡Qué ventura! </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="F"> ¡Qué placer! </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l part="I"> ¡Buen vïaje... </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="F"> ¡Buen pasaje... </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
+            <speaker>LOS DOS</speaker>
+            <l> ...el mar y la tierra alegres le den! </l>
+          </sp>
+          <sp who="#penitencia #comunión #orden #hombre #música">
+            <speaker>CORO 2</speaker>
+            <l part="I"> Y venga con bien, </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación">
+            <speaker>CORO 1</speaker>
+            <l part="F">Y venga con bien, </l>
+          </sp>
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
+            <speaker>LOS DOS</speaker>
+            <l n="1290"> ...pues que nuestros mares sale a enriquecer. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> ¡Oh, tú, nave que, herida </l>
+            <l> de la tormenta airada, </l>
+            <l> te has visto zozobrada </l>
+            <l> pero no sumergida, </l>
+            <l n="1295"> cuando en vez de cristales </l>
+            <l> surcaste tantos líquidos corales! </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> ¡Oh, tú, triunfo eminente, </l>
+            <l> que, a pesar de los hados, </l>
+            <l> coronas los sagrados </l>
+            <l n="1300"> laureles de tu frente, </l>
+            <l> tan verdes siempre y bellos </l>
+            <l> que se deslumbra el mismo sol en ellos! </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> ¡Salve! y de esta campaña </l>
+            <l> que el Héspero corona, </l>
+            <l n="1305"> por quien feliz blasona </l>
+            <l> ser Hesperia o España, </l>
+            <l> pisa la verde esfera </l>
+            <l> que alegremente en ti su reino espera. </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> ¡Salve! y estos cristales </l>
+            <l n="1310"> que de Alemania la alta </l>
+            <l> el crespo hielo esmalta, </l>
+            <l> pisa como leales </l>
+            <l> feudos, en que te ofrece venturosa </l>
+            <l> una esclava, con título de Esposa. </l>
+          </sp>
+          <stage>Ábrese la torre de los leones y aparece un león, y abriendo el pecho se ve un cordero. Ábrese la torre del águila y abriéndose el pecho se ve una paloma.</stage>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l n="1315"> Aquel alcázar fuerte </l>
+            <l> tu templo es, tu palacio, </l>
+            <l> y aunque alcaide en su espacio </l>
+            <l> es león el que se advierte, </l>
+            <l> de sus entrañas quiero </l>
+            <l n="1320"> que veas <emph>que</emph> son de cándido cordero. </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> Aquella fortaleza </l>
+            <l> que ves también ha sido </l>
+            <l> de mis águilas nido, </l>
+            <l> pero entre su fiereza </l>
+            <l n="1325"> por alma suya asoma </l>
+            <l> sinceridad de cándida paloma. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <stage>Levantándose.</stage>
+            <l> Ven a mis dulces brazos, </l>
+            <l> coronaráste en ellos. </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> Aguila de mil cuellos </l>
+            <l n="1330"> para otros tantos lazos </l>
+            <l part="I"> quisiera ser. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l part="F"> Del mar cesó la guerra. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l part="I"> Venid todos al mar. </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l part="F"> Todos a tierra. </l>
+          </sp>
+          <stage>Bajan con la música y chirimías al tablado.</stage>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Feliz es mi fortuna, </l>
+            <l> inmensos mis placeres, </l>
+            <l n="1335"> que toda hermosa eres, </l>
+            <l> no hay en ti mancha alguna. </l>
+            <l> Llega a mis brazos, llega, </l>
+            <l> tu vista, como el sol, alumbra y ciega. </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> Mi estrella nunca errante, </l>
+            <l n="1340"> puerto me da dichoso; </l>
+            <l> todo es galán mi esposo, </l>
+            <l> todo es amor mi amante, </l>
+            <l> feliz quien se corona </l>
+            <l> en los templados rayos de su zona. </l>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <stage>Sale el PLACER y el PECADO.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1345"> No dije yo que había </l>
+            <l> de venir tarde, pero </l>
+            <l> si el placer considero </l>
+            <l> de todos este día, </l>
+            <l> poca falta hacer pude. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l n="1350"> ¿Quién a mis bodas, di, Placer, acude? </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> No príncipes y reyes, </l>
+            <l> monarcas y señores; </l>
+            <l> humildes pescadores </l>
+            <l> obedecen tus leyes, </l>
+            <l n="1355"> y aqueste peregrino </l>
+            <l> que a mi voz se apartó de su camino. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Esos pobres que dices </l>
+            <l> gusto que hayan venido </l>
+            <l> que ellos para mí han sido </l>
+            <l n="1360"> los huéspedes felices. </l>
+            <l> Llegad, llegad, y con humildes modos </l>
+            <l> a la reina besad la mano todos, </l>
+          </sp>
+          <stage>Suenan chirimías y van llegando de dos en dos haciendo reverencias con los versos, y los postreros son los dos peregrinos.</stage>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <l> Yo de la Fe testigo </l>
+            <l> soy con que te esperamos. </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l n="1365"> Tan conformes estamos </l>
+            <l> que yo lo mismo digo. </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l> Siendo con tu venida... </l>
+          </sp>
+          <sp who="#comunión">
+            <speaker>COMUNIÓN</speaker>
+            <l part="I"> feliz paz... </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l part="M"> dulce unión... </l>
+          </sp>
+          <sp who="#orden">
+            <speaker>ORDEN</speaker>
+            <l part="F"> eterna vida. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> Dame, reina divina, </l>
+            <l n="1370"> la mano soberana. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Dame, deidad humana, </l>
+            <l> la mano peregrina. </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> Bien con todos quisiera </l>
+            <l part="I"> partir mi amor. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l part="F"> Detente, aguarda, espera. </l>
+            <l n="1375"> ¿Cómo a aquel extranjero </l>
+            <l> das la mano en pecado? </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> Porque entró disfrazado </l>
+            <l> y yo su intento fiero </l>
+            <l> descubrir dificulto, </l>
+            <l n="1380"> que la Iglesia no juzga de lo oculto. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> ¿Cómo, bárbaro, no miras, </l>
+            <l> sacrílegamente aleve, </l>
+            <l> que aunque a todos los engañes, </l>
+            <l> a mí engañarme no puedes? </l>
+            <l n="1385"> ¿Al convite de mis bodas </l>
+            <l> sin la nupcial ropa vienes </l>
+            <l> de atrición y contrición? </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Suspende, ¡ay de mí!, suspende </l>
+            <l> el ceño que verte airado </l>
+            <l n="1390"> es el más grave, más fuerte </l>
+            <l> rigor de cuantos mis penas </l>
+            <l> en los abismos padecen. </l>
+            <l> Disfrazado en tu convite </l>
+            <l> quise ver qué pan es este </l>
+            <l n="1395"> y comiéndole en pecado </l>
+            <l> ultrajarle y ofenderle. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Miren lo que yo conmigo </l>
+            <l> truje porque considere </l>
+            <l> alguno que al sacramento </l>
+            <l n="1400"> esto llevan los placeres. </l>
+          </sp>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Pues antes que vuelvas donde </l>
+            <l> tus desdichas atormenten, </l>
+            <l> quiero que Muerte y Pecado </l>
+            <l> fieras de mi carro entren </l>
+            <l n="1405"> en mi cerca, porque así </l>
+            <l> triunfante me vea dos veces </l>
+            <l> la majestad de mi Esposa </l>
+            <l> del Pecado y de la Muerte. </l>
+          </sp>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> ¿Esto sufre mi furor? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l n="1410"> ¿Esto mi rabia consiente? </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l> Pues porque tú no otra vez </l>
+            <l> sacrílego a engañar llegues </l>
+            <l> mis piedades, vuelve a ver </l>
+            <l> que aquella águila que tiene </l>
+            <l n="1415"> sinceridad de paloma </l>
+            <l> jeroglífico excelente </l>
+            <l> es del fanal de una nave </l>
+            <l> en quien fuego y pan se advierte </l>
+            <l> para que al rebelde abrase </l>
+            <l n="1420"> y al católico sustente. </l>
+          </sp>
+          <stage>Ábrese el fanal y vese el sacramento.</stage>
+          <sp who="#esposo">
+            <speaker>ESPOSO</speaker>
+            <l> Y tú en el mismo sentido </l>
+            <l> los ojos a la cruz vuelve, </l>
+            <l> que tálamo de mis bodas </l>
+            <l> el mismo fruto procede. </l>
+            <l n="1425"> Este león y cordero </l>
+            <l> es aquel pan eminente </l>
+            <l> mostrando que a unos regala </l>
+            <l> y a otros despedaza y hiere. </l>
+          </sp>
+          <stage>Sube el sacramento por la cruz.</stage>
+          <sp who="#pecado">
+            <speaker>PECADO</speaker>
+            <l> Aun bien que aquesto es decirnos </l>
+            <l n="1430"> que parte el Pecado tiene </l>
+            <l> en él, pues será veneno </l>
+            <l> el que indigno de él comiere. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Aun bien que eso es enseñarme </l>
+            <l> que es pan de vida y de muerte. </l>
+          </sp>
+          <sp who="#esposa">
+            <speaker>ESPOSA</speaker>
+            <l n="1435"> Sí, mas quien le coma en gracia </l>
+            <l> vivirá en mí eternamente. </l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l> Feliz yo que merecí </l>
+            <l> ser dueño de tantos bienes. </l>
+          </sp>
+          <sp who="#bauptismo">
+            <speaker>BAUPTISMO</speaker>
+            <stage>Al HOMBRE.</stage>
+            <l n="1440"> primera abrí por donde entres. </l>
+          </sp>
+          <sp who="#confirmación">
+            <speaker>CONFIRMACIÓN</speaker>
+            <l> Feliz yo, que confirmé </l>
+            <l> misterios tan excelentes. </l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <stage>Al HOMBRE.</stage>
+            <l> Dichoso yo, que a la gracia </l>
+            <l> restituí tus placeres. </l>
+          </sp>
+          <sp who="#comunión">
+            <speaker>COMUNIÓN</speaker>
+            <stage>Al HOMBRE.</stage>
+            <l n="1445"> Feliz yo, que pude hacer </l>
+            <l> que tu mérito se aumente. </l>
+          </sp>
+          <sp who="#orden">
+            <speaker>ORDEN</speaker>
+            <stage>Al ESPOSO.</stage>
+            <l> Dichoso yo, que ministro </l>
+            <l> pude en mis manos tenerte. </l>
+          </sp>
+          <sp who="#matrimonio">
+            <speaker>MATRIMONIO</speaker>
+            <l> Y felice yo y dichoso, </l>
+            <l n="1450"> que uní en suave yugo leve </l>
+            <l> Esposo y Esposa que </l>
+            <l> por siglos de siglos reinen. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l> Y dichoso yo y felice </l>
+            <l> si entre los himnos alegres </l>
+            <l n="1455"> de las repetidas voces </l>
+            <l> que a aclamar el triunfo vuelven, </l>
+            <l> en el nombre de su autor </l>
+            <l> llego a ver que humilde siempre </l>
+            <l> merece perdón el auto, </l>
+            <l n="1460"> ya que aplauso no merece. </l>
+          </sp>
+          <trailer>FINIS</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

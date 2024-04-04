@@ -1,0 +1,3883 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000197" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Los alimentos del hombre</title>
+        <title type="sub"/>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName>Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Vienna, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <date when="2022-01-25"><time when="10:41:23"/></date>
+        <idno type="quadramaX">Los alimentos del hombre</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra/los-alimentos-del-hombre-auto/</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de Miguel Zugasti, Pamplona / Kassel, Universidad de Navarra / Reichenberger, 2009. ISBN: 978-3-937734-75-0.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="padre">
+            <persName>Padre</persName>
+          </person>
+          <person sex="MALE" xml:id="adamo">
+            <persName>Adamo</persName>
+          </person>
+          <person sex="MALE" xml:id="emanuel">
+            <persName>Emanuel</persName>
+            <trait source="castlist">
+              <desc>su hijo</desc>
+            </trait>
+          </person>
+          <person sex="FEMALE" xml:id="primavera">
+            <persName>Primavera</persName>
+          </person>
+          <person sex="MALE" xml:id="estio">
+            <persName>Estío</persName>
+          </person>
+          <person sex="MALE" xml:id="otono">
+            <persName>Otoño</persName>
+          </person>
+          <person sex="MALE" xml:id="invierno">
+            <persName>Invierno</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="musicos">
+            <persName>Músicos</persName>
+          </personGrp>
+          <person sex="MALE" xml:id="demonio">
+            <persName>Demonio</persName>
+          </person>
+          <person sex="MALE" xml:id="angel">
+            <persName>Ángel</persName>
+          </person>
+          <person sex="MALE" xml:id="apetito">
+            <persName>Apetito</persName>
+          </person>
+          <person sex="FEMALE" xml:id="razon">
+            <persName>Razón</persName>
+          </person>
+          <person sex="MALE" xml:id="lucero">
+            <persName>Lucero</persName>
+          </person>
+          <person sex="FEMALE" xml:id="aurora">
+            <persName>Aurora</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="acompanamiento">
+            <persName>Voces</persName>
+          </personGrp>
+          <person sex="FEMALE" xml:id="justicia">
+            <persName>Justicia</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="coro-1">
+            <persName>Coro 1.º</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="coro-2">
+            <persName>Coro 2.º</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1717">
+        <label/>
+      </event>
+      <event type="written" when="1676">
+        <label/>
+      </event>
+      <event type="premiere" when="1676">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <castList>
+        <head>Personajes</head>
+        <castItem>El PADRE de familias</castItem>
+        <castItem>EMANUEL, su hijo</castItem>
+        <castItem>ADAMO</castItem>
+        <castItem>La PRIMAVERA</castItem>
+        <castItem>El ESTÍO</castItem>
+        <castItem>El OTOÑO</castItem>
+        <castItem>El INVIERNO</castItem>
+        <castItem>El LUCERO</castItem>
+        <castItem>La AURORA</castItem>
+        <castItem>La RAZÓN NATURAL</castItem>
+        <castItem>La JUSTICIA</castItem>
+        <castItem>Un ÁNGEL</castItem>
+        <castItem>El DEMONIO</castItem>
+        <castItem>El APETITO</castItem>
+        <castItem>MÚSICOS</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" n="1">
+          <stage>Sale el PADRE DE FAMILIAS, viejo venerable, vestido de mayoral, como arrojando de sí a ADAMO, vestido de pieles, y deteniéndole EMANUEL, vestido de zagal</stage>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l>Sal de mi casa, villano.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">Tu hijo soy.</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l part="F">Aunque lo eres,</l>
+            <l>no mereces oír de mí</l>
+            <l>el nombre que no mereces.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="I">Padre, señor.</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l n="5" part="F">Hijo, aparta;</l>
+            <l>a ti sí que te compete,</l>
+            <l>que no es hijo hijo que no</l>
+            <l>es a su padre obediente.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Por más que le honres y a mí</l>
+            <l n="10">me baldones y desprecies</l>
+            <l>echándome de tu casa,</l>
+            <l>trocada la nupcial veste</l>
+            <l>que me diste al tosco abrigo</l>
+            <l>de dos mal curtidas pieles,</l>
+            <l n="15">no has de quitarme el honor</l>
+            <l>de hijo tuyo, pues te debe</l>
+            <l>mi ser la vida y el alma.</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l>Con lo que lucirte quieres</l>
+            <l>te desluces, que el que nace</l>
+            <l n="20">noble y no noble procede,</l>
+            <l>todo el lustre que naciendo</l>
+            <l>gana, viviendo le pierde.</l>
+            <l>Bien como el que nace humilde</l>
+            <l>y atento a sus procederes</l>
+            <l n="25">atrae con sus costumbres</l>
+            <l>los desvíos de su suerte,</l>
+            <l>labrándose por sí mismo</l>
+            <l>su estimación, con que viene</l>
+            <l>quien por sí mismo la ultraja</l>
+            <l n="30">a ser villano dos veces:</l>
+            <l>porque la tuvo la una,</l>
+            <l>la otra porque no la tiene.</l>
+            <l>Quitáteme de delante,</l>
+            <l part="I">vete de mi vista.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="F">Vete,</l>
+            <l n="35">hermano, que al rey y al padre</l>
+            <l>el miedo del delincuente</l>
+            <l>es tan otro miedo, que es</l>
+            <l>él solo el que huyendo vence.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Sí haré, pero no sé dónde</l>
+            <l n="40">de sus enojos me ausente,</l>
+            <l>que de modo me atribulan,</l>
+            <l>me pasman y me suspenden,</l>
+            <l>me asombran, me atemorizan,</l>
+            <l>me angustian y me estremecen,</l>
+            <l n="45">que no sé dónde seguro</l>
+            <l part="I">de ellos pueda estar.</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l part="F">Bien temes,</l>
+            <l>y porque sepas que vas</l>
+            <l>donde en mi desgracia penes,</l>
+            <l>llores, suspires y gimas,</l>
+            <l n="50">al mirar por más que anheles</l>
+            <l>que pan de dolores comes</l>
+            <l>y agua de lágrimas bebes,</l>
+            <l>viviendo de tu sudor,</l>
+            <l>en mis decretos atiende</l>
+            <l n="55">al merecido castigo</l>
+            <l>de los daños que cometes.</l>
+            <l>¡Ah del damasceno campo,</l>
+            <l>que ayer era de deleites</l>
+            <l>y hoy de angustias! ¡Ah permuta</l>
+            <l n="60">de pesares y placeres!</l>
+            <l>¡Ah de las horas que fuisteis</l>
+            <l>las primeras que en su albergue</l>
+            <l>entrastis! ¡Ah de los días</l>
+            <l>que de las horas dependen!</l>
+            <l n="65">¡Ah de las semanas que</l>
+            <l>también de los días se tejen,</l>
+            <l>bien como de las semanas</l>
+            <l>forja la luna los meses!</l>
+            <l>¡Ah, en fin, de las cuatro edades</l>
+            <l n="70">del año en quien comprehende</l>
+            <l>su entero círculo el sol!</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Sale la PRIMAVERA con un azafate de flores, el ESTÍO con un haz de espigas, el OTOÑO con otro azafate de frutas, y el INVIERNO, viejo cano</stage>
+          <sp who="#primavera #estio">
+            <speaker>PRIMAVERA Y ESTÍO</speaker>
+            <stage>Cantado</stage>
+            <l part="I">¿Qué nos mandas?</l>
+          </sp>
+          <sp who="#otono #invierno">
+            <speaker>OTOÑO Y INVIERNO</speaker>
+            <stage>Cantado</stage>
+            <l part="F">¿Qué nos quieres?</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l>Que pues de horas, días, semanas,</l>
+            <l>meses y años han de hacerse</l>
+            <l n="75">los siglos, para que consten</l>
+            <l>los raros prodigios de éste,</l>
+            <l>a los futuros seáis</l>
+            <l>testigos de que en el breve</l>
+            <l>mapa vuestro reducir</l>
+            <l n="80">intento a tiempo presente</l>
+            <l>el venidero; y así,</l>
+            <l>escuchadme y atendedme,</l>
+            <l>que nada es lo que se dice</l>
+            <l>si se escucha y no se atiende:</l>
+            <l n="85">yo (que aunque ya lo sabéis</l>
+            <l>quizá importa que os lo acuerde)</l>
+            <l>soy repetido ejemplar</l>
+            <l>de aquel mayoral prudente</l>
+            <l>que condujo a los obreros,</l>
+            <l n="90">y nunca más propiamente</l>
+            <l>que el día que yo a vosotros</l>
+            <l>conduzgo, pues nadie puede</l>
+            <l>negar que de un labrador</l>
+            <l>son los obreros los meses;</l>
+            <l n="95">yo, en fin (vuelvo al caso), soy</l>
+            <l>(o alegórica o realmente,</l>
+            <l>ignórelo el que lo ignora</l>
+            <l>o entiéndalo el que lo entiende)</l>
+            <l>el agrícola más rico</l>
+            <l n="100">del orbe, pues no contiene</l>
+            <l>todo ese azul pabellón</l>
+            <l>ni todo ese lecho verde</l>
+            <l>espacio en quien yo no sea</l>
+            <l>mayoral; bien lo refiere</l>
+            <l n="105">el ser los cuatro en mis cuatro</l>
+            <l>alquerías los más fieles</l>
+            <l>gayanes de mis labranzas.</l>
+            <l>Dígalo el ver cuán alegres,</l>
+            <l>cuán gozosos, cuán ufanos</l>
+            <l n="110">la Primavera me ofrece</l>
+            <l>en su estación varias flores,</l>
+            <l>el Estío rubias mieses,</l>
+            <l>el Otoño dulces frutos</l>
+            <l>y el Invierno ricas nieves,</l>
+            <l n="115">para que de mis ganados</l>
+            <l>(que no hay redil que los cerque),</l>
+            <l>de mis aves (que no hay</l>
+            <l>vago espacio que no vuelen),</l>
+            <l>mis frutales (a quien falta</l>
+            <l n="120">tierra para sus planteles)</l>
+            <l>y para mis peces ríos,</l>
+            <l>la multitud se sustente</l>
+            <l>a providencias de vuestros</l>
+            <l>continuos afanes, desde</l>
+            <l n="125">los más montaraces brutos</l>
+            <l>a las más tímidas reses,</l>
+            <l>desde la más remontada</l>
+            <l>ave al gusano más débil,</l>
+            <l>y desde la más erguida</l>
+            <l n="130">palma a la flor más silvestre,</l>
+            <l>dando a la conservación</l>
+            <l>de aves, fieras, plantas, peces,</l>
+            <l>yerba el prado, abrigo el monte,</l>
+            <l>lumbre el sol y agua las fuentes.</l>
+            <l n="135">De este inmenso, de este summo</l>
+            <l>número de mis haberes,</l>
+            <l>la tarea de seis días</l>
+            <l>que me he entretenido en verle</l>
+            <l>(y verle perfecionado</l>
+            <l n="140">tanto que a mí me contente,</l>
+            <l>viendo cuán bueno está todo),</l>
+            <l>me ha fatigado de suerte</l>
+            <l>que, de los seis, ir intento</l>
+            <l>a descansar el día siete,</l>
+            <l n="145">retirándome a ese alcázar</l>
+            <l>cuya fábrica eminente,</l>
+            <l>sobre jaspeadas columnas</l>
+            <l>de bronceados capiteles,</l>
+            <l>cristalinos fosos cercan,</l>
+            <l n="150">preciosas piedras guarnecen;</l>
+            <l>y pues para mi descanso</l>
+            <l>la labré, porque no quede</l>
+            <l>mi hacienda en la ausencia mía</l>
+            <l>(si bien aunque yo me ausente</l>
+            <l n="155">a mira he de estar de todo)</l>
+            <l>sin dueño que la gobierne,</l>
+            <l>fundar quise un mayorazgo,</l>
+            <l>nombrando primeramente</l>
+            <l>a Adamo (ese ingrato hijo,</l>
+            <l n="160">para él y sus descendientes)</l>
+            <l>por su poseedor, con quien</l>
+            <l>tan liberal, tan clemente</l>
+            <l>fui, que porque desde luego</l>
+            <l>la goce antes que la herede</l>
+            <l n="165">(que fuera mucho esperar</l>
+            <l>el que esperara mi muerte),</l>
+            <l>no fue testamento el que hice</l>
+            <l>sino instrumento solemne</l>
+            <l>de donación entre vivos;</l>
+            <l n="170">pero apenas a ponerle</l>
+            <l>llegué en posesión en uno</l>
+            <l>de esos floridos vergeles,</l>
+            <l>porque a los demás caudales</l>
+            <l>él la consecuencia hiciese,</l>
+            <l n="175">cuando cumpliendo alevoso</l>
+            <l>con su ser (pues decir quiere</l>
+            <l>Adamo ‘terrena masa’),</l>
+            <l>pasó no tan solamente</l>
+            <l>violador de mis preceptos</l>
+            <l n="180">y transgresor de mis leyes</l>
+            <l>a ser… Pero, ¿para qué</l>
+            <l>queréis que los daños cuente</l>
+            <l>que ha de acarrear su delito,</l>
+            <l>pues siendo los siglos jueces</l>
+            <l n="185">en otro tribunal no</l>
+            <l>faltará quien los alegue?</l>
+            <l>Y así, baste por ahora</l>
+            <l>haber causas que me mueven</l>
+            <l>tan graves, que haya quien diga</l>
+            <l n="190">que de haberle hecho me pese,</l>
+            <l>para que la donación</l>
+            <l>revoque, anule y cancele,</l>
+            <l>y de mi amor y mi casa</l>
+            <l>emancipado, le eche</l>
+            <l n="195">a que conozca sus males,</l>
+            <l>desheredado en mis bienes.</l>
+            <l>De ellos, pues, desposeído,</l>
+            <l>para que no os desconsuele</l>
+            <l>no dejar en la heredad</l>
+            <l n="200">otro yo que por mí reine,</l>
+            <l>Emanuel, segundo hijo</l>
+            <l>(en cuanto humano, se entiende,</l>
+            <l>no en cuanto divino, pues</l>
+            <l>me complací en él de suerte</l>
+            <l n="205">que primero en mi amor no hay</l>
+            <l>instante que no le engendre</l>
+            <l>conviniendo con su nombre,</l>
+            <l>pues ya hubo quien le interprete</l>
+            <l>Manuel ‘Dios es con nosotros’),</l>
+            <l n="210">vendrá, después que me deje</l>
+            <l>en mi palacio, enviado</l>
+            <l>de mí a que su error enmiende,</l>
+            <l>haciendo en él donación</l>
+            <l>no entre vivos solamente,</l>
+            <l n="215">pero irrevocable, puesto</l>
+            <l>que es y ha de ser para siempre</l>
+            <l>segunda persona mía,</l>
+            <l>con tan iguales poderes</l>
+            <l>que veáis en la mejora</l>
+            <l n="220">de sus altos intereses</l>
+            <l>a quién constituyo dueño</l>
+            <l>de la heredad de mis gentes;</l>
+            <l>y pues a falta de un fiero</l>
+            <l>hijo, fementido, aleve,</l>
+            <l n="225">soberbio, injusto y tirano,</l>
+            <l>os doy un hijo obediente,</l>
+            <l>manso, afable, humilde y sabio,</l>
+            <l>tan en todo diferente</l>
+            <l>como lo dicen los nombres</l>
+            <l n="230">de Emanuel y Adamo (al verles</l>
+            <l>a uno de tierra, terreno,</l>
+            <l>y a otro de cielo, celeste),</l>
+            <l>a él obedeced humildes</l>
+            <l>y a esotro arrojad rebeldes,</l>
+            <l n="235">sin conocerle dominio</l>
+            <l>en flores, frutos ni mieses</l>
+            <l>que con fatigas no labre,</l>
+            <l>que con lágrimas no riegue,</l>
+            <l>con suspiros no cultive,</l>
+            <l n="240">con trasudores no siegue,</l>
+            <l>porque con afanes coma</l>
+            <l>lo que con dolores siembre.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>Tus plantas, señor, la noble</l>
+            <l>congregación de tus fieles</l>
+            <l n="245">obreros besa, al oír</l>
+            <l>que tus decretos la dejen</l>
+            <l>esenta de que tribute</l>
+            <l>sus frutos a quien te ofende.</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l>Y más con las esperanzas</l>
+            <l n="250">del dueño que la prometes,</l>
+            <l>que vendrá de ti enviado</l>
+            <l>a que sus daños remedie.</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l>Y en hacimiento de gracias</l>
+            <l>de que tan piadosamente</l>
+            <l n="255">al indómito castigues</l>
+            <l>y al benemérito premies.</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l>Alternando entre los dos</l>
+            <l>pésames y parabienes,</l>
+            <l>en su baldón y en su aplauso</l>
+            <l n="260">repetirá una y mil veces...</l>
+          </sp>
+          <sp who="#primavera #estio #otono #invierno">
+            <speaker>LOS CUATRO</speaker>
+            <stage>Cantando</stage>
+            <l>El que ingrato a su padre</l>
+            <l>su ira no teme,</l>
+            <l>gima, llore, suspire,</l>
+            <l>padezca y pene.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="265">«¿Gima, llore, suspire,</l>
+            <l>padezca y pene?»</l>
+          </sp>
+          <sp who="#estio #otono #invierno #primavera">
+            <speaker>LOS CUATRO</speaker>
+            <stage>Cantando</stage>
+            <l>Pero el que agradecido</l>
+            <l>su amor merece,</l>
+            <l>viva, goce, trïunfe,</l>
+            <l n="270">domine y reine.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>«¿Viva, goce, trïunfe,</l>
+            <l>domine y reine?»</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l>Emanuel, vente conmigo,</l>
+            <l>que pues te tocó igualmente</l>
+            <l n="275">la tarea de los días,</l>
+            <l>justo es que también la quiete</l>
+            <l>de lo que dé su descanso.</l>
+          </sp>
+          <stage>Yéndose el PADRE, habla EMANUEL con ADAMO</stage>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Ya sabes que aunque te ausentes</l>
+            <l>o a mí me ausentes, contigo</l>
+            <l n="280">tengo, Señor, de estar siempre.</l>
+            <l>Adamo, ya ves que a mí</l>
+            <l>no me es posible oponerme</l>
+            <l>a su voluntad, porqué</l>
+            <l>en los dos haber no puede</l>
+            <l n="285">dos voluntades, que un Summo</l>
+            <l>Espíritu que procede</l>
+            <l>de nuestro amor las aúna;</l>
+            <l>pero no te desconsueles,</l>
+            <l>que ya que no como opuesto,</l>
+            <l n="290">como medianero puedes</l>
+            <l>fiar de mí la intercesión</l>
+            <l>con que sus enojos temple,</l>
+            <l>y has de volver a su gracia</l>
+            <l>aunque la vida me cueste.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="295">No te respondo porqué</l>
+            <l>tanto el dolor me enmudece</l>
+            <l>de una víbora, de un áspid</l>
+            <l>que en el corazón me muerde,</l>
+            <l>que titubeada la lengua,</l>
+            <l n="300">muda la voz, balbuciente</l>
+            <l>el labio, torpe el acento,</l>
+            <l>se quejan de que me queje.</l>
+            <l>Goza sin mí el mayorazgo</l>
+            <l>y no consolarme intentes,</l>
+            <l n="305">que pues me voy sin hablarte</l>
+            <l>también me estaré sin verte.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Vase ADAMO y vuelve el PADRE</stage>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l part="I">Emanuel, ¿no vienes?</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="F">¿Cuándo</l>
+            <l>tú, Señor, mi norte no eres?</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l>Ven, como dije, a mi alcázar,</l>
+            <l n="310">en tanto que al valle vuelves</l>
+            <l>de lágrimas a enjugarlas.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Adamo, no desesperes,</l>
+            <l>que si a que enjugue me envía</l>
+            <l>lágrimas, es evidente</l>
+            <l n="315">que quiere que sean las tuyas,</l>
+            <l>pues eres solo el que tienes</l>
+            <l part="I">por qué llorar.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l part="F">Vamos todos</l>
+            <l>hasta que en su alcázar entren.</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l>Vamos y sea en su loor,</l>
+            <l n="320">porque el ingrato escarmiente.</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l>Y porque el agradecido</l>
+            <l>se anime diciendo alegres...</l>
+          </sp>
+          <sp who="#adamo #padre #emanuel #primavera #estio #otono">
+            <speaker>TODOS</speaker>
+            <stage>Cantado</stage>
+            <l>El que ingrato a su Padre</l>
+            <l>su ira no teme,</l>
+            <l n="325">llore, gima, suspire,</l>
+            <l>padezca y pene.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Con esta repetición se entran el PADRE con la mano sobre el hombro de EMANUEL, y los cuatro tras ellos cantando, y sale en lo alto de una montaña ADAMO, repitiendo con despecho lo que cantan</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>«El que ingrato a su Padre</l>
+            <l>su ira no teme,</l>
+            <l>llore, gima, suspire,</l>
+            <l n="330">padezca y pene».</l>
+            <l>¡Qué más penar ni qué más</l>
+            <l>suspirar ni gemir puede</l>
+            <l>el que llega a ver que hay</l>
+            <l>quien con sus perdidos bienes…</l>
+          </sp>
+          <sp who="#musicos #adamo">
+            <speaker>MÚSICA Y ÉL</speaker>
+            <stage>Dentro</stage>
+            <l n="335">… viva, trïunfe, goce,</l>
+            <l>domine y reine!</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Y de un punto a otro se halla</l>
+            <l>combatido de dos fuertes</l>
+            <l>enemigos tan sañudos,</l>
+            <l n="340">tan fieros, tan inclementes</l>
+            <l>como son rencor y envidia,</l>
+            <l>que unidos y indiferentes,</l>
+            <l>por quitarme ambos la vida,</l>
+            <l>ninguno me da la muerte.</l>
+            <l n="345">¿Dónde voy? ¿Qué clima, cielos,</l>
+            <l>tan desamparado es este,</l>
+            <l>pues subiendo a esta eminencia</l>
+            <l>por si de ella descubriese</l>
+            <l>o un aprisco que me acoja</l>
+            <l n="350">o una gruta que me albergue,</l>
+            <l>no hallo en todo su horizonte</l>
+            <l>(desde la cuna de oriente</l>
+            <l>a la tumba del ocaso)</l>
+            <l>más que una campaña estéril</l>
+            <l n="355">sin un hombre que la habite</l>
+            <l>ni un villaje que la pueble?</l>
+            <l>Y pues la cumbre no da</l>
+            <l>más veredas que su breve</l>
+            <l>cima, vuelva al valle donde,</l>
+            <l n="360">como sus senos penetre,</l>
+            <l>podrá ser que un desdichado</l>
+            <l>otro desdichado encuentre</l>
+            <l>que se consuele conmigo,</l>
+            <l>ya que yo no me consuele</l>
+            <l n="365">con él, que no puede haber</l>
+            <l>ejemplar a mis crueles</l>
+            <l>hados. Pero, ¡ay infelice!,</l>
+            <l>que aunque descender intente</l>
+            <l>no sé por dónde subí.</l>
+            <l n="370">Hacia esta parte parece</l>
+            <l>que hay senda, ¡mas ay de mí!,</l>
+            <l>que en las intrincadas redes</l>
+            <l>de su escabrosa maraña</l>
+            <l>no hay zarza en que no tropiece</l>
+            <l n="375">ni peña en que no resbale.</l>
+            <l>¿A dónde (¡cielos, valedme!)</l>
+            <l part="I">he de ir a dar?</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Cay despeñado y al mismo tiempo salen el ÁNGEL por una parte y el DEMONIO por otra, y cay en los brazos de ambos</stage>
+          <sp who="#musicos #adamo">
+            <speaker>LOS DOS</speaker>
+            <l part="F">En mis brazos.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Pues para que te despeñes</l>
+            <l part="I">yo te armé el lazo.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Pues yo</l>
+            <l n="380">para que no perecieses</l>
+            <l>el hombro puse a tu ruina.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Yo… Si… El pasmo me entorpece,</l>
+            <l>no tanto de la caída</l>
+            <l>cuanto del terror de verte</l>
+            <l n="385">u del gozo de mirarte.</l>
+            <l>¿Quién eres, ¡oh, tú!, quién eres</l>
+            <l>que con tu semblante alegras,</l>
+            <l>que con el tuyo entristeces?,</l>
+            <l>en cuya contrariedad</l>
+            <l n="390">mis sentidos descaecen,</l>
+            <l>tan sin mí que no permiten</l>
+            <l>que oiga, mire, hable ni aliente.</l>
+          </sp>
+          <stage>Cay desmayado</stage>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Al susto del precipicio,</l>
+            <l>cuanto no es vital fallece.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l n="395">Mira qué en vano es</l>
+            <l>que tú en tus lazos desees</l>
+            <l>muera en culpa, cuando yo</l>
+            <l>le guardo a si se arrepiente.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Ya sé, según que a tus luces</l>
+            <l n="400">mis sombras se desvanecen,</l>
+            <l>que eres su custodio; pero</l>
+            <l>qué importa saber quién eres</l>
+            <l>para no ser yo tan noble</l>
+            <l>como tú, para oponerme</l>
+            <l n="405">a ti, que hermosura y gracia</l>
+            <l>no es esencia, es accidente;</l>
+            <l>y por una vez que hoy</l>
+            <l>le das vida, una y mil veces</l>
+            <l>dirá David que mis lazos</l>
+            <l n="410">se armarán para su muerte.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>También dirá que, ellos rotos,</l>
+            <l>se libre cuando le lleve</l>
+            <l>yo en mis manos, porque no</l>
+            <l>vaso de tierra se quiebre</l>
+            <l n="415">antes que del basilisco</l>
+            <l>y el áspid la cerviz huelle.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Eso se entiende del hombre</l>
+            <l>en común, pero no de éste,</l>
+            <l>que de basiliscos y áspid</l>
+            <l n="420">ya el hierro selló su frente.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>De éste y de todos, que nadie</l>
+            <l>quita que se represente</l>
+            <l>en él el género humano.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Pues si el duelo ha de ser ése,</l>
+            <l n="425">queriendo que lo invisible</l>
+            <l>en lo visible se muestre,</l>
+            <l part="I">toca al arma.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">No por armas</l>
+            <l>hoy solicito vencerte,</l>
+            <l part="I">sino en justicia.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="F">¿En justicia?</l>
+            <l n="430">Mi mejor partido es ese:</l>
+            <l>reo de culpa infinita</l>
+            <l>que está condenado a muerte</l>
+            <l>y hasta entonces a fatigas,</l>
+            <l>miserias, hambres y sedes,</l>
+            <l n="435">¿qué apelación, qué esperanza</l>
+            <l>tener en justicia puede?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Los artículos del pleito</l>
+            <l part="I">lo dirán.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="F">Antes que llegue</l>
+            <l>la contingencia de que</l>
+            <l n="440">en su favor se sentencie</l>
+            <l>(que en esto de pleitos no hay</l>
+            <l>certeza que no se arriesgue),</l>
+            <l>pondré medios que le aflijan</l>
+            <l>tanto que le desesperen.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l n="445">Yo no medios, sino fines</l>
+            <l>que al fin superior le lleven,</l>
+            <l>iluminándole en sombras</l>
+            <l>mientras las luces no lleguen.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Para que a verlas no alcance,</l>
+            <l n="450">nieblas habrá que le cieguen.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>También vocaciones que</l>
+            <l>con rayos de luz le adiestren.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Para ofuscar su explendor</l>
+            <l>venenos hay que adormecen.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l n="455">Y inspiraciones que al más</l>
+            <l>adormecido despierten.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>¿Dónde no hallará peligros</l>
+            <l>por donde quiera que fuere?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>¿Y dónde irá que no halle</l>
+            <l n="460">auxilios que le preserven?</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>No todos son eficaces.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Sí, mas todos suficientes.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Y porque lo veas, escucha.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Y porque lo veas, atiende.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Salen el APETITO por una parte y la RAZÓN NATURAL por otra</stage>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="I">Apetito.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l n="465" part="F">¿Qué me mandas?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">Razón Natural.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">¿Qué quieres?</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Que de ese vivo cadáver</l>
+            <l>a quien tan deshecho tienes,</l>
+            <l>prosigas las propensiones</l>
+            <l part="I">en que le has puesto.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l n="470" part="F">Que de ese</l>
+            <l>muerto espíritu restaures</l>
+            <l>los daños, llegando a verse</l>
+            <l>que es la Razón Natural</l>
+            <l>la que al Apetito vence.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l n="475">De modo que por él vuelva</l>
+            <l part="I">el aire a decir…</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">De suerte</l>
+            <l>que por él vuelva a oír el eco…</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="I">… otra vez…</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">… y otras mil veces…</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>… que en sus males obstinado…</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l n="480">… que restaurado en sus bienes…</l>
+          </sp>
+          <sp who="#musicos #demonio">
+            <speaker>MÚSICA Y DEMONIO</speaker>
+            <l>… gima, llore, suspire,</l>
+            <l>padezca y pene.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Vase</stage>
+          <sp who="#musicos #angel">
+            <speaker>MÚSICA Y ÁNGEL</speaker>
+            <l>… viva, goce, trïunfe,</l>
+            <l>domine y reine.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <stage>Vase</stage>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l n="485">Hombre, de aquese mortal</l>
+            <l>letargo a mis voces vuelve.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Vuelve, Adamo, a mis voces</l>
+            <l>de ese mortal accidente.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¡Ay de mí!, que aunque me asombre</l>
+            <l n="490">tu vista porque me alegre</l>
+            <l>la suya… ¡Pero qué miro!</l>
+            <l>¡Qué objetos tan diferentes</l>
+            <l>de aquellos en que caí!</l>
+            <l>Sin duda que fue vehemente</l>
+            <l n="495">aprehensión de imaginados</l>
+            <l>espíritus aparentes,</l>
+            <l>puesto que son mi Apetito</l>
+            <l>y una beldad que no tiene</l>
+            <l>señas en que la conozca.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l n="500">¡Ay de quien tan imprudente</l>
+            <l>al Apetito conoce</l>
+            <l part="I">y no a la Razón!</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">¿Tú eres</l>
+            <l part="I">la Razón?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">La Natural</l>
+            <l part="I">Razón soy.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">¿Y qué pretendes?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l n="505">Que llores lo que no lloras.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Con buen consuelo me vienes,</l>
+            <l>que lo que no lloro, llore;</l>
+            <l>¿no llora harto quien padece</l>
+            <l part="I">lo que yo padezco?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">No,</l>
+            <l n="510">que el que llora porque siente</l>
+            <l>la falta del bien perdido</l>
+            <l>no más de porque le pierde,</l>
+            <l>no merece con el llanto,</l>
+            <l>que con el llanto merece</l>
+            <l n="515">solo el que le eleva a fin</l>
+            <l>del objeto a quien ofende.</l>
+            <l>El enojo de tu padre</l>
+            <l>llora, no tus intereses,</l>
+            <l>que es propio amor y no llanto,</l>
+            <l n="520">a cuyo efecto conviene</l>
+            <l>que dejando al Apetito</l>
+            <l part="I">vengas tras mí.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">¿Cómo quieres</l>
+            <l>que vaya tras quien me aflija</l>
+            <l>y no tras quien me deleite?</l>
+            <l n="525">A que llore me convidas</l>
+            <l>con que al Apetito deje,</l>
+            <l>pues ¿cuándo qué apetecer</l>
+            <l>tiene un triste que no tiene</l>
+            <l>qué poseer, sino cuando</l>
+            <l n="530">discurre en lo que apetece?</l>
+            <l>Que aunque mi Apetito fue</l>
+            <l>quien me pervirtió, no tiene</l>
+            <l>él la culpa, sino yo,</l>
+            <l>pues que pudiendo vencerle</l>
+            <l n="535">me dejé vencer, llevado</l>
+            <l>de las grandes altiveces</l>
+            <l>en que me puso; y quien tuvo</l>
+            <l>ingenio para perderme</l>
+            <l>le tendrá para cobrarme,</l>
+            <l n="540">y así vete, Razón, vete,</l>
+            <l>que yo apartándote a ti</l>
+            <l part="I">tras él iré.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">Es evidente</l>
+            <l>que el que a la Razón se aparta,</l>
+            <l>al Apetito se acerque.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="545">Que lo sea o no lo sea,</l>
+            <l>¿qué hay que aguardes, qué hay que esperes?</l>
+            <l part="I">Déjame, Razón.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">No puedo</l>
+            <l>dejarte aunque tú me dejes,</l>
+            <l>que soy Razón Natural</l>
+            <l n="550">y, aunque maltratada, siempre</l>
+            <l>me has de hallar en tu favor,</l>
+            <l>retirada mas no ausente.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <stage>Vase</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Ya que contigo, Apetito</l>
+            <l>(apartada la Razón),</l>
+            <l n="555">he quedado, la aflicción</l>
+            <l>en que me hallas solicito</l>
+            <l>sobrellevar con saber</l>
+            <l>(pues me vienes a buscar)</l>
+            <l>qué me traerá que gozar</l>
+            <l n="560">quien me trae que apetecer.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Mal, Adamo, has presumido,</l>
+            <l>que en tu busca, aunque quisiera,</l>
+            <l>no traigo más que la fiera</l>
+            <l>hambre con que te he seguido.</l>
+            <l n="565">Tu Padre, también airado</l>
+            <l>conmigo, me despidió</l>
+            <l>de su casa porque no</l>
+            <l>(ya que fui de ti criado)</l>
+            <l>quiso que un punto estuviera</l>
+            <l n="570">en su familia; y así,</l>
+            <l>hambriento y roto, tras ti</l>
+            <l part="I">la hambre me tray.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">De manera</l>
+            <l>que para que nunca intente</l>
+            <l>que mi suerte se mejore,</l>
+            <l n="575">la Razón viene a que llore</l>
+            <l>cuando tú a que te sustente.</l>
+            <l>Y pues ansias, no consuelos,</l>
+            <l>traéis los dos y a ella arrojé,</l>
+            <l>lo mismo contigo haré.</l>
+          </sp>
+          <stage>Va a embestir con él y queda como pasmado</stage>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="I">¡No harás tal!</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="580" part="F">¿Cómo no? ¡Cielos!</l>
+            <l>¿Tan grande fue mi delito</l>
+            <l>que pueda su obstinación</l>
+            <l>apartar a la Razón</l>
+            <l>y no pueda al Apetito?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l n="585">Importo más que ella yo,</l>
+            <l>que muchos que llego a oír,</l>
+            <l>sin Razón los veo vivir</l>
+            <l>y sin Apetito no.</l>
+            <l>Dígalo la establecida</l>
+            <l n="590">ley de que el que me perdiere</l>
+            <l>y no comiere y bebiere,</l>
+            <l>tenga pena de la vida.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Sujeto a la ley estoy,</l>
+            <l>pues al echarte de mí</l>
+            <l n="595">tan gran desmayo sentí</l>
+            <l>que no sé por dónde voy</l>
+            <l>ni a dónde, ni qué he de hacer.</l>
+            <l>Dame siquiera un indicio.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Señor, el mejor oficio</l>
+            <l n="600">y más fácil de aprender,</l>
+            <l>pues se sabe el primer día,</l>
+            <l part="I">es pedir limosna.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">¿Yo</l>
+            <l part="I">limosna?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">Pues ¿por qué no?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Porque la soberbia mía</l>
+            <l n="605">más lleva a dar que a pedir.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Aquí no hay en qué escoger:</l>
+            <l>o vivir para comer</l>
+            <l>o comer para vivir.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Cuando a tanto me abatiera,</l>
+            <l n="610">¿a quién doliera mi daño?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Puesto que vas con el año,</l>
+            <l>empieza en la Primavera.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">Tiene precepto.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">¿De qué?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">De no socorrerme.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">Advierte</l>
+            <l n="615">que no será socorrerte</l>
+            <l>el que noticias te dé</l>
+            <l>de por dónde habemos de ir.</l>
+            <l>Ella, que sus flores planta</l>
+            <l>allí en virgen tierra, canta</l>
+            <l n="620">quizá para divertir</l>
+            <l>su tarea, y si la obligas</l>
+            <l>con lástimas, su piedad</l>
+            <l part="I">te valdrá.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">¡Oh, necesidad,</l>
+            <l>a qué bajezas no obligas!</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <stage>Sale la PRIMAVERA con una azada cantando</stage>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l n="625">¿Cuándo de aqueste vergel</l>
+            <l>verá la estación amena</l>
+            <l>unirse en él</l>
+            <l>al candor de la azucena,</l>
+            <l>lo encarnado del clavel?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="630">Bellísima Primavera,</l>
+            <l>un errado peregrino</l>
+            <l>que sin senda ni camino</l>
+            <l>pisa tu florida esfera,</l>
+            <l>necesitado y perdido,</l>
+            <l n="635">te pide, puesto a tus pies,</l>
+            <l>que algún socorro le des.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>A no haberte conocido</l>
+            <l>lo hiciera mi piedad, pero</l>
+            <l>tengo precepto de que</l>
+            <l n="640">ningún tributo te dé</l>
+            <l>que tú no ganes primero.</l>
+            <l>Toma esta azada (que es cuanto</l>
+            <l>mi amor te puede ofrecer)</l>
+            <l>y trata de merecer,</l>
+            <l n="645">que yo te daré otro tanto</l>
+            <l>como tú en la agricultura</l>
+            <l>de mis flores adquirieres.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¿Rústico instrumento quieres</l>
+            <l>que me labre mi ventura?</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l n="650">Sí, tu ventura y la mía;</l>
+            <l>puesto que la brevedad</l>
+            <l>de mis tres meses de edad</l>
+            <l>espera que marzo el día</l>
+            <l>me traiga que este plantel</l>
+            <l n="655">produzga una flor tan buena</l>
+            <l>que una en él…</l>
+            <stage>Cantado</stage>
+            <l>… al candor de la azucena,</l>
+            <l>lo encarnado del clavel.</l>
+            <stage>Representa</stage>
+            <l>Y si tú en igual labor</l>
+            <l n="660">(puesto que tray tu quebranto</l>
+            <l>hecha la costa del llanto,</l>
+            <l>que es el riego de esta flor)</l>
+            <l>te aplicas en tu fatiga,</l>
+            <l>cree que por ti y para ti</l>
+            <l part="I">quizá florecerá.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="665" part="F">Y di,</l>
+            <l part="I">¿cuándo será?</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l part="F">Cuando diga</l>
+            <l>alado espíritu fiel...</l>
+          </sp>
+          <stage>Aparece el ÁNGEL en el primer nicho de una devanadera que ha de dar vueltas, con los demás que han de seguirse</stage>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <stage>Cantado</stage>
+            <l>Ave, florido vergel,</l>
+            <l>cuya flor, de gracia llena,</l>
+            <l n="670">unirá en él</l>
+            <l>al candor de la azucena,</l>
+            <l>lo encarnado del clavel.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro</stage>
+            <l>Ave, florido vergel,</l>
+            <l>cuya flor, de gracia llena,</l>
+            <l n="675">unirá en él</l>
+            <l>al candor de la azucena,</l>
+            <l>lo encarnado del clavel.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <stage>Cantado</stage>
+            <l>Ave, cerrado jardín,</l>
+            <l>cuya Primavera hermosa</l>
+            <l n="680">al mismo fin</l>
+            <l>con púrpura de la rosa</l>
+            <l>verá encarnado el jazmín.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro</stage>
+            <l>Ave, cerrado jardín,</l>
+            <l>cuya Primavera hermosa</l>
+            <l n="685">al mismo fin</l>
+            <l>con púrpura de la rosa</l>
+            <l>verá encarnado el jazmín.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <stage>Cantado</stage>
+            <l>Ave, huerto en quien la fee</l>
+            <l>la maravilla antevió,</l>
+            <l n="690">que a un tiempo dé</l>
+            <l>lo florido en Jericó</l>
+            <l>y lo plantado en Jesé.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro</stage>
+            <l>Ave, huerto en quien la fee</l>
+            <l>la maravilla antevió,</l>
+            <l n="695">que a un tiempo dé</l>
+            <l>lo florido en Jericó</l>
+            <l>y lo plantado en Jesé.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <stage>Cantado</stage>
+            <l>Ave, en fin, verde dosel,</l>
+            <l>y tú oye la norabuena</l>
+            <l n="700">de unirse en él...</l>
+          </sp>
+          <sp who="#padre #emanuel #estio #otono #demonio #razon #apetito #adamo #primavera #musicos #angel">
+            <speaker>TODOS</speaker>
+            <l>... al candor de la azucena,</l>
+            <l>lo encarnado del clavel.</l>
+          </sp>
+          <stage>Pasa el ÁNGEL</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Angélica inspiración</l>
+            <l>que me anima, ¡aguarda, espera!</l>
+            <l n="705">¿Y tú por qué, Primavera,</l>
+            <l>te vas sin darme razón</l>
+            <l part="I">de esto?</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l part="F">Nunca conseguí</l>
+            <l>el parar el curso mío.</l>
+            <l>Pregúntaselo al Estío,</l>
+            <l n="710">que viene detrás de mí,</l>
+            <l>que yo en mi bello cuartel</l>
+            <l>dar más no puedo a tu pena</l>
+            <l>que esa azada. Une tú en él…</l>
+          </sp>
+          <sp who="#padre #emanuel #estio #otono #demonio #razon #apetito #musicos #angel #adamo #primavera">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>… al candor de la azucena,</l>
+            <l n="715">lo encarnado del clavel.</l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <stage>Vase</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¿Quién creerá que con haber</l>
+            <l>la Primavera pasado</l>
+            <l>tan aprisa, me ha dejado</l>
+            <l>con azada y sin comer,</l>
+            <l n="720">entre sombras y esplendores</l>
+            <l>que yo ni alcanzo ni sé?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>¿Qué querías que te dé</l>
+            <l>quien gasta su edad en flores,</l>
+            <l>sino el verdor de su infancia?</l>
+            <l n="725">Pero allí viene el Estío</l>
+            <l>y de su juventud fío</l>
+            <l>que te dé más que fragrancia,</l>
+            <l>pues las macollas segando</l>
+            <l>del grano que a Dios fió,</l>
+            <l n="730">cuando el aire le arrojó</l>
+            <l>su esperanza y fee, logrando</l>
+            <l>viene y cantando también.</l>
+            <l>¿De qué te acobardas? Llega,</l>
+            <l>que el labrador en la siega</l>
+            <l part="I">es liberal.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="735" part="F">Dices bien.</l>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <stage>Sale el ESTÍO con una hoz como en acción de segar</stage>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <stage>Cantado</stage>
+            <l>Lucero del alba, ven</l>
+            <l>a aliviar nuestras fatigas,</l>
+            <l>pues eres quien</l>
+            <l>ha de granar las espigas</l>
+            <l n="740">de los campos de Belén.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>¿De qué temeroso estás?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">¿No he de temer pedir?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">No,</l>
+            <l>que ninguno lo empezó</l>
+            <l>que lo dejase jamás.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="745">Ardiente estación del año,</l>
+            <l>un perdido caminante…</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l>No pases más adelante,</l>
+            <l>que aunque ni admiro ni estraño</l>
+            <l>el verte en necesidad</l>
+            <l n="750">que yo remediar quisiera,</l>
+            <l>no puedo, que hay ley severa</l>
+            <l>que mi liberalidad</l>
+            <l>obliga a que no te dé</l>
+            <l>lo que tú no trabajares.</l>
+            <l n="755">Pero porque te repares,</l>
+            <l>lo más que contigo haré</l>
+            <l>(si conformas tu fortuna</l>
+            <l>al destemplado arrebol</l>
+            <l>de resisteros del sol</l>
+            <l n="760">y serenos de la luna)</l>
+            <l>será darte esta hoz; con ella</l>
+            <l>seguro el sueldo tendrás</l>
+            <l part="I">que merezcas.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">¡A qué más</l>
+            <l>pudo abatirme mi estrella!</l>
+            <l n="765">¿En rudo instrumento fías</l>
+            <l part="I">mi remedio?</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l part="F">Sí, porqué</l>
+            <l>espero un Lucero que</l>
+            <l>junio ha de dar a mis días,</l>
+            <l>tan bello en su amanecer</l>
+            <l n="770">que haciéndole al mundo salva</l>
+            <l>sea el Lucero del alba.</l>
+            <l>Y si te llegas tú a ver</l>
+            <l>desvelado en las tareas</l>
+            <l>del trigo que has de labrar,</l>
+            <l n="775">en trigo y Lucero hallar</l>
+            <l>podrá ser más que deseas</l>
+            <l>bien, como cuantos se ven</l>
+            <l>en mis eras trabajando,</l>
+            <l>pues no hay hora que segando</l>
+            <l n="780">también diciendo no estén…</l>
+          </sp>
+          <stage>Dentro grita de segadores</stage>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro</stage>
+            <l>Lucero del alba, ven</l>
+            <l>a aliviar nuestras fatigas,</l>
+            <l>pues eres quien</l>
+            <l>ha de granar las espigas</l>
+            <l n="785">de los campos de Belén.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¿Y cuándo, di, será cierto</l>
+            <l>que dé ese fruto esta hoz?</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l>Cuando diga alguna voz</l>
+            <l>que ha de clamar en desierto:</l>
+          </sp>
+          <stage>En uno de cuatro nichos que ha de tener una devanadera (en uno de los carros), aparece el LUCERO, de pieles, como pintan al Baptista</stage>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <stage>Cantado</stage>
+            <l n="790">Albricias pedirte quiero,</l>
+            <l>mortal, pues el arrebol</l>
+            <l>de aquel primero</l>
+            <l>anuncio que traerá el sol</l>
+            <l>te profetiza el Lucero;</l>
+            <l n="795">y ya que auxilio bastante</l>
+            <l>te da el splendor divino,</l>
+            <l>que previno</l>
+            <l>que veas que va delante</l>
+            <l>a prepararle el camino,</l>
+            <l n="800">ser, alma y vida en albricias</l>
+            <l>a su venida prevén.</l>
+          </sp>
+          <stage>Desaparece, y el ESTÍO pasa</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>El veloz curso detén,</l>
+            <l>ya que en mi vida codicias</l>
+            <l>segunda iluminación.</l>
+            <l n="805">Tú, Estío, ¿por qué te vas</l>
+            <l>sin que me declares más</l>
+            <l>si es esto imaginación</l>
+            <l part="I">o realidad?</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l part="M">Porque…</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">Di.</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l>… pararme no puedo y, pues</l>
+            <l n="810">el fértil Otoño es</l>
+            <l>el que se sigue tras mí,</l>
+            <l>baste decir mis obreros</l>
+            <l>en sus albores primeros</l>
+            <l>de tu dicha en parabién…</l>
+          </sp>
+          <sp who="#musicos #estio">
+            <speaker>MÚSICA Y ÉL</speaker>
+            <l n="815">… Lucero del alba, ven</l>
+            <l>a aliviar nuestras fatigas,</l>
+            <l>pues eres quien</l>
+            <l>ha de granar las espigas</l>
+            <l>de los campos de Belén.</l>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <stage>[Vase] Dentro grita y música, y sale el OTOÑO con una podadera</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">¿Qué es esto, Apetito?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l n="820" part="F">Azada</l>
+            <l>y hoz dicen que es menester</l>
+            <l>trabajar para comer,</l>
+            <l>como quien no dice nada.</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <stage>Cantado</stage>
+            <l>Pues ya la luciente estrella</l>
+            <l n="825">del Lucero cumbres dora,</l>
+            <l>¿quién ignora</l>
+            <l>que haya de seguirse a ella</l>
+            <l>el ver nacida la aurora?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Fértil Otoño, un perdido</l>
+            <l part="I">pasajero…</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l n="830" part="F">Ya quién eres</l>
+            <l>sé, y sé también que quieres</l>
+            <l>verte de mí socorrido,</l>
+            <l>pero tú también sabrás</l>
+            <l>que hacerlo, Adamo, no puedo,</l>
+            <l n="835">que tengo a tu Padre miedo;</l>
+            <l>y así, por ti lo que más</l>
+            <l>puedo hacer es admitirte</l>
+            <l>a que en mi servicio estés</l>
+            <l>entre mis gañanes, pues</l>
+            <l n="840">con eso podré asistirte</l>
+            <l part="I">con lo que ganes.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">Señor,</l>
+            <l>prosigamos en pedir,</l>
+            <l>que es menos mal que servir.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¡Que a esto me arrastre un error!</l>
+          </sp>
+          <stage>Dale una podadera</stage>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l n="845">Y no a mala ocasión vienes,</l>
+            <l>que hay bien en qué trabajar,</l>
+            <l>porque es tiempo de podar</l>
+            <l>las vides. No de esto tienes</l>
+            <l>que afligirte: este instrumento</l>
+            <l n="850">(segur de su fruto opimo),</l>
+            <l>cuando al lagar da el racimo</l>
+            <l>le da al hogar el sarmiento,</l>
+            <l>que es un cierto dividir</l>
+            <l>buenos y malos; y creo,</l>
+            <l n="855">si no me engaña el deseo,</l>
+            <l>que es felicidad servir</l>
+            <l>en su ocupación, porqué</l>
+            <l>tiempo habrá en mi edad que menos</l>
+            <l>sean los malos que los buenos,</l>
+            <l n="860">por la prometida fee</l>
+            <l>de una Aurora celestial,</l>
+            <l>de quien yo he de merecer</l>
+            <l>verla en septiembre nacer;</l>
+            <l>y si tú en ventura igual</l>
+            <l n="865">obrero te hallas del fruto</l>
+            <l>que esas verdes vides dan</l>
+            <l>(que es el vino tras el pan),</l>
+            <l>que fue del Estío tributo,</l>
+            <l>no dudes la mejoría</l>
+            <l n="870">de tu mal con la de cuantos</l>
+            <l>con dulces himnos y cantos</l>
+            <l>dicen, saludando el día,</l>
+            <l>que nazca esta Aurora bella.</l>
+          </sp>
+          <stage>Grita dentro</stage>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro</stage>
+            <l>Pues ya la luciente estrella</l>
+            <l n="875">del Lucero cumbres dora,</l>
+            <l>¿quién ignora</l>
+            <l>que haya de seguirse a ella</l>
+            <l>el ver nacida la Aurora?</l>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <stage>Sale la AURORA en el tercer nicho, que será una niña vestida de Concepción</stage>
+          <sp who="#aurora">
+            <speaker>AURORA</speaker>
+            <stage>Cantado</stage>
+            <l>Nadie ignora,</l>
+            <l n="880">pues ya la luciente estrella</l>
+            <l>del Lucero cumbres dora,</l>
+            <l>que tras ella</l>
+            <l>se haya de seguir la bella</l>
+            <l>natividad de la Aurora.</l>
+            <l n="885">Y así espere el orbe entero,</l>
+            <l>que pues con blando arrebol</l>
+            <l>en su hemisfero</l>
+            <l>sigue la Aurora al Lucero,</l>
+            <l>que siga a la Aurora el sol.</l>
+          </sp>
+          <stage>Desaparece</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="890">No te intento detener</l>
+            <l>porque ya sé que no puedo,</l>
+            <l>aunque tan confuso quedo</l>
+            <l>de no alcanzar ni entender</l>
+            <l>qué es lo que pasa por mí.</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l n="895">Ve adelante, que quizá</l>
+            <l>el Invierno lo dirá,</l>
+            <l>que es quien me ausenta de ti.</l>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <stage>Vase Sale el INVIERNO de pastor</stage>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <stage>Cantado</stage>
+            <l>Pues aterido el ganado</l>
+            <l>padece la noche fría,</l>
+            <l n="900">¡oh, llegue el día</l>
+            <l>que el sol al monte y al prado</l>
+            <l>restituya en su alegría!</l>
+            <stage>Recitado</stage>
+            <l part="I">¿Quién va? ¿Quién es?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">No lo sé.</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l>Yo sí, pues te he conocido.</l>
+            <l n="905">¿Adónde vas tan perdido?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>A buscar a quien me dé</l>
+            <l part="I">algún consuelo.</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l part="F">Pues yo</l>
+            <l>ninguno te puedo dar</l>
+            <l>que no sea el de guardar</l>
+            <l n="910">mis ganados, porque no</l>
+            <l>se enoje tu Padre viendo</l>
+            <l>que, porque tu daño atajes,</l>
+            <l>te albergo sin que trabajes</l>
+            <l>en sus rebaños. Y siendo</l>
+            <l n="915">así que lluvias y hielos,</l>
+            <l>escarchas y nieves frías</l>
+            <l>(que son destemplanzas mías)</l>
+            <l>me ponen en los desvelos</l>
+            <l>de preservar de los fieros</l>
+            <l n="920">aires (que corren sutiles)</l>
+            <l>sin salir de los rediles</l>
+            <l>las crías de los corderos,</l>
+            <l>con que apastes el ganado</l>
+            <l>lo más que darte apercibo</l>
+            <l n="925">(en fee de que te recibo</l>
+            <l>por pastor) es mi cayado.</l>
+            <l>Toma pues; no, no rehuses,</l>
+            <l>ya que te tray el dolor</l>
+            <l>a este estado (el de pastor),</l>
+            <l n="930">que quizá cuando dél uses</l>
+            <l>verás cuán favorecido</l>
+            <l>del cielo es, si considero</l>
+            <l>que en una noche que espero</l>
+            <l>ver al sol recién nacido</l>
+            <l n="935">a gozar los esplendores</l>
+            <l>de su nuevo amanecer,</l>
+            <l>en mi diciembre han de ser</l>
+            <l>los primeros los pastores,</l>
+            <l>a cuyo fin, desvelado,</l>
+            <l n="940">dice al aprisco a porfía…</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l>¡Oh, llegue el día</l>
+            <l>que el sol al monte y al prado</l>
+            <l>restituya en su alegría!</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¿Qué amanecer? ¿Qué esplendor</l>
+            <l n="945">se puede, Invierno, esperar</l>
+            <l part="I">en noche tuya?</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l part="F">El que a dar</l>
+            <l>venga con su resplandor,</l>
+            <l>como oíste, tal alegría</l>
+            <l>que vea el mundo en su arrebol</l>
+            <l n="950">a la media noche el sol</l>
+            <l>y la estrella al medio día.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¿Cuándo será ese consuelo?</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l>Cuando den bellas criaturas…</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l>… gloria a Dios en las alturas</l>
+            <l n="955">y paz al hombre en el suelo.</l>
+          </sp>
+          <sp who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #adamo #invierno #musicos">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>Gloria a Dios en las alturas</l>
+            <l>y paz al hombre en el suelo.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¿Qué nueva música es esta,</l>
+            <l>que entre las sombras y lejos</l>
+            <l n="960">de iluminados reflejos</l>
+            <l>a todo el orbe de fiesta</l>
+            <l part="I">ha puesto?</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l part="F">Música tal,</l>
+            <l>¿a qué efecto es repetida</l>
+            <l part="I">de todos?</l>
+          </sp>
+          <sp who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo #invierno">
+            <speaker>TODOS</speaker>
+            <stage>Dentro</stage>
+            <l part="F">A la venida</l>
+            <l n="965">del hijo del mayoral.</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l>«¿A la venida</l>
+            <l>del hijo del mayoral?»</l>
+            <l>Qué mejor dél, pues el viento</l>
+            <l>de no percibida lumbre</l>
+            <l n="970">le llena desde la cumbre</l>
+            <l>del monte del Testamento</l>
+            <l>al valle, donde le veo</l>
+            <l>del alcázar descender</l>
+            <l>de su Padre, con que a ser</l>
+            <l n="975">se adelanta mi deseo</l>
+            <l>el primero, cuyo celo</l>
+            <l>de entre esotras voces puras…</l>
+          </sp>
+          <sp who="#invierno #emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo">
+            <speaker>ÉL Y TODOS</speaker>
+            <l>Gloria a Dios en las alturas</l>
+            <l>y paz al hombre en el suelo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <stage>Vase</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="980">¿Quién vio que entre dos extremos</l>
+            <l>sepa uno lo que otro ignora?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Atendamos por ahora,</l>
+            <l>que después discurriremos.</l>
+          </sp>
+          <stage>En el cuarto nicho EMANUEL</stage>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Jornaleros de la vida</l>
+            <l n="985">que a espensas de la labranza</l>
+            <l>vivís, ya vuestra esperanza</l>
+            <l>os cumple (con mi venida)</l>
+            <l>mi Padre; y aunque heredero</l>
+            <l>suyo soy, pues otorgó</l>
+            <l n="990">la donación de que dio</l>
+            <l>testimonio verdadero</l>
+            <l>su más legal escribano,</l>
+            <l>no como príncipe vengo</l>
+            <l>a gobernaros, que tengo</l>
+            <l n="995">de asistiros tan humano</l>
+            <l>que, sujeto a la fatiga</l>
+            <l>vuestra, cansancio, hambre y sed,</l>
+            <l>sustentándome a merced</l>
+            <l>de la vid y de la espiga</l>
+            <l n="1000">he de andar entre vosotros.</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>VOCES</speaker>
+            <stage>Dentro</stage>
+            <l>Todo tu dominio fiel,</l>
+            <l>viendo que quiere Emanuel</l>
+            <l>decir ‘Dios es con nosotros’,</l>
+            <l>dará con festivo anhelo,</l>
+            <l n="1005">celebrando sus venturas…</l>
+          </sp>
+          <sp who="#invierno #demonio #razon #angel #primavera #lucero #estio #aurora #otono #musicos #adamo #apetito #emanuel #acompanamiento">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>Gloria a Dios en las alturas</l>
+            <l>y paz al hombre en el suelo.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¡Cielos! Espíritu alado</l>
+            <l>que hace con tal sumisión</l>
+            <l n="1010">a una flor salutación,</l>
+            <l>Lucero que anticipado</l>
+            <l>anuncia una Aurora bella,</l>
+            <l>Aurora cuyo arrebol</l>
+            <l>predice que un nuevo sol</l>
+            <l n="1015">ha de amanecer tras ella,</l>
+            <l>¿qué será, que en lugar dél</l>
+            <l>y del que el Invierno espera</l>
+            <l>tan grande alborozo, quiera</l>
+            <l>persuadirme a que Emanuel</l>
+            <l part="I">lo sea?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l n="1020" part="F">La ciencia mía</l>
+            <l>no lo alcanza, porque ver</l>
+            <l>que es uno y que da a entender</l>
+            <l>otro es mucha alegoría</l>
+            <l>para mí; y así, dejado</l>
+            <l n="1025">lo misterioso que no</l>
+            <l>entiendo, paso a que yo</l>
+            <l>solo sé que nos han dado</l>
+            <l>azada la Primavera,</l>
+            <l>hoz el abrasado Estío,</l>
+            <l n="1030">cayado el Invierno frío</l>
+            <l>y el Otoño podadera.</l>
+            <l>Cuatro cosas que a mi ver,</l>
+            <l>sabida su ocupación,</l>
+            <l>todas para comer son</l>
+            <l n="1035">y ninguna de comer.</l>
+            <l>Y así, dejándote a que</l>
+            <l>tú lo discurras, la bruta</l>
+            <l>yerba, la silvestre fruta</l>
+            <l>por esos montes iré</l>
+            <l n="1040">buscando, que el Apetito,</l>
+            <l>bueno o malo el alimento,</l>
+            <l>más veces que no de hambriento</l>
+            <l>se ha visto morir de ahíto.</l>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <stage>Vase</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¡Cayado, hoz, segur y azada!</l>
+            <l n="1045">Los cuatro símbolos son</l>
+            <l>del trabajo o propensión</l>
+            <l>(desheredado) heredada</l>
+            <l>del que fue todo y no es nada,</l>
+            <l>como lo demás que fue.</l>
+            <l n="1050">A cuál me aplique no sé,</l>
+            <l>porque si al cayado acudo,</l>
+            <l>¿cómo tan pobre y desnudo</l>
+            <l>los fríos resistiré?;</l>
+            <l>si a la segur, es atroz</l>
+            <l n="1055">en destrozar empleada;</l>
+            <l>fuerzas no hay para la azada;</l>
+            <l>salud no hay para la hoz.</l>
+            <l>Pues si del año el veloz</l>
+            <l>curso no da en qué elegir,</l>
+            <l n="1060">¿heme de dejar morir</l>
+            <l>(siendo a este caduco ser</l>
+            <l>fuerza el vestir y el comer)</l>
+            <l>sin comer y sin vestir?</l>
+            <l>En la más inculta sierra</l>
+            <l n="1065">y en el más ameno prado</l>
+            <l>nace el tronco, alimentado</l>
+            <l>de la humedad de la tierra;</l>
+            <l>del mismo humor que en sí encierra,</l>
+            <l>desnudas ramas arroja</l>
+            <l n="1070">y, sin costarle congoja,</l>
+            <l>se halla a su tiempo feliz,</l>
+            <l>sustentado en la raíz</l>
+            <l>y revestido en la hoja.</l>
+            <l>La ave, que en pajizo nido</l>
+            <l n="1075">nace con desnudez summa,</l>
+            <l>vestida se ve de pluma</l>
+            <l>sin saber quién la ha vestido,</l>
+            <l>cobra alas y halla nacido</l>
+            <l>todo cuanto ha menester;</l>
+            <l n="1080">y yo con más noble ser</l>
+            <l>que ave y tronco, ¿he de anhelar</l>
+            <l>(necesitado a buscar)</l>
+            <l>qué vestir y qué comer?</l>
+            <l>El pez, animal tan mudo</l>
+            <l n="1085">que ni gime ni respira,</l>
+            <l>con que aun los senos que gira</l>
+            <l>mover a piedad no pudo,</l>
+            <l>con ser animal tan rudo,</l>
+            <l>entre los cienos y lamas</l>
+            <l n="1090">donde no hay plumas ni ramas,</l>
+            <l>se halla en húmedas alcobas</l>
+            <l>alimentado de ovas</l>
+            <l>y defendido de escamas.</l>
+            <l>Pues, ¿cómo con más altivo</l>
+            <l n="1095">espíritu, más loable</l>
+            <l>sentido, a lo vegetable</l>
+            <l>del tronco, a lo sensitivo</l>
+            <l>de ave y pez (¡rigor esquivo!),</l>
+            <l>he de postrar y rendir</l>
+            <l n="1100">lo racional, y vivir</l>
+            <l>(a costa de mi pesar)</l>
+            <l>necesitado a buscar</l>
+            <l>qué comer y qué vestir?</l>
+            <l>¿A qué humilde, a qué sangrienta</l>
+            <l n="1105">especie en monte o campaña</l>
+            <l>no la alimenta su saña,</l>
+            <l>su pasto no la alimenta?</l>
+            <l>Y aun no con esto contenta</l>
+            <l>vive, si abrigado infiero,</l>
+            <l n="1110">lo doméstico y lo fiero</l>
+            <l>de su piel: testigos son</l>
+            <l>la melena del león</l>
+            <l>y la lana del cordero.</l>
+            <l>Pues si en una y otra esfera</l>
+            <l n="1115">nacen no necesitados,</l>
+            <l>vestidos y alimentados</l>
+            <l>tronco, ave, pez y fïera,</l>
+            <l>¿por qué desde su primera</l>
+            <l>cuna ha de ser desigual</l>
+            <l n="1120">el hombre a todos? ¡Oh!, en tal</l>
+            <l>duda, ¿quién a mi fortuna,</l>
+            <l>cielos, podrá dar alguna</l>
+            <l part="I">luz?</l>
+          </sp>
+          <stage>La RAZÓN con una hacheta</stage>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">La Razón Natural.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¿Quién alumbra mi sentido?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="I">Yo.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="1125" part="F">Razón, ¿tú estás aquí?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="I">¿Ahora me conoces?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">Sí,</l>
+            <l>que la luz con que has venido</l>
+            <l>la que me ha alumbrado ha sido.</l>
+            <l part="I">¿Qué quieres?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">Satisfacerte</l>
+            <l n="1130">de esas dudas en que a verte</l>
+            <l part="I">llego.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">¿Sabes cuáles son?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l>Para eso soy la Razón.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">¿De qué suerte?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">De esta suerte:</l>
+            <l>a tronco, ave, pez y fiera,</l>
+            <l n="1135">con cuanto contiene dentro</l>
+            <l>el ámbito de la rara</l>
+            <l>fábrica del universo,</l>
+            <l>crió Dios, y dejando aparte</l>
+            <l>los admirables portentos</l>
+            <l n="1140">con que ostentarse criador</l>
+            <l>quiso su poder inmenso,</l>
+            <l>para que sin digresiones</l>
+            <l>podamos llegar más presto</l>
+            <l>a la sujeta materia</l>
+            <l n="1145">de hoy, a su principio vuelvo.</l>
+            <l>A tronco, ave, pez y fiera</l>
+            <l>Dios crió para ornamento</l>
+            <l>de la gran naturaleza:</l>
+            <l>poético lo diga el verso,</l>
+            <l n="1150">que la admira más hermosa</l>
+            <l>en lo vario que en lo bello.</l>
+            <l>Criados una vez, ¿quién duda</l>
+            <l>que fue para mantenerlos</l>
+            <l>y no para destruirlos?</l>
+            <l n="1155">Claro corre el argumento,</l>
+            <l>pues deshacerlos le fuera</l>
+            <l>tan fácil como fue hacerlos.</l>
+            <l>Constante, pues, el que quiso</l>
+            <l>conservarlos, para efecto</l>
+            <l n="1160">de su conservación fue</l>
+            <l>preciso aplicarles medios,</l>
+            <l>criándoles con natural</l>
+            <l>abrigo y dándoles luego</l>
+            <l>también natural instinto</l>
+            <l n="1165">de conocer su alimento,</l>
+            <l>ya que sin él no podían</l>
+            <l>adquirirle por sí mesmos.</l>
+            <l>Aquí entra ahora la razón</l>
+            <l>de tu duda: ¿por qué siendo</l>
+            <l n="1170">el hombre el más noble, el más</l>
+            <l>generoso, el más perfecto</l>
+            <l>objeto de Dios, no tuvo</l>
+            <l>tan de balde como ellos</l>
+            <l>el abrigo y la comida?</l>
+            <l n="1175">Y la razón para esto</l>
+            <l>fue, si a ellos les dio el instinto,</l>
+            <l>darle a él el entendimiento,</l>
+            <l>con tantas prerrogativas</l>
+            <l>para ser mundo pequeño</l>
+            <l n="1180">como que no haya criatura</l>
+            <l>(no solo en la tierra, pero</l>
+            <l>aun en el cielo) de quien</l>
+            <l>él no subsista compuesto.</l>
+            <l>Común es con la insensible</l>
+            <l n="1185">piedra en que en cualquiera centro</l>
+            <l>ocupa lugar; común</l>
+            <l>con el tronco y demás resto</l>
+            <l>de las plantas en que nace</l>
+            <l>y crece; con la ave luego</l>
+            <l n="1190">y los demás animales</l>
+            <l>en el vital sentimiento;</l>
+            <l>con el Ángel en que entiende</l>
+            <l>y discurre; y si me elevo</l>
+            <l>a más diré que con Dios,</l>
+            <l n="1195">pues a semejanza hecho</l>
+            <l>suya, en la porción del alma</l>
+            <l>con Él conviene en lo eterno.</l>
+            <l>Y pues en lugar de instinto</l>
+            <l>elevó Dios su talento</l>
+            <l n="1200">a distinto (con que puede</l>
+            <l>entre lo malo y lo bueno</l>
+            <l>elegir con albedrío</l>
+            <l>para su merecimiento</l>
+            <l>lo mejor), piedad fue summa</l>
+            <l n="1205">la libertad de su genio,</l>
+            <l>para que bien aplicado</l>
+            <l>con la esperanza del premio</l>
+            <l>nazca, crezca, viva y obre</l>
+            <l>por actos de entendimiento.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="1210">Con tu luz, Razón, de parte</l>
+            <l>de tu razón me convenzo,</l>
+            <l>pero no sin repugnancia</l>
+            <l>de parte de mi despecho.</l>
+            <l>Que el entendimiento sea</l>
+            <l n="1215">desagravio y que prefiero</l>
+            <l>con él a cuantas criaturas</l>
+            <l>sin él animan, concedo;</l>
+            <l>pero en cuanto a que con él,</l>
+            <l>Razón, aplicarme puedo</l>
+            <l n="1220">para vivir consolado,</l>
+            <l>no es posible. ¿Qué consuelo</l>
+            <l>puede tener quien la gracia</l>
+            <l>perdió de su Padre, espuesto</l>
+            <l>a que el ingeniarse sean</l>
+            <l n="1225">cuatro rudos instrumentos?</l>
+            <l>Y esto a tiempo (para que</l>
+            <l>sea mayor mi sentimiento)</l>
+            <l>que este valle, para mí</l>
+            <l>de lágrimas, de contento</l>
+            <l n="1230">sea para los demás.</l>
+            <l>Pues la venida aplaudiendo</l>
+            <l>de mi hermano, todo es</l>
+            <l>regocijos y festejos</l>
+            <l>que hacen el cielo y la tierra,</l>
+            <l n="1235">una y otra vez diciendo…</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro</stage>
+            <l>Todos en su venida</l>
+            <l>nos alegremos,</l>
+            <l>pües en él son unos</l>
+            <l>todos los tiempos.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l n="1240">¿Ves esa venida que es</l>
+            <l>su gozo y tu sentimiento?</l>
+            <l>Pues quizá en esa venida</l>
+            <l>está, Adamo, tu remedio.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">Como ya en el valle</l>
+            <l n="1245">una vez que podrás, creo</l>
+            <l>(pues tan humano con todos</l>
+            <l>se muestra), contigo serlo,</l>
+            <l>y en los términos de humano</l>
+            <l>valerte tú de algún medio</l>
+            <l n="1250">que mejore tu fortuna.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Ya que me das el consejo,</l>
+            <l part="I">dame el modo.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">Sí daré,</l>
+            <l>tan hijo de mi concepto</l>
+            <l>que sea en Razón Natural</l>
+            <l part="I">fundado.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="M">¿Cómo?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l n="1255" part="F">Oye atento:</l>
+            <l part="I">¿no hay humana ley…?</l>
+          </sp>
+          <stage>El APETITO con algunas yerbas</stage>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">Señor,</l>
+            <l>en todos esos desiertos,</l>
+            <l>si no son silvestres frutas</l>
+            <l part="I">y amargas aguas…</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">No, necio,</l>
+            <l n="1260">con eso vengas ahora.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Pues si otra cosa no encuentro,</l>
+            <l part="I">¿con qué he de venir?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">Aparta.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Toma, que del mal el menos,</l>
+            <l>y por vivir hay quien tome</l>
+            <l n="1265">aun peores récipes que estos.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Déjame, que ahora estoy</l>
+            <l part="I">ocupado.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">¿Cómo puedo</l>
+            <l part="I">si soy tu Apetito?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">Como</l>
+            <l part="I">te lo mando yo.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">¡Eso es bueno!</l>
+            <l n="1270">¿De cuándo acá al Apetito</l>
+            <l part="I">mandas tú?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">Desde que tengo</l>
+            <l>a la luz de la Razón</l>
+            <l>en ella el discurso puesto.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Acuérdate de que ayer</l>
+            <l n="1275">quisiste en el caso mesmo</l>
+            <l>apartarme y no pudiste.</l>
+          </sp>
+          <stage>Luchan los dos</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">Quizá podré hoy.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">¿Cómo, cielos,</l>
+            <l>ahora soy yo el que desmayo?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Como ahora soy yo el que aliento.</l>
+            <l n="1280">Vete, villano, de aquí,</l>
+            <l>y persuádame a que puedo</l>
+            <l>apartar al Apetito</l>
+            <l>cuando a la Razón me acerco.</l>
+            <l>Y pues sin él he quedado,</l>
+            <l n="1285">prosigue lo que diciendo</l>
+            <l part="I">ibas.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">No hay divina ley</l>
+            <l>en el natural derecho</l>
+            <l>que diga que pueda un padre</l>
+            <l>negar a su hijo el sustento,</l>
+            <l n="1290">ni tampoco ley que diga</l>
+            <l>en el político fuero</l>
+            <l>que le deje a que mendigue,</l>
+            <l>ni trabaje en tan groseros</l>
+            <l>ejercicios que desluzgan</l>
+            <l n="1295">lo alto de su nacimiento;</l>
+            <l>que, desheredado, aún guarda</l>
+            <l>en sí los claros trofeos</l>
+            <l>de su sangre, y pues tu hermano</l>
+            <l>está ya en posesión puesto</l>
+            <l n="1300">del mayorazgo, en justicia</l>
+            <l>y en fee de ser el consejo</l>
+            <l>puesto en Razón Natural,</l>
+            <l>puedes pedirle alimentos.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>El medio que dices fuera</l>
+            <l n="1305">para mí lustroso medio</l>
+            <l>si me atreviera a admitirle.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="I">Pues, ¿qué es lo que temes?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">Temo</l>
+            <l>que, yo pobre, él poderoso,</l>
+            <l>haya de tener mal pleito.</l>
+            <l n="1310">Fuera de eso, ¿dónde hay</l>
+            <l>caudal para los derechos</l>
+            <l part="I">y las demás costas?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">No</l>
+            <l>eso te aflija; yo tengo</l>
+            <l>un procurador amigo</l>
+            <l n="1315">tan afable, tan atento,</l>
+            <l>tan benigno, tan piadoso</l>
+            <l>y familiar compañero</l>
+            <l>del hombre, que el ejercicio</l>
+            <l>de que hace mayor aprecio</l>
+            <l n="1320">es, sobre procurador,</l>
+            <l>ser también su agente; y creo</l>
+            <l>que como te valgas dél,</l>
+            <l>él siga a su costa el pleito</l>
+            <l>(adornando tu persona</l>
+            <l n="1325">de traje menos grosero</l>
+            <l>con que puedas parecer</l>
+            <l>en tribunal tan supremo),</l>
+            <l>con la esperanza de que,</l>
+            <l>saliendo en favor, el precio</l>
+            <l part="I">de sus salarios sea…</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="1330" part="F">Di.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l>… solo tu agradecimiento.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Que nunca le seré ingrato</l>
+            <l>una y mil veces ofrezco.</l>
+            <l>¿Dónde vive para que</l>
+            <l n="1335">vaya a buscarle al momento?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l>Su posada, Adamo, es</l>
+            <l>de aqueste valle muy lejos.</l>
+            <l>No tienes que ir a buscarle,</l>
+            <l>que él, movido de su afecto,</l>
+            <l n="1340">sabiendo que yo venía</l>
+            <l>a alumbrar tu entendimiento,</l>
+            <l>con deseo de saber</l>
+            <l>si aceptabas mi consejo</l>
+            <l>se adelantó a mí, de suerte</l>
+            <l n="1345">que ya contigo primero</l>
+            <l part="I">estaba que yo.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">¿Conmigo?</l>
+            <l>¿Cómo, si yo no le veo?</l>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <stage>Dale el hacha y sale el ÁNGEL</stage>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l>Toma esta luz y verasle,</l>
+            <l>significándose en esto</l>
+            <l n="1350">que a la luz de la Razón</l>
+            <l>le ve el alma, mas no el cuerpo.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>¡Qué hermoso, divino joven!</l>
+            <l>¿No es este el que en mi despeño</l>
+            <l>guareció mi vida? ¿No es</l>
+            <l n="1355">el que anunciando misterios</l>
+            <l>que alentaron mi esperanza</l>
+            <l>le vi iluminar el viento?</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l>Ahí verás cuánto es verdad</l>
+            <l>que llega al hombre primero</l>
+            <l n="1360">el Ángel que la Razón.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">A tus pies.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Alza del suelo;</l>
+            <l part="I">llega a mis brazos.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">Eso es</l>
+            <l>querer levantarme al cielo.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Claro está que levantarte</l>
+            <l n="1365">a él es lo que yo pretendo;</l>
+            <l>para eso vine a asistirte</l>
+            <l>librándote antes de riesgos,</l>
+            <l>dándote después auxilios</l>
+            <l>sin saber quién (alto genio</l>
+            <l n="1370">lo diga), dando a Dios gracias</l>
+            <l>por los beneficios hechos,</l>
+            <l>que sabía y no sabía.</l>
+            <l>Y pues al blando reflejo</l>
+            <l>de esa luz interiormente</l>
+            <l n="1375">me estás por ahora viendo,</l>
+            <l>¿qué es lo que quieres de mí?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Si a mis metáforas vuelvo,</l>
+            <l>pobre estoy, desnudo estoy,</l>
+            <l>con hambre estoy y pretendo</l>
+            <l n="1380">(puesto que desheredado</l>
+            <l>del mayorazgo me veo</l>
+            <l>de mi Padre) que me dé</l>
+            <l>su poseedor alimentos.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Yo te ofrezco el ayudarte.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="1385">Yo agradecértelo ofrezco.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Pues ven a otorgar poder</l>
+            <l>para que yo siga el pleito.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="I">¿Ante quién?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Ante Bernardo,</l>
+            <l>en cuyos archivos creo</l>
+            <l n="1390">que paran las escripturas</l>
+            <l>que me hacen en su contexto</l>
+            <l>agente y procurador</l>
+            <l part="I">del hombre.</l>
+          </sp>
+          <stage>Dentro instrumentos y voces como a lo lejos</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">Mucho recelo</l>
+            <l>litigar con poderoso,</l>
+            <l n="1395">y más cuando al tratar de esto</l>
+            <l>está todo el vasallaje</l>
+            <l>de mi Padre tan contento</l>
+            <l>de verle en el valle, como</l>
+            <l>esas voces y instrumentos</l>
+            <l n="1400">en su aplauso significan,</l>
+            <l>una y otra vez diciendo…</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro</stage>
+            <l>Todos en su venida</l>
+            <l>nos alegremos,</l>
+            <l>pües en él son unos</l>
+            <l n="1405">todos los tiempos.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l>Nada receles, que siempre</l>
+            <l>quien pide tiene buen pleito,</l>
+            <l>pues si le pierde se queda</l>
+            <l>como se estaba primero,</l>
+            <l n="1410">y si le gana se halla</l>
+            <l part="I">con lo que no tenía.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">A eso</l>
+            <l>añade, Razón, que quien</l>
+            <l>pide a generoso dueño,</l>
+            <l>ser fuerza que algo reciba</l>
+            <l n="1415">dice sagrado proverbio.</l>
+          </sp>
+          <stage>Los instrumentos y voces más cerca</stage>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Con todo eso, me acobarda</l>
+            <l>que vengan hacia este puesto,</l>
+            <l>y no tanto por envidia</l>
+            <l>de ver su festivo obsequio,</l>
+            <l n="1420">cuanto porque ya al mirarle</l>
+            <l>como acreedor me avergüenzo.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="I">Pues no temas.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Pues no dudes.</l>
+          </sp>
+          <sp who="#razon #angel">
+            <speaker>LOS DOS</speaker>
+            <l>Sino, usa de tu derecho</l>
+            <l>y pide, espera y confía.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="1425">Con tu luz y con tu aliento,</l>
+            <l>¿qué he de temer ni dudar?</l>
+          </sp>
+          <sp who="#razon #angel #adamo">
+            <speaker>LOS TRES</speaker>
+            <l>Por más que repita el viento…</l>
+          </sp>
+          <sp who="#musicos #invierno #demonio #primavera #lucero #estio #aurora #otono #emanuel #acompanamiento #apetito #razon #angel #adamo">
+            <speaker>MÚSICA Y TODOS</speaker>
+            <l>Todos en su venida</l>
+            <l>nos alegremos,</l>
+            <l n="1430">pües en él son unos</l>
+            <l>todos los tiempos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <stage>Con esta repetición se entran los tres por una parte, y salen por otra cantando y bailando los demás, delante de EMANUEL. Y adviértase que cada tiempo canta su copla de por sí, y todos el estribillo, sin cesar el baile ni los instrumentos, aunque represente EMANUEL sus versos entre copla y copla</stage>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <stage>Trae una guirnalda</stage>
+            <l>La hermosa Primavera</l>
+            <l>con sus matices bellos</l>
+            <l>corone los dorados</l>
+            <l n="1435">rizos de tu cabello,</l>
+            <l>sin temer que su pompa</l>
+            <l>marchite el cierzo.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Cruzados</stage>
+            <l>Pües en ti son unos</l>
+            <l>todos los tiempos.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l n="1440">La corona de rosas</l>
+            <l>te estimo, pero</l>
+            <l>verlas entre espinas</l>
+            <l>es lo que siento.</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <stage>Tray unas espigas</stage>
+            <l>Las fértiles espigas</l>
+            <l n="1445">que en mis campos amenos</l>
+            <l>dora el sol, humedece</l>
+            <l>la alba y enjuga el viento,</l>
+            <l>te ofrezco, sin temor</l>
+            <l>de platearlas el yelo.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Corros</stage>
+            <l n="1450">Pües en ti son unos</l>
+            <l>todos los tiempos.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Yo sus haces admito,</l>
+            <l>bien que recelo</l>
+            <l>que ha de haber quien siembre</l>
+            <l n="1455">cizaña entre ellos.</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <stage>Tray unas vides</stage>
+            <l>Yo el fruto de mis vides</l>
+            <l>a tus plantas ofrezco</l>
+            <l>en el pámpano opimo,</l>
+            <l>en el lagar opreso,</l>
+            <l n="1460">sin temer que en agraces</l>
+            <l>quede el sarmiento.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Bandas</stage>
+            <l>Pües en ti son unos</l>
+            <l>todos los tiempos.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Mira a quién recibes</l>
+            <l n="1465">por jornalero,</l>
+            <l>no haya viña ingrata</l>
+            <l>para su dueño.</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <stage>Tray un vellón</stage>
+            <l>Pastor de tus ganados,</l>
+            <l>de ellos yo te presento</l>
+            <l n="1470">recental que celebre</l>
+            <l>la Pascua del cordero,</l>
+            <l>sin quejarse el balido</l>
+            <l>de que hubo invïerno.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Por defuera</stage>
+            <l>Pües en ti son unos</l>
+            <l n="1475">todos los tiempos.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Con más gusto que todos</l>
+            <l>tu don acepto,</l>
+            <l>que cordero inmolado</l>
+            <l>dice misterios.</l>
+          </sp>
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #angel #adamo #primavera #estio #otono #invierno #musicos #emanuel">
+            <speaker>TODOS</speaker>
+            <stage>Cantado</stage>
+            <l n="1480">Pües también tu agrado</l>
+            <l>dice consuelos.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Cantado</stage>
+            <l>Todos en tu venida</l>
+            <l part="I">nos alegremos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <stage>Sale el ÁNGEL</stage>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Suspended</l>
+            <l>los dulces cánticos vuestros,</l>
+            <l n="1485">que aunque tan gloriosamente</l>
+            <l>los escuchen tierra y cielo,</l>
+            <l>pronunciados de la voz</l>
+            <l>y repetidos del eco,</l>
+            <l>bien con la legal disculpa</l>
+            <l n="1490">de mi obligación me atrevo,</l>
+            <l>no digo que a interrumpirlos,</l>
+            <l>sino solo a suspenderlos.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="I">¿Qué legal disculpa?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Aquella</l>
+            <l>que para ejercer el puesto</l>
+            <l n="1495">de procurador del hombre</l>
+            <l>me ha dado tu Padre mesmo,</l>
+            <l>con cuyo cargo del real</l>
+            <l>alcázar suyo desciendo.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="I">¿A qué fin?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Pues, tan humano,</l>
+            <l n="1500">ya en este valle viviendo</l>
+            <l>a humano modo te ajustas</l>
+            <l>tú a preguntarlo, bien puedo</l>
+            <l>ajustarme a humano modo</l>
+            <l>yo a responderte, corriendo</l>
+            <l n="1505">el velo a una luz que solo</l>
+            <l>la transparentaba el velo.</l>
+            <l>Adamo, tu hermano, humilde</l>
+            <l>y postrado, a tus pies puesto</l>
+            <l>para cumplir con la salva,</l>
+            <l n="1510">el decoro y rendimiento</l>
+            <l>debido a personas tales</l>
+            <l>a quien se les pone pleito,</l>
+            <l>por mí te suplica que,</l>
+            <l>viéndose pobre en extremo,</l>
+            <l n="1515">des licencia a que por él,</l>
+            <l>con mi obligación cumpliendo</l>
+            <l>ante la justicia real,</l>
+            <l>presente este pedimento.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="I">Léele, pues.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Custodio, en nombre</l>
+            <l n="1520">de Adamo, con el respeto</l>
+            <l>y en la mejor forma y vía</l>
+            <l>que haya lugar de derecho,</l>
+            <l>ante el alto tribunal</l>
+            <l>de vuestra alteza parezco,</l>
+            <l n="1525">y presentándome digo</l>
+            <l>que el dicho mi parte, habiendo</l>
+            <l>nacido primero hijo</l>
+            <l>y legítimo heredero</l>
+            <l>del más rico mayoral,</l>
+            <l n="1530">pues no hay en el universo</l>
+            <l>haberes que no sean suyos,</l>
+            <l>y habiendo fundado de ellos</l>
+            <l>mayorazgo en su cabeza,</l>
+            <l>le revocó el nombramiento,</l>
+            <l n="1535">pasándole en Emanuel,</l>
+            <l>su hermano (menor en tiempo,</l>
+            <l>bien que sin tiempo mayor,</l>
+            <l>según que allá en su concepto</l>
+            <l>le engendró para mirarse</l>
+            <l n="1540">en él como en un espejo),</l>
+            <l>y que no tan solamente</l>
+            <l>desheredándole, pero</l>
+            <l>echándole de su casa</l>
+            <l>a vivir en los desiertos,</l>
+            <l n="1545">padece destituido</l>
+            <l>de cuantos humanos medios</l>
+            <l>en ley natural está</l>
+            <l>obligado a socorrerlo.</l>
+            <l>Por tanto, pido y suplico</l>
+            <l n="1550">que a su calidad atento,</l>
+            <l>al lustre de su nobleza</l>
+            <l>y al sumo caudal y aprecio</l>
+            <l>de su fundación, provea</l>
+            <l>auto en que su hermano, dueño</l>
+            <l n="1555">que hoy se halla del mayorazgo,</l>
+            <l>le acuda con alimentos</l>
+            <l>competentes a su sangre</l>
+            <l>y a su estado; a cuyo efecto,</l>
+            <l>caso que sea necesario,</l>
+            <l n="1560">a mayor abundamiento</l>
+            <l>de su ligitimidad,</l>
+            <l>hambre y desnudez, ofrezco</l>
+            <l>información, y en su nombre</l>
+            <l>juro que este pedimento</l>
+            <l n="1565">no es de malicia. Otrosí,</l>
+            <l>suplico durante el pleito</l>
+            <l>se le den litis espensas,</l>
+            <l>para lo cual formó expreso</l>
+            <l>primero artículo con</l>
+            <l n="1570">debido pronunciamiento.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="I">¿Esa es la petición?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Sí,</l>
+            <l>y escrita (porque el consejo</l>
+            <l>la admita) en papel sellado,</l>
+            <l>en uno de siete sellos</l>
+            <l n="1575">que algún venturoso día</l>
+            <l>serán siete sacramentos.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>¿Y tú has de ser quien la lleve</l>
+            <l part="I">a presentar?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">¿Será nuevo</l>
+            <l>ver que soy yo quien del hombre</l>
+            <l n="1580">las peticiones presento?</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>¿En tribunal de justicia?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Líbrame, dijo algún verso,</l>
+            <l>en tu justicia, Señor;</l>
+            <l>y, así, en justicia pretendo</l>
+            <l n="1585">libramientos que sean gracias,</l>
+            <l>cuando de sus libramientos</l>
+            <l>pagues tú todas las costas.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Sí pagaré, y te agradezco</l>
+            <l>que de Adamo a las miserias</l>
+            <l n="1590">asistas con tanto afecto,</l>
+            <l>porque no le quieres tú</l>
+            <l>tanto como yo le quiero;</l>
+            <l>pero aunque a su petición</l>
+            <l>respondiera desde luego</l>
+            <l n="1595">liberal, vive mi Padre</l>
+            <l>y es preciso darle de esto</l>
+            <l>parte, que aunque me entregó</l>
+            <l>de sus gentes el gobierno,</l>
+            <l>disponer de sus haberes,</l>
+            <l n="1600">sus dignidades y puestos,</l>
+            <l>no está en mí, sino en quien él</l>
+            <l>ha antevisto. Si dos deudos,</l>
+            <l>dos familiares amigos,</l>
+            <l>me pidiesen los asientos</l>
+            <l n="1605">de mi diestra y mi siniestra,</l>
+            <l>les respondiera lo mesmo.</l>
+            <l>Y así, para que esta instancia</l>
+            <l>corra con todo el severo</l>
+            <l>rigor de justicia, venga</l>
+            <l n="1610">según conforme a derecho,</l>
+            <l>que a su notificación</l>
+            <l part="I">yo responderé.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Si puedo</l>
+            <l>atreverme a preguntarte,</l>
+            <l part="I">¿qué responderás?</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="F">¿No es cierto</l>
+            <l n="1615">que responda que lo oigo</l>
+            <l>y en el oficio el proceso</l>
+            <l part="I">se ponga?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Dame tus plantas.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="I">Pues, ¿por qué?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Por el consuelo</l>
+            <l>de que si él pide y tú oyes,</l>
+            <l n="1620">mi parte tiene buen pleito.</l>
+            <l>A poner voy al oficio</l>
+            <l part="I">la petición.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="F">Saber quiero</l>
+            <l part="I">a qué oficio.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Petición</l>
+            <l>del hombre que yo la llevo</l>
+            <l n="1625">y tú la oyes, ¿dónde ha de ir</l>
+            <l>sino al oficio del rezo?</l>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <stage>Vase</stage>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Porque o necio o temerario</l>
+            <l>no haya quien juzgue que siento</l>
+            <l>la demanda, proseguid</l>
+            <l n="1630">con el regocijo vuestro,</l>
+            <l>en tanto que, dando vista,</l>
+            <l>voy por aquestos amenos</l>
+            <l>campos a mieses y viñas.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>Habiendo todos atentos</l>
+            <l n="1635">a plática tan sagrada</l>
+            <l>estado en mudo silencio,</l>
+            <l>por ver si entendemos algo</l>
+            <l>de lo mucho que creemos,</l>
+            <l>y viendo que ahora nos mandas</l>
+            <l n="1640">proseguir con el contento</l>
+            <l>de tu venida, de uno</l>
+            <l>y otro misterioso extremo</l>
+            <l>se ha de componer el himno</l>
+            <l>que tras ti cantando iremos.</l>
+          </sp>
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
+            <speaker>TODOS</speaker>
+            <l part="I">¿Qué himno?</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l n="1645" part="F">El que yo iré dictando</l>
+            <l>y vosotros repitiendo.</l>
+
+            <l>Pues desheredado el hombre,</l>
+            <l>humilde pide alimentos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <stage>Cantando la PRIMAVERA y respondiendo la mujer. Sale el DEMONIO como oyendo a lo lejos. (Cantado)</stage>
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
+            <speaker>TODOS</speaker>
+            <l>«Pues desheredado el hombre,</l>
+            <l n="1650">humilde pide alimentos».</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <stage>Cantado</stage>
+            <l>Contestando su demanda</l>
+            <l>en el oficio del rezo.</l>
+          </sp>
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
+            <speaker>TODOS</speaker>
+            <l>«Contestando su demanda</l>
+            <l>en el oficio del rezo».</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <stage>Cantado</stage>
+            <l n="1655">¿Quién duda, si él pone el llanto,</l>
+            <l>si custudio pone el ruego</l>
+            <l>y el heredero el oído,</l>
+            <l>que gane en justicia el pleito?</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Dices bien, y así con todos</l>
+            <l n="1660">iré yo también diciendo…</l>
+          </sp>
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #primavera #emanuel">
+            <speaker>TODOS</speaker>
+            <l>¿Quién duda, si él pone el llanto,</l>
+            <l>si custudio pone el ruego</l>
+            <l>y el heredero el oído,</l>
+            <l>que gane en justicia el pleito?</l>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <stage>Con esta repetición, cantando y representando, se entran todos; y sale el DEMONIO</stage>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l n="1665">Yo lo dudo, pues antes en justicia</l>
+            <l>le acusa la sacrílega malicia</l>
+            <l>de aquel primer delito</l>
+            <l>que el infinito objeto hizo infinito;</l>
+            <l>y si por esto dijo</l>
+            <l n="1670">custodio que hoy había</l>
+            <l>de ser la competencia suya y mía</l>
+            <l>litigada en justicia, ¿qué me aflijo,</l>
+            <l>pues me cita a campaña que yo elijo?</l>
+            <l>Siempre que en nuestro antiguo, mortal duelo,</l>
+            <l n="1675">cuando el del hombre apela en la discordia</l>
+            <l>al tribunal de la misericordia,</l>
+            <l>yo al tribunal de la justicia apelo,</l>
+            <l>que aunque ofendido el cielo</l>
+            <l>a nunca abrirlas me cerró las puertas,</l>
+            <l n="1680">para mi acusación las dejó abiertas;</l>
+            <l>y hasta sus más aladas jerarquías</l>
+            <l>permite entrar sin mí las voces mías.</l>
+            <l>Y así (¡oh igual atributo</l>
+            <l>de Dios!), pues en su inmenso, en su absoluto</l>
+            <l n="1685">poder no hay (¡oh, piadoso!, ¡oh, justiciero!)</l>
+            <l>mayor, menor, primero ni postrero,</l>
+            <l>atiende a mi querella,</l>
+            <l>y corriendo de aquella</l>
+            <l>sala que a mayorazgos nombrar sueles,</l>
+            <l n="1690">los cristalinos, diáfanos canceles</l>
+            <l>de tus palacios reales,</l>
+            <l>oye mis quejas, ya que no mis males</l>
+            <l>oigas; pues en tu siempre sacra idea,</l>
+            <l>o rico o pobre o grande o menor, sea</l>
+            <l n="1695">primero oído al que a pedir se mueve,</l>
+            <l>justicia de justicia se le debe;</l>
+            <l>y así, aunque soy quien soy, tú eres quien eres</l>
+            <l part="I">y debes escucharme.</l>
+          </sp>
+          <stage>Las chirimías. Ábrese un carro y vese en él la JUSTICIA, dama bizarra, con una vara dorada en una mano y en otra un peso, sentada en un trono</stage>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="F">¿Qué me quieres?,</l>
+            <l>que ya te escucho, por mostrar en eso</l>
+            <l n="1700">la equidad de esta vara y de este peso;</l>
+            <l>pues aun contigo ni ella hace mudanza,</l>
+            <l>ni él declina en el fiel de su balanza.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Mis penas son tan graves</l>
+            <l>que las diré, aunque sé que tú las sabes.</l>
+            <l n="1705">De Adamo fue el delito</l>
+            <l>tal que en la sujeción de un Apetito</l>
+            <l>cifró cuantos la ley ha imaginado</l>
+            <l>para haber de vivir desheredado;</l>
+            <l>esto no obstante, altivos sus intentos,</l>
+            <l n="1710">pleito a su hermano ha puesto de alimentos:</l>
+            <l>que lo oye ha respondido,</l>
+            <l>sin guardar para mí segundo oído.</l>
+            <l>Con que mostrarme parte es justo empeño,</l>
+            <l>pues según su malicia,</l>
+            <l n="1715">en presente justicia</l>
+            <l>es mi esclavo, y demás de ser su dueño,</l>
+            <l>por ti es justo también que no le quede</l>
+            <l>ejecutoria al hombre de que puede</l>
+            <l>cometer sin temor mortal pecado</l>
+            <l n="1720">de vivir y morir desamparado.</l>
+            <l>Y, así, a pedirte vengo</l>
+            <l>pública audiencia en que alegar prevengo</l>
+            <l>(lo uno de parte mía,</l>
+            <l>lo otro de parte de tu regalía)</l>
+            <l n="1725">cuánto es su pena igual a mí y al cielo.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l>Aunque sé que ese es odio más que celo,</l>
+            <l>no he de negar la audiencia,</l>
+            <l>que para haber de pronunciar sentencia,</l>
+            <l>oír a ambas partes propia acción es mía.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l n="1730">Señala, pues, para la vista el día.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l>Ese ha de señalar el tiempo, cuando</l>
+            <l>vayan por él los términos pasando</l>
+            <l>que goza el que litiga.</l>
+            <l>Dile a él que te lo diga,</l>
+            <l n="1735">que yo, observando en todo el legal uso,</l>
+            <l>en el día que el pleito esté concluso,</l>
+            <l>rasgando el azul velo</l>
+            <l>que en sus claustros me encierra,</l>
+            <l>a conocer descenderé del cielo</l>
+            <l n="1740">de cuánto contra paz y verdad yerra,</l>
+            <l>prevaricando el centro de la tierra.</l>
+          </sp>
+          <stage>Cúbrese el carro Van saliendo los tiempos con sus versos, dando vueltas alrededor</stage>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Al tiempo me remite.</l>
+            <l>Saberlo, pues, del tiempo solicite:</l>
+            <l>dime, ¡oh tú, Primavera!,</l>
+            <l n="1745">siempre del año la estación primera,</l>
+            <l>en qué estado del hombre el pleito anda.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>En estar contestando la demanda.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Ya contestada, ¿en qué su pleito estriba?</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l>En remitir para difinitiva</l>
+            <l n="1750">su artículo primero.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>¿Qué consigue (de ti saber espero)</l>
+            <l part="I">el mayorazgo de eso?</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l part="F">El haber dado</l>
+            <l>al mayoral su fundador traslado.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Y di, el procurador que a Adamo asiste,</l>
+            <l n="1755">¿en qué ahora subsiste?</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l>En que dársele deba</l>
+            <l>el término ordinario de la prueba.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>¿Qué prueba o qué testigo habrá que diga?</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>Yo, que vi la fatiga</l>
+            <l n="1760">con que iba mendigando.</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l>Yo, que le vi su desnudez llorando.</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l>Yo de hambre padeciendo.</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l>Y yo las destemplanzas mías sintiendo.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>Sin tributarle nada</l>
+            <l n="1765">de mis frutos, pues solo fue una azada</l>
+            <l>el don que yo le he dado.</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l part="I">Yo una hoz.</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l part="M">Yo una segur.</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l part="F">Y yo un cayado.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>Con que claro se indicia</l>
+            <l>ser de necesidad, no de codicia</l>
+            <l part="I">el pleito.</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l n="1770" part="F">Y con que habiendo presentado</l>
+            <l>ya en él la alegación de bien probado…</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l>… de ambas partes concluso…</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l>… con todo el fuero que la ley dispuso…</l>
+          </sp>
+          <sp who="#primavera #estio #otono #invierno">
+            <speaker>LOS CUATRO</speaker>
+            <l>… sin que el tiempo los términos resista,</l>
+            <l n="1775">dice la citación para la vista.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro</stage>
+            <l>Vengan las partes, vengan a la audiencia</l>
+            <l>del pleito de alimentos a oír sentencia.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>¡Oh!, qué dichoso fuera</l>
+            <l>el hombre si supiera</l>
+            <l n="1780">aprovechar cuanto es su vida escasa,</l>
+            <l>al ver del tiempo la veloz carrera</l>
+            <l>con que enlazado de uno en otro pasa.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>El corazón traspasa</l>
+            <l>ver cuán triste en la sala Adamo ha entrado,</l>
+            <l n="1785">de su procurador acompañado.</l>
+          </sp>
+          <stage>ADAMO y ÁNGEL por una parte, y EMANUEL por otra</stage>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l part="I">Y qué alegre Emanuel.</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l part="F">Pues que le vemos</l>
+            <l>solo, justo será le acompañemos,</l>
+            <l>repitiendo los ecos que veloces</l>
+            <l>en ese patio están diciendo a voces…</l>
+          </sp>
+          <sp who="#lucero #aurora #acompanamiento #apetito #razon #adamo #angel #emanuel #justicia #invierno #musicos #demonio #primavera #estio #otono">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l n="1790">Vengan las partes, vengan,</l>
+            <l>del pleito de alimentos a oír sentencia.</l>
+          </sp>
+          <stage>Las chirimías, y vuélvese a ver el trono de la JUSTICIA, y en él sentada. Baja hasta el tablado, llega la RAZÓN a la grada y dándola la mano se abrazan los dos</stage>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>Ya del trono desciende</l>
+            <l part="I">la Justicia a su sala.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="F">Bien se entiende</l>
+            <l>en esto la noticia</l>
+            <l n="1795">de que viene del cielo la Justicia.</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l>A recibirla sale</l>
+            <l part="I">la Razón Natural.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l part="F">Y si se vale</l>
+            <l>de ser quien más desea</l>
+            <l>la paz del hombre para que se vea</l>
+            <l n="1800">cumplido el salmo, apenas se miraron</l>
+            <l>cuando paz y justicia se abrazaron.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l>Dame tu mano, divina</l>
+            <l part="I">virtud.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="F">A mis brazos llega,</l>
+            <l part="I">humana deidad.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l part="F">Con bien,</l>
+            <l n="1805">señora, a tu estrado vengas,</l>
+            <l>donde, aunque seas Justicia,</l>
+            <l>tengo de esperar clemencia</l>
+            <l part="I">el hombre.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l part="F">Puesto a tus plantas,</l>
+            <l>a sombra de la luz bella</l>
+            <l n="1810">de la Razón, te suplica</l>
+            <l>el que de él te compadezcas.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Yo para mí no te pido</l>
+            <l>piedad, porque de manera</l>
+            <l>quiero a Adamo, mi hermano,</l>
+            <l n="1815">que quiero que en mí se entienda</l>
+            <l>cuán tibio lidia quien lidia</l>
+            <l>con gana de que le venzan.</l>
+            <l>Medianero entre mi Padre</l>
+            <l>y él, con tal pasión me lleva</l>
+            <l n="1820">su amor que, en vez de piedad,</l>
+            <l>justicia te pido, en muestra</l>
+            <l>de cuánto aquel desenojo</l>
+            <l>deseo y qué satisfecha</l>
+            <l>su culpa, en todo rigor</l>
+            <l n="1825">de justicia, aunque yo sea</l>
+            <l>el que ha de pagar las costas</l>
+            <l>de sus alimentos. Vean</l>
+            <l>no solo la Razón, pero</l>
+            <l>cielo, sol, lunas y estrellas,</l>
+            <l n="1830">aves, peces, flores, plantas,</l>
+            <l>aire, agua, fuego y tierra,</l>
+            <l>que tuve yo los dolores</l>
+            <l>porque él los consuelos tenga.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l>Está bien; y pues forzoso</l>
+            <l n="1835">es, habiendo quien se muestra</l>
+            <l>parte que le haya de oír,</l>
+            <l>a cobrar mi asiento vuelva,</l>
+            <l>y vuelvan también las voces</l>
+            <l>a llamar por si alguien resta.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l n="1840">Vengan las partes, vengan</l>
+            <l>del pleito de alimentos a oír sentencia.</l>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <stage>Sale el APETITO</stage>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Ya yo vengo como parte,</l>
+            <l>pues que ninguno interesa</l>
+            <l>más que el Apetito en que haya</l>
+            <l part="I">alimentos.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="1845" part="F">¿Aquí entras,</l>
+            <l part="I">villano?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F">Pues, ¿por qué no?</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Porque sin verte se vea</l>
+            <l>que no reina el Apetito</l>
+            <l>a donde la Razón reina.</l>
+            <l part="I">Vete de aquí.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l n="1850" part="F">Yo me iré,</l>
+            <l>pero haré lo que las dueñas,</l>
+            <l>que desde el recibimiento</l>
+            <l>ya que no escuchan, acechan.</l>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <stage>Vase</stage>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l>Vengan las partes, vengan</l>
+            <l n="1855">del pleito de alimentos a oír sentencia.</l>
+          </sp>
+          <stage>Siéntase la JUSTICIA en su trono, y ponen delante dél un bufete con escribanía y campanilla, y ábrese otro carro en que estará sentado en otro trono el PADRE DE FAMILIAS</stage>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l>En una de las escuchas</l>
+            <l>en este alcázar dispuestas,</l>
+            <l>a efecto de saber cómo</l>
+            <l>mis magistrados gobiernan</l>
+            <l n="1860">en el pleito de alimentos</l>
+            <l>que hoy se ve, quiero desde ésta</l>
+            <l>(que a sala cay de Justicia)</l>
+            <l>oír lo que resulta de ella.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="I">Hablen las partes.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="F">Yo, a quien</l>
+            <l n="1865">la fiscal compete en esta</l>
+            <l>querella, hablaré el primero.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l>¿Es su regalía esa?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Hablar le toca, señora.</l>
+          </sp>
+          <stage>Toca la campanilla y responden dos coros</stage>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="I">Pues, ¿qué aguardas?</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="F">Tu licencia.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="I">Silencio.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l n="1870" part="F">Silencio.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l>Y todos atiendan.</l>
+          </sp>
+          <sp who="#coro-1">
+            <speaker>CORO 1.º</speaker>
+            <l>Justicia, justicia.</l>
+          </sp>
+          <sp who="#coro-2">
+            <speaker>CORO 2.º</speaker>
+            <l>Clemencia, clemencia.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>Del derecho de mi parte</l>
+            <l n="1875">es la pretensión (¡oh excelsa</l>
+            <l>Justicia!) que has de servirte</l>
+            <l>de denegar a la opuesta,</l>
+            <l>sobre perpetuo silencio,</l>
+            <l>los alimentos y espensas</l>
+            <l n="1880">que pretende, y condenarle</l>
+            <l>en las costas y en las penas</l>
+            <l>en que ha incurrido, pues solo</l>
+            <l>en un delito se encierran</l>
+            <l>cuantas el civil derecho</l>
+            <l n="1885">concede a un padre que pueda</l>
+            <l>desheredar a su hijo,</l>
+            <l>como son: la inobediencia,</l>
+            <l>la ingratitud, el respeto</l>
+            <l>ofendido, la sospecha</l>
+            <l n="1890">de no fiel, la de traidor,</l>
+            <l>de usar de mágicas ciencias,</l>
+            <l>ser disipador de bienes,</l>
+            <l>verse notado de afrentas</l>
+            <l>y, en fin, de su mismo ser</l>
+            <l n="1895">destruidor. ¿Qué mayor prueba</l>
+            <l>de todo que ver la ley</l>
+            <l>quebrantada, ver la hacienda</l>
+            <l>hecha mayorazgo en él</l>
+            <l>por una mujer deshecha</l>
+            <l n="1900">(con quien pródigo gastó</l>
+            <l>todo el caudal de sus rentas,</l>
+            <l>como si importara más</l>
+            <l>contristarla que perderla),</l>
+            <l>ver el respeto perdido</l>
+            <l n="1905">del Padre? Pues su soberbia</l>
+            <l>quiso, contra él conspirando,</l>
+            <l>igualarse a él, consecuencia</l>
+            <l>que también le hace traidor</l>
+            <l>en el delito de lesa</l>
+            <l n="1910">majestad, pues contra el rey</l>
+            <l>peca el que atrevido peca</l>
+            <l>contra el padre, como Padre</l>
+            <l>universal. Aquí entra</l>
+            <l>el ser también sospechoso</l>
+            <l n="1915">en la fee, pues creyó que era</l>
+            <l>más verdad lo que le dijo</l>
+            <l>una encantada culebra</l>
+            <l>que quien le dio ser y vida;</l>
+            <l>a cuyo terror se llega</l>
+            <l n="1920">el de la superstición,</l>
+            <l>pues hizo pacto con ella</l>
+            <l>implícito, concurriendo</l>
+            <l>al que hizo la mujer mesma.</l>
+            <l>Ignominioso padrón</l>
+            <l n="1925">en la arrugada corteza</l>
+            <l>de un tronco lo diga, en quien</l>
+            <l>durará su infamia eterna.</l>
+            <l>Omito otras muchas causas,</l>
+            <l>que decirlas todas fuera</l>
+            <l n="1930">proceder en infinito,</l>
+            <l>y voy solamente a aquella</l>
+            <l>que como cabeza incluye</l>
+            <l>todas las demás cabezas.</l>
+            <l>Lesa majestad divina</l>
+            <l n="1935">comete el padre que deja,</l>
+            <l>pudiéndolos rescatar,</l>
+            <l>a que cautivos padezcan</l>
+            <l>en infiel patria sus hijos,</l>
+            <l>expuestos a contingencia</l>
+            <l n="1940">de prevaricar, por cuya</l>
+            <l>partícipe culpa, expresa</l>
+            <l>ley le condena a morir.</l>
+            <l>Pues si Adamo cometerla</l>
+            <l>pudo el día que no solo</l>
+            <l n="1945">a que sus hijos perezcan</l>
+            <l>esclavos los deja, pero</l>
+            <l>a toda su descendencia,</l>
+            <l>haciéndose reo de muerte,</l>
+            <l>¿qué mucho si por cualquiera</l>
+            <l n="1950">de estas causas puede el Padre</l>
+            <l>degradarle con la herencia</l>
+            <l>también del nombre de hijo,</l>
+            <l>que lo haga por todas ellas,</l>
+            <l>tan juntas que atropelladas</l>
+            <l n="1955">unas con otras se encuentran?</l>
+            <l>Luego ni heredero ni hijo,</l>
+            <l>¿qué acción es la que le queda</l>
+            <l>para tener pretensión</l>
+            <l>de alimentos y de espensas</l>
+            <l n="1960">de padre que ya no es padre,</l>
+            <l>y hacienda que no es ya hacienda?</l>
+            <l>Con que pues es más capaz</l>
+            <l>de castigo que de venia,</l>
+            <l>no debe ser amparado</l>
+            <l n="1965">sino antes expulso, en pena</l>
+            <l>por el general ejemplo</l>
+            <l>de que trabaje o perezca.</l>
+            <l>En cuyas leyes fundado,</l>
+            <l>diciendo mi bando espera,</l>
+            <l n="1970">persuadido a que ya tiene</l>
+            <l>favorable la sentencia…</l>
+          </sp>
+          <sp who="#coro-1">
+            <speaker>CORO 1.º</speaker>
+            <l>Justicia, justicia.</l>
+          </sp>
+          <sp who="#coro-2">
+            <speaker>CORO 2.º</speaker>
+            <l>Clemencia, clemencia.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="I">Silencio.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Silencio.</l>
+          </sp>
+          <sp who="#aurora #acompanamiento #invierno #otono #estio #primavera #razon #emanuel #adamo #apetito #padre #angel #demonio #coro-1 #coro-2 #justicia #musicos">
+            <speaker>TODOS</speaker>
+            <l n="1975">Justicia, clemencia.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="I">Hable la otra parte.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Yo,</l>
+            <l>a quien la alta providencia</l>
+            <l>(a ruego de la Razón</l>
+            <l>Natural) quiso que fuera</l>
+            <l n="1980">su procurador agente,</l>
+            <l>y después con la asistencia</l>
+            <l>de este pleito su abogado,</l>
+            <l part="I">por ella hablaré.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="F">¿Qué esperas?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Por más, ¡divina Justicia!,</l>
+            <l n="1985">¡soberana virtud bella!,</l>
+            <l>por más (vuelvo a decir) que</l>
+            <l>la parte contraria esfuerza</l>
+            <l>con aparentes razones,</l>
+            <l>que sofísticas deniegan</l>
+            <l n="1990">alimentos a mi parte,</l>
+            <l>no embargante todas ellas,</l>
+            <l>le has de dar los competentes</l>
+            <l>a su estado y su nobleza,</l>
+            <l>sobre cuyo fundamento</l>
+            <l n="1995">arguyo en esta manera:</l>
+            <l>que por las causas que ha dicho,</l>
+            <l>el hijo que las cometa</l>
+            <l>pueda ser desheredado,</l>
+            <l>concedo; mas no que pueda</l>
+            <l n="2000">ser totalmente excluido</l>
+            <l>de medios que le mantengan</l>
+            <l>necesarios a la vida,</l>
+            <l>que son en esta materia</l>
+            <l>los términos en que estamos,</l>
+            <l n="2005">por tres leyes: la primera,</l>
+            <l>que no se puede fundar</l>
+            <l>mayorazgo sin reserva</l>
+            <l>para alimentos de quien</l>
+            <l>inmediato en él suceda,</l>
+            <l n="2010">y si es o no es inmediato</l>
+            <l>lo ha de decir la sentencia.</l>
+            <l>La segunda, que no puede,</l>
+            <l>por malo que el hijo sea,</l>
+            <l>darle la muerte su padre,</l>
+            <l n="2015">y el que el sustento le niega</l>
+            <l>ya le da muerte civil,</l>
+            <l>que el modo al morir no enmienda,</l>
+            <l>pues ser con lento veneno</l>
+            <l>o ser con arma violenta</l>
+            <l n="2020">lo mismo es matarle que</l>
+            <l>necesitarle a que muera;</l>
+            <l>obligarle a que mendigue</l>
+            <l>o trabaje es indecencia</l>
+            <l>que no cabe en proporción</l>
+            <l n="2025">humana, pues aunque quiera</l>
+            <l>negar hoy que no es su hijo,</l>
+            <l>¿podrá negar que lo era</l>
+            <l>cuando le desheredó?</l>
+            <l>Luego tan hijo se queda</l>
+            <l n="2030">como antes, que no se da</l>
+            <l>en pretéritos potencia.</l>
+            <l>Y apurando más el caso,</l>
+            <l>doy (sea posible o no sea)</l>
+            <l>que pierda el nombre de hijo,</l>
+            <l n="2035">¿será bien que con él pierda</l>
+            <l>el de prójimo? Pues siendo</l>
+            <l>así que sagradas letras</l>
+            <l>de canónicos decretos</l>
+            <l>disponen el que en extrema</l>
+            <l n="2040">necesidad le socorran,</l>
+            <l>le amparen y favorezcan,</l>
+            <l>y mi parte lo está, como</l>
+            <l>cuatro testigos contestan</l>
+            <l>que le vieron mendigando,</l>
+            <l n="2045">sujeto a humanas miserias,</l>
+            <l>sin salud para la hoz,</l>
+            <l>para la azada sin fuerzas,</l>
+            <l>para la segur sin arte,</l>
+            <l>para el yelo sin defensas,</l>
+            <l n="2050">¿cómo es posible dejar,</l>
+            <l>y más cuando a estado llega</l>
+            <l>que no pide como hijo</l>
+            <l>y como mendigo ruega,</l>
+            <l>dejar de ser socorrido?</l>
+            <l n="2055">Y dado caso que estas</l>
+            <l>dos razones no concluyan,</l>
+            <l>pasemos a la tercera:</l>
+            <l>el desheredar el padre</l>
+            <l>no es ley que obliga, es licencia</l>
+            <l n="2060">jurídica que le da</l>
+            <l>docta la jurisprudencia</l>
+            <l>a fin de que viva el hijo</l>
+            <l>a raya con esa rienda.</l>
+            <l>Luego si no es ley que obliga,</l>
+            <l n="2065">sino solamente puesta</l>
+            <l>en el arbitrio del padre</l>
+            <l>para usar o no usar de ella,</l>
+            <l>por el derecho común</l>
+            <l>o el de las gentes es cierta</l>
+            <l n="2070">cosa que será mutable,</l>
+            <l>bien como todas aquellas</l>
+            <l>que caben en un volumen,</l>
+            <l>u derogadas u impuestas.</l>
+            <l>Que el Padre sustente al hijo</l>
+            <l n="2075">es ley de naturaleza</l>
+            <l>inmutable que no está</l>
+            <l>a humano arbitrio sujeta,</l>
+            <l>ni el derecho de las gentes</l>
+            <l>ni el civil pueden romperla</l>
+            <l n="2080">ni derogarla, porqué</l>
+            <l>se estableció por sí mesma,</l>
+            <l>tan independiente que</l>
+            <l>aun los brutos la conservan.</l>
+            <l>Luego si una ley no obliga</l>
+            <l n="2085">que está a ajeno arbitrio expuesta,</l>
+            <l>y otra obliga en natural</l>
+            <l>fuero, preciso es que ceda</l>
+            <l>la que mutable permite</l>
+            <l>a la que inmutable fuerza;</l>
+            <l n="2090">y así, ¡oh Justicia!, mi parte,</l>
+            <l>por más que esotra refiera…</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l part="I">Justicia, Justicia.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Aguarda</l>
+            <l>favorable la sentencia,</l>
+            <l>pues sobre Justicia, humilde</l>
+            <l part="I">dice…</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l n="2095" part="F">Clemencia, clemencia.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="I">Silencio.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Silencio.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l>Ya atiendan: yo, atenta</l>
+            <l>a los méritos y causas</l>
+            <l part="I">alegadas, fallo…</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l part="F">Espera,</l>
+            <l n="2100">que falta una repregunta</l>
+            <l>antes que des la sentencia,</l>
+            <l>que habiendo escuchado yo</l>
+            <l>desde esta eminente esfera</l>
+            <l>que elegí para descanso</l>
+            <l n="2105">sin descender a la tierra,</l>
+            <l>que ya le entregué a Emanuel</l>
+            <l>cuanto ha pasado en tu audiencia;</l>
+            <l>y es bien que, como citado,</l>
+            <l>la repregunta te advierta:</l>
+            <l n="2110">de la parte que litiga</l>
+            <l>la declaración se lea;</l>
+            <l>veamos a los cargos que</l>
+            <l>le hacen qué da por respuesta.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>La respuesta, Señor, es</l>
+            <l n="2115">el que todos los confiesa.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Y añado a la confesión</l>
+            <l>que, arrepentido, me pesa</l>
+            <l>el haberlos cometido</l>
+            <l>y que propongo la enmienda.</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l n="2120">¿Enmienda, arrepentimiento,</l>
+            <l>propósito y pesar? Vea</l>
+            <l>el mundo que al fin soy Padre.</l>
+            <l>Justicia, no, no suspendas</l>
+            <l>de que al punto se le den</l>
+            <l n="2125">de alimentos la sentencia,</l>
+            <l>que aunque es quien ha de pagarlos</l>
+            <l>Emanuel, quiero que entienda</l>
+            <l>Adamo que el más querido</l>
+            <l>hijo supo a mi clemencia</l>
+            <l n="2130">no perdonarle en las costas</l>
+            <l>porque él pagase sus deudas.</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l part="I">Así lo pronuncio.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="F">Y yo</l>
+            <l part="I">así lo acepto.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Pues sepa</l>
+            <l>el hombre en qué los señales</l>
+            <l n="2135">para las litis espensas.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Entre auxilios de virtudes,</l>
+            <l>que recibirlos merezca</l>
+            <l>olio, carne, vino y pan.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>Para eso la Primavera</l>
+            <l n="2140">le situará de sus flores,</l>
+            <l>significándose en ellas</l>
+            <l>fee, esperanza y caridad,</l>
+            <l>lirios, rosas y azucenas.</l>
+          </sp>
+          <sp who="#estio">
+            <speaker>ESTÍO</speaker>
+            <l>Para el pan dará el Estío</l>
+            <l n="2145">las espigas de las eras</l>
+            <l>de los campos de Belén,</l>
+            <l>que cogió la espigadera</l>
+            <l part="I">Ruth.</l>
+          </sp>
+          <sp who="#otono">
+            <speaker>OTOÑO</speaker>
+            <l part="F">Para el vino dará</l>
+            <l>el Otoño de la tierra</l>
+            <l n="2150">de promisión el racimo,</l>
+            <l>que ha de esprimirse en la prensa</l>
+            <l>de la viga del lagar.</l>
+          </sp>
+          <sp who="#invierno">
+            <speaker>INVIERNO</speaker>
+            <l>Y el Invierno, de las selvas</l>
+            <l>en que apasten sus rebaños,</l>
+            <l n="2155">para carne de la cena</l>
+            <l>legal le dará el cordero</l>
+            <l>inmolado, que no tenga</l>
+            <l>mancha en su cándida piel,</l>
+            <l>siempre limpia, pura y tersa.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l n="2160">Y la Razón Natural,</l>
+            <l>porque las especies vuestras</l>
+            <l>le hagan provecho, ungirá</l>
+            <l>sus sentidos y potencias</l>
+            <l>con el elevado olio</l>
+            <l n="2165">que da en sus cumbres supremas</l>
+            <l>el monte de las Olivas.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>¿Y qué tendrá cuando tenga</l>
+            <l>olio, pan, vino y cordero?</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>En el vino y pan, mi mesma</l>
+            <l n="2170">carne y sangre; en el cordero</l>
+            <l>inmolado, hostia que sea</l>
+            <l>sacrificio de mi Padre;</l>
+            <l>y en las flores, las excelsas</l>
+            <l>virtudes que le hagan digno</l>
+            <l n="2175">para sentarse a mi mesa.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>¿Pan y vino, carne y sangre?</l>
+            <l>Sepa yo de qué manera.</l>
+          </sp>
+          <stage>Ábrese el cuarto carro y vese la AURORA sentada a una mesa en que habrá hostia y cáliz</stage>
+          <sp who="#aurora">
+            <speaker>AURORA</speaker>
+            <l>Eso diré yo, que habiendo</l>
+            <l>sido antes la Aurora bella</l>
+            <l n="2180">que anunció al sol, no se implica</l>
+            <l>el que ahora la Iglesia sea,</l>
+            <l>pues no hay atributo que</l>
+            <l>a una y otra no convenga;</l>
+            <l>que si es la Aurora María,</l>
+            <l n="2185">y María se interpreta</l>
+            <l>‘gracia’, y de gracia ley</l>
+            <l>es la católica Iglesia,</l>
+            <l>a ella toca el explicar</l>
+            <l>que en esta cándida oblea</l>
+            <l n="2190">y en esta dorada copa,</l>
+            <l>para última fineza</l>
+            <l>de amor con que Emanuel quiere</l>
+            <l>que Adamo alimentos tenga,</l>
+            <l>transubstanciado debajo</l>
+            <l n="2195">de especies como materia,</l>
+            <l>dando sus palabras forma,</l>
+            <l>huirá la sustancia de ellas,</l>
+            <l>convirtiéndose en sustancia</l>
+            <l>el pan y vino que muestran</l>
+            <l n="2200">de carne y sangre que al hombre</l>
+            <l>no solo alimentos sean</l>
+            <l>para la temporal vida,</l>
+            <l>mas también para la eterna.</l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l>No lo digas, calla, calla.</l>
+            <l n="2205">No prosigas, cesa, cesa,</l>
+            <l>que a tanto esplendor que vaya</l>
+            <l>huyendo su vista es fuerza.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Y en tu voluntad que hijo</l>
+            <l>pródigo a tus plantas vuelva.</l>
+          </sp>
+          <sp who="#padre">
+            <speaker>PADRE</speaker>
+            <l n="2210">Al que arrepentido vuelve</l>
+            <l>siempre le abriré las puertas.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>También, hermano, a las tuyas</l>
+            <l part="I">humilde.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="F">A mis brazos llega,</l>
+            <l>que siempre abiertos también</l>
+            <l n="2215">están al que ofrece enmienda.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>Tú, soberana Justicia…</l>
+          </sp>
+          <sp who="#justicia">
+            <speaker>JUSTICIA</speaker>
+            <l>A mí nada me agradezcas;</l>
+            <l>tu Padre es quien en rigor</l>
+            <l>de Justicia te remedia.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l n="2220">De todos estos honores,</l>
+            <l>custodio, a ti se te deban</l>
+            <l part="I">las gracias.</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Mi oficio es</l>
+            <l>el que tus causas defienda.</l>
+          </sp>
+          <sp who="#adamo">
+            <speaker>ADAMO</speaker>
+            <l>En fee de que tus salarios</l>
+            <l n="2225">son el que yo lo agradezca,</l>
+            <l>ya que mandé al Apetito</l>
+            <l>que delante no parezca</l>
+            <l>de la Razón Natural,</l>
+            <l>porque nunca volver pueda</l>
+            <l n="2230">viéndome con ella, siempre</l>
+            <l>tengo de vivir con ella</l>
+            <l>tan casado que ni un punto</l>
+            <l>faltaré de su asistencia.</l>
+          </sp>
+          <sp who="#razon">
+            <speaker>RAZÓN</speaker>
+            <l>Mal podrá negar la mano</l>
+            <l n="2235">quien ha de tenerte de ella.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>Pues todo ha parado en dicha,</l>
+            <l>acabe también en fiesta.</l>
+          </sp>
+          <sp who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
+            <speaker>TODOS</speaker>
+            <l part="I">¿De qué suerte?</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l part="F">¿Qué dijimos</l>
+            <l>al convocar esta audiencia?</l>
+          </sp>
+          <sp who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l n="2240">Vengan las partes, vengan</l>
+            <l>al pleito de alimentos a oír sentencia.</l>
+          </sp>
+          <sp who="#primavera">
+            <speaker>PRIMAVERA</speaker>
+            <l>Pues ya que la hemos oído</l>
+            <l>tan favorable que sea</l>
+            <l>dicha de todos, digamos</l>
+            <l n="2245">glosando el tono y la letra:</l>
+            <l>Vengan todos, todos vengan</l>
+            <l>a tan piadosa audiencia,</l>
+            <l>que empieza en justicia</l>
+            <l>y acaba en clemencia.</l>
+          </sp>
+          <sp who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l n="2250">Vengan todos, todos vengan</l>
+            <l>a tan piadosa audiencia,</l>
+            <l>que empieza en justicia</l>
+            <l>y acaba en clemencia.</l>
+            <l>Y todos postrados</l>
+            <l n="2255">a las plantas vuestras,</l>
+            <l>diremos que el auto</l>
+            <l>(como perdón tenga)</l>
+            <l>empezó en justicia</l>
+            <l>y acaba en clemencia.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

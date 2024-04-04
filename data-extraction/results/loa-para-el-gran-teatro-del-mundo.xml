@@ -1,0 +1,614 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000045" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Loa para el auto sacramental intitulado El gran teatro del mundo</title>
+        <title type="sub">Pedro Calderón de la Barca</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName>Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-16"><time when="07:59:47"/></date>
+        <idno type="quadramaX">Loa para el auto sacramental intitulado El gran teatro del mundo</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-el-gran-teatro-del-mundo--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="apostasía" sex="FEMALE">
+            <persName>La Apostasía</persName>
+          </person>
+          <person xml:id="españa" sex="FEMALE">
+            <persName>España</persName>
+          </person>
+          <person xml:id="testamento-antiguo" sex="MALE">
+            <persName>Testamento Antiguo</persName>
+          </person>
+          <person xml:id="testamento-nuevo" sex="MALE">
+            <persName>Testamento Nuevo</persName>
+          </person>
+          <person xml:id="isaac" sex="MALE">
+            <persName>Isaac</persName>
+          </person>
+          <person xml:id="sansón" sex="MALE">
+            <persName>Sansón</persName>
+          </person>
+          <person xml:id="ley-natural" sex="FEMALE">
+            <persName>Ley Natural</persName>
+          </person>
+          <person xml:id="ley-escrita" sex="FEMALE">
+            <persName>Ley Escrita</persName>
+          </person>
+          <person xml:id="ley-de-gracia" sex="FEMALE">
+            <persName>Ley de Gracia</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">sin datos</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1717">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">Loa para el auto sacramental intitulado El gran teatro del mundo</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas</head>
+        <castItem>LA APOSTASÍA.</castItem>
+        <castItem>ESPAÑA.</castItem>
+        <castItem>TESTAMENTO ANTIGUO.</castItem>
+        <castItem>TESTAMENTO NUEVO.</castItem>
+        <castItem>ISAAC.</castItem>
+        <castItem>SANSÓN.</castItem>
+        <castItem>LEY NATURAL.</castItem>
+        <castItem>LEY ESCRITA.</castItem>
+        <castItem>LEY DE GRACIA.</castItem>
+        <castItem>MÚSICA.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" n="1">
+          <stage>Sale ESPAÑA con un coro de danza.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Memoria de sus prodigios </l>
+            <l> hizo Dios sumo y clemente </l>
+            <l> en el día suyo, dando </l>
+            <l> sustento a los que le temen. </l>
+          </sp>
+          <sp who="#españa">
+            <speaker>ESPAÑA</speaker>
+            <l n="5"> Teatro insigne de Europa, </l>
+            <l> yo soy España, en quien tiene </l>
+            <l> su metrópoli la Fe, </l>
+            <l> la Religión su eminente </l>
+            <l> solio augusto, de quien es </l>
+            <l n="10"> basa el trono de mis reyes. </l>
+            <l> Y pues el día del Señor </l>
+            <l> en júbilos resplandece </l>
+            <l> más mi celo a todo el orbe </l>
+            <l> que mis acciones atiende. </l>
+            <l n="15"> Y no hay en el orbe parte </l>
+            <l> adonde más se celebre </l>
+            <l> la institución del más alto </l>
+            <l> sacramento en este jueves, </l>
+            <l> haciendo en danzas y en himnos </l>
+            <l n="20"> culto también de lo alegre; </l>
+            <l> ni parte tampoco donde </l>
+            <l> con fiestas se represente </l>
+            <l> este misterio en los autos </l>
+            <l> con que festejarse suele. </l>
+            <l n="25"> A un auto nuevo os convido; </l>
+            <l> pues que a esto alude, parece, </l>
+            <l> aquel psalmo de David </l>
+            <l> en que está fundado este </l>
+            <l> himno que mis coros cantan, </l>
+            <l n="30"> y a esparcir al aire vuelve. </l>
+          </sp>
+          <sp who="#españa #música">
+            <speaker>ELLA y MÚSICA</speaker>
+            <l> Memoria de sus prodigios </l>
+            <l> hizo el sumo Dios clemente </l>
+            <l> en el día suyo, dando </l>
+            <l> sustento a los que le temen. </l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+
+            <l n="35"> Aguarda, aguarda, que a eso </l>
+            <l> mi curiosidad pretende </l>
+            <l> que mi escándalo te explique </l>
+            <l part="I"> un argumento. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Sale.</stage>
+          <sp who="#españa">
+            <speaker>ESPAÑA</speaker>
+            <l part="F"> ¿Quién eres? </l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l> Soy una nación del norte, </l>
+            <l n="40"> que entre sus dogmas defiende </l>
+            <l> la religión reformada. </l>
+          </sp>
+          <sp who="#españa">
+            <speaker>ESPAÑA</speaker>
+            <l> ¿Cómo a mi corte te atreves, </l>
+            <l> sin que de aquel Tribunal </l>
+            <l> Supremo de la Fe tiembles </l>
+            <l n="45"> de la espada de dos cortes </l>
+            <l> los filos resplandecientes, </l>
+            <l> y no solo a estar en ella, </l>
+            <l> sino a argüir te resuelves </l>
+            <l> contra la fe en un teatro </l>
+            <l part="I"> tan público? </l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="50" part="F"> Porque quiere </l>
+            <l> la alegoría, que en mi </l>
+            <l> retórica comprehende </l>
+            <l> a toda la apostasía. </l>
+            <l> Que hoy tu celo me tolere </l>
+            <l n="55"> sin duda para mayor </l>
+            <l> blasón tuyo, si se advierte </l>
+            <l> que es personaje del triunfo </l>
+            <l> el contrario que se vence, </l>
+            <l> y mis argumentos más </l>
+            <l n="60"> este misterio engrandecen. </l>
+          </sp>
+          <sp who="#españa">
+            <speaker>ESPAÑA</speaker>
+            <l> Hecha esa salva (no a mí, </l>
+            <l part="I"> sino a los demás) di. </l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> Atiende, </l>
+            <l> no solo me escandaliza </l>
+            <l> que un asumpto se festeje, </l>
+            <l n="65"> hoy en ti tan doloroso </l>
+            <l> como aquel que de la muerte </l>
+            <l> de Cristo, que lloró el mundo. </l>
+            <l> Nos renueva las especies, </l>
+            <l> siendo aquel un trance en que </l>
+            <l n="70"> todo el orbe se estremece, </l>
+            <l> los cielos se desencajan </l>
+            <l> y los dos polos se mueven </l>
+            <l> cuando esta máquina cruje, </l>
+            <l> en fe del dolor que sienten. </l>
+            <l n="75"> En fuego, tierra, aire y agua, </l>
+            <l> luces, flores, aves, peces, </l>
+            <l> pálidas, lánguidas, mustias, </l>
+            <l> porque su Rey le confiesen. </l>
+            <l> ¡Oh, ya en relámpagos brillen! </l>
+            <l n="80"> ¡Oh, ya giman en vaivenes! </l>
+            <l> ¡Oh, ya en huracanes bramen! </l>
+            <l> ¡Oh, ya en tempestades truenen! </l>
+            <l> Cuantas luces rayos vibren, </l>
+            <l> cuantos picos plumas peinen, </l>
+            <l n="85"> cuanta espuma perlas sude, </l>
+            <l> cuanta flor ámbar bostece, </l>
+            <l> no solo me escandaliza, </l>
+            <l> esto digo otra y mil veces, </l>
+            <l> sino que ya que a alegría </l>
+            <l n="90"> pasar el dolor intentes, </l>
+            <l> hagas representaciones </l>
+            <l> del dolor, donde se cree, </l>
+            <l> que quieres hoy hacer gala </l>
+            <l> de lo que Cristo padece. </l>
+            <l n="95"> No menos en esto extraño, </l>
+            <l> que esta opinión rara asientes </l>
+            <l> en el Psalmo de David, </l>
+            <l> que aunque dice claramente </l>
+            <l> que Dios hace cuando da </l>
+            <l n="100"> sustento a los que le temen, </l>
+            <l> memoria de sus milagros, </l>
+            <l> no esa memoria se infiere. </l>
+            <l> Sea representación, </l>
+            <l> pues antes della se entiende </l>
+            <l n="105"> que dando a la idea bulto </l>
+            <l> en figuras aparentes </l>
+            <l> es menester que el prodigio </l>
+            <l> se vea, porque se acuerde. </l>
+          </sp>
+          <sp who="#españa">
+            <speaker>ESPAÑA</speaker>
+            <l> Cuanto a lo primero hay </l>
+            <l n="110"> dos cosas que considere </l>
+            <l> en este misterio sacro; </l>
+            <l> una de Cristo la muerte, </l>
+            <l> cuyo dolor por dolor </l>
+            <l> traslada el rito a otro jueves; </l>
+            <l n="115"> y otra el efecto que della </l>
+            <l> y la Institución Solemne </l>
+            <l> del sacramento mayor </l>
+            <l> debajo de dos especies, </l>
+            <l> se siguió al género humano. </l>
+            <l n="120"> Esta segunda compete </l>
+            <l> solo al asumpto de hoy, </l>
+            <l> y esta es tal, que no se puede </l>
+            <l> explicar sin que en el gozo </l>
+            <l> los corazones se aneguen, </l>
+            <l n="125"> por cuya causa, una pluma </l>
+            <l> sagrada tanto se enciende </l>
+            <l> en celo deste misterio, </l>
+            <l> que porque della procede. </l>
+            <l> Llamo feliz a la culpa </l>
+            <l n="130"> que tal Redemptor merece, </l>
+            <l> todo amor es interior, </l>
+            <l> gozo y más amor celeste, </l>
+            <l> que no hay en el alma espacio, </l>
+            <l> que de sus rayos no llene. </l>
+            <l n="135"> Este es misterio de amor, </l>
+            <l> pues Dios nos dijo que fuese </l>
+            <l> la última y mayor fineza </l>
+            <l> que ejecuta por las gentes, </l>
+            <l> mas se explica aquel amor, </l>
+            <l n="140"> que al centro no se contiene </l>
+            <l> del corazón, y al semblante </l>
+            <l> y a las acciones se vierte. </l>
+            <l> Y así Dios en alegrías </l>
+            <l> quiere que hoy solo se muestre </l>
+            <l n="145"> nuestro amor, y no en dolor, </l>
+            <l> porque en lo humano parecen </l>
+            <l> afectos incompatibles </l>
+            <l> lo compungido y lo ardiente. </l>
+            <l> Cuanto a lo segundo, es fácil </l>
+            <l n="150"> que en la Escritura se pruebe </l>
+            <l> cuanto Dios en todos siglos </l>
+            <l> gustó de que el Cielo viese </l>
+            <l> autos del misterio de hoy. </l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I"> ¿Cómo puede ser? </l>
+          </sp>
+          <sp who="#españa #apostasía">
+            <speaker>LOS 2</speaker>
+            <l part="F">Atiende. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Salen por un lado el TESTAMENTO ANTIGUO de barba, a lo Hebreo, y por otro el NUEVO, joven a lo Romano.</stage>
+          <sp who="#testamento-antiguo">
+            <speaker>ANTIGUO</speaker>
+            <l n="155"> El Antiguo Testamento </l>
+            <l> soy, que desterrado duerme, </l>
+            <l> como quien desde hoy no sirve, </l>
+            <l> retirado a oculto albergue, </l>
+            <l> sino es que para mis sombras </l>
+            <l n="160"> el ingenio me despierte. </l>
+          </sp>
+          <sp who="#testamento-nuevo">
+            <speaker>NUEVO</speaker>
+            <l> Y yo el Testamento Nuevo </l>
+            <l> soy, que porque me concede </l>
+            <l> Dios al gentil, el romano </l>
+            <l> traje mi esplendor guarnece. </l>
+          </sp>
+          <sp who="#testamento-antiguo">
+            <speaker>ANTIGUO</speaker>
+            <l n="165"> El circular Coliseo </l>
+            <l> desta máquina terrestre </l>
+            <l> a quien cubre la techumbre </l>
+            <l> de ese artesón transparente, </l>
+            <l> para una comedia suya </l>
+            <l n="170"> dispuso Dios, donde fuese </l>
+            <l> su grandeza conocida </l>
+            <l> en los prodigios que ostente </l>
+            <l> el breve espacio que dure. </l>
+            <l> Pues según se comprehende </l>
+            <l n="175"> acá, es de su eternidad </l>
+            <l> el tiempo una tarde breve. </l>
+            <l> Para una tarde del mundo </l>
+            <l> dispuso su poder este </l>
+            <l> teatro, que dividido </l>
+            <l n="180"> la mitad, hace que deje </l>
+            <l> a la Tierra, para que </l>
+            <l> máquinas en ella asienten, </l>
+            <l> de templos y de palacios, </l>
+            <l> de jardines y de fuentes, </l>
+            <l n="185"> y la otra mitad a tantas </l>
+            <l> perspectivas de bajeles, </l>
+            <l> como en scenas distintas </l>
+            <l> al teatro van y vienen. </l>
+            <l> La scena del aire ocupan, </l>
+            <l n="190"> porque más hermosa quede </l>
+            <l> las bambalinas de nubes, </l>
+            <l> que el sol en cambiantes vuelve, </l>
+            <l> ya se cele en tornasoles, </l>
+            <l> o ya en incendios se muestre. </l>
+          </sp>
+          <sp who="#testamento-nuevo">
+            <speaker>NUEVO</speaker>
+            <l n="195"> Los celestes luminares </l>
+            <l> de Sol y Luna, y las leves </l>
+            <l> centellas con que tachona </l>
+            <l> todo el óvalo sus ejes, </l>
+            <l> son luces deste teatro. </l>
+            <l n="200"> Y en su esfera refulgente </l>
+            <l> el ingeniero es el tiempo, </l>
+            <l> que como al acto conviene, </l>
+            <l> ya con fulgores le aclara, </l>
+            <l> ya con truenos le obscurece, </l>
+            <l n="205"> ya las tempestades forma, </l>
+            <l> ya hace que el golfo serene </l>
+            <l> sus ondas, ya que bramando </l>
+            <l> al Cielo su espuma eleven, </l>
+            <l> y forma las mutaciones, </l>
+            <l n="210"> pues donde estaba la verde </l>
+            <l> confusión de unos jardines, </l>
+            <l> en la primavera fértil, </l>
+            <l> apenas empieza cano </l>
+            <l> a hacer su papel diciembre, </l>
+            <l n="215"> cuando se muda el teatro </l>
+            <l> en la pálida y estéril </l>
+            <l> hoja seca, que a los troncos </l>
+            <l> el cierzo a soplos repele. </l>
+            <l> El monte que se ostentaba </l>
+            <l n="220"> en cándidas caduqueces </l>
+            <l> yerto y cano con la blanca </l>
+            <l> ancianidad de la nieve. </l>
+            <l> Papel de mozo el estío </l>
+            <l> hace, porque el sol ardiente, </l>
+            <l n="225"> o las canas le derrite, </l>
+            <l> o la edad le desvanece, </l>
+            <l> y él, en fin, lo muda todo: </l>
+            <l> imperios, cortes, poderes, </l>
+            <l> palacios, islas, montañas, </l>
+            <l n="230"> porque su inventiva ostente </l>
+            <l> en la comedia del siglo, </l>
+            <l> donde solo puede verse </l>
+            <l> lo aparatoso en lo vario, </l>
+            <l> lo hermoso en lo diferente. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Sale LEY NATURAL.</stage>
+          <sp who="#ley-natural">
+            <speaker>[LEY NATURAL]</speaker>
+            <l n="235"> Dígalo yo, que la Ley </l>
+            <l> Natural soy, porque empiece </l>
+            <l> en mí el artificio desta </l>
+            <l> gran comedia que se teje. </l>
+            <l> Siendo su primer jornada, </l>
+            <l n="240"> que la mutación contiene </l>
+            <l> del jardín, que en un instante </l>
+            <l> en áspero monte vuelve, </l>
+            <l> donde el galán desta farsa </l>
+            <l> el alto poder destierre </l>
+            <l n="245"> por un delito de amor, </l>
+            <l> y en sus cumbres eminentes, </l>
+            <l> solo pan de sudor come, </l>
+            <l> agua de lágrimas bebe, </l>
+            <l> hasta que mude el teatro </l>
+            <l n="250"> de mar, donde solo puede </l>
+            <l> una tabla ser sagrado </l>
+            <l> de su zozobrada suerte. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Sale ISAAC.</stage>
+          <sp who="#isaac">
+            <speaker>[ISAAC]</speaker>
+            <l> Y desta primer jornada, </l>
+            <l> Isaac repetiros puede </l>
+            <l n="255"> los actos del sacramento </l>
+            <l> que en sombras pudieron verse </l>
+            <l> en el cordero de Abel, </l>
+            <l> en pan y vino que ofrece </l>
+            <l> Melchisedech, y aun en mí </l>
+            <l n="260"> que vi el cuchillo a mis sienes, </l>
+            <l> y en otros que fueron sombras, </l>
+            <l> si a lo místico se atiende, </l>
+            <l> que en la primera jornada </l>
+            <l> su misterio representen. </l>
+          </sp>
+          <sp who="#ley-escrita">
+            <speaker>LEY ESCRITA</speaker>
+            <l n="265">La Ley Escrita es segunda </l>
+            <l> jornada, donde se advierte </l>
+            <l> con la mutación de Egipto, </l>
+            <l> la del desierto, y contiene </l>
+            <l> en sí el cordero, el maná </l>
+            <l n="270"> y la vara de la sierpe, </l>
+            <l> Moisés, Gedeón y Aarón, </l>
+            <l> y otras figuras que deben </l>
+            <l> representar este acto. </l>
+          </sp>
+          <sp who="#sansón">
+            <speaker>SANSÓN</speaker>
+            <l>De cuyas scenas héroe </l>
+            <l n="275"> puede ser Sansón mejor, </l>
+            <l> pues en la que le compete, </l>
+            <l> parece que fue su vida </l>
+            <l> entre alusivas especies </l>
+            <l> comedia del día de hoy. </l>
+            <l n="280"> Dígalo el ver que se muere </l>
+            <l> de amores de una gentil, </l>
+            <l> que le mata ingratamente. </l>
+            <l> Dígalo el ver que de Judas </l>
+            <l> la tribu también le vende. </l>
+            <l n="285"> Dígalo el ser nazareno </l>
+            <l> como Cristo, y que en su muerte </l>
+            <l> el templo profano arruine, </l>
+            <l> cuyo ídolo desvanece. </l>
+            <l> Dígalo, no solo el trigo </l>
+            <l n="290"> que atado a la piedra muele, </l>
+            <l> sino el panal que obligó </l>
+            <l> a que el enigma dijese. </l>
+            <l> Salió el manjar del que come, </l>
+            <l> y la dulzura del fuerte. </l>
+          </sp>
+          <sp who="#ley-de-gracia">
+            <speaker>LEY DE GRACIA</speaker>
+            <l n="295">La Ley de Gracia es tercera </l>
+            <l> jornada, que más ostente </l>
+            <l> la mutación de ciudad </l>
+            <l> en los altos capiteles </l>
+            <l> de Jerusalén, en donde </l>
+            <l n="300"> con aparato solemne </l>
+            <l> llegó el acto a consumarse </l>
+            <l> y la idea a fenecerse. </l>
+          </sp>
+          <sp who="#testamento-nuevo">
+            <speaker>NUEVO</speaker>
+            <l> Habiendo tenido en ti, </l>
+            <l> porque el asumpto se llene, </l>
+            <l n="305"> las parábolas de Cristo </l>
+            <l> que son alusivamente </l>
+            <l> ciertas representaciones. </l>
+          </sp>
+          <sp who="#testamento-antiguo">
+            <speaker>ANTIGUO</speaker>
+            <l> Y la continuada serie </l>
+            <l> de todas las tres jornadas </l>
+            <l n="310"> advertiréis que se muestren </l>
+            <l> llenas de apariencias, hablen </l>
+            <l> tantas formas en que verse </l>
+            <l> dejó de Deidad la sombra, </l>
+            <l> ya en Iris que resplandece, </l>
+            <l n="315"> ya en fuego que no consume, </l>
+            <l> y ya en el maná que llueve. </l>
+            <l> Hasta que sobre el Jordán </l>
+            <l> se abrió el globo transparente, </l>
+            <l> de cuya apariencia sacra </l>
+            <l n="320"> cándida paloma vuele, </l>
+            <l> con que no hay en la Escritura </l>
+            <l> sombra o viso que no fuese </l>
+            <l> viva representación </l>
+            <l> del concepto de su mente. </l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="325"> Probado que gustó Dios, </l>
+            <l> como me habéis dicho siempre, </l>
+            <l> de que en sombras este acto </l>
+            <l> al mundo se represente. </l>
+            <l> ¿Cómo figuras sagradas </l>
+            <l n="330"> al teatro sacar puede </l>
+            <l part="I"> la pluma atrevida? </l>
+          </sp>
+          <sp who="#españa">
+            <speaker>ESPAÑA</speaker>
+            <l part="F"> Como </l>
+            <l> el Pontífice en el breve, </l>
+            <l> en que desta Institución </l>
+            <l> la fiesta al orbe concede, </l>
+            <l n="335"> dice que dance la Fe, </l>
+            <l> que la Caridad se alegre, </l>
+            <l> y que la Esperanza cante, </l>
+            <l> explicando cuanto debe </l>
+            <l> este asumpto festejarse </l>
+            <l n="340"> y este bien encarecerse. </l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l> Y las figuras sagradas </l>
+            <l> es lícito que se empleen </l>
+            <l part="I"> en personas, que... </l>
+          </sp>
+          <sp who="#españa">
+            <speaker>ESPAÑA</speaker>
+            <l part="F"> No más, </l>
+            <l> Dios no puede comprehenderse, </l>
+            <l n="345"> y es fuerza para nosotros</l>
+            <l> que a nuestro modo se deje </l>
+            <l> concebir en formas que </l>
+            <l> más su grandeza revelen. </l>
+            <l> Todas son para explicarle </l>
+            <l n="350"> a su Deidad indecentes </l>
+            <l> igualmente, pues si en troncos </l>
+            <l> permite que le veneren, </l>
+            <l> y a un leño que signifique </l>
+            <l> su majestad le consiente, </l>
+            <l n="355"> ¿qué criatura hay más noble </l>
+            <l> que el hombre? ¿qué humana especie </l>
+            <l> más le alude, ni quién más </l>
+            <l> le explicará reverente? </l>
+            <l> Pues es imagen de Dios </l>
+            <l n="360"> el hombre, sea el que fuere. </l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l> Convencido, tanto asumpto </l>
+            <l> será bien que yo festeje </l>
+            <l part="I"> en el auto.</l>
+          </sp>
+          <sp who="#españa">
+            <speaker>ESPAÑA</speaker>
+            <l part="F"> Sea, pues, </l>
+            <l> el que mi poder ofrece: </l>
+            <l n="365"> El Gran Teatro del Mundo, </l>
+            <l> nueva idea en que pretende </l>
+            <l> su ingenio, no que lo antiguo </l>
+            <l> con lo nuevo se coteje </l>
+            <l> sino que todos los doctos, </l>
+            <l n="370"> discretos como corteses, </l>
+            <l> no estén mal con lo que viven, </l>
+            <l> ni con el siglo que tienen, </l>
+            <l> pues jamás que hay en el suyo </l>
+            <l> cosa razonable creen. </l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="375"> Y que siendo este un misterio </l>
+            <l> que Dios incesantemente </l>
+            <l> le ejecuta cada día, </l>
+            <l> cada día también quiere </l>
+            <l> que le aplaudamos y que </l>
+            <l n="380"> sus alabanzas no cesen </l>
+            <l> por no ser el día suyo. </l>
+            <l> Pues también David previene </l>
+            <l> en sus psalmos que le alaben </l>
+            <l> en todos tiempos las gentes. </l>
+          </sp>
+          <sp who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia">
+            <speaker>TODOS</speaker>
+            <l n="385">Con que los acentos todos </l>
+            <l> otra vez a decir vuelven. </l>
+          </sp>
+          <sp who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia #música">
+            <speaker>TODOS y MÚSICA</speaker>
+            <l> Memoria de sus prodigios </l>
+            <l> hizo el Sumo Dios clemente </l>
+            <l> en el día suyo, dando </l>
+            <l n="390"> sustento a los que le temen. </l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

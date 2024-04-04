@@ -1,0 +1,4519 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000123" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La sibila del Oriente y gran reina de Sabá</title>
+        <title type="sub">Comedia Famosa</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Automatic generation of the XML/TEI by</resp>
+          <persName>Fabian Schwabe</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName>Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <date when="2022-01-09"><time when="11:41:04"/></date>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource"><title>Pedro Calderón de la Barca, La sibila del Oriente y gran reina de Sabá. En: Comedias, Vol. 5. Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza. Madrid : Fundación José Antonio de Castro, 2010</title><idno type="ISBN">978-84-96452-94-7</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="salomón" sex="MALE">
+            <persName>Salomón</persName>
+            <trait source="castlist">
+              <desc>rey de Jerusalén</desc>
+            </trait>
+          </person>
+          <person xml:id="hirán" sex="MALE">
+            <persName>Hirán</persName>
+            <trait source="castlist">
+              <desc>rey de Tiro</desc>
+            </trait>
+          </person>
+          <person xml:id="candaces" sex="MALE">
+            <persName>Candaces</persName>
+            <trait source="castlist">
+              <desc>rey de Egipto</desc>
+            </trait>
+          </person>
+          <person xml:id="eliud" sex="MALE">
+            <persName>Eliud</persName>
+            <trait source="castlist">
+              <desc>criado de Salomón</desc>
+            </trait>
+          </person>
+          <person xml:id="visión" sex="FEMALE">
+            <persName>Una Visión</persName>
+          </person>
+          <person xml:id="sabá" sex="FEMALE">
+            <persName>Sabá</persName>
+            <trait source="castlist">
+              <desc>reina de Etiopía</desc>
+            </trait>
+          </person>
+          <person xml:id="irífile" sex="FEMALE">
+            <persName>Irífile</persName>
+            <trait source="castlist">
+              <desc>negra</desc>
+            </trait>
+          </person>
+          <person xml:id="casimira" sex="FEMALE">
+            <persName>Casimira</persName>
+            <trait source="castlist">
+              <desc>negra</desc>
+            </trait>
+          </person>
+          <person xml:id="irene" sex="FEMALE">
+            <persName>Irene</persName>
+            <trait source="castlist">
+              <desc>negra</desc>
+            </trait>
+          </person>
+          <person xml:id="mandinga" sex="FEMALE">
+            <persName>Mandinga</persName>
+          </person>
+          <person xml:id="libio" sex="MALE">
+            <persName>Libio</persName>
+            <trait source="castlist">
+              <desc>rey de Palmira</desc>
+            </trait>
+            <trait source="castlist">
+              <desc>indio</desc>
+            </trait>
+          </person>
+          <person xml:id="semeí" sex="MALE">
+            <persName>Semeí</persName>
+          </person>
+          <person xml:id="joab" sex="MALE">
+            <persName>Joab</persName>
+          </person>
+          <person xml:id="hebreo" sex="MALE">
+            <persName>Un Hebreo</persName>
+          </person>
+          <person xml:id="músico-1" sex="MALE">
+            <persName>Músico 1</persName>
+          </person>
+          <person xml:id="músico-2" sex="MALE">
+            <persName>Músico 2</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="música">
+            <persName>Músicos</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">comedia religiosa</term>
+          <term source="kroll" type="main">comedia religiosa</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1682">
+        <label/>
+      </event>
+      <event type="written" notBefore="1634" notAfter="1636">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docTitle>
+        <titlePart type="main">La sibila del Oriente y gran reina de Sabá</titlePart>
+        <titlePart type="sub">Comedia Famosa</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas que hablan en ella.</head>
+        <castItem>SALOMÓN, rey de Jerusalén.</castItem>
+        <castItem>HIRÁN, rey de Tiro.</castItem>
+        <castItem>CANDACES, rey de Egipto.</castItem>
+        <castItem>ELIUD, criado de Salomón.</castItem>
+        <castItem>UNA VISIÓN.</castItem>
+        <castItem>SABÁ, reina de Etiopía.</castItem>
+        <castItem>IRÍFILE, negra.</castItem>
+        <castItem>CASIMIRA, negra.</castItem>
+        <castItem>IRENE, negra.</castItem>
+        <castItem>LIBIO, rey de Palmira, indio.</castItem>
+        <castItem>SEMEÍ.</castItem>
+        <castItem>JOAB.</castItem>
+        <castItem>MÚSICOS.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene" n="1">
+          <stage>Suena música, córrese una cortina y debajo de un dosel aparece Salomón durmiendo, vestido a lo romano; y por lo alto, en una apariencia, sale una Visión cantando, cubierto el rostro.</stage>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Dios grande, inmenso Señor,</l>
+            <l>¿vos a visitarme a mí?</l>
+            <l>¿Vos a vuestro esclavo hacéis</l>
+            <l>tan grandes favores?</l>
+          </sp>
+          <sp who="#visión">
+            <speaker rend="caps">Visión</speaker>
+
+
+            <l>Sí.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>¿Qué me mandáis?</l>
+          </sp>
+          <sp who="#visión">
+            <speaker rend="caps">Visión</speaker>
+
+
+            <l>Salomón</l>
+            <l>–que es lo mismo que decir</l>
+            <l>pacífico y manso–, hijo</l>
+            <l>del real profeta David,</l>
+            <l>tú, cuyo imperio será</l>
+            <l>quieto, apacible y feliz,</l>
+            <l>quiero que me labres casa</l>
+            <l>en que morar y vivir.</l>
+            <l>Yo te he de asistir a ella.</l>
+            <l>Pide y espera de mí</l>
+            <l>mercedes, que yo concedo</l>
+            <l>cuanto me quieras pedir.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Grande Dios de las batallas,</l>
+            <l>pues hoy cargas sobre mí</l>
+            <l>todo el peso de tu pueblo,</l>
+            <l>porque mi humilde cerviz</l>
+            <l>no desmaye, dame ciencias</l>
+            <l>con que me pueda regir.</l>
+          </sp>
+          <sp who="#visión">
+            <speaker rend="caps">Visión</speaker>
+
+
+            <l>Justa fue tu petición;</l>
+            <l>yo la concedo; y así,</l>
+            <l>ninguno será más sabio</l>
+            <l>antes ni despues de ti.</l>
+            <l>Aprovéchate de serlo,</l>
+            <l>si eterno quieres vivir;</l>
+            <l>porque saber para errar</l>
+            <l>no es saber, sino morir.</l>
+          </sp>
+          <stage>Cúbrese la apariencia y despierta.</stage>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>¡Espera, sagrada nube!</l>
+            <l>Corre ese velo sutil;</l>
+            <l>veré cara a cara al sol.</l>
+            <l>Pero no es tiempo. ¡ay de mí!,</l>
+            <l>de que a su deidad se corra</l>
+            <l>el velo, ni descubrir</l>
+            <l>tesoros que el cielo guarda</l>
+            <l>para siglo más feliz.</l>
+            <stage>Suena música.</stage>
+            <l>Pero, ¿qué música es ésta?</l>
+            <l>¿Ya no se ausentó de aquí</l>
+            <l>la majestad que adoré,</l>
+            <l>la maravilla que vi,</l>
+            <l>por quien quedé sabio y rico?</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Sale Eliud.</stage>
+          <sp who="#eliud">
+            <speaker rend="caps">Eliud</speaker>
+
+
+            <l>Si vuestra Alteza salir</l>
+            <l>quiere a un corredor, podrá</l>
+            <l>en él mirar y advertir</l>
+            <l>su poder, viendo dos reyes</l>
+            <l>de quien es rey.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>¿Como así?</l>
+          </sp>
+          <sp who="#eliud">
+            <speaker rend="caps">Eliud</speaker>
+
+
+            <l>Candaces e Hirán, señores</l>
+            <l>de Egipto y Tiro, de ti</l>
+            <l>llamados entran agora</l>
+            <l>en Jerusalén; que, al fin,</l>
+            <l>aunque el egipcio no es</l>
+            <l>vasallo, súbdito sí;</l>
+            <l>y te obedece, viniendo</l>
+            <l>a tu presencia.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Decid</l>
+            <l>que solos entren los dos.</l>
+          </sp>
+          <sp who="#eliud">
+            <speaker rend="caps">Eliud</speaker>
+
+
+            <l>Ya los dos vienen aquí.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Tocan y salen por dos partes Candaces, de gitano, e Hirán, de tirio.</stage>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Joven invicto, en cuya augusta frente</l>
+            <l>verde el laurel sin marchitarse viva...</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Gran hijo de David, a cuyo oriente</l>
+            <l>ceda el laurel imperios a la oliva;</l>
+            <l>tú, cuyo nombre viva eternamente;</l>
+            <l>tú, cuyo imperio eternamente viva:</l>
+            <l>¡salve y reines del orbe obedecido!;</l>
+            <l>¡salve y triunfes del tiempo y del olvido!</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Mientras Hirán, invicto rey de Tiro</l>
+            <l>habla, ¿te atreves, bárbaro gitano,</l>
+            <l>a interromper su voz? Mucho me admiro</l>
+            <l>de tu arrogancia y presunción en vano.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Candaces, rey de Egipto soy; y aspiro</l>
+            <l>a lugar más supremo y soberano;</l>
+            <l>y tú aquí ni me igualas ni prefieres,</l>
+            <l>pues yo soy rey donde vasallo eres.</l>
+            <l>Con libre imperio y absoluto estilo</l>
+            <l>me aclamo rey desde las altas rocas,</l>
+            <l>adonde tan callando nace el Nilo</l>
+            <l>que apenas saben dél naciones pocas,</l>
+            <l>hasta donde, ya hidra y cocodrilo,</l>
+            <l>le miran respirar por siete bocas</l>
+            <l>con escándalo tal sus horizontes</l>
+            <l>que ensordece los ecos de los montes.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Cuando vasallo deste imperio sea</l>
+            <l>Tiro, mayor aplauso me previenes;</l>
+            <l>pues ya dices que en mí la suerte emplea</l>
+            <l>aquesa dignidad que tú no tienes.</l>
+            <l>¿Quién no anhela a ser más? ¿Quién no desea</l>
+            <l>adelantar sus glorias y sus bienes?</l>
+            <l>Pues no es pequeño triunfo, honor pequeño</l>
+            <l>llevarse de ventaja tan gran dueño.</l>
+            <l>¿Deja por eso mi sagrada esfera</l>
+            <l>de ser hiblea en galas y primores,</l>
+            <l>escuela donde va la primavera</l>
+            <l>a aprender los matices y colores</l>
+            <l>que ha de enseñar abril? Pues de manera</l>
+            <l>se tejen los claveles y las flores</l>
+            <l>que, si Egipto al oído causa enojos,</l>
+            <l>Tiro da admiraciones a los ojos.</l>
+            <l>Y así, con mayor causa solicito</l>
+            <l>preferirte, por dueño y por estado.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Antes verás que a tu soberbia quito</l>
+            <l>las alas, que tan altas han volado.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>¡Basta! ¡No más!</l>
+          </sp>
+          <sp who="#candaces #hirán">
+            <speaker rend="caps">Los Dos</speaker>
+
+
+            <l>¿Señor?</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>El rey de Egipto hable,...</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Como a estranjero me has tratado.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>…que el tirio hará lo que le mande.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>(Ciego</l>
+            <l>de enojo, soy volcán de nieve y fuego.)</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Apenas supe que mi dicha suma</l>
+            <l>a tu servicio, gran señor, me llama,</l>
+            <l>cuando quebrando la rizada espuma</l>
+            <l>del rubio mar que da a tu pueblo fama,</l>
+            <l>en un delfín que es pájaro sin pluma,</l>
+            <l>en un águila que es pez sin escama,</l>
+            <l>monte de velas, huracán de pino,</l>
+            <l>selva de jarcias, vecindad de lino,</l>
+            <l>aré los campos de cristal y nieve</l>
+            <l>donde bebe en carámbanos la aurora</l>
+            <l>la blanca espuma que en aljófar llueve</l>
+            <l>y el argentado humor que en perlas llora.</l>
+            <l>El viento, a cuyo son las plantas mueve</l>
+            <l>este del mar caballo, sólo agora</l>
+            <l>torpe me pareció; mas bien hacía,</l>
+            <l>anteviendo el honor a que venía.</l>
+            <l>Al fin, llegué, si puede vista humana</l>
+            <l>los rayos penetrar de tanta esfera,</l>
+            <l>donde la majestad más soberana</l>
+            <l>en tu semblante luce y reverbera;</l>
+            <l>y por ser cuanto adquiere, cuanto gana</l>
+            <l>quien por premio el servirte sólo espera,</l>
+            <l>en alas del deseo y del cuidado,</l>
+            <l>vengo obediente adonde me has llamado.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Hable el de Tiro.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>A tu obediencia atento,</l>
+            <l>apenas vi lo que tu carta encierra,</l>
+            <l>cuando en veloz caballo –cuyo aliento</l>
+            <l>jeroglífico ha sido de la guerra,</l>
+            <l>sierpe del agua, exhalación del viento,</l>
+            <l>volcán de fuego, escollo de la tierra,</l>
+            <l>caos animal, pues con tan nuevo modo,</l>
+            <l>no siendo nada desto, lo era todo–</l>
+            <l>llegué en efeto donde a mi deseo</l>
+            <l>el egipcio, señor, ha preferido</l>
+            <l>en tu gracia y amor, no en el empleo,</l>
+            <l>aunque a besar tus plantas ha venido.</l>
+            <l>No digo que es esfera, ni lo creo,</l>
+            <l>del sol tu solio; que desvanecido</l>
+            <l>a tanta luz, si al sol honrar quisiera,</l>
+            <l>dosel de Salomón el suyo hiciera.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Reyes de Egipto y de Tiro,</l>
+            <l>que a mis decretos venís</l>
+            <l>obedientes y leales,</l>
+            <l>la causa que os trujo oíd.</l>
+            <l>Hijo nací generoso</l>
+            <l>de Betsabé y de David,</l>
+            <l>si heredero de sus glorias</l>
+            <l>no, de sus imperios sí.</l>
+            <l>Es mi nombre Salomón,</l>
+            <l>que es lo mismo que decir</l>
+            <l>pacífico. Bien el cielo</l>
+            <l>cumplió su palabra en mí;</l>
+            <l>pues desde que el Rey, mi padre,</l>
+            <l>juntó al nacer y al morir</l>
+            <l>oriente y ocaso y yo</l>
+            <l>sombra de su cuerpo fui,</l>
+            <l>se suspendieron las armas</l>
+            <l>en Palestina; y así,</l>
+            <l>no veis en Jerusalén</l>
+            <l>un arnés sólo, ni oís</l>
+            <l>los militares acentos</l>
+            <l>de una caja ni un clarín.</l>
+            <l>La oliva cede al laurel,</l>
+            <l>habiendo sido hasta aquí</l>
+            <l>escuela y lición de Marte;</l>
+            <l>pues, desde que en juvenil</l>
+            <l>edad esgrimió la honda</l>
+            <l>contra el jayán filistín</l>
+            <l>hasta que en su senectud</l>
+            <l>venció en una y otra lid</l>
+            <l>al apóstata idumeo</l>
+            <l>y al idólatra gentil,</l>
+            <l>no se desnudó las armas;</l>
+            <l>por cuya causa –advertid–</l>
+            <l>no quiso nuestro gran Dios</l>
+            <l>de su mano recibir</l>
+            <l>casa y templo en que morar,</l>
+            <l>altar y ara en que vivir.</l>
+            <l>Y así, dejando piadoso</l>
+            <l>tan gran carga sobre mí,</l>
+            <l>me manda en su testamento</l>
+            <l>que yo, piadoso y feliz,</l>
+            <l>labre al arca del Señor</l>
+            <l>templo que pueda partir</l>
+            <l>con el sol rayos y luces;</l>
+            <l>pues él desde su cenit</l>
+            <l>no sabrá a quién debe el día</l>
+            <l>el resplandor, porque así</l>
+            <l>han de brillar en sus muros</l>
+            <l>las puntas de oro y marfil</l>
+            <l>que de tanta Babilonia</l>
+            <l>todo el cielo sea pensil.</l>
+            <l>Esta fábrica eminente</l>
+            <l>–que no podrá competir</l>
+            <l>antes ni despues el tiempo–</l>
+            <l>fían los cielos de mí.</l>
+            <l>Ved si es cuidado que debo</l>
+            <l>consultar y repartir</l>
+            <l>con todos. Y siendo atlante</l>
+            <l>de tanto peso, advertid</l>
+            <l>si es bien que busque a quien pueda</l>
+            <l>ayudármele a sufrir.</l>
+            <l>Con este intento os llamé,</l>
+            <l>con esta ocasión venís</l>
+            <l>a Jerusalén los dos;</l>
+            <l>porque los dos conseguís</l>
+            <l>en mi amor y mi privanza</l>
+            <l>más lugar y honor que mil</l>
+            <l>reyes que son mis vasallos.</l>
+            <l>Y así, os quiero advertir</l>
+            <l>que, para empezar el templo,</l>
+            <l>me faltan de prevenir</l>
+            <l>dos provincias solamente.</l>
+            <l>Con más atención oíd.</l>
+            <l>El Líbano, excelso monte</l>
+            <l>en cuya verde cerviz</l>
+            <l>descansa el cielo los ejes</l>
+            <l>dese pabellón turquí,</l>
+            <l>población es donde tiene</l>
+            <l>sus imperios el abril;</l>
+            <l>porque sus árboles son</l>
+            <l>en el ameno jardín</l>
+            <l>lechos de la primavera;</l>
+            <l>pues cuando empieza a reír</l>
+            <l>el alba y llorar la aurora,</l>
+            <l>sus flores a medio abrir</l>
+            <l>son las copas en quien bebe</l>
+            <l>el sol maná del cenit.</l>
+            <l>Deste, pues, sagrado olimpo</l>
+            <l>habemos de conducir</l>
+            <l>leños a Jerusalén;</l>
+            <l>y tú, Candaces, has de ir</l>
+            <l>a talarle y a cortar</l>
+            <l>de las palmas de Efraín</l>
+            <l>los troncos, sin que te quede</l>
+            <l>por traer una raíz.</l>
+            <l>Tú, Hirán, sabe que al oriente,</l>
+            <l>donde de rosa y jazmín</l>
+            <l>coronado nace el sol</l>
+            <l>en su cuna de zafir,</l>
+            <l>hay una parte que llaman</l>
+            <l>India Oriental, hasta aquí</l>
+            <l>no descubierta de nadie,</l>
+            <l>sí, conocida de mí.</l>
+            <l>Aquí, pues, has de llegar</l>
+            <l>y de mi parte decir</l>
+            <l>a Nicaula de Sabá,</l>
+            <l>que es su docta emperatriz,</l>
+            <l>que si mi amistad desea</l>
+            <l>y solicita de mí</l>
+            <l>valerse, para mi templo</l>
+            <l>en estoraque y menjuí,</l>
+            <l>cinamomo y calambuco,</l>
+            <l>quiera dar y remitir</l>
+            <l>cuantos árboles y peñas</l>
+            <l>tiene su adusto país;</l>
+            <l>para que pueda labrar</l>
+            <l>con fábrica tan feliz</l>
+            <l>templo, altar, casa y sagrario</l>
+            <l>–a la ley de Sinaí,</l>
+            <l>a la vara de la sierpe</l>
+            <l>y al maná de Rafidín–</l>
+            <l>del arca del Testamento,</l>
+            <l>del sagrado Adonaís, d</l>
+            <l>el inmenso Sabaot,</l>
+            <l>del gran Jehová, que decir</l>
+            <l>quiere que es dios de los dioses,</l>
+            <l>por deidad, principio y fin.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>La respuesta, señor, sea</l>
+            <l>obedecer y servir.</l>
+            <l>Iré al Líbano y verás</l>
+            <l>cuán dignamente de mí</l>
+            <l>fías cuidado eminente.</l>
+            <l>A Sión ha de venir</l>
+            <l>en fragmentos, tan cabal</l>
+            <l>que se pueda presumir</l>
+            <l>que, en vez de traerlo yo,</l>
+            <l>él se ha venido hasta aquí.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Vase.</stage>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Donde el decir es hacer,</l>
+            <l>viene de más el decir.</l>
+            <l>No digo que iré a Sabá,</l>
+            <l>ni que informaré de ti</l>
+            <l>a su reina; sólo digo</l>
+            <l>que yo te voy a servir,</l>
+            <l>que es el premio que deseo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Vase.</stage>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>En paz, ¡oh reyes!, partid</l>
+            <l>juntos los dos; que no sé</l>
+            <l>qué grave espíritu en mí</l>
+            <l>dice que habéis de traerme</l>
+            <l>el tesoro más feliz</l>
+            <l>que tenga Jerusalén</l>
+            <l>–si en troncos puede venir–</l>
+            <l>y la riqueza mayor</l>
+            <l>que hoy está por descubrir</l>
+            <l>en la India; porque yo</l>
+            <l>espero gloria sin fin</l>
+            <l>del Líbano y de Sabá;</l>
+            <l>y no es mucho, pues que oí</l>
+            <l>que a la gran Jerusalén</l>
+            <l>la mayor le ha de venir</l>
+            <l>por una mujer y un árbol</l>
+            <l>de la casa de David.</l>
+            <stage>Vanse.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Sale Libio, negro, oyendo lo que se canta.</stage>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>La sibila soberana</l>
+            <l>de la gran India Oriental,</l>
+            <l>la emperatriz de Etiopía</l>
+            <l>y la reina de Sabá,</l>
+            <l>inspirada de un fervor</l>
+            <l>que la asiste celestial,</l>
+            <l>se ha retirado a saber</l>
+            <l>secretos que revelar.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Misteriosa es la canción.</l>
+            <l>Acercarme quiero más</l>
+            <l>a informarme. Dime, amigo.</l>
+          </sp>
+          <stage>Libio detiene a Mandinga.</stage>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>¿Yo amigo? ¿De cuándo acá,</l>
+            <l>si entre el branco ni entre el neglo</l>
+            <l>nunca hay segura amistad?</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Dime.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>¿Qué quiele que diga?</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>¿Dónde de esa suerte vas?</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>A esa monta.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>¿A qué efecto?</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>A efétulu de buscal</l>
+            <l>nuesa Reina.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>¿Vuestra Reina?</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Sí.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Pues decid, ¿qué hace allá?</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Sá allí retilala.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>¿A qué?</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+            <stage type="withText">Quiere irse.</stage>
+
+
+            <l>Muy pleguntasica sá.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Detente.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>No sá posible,</l>
+            <l>que la música se va</l>
+            <l>y turos mis gurgunillos</l>
+            <l>hasen mucha farta allá.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Vase.</stage>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Villano al fin. El lenguage</l>
+            <l>rústico claro lo da</l>
+            <l>a entender, porque los nobles</l>
+            <l>hablan más cortado y más</l>
+            <l>político.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <stage>Sale Irífile, negra.</stage>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>(¿Donde, amor,</l>
+            <l>guías mis pasos? Si ya</l>
+            <l>eres dueño de la vida,</l>
+            <l>¿qué más pretendes? ¿Qué más?</l>
+            <l>Dejé la música y vuelvo</l>
+            <l>a aquesta parte a buscar</l>
+            <l>a Libio, que aquí le vi.</l>
+            <l>¡Oh, qué fácil es de hallar</l>
+            <l>en quien despreciada vive</l>
+            <l>un desaire o un pesar!)</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Dígasme, Irífile bella,</l>
+            <l>que por este monte vas</l>
+            <l>a penetrar las entrañas</l>
+            <l>de su centro, ¿qué deidad</l>
+            <l>vive en él? ¿Qué oculto dios</l>
+            <l>sacrificio, ara y altar</l>
+            <l>admite en rústico templo</l>
+            <l>que así buscándole vas?</l>
+            <l>Que después que en Sabá vivo</l>
+            <l>cautivo, con haber ya</l>
+            <l>dos lustros del sol, no vi</l>
+            <l>esta admiración jamás.</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>Gran Libio, rey de Palmira,</l>
+            <l>a cuya felicidad</l>
+            <l>debió el tiempo más trofeos</l>
+            <l>que cuenta desdichas ya,</l>
+            <l>escúchame atentamente;</l>
+            <l>que aunque del cetro real</l>
+            <l>y la corona depuesto</l>
+            <l>hoy en nuestro reino estás,</l>
+            <l>eres rey a quien respeto,</l>
+            <l>porque, al fin, la majestad</l>
+            <l>por sí sola admiración</l>
+            <l>tiene y no por el lugar.</l>
+            <l>Ese ejército festivo</l>
+            <l>que, ceñido de arrayán,</l>
+            <l>de palma y laurel, al monte</l>
+            <l>hoy se conduce al compás</l>
+            <l>de sonoros instrumentos</l>
+            <l>–cuya música turbar</l>
+            <l>puede el aire, herir el cielo</l>
+            <l>y pasmar el sol–, sabrás</l>
+            <l>que a su reina va buscando;</l>
+            <l>que como la gran Sabá,</l>
+            <l>emperatriz del Oriente,</l>
+            <l>reina única y singular</l>
+            <l>de los imperios del sol,</l>
+            <l>es una adusta deidad,</l>
+            <l>que con espíritu ardiente</l>
+            <l>de dios merece alcanzar</l>
+            <l>de sibila y profetisa</l>
+            <l>nombre altivo y inmortal,</l>
+            <l>cuando el divino fervor,</l>
+            <l>que la inflama y que la da</l>
+            <l>aliento, en su pecho vive</l>
+            <l>es un ardiente volcán;</l>
+            <l>y furiosa, del poblado</l>
+            <l>huye y a la soledad</l>
+            <l>se retira, donde escribe</l>
+            <l>versos en que anuncios da</l>
+            <l>de los arcanos secretos</l>
+            <l>de un dios; que aunque dicen que hay</l>
+            <l>tantos de barro y madera,</l>
+            <l>de oro, de plata y metal,</l>
+            <l>ella sólo uno concede</l>
+            <l>y niega los de demás</l>
+            <l>en oprobio y menosprecio</l>
+            <l>de Moloc y de Baal.</l>
+            <l>Deste, pues, dios uno, suele</l>
+            <l>en varios bosquejos dar</l>
+            <l>mil noticias, escribiendo</l>
+            <l>ya en las arenas del mar</l>
+            <l>con el dedo, ya en los troncos,</l>
+            <l>siendo la pluma un puñal</l>
+            <l>y el papel esas cortezas</l>
+            <l>heridas tal vez; y tal,</l>
+            <l>verdes hojas de laurel</l>
+            <l>que esparce al viento a volar</l>
+            <l>con caracteres escritos,</l>
+            <l>siendo en su velocidad</l>
+            <l>aves con alma y sin vida.</l>
+            <l>Agora preguntarás:</l>
+            <l>“¿Por qué escribe y habla así,</l>
+            <l>pudiendo escribir y hablar</l>
+            <l>descubiertamente?” Y es</l>
+            <l>porque el rato que le da</l>
+            <l>el furor y la ilumina</l>
+            <l>una llama celestial,</l>
+            <l>divinos misterios ve</l>
+            <l>y entonces quiere observar</l>
+            <l>sus secretos; porque, luego</l>
+            <l>que pasa aquella deidad,</l>
+            <l>de cuanto vio y alcanzó</l>
+            <l>no vuelve a acordarse más</l>
+            <l>y queda como asombrada.</l>
+            <l>Mas, pues pudiste llegar</l>
+            <l>a tiempo de ver lo que hoy</l>
+            <l>nos revela, como allá</l>
+            <l>llegues conmigo, no dudes</l>
+            <l>que altos secretos oirás.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Admirado me has tenido,</l>
+            <l>oyendo la novedad</l>
+            <l>de que me informas. Iré</l>
+            <l>contigo hasta examinar</l>
+            <l>las entrañas deste monte,</l>
+            <l>cuya opaca amenidad</l>
+            <l>los imperios de la luz</l>
+            <l>niega al sol, pues no le da</l>
+            <l>licencia para que un rayo</l>
+            <l>pueda ver ni registrar</l>
+            <l>los senos adonde oculta,</l>
+            <l>avara de su beldad,</l>
+            <l>tesoros la primavera</l>
+            <l>en jazmín, rosa y azahar.</l>
+            <stage>Vanse.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <stage>Salen Casimira, Irene, Mandinga y Músicos.</stage>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>No pases de aquí, pues ves</l>
+            <l>que todos se paran ya.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Cesen los instrumentos</l>
+            <l>de dar admiraciones a los vientos;</l>
+            <l>y las sonoras voces,</l>
+            <l>que al sol llegaron dulces y veloces,</l>
+            <l>suspendan su alegría</l>
+            <l>y suceda el silencio a la armonía.</l>
+          </sp>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>Ninguna planta errante</l>
+            <l>malogre hermosa flor de aquí adelante;</l>
+            <l>pues ya de aquí miramos</l>
+            <l>entre las verdes hojas de los ramos</l>
+            <l>la cueva donde yace</l>
+            <l>el etíope sol que al mundo nace.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Aquí, pues, esperemos</l>
+            <l>los divinos misterios que sabremos.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Admirado me tiene</l>
+            <l>la grande fe con que a buscarla viene</l>
+            <l>su gente a esta espesura.</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>Cuando veas en ella una locura</l>
+            <l>tan cuerda y tan divina</l>
+            <l>que su mismo furor la desatina,</l>
+            <l>te admirarás de nuevo.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Mandinga, con la música me elevo.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Mucho en salir se talda.</l>
+            <l>¿No echa de vel la gente que la agualda?</l>
+            <l>Pero, ¡ay diosa!, ¿qué es esto? No lo cleo.</l>
+            <l>¡Voto al sol!, ¿qué es aquélla que allí veo?</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <stage>Sale Sabá con unas hojas en la mano.</stage>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>¿Ves de la suerte que sale ya afuera?</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Mi vista considera</l>
+            <l>otro mayor espanto.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Tanto la priva, la enajena tanto</l>
+            <l>el fervor que la inspira</l>
+            <l>que ni oye, ni ve, ni habla, ni mira.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Suelto el cabello tiene;</l>
+            <l>que, aunque etíope adusta, como tiene</l>
+            <l>tal cuidado con ello,</l>
+            <l>es un rayo del sol cada cabello.</l>
+            <l>Mal compuesto el vestido,</l>
+            <l>sin atención, sin alma y sin sentido,</l>
+            <l>con ardiente despecho</l>
+            <l>parece que se quiere abrir el pecho</l>
+            <l>porque en él no le cabe</l>
+            <l>el corazón.</l>
+          </sp>
+          <sp who="#músico-2">
+            <speaker rend="caps">Músico 2</speaker>
+
+
+            <l>¡Qué admiración tan grave!</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Espíritu divino</l>
+            <l>de un dios que adoro solo, aunque dios trino;</l>
+            <l>cuyo grave misterio</l>
+            <l>los cortesanos dicen de su imperio</l>
+            <l>cuando en sonoro canto</l>
+            <l>una vez dios le aclaman y tres santo;</l>
+            <l>dando a entender en estos</l>
+            <l>versos un solo dios y tres supuestos.</l>
+            <l>Tú que mi pecho inflamas</l>
+            <l>con dulce fuego de amorosas llamas,</l>
+            <l>a cuya mansa herida</l>
+            <l>el fénix soy, dilátame la vida;</l>
+            <l>que solamente quiero</l>
+            <l>–hasta adorar el celestial madero</l>
+            <l>del árbol soberano–</l>
+            <l>ramo de paz, cuando el linaje humano</l>
+            <l>agonice abrasado, anhele ciego</l>
+            <l>en diluvio fatal de sangre y fuego.</l>
+            <l>Oíd, oíd, mortales,</l>
+            <l>que sé de la salud de vuestros males.</l>
+            <l>Estas hojas que el viento</l>
+            <l>mueve sutil y desvanece atento,</l>
+            <l>misterios comprehenden</l>
+            <l>que se dejan mirar y no se entienden.</l>
+            <l>Estudiad, pues, en ellas;</l>
+            <l>que letras son del cielo las estrellas</l>
+            <l>y del viento las hojas.</l>
+            <l>Aliviadas veréis vuestras congojas,</l>
+            <l>borrados hallaréis vuestros delitos,</l>
+            <l>si entendéis sus caracteres escritos</l>
+            <l>en aquese cuaderno,</l>
+            <l>corónica inmortal de un dios eterno.</l>
+          </sp>
+          <stage>Esparce las hojas, llegan a cogerlas y ella se desmaya.</stage>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Desmayada ha quedado.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>¿Quién vio al sol entre sombras eclipsado?</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Una estatua es de yelo.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>De azabache dirás.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¡Válgame el cielo!</l>
+            <l>¿Adónde estoy? ¿Qué miro?</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Segunda vez con ocasión me admiro.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¿Yo aquí, tan descompuesto</l>
+            <l>el cabello y las ropas? Pues ¿qué es esto?</l>
+            <l>¿Quién aquí me ha traído?</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Vuelve a la luz primera tu sentido,</l>
+            <l>que cuantos aquí estamos</l>
+            <l>los rayos de tus sombras adoramos.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Huiré de que me vean</l>
+            <l>desta suerte. Los troncos sólo sean</l>
+            <l>testigos fieles hoy de mi fatiga;</l>
+            <l>que aun de mi sombra huyera,</l>
+            <l>si diferencia en mí y mi sombra hubiera.</l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <stage>Vase.</stage>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>¡Oye, espera!</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>¡Detente,</l>
+            <l>no la sigas! No ofendas neciamente</l>
+            <l>su precepto sagrado;</l>
+            <l>y pues solos sin ella hemos quedado,</l>
+            <l>las hojas que cogimos repitamos</l>
+            <l>porque en ellas leamos</l>
+            <l>lo que su voz enseña.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Ésta, virtud contiene no pequeña.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>¿Cómo dice?, que ya saberlo espero.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+            <stage type="withText">Lee.</stage>
+
+
+            <l>“Y cuando el parasismo vea postrero...”</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>Problema no entendida.</l>
+          </sp>
+          <sp who="#músico-1">
+            <speaker rend="caps">Músico 1</speaker>
+            <stage type="withText">Lee.</stage>
+
+
+            <l>“Con dulce fruta en su sazón cogida...”</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Tampoco ésa se entiende.</l>
+            <l>Más felice aquí habla a mis cuidados.</l>
+            <stage>Lee.</stage>
+            <l>“Los dichosos serán los señalados...”</l>
+          </sp>
+          <sp who="#músico-2">
+            <speaker rend="caps">Músico 2</speaker>
+
+
+            <l>Yo leer mi verso quiero.</l>
+            <stage>Lee.</stage>
+            <l>“Un celestial, un singular madero...”</l>
+            <l>Nada hasta aquí se entiende.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>El mío, ni se alcanza ni comprende,</l>
+            <l>en quien leo confusa y advertida...</l>
+            <stage>Lee.</stage>
+            <l>“Porque uno muerte dé y otro dé vida...”</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Yo tambien quielo agola</l>
+            <l>mi velso leel; pero leeyo ignola</l>
+            <l>Mandinga y así piro</l>
+            <l>que lo lea por mí el más entendiro.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Yo leértele quiero.</l>
+            <stage>Lee.</stage>
+            <l>“Antídoto ha de ser de aquel primero...”</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>Éste amenaza alguna gran caída.</l>
+            <stage>Lee.</stage>
+            <l>“La fábrica del orbe desasida...”</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Y déste quedaréis más admirados.</l>
+            <stage>Lee.</stage>
+            <l>“Y con él a jüicio seáis llamados...”</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Nada hemos entendido.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Etíopes confusos que el sentido</l>
+            <l>ignoráis de esos versos soberanos,</l>
+            <l>a voces repetid los ecos vanos.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Si ha de sel, estodial mi velso quielo;</l>
+            <l>antíroto ha de sel de aquel plimelo.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Vaya a una voz; pues pueden de esos modos,</l>
+            <l>no entendiéndose uno, leerse todos.</l>
+          </sp>
+          <sp who="#músico-2">
+            <speaker rend="caps">Música 2</speaker>
+
+
+            <l>“Un singular, un celestial madero...”</l>
+          </sp>
+          <sp who="#músico-1">
+            <speaker rend="caps">Músico 1</speaker>
+
+
+            <l>“...con dulce fruta en su sazón cogida...”</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>“...antídoto ha de ser de aquel primero,...”</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>“...porque uno muerte dé y otro dé vida;...”</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>“... y cuando el parasismo vea postrero...”</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>“...la fábrica del orbe desasida...”</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>“...con él a juicio universal llamados...”</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>“...los dichosos serán los señalados.”</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Alto sentido encierra.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Paz publica al principio y luego guerra</l>
+            <l>a todo el universo.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Misterio da el enigma, verso a verso,</l>
+            <l>anunciando un madero.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>“Antíroto ha de sel de aquel plimelo”.</l>
+            <l>No he de olvidar razón yo tan divina,</l>
+            <l>aunque tome desde hoy la anacaldina.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>“Leño ha de ser divino”.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Si un árbol ha de ser tan peregrino,</l>
+            <l>¿quién duda que esta tierra le tiene,</l>
+            <l>pues encierra</l>
+            <l>esos verdes trofeos</l>
+            <l>en los troncos y árboles sabeos?</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Bien es que le busquemos,</l>
+            <l>pues en Sabá sin duda le tenemos,</l>
+            <l>entre tan bellos ramos.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Vamos, pues, a buscalle, etíopes.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Vamos.</l>
+          </sp>
+          <stage>Suena un clarín y espántanse.</stage>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Mas, ¡ay, cielos!, ¿qué voz es la que suena,</l>
+            <l>que ni es ave del viento ni es sirena</l>
+            <l>del mar?</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Pierdo el sentido.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Su música otra vez no hemos oído.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Con sonoros acentos</l>
+            <l>vuelve a llenar de admiración los vientos.</l>
+            <l>¡Qué eco tan ligero!</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Antiroto ha de ser de aquel plimero.</l>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <stage>Sale en lo alto Sabá.</stage>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Moradores de Sabá,</l>
+            <l>primera cuna del sol,</l>
+            <l>donde su hermoso arrebol</l>
+            <l>recibe la luz que da</l>
+            <l>a otros hombres cuando va</l>
+            <l>su dorado rosicler</l>
+            <l>a ser hoy el que era ayer</l>
+            <l>–pues si en ondas de zafir</l>
+            <l>nace allá para morir</l>
+            <l>muere aquí para nacer–:</l>
+            <l>huid la playa arenosa</l>
+            <l>que ocupáis, dejad la orilla</l>
+            <l>del mar, que una maravilla</l>
+            <l>estupenda y prodigiosa</l>
+            <l>os viene a ver. Yo, furiosa</l>
+            <l>con la mansa pesadumbre</l>
+            <l>de mi espíritu, la cumbre</l>
+            <l>toqué de ese monte, que</l>
+            <l>verde salamandra fue</l>
+            <l>sustentándose de lumbre.</l>
+            <l>Sobre su cima eminente,</l>
+            <l>hoy la estatura del monte</l>
+            <l>no dilató el horizonte</l>
+            <l>a los campos de occidente;</l>
+            <l>y como tan claramente</l>
+            <l>agua y tierra presidía,</l>
+            <l>por ver qué descubriría,</l>
+            <l>vi en anchos campos del mar</l>
+            <l>el monstruo más singular</l>
+            <l>que vio el grande autor del día.</l>
+            <l>Ni es pez, ni es bruto, ni es ave,</l>
+            <l>siendo ave, bruto y pez;</l>
+            <l>porque en sus señas tal vez</l>
+            <l>uno y otro nombre cabe:</l>
+            <l>cuando nada altivo y grave</l>
+            <l>por el reino de la espuma</l>
+            <l>es pez de grandeza suma;</l>
+            <l>cuando en diáfanas salas</l>
+            <l>vuela batiendo las alas</l>
+            <l>es un pájaro de pluma;</l>
+            <l>cuando brama, cuyo acento</l>
+            <l>causa admiración y espanto,</l>
+            <l>es bruto; y así, entre tanto</l>
+            <l>que discurre el pensamiento,</l>
+            <l>a su gran prodigio atento</l>
+            <l>no sé que nombre le dé;</l>
+            <l>porque solamente sé,</l>
+            <l>si no es pez, bruto, ni ave,</l>
+            <l>que sin duda alguna nave</l>
+            <l>de estranjeros reinos fue.</l>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <stage>Sale Hirán.</stage>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Ya estamos en tierra. Agora</l>
+            <l>cada cual tome su senda</l>
+            <l>y examine las noticias</l>
+            <l>destos mares y estas sierras.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Hombre, aborto de la espuma</l>
+            <l>–que esa marítima bestia</l>
+            <l>sorbió sin duda en el mar</l>
+            <l>para escupirte en la tierra–,</l>
+            <l>no des más paso; porque</l>
+            <l>cada paso, más te acerca</l>
+            <l>a morir; y vas pisando</l>
+            <l>en las tostadas arenas</l>
+            <l>de esos montes las cenizas</l>
+            <l>de tu vida, cuando en ellas</l>
+            <l>cadáver midas el suelo</l>
+            <l>herido de la violencia</l>
+            <l>de una flecha en forma de áspid</l>
+            <l>o áspid en forma de flecha.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Deidad destos altos montes,</l>
+            <l>en quien la naturaleza</l>
+            <l>con estudio hizo un borrón</l>
+            <l>porque examine y advierta</l>
+            <l>que hay estudio en el acaso</l>
+            <l>y en el descuido belleza:</l>
+            <l>si eres la sombra del sol,</l>
+            <l>que en el oriente la deja</l>
+            <l>por no llevar sombra cuando</l>
+            <l>luces pisa y rayos huella;</l>
+            <l>si eres la diosa a quien dan</l>
+            <l>estos montes y estas selvas</l>
+            <l>estatuas de ébano y jaspe</l>
+            <l>porque en la tez se parezca;</l>
+            <l>si eres tú misma, en efeto</l>
+            <l>–porque no habrá más que seas,</l>
+            <l>siendo tú misma, tú misma–,</l>
+            <l>no desdigas, no desmientas</l>
+            <l>las vislumbres de divina</l>
+            <l>con rigor y con soberbia;</l>
+            <l>que emplear tirana en quien</l>
+            <l>humilde tus plantas besa</l>
+            <l>las puntas de esos arpones</l>
+            <l>será malograr sus fuerzas,</l>
+            <l>pues no les da qué vencer</l>
+            <l>quien no les quita que venzan.</l>
+            <l>De paz navego estos mares,</l>
+            <l>espejos en quien contempla</l>
+            <l>el sol su hermosura cuando</l>
+            <l>medio dormido despierta.</l>
+            <l>De paz estos montes piso,</l>
+            <l>pirámides que sustentan</l>
+            <l>en sus espaldas los rumbos</l>
+            <l>de una esfera y otra esfera.</l>
+            <l>Y así, nobles y piadosos,</l>
+            <l>decidme qué parte es ésta</l>
+            <l>de la India y dónde caen</l>
+            <l>por estos mares y tierras</l>
+            <l>las provincias de Sabá;</l>
+            <l>que voy buscando a su reina,</l>
+            <l>en vez de darla temores</l>
+            <l>para rendirla obediencias.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Turo aqueso sá embeleco.</l>
+            <l>Mira, siola, no le cleas;</l>
+            <l>que la gente branca sá</l>
+            <l>mentirosa. Para eya,</l>
+            <l>esturunémule turo,</l>
+            <l>haya grita, fisca e festa.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Ignorante peregrino,</l>
+            <l>que vienes de lejas tierras</l>
+            <l>donde noticia del sol</l>
+            <l>aun habrás tenido apenas,</l>
+            <l>puesto que no la has tenido</l>
+            <l>de esa emperatriz –pues de ella</l>
+            <l>la fama informa primero</l>
+            <l>cuando generosa vuela</l>
+            <l>desde un polo al otro polo</l>
+            <l>llena de ojos y de lenguas–,</l>
+            <l>porque tan grave ignorancia</l>
+            <l>otra vez no te suceda,</l>
+            <l>quiero de Sabá informarte.</l>
+            <l>Escucha, porque lo sepas.</l>
+            <l>En los desiertos del Asia,</l>
+            <l>primera cuna y primera</l>
+            <l>estación del sol, adonde</l>
+            <l>la luz su fatiga empieza,</l>
+            <l>yace una fértil provincia</l>
+            <l>a quien engastan y cercan</l>
+            <l>dos mares; que menos fosos</l>
+            <l>a los muros de sus peñas</l>
+            <l>no bastaran, si no es</l>
+            <l>que contemplándose en ellas</l>
+            <l>son espejos de cristal</l>
+            <l>a mil narcisos de yerba.</l>
+            <l>Tan joven la luz del día</l>
+            <l>está aquí y con tanta fuerza</l>
+            <l>hiere que en los moradores</l>
+            <l>abrasa el color y quema;</l>
+            <l>de suerte que, adustos todos,</l>
+            <l>cuando al sol están no aciertan</l>
+            <l>cuál es la sombra o el cuerpo,</l>
+            <l>que es todo una cosa mesma.</l>
+            <l>Deste, pues, lunar del orbe,</l>
+            <l>si bien lunar con belleza;</l>
+            <l>desta, pues, mancha con arte</l>
+            <l>es emperatriz y reina</l>
+            <l>Sabá; que aunque no es su nombre</l>
+            <l>sino Nicaula Maqueda,</l>
+            <l>por sus imperios así</l>
+            <l>la suelen llamar; y ella</l>
+            <l>lo permite, porque tanto</l>
+            <l>de sus imperios se precia.</l>
+            <l>No te quiero numerar</l>
+            <l>su majestad y grandeza,</l>
+            <l>su poder y su valor,</l>
+            <l>aunque decirte pudiera</l>
+            <l>que son sus montes de oro,</l>
+            <l>puesto que en ellos se engendra</l>
+            <l>tanto –oye– que si tal vez</l>
+            <l>alguna mina revienta</l>
+            <l>de plata, dicen que ha sido</l>
+            <l>un aborto de la tierra</l>
+            <l>y, como mal parto suyo,</l>
+            <l>ni le nombran ni le cuentan.</l>
+            <l>¿Qué leño no es una aroma?</l>
+            <l>¿Qué copa no es una hoguera?</l>
+            <l>¿Qué peña no es un brasero,</l>
+            <l>holocausto destas selvas?</l>
+            <l>¿Ves todo ese monte? ¿Ves</l>
+            <l>toda esa verde eminencia</l>
+            <l>embarazo de los vientos</l>
+            <l>y de los rayos ofensa?</l>
+            <l>Pues es una ara no más,</l>
+            <l>en cuya llama sabea</l>
+            <l>salamandra el sol se abrasa,</l>
+            <l>fénix el sol se renueva;</l>
+            <l>pues aquí, en dulces olores,</l>
+            <l>las alas doradas quema,</l>
+            <l>haciéndose cada día</l>
+            <l>el natal y las exequias;</l>
+            <l>y así, cenizas del sol,</l>
+            <l>árboles, plantas y yerbas,</l>
+            <l>sangre, bálsamos y gomas,</l>
+            <l>sepulcro, montes y peñas,</l>
+            <l>todo olores le tributa,</l>
+            <l>todo le rinde riquezas.</l>
+            <l>A Libio, rey de Palmira,</l>
+            <l>venció en batalla sangrienta;</l>
+            <l>y, desposeído ya,</l>
+            <l>preso le tiene en su tierra.</l>
+            <l>Y con ser tal el poder</l>
+            <l>de Sabá, tal la grandeza,</l>
+            <l>no son éstas las mayores;</l>
+            <l>porque las mayores que ella</l>
+            <l>tiene son la majestad</l>
+            <l>de su ingenio, de sus ciencias;</l>
+            <l>libro con alma y con voz</l>
+            <l>es, que doctamente enseña</l>
+            <l>lo más oculto que el tiempo</l>
+            <l>o dificulta o reserva.</l>
+            <l>Mira si quien esto sabe,</l>
+            <l>mira si quien esto reina,</l>
+            <l>podrá ofenderse de que</l>
+            <l>tú lo ignores y no sepas</l>
+            <l>que es poderosa, que es sabia,</l>
+            <l>que es generosa, que es bella;</l>
+            <l>y que lo preguntes cuando</l>
+            <l>estás hablando con ella;</l>
+            <l>y que ella mesma te haya</l>
+            <l>de decir que es ella mesma.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Saberse tu nombre antes</l>
+            <l>que tu persona se sepa,</l>
+            <l>anticipando la fama,</l>
+            <l>es lisonja y no es ofensa;</l>
+            <l>mas si te ofendes de mí</l>
+            <l>como sabia y como reina</l>
+            <l>y como hermosa, no hagas</l>
+            <l>hoy de una culpa tres quejas,</l>
+            <l>pues a la de hermosa sólo</l>
+            <l>no te sabré dar respuesta;</l>
+            <l>porque en cuanto a rica y sabia</l>
+            <l>no me admiro, que está hecha</l>
+            <l>el alma a tratar y ver</l>
+            <l>más majestad y más ciencia.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¿En quien?</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>En Salomón, rey</l>
+            <l>de cuanto el Éufrates riega</l>
+            <l>hasta Filistín y cuanto</l>
+            <l>desde Egipto señorea</l>
+            <l>el Nilo hasta la otra parte</l>
+            <l>de Éufrates. Cuantos en estas</l>
+            <l>provincias los reyes son,</l>
+            <l>vasallos suyos se cuentan.</l>
+            <l>Es señor de Palestina,</l>
+            <l>de Samaria y de Idumea,</l>
+            <l>Caldea y las dos Arabias,</l>
+            <l>Félix Desierta y Petrea.</l>
+            <l>De las Indias del Ofir</l>
+            <l>tres flotas al año llegan,</l>
+            <l>cargadas de plata y oro,</l>
+            <l>metales, joyas y telas.</l>
+            <l>Tanto que, en Jerusalén,</l>
+            <l>hoy que hacer un templo intenta,</l>
+            <l>para la fábrica hermosa</l>
+            <l>están las calles cubiertas</l>
+            <l>de materiales; de suerte</l>
+            <l>que se ve más plata en ellas</l>
+            <l>que piedras, con haber tantas</l>
+            <l>que de sola una pudiera,</l>
+            <l>si se abollara, labrar</l>
+            <l>una casa toda entera</l>
+            <l>sin que estuviera ajustada,</l>
+            <l>sino todo de una pieza.</l>
+            <l>Cincuenta y seis mil caballos</l>
+            <l>de su servicio sustenta;</l>
+            <l>y gasta al año en su casa</l>
+            <l>cuatro millones de hanegas</l>
+            <l>de trigo.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>¡Válgame dioso!</l>
+            <l>¡Y quién aquí las tuviela!</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Y dejando aparte cuanto</l>
+            <l>es majestad y grandeza,</l>
+            <l>tiene las ciencias de cuantos</l>
+            <l>sabios ha habido en la tierra</l>
+            <l>y ha de haber; porque ninguno</l>
+            <l>de cuantos nazcan y mueran,</l>
+            <l>supo más ni sabrá más.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Estrañas cosas me cuentas;</l>
+            <l>y de escucharte, admirada</l>
+            <l>te prometo que me dejas.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Y plegunto yo, siola:</l>
+            <l>¿qué harás cuando no lo clea</l>
+            <l>esto yo?</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Haré castigarte</l>
+            <l>por incrédulo; que es fuerza</l>
+            <l>que aquí me diga verdad</l>
+            <l>y todo cuanto refiera</l>
+            <l>hoy se ha de creer por fe.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Digui yo que so una bestia;</l>
+            <l>y si habrare más, la boca</l>
+            <l>al colodrillo me vuelva.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>De parte deste gran rey,</l>
+            <l>te vengo a pedir audiencia;</l>
+            <l>que ya te he dicho, señora,</l>
+            <l>que un templo labrar intenta</l>
+            <l>adonde viva su dios;</l>
+            <l>y su fábrica desea</l>
+            <l>ilustrar con dones tuyos.</l>
+            <l>Mi embajada, al fin, es ésta.</l>
+            <l>Pero más despacio quiero</l>
+            <l>que en tu palacio lo sepas;</l>
+            <l>que es rústico todo un monte</l>
+            <l>para que informarte quiera</l>
+            <l>en él de tantos sucesos.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Mi vida también espera</l>
+            <l>informarse más despacio</l>
+            <l>de las cosas que me cuentas.</l>
+            <l>Vente a palacio; y contigo,</l>
+            <l>capitán, tus gentes vengan,</l>
+            <l>que quiero hospedarlas todas.</l>
+            <l>Y cree que si deseas</l>
+            <l>llevar dones de Sabá</l>
+            <l>para enriquecer tu tierra,</l>
+            <l>que creo que has de llevarle</l>
+            <l>el mayor que se halla en ella,</l>
+            <l>que es a mí; porque he de ver</l>
+            <l>si es verdad que tu rey sea</l>
+            <l>el más rico y el más sabio</l>
+            <l>de los reyes de la Tierra;</l>
+            <l>pues lo será, si es que a mí</l>
+            <l>me vence en poder y en ciencias,</l>
+            <l>que soy Sibila de Oriente</l>
+            <l>que soy del Ocaso reina.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <div type="scene" n="1">
+          <stage>Salen Irífile, Casimira, Irene, Libio y demás indios; y luego Sabá y Hirán.</stage>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Ese monte coronado</l>
+            <l>de verdes copas, en quien</l>
+            <l>hoy tantas gentes se ven,</l>
+            <l>es el Líbano sagrado.</l>
+            <l>Cuarenta mil hombres son</l>
+            <l>los que a talarle han venido,</l>
+            <l>de quien general ha sido</l>
+            <l>Candaces; y con razón,</l>
+            <l>porque su cuidado es</l>
+            <l>de quien tal acción se fía.</l>
+            <l>Por el mar, desde aquí envía</l>
+            <l>la palma, el cedro y ciprés</l>
+            <l>a Jerusalén; y así</l>
+            <l>puebla de árboles el mar,</l>
+            <l>que se deja imaginar</l>
+            <l>que se ha arrancado de aquí</l>
+            <l>el monte cuando a ver llega</l>
+            <l>que su sagrado horizonte</l>
+            <l>discurre a cargas el monte</l>
+            <l>y a pedazos le navega.</l>
+            <l>En su falda descansar</l>
+            <l>puedes en tanto, señora,</l>
+            <l>que las sombras hacen hora</l>
+            <l>de volver a caminar;</l>
+            <l>que ha sido largo el viaje</l>
+            <l>y no dudo que vendrás cansada.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Pues que me das</l>
+            <l>verde y florido hospedaje,</l>
+            <l>en la falda lisonjera</l>
+            <l>descansaré deste prado,</l>
+            <l>donde pienso que ha fundado</l>
+            <l>su corte la primavera,</l>
+            <l>según las flores que veo.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Pues que ya tan cerca estás</l>
+            <l>de Jerusalén, verás</l>
+            <l>allá cumplido el deseo;</l>
+            <l>porque admiración tan grave</l>
+            <l>como darán sus despojos,</l>
+            <l>cabe, señora, en los ojos</l>
+            <l>y en el concepto no cabe.</l>
+            <l>Ya prevenida tu entrada</l>
+            <l>en Jerusalén está</l>
+            <l>y yo he de llegar allá</l>
+            <l>primero con tu embajada.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Dejadme sola, que aquí</l>
+            <l>esperar quiero que el sol</l>
+            <l>temple su ardiente arrebol.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>Aquí hay un árbol, señora,</l>
+            <l>que al sol los rayos defiende;</l>
+            <l>cuya hermosura suspende,</l>
+            <l>cuya beldad enamora.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Derecho el tronco e igual</l>
+            <l>hasta rematarse, sube</l>
+            <l>a ser de una verde nube</l>
+            <l>gigante piramidal.</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>En fin, en sus resplandores</l>
+            <l>él muestra bien que por ley</l>
+            <l>de naturaleza es rey</l>
+            <l>de las plantas y las flores.</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>Y que su Autor soberano,</l>
+            <l>por favor particular,</l>
+            <l>le quiso hacer y labrar</l>
+            <l>todo de su propia mano,</l>
+            <l>como quien dice: “Yo fui</l>
+            <l>quien hizo por varios modos</l>
+            <l>los árboles para todos</l>
+            <l>y éste solo para mí”.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>En sus froliras alfomblas,</l>
+            <l>descansal podlás; pues son</l>
+            <l>calo, lecho y pabellón,</l>
+            <l>rosas, álboles y somblas.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Aquí, pues, descansaré.</l>
+            <l>Todos de aquí os retirad</l>
+            <l>y alguna cosa cantad.</l>
+            <stage>A Mandinga.</stage>
+            <l>Tú no te vayas porque</l>
+            <l>si algo se ofreciere, puedas</l>
+            <l>avisar.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Échase debajo del árbol y vanse todos.</stage>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Aquí saré.</l>
+            <l>Turo se va. Yo he queraro</l>
+            <l>solo.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¿Mandinga?</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>¿Siola?</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Diles que canten.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Ya agola</l>
+            <l>lo turumento han templaro.</l>
+          </sp>
+          <stage>Cantan y ella se duerme.</stage>
+          <sp who="#músico-1">
+            <speaker rend="caps">Músico 1</speaker>
+
+
+            <l>Un singular, un celestial madero...</l>
+          </sp>
+          <sp who="#músico-2">
+            <speaker rend="caps">Músico 2</speaker>
+
+
+            <l>…con dulce fruta en su sazón cogida...</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>…antídoto ha de ser de aquél primero...</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>…porque uno muerte dé y otro dé vida.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Y cuando el parasismo vea postrero...</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>…la fábrica del orbe desasida...</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>…con él a juicio universal llamados...</l>
+          </sp>
+          <sp who="#libio">
+            <speaker rend="caps">Libio</speaker>
+
+
+            <l>…los dichosos serán los señalados.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Parece que sa dulmiro</l>
+            <l>al son del esturumento</l>
+            <l>y el sol, el agua y el viento</l>
+            <l>no se atleven a hasel ruiro</l>
+            <l>por no dispeltaya. Yo</l>
+            <l>también la quielo dejal,</l>
+            <l>que sa pecaro peltal</l>
+            <l>a quien de gana ha dulmiró.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Vase y dicen dentro.</stage>
+          <sp who="#casimira">
+            <speaker rend="caps">Uno</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>¡No le sigas más!</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Dos</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Al viento,</l>
+            <l>disforme monstruo, te igualas:</l>
+            <l>no corres, vuelas sin alas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Sale Joab, con barba larga.</stage>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Flaco y cansado me siento;</l>
+            <l>mas, ¿qué mucho, si los daños</l>
+            <l>que dan espantos y asombros</l>
+            <l>huyendo llevo en mis hombros</l>
+            <l>y el peso de tantos años?</l>
+            <l>En tu vientre, ¡oh peña dura!,</l>
+            <l>vivo a sepultarme voy;</l>
+            <l>que es bien, pues cadáver soy,</l>
+            <l>que busque mi sepultura.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Va a entrar por una cueva y despierta Sabá.</stage>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>(¿Qué ruido es éste? ¡Ay de mí!</l>
+            <l>¿Qué monstruo tan torpe y feo</l>
+            <l>es el que presente veo?)</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>(No puedo pasar de aquí.</l>
+            <l>¡Qué estraña mujer!)</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¡Detén,</l>
+            <l>oh fiera, el paso veloz!</l>
+            <l>Y si no puede mi voz</l>
+            <l>pararte, pueda el desdén</l>
+            <l>deste arpón; porque presumas</l>
+            <l>que a él mis temores apelan,</l>
+            <l>pues todos con plumas vuelan</l>
+            <l>y tú pararás con plumas.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Mujer prodigiosa –tanto</l>
+            <l>que, al contemplar tus despojos,</l>
+            <l>los oídos y los ojos</l>
+            <l>horror padecen y espanto;</l>
+            <l>y en tan grave confusión,</l>
+            <l>por saber dentro en mí luchan</l>
+            <l>si a lo que miran o escuchan</l>
+            <l>le deben la admiración–,</l>
+            <l>no soy fiera. Aunque me ves</l>
+            <l>con tantas señas de fiera,</l>
+            <l>hombre soy; y ser quisiera</l>
+            <l>vil trofeo de tus pies</l>
+            <l>antes que de esos arpones,</l>
+            <l>a no importarme ir huyendo</l>
+            <l>de quien me viene siguiendo.</l>
+            <l>Si palabras o si acciones</l>
+            <l>de un hombre que es desdichado</l>
+            <l>tu pecho han enternecido,</l>
+            <l>paso a esta cueva te pido</l>
+            <l>adonde vivo enterrado.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Pierde, hombre o fiera, el temor.</l>
+            <l>Nadie te sigue y aquí,</l>
+            <l>aunque te sigan, en mí</l>
+            <l>tienes amparo y favor;</l>
+            <l>que soy Sabá, emperatriz</l>
+            <l>de los montes del Oriente.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Aunque tu beldad lo intente,</l>
+            <l>no harás mi vida feliz.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>No temas, pues te asegura</l>
+            <l>mi respeto y mi piedad.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>No valdrá la inmunidad</l>
+            <l>de tu divina hermosura</l>
+            <l>a un delincuente que hoy</l>
+            <l>vive a muerte condenado.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¿Quién eres?</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Un desdichado,</l>
+            <l>con que te he dicho quién soy;</l>
+            <l>pero, pues treguas nos da</l>
+            <l>la gente que me seguía</l>
+            <l>y amparas la falta mía,</l>
+            <l>escucha.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Atenta estoy ya.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Hermosa mujer, en quien</l>
+            <l>la naturaleza puso</l>
+            <l>competencias generosas</l>
+            <l>de lo blanco y de lo adusto,</l>
+            <l>yo soy Joab infelice,</l>
+            <l>a cuyo valor, a cuyo</l>
+            <l>esfuerzo, las cuatro partes</l>
+            <l>de la fábrica del mundo</l>
+            <l>temblaron; aunque ya sólo</l>
+            <l>soy un cadáver caduco,</l>
+            <l>que al soplo menos ligero</l>
+            <l>de cualquier viento me turbo.</l>
+            <l>Capitán fui general</l>
+            <l>de los ejércitos sumos</l>
+            <l>de David. Digan el Tigris,</l>
+            <l>el Éufrates y el Danubio</l>
+            <l>si en sus hermosas riberas,</l>
+            <l>que son de esmeraldas rumbos,</l>
+            <l>tuvieron hartos laureles</l>
+            <l>para coronar mis triunfos.</l>
+            <l>Pero contemos desdichas,</l>
+            <l>que están más puestas en uso:</l>
+            <l>el introducir tragedias</l>
+            <l>por los actos del disgusto.</l>
+            <l>Cuando Absalón, hijo hermoso</l>
+            <l>de David, bello trasunto</l>
+            <l>de Adonis, pues fue su sangre</l>
+            <l>de su hermosura dibujo,</l>
+            <l>a un tiempo vasallo y hijo</l>
+            <l>inobediente y perjuro,</l>
+            <l>contra su padre y su rey</l>
+            <l>en armadas huestes puso</l>
+            <l>el imperio –siendo entonces</l>
+            <l>a tanto escándalo injusto</l>
+            <l>los montes de Gelboé</l>
+            <l>testigos sordos y mudos–,</l>
+            <l>con su rey y con su campo</l>
+            <l>salí a estorbar el orgullo</l>
+            <l>del ejército, que osado</l>
+            <l>la batalla nos dispuso</l>
+            <l>a la hora que ya el sol</l>
+            <l>entre reflejos confusos</l>
+            <l>iba, declinando rayos,</l>
+            <l>a ser huésped de Neptuno.</l>
+            <l>Frente a frente los dos campos</l>
+            <l>se vieron en el noturno</l>
+            <l>silencio, si ya no fue</l>
+            <l>que el sol se vistió de luto.</l>
+            <l>Hizo, al alba, de embestir</l>
+            <l>señal un metal robusto</l>
+            <l>–que es voz y aliento de Marte–</l>
+            <l>cuando los dos campos juntos</l>
+            <l>–repitiendo los acentos</l>
+            <l>y los grabados escudos–</l>
+            <l>eran un Etna de fuego,</l>
+            <l>eran un volcán de humo.</l>
+            <l>Tan sangrienta y tan crüel</l>
+            <l>fue la lid que el valle estuvo</l>
+            <l>hecho de púrpura humana</l>
+            <l>un pavimento cerúleo.</l>
+            <l>Declarose la vitoria;</l>
+            <l>decirte por quién rehúso,</l>
+            <l>porque parece injusticia</l>
+            <l>del cielo; y en sus influjos,</l>
+            <l>cuando injusto nos parece,</l>
+            <l>es justiciero y no injusto.</l>
+            <l>La gente, pues, de David,</l>
+            <l>rota y deshecha, se expuso</l>
+            <l>a la fuga; y el rey mismo,</l>
+            <l>de sus afectos desnudo,</l>
+            <l>a espaldas vueltas volvía</l>
+            <l>contra su valor augusto.</l>
+            <l>Mas Semeí, joven valiente</l>
+            <l>que el calabozo profundo</l>
+            <l>de esa bóveda conmigo</l>
+            <l>habita, ciego y sañudo</l>
+            <l>de ver a su rey huyendo,</l>
+            <l>dijo a voces: “¡Del Dios sumo</l>
+            <l>de Israel maldito sea</l>
+            <l>rey que a padecer nos trujo!”.</l>
+            <l>Oyolo David y dijo:</l>
+            <l>“Aunque de tu boca escucho</l>
+            <l>mi maldición, Semeí, hoy</l>
+            <l>no has de pensar que procuro</l>
+            <l>mi venganza. Mientras viva</l>
+            <l>yo, tú vivirás seguro”.</l>
+            <l>Y volviendo a la batalla,</l>
+            <l>tanto esfuerzo en ella puso</l>
+            <l>que barajó a la fortuna</l>
+            <l>la suerte; y vitoria tuvo.</l>
+            <l>¿Viste exhalación deshecha</l>
+            <l>correr por azules rumbos,</l>
+            <l>que deja un rastro de fuego</l>
+            <l>por donde corre? Presumo</l>
+            <l>que esto Absalón parecía</l>
+            <l>desamparando a los suyos,</l>
+            <l>cuando veo –¡oh qué prodigio!–</l>
+            <l>que de los cabellos rubios</l>
+            <l>pendiente a una encina queda,</l>
+            <l>siendo en su desdicha a un punto</l>
+            <l>la misma encina y cabello</l>
+            <l>el suplicio y el verdugo.</l>
+            <l>De no matarle llevaba</l>
+            <l>orden yo, pero ¿quién tuvo</l>
+            <l>freno para la impaciencia</l>
+            <l>y rienda para el impulso?</l>
+            <l>La acción que, violenta ya,</l>
+            <l>parada en el aire estuvo,</l>
+            <l>a pesar de mis afectos,</l>
+            <l>sin saber cómo, ejecuto;</l>
+            <l>y pasándole la espalda</l>
+            <l>hasta el pecho el hierro agudo,</l>
+            <l>siendo en la región del aire</l>
+            <l>toda la esfera un sepulcro,</l>
+            <l>fue una admiración del cielo</l>
+            <l>y espectáculo del mundo.</l>
+            <l>Los campos de Gelboé</l>
+            <l>maldijo, cuando lo supo,</l>
+            <l>David; por cuya ocasión,</l>
+            <l>siempre secos, siempre mustios,</l>
+            <l>ni llora el alba rocío,</l>
+            <l>ni congela dulces frutos</l>
+            <l>de las flores del abril,</l>
+            <l>ni las espigas de julio.</l>
+            <l>En mí quisiera vengarse;</l>
+            <l>mas como siempre me tuvo</l>
+            <l>tan grandes obligaciones,</l>
+            <l>nunca a hacerlo se dispuso.</l>
+            <l>Vivido he, pero muriendo;</l>
+            <l>y en el testamento suyo</l>
+            <l>deja mandado que muera</l>
+            <l>por tan riguroso insulto.</l>
+            <l>Huyendo de Salomón</l>
+            <l>la justicia, no procuro</l>
+            <l>mi perdón, por saber cierto</l>
+            <l>que es juez sabio, que es rey justo;</l>
+            <l>y conmigo lo será</l>
+            <l>más, pues un tiempo que hubo</l>
+            <l>bandos entre él y Adonías,</l>
+            <l>su hermano, sobre el augusto</l>
+            <l>laurel que ciñó, ayudé</l>
+            <l>de Adonías los discursos.</l>
+            <l>Por todo, pues, vivo aquí e</l>
+            <l>n un calabozo oscuro</l>
+            <l>con Semeí, que es aquel</l>
+            <l>de la maldición; y juntos</l>
+            <l>los dos, por guardar las vidas</l>
+            <l>de las manos de un verdugo,</l>
+            <l>lo somos nosotros mesmos,</l>
+            <l>viviendo como unos brutos.</l>
+            <l>De yerbas nos sustentamos;</l>
+            <l>y éstas cogemos a hurto</l>
+            <l>de la gente que este monte</l>
+            <l>saquea de troncos, cuyo</l>
+            <l>número excede a sus hojas.</l>
+            <l>Si pudo mi voz, si pudo</l>
+            <l>obligarte mi desdicha,</l>
+            <l>lo más que de ti procuro</l>
+            <l>es que con Candaces puedas</l>
+            <l>–rey de Egipto– que, entre muchos</l>
+            <l>árboles que van cautivos</l>
+            <l>hoy a Jerusalén, uno</l>
+            <l>reserves, que es este árbol,</l>
+            <l>porque su tronco caduco</l>
+            <l>es prodigioso entre cuantos</l>
+            <l>el tiempo vistió de lustros.</l>
+            <l>Tradición es verdadera</l>
+            <l>de los moradores rudos</l>
+            <l>del Líbano que este tronco</l>
+            <l>de Hebrón a sus montes trujo</l>
+            <l>Jafet, hijo de Noé;</l>
+            <l>que fue el que en herencia tuvo</l>
+            <l>esta parte cuando él</l>
+            <l>partió entre los hijos suyos</l>
+            <l>la tierra la vez segunda</l>
+            <l>que volvió a nacer el mundo.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Es tu historia prodigiosa;</l>
+            <l>admiración me ha debido.</l>
+            <l>Y supuesto que he venido</l>
+            <l>donde, sabia y poderosa,</l>
+            <l>en pena tan rigurosa</l>
+            <l>pueda valerte, lo haré.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Jamás piedad esperé.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Venid juntos, tú y tu amigo,</l>
+            <l>a Jerusalén conmigo;</l>
+            <l>que yo al rey le pediré</l>
+            <l>vuestras vidas la primera</l>
+            <l>cosa que se llegue a hablar;</l>
+            <l>que siento vuestro pesar</l>
+            <l>como si mi pena fuera.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>¡Semeí!</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Sale Semeí, vestido de pieles.</stage>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>¿Qué es lo que me quieres?</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Darte de un suceso parte.</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>Desde aquí pude escucharte;</l>
+            <l>y así, informarme no esperes.</l>
+            <l>Y me ha pesado de que eres</l>
+            <l>ciego y desagradecido</l>
+            <l>a tu bien. ¿Por qué no has sido</l>
+            <l>alfombra a esos pies primero?</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Porque yo, Semeí, no espero</l>
+            <l>el perdón que me ha ofrecido e</l>
+            <l>sa mujer. Si yo a muerte</l>
+            <l>estoy condenado ya,</l>
+            <l>¿quién a romper bastará</l>
+            <l>lazo tan duro y tan fuerte?</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>Que podrá romperlo, advierte,</l>
+            <l>una reina soberana,</l>
+            <l>tan divina como humana,</l>
+            <l>que en el Oriente nació,</l>
+            <l>hija del sol.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Nunca yo</l>
+            <l>en esperanza tan vana</l>
+            <l>mi vida aseguraré.</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>¿No la asegura un madero?</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Ya tampoco en él espero;</l>
+            <l>pues que ha de cortarle sé</l>
+            <l>la gente que aquí se ve.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Pues no esté desesperado</l>
+            <l>hombre a muerte condenado</l>
+            <l>por decreto de un rey fuerte.</l>
+            <l>Si heredero de tu muerte</l>
+            <l>vives pobre y desdichado,</l>
+            <l>vida por mí has de tener; p</l>
+            <l>orque digan que ha rompido</l>
+            <l>el decreto establecido</l>
+            <l>un árbol y una mujer.</l>
+            <l>Y mujer, cuyo poder</l>
+            <l>es de virtudes crisol,</l>
+            <l>cuyo divino arrebol</l>
+            <l>es hermoso y refulgente,</l>
+            <l>porque es reina del Oriente,</l>
+            <l>provincia hermosa del sol.</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>La vida espero por ti,</l>
+            <l>hermosa Sabá.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Yo no.</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>¿Quién del bien desesperó?</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Quien nació como nací,</l>
+            <l>no espere vivir.</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>Yo sí.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Eres loco.</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>Tú, obstinado.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Dios inmenso, dios sagrado</l>
+            <l>que aquí mi espíritu enciendes,</l>
+            <l>¿qué gran misterio pretendes</l>
+            <l>revelar a mi cuidado?</l>
+            <l>Entre dos hombres que a muerte</l>
+            <l>están condenados ya,</l>
+            <l>un madero hermoso está</l>
+            <l>que luces y rayos vierte.</l>
+            <l>¿Qué duda tan grave y fuerte</l>
+            <l>de aquí se puede inferir?</l>
+            <l>Uno espera que vivir</l>
+            <l>puede; y otro desespera</l>
+            <l>de la vida. ¡Quién pudiera</l>
+            <l>los secretos descubrir</l>
+            <l>que me dicta el corazón!</l>
+            <l>Pero no puedo, no puedo;</l>
+            <l>que muerta y vencida quedo</l>
+            <l>a manos de mi pasión.</l>
+            <l>¿Qué soberana visión</l>
+            <l>en vislumbres considero</l>
+            <l>otra vez de que un madero</l>
+            <l>común remedio sería</l>
+            <l>del universo y pedía</l>
+            <l>al cielo que lisonjero</l>
+            <l>me le diese a conocer?</l>
+            <l>¡Quién el secreto pudiese</l>
+            <l>penetrar! ¡Oh, quién supiese</l>
+            <l>cómo ha de venirse a ver</l>
+            <l>nuestro remedio y placer!</l>
+            <l>Mas aunque el camino ignoro,</l>
+            <l>como a sagrado te adoro:</l>
+            <l>árbol de Dios debes ser.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Salen Candaces y gente.</stage>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Por esta parte que el mar</l>
+            <l>es espejo transparente</l>
+            <l>del Líbano y que sus flores</l>
+            <l>narcisos se desvanecen,</l>
+            <l>id cortando. Mas ¿qué miro?</l>
+            <l>El paso, pueblo, suspende</l>
+            <l>a ver un caso admirable</l>
+            <l>que a nuestros ojos se ofrece.</l>
+            <l>En lo intrincado del monte,</l>
+            <l>en una parte eminente,</l>
+            <l>está un árbol y a sus lados</l>
+            <l>dos hombres, que más parecen</l>
+            <l>dos fieras; y una mujer</l>
+            <l>a sus pies lágrimas vierte.</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>Con poca causa te admiras.</l>
+            <l>¿Qué prodigio hallas presente?</l>
+            <l>¿Una mujer y dos hombres</l>
+            <l>te turban y te suspenden?</l>
+            <l>Ella sin duda será</l>
+            <l>vecina de aqueste albergue</l>
+            <l>donde árboles adoran,</l>
+            <l>porque dicen que aquí tienen</l>
+            <l>un árbol que Jericó</l>
+            <l>les dejó a sus descendientes.</l>
+            <l>Los hombres en ese traje</l>
+            <l>será que, como mil gentes</l>
+            <l>en el Líbano trabajan</l>
+            <l>y de tantas partes vienen,</l>
+            <l>del modo, quizá, de alguna</l>
+            <l>que se visten de esa suerte</l>
+            <l>habrán venido.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Bien dices;</l>
+            <l>a talar el monte vuelve.</l>
+            <l>Empieza por aquel árbol,</l>
+            <l>que su copa y tronco debe</l>
+            <l>ser preferido entre cuantos</l>
+            <l>a la fábrica excelente</l>
+            <l>del templo navegan.</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>Voy</l>
+            <l>a cortarle.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Gente viene.</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>No temas, pues con la reina</l>
+            <l>estamos.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Hebreo, detente;</l>
+            <l>no pongas la mano, no,</l>
+            <l>en el árbol que presente</l>
+            <l>miras, que es árbol sagrado.</l>
+            <l>¡No le toques, no le llegues!</l>
+            <l>Maldito serás de Dios,</l>
+            <l>si a profanarle te atreves;</l>
+            <l>porque en ofender sus hojas</l>
+            <l>hoy a todo el cielo ofendes.</l>
+            <l>Y si al golpe que levantas</l>
+            <l>su tronco divino hieres,</l>
+            <l>sangre verterán sus poros</l>
+            <l>que te manche y ensangriente;</l>
+            <l>cuya mancha no saldrá</l>
+            <l>de todos tus descendientes.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Mujer que en traje y color,</l>
+            <l>en palabras y obras, eres</l>
+            <l>prodigiosa, ¿qué amenazas</l>
+            <l>son éstas que nos previenes?</l>
+            <l>Si es sagrado este madero,</l>
+            <l>¿adónde estar mejor puede</l>
+            <l>que en la casa del Señor?</l>
+            <l>Pues por eso mismo debe</l>
+            <l>cortarse y llevarse al templo.</l>
+            <l>Corta, pues; su tronco hiere.</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>¿Cómo, si es árbol divino,</l>
+            <l>al golpe no se defiende?</l>
+          </sp>
+          <stage>Dale golpes y suenan truenos.</stage>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>¿Qué es esto? El blanco rocío</l>
+            <l>que en sus bellas hojas tiene</l>
+            <l>se vuelve en sangre.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Y sus ramas</l>
+            <l>caen rojas, siendo verdes.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+            <stage type="withText">Al Hebreo.</stage>
+
+
+            <l>Hoy el cielo sobre ti</l>
+            <l>diluvios de sangre llueve.</l>
+            <l>¡No le cortes, no le cortes!</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>¿De qué te afliges? ¿Qué temes?</l>
+            <l>Algún pájaro, que herido</l>
+            <l>de agudo arpón hizo albergue</l>
+            <l>desta copa, ensangrentó</l>
+            <l>sus hojas; y agora, al verse</l>
+            <l>sacudido, las despide.</l>
+            <l>Que brame el viento, que tiemble</l>
+            <l>la tierra no son efetos</l>
+            <l>de un árbol, puesto que tiene</l>
+            <l>causas la naturaleza</l>
+            <l>que esos efetos engendren.</l>
+            <l>Deja, señor, que le corte.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Yo no he de mandar que llegues</l>
+            <l>a ofenderle, ni a cortarle.</l>
+            <l>Córtale tú, si quisieres,</l>
+            <l>hebreo.</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>¿Cómo, gentil</l>
+            <l>que en el Nilo adorar sueles</l>
+            <l>los cocodrilos por dioses,</l>
+            <l>gitano que tantos tienes,</l>
+            <l>piensas que es dios este árbol?</l>
+            <l>Yo le cortaré.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Árbol fuerte,</l>
+            <l>los golpes son del hebreo;</l>
+            <l>no del gentil. Él te ofende.</l>
+          </sp>
+          <stage>Cae el árbol y vuelven los truenos.</stage>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¿No le ves que, con el alma</l>
+            <l>vegetativa que tiene,</l>
+            <l>al amago ha parecido</l>
+            <l>que se encoge y se estremece?</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>La tierra, al considerar</l>
+            <l>que hijo tan hermoso pierde,</l>
+            <l>quiere, abortando prodigios,</l>
+            <l>abrir su preñado vientre.</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>Ya su tronco mide el suelo.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Y al inclinar su alta frente,</l>
+            <l>delirios el mundo sueña,</l>
+            <l>eclipses el sol padece.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Árbol que la vida y alma</l>
+            <l>sangre llora y penas siente,</l>
+            <l>¿qué árbol es?</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>¿No ves que es palma?</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>¿Que tanto el temor te ciegue</l>
+            <l>que llames palma a un ciprés?</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>¿Aquéste es ciprés? Tú eres</l>
+            <l>el ciego, pues al que es cedro</l>
+            <l>llamas ciprés.</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>¿Cedro es éste?</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>¿Pues no es cedro?</l>
+            <l>Mira aquí si esto es cedro.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Razón tienes.</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>No es posible que no sea</l>
+            <l>esto palma. Agora advierte</l>
+            <l>si es palma en aquesta parte.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Palma es.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Se le parece;</l>
+            <l>pero mira si es ciprés.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Ciprés es. Tres nombres tiene</l>
+            <l>de por sí; mas todos juntos</l>
+            <l>es un ramo solamente.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Hasta en eso hay más misterios.</l>
+            <l>El cedro, que es árbol fuerte,</l>
+            <l>es como el Padre divino</l>
+            <l>que engendra perpetuamente.</l>
+            <l>La palma, que dice amor,</l>
+            <l>pues sin el amor no crece,</l>
+            <l>mirando a su semejante</l>
+            <l>es el Espíritu ardiente</l>
+            <l>que enciende de amor los pechos.</l>
+            <l>El ciprés, que dice muerte,</l>
+            <l>como el Hijo es, pues él solo</l>
+            <l>de las tres personas muere.</l>
+            <l>Y así ciprés, cedro y palma</l>
+            <l>declara, explica y contiene</l>
+            <l>en Padre, Espíritu y Hijo</l>
+            <l>unidad, amor y muerte.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Funesto enigma del día,</l>
+            <l>tus razones no se entienden.</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>Como es oscura la casa,</l>
+            <l>así el alma, que es su huesped,</l>
+            <l>tienes oscura también.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Sin duda, mágica eres,</l>
+            <l>que habitas en estos montes;</l>
+            <l>y así, digo que nos dejes.</l>
+            <l>Alzad aqueste madero,</l>
+            <l>que yo es bien que le lleve</l>
+            <l>a Salomón por prodigio;</l>
+            <l>que también la tierra tiene</l>
+            <l>árboles monstruos que dan</l>
+            <l>a una forma tres especies.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <stage>Vanse, llevando el árbol; y sale Salomón.</stage>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Desde esta parte, donde</l>
+            <l>a la fábrica hermosa corresponde</l>
+            <l>el supremo palacio,</l>
+            <l>alcázar de David, quiero despacio</l>
+            <l>considerar agora</l>
+            <l>la beldad que a los cielos enamora,</l>
+            <l>que los vientos suspende</l>
+            <l>y a sólo el sol con presunción ofende,</l>
+            <l>porque tantos reflejos</l>
+            <l>se levantan a soles desde lejos</l>
+            <l>y hay cuestión y porfía</l>
+            <l>sobre a cuál de los dos se debe el día.</l>
+            <l>Jerusalén sagrada,</l>
+            <l>ciudad de Dios en Asia fabricada,</l>
+            <l>tres montes te sustentan</l>
+            <l>que, atlantes de su cielo, nunca alientan;</l>
+            <l>porque su gran fatiga</l>
+            <l>a gemir mudamente les obliga</l>
+            <l>y a respirar tan quedo</l>
+            <l>que los ecos son voces de su miedo.</l>
+            <l>De aquestos, pues, tres montes</l>
+            <l>que dividen al cielo en horizontes,</l>
+            <l>Moria, Sión, Calvario,</l>
+            <l>hice elección y le juré de erario,</l>
+            <l>archivo de su gloria,</l>
+            <l>a la cumbre feliz del monte Moria;</l>
+            <l>porque dice en hebreo</l>
+            <l>Moria, especulación; y así, bien creo</l>
+            <l>que el templo comenzado</l>
+            <l>sobre especulación esté fundado</l>
+            <l>con soberano indicio,</l>
+            <l>pues la oración, el ruego, el sacrificio</l>
+            <l>siempre dan por efetos</l>
+            <l>especular de Dios altos secretos.</l>
+            <l>Bien conforme la planta,</l>
+            <l>del mismo Dios, la fábrica levanta</l>
+            <l>la frente y es coluna</l>
+            <l>de la cóncava esfera de la luna;</l>
+            <l>las piedras, ajustadas</l>
+            <l>vienen desde los montes y labradas</l>
+            <l>las vigas; de manera</l>
+            <l>que, aunque errar el artífice quisiera,</l>
+            <l>no pudiera con arte,</l>
+            <l>que ninguna viniera en otra parte</l>
+            <l>sino sólo en aquélla</l>
+            <l>para donde su artífice la sella.</l>
+            <l>Y así andan, entre propios y estranjeros,</l>
+            <l>en ella hasta ochocientos mil obreros.</l>
+            <l>Su concordancia es mucha,</l>
+            <l>pues una voz ni un golpe no se escucha.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <stage>Sale Hirán.</stage>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Dame a besar tus plantas,</l>
+            <l>si mi humildad merece dichas tantas.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Hirán, dame los brazos,</l>
+            <l>dignos sujetos de tan nobles lazos.</l>
+            <l>¿Cómo en Sabá te ha ido?</l>
+            <l>Que aunque cartas y avisos he tenido,</l>
+            <l>no será acción impropia</l>
+            <l>saber a boca nuevas de Etiopia.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Llegué a Sabá, señor, donde admirada</l>
+            <l>Nicaula, de Sabá reina sagrada</l>
+            <l>–que competencias debe</l>
+            <l>al alba, a la azucena y a la nieve–,</l>
+            <l>de escuchar tus grandezas,</l>
+            <l>el honor de tus ciencias y riquezas,</l>
+            <l>quiso venir a verte y, peregrina,</l>
+            <l>cortó del mar la esfera cristalina.</l>
+            <l>Dones que presentarte</l>
+            <l>trae y enigmas que ha de preguntarte;</l>
+            <l>que en ciencia y poder quiere</l>
+            <l>examinar si a tu deidad prefiere,</l>
+            <l>porque es la negra estrella</l>
+            <l>tan poderosa y sabia como bella.</l>
+            <l>Y aquesta tarde llega</l>
+            <l>donde la luz de tanto sol la ciega.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Ya sabido lo tengo</l>
+            <l>y grandes triunfos a su honor prevengo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <stage>Sale Candaces.</stage>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Ya el Líbano, ciudad de hermosas flores,</l>
+            <l>vulgo de plantas, plebe de colores,</l>
+            <l>talé con varias gentes;</l>
+            <l>mas, entre tantos troncos diferentes</l>
+            <l>que vienen, te encarezco</l>
+            <l>uno; y éste en mi nombre te le ofrezco,</l>
+            <l>porque es árbol con alma</l>
+            <l>de un cedro, de un ciprés y de una palma.</l>
+            <l>No le vio semejante</l>
+            <l>el sol desde ese trono de diamante;</l>
+            <l>no le vio en sus entrañas</l>
+            <l>la tierra igual; sus hojas son estrañas,</l>
+            <l>estraña su grandeza,</l>
+            <l>estraña su beldad y su belleza.</l>
+            <l>Al desasir los lazos,</l>
+            <l>que en sus raíces con caducos brazos</l>
+            <l>tenía dados la tierra,</l>
+            <l>ella y el viento nos hicieron guerra,</l>
+            <l>aumentando portentos</l>
+            <l>al despedirse dél los elementos.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Los dos me habéis traído</l>
+            <l>las dos cosas que más he agradecido.</l>
+            <l>En un jardín aparte</l>
+            <l>se ponga con estudio, ciencia y arte</l>
+            <l>sólo ese árbol, donde yo lo vea,</l>
+            <l>porque hermosura de mi templo sea;</l>
+            <l>y Sabá aquesta tarde</l>
+            <l>llegue a mi trono.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Fuerza es que no aguarde,</l>
+            <l>pues ya los instrumentos</l>
+            <l>–que de apacible horror llenan los vientos–</l>
+            <l>y el rumor nos avisa</l>
+            <l>que la adusta sibila y profetisa</l>
+            <l>del reino del Oriente</l>
+            <l>llega a palacio.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Generosamente</l>
+            <l>mi pueblo la reciba,...</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¡La gran sibila del Oriente</l>
+            <l>viva!</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>…que es bien que honre a quien tiene</l>
+            <l>tanto valor que a visitarme viene</l>
+            <l>desde la India; y quiero,</l>
+            <l>mientras que yo en mi altivo trono espero,</l>
+            <l>que los dos en mi nombre</l>
+            <l>la recibáis para que más se asombre</l>
+            <l>de que por solas leyes</l>
+            <l>emprenden estos triunfos tales reyes.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>A obedecerte vamos.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Muy justamente admiraciones damos</l>
+            <l>a mujer tan altiva.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¡La gran sibila del Oriente viva!</l>
+            <stage>Vanse.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <stage>Van entrando los que pudieren, negros, Sabá en el carro, Joab y Semeí. Llegan los reyes al carro, hincan la rodilla y descúbrese el trono de Salomón.</stage>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Ya Salomón te espera,</l>
+            <l>planeta siendo de tan alta esfera.</l>
+          </sp>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>Morena soy, pero hermosa,</l>
+            <l>hijas de Jerusalén;</l>
+            <l>morena soy, pero hermosa.</l>
+            <l>Bien podéis venirme a ver.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Príncipe soberano</l>
+            <l>del gran pueblo escogido</l>
+            <l>de Dios, que en ti ha excedido</l>
+            <l>las obras de su mano,</l>
+            <l>pues eres peregrino</l>
+            <l>un casi humano dios, hombre divino...</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Deidad alta y suprema</l>
+            <l>de la zona abrasada,</l>
+            <l>donde, de luz bañada,</l>
+            <l>el sol las alas quema</l>
+            <l>y los rayos envía,</l>
+            <l>hermosa noche, emperatriz del día...</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>…tú que, de Dios amado,</l>
+            <l>eres tesoro vivo,</l>
+            <l>de su poder archivo,</l>
+            <l>de sus ciencias dechado,</l>
+            <l>digno de que te nombres</l>
+            <l>el más rico y más sabio de los hombres...</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>…tú, que el concepto oscuro</l>
+            <l>de Dios cifrar te atreves</l>
+            <l>cuando el aliento bebes</l>
+            <l>del espíritu puro,</l>
+            <l>voz que de Dios avisa,</l>
+            <l>sibila hermosa, negra profetisa...</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>…¡salve! y, puesta a tus plantas,</l>
+            <l>eterna vida tengas.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>…¡salve! y felice vengas</l>
+            <l>a ensalzar dichas tantas</l>
+            <l>donde yo te reciba.</l>
+            <l>¡Viva Sabá!, decid.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¡Salomón viva!</l>
+          </sp>
+          <stage>Baja Salomón y ella se apea del carro.</stage>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>A tantos rayos, ciego</l>
+            <l>dignamente he quedado.</l>
+            <l>Mas ¿qué mucho, si osado</l>
+            <l>mares surco de fuego?</l>
+            <l>Que aunque negra, eres bella</l>
+            <l>y ya toda la noche es una estrella</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>La sombra con el día</l>
+            <l>no ha de hacer competencia:</l>
+            <l>haga tu luz ausencia</l>
+            <l>a mi tiniebla fría;</l>
+            <l>que al mirarte me asombras,</l>
+            <l>hecho duelo de luces y de sombras.</l>
+            <l>(¡Qué notable grandeza!)</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>(¡Qué divina hermosura!)</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>(¡Qué majestad tan pura!)</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>(¡Qué singular belleza!)</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>(Absorta, a cada paso</l>
+            <l>grandezas miro.)</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>(A su sol yo me abraso.)</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>A tus soberanas plantas,</l>
+            <l>a tu sagrado dosel,</l>
+            <l>gran Salomón, hijo heroico</l>
+            <l>del profeta, sabio rey,</l>
+            <l>a tu solio sin segundo</l>
+            <l>llega una humilde mujer</l>
+            <l>que en la India del Oriente,</l>
+            <l>que mancha del mundo es,</l>
+            <l>nació sabia, reina, rica</l>
+            <l>y nació hermosa; si bien,</l>
+            <l>la cólera allí del sol</l>
+            <l>la pudo turbar la tez.</l>
+            <l>Llamada de las noticias</l>
+            <l>de tu ciencia y tu poder,</l>
+            <l>vine a verte y a escucharte,</l>
+            <l>digno precio a tanta fe.</l>
+            <l>Si he hallado gracia en tus ojos,</l>
+            <l>halle piedades también;</l>
+            <l>pues hoy es día, señor,</l>
+            <l>de hacer a todos merced.</l>
+            <l>Prometí que pediría</l>
+            <l>cuando te llegase a ver</l>
+            <l>las vidas de dos que hoy,</l>
+            <l>por un decreto crüel,</l>
+            <l>a muerte están sentenciados,</l>
+            <l>que son Joab y Semeí.</l>
+            <l>Si a visitarte no más,</l>
+            <l>sabio y poderoso rey,</l>
+            <l>tantas tierras discurrí,</l>
+            <l>tantos mares navegué,</l>
+            <l>a entender da que eres sabio</l>
+            <l>perdonando injurias; pues</l>
+            <l>saber saber perdonar,</l>
+            <l>dice tu Dios que es saber.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Sabá, justicia y piedad</l>
+            <l>en igual línea se ven;</l>
+            <l>que son virtudes las dos</l>
+            <l>que no pueden exceder</l>
+            <l>una de otra, como efetos</l>
+            <l>participados de quien</l>
+            <l>ni puede ser más ni menos</l>
+            <l>y siempre vive en un ser.</l>
+            <l>Sabio es el rey que castiga</l>
+            <l>y poderoso es el rey</l>
+            <l>que venga agravios de Dios,</l>
+            <l>ministro de su poder,</l>
+            <l>sin que deje la justicia</l>
+            <l>ofendida por hacer</l>
+            <l>lisonjas a la piedad,</l>
+            <l>si su virtud también lo es.</l>
+            <l>Pero para que lo admires</l>
+            <l>todo junto, escúchame:</l>
+            <l>ni he de hacer lo que me pides,</l>
+            <l>ni lo he dejar de hacer;</l>
+            <l>ni tengo de ser piadoso,</l>
+            <l>ni justiciero he de ser.</l>
+            <l>Uno doy a la justicia</l>
+            <l>y otro a la piedad, porque</l>
+            <l>ninguna virtud en mí</l>
+            <l>pueda quejarse después.</l>
+            <l>Escoge el que ha de vivir;</l>
+            <l>y mira que escojas bien,</l>
+            <l>porque aun en eso, Sabá,</l>
+            <l>sinrazones no he de hacer.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Para haber de juzgar yo,</l>
+            <l>informarme he menester más despacio.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Pues los dos</l>
+            <l>estén presos. Y también</l>
+            <l>no es ésta ocasión de juicios.</l>
+            <l>Prosigue el triunfo, que en él</l>
+            <l>quiero acompañarte yo;</l>
+            <l>y vea Jerusalén</l>
+            <l>dos planetas en un carro,</l>
+            <l>dos reyes en un dosel,</l>
+            <l>dos soles en una esfera,</l>
+            <l>dos triunfos en un laurel.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <div type="scene" n="1">
+          <stage>Salen Irífile, Irene, Casimira y criados.</stage>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>Notables grandezas son</l>
+            <l>las del rey de los hebreos.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Dignamente las celebra</l>
+            <l>la fama.</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>No en vano fueron</l>
+            <l>las noticias a Sabá</l>
+            <l>de sus celebrados hechos.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Y no en vano nuestra reina</l>
+            <l>vino a verle.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Ya te entiendo</l>
+            <l>la malicia.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Tú te engañas</l>
+            <l>si presumes que es mi intento</l>
+            <l>más que hablar de los aplausos</l>
+            <l>de su poder y su ingenio.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>¿Y no te acuerdas de amor?</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>Ni me olvido ni me acuerdo;</l>
+            <l>mas si por él lo entendiste,</l>
+            <l>poco importa cuando vemos</l>
+            <l>tan manifiestas las causas</l>
+            <l>hacer juicios los afectos.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>En fin, ¿se rindió al amor</l>
+            <l>un rey tan docto y supremo?</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>Un rey tan supremo y docto</l>
+            <l>se rindió, Irene, por serlo;</l>
+            <l>porque no puede ninguno</l>
+            <l>amar sin entendimiento.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Grandes las fiestas han sido</l>
+            <l>que Jerusalén ha hecho.</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>Y no ha sido la menor</l>
+            <l>la de hoy, porque en aquestos</l>
+            <l>jardines la ha festejado</l>
+            <l>con músicas y con versos.</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>Y para sobrecomida,</l>
+            <l>quedan los dos arguyendo;</l>
+            <l>y él responde a cuantas dudas</l>
+            <l>nuestra emperatriz le ha puesto.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Sale Mandinga.</stage>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>¡Vive dioso, que una enima</l>
+            <l>he estulialo y que tenemo</l>
+            <l>de cogel este Salmón</l>
+            <l>que es tan sabiento con ello;</l>
+            <l>pues no haleralla en el chiste</l>
+            <l>pol más que sepa!</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>¿Qué es eso,</l>
+            <l>Mandinga?</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Acá que no es nara.</l>
+            <l>Hoy quien más sabe velemo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Salen Sabá, Salomón y Hirán.</stage>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>En la hermosa primavera</l>
+            <l>destos jardines amenos</l>
+            <l>que hacen verdes pabellones</l>
+            <l>de las palmas y los cedros</l>
+            <l>podrás, hermosa Sabá,</l>
+            <l>sombra del mayor lucero,</l>
+            <l>con tus etíopes sabios</l>
+            <l>proseguir con argumentos.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Generoso dueño mío</l>
+            <l>–para mis ojos más bello</l>
+            <l>que este monte que es columna</l>
+            <l>dórica del firmamento;</l>
+            <l>más agradable a mi vista</l>
+            <l>que esos árboles compuestos</l>
+            <l>de fruta y flor; más süave</l>
+            <l>que las luces y bosquejos</l>
+            <l>de sus sombras en la siesta</l>
+            <l>que hiere el sol más severo–,</l>
+            <l>aunque de tus ciencias ya</l>
+            <l>bastante experiencia tengo,</l>
+            <l>por divertirte no más</l>
+            <l>hacer academia quiero</l>
+            <l>este jardín, noble envidia</l>
+            <l>de los pensiles sabeos.</l>
+            <l>Diviértante, pues, mis damas.</l>
+            <l>Cada cual vaya poniendo</l>
+            <l>una duda y tú responde.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Damas rixo; pues yo empiezo</l>
+            <l>y plopongo aquesta enima.</l>
+            <l>Esteme suencer atento</l>
+            <l>a lo enima que plopongo.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>¡Aparta, loco!</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>No quielo;</l>
+            <l>que a mí, ¿quién me quita sel</l>
+            <l>dama hoy, pues lo palecemos</l>
+            <l>turus? Que mueltas las luces,</l>
+            <l>turus los gatos son neglos.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>¿Podrá el monarca mayor</l>
+            <l>con poder o con ingenio</l>
+            <l>criar, señor, una rosa?</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>No, que el clavel más pequeño</l>
+            <l>del pincel de Dios es rasgo;</l>
+            <l>y no hay poder en el suelo</l>
+            <l>que criar una flor pueda,</l>
+            <l>porque este nombre supremo</l>
+            <l>de criar es de Criador,</l>
+            <l>no de criatura.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Yo puedo</l>
+            <l>haber una flor crïado.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>No es posible.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Yo lo pruebo.</l>
+            <l>¿Qué es más la flor más hermosa</l>
+            <l>que una burla, engaño y juego</l>
+            <l>que hace la naturaleza</l>
+            <l>a los ojos? Pues es cierto</l>
+            <l>que no tiene más beldad,</l>
+            <l>más vida, ni más aliento</l>
+            <l>que aquella que le dispensa</l>
+            <l>la mano, el aire o el fuego,</l>
+            <l>como pavesa del prado.</l>
+            <l>Luego si hacer eso puedo</l>
+            <l>–una flor que engañe al sol,</l>
+            <l>al hombre, al agua y al viento–,</l>
+            <l>diré que una flor crïe.</l>
+            <l>Hable mejor el efecto.</l>
+            <l>Unas de este cuadro son</l>
+            <l>mi estudio y otras del tiempo.</l>
+            <l>Di: ¿cuál es cierta o fingida?</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Tú, con natural aseo,</l>
+            <l>podrás haberla imitado;</l>
+            <l>no podrás haberla hecho.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>También la naturaleza</l>
+            <l>se imita y por flor tenemos</l>
+            <l>la que se parece a otra.</l>
+            <l>Di: ¿cuál es cierta?</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>No puedo</l>
+            <l>distinguirlas desde aquí.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Luego ya una mano ha hecho</l>
+            <l>lo que la naturaleza,</l>
+            <l>si a ti te engaña.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Eso niego;</l>
+            <l>que el ver no le toca al sabio,</l>
+            <l>pues un rústico grosero</l>
+            <l>pudiera ver más que yo</l>
+            <l>y distinguirlas más presto.</l>
+            <l>Lo que a los sabios les toca</l>
+            <l>es examinar secretos</l>
+            <l>naturales. Yo diré,</l>
+            <l>¡oh Sabá!, por el primero,</l>
+            <l>cuál es verdadera y cuál</l>
+            <l>fingida; y así, te ruego</l>
+            <l>lo dejes así; que yo</l>
+            <l>te daré respuesta presto.</l>
+            <l>Vaya otra pregunta.</l>
+          </sp>
+          <sp who="#mandinga">
+            <speaker rend="caps">Mandinga</speaker>
+
+
+            <l>Vaya;</l>
+            <l>y si la acielta es discleto.</l>
+            <l>Soble un álbol que no es álbol</l>
+            <l>estaba un pájalo puesto</l>
+            <l>que no es pájalo y cantó.</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>¡Oh, qué enfadoso te has hecho!</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Aguárdate un poco, Irene.</l>
+            <l>Aquella rosa que veo</l>
+            <l>entre un clavel y un jacinto</l>
+            <l>es rosa fingida.</l>
+          </sp>
+          <sp who="#irene">
+            <speaker rend="caps">Irene</speaker>
+
+
+            <l>Es cierto.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¿En qué lo viste?</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>En que andaba</l>
+            <l>una abeja haciendo cercos</l>
+            <l>sobre ella y nunca llegó</l>
+            <l>a picarla. De aquí infiero</l>
+            <l>que es flor fingida, pues no es</l>
+            <l>de gusto ni de provecho.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>No quiero cansarte más</l>
+            <l>con ignorancias, supuesto</l>
+            <l>que es ignorancia mi estudio</l>
+            <l>comparado con tu ingenio.</l>
+            <l>Sólo para que me admire,</l>
+            <l>verte hacer un juicio quiero.</l>
+            <l>Tú me dijiste, señor,</l>
+            <l>que yo de aquesos dos presos</l>
+            <l>escogiese, como sabia,</l>
+            <l>con atención y con seso,</l>
+            <l>el que había de vivir.</l>
+            <l>Helos escuchado y quedo</l>
+            <l>dudosa de sus razones;</l>
+            <l>y a tu tribunal los vuelvo</l>
+            <l>para ver el que tú eliges.</l>
+            <l>Decid que lleguen; y dellos</l>
+            <l>te informa y juzga su causa.</l>
+            <l>Mas, ¿qué es lo que miro? ¡Cielos!</l>
+            <l>En las flores se ha quedado</l>
+            <l>Salomón durmiendo al tiempo</l>
+            <l>que de justicia le hablo.</l>
+            <l>No es mucho, si su desvelo</l>
+            <l>hasta la aurora le tiene</l>
+            <l>a mis umbrales cubierto</l>
+            <l>de la escarcha del rocío</l>
+            <l>–blancas lágrimas del cielo–</l>
+            <l>que en este jardín se duerma;</l>
+            <l>y así, en tanto que al sueño</l>
+            <l>se rinde, venid conmigo</l>
+            <l>y una guirnalda le haremos</l>
+            <l>de las flores del Setim,</l>
+            <l>de las hojas de los cedros</l>
+            <l>y cogollos de las palmas,</l>
+            <l>que corone los cabellos</l>
+            <l>en quien blanco aljófar vierte</l>
+            <l>el alba. Soplad más quedo</l>
+            <l>y no hagáis ruido, airecillos,</l>
+            <l>que está mi vida durmiendo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Vanse. Suenan destempladas cajas. Aparécese una mujer vestida de luto, con una espada de fuego.</stage>
+          <sp who="#visión">
+            <speaker rend="caps">Visión</speaker>
+
+
+            <l>¡Salomón!</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>¿Quién me nombra,</l>
+            <l>que suspende su voz, su vista asombra</l>
+            <l>y en una nube oscura,</l>
+            <l>de mi vida funesta sepultura,</l>
+            <l>admira su semblante?</l>
+          </sp>
+          <sp who="#visión">
+            <speaker rend="caps">Visión</speaker>
+
+
+            <l>¿Quién tan sabio se ve tan ignorante?</l>
+            <l>Porque el mayor agravio</l>
+            <l>de la ciencia es errar el hombre sabio.</l>
+            <l>Teme, teme el castigo,</l>
+            <l>si estranjeras mujeres</l>
+            <l>de otra ley, de otro dios, amas; y quieres</l>
+            <l>que esgrima la cuchilla</l>
+            <l>que relámpagos luce y rayos brilla;</l>
+            <l>y que esguace el segundo</l>
+            <l>diluvio que ha de sepultar el mundo.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Justo y divino cielo,</l>
+            <l>a tu piedad, a tu piedad apelo</l>
+            <l>de la ignorancia mía,</l>
+            <l>con ser el rey de la sabiduría.</l>
+            <l>Detén la ardiente espada</l>
+            <l>contra mi flaco ser desenvainada, q</l>
+            <l>ue es abismo de fuego</l>
+            <l>que me deslumbra y que me deja ciego.</l>
+            <l>¡Ay, mísero infelice!</l>
+            <l>Cuando el brazo de Dios advierte y dice</l>
+            <l>que tema su castigo,</l>
+            <l>¿dónde seguro iré, si voy conmigo</l>
+            <l>yo mismo a despeñarme?</l>
+            <l>Nada sabré, si yo no sé salvarme.</l>
+            <stage>Vase.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Salen Eliud, Candaces y Hirán.</stage>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Esto manda Salomón.</l>
+          </sp>
+          <sp who="#eliud">
+            <speaker rend="caps">Eliud</speaker>
+
+
+            <l>Pues ¿cómo tan brevemente</l>
+            <l>se ha de fabricar la puente</l>
+            <l>sobre el arroyo Cedrón?</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Como no ha de ser labrada</l>
+            <l>de piedra y jaspe inmortal,</l>
+            <l>ni en colunas de metal;</l>
+            <l>sino sólo fabricada</l>
+            <l>para el paso necesario</l>
+            <l>del concurso popular;</l>
+            <l>y en que el rey pueda pasar</l>
+            <l>del monte Moria al Calvario.</l>
+            <l>No es menester más cuidado</l>
+            <l>que atravesar dos maderos,</l>
+            <l>los que halláredes primeros</l>
+            <l>de tantos como han sobrado</l>
+            <l>de la fábrica del templo;</l>
+            <l>que son, con caduco indicio,</l>
+            <l>antes ruina que edificio,</l>
+            <l>puesto que en ellos contemplo</l>
+            <l>que los dejan sin servir.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Y esto con brevedad sea,</l>
+            <l>porque esta tarde desea</l>
+            <l>con la sabia negra ir</l>
+            <l>a los jardines que tiene</l>
+            <l>en el Calvario labrados,</l>
+            <l>donde a sus dulces cuidados</l>
+            <l>mayor aplauso previene.</l>
+            <l>Y quiere allí hacer alarde</l>
+            <l>de su mucha majestad.</l>
+          </sp>
+          <sp who="#eliud">
+            <speaker rend="caps">Eliud</speaker>
+
+
+            <l>Si con tanta brevedad</l>
+            <l>se ha de labrar que esta tarde</l>
+            <l>pasar por ella pretende,</l>
+            <l>sólo un madero será;</l>
+            <l>y éste cubierto estará</l>
+            <l>de rosas.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Mira que ofende</l>
+            <l>la dilación al deseo.</l>
+          </sp>
+          <sp who="#eliud">
+            <speaker rend="caps">Eliud</speaker>
+
+
+            <l>Aqueste tronco ha de ser</l>
+            <l>el que aquí se ha de poner.</l>
+          </sp>
+          <stage>Saca un hebreo un tronco.</stage>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>No vendrá bien, porque creo</l>
+            <l>deste tronco que ha nacido</l>
+            <l>para mayor ocasión.</l>
+            <l>Dos mil artífices son</l>
+            <l>los que ponerle han querido</l>
+            <l>en la fábrica y ninguno</l>
+            <l>le ha podido aprovechar;</l>
+            <l>y no ha tenido lugar,</l>
+            <l>en todo el templo, oportuno</l>
+            <l>para sí, porque tal vez</l>
+            <l>viene grande, tal pequeño;</l>
+            <l>y al fin, de su estrella dueño,</l>
+            <l>de sus misterios jüez,</l>
+            <l>a la fábrica ha sobrado,</l>
+            <l>perdiendo la estimación</l>
+            <l>que le dio la admiración</l>
+            <l>con que fue, hebreo, cortado</l>
+            <l>del Líbano.</l>
+          </sp>
+          <sp who="#hebreo">
+            <speaker rend="caps">Hebreo</speaker>
+
+
+            <l>Así es verdad;</l>
+            <l>mas para servir aquí,</l>
+            <l>¿cómo ha de escusarse, si</l>
+            <l>no ha menester igualdad</l>
+            <l>ni correspondencia?</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Sea</l>
+            <l>el tronco que es eminente</l>
+            <l>desde una a otra parte puente</l>
+            <l>del Cedrón; y en él se vea,</l>
+            <l>pisada de todos, rama</l>
+            <l>que no se quiso asentar</l>
+            <l>en más dichoso lugar.</l>
+          </sp>
+          <stage>Pónenle sobre dos peñas.</stage>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Bien la dicha o la desdicha</l>
+            <l>con que vive o con que nace</l>
+            <l>uno se ve aquí; pues hace</l>
+            <l>tal desprecio de la dicha</l>
+            <l>un madero, cuando pudo</l>
+            <l>nacer para estar cubierto</l>
+            <l>de oro y plata; y triste y yerto,</l>
+            <l>pisado, humilde y desnudo</l>
+            <l>se ha de ver y atropellado</l>
+            <l>de una planta y otra planta.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Y en su lugar se levanta</l>
+            <l>otro quizá destinado</l>
+            <l>para puente, que éstas son</l>
+            <l>maravillas que Dios hace.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Todo con su estrella nace,</l>
+            <l>todo con su inclinación.</l>
+            <l>¿Qué sabéis si más ufano</l>
+            <l>en esa humildad está,</l>
+            <l>sirviendo de puente ya,</l>
+            <l>que en el templo soberano</l>
+            <l>siendo columna inmortal?</l>
+            <l>Que creo que no estuviera</l>
+            <l>mejor, cuando cima fuera</l>
+            <l>de ese templo celestial.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>¿Hasta un tronco, hasta un madero</l>
+            <l>nace con su estrella?</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Sí.</l>
+          </sp>
+          <sp who="#eliud">
+            <speaker rend="caps">Eliud</speaker>
+
+
+            <l>La música suena allí.</l>
+            <l>Ya llega, cubrirle quiero;</l>
+            <l>y ya que es camino, en fin,</l>
+            <l>camino apacible sea</l>
+            <l>y matizado se vea</l>
+            <l>de clavel, rosa y jazmín.</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>Gracias a Dios que sirvió</l>
+            <l>y vino a una parte bien</l>
+            <l>ramo que a Jerusalén</l>
+            <l>tan de mala gana dio</l>
+            <l>el Líbano.</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>Árbol tan vario</l>
+            <l>que ignoran su corazón,</l>
+            <l>sirva de puente al Cedrón,</l>
+            <l>que es el paso del Calvario.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Salen Sabá, Salomón, Joab y Semeí.</stage>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¿Tanto, señor, un sueño te divierte?</l>
+            <l>Quien tanto sabe ¿ignorará que el sueño,</l>
+            <l>aunque es pálida imagen de la muerte, n</l>
+            <l>o es de la vida ni del alma dueño?</l>
+            <l>Que es sombra, mira; que es fantasma, advierte.</l>
+            <l>Fácil es su poder; su horror, pequeño.</l>
+            <l>Vuelve a mirarme, cesen tus enojos.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Dices bien. No hay pesar al ver tus ojos.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¿Músicas no te alegran, ni cantares,</l>
+            <l>aunque tan dulces son los que has compuesto</l>
+            <l>a mis amores hoy? Pues tus pesares</l>
+            <l>no se divierten, gran señor, con eso,</l>
+            <l>hoy quiero que una duda me declares;</l>
+            <l>así divertirás tu mal, supuesto</l>
+            <l>que no hay cantar más dulce y más suave</l>
+            <l>que hablar en ciencias al que ciencias sabe.</l>
+            <l>Semeí y Joab muriendo viven;</l>
+            <l>y por instantes uno y otro esperan</l>
+            <l>vida y muerte; a tus pies hoy se aperciben;</l>
+            <l>pues uno ha de vivir, los dos no mueran.</l>
+            <l>Juzga su causa, que con llanto escriben;</l>
+            <l>que yo no sé qué meritos prefieran,</l>
+            <l>ni qué culpa, señor, pues considero</l>
+            <l>la razón en aquél que habló postrero.</l>
+          </sp>
+          <sp who="#joab">
+            <speaker rend="caps">Joab</speaker>
+
+
+            <l>Yo, señor, fui general</l>
+            <l>de David, con tantas glorias</l>
+            <l>que, en jaspe, en bronce y metal,</l>
+            <l>hoy me deben las historias</l>
+            <l>eterna fama inmortal.</l>
+            <l>En las guerras de Absalón</l>
+            <l>yo le serví y ayudé;</l>
+            <l>y cuando de su escuadrón</l>
+            <l>Absalón huyendo fue,</l>
+            <l>le seguí con intención;</l>
+            <l>que, ceñido de laurel,</l>
+            <l>seguí a Absalón y fïel</l>
+            <l>quise hacer lo que ordenó</l>
+            <l>tu padre, pues me encargó q</l>
+            <l>ue le mirase por él.</l>
+            <l>Vile del tronco pendiente</l>
+            <l>–un racional bruto hecho–</l>
+            <l>y, de santo celo ardiente m</l>
+            <l>ovido, le pasé el pecho</l>
+            <l>desesperado y valiente.</l>
+            <l>El error fue de una acción,</l>
+            <l>el impulso fue del cielo,</l>
+            <l>la culpa de la ocasión:</l>
+            <l>mira si merece el celo</l>
+            <l>tener nombre de traición.</l>
+          </sp>
+          <sp who="#semeí">
+            <speaker rend="caps">Semeí</speaker>
+
+
+            <l>Yo en la pena que me aflige,</l>
+            <l>sin razón, sin dios, sin ley,</l>
+            <l>confieso que un error dije</l>
+            <l>y que blasfemo maldije</l>
+            <l>injustamente a mi rey;</l>
+            <l>pero si llega a alegar</l>
+            <l>por disculpa de su error</l>
+            <l>Joab en tanto pesar</l>
+            <l>el ser una acción, señor,</l>
+            <l>tan fácil de ejecutar,</l>
+            <l>tanto más lo viene a ser</l>
+            <l>una voz –que fue mi mengua–</l>
+            <l>cuanto es más fácil mover</l>
+            <l>que todo un brazo la lengua</l>
+            <l>y es el decir que el hacer.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Si yo tengo de escoger,</l>
+            <l>Joab vida ha de tener;</l>
+            <l>que en él la razón consiste.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>¡Oh, qué mal, Sabá, escogiste!</l>
+            <l>Semeí solo ha de vencer;</l>
+            <l>porque siendo claramente</l>
+            <l>uno aleve y otro infïel,</l>
+            <l>sacrílego e imprudente,</l>
+            <l>Joab ha sido más crüel</l>
+            <l>y homicida inobediente.</l>
+            <l>El uno al rey ofendió;</l>
+            <l>y otro, un hijo le mató;</l>
+            <l>y quiero que el mundo vea</l>
+            <l>que cuando David desea</l>
+            <l>que vengue sus culpas yo,</l>
+            <l>hago lo que hiciera él;</l>
+            <l>pues si él agora viviera,</l>
+            <l>una maldición crüel,</l>
+            <l>de quien él la parte era,</l>
+            <l>perdonara justo y fiel,</l>
+            <l>pero un homicidio no,</l>
+            <l>que es causa de Dios; y así,</l>
+            <l>haciendo lo mismo yo</l>
+            <l>que él hiciera, pues aquí</l>
+            <l>en su lugar me dejó,</l>
+            <l>quiero mostrar en los dos</l>
+            <l>lo que más al cielo cuadre.</l>
+            <l>Vivid vos y morid vos,</l>
+            <l>que el agravio de mi padre</l>
+            <l>perdono, mas no el de Dios.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Llévanse a Joab y a Semeí.</stage>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>¡Oh, joven venturoso!,</l>
+            <l>grande don de los cielos mereciste,</l>
+            <l>tan sabio y poderoso.</l>
+            <l>¡Bendito el vientre sea en que anduviste,</l>
+            <l>los pechos que tocaste</l>
+            <l>y feliz el imperio en que reinaste!</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>¿Qué estilo, di, qué modo</l>
+            <l>hay de salutación tan dulce y nueva</l>
+            <l>que tu valor en todo</l>
+            <l>el alma pasma, el corazón eleva?</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>En tan confuso abismo,</l>
+            <l>quise en ti saludar a tu Dios mismo.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Dame la hermosa mano,</l>
+            <l>Sabá divina; y del Cedrón, la puente</l>
+            <l>pasarás.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Es en vano</l>
+            <l>que yo pisarla o profanarla intente</l>
+            <l>con atrevida planta.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>¿Qué tienes? ¿Qué te admira? ¿Qué te espanta?</l>
+            <l>Sube, Sabá. ¿Qué miras?</l>
+            <l>¿De quién huyes, te escondes y retiras?</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Miro la luz que me deslumbra ciega</l>
+            <l>de un volcán, que en humo y fuego anega</l>
+            <l>al sol, dando desmayos</l>
+            <l>con truenos, con relámpagos y rayos.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Mi admiración es mucha.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Pueblo de Dios, advierte, atiende, escucha;</l>
+            <l>que a mi docto desvelo</l>
+            <l>nada le encubre, ni le oculta el cielo.</l>
+            <l>Era la estación del sol,</l>
+            <l>primavera de los días,</l>
+            <l>floreciente edad del mundo:</l>
+            <l>era la estación florida.</l>
+            <l>Llamó Adán a Set, su hijo;</l>
+            <l>que de toda su familia</l>
+            <l>era Set, joven hermoso,</l>
+            <l>el hijo que más quería;</l>
+            <l>y díjole así: “Ya sabes,</l>
+            <l>Set, que han sido las fatigas</l>
+            <l>que causó la inobediencia</l>
+            <l>cosa forzosa y precisa.</l>
+            <l>No las quiero repetir;</l>
+            <l>mas sólo es bien que te diga</l>
+            <l>que, cuando fui desterrado</l>
+            <l>de la hermosa patria mía,</l>
+            <l>Dios me dijo: «Adán, Adán,</l>
+            <l>tus lágrimas me lastiman,</l>
+            <l>tus suspiros me enternecen</l>
+            <l>y me duelen tus desdichas.</l>
+            <l>Fuerza es salir desterrado;</l>
+            <l>mas porque contento vivas,</l>
+            <l>te ofrece el estar en gracia</l>
+            <l>la misericordia mía.»</l>
+            <l>Dios me la ofreció; y así,</l>
+            <l>viendo ya el fin de mis días,</l>
+            <l>cuando ya mi sepultura</l>
+            <l>el pie decrépito pisa,</l>
+            <l>quiero, obedeciendo a Dios,</l>
+            <l>desta merced ofrecida</l>
+            <l>hacerte mi embajador,</l>
+            <l>Set; y así, te determina</l>
+            <l>a seguir esa vereda;</l>
+            <l>por ella sola te guía.</l>
+            <l>Llegarás a las murallas</l>
+            <l>que con el cielo terminan,</l>
+            <l>cuyas piedras son topacios,</l>
+            <l>crisólitos y amatistas;</l>
+            <l>y al ángel que está a la puerta</l>
+            <l>di que tu padre te envía</l>
+            <l>por el óleo del Señor;</l>
+            <l>que a él basta que se lo digas”.</l>
+            <l>Despidiose Adán con esto</l>
+            <l>de Set, lleno de caricias;</l>
+            <l>y Set siguió su vereda</l>
+            <l>por mil campañas floridas.</l>
+            <l>Llegó, en fin, al paraíso;</l>
+            <l>cuya hermosura escondida</l>
+            <l>era una nube tan parda</l>
+            <l>que sólo ver permitía</l>
+            <l>un edificio divino,</l>
+            <l>por ser monumento y pira</l>
+            <l>de su esplendor una nube</l>
+            <l>pálida, funesta y fría.</l>
+            <l>Suspenso el joven estaba</l>
+            <l>hasta que, pendiente arriba,</l>
+            <l>vido al ángel blandeando</l>
+            <l>en su mano la cuchilla.</l>
+            <l>Pasmole el temor y dijo:</l>
+            <l>“Ángel, mi padre me envía</l>
+            <l>por el óleo de la justa</l>
+            <l>misericordia.” Admitida</l>
+            <l>la disculpa, dijo el ángel:</l>
+            <l>“Quiero, para que le digas</l>
+            <l>a tu padre que le has visto,</l>
+            <l>enseñártele por cifra.”</l>
+            <l>En las almenas miró</l>
+            <l>una visión esquisita</l>
+            <l>en un árbol, cuyas hojas</l>
+            <l>secas, tersas y marchitas,</l>
+            <l>desnudo el tronco dejaban;</l>
+            <l>que entre mil copas floridas</l>
+            <l>de los árboles, él solo,</l>
+            <l>sin pompa y sin bizarría,</l>
+            <l>era cadáver del prado;</l>
+            <l>y como todos vivían</l>
+            <l>con almas, él solamente,</l>
+            <l>sin alma vegetativa,</l>
+            <l>era un árbol esqueleto</l>
+            <l>con la armadura y sin vida.</l>
+            <l>Éste el ángel le enseñó</l>
+            <l>con el dedo y dijo: “Mira</l>
+            <l>el óleo de la piedad.</l>
+            <l>Aquél es, aunque está en cifra.”</l>
+            <l>Volvió a su padre con esto</l>
+            <l>Set; y Adán, que conocía</l>
+            <l>de la forma de aquel árbol</l>
+            <l>la maravillosa enigma,</l>
+            <l>le dijo así: “Set, yo muero.</l>
+            <l>Lo que mi amor determina</l>
+            <l>es que me des sepultura</l>
+            <l>en Hebrón. Y mira encima</l>
+            <l>de mi sepulcro que un árbol</l>
+            <l>nace, que esto significa</l>
+            <l>ver tú el árbol de la muerte</l>
+            <l>cuando el árbol de la vida</l>
+            <l>quieran piadosos los cielos</l>
+            <l>que nazca de mis cenizas.”</l>
+            <l>Espiró Adán y Set, viendo</l>
+            <l>tan a la letra cumplida</l>
+            <l>en la muerte de su padre</l>
+            <l>del ángel la profecía,</l>
+            <l>le dio sepulcro. Aquí es fuerza</l>
+            <l>que el discurso se divida</l>
+            <l>y que pase a otro suceso.</l>
+            <l>Corrió el tiempo y llegó el día</l>
+            <l>que el último parasismo</l>
+            <l>presumió que padecía</l>
+            <l>el mundo; y Noé anhelando</l>
+            <l>se vio entre las ondas rizas</l>
+            <l>del mar, que rompió las leyes</l>
+            <l>y prisiones que le había</l>
+            <l>puesto Dios; y colocado</l>
+            <l>sobre las más altas cimas</l>
+            <l>de los montes, dijo al cielo:</l>
+            <l>“Ya el mundo muere, ya espira.”</l>
+            <l>Pasó el diluvio y las aguas,</l>
+            <l>a su estancia recogidas,</l>
+            <l>dieron paso a la paloma</l>
+            <l>que trajo la verde oliva</l>
+            <l>del austro más riguroso</l>
+            <l>que el diciembre determina.</l>
+            <l>En el Líbano le puso</l>
+            <l>y, como cosa divina,</l>
+            <l>los siglos le veneraron</l>
+            <l>y los hombres le acreditan</l>
+            <l>por palma, cedro y ciprés,</l>
+            <l>porque no se determinan</l>
+            <l>si es ciprés, si es palma o cedro,</l>
+            <l>aunque todo parecía.</l>
+            <l>Llegó al Líbano Candaces</l>
+            <l>buscando maderas ricas</l>
+            <l>para la casa de Dios</l>
+            <l>y cortarle determina.</l>
+            <l>Trájole a Jerusalén</l>
+            <l>y la arquitectura misma</l>
+            <l>por inútil le dejó</l>
+            <l>entre estas selvas y ruinas</l>
+            <l>arrojado en un jardín,</l>
+            <l>de donde, para que sirva</l>
+            <l>de puente al Cedrón, le traen:</l>
+            <l>ocupación propia y digna</l>
+            <l>de su virtud y piedad;</l>
+            <l>y más al monte en que habita</l>
+            <l>la calavera de Adán,</l>
+            <l>pues Calvario se apellida.</l>
+            <l>¿Ves ese sagrado leño</l>
+            <l>que la ignorancia no estima</l>
+            <l>o que el descuido desprecia?</l>
+            <l>Es soberana reliquia;</l>
+            <l>es la sierpe de metal</l>
+            <l>que al pueblo defiende y libra;</l>
+            <l>y así, no admires que sobre</l>
+            <l>hoy a tu fábrica rica,</l>
+            <l>si para templo mejor</l>
+            <l>le guarda el cielo y destina;</l>
+            <l>pues ya parece que veo</l>
+            <l>que sobre su cuello estriba</l>
+            <l>otra fábrica más bella,</l>
+            <l>que ha de ser fábrica viva.</l>
+            <l>¿No veis un hermoso joven</l>
+            <l>que al sol los imperios quita</l>
+            <l>de la luz, cuya diadema</l>
+            <l>es de juncos y de espinas?</l>
+            <l>Largo el cabello que en ondas</l>
+            <l>peina el aura, por las rizas</l>
+            <l>guedejas caen deshojadas</l>
+            <l>las rosas y clavellinas</l>
+            <l>que las espinas hirieron;</l>
+            <l>desmelenada y partida</l>
+            <l>la crencha, al sol de sus ojos</l>
+            <l>es nube, si no cortina.</l>
+            <l>Pues este hombre, o este dios</l>
+            <l>que pende de esas dos líneas,</l>
+            <l>es hijo de Dios eterno,</l>
+            <l>es verdadero Mesías.</l>
+            <l>Aun de pronunciarlo agora,</l>
+            <l>parece que el sol se eclipsa,</l>
+            <l>que la luna se oscurece,</l>
+            <l>que las estrellas no brillan;</l>
+            <l>y, al fin, todo el universo</l>
+            <l>ya caduca, ya delira,</l>
+            <l>ya fallece, ya desmaya,</l>
+            <l>ya desvanece, ya espira,</l>
+            <l>previniendo las tragedias</l>
+            <l>de tan estupendo día.</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>El espíritu de Dios</l>
+            <l>habla en ella. ¡Qué gran dicha!</l>
+          </sp>
+          <sp who="#hirán">
+            <speaker rend="caps">Hirán</speaker>
+
+
+            <l>¡Qué prodigio!</l>
+          </sp>
+          <sp who="#candaces">
+            <speaker rend="caps">Candaces</speaker>
+
+
+            <l>¡Qué portento!</l>
+          </sp>
+          <sp who="#irífile">
+            <speaker rend="caps">Irífile</speaker>
+
+
+            <l>¡Qué asombro!</l>
+          </sp>
+          <sp who="#casimira">
+            <speaker rend="caps">Casimira</speaker>
+
+
+            <l>¡Qué maravilla!</l>
+          </sp>
+          <sp who="#salomón">
+            <speaker rend="caps">Salomón</speaker>
+
+
+            <l>Vara feliz, yo te adoro</l>
+            <l>por rara y por exquisita;</l>
+            <l>y en mis brazos desde aquí</l>
+            <l>te he de llevar este día</l>
+            <l>donde estés depositada</l>
+            <l>como riqueza escondida.</l>
+          </sp>
+          <sp who="#sabá">
+            <speaker rend="caps">Sabá</speaker>
+
+
+            <l>Yo he de ayudar a llevar</l>
+            <l>su tronco, pues es mi dicha</l>
+            <l>tan gran bien; y no sea ésta</l>
+            <l>la postrera vez que asistan</l>
+            <l>a su triunfo tales reyes,</l>
+            <l>pues podrá ser que otro día</l>
+            <l>se hallen otro rey y reina</l>
+            <l>de oculta ley conocida</l>
+            <l>y le lleven en sus hombros,</l>
+            <l>donde respetado viva</l>
+            <l>con la misma adoración</l>
+            <l>que Dios, pues será latría.</l>
+            <l>Y con la invención primera</l>
+            <l>del que es árbol de la vida,</l>
+            <l>La sibila del Oriente</l>
+            <l>da fin; y humilde os suplica</l>
+            <l>el autor le perdonéis</l>
+            <l>sus faltas, que hay infinitas.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

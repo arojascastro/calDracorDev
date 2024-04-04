@@ -1,0 +1,3809 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000020" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El nuevo hospicio de pobres</title>
+        <title type="sub">Auto sacramental alegórico intitulado</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName>Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-15"><time when="20:19:45"/></date>
+        <idno type="quadramaX">El nuevo hospicio de pobres</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-nuevo-hospicio-de-pobres--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de la Barca, Pedro, El nuevo hospicio de pobres, ed. Ignacio Arellano, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1995. ISBN: 3-930700-34-4.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="sabiduría" sex="FEMALE">
+            <persName>La Sabiduría</persName>
+          </person>
+          <person xml:id="fe" sex="FEMALE">
+            <persName>La Fe</persName>
+          </person>
+          <person xml:id="esperanza" sex="FEMALE">
+            <persName>La Esperanza</persName>
+          </person>
+          <person xml:id="caridad" sex="FEMALE">
+            <persName>La Caridad</persName>
+          </person>
+          <person xml:id="misericordia" sex="FEMALE">
+            <persName>La Misericordia</persName>
+          </person>
+          <person xml:id="fortaleza" sex="FEMALE">
+            <persName>La Fortaleza</persName>
+            <trait source="castlist">
+              <desc>de ángel</desc>
+            </trait>
+          </person>
+          <person xml:id="apostasía" sex="MALE">
+            <persName>La Apostasía</persName>
+            <trait source="castlist">
+              <desc>de soldado</desc>
+            </trait>
+          </person>
+          <person xml:id="apetito" sex="MALE">
+            <persName>El Apetito</persName>
+            <trait source="castlist">
+              <desc>de ciego</desc>
+            </trait>
+          </person>
+          <person xml:id="pereza" sex="FEMALE">
+            <persName>La Pereza</persName>
+            <trait source="castlist">
+              <desc>de leproso</desc>
+            </trait>
+          </person>
+          <person xml:id="sulamitis" sex="FEMALE">
+            <persName>La Sulamitis</persName>
+          </person>
+          <person xml:id="rey" sex="MALE">
+            <persName>El Rey</persName>
+            <trait source="castlist">
+              <desc>viejo venerable</desc>
+            </trait>
+          </person>
+          <person xml:id="príncipe" sex="MALE">
+            <persName>El Príncipe</persName>
+            <trait source="castlist">
+              <desc>galán</desc>
+            </trait>
+          </person>
+          <person xml:id="hebraísmo" sex="MALE">
+            <persName>El Hebraísmo</persName>
+            <trait source="castlist">
+              <desc>de judío</desc>
+            </trait>
+          </person>
+          <person xml:id="ateísmo" sex="MALE">
+            <persName>El Ateísmo</persName>
+            <trait source="castlist">
+              <desc>de pieles</desc>
+            </trait>
+          </person>
+          <person xml:id="idolatría" sex="MALE">
+            <persName>La Idolatría</persName>
+            <trait source="castlist">
+              <desc>de indio</desc>
+            </trait>
+          </person>
+          <person xml:id="lascivia" sex="FEMALE">
+            <persName>La Lascivia</persName>
+            <trait source="castlist">
+              <desc>de mendigo</desc>
+            </trait>
+          </person>
+          <person xml:id="avaricia" sex="FEMALE">
+            <persName>La Avaricia</persName>
+            <trait source="castlist">
+              <desc>con barba</desc>
+            </trait>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="música">
+            <persName>Músicos</persName>
+          </personGrp>
+          <person xml:id="gentilismo" sex="MALE">
+            <persName>El Gentilismo</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1759">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docTitle>
+        <titlePart type="main">El nuevo hospicio de pobres</titlePart>
+        <titlePart type="sub">Auto sacramental alegórico intitulado</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas</head>
+        <castItem>LA SABIDURÍA.</castItem>
+        <castItem>LA FE.</castItem>
+        <castItem>LA ESPERANZA.</castItem>
+        <castItem>LA CARIDAD.</castItem>
+        <castItem>LA MISERICORDIA.</castItem>
+        <castItem>LA FORTALEZA, de ángel.</castItem>
+        <castItem>LA APOSTASÍA, de soldado.</castItem>
+        <castItem>EL APETITO, de ciego.</castItem>
+        <castItem>LA PEREZA, de leproso.</castItem>
+        <castItem>LA SULAMITIS.</castItem>
+        <castItem>EL REY, viejo venerable.</castItem>
+        <castItem>EL PRÍNCIPE, galán.</castItem>
+        <castItem>EL HEBRAÍSMO, de judío.</castItem>
+        <castItem>EL ATEÍSMO, de pieles.</castItem>
+        <castItem>LA IDOLATRÍA, de indio.</castItem>
+        <castItem>LA LASCIVIA, de mendigo.</castItem>
+        <castItem>LA AVARICIA, con barba.</castItem>
+        <castItem>MÚSICOS.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene" n="1">
+          <stage>Sale el REY, viejo venerable.</stage>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>¡Oh, tú, divina mente,</l>
+            <l>que en campos del oriente sin oriente,</l>
+            <l>desde el siglo primero sin primero,</l>
+            <l>hasta el postrero siglo sin postrero,</l>
+            <l n="5">a no dejar de ser la que ya fuiste,</l>
+            <l>del labio del Altísimo naciste</l>
+            <l>primogénita suya,</l>
+            <l>tú, que desde la eterna infancia tuya</l>
+            <l>cielos habitas, siendo si a ellos subes,</l>
+            <l n="10">tu trono las colunas de las nubes,</l>
+            <l>desde donde circundas</l>
+            <l>el orbe a giros, desde donde inundas</l>
+            <l>a giros el abismo,</l>
+            <l>poniendo a un tiempo mismo</l>
+            <l n="15">en varios horizontes</l>
+            <l>ley a los mares, límite a los montes,</l>
+            <l>tú, en fin, que sin principio y fin criada,</l>
+            <l>como el cedro en el Líbano exaltada,</l>
+            <l>como en Cades la palma, la especiosa</l>
+            <l n="20">oliva en valle, en Jericó la rosa</l>
+            <l>y el plátano en la orilla</l>
+            <l>de las aguas, fragrante maravilla</l>
+            <l>de vid vallada entre diversas flores,</l>
+            <l>diste la suavidad de los olores</l>
+            <l n="25">distilando en aromas</l>
+            <l>al cinamomo y bálsamo las gomas,</l>
+            <l>que en místico atributo</l>
+            <l>de honestidad y honor rinden el fruto</l>
+            <l>por quien el sabio llama</l>
+            <l n="30">al buen olor perfume de la fama,</l>
+            <l>atiende a la voz mía</l>
+            <l>antes que diga, oh tú, Sabiduría</l>
+            <l>de Dios, pues ya para saber quién seas</l>
+            <l part="I">tus renombres lo han dicho.</l>
+          </sp>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <stage>Dentro.</stage>
+            <l part="F"> Porque veas</l>
+            <l n="35">que el que mi auxilio invoca</l>
+            <l>la línea apenas deste alcázar toca</l>
+            <l>cuando su voz se escucha: abrid las puertas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Sale la FE con una cruz, la ESPERANZA con una áncora, la CARIDAD con un ramo de espigas, la MISERICORDIA con otro de oliva y detrás la SABIDURÍA con corona y cetro.</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Ya al nuevo sol que en ti amanece abiertas</l>
+            <l>están, pues te hacen salva</l>
+            <l n="40">segunda vez los músicos del alba.</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <stage>Canta.</stage>
+            <l>Díganlo en sus verdores</l>
+            <l>los dulces sustenidos de las flores.</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <stage>Canta.</stage>
+            <l>En acentos suaves</l>
+            <l>lo digan los trinados de las aves.</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <stage>Canta.</stage>
+            <l n="45">En sus claras corrientes</l>
+            <l>los sonoros pasajes de las fuentes.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Canta.</stage>
+            <l>Y en sus cóncavos huecos</l>
+            <l>las cláusulas finales de los ecos.</l>
+          </sp>
+          <sp who="#caridad #esperanza #misericordia #sabiduría">
+            <speaker>LAS 4</speaker>
+            <stage>Cantan.</stage>
+            <l>Juntando sus primores</l>
+            <l n="50">ecos, cristales, pájaros y flores.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Bien dice superior naturaleza,</l>
+            <l>oída la voz y vista la belleza;</l>
+            <l>a tanta luz mi turbación es mucha.</l>
+          </sp>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l part="I">Dime ¿a qué fin me has invocado?</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> Escucha.</l>
+            <l n="55">Yo soy (que aunque tú lo sabes</l>
+            <l>hay tan sagradas materias</l>
+            <l>que el saberlas explicar</l>
+            <l>es un segundo saberlas,</l>
+            <l>y más cuando al que las sabe</l>
+            <l n="60">no es el oírlas molestia</l>
+            <l>por la caridad de que</l>
+            <l>quien no las sabe las sepa)</l>
+            <l>aquel rey de quien Mateo</l>
+            <l>y Lucas dijeron que era</l>
+            <l n="65">(bien que con señas distintas</l>
+            <l>mas no con contrarias señas)</l>
+            <l>el que pacífico un tiempo</l>
+            <l>sobre la faz de la tierra</l>
+            <l>reinaba en paz y justicia,</l>
+            <l n="70">con que citada la letra</l>
+            <l>entre ahora la alegoría,</l>
+            <l>pero entre con advertencia</l>
+            <l>de que uno es el que es y otro</l>
+            <l>es el que le representa;</l>
+            <l n="75">y así a dos luces, pues basta</l>
+            <l>que en algo se le parezca,</l>
+            <l>es fuerza dejarlo a que</l>
+            <l>quien lo entendiere lo entienda.</l>
+            <l>Un hijo tengo, tan hijo</l>
+            <l n="80">mío en todo que la idea</l>
+            <l>de mi cariño sin duda</l>
+            <l>continuamente le engendra.</l>
+            <l>Tanto en él me complací</l>
+            <l>y él en mí, que la unión nuestra</l>
+            <l n="85">produce un amor de entrambos</l>
+            <l>que nos hace de manera</l>
+            <l>tan uno a los tres, que somos</l>
+            <l>en la igualdad de la ciencia,</l>
+            <l>del poder y del amor</l>
+            <l n="90">tres personas y una esencia,</l>
+            <l>propiedades que me mueven</l>
+            <l>a que de nuestra grandeza</l>
+            <l>participe honores cuanto</l>
+            <l>en esta inferior esfera</l>
+            <l n="95">el sol ilumina a rayos</l>
+            <l>y el mar a piélagos cerca.</l>
+            <l>Determino darle estado</l>
+            <l>y para que resplandezca</l>
+            <l>en la elección de la esposa</l>
+            <l n="100">más mi amorosa clemencia</l>
+            <l>ha de ser la Sunamitis,</l>
+            <l>que aunque en la versión hebrea</l>
+            <l>se interpreta «la que duerme»,</l>
+            <l>también mudada una letra</l>
+            <l n="105">que por Sunamitis diga</l>
+            <l>Sulamitis, se interpreta</l>
+            <l>«la perfecta», conque a un tiempo</l>
+            <l>conviene en entrambas señas</l>
+            <l>en naturaleza humana,</l>
+            <l n="110">pues en achaques envuelta</l>
+            <l>yace bien como dormida,</l>
+            <l>que es no estar viva ni muerta,</l>
+            <l>pues muerta para la gracia</l>
+            <l>vive capaz de tenerla</l>
+            <l n="115">el día que con mi hijo</l>
+            <l>se despose, de manera</l>
+            <l>que de sus joyas dotada</l>
+            <l>vendrá a quedar tan perfecta</l>
+            <l>que a las dos luces que dije</l>
+            <l n="120">la naturaleza y ella</l>
+            <l>no habrá quien dude que son</l>
+            <l>por hoy una cosa mesma.</l>
+            <l>Para la celebridad</l>
+            <l>desta real boda quisiera</l>
+            <l n="125">de mi poder ostentando</l>
+            <l>la grande magnificencia</l>
+            <l>hacer partícipe a todo</l>
+            <l>el mundo y que en él no hubiera</l>
+            <l>desde la zona que abrasa</l>
+            <l n="130">hasta el trópico que yela</l>
+            <l>término en que no sonasen</l>
+            <l>de mi majestad las nuevas.</l>
+            <l>Un espléndido banquete</l>
+            <l>a este efecto, en una cena</l>
+            <l n="135">solicito hacer a cuantos</l>
+            <l>de mí convidados vengan</l>
+            <l>sin excepción de personas,</l>
+            <l>pues antes las más ajenas</l>
+            <l>y más remotas serán</l>
+            <l n="140">de mi mayor complacencia,</l>
+            <l>como vengan para que</l>
+            <l>sentarse con mi hijo puedan</l>
+            <l>con las túnicas nupciales</l>
+            <l>vestidos de gala y fiesta,</l>
+            <l n="145">y así a valerme de ti</l>
+            <l>te invoco para que seas</l>
+            <l>(pues texto habrá que lo diga)</l>
+            <l>tú la que pongas las mesas,</l>
+            <l>mezcles el vino y inmoles</l>
+            <l n="150">las víctimas para ellas</l>
+            <l>enviando a tus ancilas,</l>
+            <l>divinas virtudes bellas</l>
+            <l>que te asisten, a que hagan</l>
+            <l>(pues no repugna el que sea</l>
+            <l n="155">tu familia mi familia)</l>
+            <l>con sus dulces voces tiernas</l>
+            <l>público el banquete a cuantos</l>
+            <l>en sus ámbitos contenga</l>
+            <l>hoy el orbe; pues es cierto</l>
+            <l n="160">que el congregar sus diversas</l>
+            <l>gentes es propia acción tuya,</l>
+            <l>pues entre las excelencias</l>
+            <l>que más te adornan y ilustran</l>
+            <l>dijiste tú de ti mesma</l>
+            <l n="165">ser tus delicias, tus juegos,</l>
+            <l>tus júbilos y tus fiestas</l>
+            <l>el conversar con los hijos</l>
+            <l>de los hombres. Y porque esta</l>
+            <l>congregación tras sí traiga</l>
+            <l n="170">las repúblicas enteras,</l>
+            <l>siendo los reyes los que hacen</l>
+            <l>al pueblo las consecuencias,</l>
+            <l>conviden reyes, monarcas,</l>
+            <l>príncipes y jueces, tenga</l>
+            <l n="175">este cumplimiento más</l>
+            <l>tu gran ser, pues cosa es cierta</l>
+            <l>que como súbditos tuyos</l>
+            <l>unos y otros te obedezcan,</l>
+            <l>pues por ti las leyes juzgan</l>
+            <l n="180">y por ti los reyes reinan.</l>
+          </sp>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l>Si es asentado principio</l>
+            <l>en todas divinas letras</l>
+            <l>(de parábolas lo diga</l>
+            <l>la sacra página llena)</l>
+            <l n="185">que lo invisible no es</l>
+            <l>posible que se comprehenda</l>
+            <l>y solo para rastrearlo</l>
+            <l>da a lo visible licencia</l>
+            <l>de que en ejemplos visibles</l>
+            <l n="190">lo no visible se entienda,</l>
+            <l>y es este hoy tu asumpto ¿cómo</l>
+            <l>puedo excusarme a que sea</l>
+            <l>de mí admitido, y más cuando</l>
+            <l>es recebida sentencia</l>
+            <l n="195">que el que me busque me halle,</l>
+            <l>que al que me pida conceda</l>
+            <l>y que mis puertas le abra</l>
+            <l>al que llamare a mis puertas?</l>
+            <l>Y así en fe de que tú fiel</l>
+            <l n="200">me buscas, llamas y ruegas</l>
+            <l>y de que yo te respondo</l>
+            <l>prompta, liberal y atenta,</l>
+            <l>las cuatro partes del mundo</l>
+            <l>oirán en sus cuatro esferas</l>
+            <l n="205">en voz de cuatro virtudes</l>
+            <l>las felicísimas nuevas</l>
+            <l>de que tu hijo se humana</l>
+            <l>a admitir en sí a la bella</l>
+            <l>Sulamitis por esposa,</l>
+            <l n="210">y porque las más adversas</l>
+            <l>gentes viendo en tanto honor</l>
+            <l>su misma naturaleza</l>
+            <l>a gozarse en su ventura,</l>
+            <l>como tu dijiste, vengan</l>
+            <l n="215">a tu boda y tu convite,</l>
+            <l>las nupciales ropas puestas.</l>
+            <l>La Fe, primer fundamento</l>
+            <l>de todo, irá a la desierta</l>
+            <l>Libia del áfrica donde</l>
+            <l n="220">aún más fiera que sus fieras,</l>
+            <l>aún más que sus brutos bruto,</l>
+            <l>el bárbaro Ateísmo niega</l>
+            <l>haber más causa de causas</l>
+            <l>que el acaso, que halló hechas</l>
+            <l n="225">las dos fábricas hermosas</l>
+            <l>de los cielos y la tierra</l>
+            <l>con gentes, aves y plantas,</l>
+            <l>flores, sol, luna y estrellas,</l>
+            <l>que es justo que al que de Dios</l>
+            <l n="230">el primer principio yerra</l>
+            <l>vaya la Fe que no tiene</l>
+            <l>a efecto de que la tenga.</l>
+            <l>A la América, que hoy yace</l>
+            <l>remotamente encubierta</l>
+            <l n="235">hasta venideros siglos,</l>
+            <l>donde torpemente ciega</l>
+            <l>domina la Idolatría,</l>
+            <l>tanto al Ateísmo opuesta,</l>
+            <l>que cuando ignora él un dios</l>
+            <l n="240">adora infinitos ella,</l>
+            <l>adelantando aquel paso</l>
+            <l>que hay de que uno nada crea</l>
+            <l>y otro más que debe, puesto</l>
+            <l>que ya a lo menos confiesa</l>
+            <l n="245">en su falsa adoración</l>
+            <l>que hay dioses de quien dependa,</l>
+            <l>la Caridad irá, a fin</l>
+            <l>de que su amor, su clemencia,</l>
+            <l>arguyéndole en la falsa,</l>
+            <l n="250">le instruya en la verdadera,</l>
+            <l>pues es de la Caridad</l>
+            <l>hacer que el que ignora aprenda.</l>
+            <l>Al Asia en que el Hebraísmo</l>
+            <l>sus repúblicas gobierna,</l>
+            <l n="255">y adelantando otro paso</l>
+            <l>confiesa, adora y venera</l>
+            <l>solo un verdadero dios</l>
+            <l>cuya suma omnipotencia,</l>
+            <l>criador, rey, señor y dueño,</l>
+            <l n="260">venera, adora y confiesa,</l>
+            <l>cuyo hijo prometido</l>
+            <l>en la ley de los profetas</l>
+            <l>espera que ha de venir</l>
+            <l>y desconoce al que espera,</l>
+            <l n="265">pues que le niega humanado,</l>
+            <l>irá la Esperanza mesma</l>
+            <l>al desengaño de que</l>
+            <l>ya no hay para qué la tenga.</l>
+            <l>A la Europa, no en común,</l>
+            <l n="270">porque la Europa conserva</l>
+            <l>católicos reyes ya</l>
+            <l>convidados, sino a aquellas</l>
+            <l>provincias del norte a quien</l>
+            <l>aunque a la verdad se acercan</l>
+            <l n="275">adelantando otro paso,</l>
+            <l>con falsos dogmas infesta</l>
+            <l>la traidora Apostasía,</l>
+            <l>forajida de la Iglesia,</l>
+            <l>pues creyéndole humanado</l>
+            <l n="280">sacramentado le niega,</l>
+            <l>irá la Misericordia,</l>
+            <l>piadosa deidad, que ruega</l>
+            <l>con la paz a quien la culpa</l>
+            <l>detestare con la enmienda.</l>
+            <l n="285">Conque en tanto que las cuatro</l>
+            <l>generosamente vuelan</l>
+            <l>con las alas de las plumas</l>
+            <l>de aquella águila suprema</l>
+            <l>que hito a hito y rayo a rayo</l>
+            <l n="290">se examina y se renueva,</l>
+            <l>bebiendo al sol de justicia</l>
+            <l>el rico Ofir de sus ciencias,</l>
+            <l>las mesas pondré y el vino</l>
+            <l>mezclaré, uniendo en su mezcla</l>
+            <l n="295">el mosto de aquel racimo</l>
+            <l>que dio en primicias la tierra</l>
+            <l>de promisión a Caleb,</l>
+            <l>con el que puso en su ofrenda</l>
+            <l>Melchisedech a Abraham,</l>
+            <l n="300">y para mayores señas</l>
+            <l>deste místico sentido</l>
+            <l>el sacro pan que presenta</l>
+            <l>a la hambre de David,</l>
+            <l>de Aquimelech la clemencia,</l>
+            <l n="305">mezclaré con el que en campos</l>
+            <l>de Belén la espigadera</l>
+            <l>Ruth amasó en sus espigas,</l>
+            <l>y para que a todo sepan</l>
+            <l>serán las demás viandas</l>
+            <l n="310">del blanco maná compuestas</l>
+            <l>que dieron las nubes cuando</l>
+            <l>cuajados montes y selvas</l>
+            <l>fueron mantel, y manjar</l>
+            <l>dulce grano en nieve tersa,</l>
+            <l n="315">y, en fin, porque satisfechos</l>
+            <l>todos a su patria vuelvan</l>
+            <l>será el cordero legal</l>
+            <l>viático que les dé fuerzas</l>
+            <l>para el último camino.</l>
+            <l n="320">Y pues ya a mi cargo quedan</l>
+            <l>mesas, pan, vino y cordero</l>
+            <l>y a de mis ancilas bellas</l>
+            <l>llamar a los convidados,</l>
+            <l>parte tú a que se prevengan</l>
+            <l n="325">las vistas para la esposa,</l>
+            <l>porque con tus dones pueda,</l>
+            <l>pues naturaleza humana</l>
+            <l>Sulamitis se interpreta,</l>
+            <l>salir sin temor a vistas</l>
+            <l n="330">la humana naturaleza.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>No en vano, sacra deidad,</l>
+            <l>consultó mi providencia</l>
+            <l>estas bodas con tu amor,</l>
+            <l>pues ya concurren en ellas</l>
+            <l n="335">con un mismo acuerdo en mí,</l>
+            <l>el poder que las celebra,</l>
+            <l>la obra en ti que las dispone</l>
+            <l>y en mi hijo la obediencia.</l>
+            <l>Y así a anunciar la que halló</l>
+            <l n="340">gracia en mis ojos, la nueva</l>
+            <l>llevará un valido mío</l>
+            <l>cuyo nombre es Fortaleza,</l>
+            <l>para que no temerosa</l>
+            <l>pase de mísera a reina. Vase.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="345">También no en vano en nosotras</l>
+            <l>concurre a esta unión, atentas,</l>
+            <l>el honor de que ganemos</l>
+            <l>dándole la norabuena</l>
+            <l>las albricias con el mundo.</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l n="350">Estancia no habrá en su esfera</l>
+            <l>en que tan altas noticias</l>
+            <l part="I">no se oigan.</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l part="F"> Ni gente en ella</l>
+            <l>que alegar pueda ignorancia.</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l>¿Qué mucho si es tu obediencia</l>
+            <l part="I">nuestro mayor lauro?</l>
+          </sp>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l n="355" part="F"> Pues</l>
+            <l>porque el tiempo no se pierda</l>
+            <l>partid mientras yo prevengo</l>
+            <l>el maná para la mesa,</l>
+            <l>el racimo para el vino,</l>
+            <l n="360">la espiga para la oblea,</l>
+            <l>para el viático el cordero</l>
+            <l>y el ara para la ofrenda.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Vase.</stage>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l>Ya que es fuerza dividirnos</l>
+            <l>y que a la agilidad nuestra</l>
+            <l n="365">no se da lugar ni tiempo</l>
+            <l>ni distancia que no venza,</l>
+            <l>empiece la invocación</l>
+            <l>desde aquí para que atiendan</l>
+            <l>los climas adonde vamos.</l>
+            <stage>Cantado cada una en su carro.</stage>
+          </sp>
+          <sp who="#caridad #fe #misericordia">
+            <speaker>LAS 3</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l n="370" part="F"> De aquesta manera.</l>
+            <l>¡Ah de la abundante Asia!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>¡Ah del áfrica desierta!</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l>¡Ah de la América ignota!</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l>¡Ah de la Europa opulenta!</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l n="375">Hebreo que la dominas...</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l>Idólatra que la reinas...</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Ateísmo que la vicias...</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l>Apóstata que la infestas...</l>
+          </sp>
+          <sp who="#caridad #esperanza #misericordia #fe">
+            <speaker>LAS 4</speaker>
+            <l>¡Albricias, albricias!</l>
+          </sp>
+          <stage>Dentro HEBRAÍSMO, ATEÍSMO, IDOLATRÍA y APOSTASÍA, cada uno en su carro.</stage>
+          <sp who="#ateísmo #idolatría #apostasía #hebraísmo">
+            <speaker>LOS 4</speaker>
+            <l n="380">¿De qué alegres nuevas?</l>
+          </sp>
+          <sp who="#caridad #esperanza #misericordia #fe">
+            <speaker>LAS 4</speaker>
+            <l>De que ya la esclava</l>
+            <l>se corona reina.</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <stage>Canta.</stage>
+            <l>Albricias, albricias,</l>
+            <l>que a sus bodas regias</l>
+            <l n="385">previene el rey una</l>
+            <l>espléndida cena.</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <stage>Canta.</stage>
+            <l>Albricias, albricias,</l>
+            <l>que han de entrar en ella</l>
+            <l>cuantos con nupciales</l>
+            <l n="390">vestiduras vengan.</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <stage>Canta.</stage>
+            <l>Albricias, albricias,</l>
+            <l>que no habrá en su mesa</l>
+            <l>manjar que divino</l>
+            <l>misterio no tenga.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Canta.</stage>
+            <l n="395">Albricias, albricias,</l>
+            <l>y pues su grandeza</l>
+            <l>a todos convida</l>
+            <l>de gala y de fiesta...</l>
+          </sp>
+          <sp who="#caridad #esperanza #misericordia #fe">
+            <speaker>LAS 4</speaker>
+            <stage>Cantan.</stage>
+            <l>Alégrese toda</l>
+            <l n="400">la naturaleza</l>
+            <l>sonando al compás</l>
+            <l>de las voces nuestras,</l>
+            <l>el ave en la rama,</l>
+            <l>el bruto en la peña,</l>
+            <l n="405">el aire en el monte,</l>
+            <l>el cristal en la selva.</l>
+          </sp>
+          <sp who="#ateísmo #idolatría #apostasía #hebraísmo">
+            <speaker>LOS 4</speaker>
+            <l>¿«Albricias, albricias»?</l>
+            <l>¿De qué alegres nuevas?</l>
+          </sp>
+          <sp who="#caridad #esperanza #misericordia #fe">
+            <speaker>LAS 4</speaker>
+            <l>De que ya la esclava</l>
+            <l n="410">se corona reina.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Con esta repetición se entran las cuatro y salen, cada uno de su carro, el ATEÍSMO vestido de pieles, el HEBRAÍSMO de judío, la IDOLATRÍA de indio y la APOSTASÍA de soldado, y todos como oyendo a lo lejos la música.</stage>
+          <sp who="#ateísmo #idolatría #apostasía #hebraísmo">
+            <speaker>LOS 4</speaker>
+            <l>¿«De que ya la esclava</l>
+            <l>se corona reina»?</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>¿Qué reina o qué esclava</l>
+            <l>puede ser aquella</l>
+            <l n="415">por quien estas voces</l>
+            <l>publican que excelsa...</l>
+          </sp>
+          <sp who="#hebraísmo #música">
+            <speaker>ÉL Y MÚSICA</speaker>
+            <stage>Dentro.</stage>
+            <l>...previene el rey una</l>
+            <l>espléndida cena?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¿A qué efecto el eco</l>
+            <l n="420">convocar intenta...</l>
+          </sp>
+          <sp who="#idolatría #música">
+            <speaker>ÉL Y MÚSICA</speaker>
+            <l>...cuantos con nupciales</l>
+            <l>vestiduras vengan?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>¿A qué fin el aire</l>
+            <l>puede ser que ofrezca...</l>
+          </sp>
+          <sp who="#apostasía #música">
+            <speaker>ÉL Y MÚSICA</speaker>
+            <l n="425">...manjar que divino</l>
+            <l>misterio no tenga?</l>
+          </sp>
+          <sp who="#ateísmo">
+            <speaker>ATEÍSMO</speaker>
+            <l>Qué poco me aflige</l>
+            <l>oír que voz nueva...</l>
+          </sp>
+          <sp who="#ateísmo #música">
+            <speaker>ÉL Y MÚSICA</speaker>
+            <l>a todos convide</l>
+            <l n="430">de gala y de fiesta.</l>
+          </sp>
+          <sp who="#ateísmo #idolatría #apostasía #hebraísmo">
+            <speaker>LOS 4</speaker>
+            <l>Que nada entendemos</l>
+            <l>por más que resuenan...</l>
+          </sp>
+          <sp who="#ateísmo #idolatría #apostasía #hebraísmo #música">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>...el ave en la rama,</l>
+            <l>el bruto en la peña,</l>
+            <l n="435">el eco en el monte,</l>
+            <l>el cristal en la selva.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">Hebraísmo.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> ¿Quién me llama?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Quien de ti saber desea,</l>
+            <l>puesto que la fantasía</l>
+            <l n="440">de retóricas licencias</l>
+            <l>da voz a lo inanimado,</l>
+            <l>en cuya prosopopeya</l>
+            <l>las más lejanas distancias</l>
+            <l>la imaginación abrevia,</l>
+            <l n="445">¿qué música es la que en todo</l>
+            <l>el ámbito de la tierra</l>
+            <l part="I">hoy se ha escuchado?</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> Si hubiesen</l>
+            <l>cumplido cómputo y cuenta</l>
+            <l>las semanas de Daniel,</l>
+            <l n="450">tan universal materia</l>
+            <l>que sus albricias se extienden</l>
+            <l>a todo el orbe dijera</l>
+            <l>ser armoniosa salva</l>
+            <l>que hace el cielo y la tierra</l>
+            <l n="455">al Mesías que yo aguardo.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Para mí esa no es respuesta</l>
+            <l>cuando yo sé que ha venido,</l>
+            <l>bien que en parte me hacen fuerza</l>
+            <l>algunas proposiciones</l>
+            <l n="460">que no es posible que entienda</l>
+            <l part="I">ni alcance mi ingenio.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F"> No</l>
+            <l>fuera de ambos conveniencia,</l>
+            <l>ya que no bien avenidos</l>
+            <l>os tienen las leyes vuestras,</l>
+            <l n="465">reduciros a la mía</l>
+            <l>creyendo que de su esfera</l>
+            <l>alguna deidad de tantas</l>
+            <l>como yo adoro descienda</l>
+            <l>a solazarse en los Campos</l>
+            <l n="470">Elíseos, cuyas amenas</l>
+            <l>márgenes son sus delicias.</l>
+          </sp>
+          <sp who="#apostasía #idolatría">
+            <speaker>LOS2</speaker>
+            <l>¡Qué proposición tan fuera</l>
+            <l>de la natural razón!</l>
+          </sp>
+          <sp who="#ateísmo">
+            <speaker>ATEÍSMO</speaker>
+            <l>No están más dentro las vuestras;</l>
+            <l n="475">¿qué dios, Hebraísmo, puede</l>
+            <l>ser el que ha tanto que esperas?</l>
+            <l>¿Qué dios puede, Idolatría,</l>
+            <l>ser el que diviso tenga</l>
+            <l>su imperio con otros dioses?</l>
+            <l n="480">¿Ni qué dios al que tú niegas,</l>
+            <l>fugitiva Apostasía,</l>
+            <l>de su gremio la obediencia</l>
+            <l>que ya le juraste? Y siendo</l>
+            <l>así, que en uno la espera,</l>
+            <l n="485">que la multiplicidad</l>
+            <l>en otro, en otro las ciegas</l>
+            <l>cuestiones de sus misterios</l>
+            <l>os traen discordes ¿no fuera</l>
+            <l>mejor por el real camino</l>
+            <l n="490">pisar la anchurosa senda</l>
+            <l>no creyendo más dios que</l>
+            <l>la natural providencia</l>
+            <l>de las cosas que se hicieron</l>
+            <l>ellas solas por sí mesmas?</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l n="495">Por sí solas ¿cómo pudo</l>
+            <l>aquella prima materia,</l>
+            <l>a quien los profetas llaman</l>
+            <l>nada y caos los poetas,</l>
+            <l>disponerse por sí sola?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="500">Unas obras tan supremas</l>
+            <l>sin criador ¿cómo podrían</l>
+            <l part="I">por sí hacerse?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F"> Y si no hubiera</l>
+            <l>dioses que las asistiesen,</l>
+            <l>criadas ya, ¿cómo pudieran</l>
+            <l n="505">conservarse por sí solas?</l>
+          </sp>
+          <sp who="#ateísmo">
+            <speaker>ATEÍSMO</speaker>
+            <l>Yo no entiendo de materias</l>
+            <l>primas, ni segundas; solo</l>
+            <l>sé, sin fatigar la idea</l>
+            <l>ni atormentar el discurso,</l>
+            <l n="510">que esas obras por inmensas</l>
+            <l>y prodigiosas que son</l>
+            <l>ahí nos las hallamos hechas</l>
+            <l>y ahí habemos de dejarlas</l>
+            <l>habiendo gozado dellas,</l>
+            <l n="515">siendo mi vientre mi dios,</l>
+            <l>lo que coma y lo que beba</l>
+            <l>dure o no dure la vida;</l>
+            <l>pues no hay más gloria ni pena</l>
+            <l part="I">que nacer y morir.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> ¡Calla</l>
+            <l part="I">loco!</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="520" part="F"> ¡Suspende la lengua,</l>
+            <l part="I">bárbaro!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F"> Detén la voz</l>
+            <l>hombre indigno de que seas</l>
+            <l part="I">racional.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> No es racional</l>
+            <l>hombre el que el principio niega</l>
+            <l n="525">a un dios, causa de las causas,</l>
+            <l>sino otra especie diversa</l>
+            <l>de insensatos racionales,</l>
+            <l>por quien dijo David que eran</l>
+            <l>los que allá en su corazón</l>
+            <l n="530">con insipiente torpeza</l>
+            <l>dijeron que no había Dios.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>¿Y qué mayor evidencia</l>
+            <l>de que le hay que el haber quien</l>
+            <l>lo que dijiste supiera</l>
+            <l n="535">tú a tu corazón? Y puesto</l>
+            <l>que al que los principios yerra</l>
+            <l>no se le debe argüir</l>
+            <l>dejémosle entre las breñas</l>
+            <l>de su desierta ignorancia</l>
+            <l n="540">para fiera de sus fieras.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Para bruto de sus brutos.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Para bestia de sus bestias.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Y cobrando cada cual</l>
+            <l>de nosotros la vereda</l>
+            <l n="545">de su patria a inquirir vaya</l>
+            <l>lo que se ha inferido en ella</l>
+            <l>acerca de aquellas voces</l>
+            <l>y a participarlo venga</l>
+            <l part="I">a los demás.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> Dices bien,</l>
+            <l n="550">pues de nuestra conferencia</l>
+            <l>sacaremos qué debemos</l>
+            <l>hacer cuando a decir vuelvan...</l>
+          </sp>
+          <sp who="#ateísmo #idolatría #apostasía #hebraísmo #música">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>Alégrese toda</l>
+            <l>la naturaleza</l>
+            <l n="555">siguiendo el compás</l>
+            <l>de las voces nuestras,</l>
+            <l>el ave en la rama,</l>
+            <l>el bruto en la peña,</l>
+            <l>el aire en el monte,</l>
+            <l n="560">el cristal en la selva.</l>
+          </sp>
+          <stage>Con esta repetición se van los tres.</stage>
+          <sp who="#ateísmo">
+            <speaker>ATEÍSMO</speaker>
+            <l>Qué contentos van de ver</l>
+            <l>cuán baldonado me dejan,</l>
+            <l>como si a mí se me diese</l>
+            <l>nada de honores ni afrentas,</l>
+            <l n="565">dos inútiles alhajas</l>
+            <l>tan neciamente molestas</l>
+            <l>que no tenidas no faltan</l>
+            <l>y tenidas no aprovechan.</l>
+            <l>Viva yo y viva a mi gusto</l>
+            <l n="570">sin que nada me entristezca</l>
+            <l>ni me alboroce: no mal</l>
+            <l>lo diga la poca pena</l>
+            <l>que me da el ir a saber</l>
+            <l>qué nuevas aves son estas</l>
+            <l n="575">que a mí me cansa el oírlas</l>
+            <l>cuando ellos mueren por verlas.</l>
+            <l>O hablan conmigo o no hablan;</l>
+            <l>si hablan a buscarme vengan</l>
+            <l>y si no ¿para qué tengo</l>
+            <l n="580">de irme yo a cansar tras ellas?</l>
+            <l>Y así gozando el solaz</l>
+            <l>de mi poltrona pereza</l>
+            <l>esperaré qué me digan</l>
+            <l>si conmigo hablar intentan.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Sale la FE cantando.</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="585">Ignorante Ateísmo,</l>
+            <l>que ídolo de ti mismo</l>
+            <l>tu vientre solo adoras,</l>
+            <l>oye la voz de la verdad que ignoras.</l>
+          </sp>
+          <sp who="#ateísmo">
+            <speaker>ATEÍSMO</speaker>
+            <l>¿Quién eres, huéspeda extraña</l>
+            <l n="590">destas líbicas riberas,</l>
+            <l>que hasta hoy en ellas no vi?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Canta.</stage>
+            <l>No he entrado yo hasta hoy en ella,</l>
+            <l>que al ver cuán perezosa</l>
+            <l>tu ignorancia reposa</l>
+            <l n="595">en su bárbaro olvido</l>
+            <l>creyendo más al gusto que al oído</l>
+            <l>y que habiendo escuchado</l>
+            <l>mi voz tan sin cuidado</l>
+            <l>yaces hasta esta parte</l>
+            <l n="600">por no buscarme tú vengo a buscarte.</l>
+          </sp>
+          <sp who="#ateísmo">
+            <speaker>ATEÍSMO</speaker>
+            <l>Pues qué quieres y quién eres</l>
+            <l>otra vez a dudar vuelva</l>
+            <l>y otras mil, ¡oh tú!, que traes</l>
+            <l>significándote ciega</l>
+            <l n="605">para tiento de tus pasos</l>
+            <l>el báculo que te adiestra</l>
+            <l>y en lo dulce de tu voz,</l>
+            <l>lo raro de tu belleza,</l>
+            <l>lo no usado de tu traje,</l>
+            <l n="610">tanto me admiras y elevas</l>
+            <l>que si creyera que había</l>
+            <l>deidad serlo tú creyera.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Canta.</stage>
+            <l>La Fe, que no conoces,</l>
+            <l>soy, y lo que mis voces</l>
+            <l n="615">quieren de ti es que vengas</l>
+            <l>donde las luces de tus nieblas tengas.</l>
+            <l>El rey que en cuanto encierra</l>
+            <l>en sus orbes la tierra</l>
+            <l>manda, impera y domina,</l>
+            <l n="620">desposar a su hijo determina</l>
+            <l>con la rara hermosura</l>
+            <l>de Sulamitis pura,</l>
+            <l>que a lo que se interpreta</l>
+            <l>duerme achacosa a despertar perfecta.</l>
+            <l n="625">A esta felice boda</l>
+            <l>en una cena a toda</l>
+            <l>la redondez convida</l>
+            <l>del orbe, en cuya espléndida comida</l>
+            <l>no hay manjar que no sea</l>
+            <l n="630">misterio en que se vea</l>
+            <l>cuánto tus dichas ama,</l>
+            <l>pues a gozarlos con su Fe te llama,</l>
+            <l>y si vienes conmigo</l>
+            <l>creyendo lo que digo,</l>
+            <l n="635">la gran magnificencia</l>
+            <l>verás de su poder, amor y ciencia.</l>
+          </sp>
+          <sp who="#ateísmo">
+            <speaker>ATEÍSMO</speaker>
+            <l>¿Qué ciencia, ni qué poder</l>
+            <l>ni qué amor habrá que pueda</l>
+            <l>desacomodarme a mí?</l>
+            <l n="640">¿Yo ir a sentarme a otra mesa?</l>
+            <l>¿Pues qué me falta en la mía?</l>
+            <l>Y más sobre ser ajena</l>
+            <l>de rey a quien no conozco,</l>
+            <l>puesto que en cielo ni en tierra</l>
+            <l n="645">sé de más rey ni más dios</l>
+            <l>que el que en mi estómago reina.</l>
+            <l>Decirme que en sus viandas</l>
+            <l>altos misterios se encierran</l>
+            <l>no me mueve; que no sé</l>
+            <l n="650">que haya más misterio en ellas</l>
+            <l>que las que mejor me saben</l>
+            <l>y las que más me sustentan.</l>
+            <l>Y porque veas que solo</l>
+            <l>trato que fértiles crezcan</l>
+            <l n="655">voy a probar unas yuntas</l>
+            <l>que he comprado porque ofrezcan</l>
+            <l>cultivadas mis campañas</l>
+            <l>más abundantes cosechas</l>
+            <l>para mi regalo. Esto</l>
+            <l n="660">a ese rey, sea quien sea,</l>
+            <l>de mi parte le dirás</l>
+            <l>y no esperes más respuesta</l>
+            <l>de mí ni en esta me arguyas</l>
+            <l>porque yo no sé más ciencias,</l>
+            <l n="665">ni más poder, ni amor que</l>
+            <l>vivir sin freno ni rienda</l>
+            <l>hoy para morir mañana,</l>
+            <l>y lo que viniere venga.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Vase.</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Canta.</stage>
+            <l>¡Ay de opinión tan ciega</l>
+            <l n="670">que aun los principios a la Fe le niega!</l>
+            <stage>Representa.</stage>
+            <l>Y ya que yo desairada</l>
+            <l>a los ojos del rey vuelva,</l>
+            <l>pues mi vista los espacios</l>
+            <l>más apartados penetra,</l>
+            <l n="675">consuéleme el esperar</l>
+            <l>que la Caridad, que llega</l>
+            <l>a hablar con la Idolatría,</l>
+            <l>diciéndole le convenza.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Salen la IDOLATRÍA y la CARIDAD.</stage>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <stage>Canta.</stage>
+            <l>A las bodas que digo,</l>
+            <l n="680">este gran rey conmigo,</l>
+            <l>gentil Idolatría,</l>
+            <l>benignamente a convidarte envía,</l>
+            <l>y no en vano, que siendo</l>
+            <l>su Caridad transciendo</l>
+            <l n="685">por aliviar pesares</l>
+            <l>cumbres de montes, páramos de mares.</l>
+            <l>De mi empresa lo diga</l>
+            <l>en una y otra espiga</l>
+            <l>contra común desgracia</l>
+            <l n="690">ser el pan Caridad que da la gracia,</l>
+            <l>y así en tu busca vengo</l>
+            <l>adonde te prevengo</l>
+            <l>no faltes a una mesa</l>
+            <l>en que honor, vida y alma se interesa,</l>
+            <l n="695">pues está en un bocado</l>
+            <l>todo el poder cifrado</l>
+            <l part="I">del solo dios que adoro y...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>[IDOLATRÍA]</speaker>
+            <l part="F"> No prosigas;</l>
+            <l>ni un solo dios en mis imperios digas.</l>
+            <l>Si yo con treinta mil dioses</l>
+            <l n="700">aun no tengo hartos que puedan</l>
+            <l>acudir a tantas cosas</l>
+            <l>como la humana miseria</l>
+            <l>necesita ¿cómo quieres</l>
+            <l>que imagine ni que crea</l>
+            <l n="705">que a este rey basta un dios que</l>
+            <l>cuidado de todo tenga?</l>
+            <l>Pero por la urbanidad</l>
+            <l>de ver que de mí se acuerda</l>
+            <l>le dirás que a otra ocasión</l>
+            <l n="710">quizá le veré, que en esta</l>
+            <l>no puedo; porque ocupado</l>
+            <l>en las víctimas y ofrendas</l>
+            <l>de mis ídolos estoy</l>
+            <l>y no es bien faltar a ellas</l>
+            <l n="715">por ir a su real convite,</l>
+            <l>por liberal que me ofrezca</l>
+            <l>la Caridad de su pan</l>
+            <l>viandas que no he de creerlas.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <stage>Vase.</stage>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <stage>Canta.</stage>
+            <l>¡Ay de opinión tan ciega</l>
+            <l n="720">donde a mover la Caridad no llega!</l>
+            <stage>Representa.</stage>
+            <l part="I">¿Tú aquí, Fe?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F"> ¿Dónde estarás</l>
+            <l>tú con dolor que no venga</l>
+            <l>yo a acompañarte? Creyendo</l>
+            <l>consolarme en la tristeza</l>
+            <l n="725">de verme del Ateísmo</l>
+            <l>despedida, quise cuerda</l>
+            <l>ver en tu triunfo mi alivio;</l>
+            <l>pero en vano, pues no acepta</l>
+            <l>el idólatra tampoco</l>
+            <l part="I">el convite.</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l n="730" part="F"> Mi propuesta</l>
+            <l>por ir a los sacrificios</l>
+            <l>de falsos dioses desprecia.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Pues ya que las dos volvemos</l>
+            <l>con desabridas respuestas</l>
+            <l n="735">veamos si la siempre afable</l>
+            <l>Misericordia consuela</l>
+            <l>nuestro llanto reduciendo</l>
+            <l>a la negada obediencia</l>
+            <l part="I">a la Apostasía.</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l part="F"> Atendamos</l>
+            <l part="I">desde aquí.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <stage>Salen la APOSTASÍA y la MISERICORDIA.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="740" part="F"> ¿A qué fin intentas,</l>
+            <l>Misericordia, decirme</l>
+            <l>que con Sulamitis bella</l>
+            <l>el príncipe se desposa?</l>
+            <l>¿Niego yo el lazo de aquesa</l>
+            <l part="I">hipostática unión?</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l n="745" part="F"> No;</l>
+            <l>mas sobre eso es bien que atiendas.</l>
+            <stage>Canta.</stage>
+            <l>Si habiendo tú llegado</l>
+            <l>a creer que humanado</l>
+            <l>con celestial aviso</l>
+            <l n="750">la admite, porque pudo, supo y quiso</l>
+            <l>ilustrar la bajeza</l>
+            <l>de la naturaleza</l>
+            <l>¿para qué te rehúsas</l>
+            <l>y ir de su boda al real banquete excusas?</l>
+            <l n="755">Y si haber por tu daño</l>
+            <l>huido de su rebaño</l>
+            <l>es lo que te acobarda,</l>
+            <l>mira que yo te llamo y él te aguarda.</l>
+            <l>No temas su castigo;</l>
+            <l n="760">seguro vas conmigo,</l>
+            <l>pues para eso, no esquiva,</l>
+            <l>símbolo de la paz es esta oliva.</l>
+            <l>No a la voz tu discordia</l>
+            <l>de su misericordia</l>
+            <l n="765">se niegue, pues indicio</l>
+            <l>es mi llanto de ser santo el oficio</l>
+            <l>que te llama a una cena</l>
+            <l>de tantas gracias llena.</l>
+            <l>Ven, pues por darte vida</l>
+            <l n="770">con la Misericordia te convida.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Yo fuera, Misericordia,</l>
+            <l>contigo si no me hicieran</l>
+            <l>repugnancia los misterios</l>
+            <l>que de sus manjares cuentan.</l>
+            <l n="775">¿Yo he de creer que su vino</l>
+            <l>y pan, contra lo que vea,</l>
+            <l>contra lo que toque y oiga,</l>
+            <l>lo que guste y lo que huela,</l>
+            <l>no es pan ni vino, sino</l>
+            <l n="780">carne y sangre? ¡Qué propuesta</l>
+            <l part="I">tan dura!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F"> No es, si la Fe</l>
+            <l>aunque despedida venga</l>
+            <l>de otro error, en este se halla</l>
+            <l>obligada a la respuesta.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">¿Qué respuesta?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="785" part="F"> La que dice</l>
+            <l>que por el oído sea</l>
+            <l>cautivo el entendimiento.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Pues ¿por qué quieres que tenga</l>
+            <l>cautivo al que nació libre?</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l n="790">Por la Caridad, que en prendas</l>
+            <l>de su amor fue a prevenir</l>
+            <l>que le pusiese la mesa</l>
+            <l part="I">la Sabiduría.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> ¿Y me basta</l>
+            <l>que mezcle las viandas ella</l>
+            <l part="I">para ser carne el pan?</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l n="795" part="F"> Sí;</l>
+            <l>que a la Sabiduría eterna</l>
+            <l>que hizo de la nada el todo</l>
+            <l>más fácil le es que hacer pueda</l>
+            <l>de una cosa otra, pues menos</l>
+            <l n="800">es transubstanciar la hecha</l>
+            <l>que hacerla y transubstanciarla.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Ni es tiempo ni ocasión ésta</l>
+            <l>para teólogas cuestiones;</l>
+            <l>y así, atajando contiendas,</l>
+            <l n="805">di a ese rey, Misericordia,</l>
+            <l>por excusado me tenga,</l>
+            <l>que más le sirvo en no ir</l>
+            <l>que en ir, pues fuera, si fuera,</l>
+            <l>a derramar sus solaces</l>
+            <l n="810">más que a creer sus excelencias.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <stage>Vase.</stage>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <stage>Canta.</stage>
+            <l>¡Ay de opinión tan ciega</l>
+            <l>que huye a Misericordia que le ruega!</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l>¿En fin, las tres tres ultrajes</l>
+            <l>llevamos de tres opuestas</l>
+            <l part="I">réprobas naciones?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="815" part="F"> Sola</l>
+            <l>una esperanza nos queda</l>
+            <l>a que poder apelar.</l>
+          </sp>
+          <sp who="#caridad #misericordia">
+            <speaker>LAS 2</speaker>
+            <l part="I">¿Cuál es?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F"> La Esperanza mesma.</l>
+          </sp>
+          <sp who="#caridad #misericordia">
+            <speaker>LAS 2</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F"> Atendiendo las tres</l>
+            <l n="820">(pues aunque a decirlo vuelva,</l>
+            <l>en nosotras no hay distancia)</l>
+            <l>a lo que el Hebraísmo y ella</l>
+            <l>confieren, pues es de todas</l>
+            <l>el lauro de que una venza.</l>
+          </sp>
+          <sp who="#caridad #misericordia">
+            <speaker>LAS2</speaker>
+            <l n="825">Dices bien, y así las tres</l>
+            <l>oigamos desde aquí atentas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <stage>Salen la ESPERANZA y el HEBRAÍSMO.</stage>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <stage>Canta.</stage>
+            <l>Aquel rey soberano,</l>
+            <l>cuyo hijo es tan humano</l>
+            <l>que amante de la hermosa</l>
+            <l n="830">Sulamitis con ella se desposa,</l>
+            <l>en oblación festiva</l>
+            <l>de que en sí la reciba</l>
+            <l>despertando exaltada</l>
+            <l>de esclava humilde a reina coronada,</l>
+            <l n="835">ha dispuesto un convite</l>
+            <l>tan general que admite</l>
+            <l>a cuantos acrisola</l>
+            <l>de la veste nupcial cándida estola.</l>
+            <l>La gran Sabiduría</l>
+            <l n="840">a ti a este fin me envía</l>
+            <l>por si contigo alcanza</l>
+            <l part="I">más mi voz.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="M"> ¿Pues quién eres?</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l part="F"> La Esperanza.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Dices bien, porque no hay cosa</l>
+            <l>que yo más estime y quiera</l>
+            <l n="845">que la Esperanza en que vivo</l>
+            <l>de que el prometido venga</l>
+            <l>a visitar a su pueblo</l>
+            <l>cumpliéndole la promesa</l>
+            <l>que en sombras dio hasta aquí a tantos</l>
+            <l n="850">patriarcas y profetas.</l>
+            <l>Dime pues cuándo será</l>
+            <l>el día que las nubes lluevan</l>
+            <l>el rocío que cuajó</l>
+            <l>la no manchada piel tersa</l>
+            <l n="855">de Gedeón; cuándo el día</l>
+            <l>que abra sus senos la tierra</l>
+            <l>y produzga al Salvador;</l>
+            <l>cuándo en blanda lluvia envuelta</l>
+            <l>neutral sabor de viandas</l>
+            <l n="860">cuajará el maná las selvas;</l>
+            <l>y cuándo el legal cordero</l>
+            <l>de la servidumbre nuestra</l>
+            <l>celebrará en libertad</l>
+            <l>del parasceve la fiesta,</l>
+            <l n="865">que pues la Sabiduría</l>
+            <l>te envía a mí ¿quién duda sepa</l>
+            <l>que se me acerca el día, pues</l>
+            <l>la Esperanza se me acerca?</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <stage>Canta.</stage>
+            <l>No solo sabe el día</l>
+            <l n="870">la alta Sabiduría</l>
+            <l>que ese candor divino</l>
+            <l>vendrá, pero también sabe el que vino.</l>
+            <l>Esta áncora lo diga</l>
+            <l>que a la humana fatiga</l>
+            <l n="875">muestra que, ya en bonanza</l>
+            <l>el mar, llegó a su puerto la Esperanza,</l>
+            <l>y dígalo el banquete</l>
+            <l>en que el rey te promete,</l>
+            <l>benignamente pío,</l>
+            <l n="880">cordero, piel, maná, nube y rocío.</l>
+            <l>Ven, pues, ven a la mesa</l>
+            <l>en que ya su promesa</l>
+            <l>cumplida está, pues halla</l>
+            <l part="I">posesión la Esperanza y...</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> Calla, calla,</l>
+            <l n="885">que aunque pudiera argüirte</l>
+            <l>en los compuestos que yerras</l>
+            <l>no lo he de hacer, sino solo</l>
+            <l>en la sujeta materia</l>
+            <l>de hoy. Siendo tú la Esperanza</l>
+            <l n="890">que yo firmemente puesta</l>
+            <l>tengo en mis profetas ¿cómo</l>
+            <l>ir contigo me aconsejas</l>
+            <l>a no tenerte a ti allá,</l>
+            <l>pues ya posesión, opuestas</l>
+            <l n="895">razones serán que vaya</l>
+            <l>contigo a que no te tenga?</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l>La Esperanza, teologal</l>
+            <l>virtud, aun cumplida queda</l>
+            <l>esperanza, que una cosa</l>
+            <l n="900">es que para el hombre muera</l>
+            <l>cuando en posesión le pone</l>
+            <l>de alguna dicha que espera,</l>
+            <l>y otra es que deje de ser</l>
+            <l>Esperanza pues le deja</l>
+            <l n="905">cabal la acción en la humana</l>
+            <l>vida a que espere la eterna.</l>
+            <l>Y así pues siempre Esperanza</l>
+            <l>me has de ver, aunque me veas</l>
+            <l>allá posesión, no en vano</l>
+            <l n="910">vengo a que conmigo vengas.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>No haré tal, que por mejor</l>
+            <l>tengo que para mí seas</l>
+            <l>hoy cierta esperanza aquí</l>
+            <l>que allá posesión incierta.</l>
+            <l n="915">Que si yo no he de creer</l>
+            <l>ni el misterio de esa cena,</l>
+            <l>ni de esa boda la unión,</l>
+            <l>ni dar lugar a que sientan</l>
+            <l>los romanos que yo he dado</l>
+            <l n="920">a intruso rey obediencia,</l>
+            <l>mejor será que te quedes</l>
+            <l>tú conmigo, donde vea</l>
+            <l>el mundo que el hebraísmo</l>
+            <l>con la esperanza se queda,</l>
+            <l n="925">y que el no llevar ninguna</l>
+            <l>es su más cortés respuesta.</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l>¿Contigo a ser Esperanza</l>
+            <l part="I">vana? Huiré de ti.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> Por fuerza</l>
+            <l part="I">te tendré.</l>
+          </sp>
+          <stage>Huye dél y atraviésase la FE.</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="M"> No harás.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> ¿Por qué?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="930">Porque estoy yo en su defensa.</l>
+          </sp>
+          <stage>Luchan los dos.</stage>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Poca defensa es la tuya.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Mira que a la Fe atropellas.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Vaya yo tras mi Esperanza</l>
+            <l>y mas que la Fe se pierda.</l>
+          </sp>
+          <stage>Apártala y atraviésase la CARIDAD.</stage>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l n="935">Al paso la Caridad</l>
+            <l>también saldrá a defenderla.</l>
+          </sp>
+          <stage>Luchan los dos.</stage>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Todo soy ira, no hay</l>
+            <l>Caridad que me detenga.</l>
+          </sp>
+          <stage>Apártala y atraviésase la MISERICORDIA.</stage>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l>Pues haya Misericordia</l>
+            <l n="940">que tus furores suspenda.</l>
+          </sp>
+          <stage>Luchan.</stage>
+          <stage>Apártala y da con la ESPERANZA.</stage>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="I">Quita también.</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l part="F"> Mira que</l>
+            <l>en mí tu perdón arriesgas.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Quede yo con la Esperanza</l>
+            <l>sin que de vista la pierda</l>
+            <l n="945">que el perdón con él vendrá</l>
+            <l>cuando el que yo espero venga</l>
+            <l part="I">ya en mi poder.</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l part="F"> ¡Ay de mí!</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Sin que haya Fe que me mueva,</l>
+            <l>Caridad que me obste, ni</l>
+            <l n="950">Misericordia que tema</l>
+            <l>estás; y así bien podéis</l>
+            <l>volver todas, sin que vuelva</l>
+            <l>la Esperanza con vosotras.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Forzoso es volver sin ella</l>
+            <l n="955">el día que sin esperanza</l>
+            <l>vamos de que te arrepientas</l>
+            <l>y forzoso pues en ti</l>
+            <l>convienen las tres respuestas</l>
+            <l>por ti ir diciendo: ¡Ay de opinión tan ciega!</l>
+          </sp>
+          <sp who="#esperanza #hebraísmo">
+            <speaker>LAS 2</speaker>
+            <l n="960">¡Ay de opinión tan ciega!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Que los principios a la Fe le niega.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <stage>Vase.</stage>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l>Donde a mover la Caridad no llega.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <stage>Vase.</stage>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l>Que huye a Misericordia que le ruega.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <stage>Vase.</stage>
+          <stage>Cantan dentro, midiendo la repetición con la MÚSICA, de suerte que acaben todos juntos.</stage>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Lloren, y ven tú conmigo.</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l n="965">Cielos, sol, luna y estrellas,</l>
+            <l>aire, agua, tierra, fuego,</l>
+            <l>luces, aves, peces, fieras,</l>
+            <l>fuentes, flores, troncos, riscos,</l>
+            <l>montes, mares, golfos, selvas,</l>
+            <l n="970">sedme testigos de que</l>
+            <l>si la Esperanza se queda</l>
+            <l>en poder del Hebraísmo</l>
+            <l>es dividida en sí mesma,</l>
+            <l>como Esperanza forzada</l>
+            <l n="975">y como virtud violenta.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Ven por más que aquí sus voces</l>
+            <l part="I">repitan...</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l part="F"> Y yo con ellas...</l>
+          </sp>
+          <sp who="#música #esperanza #hebraísmo #fe #caridad #misericordia">
+            <speaker>MÚSICA Y TODOS</speaker>
+            <l>¡Ay de opinión tan ciega,</l>
+            <l>que los principios a la Fe le niega,</l>
+            <l n="980">donde a mover la Caridad no llega,</l>
+            <l>que huye a Misericordia que le ruega!</l>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <stage>Vanse los dos. Las chirimías, y ábrese un carro cuya fachada será una escala que caiga sobre el tablado y vese dentro un trono en cuya eminencia estará sentada SULAMITIS como dormida, y en sus gradas el APETITO, de villano ciego; la LASCIVIA, de pobre mendigo; la PEREZA, de leproso llagado y la CODICIA, de hidrópico galán. Y adviértase que al respaldo del trono ha de haber compartimiento que sirva de vestuario para entrar y salir estas personas, y una nube en que a su tiempo ha de venir en bofetón un ángel.</stage>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>Qué mal descansa el dolor;</l>
+            <l>pero si de ansias cercada</l>
+            <l>los ojos no pongo en nada</l>
+            <l n="985">que no me cause temor</l>
+            <l>¿qué mucho (¡ay de mí!) que incierta</l>
+            <l>del remedio de mi vida,</l>
+            <l>soñando penas dormida</l>
+            <l>halle desdichas despierta?</l>
+            <l n="990">Allí el ciego me lastima,</l>
+            <l>que a no ver la luz nació;</l>
+            <l>allí el leproso que dio</l>
+            <l>a cuantos le miran grima;</l>
+            <l>allí el mendigo llorando</l>
+            <l n="995">cansancio, hambre y desnudez,</l>
+            <l>tal vez pidiendo y tal vez</l>
+            <l>pidiendo y importunando;</l>
+            <l>el hidrópico sediento</l>
+            <l>también allí me enternece;</l>
+            <l n="1000">todo, en fin, cuanto se ofrece</l>
+            <l>a mi vista es sentimiento,</l>
+            <l>llanto, aflicción y tristeza.</l>
+            <l>Alerta, mortal, pues ves</l>
+            <l>cuán pobre familia es</l>
+            <l n="1005">la de la naturaleza.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>Dígalo yo que nací</l>
+            <l>en estrella tan impía</l>
+            <l>que habiendo para otros día</l>
+            <l>solo hay noche para mí</l>
+            <l n="1010">siempre apeteciendo ver.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>Consuélete que si vieras</l>
+            <l>más qué apetecer tuvieras.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>¿Qué había de apetecer</l>
+            <l>más de lo que ahora apetezco?,</l>
+            <l n="1015">pues no viera mi destino</l>
+            <l>tanto como yo imagino</l>
+            <l>y dello y del ver carezco;</l>
+            <l>con que es fuerza que privado</l>
+            <l>uno y otro apeteciendo</l>
+            <l n="1020">haya de vivir muriendo.</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>LEPROSO</speaker>
+            <l>Si trocáramos estado</l>
+            <l>quizá a ser ciego volvieras</l>
+            <l>viendo que es pena mayor</l>
+            <l>la de un continuo dolor.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l n="1025">También tú convalecieras</l>
+            <l>dél si el remedio buscaras.</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>LEPROSO</speaker>
+            <l>¿Cómo, si el dolor que paso</l>
+            <l>no me deja dar un paso?</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l>Aunque ambas son penas raras</l>
+            <l n="1030">más infelice es mi hado.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="I">¿Más que el ciego?</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l part="F"> ¿Que el leproso?</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l>Sí, que me he visto dichoso</l>
+            <l>para verme desdichado.</l>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l>¿Qué dicha pudo tener</l>
+            <l n="1035">para llegarlo a sentir</l>
+            <l>quien no llegó a conseguir</l>
+            <l>de todo el orbe el poder?</l>
+            <l>Rico soy y mi deseo</l>
+            <l>sediento me tiene tanto</l>
+            <l n="1040">que le hace falta a mi llanto</l>
+            <l>todo lo que no poseo;</l>
+            <l>quizá con ello aliviara</l>
+            <l>viendo que era hacienda mía</l>
+            <l>la sed de mi hidropesía.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l n="1045">Quizá también se aumentara</l>
+            <l>más teniendo más tu anhelo,</l>
+            <l>y así consolaos, amigos,</l>
+            <l>que todos somos mendigos</l>
+            <l>de las limosnas del cielo</l>
+            <l n="1050">y él se dolerá de mí</l>
+            <l>viendo que lo mismo es ver</l>
+            <l>padecer que padecer.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>No es consuelo, siendo así</l>
+            <l>que voy siempre apeteciendo</l>
+            <l n="1055">cuanto voy imaginando.</l>
+            <stage>Yéndose.</stage>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l>Ni para mí, que voy dando</l>
+            <l>molestia, pues voy pidiendo.</l>
+            <stage>Yéndose.</stage>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l>Ni para mí, que no muevo</l>
+            <l>hacia mi remedio el paso.</l>
+            <stage>Yéndose.</stage>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l n="1060">Ni para mí, que me abraso</l>
+            <l>más de sed mientras más bebo.</l>
+            <stage>Yéndose.</stage>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="I">Con que mi ansia...</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l part="F"> Mi torpeza...</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="I">Mi desdicha...</l>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l part="F"> Mi interés...</l>
+          </sp>
+          <sp who="#apetito #lascivia #avaricia #pereza">
+            <speaker>LOS 4</speaker>
+            <l>Dirá en continua tristeza</l>
+            <l n="1065">cuán pobre familia es</l>
+            <l>la de la naturaleza.</l>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <stage>Vanse.</stage>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>Y aún no es eso en mi piedad</l>
+            <l>lo más que es fuerza que sienta,</l>
+            <l>sino lo que representa</l>
+            <l n="1070">una y otra enfermedad</l>
+            <l>cuando en repetida calma</l>
+            <l>pasa la imaginación</l>
+            <l>a que los del cuerpo son</l>
+            <l>también achaques del alma.</l>
+            <l n="1075">Desde aquel primer delito</l>
+            <l>de cuyo accidente muero</l>
+            <l>se me semeja el primero</l>
+            <l>en el ciego el Apetito.</l>
+            <l>Deste contagio impedido,</l>
+            <l n="1080">paralítico el leproso,</l>
+            <l>me semeja al perezoso</l>
+            <l>en su culpa envejecido.</l>
+            <l>El lascivo en el mendigo</l>
+            <l>que pródigo abandonó</l>
+            <l n="1085">su patrimonio y labró</l>
+            <l>de su culpa su castigo.</l>
+            <l>El vicio de la codicia</l>
+            <l>no le aplico, porque ya</l>
+            <l>en el hidrópico está</l>
+            <l n="1090">entendida la avaricia.</l>
+            <l>Luego...¿mas qué intento si es</l>
+            <l>proceder en infinito</l>
+            <l>el dar a cada delito</l>
+            <l>alusión de achaque, pues</l>
+            <l n="1095">sacra pluma habrá que diga</l>
+            <l>cuán maligna fiebre son</l>
+            <l>la soberbia, la ambición,</l>
+            <l>la ira y la envidia enemiga</l>
+            <l>de cualquier humano bien?</l>
+            <l n="1100">Y pues todo es pensión mía</l>
+            <l>¿cuándo, Señor, será el día De rodillas</l>
+            <l>que tus auxilios me den</l>
+            <l>méritos que de ti espero?</l>
+            <l>¿Habrá alivio para mí</l>
+            <l part="I">y para mis pobres?</l>
+          </sp>
+          <stage>La FORTALEZA de ángel en la nube.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro.</stage>
+            <l n="1105" part="F"> Sí.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l part="I">¿Cuándo?</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l part="F"> Cuando mensajero</l>
+            <l>del rey que en dos mundos reina</l>
+            <l>a quien Fortaleza ha dado</l>
+            <l>nombre, a tus plantas postrado</l>
+            <l n="1110">diga: Dios te salve, reina.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Dios te salve, reina.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l part="I">¿Reina yo?</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l part="F"> Sí; que elegida</l>
+            <l>del padre eres ¡oh especiosa</l>
+            <l>Sulamitis! para esposa</l>
+            <l n="1115">del hijo; y pues mi venida</l>
+            <l>es a anunciar la concordia</l>
+            <l>que ahuyenta males prolijos,</l>
+            <l>ven a ser de pobres hijos</l>
+            <l>madre de misericordia.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1120">Madre de misericordia.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l>Socórreles tú, luz pura,</l>
+            <l>cuando en su solio te veas,</l>
+            <l>porque en cielo y tierra seas</l>
+            <l>de todos vida y dulzura.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1125">Vida y dulzura.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l>Pues en misteriosa muestra</l>
+            <l>de que aun al ángel prefieres,</l>
+            <l>siendo su esperanza eres</l>
+            <l>también esperanza nuestra.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1130">Esperanza nuestra.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>Tu salutación dudando</l>
+            <l part="I">estoy.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l part="F"> ¿Qué temes, si están</l>
+            <l>todos los hijos de Adán</l>
+            <l>por ti gimiendo y llorando?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1135">Gimiendo y llorando.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l>Diciendo porque te mueva</l>
+            <l>su voz: A ti suspiramos.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>A ti suspiramos.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l>Los que en este valle estamos.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1140">Los que en este valle estamos.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l>Desterrados hijos de Eva.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Desterrados hijos de Eva.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l>A ampararlos te resuelve</l>
+            <l>pues piden menesterosos:</l>
+            <l n="1145">esos misericordiosos...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Esos misericordiosos...</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l>....ojos a nosotros vuelve.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Ojos a nosotros vuelve.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l>Goce enmendado su yerro</l>
+            <l n="1150">patrocinios de tu aurora</l>
+            <l>en este destierro ahora</l>
+            <l>y después deste destierro...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Y después deste destierro.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l>...haz que sus penas extrañas</l>
+            <l n="1155">en vez de mortal tributo</l>
+            <l>ofrezcan al cielo el fruto...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="I">El fruto.</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l part="F"> ...bendito de tus entrañas.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Bendito de tus entrañas.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>Si liberal y piadoso</l>
+            <l n="1160">viendo tu rey mi humildad</l>
+            <l>quiere con la majestad</l>
+            <l>de ser todo poderoso</l>
+            <l>hacerme grande, sus dones</l>
+            <l>tanto me enriquecerán</l>
+            <l n="1165">que beata me dirán</l>
+            <l>todas las generaciones.</l>
+            <l>Y pues tú su Fortaleza</l>
+            <l>te interpretas, soberano</l>
+            <l>paraninfo, en mí no en vano</l>
+            <l n="1170">inspirada la flaqueza</l>
+            <l>de mi baja humanidad</l>
+            <l>decir podrá sin temor:</l>
+            <l>esclava soy del Señor,</l>
+            <l>cúmplase su voluntad.</l>
+          </sp>
+          <sp who="#música #sulamitis #fortaleza">
+            <speaker>MÚSICA Y TODOS</speaker>
+            <l n="1175">Esclava soy del Señor</l>
+            <l>cúmplase su voluntad.</l>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <stage>Desaparece el áNGEL y sale el PRÍNCIPE de galán.</stage>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Bien mi amorosa pasión</l>
+            <l>estuvo con suspensión</l>
+            <l>a ver que respuesta das,</l>
+            <l n="1180">porque ese mérito más</l>
+            <l>tenga tu resignación,</l>
+            <l>y ya, hermosa Sulamitis,</l>
+            <l>que envuelta en mortales ansias</l>
+            <l>dormida explicó la noche,</l>
+            <l n="1185">y que una letra mudada</l>
+            <l>entre celestes anuncios</l>
+            <l>perfecta te explica el alba,</l>
+            <l>ven a mis brazos, desciende</l>
+            <l>del Líbano, y pues las pardas</l>
+            <l n="1190">trémulas sombras pasaron</l>
+            <l>ya del invierno en que estaba</l>
+            <l>aterido a tus umbrales,</l>
+            <l>lleno sobre pobres pajas</l>
+            <l>el cabello de rocío,</l>
+            <l n="1195">temblando al yelo y la escarcha,</l>
+            <l>ven donde la primavera</l>
+            <l>las verdes selvas esmalta</l>
+            <l>de azucenas y de rosas,</l>
+            <l>bien que para tu guirnalda</l>
+            <l n="1200">se pierden de color, pues</l>
+            <l>si a tus labios se comparan,</l>
+            <l>si a tus mejillas se oponen</l>
+            <l>matizadamente varias</l>
+            <l>en la competida mezcla</l>
+            <l n="1205">del ampo a un tiempo y el nácar,</l>
+            <l>son las unas nieve roja,</l>
+            <l>las otras púrpura blanca.</l>
+            <l>Ven, pues, ven que ya las viñas</l>
+            <l>florecen dando sus ramas</l>
+            <l n="1210">a la elección de tu mano</l>
+            <l>o a la huella de tu estampa,</l>
+            <l>ya en la fruta y ya en la flor,</l>
+            <l>por desvanecer en ambas</l>
+            <l>granos de oro, si las tocas,</l>
+            <l n="1215">si las pisas, esmeraldas.</l>
+            <l>Las aves, flores y fuentes</l>
+            <l>batiendo al aire las alas,</l>
+            <l>moviendo al tronco las hojas,</l>
+            <l>rizando al cristal la plata,</l>
+            <l n="1220">son acordes instrumentos</l>
+            <l>en que el céfiro y el aura</l>
+            <l>dan a cítaras de pluma</l>
+            <l>cuerdas de oro y trastes de ámbar.</l>
+            <l>¿Qué esperas, pues? De la cumbre</l>
+            <l n="1225">desciende; la voz te llama</l>
+            <l>de amante esposo, que viendo</l>
+            <l>que de envidia el sol agravia</l>
+            <l>tu rosada tez, alfombras</l>
+            <l>tejiendo de flores varias,</l>
+            <l n="1230">de varias hojas doseles</l>
+            <l>para que burles la saña</l>
+            <l>de su ardiente siesta, a sombra</l>
+            <l>del terebinto te aguarda.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>Que de la cumbre descienda</l>
+            <l n="1235">al valle, príncipe mandas,</l>
+            <stage>Bajando al tablado.</stage>
+            <l>y siendo yo la que sube</l>
+            <l>y tú, señor, el que bajas</l>
+            <l>no sin misterio parece</l>
+            <l>que son acciones contrarias,</l>
+            <l n="1240">pues no puede haber esfera</l>
+            <l>más inferior ni más alta</l>
+            <l>que mis brazos para ti</l>
+            <l>ni para mí que tus plantas.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="I">LLega, ¿qué temes?</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l part="F"> A tanto</l>
+            <l n="1245">favor, absorta y turbada,</l>
+            <l part="I">caer temo.</l>
+          </sp>
+          <stage>Hace que tropieza y él la recibe en los brazos.</stage>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F"> No harás, que yo</l>
+            <l>te tendré antes que tú caigas.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>Eso es mostrar que del polvo</l>
+            <l>de la tierra me levantas.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1250">No es, que levantarte fuera,</l>
+            <l>Sulamitis soberana,</l>
+            <l>decir que te hallé caída,</l>
+            <l>que aunque es la verdad que estabas</l>
+            <l>envuelta en las propensiones</l>
+            <l n="1255">de naturaleza humana,</l>
+            <l>el día que para esposa</l>
+            <l>hallaste en mis ojos gracia,</l>
+            <l>hallé yo gracia en que no</l>
+            <l>caída, sino preservada,</l>
+            <l n="1260">a mí te unieses, porque</l>
+            <l>del polvo de Adán intacta,</l>
+            <l>ya que eres la toda hermosa</l>
+            <l>seas la toda sin mancha.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>¿Tantos favores, señor,</l>
+            <l n="1265">con una mísera esclava?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Quien al soberbio derriba</l>
+            <l>también al humilde ensalza.</l>
+            <l>Ven, pues, que mi padre espera</l>
+            <l>en el soberano alcázar</l>
+            <l n="1270">de donde por ti me envía,</l>
+            <l>para que a su vista se hagan</l>
+            <l>las nupciales ceremonias</l>
+            <l>que su providencia sabia</l>
+            <l>previno con una cena</l>
+            <l n="1275">de tan sabrosas viandas</l>
+            <l>que han de alimentar no solo</l>
+            <l>las vidas, pero las almas.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>La mía te magnifique,</l>
+            <l>señor, por finezas tantas.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1280">Tú las mereces el día</l>
+            <l>que un cabello tuyo basta</l>
+            <l>para herirme el corazón.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>Tú con sola una palabra</l>
+            <l>para penetrar el mío.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1285">¿Mas qué mucho si en tu rara</l>
+            <l>beldad, ojos de paloma</l>
+            <l>en fuego de amor le abrasan?</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>¿Mas qué mucho si contigo</l>
+            <l>no es eminente la palma</l>
+            <l n="1290">que en las cumbres de Sión</l>
+            <l>sobre las nubes se exalta?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Lirio cercado de espinas</l>
+            <l>eres, a quien hacen guarda</l>
+            <l>porque venenosas sierpes</l>
+            <l n="1295">no entren a morder su planta.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>Tú el haz de mirra que llena</l>
+            <l>el orbe con sus fragrancias.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Toda es perfecta mi esposa;</l>
+            <l>en ella no se halló falta.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l n="1300">¡Qué no merecida dicha,</l>
+            <l>pues todo es mi amante gala!</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¡Ah del palacio, que sobre</l>
+            <l>siete colunas descansa,</l>
+            <l>en fe de que siete son</l>
+            <l n="1305">las fundamentales basas</l>
+            <l>en que su fábrica estriba!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro.</stage>
+            <l>¿Quién a sus umbrales llama?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Vuestro príncipe, que vuelve</l>
+            <l>glorioso de la campaña,</l>
+            <l n="1310">pues vuelve de amor vencido</l>
+            <l>vencedor de su esperanza.</l>
+            <l>Abrid las puertas, levad</l>
+            <l>los puentes, y haciendo salva</l>
+            <l>a la nueva aurora vuestra,</l>
+            <l n="1315">entonad en su alabanza</l>
+            <l>los cánticos, que nupciales</l>
+            <l>epitalamios se cantan</l>
+            <l part="I">en las reales bodas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <stage>Sale el REY.</stage>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> No</l>
+            <l>los apresures, aguarda;</l>
+            <l n="1320">que aunque viendo a Sulamitis</l>
+            <l>a estos umbrales con tanta</l>
+            <l part="I">gracia...</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l part="F"> Eso solo conceda</l>
+            <l>que a quien el mérito falta</l>
+            <l>preciso es que sea, señor,</l>
+            <l n="1325">todo cuanto adquiere gracia.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Alza del suelo, que aunque</l>
+            <l>vuelvo a decir del alcázar</l>
+            <l>viéndote a ti a sus umbrales</l>
+            <l>a darte los brazos salga,</l>
+            <l n="1330">aún no ha llegado la hora</l>
+            <l>de que empiecen las usadas</l>
+            <l>ceremonias con el fausto</l>
+            <l part="I">que conviene.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F"> ¿Pues qué falta?</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Que vengan los convidados</l>
+            <l n="1335">con quien has de celebrarlas</l>
+            <l>sentándolos a tu mesa</l>
+            <l>para que gozosos vayan</l>
+            <l>y honrados con tus favores;</l>
+            <l>presto vendrán, que ya tardan.</l>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <stage>Salen la SABIDURÍA, la FE, la CARIDAD y la MISERICORDIA.</stage>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l n="1340">No tardan, que malas nuevas</l>
+            <l>siempre, señor, se adelantan;</l>
+            <l>pues cuando mezclado el vino,</l>
+            <l>las víctimas inmoladas,</l>
+            <l>ázimo el pan y el cordero</l>
+            <l n="1345">entre lechugas amargas</l>
+            <l>están, no hay para quién sean.</l>
+            <l>Las virtudes que enviadas</l>
+            <l>fueron al mundo dél vuelven</l>
+            <l part="I">despedidas.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> ¿Pues qué os pasa?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="1350">Que en áfrica el Ateísmo,</l>
+            <l>tenaz en su pertinacia,</l>
+            <l>por acudir de Epicuro</l>
+            <l>solamente a la labranza</l>
+            <l>de sus manjares, no admite</l>
+            <l n="1355">de la Fe con que le llamas</l>
+            <l>ni aun las primeras noticias.</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l>Con distante circunstancia</l>
+            <l>mas no con distante error</l>
+            <l>que uno niega, otro idolatra,</l>
+            <l n="1360">en América responde</l>
+            <l>la Idolatría, ocupada</l>
+            <l>en los sacrílegos cultos</l>
+            <l>de torpes deidades falsas.</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l>En las provincias de Europa,</l>
+            <l n="1365">del apóstata infestadas</l>
+            <l>las del Norte, para que</l>
+            <l>vuelva a tu gremio no basta</l>
+            <l>el ser la Misericordia</l>
+            <l>quien le pone en confianza</l>
+            <l part="I">de tu perdón.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l n="1370" part="F"> ¡Oh rebelde</l>
+            <l>perfidia! ¡Oh ciega ignorancia!</l>
+            <l>¡Oh torpe error! Bien pudiera</l>
+            <l>de tanto desdén, de tanta</l>
+            <l>grosera acción, como ver</l>
+            <l n="1375">Sabiduría que hagan</l>
+            <l>desprecio de tu convite,</l>
+            <l>tomar de todos venganza;</l>
+            <l>pero mi poder por más</l>
+            <l>ofendido que se halla</l>
+            <l n="1380">no luce en lo que castiga</l>
+            <l>tanto como en lo que aguarda.</l>
+            <l>Temple por ahora mi enojo</l>
+            <l>el presumir que del Asia</l>
+            <l>la Esperanza traiga gentes</l>
+            <l n="1385">que con su número hagan</l>
+            <l part="I">célebre la boda.</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l part="F"> No</l>
+            <l>esperes a que las traiga.</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l>Ni a que ella venga tampoco.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="I">¿Por qué?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F"> Porque con más saña</l>
+            <l n="1390">que todos, el Hebraísmo</l>
+            <l>al oír que tu hijo casa</l>
+            <l>con Sulamitis, dudando</l>
+            <l>esta unión, porque él la aguarda</l>
+            <l>según su cómputo en otra</l>
+            <l n="1395">edad, y dudando que haya</l>
+            <l>pan, vino, maná y cordero</l>
+            <l>en tu mesa, con más rabia,</l>
+            <l>que en su poder quede quiso,</l>
+            <l>de suerte que desdeñadas</l>
+            <l n="1400">sin la Esperanza volvemos,</l>
+            <l>pues por no creer que pasa</l>
+            <l>la sombra a luz, el hebreo</l>
+            <l>se quedó con la Esperanza.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>¡Oh generación de dura</l>
+            <l n="1405">cerviz, perversa y ingrata</l>
+            <l>a los beneficios! Pero</l>
+            <l>no por mirar que me faltan</l>
+            <l>para mi mesa los reyes,</l>
+            <l>los príncipes y monarcas,</l>
+            <l n="1410">dejaré de celebrar</l>
+            <l>las bodas con gentes varias.</l>
+            <l>Volved las tres y corriendo</l>
+            <l>caminos, calles y plazas,</l>
+            <l>sin excepción de personas,</l>
+            <l n="1415">por más humildes y bajas</l>
+            <l>que sean los convidad,</l>
+            <l>sin que el ser les obste en nada</l>
+            <l>mendigos, ciegos, tullidos,</l>
+            <l>ni con miserias y llagas</l>
+            <l n="1420">paralíticos, leprosos</l>
+            <l>y hidrópicos. Vean a causa</l>
+            <l>de mi piedad los magnates</l>
+            <l>del siglo que no hay distancia</l>
+            <l>dellos a los pobres como</l>
+            <l n="1425">las virtudes me los traigan.</l>
+            <l>Tú, eterna Sabiduría,</l>
+            <l>ten a todos vestes blancas</l>
+            <l>que nupciales ropas sean,</l>
+            <l>porque no haga disonancia</l>
+            <l n="1430">su desnudez en la mesa</l>
+            <l>sentándose a ella con manchas</l>
+            <l>de actual achaque. Tú,</l>
+            <l>príncipe, a ese umbral aguarda</l>
+            <l>a quitarles el empacho</l>
+            <l n="1435">que traerán de que les llama</l>
+            <l>su rey para que contigo</l>
+            <l>se sienten; suple sus faltas,</l>
+            <l>que no es bien llegue a tu mesa</l>
+            <l>nadie con desconfianza.</l>
+            <l n="1440">A su cargo cada uno</l>
+            <l>para que diga la fama</l>
+            <l>a los que se han excusado</l>
+            <l>por malicia o ignorancia,</l>
+            <l>que lo que ellos por soberbios</l>
+            <l n="1445">pierden, por humildes ganan</l>
+            <l>los pobres de Sulamitis.</l>
+            <l>Y tú, vil nación tirana,</l>
+            <l>tente la Esperanza allá,</l>
+            <l>que aquí no nos hace falta,</l>
+            <l n="1450">pues quien llega a posesión</l>
+            <l>no ha menester esperanza.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <stage>Vase.</stage>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l>Ven, Sulamitis, conmigo,</l>
+            <l>verás que desde hoy mi alcázar</l>
+            <l>nuevo hospicio es de tus pobres.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <stage>Vase.</stage>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l n="1455">Pues tú al umbral los aguardas,</l>
+            <l>duélete dellos, señor,</l>
+            <l>y vea el hombre en las pesadas</l>
+            <l>enfermedades del cuerpo</l>
+            <l>las curaciones del alma.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <stage>Vase.</stage>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l n="1460">Nosotras segunda vez</l>
+            <l>con segundas voces altas</l>
+            <l>a su mandato obedientes</l>
+            <l part="I">vamos.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F"> No en vano le llamas</l>
+            <l>mandato, que quizá este</l>
+            <l n="1465">es de otro la semejanza.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Pues para que a mayor honra</l>
+            <l>sea de quien nos lo manda</l>
+            <l>también la invocación sea</l>
+            <l>compuesta de sus palabras.</l>
+          </sp>
+          <sp who="#caridad #misericordia">
+            <speaker>LAS 2</speaker>
+            <l part="I">¿De qué manera?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <stage>Canta.</stage>
+            <l n="1470" part="F"> Diciendo:</l>
+            <l>achacosos de la humana</l>
+            <l>naturaleza, venid,</l>
+            <l>venid, veréis en las sanas</l>
+            <l>enfermedades del cuerpo</l>
+            <l n="1475">las curaciones del alma.</l>
+            <l>Venid, que con esta dicha</l>
+            <l>no os queda que desear nada,</l>
+            <l>pues quien llega a posesión</l>
+            <l>no ha menester esperanza.</l>
+          </sp>
+          <stage>Con esta repetición, cantando ella y respondiendo toda la MÚSICA, se van, quedando solo el PRÍNCIPE.</stage>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1480">¡Oh amor! ¿A qué no me obligas,</l>
+            <l>pues me obligas a que haga</l>
+            <l>por ti tan grandes finezas</l>
+            <l>como sujetarme a tantas</l>
+            <l>penas como me contrae</l>
+            <l n="1485">la naturaleza humana;</l>
+            <l>Nazaret por ella al hielo</l>
+            <l>me vio; por ella mi patria</l>
+            <l>peregrinar a la ajena,</l>
+            <l>y por ella las montañas</l>
+            <l n="1490">fatigado del camino,</l>
+            <l>llena de sudor la cara,</l>
+            <l>con hambre afligirme el monte,</l>
+            <l>con sed rendirme Samaria.</l>
+            <l>Y aun no han de parar aquí,</l>
+            <l n="1495">pues hasta el fin he de amarla</l>
+            <l>dando la vida por ella,</l>
+            <l>de que la prenda más alta,</l>
+            <l>la más explicada sombra</l>
+            <l>y la figura más clara</l>
+            <l n="1500">será a venideros siglos</l>
+            <l>ver que en sus supremas aras</l>
+            <l>ponga hoy la Sabiduría</l>
+            <l>a sus pobres mesa franca,</l>
+            <l>siendo del alma y del cuerpo</l>
+            <l n="1505">alimento las viandas,</l>
+            <l>tan a dos visos que vea,</l>
+            <l>pues llorosa me lo encarga,</l>
+            <l>en los achaques del cuerpo</l>
+            <l>y en los remedios del alma...</l>
+          </sp>
+          <sp who="#príncipe #música">
+            <speaker>ÉL Y MÚSICA</speaker>
+            <l n="1510">...que quien llega a posesión</l>
+            <l>no ha menester esperanza.</l>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <stage>Sale la FE y el APETITO.</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Este ciego en el umbral</l>
+            <l>del templo, señor, oyó</l>
+            <l>mi voz y por serlo yo</l>
+            <l n="1515">me ha enternecido su mal.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="I">¿Quién eres?</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l part="F"> No sé qué tal</l>
+            <l>me tiene el desasosiego</l>
+            <l>de cuanto a apetecer llego,</l>
+            <l>que creo que es mi delito</l>
+            <l n="1520">en común el apetito.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Bien se ve, pues eres ciego.</l>
+            <l>El primer pecado fue</l>
+            <l>del hombre y que vea conviene,</l>
+            <l>que viene bien el que viene</l>
+            <l n="1525">tras las voces de la Fe.</l>
+            <l>Vista al cuerpo te daré</l>
+            <l>con condición de que sea</l>
+            <l>vista del alma y se vea</l>
+            <l>que cuerpo y alma sanó</l>
+            <l part="I">quien siguió a la Fe.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l n="1530" part="F"> Vea yo</l>
+            <l>y como ello fuere sea.</l>
+          </sp>
+          <stage>Hace que levanta tierra y dale con ella en los ojos.</stage>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Este es tu remedio, llega.</l>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>¿Polvo me echas en los ojos?</l>
+            <l>Eso más es dar enojos</l>
+            <l n="1535">que remedios al que ruega.</l>
+            <l>Si el polvo aun al que ve ciega</l>
+            <l part="I">¿qué hará al que no ve?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F"> El delito</l>
+            <l>que tú explicas solicito</l>
+            <l>sanar a alma y cuerpo, pues</l>
+            <l n="1540">el polvo a los ojos es</l>
+            <l>la cura del apetito.</l>
+            <stage>Hace que ve.</stage>
+          </sp>
+          <sp who="#apetito">
+            <speaker>APETITO</speaker>
+            <l>No sin gran dolor lo creo</l>
+            <l>de mis yerros, pues aquí</l>
+            <l>el polvo es de quien nací</l>
+            <l n="1545">la primer cosa que veo;</l>
+            <l>conque el pasado deseo</l>
+            <l>de mi apetencia cesó,</l>
+            <l>porque al ver que yo soy yo</l>
+            <l>y tú eres tú, arrepentido,</l>
+            <l n="1550">piedad a tus plantas pido.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Pues para ver su ser vio,</l>
+            <l>contigo he de enviarle, Fe,</l>
+            <l>(ya que enviado declara</l>
+            <l>quien dice Siloé) a la clara</l>
+            <l n="1555">laguna de Siloé,</l>
+            <l part="I">vea el mundo en su cura...</l>
+          </sp>
+          <sp who="#fe #apetito">
+            <speaker>LOS 2</speaker>
+            <l part="F"> ¿Qué</l>
+            <l>es lo que ha de ver el mundo?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Que en agua y en dolor fundo</l>
+            <l>su salud, pues sanar quiero</l>
+            <l n="1560">con agua el error primero</l>
+            <l>y con dolor el segundo.</l>
+            <l>En habiéndole lavado</l>
+            <l>trayle donde la blancura</l>
+            <l>de la nupcial vestidura</l>
+            <l n="1565">para sentarse a mi lado</l>
+            <l>limpio le deje y curado.</l>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <stage>Sale la CARIDAD y la PEREZA en un carretoncillo.</stage>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l>Esta torpe ancianidad</l>
+            <l>que perezosa en su edad</l>
+            <l>aun hacia el bien no camina,</l>
+            <l n="1570">oyó junto a una piscina</l>
+            <l>la voz de la Caridad</l>
+            <l>y así a traértele me atrevo.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¿Que paralítico está?</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l>Si treinta y ocho años ha</l>
+            <l n="1575">que de un lado no me muevo</l>
+            <l>porque a ningún hombre debo</l>
+            <l>que de mí compadecido</l>
+            <l>me ayude ¿qué mucho ha sido?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Quien de otro espera el favor</l>
+            <l n="1580">símbolo es del pecador</l>
+            <l>en su culpa envejecido.</l>
+            <l>Si te hubieras tú ayudado</l>
+            <l>en los principios, no hubiera</l>
+            <l>esa horrible lepra fiera</l>
+            <l n="1585">tan grandes fuerzas cobrado.</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l>Ya veo que, descuidado,</l>
+            <l>mi mal mi pereza fue:</l>
+            <l>de un día en otro dilaté</l>
+            <l>el que en cura me pondría,</l>
+            <l n="1590">conque de uno en otro día</l>
+            <l>tan impedido me hallé</l>
+            <l>que de sanar desespero.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Pues ¿no es mejor esperar?</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l part="I">¿En qué ya?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F"> En querer sanar.</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l n="1595">¿En querer sanar? ¿Si muero</l>
+            <l>de envejecido mal fiero</l>
+            <l>bastará que quiera yo</l>
+            <l part="I">a sanar dél?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F"> ¿Por qué no?</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l>¿Y en qué fundaré ese bien?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1600">En ser mi Caridad quien</l>
+            <l>en la piscina te halló.</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l>Si mi curación es esa,</l>
+            <l>péseme y llore afligido</l>
+            <l>el no haberla conocido.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1605">Pues si llorando te pesa</l>
+            <l>para sentarte a mi mesa</l>
+            <l>toma tu lecho y camina.</l>
+          </sp>
+          <sp who="#pereza">
+            <speaker>PEREZA</speaker>
+            <l>¡Oh celestial medicina!</l>
+            <l>No desesperes, mortal;</l>
+            <l n="1610">llora y confiesa tu mal</l>
+            <l>y saldrás de la piscina.</l>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <stage>Vanse los dos y sale la MISERICORDIA con la AVARICIA y la LASCIVIA.</stage>
+          <sp who="#misericordia">
+            <speaker>MISERICORDIA</speaker>
+            <l>Este hidrópico sediento</l>
+            <l>con este hambriento mendigo</l>
+            <l>tras mi voz traigo conmigo.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1615">Ya en los dos me represento;</l>
+            <l>en el uno al avariento</l>
+            <l>que nunca harta su codicia,</l>
+            <l>en el otro la malicia</l>
+            <l>del lascivo, en que se infiere</l>
+            <l n="1620">que a uno enferma lo que adquiere</l>
+            <l>y a otro lo que desperdicia.</l>
+            <l part="I">¿Qué queréis?</l>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l part="F"> Habiendo oído...</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l>...que a tus bodas convidado...</l>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l>...el ciego vista ha cobrado...</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l n="1625">...pies y manos el tullido...</l>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l part="I">...triste ruego...</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="F"> ...humilde pido...</l>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l>...que en mi grave hidropesía...</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l>...que en la gran miseria mía...</l>
+          </sp>
+          <sp who="#avaricia #lascivia">
+            <speaker>LOS 2</speaker>
+            <l part="I">...te compadezcas.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F"> Sí haré,</l>
+            <l n="1630">que si Caridad y Fe</l>
+            <l>fue al uno y al otro guía,</l>
+            <l>no ha de merecer conmigo</l>
+            <l>menos la Misericordia,</l>
+            <l>bien que para la discordia</l>
+            <l n="1635">que hay entre avaro y mendigo,</l>
+            <l>al uno y al otro digo</l>
+            <l>que hagan lo que ellos hicieron.</l>
+          </sp>
+          <sp who="#avaricia #lascivia">
+            <speaker>LOS 2</speaker>
+            <l>¿Pues qué sus méritos fueron?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>El uno ser polvo vio,</l>
+            <l n="1640">el otro su error lloró.</l>
+          </sp>
+          <sp who="#avaricia">
+            <speaker>AVARICIA</speaker>
+            <l>Si en llanto y en polvo vieron</l>
+            <l>su salud, en polvo y llanto,</l>
+            <l>la hacienda restituida</l>
+            <l>a quien la debo, mi vida</l>
+            <l n="1645">será un eterno quebranto.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Pues porque en ti se vea cuánto</l>
+            <l>la Misericordia indicia</l>
+            <l>que sea gracia la justicia,</l>
+            <l>entra y cura en mi grandeza</l>
+            <l n="1650">la hinchazón de la riqueza</l>
+            <l>y la sed de la avaricia.</l>
+            <l part="I">¿Tú quién eres?</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="F"> Un perdido</l>
+            <l>que a su padre le pidió</l>
+            <l>su patrimonio y salió</l>
+            <l n="1655">donde libre y divertido</l>
+            <l>habiéndole consumido</l>
+            <l>en delicias y placeres,</l>
+            <l>juegos, galas y mujeres,</l>
+            <l>a pedir le trae su exceso</l>
+            <l part="I">limosna.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l n="1660" part="F"> Tú, según eso,</l>
+            <l>pródigo, símbolo eres</l>
+            <l>de aquel áspid que en el seno</l>
+            <l>da la muerte a quien le abriga;</l>
+            <l>de aquella esfinge enemiga</l>
+            <l n="1665">que su enigma es su veneno;</l>
+            <l>de aquel basilisco lleno</l>
+            <l>de blanda pluma traidora,</l>
+            <l>víbora que en flores mora,</l>
+            <l>hiena y sirena que encanta</l>
+            <l n="1670">con suavidades si canta</l>
+            <l>y con lástimas si llora.</l>
+            <l part="I">¿La Lascivia, en fin?</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="F"> Sí soy.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="I">¿Dónde vas?</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="F"> Por no vivir</l>
+            <l>con brutos bruto a pedir</l>
+            <l n="1675">perdón a mi padre voy</l>
+            <l>y, enmendado desde hoy,</l>
+            <l>de sus piedades colijo</l>
+            <l>que al ver mi estado prolijo</l>
+            <l>recibido sea a salario</l>
+            <l n="1680">en su casa mercenario</l>
+            <l>pues no merezco ser hijo.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Porque en eso perseveres</l>
+            <l part="I">antes que allá el cuerpo...</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="F"> Di.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Curarás el alma aquí.</l>
+            <l part="I">Padre y señor...</l>
+          </sp>
+        </div>
+        <div type="scene" n="26">
+          <stage>Sale el REY.</stage>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l n="1685" part="F"> ¿Qué me quieres?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Pues padre, siendo rey, eres</l>
+            <l>de familias, halle abrigo</l>
+            <l>en tu gracia este mendigo,</l>
+            <l>que va a su padre enmendado;</l>
+            <l n="1690">vea que con él ha dado</l>
+            <l>puesto que ha dado contigo.</l>
+            <l>Recíbele tú en tu cena.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Y con paternales lazos</l>
+            <l>antes que en ella en mis brazos,</l>
+            <l n="1695">y toda mi casa llena</l>
+            <l>ya de alborozo, sin pena</l>
+            <l>dél, sea fiesta y regocijo.</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l>Bien Misericordia dijo.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Venid todos, ¿qué esperáis?</l>
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <stage>Salen las VIRTUDES.</stage>
+          <sp who="#fe #caridad #esperanza #fortaleza">
+            <speaker>TODOS</speaker>
+            <l part="I">¿Qué nos mandas?</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l n="1700" part="F"> Que admitáis</l>
+            <l>aquel mi perdido hijo,</l>
+            <l>que del daño más mortal</l>
+            <l>vuelve a mí convalecido.</l>
+            <l>Trocadle el tosco vestido</l>
+            <l n="1705">en talar veste nupcial</l>
+            <l>y el más bello recental</l>
+            <l>que vio el ampo de la nieve</l>
+            <l>en suave pira leve</l>
+            <l part="I">por él se inmole.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F"> Eso sí;</l>
+            <l n="1710">reconozca en él y en mí</l>
+            <l>el hombre lo que te debe,</l>
+            <l>pues aunque de su belleza</l>
+            <l>me movieron las pasiones</l>
+            <l>quieres que con propensiones</l>
+            <l n="1715">de humana naturaleza</l>
+            <l>a ella admita mi fineza,</l>
+            <l>y siendo yo el hijo fiel</l>
+            <l>y él el ingrato y cruel</l>
+            <l>dispones que sean aquí</l>
+            <l n="1720">las pasiones para mí</l>
+            <l>y los gozos para él.</l>
+          </sp>
+          <sp who="#fe #caridad #esperanza #fortaleza #rey">
+            <speaker>TODOS</speaker>
+            <l>Todos de nuestra alegría</l>
+            <l>te damos el parabién.</l>
+          </sp>
+        </div>
+        <div type="scene" n="28">
+          <stage>Sale la SABIDURÍA.</stage>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l>¿Qué esperas? Príncipe, ven;</l>
+            <l n="1725">que ya la asistencia mía</l>
+            <l>todo cuanto della fía</l>
+            <l>tu amor tiene prevenido,</l>
+            <l>y tantos pobres han sido</l>
+            <l>los que al convite han llegado</l>
+            <l n="1730">que cinco mil solo el prado</l>
+            <l>de los henos ha admitido.</l>
+            <l>Dellos, y de otros después,</l>
+            <l>se puebla uno y otro espacio,</l>
+            <l>de suerte que mi palacio</l>
+            <l n="1735">hospicio de pobres es.</l>
+            <l>Escucha sus ecos, pues</l>
+            <l>te apellida su clamor</l>
+            <l>diciendo, porque el favor</l>
+            <l>les llegue de su agonía:</l>
+          </sp>
+          <stage>Dentro MÚSICA y VOCES.</stage>
+          <sp who="#música #apostasía #hebraísmo #sulamitis">
+            <speaker>VOCES</speaker>
+            <l n="1740">El pan nuestro de cada día</l>
+            <l>dánosle hoy Señor.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Ve tú a celebrar con ellos</l>
+            <l>tus bodas que yo estaré</l>
+            <l>a la mira para que</l>
+            <l n="1745">gozoso me alegre en vellos.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="29">
+          <stage>Vase.</stage>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Mi gloria es favorecellos;</l>
+            <l part="I">ven tú conmigo.</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="F"> Mejor</l>
+            <l>que acompañe su fervor</l>
+            <l>será la ventura mía.</l>
+          </sp>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l n="1750">Y contigo la alegría</l>
+            <l>nuestra diciendo en su loor:</l>
+          </sp>
+          <sp who="#misericordia #caridad #esperanza #fortaleza #príncipe #sabiduría #lascivia">
+            <speaker>TODOS</speaker>
+            <l>El pan nuestro de cada día</l>
+            <l>dánosle hoy, Señor.</l>
+          </sp>
+        </div>
+        <div type="scene" n="30">
+          <stage>Vanse y salen como oyendo a lo lejos HEBRAÍSMO, GENTILISMO y APOSTASÍA.</stage>
+          <sp who="#hebraísmo #apostasía #gentilismo">
+            <speaker>LOS 3</speaker>
+            <l>¿«El pan nuestro de cada día</l>
+            <l n="1755">dánosle hoy, Señor»?</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Gentilismo, Apostasía...</l>
+          </sp>
+          <sp who="#apostasía #gentilismo">
+            <speaker>LOS 2</speaker>
+            <l part="I">¿Qué quieres?</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> Saber deseo</l>
+            <l>qué segundas voces son</l>
+            <l>estas que con sus acentos</l>
+            <l n="1760">segunda vez nos perturban</l>
+            <l>el aire y el pensamiento.</l>
+          </sp>
+          <sp who="#gentilismo">
+            <speaker>GENTILISMO</speaker>
+            <l>Yo no sé, que aunque dejando</l>
+            <l>por incapaz de consejo</l>
+            <l>al Ateísmo, quedamos</l>
+            <l n="1765">en que habíamos de vernos</l>
+            <l>los tres para conferir</l>
+            <l>la causa de sus efectos,</l>
+            <l>y aunque tenía que hablaros</l>
+            <l>en no sé qué presupuestos</l>
+            <l n="1770">de una Caridad que ignoro,</l>
+            <l>no tuve hasta agora tiempo</l>
+            <l>de buscaros, ocupado</l>
+            <l>en mis ritos; conque habiendo</l>
+            <l>nueva razón de dudar</l>
+            <l n="1775">tampoco agora le tengo</l>
+            <l>para más de que volvió</l>
+            <l part="I">de mí despedida.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> Eso</l>
+            <l>al contrario a la Esperanza</l>
+            <l>conmigo sucedió, puesto</l>
+            <l n="1780">que no volvió despedida,</l>
+            <l>pues en mi poder la tengo,</l>
+            <l>y así pasando a esta nueva</l>
+            <l>voz que corre, lo que intento</l>
+            <l>es saber qué pan es este</l>
+            <l n="1785">que a gritos le llama nuestro</l>
+            <l part="I">tanta multitud.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> A mí</l>
+            <l>toca esa respuesta, siendo</l>
+            <l>como soy quien de más cerca</l>
+            <l>ve el pan y duda el misterio.</l>
+            <l n="1790">Y así asentado el principio</l>
+            <l>de haber sido a un mismo tiempo</l>
+            <l>convidados y excusados</l>
+            <l>cada cual con su pretexto,</l>
+            <l>voy a que el rey ofendido</l>
+            <l n="1795">de nuestras respuestas, viendo</l>
+            <l>que sin gentes no era bien</l>
+            <l>celebrar el casamiento</l>
+            <l>(si ya no fue de nosotros</l>
+            <l>vengarse con el desprecio)</l>
+            <l n="1800">mandó que por los caminos,</l>
+            <l>calles, plazas y desiertos,</l>
+            <l>se convidasen los más</l>
+            <l>pobres míseros sujetos,</l>
+            <l>desde el mendigo al leproso,</l>
+            <l n="1805">desde el hidrópico al ciego</l>
+            <l>y desde el manco al tullido,</l>
+            <l>cuyo tumulto corriendo</l>
+            <l>a sus umbrales en altas</l>
+            <l part="I">voces repite:</l>
+          </sp>
+          <sp who="#música #rey #príncipe">
+            <speaker>MÚSICA Y VOCES</speaker>
+            <stage>Dentro.</stage>
+            <l part="F"> El pan nuestro</l>
+            <l n="1810">de cada día, Señor,</l>
+            <l part="I">dánosle hoy.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> Y pues a tiempo</l>
+            <l>llega el deseo de entrambas</l>
+            <l>en sus clamores envuelto</l>
+            <l>sabed que el ázimo pan</l>
+            <l n="1815">y mixto vino que ha puesto</l>
+            <l>la Sabiduría, careando</l>
+            <l>la autoridad que en dos textos</l>
+            <l>da la parábola en sombras</l>
+            <l>y en luces el evangelio,</l>
+            <l n="1820">a los ojos de la Fe</l>
+            <l>que ven más mientras más ciegos,</l>
+            <l>quiere que incluyan tan alto,</l>
+            <l>admirable sacramento</l>
+            <l>como que transubstanciado</l>
+            <l n="1825">sea carne el pan y luego</l>
+            <l>sangre el vino; maravilla,</l>
+            <l>milagro, asombro o portento</l>
+            <l>que sacramentario yo</l>
+            <l>ni sé, ni alcanzo, ni entiendo.</l>
+            <l n="1830">Y así puesto en libertad</l>
+            <l>de conciencia huyo su gremio</l>
+            <l>por no obligarme a tener</l>
+            <l>cautivo el entendimiento.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Haces bien; y pues que ya</l>
+            <l n="1835">el gran prodigio sabemos</l>
+            <l>que en ese pan la Fe intenta</l>
+            <l>darnos a entender ¿qué haremos</l>
+            <l>para alcanzar dél alguna</l>
+            <l>pequeña parte en que haciendo</l>
+            <l n="1840">una y muchas experiencias</l>
+            <l>veamos qué contiene dentro?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">Yo no sé.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> Ni yo tampoco.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>A mí se me ofrece un medio.</l>
+          </sp>
+          <sp who="#apostasía #idolatría">
+            <speaker>LOS 2</speaker>
+            <l part="I">¿Qué es?</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> Que tú como ladrón</l>
+            <l n="1845">que eres de casa, a quien menos</l>
+            <l>pueden descubrir o el traje</l>
+            <l>o el idioma, hoy entre aquesos</l>
+            <l>despreciables convidados</l>
+            <l>disfrazado y encubierto</l>
+            <l n="1850">te introduzgas, de manera</l>
+            <l>que parezcas uno dellos,</l>
+            <l>conque podrás de ese pan</l>
+            <l>alcanzar algún pequeño</l>
+            <l>bocado que traer contigo;</l>
+            <l n="1855">que si en mi poder le veo</l>
+            <l>yo le sabré acrisolar</l>
+            <l>a exámenes tan violentos</l>
+            <l>que descubra sus quilates.</l>
+            <l part="I">¿Qué dices?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> Que no me atrevo;</l>
+            <l n="1860">porque para ir a la boda...</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="I">Di.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> Ropa nupcial no tengo.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>¿Por qué ha de tenerla el pobre?</l>
+            <l>Mejor va con sus remiendos</l>
+            <l>cuando va a pedir limosna.</l>
+            <l part="I">Persuádele tú.</l>
+          </sp>
+          <sp who="#gentilismo">
+            <speaker>GENTILISMO</speaker>
+            <l n="1865" part="F"> No quiero;</l>
+            <l>que es vil, es traidora acción</l>
+            <l>ir a engañar con pretexto</l>
+            <l>de doble amigo, y así</l>
+            <l>puedes sin mí tratar de eso</l>
+            <l n="1870">en que yo ni entro ni salgo,</l>
+            <l>que no ha de decir el tiempo</l>
+            <l>que la Gentilidad tuvo</l>
+            <l>parte en tan aleve intento.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="31">
+          <stage>Vase.</stage>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Pues diga de mí, que yo</l>
+            <l n="1875">no solo la parte pero</l>
+            <l>el todo tuve; y así</l>
+            <l>para ver si te convenzo</l>
+            <l>no quiero que me le des</l>
+            <l>mas que me le vendas quiero.</l>
+            <l n="1880">¿Cuánto quieres que te dé</l>
+            <l>(hagamos contrato el ruego)</l>
+            <l>por traerme solo un bocado</l>
+            <l>de ese pan? ¿Qué estás suspenso?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>¡Oh interés, y lo que pesa</l>
+            <l part="I">tu balanza!</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l n="1885" part="F"> ¿Cuánto, vuelvo</l>
+            <l>a decirte, por él quieres</l>
+            <l part="I">que te dé?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> Treinta dineros.</l>
+          </sp>
+          <stage>Dale un bolsillo y tocan las chirimías.</stage>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Poco me has pedido, toma;</l>
+            <l>y pues ya desde aquí vemos</l>
+            <l n="1890">que en el cenáculo entrando</l>
+            <l>van en acompañamiento</l>
+            <l>de los novios, los mendigos</l>
+            <l>todos vestidos de nuevo</l>
+            <l>y convalecidos ¿qué</l>
+            <l n="1895">aguardas? No pierdas tiempo,</l>
+            <l>que ir sin ropa más hará</l>
+            <l>lástima que no desprecio</l>
+            <l>por no haberte a ti vestido.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Dices bien; y ya con eso</l>
+            <l n="1900">no temo que en mí reparen;</l>
+            <l>y aunque reparen ¿qué pierdo</l>
+            <l>en que ellos con su reparo</l>
+            <l>se queden si yo me quedo</l>
+            <l part="I">con mi dinero?</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="32">
+          <stage>Vase.</stage>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> Pues yo</l>
+            <l n="1905">a acercarme no me atrevo;</l>
+            <l>desde aquí estaré a la mira</l>
+            <l>para observar a lo lejos</l>
+            <l>desta venta y compra el fin;</l>
+            <l>y no en vano, pues que veo</l>
+            <l n="1910">al príncipe y Sulamitis</l>
+            <l>en mesa traviesa puestos,</l>
+            <l>y a un lado y otro sentados</l>
+            <l>los miserables desechos</l>
+            <l>de las cortes, cada uno</l>
+            <l n="1915">apadrinado del celo</l>
+            <l>de la virtud que le trujo</l>
+            <l>a este honor. Ya toma entre ellos</l>
+            <l>el apóstata lugar</l>
+            <l>con todos en hacimiento</l>
+            <l n="1920">de gracias y bendición</l>
+            <l>de mesa, también diciendo:</l>
+          </sp>
+          <sp who="#apostasía #idolatría #gentilismo #hebraísmo #música">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>Aunque no somos, Señor,</l>
+            <l>por nuestros merecimientos</l>
+            <l>dignos de tantos honores</l>
+            <l n="1925">perdonadnos por los vuestros</l>
+            <l>ya que en vuestra santa palabra nos vemos</l>
+            <l>sanos, perdonados, salvos y contentos.</l>
+          </sp>
+          <stage>Las chirimías, y ábrese un carro en que estará una mesa y en su cabecera el PRÍNCIPE y SULAMITIS, y a una banda y otra las tres VIRTUDES y los cuatro pobres con ropas de velillo y la APOSTASÍA sin ella.</stage>
+          <sp who="#apostasía #idolatría #gentilismo #hebraísmo #príncipe #sulamitis #caridad #esperanza #misericordia #fortaleza #música">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>Aunque no somos, Señor,</l>
+            <l>por nuestros merecimientos</l>
+            <l n="1930">dignos de tantos honores,</l>
+            <l>perdonadnos por los vuestros,</l>
+            <l>ya que en vuestra santa palabra nos vemos</l>
+            <l>sanos, perdonados, salvos y contentos.</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>Mira, amada Sulamitis,</l>
+            <l n="1935">en cuánta honra, en cuánto aumento</l>
+            <l>tu pobre familia se halla.</l>
+            <l>Y pues los llamados fueron</l>
+            <l>muchos y los escogidos</l>
+            <l>son pocos, haré con ellos</l>
+            <l n="1940">la última fineza, ya</l>
+            <l>que a mi mesa los asiento.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>¿Qué mayor, señor, que aquella</l>
+            <l>que a tu amor divino debo</l>
+            <l>explicando las del alma</l>
+            <l n="1945">en las saludes del cuerpo?</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>¡Ay de aquel que a enfermar más</l>
+            <l>le traen sus atrevimientos!</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>El príncipe me ha mirado,</l>
+            <l>si no me engaño, con ceño;</l>
+            <l n="1950">pero ya una vez aquí</l>
+            <l>nada dudo, nada temo,</l>
+            <l>que no es poca granjería</l>
+            <l>cenar y llevar dinero</l>
+            <l>solo a costa de decir</l>
+            <l n="1955">en el cántico con ellos:</l>
+          </sp>
+          <sp who="#apostasía #idolatría #gentilismo #hebraísmo #príncipe #sulamitis #caridad #esperanza #misericordia #fortaleza">
+            <speaker>TODOS</speaker>
+            <l>Ya que en vuestra santa palabra nos vemos</l>
+            <l>salvos, perdonados, sanos y contentos.</l>
+          </sp>
+          <stage>Las chirimías, y ábrese otro carro con aparadores y en él el REY y la SABIDURÍA.</stage>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l>Desde estos aparadores</l>
+            <l>que a imitación de los cielos</l>
+            <l n="1960">plateados canceles forman</l>
+            <l>puedes, Señor, encubierto</l>
+            <l>ver la mesa y los que en ella</l>
+            <l part="I">sentados están.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> De verlos</l>
+            <l>con las albas vestiduras</l>
+            <l n="1965">que habiéndoselas tú puesto</l>
+            <l>significan la interior</l>
+            <l>pureza de sus afectos,</l>
+            <l>tu sabes, Sabiduría,</l>
+            <l>cuánto me gozo y me alegro;</l>
+            <l n="1970">mas oye, ¿quién es aquel</l>
+            <l>que sin nupcial ornamento</l>
+            <l>mete la mano en el plato?</l>
+          </sp>
+          <stage>Baja de su carro y tras él la SABIDURÍA, y sube al otro carro en cuya punta estará el apóstata sentado.</stage>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l part="I">¿Dónde vas?</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> Donde pretendo</l>
+            <l>dar castigo a tan aleve</l>
+            <l n="1975">sacrílego atrevimiento.</l>
+            <l>¿Cómo? ¿Sentarse a esa mesa</l>
+            <l>sin desnudarte primero</l>
+            <l>del hábito de hombre antiguo</l>
+            <l>y vestido el de hombre nuevo?</l>
+            <l n="1980">Dime, amigo, ¿a qué veniste</l>
+            <l part="I">aquí?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> ¡De mirarle tiemblo!</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="I">¿Y cómo aquí...</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> ¡Qué pavor!</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="I">...entraste...</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F"> ¡Qué sentimiento!</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="I">...sin haber...</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="M"> ¡Qué ansia!</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> ...lavado...</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">¡Qué parasismo!</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l n="1985" part="F"> ...primero...</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">¡Qué angustia!</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> ...la blanca estola</l>
+            <l>en la sangre del cordero</l>
+            <l>que cruento sacrificio</l>
+            <l>fue, para ser incruento?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="1990">Como, si, no, cuando, yo...</l>
+            <l>Mudo estoy, a hablar no acierto;</l>
+            <l>¿qué mucho si el corazón</l>
+            <l>se me ha quebrado en el pecho?</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Levanta de aquí, levanta;</l>
+            <l n="1995">que no es bien que tome asiento</l>
+            <l>el réprobo entre elegidos</l>
+            <l>ni entre humildes el soberbio.</l>
+            <l>Llevadle arrojado dél</l>
+            <l>al más pavoroso centro</l>
+            <l n="2000">que en exteriores tinieblas</l>
+            <l>humo exhala, escupe fuego.</l>
+          </sp>
+          <stage>Cae del trono y da cayendo y levantando en brazos del HEBRAÍSMO.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>¡Ay infelice de mí!</l>
+            <l>¿A dónde irá a parar, cielos,</l>
+            <l part="I">mi precipicio?</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="F"> A mis brazos.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="2005">Fuerza era dar en ellos;</l>
+            <l>que un despeño siempre fue</l>
+            <l>principio de otro despeño.</l>
+            <l>Mal hubiese mi codicia;</l>
+            <l>toma, toma tu dinero,</l>
+            <l n="2010">que no le quiero por tuyo.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Ni yo tampoco le quiero</l>
+            <l>por haberle tú tocado.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Pues arrojaréle al templo</l>
+            <l>y iré donde con mi vida</l>
+            <l n="2015">acabe el áspid que el pecho</l>
+            <l>muerde, el puñal que atraviesa</l>
+            <l>el corazón, el incendio</l>
+            <l>que las entrañas abrasa,</l>
+            <l>y, en fin, el dogal que al cuello,</l>
+            <l n="2020">pues me está quitando el habla,</l>
+            <l>también me quite el aliento.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="33">
+          <stage>Vase.</stage>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Emplearéle yo en un campo</l>
+            <l>de sangre que cimenterio</l>
+            <l>sea porque no a los vivos</l>
+            <l n="2025">inficione su veneno.</l>
+          </sp>
+          <sp who="#caridad #fortaleza">
+            <speaker>DOS VIRTUDES</speaker>
+            <l part="I">¡Qué asombro!</l>
+          </sp>
+          <sp who="#apetito #apostasía">
+            <speaker>DOS VICIOS</speaker>
+            <l part="F"> ¡Qué confusión!</l>
+          </sp>
+          <sp who="#caridad #fortaleza">
+            <speaker>VIRTUDES</speaker>
+            <l part="I">¡Qué prodigio!</l>
+          </sp>
+          <sp who="#apetito #apostasía">
+            <speaker>VICIOS</speaker>
+            <l part="F"> ¡Qué portento!</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l>La ira del rey aunque sea</l>
+            <l>con el traidor pone miedo</l>
+            <l part="I">al leal.</l>
+          </sp>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l n="2030" part="F"> Bien lo declara</l>
+            <l>el quedar todos suspensos.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Sino yo, que declarado</l>
+            <l>oponerme a todos tengo.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>¿En fe de qué tu osadía</l>
+            <l n="2035">tiene tanto atrevimiento?</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>En fe de aquella Esperanza</l>
+            <l>que sé que conmigo tengo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="34">
+          <stage>Sale la ESPERANZA.</stage>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l>No tienes, que si contigo</l>
+            <l>me tuviste fue advirtiendo</l>
+            <l n="2040">que puedo como esperanza</l>
+            <l>humana fallecer luego</l>
+            <l>que sea posesión; mas como</l>
+            <l>divina virtud no puedo,</l>
+            <l>pues lo temporal cumplido</l>
+            <l n="2045">me queda acción a lo eterno;</l>
+            <l>y así si aquí no hice falta,</l>
+            <l>llegando a su cumplimiento</l>
+            <l>la dicha del hombre, ya</l>
+            <l>es fuerza que a tu despecho</l>
+            <l n="2050">venga a que goce la dicha</l>
+            <l>con la esperanza del premio</l>
+            <l>sin que tu puedas tenerme.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>¿Por qué tenerte no puedo?</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l>Porque a vista de aquel alto</l>
+            <l n="2055">inefable sacramento,</l>
+            <l>la esperanza del judío</l>
+            <l>solo es humo, polvo y viento.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>¿Qué sacramento, si allí</l>
+            <l>cordero, vino y pan veo</l>
+            <l part="I">solamente?</l>
+          </sp>
+          <sp who="#sabiduría">
+            <speaker>SABIDURÍA</speaker>
+            <l n="2060" part="F"> A mí me toca,</l>
+            <l>pues yo en la mesa lo he puesto,</l>
+            <l>decirte lo que en sí incluyan</l>
+            <l>cordero, vino y pan, siendo</l>
+            <l>estas bodas sombra y luz</l>
+            <l n="2065">de las bodas del cordero</l>
+            <l>que en la Apocalipse abrió</l>
+            <l>el libro de siete sellos,</l>
+            <l>cuando en su celebridad</l>
+            <l>sentado el esposo en medio</l>
+            <l n="2070">de la esposa y los humildes</l>
+            <l>que a falta de los soberbios</l>
+            <l>vinieron a su mandato</l>
+            <l>donde en fiel recogimiento</l>
+            <l>sustentados y vestidos</l>
+            <l n="2075">vivan a expensas del cielo,</l>
+            <l part="I">les diga:</l>
+          </sp>
+          <sp who="#príncipe">
+            <speaker>PRÍNCIPE</speaker>
+            <l part="F"> Para que nunca</l>
+            <l>os falten los alimentos</l>
+            <l>que como a hijos debo daros,</l>
+            <l>en mi último testamento,</l>
+            <l n="2080">ese cordero legal</l>
+            <l>que asado mandé poneros,</l>
+            <l>no guisado ni cocido,</l>
+            <l>porque sin quebrarle hueso</l>
+            <l>pueda extendidos los brazos</l>
+            <l n="2085">parecer que está en cruz puesto,</l>
+            <l>mi imagen es; este pan</l>
+            <l>que en mis manos tomo haciendo</l>
+            <l>gracias a mi padre es</l>
+            <l>mi carne, mi sangre luego</l>
+            <l n="2090">este vino; conque nunca</l>
+            <l>os podrá faltar sustento</l>
+            <l>teniéndome siempre en ese</l>
+            <l>cáliz y hostia en alma y cuerpo</l>
+            <l>con real asistencia vivo.</l>
+          </sp>
+          <stage>Vuelve el cordero y vese el cáliz y hostia.</stage>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l n="2095">¿Quién asegura todo eso?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>La Fe que ciega lo mira.</l>
+          </sp>
+          <sp who="#caridad">
+            <speaker>CARIDAD</speaker>
+            <l>La Caridad, advirtiendo</l>
+            <l>que el pan es la Caridad.</l>
+          </sp>
+          <sp who="#misericordia">
+            <speaker>MISERCORDIA</speaker>
+            <l>La Misericordia, puesto</l>
+            <l n="2100">que ella afianza las limosnas.</l>
+          </sp>
+          <sp who="#esperanza">
+            <speaker>ESPERANZA</speaker>
+            <l>La Esperanza, que los premios</l>
+            <l>promete a quien las ayude.</l>
+          </sp>
+          <sp who="#sulamitis">
+            <speaker>SULAMITIS</speaker>
+            <l>La esposa, que halló el aumento</l>
+            <l>de gracia para sus pobres.</l>
+          </sp>
+          <sp who="#esperanza #misericordia #caridad #fe">
+            <speaker>LOS 4</speaker>
+            <l n="2105">Sus pobres, que a los pies puestos</l>
+            <l>de poder, ciencia y amor,</l>
+            <l>lo adoramos y creemos.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Todo eso no lo asegura</l>
+            <l>a los siglos venideros.</l>
+            <l n="2110">Obra tan grande fundada</l>
+            <l>en tan débiles cimientos</l>
+            <l>como unos mendigos mal</l>
+            <l>convalecidos enfermos</l>
+            <l>¿qué duración se promete?</l>
+            <l n="2115">¿Habrá fortaleza en ellos</l>
+            <l>que a una nueva institución,</l>
+            <l>nuevo albergue, hospicio nuevo</l>
+            <l part="I">el peso sustente?</l>
+          </sp>
+          <stage>La FORTALEZA en otro carro.</stage>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l part="F"> Sí;</l>
+            <l>que es suave yugo su peso.</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l part="I">¿Quién eso dice?</l>
+          </sp>
+          <sp who="#fortaleza">
+            <speaker>FORTALEZA</speaker>
+            <l n="2120" part="F"> La misma</l>
+            <l>Fortaleza, pues es cierto</l>
+            <l>que quien Fortaleza dijo</l>
+            <l>dijo Gabriel; conque siendo</l>
+            <l>Gabriel el custodio y guarda</l>
+            <l n="2125">de este paraíso bello</l>
+            <l>cuyas plantas atributos</l>
+            <l>son del ave de los cielos</l>
+            <l>¿quién duda que el nuevo hospicio</l>
+            <l>deste paraíso nuevo</l>
+            <l n="2130">y más si al Ave le añade</l>
+            <l>María como diciendo</l>
+            <l>que aquí todo es Gracia pues</l>
+            <l>María y Gracia son lo mesmo,</l>
+            <l>trayendo el Ave María</l>
+            <l n="2135">no solo en el alma impreso</l>
+            <l>por blasón, pero en grabadas</l>
+            <l>láminas de bronce al pecho,</l>
+            <l>tenga con su patrocinio</l>
+            <l>Fortaleza contra el tiempo</l>
+            <l n="2140">y en su nombre por los siglos</l>
+            <l>de los siglos viva eterno?</l>
+          </sp>
+          <sp who="#esperanza #misericordia #caridad #fe #sulamitis #hebraísmo">
+            <speaker>TODOS</speaker>
+            <l>¿Qué te queda, si esto escuchas,</l>
+            <l>que dudar, rebelde pueblo?</l>
+          </sp>
+          <sp who="#hebraísmo">
+            <speaker>HEBRAÍSMO</speaker>
+            <l>Todo; y así aunque a vivir</l>
+            <l n="2145">sin domicilio, sin templo,</l>
+            <l>sin sinagoga, sin ara,</l>
+            <l>prófugo quede, primero</l>
+            <l>que lo vea y que lo adore</l>
+            <l>iré de su vista huyendo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="35">
+          <stage>Vase y sale el GENTILISMO.</stage>
+          <sp who="#gentilismo">
+            <speaker>GENTILISMO</speaker>
+            <l n="2150">Por eso vendré a su vista</l>
+            <l>yo, que escuchando a lo lejos</l>
+            <l>tan inmensas maravillas</l>
+            <l>humilde a adorarlas vengo.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Tú, Gentilidad, serás</l>
+            <l n="2155">de su lugar heredero.</l>
+          </sp>
+          <sp who="#esperanza #misericordia #caridad #fe #sulamitis #gentilismo">
+            <speaker>TODOS</speaker>
+            <l>Y todos, en fe de que es</l>
+            <l>día de perdonar yerros,</l>
+            <l>en hacimiento de gracias</l>
+            <l>una y mil veces diremos:</l>
+          </sp>
+          <sp who="#música #esperanza #misericordia #caridad #fe #sulamitis #gentilismo #rey">
+            <speaker>MÚSICA Y TODOS</speaker>
+            <l n="2160">Aunque no somos, Señor,</l>
+            <l>por nuestros merecimientos</l>
+            <l>dignos de tantos honores</l>
+            <l>perdonadnos por los vuestros</l>
+            <l>ya que en vuestra santa palabra nos vemos</l>
+            <l n="2165">sanos, perdonados, salvos y contentos.</l>
+          </sp>
+          <ab>
+            <emph>Si quid dictum contra Fidem, aut bonos mores, quasi non dictum, &amp; omnia sub correctionem.</emph>
+          </ab>
+          <trailer>FIN</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

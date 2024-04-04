@@ -1,0 +1,3885 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000033" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La piel de Gedeón</title>
+        <title type="sub">Auto sacramental historial y alegórico</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName>Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-06-17"><time when="08:33:37"/></date>
+        <idno type="quadramaX">La piel de Gedeón</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-piel-de-gedeon--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Ana Armendáriz procedente de la edición Calderón de la Barca, Pedro, La piel de Gedeón, ed. Ana Armendáriz, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1998. ISBN: 3-931887-45-6.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="gedeón" sex="MALE">
+            <persName>Gedeón</persName>
+          </person>
+          <person xml:id="joás" sex="MALE">
+            <persName>Joas</persName>
+            <trait source="castlist">
+              <desc>viejo</desc>
+            </trait>
+          </person>
+          <person xml:id="ángel" sex="MALE">
+            <persName>Un Ángel</persName>
+          </person>
+          <person xml:id="fará" sex="MALE">
+            <persName>Fará</persName>
+          </person>
+          <personGrp xml:id="soldados" sex="MALE">
+            <persName>4 soldados</persName>
+          </personGrp>
+          <person xml:id="aurora" sex="FEMALE">
+            <persName>La Aurora</persName>
+          </person>
+          <person xml:id="idolatría" sex="FEMALE">
+            <persName>Idolatría</persName>
+          </person>
+          <person xml:id="madián" sex="MALE">
+            <persName>Madián</persName>
+          </person>
+          <person xml:id="amalec" sex="MALE">
+            <persName>Amalec</persName>
+          </person>
+          <person xml:id="mies" sex="FEMALE">
+            <persName>La Mies</persName>
+          </person>
+          <person xml:id="monte" sex="MALE">
+            <persName>El Monte</persName>
+          </person>
+          <person xml:id="prado" sex="MALE">
+            <persName>El Prado</persName>
+          </person>
+          <person xml:id="labrador-1" sex="MALE">
+            <persName>Labrador 1.°</persName>
+          </person>
+          <person xml:id="labrador-2" sex="MALE">
+            <persName>Labrador 2.°</persName>
+          </person>
+          <person xml:id="labrador-3" sex="MALE">
+            <persName>Labrador 3.°</persName>
+          </person>
+          <person xml:id="labrador-4" sex="MALE">
+            <persName>Labrador 4.°</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="música">
+            <persName>Músicos</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1760">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">La piel de Gedeón</titlePart>
+        <titlePart type="sub">Auto sacramental historial y alegórico</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas</head>
+        <castItem>GEDEÓN.</castItem>
+        <castItem>JOAS, viejo.</castItem>
+        <castItem>UN ÁNGEL.</castItem>
+        <castItem>FARÁ.</castItem>
+        <castItem>4 SOLDADOS.</castItem>
+        <castItem>LA AURORA.</castItem>
+        <castItem>IDOLATRÍA.</castItem>
+        <castItem>MADIÁN.</castItem>
+        <castItem>AMALEC.</castItem>
+        <castItem>LA MIES.</castItem>
+        <castItem>EL MONTE.</castItem>
+        <castItem>EL PRADO.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene" n="1">
+          <stage>Suenan en un carro cajas y trompetas y en otro instrumentos de música, y dicen a una parte MADIÁN y a otra AMALEC sus versos representados, a tiempo que la tropa responde con los suyos cantando.</stage>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>¡Muera esta infame canalla</l>
+            <l>ingrata a su Dios, y injusta!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¡Misericordia, Señor!,</l>
+            <l>de ella con nosotros usa.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">¡Mueran estos viles!</l>
+          </sp>
+          <sp who="#música #amalec #madián">
+            <speaker>TODOS</speaker>
+            <l n="5" part="F">¡Mueran!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¡Vivan las clemencias tuyas!</l>
+          </sp>
+          <sp who="#música #amalec #madián">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Arma, arma!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">¡Piedad, piedad!</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>Y sin valerles la fuga...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Y sin faltarnos tu amor...</l>
+          </sp>
+          <sp who="#música #amalec #madián">
+            <speaker>TODOS</speaker>
+            <l part="I">...¡mata, y hiere!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="10" part="F">...¡vive, y triunfa!</l>
+          </sp>
+          <sp who="#música #amalec #madián">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Arma, arma!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">¡Piedad, piedad!</l>
+          </sp>
+          <sp who="#amalec #madián">
+            <speaker>LOS DOS</speaker>
+            <l part="I">¡Mata, y hiere!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">¡Vive, y triunfa!</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>A esta última repetición, sale un ÁNGEL trayendo como arrastrando a la IDOLATRÍA, vestida de mujer, con alguna alusión de demonio en el manto o tocado, con banda, espada, bengala y plumas.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">¡Sal de este pueblo!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">¿Por qué</l>
+            <l>desalojarme procuras</l>
+            <l n="15">de lo que es posesión mía?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Porque no es posesión tuya</l>
+            <l part="I">el pueblo de Dios.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Si sabes,</l>
+            <l>cuando cláusulas escuchas,</l>
+            <l>allí de marciales ecos,</l>
+            <l n="20">aquí de voces confusas,</l>
+            <l>que es la causa por haber</l>
+            <l>idolatrado, su culpa,</l>
+            <l>pues hoy de los madianitas</l>
+            <l>sacrílegos ritos usa,</l>
+            <l n="25">tanto que a Baal ofrece,</l>
+            <l>en esa aspereza inculta,</l>
+            <l>víctimas que el aire abrasan,</l>
+            <l>inciensos que el sol ahúman,</l>
+            <l>por cuyo delito, Dios</l>
+            <l n="30">los castiga, pues desnuda,</l>
+            <l>en Madián y Amalec</l>
+            <l>el estoque de su furia,</l>
+            <l>obligándolos a que</l>
+            <l>dejen el poblado y huyan</l>
+            <l n="35">a aquestas montañas, donde,</l>
+            <l>temiendo las iras suyas,</l>
+            <l>fieras racionales viven</l>
+            <l>las entrañas de las grutas</l>
+            <l>¿cómo puede no ser mía</l>
+            <l n="40">la posesión absoluta,</l>
+            <l>siendo yo (que no lo ignoras),</l>
+            <l>aquella deidad impura</l>
+            <l>de la Idolatría, que siendo</l>
+            <l>alma de Luzbel segunda,</l>
+            <l n="45">inspira en el bronce estatuas,</l>
+            <l>que con mi aliento articulan</l>
+            <l>los oráculos, que dan</l>
+            <l>respuestas a sus preguntas?</l>
+            <l>Pues, si es castigo de Dios,</l>
+            <l n="50">¿cómo tú, cómo repugnas</l>
+            <l>su ejecución? Deja, deja,</l>
+            <l>que el aire su voz confunda.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>¡Muera esta infame canalla,</l>
+            <l>ingrata a su Dios, y injusta!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="55">Como ya de ese error, muchos,</l>
+            <l>reducidos a la justa</l>
+            <l>voz de un profeta, pretenden</l>
+            <l>que con sus piedades sumas</l>
+            <l>los perdone, siempre que</l>
+            <l n="60">el pueblo a su Dios acuda,</l>
+            <l>que responderá benigno,</l>
+            <l>compadecido a su angustia;</l>
+            <l>y así, si marciales ecos</l>
+            <l>la esfera allí el aire turban,</l>
+            <l n="65">aquí míseros gemidos</l>
+            <l>también al cielo pronuncian.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¡Misericordia, Señor!,</l>
+            <l>de ella con nosotros usa.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¿Hasta cuándo la paciencia</l>
+            <l n="70">de Dios, a prueba de injurias,</l>
+            <l>ha de sufrir este pueblo?;</l>
+            <l part="I">¿cuándo ha de acabarla?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Nunca,</l>
+            <l>porque como Dios le tiene</l>
+            <l>dada la palabra suya</l>
+            <l n="75">de que en él ha de tomar</l>
+            <l>humana carne en tan pura</l>
+            <l>madre que no ha de tocarla</l>
+            <l>ni aun la sombra de tu culpa,</l>
+            <l>de cuya encarnación, cuyo</l>
+            <l n="80">parto virginal y cuya</l>
+            <l>muerte ha de seguirse aquel</l>
+            <l>sacramento que en figuras</l>
+            <l>y sombras vio tantas veces,</l>
+            <l>es fuerza que se la cumpla.</l>
+            <l part="I">Y así...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="85" part="F">No prosigas, calla,</l>
+            <l>calla, que esa voz me turba</l>
+            <l>tanto al oírla, que ciega</l>
+            <l>la vista, la lengua muda,</l>
+            <l>torpe el labio, helado el pecho,</l>
+            <l n="90">me estremecen y me angustian</l>
+            <l>de suerte que, dentro de él,</l>
+            <l>el corazón en menudas</l>
+            <l>partes quebrado, parece</l>
+            <l>que más se arranca que pulsa.</l>
+            <l n="95">Vuelvan, porque no lo oiga</l>
+            <l>Amalec, las voces tuyas.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">¡Mueran estos viles!</l>
+          </sp>
+          <sp who="#música #amalec #madián #ángel #idolatría">
+            <speaker>TODOS</speaker>
+            <l part="F">¡Mueran!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Cuando esta voz interrumpa</l>
+            <l>la mía, estotra la alienta.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="100">¡Vivan las clemencias tuyas!</l>
+          </sp>
+          <sp who="#música #amalec #madián #ángel #idolatría">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Arma, arma!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">¡Piedad, piedad!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Si unos con otros se ofuscan</l>
+            <l>aparatos y lamentos,</l>
+            <l>de otra manera te arguya:</l>
+            <l n="105">¿qué figuras, ni qué sombras</l>
+            <l>son estas, de quien tú juzgas</l>
+            <l>inferirse tan extraña</l>
+            <l>encarnación, que la duda</l>
+            <l>mi saber, con la substancia</l>
+            <l n="110">tan capaz como la tuya,</l>
+            <l>pues que no perdí la ciencia,</l>
+            <l>con la gracia y la hermosura?</l>
+            <l>¿Qué figuras son, qué sombras,</l>
+            <l>digo otra vez, las que anuncian</l>
+            <l n="115">ese grande sacramento,</l>
+            <l part="I">que tanto me asombra?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Muchas;</l>
+            <l>y aunque pudiera acordarte</l>
+            <l>aquella escala que junta</l>
+            <l>el cielo y la tierra, donde</l>
+            <l n="120">ángeles bajen y suban,</l>
+            <l>aquel blanco, aquel hermoso</l>
+            <l>rocío, que en blanda lluvia,</l>
+            <l>el llanto del alba cuaja</l>
+            <l>y el rayo del sol enjuga,</l>
+            <l n="125">que son las dos a quien más</l>
+            <l>ambos misterios se ajustan,</l>
+            <l>hoy, por darte mayor pena,</l>
+            <l>no ha de valerse mi industria</l>
+            <l>de las que ya acontecidas</l>
+            <l n="130">parece que no te asustan,</l>
+            <l>porque se les pierde el miedo</l>
+            <l>a penas que se acostumbran,</l>
+            <l>sino, para más asombro,</l>
+            <l>he de valerme de algunas</l>
+            <l n="135">que aún no acontecidas, hagan</l>
+            <l>novedad a tus angustias.</l>
+            <l>¿Qué ves por esa campaña?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Montes que al cielo se encumbran,</l>
+            <l>siendo, de ese azul alcázar,</l>
+            <l n="140">sus cimas verdes columnas,</l>
+            <l>en quien la fábrica estriba</l>
+            <l>del palacio de la luna.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¿Y qué ves sobre esos montes?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Tupidas nubes, que obscuras,</l>
+            <l n="145">como preñadas, parece</l>
+            <l>que las agobian las puntas,</l>
+            <l>siendo a sus altas cervices</l>
+            <l>enmarañadas coyundas.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">¿Qué ves en su falda?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Allí</l>
+            <l n="150">van los corderos que usurpan</l>
+            <l>su adorno al prado paciendo</l>
+            <l>la verde esmeralda bruta,</l>
+            <l>cuyo salpicado aljófar,</l>
+            <l>si cuando el alba madruga</l>
+            <l n="155">pareció que le bebían</l>
+            <l>parece ahora que le sudan.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">¿Y allí?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Sazonadas mieses,</l>
+            <l>cuyas espigas fecundas,</l>
+            <l>los fatigados hebreos</l>
+            <l n="160">para su sustento buscan</l>
+            <l>con tal miedo del contrario</l>
+            <l>que, siendo las parvas suyas,</l>
+            <l>aun cuando las benefician</l>
+            <l>les parece que las hurtan.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="165">Pues esas nubes, pues esos</l>
+            <l>montes, que su esfera ocupan,</l>
+            <l>esos corderos y mieses,</l>
+            <l>no contienen parte alguna,</l>
+            <l>que ya en su vaga impresión,</l>
+            <l n="170">ya en su fábrica robusta,</l>
+            <l>ya en sus cándidos vellones,</l>
+            <l>y ya en sus espigas rubias,</l>
+            <l>de esa encarnación y de ese</l>
+            <l>sacramento en sí no incluya</l>
+            <l n="175">algún rasgo o algún viso,</l>
+            <l>siendo, a pesar de tus dudas,</l>
+            <l>este horizonte teatro</l>
+            <l>en quien hacerse procuran</l>
+            <l>hoy dos representaciones</l>
+            <l n="180">a las edades futuras,</l>
+            <l>de sombras en la primera,</l>
+            <l>y luces en la segunda.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Primero que llegue a ver</l>
+            <l>los misterios que me anuncias,</l>
+            <l n="185">cuando de muertas estatuas</l>
+            <l>mi espíritu destituyas,</l>
+            <l>me pasaré a estatuas vivas,</l>
+            <l>haciéndoles que se infunda</l>
+            <l>en Madián y Amalec</l>
+            <l n="190">mi horror, mi rabia y mi furia,</l>
+            <l>porque de una vez acaben,</l>
+            <l>porque de una vez destruyan,</l>
+            <l>ese forajido pueblo,</l>
+            <l>siendo el que teatro juzgas</l>
+            <l n="195">de maravillas, teatro</l>
+            <l>de infames ruinas caducas,</l>
+            <l>tanto que al mirarle el sol,</l>
+            <l>se ponga en cuestión, en duda,</l>
+            <l>si se ha errado su carrera,</l>
+            <l n="200">hallando que hoy mares sulca</l>
+            <l>las que ayer dejó campañas,</l>
+            <l>pues agonizando mustia,</l>
+            <l>su verde faz, del Bermejo</l>
+            <l>mar será sombra purpúrea.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="205">Cuando al mar Bermejo imite</l>
+            <l>el verdor que se divulga,</l>
+            <l>no le faltará caudillo</l>
+            <l>que con celestial ayuda,</l>
+            <l>amontonando las ondas,</l>
+            <l n="210">le penetre a planta enjuta.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¿Qué caudillo?, si no hay</l>
+            <l>persona en el pueblo alguna</l>
+            <l part="I">que ame a su Dios.</l>
+          </sp>
+          <stage>Dentro FARÁ villano rústico.</stage>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">Gedeón,</l>
+            <l>los segados haces junta,</l>
+            <l n="215">que se acerca el enemigo;</l>
+            <l>no aquí nos coja su furia.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Por mí parece que el viento</l>
+            <l>ha satisfecho la duda.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Poco fáciles acasos</l>
+            <l n="220">me sobresaltan y turban.</l>
+            <l>¿Qué caudillo, a decir vuelvo,</l>
+            <l>habrá, si aunque lloren muchas</l>
+            <l>personas su error, son más</l>
+            <l>las que idólatras procuran</l>
+            <l part="I">darme adoraciones?</l>
+          </sp>
+          <stage>Dentro GEDEÓN.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="225" part="F">Yo,</l>
+            <l>a pesar de sus injurias,</l>
+            <l>he de dejar esta fértil</l>
+            <l>parva tan limpia y tan pura,</l>
+            <l>que no lleve el menor grano,</l>
+            <l n="230">neguilla o cizaña alguna.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¡Ay de mí! No ya porque</l>
+            <l>su equívoco me atribula,</l>
+            <l>cuanto porque en aquel trigo</l>
+            <l>que limpia el que le pronuncia,</l>
+            <l n="235">no sé qué luz miro, cuando</l>
+            <l>que le ha de coger presuma,</l>
+            <l>sin neguilla que le vicie</l>
+            <l>ni cizaña que le pudra.</l>
+            <l>Pero ¿qué me aflige?, ¿qué?</l>
+            <l n="240">si primero que él lo cumpla,</l>
+            <l>acabaré yo con todos,</l>
+            <l>haciendo que se introduzga</l>
+            <l>mi espíritu en Madián,</l>
+            <l>como en Amalec mi furia.</l>
+            <l part="I">¡Arma, arma!</l>
+          </sp>
+          <sp who="#música #amalec #madián #ángel #idolatría">
+            <speaker>TODOS</speaker>
+            <l n="245" part="F">¡Arma, arma!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">¡Piedad, piedad!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">¡Piedad, piedad!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¡Vuestro poder los destruya!</l>
+          </sp>
+          <sp who="#ángel #idolatría">
+            <speaker>LOS DOS</speaker>
+            <l>¡Nuestro poder los destruya!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¡Tu poder, Señor, los salve!</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="250">¡Tu poder Señor, nos salve!</l>
+          </sp>
+          <stage>La caja, y las voces repiten, y ellos representan.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¡Y sin valerles la fuga...</l>
+          </sp>
+          <sp who="#ángel #idolatría">
+            <speaker>LOS DOS</speaker>
+            <l>¡Y sin valerles la fuga...</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>...¡y sin faltarles tu amor!...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>...¡y sin faltarnos tu amor!...</l>
+          </sp>
+          <sp who="#música #amalec">
+            <speaker>LOS UNOS</speaker>
+            <l part="I">...¡mata y hiere!...</l>
+          </sp>
+          <sp who="#madián #ángel #idolatría">
+            <speaker>LOS OTROS</speaker>
+            <l n="255" part="F">...¡vive y triunfa!...</l>
+          </sp>
+          <sp who="#música #amalec">
+            <speaker>UNOS</speaker>
+            <l part="I">...¡arma, arma!...</l>
+          </sp>
+          <sp who="#madián #ángel #idolatría">
+            <speaker>OTROS</speaker>
+            <l part="F">...¡piedad, piedad!...</l>
+          </sp>
+          <sp who="#música #amalec">
+            <speaker>LOS UNOS</speaker>
+            <l part="I">...¡mata y hiere!...</l>
+          </sp>
+          <sp who="#madián #ángel #idolatría">
+            <speaker>LOS OTROS</speaker>
+            <l part="F">...¡vive y triunfa!...</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Vanse los dos. Sale GEDEÓN vestido de labrador, con un bieldo en la mano y algunas espigas de trigo, como asustado, y tras él FARÁ.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Vive y triunfa, vive y triunfa,</l>
+            <l>que claro es que ha de vivir,</l>
+            <l n="260">y triunfar siempre el que nunca</l>
+            <l>verá en los siglos mudanza,</l>
+            <l>y buenos y malos juzga.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="I">¿Dónde vas, Señor?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">No sé.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="I">¿Qué tienes?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="M">No sé.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">¿Qué buscas?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">No sé, no sé.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="265" part="F">¿Qué te ha dado?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Bárbaro ¿qué me preguntas?,</l>
+            <l>si te digo que no sé</l>
+            <l>qué helado fuego discurra</l>
+            <l>por mis venas, que me lleva</l>
+            <l n="270">entre mil luces a escuras.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¿A escuras entre mil luces?</l>
+            <l>Ya mi calletre barrunta,</l>
+            <l>según que por mí ha pasado</l>
+            <l>que hebe de tener la culpa</l>
+            <l n="275">el nieto de los sarmientos.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¿Quién?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">El hijo de las uvas.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>¡Calla!, rústico villano,</l>
+            <l>que más noble, más oculta</l>
+            <l>causa mi discurso mueve</l>
+            <l n="280">y mis sentidos perturba.</l>
+            <l>Entre ese marcial rumor</l>
+            <l>y esa métrica dulzura,</l>
+            <l>que hace de trompas y voces</l>
+            <l>Babilonia la espesura,</l>
+            <l n="285">me hallaba aventando el trigo</l>
+            <l>que aquesa heredad tributa</l>
+            <l>a Joás, mi anciano padre,</l>
+            <l>para llevarlo a la gruta,</l>
+            <l>a donde tímido guarda</l>
+            <l n="290">la corta familia suya,</l>
+            <l>cuando no sé qué vehemente,</l>
+            <l>qué poderosa, qué aguda</l>
+            <l>imaginación me obliga</l>
+            <l>a que imagine, a que arguya,</l>
+            <l n="295">al limpiar el trigo, en cómo</l>
+            <l>de Dios las piedades sumas,</l>
+            <l>al bieldo que le levante</l>
+            <l>y al viento que le sacuda,</l>
+            <l>hacia allí la arista aparta</l>
+            <l n="300">y hacia allí los granos junta.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¿Pues qué fecultad es esa?</l>
+            <l>Yo, que so una bestia bruta,</l>
+            <l part="I">sé por qué es eso.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">¿Por qué?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Porque no comamos juntas</l>
+            <l n="305">las bestias y las personas;</l>
+            <l>y así hacernos prato gusta</l>
+            <l>aparte; mi burra y yo</l>
+            <l>lo digamos, pues a una</l>
+            <l>mos da, para mí la paja,</l>
+            <l n="310">y el grano para mi burra;</l>
+            <l>mas, ¿qué tenemos con eso,</l>
+            <l>para que del afán huyas?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>No sé, déjame, Fará,</l>
+            <l>y vuelve por vida tuya</l>
+            <l n="315">a la labor, mientras yo</l>
+            <l>quedo lidiando mis dudas.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>No quiero, que si con eso</l>
+            <l>de la fatiga te excusas,</l>
+            <l>también con mi duda yo</l>
+            <l n="320">quiero empezar otra lucha:</l>
+            <l>¡salid aquí, dudecillas,</l>
+            <l>o pocas seáis, o muchas!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Vete, y déjame, por Dios.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Yo me iré, si de ello gustas,</l>
+            <l n="325">¿pero sabes qué imagino?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¿Qué?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">Que todas estas murrias</l>
+            <l>han de venir a parar...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¿En qué?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">...en alguna locura,</l>
+            <l>que quien está en juicio siempre,</l>
+            <l n="330">quizá no está en juicio nunca.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Vase.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>¡Válgame Dios! ¿Qué misterio</l>
+            <l>hay que en sí este trigo encubra,</l>
+            <l>cuando enseña que es su parva</l>
+            <l>república en quien se juntan</l>
+            <l n="335">buenos y malos, a que</l>
+            <l>fácil soplo, vara ruda,</l>
+            <l>lo provechoso y lo inútil</l>
+            <l>en dos partes destribuyan,</l>
+            <l>siendo la arista y el grano</l>
+            <l n="340">una misteriosa junta</l>
+            <l>de réprobos y elegidos,</l>
+            <l>para quien el pan fluctúa</l>
+            <l>a los buenos el provecho</l>
+            <l>y a los malos el angustia?</l>
+            <l part="I">¿Qué misterio?</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Sale el ÁNGEL.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="345" part="F">Gedeón.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>¿Quién a esta parte pronuncia</l>
+            <l>mi nombre? Pero, ¡ay de mí!,</l>
+            <l>¡que los rayos me deslumbran</l>
+            <l part="I">de un nuevo sol!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Gedeón.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="350">A la sombra está de una</l>
+            <l>encina quien me ha llamado:</l>
+            <l>la más hermosa criatura</l>
+            <l>es, que ojos humanos vieron.</l>
+            <l>¿A quién, bello garzón, buscas?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="355">¡Sálvete Dios, varón fuerte,</l>
+            <l>y sea en tu amor y ayuda!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Bien será, extranjero joven,</l>
+            <l>menester que él nos acuda</l>
+            <l>a mí y a mi pueblo, en tanta</l>
+            <l n="360">calamidad, bien que injusta.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">Como perseguidos</l>
+            <l>de la cólera sañuda</l>
+            <l>de los madianitas, todos</l>
+            <l>puestos en tímida fuga,</l>
+            <l n="365">sin domicilio, ni casa,</l>
+            <l>vivimos las espeluncas</l>
+            <l>de estas montañas, a donde</l>
+            <l>son sus quiebras y roturas,</l>
+            <l>hoy de cadáveres vivos</l>
+            <l n="370">voluntarias sepulturas.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¿Por qué tú, pues, que tu nombre</l>
+            <l>cuando a hebreo le traduzgas,</l>
+            <l>quiere decir varón fuerte,</l>
+            <l>de su sentido no usas,</l>
+            <l n="375">y en nombre de Dios y el pueblo,</l>
+            <l>tomando su voz, empuñas</l>
+            <l>la vara de su justicia,</l>
+            <l>y el blanco acero desnudas</l>
+            <l>contra el idólatra fiero</l>
+            <l n="380">que vuestras quietudes turba?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Porque a mí, aunque de Jacob</l>
+            <l>gloriosa sangre me ilustra,</l>
+            <l>soy de sus menores tribus</l>
+            <l>y menor por mi fortuna</l>
+            <l n="385">en la casa de mi padre,</l>
+            <l>y competir no es cordura</l>
+            <l>el tribu de Manasés</l>
+            <l>dignidades al de Juda.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>No importa, que el Señor quiere</l>
+            <l n="390">que las maravillas suyas,</l>
+            <l>con los flacos instrumentos,</l>
+            <l>más campeen y más luzgan.</l>
+            <l>Juez del pueblo de Israel</l>
+            <l>has de ser; el puesto ocupa,</l>
+            <l n="395">y ponle en su libertad,</l>
+            <l>haciendo que restituya</l>
+            <l>a su Dios todas las aras</l>
+            <l>que sacrílego le usurpa</l>
+            <l>el ídolo de Baal.</l>
+            <l n="400">No temas, que Él en tu ayuda</l>
+            <l>será en tu mayor peligro,</l>
+            <l>como tú el precepto cumplas.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Permíteme, hermoso joven,</l>
+            <l>que dude el bien que me anuncias,</l>
+            <l n="405">que la duda no es de Dios,</l>
+            <l>de mi mérito es la duda.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¿No basta que yo lo diga?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>En un pobre las venturas</l>
+            <l>son familia mal mandada</l>
+            <l n="410">que todo lo dificulta.</l>
+            <l>Dame una señal de que</l>
+            <l>tu revelación es suya.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¿Señal pides? ¿Qué señal</l>
+            <l part="I">quieres?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">Si no te disgustas,</l>
+            <l n="415">la señal ha de ser... pero,</l>
+            <l>mejor lo dirá una industria.</l>
+            <l part="I">Espérame aquí.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Sí haré.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Vase, y sale IDOLATRÍA.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¡Qué mal descansa una injuria!</l>
+            <l>A la vista de este noble</l>
+            <l n="420">espíritu que criatura</l>
+            <l>humana se representa</l>
+            <l>al que por caudillo jura</l>
+            <l>de Israel, trayendo ya</l>
+            <l>decretada la consulta,</l>
+            <l n="425">he de andar, pues hasta ahora</l>
+            <l>no me obligan a que huya,</l>
+            <l>supuesto que de Baal</l>
+            <l>aún los simulacros duran.</l>
+            <stage>Mira adentro.</stage>
+            <l>Mas ¡ay de mí!, ¡ay de mí, cielos!</l>
+            <l n="430">¡que tienen mis desventuras,</l>
+            <l>como todas las desdichas,</l>
+            <l>hallarse cuando se buscan.</l>
+            <l>Para la señal que pide,</l>
+            <l>en un canastillo junta</l>
+            <l n="435">a la carne de un pequeño</l>
+            <l>recental que al fuego apura,</l>
+            <l>pan, y no pan fermentado,</l>
+            <l>sino el que sin levadura,</l>
+            <l>ácimo llama el hebreo.</l>
+            <l n="440">¡Oh, alcancen mis conjeturas,</l>
+            <l>qué querrán decir especies</l>
+            <l>hoy de pan y carne juntas!</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Sale GEDEÓN con un canastillo con panes y una olla o barro.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Ya está el sacrificio aquí,</l>
+            <l>pero no la llama pura</l>
+            <l part="I">que abrase esta leña.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="445" part="F">Si esa</l>
+            <l>la seña ha de ser produzgan</l>
+            <l>al eslabón de esta vara</l>
+            <l>fuego aquestas piedras duras</l>
+            <stage>Da el ÁNGEL con la vara y sale fuego.</stage>
+            <l>y den las nubes sus rayos</l>
+            <l n="450">que la abrasen y consuman,</l>
+            <l>para que veas que Dios</l>
+            <l>en ti su misterio funda,</l>
+            <l>eligiéndote ministro</l>
+            <l>de sus sombras y figuras.</l>
+          </sp>
+          <stage>Desaparece el ÁNGEL y el SACRIFICIO.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="455">Ángel de Dios eres; ya</l>
+            <l>lo creo, mi dicha es mucha,</l>
+            <l>pues vi al Ángel del Señor</l>
+            <l part="I">faz a faz,</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...Crezcan mis dudas...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...a cuya causa...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡qué ansia!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...aqueste lugar...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="460" part="F">...¡qué injuria!...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...ha de llamarse...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡qué agravio!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...la Paz del Señor.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡qué angustia!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">Pueblo de Israel,...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡qué rabia!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...ya el Señor vuelve...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡qué furia!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...por tu causa...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="465" part="F">...¡qué veneno!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...y hoy daré...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡qué desventura!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...feliz principio...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡qué ira!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>...a la dignidad augusta,...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">...¡qué agonía!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">...derribando...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">...¡qué dolor!...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="470" part="F">...las esculturas...</l>
+            <l part="I">de Baal,...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡qué sentimiento!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...porque veas...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡suerte injusta,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...que obligado...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡fiero hado!,...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">...de tu llanto...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">...¡pena dura!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="475">quiere que ministro sea</l>
+            <l>de sus sombras y figuras.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <stage>Vase.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¡Ay infeliz! ¡Quién pudiera,</l>
+            <l>cuando en ti sus glorias funda,</l>
+            <l>no esperar a la segunda,</l>
+            <l n="480">pues me basta la primera!;</l>
+            <l>que misterio el monte era,</l>
+            <l>nube, prado y mies, no niego,</l>
+            <l>si en sacrificio a ver llego</l>
+            <l>que dan, cuando al cielo sube,</l>
+            <l n="485">prado y mies y monte y nube,</l>
+            <l>carne y pan y leña y fuego.</l>
+            <l>¿Qué querrá significar</l>
+            <l>dar la nube el rayo y ver</l>
+            <l>del monte la leña arder,</l>
+            <l n="490">del prado la carne ahumar,</l>
+            <l>de mies el pan abrasar?</l>
+            <l>Y todo esto junto seña</l>
+            <l>ser y seña no pequeña</l>
+            <l>de que es sacro este horizonte</l>
+            <l n="495">en mies, prado, nube y monte,</l>
+            <l>de pan, carne, fuego y leña.</l>
+            <l>De blanco cordero Abel,</l>
+            <l>ya hizo sacrificio al cielo,</l>
+            <l>y ya de pan le hizo el celo</l>
+            <l n="500">de Melquisedec, tras él;</l>
+            <l>de fuego le hizo Elías fiel,</l>
+            <l>de leña Isaac y Abraham,</l>
+            <l>pero no aqueste a quien dan</l>
+            <l>con más logrado interés</l>
+            <l n="505">monte, nube, prado y mies,</l>
+            <l>leña, fuego, carne y pan,</l>
+            <l>y más, si a esta conjetura,</l>
+            <l>otra mi vista termina,</l>
+            <l>que es que criatura divina</l>
+            <l n="510">parezca humana criatura,</l>
+            <l>a quien elegir procura</l>
+            <l>Dios por su caudillo, ¡oh ciego</l>
+            <l>pasmo!, en que a perderme llego,</l>
+            <l>sin saber por qué hayan dado,</l>
+            <l n="515">nube, monte, mies y prado,</l>
+            <l part="I">leña y pan y...</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>DENTRO</speaker>
+            <l part="F">¡Fuego, fuego!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>[IDOLATRÍA]</speaker>
+            <l>¿Qué nuevo asombro con tal</l>
+            <l>rumor de aliento me priva?</l>
+          </sp>
+          <sp who="#soldados #música">
+            <speaker>TODOS</speaker>
+            <stage>Dentro.</stage>
+            <l>Fuego abrase a quien derriba</l>
+            <l n="520">los ídolos de Baal.</l>
+          </sp>
+          <stage>Mucho ruido dentro y al oírlo cae como tropezando IDOLATRÍA.</stage>
+          <sp who="#idolatría">
+            <speaker>[IDOLATRÍA]</speaker>
+            <l>¿Qué parasismo mortal,</l>
+            <l>qué letargo o frenesí</l>
+            <l>aquella voz, ¡ay de mí!,</l>
+            <l>ha introducido en mi pecho,</l>
+            <l n="525">que me ha postrado y deshecho</l>
+            <l>desde el punto que la oí?</l>
+            <l>Pero, ¡qué mucho, si está</l>
+            <l>mi estatua allí destruida,</l>
+            <l>siendo el cuerpo de mi vida,</l>
+            <l n="530">que lo sienta el alma acá!</l>
+            <l>Fuerza el ausentarme es ya</l>
+            <l>de ti, ¡oh pueblo desleal!,</l>
+            <l>pues mi espíritu inmortal</l>
+            <l>no tiene cuerpo en que viva.</l>
+          </sp>
+          <sp who="#soldados #música">
+            <speaker>DENTRO TODOS</speaker>
+            <l n="535">Fuego abrase a quien derriba</l>
+          </sp>
+          <sp who="#soldados #música #idolatría">
+            <speaker>[Y LA IDOLATRÍA]</speaker>
+            <l>los Ídolos de Baal.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <stage>Salen cuatro vestidos de labradores, con bieldos y otras armas, tras GEDEÓN, y él defendiéndose, y en medio JOÁS, viejo venerable, y FARÁ huyendo.</stage>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="I">¡Deteneos!</l>
+          </sp>
+          <sp who="#labrador-1">
+            <speaker>LABRADOR 1.º</speaker>
+            <l part="F">¡Dadle muerte,</l>
+            <l>a quien bárbaro profana</l>
+            <l part="I">nuestro nuevo Dios!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="540" part="F">Tirana</l>
+            <l>gente, que lo es solo, advierte,</l>
+            <l>el Dios poderoso y fuerte</l>
+            <l>de Israel, y no otro, no.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Pues fui de diez que llevó</l>
+            <l n="545">para una acción tan cruel,</l>
+            <l>mientras le cascan a él</l>
+            <l>bien será escaparme yo.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Seguro estás, no has de huir.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¿No? Pues lo que hago verás.</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2 #labrador-3 #labrador-4">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Muera!</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="M">¡Deteneos!</l>
+          </sp>
+          <sp who="#labrador-2">
+            <speaker>LABRADOR 2.º</speaker>
+            <l n="550" part="F">Joás,</l>
+            <l>no tienes qué nos decir,</l>
+            <l>que tu hijo ha de morir</l>
+            <l>por tan sacrílega acción.</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2 #labrador-3 #labrador-4">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Muera!</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">¡Muera Gedeón!</l>
+            <stage>Pónese al lado de los otros.</stage>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="555">Pues ya que por mi Dios muero,</l>
+            <l>oíd una razón primero.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Aquí no ha de haber razón.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>U Dios u no Dios ha sido</l>
+            <l>el ídolo derribado:</l>
+            <l n="560">si no es Dios, ¿qué os he quitado?</l>
+            <l>si es Dios, ¿a quién he ofendido?</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2 #labrador-3 #labrador-4">
+            <speaker>TODOS</speaker>
+            <l part="I">A él.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">Pues ¿para qué, atrevido,</l>
+            <l>si él es Dios, contra los dos,</l>
+            <l>pueblo, su defensa vos</l>
+            <l n="565">tomáis sañudo y cruel?</l>
+            <l>Si él es Dios, dejadle a él,</l>
+            <l>que él se vengará si es Dios.</l>
+            <l>Y para que mi castigo</l>
+            <l>se suspenda de una vez,</l>
+            <l n="570">que soy Israel, tu Juez,</l>
+            <l>de parte de Dios te digo</l>
+            <stage>Retíranse todos tímidos y con reverencia.</stage>
+            <l>del idólatra enemigo</l>
+            <l>ha de librarte mi acero;</l>
+            <l>de el que es Dios favor espero,</l>
+            <l n="575">destruyendo al que no es Dios.</l>
+            <l>Ahora matad a los dos.</l>
+          </sp>
+          <sp who="#labrador-2">
+            <speaker>LABRADOR 2.º</speaker>
+            <l>¿Cómo he de matar, si muero</l>
+            <l>tanto a aquesa voz postrado,</l>
+            <l>con que me asombras y espantas,</l>
+            <l n="580">que más parezco a tus plantas</l>
+            <l>la estatua que has derribado?</l>
+          </sp>
+          <sp who="#labrador-3">
+            <speaker>LABRADOR 3.º</speaker>
+            <l>Tanto el afecto has trocado</l>
+            <l>de todos, con esta acción...</l>
+          </sp>
+          <sp who="#labrador-4">
+            <speaker>LABRADOR 4.º</speaker>
+            <l>...que todos aclamación</l>
+            <l part="I">han de darte...</l>
+          </sp>
+          <sp who="#labrador-1">
+            <speaker>LABRADOR 1.º</speaker>
+            <l n="585" part="F">...y de manera,</l>
+            <l>que por decir Gedeón muera</l>
+            <l>digan viva Gedeón.</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2 #labrador-3 #labrador-4">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Viva Gedeón!</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">¡Viva Gedeón!</l>
+          </sp>
+          <stage>Vuélvese al lado de GEDEÓN.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>No en vano, cuando de atroces</l>
+            <l n="590">a piadosos pasáis, digo</l>
+            <l>que cajas del enemigo,</l>
+            <stage>Suenan cajas y trompetas.</stage>
+            <l>rompen los vientos veloces.</l>
+            <l>A mí me llaman sus voces,</l>
+            <l>nobles tribus de Israel;</l>
+            <l n="595">¡seguidme!, que contra él,</l>
+            <l>no acaso, virtud divina,</l>
+            <l>a la sombra de una encina</l>
+            <l>me coronó de laurel;</l>
+            <l>su señal vi y aunque agora</l>
+            <l n="600">la reconozco por tal,</l>
+            <l>ha de darme otra señal</l>
+            <l>el rocío del aurora.</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l>Nadie que es de Dios ignora</l>
+            <l>tan misteriosa elección.</l>
+          </sp>
+          <stage>Cajas.</stage>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="605">Ya se acerca el escuadrón,</l>
+            <l>del Jordán a la ribera;</l>
+            <l part="I">¡muera el idólatra!</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2 #labrador-3 #labrador-4">
+            <speaker>TODOS</speaker>
+            <l part="F">¡Muera,</l>
+            <l part="I">y viva...</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="M">¿Quién?</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2 #labrador-3 #labrador-4">
+            <speaker>TODOS</speaker>
+            <l part="F">...¡Gedeón!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Eso no, el Dios de Israel</l>
+            <l n="610">habéis de decir que viva,</l>
+            <l>y cuando ese honor reciba</l>
+            <l>yo, por ser caudillo en él,</l>
+            <l>no Gedeón, pueblo fiel,</l>
+            <l>di, sino Geroboal,</l>
+            <l n="615">que es destruidor de Baal.</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2 #labrador-3 #labrador-4">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Geroboal viva!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">¡Oh cielo!,</l>
+            <l>no te ofendas si mi celo</l>
+            <l>te pidiere otra señal.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <stage>Éntrase con majestad y los otros con rendimiento; tocan cajas y trompetas y salen de un carro MADIÁN y de otro AMALEC representando aparte, mirando adentro.</stage>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>A los dulces compases de la trompa,</l>
+            <l n="620">de Jezrael mi gente el campo rompa.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>La vuelta del Jordán mi gente marche,</l>
+            <l>a las templadas cláusulas del parche...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>...y sus hermosas márgenes amenas,</l>
+            <l>en granates conviertan las arenas...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="625">...y rápido el raudal de sus cristales,</l>
+            <l>sus espejos guarnezcan de corales...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>...bebiendo, en vez de aljófares, horrores</l>
+            <l>el asustado vulgo de sus flores...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...hallando, en vez de fugitiva plata,</l>
+            <l n="630">lunas el sol de líquida escarlata...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>...¡tanta la derramada sangre sea,</l>
+            <l>de esta injusta cruel canalla hebrea!...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...¡tanta sea la sangre derramada,</l>
+            <l>de esta ingrata nación prevaricada!...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l n="635">...que de la primavera los pinceles,</l>
+            <l>ignoren que hay más flores que claveles...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...que del agua las crespas olas sumas,</l>
+            <l>no se acuerden jamás de que hubo espumas...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>...que del aire los cóncavos serenos,</l>
+            <l n="640">duden que haya más música que truenos,...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...que no sepan del fuego los desmayos,</l>
+            <l>que hay más luz que relámpagos y rayos,...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">...siendo la tierra horror,</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="F">...el mar portento,</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">...iras el fuego,...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="F">...escándalos el viento,...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l n="645">...falleciendo, a la vista del estrago,</l>
+            <l>aun antes que del golpe del amago...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...construyendo, en la orilla cristalina,</l>
+            <l>primero que la fábrica la ruina...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">...cuando abrasado yo,...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="F">...cuando yo ciego,...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l n="650">...les intimo la guerra a sangre y fuego.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...les notifico el último reposo.</l>
+            <stage>Vense ahora.</stage>
+            <l>Amalec valeroso,</l>
+            <l>cuya sagrada frente,</l>
+            <l>los rayos coronaron del Oriente.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l n="655">Invicto Madián, cuya infinita</l>
+            <l>gloria dio fama al reino madianita</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>Tú, cuyo nombre en frase hebrea construye,</l>
+            <l>ser pueblo que castiga y que destruye...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Tú, cuyo nombre el mismo idioma diga,</l>
+            <l n="660">ser juicio que pelea o que litiga...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...que es decir que en ti viene su castigo...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>...que es decir que su juicio está contigo...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...dame, dame los brazos,</l>
+            <l>que de eterna amistad han de ser lazos.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l n="665">Y vida y alma en ellos,</l>
+            <l>por eslabón que engace nuestros cuellos.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>¿Cómo viene la gente?</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Sufriendo mal del sol la llama ardiente;</l>
+            <l>si bien la lisonjea la esperanza</l>
+            <l n="670">de que ha de ver lograda su venganza</l>
+            <l>quitando de una vez a estos hebreos</l>
+            <l>la posesión que de los amorreos</l>
+            <l>tiranizaron cuando peregrinos</l>
+            <l>por desiertos caminos,</l>
+            <l n="675">con el nombre de Tierra Prometida,</l>
+            <l>en esta tierra hallaron acogida.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>Esos mismos trofeos,</l>
+            <l>alimenta el calor de mis deseos;</l>
+            <l>para esto te he pedido</l>
+            <l n="680">el favor auxiliar con el partido</l>
+            <l>de que después gocemos</l>
+            <l>la tierra entre los dos que conquistemos...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Claro está que esa ha sido</l>
+            <l>la capitulación con que he venido...</l>
+            <stage>Aparte.</stage>
+            <l n="685">mas, si bien lo supieras...</l>
+            <l>de otra suerte mis armas admitieras.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <stage>Aparte.</stage>
+            <l>...si bien lo imaginaras,</l>
+            <l>de otra suerte ayudarme procuraras.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>...pues apenas habré vencido... pero,</l>
+            <l n="690">ni aun a mí revelar mi intento quiero.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...pues apenas habré... pero ¿qué digo?</l>
+            <l>que aquesto no he de hablarlo yo conmigo.</l>
+            <stage>Alto.</stage>
+            <l part="I">¿Cómo la marcha ha sido?</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">De esta suerte.</l>
+            <l part="I">Yo...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <stage>Dentro.</stage>
+            <l part="M">¡Amalec! ¡Madián!</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="M">¡Escucha!</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="F">¡Advierte!</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l n="695">¿Qué lejana lisonja del oído,</l>
+            <l>es nuestro nombre, al viento repetido?</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>A mí más me parece que lejana</l>
+            <l>lisonja suya, lástima cercana,</l>
+            <l>según tímida asombra,</l>
+            <l n="700">la voz que por su esfera se derrama.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <stage>Dentro.</stage>
+            <l part="I">¡Madián!</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="F">¿Quién me llama?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <stage>Dentro.</stage>
+            <l part="I">¡Amalec!</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">¿Quién me nombra?</l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <stage>Sale la IDOLATRÍA, de dama ricamente vestida.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Quien de su cuerpo apenas trae la sombra,</l>
+            <l>y triste, miserable y afligida,</l>
+            <l n="705">sin ser, sin alma, sin aliento y vida,</l>
+            <l>mortal, confusa, absorta, helada y ciega,</l>
+            <l>de vuestros pies a los sagrados llega</l>
+            <l>por favor, por reparo,</l>
+            <l>por piedad, por auxilio y por amparo,</l>
+            <l n="710">pues sola esta esperanza,</l>
+            <l>de que en los dos estriba mi venganza,</l>
+            <l>por reliquia quedó de mi ventura.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">¡Qué celestial belleza!</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="F">¡Qué hermosura!</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Alza, prodigio bello,</l>
+            <l n="715">(¡qué segura prisión es un cabello!)</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>Alza, divino encanto,</l>
+            <l>(¡qué natural afecto ha sido el llanto).</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Y di a los dos, ¿quién eres?,</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">¿qué pretendes?,</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">¿qué quieres?,</l>
+          </sp>
+          <sp who="#amalec #madián">
+            <speaker>LOS DOS</speaker>
+            <l n="720">que ya son de los dos, propios tus daños.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <stage>Aparte.</stage>
+            <l>¡Oh! ¡Válgame el disfraz de mis engaños!</l>
+            <stage>Alto.</stage>
+            <l>Yo soy una infelice madianita,</l>
+            <l>con mezcla de la sangre amalequita,</l>
+            <l>(tanto a los dos alcanza</l>
+            <l n="725">el pretexto, ¡ay de mí!, de mi venganza):</l>
+            <l>en mi edad fui primera</l>
+            <l>de Baal pitonisa, y de manera</l>
+            <l>poseía mi espíritu su pecho</l>
+            <l>para sus vaticinios, que sospecho</l>
+            <l n="730">(si es verdad que lo amado se transforma</l>
+            <l>en lo que ama) que amó y amé de forma</l>
+            <l>que fueron en la unión de tanto abismo,</l>
+            <l>su espíritu y mi espíritu uno mismo.</l>
+            <l>La cercanía de ese advenedizo</l>
+            <l n="735">pueblo alianza con nosotros hizo</l>
+            <l>de suerte que mezclándose infinitos</l>
+            <l>con nuestras ceremonias, nuestros ritos,</l>
+            <l>altares a Baal labraron bellos,</l>
+            <l>con que a vivir pude pasar con ellos.</l>
+            <l n="740">Hoy, pues, como se miran perseguidos</l>
+            <l>de vuestras armas, tristes y afligidos,</l>
+            <l>de su Dios, ¡ay de mí!, se han acordado,</l>
+            <l>cierta señal de hallarse en mal estado,</l>
+            <l>pues ingrato se llama,</l>
+            <l n="745">quien sin necesidad a Dios no clama.</l>
+            <l>Un caudillo valiente,</l>
+            <l>de Gedeón el nombre lo publica,</l>
+            <l>pues quien fuerzas quebranta significa,</l>
+            <l>a su Dios obediente,</l>
+            <l n="750">Juez de Israel se llama,</l>
+            <l>y para dar principio a tanta fama</l>
+            <l>como ganar espera,</l>
+            <l>su hazaña fue primera</l>
+            <l>haber las aras de Baal postrado,</l>
+            <l n="755">sus ídolos y estatuas derribado,</l>
+            <l>conque es fuerza que, huyendo,</l>
+            <l>a vosotros me vuelva, pretendiendo,</l>
+            <l>cuando mi pena mira</l>
+            <l>cuánto mi Dios y vuestro Dios se agravia,</l>
+            <stage>Tiemblan los dos.</stage>
+            <l n="760">tocaros del veneno de mi rabia,</l>
+            <l>del tósigo inflamaros de mi ira,</l>
+            <l>y pues el Dios que inspira</l>
+            <l>alientos que el valor vuestro confiesa</l>
+            <l>ultrajado se halla</l>
+            <l part="I">a manos...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="765" part="F">No prosigas,¡ calla, calla!...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">...de un traidor...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">No prosigas, ¡cesa, cesa!...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <stage>Aparte.</stage>
+            <l>Ya ardió, dispuesta estaba la pavesa.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...que no sé qué veneno por mi oído,</l>
+            <l>áspid tu voz el aire ha introducido...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l n="770">...que no sé qué furor de tus enojos,</l>
+            <l>basilisco es del viento por los ojos...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">...que envuelto en ira...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">...en cólera deshecho...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">...Etna es el corazón...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">...volcán el pecho.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>Y pues ya va la noche obscura y fría,</l>
+            <l n="775">a parasismos desahuciando el día,</l>
+            <l>hagamos alto aquí y el orden demos,</l>
+            <l>con que al primer albor del alba ufana,</l>
+            <l>las tropas arrojemos</l>
+            <l>a los esguazos del Jordán mañana.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l n="780">Apenas de carmín, de nieve y grana,</l>
+            <l>matizados darán sus arreboles,</l>
+            <l>en un sol tantos soles</l>
+            <l>cuantos de nuestras armas los reflejos,</l>
+            <l>con bruñidos espejos</l>
+            <l n="785">le repitan a rayos,</l>
+            <l>cuando sienta los últimos desmayos</l>
+            <l>toda esa ingrata tierra,</l>
+            <l part="I">que profana...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>DENTRO</speaker>
+            <l part="M">¡Arma, arma!</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>OTROS</speaker>
+            <l part="F">¡Guerra, guerra!</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">¿Qué temerosa voz,...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="F">¿Qué veloz eco,...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">...de castigada piel,...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="790" part="F">...de metal hueco...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>...el viento desvanece?</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...de esotra parte del Jordán parece?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Aquesto es que, marchando,</l>
+            <l>se van los tribus de Israel juntando</l>
+            <l n="795">a su nuevo caudillo.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Porque no haga novedad oíllo</l>
+            <l>en nuestro campo, en esa orilla fría,</l>
+            <l>recorre tú tu gente y yo la mía.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>Sí haré, bella deidad, aquí te espera,</l>
+            <l n="800">y de mí fía que matando muera.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Aguarda aquí, bella deidad altiva</l>
+            <l>y de mí fía que muriendo viva.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">¿No te vas?</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="M">Sí, si tú te vas.</l>
+          </sp>
+          <sp who="#amalec #madián">
+            <speaker>LOS DOS</speaker>
+            <l part="F">¡Oh cielos,</l>
+            <l>donde hay furor de más están los celos!</l>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <stage>Vanse.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="805">Bien mi pretensión logré,</l>
+            <l>pues en los dos conseguí</l>
+            <l>con iras para matar,</l>
+            <l>afectos para morir.</l>
+            <l>Mas ¡ay de mí!, que no basta,</l>
+            <l n="810">que es muy desigual la lid,</l>
+            <l>cuando en un pecho pelea</l>
+            <l>un deseo contra mil!</l>
+            <l>Dígalo el de las pasadas</l>
+            <l>dudas que no percibí,</l>
+            <l n="815">pues mal segura, aunque ponga</l>
+            <l>medios que estorben su fin,</l>
+            <l>no sosiego hasta que llegue,</l>
+            <l>si no a saber, a inquerir,</l>
+            <l>qué luces consigo traen</l>
+            <l n="820">aquellos visos; y así,</l>
+            <l>pues ya desdoblado el ceño</l>
+            <l>de la noche veo esparcir</l>
+            <l>su negro manto, embozada</l>
+            <l>de él, valiéndose mi ardid</l>
+            <l n="825">de sombras contra las sombras,</l>
+            <l>al campo contrario he de ir,</l>
+            <l>espía perdida (¡cielos!</l>
+            <l>y bien perdida, ¡ay de mí!,</l>
+            <l>soy de mí misma). En quietud,</l>
+            <l n="830">yace todo su país.</l>
+            <l>Pasar me dejan las postas,</l>
+            <l>señal que este pueblo vil,</l>
+            <l>bien que de sí me ha dejado</l>
+            <l>no bien me ha echado de sí,</l>
+            <l n="835">si ya no es para que vea,</l>
+            <l>pues no ha menester lucir</l>
+            <l>para mí el sol, algo que</l>
+            <l>me esté mal, y será así,</l>
+            <l>pues no sin algún misterio</l>
+            <l n="840">de su tienda veo salir</l>
+            <l>solo a Gedeón trayendo</l>
+            <l>en sus manos un sutil</l>
+            <l part="I">blanco vellón;</l>
+
+            <l part="F">de su gente</l>
+            <l>se aparta; bien desde aquí</l>
+            <l part="I">veré dónde va.</l>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <stage>Sale GEDEÓN, con recato, trayendo en un azafate un vellón blanco.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="845" part="F">Señor,</l>
+            <l>no de mi duda y de mí,</l>
+            <l>os ofendáis, pues mi duda,</l>
+            <l>mejor que yo percibís,</l>
+            <l>y sabéis que no es de vos.</l>
+            <l n="850">Del menor tribu nací,</l>
+            <l>si no en edad, en poder;</l>
+            <l>pues, ¿cómo he de persuadir</l>
+            <l>a mi humildad que merece</l>
+            <l>el cargo a que me elegís,</l>
+            <l n="855">sin muchas señales vuestras?</l>
+            <l>Con esta salva, decid:</l>
+            <l part="I">¿mi duda os ofende?</l>
+          </sp>
+          <stage>Dentro MÚSICA.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">No.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¿Daisme esta licencia?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Inspiraciones el cielo</l>
+            <l part="I">le invía.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="860" part="F">Pues siendo así,</l>
+            <l>que de vos favorecido</l>
+            <l>con auxilios me asistís,</l>
+            <l>este cándido vellón,</l>
+            <l>tan de nieve que temí</l>
+            <l n="865">que al tocarle, entre las manos</l>
+            <l>se había de derretir,</l>
+            <stage>Va subiendo al monte.</stage>
+            <l>esta pura piel, tan pura,</l>
+            <l>que no la podrá argüir</l>
+            <l>de átomo de mancha en ella</l>
+            <l n="870">el ingenio más sutil,</l>
+            <l>sobre esta piedra os consagro</l>
+            <l>temeroso hasta inferir</l>
+            <l part="I">si os ofendo en esto.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">No.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¿Dais os por servido?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="875">Pues en esa confianza,</l>
+            <l>si he de vencer, permitid,</l>
+            <l>que en prendas de la victoria</l>
+            <l>halle, Señor, al reír</l>
+            <l>del alba en ella cuajado</l>
+            <l n="880">sin que se llegue a esparcir</l>
+            <l>a otra parte su rocío:</l>
+            <l>esta es la señal que aquí</l>
+            <l part="I">os pido, ¿es injusta?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">No.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¿Concederéismela?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="885">Pues queda, ¡oh cándida piel!,</l>
+            <l>a la esperanza sutil</l>
+            <stage>Bajando.</stage>
+            <l>de la más hermosa aurora</l>
+            <l>que a la tierra ha de venir,</l>
+            <l>pues ha de venir no más</l>
+            <l n="890">que a fertilizarte a ti</l>
+            <stage>Yéndose.</stage>
+            <l>para que venzamos todos,</l>
+            <l>pues su rocío feliz</l>
+            <l>ninguna sino tú sola</l>
+            <l>le merece concebir.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <stage>Vase.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="895">«¿Ninguna, sino tú sola</l>
+            <l>le merece concebir?»</l>
+            <l part="I">¿No ha de alcanzarle otra?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">No.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Ella sola ha de ser?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Pues porque no llegue a verse</l>
+            <l n="900">experiencia para mí,</l>
+            <l>tan a toda costa, yo</l>
+            <l>quitaré la piel de allí,</l>
+            <l>ajando su limpia tez.</l>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <stage>Sale el ÁNGEL.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Eso no, serpiente vil,</l>
+            <l n="905">que será culpa, y la Culpa</l>
+            <l>no puede llegar aquí.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¿Aquí la Culpa no puede</l>
+            <l part="I">llegar?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">No, que este jardín</l>
+            <l>es Paraíso que tiene</l>
+            <l n="910">de guarda su querubín.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¿Jardín es y guarda tiene</l>
+            <l part="I">piel que es como todas?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Sí;</l>
+            <l>porque aunque ella es como todas</l>
+            <l part="I">ninguna es como ella.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">En fin,</l>
+            <l n="915">yo he de llegar a quitarla.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">No llegarás.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">¡Ay de mí!,</l>
+            <stage>Saca la espada el ÁNGEL, ella espantada cae, y él la pone el pie encima.</stage>
+            <l>que tropezando en las sombras</l>
+            <l part="I">tu pie beso.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Eso es decir</l>
+            <l>que yo, en fee de guarda suya,</l>
+            <l n="920">te he pisado la cerviz;</l>
+            <l>y para que mejor veas</l>
+            <l>el misterio que hay aquí,</l>
+            <l>ya que al compás de las aves</l>
+            <l>empieza el alba a reír,</l>
+            <l n="925">vuelve a esas nubes los ojos.</l>
+          </sp>
+          <stage>Pájaros dentro. Ábrense las cuatro nubes. En la primera está la AURORA, con manto azul y corona de flores; en la segunda la MIES, con guirnalda de espigas; en la tercera el MONTE, con un árbol en la mano; en la cuarta el PRADO, con un cordero. Si se pudieren ajustar los vestidos, la MIES ha de tener manto dorado, el MONTE pardo, el PRADO verde. Adviértese que sola la nube del vellón ha de estar lloviendo unos copos de algodón.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Ya sus senos miro abrir,</l>
+            <l>una allí sobre la piel,</l>
+            <l>sobre la mies otra allí,</l>
+            <l>allí sobre el monte otra,</l>
+            <l n="930">y sobre el prado gentil</l>
+            <l>otra allí; pero no miro</l>
+            <l>que su rocío sutil</l>
+            <l>cuaje en mies o monte o prado,</l>
+            <l>sino solo, ¡ay infeliz!,</l>
+            <l n="935">sobre la cándida piel,</l>
+            <l>pues sobre ella un mar de Ofir</l>
+            <l>se está desplegando a hojas</l>
+            <l>de aljófar, nieve, y jazmín;</l>
+            <l>ella sola en cuantas vagan</l>
+            <l n="940">la campaña de zafir,</l>
+            <l>llueve el hermoso rocío</l>
+            <l>de maná, que otra vez vi</l>
+            <l>en el desierto cuajando</l>
+            <l>ciento a ciento y mil a mil,</l>
+            <l n="945">los copos sobre el vellón,</l>
+            <l>sin llegarle a repartir</l>
+            <l>con mies, ni monte, ni prado.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">¿Ves la Aurora en ella?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Sí,</l>
+            <l>por señas que el azul manto</l>
+            <l n="950">tiene al hombro por cenit,</l>
+            <l>y en su frente una guirnalda</l>
+            <l>obstenta en vario matiz</l>
+            <l>ser lucero cada rosa</l>
+            <l>y estrella cada alhelí.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="955">Pues oye a la Mies, al Monte,</l>
+            <l>y al Prado ahora discurrir,</l>
+            <l>interpolando las aves</l>
+            <l>la salva en que han de decir:</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Este, no manchada piel,</l>
+            <l n="960">es el rocío feliz,</l>
+            <l>que nadie, sino esta sola</l>
+            <l>le merece concebir.</l>
+          </sp>
+          <sp who="#mies">
+            <speaker>MIES</speaker>
+            <l>Sacro honor de las auroras,</l>
+            <l>que con labios de rubíes,</l>
+            <l n="965">cuando para todos ríes</l>
+            <l>para sola una piel lloras:</l>
+            <l>la Mies soy, y pues mejoras</l>
+            <l>el fruto, en nadie es más justo</l>
+            <l>tu albor esparcir augusto,</l>
+            <l n="970">que en el fértil campo mío.</l>
+            <l>¡Llueva el cielo su rocío;</l>
+            <l>dennos las nubes al Justo!</l>
+          </sp>
+          <sp who="#monte">
+            <speaker>MONTE</speaker>
+            <l>Bella alba, que esplendor tanto</l>
+            <l>a dar hoy al mundo llegas:</l>
+            <l n="975">el Monte soy, ¿por qué niegas</l>
+            <l>a mis árboles tu llanto?</l>
+            <l>Cuanto esperaron y cuanto</l>
+            <l>temieron ver fruto y flor,</l>
+            <l>confiaron en tu albor.</l>
+            <l n="980">Si en sólo un vellón se encierra,</l>
+            <l>¡abra sus senos la tierra,</l>
+            <l>y produzca al Salvador!</l>
+          </sp>
+          <sp who="#prado">
+            <speaker>PRADO</speaker>
+            <l>Precursora que has llegado,</l>
+            <l>con tan cándido arrebol,</l>
+            <l n="985">a dar primicias del sol,</l>
+            <l>¿cómo te olvidas del Prado?</l>
+            <l>Muerto pace mi ganado</l>
+            <l>de sed, sin paz, ni quietud,</l>
+            <l>si le niegas tu virtud,</l>
+            <l n="990">dirá con llanto prolijo:</l>
+            <l>¡danos, Señor, a tu Hijo;</l>
+            <l>envíanos la salud!</l>
+          </sp>
+          <sp who="#mies">
+            <speaker>MIES</speaker>
+            <l>Duélete de estas espigas</l>
+            <l>que desconsoladas dejas.</l>
+          </sp>
+          <sp who="#monte">
+            <speaker>MONTE</speaker>
+            <l n="995">Oye a estas hojas las quejas</l>
+            <l>con que a gemir las obligas.</l>
+          </sp>
+          <sp who="#prado">
+            <speaker>PRADO</speaker>
+            <l>Considera las fatigas</l>
+            <l>que el rebaño ha de sentir.</l>
+          </sp>
+          <sp who="#mies #monte #prado">
+            <speaker>LOS TRES</speaker>
+            <l>De una piel se ha de decir</l>
+            <l n="1000">a quien tu albor acrisola.</l>
+          </sp>
+          <sp who="#mies #monte #prado #música">
+            <speaker>ELLOS Y MÚSICA</speaker>
+            <l>Que nadie sino ella sola</l>
+            <l>le merece concebir.</l>
+          </sp>
+          <stage>Sube el ÁNGEL a lo alto.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¡Salve, Aurora celestial!,</l>
+            <l>que llena de gracia vi</l>
+            <l n="1005">cuando está estéril la tierra,</l>
+            <l>sobre una piel esparcir</l>
+            <l>solamente su rocío.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿A ella te arrodillas?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Sí,</l>
+            <l>porque esto es lo que ha de ser.</l>
+          </sp>
+          <sp who="#aurora">
+            <speaker>AURORA</speaker>
+            <l n="1010">Árido seco confín</l>
+            <l>del mundo, que al Alba esperas</l>
+            <l>a beber para vivir;</l>
+            <l>Mieses, Montes, Prados bellos</l>
+            <l>no os quejéis por hoy de mí,</l>
+            <l n="1015">si hoy con vosotros avara</l>
+            <l>no llegare a repartir</l>
+            <l>generalmente el rocío</l>
+            <l>que en vuestras quejas pedís,</l>
+            <l>porque hoy a sola esta piel</l>
+            <l n="1020">mi albor se ha de reducir;</l>
+            <l>así lo manda el Señor,</l>
+            <l>su voluntad es: en mí</l>
+            <l>cúmplase su voluntad</l>
+            <l>solamente se ha de oír.</l>
+          </sp>
+          <sp who="#ángel #idolatría #aurora">
+            <speaker>LOS TRES</speaker>
+            <l n="1025">Con esa disculpa ya</l>
+            <l>no nos dejas qué sentir.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Pues, Aves, Mies, Monte y Prado</l>
+            <l>volved todos a decir:</l>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <stage>Mientras se canta representa la IDOLATRÍA.</stage>
+          <sp who="#música #ángel #idolatría #aurora #mies #monte #prado">
+            <speaker>MÚSICA Y TODOS</speaker>
+            <l>Este, no manchada piel,</l>
+            <l n="1030">es el rocío feliz</l>
+            <l>que nadie sino esta sola</l>
+            <l>le merece concebir.</l>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <stage>Ciérranse las nubes quedando el ÁNGEL dentro; tocan cajas y trompetas y salen los que pudieren marchando y detrás GEDEÓN con insignias y traje de general, JOÁS, y FARÁ vestido de soldado redículo.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¡Oh! ¿Para qué, cielo santo,</l>
+            <l>estas sombras prevenís?;</l>
+            <l n="1035">pues cuando las luces vea</l>
+            <l>no las he de percibir,</l>
+            <l>porque éste es aquel misterio</l>
+            <l>reservado para mí.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Haced alto, porque antes</l>
+            <l n="1040">que llegue a ver y advertir</l>
+            <l>qué gente juntó la voz</l>
+            <l>de mi primero clarín</l>
+            <l>ni empiece la marcha; solo</l>
+            <l>a aquel monte he de subir;</l>
+            <l n="1045">aquí me esperad y nadie</l>
+            <l>se atreva a pasar de aquí.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¿Pues qué tienes en el monte,</l>
+            <l>que ver ni qué descobrir?</l>
+            <l>Si estará como está el prado:</l>
+            <l n="1050">¿no le ves todo morir</l>
+            <l>de sed?, porque el alba hoy,</l>
+            <l>según alegre la vi,</l>
+            <l>sin atreverse a llorar</l>
+            <l>se le va todo en reír.</l>
+            <stage>Sube al monte.</stage>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="1055">Esperadme, que ya vuelvo.</l>
+            <l>Señor, a tu pueblo di</l>
+            <l>tus secretos, porque vea,</l>
+            <l>en fee de que fía de mí,</l>
+            <l>sus esperanzas. Temblando</l>
+            <l n="1060">piso el último perfil</l>
+            <l>del margen... ¿si está el rocío</l>
+            <l>en la piel cuajado?... Sí,</l>
+            <l>que nadie sino ella sola</l>
+            <l>le mereció concebir.</l>
+            <l n="1065">¡Albricias!, Israel, ¡albricias!,</l>
+            <l>que ya tu suerte es feliz;</l>
+            <l>cierta es tu victoria; el cielo</l>
+            <l>la señal que le pedí</l>
+            <l>me ha concedido: ya veis</l>
+            <l n="1070">que está por todo el país</l>
+            <l>seca y árida la tierra;</l>
+            <l>pues es que quiere decir,</l>
+            <l>que en su mayor sequedad</l>
+            <l>la lluvia le ha de venir</l>
+            <l n="1075">de la gracia en una nube</l>
+            <l>cuyo sagrado viril</l>
+            <l>penetra el rayo del sol</l>
+            <l>sin romperle, a cuyo fin,</l>
+            <l>este blanco vellón leve</l>
+            <l n="1080">que al hielo esta noche estuvo,</l>
+            <l>tanta sed de nieve tuvo</l>
+            <l>como si él no fuera nieve.</l>
+            <l>Las perlas que el Alba bebe,</l>
+            <l>yo, que he merecido verlas,</l>
+            <l n="1085">en nácar he de cogerlas,</l>
+            <stage>Exprime el vellón en una concha que sacará del pecho.</stage>
+            <l>porque tengan a un compás</l>
+            <l>si aquesto de nieve más</l>
+            <l>esto más también de perlas.</l>
+            <l>La concha que al sol concibe</l>
+            <l n="1090">el llanto del Alba bella,</l>
+            <l>para que se cuaje en ella,</l>
+            <l>se abre cuando la recibe;</l>
+            <l>cuando ya cuajado vive</l>
+            <l>también después se abre, pues</l>
+            <l n="1095">¿qué será que ésta que ves</l>
+            <l>conciba y quedarse quiera,</l>
+            <l>antes y después entera,</l>
+            <l>intacta antes y después?</l>
+            <l>Y para más argumento,</l>
+            <l n="1100">aún no ha de quedarse aquí</l>
+            <l>la experiencia: si es, Señor,</l>
+            <l>mucho pedir, advertid,</l>
+            <l>que es desaire del poder</l>
+            <l>pedir poco, y es decir</l>
+            <l n="1105">que no se atreve a fiar</l>
+            <l>quien no se atreve a pedir.</l>
+            <l>Otra vez pongo el vellón</l>
+            <l>donde le hallé; permitid</l>
+            <l>que la sequedad mañana</l>
+            <l n="1110">se enmiende con esparcir</l>
+            <l>por todo el orbe el rocío</l>
+            <l>y solamente no aquí,</l>
+            <l>porque esta piel una vez</l>
+            <l>sola le ha de concebir,</l>
+            <l n="1115">mostrando que esa es bastante</l>
+            <l>a fecundar y lucir</l>
+            <l>todo lo demás, haciendo</l>
+            <stage>Baja.</stage>
+            <l>renacer y revivir</l>
+            <l>desde la más alta copa</l>
+            <l n="1120">hasta la menor raíz.</l>
+          </sp>
+          <sp who="#aurora">
+            <speaker>UNO</speaker>
+            <l>¿Tú entendiste algo de aquello?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¿Pues no? Todo lo entendí.</l>
+          </sp>
+          <sp who="#mies">
+            <speaker>OTRO</speaker>
+            <l part="I">¿Qué quiso decir?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">Mirad:</l>
+            <l>lo que es acá, para mí,</l>
+            <l n="1125">lo que dijo sé, mas no</l>
+            <l>sé lo que quiso decir,</l>
+            <l>si bien, aunque mentecato,</l>
+            <l>he llegado a descorrir,</l>
+            <l>que vellón que se hace prata</l>
+            <l n="1130">quiere a gran precio sobir.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Empiece la marcha agora.</l>
+            <stage>La caja.</stage>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l>La gente que viene allí</l>
+            <l>del tribu es de Manasés.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¿Y ésta?</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="F">De el de Neptalí;</l>
+            <l n="1135">esta es del de Zabulón.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>¿La de Isacar y Leví,</l>
+            <l part="I">y Simeón?</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="F">No han llegado.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¿Cuántos hay?</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="F">Treinta y dos mil.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Pues no esperemos a más,</l>
+            <l n="1140">que ¿quién ha de resistir</l>
+            <l>con treinta y dos mil soldados</l>
+            <l>a Gedeón? Repetid</l>
+            <l>que empiece la marcha, que antes</l>
+            <l>que el sol trascienda al nadir,</l>
+            <l n="1145">de Jezrael la esmeralda</l>
+            <l>será encendido rubí.</l>
+            <l>¿Treinta y dos mil? Nuestra es</l>
+            <l>la victoria; ¡ea!, a impedir</l>
+            <l>los esguazos del Jordán,</l>
+            <l n="1150">porque ¿quién, quién, sin huir</l>
+            <l>ha de poder oponerse</l>
+            <l>a treinta y dos mil y a mí?</l>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <stage>La caja, y yendo marchando, sale el ÁNGEL al paso.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¿Cómo tan desvanecido,</l>
+            <l>en fee de la gente, di,</l>
+            <l n="1155">piensas vencer sin dar parte</l>
+            <l part="I">a Dios del triunfo?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">¡Ay de mí!</l>
+            <l>desvanecióme el poder.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>A muchos sucede así.</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>SOLDADO 3.º</speaker>
+            <l>¿Con quién habla Gedeón?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1160">Como es loco habla entre sí,</l>
+            <l>si bien aquesta locura</l>
+            <l>de mandar y de regir</l>
+            <l>el pueblo no ha sido mala.</l>
+            <l>¡Triste y mísero de mí!,</l>
+            <l n="1165">que siempre fui loco y nunca</l>
+            <l>loco de provecho fui.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">¡Manda hacer alto!...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">¡Haced alto!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>...que para que atribuir</l>
+            <l>no se pueda la victoria</l>
+            <l n="1170">sino a Dios solo y no a ti</l>
+            <l>ni al número que contigo</l>
+            <l>llevas. Él te habla por mí</l>
+            <l>y te dice que eches bando</l>
+            <l>que se vuelvan desde aquí</l>
+            <l n="1175">los que no se hallaren fuertes</l>
+            <l>y osados para la lid.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Echad un bando de que</l>
+            <l>cuantos se hallaren, oíd,</l>
+            <l>pusilánimes, se vuelvan.</l>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <stage>Vase JOÁS.</stage>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1180">¿Qué es lo que quiere decir</l>
+            <l>pojilánimo?, que yo,</l>
+            <l>si no tengo de mentir,</l>
+            <l>en esta ocasión me holgara</l>
+            <l>el ser ánima pojil.</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>SOLDADO 4.º</speaker>
+            <l n="1185">Pusilánimo es medroso,</l>
+            <l>cobarde, tímido y vil.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Yo so pojil según eso;</l>
+            <l part="I">Señor, a Dios.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="M">¿Te vas?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">Sí,</l>
+            <l>que si ser pojilanimo,</l>
+            <l n="1190">es lo mismo que decir</l>
+            <l>vil y tímido y cobarde,</l>
+            <l>el bando me coge a mí</l>
+            <l part="I">de medio a medio.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">¡Detente!</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>O soy o no soy pojil;</l>
+            <l n="1195">vos, que también tenéis traza</l>
+            <l>pojilánima, venid.</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>SOLDADO 1.º</speaker>
+            <l>Eso no, con Gedeón</l>
+            <l>he de quedarme a morir.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Tú no eres, Fará, soldado,</l>
+            <l n="1200">sino criado, y así</l>
+            <l>el bando no habla contigo.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¡Cómo no ha de hablar con mí-</l>
+            <l>go, que yo no le echo porque</l>
+            <l>me quite el habla, antes sí</l>
+            <l n="1205">le echo porque me la dé,</l>
+            <l>pues confieso que so un vil,</l>
+            <l>un tímido y un cobarde.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Tú, Fará, no te has de ir.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¡Sí he de ir!; ¡aquí de Dios!,</l>
+            <l n="1210">¿o soy o no soy pojil?</l>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <stage>La caja y sale JOÁS alborotado.</stage>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l>¿Qué has mandado, Gedeón?</l>
+            <l>Mira que vas a morir.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="F">Apenas se echó el bando</l>
+            <l>cuando empezaron a huir</l>
+            <l n="1215">de las tres partes las dos.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Sola aquesta vez ser vi</l>
+            <l>más los cuerdos que los locos.</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l>No te han quedado diez mil</l>
+            <l>soldados, a tiempo que</l>
+            <l n="1220">Madián, fiero adalid,</l>
+            <l>del Jordán quebrando pasa</l>
+            <l>el cristalino viril,</l>
+            <l>con tanto número que</l>
+            <l>no le pueden competir</l>
+            <l n="1225">en multitud y colores</l>
+            <l>los ejércitos de abril.</l>
+            <l>¡Vuelve a mandar que se vuelvan!</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">¡No hagas tal!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">¡Dejadlos ir!,</l>
+            <l>que aunque el número le pese,</l>
+            <l n="1230">confesará que en la lid</l>
+            <l>lo noble siempre es lo más,</l>
+            <l>lo menos siempre es lo ruin.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Y tanto, que aun de los diez,</l>
+            <l>por si ha podido fingir</l>
+            <l n="1235">en algunos la vergüenza</l>
+            <l>el ánimo varonil,</l>
+            <l>has de examinar en una</l>
+            <l part="I">experiencia. Escucha.</l>
+          </sp>
+          <stage>Hablan aparte.</stage>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">¡En fin!,</l>
+            <l>¿por ser criado, no so</l>
+            <l part="I">yo pojilánimo?</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>SOLDADO 2.º</speaker>
+            <l n="1240" part="F">Sí,</l>
+            <l>pero no te alcanza el bando.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Alcánceme, pese a mí,</l>
+            <l>que no corro mucho ahora,</l>
+            <l>que aún no ha llegado el huir.</l>
+            <stage>Yéndose.</stage>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I">Eso has de hacer.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="1245" part="F">¿Los osados</l>
+            <l part="I">quieres que despida?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Pues si habían de volverse</l>
+            <l>¿por qué los mandas venir?</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>Porque ésta ha de ser victoria</l>
+            <l part="I">de la fee, y en ella...</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="1250" part="F">Di.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>...es una cosa el llamar</l>
+            <l>y otra cosa el elegir.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <stage>Vase.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>¡Valientes soldados míos!,</l>
+            <l>ya veo cuánto venís</l>
+            <l n="1255">fatigados del calor:</l>
+            <l>bebed todos, porque si</l>
+            <l>pasa el contrario el Jordán</l>
+            <l>y nos retira de aquí,</l>
+            <l>sed tendremos en el monte;</l>
+            <l n="1260">este daño prevenid</l>
+            <l>bebiendo todos primero.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¡Bebamos!; para eso sí</l>
+            <l>que no seré pojil yo;</l>
+            <l>mas, ¿qué hemos de beber? Di,</l>
+            <l n="1265">que yo tengo linda sed</l>
+            <l>y haré la razón por mil.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Los cristales del Jordán.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¿Cómo es eso de los cris-,</l>
+            <l part="I">tales por cuales?</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>SOLDADO 1.º</speaker>
+            <l part="F">Al agua</l>
+            <l part="I">ven.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1270" part="F">¡A muy lindo barril</l>
+            <l part="I">de torrente!</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>SOLDADO 2.º</speaker>
+            <l part="F">¡A beber vamos!</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <stage>Vase.</stage>
+          <sp who="#soldados">
+            <speaker>SOLDADO 3.º</speaker>
+            <l>Yo no puedo resistir</l>
+            <l part="I">más la sed.</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>SOLDADO 4.º</speaker>
+            <l part="F">El pecho al agua,</l>
+            <l>como se suele decir,</l>
+            <l part="I">me he de echar; ¿no vienes?</l>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <stage>Vanse.</stage>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1275" part="F">¿Yo?</l>
+            <l>Pues ¿qué dijera una vid,</l>
+            <l>que está allí con tanto ojo,</l>
+            <l>jurándomela por sí</l>
+            <l part="I">o por no?</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="M">¿No vas?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">¿Yo al agua?;</l>
+            <l n="1280">en mi vida la bebí,</l>
+            <l>ni la bebiera en mi vida,</l>
+            <l>sino solamente aquí,</l>
+            <l>que me ha cogido por sed.</l>
+            <l>Madres, las que hijos parís,</l>
+            <l n="1285">no paráis en signo acuario.</l>
+            <l>¡Protesto!, señora vid,</l>
+            <l>que no me pare perjuicio</l>
+            <stage>Al llegar, tocan la caja.</stage>
+            <l>aquesto; mas, ¡ay de mí!,</l>
+            <l>que está el enemigo enfrente,</l>
+            <l n="1290">y aun dos, el río ahora vi,</l>
+            <l>que para beber el agua</l>
+            <l>no es el miedo buen anís.</l>
+            <l>Sin atreverme a arrojar</l>
+            <l>tengo de beber así,</l>
+            <l n="1295">en pie y con la mano, que es</l>
+            <l>dispuesto estar para huir.</l>
+            <stage>Hace que bebe con la mano.</stage>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l>¿Para qué aquesa experiencia</l>
+            <l part="I">haces?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">Ahora lo has de oír.</l>
+            <l>¡Valientes soldados míos!,</l>
+            <l part="I">¿bebisteis ya todos?</l>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <stage>Salen los cuatro.</stage>
+          <sp who="#soldados">
+            <speaker>TODOS</speaker>
+            <l n="1300" part="F">Sí.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Más valiera que no; ¡ay</l>
+            <l part="I">tripas mías!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">Pues oíd:</l>
+            <l>cuantos de pechos bebieron</l>
+            <l>con esfuerzo varonil</l>
+            <l n="1305">sin recato del contrario...</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¡Cuánto va que va a decir</l>
+            <l>se queden para la guerra!</l>
+            <l>Yo con la mano bebí.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>...se vuelvan, que si primero</l>
+            <l n="1310">los cobardes despedí,</l>
+            <l>agora a los animosos.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Luego ¿yo me puedo ir?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>¿Tú?, ¿por qué, si en pie bebiste?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Porque en pie o no en pie, bebí</l>
+            <l n="1315">agua, ¿qué más valentía?</l>
+            <l>Y si antes, pese a mí,</l>
+            <l>siendo gallina quedé</l>
+            <l>con los valientes aquí,</l>
+            <l>agora con los valientes,</l>
+            <l n="1320">por ser gallina he de ir;</l>
+            <l>que no he de perder derecha</l>
+            <l part="I">y trocada.</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2 #labrador-3 #labrador-4">
+            <speaker>DENTRO</speaker>
+            <l part="M">¡Al arma!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">¡Oíd!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <stage>Dentro.</stage>
+            <l>¡Toca a embestir, Madián!,</l>
+            <stage>La caja siempre.</stage>
+            <l>¡Amalec, toca a embestir!</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="1325">Hoy, ¡o morir o vencer!</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Hoy, ¡o vencer o morir!</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Puesto que a escoger nos dan,</l>
+            <l>escojamos el huir.</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2">
+            <speaker>DENTRO</speaker>
+            <l part="I">¡Arma, arma!</l>
+          </sp>
+          <sp who="#labrador-3 #labrador-4">
+            <speaker>OTROS</speaker>
+            <l part="F">¡Guerra, guerra!</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l n="1330">Ya se ha trabado la lid,</l>
+            <l>y apenas trecientos hombres</l>
+            <l part="I">tienes.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">Hartos son. Venid,</l>
+            <l>Dios por nosotros pelea.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Si Dios pelea por mí</l>
+            <l n="1335">¡poca falta le haré yo!</l>
+          </sp>
+          <sp who="#labrador-1 #labrador-2">
+            <speaker>DENTRO</speaker>
+            <l part="I">¡Arma!</l>
+          </sp>
+          <sp who="#joás #fará #gedeón">
+            <speaker>LOS TRES</speaker>
+            <l part="F">¡Vencer o morir!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>¡Vencer o morir, soldados!;</l>
+            <l>mientras que voy a embestir,</l>
+            <l>quédate, divina piel,</l>
+            <l n="1340">que yo volveré por ti</l>
+            <l>en venciendo al enemigo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <stage>Vanse y fíngese dentro la batalla.</stage>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¿Qué será, que cuando aquí,</l>
+            <l>yo por testigo me quedo</l>
+            <l>de la lid que trabar vi,</l>
+            <l n="1345">no sé si yo tengo el miedo</l>
+            <l>o el miedo me tiene a mí?</l>
+            <l>¡Por más que acercarme intente</l>
+            <l>a hacer algo al enemigo,</l>
+            <l>¡oh alto Dios omnipotente!,</l>
+            <l n="1350">no puedo acabar conmigo</l>
+            <l>empezar a ser valiente!</l>
+            <l>Mas, ¿cómo lo he de acabar,</l>
+            <l>si no lo empiezo a empezar?</l>
+            <l>¡Oh, cuál anda la lid fiera!</l>
+          </sp>
+        </div>
+        <div type="scene" n="26">
+          <stage>La caja y sale la IDOLATRÍA, desnuda la espada.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="1355">¡Oh cielos! ¡Y quién pudiera</l>
+            <l>hoy o morir o matar!,</l>
+            <l>mas ni morir en tal pena</l>
+            <l>puedo, porque inmortal soy,</l>
+            <l>ni matar de rabia llena,</l>
+            <l n="1360">porque como perro estoy</l>
+            <l>atraillado a una cadena</l>
+            <l>que Dios en su mano tiene,</l>
+            <l>y yo más poder no tengo</l>
+            <l>que el que su eslabón previene.</l>
+            <l part="I">¿Quién va?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1365" part="F">Usté es quien va y viene,</l>
+            <l>porque yo ni voy ni vengo.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Eres israelita...</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">¿Qué</l>
+            <l>quiere su merced que sea?</l>
+            <l>Que yo eso sólo seré.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">...o madianita?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1370" part="F">Ara crea,</l>
+            <l>que me madianitaré,</l>
+            <l part="I">si en eso la sirvo.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Di,</l>
+            <l part="I">¿qué Dios adoras?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="M">¿Yo?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>Poco aqueso me desvela.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Qué adoras?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1375" part="F">Una mozuela</l>
+            <l>que me trae fuera de mí.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¡Oh, quién en tanto desdén</l>
+            <l>pudiera dar muerte fiera</l>
+            <l>a ti y a cuantos se ven</l>
+            <l part="I">de tu vil nación!</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1380" part="F">¡Oh quién</l>
+            <l>pudiera, que no pudiera!;</l>
+            <l>y así entre si puede o no,</l>
+            <l>quiero ver si puedo yo.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Qué, cobarde?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">Ello dirá.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">Di, ¿qué?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1385" part="F">Dejarla con la</l>
+            <l>aquella que la parió.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <stage>Vase.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Pavorosa noche fría,</l>
+            <l>no es esta la primer vez</l>
+            <l>que, ciega la Idolatría,</l>
+            <l n="1390">pidió que tu negra tez</l>
+            <l>empañe su luz al día.</l>
+            <l>Sal de el campo de Occidente</l>
+            <l>a manchar del sol la faz,</l>
+            <l>porque tu pavor intente</l>
+            <l n="1395">poner treguas, si no paz,</l>
+            <l>entre tanta herida gente.</l>
+            <l>Mira que va de vencida</l>
+            <l>el campo de Madián,</l>
+            <l>y sólo estriba mi vida</l>
+            <l n="1400">en ver si tus sombras dan</l>
+            <l>tiempo a que su fuga impida</l>
+            <l>y pues que mías las nombras,</l>
+            <l>consuela esta vez siquiera</l>
+            <l>de cuantas veces asombras,</l>
+            <l n="1405">porque a otras sombras no muera,</l>
+            <l>sino a manos de tus sombras,</l>
+            <l>puesto que no es la menor</l>
+            <l>de las que me dan temor</l>
+            <l>contra tan grande poder</l>
+            <l n="1410">ver los tímidos vencer.</l>
+            <l>Parece que a mi clamor</l>
+            <l>respondes, pues ya las bellas</l>
+            <l>luces del mayor farol,</l>
+            <l>tropezadas de tus huellas,</l>
+            <l n="1415">pedazos han hecho al sol</l>
+            <l>y todo se ha vuelto estrellas.</l>
+            <stage>Tocan a marchar.</stage>
+            <l>A retirar han tocado</l>
+            <l>ambos campos, y en un punto</l>
+            <l>todo en silencio ha quedado;</l>
+            <l n="1420">¡qué poco dista un difunto</l>
+            <l>de un dormido fatigado!</l>
+            <l>Solo entre ambos campos vela</l>
+            <l>mi dolor hasta saber,</l>
+            <l>siendo doble centinela,</l>
+            <l n="1425">qué prodigio piensa hacer</l>
+            <l>hoy la aurora; vuela, vuela</l>
+            <l>noche pavorosa y fría,</l>
+            <l>da prisa a tu negro coche;</l>
+            <l>¡cuál anda la suerte mía:</l>
+            <l n="1430">si es de día, tras la noche;</l>
+            <l>si es de noche, tras el día!</l>
+          </sp>
+        </div>
+        <div type="scene" n="28">
+          <stage>Paséase y sale GEDEÓN.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Aunque la victoria vi</l>
+            <l>tan de mi parte, no fuera</l>
+            <l>cordura seguirla allí,</l>
+            <l n="1435">que dentro de la ribera</l>
+            <l>y de noche, bien temí</l>
+            <l>alguna emboscada, al ver</l>
+            <l>que Madián su atención</l>
+            <l>puso en volverse a esconder</l>
+            <l n="1440">y sin segunda intención</l>
+            <l>no se retira el poder;</l>
+            <l>y así hasta que el alba venga</l>
+            <l>con su seña, es necesario</l>
+            <l>que cuidado el valor tenga</l>
+            <l n="1445">y por mí mismo prevenga</l>
+            <l>reconocer al contrario,</l>
+            <l>en cuyo término ya</l>
+            <l>con una posta he encontrado;</l>
+            <l>bien recatarme será,</l>
+            <l n="1450">no me sienta su cuidado</l>
+            <l>hasta ver si ocasión da</l>
+            <l part="I">de prenderla.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Corre aprisa,</l>
+            <l>sombra, y aunque me esté mal,</l>
+            <l>nuevas del alba me avisa.</l>
+          </sp>
+          <stage>Dentro MADIÁN y AMALEC.</stage>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="1455">¡Pitonisa de Baal!</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>¡Bellísima Pitonisa!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">Voces oigo.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">En nuevo asombro</l>
+            <l>mi ciego espíritu inflamo.</l>
+          </sp>
+          <sp who="#amalec #madián">
+            <speaker>LOS DOS</speaker>
+            <l part="I">¡Pitonisa!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Yo me asombro,</l>
+            <l part="I">¿quién me llama?</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="1460" part="F">Yo te llamo.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="29">
+          <stage>Sale.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Quién me nombra?</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">Yo te nombro.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="30">
+          <stage>Sale.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Madián? ¿Amalec?</l>
+          </sp>
+          <sp who="#amalec #madián">
+            <speaker>LOS DOS</speaker>
+            <l part="M">Sí.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">¿Qué</l>
+            <l part="I">es esto?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">Desde aquí oiré.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">Vencido...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Ya lo sentí.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">Retirado...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="1465" part="F">Ya lo sé.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">...a ese bosque...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Ya lo vi.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="I">...me entré...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="F">...y como siempre ha sido</l>
+            <l part="I">el sueño...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">...pensión del hado...</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>también sé que habéis dormido.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="1470">Pues oye lo que he soñado,</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Oye el sueño que he tenido,</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...porque, como sabia, quiero</l>
+            <l part="I">que le interpretes.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">...porque</l>
+            <l>de ti su sentido espero.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="1475">Lo que soñaron oiré.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">¡Mortal vivo!</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">¡Infeliz muero!</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>Ese prestado homicida,</l>
+            <l>que con nombre de reposo</l>
+            <l>no hay sentido que no impida,</l>
+            <l n="1480">ladrón de la media vida,</l>
+            <l>me ocupaba pavoroso...</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Esa halagüeña crueldad,</l>
+            <l>que con nombre de piedad</l>
+            <l>nos posee en dulce calma,</l>
+            <l n="1485">siendo argumento del alma</l>
+            <l>para su inmortalidad...</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>...cuando vi en el cielo un pan</l>
+            <l>que más que el sol relucía.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Y yo también, Madián,</l>
+            <l n="1490">por más señas que tenía,</l>
+            <l>donde sus reflejos dan,</l>
+            <l>una espada, que pendiente</l>
+            <l>como a las espaldas de él</l>
+            <l>amenazaba mi frente.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="1495">Esa misma es la cruel</l>
+            <l>visión que mi pecho siente.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Pan y espada, Amalec?</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¿Espada y pan, Madián?</l>
+            <stage>Aparte.</stage>
+            <l>¡Ay, Gedeón!, bien temí</l>
+            <l n="1500">que para ti será el pan</l>
+            <l>y la espada para mí,</l>
+            <l>pues verle resplandecer,</l>
+            <l>y que en rigor se convierte,</l>
+            <l>que es bien claro da a entender</l>
+            <l n="1505">pan de vida y pan de muerte</l>
+            <l>que ha de ayudarte a vencer.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>La gente que retirada,</l>
+            <l>con las luces encubiertas</l>
+            <l>quedó, avanzará emboscada,</l>
+            <l n="1510">pues son en dichas tan ciertas</l>
+            <l>mío el pan, suya la espada.</l>
+
+          </sp>
+        </div>
+        <div type="scene" n="31">
+          <stage>Vase.</stage>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>¿Qué juzgas de aqueste sueño?</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>¿Qué sientes de esta visión?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Si no soy en tanto empeño</l>
+            <l n="1515">dueño yo de mi pasión,</l>
+            <l>¿seré de la vuestra dueño?</l>
+            <l>No sé, ¡ay de mí!, sólo sé</l>
+            <l>que ley que es en voz hebrea,</l>
+            <l>dice espada y pan, mas qué</l>
+            <l n="1520">signifique ni qué sea,</l>
+            <l>eso lo dirá la Fee</l>
+            <l>pero no la Idolatría.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>Pues, ¿cómo el dios de Baal</l>
+            <l>de ti su espíritu fía?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="1525">Como a sacramento tal</l>
+            <l>no alcanza la vista mía.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">¿Luego hasme engañado?</l>
+            <stage>Amenazándola.</stage>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">No</l>
+            <l>la maltraten tus desvelos,</l>
+            <l>u defenderéla yo.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="1530">No añadas, Amalec, celos</l>
+            <l>al furor que ocasionó</l>
+            <l part="I">mi cólera.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="F">Cómo entiendas,</l>
+            <l>no sé el que ciego pretendas</l>
+            <l>enojándola celalla.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="1535">Porque quiero yo enojalla</l>
+            <l>y no que tú la defiendas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="32">
+          <stage>Pónese en medio la IDOLATRÍA representando con las acciones el detenerlos, mientras salen GEDEÓN, JOÁS, FARÁ y los cuatro Soldados, con hachas encendidas dentro de unos cántaros.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Vuestros contrarios tenéis</l>
+            <l>en vuestras manos; llegad</l>
+            <l>y a una voz que escucharéis,</l>
+            <l n="1540">todos los barros quebrad</l>
+            <l>en que las luces traéis.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Pues yo la he de defender</l>
+            <l>si la quieres ofender.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>No hagas que en ira deshecho,</l>
+            <l n="1545">reviente un volcán mi pecho</l>
+            <l>que hasta aquí pudo esconder.</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>No hagas que el que el mío encierra</l>
+            <l>abrase toda esta tierra.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">¿Tú?</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="M">Sí.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">¡Agora es ocasión!</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l part="M">¡Así!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="1550" part="F">¡Qué confusión!</l>
+          </sp>
+          <stage>Quiebran los cántaros, descubren las luces y embisten. Con ellos, y a un tiempo, cajas y trompetas.</stage>
+          <sp who="#amalec #madián #idolatría #gedeón #fará #joás">
+            <speaker>TODOS</speaker>
+            <l>¡Arma, arma, guerra, guerra!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¿Quién causa esta novedad,</l>
+            <l>que de armas y luces veo?</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>Tuya ha sido la crueldad.</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l n="1555">Tuyo es el traidor deseo.</l>
+            <stage>Embístense los dos.</stage>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>A ninguno perdonad.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l>¿Qué es perdonar? La ocasión</l>
+            <l>nuevo esfuerzo me previene.</l>
+          </sp>
+          <sp who="#amalec #madián #idolatría #gedeón #fará #joás">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Traición, traición!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">No es traición.</l>
+          </sp>
+          <sp who="#gedeón #fará">
+            <speaker>LOS DOS</speaker>
+            <l part="I">¿Qué es?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="1560" part="F">Que sobre todos viene</l>
+            <l>la espada de Gedeón.</l>
+          </sp>
+        </div>
+        <div type="scene" n="33">
+          <stage>Dase la batalla, entrando y saliendo, peleando.</stage>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l>¡Al paso saldrá mi acero!</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>¡Detendré su esfuerzo altivo!</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>¡Tarde ya el remedio espero!</l>
+          </sp>
+          <sp who="#amalec">
+            <speaker>AMALEC</speaker>
+            <l n="1565">¡Ay de mí!, ¡rabiando vivo!</l>
+          </sp>
+          <sp who="#madián">
+            <speaker>MADIÁN</speaker>
+            <l>¡Ay de mí!, ¡rabiando muero!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="I">¡Mueran todos!</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="F">Ellos se hacen</l>
+            <l part="I">la guerra.</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l part="F">Rotos los dos</l>
+            <l>campos a sus manos yacen.</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="1570">Los enemigos de Dios,</l>
+            <l>ellos mismos se deshacen,</l>
+            <l>siendo los cielos testigos,</l>
+            <l>pues pan y espada nos dan,</l>
+            <l>y con sangrientos castigos,</l>
+            <l n="1575">quien se armare de aquel pan</l>
+            <l>vencerá a sus enemigos.</l>
+            <l>No perdamos la ocasión</l>
+            <l>que hoy el cielo nos previene.</l>
+          </sp>
+          <sp who="#soldados #música">
+            <speaker>DENTRO TODOS</speaker>
+            <l part="I">¡Traición, traición!</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">¡No es traición,</l>
+            <l n="1580">sino que en vosotros viene</l>
+            <l>la espada de Gedeón!</l>
+          </sp>
+        </div>
+        <div type="scene" n="34">
+          <stage>Éntranse riñendo y queda IDOLATRÍA.</stage>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Ya que con tan nuevo horror</l>
+            <l>de luces y armas se ven</l>
+            <l>puestos en fuga los campos</l>
+            <l n="1585">de Madián y Amalec,</l>
+            <l>y uno de otro recatados</l>
+            <l>se hieren, llegando a ver</l>
+            <l>que el rencor que yo introduje</l>
+            <l>en ellos contra mí es,</l>
+            <l n="1590">de sus cubiertas antorchas</l>
+            <l>he de valerme también</l>
+            <l>pues con aquesta que acaso</l>
+            <stage>Levanta una hacha que se ha caído en el suelo.</stage>
+            <l>aquí se cayó, ha de arder</l>
+            <l n="1595">toda la campaña, siendo</l>
+            <l>la primera aquesta mies.</l>
+          </sp>
+        </div>
+        <div type="scene" n="35">
+          <stage>Sale la MIES, con espada.</stage>
+          <sp who="#mies">
+            <speaker>MIES</speaker>
+            <l>Eso no, que esta mies tú</l>
+            <l>no la puedes ofender,</l>
+            <l>que no hay grano en sus espigas</l>
+            <l n="1600">en que un Mmsterio no esté,</l>
+            <l>desde el primer sacrificio</l>
+            <l>del pan de Melquisedec,</l>
+            <l>hasta aquel de Gedeón</l>
+            <l>que ardió con carne después.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="1605">Pues abrasaré este monte.</l>
+          </sp>
+        </div>
+        <div type="scene" n="36">
+          <stage>Sale el MONTE.</stage>
+          <sp who="#monte">
+            <speaker>MONTE</speaker>
+            <l>Tampoco llegues a él,</l>
+            <l>que si hubo un árbol de muerte</l>
+            <l>en el primero vergel,</l>
+            <l>otro árbol aquí hay de vida</l>
+            <l n="1610">que viste abrasar también</l>
+            <l>por leña del sacrificio</l>
+            <l>del caudillo de Israel.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Pues los ganados y hojas</l>
+            <l>de este prado abrasaré.</l>
+          </sp>
+        </div>
+        <div type="scene" n="37">
+          <stage>Sale el PRADO.</stage>
+          <sp who="#prado">
+            <speaker>PRADO</speaker>
+            <l n="1615">No abrasarás, que un cordero</l>
+            <l>en sus rebaños se ve,</l>
+            <l>a quien tú no has de tocar,</l>
+            <l>que es sacrificada res.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Otra vez a la primera</l>
+            <l n="1620">duda he vuelto y otra vez</l>
+            <l>el Fuego, Mies, Monte y Prado</l>
+            <l>me hacen dudar y temer;</l>
+            <l>Fuego, este que oculto trujo</l>
+            <l>Gedeón para vencer;</l>
+            <l n="1625">Mies, aquesta que me dice</l>
+            <l>que su pan misterio es;</l>
+            <l>Monte, el que un árbol previene</l>
+            <l>que vida a la muerte dé;</l>
+            <l>Prado, el que un cordero guarda</l>
+            <l n="1630">para sacrificio; quién</l>
+            <l part="I">dirá qué es esto...</l>
+          </sp>
+          <sp who="#mies #monte #prado">
+            <speaker>TODOS</speaker>
+            <l part="F">La Aurora,</l>
+            <l>que ya empieza amanecer</l>
+            <l>según las aves lo cantan</l>
+            <l>diciendo segunda vez:</l>
+          </sp>
+          <stage>Suenan pájaros.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1635">Ven, hermosa blanca Aurora,</l>
+            <l>ven, divina Aurora, ven,</l>
+            <l>a fecundarnos a todos,</l>
+            <l>pues ya concibió la piel,</l>
+            <l>porque se enmiende en la dicha de hoy</l>
+            <l n="1640">la soledad, y la pena de ayer.</l>
+          </sp>
+          <stage>Ábrense las cuatro nubes y llueven las tres que primero no llovían, y la otra no, donde ha de estar la AURORA con el ÁNGEL arrodillado, como quedaron cuando se cerró.</stage>
+          <sp who="#aurora">
+            <speaker>AURORA</speaker>
+            <l>Nubes, mieses, montes, prados,</l>
+            <l>ya vuelvo yo a deshacer</l>
+            <l>de ayer las ansias, que hoy</l>
+            <l>mi divino rosicler</l>
+            <l n="1645">a todos ha de alcanzar</l>
+            <l>sino solo a aquesta piel,</l>
+            <l>porque ella sola no puede</l>
+            <l>concebir segunda vez.</l>
+          </sp>
+          <sp who="#ángel #gedeón #fará #joás">
+            <speaker>DENTRO</speaker>
+            <l>¡Victoria por Gedeón!</l>
+          </sp>
+        </div>
+        <div type="scene" n="38">
+          <stage>Salen todos.</stage>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l n="1650">Claro está, pues vuelvo a ver</l>
+            <l>la Aurora, entre hermosas nubes</l>
+            <l>de púrpura y de clavel.</l>
+            <l>Bien visteis ayer que ella</l>
+            <l>concibió, dejando ayer</l>
+            <l n="1655">secos mies y monte y prado;</l>
+            <l>pues hoy, pródiga del bien</l>
+            <l>común, reparte con todos</l>
+            <l>su nevada candidez,</l>
+            <l>en señal que a sus contrarios</l>
+            <l n="1660">he de acabar de vencer.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Ya lo veo, mas no alcanzo</l>
+            <l>qué misterio puede haber.</l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l>¿Viéndome a mí arrodillado,</l>
+            <l>fiera Idólatra, a los pies</l>
+            <l n="1665">de la más hermosa Aurora,</l>
+            <l>claro no se deja ver,</l>
+            <l>que el rocío que concibe</l>
+            <l>este vellón una vez</l>
+            <l>y no otra, repartiendo</l>
+            <l n="1670">su albor al Mundo después,</l>
+            <l>es la Encarnación, misterio</l>
+            <l>que tú no has de comprehender</l>
+            <l part="I">ni aun en las sombras?</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Y de ella,</l>
+            <l>¿qué se le sigue a la Mies?</l>
+          </sp>
+          <stage type="object">Descúbrese en el segundo carro un cuadro de la Encarnación.</stage>
+          <sp who="#mies">
+            <speaker>MIES</speaker>
+            <l n="1675">Llenar las trojes de trigo</l>
+            <l>en la casa de Belén,</l>
+            <l>que es Casa de Pan, adonde</l>
+            <l>al encarnar el nacer</l>
+            <l part="I">ha de seguirse.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Y el Monte,</l>
+            <l part="I">¿qué saca de eso?</l>
+            <stage type="object">Descúbrese una Cruz en el tercer carro.</stage>
+          </sp>
+          <sp who="#monte">
+            <speaker>MONTE</speaker>
+            <l n="1680" part="F">Tener</l>
+            <l>aquel árbol de la Cruz,</l>
+            <l>que es en el que ha de vencer,</l>
+            <l part="I">muriendo, a la muerte.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Y de eso,</l>
+            <l part="I">¿qué se sigue al Prado?</l>
+            <stage type="object">Descúbrese, en el cuarto carro, un cordero en un altar con un Cáliz y Hostia.</stage>
+          </sp>
+          <sp who="#prado">
+            <speaker>PRADO</speaker>
+            <l part="F">Ver</l>
+            <l n="1685">figurado en un cordero</l>
+            <l>el sacrificio de Abel,</l>
+            <l>en aquel cándido pan</l>
+            <l>que espada al contrario fue,</l>
+            <l>en cuyas especies solo</l>
+            <l n="1690">los accidentes se ven</l>
+            <l>y no la substancia, puesto</l>
+            <l>que ya carne y sangre es,</l>
+            <l>reduciendo de la nube</l>
+            <l>el hermoso rosicler</l>
+            <l n="1695">del fuego de amor, el trigo</l>
+            <l>de la más fecunda mies;</l>
+            <l>del monte, la mejor leña;</l>
+            <l>como del prado también</l>
+            <l>el mejor cordero; viendo</l>
+            <l n="1700">todo eso cifrado en él</l>
+            <l>después que la luz cubierta</l>
+            <l part="I">venció Gedeón.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">¿Por qué?</l>
+          </sp>
+          <sp who="#mies #monte #prado #aurora #ángel #gedeón #fará #joás">
+            <speaker>TODOS</speaker>
+            <l>Porque con la luz tapada</l>
+            <l>es como vence la Fee.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l n="1705">¿La Fee tapada la luz?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l>Sí, pues ella a escuras ve,</l>
+            <l>a escuras vence y deshace</l>
+            <l part="I">sus enemigos.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="F">Detén</l>
+            <l>la voz, que tantos misterios,</l>
+            <l n="1710">no penetra mi altivez</l>
+            <l>y aunque todos me dan tanta</l>
+            <l>guerra, solo he de saber</l>
+            <l>qué misterio será éste,</l>
+            <l>que no he de alcanzar aquél.</l>
+            <l part="I">¿Qué ve la vista allí?</l>
+          </sp>
+          <sp who="#mies">
+            <speaker>MIES</speaker>
+            <l n="1715" part="F">Pan.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Qué halla el gusto?</l>
+          </sp>
+          <sp who="#monte">
+            <speaker>MONTE</speaker>
+            <l part="F">Pan también.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>El oído en su fracción,</l>
+            <l part="I">¿qué oye?</l>
+          </sp>
+          <sp who="#prado">
+            <speaker>PRADO</speaker>
+            <l part="F">Que sólo pan es.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">El tacto, ¿qué toca?</l>
+          </sp>
+          <sp who="#joás">
+            <speaker>JOÁS</speaker>
+            <l part="F">Pan.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Qué huele el olfato?</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1720" part="F">¿Qué?</l>
+            <l>Paréceme a mí que pan.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l>Pues ¿por qué todos creéis</l>
+            <l>contra todos los sentidos,</l>
+            <l>que es carne y sangre? ¿Por qué?</l>
+          </sp>
+          <sp who="#mies #monte #prado #aurora #ángel #gedeón #fará #joás">
+            <speaker>TODOS</speaker>
+            <l n="1725">Porque con la luz tapada,</l>
+            <l>es como vence la Fee.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Quién os lo dice?</l>
+          </sp>
+          <sp who="#mies #monte #prado #aurora #ángel #gedeón #fará #joás">
+            <speaker>TODOS</speaker>
+            <l part="F">Ella misma.</l>
+          </sp>
+          <sp who="#idolatría">
+            <speaker>IDOLATRÍA</speaker>
+            <l part="I">¿Ella lo dice?</l>
+          </sp>
+          <sp who="#gedeón">
+            <speaker>GEDEÓN</speaker>
+            <l part="F">Sí, pues</l>
+            <l>de cinco sentidos, cuatro</l>
+            <l n="1730">dan al oído el laurel,</l>
+            <l>creyendo lo que se oye,</l>
+            <l>pero no lo que se ve;</l>
+            <l>conque dando fin al auto,</l>
+            <l>diga el cántico otra vez...</l>
+          </sp>
+          <sp who="#fará">
+            <speaker>FARÁ</speaker>
+            <l n="1735">Después de pedir perdón,</l>
+            <l>humildes, a vuestros pies.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¡Ven, hermosa blanca Aurora!,</l>
+            <stage>Todos repiten.</stage>
+            <l>¡ven, divina Aurora, ven!,</l>
+            <l>a fecundarnos a todos,</l>
+            <l n="1740">pues ya concibió la piel,</l>
+            <l>porque se logre en la dicha de hoy,</l>
+            <l>la soledad y la pena de ayer.</l>
+          </sp>
+          <trailer>FIN</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

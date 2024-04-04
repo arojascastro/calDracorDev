@@ -1,0 +1,3617 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000183" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La lepra de Constantino</title>
+        <title type="sub"/>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName>Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Vienna, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <date when="2022-02-04"><time when="16:29:54"/></date>
+        <idno type="quadramaX">La lepra de Constantino</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name/><idno type="URL"/><bibl type="originalSource"><title>Edición digital a partir de la edición de L. Galván y R. Arana Caballero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2008. ISBN: 978-3-937734-48-4.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="silvestre">
+            <persName>Silvestre</persName>
+            <trait source="castlist">
+              <desc>viejo</desc>
+            </trait>
+          </person>
+          <person sex="FEMALE" xml:id="gentilidad">
+            <persName>Gentilidad</persName>
+          </person>
+          <person sex="MALE" xml:id="constantino">
+            <persName>Constantino</persName>
+          </person>
+          <person sex="MALE" xml:id="majencio">
+            <persName>Majencio</persName>
+          </person>
+          <person sex="FEMALE" xml:id="fe">
+            <persName>Fe</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="musicos">
+            <persName>Músicos</persName>
+          </personGrp>
+          <person sex="MALE" xml:id="angel">
+            <persName>Ángel</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="acompanamiento">
+            <persName>Dentro</persName>
+          </person>
+          <person sex="MALE" xml:id="soldado">
+            <persName>Soldado</persName>
+          </person>
+          <person sex="FEMALE" xml:id="astrea">
+            <persName>Astrea</persName>
+            <trait source="castlist">
+              <desc>villana</desc>
+            </trait>
+          </person>
+          <person sex="MALE" xml:id="zabulon">
+            <persName>Zabulón</persName>
+          </person>
+          <person sex="MALE" xml:id="nino">
+            <persName>Niño</persName>
+          </person>
+          <person sex="FEMALE" xml:id="mujer-2">
+            <persName>Mujer 2.ª</persName>
+          </person>
+          <person sex="FEMALE" xml:id="mujer-3">
+            <persName>Mujer 3.ª</persName>
+          </person>
+          <person sex="FEMALE" xml:id="mujer-1">
+            <persName>Mujer 1.ª</persName>
+          </person>
+          <person sex="FEMALE" xml:id="noticia">
+            <persName>Noticia</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="coro-1">
+            <persName>Coro 1.º</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="coro-2">
+            <persName>Coro 2.º</persName>
+          </personGrp>
+          <person sex="MALE" xml:id="san-pedro">
+            <persName>San Pedro</persName>
+          </person>
+          <person sex="MALE" xml:id="san-pablo">
+            <persName>San Pablo</persName>
+          </person>
+          <person sex="FEMALE" xml:id="elena">
+            <persName>Elena</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1717">
+        <label/>
+      </event>
+      <event type="written" notBefore="1647" notAfter="1657">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <castList>
+        <head>Personajes</head>
+        <castItem>CONSTANTINO</castItem>
+        <castItem>SILVESTRE, viejo</castItem>
+        <castItem>LA GENTILIDAD</castItem>
+        <castItem>MAJENCIO</castItem>
+        <castItem>LA FE</castItem>
+        <castItem>SAN PEDRO</castItem>
+        <castItem>ZABULÓN</castItem>
+        <castItem>SAN PABLO</castItem>
+        <castItem>ASTREA, villana</castItem>
+        <castItem>UN ÁNGEL</castItem>
+        <castItem>TRES MUJERES</castItem>
+        <castItem>SANTA ELENA</castItem>
+        <castItem>LA NOTICIA</castItem>
+        <castItem>UN NIÑO</castItem>
+        <castItem>SOLDADOS</castItem>
+        <castItem>MÚSICA</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" n="1">
+          <stage>Dentro cajas y trompetas, y sale Silvestre, viejo venerable, vestido de pieles, huyendo como asombrado Dentro</stage>
+          <sp who="#acompanamiento">
+            <speaker>UNOS</speaker>
+            <l part="I">¡Arma, arma!</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>OTROS</speaker>
+            <l part="F">¡Guerra, guerra!</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>UNOS</speaker>
+            <l>¡Viva el grande Constantino!</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>OTROS</speaker>
+            <l>¡El grande Majencio viva!</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l>¡Ay de aquel cuyo peligro</l>
+            <l n="5">consta igualmente de ser</l>
+            <l>o vencedor o vencido</l>
+            <l>cualquiera de los dos, puesto</l>
+            <l>que gentiles en sus ritos</l>
+            <l>de los dos, ¡cielos!, cualquiera</l>
+            <l n="10">es mi mayor enemigo!</l>
+            <l>Y así, en tanto que la lid</l>
+            <l>los ocupa, solicito</l>
+            <l>ampararme de los montes.</l>
+            <l>¡Dame, oh tú que en los faliscos</l>
+            <l n="15">de Roma yaces, oh sacro</l>
+            <l>Sorato, rústico abrigo</l>
+            <l>en tus más ocultos senos!</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Sale la Gentilidad con espada, corona de laurel y bastón</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>¿Dónde corres fugitivo,</l>
+            <l>mísero caduco anciano,</l>
+            <l n="20">si ves que el marcial conflito</l>
+            <l>de tantas armadas huestes</l>
+            <l>como numerosas rijo</l>
+            <l>contra ti solo las muevo</l>
+            <l>y contra ti las alisto?</l>
+            <l n="25">Pues reducir hoy al trance</l>
+            <l>de una batalla el dominio</l>
+            <l>de Europa y Asia, empeñados</l>
+            <l>del griego imperio y latino</l>
+            <l>en Constantino y Majencio</l>
+            <l n="30">los dos laureles invictos,</l>
+            <l>solo es a fin de que acabe</l>
+            <l>de una vez tanto continuo</l>
+            <l>tesón de iras porque quede</l>
+            <l>el que quedare al adbitrio</l>
+            <l n="35">de la fortuna triunfante</l>
+            <l>libre del duro ejercicio</l>
+            <l>para volver contra ti</l>
+            <l>las armas, como caudillo</l>
+            <l>que eres de ese infame bando</l>
+            <l n="40">del crucificado Cristo.</l>
+            <l>Y porque mejor lo veas,</l>
+            <l part="I">oye esas voces.</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">Divino</l>
+            <l>Júpiter, a tus altares</l>
+            <l>si a tanta invasión resisto,</l>
+            <l n="45">en cristianos holocaustos</l>
+            <l>verás cuántas vidas rindo.</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Yo, Marte, ofrezco a tus aras</l>
+            <l>si el romano margen piso,</l>
+            <l>hacer de cristianas vidas</l>
+            <l n="50">víctimas y sacrificios.</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>UNOS</speaker>
+            <l>¡El grande Majencio viva!</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>OTROS</speaker>
+            <l>¡Viva el grande Constantino!</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l>Ya lo veo y ya lo lloro,</l>
+            <l>pero no me desanimo,</l>
+            <l n="55">bárbara Gentilidad,</l>
+            <l>de que invoquen tus mentidos</l>
+            <l>dioses sus errados votos,</l>
+            <l>cuando sobre el Tíber miro</l>
+            <l>—abortando gente esa</l>
+            <l n="60">vaga ciudad de navíos—</l>
+            <l>salir Constantino al paso</l>
+            <l>dejando solos los niños</l>
+            <l>y las mujeres en Roma.</l>
+            <l>Pues aunque yo sea el indigno</l>
+            <l n="65">sucesor de Pedro, hoy</l>
+            <l>por la elección que en mí hizo</l>
+            <l>Melquíades, de la grande</l>
+            <l>Mantua Carpentana hijo</l>
+            <l>—a quien Madrid llamarán</l>
+            <l n="70">quizá los futuros siglos—,</l>
+            <l>y aunque pueda, no sin causa,</l>
+            <l>temer que pecados míos</l>
+            <l>ocasionaran los cielos</l>
+            <l>a sus piadosos castigos,</l>
+            <l n="75">no por eso ni por verme</l>
+            <l>de brutas pieles vestido,</l>
+            <l>sin más pontifical pompa,</l>
+            <l>más templo, más domicilio</l>
+            <l>que las quiebras de estos montes,</l>
+            <l n="80">como dije, desconfío</l>
+            <l>que me falten suficientes</l>
+            <l>y aun eficaces auxilios</l>
+            <l>para resistir constante</l>
+            <l>los más embotados filos</l>
+            <l n="85">de desnudez, hambre y sed,</l>
+            <l>cárcel, incendio y cuchillo.</l>
+            <l>Pues cuando vuelva la Iglesia</l>
+            <l>en aqueste primitivo</l>
+            <l>lustro de su tierna infancia</l>
+            <l n="90">a proseguir los martirios</l>
+            <l>que dejaron empezados</l>
+            <l>en las Tebaidas de Egipto</l>
+            <l>Maximiano y Diocleciano,</l>
+            <l>vinculando en Constantino</l>
+            <l n="95">o en Majencio sus rencores,</l>
+            <l>no podrán —por más que, impíos,</l>
+            <l>viertan de púrpura arroyos</l>
+            <l>que a poco espacio sean ríos,</l>
+            <l>y a no poco espacio mares—</l>
+            <l n="100">sumergir en sus abismos</l>
+            <l>la barca de Pedro, pues</l>
+            <l>a pesar del siempre frío</l>
+            <l>aquilón que de poniente</l>
+            <l>brama a soplos, gime a silbos</l>
+            <l n="105">trayéndonos todo el mar</l>
+            <l>—así Jeremías lo dijo—,</l>
+            <l>la podrá poner en salvo</l>
+            <l>el siempre aliento benigno</l>
+            <l>del Austria, que es la región</l>
+            <l n="110">de donde el Señor nos vino,</l>
+            <l>según Habacuc, conque</l>
+            <l>nadando su buque en rubios</l>
+            <l>piélagos de humana sangre,</l>
+            <l>de ráfagas impelido,</l>
+            <l n="115">podrá verse zozobrado</l>
+            <l>mas no verse sumergido,</l>
+            <l>por más que contrarios vientos</l>
+            <l>formen el eco en que he oído…:</l>
+          </sp>
+          <stage>Cajas</stage>
+          <sp who="#acompanamiento">
+            <speaker>UNOS</speaker>
+            <l>¡El grande Majencio viva!</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>OTROS</speaker>
+            <l n="120">¡Viva el grande Constantino!</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>¿Por qué, si en esa esperanza</l>
+            <l>estás, sin valor, sin brío</l>
+            <l>vienes huyendo a los montes</l>
+            <l>a ser esqueleto vivo</l>
+            <l part="I">de sus bóvedas?</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l n="125" part="F">Porqué</l>
+            <l>no es mi vida la que libro,</l>
+            <l>que bien sabe Dios que en cada</l>
+            <l>paso se la sacrifico,</l>
+            <l>sino la de tantos como</l>
+            <l n="130">hoy con mi asistencia animo</l>
+            <l>a padecer desterrados,</l>
+            <l>pobres, tristes y afligidos,</l>
+            <l part="I">en honra de mi Dios.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Pues</l>
+            <l>si eres tú solo su asilo,</l>
+            <l n="135">hoy les faltará, muriendo</l>
+            <l part="I">a mi mano.</l>
+          </sp>
+          <stage>Empuña la espada la Gentilidad; Silvestre huye, poniéndose en un risco, da vuelta, y vese la Fe con una cruz en la mano y venda en los ojos</stage>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l part="F">Otra vez digo</l>
+            <l>que no huyo a salvar la vida.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¿Pues a qué?</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l part="F">A salvar conmigo</l>
+            <l>las reliquias de la fe</l>
+            <l n="140">que huyendo a estos montes vino,</l>
+            <l>de tus cortes arrojada.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Mal podrás si yo te sigo.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Bien podrá si yo le amparo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>¿Quién eres, bello prodigio</l>
+            <l n="145">que en vez de cuchilla esgrimes</l>
+            <l>verde tronco en sangre tinto?</l>
+            <l>¿Quién eres que con vendada</l>
+            <l>vista discurres a tino</l>
+            <l>las enmarañadas sendas</l>
+            <l n="150">de este humano laberinto,</l>
+            <l>de oídos y ojos trocando</l>
+            <l>los naturales oficios,</l>
+            <l>pues lo que no ven los ojos</l>
+            <l>quieres ver con los oídos?</l>
+            <l n="155">¿Quién eres, digo? ¿Quién eres,</l>
+            <l>ciega luz de mis sentidos,</l>
+            <l>que no te conozco aunque</l>
+            <l>pienso que otra vez te he visto?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Sí has visto, y aun otras dos:</l>
+            <l n="160">una a los lucientes visos</l>
+            <l>de una estrella que guió</l>
+            <l>tres magos al pobre hospicio</l>
+            <l>de un portal, y otra a las claras</l>
+            <l>luces de aquel Sol que dijo</l>
+            <l n="165">a Pedro que mate y coma</l>
+            <l>los inmundos, los nocivos</l>
+            <l>animales, que fue cuando,</l>
+            <l>con el misterioso aviso,</l>
+            <l>pasó la predicación</l>
+            <l n="170">del pueblo de los judíos</l>
+            <l>al bando de los gentiles.</l>
+            <l>Mas como, aunque yo me miro</l>
+            <l>hoy con la venda, eres tú</l>
+            <l>la que estás ciega, no admiro</l>
+            <l n="175">que beneficios tan grandes</l>
+            <l>dé tu memoria al olvido,</l>
+            <l>que es el achaque de que</l>
+            <l>muere cualquier beneficio.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Aún no me has dicho quién eres,</l>
+            <l n="180">pues aún no te he conocido.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Sí he dicho, pues ser la Fe</l>
+            <l>venda y insignia te han dicho.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Menos te conozco ahora,</l>
+            <l>mas ya que lo seas, ¿qué indicio</l>
+            <l n="185">de inútil piedad obstentas</l>
+            <l>con salirme hoy al camino</l>
+            <l>en defensa de ese anciano?</l>
+            <l>Pues mal, cuando yo le sigo,</l>
+            <l>solicitas tú ampararle.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="190">No, fiera, lo solicito</l>
+            <l>porque el triunfo de su fe</l>
+            <l>no conste de tu homicidio,</l>
+            <l>sino por dar tiempo al tiempo</l>
+            <l>en que quizá el sucesivo</l>
+            <l n="195">curso de uno y otro día</l>
+            <l>mejore el rigor esquivo</l>
+            <l>y salga con él triunfante</l>
+            <l>de estos montes que hoy habito</l>
+            <l>ciudadana de sus breñas,</l>
+            <l n="200">cortesana de sus riscos,</l>
+            <l>a coronar de mis sienes</l>
+            <l>los ahora ajados rizos</l>
+            <l>de rosas que en Jericó</l>
+            <l>dejó el cándido rocío</l>
+            <l n="205">de la más intacta aurora</l>
+            <l>en sus vírgenes capillos,</l>
+            <l>aljofaradas a perlas</l>
+            <l>y matizadas a lirios;</l>
+            <l>en cuya salida espero</l>
+            <l n="210">que quede al futuro siglo</l>
+            <l>mudado el nombre al Sorato,</l>
+            <l>este bárbaro obelisco,</l>
+            <l>en el de “Silvestre Alcázar”</l>
+            <l>por Silvestre, a quien abrigo</l>
+            <l n="215">en sus senos como padre</l>
+            <l>de mis desterrados hijos.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Porque de esa escasa luz</l>
+            <l>aun no te alumbre un resquicio,</l>
+            <l>escucha, ya que no ves,</l>
+            <l n="220">tú también los repetidos</l>
+            <l>ecos de ese horrible estruendo.</l>
+          </sp>
+          <stage>Cajas Dentro</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>¡Júpiter, tu favor pido!</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>¡Marte, tu favor invoco!</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>UNOS</speaker>
+            <l>¡Viva el grande Constantino!</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>OTROS</speaker>
+            <l n="225">¡El grande Majencio viva!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Ya lo escucho, y ya imagino</l>
+            <l>que me lo acuerdas a causa</l>
+            <l>de pensar que agradecido</l>
+            <l>el que quede vencedor</l>
+            <l n="230">cumpla los votos que hizo</l>
+            <l>a tus falsos dioses, siendo</l>
+            <l>en profanos edificios</l>
+            <l>cristianas vidas cruentas</l>
+            <l>víctimas y sacrificios.</l>
+            <l n="235">Mas si Constantino vence</l>
+            <l>podrá ser que más benigno</l>
+            <l part="I">revoque el voto.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¿De qué</l>
+            <l part="I">lo indicias?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">Feliz lo indicio</l>
+            <l>de que ya Elena, su madre,</l>
+            <l n="240">en Bretaña ha recibido</l>
+            <l>aquella indeleble marca</l>
+            <l>del carácter del baptismo,</l>
+            <l>y en fiel peregrinación</l>
+            <l>parte al soberano Olimpo</l>
+            <l n="245">de la gran Jerusalén</l>
+            <l>en busca del sacro ligno</l>
+            <l>que fue antídoto al veneno</l>
+            <l>del árbol del Paraíso,</l>
+            <l>con cuyo ejemplar no dudo</l>
+            <l n="250">que a sus instancias movido,</l>
+            <l part="I">Constantino...</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Calla, calla</l>
+            <l>que al escucharlo, al oírlo,</l>
+            <l>tiembla el pecho, duda el labio,</l>
+            <l>fallece el aliento, el brío</l>
+            <l n="255">se estremece, el corazón</l>
+            <l>flaquea, delira el juicio,</l>
+            <l>y en las fieras confusiones</l>
+            <l>con que voy a hablar y gimo,</l>
+            <l>una mordaza en la lengua,</l>
+            <l n="260">en la garganta un cuchillo,</l>
+            <l>en las entrañas un áspid</l>
+            <l>y en la vista un basilisco,</l>
+            <l>Etna soy, rayos arrojo;</l>
+            <l>volcán soy, llamas respiro.</l>
+            <l n="265">¿Elena (muero al pensarlo),</l>
+            <l>cristiana (rabio al decirlo),</l>
+            <l>en busca (¡qué sentimiento!)</l>
+            <l>del madero (¡qué delirio!)</l>
+            <l>que sepultado (¡qué pasmo!)</l>
+            <l n="270">yace oculto (¡qué conflito!)</l>
+            <l>peregrina va (¡qué asombro!)</l>
+            <l>a Jerusalén (¡qué abismo!)?</l>
+            <stage>Las cajas</stage>
+            <l>¿Pero qué me desaliento?</l>
+            <l>¿Qué me ahogo, qué me aflijo</l>
+            <l n="275">al ver en mi religión</l>
+            <l>sospechoso a Constantino,</l>
+            <l>cuando veo que su campo,</l>
+            <l>deshecho, roto y herido,</l>
+            <l>porque ya del mar la gente</l>
+            <l n="280">toma tierra en sus distritos,</l>
+            <l>se pone en fuga, diciendo</l>
+            <l>los estruendos más distintos…:?</l>
+          </sp>
+          <stage>Las cajas</stage>
+          <sp who="#acompanamiento">
+            <speaker>UNOS</speaker>
+            <l>¡El grande Majencio viva!</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>OTROS</speaker>
+            <l>¡Viva, y muera Constantino!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="285">Aunque de la lid le veo</l>
+            <l>salir dejando perdido</l>
+            <l>el trance de la batalla,</l>
+            <l>no por aqueso desisto</l>
+            <l part="I">de mi esperanza.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¿En qué puedes</l>
+            <l part="I">fundarla?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="290" part="F">En ver a dos visos</l>
+            <l>hacerse de lo historial</l>
+            <l>alegórico sentido.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¿De qué suerte?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">Oye, y oíd</l>
+            <l>cuantos a mi voz convido,</l>
+            <l n="295">que a todos toca entenderlo</l>
+            <l>y a mí no más que decirlo.</l>
+            <l>En Constantino, que César</l>
+            <l>es de Roma, significo</l>
+            <l>al hombre en común, pues tiene</l>
+            <l n="300">del orbe el mayor dominio.</l>
+            <l>Que será hijo de la Iglesia</l>
+            <l>fundo en ser de Elena hijo,</l>
+            <l>pues la Iglesia es la que va</l>
+            <l>buscando la cruz de Cristo.</l>
+            <l n="305">Majencio, en síncopa “Mago”,</l>
+            <l>su más opuesto enemigo,</l>
+            <l>es aquel monstruo que usando</l>
+            <l>de sus mágicos hechizos</l>
+            <l>el nombre acredita, pues</l>
+            <l n="310">siempre es fantástico el vicio.</l>
+            <l>Esa real lid en que ahora</l>
+            <l>se significa vencido</l>
+            <l>es aquella primer lid</l>
+            <l>del pecado en que cautivo</l>
+            <l n="315">quedó; y pasando a actual</l>
+            <l>el original delito,</l>
+            <l>naciendo en él, creció en ti,</l>
+            <l>con que en claro silogismo</l>
+            <l>vienes tú a significar</l>
+            <l n="320">su culpa. Escapar herido</l>
+            <l>hacia esta parte es venir</l>
+            <l>buscando quizá mi abrigo,</l>
+            <l>siendo como soy la Fe;</l>
+            <l>porque en la frase que sigo</l>
+            <l n="325">yo sola no mudo nombre,</l>
+            <l>pues siempre soy la que he sido</l>
+            <l>y he sido la que he de ser;</l>
+            <l>conque juntos los sentidos</l>
+            <l>de historia y alegoría,</l>
+            <l n="330">siendo el hombre Constantino,</l>
+            <l>esa lid, su lid primera,</l>
+            <l>esa ruina, su castigo,</l>
+            <l>es Majencio su demonio,</l>
+            <l>tú, su culpa y yo, su alivio.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="335">Porque veas que no temo</l>
+            <l>los misterios escondidos</l>
+            <l>de tu voz, a las dos luces</l>
+            <l>el argumento prosigo</l>
+            <l>animando contra ti</l>
+            <l n="340">las escuadras. ¡Ea, altivos</l>
+            <l>espíritus —que hacer quiero</l>
+            <l>la metáfora— malignos!</l>
+            <l part="I">¡Muera Constantino!</l>
+          </sp>
+          <sp who="#constantino #majencio #acompanamiento #fe #gentilidad">
+            <speaker>TODOS</speaker>
+            <l part="F">¡Muera!</l>
+          </sp>
+          <stage>Yéndose las dos a sus carros</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Ve a buscar sus precipicios,</l>
+            <l n="345">que yo iré a buscar sus dichas.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Destruirale el poder mío.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Ampararale mi celo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Desposeeranle mis bríos.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Poseeranle mis piedades.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="350">Contagio son mis suspiros.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Antídoto mis alientos.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Ni los recelo ni estimo.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Ni los dudo ni los temo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Pues ¡a prevenirle auxilios!,...</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="355">Pues ¡a disponerle ruinas!,...</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">que en su ofensa,...</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">que en su abrigo,...</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">en su oprobio,...</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">en su reparo,...</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">su persecución...</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">su asilo...</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">has de mirarme,…</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">has de verme,…</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">cuando escucho...</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="360" part="F">cuando miro...</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>decir el eco en estruendos..:</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>repetir el aire a gritos…:</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>ELLA</speaker>
+            <stage>fuera y todos dentro</stage>
+            <l>¡El grande Majencio viva!</l>
+            <l>¡Viva, y muera Constantino!</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Vanse las dos y sale Constantino en lo alto, en un caballo; baja al tablado cayendo, y el caballo se vuelve a subir</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="365">¡Muera Constantino, pues</l>
+            <l>desigual el hado quiso</l>
+            <l>que siempre el ajeno triunfo</l>
+            <l>conste de propio peligro!</l>
+            <l>Menos piedad a los dioses</l>
+            <l n="370">debo, oh alado hipogrifo,</l>
+            <l>que a ti, pues —cuando de tantas</l>
+            <l>flechas como a su albedrío</l>
+            <l>traen encomendado al dueño</l>
+            <l>ninguna encuentra conmigo—</l>
+            <l n="375">tú despeñado me arrojas</l>
+            <l>desde la cumbre al abismo,</l>
+            <l>porque no deba a su genio</l>
+            <l>más piedades que a tu instinto.</l>
+            <l>Mas ¡ay! que aunque me despeñes</l>
+            <l n="380">tampoco tu precipicio</l>
+            <l>conmigo acaba, mostrando</l>
+            <l>que caída no ha tenido</l>
+            <l>de que morir, quien no muere</l>
+            <l>cuando cae desde sí mismo.</l>
+            <l n="385">Roto y deshecho mi campo</l>
+            <l>de la fuga se ha valido</l>
+            <l>sin que me quede esperanza</l>
+            <l>de que a mi voz reducido</l>
+            <l>vuelva a empeñarle de nuevo,</l>
+            <l n="390">por la distancia que ha habido</l>
+            <l>donde él se ampara y yo caigo,</l>
+            <l>en cuyo intrincado sitio</l>
+            <l>a pie, fatigado y solo,</l>
+            <l>sin luz, sin senda y sin tino,</l>
+            <l n="395">imagen soy del primero</l>
+            <l>padre, pues desposeído</l>
+            <l>del imperio de mi patria,</l>
+            <l>ni sé qué vereda sigo</l>
+            <l>ni qué nueva región es</l>
+            <l n="400">la que sin mi propio adbitrio</l>
+            <l>me da a la elección del hado</l>
+            <l>la discreción del destino.</l>
+            <l>Y más si atiendo que cuando</l>
+            <l>abrojos y espinas piso,</l>
+            <l n="405">sólo lo que lloro bebo,</l>
+            <l>sólo aliento lo que gimo,</l>
+            <l>que es alimento de un triste</l>
+            <l>el manjar de los suspiros.</l>
+            <l>¿De quién ¡ay de mí! podré</l>
+            <l n="410">informarme? No diviso</l>
+            <l>huella que de bruta planta</l>
+            <l>no sea, no veo camino</l>
+            <l>que enmarañado no esté</l>
+            <l>de armadas zarzas y espinos,</l>
+            <l n="415">voz no se escucha en el viento</l>
+            <l>que ya que no sea bramido</l>
+            <l>de inculta fiera, no sea</l>
+            <l>de funesta ave caistro.</l>
+            <l>Aun las hojas, los cristales,</l>
+            <l n="420">ya en las copas, ya en los riscos,</l>
+            <l>alternando consonancias</l>
+            <l>de cláusulas y gemidos</l>
+            <l>hacen que todo sea pasmo,</l>
+            <l>todo horror, todo prodigio,</l>
+            <l n="425">todo susto, todo pena,</l>
+            <l>todo asombro, nada alivio.</l>
+            <l>¿Quién a Constantino, cielos,</l>
+            <l>en tan desierto retiro</l>
+            <l>ayudarle podrá? ¿Quién</l>
+            <l part="I">ampararle?</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l n="430" part="F">Constantino.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>¡“Constantino” dijo el viento!</l>
+            <l>Voz, si no es que yo te finjo</l>
+            <l>—porque suele ser la idea</l>
+            <l>idioma del afligido—,</l>
+            <l n="435">si Constantino es quien pide</l>
+            <l>el favor, ¿cómo le has dicho</l>
+            <l>que Constantino podrá</l>
+            <l>valerse a sí? Y pues repito</l>
+            <l>yo la pregunta, repite</l>
+            <l n="440">tú la respuesta. ¿Quién —digo—</l>
+            <l>a Constantino —otra vez—</l>
+            <l part="I">valer podrá?</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Constantino,</l>
+            <l>porque nadie vale más</l>
+            <l>al hombre que el hombre mismo.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="445">Oráculo de los montes</l>
+            <l>que con armonioso aviso</l>
+            <l>empezando por proverbio</l>
+            <l>acabas por vaticinio,</l>
+            <l>ya que me das la respuesta</l>
+            <l n="450">no me niegues el indicio.</l>
+            <l part="I">¿Yo a mí he de valerme?</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="I">¿Con qué favor?</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l part="F">El divino.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>¿No está en Júpiter, a quien</l>
+            <l>en la batalla he ofrecido</l>
+            <l part="I">víctimas y altares?</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l n="455" part="F">No.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="I">¿Pues dónde está?</l>
+          </sp>
+          <stage>Un Ángel en un iris con una cruz en la mano, y no hace más que salir y pararse en el aire</stage>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F">En este signo.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>¿Qué hermoso raudal de rayos</l>
+            <l>es aquel que en el vacío</l>
+            <l>del vago imperio del aire</l>
+            <l n="460">sangra a luces el impíreo,</l>
+            <l>ardiente rasgo de nácar</l>
+            <l>que verde, rojo y pajizo</l>
+            <l>en mi deshecha fortuna</l>
+            <l>ser iris de la paz quiso,</l>
+            <l n="465">desabrochando del seno</l>
+            <l>purpúreas hojas de vidrio</l>
+            <l>iluminadas a líneas,</l>
+            <l>tornasoladas a visos?</l>
+            <l>En segundo día, segundo</l>
+            <l n="470">Sol añade al cristalino</l>
+            <l>campo azul, que en escarceos</l>
+            <l>de nunca vagados giros</l>
+            <l>a fuerza de rayos ciega.</l>
+            <l>Si fue de la luz oficio</l>
+            <l n="475">siempre alumbrar, ¿con la luz</l>
+            <l>quién ha visto no haber visto?</l>
+            <l>Bien que a despecho de tanto</l>
+            <l>resplandor como resisto,</l>
+            <l>formada cruz veo de fuego</l>
+            <l n="480">que en el diáfano zafiro,</l>
+            <l>cielo agregado de estrellas,</l>
+            <l>hermoso tropel de signos,</l>
+            <l>por nuevo astro, nueva imagen,</l>
+            <l>colocan. ¿Por dónde vino,</l>
+            <l n="485">cómo o cuándo, a ser hoy trono</l>
+            <l>el que ayer era suplicio?</l>
+            <l>Si Elena mi madre, cielos,</l>
+            <l>como algunos han escrito,</l>
+            <l>a buscar va la cruz, ¿cómo</l>
+            <l n="490">viene por nuevos caminos</l>
+            <l>la cruz a buscarme a mí?</l>
+            <l>Y pues yo no lo averiguo,</l>
+            <l>¿qué quieres decirme, oh raro</l>
+            <l>carácter? Que no he entendido</l>
+            <l n="495">de tu sacra astrología</l>
+            <l>el soberano disignio.</l>
+          </sp>
+          <stage>Va pasando el iris despacio por el aire y canta el ángel Canta</stage>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>Que pues nadie vale más</l>
+            <l>al hombre que el hombre mismo,</l>
+            <l>y solo puede amparar</l>
+            <l n="500">Constantino a Constantino,</l>
+            <l>debajo de esta bandera</l>
+            <l>te alistes, con cuyo auxilio,</l>
+            <l>poniendo en orden tu gente</l>
+            <l>volverás a verte invicto.</l>
+            <l n="505">Porque si tú a ti te vales</l>
+            <l>usando de tu albedrío…</l>
+          </sp>
+          <sp who="#musicos #angel">
+            <speaker>MÚSICA Y ÉL</speaker>
+            <l>… en la señal de la cruz</l>
+            <l>vencerás tus enemigos.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Breve exhalación, aguarda</l>
+            <l n="510">y antes que desvanecido</l>
+            <l>tanto esplendor en pavesas</l>
+            <l>deje a escuras mis sentidos,</l>
+            <l>dime o inspírame: ¿cómo</l>
+            <l>de un inanimado ligno</l>
+            <l part="I">tengo de ampararme?</l>
+          </sp>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l n="515" part="F">Haciendo</l>
+            <l>que digan todos contigo</l>
+            <l>al entrar en la batalla…:</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Absorto estoy al oírlo.</l>
+          </sp>
+          <stage>Canta</stage>
+          <sp who="#angel">
+            <speaker>ÁNGEL</speaker>
+            <l>“Por la señal de la cruz</l>
+            <l n="520">que en líneas de fuego he visto,</l>
+            <l>líbranos, Señor, de nuestros enemigos”.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Yo, yo lo haré; y reduciendo</l>
+            <l>los tercios que fugitivos</l>
+            <l>son en derrotadas tropas</l>
+            <l n="525">perdonados desperdicios</l>
+            <l>del furor, volveré haciendo</l>
+            <l>que oiga todo este distrito</l>
+            <l>decir allí al vencedor,</l>
+            <l>repetir aquí al vencido</l>
+            <l n="530">de tu música al compás</l>
+            <l>y de sus cajas al ruido…:</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Cajas y música que canta el mote del Ángel y cúbrese la apariencia y sale Majencio vestido de romano</stage>
+          <sp who="#acompanamiento">
+            <speaker>DENTRO</speaker>
+            <l>¡El grande Majencio viva!</l>
+          </sp>
+          <sp who="#majencio #acompanamiento #gentilidad #fe #musicos #angel #constantino">
+            <speaker>TODOS</speaker>
+            <l>¡Viva, y muera Constantino!</l>
+          </sp>
+          <sp who="#constantino #musicos">
+            <speaker>CONSTANTINO Y MÚSICA</speaker>
+            <l>Por la señal de la cruz</l>
+            <l n="535">que en líneas de fuego vimos,</l>
+            <l>líbranos, Señor, de nuestros enemigos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Vase</stage>
+          <sp who="#acompanamiento">
+            <speaker>DENTRO</speaker>
+            <l>¡El grande Majencio viva!</l>
+          </sp>
+          <sp who="#majencio #acompanamiento #gentilidad #fe #angel #constantino #musicos">
+            <speaker>TODOS</speaker>
+            <l>¡Viva, y muera Constantino!</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>¡Ea, soldados, seguid</l>
+            <l n="540">el alcance, que festivo</l>
+            <l>no tanto el aplauso vuestro</l>
+            <l>me engrandece porque dijo</l>
+            <l>que viva Majencio, cuanto</l>
+            <l>porque muera Constantino!</l>
+            <l n="545">Que si allá la fantasía</l>
+            <l>de no sé qué discursivo</l>
+            <l>concepto quiere que sea</l>
+            <l>su más opuesto enemigo</l>
+            <l>no sólo en lo historial, pero</l>
+            <l n="550">en lo no historial, su juicio</l>
+            <l>quiero complacer; y así</l>
+            <l>sañudos, fieros y impíos,</l>
+            <l>su alcance seguid sin que</l>
+            <l>le perdonéis compasivos</l>
+            <l n="555">vida ninguna de cuantas</l>
+            <l>en su milicia han nacido.</l>
+            <l>Paguen todos de su dueño</l>
+            <l>la culpa de haber salido</l>
+            <l>de la corte en que se vio</l>
+            <l n="560">a hacer batalla conmigo</l>
+            <l>a la campaña del mundo.</l>
+            <l>Conozcan todos que vino</l>
+            <l>de los campos del oriente,</l>
+            <l>también su patria, un caudillo</l>
+            <l n="565">que en los de occidente supo</l>
+            <l>sujetarlos y rendirlos</l>
+            <l>no sólo vasallos pero</l>
+            <l>tan esclavos, tan cautivos</l>
+            <l>que sea el hierro de sus frentes</l>
+            <l n="570">el padrón de mis registros.</l>
+          </sp>
+          <sp who="#soldado">
+            <speaker>SOLDADO</speaker>
+            <l>Ya en su seguimiento todos</l>
+            <l>se empeñan tan vengativos</l>
+            <l>que una vida no perdonan.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>¡Cuánto me huelgo de oírlo!</l>
+            <l n="575">Veamos si la astrología</l>
+            <l>de algún abrasado signo</l>
+            <l>mal entendido de mí</l>
+            <l>—con ser yo quien ha entendido</l>
+            <l>esos astros, de manera</l>
+            <l n="580">que obedientes a mi adbitrio</l>
+            <l>tal vez los truje a mi mano</l>
+            <l>de sus claros epiciclos</l>
+            <l>arrancando los errantes</l>
+            <l>ya que no pude los fijos,</l>
+            <l n="585">por quien de Mago, que quiere</l>
+            <l>decir ‘sabio’, el apellido</l>
+            <l>corrompió el nombre en Majencio—</l>
+            <l>cumple el influjo en que dijo</l>
+            <l>que sería Roma silla,</l>
+            <l n="590">dosel, curia, imperio y sitio</l>
+            <l>de la corte de la fe,</l>
+            <l>pues una vez conseguido</l>
+            <l>este triunfo y una vez</l>
+            <l>entrando yo en ella invicto</l>
+            <l n="595">claro es que no lo ha de ser.</l>
+          </sp>
+          <stage>Dentro Astrea, villana, y Zabulón</stage>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="I">Sí ha de ser.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">No ha de ser, digo.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>¿Qué oigo? Mas sin duda acaso</l>
+            <l>sería, y así prosigo,</l>
+            <l>porque ¿quién podrá quitarme,</l>
+            <l n="600">derrotado Constantino,</l>
+            <l>que Roma mi corte sea</l>
+            <l part="I">y él mi vasallo?</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="F">El baptismo</l>
+            <l part="I">ha de recibir.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Primero</l>
+            <l part="I">le daré muerte.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">Preciso</l>
+            <l n="605">es ya hacer caso el acaso.</l>
+            <l>Mirad qué voces, qué ruido,</l>
+            <l part="I">es ese.</l>
+          </sp>
+          <sp who="#soldado">
+            <speaker>SOLDADO</speaker>
+            <l part="F">Allí una villana</l>
+            <l>que en los brazos trae un niño</l>
+            <l>huyendo viene de un hombre.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Sale Astrea con un niño en los brazos y Zabulón tras ella</stage>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l n="610">Que ha de ser cristiano, afirmo,</l>
+            <l part="I">hoy, aunque os pese.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Aunque os plazga</l>
+            <l>no ha de ser sino jodío,</l>
+            <l>que es quitarle su remedio</l>
+            <l>pues es quitarle el ser rico.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l n="615">¿Habéisle parido vos?</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>Yo no sé si le he parido,</l>
+            <l>pero él no ha de ser cristiano.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="I">Sí ha de ser.</l>
+          </sp>
+          <sp who="#soldado">
+            <speaker>SOLDADO</speaker>
+            <l part="F">¡Teneos, digo!</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="I">¿Qué es esto?</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="F">Yo lo diré.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l n="620">Eso no, yo he de decirlo.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>Mujer de este simpre so.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>De esta simpre so marido.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>Dionos este hijo el cielo.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>La tierra nos dio este hijo,</l>
+            <l n="625">que aunque fuera paz de otros</l>
+            <l>es de nosotros litigio.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>Porque yo, que so cristiana,</l>
+            <l>que lo sea solicito.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>Porque yo, que soy hebreo</l>
+            <l n="630">quiero que sea hebreíco.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>Y aunque ha tanto que nació…</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>por temor de los edictos…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>no le di hasta ahora la fe…</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>creyendo que Constantino,…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l n="635">que es el más piadoso César…</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>de cuantos hasta hoy ha habido,…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>alce la pena de muerte;…</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>pero viéndole vencido…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>de ese diabro de Majencio,…</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l n="640">de ese Majencio maldito,…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>que vino a turbar su tierra…</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>sin saber de dónde vino,…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>y que el furor de su gente…</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>ni aun un albergue pajizo…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l n="645">de las faldas del Sorato…</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>le dejó por escondido…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>o le perdonó por pobre,…</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>antes que llegue el cochillo…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>quiero que cristiano sea.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l n="650">Y así echa por esos trigos…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="I">buscando a Silvestre.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">Calla,</l>
+            <l part="I">villana.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Cuánto le estimo</l>
+            <l part="I">que me la riña.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">También</l>
+            <l part="I">calla tú.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">¿Es usted testigo</l>
+            <l n="655">de alquiler, que han de pagarlo</l>
+            <l>el cristiano y el jodío?</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Soy quien de vuestra cuestión</l>
+            <l>las voces han ofendido</l>
+            <l part="I">con necios presagios.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="F">¿Pues</l>
+            <l part="I">yo que he hecho?</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l n="660" part="F">¿Yo que he dicho?</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>No sé, no sé, pero entrambos</l>
+            <l>pagaréis el vaticinio.</l>
+          </sp>
+          <sp who="#zabulon #astrea">
+            <speaker>LOS DOS</speaker>
+            <l part="I">¿Qué es batorrillo?</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">(Mas no</l>
+            <l>es bien mostrarme ofendido</l>
+            <l n="665">por no ahuyentar los demás</l>
+            <l>hasta que al ver conseguido</l>
+            <l>el triunfo, acabe de un golpe</l>
+            <l>con todo este forajido</l>
+            <l>bando de la fe). ¡Quitaos</l>
+            <l n="670">de mi presencia, idos, idos,…</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>Válamos Dios, ya nos vamos.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>Válamos Dios, ya nos imos.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>primero que mi furor</l>
+            <l>segunda vez vuelva a oíros!</l>
+          </sp>
+          <stage>Cajas Dentro</stage>
+          <sp who="#acompanamiento">
+            <speaker>UNOS</speaker>
+            <l part="I">¡Arma, arma!</l>
+          </sp>
+          <sp who="#acompanamiento">
+            <speaker>OTROS</speaker>
+            <l n="675" part="F">¡Guerra, guerra!</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="I">¡San Moisén!</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="F">¡San Jesocristo!</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>¿Qué nuevo alboroto es este?</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>Zabulón podrá decirlo.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>Más mijor lo dirá Astrea.</l>
+          </sp>
+          <stage>Cajas</stage>
+          <sp who="#dentro">
+            <speaker>DENTRO</speaker>
+            <l n="680">¡Viva el grande Constantino!</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>No digáis que viva yo,</l>
+            <l>sino id diciendo conmigo:</l>
+            <l>Por la señal de la Cruz</l>
+            <l>que en líneas de fuego vimos…</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l n="685">Por la señal de la Cruz</l>
+            <l>que en líneas de fuego vimos…</l>
+            <stage>Dentro</stage>
+            <l>¡Arma, arma! ¡Guerra, guerra!</l>
+            <l>¡Viva el grande Constantino!</l>
+          </sp>
+          <stage>Cajas</stage>
+          <sp who="#musicos #constantino">
+            <speaker>MÚSICA Y CONSTANTINO</speaker>
+            <l>líbranos, Señor, de nuestros enemigos.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l n="690">¿Qué será una novedad</l>
+            <l>tan grande como que a un mismo</l>
+            <l>tiempo entre trompas y cajas</l>
+            <l>dulces músicas oímos?</l>
+            <l part="I">Ved qué es eso.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Sale la</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Generoso</l>
+            <l part="I">Majencio.</l>
+          </sp>
+          <sp who="#silvestre #fe #angel #soldado #acompanamiento #astrea #zabulon #musicos #constantino #majencio #gentilidad">
+            <speaker>LOS VILLANOS</speaker>
+            <l n="695" part="F">¿“Majencio” dijo?</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>Ay, que yo le llamé “diabro”.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="I">“Maldito”, yo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Constantino,</l>
+            <l>habiendo sus desmandadas</l>
+            <l>tropas juntado, ha querido</l>
+            <l n="700">volver al sangriento trance</l>
+            <l>de la lid, en fe movido</l>
+            <l>de una señal que en el cielo</l>
+            <l>dice esa canción que ha visto.</l>
+            <l>Salle al paso, antes que al verte</l>
+            <l n="705">en su opósito remiso</l>
+            <l>cobre crédito una vaga</l>
+            <l>impresión, que quizá ha sido</l>
+            <l>encendida exhalación,</l>
+            <l>y ellos juzgan que es auxilio.</l>
+            <l n="710">A cuyo efecto, bien como</l>
+            <l>allá con el arca vimos</l>
+            <l>clamar el pueblo, han mezclado</l>
+            <l>con el horror el cariño,</l>
+            <l>con el asombro el concento</l>
+            <l n="715">y con el estruendo el himno.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Heroica Gentilidad,</l>
+            <l>si en mi favor el aviso</l>
+            <l>traes ofendida de que</l>
+            <l>sospechoso tu divino</l>
+            <l n="720">culto en Constantino está</l>
+            <l>por Elena y por él mismo,</l>
+            <l>yo te haré vengada de ambos.</l>
+            <l>¡Al arma, soldados míos!</l>
+            <stage>Dentro</stage>
+            <l>¡Allí está Majencio, muera!</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #soldado #musicos #constantino #astrea #zabulon #gentilidad #majencio">
+            <speaker>TODOS</speaker>
+            <l n="725">¡Muera, y viva Constantino!</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Para que él muera y yo viva</l>
+            <l>vuelva la voz al principio.</l>
+          </sp>
+          <sp who="#musicos">
+            <speaker>MÚSICA</speaker>
+            <l>Por la señal de la Cruz</l>
+            <l>que en líneas de fuego vimos,</l>
+            <l n="730">líbranos, Señor, de nuestros enemigos.</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #soldado #astrea #zabulon #gentilidad #majencio #constantino #musicos">
+            <speaker>TODOS</speaker>
+            <l>¡Arma, arma! ¡Guerra, guerra!</l>
+            <l>¡Viva el grande Constantino!</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>En tanto que la batalla</l>
+            <l>los empeña, huir solicito.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <stage>Vase</stage>
+          <sp who="#nino">
+            <speaker>NIÑO</speaker>
+            <l n="735">Vamos, madre, no me maten</l>
+            <l>antes que tenga el baptismo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <stage>Vase</stage>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>Porque no me den con algo</l>
+            <l>a esta parte me retiro,</l>
+            <l>que basta ser jodío bobo</l>
+            <l n="740">sin ser infeliz jodío.</l>
+          </sp>
+          <stage>Escóndese</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Yo entre los dos tengo, ¡ay cielos!,</l>
+            <l>pendiente el alma de un hilo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <stage>Sale</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Ahora verás mi valor,</l>
+            <l>pues cuerpo a cuerpo te embisto.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="I">Y tú el mío verás.</l>
+            <stage>Riñen los dos y cantan</stage>
+            <l n="745" part="F">Pero</l>
+            <l>¿qué resplandor traes contigo</l>
+            <l part="I">que me deslumbra?</l>
+          </sp>
+          <sp who="#soldado">
+            <speaker>SOLDADO</speaker>
+            <l part="F">¿Qué es esto?</l>
+            <l part="I">¿Tú tiemblas?</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">¿Qué mucho el frío</l>
+            <l>me dé, si ser el rugiente</l>
+            <l n="750">león que sale a los caminos</l>
+            <l>buscando a quien devorar,</l>
+            <l>Pedro en su epístola dijo?</l>
+            <l>Mas ¡ay infeliz! que no</l>
+            <l>la causa de mi rugido</l>
+            <l n="755">es la cición de la fiebre,</l>
+            <l>sino aquel astro que miro</l>
+            <l>que impreso en el aire forma</l>
+            <l>la viva imagen de Cristo.</l>
+            <l>¡Soldados, a retirar!</l>
+            <l n="760">Vea el mundo a pesar mío</l>
+            <l>que el triunfo de vencedor</l>
+            <l>paso a infamias de vencido,</l>
+            <l>siempre que oigo armado al hombre</l>
+            <l part="I">decir…:</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">Repetid, amigos:</l>
+          </sp>
+          <sp who="#constantino #fe #angel #acompanamiento #musicos #astrea #nino #zabulon #gentilidad #soldado #majencio">
+            <speaker>ÉL, TODOS Y MÚSICA</speaker>
+            <l n="765">Por la señal de la cruz</l>
+            <l>que en líneas de fuego vimos,</l>
+            <l>líbranos, Señor, de nuestros enemigos.</l>
+          </sp>
+          <stage>Retíranse los de Majencio y los de Constantino tras ellos</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>¿Qué mucho, ay de mí, que al mar</l>
+            <l>vuelva huyendo, si el vestiglo</l>
+            <l n="770">es del mar, que vio de él Juan</l>
+            <l>salir gimiendo a bramidos</l>
+            <l>con faz de león? ¿Mas quién,</l>
+            <l>siendo él el león, ha visto</l>
+            <l>que padezca él la cuartana</l>
+            <l n="775">y a mí me dé el parasismo?</l>
+            <l>Pero por más que en Constantino esté</l>
+            <l>tan declarada contra mí la fe,</l>
+            <l>centelleando vislumbres de su luz</l>
+            <l>ese vago carácter de la cruz</l>
+            <l n="780">que en el aire se vio</l>
+            <l>no ha de valerla, que mañosa yo</l>
+            <l>sabré prevaricar</l>
+            <l>su auxilio, no dejándole juzgar</l>
+            <l>que se le debe a él</l>
+            <l n="785">el restaurado honor de su laurel,</l>
+            <l>sino al voto ¡ay de mí!</l>
+            <l>que hacer primero a Júpiter le oí,</l>
+            <l>aplaudiendo su acción</l>
+            <l>la vanidad de mi superstición.</l>
+            <l n="790">¡Hermosura gentil,</l>
+            <l>que en la estación de tu florido abril</l>
+            <l>pendiente en Roma hasta saber estás</l>
+            <l>si quedas libre o si cautiva vas!</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#mujeres">
+            <speaker>MUJERES</speaker>
+            <l part="I">Qué pretendes nos di.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Que albricias den</l>
+            <l n="795">vuestras dichas, haciendo en parabién</l>
+            <l>de aquella amenazada esclavitud,</l>
+            <l>que el psalterio, la cítara y laúd</l>
+            <l>saluden con su métrica veloz</l>
+            <l>a Constantino en una y otra voz;</l>
+            <l n="800">cante la gala a Júpiter por quien</l>
+            <l>vuestros hijos se ven</l>
+            <l>libres ya de aquel bárbaro adalid.</l>
+            <l>A recibirle, pues, todas venid,</l>
+
+            <l>y con tonos y bailes le llevad</l>
+            <l n="805">al templo, donde deis a su deidad</l>
+            <l>las gracias, matizando su laurel</l>
+            <l>a tan glorioso fin,</l>
+            <l>con nieve la azucena y el jazmín,</l>
+            <l>con púrpura la rosa y el clavel.</l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <stage>Salen todas las mujeres con flores y instrumentos; una trae en una fuente una tiara, otra, un cetro de tres cru-ces, y otra, un manto carmesí</stage>
+          <sp who="#mujer-1">
+            <speaker>MUJER 1.ª</speaker>
+            <l n="810">De nuestro afecto fiel</l>
+            <l>los extremos conozca, ya que allí</l>
+            <l>triunfante viene; y yo, pues siempre vi</l>
+            <l>que Roma consagró</l>
+            <l>una corona al que campal venció,</l>
+            <l n="815">otra al de sitiador y otra después</l>
+            <l>al que a su patria libra, de las tres</l>
+            <l>una tiara imperial</l>
+            <l part="I">labrada traigo.</l>
+          </sp>
+          <sp who="#mujer-2">
+            <speaker>MUJER 2.ª</speaker>
+            <l part="F">Un cetro yo a ella igual,</l>
+            <l>hecho de tres también.</l>
+          </sp>
+          <sp who="#mujer-3">
+            <speaker>MUJER 3.ª</speaker>
+            <l part="I">Yo la púrpura sacra.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="820" part="F">El parabién</l>
+            <l>empiece pues; y pues la culpa soy</l>
+            <l>en la clara metáfora que hoy</l>
+            <l>ve del mundo el teatro, yo le haré</l>
+            <l>borrar la culpa el mérito a la fe.</l>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <stage>La caja y sale Constantino con los que pueda marchando</stage>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l n="825">Ya que de uno a otro instante veo el pesar</l>
+            <l>vuelto en placer, al baile he de ayudar,</l>
+            <l>que no hay mujer ni hijo donde hay son.</l>
+          </sp>
+          <sp who="#constantino #fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #mujer-1 #mujer-2 #mujer-3 #gentilidad #zabulon">
+            <speaker>TODOS</speaker>
+            <l>Vaya de fiesta, música y canción.</l>
+          </sp>
+          <stage>Cantan y bailan delante de él arrojando flores. Canta</stage>
+          <sp who="#mujer-1">
+            <speaker>1.ª</speaker>
+            <l>En hora dichosa venga</l>
+            <l n="830">nuestro César vencedor</l>
+            <l>a dar las gracias al templo</l>
+            <l>de Júpiter nuestro dios.</l>
+          </sp>
+          <sp who="#constantino #fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #mujer-1 #mujer-2 #mujer-3 #gentilidad #zabulon">
+            <speaker>TODOS</speaker>
+            <l>Venga en hora dichosa,</l>
+            <l>ciñendo su honor,</l>
+            <l n="835">porque todo sea rayos,</l>
+            <l>de rayos del Sol.</l>
+          </sp>
+          <stage>Cruzado</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>¡Qué bien suenan a mi oído</l>
+            <l>los aplausos, cuando atento</l>
+            <l>a mis victorias su acento</l>
+            <l n="840">clarín de mi fama ha sido!</l>
+            <l>Aunque no sé si he debido</l>
+            <l>a Júpiter el favor.</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #mujer-1 #mujer-2 #mujer-3 #gentilidad #zabulon #constantino">
+            <speaker>TODOS</speaker>
+            <l>Venga en hora dichosa</l>
+            <l>ciñendo su honor,</l>
+            <l n="845">porque todo sea rayos,</l>
+            <l>de rayos del Sol.</l>
+          </sp>
+          <stage>Corros</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Ya que a aquel templo eminente</l>
+            <l>de Júpiter soberano</l>
+            <l>te va guiando no en vano</l>
+            <l n="850">la aclamación de tu gente,</l>
+            <l>es bien que cumplas el voto</l>
+            <l>que en la batalla le hiciste.</l>
+            <l>Y aunque en él le prometiste</l>
+            <l>piadosamente devoto</l>
+            <l n="855">que de víctimas humanas</l>
+            <l>el sacrificio sería,</l>
+            <l>en tanto que llega el día</l>
+            <l>de cumplírsele en cristianas</l>
+            <l>vidas, en prendas le den</l>
+            <l n="860">por ahora satisfación</l>
+            <l>el culto y la adoración,</l>
+            <l>pues fue el gran Júpiter quien</l>
+            <l>te dio aquel rayo que ves</l>
+            <l>brillar, ostentando ufano</l>
+            <l n="865">que Júpiter soberano</l>
+            <l>el dios de los rayos es</l>
+            <l>que tus contrarios deslumbra,</l>
+            <l>pues no solo serlo arguye</l>
+            <l>cuando con ellos destruye,</l>
+            <l n="870">pero también cuando alumbra.</l>
+            <l>Y pues Júpiter le encumbra</l>
+            <l>a la eminencia mayor…</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #mujer-1 #mujer-2 #mujer-3 #zabulon #constantino #gentilidad">
+            <speaker>TODOS</speaker>
+            <l>Venga en hora dichosa,</l>
+            <l>ciñendo su honor,</l>
+            <l n="875">porque todos sean rayos,</l>
+            <l>de rayos del Sol.</l>
+          </sp>
+          <stage>Bandas</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Hermosa Gentilidad,</l>
+            <l>ya lo que te debo sé,</l>
+            <l>mas si imagen de cruz fue</l>
+            <l n="880">la que vio la raridad</l>
+            <l>del aire, siendo una nube</l>
+            <l>iris triunfal de la cruz,</l>
+            <l>¿cómo creeré que la luz</l>
+            <l>de ajena deidad no tuve?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="885">Creyendo que exhalaciones</l>
+            <l>saben burlar aparentes</l>
+            <l>dando formas diferentes</l>
+            <l>sus fáciles impresiones.</l>
+            <l>¿Quién en arreboles que</l>
+            <l n="890">transmontan los horizontes</l>
+            <l>tal vez ciudades, tal montes</l>
+            <l>no se persuade que ve?</l>
+            <l>¿Tal ondas del mar en cuyo</l>
+            <l>boreal objeto tal vez</l>
+            <l n="895">finge el monstruo, el ave, el pez?</l>
+            <l>Luego claramente arguyo</l>
+            <l>que fue un acaso esa rara</l>
+            <l>cruz que viste, y bien no fuera</l>
+            <l>que a un dios el voto se hiciera</l>
+            <l n="900">y que otro le iluminara.</l>
+            <l>Y así ven donde a su umbral</l>
+            <l>ciñas, con que su fe abonas,</l>
+            <l>corona de tres coronas:</l>
+            <l>mural, cívica y campal.</l>
+          </sp>
+          <stage>Toma la corona la Gentilidad y espérale con ella, y él va acercándose, y todas bailan</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="905">Dices bien, y pues cumplir</l>
+            <l>a él debo el voto, no quiero</l>
+            <l>a imagen de un vil madero</l>
+            <l>la victoria atribuir,</l>
+            <l>y así podéis proseguir</l>
+            <l n="910">al gran Júpiter el loor.</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #mujer-1 #mujer-2 #mujer-3 #zabulon #gentilidad #constantino">
+            <speaker>TODOS</speaker>
+            <l>Venga en hora dichosa</l>
+            <l>ciñendo su honor,</l>
+            <l>porque todo sea rayos,</l>
+            <l>de rayos del Sol.</l>
+          </sp>
+          <stage>Corro grande</stage>
+          <sp who="#mujer-1">
+            <speaker>MUJER 1.ª</speaker>
+            <l n="915">En hora dichosa venga</l>
+            <l>nuestro César vencedor</l>
+            <l>a dar las gracias al templo</l>
+            <l>de Júpiter nuestro dios.</l>
+          </sp>
+          <sp who="#mujer-2">
+            <speaker>MUJER 2.ª</speaker>
+            <l>En hora dichosa venga</l>
+            <l n="920">entre uno y otro blasón</l>
+            <l>feriando sustos de ayer</l>
+            <l>a seguridades de hoy.</l>
+          </sp>
+          <sp who="#mujer-3">
+            <speaker>MUJER 3.ª</speaker>
+            <l>En hora dichosa venga</l>
+            <l>a dar en satisfación</l>
+            <l n="925">de sus triunfos sacrificios</l>
+            <l>a quien los triunfos le dio.</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #zabulon #gentilidad #constantino #mujer-1 #mujer-2 #mujer-3">
+            <speaker>TODOS</speaker>
+            <l>Venga en hora dichosa</l>
+            <l>ciñendo su honor,</l>
+            <l>porque todo sea rayos…</l>
+          </sp>
+          <stage>Al irse a poner la tiara, empieza a temblar</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="930">Suspended la voz</l>
+            <l>si ya vuestros dulces sonoros acentos,</l>
+            <l>festivos aplausos de mi aclamación</l>
+            <l>no glosan el metro, no trovan el ritmo</l>
+            <l>diciendo al mirar que abrasándome estoy</l>
+            <l n="935">“que todo sea rayos, pues todos lo son”.</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #zabulon #gentilidad #mujer-1 #mujer-2 #mujer-3 #constantino">
+            <speaker>TODOS</speaker>
+            <l part="I">¿Qué es esto?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">No sé, que solo se deja</l>
+            <l>mirar que le aflige algún grave dolor</l>
+            <l>pues como furioso sus manos se muerde</l>
+            <l part="I">y el pecho se rasga.</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #zabulon #mujer-1 #mujer-2 #mujer-3 #constantino #gentilidad">
+            <speaker>TODOS</speaker>
+            <l part="F">¡Qué gran confusión!</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="940">¿Qué súbito, ¡cielos!, mortal accidente</l>
+            <l>es este, ¡ay de mí!, que al alma le dio</l>
+            <l>tan grave que pienso que dentro del pecho</l>
+            <l>se me ha hecho pedazos todo el corazón?</l>
+            <l>¡Piedad, que me hielo, piedad, que me abraso!</l>
+            <l n="945">¿Quién vio en un instante, en un punto quién vio</l>
+            <l>Vesubio de fuego cubierto de nieve,</l>
+            <l>ardiendo del pasmo, pasmar del ardor?</l>
+            <stage>Mete las manos en el pecho y sácalas ensangrentadas</stage>
+            <l>Las manos que al pecho apliqué por alivio</l>
+            <l>—en cualquier congoja natural acción—</l>
+            <l n="950">del pecho las saco cubiertas de lepra.</l>
+            <l>¡Oh, quién por no verlas con asco y pavor</l>
+            <l part="I">los ojos cegara!</l>
+            <stage>Mánchase con las manos la cara</stage>
+            <l part="F">Mas ¡ay!, que al contacto</l>
+            <l>que a ellas del pecho el daño pasó,</l>
+            <l>también desde ellas al rostro se pasa</l>
+            <l n="955">según hasta el rostro se extiende el dolor.</l>
+            <l>¿Qué es esto, fortuna? ¿Tan presto a la dicha</l>
+            <l>de aquella victoria pagué la pensión?</l>
+            <l>¿Mas cuándo, ¡ay de mí!, el contento de ayer</l>
+            <l>anuncio no es del llanto de hoy?</l>
+            <l n="960">Quitad la tiara, la púrpura y cetro</l>
+            <l>que ya no capaz jeroglífico son</l>
+            <l>de triunfo que en sí contiene tres y uno,</l>
+            <l>guardados quizá para dueño mejor.</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>¡Detente, señor, porque inficionado</l>
+            <l n="965">a todos nos pones espanto y pavor!</l>
+          </sp>
+          <sp who="#mujer-1">
+            <speaker>MUJER 1.ª</speaker>
+            <l part="I">¡Huid de su aliento!</l>
+          </sp>
+          <sp who="#mujer-2">
+            <speaker>MUJER 2.ª</speaker>
+            <l part="F">¡Huid de su vista!</l>
+          </sp>
+          <sp who="#mujer-3">
+            <speaker>MUJER 3.ª</speaker>
+            <l part="I">¡Qué estrago!</l>
+          </sp>
+          <sp who="#mujer-1">
+            <speaker>MUJER 1.ª</speaker>
+            <l part="M">¡Qué pena!</l>
+          </sp>
+          <sp who="#mujer-2">
+            <speaker>MUJER 2.ª</speaker>
+            <l part="M">¡Qué asombro!</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #gentilidad #constantino #zabulon #mujer-3 #mujer-1 #mujer-2">
+            <speaker>TODOS</speaker>
+            <l part="F">¡Qué horror!</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>¡Oíd, esperad, no os asuste el mirarme,</l>
+            <l part="I">amigos, vasallos!</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Yo so Zabulón,</l>
+            <l n="970">y los Zabulones vasallos ni amigos</l>
+            <l>de nadie en el mundo se cuenta que son.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="I">¿Por qué huyes de mí?</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Porque tiene una cara</l>
+            <l>aún peor que esta mía, según la dejó</l>
+            <l>manchada el contagio, y si me le pega</l>
+            <l n="975">por mala que es, será peor que peor.</l>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <stage>Vase</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Los mismos, ¡ay, triste!, que el triunfo aplaudían</l>
+            <l>el daño recatan, con que otra vez soy</l>
+            <l>imagen segunda del padre primero,</l>
+            <l part="I">pues todos me dejan.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Sino sola yo.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="980">Pues si eres tú sola quien solo me asiste,</l>
+            <l>¿sabrasme decir del ansia en que estoy</l>
+            <l>la causa, pues eres, oh Gentilidad,</l>
+            <l part="I">tan sabia?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="M">Sí, escucha.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="M">Prosigue.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Atención.</l>
+            <l>Allá el Hebraísmo en el Génesis cuenta</l>
+            <l n="985">que incrédulo estaba Moisés de su Dios,</l>
+            <l>pidiendo señal cuando Él le mandaba</l>
+            <l>hablar de su parte al rey faraón,</l>
+            <l>y entre otras señales de vara y serpiente</l>
+            <l>meter en el seno la mano mandó,</l>
+            <l n="990">saliendo al sacarla cubierta de lepra;</l>
+            <l>después en Naamán también explicó</l>
+            <l>la lepra la culpa; y luego en María,</l>
+            <l>del mismo Moisés hermana y de Aarón,</l>
+            <l>pues al mormurarle se cubrió de lepra.</l>
+            <l n="995">¿Y qué más lugar para explicación</l>
+            <l>de que signifique la lepra la culpa</l>
+            <l>que oír a Isaías también de su Dios</l>
+            <l>que “como leproso” sería reputado</l>
+            <l>adonde se entiende ‘como pecador’?</l>
+            <l n="1000">Pues si esto es así y que incredulidades</l>
+            <l>los dioses castigan con esa aflicción,</l>
+            <l>¿quién duda que aquella que acaso tuviste,</l>
+            <l>infiel presumiendo cruz la exhalación,</l>
+            <l>Júpiter castiga? Y aun en dos sentidos.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="1005">¿Y cuál es el otro, ¡ay de mí!, de los dos?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>¿Víctimas humanas no fueron aquellas</l>
+            <l part="I">que tú le ofreciste?</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="M">Sí.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Pues la razón</l>
+            <l>de que le dilates hoy el sacrificio</l>
+            <l>tratando primero tu coronación</l>
+            <l n="1010">es causa de que porque sangre derrames</l>
+            <l>te dé mal en que ella el remedio es mayor.</l>
+            <l>La lepra con sangre humana se cura</l>
+            <l>y darte la lepra es decir su atención</l>
+            <l>que tu conveniencia y su sacrificio</l>
+            <l n="1015">te dé a ti salud y a él adoración.</l>
+            <l>Haz pues que a sus aras en púrpura humana</l>
+            <l>derrame piadoso cuchillo el humor</l>
+            <l>de aquellos que aún tiernos infantes hasta ahora</l>
+            <l>su primer puericia la edad no vició,</l>
+            <l n="1020">con que se consigue que a Júpiter cumplas</l>
+            <l>el voto, y cogiendo el purpúreo candor</l>
+            <l>en vasos podrás bañándote en ellos</l>
+            <l>el culto sanear, sanar la infición.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Bien dices y al punto en todo mi imperio</l>
+            <l n="1025">que el bando se eche al registro dispón,</l>
+            <l>pues menos importa que muera inocente</l>
+            <l>el número inmenso de infante escuadrón,</l>
+            <l>que no que faltando al voto no sane</l>
+            <l>de este asco, este asombro, este pasmo, este horror.</l>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <stage>Vase</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1030">¡Qué presto verás cómo yo te obedezco!</l>
+            <l part="I">¡Noticia!</l>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <stage>Sale la</stage>
+          <sp who="#noticia">
+            <speaker>NOTICIA</speaker>
+            <l part="M">¿Qué quieres?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Que pues que tu voz</l>
+            <l>es aliento que hurtado a la fama</l>
+            <l>discurre sutil de región en región,</l>
+            <l>bien como real pragmática hagas</l>
+            <l n="1035">de cajas al ruido, de trompas al son</l>
+            <l>que en ecos te oiga el confín del imperio</l>
+            <l>diciendo el edicto a voz de pregón:</l>
+            <l>que toda la infancia sus padres registren,</l>
+            <l>que así de los dioses conviene al honor,</l>
+            <l n="1040">y así a la salud conviene del César</l>
+            <l>(aunque a mis rencores dijera mejor).</l>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <stage>Vase</stage>
+          <sp who="#noticia">
+            <speaker>NOTICIA</speaker>
+            <l>Tú verás en mi acento y sus ecos</l>
+            <l>cuánto hoy la noticia discurre veloz.</l>
+            <stage>Canta</stage>
+            <l part="I">¡Hola! ¡Hau! ¡Ah del aire!</l>
+          </sp>
+          <stage>Dentro responden</stage>
+          <sp who="#coro-1">
+            <speaker>CORO 1.º</speaker>
+            <l part="M">¡Ah del aire!</l>
+          </sp>
+          <sp who="#coro-2">
+            <speaker>CORO 2.º</speaker>
+            <l part="F">¡Ah del aire!</l>
+          </sp>
+          <sp who="#noticia">
+            <speaker>NOTICIA</speaker>
+            <l part="I">Oíd, escuchad, y a mi voz…</l>
+          </sp>
+          <sp who="#coro-1">
+            <speaker>CORO 1.º</speaker>
+            <l part="M">a mi voz…</l>
+          </sp>
+          <sp who="#coro-2">
+            <speaker>CORO 2.º</speaker>
+            <l n="1045" part="F">a mi voz…</l>
+          </sp>
+          <sp who="#noticia">
+            <speaker>NOTICIA</speaker>
+            <l>clarín sean las aves ganando el silencio,…</l>
+          </sp>
+          <sp who="#coro-1">
+            <speaker>CORO 1.º</speaker>
+            <l>clarín sean las aves ganando el silencio,…</l>
+          </sp>
+          <sp who="#noticia">
+            <speaker>NOTICIA</speaker>
+            <l>las copas sean cajas perdiendo el rumor.</l>
+          </sp>
+          <sp who="#coro-2">
+            <speaker>CORO 2.º</speaker>
+            <l>las copas sean cajas perdiendo el rumor.</l>
+          </sp>
+          <sp who="#noticia">
+            <speaker>NOTICIA</speaker>
+            <l part="I">¡Atención!</l>
+          </sp>
+          <sp who="#fe #angel #acompanamiento #musicos #astrea #nino #soldado #majencio #mujer-3 #mujer-1 #mujer-2 #zabulon #constantino #gentilidad #coro-1 #coro-2 #noticia">
+            <speaker>TODOS</speaker>
+            <l n="1050" part="F">¡Atención!</l>
+          </sp>
+          <sp who="#noticia">
+            <speaker>NOTICIA</speaker>
+            <l>Venga a noticia de todos</l>
+            <l>que el supremo emperador</l>
+            <l>manda que la tierna infancia</l>
+            <l>llegue a registrarse hoy,</l>
+            <l n="1055">porque de los altos dioses</l>
+            <l>así conviene al honor,</l>
+            <l>y a la salud de su vida</l>
+            <l>hacer piedad el rigor.</l>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <stage>Sale Majencio vestido de marinero oyendo la música</stage>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>¿“Porque de los altos dioses</l>
+            <l n="1060">así conviene al honor,</l>
+            <l>y a la salud de su vida</l>
+            <l>hacer piedad el rigor”?</l>
+          </sp>
+          <sp who="#noticia">
+            <speaker>NOTICIA</speaker>
+            <l>Y porque al compás de clarines y cajas</l>
+            <l>ninguno en su imperio ignore el pregón,</l>
+            <l n="1065">clarín sean las aves ganando el silencio,</l>
+            <l>las copas sean cajas perdiendo el rumor.</l>
+          </sp>
+          <stage>Cantan</stage>
+          <sp who="#fe #angel #acompanamiento #musicos #astrea #nino #soldado #mujer-3 #mujer-1 #mujer-2 #zabulon #constantino #gentilidad #coro-1 #coro-2 #majencio #noticia">
+            <speaker>TODOS</speaker>
+            <l>Clarín sean las aves ganando el silencio,</l>
+            <l>las copas sean cajas perdiendo el rumor.</l>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <stage>Vanse</stage>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Aunque huyendo fui de aquella</l>
+            <l n="1070">señal que en el cielo vi,</l>
+            <l>vuelvo disfrazado aquí</l>
+            <l>menos temeroso de ella</l>
+            <l>al oír que Constantino</l>
+            <l>desperdiciando el favor</l>
+            <l n="1075">de la Fe, al neutral horror</l>
+            <l>de lepra y culpa previno</l>
+            <l>convalecer con cruel</l>
+            <l>medicina; y así puedo,</l>
+            <l>pues perdió al auxilio el miedo,</l>
+            <l n="1080">volver a verme con él,</l>
+            <l>bien que en traje diferente,</l>
+            <l>pues como fiera del mar,</l>
+            <l>marinero he de mostrar</l>
+            <l>que vencido infamemente</l>
+            <l n="1085">huyo del hombre en el día</l>
+            <l>que armado de la cruz me hace</l>
+            <l>la guerra y vuelvo el que nace</l>
+            <l>de su culpa mi osadía,</l>
+            <l>porque de este testimonio</l>
+            <l n="1090">contra él la razón se arguya</l>
+            <l>de que está en su mano que huya</l>
+            <l>o que se acerque el demonio.</l>
+            <l>Y pues le hui declarado,</l>
+            <l>he de intentar encubierto</l>
+            <l n="1095">dejarle a mis manos muerto</l>
+            <l>introduciéndome osado</l>
+            <l>en su palacio, con que</l>
+            <l>lograr mis triunfos no dudo,</l>
+            <l>pues ya leproso, ¿quién pudo</l>
+            <l part="I">de mí librarle?</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#mujeres">
+            <speaker>MUJERES</speaker>
+            <l n="1100" part="F">La fe</l>
+            <l>pública de la justicia</l>
+            <l>nos quebranta Constantino.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Segundo acaso previno</l>
+            <l>proverbios a mi malicia</l>
+            <l n="1105">con que a arder vuelven mis llamas.</l>
+
+            <l>De este, pues, lo he de saber.</l>
+            <l part="I">¿Adónde vas?</l>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <stage>Sale Zabulón</stage>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Voy a ver</l>
+            <l>la procesión de las amas,</l>
+            <l>porque apenas se oyó el eco</l>
+            <l n="1110">de no sé qué pregón, cuando</l>
+            <l>obedeciendo su bando</l>
+            <l>cada cual con su muñeco,</l>
+            <l>madres y hijos mil a mil,</l>
+            <l>del gran palacio a la plaza,</l>
+            <l n="1115">van ellas con su mostaza</l>
+            <l>y ellos con su perejil.</l>
+            <l>Y así es bien que a verlo corra</l>
+            <l>sin temer dolor tan grave</l>
+            <l>que para uno que me cabe</l>
+            <l n="1120">de zapatos me lo ahorra,</l>
+            <l>malas noches, peores días,</l>
+            <l>ahítos, ojos, sabañones,</l>
+            <l>viruelas y sarampiones,</l>
+            <l>lombrices y alferecías.</l>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <stage>Sale Astrea con el niño</stage>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l n="1125">¡Ay infelice de mí!</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>Dicho y hecho, mi mujer</l>
+            <l part="I">es esta.</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#acompanamiento">
+            <speaker>UNO</speaker>
+            <l part="F">No ha de valer</l>
+            <l part="I">fuga ni ruego.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="F">Si en ti,</l>
+            <l>marinero, hallar piedad</l>
+            <l n="1130">puede ¡ay de mí! una afligida,</l>
+            <l>salva en el mar esta vida</l>
+            <l>de la bárbara crueldad</l>
+            <l part="I">que me sigue.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">Mal podré</l>
+            <l>cuando yo el primero soy</l>
+            <l n="1135">que de tus entrañas hoy</l>
+            <l>el hijo te arrancaré</l>
+            <l>para entregalle al acero.</l>
+          </sp>
+          <stage>Al quitársele se retira</stage>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>A muy buen puerto has llegado.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Pero ¿qué temblor me has dado,</l>
+            <l n="1140">oh infante, que al verte muero</l>
+            <l>de asombro, espanto y temor?</l>
+          </sp>
+          <sp who="#nino">
+            <speaker>NIÑO</speaker>
+            <l>El agua que recibí</l>
+            <l>sin duda vuelve por mí.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Esa otra causa es mayor</l>
+            <l n="1145">para mi pena cruel.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>Lleva, ya que no te muevas,</l>
+            <l>todo el corazón, pues llevas</l>
+            <l>el mejor pedazo de él.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Suelta, que aunque no mi intento</l>
+            <l n="1150">logra en éste la injusticia,</l>
+            <l>muerto antes que la malicia</l>
+            <l>le mude el entendimiento,</l>
+            <l>con todo me ha de servir</l>
+            <l>de introducirme con él,</l>
+            <l n="1155">como ministro que fiel</l>
+            <l part="I">cumple el bando.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="F">Antes morir</l>
+            <l>tengo. ¡Que a ti no te pese</l>
+            <l part="I">de ver esto!</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">No, mujer,</l>
+            <l>que peor fuera querer</l>
+            <l n="1160">darme otro que quitarme ese.</l>
+            <l part="I">Déjale.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="F">Antes moriré.</l>
+          </sp>
+          <sp who="#nino">
+            <speaker>NIÑO</speaker>
+            <l>Madre, no llore por mí,</l>
+            <l>que pues la fe recibí</l>
+            <l>por mí volverá la fe.</l>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <stage>Vase Majencio con el niño</stage>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l n="1165">¿Cómo ¡ay infelice! puedo</l>
+            <l>al quitarte de mis brazos</l>
+            <l>no llorar, si en dos pedazos</l>
+            <l>dividida el alma quedo,</l>
+            <l>sujeta al mortal desdén</l>
+            <l n="1170">de ver que a Roma pasó</l>
+            <l>la persecución que vio</l>
+            <l>un tiempo Jerusalén?</l>
+          </sp>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l>Si cristiano no le hicieras</l>
+            <l>y jodío le dejaras</l>
+            <l n="1175">quizá más piedad hallaras</l>
+            <l>o más dichoso le vieras.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l>Esa fuera más esquiva</l>
+            <l>pena, que más quiero —es llano—</l>
+            <l>que muera mi hijo cristiano</l>
+            <l n="1180">que no que en otra fe viva.</l>
+            <l>Y así en ella esperaré</l>
+            <l>—como él mismo repitió—</l>
+            <l>que pues la fe recibió,</l>
+            <l>que vuelva por él la fe.</l>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <stage>Vase</stage>
+          <sp who="#zabulon">
+            <speaker>ZABULÓN</speaker>
+            <l n="1185">Esa esperanza te aliente</l>
+            <l>y a mí la de huir, que no</l>
+            <l>estoy seguro, pues yo</l>
+            <l>soy también un inocente.</l>
+            <l>Pero ¿por dónde he de echar?,</l>
+            <l n="1190">si palacio, calle y plaza</l>
+            <l>todo a tropas lo embaraza</l>
+            <l>el tumulto popular</l>
+            <l>de las mujeres, diciendo</l>
+            <l>a gritos por la ciudad…:</l>
+          </sp>
+        </div>
+        <div type="scene" n="23">
+          <stage>Vase Dentro</stage>
+          <sp who="#mujeres">
+            <speaker>MUJERES</speaker>
+            <l n="1195">¡Misericordia, piedad!</l>
+          </sp>
+        </div>
+        <div type="scene" n="24">
+          <stage>Sale</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Cerrad al piadoso estruendo</l>
+            <l>de ese lamento las puertas</l>
+            <l>que no le quiero oír ni ver,</l>
+            <l>supuesto que no ha de ser</l>
+            <l n="1200">de efecto que estén abiertas</l>
+            <l>a la voz si no lo están</l>
+            <l part="I">a la compasión.</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#mujer-1">
+            <speaker>MUJER 1.ª</speaker>
+            <l part="F">Entremos</l>
+            <l>todas; quizá los extremos</l>
+            <l>de nuestro llanto podrán</l>
+            <l part="I">piedad hallar.</l>
+            <stage>Dentro 2.ª</stage>
+            <l n="1205" part="F">¿Mejor no</l>
+            <l>será que por todas una</l>
+            <l part="I">hable?</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#astrea">
+            <speaker>ASTREA</speaker>
+            <l part="F">¿Quién en tal fortuna</l>
+            <l part="I">tomará ese cargo?</l>
+          </sp>
+        </div>
+        <div type="scene" n="25">
+          <stage>Sale la Fe vestida de luto y suelto el cabello</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">Yo,</l>
+            <l>yo, que madre más común</l>
+            <l n="1210">que todas soy y así debe</l>
+            <l>hablar por todas la que</l>
+            <l>más hijos que todas pierde.</l>
+            <l>Generoso Constantino,</l>
+            <l>cuyos sagrados laureles</l>
+            <l n="1215">manchados de sangre esconden</l>
+            <l>entre lo rojo lo verde,</l>
+            <l>la fe pública de Roma</l>
+            <l>—bien que ahora más parece</l>
+            <l>la oculta fe, pues no hay</l>
+            <l n="1220">quien de sus señas se acuerde—,</l>
+            <l>arrastrando luengos lutos</l>
+            <l>y tanto que porque llegue</l>
+            <l>a vestírselos el rostro</l>
+            <l>aun el rostro la obscurecen</l>
+            <l n="1225">las desmelenadas crenchas</l>
+            <l>que desaliñan la frente,</l>
+            <l>bien como madre común</l>
+            <l>de tus afligidas gentes</l>
+            <l>hoy a arrojarse a esas plantas</l>
+            <l n="1230">en nombre de todas viene</l>
+            <l>diciendo a voces si es</l>
+            <l>que a sus lamentos atiendes…:</l>
+          </sp>
+          <sp who="#fe #musicos">
+            <speaker>ELLA Y MÚSICA</speaker>
+            <l>¡Piedad, señor, piedad,</l>
+            <l>que no es decente</l>
+            <l n="1235">que viva un rey con sangre</l>
+            <l>de ignocentes!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Si el cielo, señor, por causas</l>
+            <l>que allá en sus archivos tiene</l>
+            <l>arcanamente escondidos</l>
+            <l n="1240">sin permitir que las lleguen</l>
+            <l>a rastrear humanos ojos</l>
+            <l>con el veneno te hiere</l>
+            <l>de ese inficionado achaque,</l>
+            <l>de esa pegajosa peste</l>
+            <l n="1245">que, símbolo del pecado,</l>
+            <l>mancha el cuerpo, el alma ofende,</l>
+            <l>¿qué culpa tienen, señor,</l>
+            <l>mis hijos? ¿Qué culpa tienen</l>
+            <l>tus vasallos para que</l>
+            <l n="1250">valga una vida mil muertes?</l>
+          </sp>
+          <sp who="#fe #musicos">
+            <speaker>ELLA Y MÚSICA</speaker>
+            <l>¡Piedad, señor, piedad,</l>
+            <l>que no es decente</l>
+            <l>que viva un rey con sangre</l>
+            <l>de ignocentes!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="1255">De algún contagio ya vio</l>
+            <l>el mundo cuánto se extiende</l>
+            <l>la infición, pues heredada</l>
+            <l>alcanza a sus descendientes.</l>
+            <l>Pero también vio, señor,</l>
+            <l n="1260">ya que en ti se represente</l>
+            <l>aquella general ruina,</l>
+            <l>que hubo quien el daño enmiende.</l>
+            <l>Que muera por todos uno</l>
+            <l>sentencia fue que obediente</l>
+            <l n="1265">al Padre la aceptó el Hijo</l>
+            <l>con ser el Rey de los reyes.</l>
+            <l>¿Pues cómo, señor, pues cómo</l>
+            <l>en este ejemplar pretendes</l>
+            <l>muriendo allá el no culpado</l>
+            <l n="1270">por los culpados, que truequen</l>
+            <l>aquí la acción tus edictos</l>
+            <l>y los no culpados lleguen</l>
+            <l>a morir por el culpado?</l>
+            <l>No, señor; no, señor. Cese</l>
+            <l n="1275">del bando la ejecución,</l>
+            <l>que es cruel inconveniente</l>
+            <l>que mueran todos por uno</l>
+            <l>cuando uno por todos muere.</l>
+          </sp>
+          <sp who="#fe #musicos">
+            <speaker>ELLA Y MÚSICA</speaker>
+            <l>¡Piedad, señor, piedad,</l>
+            <l n="1280">que no es decente</l>
+            <l>que viva un rey con sangre</l>
+            <l>de ignocentes!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Y puesto que los oídos</l>
+            <l>con menos afectos mueven</l>
+            <l n="1285">que los ojos, pues no tanto</l>
+            <l>lo que se escucha se cree</l>
+            <l>como lo que se ve —a cuya</l>
+            <l>causa el vulgo decir suele</l>
+            <l>que corazón que no ve</l>
+            <l n="1290">es corazón que no siente—,</l>
+            <l>ponte a ese mirador, donde</l>
+            <l>verás de nobleza y plebe</l>
+            <l>la lástima con que a todos</l>
+            <l>tus rigores comprehenden.</l>
+            <l n="1295">Ya en los pechos, ya en los brazos</l>
+            <l>verás arrancar pendientes</l>
+            <l>dos vidas en cada acción</l>
+            <l>con tan encontrada suerte</l>
+            <l>que es entre amor y tristeza</l>
+            <l n="1300">de hijo y madre indiferente</l>
+            <l>la que lo padece más,</l>
+            <l>la que menos lo padece.</l>
+            <l>Cuál primero que la quiten</l>
+            <l>del pecho el hijo pretende</l>
+            <l n="1305">que se vuelva a sus entrañas</l>
+            <l>según en ellas le prende.</l>
+            <l>Cuál que de esconderle trata</l>
+            <l>no lo consigue imprudente,</l>
+            <l>pues el llanto del que esconde</l>
+            <l n="1310">denuncia de ella, de suerte</l>
+            <l>que a la que le guarda madre</l>
+            <l>la declara delincuente.</l>
+            <l>Cuál de la fuga se ampara,</l>
+            <l>cuál de la ira se defiende,</l>
+            <l n="1315">cuál del desaliento yace,</l>
+            <l>cuál del desmayo fallece,</l>
+            <l>y cuál en fin más constante</l>
+            <l>persuade a todas que apelen</l>
+            <l>a tu piedad, reducidas</l>
+            <l n="1320">a que digan igualmente…:</l>
+          </sp>
+          <sp who="#fe #musicos">
+            <speaker>ELLA Y MÚSICA</speaker>
+            <l>¡Piedad, señor, piedad,</l>
+            <l>que no es decente</l>
+            <l>que viva un rey con sangre</l>
+            <l>de ignocentes!</l>
+          </sp>
+        </div>
+        <div type="scene" n="26">
+          <stage>Sale la Gentilidad</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1325">Ya tienes para el primero</l>
+            <l>sacrificio… (¡Mas qué quiere</l>
+            <l>la Fe aquí? Pero ¿qué importa,</l>
+            <l>si a sus desaires atiende,</l>
+            <l>que esté o no?) Ya tienes, digo,</l>
+            <l n="1330">en ese templo eminente</l>
+            <l>tres mil vidas destinadas</l>
+            <l>al cuchillo. ¿Qué hay que esperes</l>
+            <l>a que con el voto acabes</l>
+            <l>donde con la cura empieces?</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="1335">Gentilidad, tus finezas</l>
+            <l>mis desdichas agradecen;</l>
+            <l>mas de suerte mis piedades</l>
+            <l>aquesa lástima mueve</l>
+            <l>que sonando como llanto</l>
+            <l n="1340">como música divierte,</l>
+            <l>que quiero morir primero</l>
+            <l>que ver que mi vida cueste</l>
+            <l part="I">hoy tantas vidas.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¿Qué dices?</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Que no es justo que en mí lleguen</l>
+            <l n="1345">a morir todos por uno,</l>
+            <l>cuando uno por todos muere.</l>
+            <l>Y pues que no es decente</l>
+            <l>que viva un rey con sangre</l>
+            <l>de ignocentes,</l>
+            <l n="1350">volved al punto sus hijos</l>
+            <l>a sus madres, no se cuente</l>
+            <l>de Constantino que tuvo</l>
+            <l>las entrañas tan rebeldes</l>
+            <l>que no las enternecieron</l>
+            <l n="1355">lágrimas de las mujeres.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¿Pues cómo…?</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">Nada me digas</l>
+            <l>ni me arguyas ni me acuerdes</l>
+            <l>cuánto a los dioses importa,</l>
+            <l>cuánto a mi salud conviene,</l>
+            <l n="1360">que no hay culto donde hay ira</l>
+            <l>ni vida donde hay desdenes.</l>
+            <l>Mujer que yo no conozco</l>
+            <l>ni sé hasta ahora quién eres,</l>
+            <l>di a las demás que su llanto</l>
+            <l n="1365">hace que piadoso acepte</l>
+            <l>la apelación. Que sus hijos</l>
+            <l>cobren el materno albergue</l>
+            <l>de sus pechos y sus brazos,</l>
+            <l>que mis piedades no quieren</l>
+            <l n="1370">que mueran todos por uno</l>
+            <l>cuando uno por todos muere,</l>
+            <l>puesto que no es decente</l>
+            <l>que viva un rey con sangre</l>
+            <l>de ignocentes.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="1375">Otra vez puesta a tus plantas</l>
+            <l>humilde digo que esperes,</l>
+            <l>si ahora no me conoces,</l>
+            <l>que presto has de conocerme</l>
+            <l>en fe de aquestas piedades.</l>
+          </sp>
+        </div>
+        <div type="scene" n="27">
+          <stage>Vase</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1380">¡Furias mi furor aliente!</l>
+            <l>¡Ahora infiernos, ahora!</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Pues para que más se muestre</l>
+            <l>dirás a todas que al mismo</l>
+            <l>tiempo que su llanto vence,</l>
+            <l n="1385">vence mi mal, pues postrado</l>
+            <l>a su venenosa fiebre,</l>
+            <l>desperdiciado el remedio,</l>
+            <l>siento el daño más vehemente</l>
+            <l>porque crezca la piedad</l>
+            <l n="1390">al paso que el dolor crece</l>
+            <l>y tanto que fallecidas</l>
+            <l>las fuerzas al accidente,</l>
+            <l>titubeadas las razones,</l>
+            <l>las palabras balbucientes,</l>
+            <l n="1395">retirados los alientos,</l>
+            <l>los pulsos intercadentes,</l>
+            <l>todo expira, todo yace,</l>
+            <l>todo pasma y todo hiere.</l>
+            <l>Pero muera yo, ¡ay de mí!,</l>
+            <l n="1400">como muera de clemente</l>
+            <l>antes que de fiero viva</l>
+            <l>diciendo una y muchas veces:</l>
+            <l>no mueran todos por uno</l>
+            <l>cuando uno por todos muere.</l>
+            <l n="1405">¡Piedad, cielos, piedad,</l>
+            <l>que no es decente</l>
+            <l>que viva un rey con sangre</l>
+            <l>de ignocentes!</l>
+          </sp>
+        </div>
+        <div type="scene" n="28">
+          <stage>Cae y sale Majencio</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>A un parasismo mortal,</l>
+            <l n="1410">helado letargo ardiente,</l>
+            <l part="I">postrado cayó.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">Porqué</l>
+            <l>yo disfrazado me acerque</l>
+            <l>a él, porque siendo este sueño</l>
+            <l>tan profundo que posee</l>
+            <l n="1415">todavía sus sentidos</l>
+            <l>inficionados, se muestre</l>
+            <l>cuánto se acerca el demonio</l>
+            <l>al hombre que en culpa duerme.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Pues primero que se cobre,</l>
+            <l n="1420">ya que a tan buen tiempo vienes</l>
+            <l>valido de los disfraces</l>
+            <l>para que aquí oculto entres,</l>
+            <l>pase a muerte natural</l>
+            <l>esa condicional muerte.</l>
+          </sp>
+          <stage>Saca un puñal</stage>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l n="1425">Yo con este áspid de acero</l>
+            <l part="I">le heriré el pecho.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Con este</l>
+            <l>basilisco yo de bronce,</l>
+            <l>fuego a fuego haré que augmente.</l>
+          </sp>
+        </div>
+        <div type="scene" n="29">
+          <stage>Saca una pistola; al ir a darle los dos salen cada uno por su parte san Pedro y san Pablo teniendo a cada uno del brazo</stage>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="I">¿Pues qué esperas?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¿Pues qué aguardas?</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l part="I">¡Tente, traidor!</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l n="1430" part="F">¡Fiera, tente!</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l>Porque hombre que a la fe oye…</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l>porque hombre que a la fe atiende…</l>
+          </sp>
+          <sp who="#san-pedro #san-pablo">
+            <speaker>LOS DOS</speaker>
+            <l>las columnas de la fe</l>
+            <l>de esta manera defienden.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1435">Pablo, que después que fuiste</l>
+            <l>de la Gentilidad huésped</l>
+            <l>cuando de romanos fueros</l>
+            <l>gozabas entre mis gentes,</l>
+            <l>te conozco, ¿qué me afliges?</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l n="1440">Pedro, que desde que tienes</l>
+            <l>de sus tesoros las llaves,</l>
+            <l>tiemblo de ti, ¿qué me quieres?</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l>Que veas cómo los cielos</l>
+            <l>la fe de Elena agradecen.</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l n="1445">Que mires que la piedad</l>
+            <l>nunca en el hombre se pierde.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¿De qué modo?</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l part="F">De este modo.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="I">¿De qué suerte?</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l part="F">De esta suerte.</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l part="I">¿Constantino?</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l part="F">¿Constantino?</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <stage>en sueños</stage>
+            <l n="1450">Piadoso anciano, ¿quién eres?</l>
+            <l>¿Quién eres, divino anciano?</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l part="I">Pedro.</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l part="M">Pablo.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">¿Qué pretendes?</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l>Pagarte con mejor baño</l>
+            <l>esa sangre que no viertes.</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l n="1455">Busca a Silvestre en Sorato</l>
+            <l>y en el cristal de una fuente</l>
+            <l part="I">lava esa lepra,…</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l part="F">con que</l>
+            <l>verá el mundo claramente</l>
+            <l>que la lepra del pecado…</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l n="1460">—pues la del cuerpo se entiende</l>
+            <l>ser hoy la culpa del alma—…</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l>aunque con sangre inocente</l>
+            <l>se curó una vez, con agua</l>
+            <l part="I">se cura ya,…</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l part="F">porque cesen</l>
+            <l n="1465">los cruentos sacrificios…</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l>y los incruentos lleguen…</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l>a mostrar que de la ley</l>
+            <l part="I">de gracia…</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l part="F">es el yugo leve,…</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l>y para que al mismo tiempo…</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l n="1470">todo el mundo considere…</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l>que en el agua está la vida…</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l>y no ya en sangre ni en muerte.</l>
+          </sp>
+        </div>
+        <div type="scene" n="30">
+          <stage>Vanse</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Estatua de fuego y hielo</l>
+            <l part="I">quedé.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">Yo, de llama y nieve.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="1475">¡Oye, Pablo; Pedro, escucha!</l>
+            <stage>Despierta</stage>
+            <l>¡Mas ay de mí! ¿Cómo puede</l>
+            <l>ser viendo el bien cuando duermo</l>
+            <l>ver el mal cuando despierte?</l>
+            <l>¿Pero qué bien no es soñado?</l>
+            <l n="1480">Detente, culpa; detente,</l>
+            <l>pecado mío, que yo</l>
+            <l>aun persuadido a que sueñe</l>
+            <l>todavía he de creer</l>
+            <l>que el cielo me favorece,</l>
+            <l n="1485">o ya en fe de mis piedades</l>
+            <l>o ya en fe de las clementes</l>
+            <l>instancias de Elena, a quien</l>
+            <l>tanto llanto mi amor debe.</l>
+            <l>Y así huyendo de los dos</l>
+            <l n="1490">iré a buscar a Silvestre</l>
+            <l>a ver si vivo con agua</l>
+            <l>supuesto que no es decente</l>
+            <l>que viva un rey con sangre</l>
+            <l>de ignocentes.</l>
+          </sp>
+        </div>
+        <div type="scene" n="31">
+          <stage>Vase</stage>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l n="1495">Síguele, culpa, pues que</l>
+            <l>antes que a bañarse llegue</l>
+            <l>aún es tuyo, y podrá ser</l>
+            <l>que en este intermedio deje</l>
+            <l>de creer aquel aviso</l>
+            <l part="I">que vio en sueños.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1500" part="F">Para ese</l>
+            <l>fin se me ofrece una industria.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="I">¿Qué es?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Que pues su pueblo al verle</l>
+            <l>salir tan desalentado</l>
+            <l>todo a seguirle se mueve,</l>
+            <l n="1505">hagamos que agradecido</l>
+            <l>a sus piedades le lleve</l>
+            <l>cetro, púrpura y tiara</l>
+            <l>y que sus triunfos le acuerde,</l>
+            <l>porque con la vanidad,</l>
+            <l n="1510">estando el pueblo presente,</l>
+            <l>no se atreva a declararse</l>
+            <l part="I">cristiano.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">Bien lo previenes.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">Pues sígueme.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">Ya te sigo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>¡Oh, nunca lleguen a verse…</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l n="1515">¡Nunca lleguen a mirarse…</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>ni de la fe los placeres…</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>ni las lágrimas de Elena,…</l>
+          </sp>
+          <sp who="#gentilidad #majencio">
+            <speaker>LOS DOS</speaker>
+            <l part="I">siendo triunfos de…</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">¿Silvestre?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Ya su voz suena en los montes.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l n="1520">Antes que en los cielos suene,</l>
+            <l>a conmover contra él</l>
+            <l part="I">el pueblo vamos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="32">
+          <stage>Vanse Dentro</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">¿Silvestre?</l>
+          </sp>
+        </div>
+        <div type="scene" n="33">
+          <stage>Sale</stage>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l>¿Qué voz con mi nombre, cielos,</l>
+            <l>en estos montes transciende</l>
+            <l n="1525">las más escondidas grutas</l>
+            <l part="I">de sus entrañas?</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">¿Silvestre?</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l part="I">¿Quién me llama?</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">Constantino</l>
+            <l>es el que a buscarte viene.</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l>¡Ay de mí! Que como ya</l>
+            <l n="1530">sé que sus contrarios vence</l>
+            <l>sin duda en fe de sus dioses</l>
+            <l>contra mí las armas vuelve.</l>
+            <l>¿Dónde me ocultaré? Pero</l>
+            <l>mejor será que le espere,</l>
+            <l n="1535">que si Dios sin merecerlo</l>
+            <l>coronar mi vida quiere</l>
+            <l>con el laurel del martirio,</l>
+            <l part="I">¡venturoso yo!</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">¿Silvestre?</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l>¿Qué me nombras? ¿Qué me llamas?</l>
+            <l n="1540">Si es para darme la muerte,</l>
+            <l part="I">aquí estoy.</l>
+          </sp>
+        </div>
+        <div type="scene" n="34">
+          <stage>Sale</stage>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="M">¿Eres tú?</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Humilde a tus pies me tienes.</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l>Acción y voz me has quitado</l>
+            <l>de labio y pecho. ¿Qué emprendes?</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="1545">Ser el primer César que</l>
+            <l>el pie al pontífice bese.</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l>¿Qué es esto? ¿Lágrimas tú?</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Bien admiras que quien viene</l>
+            <l>a buscar agua dé agua</l>
+            <l n="1550">y que pida lo que ofrece.</l>
+            <l>A tus pies ¡oh padre! bien</l>
+            <l>como el sediento a la fuente</l>
+            <l>me arrojo, bien como ciego</l>
+            <l>a la luz, como doliente</l>
+            <l n="1555">a la salud y bien como</l>
+            <l>al perdón el delincuente.</l>
+            <l>Pedro y Pablo a ti me envían</l>
+            <l>para que en tu baño deje</l>
+            <l>estas leprosas escamas,</l>
+            <l n="1560">túnicas de la serpiente</l>
+            <l>que abrigué al pecho, porqué</l>
+            <l>la piel anciana renueve.</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l>Pues, ¿qué quieres de mí? ¿Qué</l>
+            <l part="I">pides?</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="M">La fe.</l>
+          </sp>
+        </div>
+        <div type="scene" n="35">
+          <stage>Sale</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">Aquí me tienes,</l>
+            <l n="1565">que la que allá ruega triste</l>
+            <l>aquí te recibe alegre.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>¡Feliz yo que de tus brazos…!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>No a ellos tan presto te acerques</l>
+            <l>antes que el baño recibas.</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l n="1570">Sube conmigo a esta fuente</l>
+            <l>donde la ablución del agua</l>
+            <l>te sane, limpie y consuele.</l>
+          </sp>
+        </div>
+        <div type="scene" n="36">
+          <stage>Sale</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Llegad todos y en su busca</l>
+            <l>porque sus penas aliente</l>
+            <l part="I">sus triunfos le acordad.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="1575" part="F">Ya</l>
+            <l>su triunfo no más es este.</l>
+            <l>No adelante, culpa, pases.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Pues ¿quién el paso me puede</l>
+            <l part="I">impedir a mí?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">La acción</l>
+            <l part="I">que ves.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1580" part="F">Aún no a ti te adquiere.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="I">Es verdad.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Pues no me impidas</l>
+            <l>que antes que se bañe, llegue</l>
+            <l>a representarle estos</l>
+            <l>triunfos que a Júpiter debe.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="1585">No debe sino a la fe</l>
+            <l>de Elena, que es quien merece</l>
+            <l>hallando la cruz hallar</l>
+            <l>las piedades que él adquiere.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Cuando Elena halle la cruz,</l>
+            <l n="1590">¿qué misterio en sí contiene</l>
+            <l>un madero para que</l>
+            <l>en él sus auxilios pienses?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>¿Qué más misterio que ser,</l>
+            <l>si a sus prodigios atiendes,</l>
+            <l n="1595">el inmediato instrumento</l>
+            <l part="I">de la redención?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Detente.</l>
+            <l>¿Es más que un leño que pudo</l>
+            <l>ser horca de un delincuente?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues del primer árbol</l>
+            <l n="1600">se transplantó su simiente.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues vemos que tronco</l>
+            <l>en Gólgota nace y crece.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues donde Adán yace</l>
+            <l>es donde sus raíces prenden.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1605">No es más, pues de ningún fruto</l>
+            <l>adorna su pompa verde.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues sin fruto sana</l>
+            <l>la infición de la serpiente.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues de cedro, palma</l>
+            <l n="1610">y ciprés son sus especies.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues, siendo tres, dice</l>
+            <l>duración, victoria y muerte.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues ruda segur</l>
+            <l>para Salomón le hiere.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="1615">Más es, pues nunca le labran</l>
+            <l>porque a otro fin aproveche.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues que por inútil</l>
+            <l>sirve del Cedrón al puente.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues Sabá le adora</l>
+            <l n="1620">y a pisarle no se atreve.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues de allí quitado</l>
+            <l>mandan que a un lago le echen.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues de esa piscina</l>
+            <l>los enfermos convalecen.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1625">No es más, pues sobre las aguas</l>
+            <l>lleno de cieno parece.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues parece cuando</l>
+            <l>para cruz han menesterle.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues la labran de él</l>
+            <l n="1630">por sucio, pesado y fuerte.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues esa elección</l>
+            <l>de mayor causa depende.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues como ya dije</l>
+            <l>de él un alevoso pende.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="1635">Más es, pues restaura un mundo</l>
+            <l>con la sangre que en él vierte.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues que los judíos</l>
+            <l>le sepultan por no verle.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues lo hacen porqué</l>
+            <l n="1640">mirar su adoración temen.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues con otros dos</l>
+            <l>Elena a encontrarle viene.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues dice cuál es</l>
+            <l>la vida que a un muerto ofrece.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1645">No es más, pues hallado hay</l>
+            <l>pocos que le reverencien.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues le dará templo</l>
+            <l>que adornado le conserve.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues irá cautivo</l>
+            <l n="1650">a Persia sin defenderle.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues Persia verá</l>
+            <l>cómo a sus ídolos vence.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues su cautiverio</l>
+            <l>Cosdroas hará que se aumente.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="1655">Más es, pues verá que Heraclio</l>
+            <l>a su adoración le vuelve.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues que tarde libre</l>
+            <l>saldrá de poder de infieles.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues aun entre ellos</l>
+            <l n="1660">estará estimado siempre.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>No es más, pues que allí a pedazos</l>
+            <l>procurarán deshacerle.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Más es, pues aun hecho partes</l>
+            <l>no hay ninguna que le niegue.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1665">No es más, en fin, pues que en</l>
+            <l>el último fuego ardiente</l>
+            <l part="I">se consumirá.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">Más es,</l>
+            <l>pues inanimado fénix</l>
+            <l>resucitará ese día</l>
+            <l n="1670">sin que el menor ligno deje</l>
+            <l>de cobrar y será puesto</l>
+            <l>por mayor astro celeste</l>
+            <l>donde por la eternidad</l>
+            <l>de Dios viva, triunfe y reine.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1675">Calla, calla, que a la voz</l>
+            <l>tuya y la acción de Silvestre</l>
+            <l>—que ya la materia y forma</l>
+            <l>de agua y palabras pretende</l>
+            <l>unir— la culpa desmaya,</l>
+            <l n="1680">la Gentilidad fallece.</l>
+          </sp>
+        </div>
+        <div type="scene" n="37">
+          <stage>Cae la Culpa y sale Majencio y todos los demás trayendo en fuentes los triunfos del principio</stage>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Llegad todos, y cantando</l>
+            <l>porque sus penas aliente</l>
+            <l part="I">sus triunfos le acordad.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Ya</l>
+            <l part="I">es tarde.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">Culpa, ¿qué tienes?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1685">No ser culpa, pues la voz</l>
+            <l>torpe, el labio balbuciente,</l>
+            <l>perturbada la razón,</l>
+            <l>flaco el espíritu, débil</l>
+            <l>el corazón muere al tiempo</l>
+            <l n="1690">que ese pontifical preste</l>
+            <l>obra el baptismo, porqué</l>
+            <l>vea hoy el mundo realmente</l>
+            <l>que cuando el hombre renace</l>
+            <l>la culpa del hombre muere.</l>
+          </sp>
+          <stage>Ábrese un carro que ha de ser un jardín con una fuente en medio, y de rodillas Constantino y Silvestre como que le ha baptizado, y una escalera portátil para bajar</stage>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l n="1695">Pues aunque muera una culpa</l>
+            <l>en mí la esperanza quede</l>
+            <l part="I">de que a otra vuelva.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="F">Dichoso</l>
+            <l>yo, que apenas —más prudente</l>
+            <l>dijera “a glorias”— toqué</l>
+            <l n="1700">la agua que en mi pecho viertes</l>
+            <l>cuando de la inmunda lepra</l>
+            <l part="I">sano quedé.</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <stage>Aparte</stage>
+            <l part="F">(Fiero esfuerce</l>
+            <l>mi intento para adelante.)</l>
+            <l>¡Pues el César convalece,</l>
+            <l n="1705">en albricias de su vida</l>
+            <l>vuelva el regocijo alegre</l>
+            <l>de aquella coronación</l>
+            <l>que dejó el dolor pendiente!</l>
+            <l>Púrpura, cetro y corona</l>
+            <l n="1710">llegad todos a ofrecerle.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Llegad, que yo aceptaré</l>
+            <l>sus dones más dignamente</l>
+            <l>para otro que para mí.</l>
+            <stage>Vale poniendo las insignias como dicen los versos</stage>
+            <l>Esta púrpura, Silvestre,</l>
+            <l n="1715">imperial ropa hasta aquí,</l>
+            <l>será desde hoy más decente</l>
+            <l>ropa pontifical. Esta</l>
+            <l>corona que tres contiene</l>
+            <l>por las tres victorias mías</l>
+            <l n="1720">será tiara de tus sienes.</l>
+            <l>Este cetro de tres cetros</l>
+            <l>tu báculo. ¡Que es bien lleguen,</l>
+            <l>porque al pontífice adornen,</l>
+            <l>a desnudarse los reyes!</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1725">¡Que esto sufra! ¡Que esto mire!</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>Pues mal mi intento sucede,</l>
+            <l>huya de aquí por no ver</l>
+            <l>que pontífices empiecen</l>
+            <l>a tener pontificales</l>
+            <l part="I">adornos.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l n="1730" part="F">Y porque quedes</l>
+            <l>fuera ya de estas montañas</l>
+            <l>y tengas corte en que reines,</l>
+            <l>le doy al pontificado</l>
+            <l>la ciudad de Roma —atiende—</l>
+            <l n="1735">y para templo de Pedro</l>
+            <l>y de Pablo mi eminente</l>
+            <l part="I">palacio.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">Pues para que</l>
+            <l>veas logrado lo que ofreces,</l>
+            <l>es bien que el triunfo anticipe</l>
+            <l n="1740">y que allí a mirar empieces,</l>
+            <l>abriéndose las entrañas</l>
+            <l>de esa peña, ruda siempre,</l>
+            <stage>Ábrese una peña y vese en ella santa Elena en un altar con la cruz en la forma que la pintan</stage>
+            <l>a Elena tu madre que</l>
+            <l>tan contenta llega a verse</l>
+            <l n="1745">de haber hallado el tesoro</l>
+            <l>que en su mano resplandece</l>
+            <l>y del que tú también logras</l>
+            <l>te viene a dar parabienes.</l>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <l>Felice mil veces yo,</l>
+            <l n="1750">Constantino, y tú mil veces</l>
+            <l>felice, pues que logramos</l>
+            <l>yo hallar el tesoro alegre</l>
+            <l>de este divino madero</l>
+            <l>que depositado en este</l>
+            <l n="1755">monte con tan gran prodigio</l>
+            <l>a mi fe dio a conocerse,</l>
+            <l>y a ti dándote salud</l>
+            <l>de dos achaques crueles,</l>
+            <l>la lepra del alma y cuerpo,</l>
+            <l n="1760">porque con el baño quedes</l>
+            <l>marcado con la señal</l>
+            <l>de la cruz, constante siempre</l>
+            <l>en el rebaño de quien</l>
+            <l>es hoy el pastor Silvestre.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1765">¡Oh, quién no oyera sus voces!</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l>¡Oh, quién su insignia no viese!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Pues mayor dolor te espera,</l>
+            <l>y porque llegues a verle</l>
+            <l>en el triunfo de la fe</l>
+            <l n="1770">que en Constantino florece,</l>
+          </sp>
+          <stage>Aparece un templo y en medio de él un pirámide con el Santísimo Sacramento, y a los dos lados san Pedro y</stage>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l>mira cómo su palacio</l>
+            <l>es ya más sumptuoso albergue</l>
+            <l>de Pedro y de Pablo, y en</l>
+            <l>un pirámide excelente</l>
+            <l n="1775">el mayor de mis misterios</l>
+            <l>hoy al mundo resplandece</l>
+            <l>colocado, pues debajo</l>
+            <l>de las formales especies</l>
+            <l>de pan y vino se encierran</l>
+            <l n="1780">de Cristo sustancialmente</l>
+            <l part="I">la carne y la sangre.</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l part="F">Oíd,</l>
+            <l>que donde señala este</l>
+            <l>pirámide que del Sol</l>
+            <l>de justicia se guarnece</l>
+            <l n="1785">será donde se consagre.</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l>Y donde estarán, Silvestre,</l>
+            <l>dos estatuas de los dos,</l>
+            <l>donde las extrañas gentes</l>
+            <l>peregrinas las visiten</l>
+            <l n="1790">y devotas las veneren.</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l part="I">¡Qué felicidad!</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">¡Qué pena!</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="I">¡Qué dulce vida!</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¡Qué muerte!</l>
+          </sp>
+          <sp who="#silvestre">
+            <speaker>SILVESTRE</speaker>
+            <l part="I">¡Qué paraíso!</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l part="F">¡Qué rabia!</l>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <l part="I">¡Qué descanso!</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¡Dolor fuerte!</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>SAN PEDRO</speaker>
+            <l part="I">¡Qué alegría!</l>
+          </sp>
+          <sp who="#majencio">
+            <speaker>MAJENCIO</speaker>
+            <l n="1795" part="F">¡Qué tristeza!</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¡Qué aflicciones!</l>
+          </sp>
+          <sp who="#san-pablo">
+            <speaker>SAN PABLO</speaker>
+            <l part="F">¡Qué placeres!</l>
+          </sp>
+          <sp who="#constantino">
+            <speaker>CONSTANTINO</speaker>
+            <l>Y porque el mío se explique</l>
+            <l>conmigo pedid a este</l>
+            <l>sacramentado Señor,</l>
+            <l n="1800">porque este tiempo se abrevie:</l>
+          </sp>
+          <sp who="#soldado #coro-1 #coro-2 #noticia #acompanamiento #nino #zabulon #mujer-2 #mujer-3 #mujer-1 #astrea #musicos #fe #silvestre #elena #san-pedro #majencio #gentilidad #san-pablo #constantino">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>Permita vuestra piedad</l>
+            <l>que el día dichoso llegue</l>
+            <l>en que el gran templo de Roma</l>
+            <l>sea el mayor de los fieles.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

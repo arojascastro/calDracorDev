@@ -1,0 +1,792 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000047" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Loa para el auto sacramental intitulado «Psiquis y Cupido»</title>
+        <title type="sub">Pedro Calderón de la Barca</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-16"><time when="08:00:33"/></date>
+        <idno type="quadramaX">Loa para el auto sacramental intitulado «Psiquis y Cupido»</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-psiquis-y-cupido-que-escribio-para-esta-villa-de-madrid--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier. Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de datos Teatro Español del Siglo de Oro (TESO), autorizada por Evangelina Rodríguez Cuadros</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="fe" sex="FEMALE">
+            <persName>La Fe</persName>
+          </person>
+          <person xml:id="entendimiento" sex="MALE">
+            <persName>El Entendimiento</persName>
+          </person>
+          <person xml:id="emanuel" sex="MALE">
+            <persName>Emanuel</persName>
+          </person>
+          <person xml:id="gentilidad" sex="FEMALE">
+            <persName>La Gentilidad</persName>
+          </person>
+          <person xml:id="judaísmo" sex="MALE">
+            <persName>El Judaísmo</persName>
+          </person>
+          <person xml:id="afecto-de-la-gentilidad" sex="MALE">
+            <persName>El Afecto de La Gentilidad</persName>
+          </person>
+          <person xml:id="afecto-del-judaísmo" sex="MALE">
+            <persName>El Afecto del Judaísmo</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+          <person xml:id="muerte" sex="FEMALE">
+            <persName>Muerte</persName>
+          </person>
+          <person xml:id="ángel" sex="MALE">
+            <persName>Ángel</persName>
+          </person>
+          <person xml:id="mujer-1" sex="FEMALE">
+            <persName>Mujer 1</persName>
+          </person>
+          <person xml:id="mujer-2" sex="FEMALE">
+            <persName>Mujer 2</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">sin datos</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1717">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">Loa para el auto sacramental intitulado «Psiquis y Cupido»</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas</head>
+        <castItem>LA FE.</castItem>
+        <castItem>EL ENTENDIMIENTO.</castItem>
+        <castItem>EMANUEL.</castItem>
+        <castItem>LA GENTILIDAD.</castItem>
+        <castItem>EL JUDAÍSMO.</castItem>
+        <castItem>EL AFECTO DE LA GENTILIDAD.</castItem>
+        <castItem>EL AFECTO DEL JUDAÍSMO.</castItem>
+        <castItem>MÚSICA.</castItem>
+        <castItem>[MUERTE.]</castItem>
+        <castItem>[ÁNGEL.]</castItem>
+        <castItem>[MUJER 1.]</castItem>
+        <castItem>[MUJER 2.]</castItem>
+        <castItem>Acompañamiento.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Sale EMANUEL en cuerpo, con un cáliz y hostia encima, que traerá en la mano, y la FE con un velo sobre los ojos, y en el cáliz ha de estar preso un papel en forma de memorial, de manera que se pueda quitar con facilidad.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>En el altar, que es hoy</l>
+            <l>paraíso,</l>
+            <l>un memorial de un soldado diviso,</l>
+            <l>que con tener escritos milagros,</l>
+            <l n="5">es memorial que le vemos en blanco.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Fe mía, ¿qué es lo que ves</l>
+            <l>en aqueste altar, teatro</l>
+            <l>del memorial misterioso</l>
+            <l>de mi pasión?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="10">Lo que alcanzo</l>
+            <l>a ver sin vista, señor,</l>
+            <l>me ha dicho el concepto sabio</l>
+            <l>de esa música del cielo;</l>
+            <l>y así, diré con su canto</l>
+            <l n="15">lo que yo veo sin verlo,</l>
+            <l>lo que miro sin mirarlo.</l>
+            <stage>Canta.</stage>
+            <l>Lo que en aquese altar paraíso,</l>
+            <l>siendo la Fe, por mi velo diviso,</l>
+            <l>es memorial de vuestras finezas,</l>
+            <l n="20">que con tener escritos milagros,</l>
+            <l>es memorial que la Fe le ve en blanco.</l>
+            <l>Leo que a campaña sales,</l>
+            <l>soldado el más soberano,</l>
+            <l>muchos ánimos son esos,</l>
+            <l n="25">para estar sacramentado.</l>
+            <l>Y que es grande la fineza,</l>
+            <l>pues sales en cuerpo al campo</l>
+            <l>y a la salvación del hombre</l>
+            <l>todos te ven consagrado.</l>
+            <stage>Llégase al cáliz y toma el memorial y hace que lee.</stage>
+            <l n="30">Este memorial me dice,</l>
+            <l>te vista a mi modo y hallo,</l>
+            <l>que el vestirte de pasión</l>
+            <l>es de tus glorias aplauso.</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Es cierto, mi gloria es esa</l>
+            <l n="35">y mi mayor agasajo;</l>
+            <l>y porque el vestido ajustes,</l>
+            <l>mi cuerpo dejo en tus manos;</l>
+            <stage>Dale el cáliz a la FE.</stage>
+            <l>y advierte, que aunque es memoria</l>
+            <l>de mi pasión, lo que encargo,</l>
+            <l n="40">es día de regocijo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Vase EMANUEL y sale el ENTENDIMIENTO.</stage>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Yo te vestiré del caso.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l part="I">¿Fe divina?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">¿Quién me llama?</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>El humano Entendimiento,</l>
+            <l>que hoy hasta aquí te ha seguido</l>
+            <l n="45">girasol de tus reflejos,</l>
+            <l>procurando el que le digas,</l>
+            <l part="I">¿qué pretendes?</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">Yo pretendo</l>
+            <l>vestir de pasión y gozo,</l>
+            <l>de dolor y de contento,</l>
+            <l n="50">a Emanuel, que es un soldado</l>
+            <l>de quien en mis manos tengo</l>
+            <l>este memorial que ves</l>
+            <l>y por él me pide aquesto.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Misterio tiene el vestido.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="55">Y misterio de misterios,</l>
+            <l>mas, pues, a buena ocasión</l>
+            <l>has venido, Entendimiento,</l>
+            <l>discurre aqueste vestido.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Encárgasme grave empeño,</l>
+            <l n="60">porque vestido de penas</l>
+            <l>y de gozos, caso es cierto,</l>
+            <l>que para el discurso humano</l>
+            <l>es vestido muy opuesto.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Tú me has de hacer este gusto,</l>
+            <l n="65">pues me fío de tu ingenio.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Sí haré, pues tú me lo mandas;</l>
+            <l>pero repara en que puedo</l>
+            <l>errar, porque soy humano.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>No siendo notable el yerro,</l>
+            <l n="70">la Fe le sabrá suplir.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Pues fiado en que mi celo,</l>
+            <l>es quien obra desta suerte</l>
+            <l>a disponértele empiezo.</l>
+            <l part="I">¿Ah Judaísmo?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Sale el JUDAÍSMO en su traje.</stage>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l part="F">¿Qué quieres?</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l n="75">Que tú con tu proprio Afecto</l>
+            <l>de soldado a Emanuel vistas,</l>
+            <l>el hijo de Dios eterno.</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l>Yo por tal, no le conozco,</l>
+            <l>pues si a hacer la cuenta llego</l>
+            <l n="80">con mi profeta Daniel,</l>
+            <l>de su venida aún no es tiempo.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Pues no has caído en la cuenta,</l>
+            <l>rigor de tu Afecto temo.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l part="I">¿Ah Gentilidad?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Sale la GENTILIDAD en su traje.</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¿Qué mandas?</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l n="85">Que tú, que venciste el ciego</l>
+            <l>error, a que el Judaísmo</l>
+            <l>infeliz vive sujeto,</l>
+            <l>de soldado a Emanuel vistas</l>
+            <l>el hijo de Dios eterno.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="90">Yo, por tal le estimo y amo,</l>
+            <l>sin tener más fundamento,</l>
+            <l>que el habérmelo así dicho</l>
+            <l>de la Fe el sacro respeto.</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l>Eso es confesarte ciega.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="95">Peor es, ingrato pueblo,</l>
+            <l>tener vista y no saber</l>
+            <l>aprovecharla a su tiempo.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>No es tiempo de esas disputas,</l>
+            <l>déjalas para otro empeño</l>
+            <l n="100">y de aqueste memorial</l>
+            <l>oigamos qué dice el dueño.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Sale EMANUEL vestido con una túnica de nazareno.</stage>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Ya sabéis como David,</l>
+            <l>rey que supo hacer sus versos,</l>
+            <l>que no obsta al ser rey y santo</l>
+            <l n="105">el ser poeta un ingenio,</l>
+            <l>en un psalmo de los suyos</l>
+            <l>me llama el fuerte guerrero,</l>
+            <l>soldado, en fin, y muy pobre,</l>
+            <l>aunque rico en dar ejemplo,</l>
+            <l n="110">que quien le da siendo pobre,</l>
+            <l>buen tesoro tiene en serlo.</l>
+            <l>Halleme en una batalla</l>
+            <l>con un rebelde lucero,</l>
+            <l>en que salí vencedor</l>
+            <l n="115">y le hice huir de mi reino.</l>
+            <l>Después se quiso vengar</l>
+            <l>y fue tan cruel en esto,</l>
+            <l>que todo el mundo, en que yo</l>
+            <l>tenía mis ojos puestos,</l>
+            <l n="120">que es el hombre (porque el hombre</l>
+            <l>también es mundo pequeño)</l>
+            <l>entregó al pecado, yo</l>
+            <l>solicito en su remedio,</l>
+            <l>el quitársele al pecado</l>
+            <l n="125">por fuerza de armas espero;</l>
+            <l>para esto he venido al mundo</l>
+            <l>desde el regalado seno</l>
+            <l>de mi padre, he padecido</l>
+            <l>en la jornada que he hecho,</l>
+            <l n="130">muchos trabajos y penas,</l>
+            <l>durmiendo a la escarcha y yelo.</l>
+            <l>De Nazaret hasta Menfis</l>
+            <l>anduve ausente algún tiempo,</l>
+            <l>hasta apedrearme sin causa</l>
+            <l n="135">y vivir en un desierto.</l>
+            <l>Aquesto y el venir pobre</l>
+            <l>soldado, como os refiero,</l>
+            <l>me obliga a pediros, que</l>
+            <l>cada cual con vuestro afecto</l>
+            <l n="140">me vistáis como pudiereis,</l>
+            <l>porque yo tampoco quiero,</l>
+            <l>que nadie en perjuicio proprio</l>
+            <l>haga el bien, que no deseo,</l>
+            <l>pues la caridad perfecta</l>
+            <l n="145">es comenzar de sí mesmo.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Judaísmo, tú, ¿qué ofreces</l>
+            <l part="I">al soldado?</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l part="F">Yo le ofrezco</l>
+            <l part="I">armas de mi Afecto.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Sale el AFECTO DEL JUDAÍSMO en su traje y traerá en una fuente algunas de las insignias de la pasión, que después se dirán.</stage>
+          <sp who="#afecto-del-judaísmo">
+            <speaker>AFECTO DEL JUDAÍSMO</speaker>
+            <l part="F">Y son</l>
+            <l>estas que trae tu Afecto.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l n="150">Tú, Gentilidad, ¿qué ofreces,</l>
+            <l>para que se vista nuestro</l>
+            <l part="I">soldado?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Vestido y armas.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Sale el AFECTO DE LA GENTILIDAD en su traje y traerá en otra fuente una capa de escarlata, una espada, una corona y un cetro, dorados.</stage>
+          <sp who="#afecto-de-la-gentilidad">
+            <speaker>AFECTO DE LA GENTILIDAD</speaker>
+            <l>Y son las que trae tu afecto.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Puesto que armas y vestido</l>
+            <l n="155">a Emanuel habéis dispuesto,</l>
+            <l>veamos cómo le vestís.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Atienda ahora el discreto</l>
+            <l>y verá cómo se lee</l>
+            <l>del memorial el misterio.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l n="160">Para un soldado claro es</l>
+            <l>que es menester, lo primero,</l>
+            <l>espada; ¿quién se la ofrece?</l>
+          </sp>
+          <stage>Quita el JUDAÍSMO la cruz de la fuente de su AFECTO y se la pone a EMANUEL.</stage>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l>Yo, en la forma deste leño,</l>
+            <l part="I">le ofrezco espada.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l part="F">¡Qué ingrato</l>
+            <l n="165">ha mostrado su deseo,</l>
+            <l>pues con tal baldón le ultraja!</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Esa espada es vituperio,</l>
+            <l>y un facineroso solo</l>
+            <l>la tiene en pena y tormento.</l>
+            <stage>Toma la GENTILIDAD la espada y cíñesela a EMANUEL.</stage>
+            <l n="170">Yo le ofrezco aquesta espada,</l>
+            <l>demonstración de mi imperio,</l>
+            <l>de su justicia ministro</l>
+            <l>y terror del universo.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <stage>Canta.</stage>
+            <l>Venza al Judaísmo</l>
+            <l n="175">la Gentilidad,</l>
+            <l>pues que siendo más ciega,</l>
+            <l>ha mirado más.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>General llama Isaías</l>
+            <l>a Emanuel; y así, por esto</l>
+            <l n="180">habrá menester bastón.</l>
+          </sp>
+          <stage>Toma el JUDAÍSMO de la fuente de su AFECTO una caña y se la da a EMANUEL.</stage>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l>Yo, aqueste bastón le ofrezco.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Bien su crueldad descubre.</l>
+          </sp>
+          <stage>Toma la GENTILIDAD de la fuente de su AFECTO el cetro y se le da a EMANUEL.</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Yo, en lugar de bastón, cetro,</l>
+            <l>porque aunque es soldado, es rey,</l>
+            <l n="185">que así le llama el psalterio,</l>
+            <l>pues rey de reyes, señor</l>
+            <l>de señores le hace cuerdo.</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l part="I">Mirad al hombre.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Mirad</l>
+            <l>al rey de la tierra y cielo.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l n="190">También habrá menester</l>
+            <l>nuestro soldado, por premio</l>
+            <l>de su esfuerzo y bizarrías,</l>
+            <l>sus victorias y trofeos,</l>
+            <l part="I">alguna corona.</l>
+          </sp>
+          <stage>Toma el JUDAÍSMO la corona de espinas y pónesela a EMANUEL en la cabeza.</stage>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l part="F">Yo</l>
+            <l n="195">esta corona le tengo</l>
+            <l>apercibida a sus sienes.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>¡Hay rigores más severos!</l>
+          </sp>
+          <stage>Toma la GENTILIDAD la corona de la fuente de su AFECTO y se la pone a EMANUEL.</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Yo le pongo esta corona</l>
+            <l>del oro puro e immenso</l>
+            <l n="200">de su divinidad misma,</l>
+            <l>porque corresponda al cetro,</l>
+            <l>con que le venero rey.</l>
+          </sp>
+          <stage>Saca el JUDAÍSMO el título de la fuente de su AFECTO y le lee la GENTILIDAD, ha de estar escrito con estas cuatro letras, I.N.R.I.</stage>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l>Pues has dado en que ha de serlo,</l>
+            <l>de rey el título grande</l>
+            <l n="205">a Emanuel darle pretendo:</l>
+            <l part="I">este es el título.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Y dice</l>
+            <l>así: Jesús nazareno,</l>
+            <l part="I">rey de los judíos.</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l part="F">Mira,</l>
+            <l>que no dices bien en eso;</l>
+            <l n="210">di que él dijo que era rey</l>
+            <l part="I">y no que lo es.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Calla, necio,</l>
+            <l>que lo que escribí, escribí.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Próvido ha sido su acierto.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <stage>Canta.</stage>
+            <l>Aunque acaso le ha dado</l>
+            <l n="215">título de rey,</l>
+            <l>providencia divina</l>
+            <l>más que acaso fue.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Ya insignias o armas los dos</l>
+            <l>habéis al soldado puesto;</l>
+            <l n="220">ahora falta el vestido.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>¿Qué dices, Entendimiento?</l>
+            <l>¿No era primero el vestido</l>
+            <l part="I">que las armas?</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l part="F">No lo apruebo,</l>
+            <l>porque en un soldado noble</l>
+            <l n="225">las armas son lo primero;</l>
+            <l>¿qué vestido le das tú?</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l>Yo antes estoy tan lejos</l>
+            <l>de darle vestido, que</l>
+            <stage>Quítanle la túnica a EMANUEL.</stage>
+            <l>le quito el que trae él puesto:</l>
+            <l part="I">¿Afecto mío?</l>
+          </sp>
+          <stage>Recogen la túnica y la reparten entre los dos, el JUDAÍSMO y su AFECTO.</stage>
+          <sp who="#afecto-del-judaísmo">
+            <speaker>AFECTO DEL JUDAÍSMO</speaker>
+            <l n="230" part="F">¿Qué dices?</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l>Partámosla por el medio.</l>
+          </sp>
+          <sp who="#afecto-del-judaísmo">
+            <speaker>AFECTO DEL JUDAÍSMO</speaker>
+            <l>Mejor será no rasgarla;</l>
+            <l part="I">¿sabes lo que hacer podemos?</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l part="F">¿Qué?</l>
+          </sp>
+          <sp who="#afecto-del-judaísmo">
+            <speaker>AFECTO DEL JUDAÍSMO</speaker>
+            <l>Que echemos una suerte</l>
+            <l n="235">y el que más dichoso en esto</l>
+            <l>fuere, sin queja del otro,</l>
+            <l>podrá llevárselo entero.</l>
+          </sp>
+          <stage>Ponen la túnica en la fuente.</stage>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l>Tienes, Afecto, razón.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Aunque agraviando a tu dueño,</l>
+            <l n="240">le hayas quitado el vestido,</l>
+            <l>no por eso, no por eso,</l>
+            <l>vestido le ha de faltar</l>
+            <l>para su decoro regio,</l>
+            <l>pues si es la púrpura real</l>
+            <l n="245">vestidura, según tengo</l>
+            <l>entendido; así de sacros</l>
+            <l>como profanos contextos,</l>
+            <l>esta vestidura real</l>
+            <l>sobre sus hombros le dejo.</l>
+          </sp>
+          <stage>Toma la GENTILIDAD la capa de escarlata de la fuente de su AFECTO y se la pone a EMANUEL.</stage>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l n="250">Mucho, Gentilidad mía,</l>
+            <l>tus finezas agradezco,</l>
+            <l>al paso que deste ingrato</l>
+            <l>tantas sinrazones siento,</l>
+            <l>que así paga las finezas</l>
+            <l n="255">con que obré en su cauterio.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <stage>Canta.</stage>
+            <l>Quien usa beneficios</l>
+            <l>con un ingrato,</l>
+            <l>lo que siembra en finezas,</l>
+            <l>coge en agravios.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="260">¿Qué dices, viendo este ingrato?</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l part="I">¿Qué nos respondes?</l>
+          </sp>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="F">Aquesto,</l>
+            <l>perdónale tú, Señor,</l>
+            <l>que no sabe lo que ha hecho.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Ahora falta que tu Afecto,</l>
+            <l part="I">guarnezca el vestido.</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l n="265" part="F">Yo</l>
+            <l>con la muerte le guarnezco,</l>
+            <l>por dar a mi saña fin:</l>
+            <l part="I">¿Ministro horroroso?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Sale la MUERTE y se va llegando a EMANUEL.</stage>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="F">Temo</l>
+            <l>la guarnición del vestido.</l>
+          </sp>
+          <sp who="#judaísmo">
+            <speaker>JUDAÍSMO</speaker>
+            <l n="270">A tus horrores entrego</l>
+            <l>al que se hizo hijo de Dios.</l>
+          </sp>
+          <stage>Echa el JUDAÍSMO en los brazos de la MUERTE a EMANUEL y hace que muere.</stage>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l>Consumose mi deseo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Yo con la resurrección,</l>
+            <l>así el vestido guarnezco</l>
+            <l n="275">de Emanuel, que muerto yace:</l>
+            <l part="I">¿ministro glorioso?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Sale un ÁNGEL vestido de blanco y con insignias de resurrección, y se llega donde está EMANUEL.</stage>
+          <sp who="#emanuel">
+            <speaker>EMANUEL</speaker>
+            <l part="F">Aliento</l>
+            <l>cobro penetrando mármol.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Que al depósito del cuerpo</l>
+            <l>de Emanuel franqueaste entrada,</l>
+            <stage>Échale en los brazos del ÁNGEL a EMANUEL la GENTILIDAD y le da el ÁNGEL las insignias de resurrección, y se pone en pie EMANUEL.</stage>
+            <l n="280">a tus brazos le encomiendo,</l>
+            <l>pues de la resurrección</l>
+            <l>representan el concepto,</l>
+            <l>en señal, que en cuerpo y alma</l>
+            <l>resucita para el cielo</l>
+            <l n="285">nuestro valiente soldado.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Este es el renglón postrero</l>
+            <l>de este memorial divino.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Muy bien has cumplido, Ingenio,</l>
+            <l>el empeño del vestido.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l n="290">Pues leído está con esto,</l>
+            <l>todos a este memorial</l>
+            <l>de adoración el decreto</l>
+            <l>demos postrados y humildes,</l>
+            <l>hoy con la Iglesia diciendo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Pónese la FE a la mano izquierda de EMANUEL y los que pudieren van pasando y haciendo la reverencia mientras la MÚSICA canta el himno del Tantum Ergo.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="295">A tan grande sacramento</l>
+            <l>adoremos rendidos,</l>
+            <l>y el antiguo documento</l>
+            <l>ceda al nuevo rito.</l>
+            <l>Preste la Fe suplemento</l>
+            <l n="300">a todos los sentidos,</l>
+            <l>gloria al Padre sin aumento,</l>
+            <l>gloria también al Hijo</l>
+            <l>y al Espíritu contento,</l>
+            <l>y alabanza por siglos.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l n="305">Oíd, que aunque está acabada</l>
+            <l>la alegoría, no el celo</l>
+            <l>de proseguir con la fiesta,</l>
+            <l>con un auto, cuyo empeño,</l>
+            <l>es de Psiquis y Cupido</l>
+            <l n="310">alegórico argumento</l>
+            <l>en fábula misteriosa.</l>
+          </sp>
+          <sp who="#entendimiento">
+            <speaker>ENTENDIMIENTO</speaker>
+            <l>Buen fin de la idea espero.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Y más si pagando deuda</l>
+            <l>a quien la debe el afecto,</l>
+            <l n="315">corona en tono de vítor</l>
+            <l>la Fe el agradecimiento.</l>
+            <stage>Canta.</stage>
+            <l>Vítor nuestros monarcas,</l>
+            <l>pues que su afecto le consagran</l>
+            <l>al culto del sacramento.</l>
+          </sp>
+          <sp who="#mujer-1">
+            <speaker>MUJER 1.</speaker>
+            <l n="320">Vítor otras mil veces</l>
+            <l>pues su desvelo,</l>
+            <l>le dedican a solo</l>
+            <l>castigo y premio.</l>
+          </sp>
+          <sp who="#mujer-2">
+            <speaker>MUJER 2.</speaker>
+            <l>También demos el vítor</l>
+            <l n="325">a sus consejos,</l>
+            <l>que en sus resoluciones</l>
+            <l>consta el acierto.</l>
+          </sp>
+          <sp who="#mujer-1">
+            <speaker>MUJER 1.</speaker>
+            <l>Vítor la noble villa</l>
+            <l>y ayuntamiento,</l>
+            <l n="330">que su celo parece</l>
+            <l>viene del cielo.</l>
+          </sp>
+          <sp who="#fe">
+            <speaker>FE</speaker>
+            <l>Vítor a la nobleza</l>
+            <l>y a todo el pueblo,</l>
+            <l>si el perdón nos conceden</l>
+            <l n="335">con el silencio.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

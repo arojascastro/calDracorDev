@@ -1,0 +1,859 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000040" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Las visiones de la muerte</title>
+        <title type="sub">Mojiganga</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName>Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-16"><time when="07:57:42"/></date>
+        <idno type="quadramaX">Las visiones de la muerte</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/las-visiones-de-la-muerte-mojiganga--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de Entremeses, jácaras y mojigangas, Madrid, Castalia, 1983, pp. 371-384. Edición, introducción y notas de Evangelina Rodríguez y Antonio Tordera</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="carretero" sex="MALE">
+            <persName>Un Carretero</persName>
+          </person>
+          <person xml:id="autor" sex="MALE">
+            <persName>Un Autor</persName>
+          </person>
+          <person xml:id="alma" sex="MALE">
+            <persName>El Alma</persName>
+          </person>
+          <person xml:id="cuerpo" sex="MALE">
+            <persName>El Cuerpo</persName>
+          </person>
+          <personGrp xml:id="gallegos" sex="MALE">
+            <persName>Unos gallegos</persName>
+          </personGrp>
+          <person xml:id="caminante" sex="MALE">
+            <persName>Un Caminante</persName>
+          </person>
+          <person xml:id="ángel" sex="MALE">
+            <persName>Un Ángel</persName>
+          </person>
+          <person xml:id="demonio" sex="MALE">
+            <persName>El Demonio</persName>
+          </person>
+          <person xml:id="muerte" sex="FEMALE">
+            <persName>La Muerte</persName>
+          </person>
+          <personGrp xml:id="gitanos" sex="MALE">
+            <persName>Gitanos</persName>
+          </personGrp>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">mojiganga</term>
+          <term source="kroll" type="main">sin datos</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q11693331</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" notBefore="1672" notAfter="1673">
+        <label>1672–1673</label>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000040" passive="http://www.wikidata.org/entity/Q69032190"/>
+    </listRelation>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">Las visiones de la muerte</titlePart>
+        <titlePart type="sub">Mojiganga</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personajes</head>
+        <castItem>UN CARRETERO.</castItem>
+        <castItem>UN AUTOR.</castItem>
+        <castItem>EL ALMA.</castItem>
+        <castItem>EL CUERPO.</castItem>
+        <castItem>UNOS GALLEGOS.</castItem>
+        <castItem>UN CAMINANTE.</castItem>
+        <castItem>UN ÁNGEL.</castItem>
+        <castItem>EL DEMONIO.</castItem>
+        <castItem>LA MUERTE.</castItem>
+        <castItem>GITANOS</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" n="1">
+          <stage type="unassigned">[Músicos] Dentro música, y castañetas e instrumentos, y sale el CARRETERO.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Vaya de fiesta, vaya de gira, </l>
+            <l> vaya de baile, vaya de chanza, </l>
+            <l> vaya y venga la mojiganga.</l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> El Señor sea loado, </l>
+            <l n="5"> que ya la mojiganga se ha acabado, </l>
+            <l> y que partir podremos. </l>
+            <l part="I"> señor Autor... </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <stage>Sale el AUTOR.</stage>
+          <sp who="#autor">
+            <speaker>AUTOR</speaker>
+            <l part="F"> Pues bien, ¿y qué tenemos? </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> Que ha gran rato que el carro está esperando, </l>
+            <l> y este pobre ganado reventando. </l>
+            <l n="10"> Y voto a... Pero jurar no quiero, </l>
+            <l> que es impropio <emph>el</emph> jurar de un carretero.</l>
+            <l> Vamos de aquí volando; </l>
+            <l> que ya ve que le están allí aguardando </l>
+            <l> antes de medio día, </l>
+            <l part="I"> y son más de las dos. </l>
+          </sp>
+          <sp who="#autor">
+            <speaker>AUTOR</speaker>
+            <l n="15" part="F"> La Compañía</l>
+            <l> apenas ha acabado, </l>
+            <l> pues está todavía en el tablado, </l>
+            <l part="I"> y para legua y media... </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l part="F"> Si no hubiera </l>
+            <l> hecho <emph>usted</emph> el concierto de manera </l>
+            <l n="20"> que haciendo el Auto aquí por la mañana, </l>
+            <l> le haría allí por la tarde, cosa es llana </l>
+            <l> que prisa no le diera; mas ya tardan </l>
+            <l> dos horas más de las que allá le aguardan, </l>
+            <l> y están las mulas sin comer, rendidas, </l>
+            <l part="I"> y por vida... </l>
+          </sp>
+          <sp who="#autor">
+            <speaker>AUTOR</speaker>
+            <l n="25" part="F"> Dejemos los porvidas. </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> ¿Usted ignora que es el heredero </l>
+            <l> de juros de por vida un carretero? </l>
+            <stage>A los comediantes.</stage>
+            <l> Vamos de aquí, señores, acabemos. </l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#gitanos #música">
+            <speaker>[TODOS]</speaker>
+            <l>Denos lugar a que nos desnudemos </l>
+            <l n="30"> los trajes con que el Auto se recita. </l>
+          </sp>
+          <sp who="#autor">
+            <speaker>AUTOR</speaker>
+            <l> Nadie de desnudarse necesita, </l>
+            <l> porque si <emph>han</emph> de empezar luego en llegando, </l>
+            <l> en andarse vistiendo y desnudando </l>
+            <l> se pasará la tarde. </l>
+            <l n="35"> Y no es bien que un Concejo nos aguarde </l>
+            <l> tan noble y tan bizarro. </l>
+            <l part="I"> ¡Al carro cada cual como está! </l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#gitanos #música">
+            <speaker>TODOS</speaker>
+            <l part="F"> ¡Al carro! </l>
+          </sp>
+          <sp who="#autor">
+            <speaker>AUTOR</speaker>
+            <l part="I"> Oíd. </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l part="M"> ¿Qué mandáis? </l>
+          </sp>
+          <sp who="#autor">
+            <speaker>AUTOR</speaker>
+            <l part="F"> Que vaya bien sentada </l>
+            <l> y en el mejor lugar acomodada </l>
+            <l n="40"> la que hace el Alma, encomendaros quiero.</l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> Hacéis bien, porque el alma es lo primero. </l>
+          </sp>
+          <sp who="#autor">
+            <speaker>AUTOR</speaker>
+            <l> No vaya el que hace el Cuerpo junto a ella, </l>
+            <l> que es su esposo, ni aún donde pueda vella. </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> Ese es fácil remedio </l>
+            <l n="45"> con que el que hace la Muerte se entre en medio. </l>
+          </sp>
+          <sp who="#autor">
+            <speaker>AUTOR</speaker>
+            <l> La que hace el Ángel, si verdad os hablo, </l>
+            <l> es <emph>mi</emph> mujer: echadla con el Diablo. </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l part="I"> Así lo haré. </l>
+
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <stage>Vase.</stage>
+          <sp who="#autor">
+            <speaker>AUTOR</speaker>
+            <l part="F"> Con esto me adelanto; </l>
+            <l> que el que algo ve, no desespera tanto </l>
+            <l n="50"> de lo demás que tarda. </l>
+
+            <stage>Dentro.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <stage>Vase.</stage>
+          <sp who="#gitanos #música">
+            <speaker>TODOS</speaker>
+            <l> Ya estamos aquí todos, ¿qué se aguarda? </l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> Dales, Pedro, y camina. </l>
+            <l> ¡Ah la parda, ah la rucia, ah la mohína! </l>
+          </sp>
+          <stage>Dentro ruido de carretería y campanillas.</stage>
+          <sp who="#alma">
+            <speaker>ALMA</speaker>
+            <stage>Dentro.</stage>
+            <l> Para que la jornada se entretenga... </l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <stage>Dentro.</stage>
+            <l part="I"> Vaya una tonadilla... </l>
+          </sp>
+          <sp who="#gitanos #música">
+            <speaker>TODOS</speaker>
+            <l n="55" part="F"> Vaya y venga. </l>
+            <stage>Cantan.</stage>
+            <l> En el más festivo día</l>
+            <l> en que reina la alegría, </l>
+            <l> y todo el orbe a porfía </l>
+            <l> procura meterse en danza</l>
+            <l n="60"> vaya y venga la mojiganga. </l>
+          </sp>
+          <stage>Camino.</stage>
+          <stage>Sale un CAMINANTE y saca unas alforjas y bota.</stage>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> Muchísimo me enfada </l>
+            <l> que haga calor en junio a medio día, </l>
+            <l> y que sabiendo que es jornada mía </l>
+            <l> me silbe la jornada </l>
+            <l n="65"> ese enemigo de la gente honrada; </l>
+            <l> pero vencer intento sus ardores. </l>
+            <l> Vaya este trago contra sus estragos, </l>
+            <l> que, en efecto, esta vida todo es tragos,</l>
+            <l> y a un caminante nunca estorba el vino</l>
+            <l n="70"> que es cosa que se bebe de <emph>camino</emph>. </l>
+            <stage>Bebe.</stage>
+            <l> Caliente está del sol, mas no hago cuenta, </l>
+            <l> que el vino es lo mejor que el sol calienta. </l>
+            <l> ¿Si por estallo me dañó el bebello? </l>
+            <l> Pensémoslo y duramos sobre ello, </l>
+            <l n="75"> haciendo cabecera de la bota; </l>
+            <stage>Échase.</stage>
+            <l> si bien el miedo un poco me alborota, </l>
+            <l> que ha días que entre sueños me amancilla </l>
+            <l> no sé qué pesadilla. </l>
+            <l> Yo me santiguo y en dormir me empeño, </l>
+            <l n="80"> que aunque <emph>he</emph> de ver visiones en el sueño, </l>
+            <l> si sus fantasmas me han de dar enojos </l>
+            <l> par no verlas cerraré los ojos.</l>
+            <stage>Duérmese.</stage>
+          </sp>
+          <stage>Todo lo que sigue es dentro.</stage>
+          <sp who="#gitanos #música">
+            <speaker>TODOS</speaker>
+            <stage>Cantando.</stage>
+            <l>En el más felice día </l>
+            <l> en que reina la alegría, </l>
+            <l n="85"> y todo el orbe a porfía </l>
+            <l> procura meterse en danza, </l>
+            <l> vaya y venga la mojiganga. </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l>Porque no entre en el pantano </l>
+            <l> guía la reata, Pedro. </l>
+          </sp>
+          <sp who="#gallegos">
+            <speaker>UNO</speaker>
+            <l n="90">No es posible detenella. </l>
+          </sp>
+          <sp who="#alma">
+            <speaker>ALMA</speaker>
+            <l> Borracho estás, carretero. </l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l> Vuelcos me da el corazón. </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> Y al carro le dio lo mesmo: </l>
+            <l> volcóse con mil demonios.</l>
+          </sp>
+          <sp who="#gitanos">
+            <speaker>UNOS</speaker>
+            <l part="I"> ¡Que me ahogo! </l>
+          </sp>
+          <sp who="#música">
+            <speaker>OTROS</speaker>
+            <l n="95" part="F"> ¡Que me muero! </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> Fantasmas ¿qué me queréis?</l>
+            <l> Visiones, dejadme quieto. </l>
+          </sp>
+          <sp who="#alma">
+            <speaker>ALMA</speaker>
+            <l> ¡Ay, desdichada de mí! </l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> Acude, Perico, presto </l>
+            <l n="100"> a ayudarme a socorrerla, </l>
+            <l> que al Alma todos los huesos </l>
+            <l> una arca <emph>la</emph> está abrumando. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> ¡No tuviera el alma cuerpo! </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> Quebróse una pierna el Diablo. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l n="105"> Pues será el diablo cojuelo.</l>
+          </sp>
+          <sp who="#gallegos">
+            <speaker>UNO</speaker>
+            <l> La Muerte está sin sentido. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> ¡Miren si la muerte ha muerto! </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Descalabrado está el Ángel. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> Estuviérase en el cielo... </l>
+          </sp>
+          <sp who="#gitanos">
+            <speaker>UNOS</speaker>
+            <l part="I">¡Que me muero! </l>
+          </sp>
+          <sp who="#música">
+            <speaker>OTROS</speaker>
+            <l n="110" part="F"> ¡Que me ahogo! </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> ¡Ay de mí! ¡Qué extraño sueño! </l>
+            <l> No es decible cuán gustoso </l>
+            <stage>Levántase.</stage>
+            <l> estoy de hallarme despierto. </l>
+            <l> Que me llevaba el Demonio </l>
+            <l n="115"> soñé, y aún ahora lo veo... </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <stage>Sale el DEMONIO, santiguándose.</stage>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l> ¡Jesús mil veces! ¡Milagro </l>
+            <l> ha sido no haberme muerto! </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> Por su santiguada (¡ay triste!) </l>
+            <l> me la jura a mí viniendo, </l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l n="120"> Hombre, <emph>quien quiera</emph> que seas, </l>
+            <l> gracias a Dios que te encuentro. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <stage>Aparte.</stage>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l> Pues aquí te hallas, ven presto: </l>
+            <l> llevaréte <emph>a </emph> que me ayudes </l>
+            <l n="125"> para que mis compañeros </l>
+            <l> tengan socorro en la grande </l>
+            <l> pena que están padeciendo. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> No me tocan los socorros, </l>
+            <l> que yo no soy caballero, </l>
+            <l n="130"> toreador soy de tinaja,</l>
+            <l part="I"> y no más. </l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="F"> Aunque huyas, necio, </l>
+            <l> sabré por fuerza llevarte. </l>
+            <stage>Agárrale.</stage>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> ¡Que me agarra Santos Cielos! </l>
+            <l> ¡Favor, ángeles benditos, </l>
+            <l part="I"> en tanta aflicción! </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <stage>Sale el ÁNGEL con una cruz grande.</stage>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l n="135" part="F"> Reniego </l>
+            <l> de Compañía con tantos </l>
+            <l part="I"> azares. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l part="F"> (Aún peor es esto: </l>
+            <l> renegando <emph>de mí viene</emph>, </l>
+            <l> ya que viene, por traerlo </l>
+            <stage>Aparte.</stage>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l> Hombre, ¿tienes un pañuelo </l>
+            <l> con que atarme esta cabeza? </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> No solamente le tengo </l>
+            <l> mas no le tendré en mi vida. </l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="I"> ¿De qué huyendo vas? </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l n="145" part="F"> De miedo </l>
+            <l> de un diablo que se persigna </l>
+            <l> y un ángel que echa reniegos. </l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="I"> Tente, hombre... </l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l part="F"> No te vayas. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> ¿Si soy hombre de Auto Viejo, </l>
+            <l n="150"> pues que me hallo contrastado </l>
+            <l> del Ángel malo, y el bueno?</l>
+            <l> ¡Valedme, ánimas benditas </l>
+            <l part="I"> del purgatorio! </l>
+          </sp>
+          <stage>Saca el CUERPO el ALMA en brazos.</stage>
+          <sp who="#alma">
+            <speaker>ALMA</speaker>
+            <l part="F"> Ya vengo </l>
+            <l part="I"> más aliviada. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l part="F"> Señora </l>
+            <l n="155"> Alma, que mire la ruego, </l>
+            <l> que no lo dije por tanto. </l>
+          </sp>
+          <sp who="#cuerpo">
+            <speaker>CUERPO</speaker>
+            <l> Con todo, ir a ver pretendo </l>
+            <l> si hay por aquí en qué albergarse. </l>
+            <l> Hombre, en tus manos te dejo </l>
+            <l n="160"> el Alma, cuídame de ella </l>
+            <l> mientras yo por ella vuelvo. </l>
+          </sp>
+          <sp who="#alma">
+            <speaker>ALMA</speaker>
+            <l> No te vayas, que ya yo </l>
+            <l> he restaurado el aliento. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> Señor Diablo, aquí está el Alma. </l>
+            <l n="165"> Señor Ángel, aquí el Cuerpo. </l>
+            <l> Repártanlo entre los dos </l>
+            <l> y déjenme a mí ir huyendo. </l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <stage>Sale la MUERTE con guadaña.</stage>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Dónde has de huir si has de ser </l>
+            <l> tú en quien me vengue el primero? </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l n="170"> Ello sólo me faltaba. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> ¿Con quién se pudo hacer esto </l>
+            <l> de no acordarse de mí, </l>
+            <l> y dejarme hasta el postrero </l>
+            <l> estar debajo del carro? </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l n="175"> Pues ¿por qué se enoja de eso? </l>
+            <l> ¿Quién no dejó para postre </l>
+            <l> hacer de la muerte acuerdo? </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Hoy morirás a mis manos, </l>
+            <l> pero ¿qué es lo que allí veo? </l>
+            <l part="I"> ¿qué bota es ésta? </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l n="180" part="F"> La almohada </l>
+            <l> sobre que yo estoy durmiendo </l>
+            <l> todavía, pues estoy </l>
+            <l> viendo que la vida es sueño.</l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Agradécele a mi sed </l>
+            <l n="185"> el que en tu bota me vengo </l>
+            <l part="I"> primero que en ti. </l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="F"> Pues fue </l>
+            <l><emph>él</emph> que nos la ha descubierto, </l>
+            <l> a la salud de la Muerte </l>
+            <l part="I"> bebamos todos. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l part="F"> Me huelgo </l>
+            <l n="190"> que la muerte beba y viva, </l>
+            <l> porque no me digan luego </l>
+            <l part="I"> que mata el beber. </l>
+          </sp>
+          <sp who="#cuerpo">
+            <speaker>CUERPO</speaker>
+            <stage>Al ALMA.</stage>
+            <l part="F">El susto </l>
+            <l> repara, cobra el aliento </l>
+            <l> y bebe siquiera un trago. </l>
+          </sp>
+          <sp who="#alma">
+            <speaker>ALMA</speaker>
+            <l n="195"> Por obedecerte bebo. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> Como el alma es tan devota, </l>
+            <l> se eleva mirando al Cielo. </l>
+          </sp>
+          <sp who="#ángel">
+            <speaker>ÁNGEL</speaker>
+            <l> Acabe, pese a su alma; </l>
+            <l> que más necesidad tengo </l>
+            <l part="I"> yo. </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l n="200" part="F"> No bebe mal el Ángel. </l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l> Venga, que de sed reviento. </l>
+          </sp>
+          <sp who="#cuerpo">
+            <speaker>CUERPO</speaker>
+            <l> También <emph>tomaré</emph> yo un trago, </l>
+            <l part="I"> si es que ha quedado... </l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="F"> Acabemos. </l>
+            <l> Mas ¡por Dios!, que ya está enjuta... </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l n="205"> ¡Mire el diablo del infierno! </l>
+            <l> Aún hasta las botas tienta. </l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <stage>Sale el CARRETERO.</stage>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> Vengan, que ya el carro puesto </l>
+            <l part="I"> está. </l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l part="F"> ¡Mal haya mi vida...! </l>
+          </sp>
+          <sp who="#cuerpo">
+            <speaker>CUERPO</speaker>
+            <l part="I"> ¡Mal haya mi alma...! </l>
+          </sp>
+          <sp who="#alma">
+            <speaker>ALMA</speaker>
+            <l part="F"> ¡Y mi cuerpo...!</l>
+          </sp>
+          <sp who="#carretero #demonio #cuerpo">
+            <speaker>LOS TRES</speaker>
+            <l n="210"> ¡Si en él otra vez entrare! </l>
+          </sp>
+          <sp who="#muerte #ángel">
+            <speaker>MUERTE Y ÁNGEL</speaker>
+            <l> Yo también digo lo mesmo. </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> ¡Muy lindo melindre es éste! </l>
+            <l> Volcarse un carro, ¿es portento? </l>
+          </sp>
+          <sp who="#cuerpo">
+            <speaker>CUERPO</speaker>
+            <l> No, que no es portento estar </l>
+            <l n="215"> borracho su carretero. </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> Mientes como cuerpo humano. </l>
+          </sp>
+          <sp who="#cuerpo">
+            <speaker>CUERPO</speaker>
+            <l> Tú como humano pellejo.</l>
+            <stage>Pelean.</stage>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l> Ténganse con mil demonios. </l>
+          </sp>
+          <sp who="#muerte">
+            <speaker>MUERTE</speaker>
+            <l> Baste estar yo de por medio. </l>
+          </sp>
+          <sp who="#demonio #muerte">
+            <speaker>LOS DOS</speaker>
+            <l n="220"> ¡Cielos, favor, que me matan! </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l part="I"><emph>Señores</emph>... </l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#gallegos">
+            <speaker>GALLEGOS</speaker>
+            <l part="F"> Fugid Galegos, </l>
+            <l> que en pos de nos los gitanos </l>
+            <l part="I"> ya chegan. </l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#gitanos">
+            <speaker>GITANOS</speaker>
+            <l part="F"> Idlos siguiendo </l>
+            <l> porque encerremos nosotros </l>
+            <l n="225"> lo que traen segado ellos. </l>
+          </sp>
+          <sp who="#demonio">
+            <speaker>DEMONIO</speaker>
+            <l> Gente <emph>se oye</emph>, y pues los dos </l>
+            <l> despartirlos no podemos, </l>
+            <l> demos voces unos y otros. </l>
+          </sp>
+          <sp who="#muerte #ángel">
+            <speaker>MUERTE Y ÁNGEL</speaker>
+            <l part="I"> ¡Segadores! </l>
+          </sp>
+          <sp who="#demonio #alma">
+            <speaker>DEMONIO Y ALMA</speaker>
+            <l part="F"> ¡Pasajeros! </l>
+          </sp>
+          <sp who="#muerte #ángel">
+            <speaker>MUERTE Y ÁNGEL</speaker>
+            <l part="I"> ¡Venid! </l>
+          </sp>
+          <sp who="#demonio #alma">
+            <speaker>DEMONIO Y ALMA</speaker>
+            <l n="230" part="F"><emph>¡Corred!</emph></l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#gallegos">
+            <speaker>GALLEGOS</speaker>
+            <l> Allí hay gente </l>
+            <l> de que poder guarecernos. </l>
+          </sp>
+          <sp who="#gitanos">
+            <speaker>GITANOS</speaker>
+            <l> Aunque se junten con otros </l>
+            <l> no importa; llegar podemos. </l>
+            <l n="235"> Que a más moros, más ganancia.</l>
+          </sp>
+          <sp who="#demonio #alma #muerte #ángel">
+            <speaker>LOS CUATRO</speaker>
+            <l> ¡Acudid, acudid presto! </l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <stage>Salen los GALLEGOS y los GITANOS.</stage>
+          <sp who="#gallegos">
+            <speaker>GALLEGOS</speaker>
+            <l>Mas ¡ay cuitados de nos, </l>
+            <l> que hemos dado con ú Demo! </l>
+          </sp>
+          <sp who="#gitanos">
+            <speaker>GITANOS</speaker>
+            <l> ¡Mueran todos! Mas ¡ay! que es </l>
+            <l n="240"> mi muerte la que yo encuentro. </l>
+          </sp>
+          <sp who="#gallegos">
+            <speaker>GALLEGOS</speaker>
+            <l part="I"> ¡Qué <emph>parasismo</emph>! </l>
+          </sp>
+          <sp who="#gitanos">
+            <speaker>GITANOS</speaker>
+            <l part="F"> ¡Qué <emph>pasmo</emph>! </l>
+          </sp>
+          <sp who="#carretero">
+            <speaker>CARRETERO</speaker>
+            <l> ¿De quién huís, majaderos, </l>
+            <l> si ésta es una compañía </l>
+            <l> que yo a representar llevo</l>
+            <l n="245"> de que ese carro volcado </l>
+            <l part="I"> es buen testigo? </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l part="F"> No es bueno </l>
+            <l> que <emph>desde que se lo oí</emph></l>
+            <l><emph>he estado por dar</emph> en ello? </l>
+          </sp>
+          <sp who="#gitanos">
+            <speaker>GITANOS</speaker>
+            <l> En albricias de no ser </l>
+            <l n="250"> verdad el susto, <emph>troquemos</emph></l>
+            <l><emph>en regocijo el espanto</emph>. </l>
+          </sp>
+          <sp who="#gallegos">
+            <speaker>GALLEGOS</speaker>
+            <l><emph>Pase o pesar</emph> a contento. </l>
+          </sp>
+          <sp who="#alma #ángel">
+            <speaker>ALMA Y ÁNGEL</speaker>
+            <l> Sí, pero ¿cómo ha de ser? </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> ¿No se está sabido eso </l>
+            <l n="255"> pues todas las mojigangas </l>
+            <l> tienen un fin, advitiendo </l>
+            <l> que es disparatar adrede, </l>
+            <l> tal vez gala del ingenio? </l>
+          </sp>
+          <sp who="#gallegos">
+            <speaker>GALLEGA</speaker>
+            <l> Si <emph>es así</emph>, <emph>va una cantiña</emph></l>
+            <l n="260"> de gitanos y galegos. </l>
+            <stage>Canta.</stage>
+            <l> ¡Ay por aquí, por aquí galegos! </l>
+            <l> ¡Ay <emph>por aquí</emph>, por aquí, cantemos!</l>
+          </sp>
+          <sp who="#gallegos">
+            <speaker>GALLEGO</speaker>
+            <l> ¡Ay por aquí, por aquí, <emph>Duminga</emph>! </l>
+            <l> ¡Ay por aquí, por aquí, Lurenzo!</l>
+          </sp>
+          <sp who="#gitanos">
+            <speaker>GITANA</speaker>
+            <l n="265"> Vaya pues de bulla, </l>
+            <l> pues que de ella es tiempo, </l>
+            <l> que a las Mojigangas</l>
+            <l> no da ser lo serio. </l>
+            <l> ¡Ay por aquí, por aquí, galegos! </l>
+            <l n="270"> ¡Ay por aquí, por aquí, <emph>cantemos</emph>! </l>
+          </sp>
+          <sp who="#caminante">
+            <speaker>CAMINANTE</speaker>
+            <l> Miedo a estas visiones </l>
+            <l> tuve; pero luego </l>
+            <l> que he mirado a esotras </l>
+            <l> mucho más le tengo. </l>
+          </sp>
+          <sp who="#alma #ángel">
+            <speaker>ALMA Y ÁNGEL</speaker>
+            <l n="275"> Todo lo hagan bulla, </l>
+            <l> voces e instrumentos, </l>
+            <l> que en fines de fiesta </l>
+            <l> hay siempre mal pleito. </l>
+          </sp>
+          <sp who="#caminante #alma #ángel #gitanos #música">
+            <speaker>TODOS</speaker>
+            <l> ¡Ay por aquí, por aquí, galegos! </l>
+            <l n="280"> ¡Ay por aquí, por aquí, acabemos! </l>
+          </sp>
+          <stage>Acábase con instrumentos de mojiganga.</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

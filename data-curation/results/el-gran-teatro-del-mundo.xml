@@ -1,0 +1,2806 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000015" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El gran teatro del mundo</title>
+        <title type="sub">Auto sacramental alegórico</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-03-11"><time when="13:42:28"/></date>
+        <idno type="quadramaX">El gran teatro del mundo</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-gran-teatro-del-mundo--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="el-autor" sex="MALE">
+            <persName>El Autor</persName>
+          </person>
+          <person xml:id="el-mundo" sex="MALE">
+            <persName>El Mundo</persName>
+          </person>
+          <person xml:id="el-rey" sex="MALE">
+            <persName>El Rey</persName>
+          </person>
+          <person xml:id="la-discreción" sex="FEMALE">
+            <persName>La Discreción</persName>
+          </person>
+          <person xml:id="la-ley-de-gracia" sex="FEMALE">
+            <persName>La Ley de Gracia</persName>
+          </person>
+          <person xml:id="la-hermosura" sex="FEMALE">
+            <persName>La Hermosura</persName>
+          </person>
+          <person xml:id="el-rico" sex="MALE">
+            <persName>El Rico</persName>
+          </person>
+          <person xml:id="el-labrador" sex="MALE">
+            <persName>El Labrador</persName>
+          </person>
+          <person xml:id="el-pobre" sex="MALE">
+            <persName>El Pobre</persName>
+          </person>
+          <person xml:id="un-niño" sex="MALE">
+            <persName>Un Niño</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="una-voz">
+            <persName>Una Voz</persName>
+          </person>
+          <person xml:id="acompañamiento" sex="MALE">
+            <persName>Acompañamiento</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1717">
+        <label/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000015" passive="http://www.wikidata.org/entity/Q1171310"/>
+    </listRelation>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <castList>
+        <head>Personas</head>
+        <castItem>
+          <role xml:id="personas">PERSONAS</role>
+        </castItem>
+        <castItem>EL AUTOR.</castItem>
+        <castItem>EL MUNDO.</castItem>
+        <castItem>EL REY.</castItem>
+        <castItem>LA DISCRECIÓN.</castItem>
+        <castItem>LA LEY DE GRACIA.</castItem>
+        <castItem>LA HERMOSURA.</castItem>
+        <castItem>EL RICO.</castItem>
+        <castItem>EL LABRADOR.</castItem>
+        <castItem>EL POBRE.</castItem>
+        <castItem>UN NIÑO.</castItem>
+        <castItem>UNA VOZ.</castItem>
+        <castItem>Acompañamiento.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" resp="#rojas" n="1">
+          <stage type="entrance">Sale el AUTOR con manto de estrellas y potencias en el sombrero.</stage>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Hermosa compostura</l>
+            <l>de esa varia inferior arquitectura,</l>
+            <l>que entre sombras y lejos</l>
+            <l>a esta celeste usurpas los reflejos,</l>
+            <l n="5">cuando con flores bellas</l>
+            <l>el número compite a sus estrellas,</l>
+            <l>siendo con resplandores</l>
+            <l>humano cielo de caducas flores.</l>
+            <l>Campaña de elementos,</l>
+            <l n="10">con montes, rayos, piélagos y vientos:</l>
+            <l>con vientos donde graves</l>
+            <l>te surcan los bajeles de las aves;</l>
+            <l>con piélagos y mares donde a veces</l>
+            <l>te vuelan las escuadras de los peces;</l>
+            <l n="15">con rayos donde ciego</l>
+            <l>te ilumina la cólera del fuego;</l>
+            <l>con montes donde dueños absolutos</l>
+            <l>te pasean los hombres y los brutos:</l>
+            <l>siendo en continua guerra</l>
+            <l n="20">monstruo de fuego y aire, de agua y tierra.</l>
+            <l>Tú, que siempre diverso,</l>
+            <l>la fábrica feliz del universo,</l>
+            <l>eres, primer prodigio sin segundo,</l>
+            <l>y por llamarte de una vez, tú el Mundo,</l>
+            <l n="25">que naces como el Fénix y en su fama</l>
+            <l part="I">de tus mismas cenizas.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage type="unassigned">Sale el MUNDO por diversa puerta.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="F">¿Quién me llama,</l>
+            <l>que desde el duro centro</l>
+            <l>de aqueste globo que me esconde dentro</l>
+            <l>alas viste veloces?</l>
+            <l n="30">¿Quién me saca de mí? ¿Quién me da voces?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Es tu Autor Soberano.</l>
+            <l>De mi voz un suspiro, de mi mano</l>
+            <l>un rasgo es quien te informa,</l>
+            <l>y a su obscura materia le da forma.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l n="35">Pues ¿qué es lo que me mandas? ¿Qué me quieres?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Pues soy tu Autor, y tú mi hechura eres,</l>
+            <l>hoy, de un concepto mío</l>
+            <l>la ejecución a tus aplausos fío.</l>
+            <l>Una fiesta hacer quiero</l>
+            <l n="40">a mi mismo poder, si considero</l>
+            <l>que solo a ostentación de mi grandeza</l>
+            <l>fiestas hará la gran naturaleza;</l>
+            <l>y como siempre ha sido</l>
+            <l>lo que más ha alegrado y divertido</l>
+            <l n="45">la representación bien aplaudida,</l>
+            <l>y es representación la humana vida,</l>
+            <l>una comedia sea</l>
+            <l>la que hoy el cielo en tu teatro vea.</l>
+            <l>Si soy Autor y si la fiesta es mía,</l>
+            <l n="50">por fuerza la ha de hacer mi compañía.</l>
+            <l>Y pues que yo escogí de los primeros</l>
+            <l>los hombres, y ellos son mis compañeros,</l>
+            <l>ellos, en el Teatro</l>
+            <l>del mundo, que contiene partes cuatro,</l>
+            <l n="55">con estilo oportuno</l>
+            <l>han de representar. Yo a cada uno</l>
+            <l>el papel le daré que le convenga,</l>
+            <l>y porque en fiesta igual su parte tenga</l>
+            <l>el hermoso aparato</l>
+            <l n="60">de apariencias, de trajes el ornato,</l>
+            <l>hoy prevenido quiero</l>
+            <l>que, alegre, liberal y lisonjero,</l>
+            <l>fabriques apariencias</l>
+            <l>que de dudas se pasen a evidencias.</l>
+            <l n="65">Seremos, yo el Autor, en un instante,</l>
+            <l>tú el teatro, y el hombre el recitante.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Autor generoso mío,</l>
+            <l>a cuyo poder, a cuyo</l>
+            <l>acento obedece todo,</l>
+            <l n="70">yo, el gran Teatro del mundo,</l>
+            <l>para que en mí representen</l>
+            <l>los hombres, y cada uno</l>
+            <l>halle en mí la prevención</l>
+            <l>que le impone al papel suyo,</l>
+            <l n="75">como parte obediencial,</l>
+            <l>que solamente ejecuto</l>
+            <l>lo que ordenas, que aunque es mía</l>
+            <l>la obra, es milagro tuyo.</l>
+            <l>Primeramente porque es</l>
+            <l n="80">de más contento y más gusto</l>
+            <l>no ver el tablado antes</l>
+            <l>que esté el personaje a punto,</l>
+            <l>lo tendré de un negro velo</l>
+            <l>todo cubierto y oculto,</l>
+            <l n="85">que sea un caos donde estén</l>
+            <l>los materiales confusos.</l>
+            <l>Correrase aquella niebla</l>
+            <l>y, huyendo el vapor obscuro,</l>
+            <l>para alumbrar el teatro</l>
+            <l n="90">(porque adonde luz no hubo</l>
+            <l>no hubo fiesta), alumbrarán</l>
+            <l>dos luminares, el uno</l>
+            <l>divino farol del día,</l>
+            <l>y de la noche nocturno</l>
+            <l n="95">farol el otro, a quien ardan</l>
+            <l>mil luminosos carbunclos,</l>
+            <l>que en la frente de la noche</l>
+            <l>den vividores influjos.</l>
+            <l>En la primera jornada,</l>
+            <l n="100">sencillo y cándido nudo</l>
+            <l>de la gran ley natural,</l>
+            <l>allá en los primeros lustros</l>
+            <l>aparecerá un jardín</l>
+            <l>con bellísimos dibujos,</l>
+            <l n="105">ingeniosas perspectivas,</l>
+            <l>que se dude cómo supo</l>
+            <l>la naturaleza hacer</l>
+            <l>tan gran lienzo sin estudio.</l>
+            <l>Las flores mal despuntadas</l>
+            <l n="110">de sus rosados capullos</l>
+            <l>saldrán la primera vez</l>
+            <l>a ver el Alba en confuso.</l>
+            <l>Los árboles estarán</l>
+            <l>llenos de sabrosos frutos,</l>
+            <l n="115">si ya el áspid de la envidia</l>
+            <l>no da veneno en alguno.</l>
+            <l>Quebraranse mil cristales</l>
+            <l>en guijas, dando su curso</l>
+            <l>para que el Alba los llore</l>
+            <l n="120">mil aljófares menudos.</l>
+            <l>Y para que más campee</l>
+            <l>este humano cielo juzgo</l>
+            <l>que estará bien engastado</l>
+            <l>de varios campos incultos.</l>
+            <l n="125">Donde fueren menester</l>
+            <l>montes y valles profundos</l>
+            <l>habrá valles, habrá montes;</l>
+            <l>y ríos, sagaz y astuto,</l>
+            <l>haciendo zanjas la tierra,</l>
+            <l n="130">llevaré por sus condutos</l>
+            <l>brazos de mar desangrados</l>
+            <l>que corran por varios rumbos.</l>
+            <l>Vista la primera scena</l>
+            <l>sin edificio ninguno,</l>
+            <l n="135">en un instante verás</l>
+            <l>cómo repúblicas fundo,</l>
+            <l>cómo ciudades fabrico,</l>
+            <l>cómo alcázares descubro.</l>
+            <l>Y cuando solicitados</l>
+            <l n="140">montes fatiguen algunos</l>
+            <l>a la tierra con el peso</l>
+            <l>y a los aires con el bulto,</l>
+            <l>mudaré todo el teatro</l>
+            <l>porque todo, mal seguro,</l>
+            <l n="145">se verá cubierto de agua</l>
+            <l>a la saña de un diluvio.</l>
+            <l>En medio de tanto golfo,</l>
+            <l>a los flujos y reflujos</l>
+            <l>de ondas y nubes, vendrá</l>
+            <l n="150">haciendo ignorados surcos</l>
+            <l>por las aguas un bajel</l>
+            <l>que fluctuando seguro</l>
+            <l>traerá su vientre preñado</l>
+            <l>de hombres, de aves y de brutos.</l>
+            <l n="155">A la seña que, en el cielo,</l>
+            <l>de paz hará un arco rubio</l>
+            <l>de tres colores, pajizo,</l>
+            <l>tornasolado y purpúreo,</l>
+            <l>todo el gremio de las ondas</l>
+            <l n="160">obediente a su estatuto</l>
+            <l>hará lugar, observando</l>
+            <l>leyes que primero tuvo,</l>
+            <l>a la cerviz de la tierra</l>
+            <l>que, sacudiéndose el yugo,</l>
+            <l n="165">descollará su semblante,</l>
+            <l>bien que macilento y mustio.</l>
+            <l>Acabado el primer acto,</l>
+            <l>luego empezará el segundo,</l>
+            <l>Ley Escrita en que poner</l>
+            <l n="170">más apariencias procuro,</l>
+            <l>pues para pasar a ella</l>
+            <l>pasarán con pies enjutos</l>
+            <l>los hebreos desde Egipto</l>
+            <l>los cristales del mar rubio;</l>
+            <l n="175">amontonadas las aguas,</l>
+            <l>verá el Sol que le descubro</l>
+            <l>los más ignorados senos</l>
+            <l>que ha mirado en tantos lustros.</l>
+            <l>Con dos columnas de fuego</l>
+            <l n="180">ya me parece que alumbro</l>
+            <l>el desierto antes de entrar</l>
+            <l>en el prometido fruto.</l>
+            <l>Para salir con la ley,</l>
+            <l>Moisés a un monte robusto</l>
+            <l n="185">le arrebatará una nube</l>
+            <l>en el rapto vuelo suyo.</l>
+            <l>Y esta segunda jornada</l>
+            <l>fin tendrá en un furibundo</l>
+            <l>eclipse, en que todo el Sol</l>
+            <l n="190">se ha de ver casi difunto.</l>
+            <l>Al último parasismo</l>
+            <l>se verá el orbe cerúleo</l>
+            <l>titubear, borrando tantos</l>
+            <l>paralelos y coluros.</l>
+            <l n="195">Sacudiranse los montes</l>
+            <l>y delirarán los muros,</l>
+            <l>dejando en pálidas ruinas</l>
+            <l>tanto escándalo caduco.</l>
+            <l>Y empezará la tercera</l>
+            <l n="200">jornada, donde hay anuncios</l>
+            <l>que habrá mayores portentos,</l>
+            <l>por ser los milagros muchos</l>
+            <l>de la Ley de Gracia, en que</l>
+            <l>ociosamente discurro.</l>
+            <l n="205">Con lo cual en tres jornadas,</l>
+            <l>tres leyes y un estatuto,</l>
+            <l>los hombres dividirán</l>
+            <l>las tres edades del mundo;</l>
+            <l>hasta que al último paso</l>
+            <l n="210">todo el tablado, que tuvo</l>
+            <l>tan grande aparato en sí,</l>
+            <l>una llama, un rayo puro</l>
+            <l>cubrirá porque no falte</l>
+            <l>fuego en la fiesta... ¿Qué mucho</l>
+            <l n="215">que aquí, balbuciente el labio,</l>
+            <l>quede absorto, quede mudo?</l>
+            <l>De pensarlo, me estremezco,</l>
+            <l>de imaginarlo, me turbo;</l>
+            <l>de repetirlo, me asombro;</l>
+            <l n="220">de acordarlo, me consumo.</l>
+            <l>Mas ¡dilátese esta scena,</l>
+            <l>este paso horrible y duro,</l>
+            <l>tanto, que nunca le vean</l>
+            <l>todos los siglos futuros!</l>
+            <l n="225">Prodigios verán los hombres</l>
+            <l>en tres actos, y ninguno</l>
+            <l>a su representación</l>
+            <l>faltará por mí en el uso.</l>
+            <l>Y pues que ya he prevenido</l>
+            <l n="230">cuanto al teatro, presumo</l>
+            <l>que está todo ahora; cuanto</l>
+            <l>al vestuario, no dudo</l>
+            <l>que allá en tu mente le tienes,</l>
+            <l>pues allá en tu mente juntos,</l>
+            <l n="235">antes de nacer, los hombres</l>
+            <l>tienen los aplausos suyos.</l>
+            <l>Y para que desde ti</l>
+            <l>a representar al mundo</l>
+            <l>salgan y vuelvan a entrarse,</l>
+            <l n="240">ya previno mi discurso</l>
+            <l>dos puertas: la una es la cuna</l>
+            <l>y la otra es el sepulcro.</l>
+            <l>Y para que no les falten</l>
+            <l>las galas y adornos juntos,</l>
+            <l n="245">para vestir los papeles</l>
+            <l>tendré prevenido a punto</l>
+            <l>al que hubiere de hacer rey,</l>
+            <l>púrpura y laurel augusto;</l>
+            <l>al valiente capitán,</l>
+            <l n="250">armas, valores y triunfos;</l>
+            <l>al que ha de hacer el ministro,</l>
+            <l>libros, escuelas y estudios.</l>
+            <l>Al religioso, obediencias;</l>
+            <l>al facineroso, insultos;</l>
+            <l n="255">al noble le daré honras,</l>
+            <l>y libertades al vulgo.</l>
+            <l>Al labrador, que a la tierra</l>
+            <l>ha de hacer fértil a puro</l>
+            <l>afán, por culpa de un necio,</l>
+            <l n="260">le daré instrumentos rudos.</l>
+            <l>A la que hubiere de hacer</l>
+            <l>la dama, le daré sumo</l>
+            <l>adorno en las perfecciones,</l>
+            <l>dulce veneno de muchos.</l>
+            <l n="265">Solo no vestiré al pobre</l>
+            <l>porque es papel de desnudo,</l>
+            <l>porque ninguno después</l>
+            <l>se queje de que no tuvo</l>
+            <l>para hacer bien su papel</l>
+            <l n="270">todo el adorno que pudo,</l>
+            <l>pues el que bien no le hiciere</l>
+            <l>será por defecto suyo,</l>
+            <l>no mío. Y pues que ya tengo</l>
+            <l>todo el aparato junto,</l>
+            <l n="275">¡venid, mortales, venid</l>
+            <l>a adornaros cada uno</l>
+            <l>para que representéis</l>
+            <l>en el Teatro del mundo!</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage type="exit">Vase.</stage>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Mortales que aún no vivís</l>
+            <l n="280">y ya os llamo yo mortales,</l>
+            <l>pues en mi concepto iguales</l>
+            <l>antes de ser asistís;</l>
+            <l>aunque mis voces no oís,</l>
+            <l>venid a aquestos vergeles,</l>
+            <l n="285">que ceñido de laureles,</l>
+            <l>cedros y palma os espero,</l>
+            <l>porque yo entre todos quiero</l>
+            <l>repartir estos papeles.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage type="unassigned">Salen el RICO, el REY, el LABRADOR, el POBRE y la HERMOSURA, la DISCRECIÓN y un NIÑO.</stage>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Ya estamos a tu obediencia,</l>
+            <l n="290">Autor nuestro, que no ha sido</l>
+            <l>necesario haber nacido</l>
+            <l>para estar en tu presencia.</l>
+            <l>Alma, sentido, potencia,</l>
+            <l>vida, ni razón tenemos;</l>
+            <l n="295">todos informes nos vemos,</l>
+            <l>polvo somos de tus pies.</l>
+            <l>Sopla aqueste polvo, pues,</l>
+            <l>para que representemos.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>Solo en tu concepto estamos,</l>
+            <l n="300">ni animamos ni vivimos,</l>
+            <l>ni tocamos ni sentimos,</l>
+            <l>ni del bien ni el mal gozamos;</l>
+            <l>pero, si hacia el mundo vamos</l>
+            <l>todos a representar,</l>
+            <l n="305">los papeles puedes dar,</l>
+            <l>pues en aquesta ocasión</l>
+            <l>no tenemos elección</l>
+            <l>para haberlos de tomar.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Autor mío soberano</l>
+            <l n="310">a quien conozco desde hoy,</l>
+            <l>a tu mandamiento estoy</l>
+            <l>como hechura de tu mano,</l>
+            <l>y pues tú sabes, y es llano</l>
+            <l>porque en Dios no hay ignorar,</l>
+            <l n="315">qué papel me puedes dar,</l>
+            <l>si yo errare ese papel,</l>
+            <l>no me podré quejar de él,</l>
+            <l>de mí me podré quejar.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Ya sé que si para ser</l>
+            <l n="320">el hombre elección tuviera,</l>
+            <l>ninguno el papel quisiera</l>
+            <l>del sentir y padecer;</l>
+            <l>todos quisieran hacer</l>
+            <l>el de mandar y regir,</l>
+            <l n="325">sin mirar, sin advertir</l>
+            <l>que en acto tan singular</l>
+            <l>aquello es representar,</l>
+            <l>aunque piense que es vivir.</l>
+            <l>Pero yo, Autor soberano,</l>
+            <l n="330">sé bien qué papel hará</l>
+            <l>mejor cada uno; así va</l>
+            <l>repartiéndolos mi mano.</l>
+            <l part="I">Haz tú el Rey.</l>
+            <stage type="exit">Da su papel a cada uno.</stage>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l part="F">Honores gano.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>La dama, que es la hermosura</l>
+            <l part="I">humana, tú.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F" n="335">¡Qué ventura!</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Haz tú al rico, al poderoso.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>En fin, nazco venturoso</l>
+            <l>a ver del sol la luz pura.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Tú has de hacer al labrador.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l n="340">¿Es oficio o beneficio?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Es un trabajoso oficio.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Seré mal trabajador.</l>
+            <l>Por vida vuestra, Señor,</l>
+            <l>que aunque soy hijo de Adán,</l>
+            <l n="345">que no me deis este afán,</l>
+            <l>aunque me deis posesiones,</l>
+            <l>porque tengo presumpciones</l>
+            <l>que he de ser grande holgazán.</l>
+            <l>De mi natural infiero,</l>
+            <l n="350">con ser tan nuevo, Señor,</l>
+            <l>que seré mal cavador</l>
+            <l>y seré peor quintero;</l>
+            <l>si aquí valiera un «no quiero»</l>
+            <l>dijérale, mas delante</l>
+            <l n="355">de un autor tan elegante,</l>
+            <l>nada un «no quiero» remedia,</l>
+            <l>y así seré en la comedia</l>
+            <l>el peor representante.</l>
+            <l>Como sois cuerdo, me dais</l>
+            <l n="360">como el talento el oficio,</l>
+            <l>y así mi poco jüicio</l>
+            <l>sufrís y disimuláis;</l>
+            <l>nieve como lana dais;</l>
+            <l>justo sois, no hay que quejarme;</l>
+            <l n="365">y pues que ya perdonarme</l>
+            <l>vuestro amor me muestra en él,</l>
+            <l>yo haré, Señor, mi papel</l>
+            <l>despacio por no cansarme.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Tú la discreción harás.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l n="370">Venturoso estado sigo.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Haz tú al mísero, al mendigo.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>¿Aqueste papel me das?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Tú sin nacer morirás.</l>
+          </sp>
+          <sp who="#un-niño">
+            <speaker>NIÑO</speaker>
+            <l>Poco estudio el papel tiene.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l n="375">Así mi ciencia previene</l>
+            <l>que represente el que viva.</l>
+            <l>Justicia distributiva</l>
+            <l>soy, y es lo que os conviene.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Si yo pudiera excusarme</l>
+            <l n="380">deste papel, me excusara,</l>
+            <l>cuando mi vida repara</l>
+            <l>en el que has querido darme;</l>
+            <l>y ya que no declararme</l>
+            <l>puedo, aunque atrevido quiera,</l>
+            <l n="385">le tomo, mas considera,</l>
+            <l>ya que he de hacer el mendigo,</l>
+            <l>no, Señor, lo que te digo,</l>
+            <l>lo que decirte quisiera.</l>
+            <l>¿Por qué tengo de hacer yo</l>
+            <l n="390">el pobre en esta comedia?</l>
+            <l>¿Para mí ha de ser tragedia,</l>
+            <l>y para los otros no?</l>
+            <l>¿Cuando este papel me dio</l>
+            <l>tu mano, no me dio en él</l>
+            <l n="395">igual alma a la de aquel</l>
+            <l>que hace al rey? ¿Igual sentido?</l>
+            <l>¿Igual ser? Pues ¿por qué ha sido</l>
+            <l>tan desigual mi papel?</l>
+            <l>Si de otro barro me hicieras,</l>
+            <l n="400">si de otra alma me adornaras,</l>
+            <l>menos vida me fïaras,</l>
+            <l>menos sentidos me dieras;</l>
+            <l>ya parece que tuvieras</l>
+            <l>otro motivo, Señor;</l>
+            <l n="405">pero parece rigor,</l>
+            <l>perdona decir crüel,</l>
+            <l>el ser mejor su papel</l>
+            <l>no siendo su ser mejor.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>En la representación</l>
+            <l n="410">igualmente satisface</l>
+            <l>el que bien al pobre hace</l>
+            <l>con afecto, alma y acción</l>
+            <l>como el que hace al rey, y son</l>
+            <l>iguales este y aquel</l>
+            <l n="415">en acabando el papel.</l>
+            <l>Haz tú bien el tuyo y piensa</l>
+            <l>que para la recompensa</l>
+            <l>yo te igualaré con él.</l>
+            <l>No porque pena te sobre,</l>
+            <l n="420">siendo pobre, es en mi ley</l>
+            <l>mejor papel el del rey</l>
+            <l>si hace bien el suyo el pobre;</l>
+            <l>uno y otro de mí cobre</l>
+            <l>todo el salario después</l>
+            <l n="425">que haya merecido, pues</l>
+            <l>con cualquier papel se gana,</l>
+            <l>que toda la vida humana</l>
+            <l>representaciones es.</l>
+            <l>Y la comedia acabada</l>
+            <l n="430">ha de cenar a mi lado</l>
+            <l>el que haya representado,</l>
+            <l>sin haber errado en nada,</l>
+            <l>su parte más acertada;</l>
+            <l>allí igualaré a los dos.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l n="435">Pues decidnos, Señor, Vós,</l>
+            <l>¿cómo en lengua de la fama</l>
+            <l>esta comedia se llama?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l rend="italic">Obrar bien, que Dios es Dios.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Mucho importa que no erremos</l>
+            <l n="440">comedia tan misteriosa.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>Para eso es acción forzosa</l>
+            <l>que primero la ensayemos.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>¿Cómo ensayarla podremos</l>
+            <l>si nos llegamos a ver</l>
+            <l n="445">sin luz, sin alma y sin ser</l>
+            <l>antes de representar?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Pues ¿cómo sin ensayar</l>
+            <l>la comedia se ha de hacer?</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Del pobre apruebo la queja,</l>
+            <l n="450">que lo siento así, Señor,</l>
+            <l>que son pobre y labrador</l>
+            <l>para par a la pareja.</l>
+            <l>Aun una comedia vieja</l>
+            <l>harta de representar,</l>
+            <l n="455">si no se vuelve a ensayar</l>
+            <l>se yerra cuando se prueba.</l>
+            <l>Si no se ensaya esta nueva,</l>
+            <l>¿cómo se podrá acertar?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Llegando ahora a advertir</l>
+            <l n="460">que, siendo el cielo jüez,</l>
+            <l>se ha de acertar de una vez</l>
+            <l>cuanto es nacer y morir.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>Pues ¿el entrar y salir</l>
+            <l>cómo lo hemos de saber</l>
+            <l n="465">ni a qué tiempo haya de ser?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Aun eso se ha de ignorar,</l>
+            <l>y de una vez acertar</l>
+            <l>cuanto es morir y nacer.</l>
+            <l>Estad siempre prevenidos</l>
+            <l n="470">para acabar el papel;</l>
+            <l>que yo os llamaré al fin dél.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>¿Y si acaso los sentidos</l>
+            <l>tal vez se miran perdidos?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Para eso, común grey,</l>
+            <l n="475">tendré, desde el pobre al rey,</l>
+            <l>para enmendar al que errare</l>
+            <l>y enseñar al que ignorare,</l>
+            <l>con el apunto a mi Ley;</l>
+            <l>ella a todos os dirá</l>
+            <l n="480">lo que habéis de hacer, y así</l>
+            <l>nunca os quejareis de mí.</l>
+            <l>Albedrío tenéis ya,</l>
+            <l>y pues prevenido está</l>
+            <l>el teatro, vós y vós</l>
+            <l n="485">medid las distancias dos</l>
+            <l part="I">de la vida.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage type="exit">Vase.</stage>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l part="F">¿Qué esperamos?</l>
+            <l part="I">¡Vamos al teatro!</l>
+          </sp>
+          <sp who="#la-discreción #el-pobre #el-autor #la-hermosura #el-labrador">
+            <speaker>TODOS</speaker>
+            <l part="F">¡Vamos</l>
+            <l>a obrar bien, que Dios es Dios!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage type="unassigned">Al irse a entrar, sale el MUNDO y detiénelos.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Ya está todo prevenido</l>
+            <l n="490">para que se represente</l>
+            <l>esta comedia aparente</l>
+            <l>que hace el humano sentido.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Púrpura y laurel te pido.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>¿Por qué púrpura y laurel?</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l n="495">Porque hago este papel.</l>
+            <stage type="exit">Enséñale el papel, y toma la púrpura y corona, y vase.</stage>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Ya aquí prevenido está.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>A mí matices me da</l>
+            <l>de jazmín, rosa y clavel.</l>
+            <l>Hoja a hoja y rayo a rayo</l>
+            <l n="500">se desaten a porfía</l>
+            <l>todas las luces del día,</l>
+            <l>todas las flores de mayo;</l>
+            <l>padezca mortal desmayo</l>
+            <l>de envidia al mirarme el sol,</l>
+            <l n="505">y como a tanto arrebol</l>
+            <l>el girasol ver desea,</l>
+            <l>la flor de mis luces sea</l>
+            <l>siendo el sol mi girasol.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Pues ¿cómo vienes tan vana</l>
+            <l n="510">a representar al mundo?</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>En este papel me fundo.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="I">¿Quién es?</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F">La hermosura humana.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Cristal, carmín, nieve y grana</l>
+            <l>pulan sombras y bosquejos</l>
+            <l n="515">que te afeiten de reflejos.</l>
+            <stage type="exit">Dale un ramillete.</stage>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>Pródiga estoy de colores.</l>
+            <l>Servidme de alfombra, flores;</l>
+            <l>sed, cristales, mis espejos.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage type="exit">Vase.</stage>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>Dadme riquezas a mí,</l>
+            <l n="520">dichas y felicidades,</l>
+            <l>pues para prosperidades</l>
+            <l>hoy vengo a vivir aquí.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Mis entrañas para ti</l>
+            <l>a pedazos romperé;</l>
+            <l n="525">de mis senos sacaré</l>
+            <l>toda la plata y el oro,</l>
+            <l>que en avariento tesoro</l>
+            <l>tanto encerrado oculté.</l>
+            <stage type="exit">Dale joyas.</stage>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>Soberbio y desvanecido</l>
+            <l n="530">con tantas riquezas voy.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage type="exit">Vase.</stage>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Yo, para mi papel, hoy</l>
+            <l>tierra en que vivir te pido.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>¿Qué papel el tuyo ha sido?</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>La discreción estudiosa.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l n="535">Discreción tan religiosa</l>
+            <l>tome ayuno y oración.</l>
+            <stage type="exit">Dale cilicio y diciplina.</stage>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>No fuera yo Discreción</l>
+            <l>tomando de ti otra cosa.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage type="exit">Vase.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>¿Cómo tú entras sin pedir</l>
+            <l n="540">para el papel que has de hacer?</l>
+          </sp>
+          <sp who="#un-niño">
+            <speaker>NIÑO</speaker>
+            <l>Como no te he menester</l>
+            <l>para lo que he de vivir...</l>
+            <l>Sin nacer he de morir,</l>
+            <l>en ti no tengo de estar</l>
+            <l n="545">más tiempo que el de pasar</l>
+            <l>de una cárcel a otra obscura,</l>
+            <l>y para una sepultura</l>
+            <l>por fuerza me la has de dar.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage type="exit">Vase.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>¿Qué pides tú, di, grosero?</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l n="550">Lo que le diera yo a él.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Ea, muestra tu papel.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Ea, digo que no quiero.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>De tu proceder infiero</l>
+            <l>que como bruto gañán</l>
+            <l n="555">habrás de ganar tu pan.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Esas mis desdichas son.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Pues toma aqueste azadón.</l>
+            <stage type="exit">Dale un azadón.</stage>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Esta es la herencia de Adán.</l>
+            <l>Señor Adán, bien pudiera,</l>
+            <l n="560">pues tanto llegó a saber,</l>
+            <l>conocer que su mujer</l>
+            <l>pecaba de bachillera;</l>
+            <l>dejárala que comiera</l>
+            <l>y no la ayudara él;</l>
+            <l n="565">mas como amante crüel</l>
+            <l>dirá que se lo rogó,</l>
+            <l>y así tan mal como yo</l>
+            <l>representó su papel.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage type="exit">Vase.</stage>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Ya que a todos darles dichas,</l>
+            <l n="570">gustos y contentos vi,</l>
+            <l>dame pesares a mí,</l>
+            <l>dame penas y desdichas;</l>
+            <l>no de las venturas dichas</l>
+            <l>quiero púrpura y laurel;</l>
+            <l n="575">deste colores, de aquel</l>
+            <l>plata ni oro no he querido.</l>
+            <l>Solo remiendos te pido.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>¿Qué papel es tu papel?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Es mi papel la aflicción,</l>
+            <l n="580">es la angustia, es la miseria,</l>
+            <l>la desdicha, la pasión,</l>
+            <l>el dolor, la compasión,</l>
+            <l>el suspirar, el gemir,</l>
+            <l>el padecer, el sentir,</l>
+            <l n="585">importunar y rogar,</l>
+            <l>el nunca tener que dar,</l>
+            <l>el siempre haber de pedir.</l>
+            <l>El desprecio, la esquivez,</l>
+            <l>el baldón, el sentimiento,</l>
+            <l n="590">la vergüenza, el sufrimiento,</l>
+            <l>la hambre, la desnudez,</l>
+            <l>el llanto, la mendiguez,</l>
+            <l>la inmundicia, la bajeza,</l>
+            <l>el desconsuelo y pobreza,</l>
+            <l n="595">la sed, la penalidad,</l>
+            <l>y es la vil necesidad,</l>
+            <l>que todo esto es la pobreza.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>A ti nada te he de dar,</l>
+            <l>que el que haciendo al pobre vive</l>
+            <l n="600">nada del mundo recibe,</l>
+            <l>antes te pienso quitar</l>
+            <l>estas ropas, que has de andar</l>
+            <l>desnudo, para que acuda</l>
+            <l>yo a mi cargo, no se duda.</l>
+            <stage type="exit">Desnúdale.</stage>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l n="605">En fin, este mundo triste</l>
+            <l>al que está vestido viste</l>
+            <l>y al desnudo le desnuda.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Ya que de varios estados</l>
+            <l>está el teatro cubierto,</l>
+            <l n="610">pues un rey en él advierto,</l>
+            <l>con imperios dilatados;</l>
+            <l>beldad a cuyos cuidados</l>
+            <l>se adormecen los sentidos,</l>
+            <l>poderosos aplaudidos,</l>
+            <l n="615">mendigos, menesterosos,</l>
+            <l>labradores, religiosos,</l>
+            <l>que son los introducidos</l>
+            <l>para hacer los personajes</l>
+            <l>de la comedia de hoy,</l>
+            <l n="620">a quien yo el teatro doy,</l>
+            <l>las vestiduras y trajes,</l>
+            <l>de limosnas y de ultrajes,</l>
+            <l>¡sal, divino Autor, a ver</l>
+            <l>las fiestas que te han de hacer</l>
+            <l n="625">los hombres! ¡Ábrase el centro</l>
+            <l>de la tierra, pues que dentro</l>
+            <l>della la scena ha de ser!</l>
+          </sp>
+          <stage type="unassigned">Con música se abren a un tiempo dos globos: en el uno estará un trono de gloria, y en él el AUTOR sentado; en el otro ha de haber representación con dos puertas: en la una pintada una cuna y en la otra un ataúd.</stage>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Pues para grandeza mía</l>
+            <l>aquesta fiesta he trazado,</l>
+            <l n="630">en este trono sentado,</l>
+            <l>adonde es eterno el día,</l>
+            <l>he de ver mi compañía.</l>
+            <l>Hombres que salís al suelo</l>
+            <l>por una cuna de yelo</l>
+            <l n="635">y por un sepulcro entráis,</l>
+            <l>ved cómo representáis,</l>
+            <l>que os ve el Autor desde el cielo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage type="unassigned">Sale la DISCRECIÓN con un instrumento, y canta.</stage>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Alaben al Señor de tierra y cielo,</l>
+            <l>el sol, luna y estrellas;</l>
+            <l n="640">alábenle las bellas</l>
+            <l>flores que son caracteres del suelo;</l>
+            <l>alábele la luz, el fuego, el yelo,</l>
+            <l>la escarcha y el rocío,</l>
+            <l>el invierno y estío,</l>
+            <l n="645">y cuanto esté debajo de ese velo</l>
+            <l>que en visos celestiales,</l>
+            <l>árbitro es de los bienes y los males.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage type="exit">Vase.</stage>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Nada me suena mejor</l>
+            <l>que en voz del hombre este fiel</l>
+            <l n="650">himno que cantó Daniel</l>
+            <l>para templar el furor</l>
+            <l>de Nabuco-Donosor.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>¿Quién hoy la loa echará?</l>
+            <l>Pero en la apariencia ya</l>
+            <l n="655">la ley convida a su voz</l>
+            <l>que como corre veloz,</l>
+            <l>en elevación está</l>
+            <l>sobre la haz de la tierra.</l>
+          </sp>
+          <stage type="unassigned">Aparece la LEY DE GRACIA con una elevación, que estará sobre donde estuviere el MUNDO, con un papel en la mano.</stage>
+          <sp who="#la-ley-de-gracia">
+            <speaker>LEY</speaker>
+            <l>Yo, que Ley de Gracia soy,</l>
+            <l n="660">la fiesta introduzgo hoy;</l>
+            <l>para enmendar al que yerra</l>
+            <l>en este papel se encierra</l>
+            <l>la gran comedia, que Vós</l>
+            <l>compusisteis solo en dos</l>
+            <l n="665">versos que dicen así:</l>
+            <l>Ama al otro como a ti,</l>
+            <l>y obra bien, que Dios es Dios.</l>
+            <stage type="exit">Canta.</stage>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>La Ley después de la loa,</l>
+            <l>con el apunto quedó.</l>
+            <l n="670">Vitoriar quisiera aquí</l>
+            <l>pues me representa a mí:</l>
+            <l>vulgo desta fiesta soy;</l>
+            <l>mas callaré porque empieza</l>
+            <l>ya la representación.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage type="unassigned">Sale la HERMOSURA y la DISCRECIÓN por la puerta de la cuna.</stage>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l n="675">Vente conmigo a espaciar</l>
+            <l>por estos campos que son</l>
+            <l>felice patria del Mayo,</l>
+            <l>dulce lisonja del sol;</l>
+            <l>pues solo a los dos conocen,</l>
+            <l n="680">dando solos a los dos,</l>
+            <l>resplandores, rayo a rayo,</l>
+            <l>y matices, flor a flor.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Ya sabes que nunca gusto</l>
+            <l>de salir de casa yo,</l>
+            <l n="685">quebrantando la clausura</l>
+            <l>de mi apacible prisión.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>¿Todo ha de ser para ti</l>
+            <l>austeridad y rigor?</l>
+            <l>¿No ha de haber placer un día?</l>
+            <l n="690">Dios, di, ¿para qué crió</l>
+            <l>flores, si no ha de gozar</l>
+            <l>el olfato el blando olor</l>
+            <l>de sus fragrantes aromas?</l>
+            <l>¿Para qué aves engendró,</l>
+            <l n="695">que en cláusulas lisonjeras</l>
+            <l>cítaras de pluma son,</l>
+            <l>si el oído no ha de oírlas?</l>
+            <l>¿Para qué galas, si no</l>
+            <l>las ha de romper el tacto</l>
+            <l n="700">con generosa ambición?</l>
+            <l>¿Para qué las dulces frutas,</l>
+            <l>si no sirve su sazón</l>
+            <l>de dar al gusto manjares</l>
+            <l>de un sabor y otro sabor?</l>
+            <l n="705">¿Para qué hizo Dios, en fin,</l>
+            <l>montes, valles, cielos, sol,</l>
+            <l>si no han de verlo los ojos?</l>
+            <l>Ya parece, y con razón,</l>
+            <l>ingratitud no gozar</l>
+            <l n="710">las maravillas de Dios.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Gozarlas para admirarlas</l>
+            <l>es justa y lícita acción,</l>
+            <l>y darle gracias por ellas;</l>
+            <l>gozar las bellezas no</l>
+            <l n="715">para usar dellas tan mal</l>
+            <l>que te persuadas que son</l>
+            <l>para verlas las criaturas,</l>
+            <l>sin memoria del Criador.</l>
+            <l>Yo no he de salir de casa;</l>
+            <l n="720">ya escogí esta religión</l>
+            <l>para sepultar mi vida;</l>
+            <l>por eso soy Discreción.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>Yo, para eso, Hermosura:</l>
+            <l>a ver y a ser vista voy.</l>
+            <stage type="exit">Apártanse.</stage>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l n="725">Poco tiempo se avinieron</l>
+            <l>Hermosura y Discreción.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>Ponga redes mi cabello,</l>
+            <l>y ponga lazos mi amor</l>
+            <l>al más tibio afecto, al más</l>
+            <l n="730">retirado corazón.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Una acierta y otra yerra</l>
+            <l>su papel de aquestas dos.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>¿Qué haré yo para emplear</l>
+            <l part="I">bien mi ingenio?</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F">¿Qué haré yo</l>
+            <l n="735">para lograr mi hermosura?</l>
+          </sp>
+          <sp who="#la-ley-de-gracia">
+            <speaker>LEY</speaker>
+            <stage type="entrance">Canta.</stage>
+            <l>Obrar bien, que Dios es Dios.</l>
+            <stage type="exit">Canta.</stage>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Con oírse aquí el apunto</l>
+            <l>la Hermosura no le oyó.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage type="unassigned">Sale el RICO.</stage>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>Pues pródigamente el cielo</l>
+            <l n="740">hacienda y poder me dio,</l>
+            <l>pródigamente se gaste</l>
+            <l>en lo que delicias son.</l>
+            <l>Nada me parezca bien</l>
+            <l>que no lo apetezca yo;</l>
+            <l n="745">registre mi mesa cuanto</l>
+            <l>o corre o vuela veloz.</l>
+            <l>Sea mi lecho la esfera</l>
+            <l>de Venus, y en conclusión</l>
+            <l>la pereza y las delicias,</l>
+            <l n="750">gula, envidia y ambición</l>
+            <l>hoy mis sentidos posean.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage type="unassigned">Sale el LABRADOR.</stage>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>¿Quién vio trabajo mayor</l>
+            <l>que el mío? Yo rompo el pecho</l>
+            <l>a quien el suyo me dio</l>
+            <l n="755">porque el alimento mío</l>
+            <l>en esto se me libró.</l>
+            <l>Del arado que la cruza</l>
+            <l>la cara, ministro soy,</l>
+            <l>pagándola el beneficio</l>
+            <l n="760">en aquestos que la doy.</l>
+            <l>Hoz y azada son mis armas;</l>
+            <l>con ellas riñendo estoy,</l>
+            <l>con las cepas, con la azada,</l>
+            <l>con las mieses, con la hoz.</l>
+            <l n="765">En el mes de abril y mayo</l>
+            <l>tengo hidrópica pasión,</l>
+            <l>y si me quitan el agua</l>
+            <l>entonces estoy peor.</l>
+            <l>En cargando algún tributo,</l>
+            <l n="770">de aqueste siglo pensión,</l>
+            <l>encara la puntería</l>
+            <l>contra el triste labrador.</l>
+            <l>Mas, pues trabajo y lo sudo,</l>
+            <l>los frutos de mi labor</l>
+            <l n="775">me ha de pagar quien los compre</l>
+            <l>al precio que quiera yo.</l>
+            <l>No quiero guardar la tasa</l>
+            <l>ni seguir más la opinión</l>
+            <l>de quién, porque ha de comprar,</l>
+            <l n="780">culpa a quien no la guardó.</l>
+            <l>Y yo sé que si no llueve</l>
+            <l>este abril, que ruego a Dios</l>
+            <l>que no llueva, ha de valer</l>
+            <l>muchos ducados mi troj.</l>
+            <l n="785">Con esto un Nabal-Carmelo</l>
+            <l>seré de aquesta región</l>
+            <l>y me habrán menester todos;</l>
+            <l>pero muy hinchado yo,</l>
+            <l>entonces, ¿qué podré hacer?</l>
+          </sp>
+          <sp who="#la-ley-de-gracia">
+            <speaker>LEY</speaker>
+            <stage type="entrance">Canta.</stage>
+            <l n="790">Obrar bien, que Dios es Dios.</l>
+            <stage type="exit">Canta.</stage>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>¿Cómo el apunto no oíste?</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Como sordo a tiempos soy.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Él al fin se está en sus trece.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Y aun en mis catorce estoy.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage type="unassigned">Sale el POBRE.</stage>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l n="795">De cuantos el mundo viven,</l>
+            <l>¿quién mayor miseria vio</l>
+            <l>que la mía? Aqueste suelo</l>
+            <l>es el más dulce y mejor</l>
+            <l>lecho mío que, aunque es</l>
+            <l n="800">todo el cielo pabellón</l>
+            <l>suyo, descubierto está</l>
+            <l>a la escarcha y al calor;</l>
+            <l>la hambre y la sed me afligen.</l>
+            <l>¡Dadme paciencia, mi Dios!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l n="805">¿Qué haré yo para ostentar</l>
+            <l part="I">mi riqueza?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F">¿Qué haré yo</l>
+            <l>para sufrir mis desdichas?</l>
+          </sp>
+          <sp who="#la-ley-de-gracia">
+            <speaker>LEY</speaker>
+            <stage type="entrance">Canta.</stage>
+            <l>Obrar bien, que Dios es Dios.</l>
+            <stage type="exit">Canta.</stage>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>¡Oh, cómo esta voz consuela!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l n="810">¡Oh, cómo cansa esta voz!</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>El Rey sale a estos jardines.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>¡Cuánto siente mi ambición</l>
+            <l part="I">postrarse a nadie!</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F">Delante</l>
+            <l>dél he de ponerme yo</l>
+            <l n="815">para ver si mi hermosura</l>
+            <l>pudo rendirle a mi amor.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Yo detrás; no se le antoje,</l>
+            <l>viendo que soy labrador,</l>
+            <l>darme con un nuevo arbitrio,</l>
+            <l n="820">pues no espero otro favor.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage type="unassigned">Sale el REY.</stage>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>A mi dilatado imperio</l>
+            <l>estrechos límites son</l>
+            <l>cuantas contiene provincias</l>
+            <l>esta máquina inferior.</l>
+            <l n="825">De cuanto circunda el mar</l>
+            <l>y de cuanto alumbra el sol</l>
+            <l>soy el absoluto dueño,</l>
+            <l>soy el supremo señor.</l>
+            <l>Los vasallos de mi imperio</l>
+            <l n="830">se postran por donde voy.</l>
+            <l>¿Qué he menester yo en el mundo?</l>
+          </sp>
+          <sp who="#la-ley-de-gracia">
+            <speaker>LEY</speaker>
+            <stage type="entrance">Canta.</stage>
+            <l>Obrar bien, que Dios es Dios.</l>
+            <stage type="exit">Canta.</stage>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>A cada uno va diciendo</l>
+            <l>el apunto lo mejor.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l n="835">Desde la miseria mía</l>
+            <l>mirando infelice estoy</l>
+            <l>ajenas felicidades.</l>
+            <l>El rey, supremo señor,</l>
+            <l>goza de la majestad</l>
+            <l n="840">sin acordarse que yo</l>
+            <l>necesito dél; la dama,</l>
+            <l>atenta a su presumpción,</l>
+            <l>no sabe si hay en el mundo</l>
+            <l>necesidad y dolor;</l>
+            <l n="845">la religiosa, que siempre</l>
+            <l>se ha ocupado en oración,</l>
+            <l>si bien a Dios sirve, sirve</l>
+            <l>con comodidad a Dios.</l>
+            <l>El labrador, si cansado</l>
+            <l n="850">viene del campo, ya halló</l>
+            <l>honesta mesa su hambre,</l>
+            <l>si opulenta mesa no;</l>
+            <l>al rico le sobra todo;</l>
+            <l>y solo, en el mundo, yo</l>
+            <l n="855">hoy de todos necesito,</l>
+            <l>y así llego a todos hoy,</l>
+            <l>porque ellos viven sin mí</l>
+            <l>pero yo sin ellos no.</l>
+            <l>A la Hermosura me atrevo</l>
+            <l n="860">a pedir. Dadme, por Dios,</l>
+            <l part="I">limosna.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F">Decidme, fuentes,</l>
+            <l>pues que mis espejos sois,</l>
+            <l>¿qué galas me están más bien?,</l>
+            <l>¿qué rizos me están mejor?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="I">¿No me veis?</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="F" n="865">Necio, ¿no miras</l>
+            <l>que es vana tu pretensión?</l>
+            <l>¿Por qué ha de cuidar de ti</l>
+            <l>quien de sí se descuidó?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Pues, que tanta hacienda os sobra,</l>
+            <l n="870">dadme una limosna vós.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>¿No hay puertas donde llamar?</l>
+            <l>¿Así os entráis donde estoy?</l>
+            <l>En el umbral del zaguán</l>
+            <l>pudierais llamar, y no</l>
+            <l n="875">haber llegado hasta aquí.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>No me tratéis con rigor.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>Pobre importuno, idos luego.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Quien tanto desperdició</l>
+            <l>por su gusto, ¿no dará</l>
+            <l part="I">alguna limosna?</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F" n="880">No.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>El avariento y el pobre</l>
+            <l>de la parábola, son.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Pues a mi necesidad</l>
+            <l>le falta ley y razón,</l>
+            <l n="885">atrevereme al Rey mismo.</l>
+            <l>Dadme limosna, Señor.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Para eso tengo ya</l>
+            <l>mi limosnero mayor.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Con sus ministros el Rey</l>
+            <l n="890">su conciencia aseguró.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Labrador, pues recibís</l>
+            <l>de la bendición de Dios</l>
+            <l>por un grano que sembráis</l>
+            <l>tanta multiplicación,</l>
+            <l n="895">mi necesidad os pide</l>
+            <l part="I">limosna.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l part="F">Si me lo dio</l>
+            <l>Dios, buen arar y sembrar</l>
+            <l>y buen sudor me costó.</l>
+            <l>Decid: ¿no tenéis vergüenza</l>
+            <l n="900">que un hombrazo como vós</l>
+            <l>pida? ¡Servid, noramala!</l>
+            <l>No os andéis hecho bribón.</l>
+            <l>Y si os falta que comer,</l>
+            <l>tomad aqueste azadón,</l>
+            <l n="905">con que lo podéis ganar.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>En la comedia de hoy</l>
+            <l>yo el papel de pobre hago,</l>
+            <l>no hago el del labrador.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Pues, amigo, en su papel</l>
+            <l n="910">no le ha mandado el Autor</l>
+            <l>pedir no más y holgar siempre,</l>
+            <l>que el trabajo y el sudor</l>
+            <l>es proprio papel del pobre.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Sea por amor de Dios.</l>
+            <l n="915">Riguroso, hermano, estáis.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Y muy pedigüeño vós.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Dadme vós algún consuelo.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Tomad, y dadme perdón.</l>
+            <stage type="exit">Dale un pan.</stage>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Limosna de pan, señora,</l>
+            <l n="920">era fuerza hallarla en vós,</l>
+            <l>porque el pan que nos sustenta</l>
+            <l>ha de dar la Religión.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l part="I">¡Ay de mí!</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l part="M">¿Qué es esto?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F">Es</l>
+            <l>alguna tribulación</l>
+            <l n="925">que la Religión padece.</l>
+          </sp>
+          <stage type="unassigned">Va a caer la RELIGIÓN, y la da el REY la mano.</stage>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Llegaré a tenerla yo.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Es fuerza; que nadie puede</l>
+            <l>sustentarla como vós.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Yo bien pudiera enmendar</l>
+            <l n="930">los yerros que viendo estoy;</l>
+            <l>pero por eso les di</l>
+            <l>albedrío superior</l>
+            <l>a las pasiones humanas,</l>
+            <l>por no quitarles la acción</l>
+            <l n="935">de merecer con sus obras;</l>
+            <l>y así dejo a todos hoy</l>
+            <l>hacer libres sus papeles,</l>
+            <l>y en aquella confusión</l>
+            <l>donde obran todos juntos,</l>
+            <l n="940">miro en cada uno yo,</l>
+            <l>diciéndoles por mi ley:</l>
+          </sp>
+          <sp who="#la-ley-de-gracia">
+            <speaker>LEY</speaker>
+            <stage type="entrance">Canta.</stage>
+            <l>Obrar bien, que Dios es Dios.</l>
+            <l>A cada uno por sí</l>
+            <l>y a todos juntos, mi voz</l>
+            <l n="945">ha advertido; ya con esto</l>
+            <l>su culpa será su error.</l>
+            <l>Ama al otro como a ti,</l>
+            <l>y obrar bien, que Dios es Dios.</l>
+            <stage type="exit">Canta.Recita.Canta.</stage>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Supuesto que es esta vida</l>
+            <l n="950">una representación,</l>
+            <l>y que vamos un camino</l>
+            <l>todos juntos, haga hoy</l>
+            <l>del camino la llaneza,</l>
+            <l>común la conversación.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l n="955">No hubiera mundo a no haber</l>
+            <l>esa comunicación.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>Diga un cuento cada uno.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Será prolijo; mejor</l>
+            <l>será que cada uno diga</l>
+            <l n="960">qué está en su imaginación.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Viendo estoy mis imperios dilatados,</l>
+            <l>mi majestad, mi gloria, mi grandeza,</l>
+            <l>en cuya variedad naturaleza</l>
+            <l>perficionó de espacio sus cuidados.</l>
+            <l n="965">Alcázares poseo levantados,</l>
+            <l>mi vasalla ha nacido la belleza.</l>
+            <l>La humildad de unos, de otros la riqueza,</l>
+            <l>triunfo son al arbitrio de los hados.</l>
+            <l>Para regir tan desigual, tan fuerte</l>
+            <l n="970">monstruo de muchos cuellos, me concedan</l>
+            <l>los cielos atenciones más felices.</l>
+            <l>Ciencia me den con que a regir acierte,</l>
+            <l>que es imposible que domarse puedan</l>
+            <l>con un yugo no más tantas cervices.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l n="975">Ciencia para gobernar</l>
+            <l>pide, como Salomón.</l>
+          </sp>
+          <stage type="unassigned">Canta una voz triste dentro, a la parte que está la puerta del ataúd.</stage>
+          <sp who="#una-voz">
+            <speaker>VOZ</speaker>
+            <l>Rey de ese caduco imperio,</l>
+            <l>cese, cese tu ambición,</l>
+            <l>que en el teatro del mundo</l>
+            <l n="980">ya tu papel se acabó.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Que ya acabó mi papel</l>
+            <l>me dice una triste voz,</l>
+            <l>que me ha dejado al oírla</l>
+            <l>sin discurso ni razón.</l>
+            <l n="985">Pues se acabó el papel, quiero</l>
+            <l>entrarme; mas ¿dónde voy?</l>
+            <l>Porque a la primera puerta,</l>
+            <l>donde mi cuna se vio,</l>
+            <l>no puedo, ¡ay de mí!, no puedo</l>
+            <l n="990">retroceder. ¡Qué rigor!</l>
+            <l>¡No poder hacia la cuna</l>
+            <l>dar un paso!... ¡Todos son</l>
+            <l>hacia el sepulcro!... Que el río</l>
+            <l>que, brazo de mar, huyó,</l>
+            <l n="995">vuelva a ser mar; que la fuente</l>
+            <l>que salió del río, ¡qué horror!,</l>
+            <l>vuelva a ser río; el arroyo,</l>
+            <l>que de la fuente corrió,</l>
+            <l>vuelva a ser fuente; y el hombre,</l>
+            <l n="1000">que de su centro salió,</l>
+            <l>vuelva a su centro, a no ser</l>
+            <l>lo que fue... ¡Qué confusión!</l>
+            <l>Si ya acabó mi papel,</l>
+            <l>supremo y divino Autor,</l>
+            <l n="1005">dad a mis yerros disculpa,</l>
+            <l>pues arrepentido estoy.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage type="exit">Vase por la puerta del ataúd, y todos se han de ir por ella.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Pidiendo perdón el Rey,</l>
+            <l>bien su papel acabó.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>De en medio de sus vasallos,</l>
+            <l n="1010">de su pompa y de su honor,</l>
+            <l part="I">faltó el Rey.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l part="F">No falte en mayo</l>
+            <l>el agua al campo en sazón,</l>
+            <l>que con buen año y sin rey</l>
+            <l>lo pasaremos mejor.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l n="1015">Con todo, es gran sentimiento.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>Y notable confusión.</l>
+            <l part="I">¿Qué haremos sin él?</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F">Volver</l>
+            <l>a nuestra conversación.</l>
+            <l>Dinos, tú, lo que imaginas.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l n="1020">Aquesto imagino yo.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>¡Qué presto se consolaron</l>
+            <l>los vivos de quien murió!</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Y más cuando el tal difunto</l>
+            <l>mucha hacienda les dejó.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l n="1025">Viendo estoy mi beldad hermosa y pura;</l>
+            <l>ni al rey envidio, ni sus triunfos quiero,</l>
+            <l>pues más ilustre imperio considero</l>
+            <l>que es el que mi belleza me asegura.</l>
+            <l>Porque si el rey avasallar procura</l>
+            <l n="1030">las vidas, yo, las almas; luego infiero</l>
+            <l>con causa que mi imperio es el primero,</l>
+            <l>pues que reina en las almas la hermosura.</l>
+            <l>Pequeño mundo la filosofía</l>
+            <l>llamó al hombre; si en él mi imperio fundo,</l>
+            <l n="1035">como el cielo lo tiene, como el suelo,</l>
+            <l>bien puede presumir la deidad mía</l>
+            <l>que el que al hombre llamó pequeño mundo,</l>
+            <l>llamará a la mujer pequeño cielo.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>No se acuerda de Ezequiel</l>
+            <l n="1040">cuando dijo que trocó</l>
+            <l>la soberbia, a la hermosura,</l>
+            <l>en fealdad, la perfección.</l>
+          </sp>
+          <sp who="#una-voz">
+            <speaker>VOZ</speaker>
+            <stage type="entrance">Canta.</stage>
+            <l>Toda la hermosura humana</l>
+            <l>en una temprana flor,</l>
+            <l n="1045">marchítese, pues la noche</l>
+            <l>ya de su aurora llegó.</l>
+            <stage type="exit">Canta.</stage>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>Que fallezca la hermosura</l>
+            <l>dice una triste canción.</l>
+            <l>No fallezca, no fallezca.</l>
+            <l n="1050">Vuelva a su primer albor.</l>
+            <l>Mas, ¡ay de mí!, que no hay rosa</l>
+            <l>de blanco o rojo color</l>
+            <l>que a las lisonjas del día,</l>
+            <l>que a los halagos del sol</l>
+            <l n="1055">saque a deshojar sus hojas,</l>
+            <l>que no caduque; pues no</l>
+            <l>vuelve ninguna a cubrirse</l>
+            <l>dentro del verde botón.</l>
+            <l>Mas ¿qué importa que las flores,</l>
+            <l n="1060">del alba breve candor,</l>
+            <l>marchiten del sol dorado</l>
+            <l>halagos de su arrebol?</l>
+            <l>¿Acaso tiene conmigo</l>
+            <l>alguna comparación,</l>
+            <l n="1065">flor en que ser y no ser</l>
+            <l>términos continuos son?</l>
+            <l>No, que yo soy flor hermosa</l>
+            <l>de tan grande duración,</l>
+            <l>que si vio el sol mi principio</l>
+            <l n="1070">no verá mi fin el sol.</l>
+            <l>Si eterna soy, ¿cómo puedo</l>
+            <l>fallecer? ¿Qué dices, voz?</l>
+          </sp>
+          <stage type="unassigned">Canta VOZ.</stage>
+          <sp who="#una-voz">
+            <speaker>VOZ</speaker>
+            <l>Que en el alma eres eterna,</l>
+            <l>y en el cuerpo mortal flor.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l n="1075">Ya no hay réplica que hacer</l>
+            <l>contra aquesta distinción.</l>
+            <l>De aquella cuna salí</l>
+            <l>y hacia este sepulcro voy.</l>
+            <l>Mucho me pesa no haber</l>
+            <l n="1080">hecho mi papel mejor.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage type="exit">Vase.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Bien acabó el papel, pues</l>
+            <l>arrepentida acabó.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>De entre las galas y adornos</l>
+            <l>y lozanías faltó</l>
+            <l part="I">la Hermosura.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l part="F" n="1085">No nos falte</l>
+            <l>pan, vino, carne y lechón</l>
+            <l>por Pascua, que a la Hermosura</l>
+            <l>no la echaré menos yo.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Con todo, es tristeza grande.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l n="1090">Y aun notable compasión.</l>
+            <l part="I">¿Qué habemos de hacer?</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F">Volver</l>
+            <l>a nuestra conversación.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Cuando el ansioso cuidado</l>
+            <l>con que acudo a mi labor</l>
+            <l n="1095">miro sin miedo al calor</l>
+            <l>y al frío desazonado,</l>
+            <l>y advierto lo descuidado</l>
+            <l>del alma, tan tibia ya,</l>
+            <l>la culpo, pues dando está</l>
+            <l n="1100">gracias de cosecha nueva</l>
+            <l>al campo porque la lleva</l>
+            <l>y no a Dios que se la da.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Cerca está de agradecido</l>
+            <l>quien se conoce deudor.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l n="1105">A este labrador me inclino</l>
+            <l>aunque antes me reprehendió.</l>
+          </sp>
+          <stage type="unassigned">Canta VOZ.</stage>
+          <sp who="#una-voz">
+            <speaker>VOZ</speaker>
+            <l>Labrador, a tu trabajo</l>
+            <l>término fatal llegó;</l>
+            <l>ya lo serás de otra tierra,</l>
+            <l n="1110">dónde será, sabe Dios.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Voz, si de la tal sentencia</l>
+            <l>admites apelación,</l>
+            <l>admíteme, que yo apelo</l>
+            <l>a tribunal superior.</l>
+            <l n="1115">No muera yo en este tiempo,</l>
+            <l>aguarda sazón mejor,</l>
+            <l>siquiera porque mi hacienda</l>
+            <l>la deje puesta en sazón;</l>
+            <l>y porque, como ya dije,</l>
+            <l n="1120">soy maldito labrador,</l>
+            <l>como lo dicen mis viñas</l>
+            <l>cardo a cardo y flor a flor,</l>
+            <l>pues tan alta está la yerba</l>
+            <l>que duda el que la miró</l>
+            <l n="1125">un poco apartado dellas</l>
+            <l>si mieses o viñas son.</l>
+            <l>Cuando panes del lindero</l>
+            <l>son gigante admiración,</l>
+            <l>casi enanos son los míos,</l>
+            <l n="1130">pues no salen del terrón.</l>
+            <l>Dirá quien aquesto oyere</l>
+            <l>que antes es buena ocasión</l>
+            <l>estando el campo sin fruto</l>
+            <l>morirme, y respondo yo:</l>
+            <l n="1135">«Si dejando muchos frutos</l>
+            <l>al que hereda, no cumplió</l>
+            <l>testamento de sus padres,</l>
+            <l>¿qué hará sin frutos, señor?»</l>
+            <l>Mas, pues no es tiempo de gracias,</l>
+            <l n="1140">pues allí dijo una voz</l>
+            <l>que me muero, y el sepulcro</l>
+            <l>la boca, a tragarme, abrió;</l>
+            <l>si mi papel no he cumplido</l>
+            <l>conforme a mi obligación,</l>
+            <l n="1145">pésame que no me pese</l>
+            <l>de no tener gran dolor.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage type="exit">Vase.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Al principio le juzgué</l>
+            <l>grosero, y él me advirtió</l>
+            <l>con su fin de mi ignorancia.</l>
+            <l n="1150">¡Bien acabó el labrador!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>De azadones y de arados,</l>
+            <l>polvo, cansancio y sudor</l>
+            <l>ya el labrador ha faltado.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Y afligidos nos dejó.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l part="I">¡Qué pena!</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F" n="1155">¡Qué desconsuelo!</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l part="I">¡Qué llanto!</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F">¡Qué confusión!</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l part="I">¿Qué habemos de hacer?</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F">Volver</l>
+            <l>a nuestra conversación;</l>
+            <l>y, por hacer lo que todos,</l>
+            <l n="1160">digo lo que siento yo.</l>
+            <l>¿A quién mirar no le asombra</l>
+            <l>ser esta vida una flor</l>
+            <l>que nazca con el albor</l>
+            <l>y fallezca con la sombra?</l>
+            <l n="1165">Pues si tan breve se nombra,</l>
+            <l>de nuestra vida gocemos</l>
+            <l>el rato que la tenemos:</l>
+            <l>dios a nuestro vientre hagamos.</l>
+            <l>¡Comamos hoy y bebamos,</l>
+            <l n="1170">que mañana moriremos!</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>De la Gentilidad es</l>
+            <l>aquella proposición,</l>
+            <l>así lo dijo Isaías.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l part="I">¿Quién se sigue ahora?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F">Yo.</l>
+            <l n="1175">Perezca, Señor, el día</l>
+            <l>en que a este mundo nací.</l>
+            <l>Perezca la noche fría</l>
+            <l>en que concebido fui</l>
+            <l>para tanta pena mía.</l>
+            <l n="1180">No la alumbre la luz pura</l>
+            <l>del sol entre obscuras nieblas:</l>
+            <l>todo sea sombra obscura,</l>
+            <l>nunca venciendo la dura</l>
+            <l>opresión de las tinieblas.</l>
+            <l n="1185">Eterna la noche sea</l>
+            <l>ocupando pavorosa</l>
+            <l>su estancia, y porque no vea</l>
+            <l>el cielo, caliginosa</l>
+            <l>obscuridad la posea.</l>
+            <l n="1190">De tantas vivas centellas</l>
+            <l>luces sea su arrebol,</l>
+            <l>día sin aurora y sol,</l>
+            <l>noche sin luna ni estrellas.</l>
+            <l>No porque si me he quejado</l>
+            <l n="1195">es, Señor, que desespero</l>
+            <l>por mirarme en tal estado,</l>
+            <l>sino porque considero</l>
+            <l>que fui nacido en pecado.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Bien ha engañado las señas</l>
+            <l n="1200">de la desesperación,</l>
+            <l>que así, maldiciendo el día,</l>
+            <l>maldijo el pecado Job.</l>
+          </sp>
+          <stage type="unassigned">Canta VOZ.</stage>
+          <sp who="#una-voz">
+            <speaker>VOZ</speaker>
+            <l>Número tiene la dicha,</l>
+            <l>número tiene el dolor;</l>
+            <l n="1205">de ese dolor y esa dicha</l>
+            <l>venid a cuentas los dos.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="I">¡Ay de mí!</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F">¡Qué alegre nueva!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>Desta voz que nos llamó,</l>
+            <l part="I">¿tú no te estremeces?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="I">¿No procuras huir?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F" n="1210">No,</l>
+            <l>que el estremecerse es</l>
+            <l>una natural pasión</l>
+            <l>del ánimo, a quien como hombre</l>
+            <l>temiera Dios, con ser Dios.</l>
+            <l n="1215">Mas si el huir será en vano,</l>
+            <l>porque si della no huyó</l>
+            <l>a su sagrado el poder,</l>
+            <l>la hermosura a su blasón,</l>
+            <l>¿dónde podrá la pobreza?</l>
+            <l n="1220">Antes mil gracias le doy,</l>
+            <l>pues con esto acabará</l>
+            <l>con mi vida mi dolor.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>¿Cómo no sientes dejar</l>
+            <l part="I">el teatro?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F">Como no</l>
+            <l n="1225">dejo en él ninguna dicha,</l>
+            <l>voluntariamente voy.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>Yo ahorcado, porque dejo</l>
+            <l>en la hacienda el corazón.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="I">¡Qué alegría!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F">¡Qué tristeza!</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="I">¡Qué consuelo!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F" n="1230">¡Qué aflicción!</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="I">¡Qué dicha!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F">¡Qué sentimiento!</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="I">¡Qué ventura!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F">¡Qué rigor!</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage type="exit">Vanse los dos.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>¡Qué encontrados al morir</l>
+            <l>el rico y el pobre son!</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l n="1235">En efecto, en el teatro</l>
+            <l>sola me he quedado yo.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Siempre lo que permanece</l>
+            <l>más en mí es la religión.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Aunque ella acabar no puede,</l>
+            <l n="1240">yo sí, porque yo no soy</l>
+            <l>la Religión, sino un miembro</l>
+            <l>que aqueste estado eligió.</l>
+            <l>Y antes que la voz me llame</l>
+            <l>yo me anticipo a la voz</l>
+            <l n="1245">del sepulcro, pues ya en vida</l>
+            <l>me sepulté, con que doy,</l>
+            <l>por hoy, fin a la comedia,</l>
+            <l>que mañana hará el Autor.</l>
+            <l>Enmendaos para mañana</l>
+            <l n="1250">los que veis los yerros de hoy.</l>
+          </sp>
+          <stage type="unassigned">Ciérrase el globo de la Tierra.</stage>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Castigo y premio ofrecí</l>
+            <l>a quien mejor o peor</l>
+            <l>representase, y verán</l>
+            <l>qué castigo y premio doy.</l>
+          </sp>
+          <stage type="unassigned">Ciérrase el globo celeste, y en él el AUTOR.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l n="1255">¡Corta fue la comedia! Pero ¿cuándo</l>
+            <l>no lo fue la comedia desta vida,</l>
+            <l>y más para el que está considerando</l>
+            <l>que toda es una entrada, una salida?</l>
+            <l>Ya todos el teatro van dejando,</l>
+            <l n="1260">a su primer materia reducida</l>
+            <l>la forma que tuvieron y gozaron;</l>
+            <l>polvo salgan de mí, pues polvo entraron.</l>
+            <l>Cobrar quiero de todos con cuidado</l>
+            <l>las joyas que les di con que adornasen</l>
+            <l n="1265">la representación en el tablado,</l>
+            <l>pues solo fue mientras representasen.</l>
+            <l>Pondreme en esta puerta y, avisado,</l>
+            <l>haré que mis umbrales no traspasen</l>
+            <l>sin que dejen las galas que tomaron:</l>
+            <l n="1270">polvo salgan de mí, pues polvo entraron.</l>
+            <l>Di, ¿qué papel hiciste tú, que ahora</l>
+            <l>el primero a mis manos has venido?</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage type="exit">Sale el REY.</stage>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Pues ¿el Mundo quién fui tan presto ignora?</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>El Mundo lo que fue pone en olvido.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l n="1275">Aquel fui que mandaba cuanto dora</l>
+            <l>el sol, de luz y resplandor vestido,</l>
+            <l>desde que en brazos de la aurora nace,</l>
+            <l>hasta que en brazos de la sombra yace.</l>
+            <l>Mandé, juzgué, regí muchos estados;</l>
+            <l n="1280">hallé, heredé, adquirí grandes memorias;</l>
+            <l>vi, tuve, concebí cuerdos cuidados;</l>
+            <l>poseí, gocé, alcancé varias victorias.</l>
+            <l>Formé, augmenté, valí varios privados;</l>
+            <l>hice, escribí, dejé raras historias;</l>
+            <l n="1285">vestí, imprimí, ceñí en ricos doseles</l>
+            <l>las púrpuras, los cetros y laureles.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Pues deja, suelta, quita la corona;</l>
+            <l>la majestad, desnuda, pierde, olvida,</l>
+            <l>vuélvase, torne, salga tu persona</l>
+            <l n="1290">desnuda de la farsa de la vida.</l>
+            <l>La púrpura, de quien tu voz blasona,</l>
+            <l>presto de otro se verá vestida,</l>
+            <l>porque no has de sacar de mis crüeles</l>
+            <l>manos, púrpuras, cetros ni laureles.</l>
+            <stage type="exit">Quítaselo.</stage>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l n="1295">¿Tú no me diste adornos tan amados?</l>
+            <l>¿Cómo me quitas lo que ya me diste?</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Porque dados no fueron, no, prestados</l>
+            <l>sí, para el tiempo que el papel hiciste.</l>
+            <l>Déjame para otro los estados,</l>
+            <l n="1300">la majestad y pompa que tuviste.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>¿Cómo de rico fama solicitas,</l>
+            <l>si no tienes qué dar si no lo quitas?</l>
+            <l>¿Qué tengo de sacar en mi provecho</l>
+            <l>de haber, al mundo, al rey representado?</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l n="1305">Esto, el Autor, si bien o mal lo has hecho,</l>
+            <l>premio o castigo te tendrá guardado,</l>
+            <l>que no me toca a mí, según sospecho,</l>
+            <l>conocer tu descuido o tu cuidado:</l>
+            <l>cobrar me toca el traje que sacaste,</l>
+            <l n="1310">porque me has de dejar como me hallaste.</l>
+            <l part="I">¿Qué has hecho tú?</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
+          <stage type="exit">Sale la HERMOSURA.</stage>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F">La gala y la hermosura.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="I">¿Qué te entregué?</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F">Perfecta una belleza.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="I">Pues ¿dónde está?</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F">Quedó en la sepultura.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Pasmose aquí la gran Naturaleza</l>
+            <l n="1315">viendo cuán poco la hermosura dura,</l>
+            <l>que aun no viene a parar adonde empieza,</l>
+            <l>pues al querer cobrarla yo, no puedo;</l>
+            <l>ni la llevas, ni yo con ella quedo.</l>
+            <l>El Rey, la majestad en mí ha dejado;</l>
+            <l n="1320">en mí ha dejado el lustre la grandeza.</l>
+            <l>La belleza no puedo haber cobrado,</l>
+            <l>que espira con el dueño la belleza.</l>
+            <l part="I">Mírate a ese cristal.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F">Ya me he mirado.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>¿Dónde está la beldad, la gentileza</l>
+            <l n="1325">que te presté? Volvérmela procura.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>Toda la consumió la sepultura.</l>
+            <l>Allí dejé matices y colores,</l>
+            <l>allí perdí jazmines y corales,</l>
+            <l>allí desvanecí rosas y flores,</l>
+            <l n="1330">allí quebré marfiles y cristales.</l>
+            <l>Allí turbé afecciones y primores,</l>
+            <l>allí borré designios y señales,</l>
+            <l>allí eclipsé esplendores y reflejos,</l>
+            <l>allí aún no toparás sombras y lejos.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
+          <stage type="unassigned">Sale el LABRADOR.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="I">Tú, villano, ¿qué hiciste?</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l part="F" n="1335">Si villano</l>
+            <l>era fuerza que hiciese, no te asombre,</l>
+            <l>un labrador, que ya tu estilo vano</l>
+            <l>a quien labra la tierra da ese nombre.</l>
+            <l>Soy a quien trata siempre el cortesano</l>
+            <l n="1340">con vil desprecio y bárbaro renombre;</l>
+            <l>y soy, aunque de serlo no me aflijo,</l>
+            <l>por quien el él, el vós y el tú se dijo.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="I">Deja lo que te di.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l part="F">Tú, ¿qué me has dado?</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="I">Un azadón te di.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l part="F">¡Qué linda alhaja!</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l n="1345">Buena o mala, con ella habrás pagado.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>¿A quién el corazón no se le raja</l>
+            <l>viendo que deste mundo desdichado</l>
+            <l>de cuanto la codicia vil trabaja</l>
+            <l>un azadón, de la salud castigo,</l>
+            <l n="1350">aun no le han de dejar llevar consigo?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
+          <stage type="unassigned">Salen el RICO y el POBRE.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="I">¿Quién va allá?</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F">Quien de ti nunca quisiera</l>
+            <l part="I">salir.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F">Y quien de ti siempre ha deseado</l>
+            <l part="I">salir.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="F">¿Cómo los dos de esa manera</l>
+            <l>dejarme y no dejarme habéis llorado?</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l n="1355">Porque yo rico y poderoso era.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Y yo porque era pobre y disdichado.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="I">Suelta estas joyas.</l>
+            <stage type="exit">Quítaselas.</stage>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="F">Mira qué bien fundo</l>
+            <l>no tener que sentir dejar el mundo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
+          <stage type="unassigned">Sale el NIÑO.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Tú, que al teatro a recitar entraste,</l>
+            <l n="1360">¿cómo, di, en la comedia no saliste?</l>
+          </sp>
+          <sp who="#un-niño">
+            <speaker>NIÑO</speaker>
+            <l>La vida en un sepulcro me quitaste.</l>
+            <l>Allí te dejo lo que tú me diste.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
+          <stage type="unassigned">Sale la DISCRECIÓN.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Cuando a las puertas del vivir llamaste,</l>
+            <l>tú, para adorno tuyo, ¿qué pediste?</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l n="1365">Pedí una religión y una obediencia,</l>
+            <l>cilicios, diciplinas y abstinencia.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Pues déjalo en mis manos; no me puedan</l>
+            <l>decir que nadie saca sus blasones.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>No quiero, que en el mundo no se quedan</l>
+            <l n="1370">sacrificios, afectos y oraciones;</l>
+            <l>conmigo he de llevarlos, porque excedan</l>
+            <l>a tus mismas pasiones tus pasiones;</l>
+            <l>o llega a ver si ya de mí las cobras.</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>No te puedo quitar las buenas obras.</l>
+            <l n="1375">Estas solas del mundo se han sacado.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>¡Quién más reinos no hubiera poseído!</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l>¡Quién más beldad no hubiera deseado!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>¡Quién más riquezas nunca hubiera habido!</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>¡Quién más, ay Dios, hubiera trabajado!</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l n="1380">¡Quién más ansias hubiera padecido!</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Ya es tarde; que en muriendo, no os asombre,</l>
+            <l>no puede ganar méritos el hombre.</l>
+            <l>Ya que he cobrado augustas majestades,</l>
+            <l>ya que he borrado hermosas perfecciones,</l>
+            <l n="1385">ya que he fustrado altivas vanidades,</l>
+            <l>ya que he igualado cetros y azadones,</l>
+            <l>al teatro pasad de las verdades,</l>
+            <l>que este el teatro es de las ficciones.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>¿Cómo nos recibiste de otra suerte</l>
+            <l part="I">que nos despides?</l>
+          </sp>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l part="F" n="1390">La razón advierte:</l>
+            <l>cuando algún hombre hay algo que reciba,</l>
+            <l>las manos pone atento a su fortuna,</l>
+            <l>en esta forma; cuando con esquiva</l>
+            <l>acción lo arroja, así las vuelve; de una</l>
+            <l n="1395">suerte, puesta la cuna boca arriba</l>
+            <l>recibe al hombre, y esta misma cuna,</l>
+            <l>vuelta al revés, la tumba suya ha sido.</l>
+            <l>Si cuna os recibí, tumba os despido.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Pues que tan tirano el mundo</l>
+            <l n="1400">de su centro nos arroja,</l>
+            <l>vamos a aquella gran cena</l>
+            <l>que en premio de nuestras obras</l>
+            <l>nos ha ofrecido el Autor.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>¿Tú también tanto baldonas</l>
+            <l n="1405">mi poder, que vas delante?</l>
+            <l>¿Tan presto de la memoria</l>
+            <l>que fuiste vasallo mío,</l>
+            <l>mísero mendigo, borras?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Ya acabado tu papel,</l>
+            <l n="1410">en el vestuario ahora</l>
+            <l>del sepulcro iguales somos,</l>
+            <l>lo que fuiste poco importa.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>¿Cómo te olvidas que a mí</l>
+            <l>ayer pediste limosna?</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l n="1415">¿Cómo te olvidas que tú</l>
+            <l part="I">no me la diste?</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="F">¿Ya ignoras</l>
+            <l>la estimación que me debes</l>
+            <l>por más rica y más hermosa?</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>En el vestuario ya</l>
+            <l n="1420">somos parecidas todas,</l>
+            <l>que en una pobre mortaja</l>
+            <l>no hay distinción de personas.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>¿Tú vas delante de mí,</l>
+            <l part="I">villano?</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l part="F">Deja las locas</l>
+            <l n="1425">ambiciones, que ya muerto,</l>
+            <l>del sol que fuiste eres sombra.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>No sé lo que me acobarda</l>
+            <l>el ver al Autor ahora.</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l>Autor del cielo y la tierra,</l>
+            <l n="1430">ya tu compañía toda,</l>
+            <l>que hizo de la vida humana</l>
+            <l>aquella comedia corta,</l>
+            <l>a la gran cena, que tú</l>
+            <l>ofreciste, llega; corran</l>
+            <l n="1435">las cortinas de tu solio</l>
+            <l>aquellas cándidas hojas.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
+          <stage type="unassigned">Con música se descubre otra vez el globo celeste, y en él una mesa con cáliz y ostia, y el AUTOR sentado a ella, y sale el MUNDO.</stage>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Esta mesa, donde tengo</l>
+            <l>pan que los cielos adoran</l>
+            <l>y los infiernos veneran,</l>
+            <l n="1440">os espera; mas importa</l>
+            <l>saber los que han de llegar</l>
+            <l>a cenar conmigo ahora,</l>
+            <l>porque de mi compañía</l>
+            <l>se han de ir los que no logran</l>
+            <l n="1445">sus papeles, por salvarles</l>
+            <l>entendimiento y memoria</l>
+            <l>del bien que siempre les hice</l>
+            <l>con tantas misericordias.</l>
+            <l>Suban a cenar conmigo</l>
+            <l n="1450">el pobre y la religiosa</l>
+            <l>que, aunque por haber salido</l>
+            <l>del mundo este pan no coman,</l>
+            <l>sustento será adorarle</l>
+            <l>por ser objeto de gloria.</l>
+          </sp>
+          <stage type="unassigned">Suben los dos.</stage>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l n="1455">¡Dichoso yo! ¡Oh, quién pasara</l>
+            <l>más penas y más congojas,</l>
+            <l>pues penas por Dios pasadas</l>
+            <l>cuando son penas son glorias!</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Yo, que tantas penitencias</l>
+            <l n="1460">hice, mil veces dichosa,</l>
+            <l>pues tan bien las he logrado.</l>
+            <l>Aquí dichoso es quien llora</l>
+            <l>confesando haber errado.</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l>Yo, señor, ¿entre mis pompas</l>
+            <l n="1465">ya no te pedí perdón?</l>
+            <l>Pues ¿por qué no me perdonas?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>La hermosura y el poder,</l>
+            <l>por aquella vanagloria</l>
+            <l>que tuvieron, pues lloraron,</l>
+            <l n="1470">subirán, pero no ahora,</l>
+            <l>con el labrador también,</l>
+            <l>que aunque no te dio limosna,</l>
+            <l>no fue por no querer darla,</l>
+            <l>que su intención fue piadosa,</l>
+            <l n="1475">y aquella reprehensión</l>
+            <l>fue en su modo misteriosa,</l>
+            <l>para que tú te ayudases.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Esa fue mi intención sola,</l>
+            <l>que quise mal vagamundos.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l n="1480">Por eso os lo premio ahora,</l>
+            <l>y porque llorando culpas</l>
+            <l>pedisteis misericordia,</l>
+            <l>los tres en el Purgatorio</l>
+            <l>en su dilación penosa</l>
+            <l part="I">estaréis.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l part="F" n="1485">Autor divino</l>
+            <l>en medio de mis congojas</l>
+            <l>el Rey me ofreció su mano</l>
+            <l>y yo he de dársela ahora.</l>
+            <stage type="exit">Da la mano al REY, y sube.</stage>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Yo le remito la pena,</l>
+            <l n="1490">pues la religión le abona;</l>
+            <l>pues vivió con esperanzas,</l>
+            <l>vuele el siglo, el tiempo corra.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Bulas de difuntos lluevan</l>
+            <l>sobre mis penas ahora,</l>
+            <l n="1495">tantas que por llegar antes</l>
+            <l>se encuentren unas a otras;</l>
+            <l>pues son estas letras santas</l>
+            <l>del Pontífice de Roma</l>
+            <l>mandamientos de soltura</l>
+            <l n="1500">desta cárcel tenebrosa.</l>
+          </sp>
+          <sp who="#un-niño">
+            <speaker>NIÑO</speaker>
+            <l>Si yo no erré mi papel,</l>
+            <l>¿por qué no me galardonas,</l>
+            <l part="I">gran Señor?</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l part="F">Porque muy poco</l>
+            <l>le acertaste; y así, ahora,</l>
+            <l n="1505">ni te premio ni castigo.</l>
+            <l>Ciego, ni uno ni otro goza,</l>
+            <l>que en fin naces del pecado.</l>
+          </sp>
+          <sp who="#un-niño">
+            <speaker>NIÑO</speaker>
+            <l>Ahora, noche medrosa</l>
+            <l>como en un sueño me tiene,</l>
+            <l n="1510">ciego, sin pena ni gloria.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>Si el poder y la hermosura,</l>
+            <l>por aquella vanagloria</l>
+            <l>que tuvieron, con haber</l>
+            <l>llorado, tanto se asombran,</l>
+            <l n="1515">y el labrador, que a gemidos</l>
+            <l>enterneciera una roca,</l>
+            <l>está temblando de ver</l>
+            <l>la presencia poderosa</l>
+            <l>de la vista del Autor,</l>
+            <l n="1520">¿cómo oso mirarla ahora?</l>
+            <l>Mas es preciso llegar,</l>
+            <l>pues no hay adonde me esconda</l>
+            <l>de su riguroso juicio.</l>
+            <l part="I">¡Autor!</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l part="F">¿Cómo así me nombras?</l>
+            <l n="1525">Que aunque soy tu Autor, es bien</l>
+            <l>que de decirlo te corras,</l>
+            <l>pues que ya en mi compañía</l>
+            <l>no has de estar. De ella te arroja</l>
+            <l>mi poder. Desciende adonde</l>
+            <l n="1530">te atormenta tu ambiciosa</l>
+            <l>condición eternamente</l>
+            <l>entre penas y congojas.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>¡Ay de mí! Que envuelto en fuego</l>
+            <l>caigo, arrastrando mi sombra</l>
+            <l n="1535">donde ya que no me vea</l>
+            <l>yo a mí mismo, duras rocas</l>
+            <l>sepultarán mis entrañas</l>
+            <l>en tenebrosas alcobas.</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l>Infinita gloria tengo.</l>
+          </sp>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l n="1540">Tenerla espero dichosa.</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l>Hermosura, por deseos</l>
+            <l>no me llevarás la joya.</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l>No la espero eternamente.</l>
+          </sp>
+          <sp who="#un-niño">
+            <speaker>NIÑO</speaker>
+            <l>No tengo para mí gloria.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l n="1545">Las cuatro postrimerías</l>
+            <l>son las que presentes notan</l>
+            <l>vuestros ojos, y porque</l>
+            <l>destas cuatro se conozca</l>
+            <l>que se ha de acabar la una,</l>
+            <l n="1550">suba la Hermosura ahora</l>
+            <l>con el Labrador, alegres</l>
+            <l>a esta mesa misteriosa,</l>
+            <l>pues que ya por sus fatigas</l>
+            <l>merecen grados de gloria.</l>
+          </sp>
+          <stage type="unassigned">Suben los dos.</stage>
+          <sp who="#la-hermosura">
+            <speaker>HERMOSURA</speaker>
+            <l part="I">¡Qué ventura!</l>
+          </sp>
+          <sp who="#el-labrador">
+            <speaker>LABRADOR</speaker>
+            <l part="F" n="1555">¡Qué consuelo!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="I">¡Qué desdicha!</l>
+          </sp>
+          <sp who="#el-rey">
+            <speaker>REY</speaker>
+            <l part="F">¡Qué victoria!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="I">¡Qué sentimiento!</l>
+          </sp>
+          <sp who="#la-discreción">
+            <speaker>DISCRECIÓN</speaker>
+            <l part="F">¡Qué alivio!</l>
+          </sp>
+          <sp who="#el-pobre">
+            <speaker>POBRE</speaker>
+            <l part="I">¡Qué dulzura!</l>
+          </sp>
+          <sp who="#el-rico">
+            <speaker>RICO</speaker>
+            <l part="F">¡Qué ponzoña!</l>
+          </sp>
+          <sp who="#un-niño">
+            <speaker>NIÑO</speaker>
+            <l>Gloria y pena hay, pero yo</l>
+            <l n="1560">ni tengo pena ni gloria.</l>
+          </sp>
+          <sp who="#el-autor">
+            <speaker>AUTOR</speaker>
+            <l>Pues el ángel en el cielo,</l>
+            <l>en el mundo las personas</l>
+            <l>y en el infierno el demonio,</l>
+            <l>todos a este pan se postran;</l>
+            <l n="1565">en el infierno, en el cielo</l>
+            <l>y mundo a un tiempo se oigan</l>
+            <l>dulces voces que le alaben</l>
+            <l>acordadas y sonoras.</l>
+          </sp>
+          <stage type="unassigned">Tocan chirimías, cantando el Tantum ergo muchas veces.</stage>
+          <sp who="#el-mundo">
+            <speaker>MUNDO</speaker>
+            <l>Y pues representaciones</l>
+            <l n="1570">es aquesta vida toda,</l>
+            <l>merezca alcanzar perdón</l>
+            <l>de las unas y las otras.</l>
+          </sp>
+          <stage>FIN</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
