@@ -9,23 +9,26 @@
       <xsl:apply-templates select="node() | @*"/>
     </xsl:copy>
   </xsl:template>
-
+  
+  <!-- Template to match and process div elements with type 'act' -->
   <xsl:template match="TEI/text/body//div[@type = 'act']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
-      <xsl:apply-templates select="child::div[@type = 'scene']"/>
+      <!-- Copy all child elements -->
+      <xsl:apply-templates select="node()"/>
     </xsl:copy>
   </xsl:template>
-
+  
+  <!-- Template to match and process div elements with type 'scene' -->
   <xsl:template match="TEI/text/body//div[@type = 'scene']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="n">
         <xsl:value-of select="position()"/>
       </xsl:attribute>
-      <xsl:apply-templates/>
+      <!-- Copy all child elements -->
+      <xsl:apply-templates select="node()"/>
     </xsl:copy>
   </xsl:template>
-
 
 </xsl:stylesheet>
