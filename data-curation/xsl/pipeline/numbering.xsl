@@ -3,7 +3,8 @@
 
   <!-- Output settings with indentation -->
   <xsl:output method="xml" indent="yes"/>
-
+  
+  <!-- Template to copy all nodes and attributes -->
   <xsl:template match="node() | @*">
     <xsl:copy>
       <xsl:apply-templates select="node() | @*"/>
@@ -14,8 +15,9 @@
   <xsl:template match="TEI/text/body//div[@type = 'act']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
-      <!-- Copy all child elements -->
+      <!-- Copy all child elements until the next div[@type = 'act'] or div[@type = 'scene'] -->
       <xsl:apply-templates select="node()"/>
+      <xsl:apply-templates select="following-sibling::node()[not(self::div[@type = 'act'] or self::div[@type = 'scene'])]"/>
     </xsl:copy>
   </xsl:template>
   
@@ -24,7 +26,8 @@
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="n">
-        <xsl:value-of select="position()"/>
+        <!-- Calculate position relative to scene divs within the current act -->
+        <xsl:value-of select="count(preceding-sibling::div[@type = 'scene']) + 1"/>
       </xsl:attribute>
       <!-- Copy all child elements -->
       <xsl:apply-templates select="node()"/>
