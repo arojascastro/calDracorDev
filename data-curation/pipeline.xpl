@@ -42,7 +42,7 @@
       </p:input>
     </p:xslt>
 
-    <p:xslt>
+      <p:xslt>
       <p:input port="parameters">
         <p:empty/>
       </p:input>
@@ -51,7 +51,7 @@
       </p:input>
     </p:xslt>
 
-    <p:xslt>
+     <p:xslt>
       <p:input port="parameters">
         <p:empty/>
       </p:input>
@@ -60,7 +60,7 @@
       </p:input>
     </p:xslt>
 
-    <p:xslt>
+  <p:xslt>
       <p:input port="parameters">
         <p:empty/>
       </p:input>
@@ -114,7 +114,6 @@
         <p:document href="xsl/pipeline/reconcile-castlist-name-role.xsl"/>
       </p:input>
     </p:xslt>
-
 
     <p:xslt>
       <p:input port="parameters">
@@ -178,7 +177,6 @@
         <p:document href="xsl/pipeline/normalize-space.xsl"/>
       </p:input>
     </p:xslt>
-
 
     <p:store>
       <p:with-option name="href" select="concat('results/', /*/@name)">
