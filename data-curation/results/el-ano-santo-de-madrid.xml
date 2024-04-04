@@ -4,102 +4,83 @@
       <titleStmt>
         <title type="main">El año santo en Madrid</title>
         <title type="sub"/>
-        <author>
-          <persName>
-            <forename>Pedro</forename>
-            <surname sort="1">Calderón</surname>
-            <nameLink>de la</nameLink>
-            <surname>Barca</surname>
-          </persName>
-          <idno type="wikidata">Q170800</idno>
-          <idno type="pnd">118518399</idno>
-        </author>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
         <respStmt>
           <resp>Data curation (cleaning, normalization and scene division)</resp>
           <persName xml:id="rojas">Rojas Castro, Antonio</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Vienna,Institute of Romance Languages and Literatures</authority>
+        <authority>University of Vienna, Institute of Romance Languages and Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
-        <date when="2022-02-07">
-          <time when="18:16:12"/>
-        </date>
+        <date when="2022-02-07"><time when="18:16:12"/></date>
         <idno type="quadramaX">El año santo en Madrid</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digitalSource">
-          <name/>
-          <idno type="URL"/>
-          <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de I. Arellano y C. Mata, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-18-X.</title>
-          </bibl>
-        </bibl>
+        <bibl type="digitalSource"><name/><idno type="URL"/><bibl type="originalSource"><title>Edición digital a partir de la edición de I. Arellano y C. Mata, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-18-X.</title></bibl></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
           <person sex="MALE" xml:id="pecado">
-            <persName>PECADO</persName>
+            <persName>Pecado</persName>
           </person>
           <person sex="FEMALE" xml:id="gracia">
-            <persName>GRACIA</persName>
+            <persName>Gracia</persName>
           </person>
-          <personGrp sex="DIVERSE" xml:id="musicos">
-            <persName>MÚSICOS</persName>
+          <personGrp sex="UNKNOWN" xml:id="musicos">
+            <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="hombre">
-            <persName>HOMBRE</persName>
+            <persName>Hombre</persName>
           </person>
           <person sex="MALE" xml:id="albedrio">
-            <persName>ALBEDRÍO</persName>
+            <persName>Albedrío</persName>
           </person>
           <person sex="FEMALE" xml:id="lascivia">
-            <persName>LASCIVIA</persName>
+            <persName>Lascivia</persName>
           </person>
           <person sex="FEMALE" xml:id="soberbia">
-            <persName>SOBERBIA</persName>
+            <persName>Soberbia</persName>
           </person>
           <person sex="FEMALE" xml:id="avaricia">
-            <persName>AVARICIA</persName>
+            <persName>Avaricia</persName>
           </person>
           <person sex="FEMALE" xml:id="gula">
-            <persName>GULA</persName>
+            <persName>Gula</persName>
           </person>
           <person sex="FEMALE" xml:id="envidia">
-            <persName>ENVIDIA</persName>
+            <persName>Envidia</persName>
           </person>
           <person sex="FEMALE" xml:id="pereza">
-            <persName>PEREZA</persName>
+            <persName>Pereza</persName>
           </person>
           <person sex="FEMALE" xml:id="ira">
-            <persName>IRA</persName>
+            <persName>Ira</persName>
           </person>
           <person sex="MALE" xml:id="oido">
-            <persName>OÍDO</persName>
+            <persName>Oído</persName>
           </person>
           <person sex="FEMALE" xml:id="iglesia">
-            <persName>IGLESIA</persName>
+            <persName>Iglesia</persName>
           </person>
           <personGrp sex="UNKNOWN" xml:id="acompanamiento">
-            <persName>VOCES</persName>
+            <persName>Voces</persName>
           </personGrp>
-          <person sex="MALE" xml:id="vicios">
-            <persName>VICIOS</persName>
-          </person>
+          <personGrp sex="MALE" xml:id="vicios">
+            <persName>Vicios</persName>
+          </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"> Auto sacramental </term>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -139,7 +120,7 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <stage>Salen el PECADO y la GRACIA luchando</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
@@ -511,6 +492,8 @@
             <l n="345">tósigo de mis alientos,</l>
             <l>veneno de sus sentidos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage>Sale el HOMBRE, vistiéndole el ALBEDRÍO, y después cantando salen la SOBERBIA, con el sombrero de plumas; la AVARICIA, con un azafate y en él cadena y joyas; la LASCIVIA, con el espejo; la IRA, con la espada; la GULA, con un azafate de frutas; la ENVIDIA, con la capa en una fuente, y la PEREZA, viejo, con bastón o báculo</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
@@ -1469,6 +1452,8 @@
             <l>que tristes y afligidos</l>
             <l>nos matemos porque hemos de morirnos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage>Vanse cantando y bailando</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
@@ -1498,6 +1483,8 @@
             <l>en vez de esas flores, cuando</l>
             <l>llegue sin ellas a juicio.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage>Vase</stage>
           <sp who="#gracia">
             <speaker>GRACIA</speaker>
@@ -1560,6 +1547,8 @@
             <l>una fineza. ¡Ah, sentido</l>
             <l n="895">de fe! ¡Ah, Oído!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage>Sale el OÍDO, ciego con instrumento. Ha de ser músico el que le represente</stage>
           <sp who="#oido">
             <speaker>OÍDO</speaker>
@@ -1762,6 +1751,8 @@
             <l>Abrid, abrid las Puertas del Perdón,</l>
             <l>que llama la Gracia y la Fe da la voz.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage>Con esta repetición, juntándose voces y chirimías, se va el OÍDO cantando, la GRACIA sube, y abrazándose las dos se cierra la apariencia y sale el PECADO como oyendo lo que se canta</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
@@ -2091,6 +2082,8 @@
             <l>que se lo diga el Oído,</l>
             <l>que es por quien se sabe todo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage>Las chirimías y sale el OÍDO con instrumento, y algunos pliegos impresos en la mano</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
@@ -2268,6 +2261,8 @@
             <l>quedando por esta gracia</l>
             <l>a pena y a culpa absuelto.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage>Vase el OÍDO</stage>
           <sp who="#lascivia">
             <speaker>LASCIVIA</speaker>
@@ -2885,6 +2880,8 @@
             <l>Aunque en mi sombra tropiezo,</l>
             <l part="I">me levantaré.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
           <stage>Cay como haciendo fuerza y sale la GRACIA a levantarle</stage>
           <sp who="#gracia #musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre">
             <speaker>TODOS</speaker>
@@ -2935,6 +2932,8 @@
             <l n="1555">de ver que yo soy el malo</l>
             <l>adonde tantos son buenos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
           <stage>Vase</stage>
           <sp who="#musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #gracia #hombre">
             <speaker>TODOS</speaker>
@@ -2948,36 +2947,50 @@
             <speaker>LASCIVIA</speaker>
             <l part="F">¡Qué veneno!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage>Vase</stage>
           <sp who="#soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="I">¡Qué pena!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage>Vase</stage>
           <sp who="#avaricia">
             <speaker>AVARICIA</speaker>
             <l part="M">¡Qué ansia!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage>Vase</stage>
           <sp who="#ira">
             <speaker>IRA</speaker>
             <l part="F">¡Qué agravio!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
           <stage>Vase</stage>
           <sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l part="I">¡Qué horror!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage>Vase</stage>
           <sp who="#gula">
             <speaker>GULA</speaker>
             <l part="M">¡Qué ira!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage>Vase</stage>
           <sp who="#pereza">
             <speaker>PEREZA</speaker>
             <l n="1560" part="F">¡Qué tormento!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage>Vase</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
@@ -3515,6 +3528,8 @@
             <l>milagro de los milagros,</l>
             <l n="1870">misterio de los misterios.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage>Vase</stage>
           <sp who="#iglesia #hombre #gracia">
             <speaker>IGLESIA, HOMBRE Y GRACIA</speaker>

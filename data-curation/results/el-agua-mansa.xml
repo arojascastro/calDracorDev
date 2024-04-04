@@ -2,89 +2,85 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"> El agua mansa </title>
-        <title type="sub"> Gran Comedia </title>
-        <author>
-          <persName>
-            <forename> Pedro </forename>
-            <surname sort="1"> Calderón </surname>
-            <nameLink> de la </nameLink>
-            <surname> Barca </surname>
-          </persName>
-          <idno type="wikidata"> Q170800 </idno>
-          <idno type="pnd"> 118518399 </idno>
-        </author>
+        <title type="main">El agua mansa</title>
+        <title type="sub">Gran Comedia</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
         <respStmt>
           <resp>Data curation (cleaning, normalization and scene division)</resp>
           <persName xml:id="rojas">Rojas Castro, Antonio</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority> University of Vienna, Institute of Romance Languages and Literatures </authority>
+        <authority>University of Vienna, Institute of Romance Languages and Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
-        <date when="2022-01-20">
-          <time when="12:39:06"/>
-        </date>
-        <idno type="quadramaX"> El agua mansa </idno>
+        <date when="2022-01-20"><time when="12:39:06"/></date>
+        <idno type="quadramaX">El agua mansa</idno>
         <availability>
-          <licence>
-            <ab> CC0 1.0 </ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Licence </ref>
-          </licence>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digitalSource">
-          <name/>
-          <idno type="URL"/>
-          <bibl type="originalSource">
-            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar). </title>
-          </bibl>
-        </bibl>
+        <bibl type="digitalSource"><name/><idno type="URL"/><bibl type="originalSource"><title>Edición digital a partir de la edición de Ignacio Arellano, (sin publicar).</title></bibl></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
           <person sex="MALE" xml:id="otanez">
-            <persName> OTÁÑEZ </persName>
+            <persName>Otáñez</persName>
+            <trait source="castlist">
+              <desc>escudero</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-alonso">
-            <persName> DON ALONSO </persName>
+            <persName>Don Alonso</persName>
+            <trait source="castlist">
+              <desc>viejo</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="dona-clara">
-            <persName> DOÑA CLARA </persName>
+            <persName>Doña Clara</persName>
           </person>
           <person sex="FEMALE" xml:id="dona-eugenia">
-            <persName> DOÑA EUGENIA </persName>
+            <persName>Doña Eugenia</persName>
           </person>
           <person sex="FEMALE" xml:id="brigida">
-            <persName> BRÍGIDA </persName>
+            <persName>Brígida</persName>
+            <trait source="castlist">
+              <desc>criada</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="mari-nuno">
-            <persName> MARI NUÑO </persName>
+            <persName>Mari Nuño</persName>
+            <trait source="castlist">
+              <desc>dueña</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hernando">
-            <persName> HERNANDO </persName>
+            <persName>Hernando</persName>
+            <trait source="castlist">
+              <desc>su criado</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-felix">
-            <persName> DON FÉLIX </persName>
+            <persName>Don Félix</persName>
           </person>
           <person sex="MALE" xml:id="don-juan">
-            <persName> DON JUAN </persName>
+            <persName>Don Juan</persName>
           </person>
           <person sex="MALE" xml:id="don-pedro">
-            <persName> DON PEDRO </persName>
+            <persName>Don Pedro</persName>
           </person>
           <person sex="MALE" xml:id="don-toribio">
-            <persName> DON TORIBIO </persName>
+            <persName>Don Toribio</persName>
           </person>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"> Comedia de capa y espada</term>
+          <term source="dracor" type="genreTitle">comedia de capa y espada</term>
+          <term source="kroll" type="main">comedia cómica</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -118,7 +114,7 @@
     </front>
     <body>
       <div n="1" type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <head> Jornada I </head>
           <stage> Salen don Alonso y Otáñez. </stage>
           <sp who="#otanez">
@@ -231,6 +227,8 @@
             <l> Excusado será, pues </l>
             <l n="70"> están ya dentro del cuarto. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage> Salen doña Clara, doña Eugenia y Mari Nuño, de camino. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -292,6 +290,8 @@
             <l> que os vea como deseo. </l>
             <l part="I"> ¡Brígida! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage> Sale Brígida. </stage>
           <sp who="#brigida">
             <speaker> BRÍGIDA </speaker>
@@ -315,6 +315,8 @@
             <l> de haber, hermana, dejado </l>
             <l> las paredes del convento. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage> Vase. </stage>
           <sp who="#dona-eugenia">
             <speaker> DOÑA EUGENIA </speaker>
@@ -322,6 +324,8 @@
             <l> a ver calles de Madrid </l>
             <l> sin rejas, redes ni claustros. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage> Vase. Vanse Brígida y Otáñez. </stage>
           <sp who="#mari-nuno">
             <speaker> MARI NUÑO </speaker>
@@ -418,6 +422,8 @@
             <l> enmienda las bizarrías </l>
             <l> de esos verdores lozanos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage> Sale Otáñez. </stage>
           <sp who="#otanez">
             <speaker> OTÁÑEZ </speaker>
@@ -431,6 +437,8 @@
             <l> ¿No fuera mucho mejor </l>
             <l n="210"> un remiendo y un hilado? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage> Vase. </stage>
           <sp who="#otanez">
             <speaker> OTÁÑEZ </speaker>
@@ -444,6 +452,8 @@
             <l n="215"> que apostatara de dueñas </l>
             <l> si supiera callar algo? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage> Vanse. </stage>
           <stage> Salen don Félix y Hernando. </stage>
           <sp who="#hernando">
@@ -589,6 +599,8 @@
             <speaker> DON FÉLIX </speaker>
             <l> Ve y mira, Hernando, quién es. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
           <stage> Sale don Juan de camino. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -710,6 +722,8 @@
             <speaker> DON FÉLIX </speaker>
             <l> No harán tal, por vida mía… </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
           <stage> Sale don Pedro de camino. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -903,6 +917,8 @@
             <speaker> HERNANDO </speaker>
             <l> La mesa espera, señor. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage> Vase </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -917,6 +933,8 @@
             <l> sabed que de mi fortuna </l>
             <l part="I"> una es la causa. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage> Vase. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -929,6 +947,8 @@
             <l> una de las dos, por Dios, </l>
             <l part="I"> es la que sigo. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage> Vase. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -943,6 +963,8 @@
             <l n="455"> y pague celos y amor </l>
             <l> quien ni tiene amor ni celos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
           <stage> Vase. Salen doña Clara y doña Eugenia. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -1154,6 +1176,8 @@
             <l part="F"> ¿Qué he de ver, </l>
             <l> si aun de escucharte me espanto? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage> Sale don Alonso. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -1198,6 +1222,8 @@
             <speaker> DON ALONSO </speaker>
             <l part="I"> Mari Nuño. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage> Sale Mari Nuño. </stage>
           <sp who="#mari-nuno">
             <speaker> MARI NUÑO </speaker>
@@ -1208,12 +1234,16 @@
             <l> Aderécese al momento </l>
             <l n="635"> aquese cuarto de abajo; </l>
             <l> esté aliñado y compuesto. </l>
-            <stage> Vase [Mari Nuño]. </stage>
+
             <l part="I"> Tú, Brígida. </l>
-            <stage> Sale Brígida. </stage>
+
             <l part="F"> Saca ropa </l>
             <l part="I"> de la excusada. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage> Vase [Mari Nuño]. </stage>
+          <stage> Sale Brígida. </stage>
           <sp who="#brigida">
             <speaker> BRÍGIDA </speaker>
             <l part="F"> Ya tengo </l>
@@ -1224,6 +1254,8 @@
             <speaker> DON ALONSO </speaker>
             <l part="I"> Otáñez. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage> Sale Otáñez. </stage>
           <sp who="#otanez">
             <speaker> OTÁÑEZ </speaker>
@@ -1234,7 +1266,7 @@
             <l part="F"> Buscad </l>
             <l> algo de regalo presto </l>
             <l> para que coma en llegando. </l>
-            <stage> Vase Otáñez. </stage>
+
             <l> Y a las dos, hijas, os ruego </l>
             <l n="645"> le agasajéis mucho. Ved </l>
             <l> que es vuestra cabeza y creo </l>
@@ -1246,6 +1278,9 @@
             <l n="650" part="F"> (Así inclinar pretendo </l>
             <l part="I"> a Eugenia.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage> Vase Otáñez. </stage>
           <sp who="#dona-eugenia">
             <speaker> DOÑA EUGENIA </speaker>
             <l part="F"> Yo de esa dicha </l>
@@ -1302,6 +1337,8 @@
             <l n="665" part="F"> Pues </l>
             <l> ten de ese estribo, Lorenzo. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
           <stage> Sale. </stage>
           <sp who="#dona-eugenia">
             <speaker> DOÑA EUGENIA </speaker>
@@ -1504,6 +1541,8 @@
             <l> puede caminar sin ella </l>
             <l> contra los rayos y truenos? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
           <stage> Sale [Mari] Nuño. </stage>
           <sp who="#mari-nuno">
             <speaker> MARI NUÑO </speaker>
@@ -1569,6 +1608,8 @@
             <l n="775"> Perdonadmne que no soy </l>
             <l> amigo de cumplimientos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
           <stage> Vase. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -1624,6 +1665,8 @@
             <l> que este y otro como este </l>
             <l> han de ser esposos vuestros. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
           <stage> Vase. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -1636,9 +1679,11 @@
             <l> que es más encarecimiento. </l>
           </sp>
         </div>
+
+
       </div>
       <div n="2" type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <head> Jornada II </head>
           <stage> Salen don Félix, don Juan y Hernando. </stage>
           <sp who="#don-felix">
@@ -1687,6 +1732,8 @@
             <l> puesto que no importa nada, </l>
             <l> que nada don Pedro entienda. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage> Vase. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -1709,9 +1756,12 @@
             <l> en qué estado está, ya que esta </l>
             <l> casa de locos de amor </l>
             <l n="860"> se ha vuelto convalecencia. </l>
-            <stage> Sale don Pedro. </stage>
+
             <l> ¿Qué hay, don Pedro? Buenos días. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage> Sale don Pedro. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
             <l> Fuerza será que lo sean </l>
@@ -1742,6 +1792,8 @@
             <l> a otra parte, no vais, pero </l>
             <l> de suerte que nada entienda. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage> Sale don Juan. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -1820,6 +1872,8 @@
             <l> Ya sale gente de casa; </l>
             <l n="920"> aquéste es el padre de ellas. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage> Salen don Alonso y don Toribio. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -2067,6 +2121,8 @@
             <l> no habían de salir de casa </l>
             <l n="1010"> quijeran o no quijeran. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage> Vanse los dos, y van saliendo doña Clara, Eugenia, Brígida, Mari Nuño y Otáñez. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -2191,6 +2247,8 @@
             <l> voy a esperarla a la iglesia. </l>
             <l part="I"> Quedaos vos con él. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage> Vase. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -2209,6 +2267,8 @@
             <l> mi amor a don Juan sospechas </l>
             <l part="I"> tras él voy. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage> Vase. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -2273,6 +2333,8 @@
             <l> prevenir el lance, haciendo </l>
             <l n="1100"> a su estorbo diligencias. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
           <stage> Vase. Salen don Alonso y don Toribio. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -2373,6 +2435,8 @@
             <stage> Aparte </stage>
             <l> (Que es lo que yo deseaba.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
           <stage> Salen don Félix y don Juan hablando. </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -2422,6 +2486,8 @@
             <l part="F"> Desposarmos y que </l>
             <l n="1160"> vamos a Roma por todo. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage> Vanse </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -2466,6 +2532,8 @@
             <speaker> DON JUAN </speaker>
             <l n="1190"> Luego vuelvo, adiós, adiós. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage> Vase y sale por la otra parte don Pedro. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -2500,6 +2568,8 @@
             <l> que fue en Alcalá tercero </l>
             <l> de mi amor. Adiós, adiós. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage> Vase. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -2552,6 +2622,8 @@
             <l> yo un empeño es por sacar </l>
             <l n="1260"> de otro empeño a dos amigos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
           <stage> Vase. Salen las cuatro mujeres como entraron. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -2589,6 +2661,8 @@
             <l> que al primer paso no dé </l>
             <l part="I"> de ojos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage> Vanse Mari Nuño y Brígida! Salen don Alonso y don Toribio. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -2671,6 +2745,8 @@
             <l n="1315" part="F"> (Hoy </l>
             <l> sólo hizo gusto el desprecio.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage> Vase. </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -2723,6 +2799,8 @@
             <l> en su cuarto, y ganar quiero </l>
             <l> con él las gracias también. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage> Vase. </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -2735,6 +2813,8 @@
             <l n="1345"> pues tras mis penas he sido </l>
             <l> objeto de un ignorante. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage> Sale don Toribio, </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -2871,6 +2951,8 @@
             <l> En que vos no tenéis filis </l>
             <l> para ser esposo mío. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
           <stage> Vase. </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -2890,6 +2972,8 @@
             <l> ¿Esto los cielos permiten? </l>
             <l> ¡Mas filis tengo que vos! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
           <stage> Sale don Alonso. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -2950,12 +3034,16 @@
             <l> a su vista hasta volver </l>
             <l n="1440"> todo cargado de filis. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
           <stage> Vase. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
             <l> ¿Hay delirio semejante? </l>
             <l> Sobrino, escuchadme, oídme… </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
           <stage> Salen las dos. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -3005,6 +3093,8 @@
             <l> a que no ande preguntando </l>
             <l n="1460"> a donde se venden filis. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
           <stage> [Vase]. </stage>
           <sp who="#dona-eugenia">
             <speaker> DOÑA EUGENIA </speaker>
@@ -3076,6 +3166,8 @@
             <l> vernos, a ti no sé cómo, </l>
             <l n="1490"> pero a mí como a imposible. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
           <stage> Vase y sale don Félix. </stage>
           <sp who="#dona-eugenia">
             <speaker> DOÑA EUGENIA </speaker>
@@ -3196,6 +3288,8 @@
             <l> con un fin, si mi deseo </l>
             <l n="1550"> dos en un tiempo consigue.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
           <stage> Sale doña Clara. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -3372,9 +3466,12 @@
             <stage> [Al paño] </stage>
             <l> Que se le dé es bien que evite </l>
             <l part="I"> barajando el lance. </l>
-            <stage> [Sale] </stage>
+
             <l part="F"> Hermana… </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
+          <stage> [Sale] </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
             <l> ¿Qué tienes? ¿De qué te afliges? </l>
@@ -3440,6 +3537,8 @@
             <l> Aquí es bien que me retire </l>
             <l n="1645"> por asegurar la espalda. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
           <stage> Salen todos. </stage>
           <sp who="#hernando #otanez #don-juan #don-pedro #mari-nuno #brigida #don-toribio #don-alonso">
             <speaker> TODOS </speaker>
@@ -3527,6 +3626,8 @@
             <l> no es lo que os advierto, ved </l>
             <l part="I"> lo que importa. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
           <stage> Dale el papel y vase. </stage>
           <sp who="#dona-eugenia">
             <speaker> DOÑA EUGENIA </speaker>
@@ -3561,6 +3662,8 @@
             <l> Con todo eso a verla toda </l>
             <l part="I"> vamos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
           <stage> Vase. </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -3572,6 +3675,8 @@
             <l part="F"> No sé, </l>
             <l> que ahora no estoy para filis. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="30">
           <stage> [Vase don Toribio.] </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -3585,9 +3690,10 @@
             <l> quien tiene o no tiene filis. </l>
           </sp>
         </div>
+
       </div>
       <div n="3" type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <head> Jornada III </head>
           <stage> Sale doña Clara leyendo un papel. </stage>
           <sp who="#dona-clara">
@@ -3705,6 +3811,8 @@
             <l> de una necia, una imprudente, </l>
             <l part="I"> una loca… </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage> Sale Eugenia. </stage>
           <sp who="#dona-eugenia">
             <speaker> DOÑA EUGENIA </speaker>
@@ -3878,6 +3986,8 @@
             <l> la ruidosa, porque el riesgo </l>
             <l> el agua mansa le tiene. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage> Vase. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -3898,6 +4008,8 @@
             <l> Amor a mi amor ofrece. </l>
             <l part="I"> Y así esta noche… </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage> Salen Mari Nuño y don Toribio. </stage>
           <sp who="#mari-nuno">
             <speaker> MARI NUÑO </speaker>
@@ -3974,6 +4086,8 @@
             <l n="1945"> Ven, Mari Nuño, que tienes </l>
             <l> que hacer por mí una fineza. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage> Vase. </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -4030,6 +4144,8 @@
             <speaker> MARI NUÑO </speaker>
             <l part="I"> ¡Qué me matan! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage> Sale Don Alonso. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -4044,6 +4160,8 @@
             <l> tú aquí a este cuarto no entre </l>
             <l> puso las manos en mí. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage> Vase </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -4221,6 +4339,8 @@
             <l> y esperad. Veréis cuan presto </l>
             <l> aquí la miráis patente. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage> Vase. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -4232,6 +4352,8 @@
             <l> es posible que la lleve, </l>
             <l part="I"> pues ya… </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
           <stage> Sale con un guardainfante </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -4287,6 +4409,8 @@
             <l> que no os digo mil locuras. </l>
             <l n="2065"> ¡Escala! ¡Jesús mil veces! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
           <stage> Vase. </stage>
           <sp who="#don-toribio">
             <speaker> DON TORIBIO </speaker>
@@ -4299,6 +4423,8 @@
             <l> no he de parar. Cielos santos, </l>
             <l> ¿de qué puede servir este? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage> Vase. Salen don Pedro y Otáñez. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -4351,6 +4477,8 @@
             <l part="F"> Que temer </l>
             <l n="2100"> no tenéis. Esto ha de ser. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage> Salen don Félix y Hernando hablando. </stage>
           <sp who="#otanez">
             <speaker> OTÁÑEZ </speaker>
@@ -4371,6 +4499,8 @@
             <l> porque no hay puerta cerrada </l>
             <l> al que abre con llave de oro. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage> Vanse. </stage>
           <sp who="#hernando">
             <speaker> HERNANDO </speaker>
@@ -4461,6 +4591,8 @@
             <l> Doña Eugenia, que leáis </l>
             <l n="2145"> aquese papel. Adiós. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
           <stage> Sale don Juan al arrojar un papel. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -4714,6 +4846,8 @@
             <speaker> HERNANDO </speaker>
             <l> ¿Esto entre amigos pasa? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage> Dentro y salen luego clara y Eugenia detiniendo a don Alonso y a don Toribio y ellas se quedan al paño. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -4761,6 +4895,8 @@
             <speaker> DON FÉLIX </speaker>
             <l> …cordura es por ahora retirarme.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage> Vase. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -4887,6 +5023,8 @@
             <l part="F"> Porque me anima y desanima </l>
             <l> juego, pendencia, guardainfante y prima. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage> Vanse los dos. </stage>
           <sp who="#dona-eugenia">
             <speaker> DOÑA EUGENIA </speaker>
@@ -5181,6 +5319,8 @@
             <l part="F"> No digas </l>
             <l part="I"> más, que entran ya. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage> Salen don Félix, don Toribio y don Alonso. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -5239,6 +5379,8 @@
             <l n="2470"> ¡Vive Dios, que he de ir tras él </l>
             <l> y traerle a cuchilladas! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
           <stage> Vase. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -5248,6 +5390,8 @@
             <l n="2475"> o al uno o al otro traiga. </l>
             <l> Entraos vosotras adentro. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
           <stage> Vase. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -5293,6 +5437,8 @@
             <l> Sí haré, aunque no tengo filis, </l>
             <l> y aunque soy el agua mansa. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
           <stage> Vase. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -5440,11 +5586,15 @@
             <speaker> LOS DOS </speaker>
             <l> …por matarte cuando salgas. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
           <stage> Vanse. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
             <l part="I"> ¡Don Juan! ¡Don Pedro! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
           <stage> Sale Clara. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -5460,6 +5610,8 @@
             <l> mi llanto. Detenle tú </l>
             <l> y no le dejes que salga. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
           <stage> Vase. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -5526,6 +5678,8 @@
             <speaker> DOÑA CLARA </speaker>
             <l part="I"> ¡Mari Nuño! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
           <stage> Sale Mari Nuño. </stage>
           <sp who="#mari-nuno">
             <speaker> MARI NUÑO </speaker>
@@ -5564,6 +5718,8 @@
             <l> (¿Qué confusiones son estas </l>
             <l> con qué doña Eugenia me habla?) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
           <stage> Salen don Alonso y don Toribio. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -5580,6 +5736,8 @@
             <l n="2600"> nosotros le compondremos, </l>
             <l part="I"> y adiós. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
           <stage> Vase. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
@@ -5616,6 +5774,8 @@
             <l> Brígida, a alumbrarme ven, </l>
             <l> que ya recogerme es bien. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
           <stage> Vase. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -5693,6 +5853,8 @@
             <l> si acaso el dolor me deja, </l>
             <l n="2640"> sin chistar, de penas lleno. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
           <stage> Éntrase. </stage>
           <sp who="#dona-clara">
             <speaker> DOÑA CLARA </speaker>
@@ -5702,6 +5864,8 @@
             <l> Bien sucediéndome va. </l>
             <l part="I"> Eugenia, Eugenia… </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="30">
           <stage> Sale Eugenia. </stage>
           <sp who="#dona-eugenia">
             <speaker> DOÑA EUGENIA </speaker>
@@ -5782,9 +5946,12 @@
             <l> que te vi el rostro; no quiera </l>
             <l> vencer tan presto el rigor </l>
             <l> de tus iras. Mari Nuño </l>
-            <stage> [Sale Mari Nuño] </stage>
+
             <l> ¿dónde está aquel caballero? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="31">
+          <stage> [Sale Mari Nuño] </stage>
           <sp who="#mari-nuno">
             <speaker> MARI NUÑO </speaker>
             <l n="2690"> En mi aposento, señora, </l>
@@ -5804,6 +5971,8 @@
             <speaker> DOÑA CLARA </speaker>
             <l> Dile que salga a esta cuadra. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="32">
           <stage> [Vase Mari Nuño! Sale don Félix. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
@@ -5919,6 +6088,8 @@
             <l> ¿qué dijérades si yo </l>
             <l part="I"> no fuera… </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="33">
           <stage> Dentro don Juan y ruido y sale, Mari Nuño. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -6021,6 +6192,8 @@
             <l> que hacía esta parte dos hombres </l>
             <l> vienen ascuras riñendo. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="34">
           <stage> Salen don Alonso y don Juan riñendo. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -6167,10 +6340,13 @@
             <l part="F"> Sí quiero, </l>
             <l n="2850"> que ya me importa saber </l>
             <l> qué es aqueste fingimiento. </l>
-            <stage> Salen </stage>
+
             <l> ¿Yo te he tenido, ¡qué dices!, </l>
             <l part="I"> hombre, en mi cuarto? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="35">
+          <stage> Salen </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
             <l part="F"> Teneos, </l>

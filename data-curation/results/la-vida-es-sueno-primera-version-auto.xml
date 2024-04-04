@@ -4,87 +4,68 @@
       <titleStmt>
         <title type="main">La vida es sueño, primera versión</title>
         <title type="sub"/>
-        <author>
-          <persName>
-            <forename>Pedro</forename>
-            <surname sort="1">Calderón</surname>
-            <nameLink>de la</nameLink>
-            <surname>Barca</surname>
-          </persName>
-          <idno type="wikidata">Q170800</idno>
-          <idno type="pnd">118518399</idno>
-        </author>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
         <respStmt>
           <resp>Data curation (cleaning, normalization and scene division)</resp>
           <persName xml:id="rojas">Rojas Castro, Antonio</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Vienna,Institute of Romance Languages and Literatures</authority>
+        <authority>University of Vienna, Institute of Romance Languages and Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
-        <date when="2022-01-25">
-          <time when="10:42:17"/>
-        </date>
+        <date when="2022-01-25"><time when="10:42:17"/></date>
         <idno type="quadramaX">La vida es sueño, primera versión</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digitalSource">
-          <name>DADUN Depositorio académico digital Universidad de Navarra</name>
-          <idno type="URL">https://dadun.unav.edu/handle/10171/37387</idno>
-          <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de ed. Fernando Plata Parga, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2012. ISBN: 978-3-944244-01-3.</title>
-          </bibl>
-        </bibl>
+        <bibl type="digitalSource"><name>DADUN Depositorio académico digital Universidad de Navarra</name><idno type="URL">https://dadun.unav.edu/handle/10171/37387</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de ed. Fernando Plata Parga, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2012. ISBN: 978-3-944244-01-3.</title></bibl></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
           <person sex="FEMALE" xml:id="sombra">
-            <persName>SOMBRA</persName>
+            <persName>Sombra</persName>
           </person>
           <person sex="FEMALE" xml:id="tierra">
-            <persName>TIERRA</persName>
+            <persName>Tierra</persName>
           </person>
           <person sex="MALE" xml:id="aire">
-            <persName>AIRE</persName>
+            <persName>Aire</persName>
           </person>
           <person sex="FEMALE" xml:id="agua">
-            <persName>AGUA</persName>
+            <persName>Agua</persName>
           </person>
           <person sex="MALE" xml:id="fuego">
-            <persName>FUEGO</persName>
+            <persName>Fuego</persName>
           </person>
           <person sex="FEMALE" xml:id="luz">
-            <persName>LUZ</persName>
+            <persName>Luz</persName>
           </person>
           <person sex="MALE" xml:id="verbo">
-            <persName>VERBO</persName>
+            <persName>Verbo</persName>
           </person>
           <person sex="FEMALE" xml:id="sabiduria">
-            <persName>SABIDURÍA</persName>
+            <persName>Sabiduría</persName>
           </person>
           <person sex="MALE" xml:id="hombre">
-            <persName>HOMBRE</persName>
+            <persName>Hombre</persName>
           </person>
           <person sex="MALE" xml:id="albedrio">
-            <persName>ALBEDRÍO</persName>
+            <persName>Albedrío</persName>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
-            <persName>MÚSICOS</persName>
+            <persName>Músicos</persName>
           </personGrp>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"> Auto sacramental </term>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -119,7 +100,7 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <stage>Sale la Sombra, encima de un peñasco, toda de negro, con manto de estrellas.</stage>
           <sp who="#sombra">
             <speaker>SOMBRA</speaker>
@@ -142,6 +123,8 @@
             <l>¡Bien debajo de mí el rumor se escucha!</l>
             <l>¡Oh, pásmense los cielos a esta lucha!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage>Salen los cuatro elementos, luchando.</stage>
           <sp who="#tierra">
             <speaker>TIERRA</speaker>
@@ -252,6 +235,8 @@
             <speaker>FUEGO</speaker>
             <l n="70">Yo con la Tierra y conmigo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage>Luchan y sale la Luz, cantando.</stage>
           <sp who="#luz">
             <speaker>LUZ</speaker>
@@ -268,6 +253,8 @@
             <l>Luzca el día, huya la noche,</l>
             <l>penetrando los abismos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage>Vase.</stage>
           <sp who="#luz">
             <speaker>LUZ</speaker>
@@ -276,12 +263,16 @@
             <l>Luz de luz, diciendo cómo</l>
             <l>erat Verbum in principio.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage>Vase.</stage>
           <sp who="#tierra">
             <speaker>TIERRA</speaker>
             <l>Esta Luz y esta vislumbre</l>
             <l>mis fuerzas ha suspendido.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage>Sale el Verbo.</stage>
           <sp who="#verbo">
             <speaker>VERBO</speaker>
@@ -674,24 +665,32 @@
             <l n="445">de este barro, de esta tierra</l>
             <l>con este polvo te sirvo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage>Vase.</stage>
           <sp who="#agua">
             <speaker>AGUA</speaker>
             <l>Y yo te doy la saliva,</l>
             <l>que es el húmedo humor mío.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage>Vase.</stage>
           <sp who="#aire">
             <speaker>AIRE</speaker>
             <l>Yo, para que en él alientes,</l>
             <l n="450">este soplo que respiro.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
           <stage>Vase.</stage>
           <sp who="#fuego">
             <speaker>FUEGO</speaker>
             <l>Yo la actividad le doy</l>
             <l>del fuego con que le asisto.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
           <stage>Vase.</stage>
           <sp who="#verbo">
             <speaker>VERBO</speaker>
@@ -703,6 +702,8 @@
             <l>que mi pecho ardiente inflama</l>
             <l part="I">con manso fuego!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage>Sale la Sabiduría.</stage>
           <sp who="#sabiduria">
             <speaker>SABIDURÍA</speaker>
@@ -729,6 +730,8 @@
             <l n="475">le traslada al Paraíso</l>
             <l>adonde sepa quién es.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage>Vase.</stage>
           <sp who="#sabiduria">
             <speaker>SABIDURÍA</speaker>
@@ -873,6 +876,8 @@
             <l n="595">Yo haré que sepas del bien:</l>
             <l>no hagas por saber del mal.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage>Vase la Sabiduría y el peñasco se cierra, y sale la Sombra, vestida de gala, huyendo de la Luz.</stage>
           <sp who="#sombra">
             <speaker>SOMBRA</speaker>
@@ -944,6 +949,8 @@
             <l>asistámosle las dos</l>
             <l>y veamos cuál le enamora.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
           <stage>Sale el Albedrío.</stage>
           <sp who="#albedrio">
             <speaker>ALBEDRÍO</speaker>
@@ -1038,6 +1045,8 @@
             <l>belleza sombra me haga,</l>
             <l>pues yo me traigo la sombra.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage>Arrímase a otro árbol. Salen el Agua con un espejo, el Fuego con la espada, el Aire con el sombrero de plumas y la Tierra con un azafate de flores y frutos, y los músicos cantando y el Hombre detrás, muy ricamente vestido.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
@@ -1366,6 +1375,8 @@
             <l>¿Quién soy yo, que he merecido</l>
             <l n="890">este aplauso, esta ventura?</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage>Sale la Sabiduría.</stage>
           <sp who="#sabiduria">
             <speaker>SABIDURÍA</speaker>
@@ -1491,6 +1502,8 @@
             <l>guardar la ciencia presuma,</l>
             <l part="I">te buscaré.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage>Sale el Verbo.</stage>
           <sp who="#verbo">
             <speaker>VERBO</speaker>
@@ -1639,6 +1652,8 @@
             <l>antes que el cielo en tu vida</l>
             <l n="1060">tantas amenazas cumpla.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage>Vase.</stage>
           <sp who="#sabiduria">
             <speaker>SABIDURÍA</speaker>
@@ -1649,6 +1664,8 @@
             <l n="1065">forma, tuviste al nacer</l>
             <l>el monumento y la cuna.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
           <stage>Vase.</stage>
           <sp who="#aire">
             <speaker>AIRE</speaker>
@@ -1748,6 +1765,8 @@
             <l n="1105">se ha de decir que me fuerzan</l>
             <l>ni la Gracia, ni la Culpa.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
           <stage>Vanse; y aparece el Hombre, como primero, y la Sabiduría a su lado.</stage>
           <sp who="#sabiduria">
             <speaker>SABIDURÍA</speaker>
@@ -1834,6 +1853,8 @@
             <l n="1165">príncipe, porque aun en sueños</l>
             <l>no se pierde el hacer bien.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
           <stage>Vase.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
@@ -1847,6 +1868,8 @@
             <l>no se pierde el hacer bien.</l>
             <l part="I">¡Elementos!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
           <stage>Salen los cuatro.</stage>
           <sp who="#fuego #agua #tierra #aire">
             <speaker>LOS CUATRO</speaker>
@@ -1901,6 +1924,8 @@
             <l>que la que ha de sepultar</l>
             <l>el gran cadáver del mundo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
           <stage>Vase.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
@@ -1917,6 +1942,8 @@
             <l>y solo te ha de dar rayos</l>
             <l n="1210">con relámpagos y truenos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
           <stage>Vase, disparando una pistola.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
@@ -1936,6 +1963,8 @@
             <l>caer sobre ti las peñas,</l>
             <l>echar sobre ti los mares.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
           <stage>Vase.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
@@ -1951,6 +1980,8 @@
             <l>de las flores las espinas,</l>
             <l n="1230">de las plantas los abrojos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
           <stage>Vase.</stage>
           <sp who="#albedrio">
             <speaker>ALBEDRÍO</speaker>
@@ -2048,6 +2079,8 @@
             <l>Siempre es tarde cuando tengo</l>
             <l>yo la posesión tomada.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
           <stage>Salen la Luz, con el hacha muerta, y la Sombra, encendida.</stage>
           <sp who="#albedrio">
             <speaker>ALBEDRÍO</speaker>
@@ -2148,6 +2181,8 @@
             <l n="1345">La Luz tiene ya la luz,</l>
             <l>cuando a la Sombra le falta.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
           <stage>Vase.</stage>
           <sp who="#albedrio">
             <speaker>ALBEDRÍO</speaker>

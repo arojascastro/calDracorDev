@@ -4,102 +4,89 @@
       <titleStmt>
         <title type="main">El cubo de la Almudena</title>
         <title type="sub"/>
-        <author>
-          <persName>
-            <forename>Pedro</forename>
-            <surname sort="1">Calderón</surname>
-            <nameLink>de la</nameLink>
-            <surname>Barca</surname>
-          </persName>
-          <idno type="wikidata">Q170800</idno>
-          <idno type="pnd">118518399</idno>
-        </author>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
         <respStmt>
           <resp>Data curation (cleaning, normalization and scene division)</resp>
           <persName xml:id="rojas">Rojas Castro, Antonio</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Vienna,Institute of Romance Languages and Literatures</authority>
+        <authority>University of Vienna, Institute of Romance Languages and Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
-        <date when="2022-01-25">
-          <time when="10:41:30"/>
-        </date>
+        <date when="2022-01-25"><time when="10:41:30"/></date>
         <idno type="quadramaX">El cubo de la Almudena</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digitalSource">
-          <name>DADUN Depositorio académico digital Universidad de Navarra</name>
-          <idno type="URL">https://dadun.unav.edu/handle/10171/18201</idno>
-          <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Luis Galván, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2004. ISBN: 3-935004-84-2.</title>
-          </bibl>
-        </bibl>
+        <bibl type="digitalSource"><name>DADUN Depositorio académico digital Universidad de Navarra</name><idno type="URL">https://dadun.unav.edu/handle/10171/18201</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de Luis Galván, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2004. ISBN: 3-935004-84-2.</title></bibl></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
           <person sex="MALE" xml:id="ali">
-            <persName>ALÍ</persName>
+            <persName>Alí</persName>
+            <trait source="castlist">
+              <desc>rey moro</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="idolatria">
-            <persName>IDOLATRÍA</persName>
+            <persName>Idolatría</persName>
           </person>
           <person sex="FEMALE" xml:id="secta">
-            <persName>SECTA</persName>
+            <persName>Secta</persName>
           </person>
           <person sex="MALE" xml:id="soldado">
-            <persName>SOLDADO</persName>
+            <persName>Soldado</persName>
           </person>
           <person sex="MALE" xml:id="alcuzcuz">
-            <persName>ALCUZCUZ</persName>
+            <persName>Alcuzcuz</persName>
+            <trait source="castlist">
+              <desc>gracioso</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="oido">
-            <persName>OÍDO</persName>
+            <persName>Oído</persName>
           </person>
           <person sex="FEMALE" xml:id="iglesia">
-            <persName>IGLESIA</persName>
+            <persName>Iglesia</persName>
           </person>
           <person sex="MALE" xml:id="entendimiento">
-            <persName>ENTENDIMIENTO</persName>
+            <persName>Entendimiento</persName>
           </person>
           <person sex="FEMALE" xml:id="vista">
-            <persName>VISTA</persName>
+            <persName>Vista</persName>
           </person>
           <person sex="MALE" xml:id="olfato">
-            <persName>OLFATO</persName>
+            <persName>Olfato</persName>
           </person>
           <person sex="MALE" xml:id="tacto">
-            <persName>TACTO</persName>
+            <persName>Tacto</persName>
           </person>
           <person sex="MALE" xml:id="gusto">
-            <persName>GUSTO</persName>
+            <persName>Gusto</persName>
           </person>
           <person sex="UNKNOWN" xml:id="acompanamiento">
-            <persName>DENTRO</persName>
+            <persName>Dentro</persName>
           </person>
           <person sex="FEMALE" xml:id="apostasia">
-            <persName>APOSTASÍA</persName>
+            <persName>Apostasía</persName>
           </person>
-          <person sex="UNKNOWN" xml:id="musicos">
-            <persName>CANTAN</persName>
-          </person>
+          <personGrp sex="UNKNOWN" xml:id="musicos">
+            <persName>Cantan</persName>
+          </personGrp>
           <person sex="MALE" xml:id="eco">
-            <persName>ECO</persName>
+            <persName>Eco</persName>
           </person>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"> Auto sacramental </term>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -136,7 +123,7 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <stage>Ábrense en los dos carros dos tiendas de campaña, y vese en la una Alí, rey moro, a caballo, y en la otra la Idolatría, vestida a lo indio, y sale a este tiempo por lo bajo del tablado la Secta de Mahoma, vestida a lo morisco, con plumas, espada y bengala, y antes de abrirse la apariencia tocan cajas y trompetas</stage>
           <sp who="#ali">
             <speaker>ALÍ</speaker>
@@ -618,13 +605,16 @@
             <speaker>OÍDO</speaker>
             <l>Pues de paz la seña he visto,</l>
             <l part="I">abriré,</l>
-            <stage>Sale</stage>
+
             <l part="F">porque las puertas</l>
             <l n="360">de la Iglesia no han sabido</l>
             <l>cerrarse jamás a quien</l>
             <l>con la seña de paz vino,</l>
             <l>la siempre invicta, la hermosa.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Sale</stage>
           <sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l>Estar a vuestro servicio.</l>
@@ -778,6 +768,8 @@
             <l>¡Viva la ley de Mahoma</l>
             <l>y muera la fe de Cristo!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage>Vanse los tres</stage>
           <sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
@@ -792,6 +784,8 @@
             <l>a siniora Maredit, que</l>
             <l>vender puente o comprar río.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage>Vase</stage>
           <sp who="#oido">
             <speaker>OÍDO</speaker>
@@ -806,6 +800,8 @@
             <l>tesoros, dejando siempre</l>
             <l>infinito lo infinito.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage>Tocan chirimías, y salen el Tacto, el Olfato, la Vista, el Gusto, el Entendimiento, y detrás, la Iglesia con armas blancas, bastón y espada, corona de oro a manera de tiara y manto imperial</stage>
           <sp who="#iglesia">
             <speaker>IGLESIA</speaker>
@@ -1045,6 +1041,8 @@
             <l>Porque no sienta flaqueza,</l>
             <l n="620">salgámosle a recibir.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage>Sale la Apostasía de soldado como temeroso</stage>
           <sp who="#apostasia">
             <speaker>APOSTASÍA</speaker>
@@ -1181,6 +1179,8 @@
             <speaker>TODOS</speaker>
             <l>¡Arma, arma, guerra, guerra!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage>Éntranse todos quedándose la Apostasía</stage>
           <sp who="#apostasia">
             <speaker>APOSTASÍA</speaker>
@@ -1253,6 +1253,8 @@
             <l n="735">y a pesar de enemigos</l>
             <l>triunfante vuelva.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage>Salen los de la Iglesia con ramos, echándoselos a los pies y cantando</stage>
           <sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
@@ -1323,6 +1325,8 @@
             <l n="770">cuatro sentidos estamos</l>
             <l>a ti, Oído, y tras ti vamos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
           <stage>Vanse</stage>
           <sp who="#apostasia">
             <speaker>APOSTASÍA</speaker>
@@ -1362,6 +1366,8 @@
             <l>que este pan no entra en provecho</l>
             <l>a quien duda y no pelea.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
           <stage>Vase</stage>
           <sp who="#apostasia">
             <speaker>APOSTASÍA</speaker>
@@ -1411,6 +1417,8 @@
             <l n="805">pero yo, yo volveré</l>
             <l part="I">presto a buscarte.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage>Vase</stage>
           <sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
@@ -1427,6 +1435,8 @@
             <l>la razón discursos gasta.</l>
             <l>La fe que tengo me basta.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage>Sale la Apostasía con un panecillo pequeño en la mano</stage>
           <sp who="#apostasia">
             <speaker>APOSTASÍA</speaker>
@@ -1616,6 +1626,8 @@
             <l>dejaré abierto un portillo</l>
             <l>por donde entre la herejía.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage>Vanse, y dentro disparan, y salen por una parte el Oído y por otra la Iglesia y los demás alborotados</stage>
           <sp who="#oido">
             <speaker>OÍDO</speaker>
@@ -1894,6 +1906,8 @@
             <speaker>OTROS</speaker>
             <l part="F">¡Guerra, guerra!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
           <stage>Vanse y salen de un carro la Apostasía y el Entendimiento, y de otro la Secta, la Idolatría y Alí, y luego el Oído</stage>
           <sp who="#apostasia">
             <speaker>APOSTASÍA</speaker>
@@ -1943,6 +1957,8 @@
             <l part="F">No harás, que debajo</l>
             <l>está ya del favor nuestro.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage>La caja y salen los cuatro Sentidos, trábase la batalla y éntranse peleando; sale Alcuzcuz armado ridículamente</stage>
           <sp who="#olfato">
             <speaker>OLFATO</speaker>
@@ -2038,6 +2054,8 @@
             <speaker>IDOLATRÍA</speaker>
             <l>Mal a esa luz me defiendo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage>Éntranse pasando por encima de Alcuzcuz</stage>
           <sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
@@ -2048,6 +2066,8 @@
             <l>más voneno he menester</l>
             <l part="I">y aun más mortecina.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage>La caja y salen el Tacto y la Secta</stage>
           <sp who="#tacto">
             <speaker>TACTO</speaker>
@@ -2063,6 +2083,8 @@
             <l>También verás presto tú</l>
             <l>si da que sentir mi esfuerzo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage>Vanse</stage>
           <sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
@@ -2074,6 +2096,8 @@
             <l>que andar calentando tripas</l>
             <l>y revolviendo el celebros.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
           <stage>La caja y salen Alí y el Gusto</stage>
           <sp who="#gusto">
             <speaker>GUSTO</speaker>
@@ -2087,6 +2111,8 @@
             <l>¡Qué importa oponerse el Gusto,</l>
             <l n="1110">si contra el Gusto hay aceros!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
           <stage>Vanse</stage>
           <sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
@@ -2095,6 +2121,8 @@
             <l>Mas bien que el voneno ya</l>
             <l>irse hacia el testuz sobiendo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
           <stage>La caja y salen el Olfato y la Apostasía</stage>
           <sp who="#olfato">
             <speaker>OLFATO</speaker>
@@ -2111,6 +2139,8 @@
             <l>mas ¡ay! que turbado voy</l>
             <l>tropezando en cuerpos muertos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
           <stage>Vanse</stage>
           <sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
@@ -2133,6 +2163,8 @@
             <l>Al cuartel de los siniores</l>
             <l>amiguilios mosqueteros.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
           <stage>Vase y suena la caja y salen el Oído y el Entendimiento</stage>
           <sp who="#oido">
             <speaker>OÍDO</speaker>
@@ -2317,6 +2349,8 @@
             <l n="1245">confieso que estoy vencido</l>
             <l>y que sin armas me veo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
           <stage>Salen los Sentidos, y tras ellos la Apostasía, herido el rostro, la Secta, Alí y la Idolatría</stage>
           <sp who="#oido">
             <speaker>OÍDO</speaker>
@@ -2351,6 +2385,8 @@
             <l>Porque ya está del oído</l>
             <l>cautivo el entendimiento.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
           <stage>Vanse</stage>
           <sp who="#secta">
             <speaker>SECTA</speaker>
@@ -2447,6 +2483,8 @@
             <speaker>IDOLATRÍA</speaker>
             <l>Por ella voy y ya vuelvo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
           <stage>Vase</stage>
           <sp who="#secta">
             <speaker>SECTA</speaker>
@@ -2468,6 +2506,8 @@
             <l>su flaqueza el almudén</l>
             <l part="I">es.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
           <stage>Salen la Idolatría y Alcuzcuz con la escala a cuestas; ha de ser de cuatro escalones</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
@@ -2560,11 +2600,14 @@
             <l n="1360" part="F">Yo llevo</l>
             <l>tan entre los pies los ojos</l>
             <l>que voy pisando con ellos.</l>
-            <stage>Salen los Sentidos en la Muralla</stage>
+
             <l>¡Alerta, fieles, alerta!</l>
             <l part="I">¡Alerta!</l>
             <l part="M">¡Alerta!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
+          <stage>Salen los Sentidos en la Muralla</stage>
           <sp who="#ali">
             <speaker>ALÍ</speaker>
             <l part="F">¿Qué es esto?</l>
@@ -2824,16 +2867,22 @@
             <speaker>IDOLATRÍA</speaker>
             <l>Toda es la noche prodigios.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
           <stage>Vase</stage>
           <sp who="#ali">
             <speaker>ALÍ</speaker>
             <l n="1480">Todo es el aire portentos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="30">
           <stage>Vase</stage>
           <sp who="#apostasia">
             <speaker>APOSTASÍA</speaker>
             <l>Toda la tierra es asombros.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="31">
           <stage>Vase</stage>
           <sp who="#secta">
             <speaker>SECTA</speaker>
@@ -2844,6 +2893,8 @@
             <l>pues contra el hambre es tan cierto</l>
             <l>que no hay fuerza en los encantos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="32">
           <stage>Vanse, y sale la Iglesia como asustada</stage>
           <sp who="#musicos #musicos #eco #iglesia #vista #tacto #gusto #olfato #entendimiento #oido #alcuzcuz #acompanamiento #idolatria #ali #apostasia #secta">
             <speaker>TODOS</speaker>
@@ -3076,6 +3127,8 @@
             <l n="1610">¡Ah, cobardes! ¿Todavía</l>
             <l>os aflige esa porfía?</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="33">
           <stage>Sale el Entendimiento</stage>
           <sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
@@ -3150,12 +3203,16 @@
             <l>contra las armas, muralla</l>
             <l>y contra el hambre, sustento.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="34">
           <stage>Vase</stage>
           <sp who="#musicos #musicos #eco #alcuzcuz #acompanamiento #idolatria #ali #apostasia #secta #vista #gusto #tacto #oido #olfato #entendimiento #iglesia">
             <speaker>TODOS</speaker>
             <l>Cojamos trigo y subamos</l>
             <l part="I">al muro.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="35">
           <stage>Vanse y salen la Secta, Alí, Idolatría, Apostasía y Alcuzcuz</stage>
           <sp who="#secta">
             <speaker>SECTA</speaker>
@@ -3333,6 +3390,8 @@
             <l>habré de irme. ¡Oh, si el abismo</l>
             <l>me sepultase en su centro!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="36">
           <stage>Vase</stage>
           <sp who="#ali">
             <speaker>ALÍ</speaker>
@@ -3351,6 +3410,8 @@
             <l>vasallo me haga de España</l>
             <l>conquistando mis imperios.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="37">
           <stage>Vase a caballo</stage>
           <sp who="#secta">
             <speaker>SECTA</speaker>
@@ -3363,6 +3424,8 @@
             <l>de mis cóleras, mis penas,</l>
             <l>mis ansias y mis tormentos.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="38">
           <stage>Vase</stage>
           <sp who="#iglesia">
             <speaker>IGLESIA</speaker>

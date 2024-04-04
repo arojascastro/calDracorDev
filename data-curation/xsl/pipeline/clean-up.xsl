@@ -43,7 +43,7 @@
         <xsl:attribute name="xml:id" xmlns="http://www.tei-c.org/ns/1.0">rojas</xsl:attribute>Rojas Castro, Antonio </xsl:element>
     </xsl:element>
   </xsl:template>
-  
+
   <!-- Template to add 'respStmt' as a child of 'titleStmt' if not present -->
   <xsl:template match="titleStmt[not(respStmt)]" xmlns:tei="http://www.tei-c.org/ns/1.0">
     <!-- Create 'titleStmt' with the default namespace -->
@@ -57,7 +57,6 @@
       </xsl:element>
     </xsl:element>
   </xsl:template>
-  
 
   <!-- Template to match 'body' elements without any 'div' child elements -->
   <xsl:template match="body[not(div)]">
@@ -75,7 +74,7 @@
       </xsl:element>
     </xsl:copy>
   </xsl:template>
-  
+
   <!-- Template to match 'div' elements with 'act' type and without any 'div' child elements -->
   <xsl:template match="div[@type = 'act'][not(div)]">
     <!-- Copy the current 'div[@type='act']' element -->
@@ -89,13 +88,14 @@
       </div>
     </xsl:copy>
   </xsl:template>
- 
-  
+
+
   <!-- Template to match 'stage' elements without any text content -->
+  <!-- This explains the difference of number of stages in xml (24.058) and results (23.758) -->
   <xsl:template match="stage[not(text())]">
     <!-- Apply templates to process child nodes -->
     <xsl:apply-templates/>
   </xsl:template>
-  
+
 
 </xsl:stylesheet>

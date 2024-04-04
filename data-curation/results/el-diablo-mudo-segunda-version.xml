@@ -5,16 +5,7 @@
       <titleStmt>
         <title type="main">El diablo mudo</title>
         <title type="sub">Segunda versión. Auto historial alegórico</title>
-        <author>
-          <persName>
-            <forename>Pedro</forename>
-            <surname sort="1">Calderón</surname>
-            <nameLink>de la</nameLink>
-            <surname>Barca</surname>
-          </persName>
-          <idno type="wikidata">Q170800</idno>
-          <idno type="pnd">118518399</idno>
-        </author>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
         <respStmt>
           <resp>Data curation (cleaning, normalization and scene division)</resp>
           <persName xml:id="rojas">Rojas Castro, Antonio</persName>
@@ -23,77 +14,73 @@
       <publicationStmt>
         <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2019-05-06">
-          <time when="15:25:17"/>
-        </date>
+        <date when="2019-05-06"><time when="15:25:17"/></date>
         <idno type="quadramaX">El diablo mudo</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-diablo-mudo-segunda-version--0/html/</idno>
-          <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de C.C. García Valdés, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1999.</title>
-          </bibl>
-        </bibl>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-diablo-mudo-segunda-version--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de C.C. García Valdés, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1999.</title></bibl></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
           <person xml:id="hombre" sex="MALE">
-            <persName>HOMBRE.</persName>
+            <persName>Hombre</persName>
           </person>
           <person xml:id="demonio" sex="MALE">
-            <persName>DEMONIO.</persName>
+            <persName>Demonio</persName>
           </person>
           <person xml:id="apetito" sex="MALE">
-            <persName>APETITO.</persName>
+            <persName>Apetito</persName>
           </person>
           <person xml:id="conocimiento" sex="MALE">
-            <persName>CONOCIMIENTO.</persName>
+            <persName>Conocimiento</persName>
           </person>
           <person xml:id="amor" sex="MALE">
-            <persName>AMOR, de PEREGRINO.</persName>
+            <persName>Amor</persName>
+            <trait source="castlist">
+              <desc>de PEREGRINO</desc>
+            </trait>
           </person>
           <person xml:id="judaísmo" sex="MALE">
-            <persName>JUDAÍSMO.</persName>
+            <persName>Judaísmo</persName>
           </person>
-          <person xml:id="música" sex="MALE">
-            <persName>MÚSICA.</persName>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
           </person>
-          <person xml:id="ángeles" sex="MALE">
-            <persName>ÁNGELES.</persName>
-          </person>
+          <personGrp xml:id="ángeles" sex="MALE">
+            <persName>Ángeles</persName>
+          </personGrp>
           <person xml:id="peregrino" sex="MALE">
-            <persName>PEREGRINO.</persName>
+            <persName>Peregrino</persName>
+            <trait source="castlist">
+              <desc>de PEREGRINO</desc>
+            </trait>
           </person>
           <person xml:id="naturaleza-humana" sex="FEMALE">
-            <persName>NATURALEZA HUMANA.</persName>
+            <persName>Naturaleza Humana</persName>
           </person>
           <person xml:id="penitencia" sex="FEMALE">
-            <persName>PENITENCIA.</persName>
+            <persName>Penitencia</persName>
           </person>
           <person xml:id="fee" sex="FEMALE">
-            <persName>LA FEE.</persName>
+            <persName>La Fee</persName>
           </person>
           <person xml:id="naturaleza-divina" sex="FEMALE">
-            <persName>NATURALEZA DIVINA.</persName>
+            <persName>Naturaleza Divina</persName>
           </person>
           <person xml:id="gentilidad" sex="FEMALE">
-            <persName>GENTILIDAD.</persName>
+            <persName>Gentilidad</persName>
           </person>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">auto sacramental</term>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
         </keywords>
         <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
       </textClass>
@@ -133,7 +120,7 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <stage>Salen el HOMBRE, vestido de pieles, y el DEMONIO luchando.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
@@ -187,7 +174,7 @@
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Sí dirán, mas también</l>
-            <l>dirá antes en su <emph>Génesis</emph> Moiséndirá antes en su Moisén</l>
+            <l>dirá antes en su Moiséndirá antes en su MoisénGénesis</l>
             <l>que si una mujer fue</l>
             <l n="40">mi ruina, de otra el no mordido pie</l>
             <l>de tu frente infeliz</l>
@@ -229,6 +216,8 @@
             <l>cuando mire en el águila de Juan</l>
             <l>al pecador, metáfora de Adán.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage>Apártanse los dos a un lado atendiendo a la NATURALEZA HUMANA, que sale suelto el cabello, a medio vestir y desaliñada, representando como con llanto y lástima.</stage>
           <sp who="#naturaleza-humana">
             <speaker>NATURALEZA HUMANA</speaker>
@@ -398,6 +387,8 @@
             <l part="F">Desta manera.</l>
             <l part="I">¡Apetito!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage>Sale el APETITO.</stage>
           <sp who="#apetito">
             <speaker>APETITO</speaker>
@@ -590,6 +581,8 @@
             <l>A propio conocimiento</l>
             <l part="I">del Hombre.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage>Sale el CONOCIMIENTO, viejo venerable, con un espejo cubierto de una banda.</stage>
           <sp who="#conocimiento">
             <speaker>CONOCIMIENTO</speaker>
@@ -681,6 +674,8 @@
             <l>para confesar sus culpas,</l>
             <l>virtud de la Penitencia.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage>Sale la PENITENCIA.</stage>
           <sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
@@ -750,6 +745,8 @@
             <l>virtud hay para el oído.</l>
             <l part="I">¡Fee divina!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage>Sale la FEE.</stage>
           <sp who="#fee">
             <speaker>FEE</speaker>
@@ -822,8 +819,11 @@
             <l>mira cuán en vano esperas</l>
             <l>que aquel prometido Bien</l>
             <l n="400">a darle la salud venga.</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage> Vase. </stage>
           <sp who="#naturaleza-humana">
             <speaker>NATURALEZA HUMANA</speaker>
             <l>La Eterna Sabiduría,</l>
@@ -888,6 +888,8 @@
             <l>yo habré de ser quien le guíe;</l>
             <l>ven, Hombre, por esta senda.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage>Tómale de la mano y vanse los dos, con los estremos que dicen los versos.</stage>
           <sp who="#fee">
             <speaker>FEE</speaker>
@@ -1407,8 +1409,11 @@
             <l n="750">No, que soy la Penitencia</l>
             <l>y hasta merecer no puedo</l>
             <l>mirarlos desde tan cerca.</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage> Vase. </stage>
           <sp who="#fee">
             <speaker>FEE</speaker>
             <l>Conocimiento, ¿no vienes?</l>
@@ -1442,8 +1447,11 @@
             <l>oh, Conocimiento Humano,</l>
             <l n="770">el que las criaturas mesmas</l>
             <l>que hizo le desconocieron!</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage> Vase. </stage>
           <sp who="#conocimiento">
             <speaker>CONOCIMIENTO</speaker>
             <l>Ni uno ni otro me hace fuerza,</l>
@@ -1455,6 +1463,8 @@
             <l n="775">Sea a Dios gloria en el cielo</l>
             <l>y paz al Hombre en la tierra.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage>Salen oyendo esta repetición de un carro el JUDAÍSMO y de otro la GENTILIDAD.</stage>
           <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
@@ -1590,8 +1600,11 @@
             <speaker>CONOCIMIENTO</speaker>
             <l>Yo voy tras mi pensamiento;</l>
             <l>vos no me tengáis, ni vos.</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage> Vase. </stage>
           <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="835">Huyendo va de los dos.</l>
@@ -1646,8 +1659,11 @@
             <l n="870">a inquirir y saber vas,</l>
             <l>de lo que infieras podrás</l>
             <l>darme noticia después.</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage> Vase. </stage>
           <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Fuerza obedecerte es,</l>
@@ -1716,8 +1732,11 @@
             <l n="920">ni ver, con mortal despecho,</l>
             <l>despedazándose el pecho</l>
             <l>prorrumpe sólo en gemir.</l>
-            <stage>Sale el HOMBRE como despeñándose y da en sus brazos haciendo los estremos que dicen los versos.</stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Sale el HOMBRE como despeñándose y da en sus brazos haciendo los estremos que dicen los versos.</stage>
           <stage>Dentro APETITO, y sale luego.</stage>
           <sp who="#apetito">
             <speaker>APETITO</speaker>
@@ -1821,6 +1840,8 @@
             <speaker>JUDAÍSMO</speaker>
             <l part="I">¿Quién así le tiene?</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage>Sale el DEMONIO.</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
@@ -1837,8 +1858,11 @@
             <l>de mayores ansias llena,</l>
             <l n="970">pues un Dios Hombre busqué</l>
             <l>y un hombre demonio hallé.</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage> Vase. </stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¡Qué ira! ¡Qué rabia! ¡Qué pena!</l>
@@ -1921,6 +1945,8 @@
             <l>pues puede hacer su Apetito</l>
             <l>lo que no puedo hacer yo.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage>Vase el HOMBRE.</stage>
           <sp who="#apetito">
             <speaker>APETITO</speaker>
@@ -1970,8 +1996,11 @@
             <l>¿cómo quieres cuando va</l>
             <l>hambriento un vulgo, que ya</l>
             <l>sepa el Apetito dél?</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage> Vase. </stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Dices bien, mas como a mí</l>
@@ -2134,6 +2163,8 @@
             <l>que sus misericordias</l>
             <l>son en eterno.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
           <stage>Con estos versos salen el PEREGRINO, la NATURALEZA DIVINA con el velo, a mano derecha, y la HUMANA, a la izquierda; la FEE y la PENITENCIA y algunos MÚSICOS.</stage>
           <sp who="#peregrino">
             <speaker>PEREGRINO</speaker>
@@ -2209,8 +2240,11 @@
             <l n="1210">me he de acobardar por eso,</l>
             <l>pues al Hombre poseído</l>
             <l>y incapaz de auxilios tengo.</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage> Vase. </stage>
           <sp who="#peregrino">
             <speaker>PEREGRINO</speaker>
             <l>¿Parece que aún no cobrada</l>
@@ -2315,6 +2349,8 @@
             <l n="1250">es de la Gloria el Rey nuestro.</l>
             <l>Abrid las puertas, abrid.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
           <stage>Sale el JUDAÍSMO trayendo como por fuerza al CONOCIMIENTO, y otros con él.</stage>
           <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
@@ -2409,8 +2445,11 @@
             <l>que Conocimiento a fuerza</l>
             <l n="1300">no es propio Conocimiento.</l>
             <l>Prosiga el triunfo sin mí.</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage> Vase. </stage>
           <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>¡Qué alegre, ufano y contento</l>
@@ -2431,6 +2470,8 @@
             <l>¡Ah!, Conocimiento mío,</l>
             <l part="I">¿dónde estás, dónde?</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
           <stage>Sale la GENTILIDAD y el JUDAÍSMO anda inquieto.</stage>
           <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
@@ -2536,6 +2577,8 @@
             <l n="1365" part="F">Así.</l>
             <l>¡Ah Peregrino estranjero!</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
           <stage>Sale el PEREGRINO y las dos NATURALEZAS.</stage>
           <sp who="#peregrino">
             <speaker>PEREGRINO</speaker>
@@ -2778,6 +2821,8 @@
             <speaker>NATURALEZA DIVINA</speaker>
             <l>Temes, al fin, como Humana.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
           <stage>Dentro las voces, y sale el DEMONIO, a lo judío, como con asombro.</stage>
           <sp who="#ángeles #hombre #apetito #amor #conocimiento #fee #penitencia">
             <speaker>TODOS</speaker>
@@ -2827,6 +2872,8 @@
             <l>encuentra, con mil estremos</l>
             <l part="I">a todos asombra.</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
           <stage>Sale el CONOCIMIENTO, como huyendo.</stage>
           <sp who="#conocimiento">
             <speaker>CONOCIMIENTO</speaker>
@@ -2837,6 +2884,8 @@
             <l>con que estremecidos cuantos</l>
             <l>le ven se asombran, diciendo...</l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
           <stage>Sale el APETITO y otros huyendo del HOMBRE, que viene haciendo los estremos que primero.</stage>
           <sp who="#ángeles #amor #conocimiento #fee #penitencia">
             <speaker>TODOS</speaker>
@@ -3372,8 +3421,11 @@
             <l>Padre mío? Dame esfuerzo,</l>
             <l>Divina Naturaleza,</l>
             <l part="I">en tal trance.</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
+          <stage> Vase. </stage>
           <sp who="#naturaleza-humana">
             <speaker>NATURALEZA HUMANA</speaker>
             <l part="F">¿Cómo viendo,</l>
@@ -3397,8 +3449,11 @@
             <l>bien como en un mismo tiempo,</l>
             <l>Divinidad en el Alma,</l>
             <l n="1750">Divinidad en el Cuerpo.</l>
-            <stage> Vase. </stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
+          <stage> Vase. </stage>
           <sp who="#naturaleza-humana">
             <speaker>NATURALEZA HUMANA</speaker>
             <l>Con que al fallecer la Humana</l>
@@ -3690,6 +3745,7 @@
             <l>Supliendo la Fee al Sentido.</l>
           </sp>
         </div>
+
       </div>
     </body>
   </text>

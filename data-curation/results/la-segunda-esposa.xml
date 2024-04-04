@@ -5,16 +5,7 @@
       <titleStmt>
         <title type="main">La segunda esposa</title>
         <title type="sub">Auto sacramental alegórico</title>
-        <author>
-          <persName>
-            <forename>Pedro</forename>
-            <surname sort="1">Calderón</surname>
-            <nameLink>de la</nameLink>
-            <surname>Barca</surname>
-          </persName>
-          <idno type="wikidata">Q170800</idno>
-          <idno type="pnd">118518399</idno>
-        </author>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
         <respStmt>
           <resp>Data curation (cleaning, normalization and scene division)</resp>
           <persName xml:id="rojas">Rojas Castro, Antonio</persName>
@@ -23,74 +14,70 @@
       <publicationStmt>
         <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2019-05-16">
-          <time when="07:57:02"/>
-        </date>
+        <date when="2019-05-16"><time when="07:57:02"/></date>
         <idno type="quadramaX">La segunda esposa</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-segunda-esposa--0/html/</idno>
-          <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de V. García Ruiz, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1993. ISBN: 3-928064-48-7</title>
-          </bibl>
-        </bibl>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-segunda-esposa--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de V. García Ruiz, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1993. ISBN: 3-928064-48-7</title></bibl></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
           <person xml:id="placer" sex="MALE">
-            <persName>EL PLACER, villano</persName>
+            <persName>El Placer</persName>
+            <trait source="castlist">
+              <desc>villano</desc>
+            </trait>
           </person>
           <person xml:id="bauptismo" sex="MALE">
-            <persName>EL BAUPTISMO</persName>
+            <persName>El Bauptismo</persName>
           </person>
           <person xml:id="confirmación" sex="FEMALE">
-            <persName>LA CONFIRMACIÓN</persName>
+            <persName>La Confirmación</persName>
           </person>
           <person xml:id="penitencia" sex="FEMALE">
-            <persName>LA PENITENCIA</persName>
+            <persName>La Penitencia</persName>
           </person>
           <person xml:id="comunión" sex="FEMALE">
-            <persName>LA COMUNIÓN</persName>
+            <persName>La Comunión</persName>
           </person>
           <person xml:id="orden" sex="MALE">
-            <persName>EL ORDEN, viejo</persName>
+            <persName>El Orden</persName>
+            <trait source="castlist">
+              <desc>viejo</desc>
+            </trait>
           </person>
           <person xml:id="matrimonio" sex="MALE">
-            <persName>EL MATRIMONIO</persName>
+            <persName>El Matrimonio</persName>
           </person>
           <person xml:id="esposo" sex="MALE">
-            <persName>EL ESPOSO</persName>
+            <persName>El Esposo</persName>
           </person>
           <person xml:id="pecado" sex="MALE">
-            <persName>EL PECADO</persName>
+            <persName>El Pecado</persName>
           </person>
           <person xml:id="muerte" sex="FEMALE">
-            <persName>LA MUERTE</persName>
+            <persName>La Muerte</persName>
           </person>
           <person xml:id="hombre" sex="MALE">
-            <persName>EL HOMBRE</persName>
+            <persName>El Hombre</persName>
           </person>
           <person xml:id="esposa" sex="FEMALE">
-            <persName>LA ESPOSA</persName>
+            <persName>La Esposa</persName>
           </person>
-          <person xml:id="música" sex="MALE">
-            <persName>MÚSICA</persName>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
           </person>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">auto sacramental</term>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
         </keywords>
         <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
       </textClass>
@@ -143,7 +130,7 @@
     </front>
     <body>
       <div type="act" n="1">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <stage>Suena dentro la música y sale el PLACER, de villano. Música dentro.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
@@ -165,6 +152,8 @@
             <l> hace de Gracia una ley </l>
             <l> con todos sus sacramentos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage>Salen en tropa toda la música del carro de la nave, que ha de ser el segundo; el BAUPTISMO, niño, vestido de blanco, la CONFIRMACIÓN de dama, la PENITENCIA de pieles, el ORDEN SACERDOTAL, viejo venerable, el MATRIMONIO, galán; detrás de todos el ESPOSO con potencias en el sombrero. Dando vuelta al tablado, quedan todos en ala y él delante.</stage>
           <stage>Música.</stage>
           <sp who="#música">
@@ -183,22 +172,22 @@
             <l> águila que estrella a estrella </l>
             <l> bebe uno y otro arrebol, </l>
             <l n="25"> subiendo ardiente farol </l>
-            <l> a ser dórica <emph>coluna-</emph>, </l>
+            <l> a ser dórica , coluna-</l>
             <l> de la esfera de la luna, </l>
             <l> se nos pasa a la del sol; </l>
             <l> ya que en la vaga región, </l>
             <l n="30"> trepando enlazada vid, </l>
-            <l><emph>si no</emph> torre de David, </l>
+            <l> torre de David, si no</l>
             <l> si no alcázar de Sión </l>
             <l> o templo de Salomón, </l>
-            <l><emph>es</emph> altiva imagen fuerte </l>
+            <l> altiva imagen fuerte es</l>
             <l n="35"> que sus triunfos nos advierte, </l>
             <l> pues murada y guarnecida </l>
             <l> plaza de armas de la vida </l>
             <l> ha de ser contra la Muerte, </l>
             <l> antes que a su fortaleza </l>
             <l n="40"> entremos, saber espero, </l>
-            <l> pues <emph>obras</emph> de Gracia quiero </l>
+            <l> pues de Gracia quiero obras</l>
             <l> medir, para más fineza, </l>
             <l> con las de naturaleza, </l>
             <l> de qué una gran monarquía </l>
@@ -418,12 +407,15 @@
             <speaker>MATRIMONIO</speaker>
             <l n="195" part="F"> Tus plantas me da </l>
             <l part="I"> a besar. </l>
-            <stage>Vase al carro del águila.</stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vase al carro del águila.</stage>
           <sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="F"> Yo que callé </l>
-            <l> cuanto hablar <emph>lo </emph>serio fue, </l>
+            <l> cuanto hablar serio fue, lo </l>
             <l> hablando de bodas ya </l>
             <l> licencia tendré, señor, </l>
             <l n="200"> para que contento diga </l>
@@ -442,6 +434,8 @@
             <l> Volved todos, pues es justo, </l>
             <l> hoy a cantar y tañer. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage>Vanse tocando y cantando al carro de los leones y a este tiempo sale del carro de las águilas la MUERTE vestida de negro con manto, sombrero, espada y véngala como oyendo la música.</stage>
           <stage>Música.</stage>
           <sp who="#música">
@@ -490,7 +484,7 @@
             <l> que habla con el mortal? Pues, si es mortal, </l>
             <l> ¿cómo eterno le anuncia tu canción? </l>
             <l n="245"> Mortal y eterno ¿no es contradición </l>
-            <l> que implica? ¿Sí? Pues, ¿<emph>cómo</emph>, cómo oí... </l>
+            <l> que implica? ¿Sí? Pues, ¿, cómo oí... cómo</l>
             <stage>Música.</stage>
             <l> ...que aquí está la Vida, puesto que está aquí </l>
             <l> quien, muriendo, a la Muerte ha de destruir? </l>
@@ -512,6 +506,8 @@
             <l> hija tuya nací, </l>
             <l part="I"> atiende. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage>Sale el PECADO vestido de demonio.</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
@@ -534,7 +530,7 @@
             <l> de la voz de la serpiente, </l>
             <l> llegándome a concebir </l>
             <l> la oreja de la mujer, </l>
-            <l n="270"> y <emph>a</emph> alimentar desde allí </l>
+            <l n="270"> y alimentar desde allí a</l>
             <l> la culpa del hombre, para </l>
             <l> que me viniese a parir </l>
             <l> la abierta herida de Abel </l>
@@ -553,7 +549,7 @@
             <l> antiguo que referí; </l>
             <l> pues aún no era de los cielos </l>
             <l> el cristalino viril, </l>
-            <l><emph>no</emph> eran del mar y la tierra </l>
+            <l> eran del mar y la tierra no</l>
             <l n="290"> el verde y azul país, </l>
             <l> no era el sol, no era la luna </l>
             <l> noble luz y sombra vil, </l>
@@ -572,7 +568,7 @@
             <l n="305"> escándalos dando al osado motín, </l>
             <l> si ronca la caja, bastardo el clarín. </l>
             <l> No me quiero detener </l>
-            <l> en pintar, en <emph>describir</emph></l>
+            <l> en pintar, en describir</l>
             <l> tus ruinas o tus victorias, </l>
             <l n="310"> que bien se pueden decir </l>
             <l> victorias ruinas tan nobles </l>
@@ -653,14 +649,14 @@
             <l> que interpretar ni argüir, </l>
             <l> ¿cómo esa fábrica bella </l>
             <l> en quien se ven esculpir </l>
-            <l> a <emph>mordeduras</emph> del bronce, </l>
+            <l> a del bronce, mordeduras</l>
             <l n="390"> el ébano y el marfil, </l>
             <l> esa perspectiva en cuya </l>
             <l> majestad se ven pulir </l>
             <l> lo prolijo del cincel, </l>
             <l> lo afectado del buril, </l>
             <l n="395"> estudiosamente al tope, </l>
-            <l> viendo <emph>anudar</emph> y embutir </l>
+            <l> viendo y embutir anudar</l>
             <l> el crisolito y topacio </l>
             <l> la amatista y el rubí, </l>
             <l> esa casa de placer, </l>
@@ -764,6 +760,8 @@
             <speaker>PECADO</speaker>
             <l> Retírate y no te mueve. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage>Sale el PLACER.</stage>
           <sp who="#placer">
             <speaker>PLACER</speaker>
@@ -803,6 +801,8 @@
             <l n="500"> señor, camino, cantemos. </l>
             <l part="I"> Venid, mortales... </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage>Salen a él y cada uno le toma la mano.</stage>
           <sp who="#muerte #pecado">
             <speaker>LOS DOS</speaker>
@@ -989,7 +989,7 @@
             <speaker>PLACER</speaker>
             <l part="F"> Yo lo diré; </l>
             <l n="580"> estas son, que él me mandó </l>
-            <l> que las dé, sin <emph>escetar</emph></l>
+            <l> que las dé, sin escetar</l>
             <l part="I"> personas. </l>
           </sp>
           <stage>Dale cuatro memoriales; retirándose a leer, el PLACER se va retirando como a hurto.</stage>
@@ -1005,8 +1005,11 @@
             <l> la bola, sólo por ver </l>
             <l> si es que es verdad que el Placer </l>
             <l> siempre se va sin sentir. </l>
-            <stage>Vase.</stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Vase.</stage>
           <sp who="#muerte">
             <speaker>MUERTE</speaker>
             <l> ¿Cuya la primera es? </l>
@@ -1126,6 +1129,8 @@
             <l> Oye al saludalla y vella </l>
             <l> la embajada que la da. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
           <stage>Salen en lo alto por una parte el MATRIMONIO vestido de ángel, hincada la rodilla, con cruz y rótulo de Ave María, y por otra la ESPOSA con unas Horas en uno como veladorcillo, hincada de rodillas también, vuelto el rostro y abiertas las manos, mirándole, y suenan chirimías.</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
@@ -1138,7 +1143,7 @@
             <speaker>MATRIMONIO</speaker>
             <l> Si Exaltación María es, </l>
             <l> si Ana es Gracia soberana, </l>
-            <l><emph>bien de</emph> quien es María Ana, </l>
+            <l> quien es María Ana, bien de</l>
             <l n="660"> podré humillarme a los pies, </l>
             <l> donde el sol sus rayos peina; </l>
             <l> con la fe y amor que tengo, </l>
@@ -1293,13 +1298,16 @@
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="730" part="F"> El Hombre, el peregrino </l>
-            <stage>Sale el HOMBRE vestido de peregrino con una hacha en la mano la cual se ha de componer de seis velas de manera que pueda dividirse en luces cada una de por sí.</stage>
+
             <l> que a puertas del nacer llama, </l>
             <l> tan torpe, tan extranjero, </l>
             <l> que ignora el paso primero </l>
             <l> aunque le alumbra la llama </l>
             <l part="I"> de la vida. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Sale el HOMBRE vestido de peregrino con una hacha en la mano la cual se ha de componer de seis velas de manera que pueda dividirse en luces cada una de por sí.</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
             <l n="735" part="F"> Llega, que </l>
@@ -1554,6 +1562,8 @@
             <l n="850"> hay gente ninguna aquí </l>
             <l part="I"> que me favorezca? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage>Sale el BAUTISMO con un aguamanil y tohalla al hombro.</stage>
           <sp who="#bauptismo">
             <speaker>BAUPTISMO</speaker>
@@ -1670,6 +1680,8 @@
             <l> a escuchar mis silogismos </l>
             <l part="I"> y responder a ellos? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage>Sale la CONFIRMACIÓN con una pistola en la mano.</stage>
           <sp who="#confirmación">
             <speaker>CONFIRMACIÓN</speaker>
@@ -1958,7 +1970,7 @@
             <l> haré del hierro cadena </l>
             <l> porque otra vez fugitivo </l>
             <l n="1035"> no puedas huir. Veré </l>
-            <l> si dos efectos <emph>consigo</emph></l>
+            <l> si dos efectos consigo</l>
             <l> también de una causa yo, </l>
             <stage>Saca una cadena y pónesela.</stage>
             <l> haciéndote el hierro mío </l>
@@ -1981,6 +1993,8 @@
             <l> ¿quién quieres, ni el cielo mismo, </l>
             <l part="I"> que pueda dártela? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage>Sale la PENITENCIA de pieles.</stage>
           <sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
@@ -2031,7 +2045,7 @@
             <speaker>PENITENCIA</speaker>
             <l n="1065"> Pues yo de las ataduras </l>
             <l> y vínculos que cautivo </l>
-            <l part="I"> te <emph>tienen</emph>, te absuelvo; </l>
+            <l part="I"> te , te absuelvo; tienen</l>
             <stage>Quítale la cadena y pónesela delante.</stage>
             <l part="F"> pasa </l>
             <l part="I"> mi puerta también. </l>
@@ -2068,7 +2082,7 @@
           <sp who="#bauptismo">
             <speaker>BAUPTISMO</speaker>
             <stage>Al PECADO.</stage>
-            <l>Vuelve a salir <emph>del</emph> palacio. </l>
+            <l>Vuelve a salir palacio. del</l>
           </sp>
           <sp who="#confirmación">
             <speaker>CONFIRMACIÓN</speaker>
@@ -2096,8 +2110,11 @@
             <l n="1090"> si ya no es que siempre impíos </l>
             <l> para mí solos los cielos </l>
             <l> embarazan mis designios. </l>
-            <stage>Vase.</stage>
+
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Vase.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l> ¿Cómo no arrojáis la Muerte? </l>
@@ -2155,6 +2172,8 @@
             <l n="1110"> que pueda restituido </l>
             <l part="I"> la vida aumentar? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage>Sale la COMUNIÓN con cáliz y hostia.</stage>
           <sp who="#comunión">
             <speaker>COMUNIÓN</speaker>
@@ -2175,6 +2194,8 @@
             <l> todos tus cinco sentidos? </l>
             <l part="I"> ¿Quién te lo ha dicho? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage>Sale la ORDEN SACERDOTAL.</stage>
           <sp who="#orden">
             <speaker>ORDEN</speaker>
@@ -2273,6 +2294,8 @@
             <l> aqueste es el Cuerpo mío? </l>
             <l part="I"> Pues ven a esta voz. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage>Sale el ESPOSO, túrbase la MUERTE, el HOMBRE le da el hacha y él la toma.</stage>
           <sp who="#esposo">
             <speaker>ESPOSO</speaker>
@@ -2399,6 +2422,8 @@
             <l> para que venza muriendo </l>
             <l> por los siglos de los siglos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage>Vanse llevando al ESPOSO los dos gloriosos al carro del triunfo.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
@@ -2610,7 +2635,7 @@
             <l> y aunque alcaide en su espacio </l>
             <l> es león el que se advierte, </l>
             <l> de sus entrañas quiero </l>
-            <l n="1320"> que veas <emph>que</emph> son de cándido cordero. </l>
+            <l n="1320"> que veas son de cándido cordero. que</l>
           </sp>
           <sp who="#esposa">
             <speaker>ESPOSA</speaker>
@@ -2664,6 +2689,8 @@
             <l> feliz quien se corona </l>
             <l> en los templados rayos de su zona. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
           <stage>Sale el PLACER y el PECADO.</stage>
           <sp who="#placer">
             <speaker>PLACER</speaker>
@@ -2894,6 +2921,7 @@
           </sp>
           <trailer>FINIS</trailer>
         </div>
+
       </div>
     </body>
   </text>

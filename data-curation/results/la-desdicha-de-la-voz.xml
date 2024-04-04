@@ -2,98 +2,82 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"> La desdicha de la voz </title>
-        <title type="sub"> Comedia Famosa </title>
-        <author>
-          <persName>
-            <forename> Pedro </forename>
-            <surname sort="1"> Calderón </surname>
-            <nameLink> de la </nameLink>
-            <surname> Barca </surname>
-          </persName>
-          <idno type="wikidata"> Q170800 </idno>
-          <idno type="pnd"> 118518399 </idno>
-        </author>
+        <title type="main">La desdicha de la voz</title>
+        <title type="sub">Comedia Famosa</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
         <respStmt>
           <resp>Data curation (cleaning, normalization and scene division)</resp>
           <persName xml:id="rojas">Rojas Castro, Antonio</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority> University of Vienna, Institute of Romance Languages and Literatures </authority>
+        <authority>University of Vienna, Institute of Romance Languages and Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
-        <date when="2022-01-20">
-          <time when="12:42:06"/>
-        </date>
-        <idno type="quadramaX"> La desdicha de la voz </idno>
+        <date when="2022-01-20"><time when="12:42:06"/></date>
+        <idno type="quadramaX">La desdicha de la voz</idno>
         <availability>
-          <licence>
-            <ab> CC0 1.0 </ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Licence </ref>
-          </licence>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digitalSource">
-          <name/>
-          <idno type="URL"/>
-          <bibl type="originalSource">
-            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar). </title>
-          </bibl>
-        </bibl>
+        <bibl type="digitalSource"><name/><idno type="URL"/><bibl type="originalSource"><title>Edición digital a partir de la edición de Ignacio Arellano, (sin publicar).</title></bibl></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
           <person sex="FEMALE" xml:id="dona-beatriz">
-            <persName> DOÑA BEATRIZ </persName>
+            <persName>Doña Beatriz</persName>
           </person>
           <person sex="MALE" xml:id="escudero">
-            <persName> ESCUDERO </persName>
+            <persName>Escudero</persName>
           </person>
           <person sex="FEMALE" xml:id="ines">
-            <persName> INÉS </persName>
+            <persName>Inés</persName>
           </person>
           <person sex="MALE" xml:id="don-juan">
-            <persName> DON JUAN </persName>
+            <persName>Don Juan</persName>
           </person>
           <person sex="MALE" xml:id="don-pedro">
-            <persName> DON PEDRO </persName>
+            <persName>Don Pedro</persName>
           </person>
           <person sex="MALE" xml:id="luquete">
-            <persName> LUQUETE </persName>
+            <persName>Luquete</persName>
           </person>
           <person sex="FEMALE" xml:id="isabel">
-            <persName> ISABEL </persName>
+            <persName>Isabel</persName>
           </person>
           <person sex="FEMALE" xml:id="leonor">
-            <persName> LEONOR </persName>
+            <persName>Leonor</persName>
           </person>
           <person sex="MALE" xml:id="don-luis">
-            <persName> DON LUIS </persName>
+            <persName>Don Luis</persName>
+            <trait source="castlist">
+              <desc>VIEJO</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-diego">
-            <persName> DON DIEGO </persName>
+            <persName>Don Diego</persName>
           </person>
-          <person sex="MALE" xml:id="dentro">
-            <persName> DENTRO </persName>
+          <person sex="UNKNOWN" xml:id="dentro">
+            <persName>Dentro</persName>
           </person>
           <person sex="MALE" xml:id="otavio">
-            <persName> OTAVIO </persName>
+            <persName>Otavio</persName>
           </person>
           <person sex="MALE" xml:id="celio">
-            <persName> CELIO </persName>
+            <persName>Celio</persName>
           </person>
           <person sex="FEMALE" xml:id="dona-leonor">
-            <persName> DOÑA LEONOR </persName>
+            <persName>Doña Leonor</persName>
           </person>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle"> Comedia de capa y espada</term>
+          <term source="dracor" type="genreTitle">comedia de capa y espada</term>
+          <term source="kroll" type="main">comedia cómica</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -127,7 +111,7 @@
     </front>
     <body>
       <div n="1" type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <head> Jornada I </head>
           <stage> Salen doña Beatriz leyendo un papel, Inés y un escudero. </stage>
           <sp who="#dona-beatriz">
@@ -174,6 +158,8 @@
             <speaker> ESCUDERO </speaker>
             <l> Yo lo diré de esa suerte. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage> Vase. </stage>
           <sp who="#ines">
             <speaker> INÉS </speaker>
@@ -267,6 +253,8 @@
             <l> que suba, porque sin señas </l>
             <l> está, señora, acá arriba. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage> Sale don Juan. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -412,6 +400,8 @@
             <l> que entrando en su cuarto puedes </l>
             <l part="I"> salirte. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage> Escóndese. Sale don Pedro. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -575,6 +565,8 @@
             <l n="305"> de sus tiranos imperios </l>
             <l> no hay ventura sin desdicha. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage> Vase. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -718,6 +710,8 @@
             <l> ¡Y de desdichada muera </l>
             <l> quien se cree de mentiras! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage> Vanse. Salen Luquete y Isabel. </stage>
           <sp who="#luquete">
             <speaker> LUQUETE </speaker>
@@ -843,6 +837,8 @@
             <speaker> ISABEL </speaker>
             <l part="F"> Sí. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage> Vase Luquete y salen don Luis y Leonor. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -906,6 +902,8 @@
             <l> que si yo hijos no tuviera </l>
             <l> no tuviera yo ambición. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage> Vase. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -1035,6 +1033,8 @@
             <speaker> ISABEL </speaker>
             <l> No sé qué te responder. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
           <stage> Sale don Diego. </stage>
           <sp who="#don-diego">
             <speaker> DON DIEGO </speaker>
@@ -1164,6 +1164,8 @@
             <l n="695"> con extremos tu bizarra </l>
             <l part="I"> galantería... </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
           <stage> Sale Luquete. </stage>
           <sp who="#luquete">
             <speaker> LUQUETE </speaker>
@@ -1181,6 +1183,8 @@
             <l> la ausencia que nos espera </l>
             <l n="705"> cuando nace mi esperanza! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage> Vase, cerrando una puerta. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -1237,6 +1241,8 @@
             <l> de mis desaires venganza, </l>
             <l> para estos atrevimientos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage> Sale don Pedro. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -1284,6 +1290,8 @@
             <l n="750" part="F"> ¡Válgame el cielo! </l>
             <l part="I"> ¡Qué empeñado lance! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage> Escóndese don Pedro y sale don Diego. </stage>
           <sp who="#don-diego">
             <speaker> DON DIEGO </speaker>
@@ -1342,6 +1350,8 @@
             <l> y abierta la dejaré. </l>
             <l> Oirás, Leonor, qué bien canta. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
           <stage> Vase. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -1498,6 +1508,8 @@
             <l> (¡En aquesta ocasión, cielos, </l>
             <l> dadme remedio o venganza!) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage> Vase. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -1515,6 +1527,8 @@
             <l> Cierra esas puertas. ¡Fortuna, </l>
             <l n="875"> duélete de mis desgracias! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage> Vanse. Salen don Juan y Inés con luces. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -1621,6 +1635,8 @@
             <l> Si haré. (Hasta que su rigor </l>
             <l> satisfaga, no saldré.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage> Vase. </stage>
           <sp who="#ines">
             <speaker> INÉS </speaker>
@@ -1642,6 +1658,8 @@
             <l> al verle ella, diré yo </l>
             <l> que no sé por dónde entró. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage> Sale doña Beatriz. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -1721,6 +1739,8 @@
             <speaker> DOÑA BEATRIZ </speaker>
             <l part="F"> Vuelve a encubrirte. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
           <stage> Sale don Pedro. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -1957,6 +1977,8 @@
             <l> tiempo... Mas mira, Beatriz, </l>
             <l> que es muy poco el que te doy. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
           <stage> Vase. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -1964,11 +1986,14 @@
           </sp>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
-            <stage> [Sale] </stage>
+
             <l> No lo has sido mucho, no, </l>
             <l n="1085"> pues te ruegan con lo mismo </l>
             <l part="I"> que deseas. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage> [Sale] </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
             <l part="F"> ¡Plega a dios...! </l>
@@ -2125,6 +2150,8 @@
             <l n="1165"> Si haré, que es guardar tu vida </l>
             <l> ahora, y después morir yo. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
           <stage> [Escóndese]. Sale don Pedro. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -2151,6 +2178,8 @@
             <l n="1180"> y así, osado mi valor, </l>
             <l> sabrá quitarte la vida. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
           <stage> Saca la daga. Sale don Juan matando las luces. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -2170,6 +2199,8 @@
             <l> Sin saber dónde, me voy. </l>
             <l> ¡Cielos, doleos de mí! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
           <stage> Vase. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -2333,9 +2364,11 @@
             <l> la desdicha de la voz. </l>
           </sp>
         </div>
+
+
       </div>
       <div n="2" type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <head> Jornada II </head>
           <stage> Salen Otavio, viejo, y Celio, criado. </stage>
           <sp who="#otavio">
@@ -2425,6 +2458,8 @@
             <l> ¿Mujer a mí? Dila que entre, </l>
             <l part="I"> ¿quién puede ser? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage> Sale doña Beatriz tapada y sin galas. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -2613,6 +2648,8 @@
             <l> aun tiempo para decirlas, </l>
             <l> porque es medio de vencerlas! </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage> Vase. </stage>
           <sp who="#otavio">
             <speaker> OTAVIO </speaker>
@@ -2637,13 +2674,16 @@
             <l part="F"> Después </l>
             <l> lo sabrás, porque ya entran </l>
             <l n="1435"> don Luis, don Diego y Leonor. </l>
-            <stage> Salen don Luis, don Diego, Leonor y Isabel de camino. </stage>
+
             <l> Una y mil veces merezca </l>
             <l> besar, señor, vuestra mano, </l>
             <l> pues tal mi dicha a ser llega </l>
             <l> que os llego a ver en mi casa; </l>
             <l n="1440"> pero mal dije, en la vuestra. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage> Salen don Luis, don Diego, Leonor y Isabel de camino. </stage>
           <sp who="#don-luis">
             <speaker> DON LUIS </speaker>
             <l> Señor Otavio, los brazos </l>
@@ -2717,6 +2757,8 @@
             <speaker> DON DIEGO </speaker>
             <l> (¡Ay Beatriz, lo que me debes!) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage> Vanse. </stage>
           <sp who="#celio">
             <speaker> CELIO </speaker>
@@ -2790,6 +2832,8 @@
             <l> soy más que unas natas tierna. </l>
             <l> Lo que uced, por andaluz... </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage> Sale Luquete. </stage>
           <sp who="#luquete">
             <speaker> LUQUETE </speaker>
@@ -2818,6 +2862,8 @@
             <speaker> CELIO </speaker>
             <l n="1520"> Que viene mi amo agradezca. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage> Sale Otavio. </stage>
           <sp who="#otavio">
             <speaker> OTAVIO </speaker>
@@ -2835,6 +2881,8 @@
             <speaker> ISABEL </speaker>
             <l> A ver qué me manda iré. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage> Vase. </stage>
           <sp who="#luquete">
             <speaker> LUQUETE </speaker>
@@ -2843,14 +2891,18 @@
           <sp who="#otavio">
             <speaker> OTAVIO </speaker>
             <l part="I"> Vete, Celio. </l>
-            <stage> [Vase Celio] </stage>
-            <stage> Sale doña Beatriz. </stage>
+
+
             <l n="1525" part="F"> Hasta volver </l>
             <l> a oíros, de dudas llena </l>
             <l> el alma tuve, y así </l>
             <l> dejando en su cuarto apenas </l>
             <l> los güéspedes, vuelvo a veros. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage> [Vase Celio] </stage>
+          <stage> Sale doña Beatriz. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
             <l n="1530"> Yo quedé, si bien se acuerda </l>
@@ -3034,6 +3086,8 @@
             <l n="1690"> cuadra esperad, que muy presto </l>
             <l> volveré con la respuesta. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
           <stage> Vase. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -3046,6 +3100,8 @@
             <l> a mi vida más acción </l>
             <l> que el alma con que lo sienta. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage> Vase. Salen don Juan y don Pedro. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -3229,6 +3285,8 @@
             <l> llegó la suerte mía!: </l>
             <l n="1835"> sola esa dicha me quedó aquel día. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage> Vase. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -3303,6 +3361,8 @@
             <l> Beatriz, nada te espante </l>
             <l n="1905"> que antes soy yo que mis celos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage> Vase. Salen Otavio y Leonor. </stage>
           <sp who="#otavio">
             <speaker> OTAVIO </speaker>
@@ -3371,6 +3431,8 @@
             <l> Al punto a besar vendrá </l>
             <l part="I"> vuestra mano. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
           <stage> Vase. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -3404,6 +3466,8 @@
             <l> don Juan vive enamorado? </l>
             <l part="I"> ¿Quién será aquella? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage> Salen Isabel y Beatriz. </stage>
           <sp who="#isabel">
             <speaker> ISABEL </speaker>
@@ -3555,6 +3619,8 @@
             <l> lo que ha de hacer, para que </l>
             <l n="2050"> sepa en qué se ha de ocupar. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage> Vase. </stage>
           <sp who="#isabel">
             <speaker> ISABEL </speaker>
@@ -3708,6 +3774,8 @@
             <l> mas no quiero hablar en él; </l>
             <l part="I"> tú le verás. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage> Sale Leonor. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -3739,6 +3807,8 @@
             <l> esto pase! ¡Oh si vivieras, </l>
             <l> don Juan, y en esto me vieras!) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage> Vase. </stage>
           <sp who="#isabel">
             <speaker> ISABEL </speaker>
@@ -3825,6 +3895,8 @@
             <l> A vos es, subid por esa </l>
             <l part="I"> escalera. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
           <stage> Sale don Juan. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -3945,6 +4017,8 @@
             <l> ¿Quién en el mundo se vio, </l>
             <l> sin pensar, en tanto empeño? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
           <stage> Escóndese y salen don Luis, don Diego y Luquete. </stage>
           <sp who="#don-luis">
             <speaker> DON LUIS </speaker>
@@ -3982,6 +4056,8 @@
             <l> ¡Hola!, sacad unas luces, </l>
             <l n="2260"> ¿no veis que va anocheciendo? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
           <stage> Sale doña Beatriz con luces. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -4109,6 +4185,8 @@
             <l n="2305" part="F"> (¿Quién se vio </l>
             <l> en tanta confusión, cielos?) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
           <stage> Vase Isabel con una luz, Luquete y don Diego. </stage>
           <sp who="#don-luis">
             <speaker> DON LUIS </speaker>
@@ -4204,7 +4282,7 @@
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
             <l> Una y mil veces lo ofrezco. </l>
-            <stage> [Vanse Leonor y don Luis.] </stage>
+
             <l n="2345"> ¿Cielos, que pasa por mí? </l>
             <l> A la casa de don Diego </l>
             <l> me ha traído mi fortuna; </l>
@@ -4224,6 +4302,9 @@
             <l> seguidme, que yo os pondré </l>
             <l part="I"> en la calle. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage> [Vanse Leonor y don Luis.] </stage>
           <stage> [Sale don Juan.] </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -4499,6 +4580,8 @@
             <speaker> DOÑA BEATRIZ </speaker>
             <l part="M"> ...viniendo... </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
           <stage> Sale Leonor. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -4531,11 +4614,15 @@
             <l n="2505"> (¡Oh cuántas cosas llevamos </l>
             <l> que discurrir, pensamiento!) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
           <stage> Vase. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
             <l> Cierra, Lucía, esa puerta. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
           <stage> Sale don Diego y Luquete. </stage>
           <sp who="#don-diego">
             <speaker> DON DIEGO </speaker>
@@ -4573,6 +4660,8 @@
             <l n="2525"> que mañana buscaré </l>
             <l> en Otavio otro remedio.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
           <stage> Vanse. </stage>
           <sp who="#don-diego">
             <speaker> DON DIEGO </speaker>
@@ -4583,12 +4672,16 @@
             <l> el entendimiento, es </l>
             <l> no tener entendimiento. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
           <stage> Vase. </stage>
           <sp who="#luquete">
             <speaker> LUQUETE </speaker>
             <l> Pues no le perderás hoy, </l>
             <l> si solo consiste en eso. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
           <stage> Sale Otavio. </stage>
           <sp who="#otavio">
             <speaker> OTAVIO </speaker>
@@ -4615,11 +4708,15 @@
             <l> a mí la acción y el derecho </l>
             <l> de vengar aquel abrazo!) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="30">
           <stage> Vase. </stage>
           <sp who="#otavio">
             <speaker> OTAVIO </speaker>
             <l> Aqueste es mi cuarto. Celio. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="31">
           <stage> Sale Celio. </stage>
           <sp who="#celio">
             <speaker> CELIO </speaker>
@@ -4644,6 +4741,8 @@
             <l part="F"> Era forastero; </l>
             <l part="I"> no le conocí. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="32">
           <stage> Sale don Juan. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -4675,6 +4774,8 @@
             <speaker> DON JUAN </speaker>
             <l n="2565" part="F"> Yo venía de parte... </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="33">
           <stage> Sale don Pedro. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -4824,6 +4925,8 @@
             <l> Entrad, ved todo mi cuarto, </l>
             <l> veréis que os engaña el viento. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="34">
           <stage> Esto canta Beatriz mientras representan. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -4903,6 +5006,8 @@
             <l> en qué peligro te ha puesto </l>
             <l> la desdicha de tu voz!) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="35">
           <stage> [Vanse.] </stage>
           <sp who="#otavio">
             <speaker> OTAVIO </speaker>
@@ -4911,9 +5016,10 @@
             <l> que mañana habrá remedio. </l>
           </sp>
         </div>
+
       </div>
       <div n="3" type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <head> Jornada III </head>
           <stage> Salen Otavio y don Juan y don Pedro. </stage>
           <sp who="#don-pedro">
@@ -5139,6 +5245,8 @@
             <l n="2840"> que amparar a la mujer </l>
             <l> es lo más preciso siempre). </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
           <stage> Vase. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -5241,12 +5349,16 @@
             <l> Vacilando me hallaréis </l>
             <l> en mis desdichas crueles. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage> Vase. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
             <l> Beatriz, a avisarte voy </l>
             <l> de los peligros que tienes. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage> Vase. Salen Luquete y don Diego. </stage>
           <sp who="#luquete">
             <speaker> LUQUETE </speaker>
@@ -5391,6 +5503,8 @@
             <l n="2965"> te retira, porque quiero </l>
             <l part="I"> solo hablarla. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage> Vase Luquete y sale doña Beatriz. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -5466,6 +5580,8 @@
             <speaker> DOÑA BEATRIZ </speaker>
             <l part="I"> Yo... </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
           <stage> Sale Otavio. </stage>
           <sp who="#otavio">
             <speaker> OTAVIO </speaker>
@@ -5676,6 +5792,8 @@
             <speaker> DON DIEGO </speaker>
             <l part="M"> Yo... </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
           <stage> Sale don Luis y Luquete. </stage>
           <sp who="#don-luis">
             <speaker> DON LUIS </speaker>
@@ -5738,6 +5856,8 @@
             <l> Sírvate yo de algo, ya </l>
             <l> que de todo no te sirvo.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
           <stage> Vase. </stage>
           <sp who="#don-luis">
             <speaker> DON LUIS </speaker>
@@ -5753,6 +5873,8 @@
             <l> y en tanto, que deste cuarto </l>
             <l> no salgas, Beatriz, te aviso.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
           <stage> Vase. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -5824,6 +5946,8 @@
             <l> que el enamorarse un hombre </l>
             <l> no cada siempre es delito. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
           <stage> Sale Isabel [al paño.] </stage>
           <sp who="#isabel">
             <speaker> ISABEL </speaker>
@@ -5899,6 +6023,8 @@
             <l> Y para siempre jamás </l>
             <l n="3255"> yo me doy por despedido. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
           <stage> Sale Leonor. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -5931,6 +6057,8 @@
             <l> ¿Ahora la juras? ¿No llevo </l>
             <l n="3265"> ya adelantado el castigo? </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
           <stage> Vase. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -6003,6 +6131,8 @@
             <l n="3310"> Isabel, ven a sacarme </l>
             <l part="I"> la escribanía. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
           <stage> Vanse las dos. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -6017,6 +6147,8 @@
             <l> hoy no saliese me dijo. </l>
             <l part="I"> Iré por el manto. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
           <stage> Sale don Juan. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -6205,6 +6337,8 @@
             <l> he de acetar el partido: </l>
             <l n="3450"> espera, pondreme un manto. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
           <stage> Vase. </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -6213,6 +6347,8 @@
             <l> llevando a Beatriz conmigo, </l>
             <l part="I"> y... </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
           <stage> Sale Leonor. </stage>
           <sp who="#leonor">
             <speaker> LEONOR </speaker>
@@ -6238,6 +6374,8 @@
             <l n="3470"> haciendo de tales lazos </l>
             <l> cadenas al albedrío. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
           <stage> Sale Beatriz con manto. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -6292,6 +6430,8 @@
             <l> esas finezas oíros! </l>
             <l> Todas mi amor las merece. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
           <stage> Sale Isabel. </stage>
           <sp who="#isabel">
             <speaker> ISABEL </speaker>
@@ -6382,6 +6522,8 @@
             <l n="3530"> (Yo me quedo. ¡oh, no me halle </l>
             <l> hoy la desdicha escondido!) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
           <stage> Escóndese. Vanse todos. Salen Otavio y don Diego. </stage>
           <sp who="#otavio">
             <speaker> OTAVIO </speaker>
@@ -6489,6 +6631,8 @@
             <speaker> OTAVIO </speaker>
             <l part="I"> Vamos los dos. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
           <stage> [Vanse. Don Juan al paño.] </stage>
           <sp who="#don-juan">
             <speaker> DON JUAN </speaker>
@@ -6540,6 +6684,8 @@
             <l> aunque con tal desengaño </l>
             <l> a todo he perdido el miedo. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
           <stage> Sale don Pedro. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
@@ -6607,6 +6753,8 @@
             <l n="3645"> Sal, Lucía, a ver quién anda </l>
             <l part="I"> allí. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
           <stage> Sale Beatriz. </stage>
           <sp who="#dona-beatriz">
             <speaker> DOÑA BEATRIZ </speaker>
@@ -6688,6 +6836,8 @@
             <speaker> DOÑA LEONOR </speaker>
             <l> (Por mí lo dicen los dos.) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
           <stage> Salen don Luis y Luquete. </stage>
           <sp who="#don-luis">
             <speaker> DON LUIS </speaker>
@@ -6831,6 +6981,8 @@
             <l> del empeño, con fingirla </l>
             <l n="3735"> uno esposa y otro hermana!) </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
           <stage> Salen Otavio y don Diego. </stage>
           <sp who="#don-luis">
             <speaker> DON LUIS </speaker>

@@ -5,16 +5,7 @@
       <titleStmt>
         <title type="main">Loa para el auto sacramental intitulado El gran teatro del mundo</title>
         <title type="sub">Pedro Calderón de la Barca</title>
-        <author>
-          <persName>
-            <forename>Pedro</forename>
-            <surname sort="1">Calderón</surname>
-            <nameLink>de la</nameLink>
-            <surname>Barca</surname>
-          </persName>
-          <idno type="wikidata">Q170800</idno>
-          <idno type="pnd">118518399</idno>
-        </author>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
         <respStmt>
           <resp>Data curation (cleaning, normalization and scene division)</resp>
           <persName xml:id="rojas">Rojas Castro, Antonio</persName>
@@ -23,65 +14,55 @@
       <publicationStmt>
         <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2019-05-16">
-          <time when="07:59:47"/>
-        </date>
+        <date when="2019-05-16"><time when="07:59:47"/></date>
         <idno type="quadramaX">Loa para el auto sacramental intitulado El gran teatro del mundo</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digitalSource">
-          <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-el-gran-teatro-del-mundo--0/html/</idno>
-          <bibl type="originalSource">
-            <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
-          </bibl>
-        </bibl>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-el-gran-teatro-del-mundo--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title></bibl></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
           <person xml:id="apostasía" sex="FEMALE">
-            <persName>LA APOSTASÍA</persName>
+            <persName>La Apostasía</persName>
           </person>
           <person xml:id="españa" sex="FEMALE">
-            <persName>ESPAÑA</persName>
+            <persName>España</persName>
           </person>
           <person xml:id="testamento-antiguo" sex="MALE">
-            <persName>TESTAMENTO ANTIGUO</persName>
+            <persName>Testamento Antiguo</persName>
           </person>
           <person xml:id="testamento-nuevo" sex="MALE">
-            <persName>TESTAMENTO NUEVO</persName>
+            <persName>Testamento Nuevo</persName>
           </person>
           <person xml:id="isaac" sex="MALE">
-            <persName>ISAAC</persName>
+            <persName>Isaac</persName>
           </person>
           <person xml:id="sansón" sex="MALE">
-            <persName>SANSÓN</persName>
+            <persName>Sansón</persName>
           </person>
           <person xml:id="ley-natural" sex="FEMALE">
-            <persName>LEY NATURAL</persName>
+            <persName>Ley Natural</persName>
           </person>
           <person xml:id="ley-escrita" sex="FEMALE">
-            <persName>LEY ESCRITA</persName>
+            <persName>Ley Escrita</persName>
           </person>
           <person xml:id="ley-de-gracia" sex="FEMALE">
-            <persName>LEY DE GRACIA</persName>
+            <persName>Ley de Gracia</persName>
           </person>
-          <person xml:id="música" sex="MALE">
-            <persName>MÚSICA</persName>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
           </person>
         </listPerson>
       </particDesc>
       <textClass>
         <keywords>
-          <term type="genreTitle">auto sacramental - loa</term>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">sin datos</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -115,7 +96,7 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene">
+        <div type="scene" resp="#rojas" n="1">
           <stage>Sale ESPAÑA con un coro de danza.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
@@ -162,12 +143,15 @@
           </sp>
           <sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
-            <stage>Sale.</stage>
+
             <l n="35"> Aguarda, aguarda, que a eso </l>
             <l> mi curiosidad pretende </l>
             <l> que mi escándalo te explique </l>
             <l part="I"> un argumento. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Sale.</stage>
           <sp who="#españa">
             <speaker>ESPAÑA</speaker>
             <l part="F"> ¿Quién eres? </l>
@@ -315,6 +299,8 @@
             <speaker>LOS 2</speaker>
             <l part="F">Atiende. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
           <stage>Salen por un lado el TESTAMENTO ANTIGUO de barba, a lo Hebreo, y por otro el NUEVO, joven a lo Romano.</stage>
           <sp who="#testamento-antiguo">
             <speaker>ANTIGUO</speaker>
@@ -408,6 +394,8 @@
             <l> lo aparatoso en lo vario, </l>
             <l> lo hermoso en lo diferente. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
           <stage>Sale LEY NATURAL.</stage>
           <sp who="#ley-natural">
             <speaker>[LEY NATURAL]</speaker>
@@ -430,6 +418,8 @@
             <l> una tabla ser sagrado </l>
             <l> de su zozobrada suerte. </l>
           </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
           <stage>Sale ISAAC.</stage>
           <sp who="#isaac">
             <speaker>[ISAAC]</speaker>
@@ -618,6 +608,7 @@
             <l n="390"> sustento a los que le temen. </l>
           </sp>
         </div>
+
       </div>
     </body>
   </text>
