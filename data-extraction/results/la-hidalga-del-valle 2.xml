@@ -1,0 +1,2340 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000029" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La hidalga del valle</title>
+        <title type="sub"/>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-14"><time when="09:15:59"/></date>
+        <idno type="quadramaX">La hidalga del valle</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-hidalga-del-valle--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la de Pedro del Pando y Mier, Autos Sacramentales, alegóricos y historiales ... Tercera Parte, Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz (Piezas maestras del teatro teológico español, Madrid, Biblioteca de Autores Cristianos, 1997, 4ª ed., t. I, pp. 403-425; 1ª ed. 1946).</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="culpa" sex="FEMALE">
+            <persName>La Culpa</persName>
+          </person>
+          <person xml:id="naturaleza" sex="FEMALE">
+            <persName>La Naturaleza</persName>
+          </person>
+          <person xml:id="gracia" sex="FEMALE">
+            <persName>La Gracia</persName>
+          </person>
+          <person xml:id="hidalga" sex="FEMALE">
+            <persName>La Hidalga</persName>
+          </person>
+          <person xml:id="contento" sex="MALE">
+            <persName>El Contento</persName>
+          </person>
+          <person xml:id="furor" sex="MALE">
+            <persName>El Furor</persName>
+          </person>
+          <person xml:id="amor-divino" sex="MALE">
+            <persName>Amor Divino</persName>
+          </person>
+          <person xml:id="job" sex="MALE">
+            <persName>Job</persName>
+          </person>
+          <person xml:id="david" sex="MALE">
+            <persName>David</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+          <person xml:id="placer" sex="MALE">
+            <persName>Placer</persName>
+          </person>
+          <person xml:id="niña" sex="FEMALE">
+            <persName>Una Niña</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1717">
+        <label/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000029" passive="http://www.wikidata.org/entity/Q69034004"/>
+    </listRelation>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <castList>
+        <head>Personajes</head>
+        <castItem>LA CULPA.</castItem>
+        <castItem>LA NATURALEZA.</castItem>
+        <castItem>LA GRACIA.</castItem>
+        <castItem>LA HIDALGA.</castItem>
+        <castItem>EL CONTENTO.</castItem>
+        <castItem>EL FUROR.</castItem>
+        <castItem>AMOR DIVINO.</castItem>
+        <castItem>JOB.</castItem>
+        <castItem>DAVID.</castItem>
+        <castItem>MÚSICA.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Sale LA CULPA con bastón y saca a LA NATURALEZA herrada con clavos, como esclava.</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Villanos, hijos de Adán,</l>
+            <l>los que sois, los que habéis sido,</l>
+            <l>y habéis de ser para siempre</l>
+            <l>en pecado concebidos;</l>
+            <l n="5">villanos, hijos de Adán</l>
+            <l>(segunda vez os lo digo),</l>
+            <l>los que pagáis a mi imperio</l>
+            <l>pechos del primer delito;</l>
+            <l>oíd, que con todos hablo,</l>
+            <l n="10">pues por que a mi voz rendidos</l>
+            <l>estéis todos, y ninguno</l>
+            <l>pueda excusarse de oírlo:</l>
+            <l>a vuestra naturaleza,</l>
+            <l>mi esclava, traigo conmigo,</l>
+            <l n="15">herrada con esos duros</l>
+            <l>hierros que en su rostro imprimo.</l>
+            <l>Yo soy la Culpa, yo soy</l>
+            <l>la serpiente, de quien dijo</l>
+            <l>en el Génesis Moisés</l>
+            <l n="20">que andaba en el paraíso</l>
+            <l>disimulada. Yo soy</l>
+            <l>aquel hermoso prodigio,</l>
+            <l>que, coronada en un monstruo</l>
+            <l>de siete cuellos distintos,</l>
+            <l n="25">Juan vio en el Apocalipsis,</l>
+            <l>con un vaso de oro rico,</l>
+            <l>brindar mortales venenos</l>
+            <l>de inficionados hechizos.</l>
+            <l>Yo soy, yo misma, en efecto;</l>
+            <l n="30">y pues hoy mi aliento altivo</l>
+            <l>lo ha dicho en públicas voces,</l>
+            <l>no sin vanidad lo ha dicho.</l>
+            <l>No vengo a engañaros hoy,</l>
+            <l>y así mi nombre no finjo;</l>
+            <l n="35">a supeditaros vengo,</l>
+            <l>y así a voces lo repito.</l>
+            <l>Cuando yo en el mundo estaba</l>
+            <l>sin imperio y sin dominio,</l>
+            <l>arrastrando por la tierra</l>
+            <l n="40">el pecho escamado mío,</l>
+            <l>me resbalaba en las flores,</l>
+            <l>temerosa de mi ruido,</l>
+            <l>y mis alientos cobardes</l>
+            <l>eran callados gemidos,</l>
+            <l n="45">disfrazándome engañosa,</l>
+            <l>por temor, o por arbitrio,</l>
+            <l>en las grutas de los valles,</l>
+            <l>o en las quiebras de los riscos;</l>
+            <l>porque como andaba entonces</l>
+            <l n="50">de traición, era preciso</l>
+            <l>disimular los intentos</l>
+            <l>y recatar los designios.</l>
+            <l>Pero ya que victoriosa</l>
+            <l>con tantos aplausos vivo,</l>
+            <l n="55">que erguido el pecho levanto,</l>
+            <l>que el cuello enroscado vibro,</l>
+            <l>la cerviz, que alta sacudo,</l>
+            <l>la frente, que altiva rijo,</l>
+            <l>dando, no gemidos roncos,</l>
+            <l n="60">ya no callados bramidos,</l>
+            <l>sino declaradas voces,</l>
+            <l>en articulados silbos.</l>
+            <l>Sabed, mortales, sabed</l>
+            <l>que no sin causa ha nacido</l>
+            <l n="65">hoy en mí la vanidad</l>
+            <l>que victoriosa publico;</l>
+            <l>pues hoy en una campaña,</l>
+            <l>que era verde laberinto,</l>
+            <l>la Gracia, y yo, cuerpo a cuerpo,</l>
+            <l n="70">y cara a cara nos vimos,</l>
+            <l>no partido el sol, las dos</l>
+            <l>entramos en desafío,</l>
+            <l>que como le tiene entero,</l>
+            <l>ella partirle no quiso;</l>
+            <l n="75">pero no importa, que yo</l>
+            <l>con las nubes de mi abismo</l>
+            <l>le empañe la luz al sol,</l>
+            <l>y con igual maña y brío,</l>
+            <l>ella a la luz, yo a la sombra,</l>
+            <l n="80">en el hermoso distrito,</l>
+            <l>brazo a brazo forcejeamos,</l>
+            <l>y fuerza a fuerza reñimos;</l>
+            <l>hasta que viendo que era</l>
+            <l>la suya mayor, previno</l>
+            <l n="85">mi ingenio contra su fuerza</l>
+            <l>un ardid; reconocido</l>
+            <l>de la Gracia, se ausentó,</l>
+            <l>teniendo ya por indigno</l>
+            <l>(viendo el sitio por mi parte)</l>
+            <l n="90">quedarse ella en aquel sitio.</l>
+            <l>Ausentóse, en fin, dejando</l>
+            <l>la campaña a mi albedrío,</l>
+            <l>llena de inmensos despojos,</l>
+            <l>y trofeos infinitos,</l>
+            <l n="95">quedando, por mayor triunfo,</l>
+            <l>mayor blasón de mi invicto</l>
+            <l>aliento, por prisionera</l>
+            <l>de mis cadenas, y grillos</l>
+            <l>la naturaleza humana,</l>
+            <l n="100">siendo en eterno martirio</l>
+            <l>esclava vil de la Culpa,</l>
+            <l>en cuyo grande conflicto,</l>
+            <l>por escapar con la vida,</l>
+            <l>pleito homenaje me hizo,</l>
+            <l n="105">de que un pecho eternamente</l>
+            <l>me pagarían sus hijos,</l>
+            <l>tan común, tan absoluto,</l>
+            <l>tan entero, tan cumplido,</l>
+            <l>que sin exceptuar persona,</l>
+            <l n="110">todos claramente dijo;</l>
+            <l>y así, cualquiera embrión</l>
+            <l>apenas en el abrigo</l>
+            <l>materno (primer sepulcro</l>
+            <l>del hombre) señas de vivo</l>
+            <l n="115">dará, al informarse en él</l>
+            <l>del alma el vital suspiro,</l>
+            <l>cuando se nombre mi esclavo,</l>
+            <l>se confiese mi cautivo,</l>
+            <l>siendo, aun antes de nacer,</l>
+            <l n="120">en aquel natural limbo,</l>
+            <l>señalado con mis hierros</l>
+            <l>y marcado con mis signos,</l>
+            <l>sin que pueda haber jamás</l>
+            <l>mortal ser que sea excluido</l>
+            <l n="125">de este pecho este tributo,</l>
+            <l>pues hasta los reyes mismos</l>
+            <l>con villanaje de humanos</l>
+            <l>acudirán al servicio.</l>
+            <l>Piadosamente crüel</l>
+            <l n="130">he aceptado los partidos;</l>
+            <l>y así a cobrar el tributo</l>
+            <l>ambiciosa el aire giro,</l>
+            <l>iluminándole a rayos,</l>
+            <l>tornasolándole a visos.</l>
+            <l n="135">Dezmera soy de mí mesma,</l>
+            <l>pues yo mesma a mí me envío</l>
+            <l>a cobrar mis rentas; éste</l>
+            <l>es el padrón donde alisto</l>
+            <l>mis vasallos, y por que</l>
+            <l n="140">ninguno pueda atrevido</l>
+            <l>excusarse de la paga,</l>
+            <l>aquesta esclava he traído</l>
+            <l>a que me avise de cuantos</l>
+            <l>se engendraren, pues ya miro</l>
+            <l n="145">que ella no podrá engañarse</l>
+            <l>de saber cuántos han sido</l>
+            <l>engendrados, siendo éste</l>
+            <l>de naturaleza oficio;</l>
+            <l>y así a concurrir con ella</l>
+            <l n="150">en el instante e improviso</l>
+            <l>de cualquiera concepción,</l>
+            <l>con ella voy de continuo,</l>
+            <l>corriendo parejas toda</l>
+            <l>la carrera de los siglos.</l>
+            <l n="155">Ya a vista del mundo estamos;</l>
+            <l>su fábrica descubrimos,</l>
+            <l>una emulación hermosa</l>
+            <l>de ese alcázar cristalino.</l>
+            <l>Tres puertas tiene, las dos</l>
+            <l n="160">todas abiertas las miro,</l>
+            <l>y la tercera cerrada.</l>
+            <l>Y pues que desde el principio</l>
+            <l>del mundo, hasta el fin del mundo</l>
+            <l>dilato el imperio mío,</l>
+            <l n="165">desde la primera quiero</l>
+            <l>ir asentando en mi libro</l>
+            <l>los tributarios vasallos,</l>
+            <l>que en mis padrones registro.</l>
+            <l>Llama a esa primera puerta,</l>
+            <l n="170">reconozcan sus vecinos</l>
+            <l>en su semblante mi horror,</l>
+            <l>y vean cuántos han sido,</l>
+            <l>son y serán, que las dos</l>
+            <l>a vasallarlos venimos;</l>
+            <l n="175">tú esclava, yo victoriosa;</l>
+            <l>tú con temor, yo con brío;</l>
+            <l>tú rendida, yo triunfante;</l>
+            <l>tú con yerros, yo con ricos</l>
+            <l>despojos; tú humilde, yo</l>
+            <l n="180">altiva; tú con suspiros,</l>
+            <l>yo con voces; tú con llantos,</l>
+            <l>y yo, en fin, con regocijos;</l>
+            <l>por que vean los mortales,</l>
+            <l>postrados hoy, y rendidos,</l>
+            <l n="185">que Culpa y Naturaleza,</l>
+            <l>con dos afectos distintos,</l>
+            <l>en cualquiera concepción,</l>
+            <l>igualmente concurrimos.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>Estas dos puertas, señora,</l>
+            <l n="190">que ya cursadas has visto,</l>
+            <l>son de la ley natural</l>
+            <l>y escrita; mas la que admiro</l>
+            <l>cerrada, no sé yo quién</l>
+            <l>viva en ella, e imagino</l>
+            <l n="195">que hasta ahora no se ha abierto</l>
+            <l>pues no hay gente en su edificio.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Si la hubiere, pagará</l>
+            <l>el tributo; haz lo que digo.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>¿Ha de la Ley Natural</l>
+            <l n="200">candor, y yugo sencillo</l>
+            <l>de nuestros primeros padres?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>En lo alto de la torre está una fábrica de tres puertas, las dos abiertas y la una cerrada, y JOB sale por una y dice sin bajar.</stage>
+          <sp who="#job">
+            <speaker>JOB</speaker>
+            <l>¿Quién con míseros gemidos</l>
+            <l part="I">llama a estas puertas?</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">Yo soy. </l>
+          </sp>
+          <sp who="#job">
+            <speaker>JOB</speaker>
+            <l>No te había conocido</l>
+            <l n="205">hasta que te vi los hierros</l>
+            <l>que traes en el rostro escritos,</l>
+            <l>Humana Naturaleza.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>Sin mis señas; no me admiro,</l>
+            <l>pues ya que han de conocerme,</l>
+            <l n="210">sé, por mis hierros, mis hijos.</l>
+          </sp>
+          <sp who="#job">
+            <speaker>JOB</speaker>
+            <l>Paciencia habrás menester;</l>
+            <l>¿quién es quien viene contigo,</l>
+            <l part="I">Naturaleza?</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">La Culpa, </l>
+            <l>a quien ya de esclava sirvo.</l>
+          </sp>
+          <sp who="#job">
+            <speaker>JOB</speaker>
+            <l n="215">¿Qué quieres, Culpa? Que yo</l>
+            <l>habiendo la voz oído,</l>
+            <l>que a los de la Natural</l>
+            <l>ley ha llamado, he salido</l>
+            <l part="I">por todos ellos.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Cobrar </l>
+            <l n="220">el pecho, a que reducidos</l>
+            <l>estáis todos los humanos,</l>
+            <l>es el intento que sigo,</l>
+            <l>empezando en la primera</l>
+            <l>Ley Natural, pues ha sido</l>
+            <l n="225">Ley Natural el pagarle,</l>
+            <l>y no quiero otro testigo,</l>
+            <l>en abono de que soy</l>
+            <l>yo el origen, y el principio</l>
+            <l>de todas las aficiones,</l>
+            <l n="230">probando que de los vicios</l>
+            <l>yo soy el original,</l>
+            <l>y ellos son retratos míos,</l>
+            <l>que el universal diluvio,</l>
+            <l>que empezando en un rocío,</l>
+            <l n="235">de la aurora, se hizo lluvia;</l>
+            <l>la lluvia (cobrando bríos),</l>
+            <l>fuentes; las fuentes, arroyos;</l>
+            <l>los arroyos, anchos ríos;</l>
+            <l>los ríos, inmensos mares;</l>
+            <l n="240">que entre piélagos y abismos,</l>
+            <l>al gran cadáver del mundo</l>
+            <l>dieron en su centro frío,</l>
+            <l>en monumentos de plata,</l>
+            <l>salobres tumbas de vidrio.</l>
+          </sp>
+          <sp who="#job">
+            <speaker>JOB</speaker>
+            <l n="245">Es la verdad; pero un arca,</l>
+            <l>a los desdenes esquivos</l>
+            <l>del mar, exenta se vio</l>
+            <l>sobre los crespos, y rizos</l>
+            <l>de las espumas, saliendo</l>
+            <l n="250">intacta de su peligro.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Calla, calla, que no sé</l>
+            <l>qué hielo han introducido</l>
+            <l>en mis venas tus razones,</l>
+            <l>o qué fuego en mis sentidos,</l>
+            <l n="255">qué monstruo de fuego, y nieve,</l>
+            <l>tan mal a los dos resisto,</l>
+            <l>que tiemblo, y me abraso a un tiempo;</l>
+            <l>un volcán, un Etna vivo</l>
+            <l>soy, pues de la nieve saco</l>
+            <l n="260">el fuego con que respiro.</l>
+            <l>¿Quién te metió en responder</l>
+            <l>por todos los comprendidos</l>
+            <l>(a ti) en la Ley Natural?</l>
+          </sp>
+          <sp who="#job">
+            <speaker>JOB</speaker>
+            <l>Mis trabajos infinitos,</l>
+            <l n="265">que como por ti padezco</l>
+            <l>más que todos, todos (visto</l>
+            <l>mi dolor) poder me dieron</l>
+            <l>para que hablase contigo.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Pues habla conmigo, Job,</l>
+            <l n="270">en el fin que solicito,</l>
+            <l>y las réplicas dejemos</l>
+            <l>de argumentos dicursivos.</l>
+            <l>A cobrar el pecho vengo;</l>
+            <l part="I">¿qué dices a aquesto?</l>
+          </sp>
+          <sp who="#job">
+            <speaker>JOB</speaker>
+            <l part="F">Digo </l>
+            <l n="275">que te le debo, y que en nombre</l>
+            <l>de toda mi Ley le rindo;</l>
+            <stage>Escribe LA CULPA.</stage>
+            <l>toma la congoja, el llanto,</l>
+            <l>la miseria y el conflicto,</l>
+            <l>la desnudez, hambre y sed,</l>
+            <l n="280">que padezco; y sean malditos</l>
+            <l>la noche y día en que fui</l>
+            <l>en pecado concebido.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vase.</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Ya faltó a Job la paciencia,</l>
+            <l>pues desesperado hizo</l>
+            <l part="I">tal acción.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l n="285" part="F"> No faltó, que él </l>
+            <l>por el pecado lo dijo.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Ya de la Ley Natural</l>
+            <l>cobrado el tributo miro,</l>
+            <l>y confesado por Job</l>
+            <l n="290">el vasallaje a que aspiro.</l>
+            <l>A las puertas de la Ley</l>
+            <l part="I">Escrita llama.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">Es preciso </l>
+            <l>obedecerte forzada.</l>
+            <l>¡Ah del gran pueblo escogido</l>
+            <l n="295">de Jehová e Israel, a quien</l>
+            <l>en un terso mármol liso,</l>
+            <l>buril el dedo de Dios</l>
+            <l>dejó el Decálogo escrito!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Sale DAVID a la otra puerta.</stage>
+          <sp who="#david">
+            <speaker>DAVID</speaker>
+            <l part="I">¿Quién llama?</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">David, responder </l>
+            <l n="300">por todos, como su invicto</l>
+            <l part="I">rey.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F"> Yo soy la que llamo, </l>
+            <l>aunque las voces han sido</l>
+            <l>de vuestra Naturaleza.</l>
+          </sp>
+          <sp who="#david">
+            <speaker>DAVID</speaker>
+            <l>No te pregunto, advertido,</l>
+            <l n="305">quién eres; y así, no habrás</l>
+            <l>menester, Culpa, decirlo,</l>
+            <l>porque ya has llegado a tiempo</l>
+            <l>que mi Culpa he conocido.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Según eso, ya sabrás</l>
+            <l n="310">el intento que he traído,</l>
+            <l>que es de cobrar el tributo</l>
+            <l>que ha impuesto el común delito</l>
+            <l>a todos los de tu ley,</l>
+            <l>cuyo gran crédito afirmo</l>
+            <l n="315">en las peregrinaciones,</l>
+            <l>que pasaron afligidos</l>
+            <l>en el desierto, sacados</l>
+            <l>de la esclavitud de Egipto;</l>
+            <l>pues en él tuvieron hambre,</l>
+            <l n="320">sed, desnudez y martirio,</l>
+            <l>que causó la primer Culpa.</l>
+          </sp>
+          <sp who="#david">
+            <speaker>DAVID</speaker>
+            <l>No puedo contradecirlo;</l>
+            <l>pero puedo consolarme</l>
+            <l>con que los cielos divinos</l>
+            <l n="325">sus peligros, hambre y sed</l>
+            <l>restituyeron benignos,</l>
+            <l>lloviéndolos cada día</l>
+            <l part="I">rocío.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Sí; mas rocío, </l>
+            <l>que se convirtió en gusanos</l>
+            <l n="330">a otro día, corrompido.</l>
+          </sp>
+          <sp who="#david">
+            <speaker>DAVID</speaker>
+            <l>Otro rocío por eso</l>
+            <l>también, sin corrupción, vimos</l>
+            <l>en la piel de Gedeón</l>
+            <l>cuajarle, cándido y limpio.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="335">No más, no más, que esa piel,</l>
+            <l>que concibió en sus armiños</l>
+            <l>el rocío intacto y puro,</l>
+            <l>me ha causado un paroxismo</l>
+            <l>mortal, un mortal letargo.</l>
+            <l n="340">¡Fuerte horror! ¡Fuerte delirio!</l>
+            <l>Reconóceme la deuda</l>
+            <l>y no argumentes conmigo.</l>
+          </sp>
+          <sp who="#david">
+            <speaker>DAVID</speaker>
+            <l>No puedo negarla; toma</l>
+            <l>las voces, que al aire envío,</l>
+            <l n="345">en señal del rendimiento</l>
+            <l>que por todas significo.</l>
+            <stage>Escribe LA CULPA.</stage>
+            <l>En iniquidades fui</l>
+            <l>engendrado, y concebido</l>
+            <l>fui de mi madre en pecado.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Vase.</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="350">Ya David por todos dijo</l>
+            <l>lo que yo quise, a esa puerta</l>
+            <l>que siempre cerrada vimos;</l>
+            <l>hasta ahora también llama,</l>
+            <l>y quienquiera que haya sido</l>
+            <l n="355">dueño suyo, reconozca</l>
+            <l>de mi poder el dominio.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>¡Ah, de la tercera puerta!</l>
+            <l>Del Mundo, ¿qué se ha seguido</l>
+            <l>a la Natural y Escrita?</l>
+          </sp>
+          <stage>En la puerta cerrada, LA GRACIA.</stage>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="360">Por haberte conocido,</l>
+            <l>Naturaleza, en la voz,</l>
+            <l>abro la casa en que vivo,</l>
+            <l>esperando un huésped nuevo,</l>
+            <l>para quien sólo previno</l>
+            <l n="365">todo el aparato de esas</l>
+            <l>dos leyes, que has discurrido;</l>
+            <l>pero como soy la Gracia,</l>
+            <l>es fuerza que tu albedrío</l>
+            <l>responda siempre que llames.</l>
+            <l n="370">¿Qué quieres? Que aunque mi pío</l>
+            <l>corazón darte quisiera</l>
+            <l>posada, mientras te miro</l>
+            <l>con ese hierro en el rostro</l>
+            <l>no puedes vivir conmigo.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="375">Ni yo se lo consintiera,</l>
+            <l>que es mi esclava, y no permito</l>
+            <l part="I">que viva con nadie.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Pues </l>
+            <l>¿qué quieres de este retiro?</l>
+            <l>¿No basta, Culpa, que seas</l>
+            <l n="380">hoy reina de cuanto miro,</l>
+            <l>viendo a la Naturaleza,</l>
+            <l>que fue mía, en tu servicio?</l>
+            <l>¿Que aquí vienes a ofenderme?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>No; y supuesto que describo</l>
+            <l n="385">el orbe, cobrando el pecho</l>
+            <l>a mi majestad debido</l>
+            <l>y que he llegado a tus puertas,</l>
+            <l>aunque desiertas las miro</l>
+            <l>por ahora, por si acaso</l>
+            <l n="390">se poblaren de vecinos</l>
+            <l>(que siendo la casa esta</l>
+            <l>que a las leyes se ha seguido,</l>
+            <l>Natural y Escrita, bien</l>
+            <l>al verte en ella adivino</l>
+            <l n="395">que la Ley de Gracia sea)</l>
+            <l>algún tiempo, determino</l>
+            <l>que de sus habitadores</l>
+            <l>fiadora salgas, escrito</l>
+            <l>dejando en este cuaderno</l>
+            <l n="400">paguen, aunque sean mis hijos;</l>
+            <l>pues para reconocer</l>
+            <l>de su pecado el principio,</l>
+            <l>basta conocer el fin</l>
+            <l>que han de tener, rayo vivo,</l>
+            <l n="405">llama pura ha de acabar</l>
+            <l>con todos, cuando el impío</l>
+            <l>diluvio segundo arroje</l>
+            <l>en desatados prodigios</l>
+            <l>iras, culebreando a rayos;</l>
+            <l n="410">rayos, culebreando a giros.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>De ese furor, de ese incendio,</l>
+            <l>en los profetas previsto,</l>
+            <l>sin ofenderle las almas,</l>
+            <l>se quedará un verde sitio,</l>
+            <l n="415">bien como allá en el diluvio</l>
+            <l>se reservó el paraíso,</l>
+            <l>luego si ha de reservarse</l>
+            <l>algo del incendio altivo,</l>
+            <l>mal haré en firmar por todos,</l>
+            <l n="420">pues podrá ser (y aun lo afirmo)</l>
+            <l>que alguna humana criatura</l>
+            <l>en la hoguera de los siglos,</l>
+            <l>salamandra de ese fuego,</l>
+            <l>tenga los rayos por tibios.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="425">No prosigas, no prosigas,</l>
+            <l>que de escucharte me aflijo;</l>
+            <l>un áspid tengo en el pecho,</l>
+            <l>y a la garganta un cuchillo.</l>
+            <l>¿Cómo (soy toda furor),</l>
+            <l n="430">Gracia (toda soy abismos)</l>
+            <l>osada (¡rabiando muero!),</l>
+            <l>niegas (¡volcanes respiro!)</l>
+            <l>darme (¡quiero hablar, y lloro!)</l>
+            <l>tú (voy a llorar, y gimo)</l>
+            <l n="435">el pecho (¡toda soy rayos!),</l>
+            <l>que (¡toda soy basiliscos!)</l>
+            <l>me han dado (¡toda soy furia!)</l>
+            <l>cuantas hasta hoy han nacido?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Como ya lo figurado</l>
+            <l n="440">de quien figuras han sido,</l>
+            <l>y sombras esas dos leyes</l>
+            <l>(que atrás has dejado), miro</l>
+            <l>acercarse, a cuyo efecto</l>
+            <l>aquesta casa fabrico;</l>
+            <l n="445">y podrá ser que a ella venga</l>
+            <l>huésped tal, que su divino</l>
+            <l>ser no quiera pagar pecho,</l>
+            <l>por ser hidalgo y ser limpio;</l>
+            <l>y así por todos no tengo</l>
+            <l n="450">de obligarme en tus registros.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Vase.</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>¿Cómo en este humano valle</l>
+            <l>de lágrimas y suspiros,</l>
+            <l>ninguna hidalga criatura</l>
+            <l>ha de negar mi dominio?</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l n="455">Como es Dios quien puede hacerlo,</l>
+            <l>y es su poder infinito.</l>
+            <stage>Riéndose.</stage>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>¿Tú también, esclava vil,</l>
+            <l>te atreves a presumirlo,</l>
+            <l>y alegre en mi cautiverio</l>
+            <l n="460">te regocija el oírlo?</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>Sí; que la Naturaleza,</l>
+            <l>habiendo a la Gracia oído</l>
+            <l>que su ley se acerca, toda</l>
+            <l>ha de ser hoy regocijos,</l>
+            <l n="465">desde la más tierna flor,</l>
+            <l>al más destroncado lirio.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Vivo yo, que no ha de serlo;</l>
+            <stage>Aparte.</stage>
+            <l>pero en vano solicito</l>
+            <l>estorbárselo, que yo,</l>
+            <l n="470">señora de su albedrío,</l>
+            <l>no soy, ni de sus afectos;</l>
+            <l>¿pero podrá el furor mío</l>
+            <l>castigárselos, Furor?</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+
+            <l>Habiendo tu voz oído,</l>
+            <l n="475">vengo a saber qué me quieres.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Sale.</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Esta esclava se ha atrevido</l>
+            <l>a reír, cuando yo lloro;</l>
+            <l>pues de mis iras ministro</l>
+            <l>eres, castiga esa esclava.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l n="480">Sí haré, pero suspendido</l>
+            <l>el brazo en la misma acción,</l>
+            <l>parece que la ha tenido.</l>
+            <l>¿Qué hay en ti, Naturaleza,</l>
+            <l>hoy más que ayer que remiso,</l>
+            <l n="485">siendo el Furor de la Culpa</l>
+            <l>o te respeto, o te admiro?</l>
+            <l>No en vano de sus efectos</l>
+            <l>confuso y triste he venido</l>
+            <l part="I">hoy a buscarte.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Furor, </l>
+            <l n="490">¿pues qué es lo que ha sucedido?</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>Escucha, que a ti te importa</l>
+            <l>más que a todos, el aviso.</l>
+            <l>Del Tribu de Leví, de la gran casa</l>
+            <l>de David, y los reyes de Judea</l>
+            <l n="495">(en vivo fuego el pecho se me abrasa</l>
+            <l>en nombrarlos, no sé qué causa sea),</l>
+            <l>con poca hacienda y con familia escasa,</l>
+            <l>en Nazareth, ciudad de Galilea,</l>
+            <l>Él y Joaquín nació, siendo su padre</l>
+            <l n="500">Mataht y su parienta Esthá su madre.</l>
+            <l>De esta misma familia soberana,</l>
+            <l>en la ciudad a quien Belén llamaron,</l>
+            <l>de Estolano nació y Merecïana</l>
+            <l>una infanta a quien Ana apellidaron.</l>
+            <l n="505">Ya jóvenes los dos, Joaquín y Ana,</l>
+            <l>como a deudos, sus deudos concertaron</l>
+            <l>casarlos, que en fin hoy es ley forzosa</l>
+            <l>que de su misma tribu sea la esposa.</l>
+            <l>Casados, pues, en matrimonio santo,</l>
+            <l n="510">castamente los dos siempre vivieron,</l>
+            <l>con tanta paz, con tanto amor, con tanto</l>
+            <l>placer, que envidia religiosa fueron;</l>
+            <l>si bien, como a la risa sigue el llanto,</l>
+            <l>a sus gustos las lágrimas siguieron,</l>
+            <l n="515">que estéril Ana, consumió sin hijos</l>
+            <l>la luenga edad de términos prolijos.</l>
+            <l>Al templo iban los dos, no sin vergüenza</l>
+            <l>de la gente, que estériles les veía,</l>
+            <l>y en él (aquí tu confusión comienza)</l>
+            <l n="520">a su Dios le rogaban (¡pena mía!)</l>
+            <l>que liberal sus sentimientos venza;</l>
+            <l>y cada uno, llorando, le ofrecía</l>
+            <l>el fruto consagrarle por tributo</l>
+            <l>si ya de bendición les diese el fruto.</l>
+            <l n="525">Con estas esperanzas, engañados</l>
+            <l>sus deseos, los dos juntos vivieron,</l>
+            <l>hasta que de su afecto arrebatados</l>
+            <l>a la consagración del templo fueron</l>
+            <l>allá a Jerusalén, donde, notados</l>
+            <l n="530">de la esterilidad, echar se vieron</l>
+            <l>del sacerdote, a cuyo celo santo</l>
+            <l>su humildad respondió con sólo el llanto.</l>
+            <l>Desconsolados, pues, determinaron</l>
+            <l>apartarse los dos, y con extraña</l>
+            <l n="535">ternura para sí, los dos tomaron</l>
+            <l>ella una gruta, y él una montaña.</l>
+            <l>En su ruego, aun allí perseveraron,</l>
+            <l>y viendo el cielo que su lecho baña</l>
+            <l>continuo el llanto, envuelto en sus gemidos</l>
+            <l n="540">los escuchó, que el cielo es todo oídos.</l>
+            <l>Un ángel, con inmensas alegrías,</l>
+            <l>a los dos anunció, de luz vestido</l>
+            <l>(bien como fue anunciado Jeremías</l>
+            <l>y bien como Sansón fue bendecido),</l>
+            <l n="545">que Ana concebiría (¡oh ansias mías!),</l>
+            <l>en tan mayor edad (¡pierdo el sentido!),</l>
+            <l>una niña esta noche, hermosa y bella,</l>
+            <l>poniendo el cielo su atención en ella.</l>
+            <l>Que aunque es verdad que yo saber no pude</l>
+            <l n="550">aquesta anunciación, por milagrosa</l>
+            <l>y sobrenatural, no es bien se dude,</l>
+            <l>que la sé, no por verla misteriosa,</l>
+            <l>sino porque después uno a otro acude,</l>
+            <l>ella alegre, él ufano, ella piadosa;</l>
+            <l n="555">él felice, y allí me informé de ello,</l>
+            <l>que en llegándolo a hablar, pude sabello.</l>
+            <l>De aquesta cuenta, que los dos se han dado,</l>
+            <l>un común regocijo se ha seguido;</l>
+            <l>el sol, un manto azul, todo estrellado,</l>
+            <l n="560">con recamados visos se ha vestido;</l>
+            <l>la luna, de topacios se ha calzado;</l>
+            <l>el cielo, de diamantes se ha lucido</l>
+            <l>(yo no sé para quién); coronas bellas</l>
+            <l>de doce en doce hicieron las estrellas;</l>
+            <l n="565">la tierra, de sus galas envidiosa,</l>
+            <l>se ha vestido también de mil colores,</l>
+            <l>y siendo por diciembre, tan hermosa</l>
+            <l>está, que brota anticipadas flores;</l>
+            <l>la azucena, jazmín, clavel y rosa,</l>
+            <l n="570">al mayo le han robado los primores,</l>
+            <l>dando (no sé por qué) la enhorabuena</l>
+            <l>clavel, rosa y jazmín a la azucena.</l>
+            <l>Las fuentes, con tal risa, sus cristales</l>
+            <l>ofrecen hoy, que cuando fugitivas</l>
+            <l n="575">corren tan lindas, pues tan liberales</l>
+            <l>que selladas son pozo de aguas vivas.</l>
+            <l>El peso de los orbes celestiales</l>
+            <l>son (sin hierbas ni aromas ofensivas,</l>
+            <l>siendo, no sé a qué fin) bello traslado,</l>
+            <l n="580">cifra hermosa de todo lo criado.</l>
+            <l>A pesar de la esfera, te florece</l>
+            <l>el más estéril prado, el más desierto</l>
+            <l>monte; éste escalar el sol parece,</l>
+            <l>y aquél parece el más cerrado huerto.</l>
+            <l n="585">Y el cielo con la oliva reverdece,</l>
+            <l>la palma crece, y el ciprés experto;</l>
+            <l>luce el plátano, y todos cobran alma:</l>
+            <l>cedro, oliva, ciprés, plátano y palma.</l>
+            <l>Las aves, con canciones más süaves,</l>
+            <l n="590">pasmados tienen a su voz los vientos,</l>
+            <l>y aun músicos más suaves que las aves,</l>
+            <l>articulados forman los acentos.</l>
+            <l>Alegres una vez, y otra vez graves,</l>
+            <l>son a compás templados instrumentos,</l>
+            <l n="595">haciendo armoniosa y dulce salva</l>
+            <l>a la noche, más métrica que el alba.</l>
+            <l>¿Mas para qué te informa la voz mía</l>
+            <l>de aquesta novedad, de esta extrañeza,</l>
+            <l>si lo puedes saber de la alegría</l>
+            <l n="600">que ha ostentado esa vil Naturaleza?</l>
+            <l>Efectos suyos son los de este día,</l>
+            <l>pues de su esclavitud en la tristeza,</l>
+            <l>feliz, contenta, alegre está, y ufana,</l>
+            <l>siendo, cual es, Naturaleza humana.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="605">¿Qué importa? Que yo altiva, osada y fuerte,</l>
+            <l>de esta que humilde está, presa y cautiva,</l>
+            <l>los triunfos borraré, y aun de otra suerte</l>
+            <l>he de vencer su vanidad altiva:</l>
+            <l>si en esa anunciación su gloria advierte,</l>
+            <l n="610">presto en la Concepción haré que escriba</l>
+            <l>en mi libro esa niña el vasallaje</l>
+            <l>que debe, por nacer de su linaje.</l>
+            <l>Anunciado Sansón, pero ha pagado;</l>
+            <l>Jeremías también lo ha concedido;</l>
+            <l n="615">pues para concebirse con pecado,</l>
+            <l>¿anunciada qué importa que hayas sido?</l>
+            <l>De mí, ningún viviente se ha exceptuado;</l>
+            <l>de ti, ningún humano se ha excluido.</l>
+            <l>Camina, pues, Naturaleza humana,</l>
+            <l n="620">en casa (con los dos) de Joaquín y Ana.</l>
+            <l>Verán el sol, la luna y las estrellas,</l>
+            <l>la azucena, los lirios y las rosas,</l>
+            <l>las claras fuentes y las plantas bellas,</l>
+            <l>músicas dulces y aves amorosas,</l>
+            <l n="625">con eclipses, desmayos y querellas,</l>
+            <l>con estragos, con ruinas lastimosas,</l>
+            <l>que esa anunciada luz tan prevenida</l>
+            <l>ha de ser en pecado concebida.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Vanse, y suena música, y sale EL PLACER, escuchándola.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Por que de Gracia y de Fe</l>
+            <l n="630">eterno tu aplauso sea,</l>
+            <l>tota pulchra, amica mea;</l>
+            <l>macula non est in te.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>¡Válgame el cielo! ¿Qué voces</l>
+            <l>me están hablando al oído,</l>
+            <l n="635">llevándome suspendido</l>
+            <l>de sus acentos veloces?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Tú, Placer, ¿no las conoces?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>No, que mis ojos no ven</l>
+            <l>quién es quien canta, ni a quién</l>
+            <l n="640">es la Música tampoco,</l>
+            <l>pues sólo examino, y toco</l>
+            <l>(si en ello reparo bien),</l>
+            <l>que en los cantares habrá,</l>
+            <l>que he escuchado de una esposa,</l>
+            <l n="645">toda limpia, y toda hermosa;</l>
+            <l>pues la primera palabra,</l>
+            <l>que en ella el esposo habla,</l>
+            <l>y yo del tono escuché,</l>
+            <l>en raro concepto fue,</l>
+            <l n="650">para que ser así crea.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Tota pulchra, amica mea;</l>
+            <l>macula non est in te.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Toda eres hermosa, dice,</l>
+            <l>y en ti no hay mancha ninguna,</l>
+            <l n="655">a Fe de buena fortuna,</l>
+            <l>bien dichosa, y bien felice</l>
+            <l>ser aquella a quien predice</l>
+            <l>la canción misterio tanto,</l>
+            <l>aquella a quien este canto</l>
+            <l n="660">se dedica, y bien perfeta,</l>
+            <l>pues el músico y poeta</l>
+            <l>es el Espíritu Santo,</l>
+            <l>¿qué trae consigo este día,</l>
+            <l>que todo el orbe es contento,</l>
+            <l n="665">es música todo el viento,</l>
+            <l>es todo el valle alegría,</l>
+            <l>toda la tierra armonía,</l>
+            <l>todas las nubes colores,</l>
+            <l>belleza todas las flores,</l>
+            <l n="670">risa todos los cristales,</l>
+            <l>paz todos los animales,</l>
+            <l>todos los cielos favores?</l>
+            <l>Pues, mariposas aladas,</l>
+            <l>infinitos niños bellos</l>
+            <l n="675">suben, y bajan a ellos</l>
+            <l>con alas tornasoladas,</l>
+            <l>las frentes traen coronadas</l>
+            <l>con flor de otra primavera.</l>
+            <l>¡Quién uno coger pudiera!</l>
+            <l n="680">Que a fe que si le agarrara,</l>
+            <l>que nunca allá se tornara;</l>
+            <l>y pienso que le estuviera</l>
+            <l>aun mejor a él que no a mí,</l>
+            <l>que aunque soy pobre, no dudo</l>
+            <l n="685">que no anduviera desnudo,</l>
+            <l>como en el aire le vi,</l>
+            <l>yo le vistiera (¡ay de mí!)</l>
+            <l>si vestirse puede un rayo,</l>
+            <l>pues el copete que el mayo</l>
+            <l n="690">teje, un sayo mi Placer</l>
+            <l>le hiciera, si el Placer ser</l>
+            <l>puede de su capa un sayo.</l>
+            <l>En la casa de Joaquín,</l>
+            <l>donde yo a servir he entrado,</l>
+            <l n="695">es a donde se han parado,</l>
+            <l>convirtiéndole en jardín</l>
+            <l>todos: ¿yo no sé a qué fin,</l>
+            <l>ni con qué causa colijo</l>
+            <l>que haya en ella regocijo</l>
+            <l n="700">tan grande? ¿Ni para qué</l>
+            <l>yo en ella a servir entré?</l>
+            <l>¿Si por la falta de un hijo,</l>
+            <l>tristes, y desconsolados,</l>
+            <l>él y su esposa vivieron,</l>
+            <l n="705">desde que del templo fueron</l>
+            <l>en Jerusalén echados,</l>
+            <l>no penetran mis cuidados</l>
+            <l>a quien se hace este festín,</l>
+            <l>ni tampoco sé a qué fin,</l>
+            <l n="710">viviendo en la soledad</l>
+            <l>aparte, hoy en la ciudad</l>
+            <l>se han buscado Ana y Joaquín?</l>
+            <l>¿Pero quién os mete a vos</l>
+            <l>en discurrir ni pensar,</l>
+            <l n="715">Placer, que os haréis pesar?</l>
+            <l>Éstas son cosas de Dios;</l>
+            <l>no discurramos los dos</l>
+            <l>pergeño, que soy grosero,</l>
+            <l>y vos muy sutil; empero,</l>
+            <l n="720">pues el primer día ha sido</l>
+            <l>que Joaquín me ha recibido,</l>
+            <l>hacerle falta no quiero;</l>
+            <l>y, pardiez, que no el cuidado</l>
+            <l>de servir sólo me lleva,</l>
+            <l n="725">que fuera cosa muy nueva</l>
+            <l>tener cuidado un criado</l>
+            <l>(y más el Placer, que es dado</l>
+            <l>a servir mal, y a faltar),</l>
+            <l>sino el ansia de mirar</l>
+            <l n="730">si asir pueden mis solaces,</l>
+            <l>uno de aquellos rapaces</l>
+            <l>que han dado en salir y entrar</l>
+            <l>en su casa; éste bailando,</l>
+            <l>riendo de mí se fue</l>
+            <l n="735">éste, y todo, ¿pues por qué,</l>
+            <l>muchachos, que andáis jugando,</l>
+            <l>de mí os estáis retirando?</l>
+            <l>Mirad, que soy el Placer;</l>
+            <l>¿aún no, aún no os dejáis coger?</l>
+            <l n="740">¿Qué hicierais más al pesar?</l>
+            <l>Mirad que me haréis pensar</l>
+            <l>que no me habéis menester.</l>
+            <l>Pero gente es la que viene;</l>
+            <l>quiero quedarme en la puerta</l>
+            <l n="745">de la casa de Joaquín,</l>
+            <l>que ya es celestial Esfera.</l>
+            <l>Y pues hoy me ha recibido</l>
+            <l>con cariñosas promesas,</l>
+            <l>y le sirve mi ignorancia,</l>
+            <l n="750">el no hacerle falta es fuerza,</l>
+            <l>por si por dicha hay visita,</l>
+            <l>que venga esta noche a ella,</l>
+            <l>no tengan que llamar; pero</l>
+            <l>aunque en confusas tinieblas,</l>
+            <l n="755">que ya la noche, a pesar</l>
+            <l>de tantas luces, dispensa,</l>
+            <l>he conocido quién son,</l>
+            <l>que en fin soy Inteligencia,</l>
+            <l>pues el divino Placer</l>
+            <l n="760">allá en el cielo se engendra,</l>
+            <l>que pensar y que admirar</l>
+            <l>me han dado las tres, que llegan,</l>
+            <l>pues la Gracia, acompañada</l>
+            <l>del Divino Amor que en ella</l>
+            <l n="765">vive, por aquesta parte</l>
+            <l>hacia la casa se acerca;</l>
+            <l>la Culpa de su Furor,</l>
+            <l>que un instante no le deja,</l>
+            <l>por esotra, y admirada,</l>
+            <l n="770">confusa, absorta y suspensa,</l>
+            <l>entre la Culpa y la Gracia</l>
+            <l>viene la Naturaleza;</l>
+            <l>de grandes misterios son</l>
+            <l>prevenciones, pues revelas</l>
+            <l n="775">tus misterios al humilde,</l>
+            <l>haz, Señor, que aquéste entienda.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Salen LA GRACIA y EL DIVINO AMOR por una parte; y por la otra, LA CULPA, y EL FUROR y LA NATURALEZA un poco más adelante, y van andando como hacia la casa de Joaquín.</stage>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>De una música llamada,</l>
+            <l>que acordadamente suena,</l>
+            <l>y guiada del Divino</l>
+            <l n="780">Amor (que tras sí me lleva),</l>
+            <l>he penetrado los aires,</l>
+            <l>siempre a obedecer dispuesta.</l>
+          </sp>
+          <sp who="#amor-divino">
+            <speaker>AMOR</speaker>
+            <l>Ya prevenida la Gracia,</l>
+            <l>humilde está a mi obediencia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="785">Guiada de aquesta esclava,</l>
+            <l>que está a mis leyes sujeta,</l>
+            <l>y acompañada también</l>
+            <l>del Furor, que en mí se engendra,</l>
+            <l>penetrado he los abismos.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l n="790">Bárbaras inteligencias,</l>
+            <l>ya prevenida la Culpa,</l>
+            <l>sigue a la Naturaleza.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>Absorta entre mil afectos,</l>
+            <l>con temor y reverencia</l>
+            <l n="795">voy a misterio tan grande,</l>
+            <l>mientras con más luz me ciega.</l>
+          </sp>
+          <sp who="#amor-divino">
+            <speaker>AMOR</speaker>
+            <l>Por dar horror a la Culpa,</l>
+            <l>y que a esta ocasión no venga,</l>
+            <l>canta, Gracia; oiga tu voz.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <stage>Cantando.</stage>
+            <l n="800">Tota pulchra, amica mea.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Quien dijo toda es hermosa</l>
+            <l>no previno mancha en ella.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>Ésta es la voz de la Gracia.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>Por que no esté tan contenta</l>
+            <l n="805">y huya de aquí, canta, Culpa,</l>
+            <l part="I">otro verso también.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <stage>Cantando.</stage>
+            <l part="F">Pereat</l>
+            <l>dies, in qua natus sum.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Que sea maldito y perezca</l>
+            <l>el día, en que es concebido</l>
+            <l part="I">el hombre.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l n="810" part="F">Mi Culpa es ésta. </l>
+          </sp>
+          <sp who="#amor-divino">
+            <speaker>AMOR</speaker>
+            <l>Prosigue, Gracia, prosigue</l>
+            <l>la confusión, que le aumentas.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Macula non est in te.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>Ya sin mancha la confiesa</l>
+            <l n="815">el mismo Espíritu Santo.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>Prosigue, por que convenzas</l>
+            <l part="I">su ignorancia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <stage>Cantando.</stage>
+            <l part="F">Et in peccatis</l>
+            <l>concepit me mater mea.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>¡Entre la Culpa y la Gracia</l>
+            <l n="820">absorta estoy y suspensa!</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>¿Naturaleza, qué aguardas?</l>
+            <l>Dentro de esa casa entra,</l>
+            <l>por que contigo entre yo.</l>
+          </sp>
+          <stage>Adelántase LA NATURALEZA y va LA CULPA tras ella.</stage>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>El obedecerte es fuerza.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="825">¡Qué dispuesta a obedecer</l>
+            <l>está la Naturaleza!</l>
+          </sp>
+          <sp who="#amor-divino">
+            <speaker>AMOR</speaker>
+            <l>Llega, Gracia, porque viene</l>
+            <l>la Culpa a tomar la puerta.</l>
+          </sp>
+          <stage>Párase LA NATURALEZA.</stage>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>No sé qué me ha suspendido.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="830">Partió la Naturaleza</l>
+            <l>y esperó un poco la Gracia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>¿Naturaleza, qué esperas?</l>
+            <l part="I">Entra dentro.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l part="F">Entra conmigo. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Al dar la mano LA NATURALEZA a LA CULPA, tómala LA GRACIA y se entra, cerrándose una puerta que ha de haber.</stage>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="I">Sí haré.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Tente, aguarda, espera, </l>
+            <l n="835">Naturaleza engañada,</l>
+            <l>que no soy yo la que llevas;</l>
+            <l>otra primero que yo</l>
+            <l>entró y cerróme las puertas.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Adelantóse la Gracia,</l>
+            <l n="840">dejando a la Culpa fuera,</l>
+            <l>por que la Culpa y la Gracia</l>
+            <l>estar juntas no pudieran.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>¡Ay de mí! ¿Qué concepción</l>
+            <l>puede ser, mortales, esta</l>
+            <l n="845">que sin mí se hace? No es</l>
+            <l>posible, sin culpa, hacerla.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>Es verdad; y pues contigo</l>
+            <l>está tu Furor, no temas;</l>
+            <l part="I">entra dentro.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">No es posible, </l>
+            <l n="850">porque está de Gracia llena</l>
+            <l>esta casa; tanto, que</l>
+            <l>no puedo caber yo en ella.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l part="I">Yo te haré lugar.</l>
+          </sp>
+          <stage>Quítale EL AMOR la espada al FUROR y se pone a guardar la puerta.</stage>
+          <sp who="#amor-divino">
+            <speaker>AMOR</speaker>
+            <l part="F">Primero </l>
+            <l>te quitaré yo las fuerzas,</l>
+            <l n="855">y con tu espada seré</l>
+            <l>el querubín de esta puerta.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Vase.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Sin armas quedó el poder</l>
+            <l>de la Culpa, por haberlas</l>
+            <l>quitado el Amor Divino</l>
+            <l n="860">al Furor de su soberbia.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>¿Qué has conseguido en quitarme</l>
+            <l>esa espada que te llevas,</l>
+            <l>si aunque me dejes sin armas</l>
+            <l>conmigo mismo me dejas?</l>
+            <l n="865">Entra, Culpa, que mi aliento</l>
+            <l>te inspira llamas eternas.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Sí haré, a pesar de la Gracia,</l>
+            <l>y con mi rabia sangrienta</l>
+            <l>morderé (serpiente altiva)</l>
+            <l n="870">la planta a esa niña bella.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Paréceme que te pone</l>
+            <l>la tal planta en la cabeza.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Vase.</stage>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>Para hablar en esto, es</l>
+            <l>muy grande vuestra simpleza.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="875">En el Paraíso entré,</l>
+            <l>estando en su verde esfera</l>
+            <l>también entonces la Gracia;</l>
+            <l>¿pues qué mucho que me atreva</l>
+            <l>(de mi Furor persuadida)</l>
+            <l n="880">a esta casa, aunque esté en ella</l>
+            <l>la Gracia ahora? Mas como</l>
+            <l>que trabadas en la tierra</l>
+            <l>tengo las plantas, no puedo,</l>
+            <l>no puedo (¡ay de mí!) moverlas;</l>
+            <l n="885">que tiene echadas raíces</l>
+            <l>la Culpa en la tierra, es cierta</l>
+            <l>proposición, pues soy tronco</l>
+            <l>y no puedo andar en ella.</l>
+            <l>León he sido, la cuartana</l>
+            <l n="890">me ha dado ahora, pues tiemblan</l>
+            <l>todos mis miembros helados</l>
+            <l>discurriendo por mis venas</l>
+            <l>un ardor, que helado abrasa;</l>
+            <l>un hielo, que ardiente hiela;</l>
+            <l part="I">Furor, llega a mí.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l n="895" part="F">No puedo, </l>
+            <l>que en maravilla como ésta</l>
+            <l>tú tienes el accidente,</l>
+            <l>y yo desmayo las fuerzas.</l>
+            <l>No en vano (¡ay de mí!), no en vano,</l>
+            <l n="900">al ir cobrando las rentas</l>
+            <l>del común pecho del hombre,</l>
+            <l>encontré en la edad primera</l>
+            <l>sobre las ondas del mar,</l>
+            <l>que hidrópicas, y sedientas,</l>
+            <l n="905">bebieron el universo,</l>
+            <l>aquella arca hermosa, aquella</l>
+            <l>que corrió sobre las ondas,</l>
+            <l>sin temor de la tormenta.</l>
+            <l>No en vano, no, en la segunda,</l>
+            <l n="910">entre el destierro y miseria</l>
+            <l>de los peregrinos hijos</l>
+            <l>de Israel, vi al alba bella</l>
+            <l>llorar un manso rocío</l>
+            <l>sobre una cándida y tersa</l>
+            <l n="915">piel, siendo el llanto del alba,</l>
+            <l>al caer, lágrimas tiernas;</l>
+            <l>al llegar, menudo aljófar,</l>
+            <l>y al irse cuajando, perlas.</l>
+            <l>Y no en vano se imagina</l>
+            <l n="920">en la Ley de Gracia eterna</l>
+            <l>reservada del incendio</l>
+            <l>alguna mansión inmensa;</l>
+            <l>¿pero qué digo? ¿Qué digo?</l>
+            <l>Miente mi voz si confiesa</l>
+            <l n="925">que es verdad que sin mi Culpa</l>
+            <l>puede ser Concepción ésta,</l>
+            <l>por más figuras y sombras,</l>
+            <l>y por más que con diversas</l>
+            <l>gracias presuma la Gracia</l>
+            <l n="930">pasmar la Naturaleza.</l>
+            <l>Privilegio de Dios tengo</l>
+            <l>(su mano me lo dio mesma)</l>
+            <l>de que nadie nacería</l>
+            <l>sin reconocer la deuda</l>
+            <l n="935">que como pecheros pagan</l>
+            <l>los descendientes de Eva.</l>
+            <l>Aqueste valle no es</l>
+            <l>posible que exentos tenga,</l>
+            <l>porque todo es behetría,</l>
+            <l n="940">y todos pagan en ella;</l>
+            <l>y así, a aquesta Concepción</l>
+            <l>pondré pleito ante su eterna</l>
+            <l part="I">Cancillería.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">No dudes </l>
+            <l>que salgas con la sentencia</l>
+            <l n="945">(haz notorio el privilegio</l>
+            <l>de que están las leyes llenas)</l>
+            <l>en tu favor, pues en todas</l>
+            <l>hay quien la Culpa confiesa,</l>
+            <l>y en todas tres tus letrados</l>
+            <l n="950">Job, David y Pablo sean;</l>
+            <l>y habiéndola requerido</l>
+            <l>con él a sus mismas puertas,</l>
+            <l>si no te le obedecieren,</l>
+            <l>saca desde luego prendas,</l>
+            <l n="955">que serán las opiniones</l>
+            <l>encontradas que padezca;</l>
+            <l>y si quisiere cobrarlas</l>
+            <l>por hidalga o por exenta,</l>
+            <l>litigue a ejecutoria,</l>
+            <l n="960">pruebe hidalguía y limpieza.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Sale. Entra EL PLACER.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Si probara que eso sólo,</l>
+            <l>me vuelve a echar acá fuera.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>¿Adónde está el privilegio</l>
+            <l>que tu justicia sustenta?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="965">En el Génesis está;</l>
+            <l part="I">ve por él.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l part="F">Aquí me espera. </l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Vase.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Por buen privilegio va,</l>
+            <l>pues está al pie de la letra</l>
+            <l>cuando a la mujer castiga</l>
+            <l n="970">el Señor su inobediencia,</l>
+            <l>que pondrá la mujer, dijo,</l>
+            <l>las plantas en la cabeza</l>
+            <l>de la serpiente, que entonces</l>
+            <l part="I">la engañó.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Yo he de ponerla </l>
+            <l part="I">pleito.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="975" part="F">Pues mal pleito tienes, </l>
+            <l>viborilla, en mi conciencia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>¿Por qué, villano? ¿Por qué?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Por mil cosas, que son éstas:</l>
+            <l>La una, porque lo metéis</l>
+            <l n="980">a voces, que es mala seña</l>
+            <l>de quien no tiene buen pleito:</l>
+            <l>las dos, porque sois blasfemas,</l>
+            <l>pues decís que Dios no pudo</l>
+            <l>(siendo suma Omnipotencia)</l>
+            <l n="985">hacerlo; sí quiso hacerlo;</l>
+            <l>las tres, porque es indecencia</l>
+            <l>decir que pudo y no quiso;</l>
+            <l part="I">las cuatro...</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="M">Déjame. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F">Advierta </l>
+            <l>que he dicho por mil razones,</l>
+            <l n="990">y me faltan novecientas</l>
+            <l part="I">y noventa y siete.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">¿Quién </l>
+            <l>eres tú que a hablar me llegas,</l>
+            <l>sin temor de mis enojos,</l>
+            <l>sin pavor de mis dolencias?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="995">Un algo tan venturoso,</l>
+            <l>que a conocerme no llegas.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="I">¿Pues qué quieres de mí?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F">Quiero </l>
+            <l>pedirte que no te metas</l>
+            <l>en poner pleito a esta niña,</l>
+            <l n="1000">en razón de su nobleza,</l>
+            <l>porque no saldrás con él.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Muy grande es vuestra simpleza</l>
+            <l>para hablar conmigo; ¿pues</l>
+            <l>por qué no, si es ley severa</l>
+            <l n="1005">y general que a ninguna</l>
+            <l>humana criatura exceptas?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Porque es criatura divina,</l>
+            <l>y no se entiende con ella.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues se concibe</l>
+            <l n="1010">de humana Naturaleza.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues que por gracia</l>
+            <l>Dios de Culpa la reserva.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues que naciendo</l>
+            <l>dolor a su madre cuesta.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1015">Divina es, pues antes que</l>
+            <l>nazca, nace su belleza</l>
+            <l>bendita entre las mujeres.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues que la llevan</l>
+            <l>a presentar en el templo</l>
+            <l n="1020">como a víctima y ofrenda.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues es su vida</l>
+            <l>integridad y pureza.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, puesto que esposo</l>
+            <l>le dan de su sangre mesma.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1025">Divina es, pues que desposada</l>
+            <l>su virginidad conserva.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues que concibe</l>
+            <l>dentro de sus entrañas mesmas.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues que concibiendo</l>
+            <l n="1030">virgen intacta se queda.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues que a su esposo</l>
+            <l>ya le da celos y penas.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues que le informa</l>
+            <l>un ángel de su inocencia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="1035">Humana es, pues peregrina</l>
+            <l>va a los montes de Judea.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues santifica</l>
+            <l>al Bautista su presencia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues pare al hombre</l>
+            <l n="1040">en una casa desierta.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues sin dolor</l>
+            <l>lo pare y queda doncella.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues los pastores</l>
+            <l>se duelen de su miseria.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1045">Divina es, pues que los reyes</l>
+            <l>la adoran y reverencian.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues de ese parto</l>
+            <l>a purificarse llega.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues que lo hace</l>
+            <l n="1050">por cumplir con la obediencia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues que huye a Egipto,</l>
+            <l>temerosa de una fuerza.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues que derriba</l>
+            <l>cuantos ídolos encuentra.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="1055">Humana es, pues pierde al hijo,</l>
+            <l>que es la cosa que más precia.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues disputando</l>
+            <l>le halla las más doctas ciencias.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues que le ve</l>
+            <l n="1060">prender, y no le remedia.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Divina es, pues su pasión</l>
+            <l>la hace mártir de paciencia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Humana es, pues que permite</l>
+            <l>que allí su sangre se vierta.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1065">Divina es, pues del pecado</l>
+            <l>redime al hombre con ella,</l>
+            <l>que es el mérito mayor</l>
+            <l>que es posible que merezca.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Luego si tú mismo dices</l>
+            <l n="1070">que es la mayor excelencia</l>
+            <l>del hombre ser redimido</l>
+            <l>con la Sangre de Dios, de ésta</l>
+            <l>excluyes hoy a su madre,</l>
+            <l>pues procuras que no sea</l>
+            <l n="1075">en pecado concebida,</l>
+            <l>para que parte no tenga</l>
+            <l>en la Sangre derramada</l>
+            <l>de Dios; pues naciendo de ella</l>
+            <l>sin pecado, no hay de qué</l>
+            <l n="1080">lavarse; con que se prueba</l>
+            <l>que concebida en pecado</l>
+            <l>ha de ser su madre mesma;</l>
+            <l>o no ha de ser redimida</l>
+            <l>con su sangre; considera</l>
+            <l n="1085">cuál la puede estar mejor,</l>
+            <l>o cuál es más preeminencia:</l>
+            <l>ser concebida en pecado,</l>
+            <l>o no ser (aquesto es fuerza)</l>
+            <l>partícipe de la Sangre</l>
+            <l n="1090">de Dios; y por que no pierda</l>
+            <l>tiempo, a buscar el Furor</l>
+            <l>voy, piensa bien la respuesta.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Vase.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>¿Quién me metió en argüir</l>
+            <l>(siendo un mentecato yo)</l>
+            <l n="1095">en lo que tanto importó</l>
+            <l>estudiar y discurrir?</l>
+            <l>No sé qué me he de decir;</l>
+            <l>mi ignorancia está vencida:</l>
+            <l>¿que no ha de ser redimida</l>
+            <l n="1100">con la sangre esta mujer</l>
+            <l>de Dios-Hombre, o ha de ser</l>
+            <l>en pecado concebida?</l>
+            <l>Dejar de gozar favor</l>
+            <l>tan sumo, como llegar</l>
+            <l n="1105">su sangre a participar,</l>
+            <l>ya es un defecto, en rigor;</l>
+            <l>ser de la Culpa al Furor</l>
+            <l>avasallada, y rendida,</l>
+            <l>ya es otro; pues elegida</l>
+            <l n="1110">de Dios, ¿no le ha de tener,</l>
+            <l>luego en Gracia puede ser</l>
+            <l>redimida y concebida?</l>
+            <l>Sí; pues con eterno aviso</l>
+            <l>(no lo extraño ni lo dudo)</l>
+            <l n="1115">Dios quiso hacer cuanto pudo,</l>
+            <l>y pudo hacer cuanto quiso;</l>
+            <l>luego que sea, es preciso,</l>
+            <l>esta Virgen escogida</l>
+            <l>para Madre, preferida</l>
+            <l n="1120">en todo, siendo en su estado</l>
+            <l>concebida sin pecado,</l>
+            <l>y con sangre redimida.</l>
+            <l>¡Oh, quién supiera explicar</l>
+            <l>el cómo esto puede ser!</l>
+            <l n="1125">Que en mi modo de entender</l>
+            <l>ya lo he llegado a alcanzar;</l>
+            <l>esta azada he de tomar,</l>
+            <stage>Toma un azadón y cava.</stage>
+            <l>y un hoyo en la tierra herida</l>
+            <l>he de hacer; o si mi vida</l>
+            <l n="1130">mostrarse al volver los dos,</l>
+            <l>que es redimida de Dios,</l>
+            <l>y sin Culpa concebida</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Salen LA GRACIA, LA NATURALEZA y EL AMOR DIVINO y los músicos.</stage>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Pues victoriosos nos vemos</l>
+            <l>con el eterno blasón</l>
+            <l n="1135">de esta pura Concepción,</l>
+            <l>al cielo mil gracias demos.</l>
+          </sp>
+          <sp who="#amor-divino">
+            <speaker>AMOR</speaker>
+            <l>Himnos en su loor cantemos</l>
+            <l>por tal dicha y gloria tal.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Esta Niña celestial,</l>
+            <l n="1140">de los cielos escogida,</l>
+            <l>es la sola concebida,</l>
+            <l>sin pecado original.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>¿Qué es esto, Placer? ¿El día</l>
+            <l>que más te hube menester</l>
+            <l n="1145">trabajas, siendo Placer,</l>
+            <l>y faltas de mi alegría?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Sí, que esta fatiga mía</l>
+            <l>estudio es, para llegar</l>
+            <l>una experiencia a tocar</l>
+            <l n="1150">que hasta que una duda venza,</l>
+            <l>no soy Placer de vergüenza,</l>
+            <l>siendo dolor de pesar.</l>
+            <stage>Cava.</stage>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Cavando la tierra dura,</l>
+            <l>¿qué es lo que intentas hacer?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1155">Si he de morir, o vencer,</l>
+            <l>labrarme mi sepultura.</l>
+          </sp>
+          <sp who="#amor-divino">
+            <speaker>AMOR</speaker>
+            <l>¿Qué es lo que tu afán procura?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Estudiar un argumento</l>
+            <l>y cavando en él, intento</l>
+            <l n="1160">ahondar una sutileza.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>¿De la tierra la aspereza</l>
+            <l part="I">penetras?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="F">Ése es mi intento. </l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Pues que ya la Culpa tengo</l>
+            <l>de estos umbrales ausente,</l>
+            <l n="1165">a la fábrica eminente</l>
+            <l>iré, que al huésped prevengo.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l part="I">¿Vaste?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Tú verás que vengo, </l>
+            <l>si me llamas con piedad.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Vase.</stage>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>Lloraré tu soledad.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1170">Para que entendáis mejor</l>
+            <l>mi intento, pues el Furor</l>
+            <l>viene, de aquí os retirad.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>A un lado EL AMOR y LA NATURALEZA, y sale EL FUROR con un libro en la mano.</stage>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>Ya el privilegio está aquí:</l>
+            <l>Moisés (que al fin es letrado,</l>
+            <l n="1175">en las leyes gradüado)</l>
+            <l>habló en derecho por ti,</l>
+            <l>Culpa; con él (¡ay de mí!)</l>
+            <stage>Cae en el hoyo, y se ha de hundir el medio cuerpo.</stage>
+            <l>en mí mismo tropecé;</l>
+            <l>hasta el abismo bajé;</l>
+            <l n="1180">no me puedo levantar</l>
+            <l>sin quien me llegue a ayudar.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Pues yo, Furor, llegaré;</l>
+            <l>levanta, y ahora quiero</l>
+            <l part="I">limpiarte el polvo.</l>
+            <stage>Levántale y límpiale.</stage>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l part="F">Es piedad, </l>
+            <l n="1185">cuya liberalidad</l>
+            <l>siempre agradecerte espero.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l part="I">¿Haste hecho mal?</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l part="F"> Dolor fiero </l>
+            <l>tuve, mas ya se ha aplacado</l>
+            <l>con haberme levantado</l>
+            <l n="1190">tú, pues queda mi temor</l>
+            <l>sin manchas, y sin dolor.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Eso es lo que he procurado.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Sale LA CULPA.</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>No puedo al Furor hallar,</l>
+            <l>que anda la soberbia mía</l>
+            <l n="1195">sin Furor todo este día.</l>
+          </sp>
+          <stage>Va a caer y la detiene EL PLACER.</stage>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Tente, Culpa, sin llegar</l>
+            <l>a caer, ni a tropezar</l>
+            <l>en ese hoyo, que es abismo,</l>
+            <l>a donde tu Furor mismo</l>
+            <l n="1200">en este instante cayó.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Siempre agradecida yo.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Ya está puesto el silogismo.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Pues me has redimido ahora</l>
+            <l>de tan extraña caída,</l>
+            <l n="1205">he de estar toda mi vida.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>Pues aun su piedad ignora</l>
+            <l>tu pecho, porque a mí ahora</l>
+            <l>de ese hoyo me sacó;</l>
+            <l>si por él no fuera, no</l>
+            <l n="1210">pienso que me levantara</l>
+            <l part="I">en mi vida.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Cosa es clara </l>
+            <l>que le he debido más yo,</l>
+            <l>pues antes de haber caído</l>
+            <l>me ha excusado de caer.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l n="1215">Más tiene que agradecer</l>
+            <l>quien, viéndose ya perdido,</l>
+            <l>es de alguno socorrido,</l>
+            <l>que el que no se vio jamás</l>
+            <l>perdido; pues que verás</l>
+            <l n="1220">que a uno el favor le llegó</l>
+            <l>padeciendo, y a otro no,</l>
+            <l>sino temido no más;</l>
+            <l>y ningún dolor ha habido,</l>
+            <l>ningún tormento se ha hallado,</l>
+            <l n="1225">que tan grande imaginado</l>
+            <l>sea como padecido;</l>
+            <l>luego el que le haya tenido,</l>
+            <l>y ha sentido su tormento,</l>
+            <l>agradece más atento</l>
+            <l n="1230">al que padeció el rigor,</l>
+            <l>porque al paso del dolor</l>
+            <l>mide el agradecimiento.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Si después de haber caído</l>
+            <l>todo el favor que te ha dado</l>
+            <l n="1235">es haberte levantado;</l>
+            <l>sin caer, me ha socorrido</l>
+            <l>a mí, que no ha permitido</l>
+            <l>que caiga. Luego en mi ser,</l>
+            <l>más tengo aún que agradecer,</l>
+            <l n="1240">pues estoy como tú estás,</l>
+            <l>y tengo de más a más</l>
+            <l>no haber llegado a caer.</l>
+            <l>El que algún dolor padece,</l>
+            <l>la cura no ha agradecido,</l>
+            <l n="1245">pues con lo que ha padecido</l>
+            <l>que la ha pagado parece,</l>
+            <l>y ya en esto desmerece</l>
+            <l>el modo de agradecer;</l>
+            <l>mas no en quien se llega a ver</l>
+            <l n="1250">la cura antes del dolor;</l>
+            <l>luego viene a ser mejor</l>
+            <l>preservar que socorrer.</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>¿De manera que ya aquí</l>
+            <l>hoy los dos me confesáis</l>
+            <l n="1255">que en obligación me estáis?</l>
+            <l part="I">¿Y tú, mayor?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Es así. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>¿Y confesáis que es en mí</l>
+            <l>igual siempre la fineza</l>
+            <l>en socorrer la tristeza</l>
+            <l part="I">en que estábades?</l>
+          </sp>
+          <sp who="#culpa #furor">
+            <speaker>LOS DOS</speaker>
+            <l part="M">Sí. </l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1260" part="F">Pues </l>
+            <l>para hablar conmigo es</l>
+            <l>muy grande vuestra simpleza;</l>
+            <l>porque si llego a mirar,</l>
+            <l>que yo he podido tener</l>
+            <l n="1265">un modo de socorrer,</l>
+            <l>y otro aquí de preservar,</l>
+            <l>en Dios piedad singular</l>
+            <l>es preciso que confiese</l>
+            <l>ya vuestra lengua con ese</l>
+            <l n="1270">ejemplo: que dos ha habido,</l>
+            <l>a uno por haber caído,</l>
+            <l>y otro por que no cayese...</l>
+            <l>El levantaros postrado,</l>
+            <l>y limpiaros, da a entender</l>
+            <l n="1275">que en no dejaros caer</l>
+            <l>limpiados he, y levantado;</l>
+            <l>una atención, un cuidado</l>
+            <l>me habéis costado los dos:</l>
+            <l>vos, porque caísteis; vos,</l>
+            <l n="1280">porque no os dejé caer;</l>
+            <l>pues si esto hace mi poder,</l>
+            <l>¿qué no hará el poder de Dios?</l>
+            <l>Luego de Dios reservada</l>
+            <l>está la que no cayó,</l>
+            <l n="1285">y sin caer se levantó</l>
+            <l>limpia, antes de estar manchada:</l>
+            <l>una piedad imitada</l>
+            <l>es alzar a uno, y tener</l>
+            <l>al otro que va a caer.</l>
+            <l n="1290">¿Luego si para librar</l>
+            <l>al que cayó en su pesar</l>
+            <l>fue su Sangre menester,</l>
+            <l>para detener a quien</l>
+            <l>va a caer, es bien se arguya</l>
+            <l n="1295">que puso la Sangre suya,</l>
+            <l>que fue menester también?</l>
+            <l>Luego en su Sangre hoy es bien</l>
+            <l>que esta Niña comprendida</l>
+            <l>sea antes de la caída;</l>
+            <l n="1300">y es, pues Dios la ha preservado,</l>
+            <l>concebida sin pecado,</l>
+            <l>y en su Sangre redimida.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Es vana sofistería</l>
+            <l>querer que esta Niña humana</l>
+            <l n="1305">de la Sangre de Dios goce,</l>
+            <l>antes que esté derramada.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>No es, porque si menester</l>
+            <l>fuera (para derramarla)</l>
+            <l>tenerla, y se la han de dar</l>
+            <l n="1310">sus purísimas entrañas,</l>
+            <l>¿cómo pudiera verterla</l>
+            <l>antes, y después tomarla?</l>
+            <l>Pues si por ser más no había</l>
+            <l>de ser menos, cosa es clara</l>
+            <l n="1315">que así le da anticipado</l>
+            <l>este mérito de Gracia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>No es más, de que yo tengo</l>
+            <l>esta escritura firmada</l>
+            <l>de su nombre ante Moisés,</l>
+            <l n="1320">y a las puertas de su casa</l>
+            <l>la he de hacer pública hoy,</l>
+            <l>y si el pecho no me paga,</l>
+            <l>la obligaré que litigue</l>
+            <l>si es hidalga o no es hidalga.</l>
+            <l n="1325">Presente su ejecutoria,</l>
+            <l>haya un texto solo, haya</l>
+            <l>un evangelio, que diga</l>
+            <l>que ha nacido preservada.</l>
+          </sp>
+          <sp who="#amor-divino">
+            <speaker>AMOR</speaker>
+            <l>Las asentadas noblezas,</l>
+            <l n="1330">las ilustrísimas casas,</l>
+            <l>no tienen ejecutorias,</l>
+            <l>la notoriedad les basta;</l>
+            <l>y por que esta estimación</l>
+            <l>no pierda, ni esta alabanza,</l>
+            <l n="1335">antes que le den sentencia</l>
+            <l>en su favor publicada,</l>
+            <l>te pondrán silencio, a que</l>
+            <l>no hables en aquesta causa.</l>
+            <l>El Amor Divino soy,</l>
+            <l n="1340">el Espíritu me inflama;</l>
+            <l>y pues es él quien asiste</l>
+            <l>a los pontífices, calla,</l>
+            <l>no hables en esto; en su nombre</l>
+            <l>es mi voz la que lo manda.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="1345">Es justicia (hablar no puedo</l>
+            <l>muda estoy) que me la hagan.</l>
+            <l>¡Reviento! ¡Muero de pena!</l>
+            <l>¡Toda soy ira, y soy rabia!</l>
+            <l part="I">¿Furor?</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l part="F">No puedo, no puedo </l>
+            <l n="1350">articular las palabras.</l>
+            <l>¡Un puñal tengo en el pecho</l>
+            <l>y un cordel en la garganta!</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Mudos quedaron los dos,</l>
+            <l>pues sólo por señas hablan.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="1355">Esto no toca al silencio;</l>
+            <l>entraré en su misma casa,</l>
+            <l>y a sus puertas clavaré</l>
+            <l>el privilegio, en venganza</l>
+            <l>de este rigor; mas ¿qué es esto?</l>
+            <l n="1360">Sobre mí se cae la casa;</l>
+            <l>y aun el cielo sobre mí</l>
+            <l>cae, que estas esferas altas</l>
+            <l>todas sobre mí parece</l>
+            <l>que se trastornan y bajan,</l>
+            <stage>Va a subir por una escalera, y ábrese la apariencia y baja por una tramoya LA HIDALGA, que lo hará UNA NIÑA, hasta ponerse encima de LA CULPA, como se pinta.</stage>
+            <l n="1365">desasidas de sus polos,</l>
+            <l>de sus ejes desquiciadas</l>
+            <l>se deshacen, se desploman,</l>
+            <l>se quiebran, se desencajan,</l>
+            <l>para que ponga esta Niña</l>
+            <l n="1370">sobre mi cerviz las plantas.</l>
+          </sp>
+          <sp who="#niña">
+            <speaker>NIÑA</speaker>
+            <l>El privilegio que traes</l>
+            <l>tú misma, es en esta causa</l>
+            <l>contra mí; pues dice él mismo,</l>
+            <l>con misteriosas palabras,</l>
+            <l n="1375">que habrá entre ti y la mujer</l>
+            <l>disensiones y asechanzas,</l>
+            <l>y que ella a poner vendrá</l>
+            <l>los pies sobre tu garganta;</l>
+            <l>ya se ha cumplido, pues piso</l>
+            <l n="1380">tu frente, sin que tu rabia</l>
+            <l>pueda atreverse a morderme,</l>
+            <l>con ser víbora pisada,</l>
+            <l>porque en este inmenso valle</l>
+            <l>de lágrimas soy la Hidalga.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="1385">¿Cómo, estando con mis hierros</l>
+            <l>la Naturaleza herrada,</l>
+            <l>y siendo en la común Culpa</l>
+            <l>antes, y después mi esclava,</l>
+            <l>nadie de mi sentimiento</l>
+            <l n="1390">y de mi Furor se guarda?</l>
+            <l>¡Ay de mí!, toda soy fuego.</l>
+            <l>¡Ay de mí!, toda soy rabia.</l>
+          </sp>
+          <sp who="#niña">
+            <speaker>NIÑA</speaker>
+            <l>Presto la Naturaleza</l>
+            <l>será libre, y rescatada</l>
+            <l n="1395">de tu esclavitud, que ya</l>
+            <l>la Gracia ha vuelto a la casa,</l>
+            <l>que fabrica para el huésped,</l>
+            <l>que ya tan benigno aguarda.</l>
+          </sp>
+          <stage>En un bodegón del otro carro se descubre LA GRACIA.</stage>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Ya tiene hecho el aposento,</l>
+            <l n="1400">prevenido antes en tantas</l>
+            <l>sombras y figuras vivas</l>
+            <l>de las dos leyes que pasan.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l>Pues cuando venga ese huésped</l>
+            <l>(que tú tan divino aguardas),</l>
+            <l n="1405">¿cómo la podrá quitar</l>
+            <l>estos hierros de la cara?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Lavándola en el bautismo.</l>
+          </sp>
+          <sp who="#furor">
+            <speaker>FUROR</speaker>
+            <l part="I">¿Con qué?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Con el agua clara</l>
+            <stage>Del tocado de LA GRACIA salen siete caños de agua.</stage>
+            <l>de estos siete caños, que</l>
+            <l n="1410">son la fuente de la Gracia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Siete sacramentos son;</l>
+            <l>y aunque todos me dan tanta</l>
+            <l>confusión, sólo el primero</l>
+            <l>a atemorizarme basta,</l>
+            <l n="1415">porque es el que misterioso</l>
+            <l>mi original Culpa lava.</l>
+            <l>¡Ay de mí!, toda soy fuego.</l>
+            <l>¡Ay de mí!, toda soy rabia.</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>¡Oh, llegue el día en que pueda</l>
+            <l n="1420">en ellos lavar mi mancha!</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l>Ahora sí, que soy Placer,</l>
+            <l>en músicas acordadas</l>
+            <l>suene este triunfo, diciendo</l>
+            <l>a esta Niña soberana,</l>
+            <l n="1425">con más afecto que ingenio,</l>
+            <l>mil rendidas alabanzas.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¿Quién sabrá decirme, quién,</l>
+            <l>por qué una sacra canción</l>
+            <l>a esta Niña, nuestro bien,</l>
+            <l n="1430">la llama vara de Aarón,</l>
+            <l>y no vara de Moisén?</l>
+          </sp>
+          <sp who="#naturaleza">
+            <speaker>NATURALEZA</speaker>
+            <l>Yo lo sé bien.</l>
+            <l>Aunque de Moisés la vara</l>
+            <l>tantos prodigios obró,</l>
+            <l n="1435">nunca hermosa floreció:</l>
+            <l>la de Aarón, sí; luego es clara</l>
+            <l>la evidencia de que es rara</l>
+            <l>sombra esta vara, de quien</l>
+            <l>fruto y flor dará en Belén,</l>
+            <l n="1440">y así, por esta razón</l>
+            <l>la llaman vara de Aarón,</l>
+            <l>y no vara de Moisén.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>No ha dicho bien.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Aunque la vara divina</l>
+            <l n="1445">de Moisés el mar abrió,</l>
+            <l>y paso a su palacio dio</l>
+            <l>(república cristalina),</l>
+            <l>plaga causó peregrina</l>
+            <l>en Egipto, este desdén</l>
+            <l n="1450">ser su atributo no es bien,</l>
+            <l>y así, con más perfección,</l>
+            <l>la llaman vara de Aarón,</l>
+            <l>y no vara de Moisén.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>No ha dicho bien.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="1455">Si de los que van diciendo</l>
+            <l>los conceptos no te agradan,</l>
+            <l>diré yo uno, que viene</l>
+            <l>bien, pues estoy a tus plantas.</l>
+            <l>Aunque la vara eminente</l>
+            <l n="1460">de Moisés, tan liberal</l>
+            <l>del contagio universal,</l>
+            <l>escapó a la humana gente,</l>
+            <l>fue convertida en serpiente,</l>
+            <l>y la Serpiente no es bien</l>
+            <l n="1465">que, aun por sombra, se la den.</l>
+            <l>Y así, por mayor blasón,</l>
+            <l>la llaman vara de Aarón,</l>
+            <l>y no vara de Moisén.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Ha dicho bien.</l>
+            <l n="1470">¿Quién sabrá decirme, quién,</l>
+            <l>por qué una sacra canción</l>
+            <l>a esta Niña, nuestro bien,</l>
+            <l>la llama vara de Aarón</l>
+            <l>y no vara de Moisén?</l>
+          </sp>
+          <sp who="#placer">
+            <speaker>PLACER</speaker>
+            <l n="1475">Y sólo perdón merezca,</l>
+            <l>pues no merece alabanza</l>
+            <l>don Pedro Calderón, pues</l>
+            <l>le pide humilde a esas plantas.</l>
+          </sp>
+          <stage>Tocan chirimías, y cerrándose los carros da fin el auto.</stage>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,3158 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000022" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El socorro general</title>
+        <title type="sub">Auto sacramental alegórico intitulado</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-03"><time when="10:44:20"/></date>
+        <idno type="quadramaX">El socorro general</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-socorro-general--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de la Barca, Pedro, El socorro general, ed. Ignacio Are-llano, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2001. ISBN: 3-935004-40-0.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="sinagoga" sex="FEMALE">
+            <persName>La Sinagoga</persName>
+          </person>
+          <person xml:id="orden" sex="MALE">
+            <persName>El Orden</persName>
+          </person>
+          <person xml:id="gentilidad" sex="FEMALE">
+            <persName>La Gentilidad</persName>
+          </person>
+          <person xml:id="san-pedro" sex="MALE">
+            <persName>San Pedro</persName>
+          </person>
+          <person xml:id="apostasía" sex="FEMALE">
+            <persName>La Apostasía</persName>
+          </person>
+          <person xml:id="zabulón" sex="MALE">
+            <persName>Zabulón</persName>
+          </person>
+          <person xml:id="iglesia" sex="FEMALE">
+            <persName>La Iglesia</persName>
+          </person>
+          <personGrp xml:id="soldados" sex="MALE">
+            <persName>Soldados</persName>
+          </personGrp>
+          <person xml:id="penitencia" sex="FEMALE">
+            <persName>La Penitencia</persName>
+          </person>
+          <personGrp xml:id="marineros" sex="MALE">
+            <persName>Marineros</persName>
+          </personGrp>
+          <person xml:id="oración" sex="FEMALE">
+            <persName>La Oración</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+          <person xml:id="bautismo" sex="MALE">
+            <persName>El Bautismo</persName>
+          </person>
+          <person xml:id="acompañamiento" sex="MALE">
+            <persName>Acompañamiento</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1760">
+        <label/>
+      </event>
+      <event type="written" when="1644">
+        <label/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000022" passive="http://www.wikidata.org/entity/Q69034179"/>
+    </listRelation>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">El socorro general</titlePart>
+        <titlePart type="sub">Auto sacramental alegórico intitulado</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas</head>
+        <castItem>LA SINAGOGA.</castItem>
+        <castItem>EL ORDEN.</castItem>
+        <castItem>LA GENTILIDAD.</castItem>
+        <castItem>San PEDRO.</castItem>
+        <castItem>LA APOSTASÍA.</castItem>
+        <castItem>ZABULÓN.</castItem>
+        <castItem>LA IGLESIA.</castItem>
+        <castItem>SOLDADOS.</castItem>
+        <castItem>LA PENITENCIA.</castItem>
+        <castItem>MARINEROS.</castItem>
+        <castItem>LA ORACIÓN.</castItem>
+        <castItem>MÚSICA.</castItem>
+        <castItem>EL BAUTISMO.</castItem>
+        <castItem>ACOMPAÑAMIENTO.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Suenan cajas y trompetas, y salen marchando SOLDADOS, y detrás la SINAGOGA, vestida a lo judío, con bastón de general.</stage>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Hebrea milicia, cuyo</l>
+            <l>siempre ilustre, siempre invicto</l>
+            <l>valor no podrá olvidar</l>
+            <l>la memoria de los siglos;</l>
+            <l n="5">amado pueblo de Dios,</l>
+            <l>bando de Dios escogido,</l>
+            <l>república de Israel,</l>
+            <l>generoso Judaísmo,</l>
+            <l>tú, con quien su amor inmenso</l>
+            <l n="10">tan grandes finezas hizo,</l>
+            <l>que te puso en libertad</l>
+            <l>de la esclavitud de Egipto,</l>
+            <l>desde que la crespa saña</l>
+            <l>del Bermejo mar previno,</l>
+            <l n="15">amontonando las ondas,</l>
+            <l>dïáfano pasadizo,</l>
+            <l>en que opuestamente hallaron</l>
+            <l>sus gitanos y tus tribus,</l>
+            <l>unos tumba de cristal</l>
+            <l n="20">y otros canales de vidrio,</l>
+            <l>hasta que peregrinando</l>
+            <l>por mansiones y caminos</l>
+            <l>nunca hollados, de la tierra</l>
+            <l>de promisión te dio indicios</l>
+            <l n="25">primero la lluvia hermosa</l>
+            <l>de aquel cándido rocío,</l>
+            <l>neutral sabor de viandas,</l>
+            <l>y después aquel racimo</l>
+            <l>del explorador Caleb,</l>
+            <l n="30">cifrando el maná y el vino</l>
+            <l>de nuestro gran Jehová</l>
+            <l>los misterios escondidos.</l>
+            <l>Yo soy tu gran Sinagoga:</l>
+            <l>proponerte solicito</l>
+            <l n="35">de esta guerra los pretextos,</l>
+            <l>de este furor los motivos,</l>
+            <l>porque aunque no los ignores,</l>
+            <l>en ti despierten los bríos</l>
+            <l>de mi voz al pronunciarlos</l>
+            <l n="40">y tu atención al oírlos.</l>
+            <l>Ya sabes que a nuestra corte</l>
+            <l>un hombre por virrey vino</l>
+            <l>(pues ser del mayor monarca</l>
+            <l>segunda persona dijo);</l>
+            <l n="45">este en pláticas diversas</l>
+            <l>y en sermones que le oímos</l>
+            <l>nos dio a entender que traía</l>
+            <l>poderes establecidos</l>
+            <l>de su rey para rompernos</l>
+            <l n="50">de nuestros fueros antiguos</l>
+            <l>las juradas ceremonias</l>
+            <l>y los observados ritos,</l>
+            <l>introduciendo en nosotros</l>
+            <l>nueva ley, y habiendo dicho</l>
+            <l n="55">que renovaría en tres días</l>
+            <l>el templo, reducir quiso</l>
+            <l>a un sacrificio incruento</l>
+            <l>los cruentos sacrificios</l>
+            <l>de nuestras víctimas. Yo,</l>
+            <l n="60">habiendo su intento oído,</l>
+            <l>escandalizada y ciega</l>
+            <l>todo mi pueblo amotino,</l>
+            <l>y recibiendo los votos</l>
+            <l>de escribas y de rabinos,</l>
+            <l n="65">que en mi república son</l>
+            <l>los diputados ministros,</l>
+            <l>contra su falsa doctrina,</l>
+            <l>contra su engañoso estilo,</l>
+            <l>contra sus costumbres y</l>
+            <l n="70">contra su vida conspiro,</l>
+            <l>dándole violenta muerte.</l>
+            <l>¡Ay, infeliz, que al decirlo,</l>
+            <l>la voz balbuciente, el pecho</l>
+            <l>alterado, estremecido</l>
+            <l n="75">el corazón, tartamuda</l>
+            <l>la lengua, el aliento frío,</l>
+            <l>no hablo, sino padezco,</l>
+            <l>no pronuncio, sino gimo!</l>
+            <l>¿Pero qué mucho, qué mucho,</l>
+            <l n="80">si tembló despavorido</l>
+            <l>el universo al mirarlo,</l>
+            <l>que tiemble yo al referirlo?</l>
+            <l>A media tarde expiró</l>
+            <l>la luz del sol de improviso;</l>
+            <l n="85">bandolera de sus rayos,</l>
+            <l>salteadora de sus giros,</l>
+            <l>la noche emboscada estaba</l>
+            <l>a robarle en el camino,</l>
+            <l>cuya ráfaga de sombras</l>
+            <l n="90">tantos prisioneros hizo</l>
+            <l>en la luna de reflejos</l>
+            <l>y en las estrellas de visos,</l>
+            <l>que vio la luna el menguante,</l>
+            <l>no habiendo el creciente visto,</l>
+            <l n="95">y muerto su general,</l>
+            <l>a vista del enemigo</l>
+            <l>huyeron, sin saber dónde,</l>
+            <l>por páramos cristalinos</l>
+            <l>las tropas de las estrellas,</l>
+            <l n="100">las escuadras de los signos,</l>
+            <l>de suerte que se vio el cielo</l>
+            <l>desplomado de sus quicios,</l>
+            <l>si se cae o no se cae,</l>
+            <l>para dar un estallido,</l>
+            <l n="105">cuyo horror, amenazando</l>
+            <l>la tierra con precipicios,</l>
+            <l>la estremeció de manera,</l>
+            <l>que los montes más altivos,</l>
+            <l>sus más elevadas torres,</l>
+            <l n="110">sus más graves edificios,</l>
+            <l>en su asiento titubearon,</l>
+            <l>de su centro divididos,</l>
+            <l>buscando dónde arrimarse,</l>
+            <l>luchando a brazo partido</l>
+            <l n="115">unas con otras las piedras,</l>
+            <l>unos con otros los riscos.</l>
+            <l>Rasgose el velo del templo,</l>
+            <l>de sus sepulcros los fríos</l>
+            <l>cadáveres se elevaron,</l>
+            <l n="120">vagando esqueletos vivos</l>
+            <l>la rara esfera del aire,</l>
+            <l>cuyos espacios vacíos</l>
+            <l>funesto luto vistieron,</l>
+            <l>enmarañado y tupido</l>
+            <l n="125">en el telar de las nubes,</l>
+            <l>y comuneros los ríos</l>
+            <l>se le atrevieron al mar;</l>
+            <l>mas en todo este conflicto</l>
+            <l>esta confusión del cielo,</l>
+            <l n="130">este del mundo delirio,</l>
+            <l>a que ya para espirar</l>
+            <l>se vio el postrer parasismo,</l>
+            <l>no se acobardó mi rabia</l>
+            <l>habiendo docta entendido,</l>
+            <l n="135">que eran de naturaleza</l>
+            <l>casuales los prodigios,</l>
+            <l>con que tal vez nos asombra,</l>
+            <l>sin haberme persuadido</l>
+            <l>a que el general eclipse</l>
+            <l n="140">fuese por el homicidio,</l>
+            <l>aunque viendo sus efectos,</l>
+            <l>aquel gran varón Dionisio</l>
+            <l>filósofo de Areopago</l>
+            <l>desde allá diz que lo dijo;</l>
+            <l n="145">el católico monarca,</l>
+            <l>cuya corte es el impíreo,</l>
+            <l>de nuestra culpa informado,</l>
+            <l>de nuestra saña ofendido,</l>
+            <l>dicen que tomar pretende</l>
+            <l n="150">venganza de este delito,</l>
+            <l>a cuyo efecto, enviando</l>
+            <l>doce valientes ministros,</l>
+            <l>del orbe a correr los climas</l>
+            <l>más remotos y distintos,</l>
+            <l n="155">gente ha juntado con que</l>
+            <l>la Iglesia, que es la que ha sido</l>
+            <l>la general de sus armas,</l>
+            <l>solicita reducirnos</l>
+            <l>a su primera obediencia,</l>
+            <l n="160">dándonos por más castigo</l>
+            <l>nueva ley en que vivamos</l>
+            <l>y poniéndonos presidios</l>
+            <l>de sacramentos con que</l>
+            <l>siempre nos tendrá rendidos</l>
+            <l n="165">a su sujeción. Ya, pues,</l>
+            <l>su grande ejército altivo</l>
+            <l>de Jerusalén está</l>
+            <l>tan cerca, que sus avisos</l>
+            <l>son las cajas y trompetas;</l>
+            <l n="170">resistamos sus designios,</l>
+            <l>y vean que vuelven todos</l>
+            <l>derrotados y vencidos</l>
+            <l>de nosotros sus preceptos,</l>
+            <l>sin tomarlos ni admitirlos.</l>
+            <l n="175">Libre república somos;</l>
+            <l>ea, vasallos y amigos,</l>
+            <l>hoy leales a la patria</l>
+            <l>y fieles a mi dominio,</l>
+            <l>es el día de mostrar,</l>
+            <l n="180">que sois de mi aliento hijos.</l>
+            <l>Castigado suene el parche,</l>
+            <l>de uno y otro golpe herido;</l>
+            <l>animado el bronce suene,</l>
+            <l>ya de uno y otro suspiro,</l>
+            <l n="185">y para que no entren dentro</l>
+            <l>de la ley en que vivimos,</l>
+            <l>en lo estrecho de sus pasos</l>
+            <l>salgamos a recibirlos,</l>
+            <l>todos publicando a voces,</l>
+            <l n="190">todos repitiendo a gritos:</l>
+            <l>¡Viva nuestra libertad</l>
+            <l>y muera la ley de Cristo!</l>
+          </sp>
+          <sp who="#soldados">
+            <speaker>TODOS</speaker>
+            <l>¡Viva nuestra libertad</l>
+            <l>y muera la ley de Cristo!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Suena un clarín lejos, y sale ZABULÓN vestido de judío ridículamente.</stage>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l n="195">Un embajador de parte</l>
+            <l>del ejército ha querido</l>
+            <l part="I">hablarte.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="M">¿Quién es?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">No sé,</l>
+            <l>que en mi vida no le he visto</l>
+            <l>otra vez ni le conozco.</l>
+            <l n="200">Sólo sé que su vestido</l>
+            <l>es más blanco que el candor</l>
+            <l>de la nieve y que ha venido</l>
+            <l>haciendo un gran sacramento</l>
+            <l>en que quiere hablar contigo.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">Dile que llegue.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Sale el BAUTISMO vestido de blanco a la española.</stage>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="205" part="F">La hermosa</l>
+            <l>emperatriz del Olimpo,</l>
+            <l>la que de flores y estrellas</l>
+            <l>corona los crespos rizos,</l>
+            <l>la que en sus adornos vence</l>
+            <l n="210">las purezas del armiño,</l>
+            <l>la unión de fieles, la reina</l>
+            <l>militante, la que ha sido,</l>
+            <l>es y será capitana</l>
+            <l>del estandarte de Cristo,</l>
+            <l n="215">corona de sus leales</l>
+            <l>y de sus fieles caudillo,</l>
+            <l>salud y gracia te envía.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>¿Salud y gracia contigo?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">Sí.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">¿Pues quién eres, quién eres</l>
+            <l n="220">tú, que tan desvanecido</l>
+            <l>piensas que salud y gracia</l>
+            <l part="I">puedes traerme?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">El Bautismo,</l>
+            <l>primer sacramento suyo,</l>
+            <l>a cuyo cargo los libros</l>
+            <l n="225">de sus ejércitos vienen,</l>
+            <l>pues yo sus gentes alisto.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">¿Qué es tu intento?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">De su parte</l>
+            <l>satisfacer los motivos,</l>
+            <l>con que hoy tienes sediciosos</l>
+            <l n="230">y alterados tus vecinos,</l>
+            <l>por ver si puede por mí</l>
+            <l>a su gremio reducirlos,</l>
+            <l>excusando los rencores,</l>
+            <l>los robos, los homicidios,</l>
+            <l n="235">los escándalos, las muertes,</l>
+            <l>las sediciones, los vicios,</l>
+            <l>las traiciones, los insultos</l>
+            <l>que trae la guerra consigo,</l>
+            <l>entre vasallos que somos</l>
+            <l n="240">todos de un monarca mismo.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>¿No había otro que viniese</l>
+            <l>menos osado y altivo</l>
+            <l part="I">que tú?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">No, porque si yo</l>
+            <l>no doy con el favor mío</l>
+            <l n="245">principio a estas amistades,</l>
+            <l>no pueden tener principio.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>¿Pues qué pretextos podrás</l>
+            <l>proponernos ni advertirnos,</l>
+            <l>que nos satisfagan, puesto</l>
+            <l n="250">que todos nuestros designios</l>
+            <l>fundados están en que</l>
+            <l>los fueros establecidos</l>
+            <l>de nuestros primeros Padres</l>
+            <l>rompernos habéis querido?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="255">Porque veas el engaño</l>
+            <l>en que estás, ¿cuáles han sido</l>
+            <l>tus más principales fueros?</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Los diez preceptos divinos</l>
+            <l>del decálogo sagrado,</l>
+            <l n="260">que en terso mármol y liso,</l>
+            <l>buril el dedo de Dios,</l>
+            <l>le entregó a Moisés escritos.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Luego si esos diez preceptos</l>
+            <l>son, Sinagoga, los mismos</l>
+            <l n="265">con que hoy la Iglesia pretende</l>
+            <l>mantenerse en el servicio</l>
+            <l>de tu rey, romper no trata</l>
+            <l>tus grandes fueros antiguos.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Sí trata, pues que pretende</l>
+            <l n="270">del Levítico impedirnos</l>
+            <l>los sangrientos holocaustos,</l>
+            <l>intentando reducirlos</l>
+            <l>a un sacrificio incruento.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Es piadoso sacrificio,</l>
+            <l n="275">que satisface por todos</l>
+            <l>con méritos infinitos.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">¿De qué suerte?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">¿Puedes tú</l>
+            <l>dudar que tu ley ha sido</l>
+            <l>ley de sombras y figuras?</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l n="280">No puedo, y que un Mesías, hijo</l>
+            <l>de Dios, será de esas sombras</l>
+            <l>y figuras que ya he visto</l>
+            <l>lo figurado, que así</l>
+            <l>mis profetas me lo han dicho.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="285">Pues ya vino ese Mesías,</l>
+            <l>los hebdómadas cumplidos,</l>
+            <l>y tú le desconociste,</l>
+            <l part="I">dándole muerte.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">Ni vino,</l>
+            <l>ni entiendo que pudo ser</l>
+            <l n="290">de Dios principal ministro</l>
+            <l>enviado un sedicioso</l>
+            <l>galileo advenedizo.</l>
+            <l>Sólo sé que ahora me envía</l>
+            <l>la Iglesia su paz contigo,</l>
+            <l n="295">que eres nuevo sacramento</l>
+            <l>que ni conozco ni admito,</l>
+            <l>y que a mi circuncisión</l>
+            <l>quieres quitarle el oficio.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>En eso verás también</l>
+            <l n="300">cuán piadoso, cuán benigno</l>
+            <l>el rey te ofrece piedades</l>
+            <l>cuando tú esperas castigos,</l>
+            <l>pues si en la circuncisión</l>
+            <l>antes era beneficio</l>
+            <l n="305">del original pecado</l>
+            <l>dejarnos puros y limpios</l>
+            <l>y hoy es ablución de agua</l>
+            <l>y no de sangre, está visto</l>
+            <l>cuánto sus derramamientos</l>
+            <l n="310">excusar ha pretendido,</l>
+            <l>dando a entender que la ley</l>
+            <l>de gracia es yugo sencillo,</l>
+            <l>pues sin sangre nos reduce</l>
+            <l>al estado primitivo</l>
+            <l n="315">de la original justicia</l>
+            <l>de que privados nacimos,</l>
+            <l>dejándonos de la culpa</l>
+            <l>este sacramento pío</l>
+            <l>con el agua bautizados</l>
+            <l n="320">y sin sangre incircuncisos.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Que no te entiendo otra vez</l>
+            <l>y otras mil veces repito,</l>
+            <l>y así vuélvete al instante,</l>
+            <l>primero que el furor mío</l>
+            <l n="325">las inmunidades rompa</l>
+            <l>del seguro que has traído,</l>
+            <l>y di a tu Iglesia que yo</l>
+            <l>ni te escucho ni recibo</l>
+            <l>porque no quiero su paz.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="330">Mira que soy el Bautismo,</l>
+            <l>y que piadosa la Iglesia</l>
+            <l>te está rogando conmigo,</l>
+            <l>con que deja su justicia</l>
+            <l part="I">honestada.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">No te admito.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">Pues con esto....</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l n="335" part="F">No te escucho.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">Manifiesto....</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">No te estimo.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">Queda.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">No te oigo, no te oigo.</l>
+            <l>Tapareme los oídos</l>
+            <l>como la sierpe al encanto,</l>
+            <l n="340">y cualquier soldado mío</l>
+            <l>que te hable ni te vea</l>
+            <l>le tendré por enemigo</l>
+            <l>y por traidor a la patria.</l>
+          </sp>
+          <sp who="#soldados #bautismo #zabulón">
+            <speaker>TODOS</speaker>
+            <l>Todos lo propio decimos.</l>
+            <l n="345">¡Viva nuestra libertad!</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Dejados y aborrecidos</l>
+            <l>de todos nosotros, vuelva</l>
+            <l>a la Iglesia sus auxilios.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Vanse SINAGOGA y SOLDADOS.</stage>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>¡Ay, infelice de ti,</l>
+            <l n="350">y ay de tus míseros hijos,</l>
+            <l>sobre quien está la sangre</l>
+            <l>del justo con repetidos</l>
+            <l>lamentos pidiendo al cielo</l>
+            <l>si no venganzas, castigos!</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l n="355">Señor Sacramento de agua,</l>
+            <l>vos fuérades más bien visto</l>
+            <l>acá de todos si fuerais</l>
+            <l>otro que hay allá de vino;</l>
+            <l>y así idos con Dios a donde</l>
+            <l n="360">sois fiestas y regocijos</l>
+            <l>de comadres y compadres,</l>
+            <l>aunque alguna vez me han dicho</l>
+            <l>que no dejáis de tener</l>
+            <l>molestias con los padrinos</l>
+            <l n="365">sobre aquello de la vela,</l>
+            <l>el mazapán, el mantico,</l>
+            <l>los dulces de la parida,</l>
+            <l>los agrios del monacillo,</l>
+            <l>sin lo del coche prestado</l>
+            <l n="370">si vino a tiempo o no vino,</l>
+            <l>la fuente, el salero, el jarro,</l>
+            <l>la agua de olor, el capillo,</l>
+            <l>el y el ,el y el ,voloefetá</l>
+            <l>y otros dos mil requisitos,</l>
+            <l n="375">si al niño sacan los brazos,</l>
+            <l>si ponen a andar al niño,</l>
+            <l>y por remate de todo</l>
+            <l>traer siempre por inquilinos</l>
+            <l>la comadre de parir</l>
+            <l n="380">y el ama de haber parido.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Vase.</stage>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Hermosa luz de las gentes,</l>
+            <l>sobre cuyo cristalino</l>
+            <l>cuello la alba vierte rosas</l>
+            <l>y el aura deshoja lirios,</l>
+            <l n="385">tú, cuyas manos ceñidas</l>
+            <l>de siete azules jacintos,</l>
+            <l>liberalmente de Dios,</l>
+            <l>distribuyes los más ricos</l>
+            <l>tesoros, dejando siempre</l>
+            <l n="390">infinito lo infinito.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Suenan chirimías; salen la ORACIÓN, la PENITENCIA, DAMAS, la ORDEN SACERDOTAL, VIEJO; y detrás la IGLESIA con corona de oro, manto imperial y bastón, y la PENITENCIA trae un estandarte con un Cristo crucificado y todos con espadas ceñidas y plumas.</stage>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="I">¿Qué me quieres?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">A tus plantas</l>
+            <l>lloroso y enternecido</l>
+            <l>(porque es el agua en efecto</l>
+            <l>materia del pecho mío)</l>
+            <l n="395">vuelvo de la Sinagoga</l>
+            <l>despreciado y ofendido</l>
+            <l>con injurias y baldones,</l>
+            <l>haciendo en mí desperdicios</l>
+            <l>de tus hermosas piedades.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l n="400">Presto, bando aborrecido;</l>
+            <l>presto, traidora familia,</l>
+            <l>llorarás tus precipicios,</l>
+            <l>perdida tu Sinagoga,</l>
+            <l>tu patria y tu domicilio,</l>
+            <l n="405">vagando por las ajenas.</l>
+            <l>Leales soldados míos</l>
+            <l>que debajo militáis</l>
+            <l>de este estandarte en quien miro</l>
+            <l>persona que hace y padece,</l>
+            <l n="410">sacerdote y sacrificio,</l>
+            <l>ya la ocasión ha llegado.</l>
+            <l>Tú, Oración, con tus suspiros,</l>
+            <l>tus lágrimas y tus ruegos,</l>
+            <l>los ánimos mueve invictos.</l>
+            <l n="415">Tú, Orden Sacerdotal,</l>
+            <l>acude con beneficios,</l>
+            <l>que son de la militante</l>
+            <l>Iglesia balas y tiros.</l>
+            <l>Tú, enarbola, Penitencia,</l>
+            <l n="420">ese estandarte divino</l>
+            <l>porque te sigan, y todos</l>
+            <l>armados y prevenidos,</l>
+            <l>para padecer rigores</l>
+            <l>de crueldades y martirios,</l>
+            <l n="425">pues habéis de ser muriendo</l>
+            <l>vencedores y vencidos,</l>
+            <l>diciendo al cielo y la tierra,</l>
+            <l>en lamentos repetidos:</l>
+            <l>«¡Muera la comunidad</l>
+            <l n="430">y viva la fe de Cristo!».</l>
+          </sp>
+          <stage>Estas voces se repitan dentro de mano en mano y fuera la caja a marcha.</stage>
+          <sp who="#bautismo #oración #orden #penitencia">
+            <speaker>TODOS</speaker>
+            <l>¡Muera la comunidad</l>
+            <l>y viva la fe de Cristo!</l>
+          </sp>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l>Ya el ejército a tus voces</l>
+            <l>todo a un tiempo se ha movido.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l n="435">En orden viene cubriendo</l>
+            <l>de poblaciones los riscos.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="I">Mi estandarte siguen.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">Tú,</l>
+            <l>pues que tienes los registros</l>
+            <l>de todos y al pasar muestra</l>
+            <l n="440">los señalas con tu signo,</l>
+            <l>veme diciendo quién son.</l>
+            <stage>Al BAUTISMO.</stage>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">Tú lo sabes.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">Es preciso</l>
+            <l>saberlo más por tus listas,</l>
+            <l>y así de ti quiero oírlo,</l>
+            <l n="445">que no conoce la Iglesia</l>
+            <l>a nadie sin el Bautismo.</l>
+          </sp>
+          <stage>La caja dentro a marcha.</stage>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Tu ejército, que en valientes</l>
+            <l>tropas marcha hecho escuadrones,</l>
+            <l>compuesto está de naciones</l>
+            <l n="450">porque es unión de las gentes,</l>
+            <l>y así el número que adquiere</l>
+            <l>de tantas consta y se hace</l>
+            <l>que ven al sol cuando nace</l>
+            <l>y ven al sol cuando muere.</l>
+            <l n="455">Toletot quiere decir</l>
+            <l>en hebreo población,</l>
+            <l>monarquía o fundación</l>
+            <l>de muchos, y así argüir</l>
+            <l>no sin justas causas oso,</l>
+            <l n="460">viendo tan varias hileras,</l>
+            <l>que es tu frente de banderas</l>
+            <l>un Toletot numeroso.</l>
+            <l>Y otra razón hay en que</l>
+            <l>la envidia admirada vea</l>
+            <l n="465">que lo que es Toletot sea</l>
+            <l>plaza de armas de la fe,</l>
+            <l>pues una ciudad fundada</l>
+            <l>por Nabucodonosor,</l>
+            <l>por su grandeza y valor</l>
+            <l n="470">fue de este nombre llamada,</l>
+            <l>cuya Sinagoga altiva</l>
+            <l>la sentencia no firmó</l>
+            <l>de Cristo, ni el voto dio</l>
+            <l>en su alteración esquiva.</l>
+            <l n="475">De suerte que llamar puedo</l>
+            <l>al que tu ejército fue,</l>
+            <l>por el número y la fe</l>
+            <l>o Toletot o Toledo.</l>
+          </sp>
+          <stage>La caja.</stage>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¿Qué tercio es este que tiene</l>
+            <l part="I">la vanguardia?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="480" part="F">Es de españoles.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Son de mi milicia soles.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Por maese de campo viene</l>
+            <l part="I">de ellos Torcato.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">¿Pues no</l>
+            <l part="I">viene Diego?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">No, que aunque</l>
+            <l n="485">fue Diego el primero que</l>
+            <l>gente en España alistó,</l>
+            <l>por él el tercio ha servido</l>
+            <l>su teniente coronel,</l>
+            <l>por haberle dado a él</l>
+            <l n="490">la caballería. Este ha sido</l>
+            <l>tercio de Borgoña donde</l>
+            <l part="I">la fe milita.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">¿Quién es</l>
+            <l part="I">su maese de campo?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">Andrés.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Bien la banda corresponde</l>
+            <l n="495">con el aspa ensangrentada.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Rojos sus bastones son</l>
+            <l>por la sangre del toisón,</l>
+            <l>orden en ella fundada,</l>
+            <l>y así con piedad no escasa</l>
+            <l n="500">banda roja usa la pía</l>
+            <l>católica monarquía</l>
+            <l>de Borgoña por la casa.</l>
+            <l>El tercio, que ahora llegó</l>
+            <l>de los italianos es;</l>
+            <l part="I">Pablo le gobierna.</l>
+            <stage>La caja.</stage>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l n="505" part="F">¿Pues</l>
+            <l>también Pedro no alistó</l>
+            <l part="I">en Roma su corte?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">Sí;</l>
+            <l>mas como a Pedro le diste</l>
+            <l>tu nave con que le hiciste</l>
+            <l n="510">general de mar, así</l>
+            <l>la armada ha de gobernar.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Es verdad; la nave bella</l>
+            <l>le di de la Iglesia y ella</l>
+            <l>señora me hará del mar.</l>
+            <l n="515">¿Cuyo es el tercio que veo,</l>
+            <l>que en su gran número copia</l>
+            <l part="I">las flores?</l>
+            <stage>La caja.</stage>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">Es de Etiopía.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="I">¿Quién le gobierna?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">Mateo,</l>
+            <l>Tomás y Bartolomé:</l>
+            <l n="520">aquel de la India oriental</l>
+            <l>y este de la occidental,</l>
+            <l part="I">gente conducen.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">Y qué</l>
+            <l>gente es esta que desprecia</l>
+            <l>el rosicler de los días?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="525">La de Felipe y Matías,</l>
+            <l>una de Asia, otra de Grecia;</l>
+            <l>Juan y el menor Diego, a quien</l>
+            <l>la fama su voz inclina,</l>
+            <l>son estos; de Palestina</l>
+            <l n="530">vienen y Jerusalén.</l>
+            <l>Esta es la caballería</l>
+            <l>con cuyas armas parece</l>
+            <l>o que el día se obscurece</l>
+            <l>o que alumbra más el día.</l>
+            <l n="535">Diego, su gran general,</l>
+            <l>la gobierna, a quien siguiendo</l>
+            <l>vienen las tropas, haciendo</l>
+            <l>alarde de la señal</l>
+            <l>que los trae satisfechos</l>
+            <l n="540">de su valor, dando luz</l>
+            <l>sobre el acero la cruz,</l>
+            <l>rojo esmalte de sus pechos,</l>
+            <l>a quien siguen a millares</l>
+            <l>con gloriosa emulación</l>
+            <l n="545">las demás tropas que son</l>
+            <l>religiones militares.</l>
+            <l>Benito y Bernardo honores</l>
+            <l>dan con la cruz esmaltada,</l>
+            <l>sus mártires colorada</l>
+            <l n="550">y verde sus confesores.</l>
+            <l>Este es tu ejército, en suma,</l>
+            <l>cuyo honor te satisfaga</l>
+            <l>que ni el tiempo le deshaga</l>
+            <l>ni el olvido le consuma.</l>
+            <stage>Las trompetas a marcha.</stage>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l n="555">Pues al arma toca y cierra</l>
+            <l>que nuestra ha de ser la gloria.</l>
+          </sp>
+          <stage>Tocan cajas y trompetas, y dice dentro la SINAGOGA.</stage>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Mía ha de ser la victoria.</l>
+          </sp>
+          <sp who="#iglesia #bautismo">
+            <speaker>UNOS</speaker>
+            <l part="I">Arma, arma.</l>
+          </sp>
+          <sp who="#apostasía #orden">
+            <speaker>OTROS</speaker>
+            <l part="F">Guerra, guerra.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Al irse a entrar la IGLESIA y el BAUTISMO, sale la APOSTASÍA huyendo como asombrada.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Bella Iglesia, ¿dónde vas?</l>
+            <l n="560">Atrás, atrás vuelve, no</l>
+            <l part="I">pases adelante.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">Yo</l>
+            <l>no puedo volver atrás.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Mira que está el enemigo</l>
+            <l>en la cumbre de aquel monte</l>
+            <l n="565">que corona el horizonte,</l>
+            <l>haciendo al cielo testigo</l>
+            <l>de su poder, pues sus bellas</l>
+            <l>tropas no pueden contar</l>
+            <l>ni las arenas del mar</l>
+            <l n="570">ni del cielo las estrellas.</l>
+            <l part="I">Cierta es tu ruina.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">¿Quién eres</l>
+            <l>tú, que tan ciego has venido,</l>
+            <l>que yo te he desconocido</l>
+            <l part="I">en mi ejército?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F">¿No infieres</l>
+            <l n="575">viendo la eterna señal</l>
+            <l>del Bautismo, Iglesia, en mí,</l>
+            <l part="I">que soy tu soldado?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">Sí.</l>
+            <l>¿De dónde eres natural?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Un aventurero soy</l>
+            <l n="580">que a militar en tu corte</l>
+            <l>de los piélagos del norte</l>
+            <l>vine a ganar fama hoy</l>
+            <l>debajo de tu bandera.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¿Pues cómo, siendo soldado</l>
+            <l n="585">en mi milicia alistado,</l>
+            <l>temes de aquesa manera?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Porque está el contrario fuerte</l>
+            <l>en su ciega obstinación.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¿No ves que es implicación</l>
+            <l n="590">ser mío y temer la muerte?</l>
+            <l part="I">¿Bautismo?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="M">¿Qué mandas?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">Que</l>
+            <l>tengas con este soldado</l>
+            <l>desde aquí mucho cuidado,</l>
+            <l>que es sospechoso en la fe.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="595">¿De mi alistado temer</l>
+            <l>puedes que te ha de faltar?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Sí, que el que empezó a dudar</l>
+            <l>cerca está de no creer.</l>
+          </sp>
+          <stage>Dentro arma.</stage>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Hoy será el cielo y la tierra</l>
+            <l n="600">de mi gran valor testigo.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Ya se acerca el enemigo;</l>
+            <l part="I">arma, arma.</l>
+          </sp>
+          <sp who="#apostasía #iglesia #bautismo #orden #penitencia #oración">
+            <speaker>TODOS</speaker>
+            <l part="F">Guerra, guerra.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Vanse todos sacando las espadas, quiere la APOSTASÍA seguirlos y no puede. Las cajas y trompetas están siempre tocando a tiempos y la batalla se finge dentro.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>¿Qué es aquesto? ¿Cuando veo</l>
+            <l>ir a pelear mi valor</l>
+            <l n="605">se queda atrás? ¿Qué temor</l>
+            <l>es este? ¿Qué dudo y creo?</l>
+            <l>¡Mas, ay de mí!, que aunque intente</l>
+            <l>ir a morir en defensa</l>
+            <l>de la Iglesia, lo que piensa</l>
+            <l n="610">mi discurso no consiente</l>
+            <l>que dé por ella la vida.</l>
+            <l>¡Qué extraños misterios son</l>
+            <l>(¡oh Iglesia!) que mi opinión</l>
+            <l>han dejado destruida</l>
+            <l n="615">los tuyos! Pues todos ellos</l>
+            <l>llegando a considerallos,</l>
+            <l>me dan razón de dudallos</l>
+            <l>que me obliga a no creellos.</l>
+            <l>Pero ya la lid trabada</l>
+            <l n="620">de una y otra parte está.</l>
+            <l>¡Aprensión, déjame ya,</l>
+            <l>que no quiero saber nada;</l>
+            <l>mi imaginación destierra!</l>
+            <l>¡Soldado de la fe soy!</l>
+            <l n="625">¡Qué cobarde a pelear voy!</l>
+          </sp>
+          <sp who="#acompañamiento #gentilidad #iglesia #bautismo #marineros #oración #orden #penitencia #san-pedro #soldados #zabulón">
+            <speaker>TODOS</speaker>
+            <stage>Dentro.</stage>
+            <l>¡Arma, arma; guerra, guerra!</l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#acompañamiento #gentilidad #iglesia #penitencia">
+            <speaker>UNOS</speaker>
+            <stage>Dentro.</stage>
+            <l>¡La gran Sinagoga altiva</l>
+            <l>en su libertad primera</l>
+            <l part="I">viva!</l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#bautismo #marineros #oración #orden">
+            <speaker>OTROS</speaker>
+            <stage>Dentro.</stage>
+            <l part="F">¡El Judaísmo muera</l>
+            <l n="630">y solo la Iglesia viva!</l>
+            <stage>Dentro.</stage>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Vase y sale por la otra parte ZABULÓN.</stage>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>Aunque lo intento no puedo</l>
+            <l>desechar el temor mío,</l>
+            <l>mas no fuera buen judío</l>
+            <l>si no tuviera buen miedo.</l>
+            <l n="635">¡Qué trabada, qué sangrienta</l>
+            <l>anda la lid a porfía!</l>
+            <l>Sin requiebro, vida mía,</l>
+            <l>entremos los dos en cuenta.</l>
+            <l>-¿De qué provecho es morir</l>
+            <l n="640">un hombre? -De nada, pues</l>
+            <l>si me pierdes no hay después</l>
+            <l>otra vida que vivir.</l>
+            <l>-¿No? Luego muy bien harán</l>
+            <l>en guardarte mis pesares</l>
+            <l n="645">y dura lo que durares,</l>
+            <l>como si fueras de pan.</l>
+            <l>Aquí escondido ver quiero</l>
+            <l>en qué para la batalla,</l>
+            <l>por si se ofrece contalla</l>
+            <l n="650">alguna vez lo primero,</l>
+            <l>y lo segundo por si</l>
+            <l>se ofrece la fugitiva.</l>
+          </sp>
+          <sp who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Victoria!</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>UNO</speaker>
+            <l part="F">¡La Iglesia viva!</l>
+          </sp>
+          <sp who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
+            <speaker>TODOS</speaker>
+            <l part="I">¡Viva!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Sale la SINAGOGA herida en el rostro con sangre huyendo.</stage>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">¡Ay, infeliz de mí!</l>
+            <l n="655">Perdí fama, ser y nombre</l>
+            <l>en la batalla primera.</l>
+            <l>Verdaderamente era</l>
+            <l>hijo de Dios aquel hombre</l>
+            <l>que maté, pues sobre mí</l>
+            <l n="660">y sobre mis descendientes</l>
+            <l>llueve sangre de inocentes.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="I">Buen llover.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">¿Quién está aquí?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="I">No sé.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">¿Eres soldado mío?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>Que soy sólo sé saber....</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">¿Qué?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l n="665" part="F">Lo menos que hay que ser.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">¿Pues qué eres?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Pobre y judío.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Si hebreo eres dile a quien</l>
+            <l>siguiéndome viene (¡ay triste!),</l>
+            <l>que a tu Sinagoga viste</l>
+            <l n="670">salir de Jerusalén</l>
+            <l>a los ásperos desiertos,</l>
+            <l>con pasos tan fugitivos</l>
+            <l>que por huir de los vivos</l>
+            <l>va tropezando en los muertos.</l>
+            <l n="675">El tercio de los romanos</l>
+            <l>tan a su cargo tomó</l>
+            <l>la venganza del que yo</l>
+            <l>maté con ajenas manos,</l>
+            <l>que rompiendo mi poder</l>
+            <l n="680">con fuga me obliga a ir</l>
+            <l>sin tener dónde vivir</l>
+            <l>ni aun dónde morir tener.</l>
+            <l>Y pues (¡mi dolor me ahoga!)</l>
+            <l>jamás (¡mi furor me abrasa!)</l>
+            <l n="685">tendrá templo, ara, ni casa</l>
+            <l>desde hoy la Sinagoga,</l>
+            <l>a mis hijos les dirás,</l>
+            <l>ya que han de vivir sin mí,</l>
+            <l>que porque la Iglesia aquí</l>
+            <l n="690">de ellos no triunfe jamás,</l>
+            <l>a Roma obedeceré</l>
+            <l>y que a su Gentilidad</l>
+            <l>favor pediré y piedad</l>
+            <l>aunque sujeción la dé,</l>
+            <l n="695">porque en sus sacros altares</l>
+            <l>no triunfen cristianos viles,</l>
+            <l>y así voy a los gentiles</l>
+            <l>que sean mis auxiliares,</l>
+            <l>a cuyo efecto, pues ya</l>
+            <l n="700">la Sinagoga no soy,</l>
+            <l>la esclava nación desde hoy</l>
+            <l>mi nombre infeliz será.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Vase.</stage>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>Cuanto me dices hacello</l>
+            <l>ofrezco de esa manera,</l>
+            <l n="705">y eso y mucho más dijera</l>
+            <l>si yo me acordara de ello.</l>
+            <l>Pero ¿quién me mete a mí</l>
+            <l>sino en ser país neutral</l>
+            <l>y de la Iglesia parcial</l>
+            <l n="710">puesto que hoy triunfar la vi?,</l>
+            <l>que esto de viva quien vence</l>
+            <l>es la más sana opinión</l>
+            <l>de los que gallinas son.</l>
+            <l>Aquí mi industria comience</l>
+            <l n="715">a declararse y pues veo</l>
+            <l>que cantando a esta victoria</l>
+            <l>viene la Iglesia la gloria,</l>
+            <l>introducirme deseo</l>
+            <l>con ella, porque así es llano</l>
+            <l n="720">guardo el individuo mío,</l>
+            <l>con los judíos, judío,</l>
+            <l>con los cristianos, cristiano.</l>
+            <stage>Los INSTRUMENTOS dentro.</stage>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Salen los MÚSICOS cantando, el BAUTISMO, la ORACIÓN, la PENITENCIA, y ORDEN SACERDOTAL, todos con ramos y flores, arrojándolos a sus pies y bailando.</stage>
+          <sp who="#música">
+            <speaker>MÚSICOS</speaker>
+            <l>¡Viva la militante</l>
+            <l>divina Iglesia</l>
+            <l n="725">y a pesar de enemigos</l>
+            <l>triunfante sea!</l>
+            <l>Esto se baila siempre</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Coronen al Serafín</l>
+            <l>que la primer lid venció</l>
+            <l n="730">las flores de Jericó</l>
+            <l>y las palmas de Efraín.</l>
+          </sp>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l>Dele el primero jardín</l>
+            <l>rosas de su primavera.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICOS</speaker>
+            <l>¡Y a pesar de enemigos</l>
+            <l n="735">triunfante sea!</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l>Ciñan sus sienes altivas,</l>
+            <l>coronada unión de fieles,</l>
+            <l>del Líbano los laureles,</l>
+            <l>del Olivet las olivas.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l n="740">Inmortal al tiempo vivas,</l>
+            <l>y tu militante esfera....</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICOS</speaker>
+            <l>¡A pesar de enemigos</l>
+            <l>triunfante sea!</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>De todos esos jodíos</l>
+            <l n="745">que te hacen oposición</l>
+            <l>hagas tal inquisición</l>
+            <l>que les abajes los bríos,</l>
+            <l>aunque los abuelos míos</l>
+            <l>sean leña de su hoguera.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICOS</speaker>
+            <l n="750">¡Y a pesar de enemigos</l>
+            <l>triunfante sea!</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">¿Quién sois, que os ignoro?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">¿Yo?</l>
+            <l>Pues si yo quién soy supiera,</l>
+            <l>¿en decíroslo qué hiciera?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="I">¿No es nuestro soldado?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="755" part="F">No.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="I">¿Hay más de sello?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="F">¿Pues cómo</l>
+            <l part="I">aquí estáis?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Como he llegado</l>
+            <l>a vivir desengañado,</l>
+            <l>y vengo y ¿qué hago? Tomo</l>
+            <l n="760">y pásome acá porque</l>
+            <l>quiero ser al rey leal.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Bautismo, con tu señal</l>
+            <l part="I">plaza le asienta.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">Sí haré,</l>
+            <l>porque con piadosos modos</l>
+            <l n="765">a nadie negarme espero.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>Pues hágase uced dinero,</l>
+            <l>verá si se niega a todos.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">¿Cómo os llamáis?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Zabulón.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Juan os llamaréis por ser</l>
+            <l part="I">gracia.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l n="770" part="F">Bien la he menester.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Ya que en aquesta ocasión</l>
+            <l>piadoso el cielo me ha dado</l>
+            <l>esta primera victoria,</l>
+            <l>démosle al cielo la gloria;</l>
+            <l n="775">cantad mi felice estado.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICOS</speaker>
+            <l>¡Viva la militante</l>
+            <l>divina Iglesia</l>
+            <l>y a pesar de enemigos</l>
+            <l>triunfante sea!</l>
+            <l n="780">De su eterna primavera</l>
+            <l>goce la felicidad.</l>
+          </sp>
+          <stage>Estando bailando, arma dentro y alborótanse todos.</stage>
+          <sp who="#acompañamiento #apostasía #gentilidad #zabulón #marineros #san-pedro #soldados">
+            <speaker>TODOS</speaker>
+            <stage>Dentro.</stage>
+            <l>¡Viva la Gentilidad,</l>
+            <l>la Fe católica muera!</l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="I">¿Qué es aquesto?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">¿Cuánto va,</l>
+            <l n="785">si se ofrece otro rumor</l>
+            <l>que llevamos lo peor</l>
+            <l>agora que estoy yo acá?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¿Quién temerario interrumpe</l>
+            <l>con acentos militares</l>
+            <l n="790">las alabanzas que al cielo</l>
+            <l>suben cortando los aires?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+
+            <l>Católica monarquía,</l>
+            <l>no así tus victorias cantes</l>
+            <l>sin ver los contrarios que</l>
+            <l n="795">te cercan por todas partes.</l>
+            <l>Aquesta nación traidora,</l>
+            <l>que con violencias tan graves</l>
+            <l>conspiró contra su rey</l>
+            <l>hasta llegar a matarle</l>
+            <l n="800">a su segunda persona,</l>
+            <l>y soberbia y arrogante</l>
+            <l>tocó cajas, armó gente</l>
+            <l>y arboló sus estandartes,</l>
+            <l>viéndose oprimida y que</l>
+            <l n="805">no tiene fuerzas bastantes</l>
+            <l>para resistir la entrada</l>
+            <l>que en ella tus armas hacen,</l>
+            <l>y viendo cuánto deshecha,</l>
+            <l>postrada y rendida yace</l>
+            <l n="810">su Sinagoga, que fue</l>
+            <l>la diputación que a tales</l>
+            <l>levantamientos la indujo,</l>
+            <l>sin providencia y sin arte,</l>
+            <l>llamó a la Gentilidad</l>
+            <l n="815">que la defienda y ampare,</l>
+            <l>a quien ha entregado todas</l>
+            <l>sus fuerzas más principales,</l>
+            <l>concediéndola el gobierno</l>
+            <l>de sus armas con tan grandes</l>
+            <l n="820">rendimientos que admitiendo</l>
+            <l>cabezas y generales,</l>
+            <l>esclava vive, que esclava</l>
+            <l>es la que en parcialidades</l>
+            <l>por huir de un enemigo</l>
+            <l n="825">de otro enemigo se vale.</l>
+            <l>La obediencia dio en efecto,</l>
+            <l>de suerte que a gobernarles</l>
+            <l>los francos romanos (francos,</l>
+            <l>porque no conoce a nadie</l>
+            <l n="830">el romano imperio) vienen</l>
+            <l>dueños ya más que auxiliares.</l>
+            <l>Tan vil es su obstinación</l>
+            <l>ciega, alevosa y infame</l>
+            <l>que quieren perder con ellos</l>
+            <l n="835">todas sus inmunidades</l>
+            <l>más que obedecerte a ti,</l>
+            <l>pues lo primero que hacen</l>
+            <l>los gentiles es hacerles</l>
+            <l>que contribuyan y paguen,</l>
+            <l n="840">de modo que a servidumbres</l>
+            <l>reducen sus libertades,</l>
+            <l>dando a la Gentilidad</l>
+            <l>el Judaísmo vasallaje.</l>
+            <l>Unidos, pues, los hebreos</l>
+            <l n="845">y gentiles a buscarte</l>
+            <l>vienen por esas campañas</l>
+            <l>vagando en tropas errantes,</l>
+            <l>sin pesadumbre los montes,</l>
+            <l>sin gravedad las ciudades.</l>
+            <l n="850">Proponiendo vienen todos,</l>
+            <l>en sus rencores iguales,</l>
+            <l>que se han de anegar los ríos</l>
+            <l>de tu derramada sangre</l>
+            <l>hasta que la acción perdida</l>
+            <l n="855">de tus patrimonios reales,</l>
+            <l>su república les dejes,</l>
+            <l>su tierra les desampares,</l>
+            <l>y es tal su furor que pudo</l>
+            <l>en los primeros combates</l>
+            <l n="860">dar con crueles tormentos</l>
+            <l>muerte a infinitos infantes,</l>
+            <l>y robando a tus tesoros</l>
+            <l>lo más rico en el bagaje</l>
+            <l>dio donde en mujeres solas</l>
+            <l n="865">de once mil hizo un cadáver.</l>
+            <l>Tu poder contra dos fuerzas</l>
+            <l>unidas y fuerzas tales,</l>
+            <l>no es posible que te libre,</l>
+            <l>no es posible que te guarde;</l>
+            <l n="870">y mas si los ojos vuelves</l>
+            <l>a ver sobre aquesos mares</l>
+            <l>otra montaña de pino,</l>
+            <l>que errando al arbitrio fácil</l>
+            <l>del viento, te corta el paso,</l>
+            <l n="875">el comercio te deshace</l>
+            <l>y la comunicación</l>
+            <l>con galeras y con naves.</l>
+            <l>Mira, pues, lo que has de hacer</l>
+            <l>contra tanto poder, antes</l>
+            <l n="880">que vencida de sus iras,</l>
+            <l>postrada de sus corajes,</l>
+            <l>ningún partido te acepte.</l>
+            <l>Tu gente rendida yace</l>
+            <l>de la pasada campaña,</l>
+            <l n="885">y cuando fortificarte</l>
+            <l>quieras en aqueste monte,</l>
+            <l>¿cómo podrás excusarte</l>
+            <l>de morir a breve tiempo,</l>
+            <l>pues bastimento no traes,</l>
+            <l n="890">a los embotados filos</l>
+            <l>de la sed y de la hambre?,</l>
+            <l>si ya entender a la letra</l>
+            <l>no quieres en este trance</l>
+            <l>lo del mandar Dios comer</l>
+            <l n="895">los inmundos animales.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Sale.</stage>
+          <stage>Sale.</stage>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Calla, calla, no prosigas,</l>
+            <l>que temeroso y cobarde</l>
+            <l>a mi majestad ofendes,</l>
+            <l>dando a entender que no sabes</l>
+            <l n="900">que yo mirarme afligida</l>
+            <l>de rigores y crueldades</l>
+            <l>puedo tal vez, mas no puedo</l>
+            <l>nunca vencida mirarme,</l>
+            <l>que en mi primitiva edad</l>
+            <l n="905">podían enemigos grandes</l>
+            <l>afligirme pero no</l>
+            <l>consumirme ni acabarme,</l>
+            <l>porque son mis duraciones</l>
+            <l>mayores que las edades.</l>
+            <l n="910">Y tú, Oración, pues que eres</l>
+            <l>aquella divina ave</l>
+            <l>llena de gracia que al cielo</l>
+            <l>las esferas celestiales</l>
+            <l>penetrar puedes, al viento</l>
+            <l n="915">las bellas plumas esparce:</l>
+            <l>sube al cielo, entra al impíreo</l>
+            <l>y dile al rey de mi parte</l>
+            <l>la persecución que espero,</l>
+            <l>que me socorra y ampare,</l>
+            <l n="920">enviándome en auxilios</l>
+            <l>suficientes y eficaces</l>
+            <l>pan y vino, de quien constan</l>
+            <l>sus .sus .Socorros generales</l>
+          </sp>
+          <stage>En un vuelo de elevación sube la ORACIÓN poco a poco cantando, y en llegando arriba se deshace de la canal y en bofetón da vuelta a la otra parte.</stage>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l>Ya mi fervorosa instancia</l>
+            <l n="925">las doradas alas bate</l>
+            <l>y elevada sobre mí</l>
+            <l>rompo la esfera del aire.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Repite en sonoras voces</l>
+            <l>de parte de los leales</l>
+            <l n="930">al rey que el empíreo asiste</l>
+            <l>sobre tronos de diamantes.</l>
+          </sp>
+          <sp who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
+            <speaker>TODOS</speaker>
+            <l>Dios inmenso,</l>
+            <l>Dios grande,</l>
+            <l>escucha el llanto</l>
+            <l n="935">que los fieles hacen.</l>
+          </sp>
+          <stage>La MÚSICA cantando y la IGLESIA y los demás representando dicen estos versos de arriba, y canta sola la ORACIÓN.</stage>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l>Sitiada vive en los montes</l>
+            <l>la Iglesia por todas partes,</l>
+            <l>los enemigos la embisten,</l>
+            <l>los contrarios la combaten.</l>
+          </sp>
+          <sp who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
+            <speaker>TODOS</speaker>
+            <l n="940">Dios inmenso,</l>
+            <l>Dios grande,</l>
+            <l>escucha el llanto</l>
+            <l>que los fieles hacen.</l>
+          </sp>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l>Si son merecidas iras,</l>
+            <l n="945">Señor, de sus culpas graves,</l>
+            <l>las voces de la Oración</l>
+            <l>te enternezcan y te ablanden.</l>
+          </sp>
+          <sp who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden">
+            <speaker>TODOS</speaker>
+            <l>Dios inmenso,</l>
+            <l>Dios grande,</l>
+            <l n="950">escucha el llanto</l>
+            <l>que los fieles hacen.</l>
+          </sp>
+          <stage>Desaparece la ORACIÓN.</stage>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Ahora, pues no podemos</l>
+            <l>salir con fuerzas iguales</l>
+            <l>a pelear a la campaña,</l>
+            <l n="955">montes y peñas nos guarden,</l>
+            <l>que no es bien que de una vez</l>
+            <l>las raíces nos arranquen</l>
+            <l>de nuestro ejército y pierda</l>
+            <l>el rey en aquesta parte</l>
+            <l n="960">la posesión que ya tiene,</l>
+            <l>y así por ahora trate</l>
+            <l>contra este unido poder</l>
+            <l>mi valor fortificarse.</l>
+            <l>Cíñase aquesta montaña</l>
+            <l n="965">de diez fuertes baluartes,</l>
+            <l>pues consisten mis victorias</l>
+            <l>sólo en que ellos diez se guarden</l>
+            <l>en el corazón; después</l>
+            <l>del recinto que ellos hacen,</l>
+            <l n="970">hagan frente de banderas</l>
+            <l>los doce tercios constantes</l>
+            <l>en su fe; los siete vivos</l>
+            <l>cabos que su sueldo traen,</l>
+            <l>acerca de mi persona</l>
+            <l n="975">me asistan y me acompañen</l>
+            <l>en esta forma: la puerta</l>
+            <l>el Bautismo me la guarde</l>
+            <l>porque entrar no pueda alguno</l>
+            <l>sin que por sus listas pase;</l>
+            <l n="980">la ronda continuamente</l>
+            <l>(por si acaso algún infante</l>
+            <l>ignorando el ser quién es</l>
+            <l>dentro de la plaza se halle)</l>
+            <l>tenga la Confirmación,</l>
+            <l n="985">que le haga el segundo examen;</l>
+            <l>la casa de municiones</l>
+            <l>a donde están los pesares,</l>
+            <l>silicios, llantos, ayunos,</l>
+            <l>penas y calamidades,</l>
+            <l n="990">la tenga la Penitencia</l>
+            <l>donde los soldados se armen;</l>
+            <l>el almacén en que están</l>
+            <l>las raciones de los panes,</l>
+            <l>la Comunión tome a cuenta</l>
+            <l n="995">pues ella es quien los reparte;</l>
+            <l>de los enfermos y heridos</l>
+            <l>los piadosos hospitales</l>
+            <l>la Extremaunción los visite;</l>
+            <l>la capilla que ha de armarse,</l>
+            <l n="1000">la Orden Sacerdotal</l>
+            <l>la rija, gobierne y mande;</l>
+            <l>las matronas que a este sitio</l>
+            <l>venir quisieren constantes,</l>
+            <l>se alberguen y se recojan</l>
+            <l n="1005">en la casa del bagaje,</l>
+            <l>de quien será dignamente</l>
+            <l>el Matrimonio el alcaide.</l>
+            <l>A las postas que nos velan</l>
+            <l>siempre por nombre ha de darse</l>
+            <l n="1010">sólo un Dios; las contraseñas,</l>
+            <l>porque traidores no engañen,</l>
+            <l>diferentes han de ser,</l>
+            <l>añadiendo al admirable</l>
+            <l>nombre de Dios solo, otros</l>
+            <l n="1015">atributos celestiales</l>
+            <l>como Dios solo, humanado,</l>
+            <l>nacido de Virgen Madre,</l>
+            <l>Dios solo, sacramentado</l>
+            <l>por misterio inescrutable.</l>
+            <l n="1020">Pues con este orden en todos</l>
+            <l>resistiremos leales</l>
+            <l>la invasión de los tiranos</l>
+            <l>hasta que del miserable</l>
+            <l>sitio, en que la primitiva</l>
+            <l n="1025">Iglesia hoy está, la saque</l>
+            <l>del católico monarca</l>
+            <l>los .los .Socorros generales</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Cualquiera a su cargo atento,</l>
+            <l>cuidadoso y vigilante</l>
+            <l part="I">asistirá....</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="1030" part="F">Sino yo,</l>
+            <l>que temeroso y cobarde,</l>
+            <l>me aflige mi pensamiento.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l>Ninguno en la fe desmaye</l>
+            <l>y demos principio todos</l>
+            <l n="1035">a los continuos afanes</l>
+            <l>de las fortificaciones.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l>Como Penitencia hablaste.</l>
+            <l part="I">Vamos todos.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">¿No es mejor</l>
+            <l>que antes que trabajar mandes</l>
+            <l n="1040">mandes que nos den raciones,</l>
+            <l>porque no hay fuerzas con hambre?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Sí; la Comunión dará</l>
+            <l>pan a todos al instante.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>¡Para mí es buena ración</l>
+            <l n="1045">pan que no me satisface</l>
+            <l>ni hallo en él substancia alguna!</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Venid y no tema nadie</l>
+            <l>el sitio, pues el socorro</l>
+            <l>no es posible que nos falte,</l>
+            <l n="1050">y más si ya la Oración</l>
+            <l>pisó al cielo los umbrales,</l>
+            <l>cuyas voces repitiendo</l>
+            <l>le dicen de nuestra parte.</l>
+          </sp>
+          <sp who="#apostasía #iglesia #sinagoga #bautismo #penitencia #orden #zabulón">
+            <speaker>TODOS</speaker>
+            <l>Dios inmenso,</l>
+            <l n="1055">Dios grande,</l>
+            <l>escucha el llanto</l>
+            <l>que los fieles hacen.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Vanse todos y queda ZABULÓN.</stage>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>¿Quién, sin qué ni para qué</l>
+            <l>a mí me metió en andarme</l>
+            <l n="1060">a jugar con el Bautismo</l>
+            <l>a «pásate acá, compadre»?</l>
+            <l>Pero ahora que caigo en ello,</l>
+            <l>¿habrá más calamidades</l>
+            <l>que las mías? ¡Judío, pobre</l>
+            <l n="1065">y desgraciado! ¿A qué parte</l>
+            <l>el pan se repartirá?</l>
+            <l>Ya que dicen dos refranes</l>
+            <l>«los duelos con pan son menos»</l>
+            <l>y «no hay mal pan a buen hambre»...</l>
+            <l n="1070">mas la casa me dirá</l>
+            <l>este que ya con él sale.</l>
+            <l>Soldado, ¿dónde ese pan</l>
+            <l part="I">se da?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Sale la APOSTASÍA con una como forma grande, divertido, mirándola.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="M">¡Qué sé yo!</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Escuchadme.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>¿Cómo puede ser que sea</l>
+            <l part="I">carne aquesto?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l n="1075" part="F">¿Aquesto carne?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>¿Y sangre, cómo es posible?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>Diciendo está disparates.</l>
+            <l>Pan es aqueso en mi tierra,</l>
+            <l>mas hácese carne y sangre</l>
+            <l n="1080">si se come con provecho.</l>
+            <stage>Dale haciendo una exclamación un golpe.</stage>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>¡Necios discursos, dejadme!</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>¿Pues soy yo necio discurso?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">¿Quién es quien está aquí?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Nadie,</l>
+            <l part="I">porque ya no es.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F">Perdonad</l>
+            <l n="1085">si os di, que esto fue admirarme.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>Yo lo hago, pero admiraros</l>
+            <l>pudierais de esotra parte,</l>
+            <l>y decirme en pago dónde</l>
+            <l>aquese pan se reparte.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="1090">Pedidle a la Comunión.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>Decidme, así Dios os guarde,</l>
+            <l>¿habéis comido ya mucho</l>
+            <l part="I">del que os dieron?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F">Ni aun probarle</l>
+            <l part="I">hasta ahora quise.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Luego</l>
+            <l n="1095">¿cree la Iglesia que es bastante</l>
+            <l>solo un bocado de pan</l>
+            <l>que me dará a sustentarme?;</l>
+            <l>pues no suelo yo tener</l>
+            <l>harto con catorce panes.</l>
+            <l n="1100">¡A buena dieta he venido!</l>
+            <l>¡Pardiez, yo he echado buen lance!</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Vase.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Blanca cifra en quien la fe</l>
+            <l>lo figurado me da</l>
+            <l>de aquel llovido maná</l>
+            <l n="1105">que unión de sabores fue,</l>
+            <l>si te veo pan ¿podré</l>
+            <l>persuadir a mi deseo</l>
+            <l>que eres carne? Es devaneo</l>
+            <l>que en las dudas con que lucho</l>
+            <l n="1110">no he de creer lo que escucho</l>
+            <l>primero que lo que veo.</l>
+            <l>Fruta en el árbol cogida</l>
+            <l>de la vida y de la muerte,</l>
+            <l>pues das de una misma suerte</l>
+            <l n="1115">a unos muerte y a otros vida,</l>
+            <l>si pan toco en su comida</l>
+            <l>¿cómo a creer me provoco</l>
+            <l>ser carne? Fuera estar loco</l>
+            <l>que contra mi parecer</l>
+            <l n="1120">lo que oigo no he de creer</l>
+            <l>primero que lo que toco.</l>
+            <l>Bello rocío que llora</l>
+            <l>cuajado sobre el vellón</l>
+            <l>de la piel de Gedeón</l>
+            <l n="1125">el rosicler de la aurora,</l>
+            <l>si pan gusto y huelo ahora,</l>
+            <l>¿cómo a presumir me ajusto</l>
+            <l>ser carne y sangre? ¡Es injusto</l>
+            <l>rigor! ¡Precepto es severo</l>
+            <l n="1130">creer lo que dicen primero</l>
+            <l>que lo que yo huelo y gusto!</l>
+            <l>Luego si eres pan no más</l>
+            <l>a la vista, pan al tacto,</l>
+            <l>pan al gusto y al olfato,</l>
+            <l n="1135">pan al oído serás</l>
+            <l>y en tu fracción lo verás,</l>
+            <l>fuera de que no es piedad</l>
+            <l>en tanta dificultad</l>
+            <l>persuadirme a que atrevidos</l>
+            <l n="1140">me mientan cuatro sentidos</l>
+            <l>y uno me diga verdad.</l>
+            <l>Pues si no lo he de creer</l>
+            <l>siempre luchando conmigo,</l>
+            <l>pasareme al enemigo</l>
+            <l n="1145">que yo no he de padecer,</l>
+            <l>pues no puedo merecer,</l>
+            <l>ni del hambre la porfía</l>
+            <l>ni de la sed la agonía.</l>
+            <l>De la Iglesia huyendo iré,</l>
+            <l n="1150">con cuya fuga daré</l>
+            <l>principio a la Apostasía.</l>
+            <l>Ya la fábrica que sube</l>
+            <l>a estrechar el horizonte</l>
+            <l>empezando en este monte,</l>
+            <l n="1155">remata en aquella nube.</l>
+            <l>¿Cómo el intento que tuve</l>
+            <l>en ejecución pondré?</l>
+            <l>¿Cómo del sitio saldré?</l>
+            <l>Pero ya lo he imaginado:</l>
+            <l n="1160">un caballo desbocado</l>
+            <l>(que mi pensamiento fue)</l>
+            <l>está allí puesto; en él quiero</l>
+            <l>salir de este obscuro abismo;</l>
+            <l>la puerta guarda el Bautismo</l>
+            <l n="1165">que es por donde entré primero;</l>
+            <l>atropellándole espero</l>
+            <l>librarme de su castigo.</l>
+            <stage>Córrense las cortinas y queda la muralla descubierta.</stage>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Vase y dice el primer verso dentro el BAUTISMO, y disparando sale por una puerta y la IGLESIA por otra.</stage>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Tiralde, tiralde digo.</l>
+          </sp>
+          <stage>Disparan.</stage>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¿Qué arma es la que se tocó?</l>
+            <l part="I">¿Viene el enemigo?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="1170" part="F">No,</l>
+            <l>que antes se va el enemigo.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">Como un cancerado</l>
+            <l>miembro tuyo forajido</l>
+            <l>la línea al sitio ha rompido</l>
+            <l n="1175">donde te has fortificado.</l>
+            <l>Al contrario se ha pasado</l>
+            <l>atropellando por mí,</l>
+            <l>que plaza le senté y di</l>
+            <l>tu sueldo, y con él se huyó</l>
+            <l n="1180">llevándose, mi fe no,</l>
+            <l>pero mi carácter sí.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¿Por qué, soldado, por qué</l>
+            <l>de mi cristiana milicia</l>
+            <l>te ha ausentado tu malicia?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <stage>Dentro.</stage>
+            <l n="1185">Por las dudas de tu fe.</l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¿En qué sacramento, en qué</l>
+            <l>misterio dudar te hacía?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <stage>Dentro.</stage>
+            <l>En el de la Eucaristía.</l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¡Ay de ti infeliz! ¡Ay triste!,</l>
+            <l n="1190">que sacramentario diste</l>
+            <l>principios a su herejía.</l>
+            <l>Y ¡ay de mí!, que viendo ya</l>
+            <l>que este al contrario se pasa,</l>
+            <l>como ladrón que es de casa</l>
+            <l n="1195">mis pocas fuerzas podrá</l>
+            <l>decir, y aunque no dirá</l>
+            <l>que hay flaqueza alguna en mí,</l>
+            <l>pues siempre constante fui,</l>
+            <l>dirá el asedio en que estaba,</l>
+            <l n="1200">el peligro en que me hallaba</l>
+            <l>y el hambre que padecí,</l>
+            <l>para que el verme afligida</l>
+            <l>más esperanzas les dé</l>
+            <l>de las victorias en que</l>
+            <l n="1205">pierdan mis hijos la vida.</l>
+            <l>Si eres oveja perdida</l>
+            <l>y si eres halcón en celo,</l>
+            <l>ten el paso, abate el vuelo,</l>
+            <l>no a dueño pases extraño.</l>
+            <l n="1210">Vuelve, oveja, a mi rebaño,</l>
+            <l>vuelve, halcón, a mi señuelo.</l>
+            <l>No me escucha y ya volando</l>
+            <l>en su mismo pensamiento,</l>
+            <l>con ser tan ligero el viento</l>
+            <l n="1215">atrás se le va dejando.</l>
+            <l>Este daño reparando</l>
+            <l>conviene poner dobladas</l>
+            <l>las centinelas y armadas</l>
+            <l>que sus engaños prevengan</l>
+            <l n="1220">y teniendo un nombre, tengan</l>
+            <l>las contraseñas mudadas.</l>
+            <l>Asegúrese el castigo</l>
+            <l>de este enemigo mayor,</l>
+            <l>pues quien fue amigo traidor</l>
+            <l n="1225">será mayor enemigo.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Siempre tus órdenes sigo,</l>
+            <l>¿pero tú lloras, señora?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="I">¿No soy madre?</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">¿Quién lo ignora?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Luego bien llorar pretendo</l>
+            <l n="1230">pues no es madre la que viendo</l>
+            <l>perdido un hijo no llora.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>Vanse. Descúbrese la APOSTASÍA en un caballo, que da vuelta al teatro, y llegue donde pueda apearse de él y bajar al tablado.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Caballo desbocado</l>
+            <l>el Espíritu Santo me ha llamado</l>
+            <l>en la Sabiduría</l>
+            <l n="1235">a mí, por ser la bárbara Herejía,</l>
+            <l>y así es mi pensamiento</l>
+            <l>veloz y desbocado como el viento.</l>
+            <l>¡Romana monarquía!</l>
+            <l>¡Familia hebrea! Tú, que en este día</l>
+            <l n="1240">las católicas armas aborreces,</l>
+            <l>y tú que a echarlas del país te ofreces.</l>
+            <l>¡Ruina del tiempo! ¡Asunto de la fama!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Sale la SINAGOGA por una parte, vestida de negro, con bastón; la GENTILIDAD por otra, con corona de laurel y bastoncillo a lo romano.</stage>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">¿Quién pronuncia mis señas?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¿Quién me llama?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Un nuevo aventurero</l>
+            <l n="1245">que a los dos agregado servir quiero.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Desciende y di quién eres.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Yo soy, pues lo preguntas y oírlo quieres,</l>
+            <l>de la Iglesia un vasallo forajido,</l>
+            <l>miembro apartado y hijo aborrecido.</l>
+            <l n="1250">A dar vengo favor en tanto abismo</l>
+            <l>a la Gentilidad y al Judaísmo</l>
+            <l>contra la Iglesia, porque el mundo diga</l>
+            <l>que los tres componemos esta liga</l>
+            <l part="I">de sus persecuciones.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Sean mis brazos</l>
+            <l part="I">puerto tuyo.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l n="1255" part="F">Y los míos dulces lazos,</l>
+            <l>cuyo gran nudo fuerte</l>
+            <l>romper podrá, no desatar, la muerte;</l>
+            <l>y pues del sitio vienes</l>
+            <l>danos dél las noticias que dél tienes.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="1260">La Iglesia militante</l>
+            <l>que espera que ha de ser presto triunfante,</l>
+            <l>en esta edad primera</l>
+            <l>en su persecución infeliz era,</l>
+            <l>huyendo a un tiempo mismo</l>
+            <l n="1265">de la Gentilidad, del Judaísmo</l>
+            <l>y ya de la Herejía,</l>
+            <l>pues los tres la seguimos a porfía.</l>
+            <l>De los montes se ampara</l>
+            <l>con aflicción tan grande y con tan rara</l>
+            <l n="1270">necesidad (aunque constante ella)</l>
+            <l>que no hay en toda esa montaña bella</l>
+            <l>manjar alguno en que alimento tome,</l>
+            <l>ni lecho alguno en que descanso pruebe;</l>
+            <l>pan de dolores solamente come,</l>
+            <l n="1275">agua de llanto solamente bebe,</l>
+            <l>y son sus penas tales</l>
+            <l>que sus soldados comen animales</l>
+            <l>inmundos; y es tan cierto,</l>
+            <l>que Juan comió langostas del desierto</l>
+            <l n="1280">y todos en asedios de la guerra</l>
+            <l>las silvestres legumbres de la tierra,</l>
+            <l>de suerte que parecen fugitivos</l>
+            <l>por los desiertos esqueletos vivos.</l>
+            <l>La ración que ya a darles ha llegado</l>
+            <l n="1285">es de pan sin sabor sólo un bocado,</l>
+            <l>y hacerles creer intenta</l>
+            <l>que este bocado sólo los sustenta,</l>
+            <l>y aun este, que es el pan de cada día</l>
+            <l>y el vino que tenía,</l>
+            <l n="1290">yo se lo he derramado,</l>
+            <l>pues que yo sus misterios he negado</l>
+            <l>con que es fuerza que presto os obedezca</l>
+            <l>o mísera perezca</l>
+            <l>en aquesa montaña,</l>
+            <l n="1295">a quien el sol corona y el mar baña.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Poco triunfo me adquiere</l>
+            <l>verla morir de hambre, pues no muere</l>
+            <l>a filos de mi acero</l>
+            <l>cuando su sangre derramar espero,</l>
+            <l n="1300">y así porque la historia</l>
+            <l>no atribuya a su pena mi victoria,</l>
+            <l>sus fortificaciones</l>
+            <l>mañana han de embestir mis escuadrones,</l>
+            <l>a cuyo efecto quiero</l>
+            <l n="1305">los puestos conocer, y pues ya el fiero</l>
+            <l>horror confuso de la noche baja</l>
+            <l>envolviendo en su lóbrega mortaja</l>
+            <l>el cadáver del sol, de cuyas bellas</l>
+            <l>luces ya son pavesas las estrellas,</l>
+            <l n="1310">por mi persona he de acercarme al muro.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">Contigo habemos de ir.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Yo voy seguro</l>
+            <l>conmigo, mas venid porque veamos</l>
+            <l>los tres mejor por dónde la embistamos.</l>
+            <l>Algunas tropas de retén nos sigan</l>
+            <l n="1315">por si a pelear sentidos nos obligan.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage>Van LOS TRES tomando la vuelta al tablado, y salen por la otra parte el SACERDOCIO, el BAUTISMO y la PENITENCIA con armas de fuego.</stage>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Este puesto primero</l>
+            <l>es el que siempre yo guardar espero.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l>A mí aquesta subida me ha tocado,</l>
+            <l part="I">que es la segunda fuerza.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l part="F">A mi cuidado</l>
+            <l n="1320">la vela de esta noche está fiada.</l>
+          </sp>
+          <stage>Pónense en orden, el BAUTISMO el primero, la PENITENCIA el segundo y el SACERDOCIO el tercero.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Parece que la posta está doblada.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">Sólo un Dios es el nombre.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="F">Y humanado,</l>
+            <l part="I">mi contraseña.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l part="F">En mí sacramentado.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Yo llegaré, que puedo dar el nombre.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1325">Mi valor es preciso que se asombre</l>
+            <l>de que otro antes que yo llegue a la puerta.</l>
+          </sp>
+          <stage>Quédanse APOSTASÍA y JUDAÍSMO, y adelántase la GENTILIDAD.</stage>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">Gente he sentido, alerta.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="M">Alerta.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l part="F">Alerta.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>De mi valor los cielos sean testigos.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">¿Quién allá viene?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="M">Amigos son.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">¿Qué amigos?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">Soldado del cuartel.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="1330" part="F">Hágase fuera,</l>
+            <l part="I">diga, ¿quién vive?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¡Confusión es fiera,</l>
+            <l>que ya las armas todos aperciben!</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">¿Quién vive?, digo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">¿Quién? Los dioses viven.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Alárguese o la muerte le prevengo</l>
+            <l n="1335">que un solo Dios es nombre que yo tengo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Conociome, la muerte tuve cierta.</l>
+            <stage>Vuelve a los dos.</stage>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">Yo he de llegar.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="M">Alerta.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="M">Alerta.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l part="F">Alerta.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">¿Quién allá viene?</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="M">Amigos.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">Hacer alto.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Aun del aire mi pecho vive falto.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l n="1340">¿Quién vive, antes que el fuego mío le abrase?</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">Sólo un Dios vive y reina.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">Es verdad, pase.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>No mentí que mi ley en bronce escribe:</l>
+            <l>«Sólo el Dios de Israel es el que vive».</l>
+            <stage>Pasa al segundo.</stage>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>La primer posta paso</l>
+            <l part="I">dio al Judaísmo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1345" part="F">¡En cólera me abraso!</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="I">¿Quién viene allá?</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">Un soldado.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="I">¿El nombre?</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">Ya le he dado,</l>
+            <l>«Sólo un Dios vive» he dicho, esto me enseña</l>
+            <l part="I">mi ley.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="M">Diga más.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="M">¿Qué?</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="F">La contraseña.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l n="1350">Sólo un Dios hay, la seña es que se espera.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="I">¿No está humanado?</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="M">No.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="F">Lárguese fuera.</l>
+          </sp>
+          <stage>Vuelve a los dos por detrás del BAUTISMO la SINAGOGA.</stage>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Basta que hay sólo un Dios bien llegar pude,</l>
+            <l>que está humanado es fuerza que lo dude</l>
+            <l>y así vuelvo a los dos de temor muerta.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">Yo he de ir ahora.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="M">Alerta.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="M">Alerta.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l n="1355" part="F">Alerta.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="I">¿Quién vive?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="M">Sólo un Dios.</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l part="F">Pase, soldado.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="I">¿Quién vive?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="M">Sólo un Dios.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l part="M">Seña.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F">Humanado.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">Dos postas ha pasado.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">A la Fe pía,</l>
+            <l>más que los dos se acerca la Herejía.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l part="I">¿Quién viene allá?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="1360" part="F">Que vive un Dios confieso</l>
+            <l>y que humano es también, parece exceso</l>
+            <l part="I">pedir más.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l part="F">Contraseña da, soldado.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">Muerto en cruz.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l part="F">¿No decís sacramentado?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">No.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l part="F">Pues largad, largad luego al momento.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">Yo he de pasar.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l n="1365" part="F">Quien niega el sacramento</l>
+            <l>y entrar pretende, el fuego le destierra.</l>
+          </sp>
+          <stage>Dispara y dicen dentro.</stage>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <stage>Dentro.</stage>
+            <l part="I">La posta disparó.</l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#bautismo #gentilidad #penitencia #iglesia #orden">
+            <speaker>TODOS</speaker>
+            <l part="F">Arma, arma, guerra.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Descubiertos nos vemos.</l>
+          </sp>
+          <stage>Cajas.</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Aváncense las tropas que traemos</l>
+            <l n="1370">y por fuerza rompamos.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage>Salen los que pudieren con armas.</stage>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Los muros de la Iglesia defendamos.</l>
+          </sp>
+          <sp who="#gentilidad #penitencia #orden">
+            <speaker>UNOS</speaker>
+            <l part="I">A retirarse, postas.</l>
+          </sp>
+          <sp who="#apostasía #bautismo #gentilidad #penitencia #iglesia #orden">
+            <speaker>TODOS</speaker>
+            <l part="F">Cierra, cierra.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">A embestir.</l>
+          </sp>
+          <sp who="#apostasía #bautismo #gentilidad #penitencia #iglesia #orden">
+            <speaker>TODOS</speaker>
+            <l part="F">Arma, arma, guerra, guerra.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage>Éntranse las postas y los otros tras ellas peleando, y hácese dentro la batalla y sale ZABULÓN como aturdido.</stage>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>Con la grande confusión</l>
+            <l n="1375">que esta interpresa me ofrece,</l>
+            <l>escaparme me parece</l>
+            <l>que será puesto en razón,</l>
+            <l>que no es posible sufrir</l>
+            <l>los ayunos que han tenido</l>
+            <l n="1380">los que leales han sido,</l>
+            <l>y yo no quiero morir</l>
+            <l>de tan riguroso mal</l>
+            <l>que lo más que sus porfías</l>
+            <l>dan de plazo son tres días.</l>
+            <l n="1385">¡Cuerpo de tal y de cual,</l>
+            <l>los dientes que en lid penosa</l>
+            <l>muestran los fieles valientes!</l>
+            <l>Mas ¿qué hacen de mostrar dientes</l>
+            <l>si no sirven de otra cosa?</l>
+            <l n="1390">¿Por dónde podré escapar?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage>Sale la GENTILIDAD.</stage>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Pues que no puede romper</l>
+            <l>sus muros nuestro poder,</l>
+            <l>soldados, a retirar.</l>
+          </sp>
+          <stage>Caja.</stage>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>A retirar han tocado,</l>
+            <l n="1395">parece que hablan conmigo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¿Quién va? ¿Quién es?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Un amigo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¿Qué amigo?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Un amigo honrado.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¿Eres gentil?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Lo seré</l>
+            <l>si importare a la maraña</l>
+            <l n="1400">y si el talle no me daña.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¿Cómo te llamas?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">No sé.</l>
+            <l>Judío fui Zabulón,</l>
+            <l>Juan cristiano; y si a tener</l>
+            <l>llego ahora gentil acción</l>
+            <l n="1405">Nerón seré y vendré a ser</l>
+            <l>Zabulón Juan de Nerón.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Si has visto antes que te deje....</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>¿Hay suerte como la mía?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">Me di....</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="M">¿A quién?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">A la Herejía.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l n="1410">No, que hubiera sido hereje.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¿Y al Judaísmo?</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">Tampoco.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Soldados, a retirar</l>
+            <l>pues no podemos lograr</l>
+            <l>(¡estoy de cólera loco!)</l>
+            <l n="1415">en sus fortificaciones</l>
+            <l>vencer los fuertes soldados</l>
+            <l>de la Iglesia; rechazados</l>
+            <l>vuelvan nuestros escuadrones.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
+          <stage>Salen por una parte la SINAGOGA y por otra la APOSTASÍA.</stage>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Gentilidad valerosa.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="1420">Coronada monarquía.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Judaísmo, Apostasía.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Empresa dificultosa</l>
+            <l>intentamos conseguir,</l>
+            <l>que estando fortificada</l>
+            <l n="1425">la Iglesia y de sí murada</l>
+            <l>no se puede consumir.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Retirémonos que presto</l>
+            <l>su mucha necesidad</l>
+            <l part="I">la consumirá.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F">Es verdad</l>
+            <l n="1430">que aunque el socorro ha dispuesto</l>
+            <l>su rey, ¿cómo podrá entrar</l>
+            <l>si haciéndole estamos guerra</l>
+            <l>dos ejércitos por tierra</l>
+            <l>y una armada por la mar?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1435">Pues para que sea el poder</l>
+            <l>en todas partes igual,</l>
+            <l>tú, desde hoy general</l>
+            <l>de nuestra armada has de ser.</l>
+            <l>Aquí quedamos los dos;</l>
+            <l part="I">embárcate tú.</l>
+            <stage>A la APOSTASÍA.</stage>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l n="1440" part="F">Y es bien</l>
+            <l>que a él este cargo le den,</l>
+            <l>que si de su rey o Dios</l>
+            <l>su socorro es pan y vino,</l>
+            <l>si él el pan y vino niega,</l>
+            <l n="1445">bien la armada se le entrega</l>
+            <l>que ha de impedirle el camino.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>En la Sagrada Escritura</l>
+            <l>las aguas tribulaciones</l>
+            <l>se interpretan; mis pasiones</l>
+            <l n="1450">lo son; luego no es locura</l>
+            <l>ser yo general del mar,</l>
+            <l>y entre mis soldados quiero</l>
+            <l>llevar a aqueste el primero.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l>¿Por qué me quieres llevar?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="1455">Porque cualquiera que deje</l>
+            <l>la religión que tomó</l>
+            <l part="I">es mío.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="F">¿No lo dije yo</l>
+            <l>que tengo cara de hereje?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Pues de esta unión lisonjera</l>
+            <l n="1460">pende nuestra fama altiva.</l>
+            <l part="I">¡Viva nuestra liga!</l>
+          </sp>
+          <sp who="#apostasía #zabulón">
+            <speaker>LOS 2</speaker>
+            <l part="F">¡Viva!</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¡Y muera la Iglesia!</l>
+          </sp>
+          <sp who="#apostasía #zabulón">
+            <speaker>LOS 2</speaker>
+            <l part="F">¡Muera!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
+          <stage>Salen en el muro la IGLESIA, la PENITENCIA, SACERDOCIO y BAUTISMO.</stage>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>No podrá, no, porque siempre</l>
+            <l>que esté con constante esfuerzo</l>
+            <l n="1465">fortificada en la tierra</l>
+            <l>y su Oración en el cielo,</l>
+            <l>en sí misma está segura</l>
+            <l>por más contrarios que fieros</l>
+            <l>la sitien y la persigan.</l>
+            <l n="1470">En vosotros podéis verlo</l>
+            <l>pues validos de la noche</l>
+            <l>de vuestros discursos ciegos,</l>
+            <l>de la interpresa volvéis</l>
+            <l>derrotados y deshechos.</l>
+          </sp>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l n="1475">Es verdad, pero, señora,</l>
+            <l>dame licencia te ruego,</l>
+            <l>pues la Penitencia soy</l>
+            <l>que a tus soldados mantengo,</l>
+            <l>para decirte que hay muchos</l>
+            <l n="1480">que a la Apostasía siguiendo</l>
+            <l>no quieren sufrirme, y ya</l>
+            <l>escapando del asedio</l>
+            <l>al enemigo se pasan.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l>Segura estás de mi pecho</l>
+            <l n="1485">pues Orden Sacerdotal</l>
+            <l>me hiciste. Lo que te advierto</l>
+            <l>es que aquestos forajidos</l>
+            <l>en mil religiosos templos</l>
+            <l>el pan y vino han quemado</l>
+            <l n="1490">que es nuestro mayor sustento.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¡Señor, duélete de mí!</l>
+          </sp>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Ya las esferas rompiendo</l>
+            <l>del aire una hermosa nube,</l>
+            <l>se ven los cielos abiertos.</l>
+          </sp>
+          <stage>Baja en una nube la ORACIÓN.</stage>
+          <sp who="#penitencia">
+            <speaker>PENITENCIA</speaker>
+            <l n="1495">En ella la Oración viene.</l>
+          </sp>
+          <sp who="#orden">
+            <speaker>SACERDOCIO</speaker>
+            <l>Lo que mereció escuchemos.</l>
+          </sp>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l>Católica emperatriz,</l>
+            <l>que en el miserable asedio</l>
+            <l>de tu primitiva edad</l>
+            <l n="1500">padeces tan largo cerco.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>¿Qué quieres, virtud hermosa,</l>
+            <l>vocal y mental concepto</l>
+            <l>de los fieles que te envían</l>
+            <l>a las cortes del imperio?</l>
+          </sp>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l n="1505">Albricias vengo a pedirte.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l part="I">¿Qué has alcanzado?</l>
+          </sp>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l part="F">Que presto</l>
+            <l>la nave del mercader,</l>
+            <l>que de las Indias del cielo</l>
+            <l>cargada viene de trigo,</l>
+            <l n="1510">tomará en tus mares puerto.</l>
+            <l>Oyó tus piadosas voces,</l>
+            <l>oyó tus suspiros tiernos</l>
+            <l>el rey y compadecido</l>
+            <l>de tus devotos lamentos</l>
+            <l n="1515">mandó juntar sus armadas</l>
+            <l>en Cáliz, a donde haciendo</l>
+            <l>provisión del pan y el vino,</l>
+            <l>que son tus mantenimientos,</l>
+            <l>previno luego el socorro</l>
+            <l n="1520">que es tu más seguro centro.</l>
+            <l>Los blandos soplos del austro</l>
+            <l>lo traen, que fuera defecto</l>
+            <l>que a socorros que hace el Austria</l>
+            <l>faltaran austriales vientos.</l>
+            <l n="1525">Ya el enemigo del mar</l>
+            <l>en través le espera puesto</l>
+            <l>y el de tierra con las armas</l>
+            <l>en la mano, lo ve atento</l>
+            <l>desde la campaña donde</l>
+            <l n="1530">aguarda el feliz suceso.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
+          <stage>Salen por las dos puertas del tablado los que pudieren marchando, y detrás de unos la GENTILIDAD, y de otros la SINAGOGA. Descúbrense en dos bofetones dos naves disparando; en la una está la APOSTASÍA, la cual tendrá las ondas de fuego y banderas negras y todo el vaso negro; en la otra PEDRO, la cual será pintada de colores alegres, por fanal un cáliz grande con su hostia y todas las banderas blancas, con el sacramento pintado, y en los remates de las gavias en cada una un cáliz y alguna gente vestidos de MARINEROS. Prosigue la ORACIÓN.</stage>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l>Ya se embisten, ya pelean;</l>
+            <l>mas ¿para qué lo refiero,</l>
+            <l>si desde tus altos muros</l>
+            <l>también alcanzas a verlo?</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l n="1535">No desciendas, Oración,</l>
+            <l>pendiente te está en el viento,</l>
+            <l>pues mientras Aarón orando,</l>
+            <l>Moisés estaba venciendo.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>En esta batalla estriba,</l>
+            <l n="1540">república, tus trofeos.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Pendiente el alma de un hilo</l>
+            <l>vivo hasta ver el suceso.</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>PEDRO</speaker>
+            <l>Bastardo pájaro aleve</l>
+            <l>del mar, cuyo atrevimiento</l>
+            <l n="1545">te dio para que volases</l>
+            <l>alas de cáñamo y lienzo.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Bastardo pez de los golfos</l>
+            <l>del aire, cuyos alientos</l>
+            <l>para nadar te otorgaron</l>
+            <l n="1550">escamas de pino y hierro.</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>PEDRO</speaker>
+            <l>¿Cómo a mi poder te opones,</l>
+            <l>que traigo el trigo sabiendo</l>
+            <l>de la India del oriente,</l>
+            <l>que es de la Iglesia alimento?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l n="1555">Como el pan de aquese trigo</l>
+            <l>sacramentado no creo,</l>
+            <l>y te lo he de echar a fondo</l>
+            <l>en esta lid de argumentos.</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>PEDRO</speaker>
+            <l>¿Cómo a fondo le echarás,</l>
+            <l n="1560">ciego apóstata, si es cierto</l>
+            <l part="I">que en él viene Dios?</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="F">No viene.</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>PEDRO</speaker>
+            <l>Pues que niega, dale fuego</l>
+            <l>a este miembro cancerado.</l>
+          </sp>
+          <stage>Disparan.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Yo solas especies veo,</l>
+            <l n="1565">y la substancia de pan.</l>
+          </sp>
+          <stage>Disparan.</stage>
+          <sp who="#san-pedro">
+            <speaker>PEDRO</speaker>
+            <l>Que ves especies es cierto;</l>
+            <l>substancia, no; porque al punto</l>
+            <l>que le hicieron sacramento</l>
+            <l>aquellas cinco palabras,</l>
+            <l n="1570">misterio de los misterios,</l>
+            <l>milagro de los milagros,</l>
+            <l>portento de los portentos,</l>
+            <l>huyó del pan la substancia,</l>
+            <l>dejando en él la del cuerpo</l>
+            <l n="1575">de Cristo sacramentado.</l>
+          </sp>
+          <stage>Disparan.</stage>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Yo substancia de pan veo,</l>
+            <l>yo substancia de pan gusto,</l>
+            <l>yo substancia de pan huelo,</l>
+            <l>yo substancia de pan toco,</l>
+            <l n="1580">¿pues cómo puede ser cierto</l>
+            <l>lo que me dice el oído?</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>PEDRO</speaker>
+            <l>Dale fuego. Dale fuego,</l>
+            <l>que eso es fácil de creer,</l>
+            <l>con que es de la fe secreto</l>
+            <l n="1585">y la fe por el oído</l>
+            <l>cautiva el entendimiento.</l>
+            <stage>Disparan.</stage>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l part="I">¿Quién lo dice?</l>
+          </sp>
+          <sp who="#san-pedro">
+            <speaker>PEDRO</speaker>
+            <l part="F">Dios lo dice;</l>
+            <l>su voz es rayo y es trueno.</l>
+          </sp>
+          <sp who="#apostasía">
+            <speaker>APOSTASÍA</speaker>
+            <l>Con esa palabra sola</l>
+            <l n="1590">me has ganado el barlovento.</l>
+            <l>Los vientos austriales son</l>
+            <l>siempre a mi facción opuestos,</l>
+            <l>porque mayor enemigo</l>
+            <l>que cuando es austrial no tengo.</l>
+            <l n="1595">Ingratos me desamparan</l>
+            <l>los nortes que son mis vientos;</l>
+            <l>toma al mar la habitación,</l>
+            <l>piloto, el cabo doblemos</l>
+            <l>de la patria, la campaña</l>
+            <l n="1600">del mar ya por tuya dejo:</l>
+            <l>mete el socorro de trigo</l>
+            <l>en la Iglesia, pues no puedo</l>
+            <l>impedir ya sus socorros</l>
+            <l>y es fuerza volver huyendo.</l>
+          </sp>
+          <stage>Escóndese la nave.</stage>
+          <sp who="#san-pedro">
+            <speaker>PEDRO</speaker>
+            <l part="I">A tierra, a tierra.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l n="1605" part="F">¡Qué miro!</l>
+            <l>Seguro le deja el puerto</l>
+            <l>tu general al socorro.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="I">¡De ira rabio!</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="F">¡De horror tiemblo!</l>
+          </sp>
+          <stage>La nave de San PEDRO llega a la muralla de la IGLESIA.</stage>
+          <sp who="#bautismo">
+            <speaker>BAUTISMO</speaker>
+            <l>Ya se acerca nuestra nave.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l n="1610">Si está la Oración pendiendo</l>
+            <l>entre nosotros y Dios</l>
+            <l>cierto estaba el vencimiento.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Antes que a tierra echar puedan</l>
+            <l>ahora los bastimentos</l>
+            <l part="I">embistamos.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l n="1615" part="F">No es posible</l>
+            <l>que están muy fuertes adentro.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l part="I">¿Pues qué has de hacer?</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l part="F">Levantar</l>
+            <l>el sitio pues no podemos</l>
+            <l>ni asaltarla, ni quitarla</l>
+            <l n="1620">jamás el mantenimiento.</l>
+          </sp>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>¿Para eso te di mis armas?</l>
+            <l>Ya tus auxilios no quiero.</l>
+          </sp>
+          <sp who="#gentilidad">
+            <speaker>GENTILIDAD</speaker>
+            <l>Aunque ya quieras echarme</l>
+            <l>de ti, no podrás, pues veo</l>
+            <l n="1625">que están tus fuerzas por mías.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
+          <stage>Vase y todos con él.</stage>
+          <sp who="#sinagoga">
+            <speaker>SINAGOGA</speaker>
+            <l>Extraños males padezco,</l>
+            <l>pues metí la guerra en casa</l>
+            <l>y son contrarios los mesmos</l>
+            <l>que traje para auxiliares.</l>
+            <l n="1630">Un enemigo temiendo,</l>
+            <l>tengo ya dos enemigos.</l>
+            <l>¡Volcanes son mis alientos!</l>
+            <l>¡Basiliscos son mis ojos,</l>
+            <l>fuego el alma y Etna el pecho!</l>
+            <l n="1635">El corazón a bocados</l>
+            <l>un áspid me está mordiendo.</l>
+            <l>¡Ay de mí! ¡Ay de mí otra vez!</l>
+            <l>¡Bien pago mi atrevimiento!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
+          <stage>Vase. Descúbrese en lo alto SAN PEDRO con un cáliz con su hostia en la mano, y los que pudieren con él, y la nave se vuelve.</stage>
+          <sp who="#san-pedro">
+            <speaker>PEDRO</speaker>
+            <l>Ya el mar te ha desocupado</l>
+            <l n="1640">la armada que trajo el cierzo,</l>
+            <l>y de la campaña ya</l>
+            <l>también levantan el cerco</l>
+            <l>los enemigos porque</l>
+            <l>triunfes contra todos ellos.</l>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l n="1645">Al rey que te envía y a ti</l>
+            <l>tan grandes finezas debo.</l>
+            <l>Vuelve, Oración, a dar gracias</l>
+            <l>de aqueste socorro al cielo</l>
+            <l>que nosotros con las voces</l>
+            <l n="1650">desde aquí te ayudaremos.</l>
+          </sp>
+          <sp who="#oración">
+            <speaker>ORACIÓN</speaker>
+            <l>Segunda vez, patria bella,</l>
+            <l>a cortar tu esfera vuelvo.</l>
+            <l> Al pan y vino inmortal</l>
+            <l>todos adoremos, pues</l>
+            <l n="1655">este de la Iglesia es</l>
+            <l>el .el .Socorro general</l>
+            <stage>Vuélvese la nave y sigue a las chirimías la MÚSICA.Canta.</stage>
+          </sp>
+          <sp who="#iglesia">
+            <speaker>IGLESIA</speaker>
+            <l>Y dejando aquí pendientes</l>
+            <l>todos aquestos sucesos</l>
+            <l>de quien esta alegoría</l>
+            <l n="1660">la novedad ha compuesto,</l>
+            <l>a la Iglesia, Inquisición,</l>
+            <l>ciudad, damas, caballeros,</l>
+            <l>nobleza y plebe pidamos</l>
+            <l>el perdón de nuestros yerros,</l>
+            <l n="1665">de parte de quien quisiera</l>
+            <l>ser el más feliz ingenio</l>
+            <l>del mundo para servirte;</l>
+            <l>pero supla sus defectos,</l>
+            <l>imperial patria, por hijo</l>
+            <l n="1670">tuyo y por esclavo vuestro.</l>
+          </sp>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

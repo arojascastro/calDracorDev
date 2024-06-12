@@ -178,6 +178,25 @@
       </p:input>
     </p:xslt>
 
+    <p:xslt>
+      <p:input port="parameters">
+        <p:empty/>
+      </p:input>
+      <p:input port="stylesheet">
+        <p:document href="xsl/pipeline/extract-trait-from-name.xsl"/>
+      </p:input>
+    </p:xslt>
+
+    <p:xslt>
+      <p:input port="parameters">
+        <p:empty/>
+      </p:input>
+      <p:input port="stylesheet">
+        <p:document href="xsl/pipeline/extract-trait-from-id-calderondigital.xsl"/>
+      </p:input>
+    </p:xslt>
+
+
     <p:store>
       <p:with-option name="href" select="concat('results/', /*/@name)">
         <p:pipe port="current" step="iterate"/>
