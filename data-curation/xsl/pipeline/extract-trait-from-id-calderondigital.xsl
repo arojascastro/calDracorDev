@@ -2009,7 +2009,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="TEI[@xml:id='cal000019']//person[@xml:id = 'deidama']">
+  <xsl:template match="TEI[@xml:id='cal000019']//person[@xml:id = 'deidamia']">
     <!-- Copy the person element and its attributes -->
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
@@ -2175,7 +2175,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="TEI[@xml:id='cal000098']//person[@xml:id = 'tarundante']">
+  <xsl:template match="TEI[@xml:id='cal000098']//person[@xml:id = 'tarudante']">
     <!-- Copy the person element and its attributes -->
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
@@ -2186,7 +2186,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="TEI[@xml:id='cal000098']//person[@xml:id = 'don-alfonso']">
+  <xsl:template match="TEI[@xml:id='cal000098']//person[@xml:id = 'alfonso']">
     <!-- Copy the person element and its attributes -->
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
@@ -3434,7 +3434,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="TEI[@xml:id='cal000112']//person[@xml:id = 'bolena']">
+  <xsl:template match="TEI[@xml:id='cal000112']//person[@xml:id = 'ana']">
     <!-- Copy the person element and its attributes -->
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
@@ -4539,5 +4539,1162 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template match="TEI[@xml:id='cal000127']//person[@xml:id = 'enrique']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'joab']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'absalón']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'salomón']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'adonías']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'amón']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'jonadab']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'tamar']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'teuca']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Adivina</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'aquitofel']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Consejero</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'eliazar']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'semey']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000129']//person[@xml:id = 'ensay']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Anciano</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000131']//person[@xml:id = 'félix']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000131']//person[@xml:id = 'juan']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000131']//person[@xml:id = 'diego']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000135']//person[@xml:id = 'diego']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000135']//person[@xml:id = 'luis']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000135']//person[@xml:id = 'manuel']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Caballero</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000135']//person[@xml:id = 'alonso']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Caballero</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000135']//person[@xml:id = 'almirante']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Tío</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000135']//person[@xml:id = 'leonardo']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Vecino</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000135']//person[@xml:id = 'juana']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000135']//person[@xml:id = 'leonor']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000135']//person[@xml:id = 'juan']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Labrador</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000137']//person[@xml:id = 'don-hipólito']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000137']//person[@xml:id = 'don-juan']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000137']//person[@xml:id = 'don-pedro']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000137']//person[@xml:id = 'pernía']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Vejete</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000137']//person[@xml:id = 'arceo']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000137']//person[@xml:id = 'don-luis']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000137']//person[@xml:id = 'doña-clara']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000137']//person[@xml:id = 'doña-ana']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000137']//person[@xml:id = 'doña-lucía']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dueña</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000140']//person[@xml:id = 'césar']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000140']//person[@xml:id = 'arias']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000140']//person[@xml:id = 'félix']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000140']//person[@xml:id = 'lázaro']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000140']//person[@xml:id = 'ana']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000140']//person[@xml:id = 'elvira']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000140']//person[@xml:id = 'nísida']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'anteo']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'lidoro']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'arsidas']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'fabio']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'libio']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'atamas']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'astrea']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'selenisa']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'flora']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000141']//person[@xml:id = 'friso']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000142']//person[@xml:id = 'don-alonso']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000142']//person[@xml:id = 'don-juan']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000142']//person[@xml:id = 'don-luis']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000142']//person[@xml:id = 'don-diego']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000142']//person[@xml:id = 'leonor']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000142']//person[@xml:id = 'don-carlos']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'ataúlfo']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'payo']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Estudiante</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'pelagio']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hereje</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'teudio']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hereje</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'alarico']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'íñigo']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'luna']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Mora</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'rodrigo']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'don-vela']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Asturiano</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'muza']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Moro</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'juan']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Mozárabe</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000145']//person[@xml:id = 'domingo']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000146']//person[@xml:id = 'césar']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000146']//person[@xml:id = 'carlos']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000146']//person[@xml:id = 'espolón']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000146']//person[@xml:id = 'margarita']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000146']//person[@xml:id = 'matilde']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000146']//person[@xml:id = 'leonor']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000146']//person[@xml:id = 'flora']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000147']//person[@xml:id = 'césar']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000147']//person[@xml:id = 'flérida']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000147']//person[@xml:id = 'celia']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000147']//person[@xml:id = 'juan']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000147']//person[@xml:id = 'fabio']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000147']//person[@xml:id = 'félix']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000147']//person[@xml:id = 'camacho']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000147']//person[@xml:id = 'lisarda']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000148']//person[@xml:id = 'gutierre']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000148']//person[@xml:id = 'álvaro']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000148']//person[@xml:id = 'vicente']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000149']//person[@xml:id = 'laura']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000149']//person[@xml:id = 'jacinta']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Amiga</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000149']//person[@xml:id = 'hipólita']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000149']//person[@xml:id = 'conde']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Privado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000149']//person[@xml:id = 'ordoño']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Cortesano</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000149']//person[@xml:id = 'íñigo']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Cortesano</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'isabel']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'don-juan']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'simón']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'don-félix']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'inés']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'leonor']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'don-pedro']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'violante']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'don-alonso']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'don-fernando']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'tristán']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="TEI[@xml:id='cal000150']//person[@xml:id = 'celio']">
+    <!-- Copy the person element and its attributes -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*|node()"/>
+      <!-- Add new trait element with specified structure -->
+      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
+  
   
 </xsl:stylesheet>
