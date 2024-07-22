@@ -1,0 +1,5642 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000086" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El golfo de las sirenas</title>
+        <title type="sub">Zarzuela Famosa</title>
+        <title type="sub">Égloga Piscatoria</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Automatic generation of the XML/TEI by</resp>
+          <persName>Fabian Schwabe</persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <date when="2022-01-08"><time when="12:25:41"/></date>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource"><title>Pedro Calderón de la Barca, La Golfo de las Sirenas. En: Comedias, Vol. 4. Dirección de Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José Antonio de Castro, 2010</title><idno type="ISBN">978-84-96452-89-3</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="alfeo" sex="MALE">
+            <persName>Alfeo</persName>
+            <trait source="castlist">
+              <desc>pescador simple</desc>
+            </trait>
+          </person>
+          <person xml:id="sileno" sex="MALE">
+            <persName>Sileno</persName>
+            <trait source="castlist">
+              <desc>pescador galán</desc>
+            </trait>
+          </person>
+          <person xml:id="lauro" sex="MALE">
+            <persName>Lauro</persName>
+            <trait source="castlist">
+              <desc>pescador viejo</desc>
+            </trait>
+          </person>
+          <person xml:id="astrea" sex="FEMALE">
+            <persName>Astrea</persName>
+            <trait source="castlist">
+              <desc>villana</desc>
+            </trait>
+          </person>
+          <person xml:id="celfa" sex="FEMALE">
+            <persName>Celfa</persName>
+            <trait source="castlist">
+              <desc>villana</desc>
+            </trait>
+          </person>
+          <person xml:id="escila" sex="FEMALE">
+            <persName>Escila</persName>
+            <trait source="castlist">
+              <desc>cazadora</desc>
+            </trait>
+          </person>
+          <person xml:id="caribdis" sex="FEMALE">
+            <persName>Caribdis</persName>
+            <trait source="castlist">
+              <desc>deidad marina</desc>
+            </trait>
+          </person>
+          <person xml:id="ulises" sex="MALE">
+            <persName>Ulises</persName>
+            <trait source="castlist">
+              <desc>galán</desc>
+            </trait>
+          </person>
+          <person xml:id="anteo" sex="MALE">
+            <persName>Anteo</persName>
+            <trait source="castlist">
+              <desc>criado</desc>
+            </trait>
+          </person>
+          <person xml:id="dante" sex="MALE">
+            <persName>Dante</persName>
+            <trait source="castlist">
+              <desc>criado</desc>
+            </trait>
+          </person>
+          <person xml:id="sirena-primera" sex="FEMALE">
+            <persName>Sirena Primera</persName>
+          </person>
+          <person xml:id="sirena-segunda" sex="FEMALE">
+            <persName>Sirena Segunda</persName>
+          </person>
+          <person xml:id="sirena-tercera" sex="FEMALE">
+            <persName>Sirena Tercera</persName>
+          </person>
+          <person xml:id="sirena-cuarta" sex="FEMALE">
+            <persName>Sirena Cuarta</persName>
+          </person>
+          <person xml:id="pescador-primero" sex="MALE">
+            <persName>Pescador Primero</persName>
+          </person>
+          <person xml:id="pescador-segundo" sex="MALE">
+            <persName>Pescador Segundo</persName>
+          </person>
+          <person xml:id="pescador-tercero" sex="MALE">
+            <persName>Pescador Tercero</persName>
+          </person>
+          <person xml:id="villana-primera" sex="FEMALE">
+            <persName>Villana Primera</persName>
+          </person>
+          <person xml:id="villana-segunda" sex="FEMALE">
+            <persName>Villana Segunda</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="coro-primero">
+            <persName>Coro Primero</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="coro-segundo">
+            <persName>Coro Segundo</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="coro-tercero">
+            <persName>Coro Tercero</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="coro-cuarto">
+            <persName>Coro Cuarto</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="voces">
+            <persName>Voces</persName>
+          </personGrp>
+          <person xml:id="viejo" sex="MALE">
+            <persName>Un Viejo</persName>
+          </person>
+          <person xml:id="salvaje" sex="MALE">
+            <persName>Un Salvaje</persName>
+          </person>
+          <person xml:id="primera" sex="FEMALE">
+            <persName>Mujer Primera</persName>
+          </person>
+          <person xml:id="segunda" sex="FEMALE">
+            <persName>Mujer Segunda</persName>
+          </person>
+          <person xml:id="tercera" sex="FEMALE">
+            <persName>Mujer Tercera</persName>
+          </person>
+          <person xml:id="cuarta" sex="FEMALE">
+            <persName>Mujer Cuarta</persName>
+          </person>
+          <person xml:id="primero" sex="MALE">
+            <persName>Hombre Primero</persName>
+          </person>
+          <person xml:id="segundo" sex="MALE">
+            <persName>Hombre Segundo</persName>
+          </person>
+          <person xml:id="tercero" sex="MALE">
+            <persName>Hombre Tercero</persName>
+          </person>
+          <person xml:id="cuarto" sex="MALE">
+            <persName>Hombre Cuarto</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">zarzuela</term>
+          <term source="kroll" type="main">zarzuela</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1672">
+        <label/>
+      </event>
+      <event type="written" when="1657">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docTitle>
+        <titlePart type="main">El Golfo De Las Sirenas</titlePart>
+        <titlePart type="sub">Zarzuela Famosa</titlePart>
+        <titlePart type="sub">Égloga Piscatoria</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas que hablan en ella</head>
+        <castItem>ALFEO, pescador simple</castItem>
+        <castItem>SILENO, pescador galán</castItem>
+        <castItem>LAURO, pescador viejo</castItem>
+        <castItem>ASTREA, villana</castItem>
+        <castItem>CELFA, villana</castItem>
+        <castItem>ESCILA, cazadora</castItem>
+        <castItem>CARIBDIS, deidad marina</castItem>
+        <castItem>ULISES, galán</castItem>
+        <castItem>ANTEO, criado</castItem>
+        <castItem>DANTE, criado</castItem>
+        <castItem>CUATRO SIRENAS</castItem>
+        <castItem>MÚSICOS PESCADORES</castItem>
+        <castItem>MÚSICAS VILLANAS</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head rend="caps">LOA</head>
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Salen Alfeo, pescador rústico, y Celfa, villana.</stage>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Tiende estas redes al sol</l>
+            <l>y no me repriques, Celfa,</l>
+            <l>que vengo hecho un basilisco.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Con quién, dime, es la pendencia?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Con el mar y la cabaña.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Pues ¿qué tiene que ver, bestia,</l>
+            <l>la cabaña con el mar?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Fácil es la consecuencia:</l>
+            <l>vo al mar y pesca no hallo,</l>
+            <l>do a la cabaña la vuelta</l>
+            <l>y hállote a ti en la cabaña.</l>
+            <l>Pues ¿qué mucho que dar sienta,</l>
+            <l>viendo contra mí a las dos</l>
+            <l>en sus efectos opuestas,</l>
+            <l>con la mala pesca allá</l>
+            <l>y aquí con la buena pesca?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Ya esperaba yo que fuese</l>
+            <l>alguna malicia vuesa.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Pues engañaisos, que nunca</l>
+            <l>fue malicia la evidencia;</l>
+            <l>fuera de que si adelanto</l>
+            <l>el enojo, no es con ella</l>
+            <l>soldemente.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Pues ¿con quién?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Con todos cuantos poetas</l>
+            <l>dicen que ríe el aurora</l>
+            <l>y, si llora, llora perlas.</l>
+            <l>Con cuantos dicen que el mar</l>
+            <l>de plata la orilla argenta,</l>
+            <l>en cuyo regazo son</l>
+            <l>catres de flores las selvas;</l>
+            <l>los arroyos, instrumentos</l>
+            <l>de cristal; cítaras bellas,</l>
+            <l>los árboles de esmeralda;</l>
+            <l>las aves, capilla diestra</l>
+            <l>de la cámara del sol.</l>
+            <l>Enamorada caterva</l>
+            <l>que, reacia en el buen tiempo,</l>
+            <l>nunca del malo te acuerdas,</l>
+            <l>sal al campo, si eres hombre,</l>
+            <l>con todas tus copras llenas</l>
+            <l>de rosicleres y albores,</l>
+            <l>verás si mientes, cubierta</l>
+            <l>de ceños hallando al alba,</l>
+            <l>al sol de tupidas nieblas,</l>
+            <l>las aves mudas y tristes,</l>
+            <l>las flores mustias y yertas,</l>
+            <l>y al mar enojado, tanto</l>
+            <l>que hidrópica su soberbia</l>
+            <l>se quiere beber los montes.</l>
+            <l>Y si no, por que lo veas,</l>
+            <l>oye, Celfa, lo que dicen</l>
+            <l>aire, agua, fuego y tierra.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Pues ¿qué dice el aire?</l>
+          </sp>
+          <sp who="#coro-primero">
+            <speaker rend="caps">Coro Primero</speaker>
+
+
+            <l>Que el enero sus verdes imperios</l>
+            <l>le tala furioso con ráfagas tales</l>
+            <l>que en vez de que entonen sus aves y copas,</l>
+            <l>sus copas se quejan y gimen sus aves.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Y qué dice el agua?</l>
+          </sp>
+          <sp who="#coro-segundo">
+            <speaker rend="caps">Coro Segundo</speaker>
+
+
+            <l>Que el enero sus campos de vidrio</l>
+            <l>en páramos vuelve de nieve y escarcha</l>
+            <l>que, en vez de que al alba le sirvan de espejos,</l>
+            <l>de helados embozos le sirven al alba.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Y qué dice el fuego?</l>
+          </sp>
+          <sp who="#coro-tercero">
+            <speaker rend="caps">Coro Tercero</speaker>
+
+
+            <l>Que el enero sus luces hermosas</l>
+            <l>le apaga entre nubes de pálidos velos,</l>
+            <l>que, en vez de que al hielo sus rayos deshagan,</l>
+            <l>pasmados sus rayos tiritan al hielo.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Qué dice la tierra?</l>
+          </sp>
+          <sp who="#coro-cuarto">
+            <speaker rend="caps">Coro Cuarto</speaker>
+
+
+            <l>Que el enero sus flores y rosas</l>
+            <l>de suerte marchitas y mustias le deja,</l>
+            <l>que, en vez de que sean estrellas lucientes,</l>
+            <l>aun ser no permite eclipsadas estrellas.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Y todos, ¿qué dicen?</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Que porque el enero cruel los embiste,…</l>
+          </sp>
+          <sp who="#coro-cuarto">
+            <speaker rend="caps">Coro Cuarto</speaker>
+
+
+            <l>…las flores se pasman,…</l>
+          </sp>
+          <sp who="#coro-tercero">
+            <speaker rend="caps">Coro Tercero</speaker>
+
+
+            <l>…los rayos tiritan,…</l>
+          </sp>
+          <sp who="#coro-segundo">
+            <speaker rend="caps">Coro Segundo</speaker>
+
+
+            <l>…las ondas se quejan,…</l>
+          </sp>
+          <sp who="#coro-primero">
+            <speaker rend="caps">Coro Primero</speaker>
+
+
+            <l>…los pájaros gimen.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Qué dicen?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Qué dicen?</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Que porque el enero con ellos embiste,</l>
+            <l>las flores se pasman, los rayos tiritan,</l>
+            <l>las ondas se quejan, los pájaros gimen.</l>
+          </sp>
+          <sp who="#sileno">
+            <speaker rend="caps">Sileno</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Venturosos pescadores</l>
+            <l>de las sagradas riberas</l>
+            <l>del tinacrio mar.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker rend="caps">Astrea</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Hermosas</l>
+            <l>zagalas que en sus arenas</l>
+            <l>tantas veces de sus ninfas</l>
+            <l>vencisteis la competencia.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Salen por una puerta pescadores y por otra, villanas, Sileno y Astrea.</stage>
+          <sp who="#pescador-primero #pescador-segundo #pescador-tercero">
+            <speaker rend="caps">Pescadores</speaker>
+
+
+            <l>¿Qué nos quieres?</l>
+          </sp>
+          <sp who="#villana-primera #villana-segunda">
+            <speaker rend="caps">Villanas</speaker>
+
+
+            <l>¿Qué nos mandas?</l>
+          </sp>
+          <sp who="#sileno #astrea">
+            <speaker rend="caps">Los Dos</speaker>
+
+
+            <l>Dadme albricias.</l>
+          </sp>
+          <sp who="#pescador-primero #pescador-segundo #pescador-tercero #villana-primera #villana-segunda">
+            <speaker rend="caps">Unos Y Otros</speaker>
+
+
+            <l>¿De qué nuevas?</l>
+          </sp>
+          <sp who="#sileno">
+            <speaker rend="caps">Sileno</speaker>
+
+
+            <l>Antes que yo las mías diga,</l>
+            <l>diga las suyas Astrea,</l>
+            <l>que la urbanidad más ruda</l>
+            <l>es cortés con la belleza.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker rend="caps">Astrea</speaker>
+
+
+            <l>Aunque no lo sea la mía,</l>
+            <l>agradezco la licencia.</l>
+            <l>Desde aquel pardo peñasco</l>
+            <l>–en cuyos hombros se asienta,</l>
+            <l>no sin vanidad de noble,</l>
+            <l>rústica fábrica bella,</l>
+            <l>breve alcázar de los dioses</l>
+            <l>la vez que de sus esferas</l>
+            <l>descienden a nuestros valles–</l>
+            <l>hasta esa cerca pequeña</l>
+            <l>que verde, a pesar del tiempo,</l>
+            <l>todo el año se conserva</l>
+            <l>–advertid de dónde a dónde</l>
+            <l>digo, no perdáis las señas,</l>
+            <l>que importa saber qué son,</l>
+            <l>si la planta se os acuerda,</l>
+            <l>si se os acuerda el peñasco–,</l>
+            <l>desde el Pardo a la Zarzuela</l>
+            <l>discurría, apacentando</l>
+            <l>la siempre familia inquieta</l>
+            <l>de mis cabras, que golosas</l>
+            <l>de uno en otro álamo trepan</l>
+            <l>por que les pague la hoja</l>
+            <l>lo que les debe la hierba,</l>
+            <l>cuando de su ameno espacio</l>
+            <l>la enmarañada aspereza</l>
+            <l>miro discurrir a tropas</l>
+            <l>festivas, carrozas llenas</l>
+            <l>de hermosos coros de ninfas,</l>
+            <l>cuyas divinas bellezas</l>
+            <l>a desagraviar sin duda</l>
+            <l>vienen a la primavera,</l>
+            <l>restituyendo a los campos</l>
+            <l>cuantos matices grosera</l>
+            <l>de enero robó la saña,</l>
+            <l>pues les hacen que florezcan</l>
+            <l>de las destroncadas ruinas</l>
+            <l>que marchitó la violencia,</l>
+            <l>cada coscoja un clavel,</l>
+            <l>cada arista una azucena.</l>
+            <l>Vilas y, dejando al libre</l>
+            <l>uso de su ligereza</l>
+            <l>el desmandado rebaño,</l>
+            <l>procuré saber quién eran</l>
+            <l>y supe que eran de dos</l>
+            <l>deidades que iban tras ellas</l>
+            <l>sagrado obsequio; bien como</l>
+            <l>la rosa, del prado reina,</l>
+            <l>la maravilla, del prado</l>
+            <l>infanta, salen risueñas,</l>
+            <l>acompañadas de flores,</l>
+            <l>cuando alba y aurora dejan</l>
+            <l>el cielo de los matices,</l>
+            <l>el campo de las estrellas.</l>
+            <l>Sus nombres oí, pero soy</l>
+            <l>tal que ya no se me acuerdan.</l>
+            <l>Mas bien sé que el uno dellos,</l>
+            <l>significando que reina</l>
+            <l>en guerra y paz, se compone</l>
+            <l>de deidad de paz y guerra,</l>
+            <l>pues Diana el nombre acaba,</l>
+            <l>siendo Marte quien le empieza,</l>
+            <l>primero y último acento</l>
+            <l>dando los dos, de manera</l>
+            <l>que tomando a Marte el «Mar»</l>
+            <l>y a Diana el «Ana», encierra</l>
+            <l>el nombre de Mar y Ana</l>
+            <l>imperiosas excelencias.</l>
+            <l>Él se juntó en su principio,</l>
+            <l>con él conviene, mas echa</l>
+            <l>por otra parte, acabando</l>
+            <l>en no sé qué cosa tersa,</l>
+            <l>si ya cierta Margarita,</l>
+            <l>tan linda como ella mesma,</l>
+            <l>no la prestó para el caso</l>
+            <l>el atributo de perla.</l>
+            <l>En fin, sean las que fueren,</l>
+            <l>quien me entendiere me entienda,</l>
+            <l>fiando el sagrado solio</l>
+            <l>al respecto de la ausencia.</l>
+            <l>A nuestro mísero albergue</l>
+            <l>descienden, que la grandeza</l>
+            <l>tal vez se divierte afable</l>
+            <l>entre la humilde simpleza</l>
+            <l>de lo rústico, porque,</l>
+            <l>cotejando diferencias,</l>
+            <l>ver lo que son y no son,</l>
+            <l>les suele servir de fiesta.</l>
+            <l>Salid pues a recibirlas,</l>
+            <l>haciendo a la usanza nuestra</l>
+            <l>festejos a su venida.</l>
+          </sp>
+          <sp who="#sileno">
+            <speaker rend="caps">Sileno</speaker>
+
+
+            <l>Y añade, para que sean</l>
+            <l>aún más dignos los festejos,</l>
+            <l>que, atravesando la selva</l>
+            <l>en un enfrenado bruto</l>
+            <l>tan ajustado a la rienda</l>
+            <l>que le sobraba el castigo</l>
+            <l>para estar a la obediencia,</l>
+            <l>el Apolo destos valles</l>
+            <l>–pues, como cuarto planeta,</l>
+            <l>por más que se emboce, no hay</l>
+            <l>traje en que no resplandezca,</l>
+            <l>cuidado haciendo el acaso</l>
+            <l>y descuido la fineza,</l>
+            <l>si hay fineza descuidada–</l>
+            <l>las sigue; que esta es la nueva</l>
+            <l>que yo os traigo, porque, estando</l>
+            <l>a la falda desa sierra</l>
+            <l>montado Adonis, le vi</l>
+            <l>bajar, haciendo deshecha</l>
+            <l>de que en su busca venía</l>
+            <l>el alcance de una fiera</l>
+            <l>que colmilluda pensaba</l>
+            <l>ser de otra Venus tragedia,</l>
+            <l>sin ver que a su rayo no hay,</l>
+            <l>por más que vuele ligera,</l>
+            <l>por más que ligera corra,</l>
+            <l>pluma o piel que se defienda.</l>
+            <l>Y pues, mejorando el día</l>
+            <l>tanta montaraz grandeza,</l>
+            <l>hace que los elementos</l>
+            <l>retiren sus inclemencias,</l>
+            <l>valeos del ejemplar,</l>
+            <l>oyendo sus asperezas</l>
+            <l>cómo en halagos convierten</l>
+            <l>aire, agua, fuego y tierra.</l>
+          </sp>
+          <sp who="#villana-primera">
+            <speaker rend="caps">Villana Primera</speaker>
+
+
+            <l>Pues ¿qué dice el aire?</l>
+          </sp>
+          <sp who="#coro-primero">
+            <speaker rend="caps">Coro Primero</speaker>
+
+
+            <l>Que ya sus gemidos son ecos suaves.</l>
+          </sp>
+          <sp who="#pescador-primero">
+            <speaker rend="caps">Pescador Primero</speaker>
+
+
+            <l>Pues ¿qué dice el agua?</l>
+          </sp>
+          <sp who="#coro-segundo">
+            <speaker rend="caps">Coro Segundo</speaker>
+
+
+            <l>Que ya son sus celos espejos de plata.</l>
+          </sp>
+          <sp who="#villana-segunda">
+            <speaker rend="caps">Villana Segunda</speaker>
+
+
+            <l>¿Qué dice el fuego?</l>
+          </sp>
+          <sp who="#coro-tercero">
+            <speaker rend="caps">Coro Tercero</speaker>
+
+
+            <l>Que ya son sus nubes templados reflejos.</l>
+          </sp>
+          <sp who="#pescador-segundo">
+            <speaker rend="caps">Pescador Segundo</speaker>
+
+
+            <l>¿Qué dice la tierra?</l>
+          </sp>
+          <sp who="#coro-cuarto">
+            <speaker rend="caps">Coro Cuarto</speaker>
+
+
+            <l>Que el que antes fue invierno es ya primavera.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Y todos, ¿qué dicen?</l>
+          </sp>
+          <sp who="#coro-primero #coro-segundo #coro-tercero #coro-cuarto">
+            <speaker rend="caps">Todos Los Coros</speaker>
+
+
+            <l>Que a vista de tales deidades felices…</l>
+          </sp>
+          <sp who="#coro-primero">
+            <speaker rend="caps">Coro Primero</speaker>
+
+
+            <l>…los pájaros cantan,…</l>
+          </sp>
+          <sp who="#coro-segundo">
+            <speaker rend="caps">Coro Segundo</speaker>
+
+
+            <l>…las luces se alegran,…</l>
+          </sp>
+          <sp who="#coro-tercero">
+            <speaker rend="caps">Coro Tercero</speaker>
+
+
+            <l>…las flores renacen,…</l>
+          </sp>
+          <sp who="#coro-cuarto">
+            <speaker rend="caps">Coro Cuarto</speaker>
+
+
+            <l>…las ondas se ríen.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¿Qué dicen?</l>
+          </sp>
+          <sp who="#sileno #astrea">
+            <speaker rend="caps">Los Dos</speaker>
+
+
+            <l>¿Qué dicen?</l>
+          </sp>
+          <sp who="#coro-primero #coro-segundo #coro-tercero #coro-cuarto">
+            <speaker rend="caps">Todos Los Coros</speaker>
+
+
+            <l>Que a vista de tales deidades felices,</l>
+            <l>los pájaros cantan, las luces se alegran,</l>
+            <l>las flores renacen, las ondas se ríen.</l>
+          </sp>
+          <sp who="#pescador-primero">
+            <speaker rend="caps">Pescador</speaker>
+
+
+            <l>Ea zagalas, vosotras</l>
+            <l>venid, reduciendo a aquella</l>
+            <l>Zarzuela a pequeña zarza,</l>
+            <l>vuestras cabras por que sea,</l>
+            <l>si por ventura a su abrigo</l>
+            <l>quisieren pasar la fiesta,</l>
+            <l>de su cándido tributo</l>
+            <l>divertimiento la ofrenda.</l>
+            <l>Vosotros echad al mar</l>
+            <l>las redes para que tengan,</l>
+            <l>si les cansare la caza,</l>
+            <l>segunda holgura en la pesca.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿No será mijor, por que</l>
+            <l>tiempo el festejo no pierda,</l>
+            <l>que desde luego cantando</l>
+            <l>y bailando demos muestra</l>
+            <l>de nuestro alborozo?</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker rend="caps">Astrea</speaker>
+
+
+            <l>Bien</l>
+            <l>ha dicho.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Pues Alfeo, empieza</l>
+            <l>tú la canción, pues que tú</l>
+            <l>eres quien todo lo alegra.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Eso no haré yo en verdad,</l>
+            <l>porque hay en las islas nuevas</l>
+            <l>deidades tan rencoriosas</l>
+            <l>que de otros cultos les pesa.</l>
+            <l>Si sabéis que Escila, envidia</l>
+            <l>de Anfítrite, pues, por ella</l>
+            <l>de Neptuno despreciada,</l>
+            <l>en estos montes se alberga,</l>
+            <l>semidea es destos montes,</l>
+            <l>cuya nociva belleza</l>
+            <l>es veneno de los ojos,</l>
+            <l>pues cuantos náufragos echa</l>
+            <l>a esta playa el mar la siguen,</l>
+            <l>venciendo el ceño, a esa cuesta</l>
+            <l>que en vez de alcázar remata</l>
+            <l>en una profunda cueva</l>
+            <l>donde el triste peregrino</l>
+            <l>que engañado una vez entra</l>
+            <l>muere despeñado al mar;</l>
+            <l>que así la pasada ofensa</l>
+            <l>de Anfítrite y de Neptuno</l>
+            <l>en sus huéspedes la venga;</l>
+            <l>si sabéis que hija de Aglauco,</l>
+            <l>marino dios, y una bella</l>
+            <l>sirena, Caribdis tiene</l>
+            <l>su adoración en aquellas</l>
+            <l>rocas que dentro del mar</l>
+            <l>sobre un escollo se asientan,</l>
+            <l>cuya regalada voz,</l>
+            <l>traidoramente halagüeña,</l>
+            <l>es veneno del oído,</l>
+            <l>de suerte que nadie llega</l>
+            <l>a oírla que arrebatado</l>
+            <l>de su acento no perezca,</l>
+            <l>siendo imperio suyo todo</l>
+            <l>el golfo de las sirenas</l>
+            <l>en venganza de su madre</l>
+            <l>a quien Aglauco desprecia;</l>
+            <l>¿por qué queréis enojarlas,</l>
+            <l>y más cuando tienen hechas</l>
+            <l>paces con los mercaderes</l>
+            <l>destas tostadas arenas,</l>
+            <l>en fe de los sacrificios</l>
+            <l>que llegamos a ofrecerlas?</l>
+            <l>Y así, id vosotros, que yo</l>
+            <l>no quiero nada con ellas,</l>
+            <l>ayudando a celebrar</l>
+            <l>las deidades estranjeras,</l>
+            <l>ni desa Mari-Diana</l>
+            <l>ni de esotra Mari-Tersa</l>
+            <l>por que Escila ni Caribdis</l>
+            <l>contra mí no se conviertan</l>
+            <l>en alguna Mari-Brava</l>
+            <l>que, como otra vez, me prenda</l>
+            <l>y sin comello y bebello</l>
+            <l>venga yo a pagar la fiesta.</l>
+          </sp>
+          <sp who="#lauro">
+            <speaker rend="caps">Lauro</speaker>
+
+
+            <l>Aunque a esos riesgos nacimos</l>
+            <l>los que nacimos en estas</l>
+            <l>islas del tinacrio mar,</l>
+            <l>antes por la causa mesma</l>
+            <l>debemos a otras deidades</l>
+            <l>tener gratas.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Ven apriesa.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Juro a Baco, dios vinoso,</l>
+            <l>que era mijor para pera</l>
+            <l>que para dios, de no ir</l>
+            <l>si no me llevan a cuestas.</l>
+          </sp>
+          <stage>Échase en el suelo.</stage>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>No roguéis a un ruin, que yo,</l>
+            <l>a tan digna acción atenta,</l>
+            <l>su ausencia sopriré.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Cuándo</l>
+            <l>no soprís vos mis ausencias</l>
+            <l>y enfermedades? Mas ¿cómo</l>
+            <l>ha de ser?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+            <stage type="withText">Canta.</stage>
+
+
+            <l>Desta manera:</l>
+            <l>Las nuevas deidades</l>
+            <l>de nuestra ribera,</l>
+            <l>a desagraviar</l>
+            <l>a la primavera,</l>
+            <l>vengan norabuena.</l>
+          </sp>
+          <stage>Bajan todos.</stage>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Norabuena vengan.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>La alba destos montes,</l>
+            <l>que con su belleza</l>
+            <l>hace que a la tarde</l>
+            <l>el sol amanezca,</l>
+            <l>venga norabuena.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Norabuena venga.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>El sol que la sigue,</l>
+            <l>cuya luz suprema</l>
+            <l>aun más que en las vidas,</l>
+            <l>en las almas reina,</l>
+            <l>venga norabuena.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Norabuena venga.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>La aurora que a entrambos</l>
+            <l>igual sigue en muestra</l>
+            <l>de que participa</l>
+            <l>de entrambas grandezas,</l>
+            <l>venga norabuena.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Norabuena venga.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Las ninfas hermosas,</l>
+            <l>las gracias discretas,</l>
+            <l>de aquella alba flores,</l>
+            <l>de aquel sol estrellas,</l>
+            <l>vengan norabuena.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Norabuena vengan.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Y pues ya sus rayos</l>
+            <l>se ven de más cerca,</l>
+            <l>digan en su salva</l>
+            <l>fuego, aire, agua y tierra.</l>
+          </sp>
+          <stage>Dentro ruido como de terremoto.</stage>
+          <sp who="#unos">
+            <speaker rend="caps">Unos</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Júpiter, piedad.</l>
+          </sp>
+          <sp who="#otros">
+            <speaker rend="caps">Otros</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Neptuno, clemencia.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+            <stage type="withText">Levántase.</stage>
+
+
+            <l>Aquél es otro cantar.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¿Qué es aquello?</l>
+          </sp>
+          <sp who="#lauro">
+            <speaker rend="caps">Lauro</speaker>
+
+
+            <l>Si las señas</l>
+            <l>no desmiente la distancia,</l>
+            <l>con agua y viento forceja</l>
+            <l>contrastado allí un bajel.</l>
+          </sp>
+          <sp who="#voces">
+            <speaker rend="caps">Voces</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Amaina, amaina la vela.</l>
+          </sp>
+          <sp who="#uno">
+            <speaker rend="caps">Uno</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>A la tierra.</l>
+          </sp>
+          <sp who="#otro">
+            <speaker rend="caps">Otro</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Al chafaldete.</l>
+          </sp>
+          <sp who="#otro">
+            <speaker rend="caps">Otro</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>A la escota.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¡Qué tragedia!</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker rend="caps">Astrea</speaker>
+
+
+            <l>Pues nosotros no bastamos</l>
+            <l>a repararla, sus quejas</l>
+            <l>no oigamos, volved al baile</l>
+            <l>y, atravesando esa selva,</l>
+            <l>venid a salir al paso.</l>
+          </sp>
+          <sp who="#lauro">
+            <speaker rend="caps">Lauro</speaker>
+
+
+            <l>Bien dice.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Prosigue, Celfa.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vanse cantando y bailando.</stage>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Las nuevas deidades</l>
+            <l>de nuestra ribera…</l>
+          </sp>
+          <sp who="#voces">
+            <speaker rend="caps">Voces</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Júpiter, piedad;</l>
+            <l>Neptuno, clemencia.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>…norabuena vengan,</l>
+            <l>vengan norabuena.</l>
+          </sp>
+          <sp who="#voces">
+            <speaker rend="caps">Voces</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Júpiter, piedad;</l>
+            <l>Neptuno, clemencia.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Bien muestran lamento y canto</l>
+            <l>que de alegría y tristeza</l>
+            <l>este siempre voraz monstruo</l>
+            <l>de los siglos se alimenta.</l>
+            <l>Mas ¿quién me mete en moral</l>
+            <l>siendo almendro? Y así entre estas</l>
+            <l>y estotras, por no causar</l>
+            <l>a Escila y Caribdis queja,</l>
+            <l>de mi red allí cogiendo</l>
+            <l>los puntos a las carreras</l>
+            <l>–que si hay medias que son redes,</l>
+            <l>también redes que son medias–</l>
+            <l>diré sólo que si hubiese</l>
+            <l>esto de servir de fiesta,</l>
+            <l>aquí acabará la loa</l>
+            <l>y empezará la comedia,</l>
+            <l>diciendo los unos:</l>
+          </sp>
+          <sp who="#voces">
+            <speaker rend="caps">Voces</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Norabuena vengan.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Los otros diciendo:</l>
+            <stage>Vase.</stage>
+          </sp>
+        </div>
+
+
+
+      </div>
+      <div type="act" n="2">
+        <head rend="caps">ÉGLOGA PISCATORIA</head>
+        <div type="scene" resp="#rojas" n="1">
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Amaina la vela</l>
+            <l>y, antes que viento de mar</l>
+            <l>dé con nosotros en esas</l>
+            <l>altas rocas, el esquife</l>
+            <l>los que pueda salve.</l>
+          </sp>
+          <sp who="#uno">
+            <speaker rend="caps">Uno</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Sean</l>
+            <l>Ulises, Dante y Anteo</l>
+            <l>los primeros.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Mientras vuelva,</l>
+            <l>pues nunca el voto es inútil,</l>
+            <l>repitan las voces nuestras.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Júpiter, piedad;</l>
+            <l>Neptuno, clemencia.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Salen en lo alto Escila, vestida de cazadora, y Caribdis, de sirena, cada una por su parte.</stage>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Qué bien parece a mi vista…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Qué mal a mi oído suena…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…el zozobrado huracán…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…la desesperada queja…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…de aquel bajel que, embestido…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…de aquella nave que, expuesta…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…de las ráfagas del viento,…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…a los bajos de la sierra,…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…corriendo viene fortuna.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…está corriendo tormenta.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¡Oh, mueran todos!</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>¡Oh, ninguno muera!</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Que no hay para mis rencores…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Que no hay para mis soberbias…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…música como el gemido.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…dolor como la miseria.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Porque ¿qué mayor lisonja….</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Porque ¿qué mayor ofensa…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…que ver que perezcan todos,…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…que ver que nadie perezca…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…aunque no sea a mis manos?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…y que a mis manos no sea?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Y así, alegre en su desdicha,…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Y así, triste en su tragedia,…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…es justo que la celebre…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…es preciso que la sienta…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…al ver que los trae el rumbo</l>
+            <l>al choque de aquestas peñas.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…al oír que ya no tienen</l>
+            <l>esperanzas sus faenas.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Pues los árboles troncados…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Pues rebujadas las velas…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…desarricadas las jarcias…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…enmarañadas las cuerdas…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…sin gobernalle el timón…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…la bitácora sin muestra…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…cascado crujiendo el pino…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…al tope la quilla vuelta…</l>
+          </sp>
+          <sp who="#escila #caribdis">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>…tumba ya del mar, el buque</l>
+            <l>desesperado lamenta:</l>
+          </sp>
+          <sp who="#voces">
+            <speaker rend="caps">Voces</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Júpiter, piedad;</l>
+            <l>Neptuno, clemencia.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¡Oh, mueran todos!</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>¡Oh, ninguno muera!</l>
+            <l>Mas, ¡bien!, que de los que ya</l>
+            <l>bebiendo la muerte anhelan…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Mas, ¡ay!, que de los que animan</l>
+            <l>cercanías de la tierra…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…algunos salva el esquife…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…algunos la lancha alberga…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…conque lograré mis iras.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…pero ¿qué me desconsuela,</l>
+            <l>si morirán a mi saña,</l>
+            <l>ya que a su ruina no mueran?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Y así saliendo a la orilla…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Y así bajando a la selva…</l>
+          </sp>
+          <sp who="#escila #caribdis">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>…hallarán fuera del mar</l>
+            <l>más derrotada tormenta.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¡Oh, mueran todos!</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>¡Oh, ninguno muera!</l>
+            <l>¿Escila?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¿Caribdis?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>¿Dónde</l>
+            <l>vas?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Mi misma duda es esa</l>
+            <l>y con más razón, pues yo,</l>
+            <l>trascendiendo desta sierra</l>
+            <l>a esta playa, no trasciendo</l>
+            <l>los términos de mi esfera;</l>
+            <l>tú sí, pues dejas la tuya,</l>
+            <l>que es el mar. ¿Qué hay que te mueva</l>
+            <l>a venir a tierra?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Ver</l>
+            <l>que algunas vidas reserva</l>
+            <l>de ese naufragio el esquife</l>
+            <l>y voy a acabar con ellas.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Pues bien te puedes volver,</l>
+            <l>que yo haré esa diligencia.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Mío fue su primer riesgo</l>
+            <l>y lo que mi patria empieza,</l>
+            <l>no lo ha de acabar la tuya.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Que es ya mío considera,</l>
+            <l>pues ya es de tierra el peligro.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Poco importa, si resuelta</l>
+            <l>le tomé a mi cargo yo.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¿Tú conmigo competencias?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>¿Por qué no?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Porque te excedo,</l>
+            <l>ya que es una la acción nuestra</l>
+            <l>en ser bandoleras ambas</l>
+            <l>vengando ambas las afrentas</l>
+            <l>de Aglauco y Neptuno, cuanto</l>
+            <l>es la gran distancia inmensa</l>
+            <l>de la hermosura a la voz.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Pues ¿quién dio más preeminencia</l>
+            <l>al encanto de la vista</l>
+            <l>que al del oído?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>La mesma</l>
+            <l>naturaleza, que puso</l>
+            <l>en la vista mayor fuerza.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Es error, mayor la puso</l>
+            <l>en el oído, si llegas</l>
+            <l>a considerar que solo</l>
+            <l>lo hermoso, que es parte ajena</l>
+            <l>del alma, es hechizo suyo,</l>
+            <l>mas la voz, que al alma entra,</l>
+            <l>es el veneno del alma.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Si ese el mayor riesgo fuera,</l>
+            <l>no les pusiera a los ojos</l>
+            <l>en los párpados defensa:</l>
+            <l>ponerles antemurallas</l>
+            <l>con que a lo hermoso defiendan</l>
+            <l>fue prevenir el peligro.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Es verdad; mas no ponerlas</l>
+            <l>a las orejas fue darse</l>
+            <l>por vencida de que era</l>
+            <l>contra superior poder</l>
+            <l>inútil la resistencia.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>No fue sino lo que dijo</l>
+            <l>el Filósofo.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>¿Qué?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Que eran</l>
+            <l>las orejas del humano</l>
+            <l>mundo tan viles rameras</l>
+            <l>que a ningún interés saben</l>
+            <l>tener cerradas las puertas.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>También ser los ojos, dijo,</l>
+            <l>tan traidoras centinelas</l>
+            <l>que, en vez de avisar el daño,</l>
+            <l>son las que en casa le entran.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Aunque pudiera a razones</l>
+            <l>convencerte, por que veas</l>
+            <l>que no las estimo, quiero</l>
+            <l>que una sola te convenza.</l>
+            <l>Ven, pues, a tierra, que yo</l>
+            <l>te permito la licencia,</l>
+            <l>a precio de que decida</l>
+            <l>esta cuestión la experiencia.</l>
+            <l>Veamos cuál de las dos vuelve</l>
+            <l>con mayores triunfos de esa</l>
+            <l>gente que a merced del hado,</l>
+            <l>cuando los demás se anegan,</l>
+            <l>náufraga viene arribando</l>
+            <l>a la orilla.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Soy contenta,</l>
+            <l>mas con una condición.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¿Cuál es?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Que ninguna pueda</l>
+            <l>decirles de la otra el nombre,</l>
+            <l>dejando la competencia</l>
+            <l>a lo libre del arbitrio.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Norabuena.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Norabuena.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Pues ¿qué esperas?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Pues ¿qué aguardas?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>A tierra, pues.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Pues a tierra.</l>
+            <l>Ea, encanto de la voz,</l>
+            <l>que tuya ha de ser la empresa.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vase.</stage>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Ea, hechizo de la vista,</l>
+            <l>tu mayor victoria es ésta.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Vase, y bajando al tablado salen Ulises, Dante y Anteo.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¡Ah, tierra!, aunque ya de tantas</l>
+            <l>fortunas siempre deshechas</l>
+            <l>fui asunto, nunca con más</l>
+            <l>rendido voto la arena</l>
+            <l>besé; ¡oh, madre común, cuánto</l>
+            <l>te debe el hijo que deja</l>
+            <l>tu regazo y a cobrarle</l>
+            <l>permite el hado que vuelva!</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Aunque siempre fue piedad,</l>
+            <l>tal vez quieres que parezca,</l>
+            <l>más que cariño, ojeriza.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Y si percibes las señas</l>
+            <l>deste inhabitado seno,</l>
+            <l>donde la vista no encuentra</l>
+            <l>verde hoja ni el oído</l>
+            <l>perdida voz que no sea</l>
+            <l>de inculta fiera bramido,</l>
+            <l>gemido de ave funesta,</l>
+            <l>hoy es cuando menos madre</l>
+            <l>nos recibe.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Ved por esas</l>
+            <l>intrincadas breñas que</l>
+            <l>impiden hallar la senda</l>
+            <l>si por dicha hay población</l>
+            <l>o gente alguna.</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>En la quiebra</l>
+            <l>que hace allí un risco está un hombre.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Pescador es según muestran</l>
+            <l>traje y ejercicio, pues</l>
+            <l>la red enjuga y remienda.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¡Ah, pescador!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Sale Alfeo.</stage>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¡Cuánto va</l>
+            <l>que me busca Escila bella</l>
+            <l>o Caribdis para darme</l>
+            <l>las gracias de que no sea</l>
+            <l>yo del baile! ¿Quién me llama?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Decidnos por vida vuestra…</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Buenas Caribdis o Escilas,</l>
+            <l>si no que no son muy buenas.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>…a tres derrotados hijos</l>
+            <l>de la fortuna, ¿qué fiera</l>
+            <l>nos arrojó a estos umbrales?</l>
+            <l>¿Qué ignorada patria es esta?</l>
+            <l>¿Qué tierra? ¿Qué selva? ¿Qué isla?</l>
+            <l>¿Y qué deidades venera</l>
+            <l>por que acudamos al voto</l>
+            <l>que fue del naufragio ofrenda?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Gracias a Dios que llegó</l>
+            <l>el día de que yo hiciera</l>
+            <l>una relación, oíd.</l>
+          </sp>
+          <stage>Escila y Caribdis a las dos puertas del tablado escondidas.</stage>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(Desde esta parte encubierta…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(Oculta desde esta parte…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…pensaré con qué cautela…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…discurriré con qué industria…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…mi voz oigan).</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…mi luz vean).</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Esta patria es una patria,</l>
+            <l>pero ahora se me acuerda</l>
+            <l>de que no puedo ser largo;</l>
+            <l>me vo con vuesa licencia.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Di qué patria y te irás luego.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Como más no me detengan,</l>
+            <l>esta patria es una patria,</l>
+            <l>esta tierra es una tierra,</l>
+            <l>esta isla es una isla</l>
+            <l>y esta selva es una selva</l>
+            <l>de tantísimo trabajo</l>
+            <l>que es la Tinacria desierta</l>
+            <l>donde –aquí que no nos oyen</l>
+            <l>ni es posible que oírnos puedan–</l>
+            <l>Caribdis y Escila son,</l>
+            <l>desde aquel escollo a esa</l>
+            <l>torre, que una legua hay,</l>
+            <l>dos deidades de la legua</l>
+            <l>que andan por montes y mares</l>
+            <l>robando, como si fuera</l>
+            <l>el mar la Calle Mayor</l>
+            <l>y estos peñascos sus tiendas.</l>
+            <l>Tan fieras son las dos que</l>
+            <l>me vo sin decir cuán fieras,</l>
+            <l>porque hay mucho que decir</l>
+            <l>y no cabe en hora y media.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Vase y encuentra con Escila; vuelve huyendo.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Tenedle.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>¿A qué, si es un loco?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(¿Así, villano, me afrentas?).</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>(Vive el cielo que lo oyó</l>
+            <l>todo, mal haya mi lengua;</l>
+            <l>huiré por estotra parte).</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Ya que vuelves, oye, espera.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>El diablo que espere ni oiga.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Vase a ir por la otra parte y encuentra con Caribdis.</stage>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(¿Que así, villano, me ofendas?).</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>(Aun peor está que estaba).</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(Yo vengaré mis ofensas).</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(Yo vengaré mis agravios).</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>(Hemos hecho buena hacienda).</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué tienes que huyes y vuelves?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Qué más quiere usté que tenga,</l>
+            <l>si no canto por servirlas,</l>
+            <l>hablando para ofenderlas?</l>
+            <l>Mas bien empreado está,</l>
+            <l>si en mí sus enojos vengan,</l>
+            <l>que sea día de trabajo,</l>
+            <l>pues no quiere ser de fiesta.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Vase.</stage>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Por loco que es, nos ha dicho</l>
+            <l>cuánto es nuestra suerte adversa,</l>
+            <l>pues entre Escila y Caribdis</l>
+            <l>nos hallamos, de quien cuenta</l>
+            <l>tantas crueldades la fama.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¡Oh, tirana Venus bella,</l>
+            <l>siempre del griego enemiga!,</l>
+            <l>¿hasta cuándo tus ofensas</l>
+            <l>han de durar?, ¿hasta cuándo</l>
+            <l>tus rencores?</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>¿Qué te quejas</l>
+            <l>de Venus, si en Circe tienes</l>
+            <l>otra enemiga más cerca?</l>
+            <l>Si en ella, Ulises, burlados</l>
+            <l>dejas ingenio y belleza,</l>
+            <l>¿qué mucho que contra ti</l>
+            <l>el conjuro de sus ciencias</l>
+            <l>altere montes y mares</l>
+            <l>y te traiga donde tenga</l>
+            <l>nuevos peligros tu vida?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Pues por más que me acontezca,</l>
+            <l>importa menos que no</l>
+            <l>que se presuma ni entienda</l>
+            <l>que en la encantada prisión</l>
+            <l>de una hermosura discreta</l>
+            <l>Ulises envilecía</l>
+            <l>el antiguo honor de Grecia.</l>
+            <l>La voz más armoniosa,</l>
+            <l>ya suene sutil, ya cuerda,</l>
+            <l>¿es más, di, que una asonancia?</l>
+            <l>La hermosura más perfecta</l>
+            <l>y afable, mire ya esquiva,</l>
+            <l>¿es, di, más que una apariencia,</l>
+            <l>tan hija aquella del viento,</l>
+            <l>tan hija del tiempo ésta</l>
+            <l>que cualquier aura la gasta,</l>
+            <l>cualquier hora se la lleva?</l>
+            <l>Pues ¿por qué se ha de pensar</l>
+            <l>que en heroico pecho puedas,</l>
+            <l>perfeción que es accidente,</l>
+            <l>postrar valor que es esencia?</l>
+            <l>Mi vista y mi oído, ¿es justo</l>
+            <l>que a ajeno dueño me vendan?</l>
+            <l>No, ni es posible.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(¿Qué oigo?).</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(¿Qué escucho?).</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Y así no teman</l>
+            <l>nuestros recelos que airados</l>
+            <l>muchos peligros me venzan,</l>
+            <l>mas, por que temeridad</l>
+            <l>esperarlos no parezca,</l>
+            <l>para que de aquí los tres</l>
+            <l>salgamos con mayor priesa,</l>
+            <l>sigue tú de aquel villano,</l>
+            <l>Dante, la perdida huella.</l>
+            <l>Tú, si hay población, Anteo,</l>
+            <l>mira desde esa eminencia.</l>
+            <l>Pues yo, para que podamos</l>
+            <l>hallarnos, me quedo en esta</l>
+            <l>parte, haciendo punto donde</l>
+            <l>a dar vuestras líneas vuelvan.</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Ya te obedezco.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Yo, y todo.</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Mas la fortuna no quiera…</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Pero no permita el hado…</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>…que reconozcas…</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>…que adviertas…</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>…la jatancia escarmentada…</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>…castigada la soberbia…</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>…del que lo que oye no estima.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Vase.</stage>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>…del que lo que ve desprecia.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Vase.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Siempre los sentidos fueron</l>
+            <l>vasallos de la prudencia</l>
+            <l>y no tienen contra mí</l>
+            <l>mi vista ni mi oído fuerza,</l>
+            <l>más que aquello que yo quiero</l>
+            <l>que livianamente tengan.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(Ahora lo verás).</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(Agora</l>
+            <l>te lo dirá la experiencia).</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¡Ay, infelice de mí!</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Pero qué voz es aquella?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(De mano me gana Escila,</l>
+            <l>mas yo esperaré que sea</l>
+            <l>mía la ocasión).</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¿No hay quién</l>
+            <l>una infeliz favorezca?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Mujer y afligida, ¿cómo</l>
+            <l>puedo faltar a la deuda</l>
+            <l>de ser quien soy?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Escila sale cayendo.</stage>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Peregrino</l>
+            <l>destos montes, cuyas señas</l>
+            <l>generosamente nobles</l>
+            <l>no es posible que desmientan</l>
+            <l>el valor, una infelice,</l>
+            <l>a quien una inculta fiera</l>
+            <l>–que siendo aborto del monte,</l>
+            <l>escándalo es de la selva–</l>
+            <l>andando a caza ha salido</l>
+            <l>al paso, a tus plantas puesta</l>
+            <l>te pide… Pero no puedo</l>
+            <l>proseguir, porque, suspensa</l>
+            <l>la voz desde el pecho al labio,</l>
+            <l>ni bien viva ni bien muerta,</l>
+            <l>con andarla cada día,</l>
+            <l>se le ha olvidado la senda,</l>
+            <l>y ya no es que el corazón</l>
+            <l>tímidamente no deja,</l>
+            <l>por que le haga compañía,</l>
+            <l>que salga, conque la lengua</l>
+            <l>torpe, balbuciente el labio,</l>
+            <l>ni uno espira ni otro alienta.</l>
+            <l>¡Ay de mí, infeliz!</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(No en vano</l>
+            <l>cautelosa Escila intenta</l>
+            <l>que el valor de la hermosura</l>
+            <l>más con la lástima crezca.</l>
+            <l>Mas no le valdrá, pues hay</l>
+            <l>cautela contra cautela,</l>
+            <l>divirtiendo yo de oírme</l>
+            <l>las atenciones del verla).</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Beldad que con tus temores</l>
+            <l>compadeces y deleitas</l>
+            <l>y al revés de otras te afeitas,</l>
+            <l>que es quitándote colores,</l>
+            <l>¿contra una fiera favores</l>
+            <l>pides? Y aunque te asegura</l>
+            <l>mi honor, mira que es locura</l>
+            <l>querer que dé mi fineza</l>
+            <l>armas contra una fiereza</l>
+            <l>si me mata una hermosura.</l>
+            <l>Demás que si solicitas</l>
+            <l>que me resuelva a ampararte,</l>
+            <l>¿cómo he de poder yo darte</l>
+            <l>la vida que tú me quitas?</l>
+            <l>Mas, ¡ay!, que bien solicitas</l>
+            <l>ser la fiera mis despojos,</l>
+            <l>previniendo tus enojos</l>
+            <l>piadosamente tiranos,</l>
+            <l>por que ella muera a mis manos,</l>
+            <l>que no muera yo a tus ojos.</l>
+            <l>Pero ¿cómo puede ser</l>
+            <l>que ya la muerte resista?</l>
+            <l>Que a quien mata con ser vista,</l>
+            <l>¿qué falta le hace no ver?</l>
+            <l>Y así, bien puedes volver,</l>
+            <l>no tanto porque la fiera</l>
+            <l>debió de torcer ligera</l>
+            <l>la senda, cuanto por que</l>
+            <l>veas que tu triunfo fue</l>
+            <l>que ella viva y que yo muera.</l>
+            <l>Ni habla ni alienta ni mueve;</l>
+            <l>turbado a tocarla llego.</l>
+            <l>¿Quién creerá que todo es fuego,</l>
+            <l>cielos, donde todo es nieve?</l>
+            <l>¿Que haré? Dejarla es aleve</l>
+            <l>acción; cargar mis pesares</l>
+            <l>con ella, temeridades,</l>
+            <l>pues no sé que haya retiros</l>
+            <l>aquí…</l>
+          </sp>
+          <stage>Dentro Caribdis canta.</stage>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Aquí donde mis suspiros</l>
+            <l>pueblan estas soledades.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué nuevo acento es aquel</l>
+            <l>que dejó mi voz en calma?</l>
+            <l>¿Si es de aqueste cuerpo el alma</l>
+            <l>que no se halla fuera de él</l>
+            <l>y sintiendo cuán cruel</l>
+            <l>desamparo sus donaires,</l>
+            <l>los repetidos desaires</l>
+            <l>que van ganando horizontes</l>
+            <l>enternecen…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Enternecen estos montes</l>
+            <l>y embarazan estos aires?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Ella es, bien mi pensamiento</l>
+            <l>previno; que mal pudiera</l>
+            <l>decir lo que yo dijera</l>
+            <l>quien no, cómplice en mi aliento,</l>
+            <l>sintiera lo que yo siento.</l>
+            <l>Y pues mis dudas persuades,</l>
+            <l>dime, oh, tú, que las añades,</l>
+            <l>dónde que las busquen quieren</l>
+            <l>aquí…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Aquí donde necias mueren</l>
+            <l>mis vanas seguridades.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Ya voy, espera, y no así</l>
+            <l>culpes tú el quedarte hoy,</l>
+            <l>que, si tras tu alma voy,</l>
+            <l>no es dejarte a ti por ti.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¡Ay, infelice de mí!</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Pero una duda a otra iguale,</l>
+            <l>aunque, si otra alma la vale,</l>
+            <l>todas quedarán desechas</l>
+            <l>a manos…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>A manos de mis sospechas,</l>
+            <l>cada vez que el alba sale.</l>
+          </sp>
+          <stage>Hace que se va tras la voz.</stage>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Forastero (vuelva en mí,</l>
+            <l>no aquel acento veloz</l>
+            <l>con el imán de su voz</l>
+            <l>le quiera llevar tras sí),</l>
+            <l>dichosa en hallarte fui,</l>
+            <l>pues no dudo que amparada</l>
+            <l>contra aquella fiera airada</l>
+            <l>en mi desmayo sería.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>No es tanta la dicha mía</l>
+            <l>que te haya servido en nada.</l>
+            <l>Mi obligación satisfice</l>
+            <l>con solamente esperar,</l>
+            <l>que no me quiero alabar</l>
+            <l>de fineza que no hice.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Conque dos veces felice</l>
+            <l>a mi ser me restituyo,</l>
+            <l>pues constantemente arguyo</l>
+            <l>desempeñado tu brío</l>
+            <l>a costa de susto mío</l>
+            <l>sin la del peligro tuyo.</l>
+            <l>Y pues generoso un pecho</l>
+            <l>que noble se considera,</l>
+            <l>la fineza que se hiciera</l>
+            <l>iguala a la que se ha hecho.</l>
+            <l>Ven conmigo, satisfecho</l>
+            <l>de que en mi albergue tendrás</l>
+            <l>fiel galardón (pues verás</l>
+            <l>que al mar despeñado mueres).</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Bien se ve que deidad eres,</l>
+            <l>pues premio al intento das.</l>
+            <l>Pero, aunque tú no me dieras</l>
+            <l>la licencia, la tomara</l>
+            <l>yo, pues nunca te dejara</l>
+            <l>hasta que de incultas fieras</l>
+            <l>asegurada estuvieras.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>No sé si lo crea.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Por qué?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Porque al volver te miré</l>
+            <l>dejarme por el veloz</l>
+            <l>eco de no sé qué voz.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Es verdad; pero eso fue</l>
+            <l>dar crédito a una locura,</l>
+            <l>pensando dejarte a ti</l>
+            <l>por ti, que a no ser así,</l>
+            <l>no quedara tu hermosura</l>
+            <l>sin mi asistencia segura.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Por mí y por tu honor lo creo.</l>
+            <l>(Cielos, ¿qué nuevo deseo</l>
+            <l>es aqueste con que lucho?</l>
+            <l>Que cuando atento le escucho,</l>
+            <l>cuando restado le veo,</l>
+            <l>me parece… Mas ¿qué digo?</l>
+            <l>¿Ni qué me ha de parecer</l>
+            <l>si con todos ha de ser</l>
+            <l>de mis rigores testigo?).</l>
+            <l>Sígueme pues.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Ya te sigo.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Mas, no me sigas, espera.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué te suspende y altera?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Pensar, si conmigo vas,</l>
+            <l>que el galardón no tendrás</l>
+            <l>que quisiera y no quisiera.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Enigma es que, aunque pretendo</l>
+            <l>entenderla, no es bastante</l>
+            <l>mi discurso.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>No te espante,</l>
+            <l>que yo tampoco la entiendo.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Con todo eso, voy siguiendo</l>
+            <l>tus pasos.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Ven y no ven.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Juntos, favor y desdén?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Sí; que desdén y favor,</l>
+            <l>uno es hijo de mi honor,</l>
+            <l>y otro…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿De quién?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>No sé quién.</l>
+            <l>Pero sea de quien fuere,</l>
+            <l>basta saber de mí y de él</l>
+            <l>que piadoso y que cruel</l>
+            <l>tan confuso nace y muere</l>
+            <l>que quiere lo que no quiere.</l>
+            <l>Y pues a un tiempo me obligas</l>
+            <l>y me ofendes, por que digas</l>
+            <l>lo que en mis afectos puedes,</l>
+            <l>quédate, mas no te quedes;</l>
+            <l>sígueme, mas no me sigas.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Vase.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Quién igual confusión vio?</l>
+            <l>¿Habrá quién pueda, ¡ay de mí!,</l>
+            <l>descifrar mis dudas?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+            <stage type="withText">Cantando dentro.</stage>
+
+
+            <l>Sí.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Seguiré sus pasos?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>No.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Quién me lo aconseja?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Yo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Sale Caribdis con un velo en el rostro.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Voz que llevas suspendidos</l>
+            <l>tras tus ecos mis sentidos</l>
+            <l>y, sin dejarte mirar,</l>
+            <l>me solicitas tapar</l>
+            <l>los ojos con los oídos,</l>
+            <l>¿por qué me aconsejas, di,</l>
+            <l>que aquella beldad no siga,</l>
+            <l>con tal dulzura que obliga</l>
+            <l>a que me vaya tras ti?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Por ver si consigo así</l>
+            <l>probar que es pasión más fuerte</l>
+            <l>el oír que el ver.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Advierte</l>
+            <l>que competir es locura</l>
+            <l>una voz a una hermosura.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>No es.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Di cómo.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+            <stage type="withText">Canta.</stage>
+
+
+            <l>Desta suerte.</l>
+            <l>Entre vista y oído</l>
+            <l>la ventaja es</l>
+            <l>que hay siempre que oír,</l>
+            <l>pero no que ver.</l>
+            <l>Aquel exterior sentido</l>
+            <l>que se agrada en lo que ve</l>
+            <l>nunca con verdad se rinde,</l>
+            <l>pues se agrada al parecer.</l>
+            <l>El que en lo que oye se agrada</l>
+            <l>tiene más de interior, pues,</l>
+            <l>pasando al alma, acredita</l>
+            <l>la realidad de su ser.</l>
+            <l>Quien alaba a una hermosura,</l>
+            <l>la dice «no hay más que ver»</l>
+            <l>y es verdad, porque no hay más,</l>
+            <l>en mirándola una vez.</l>
+            <l>Nunca crece a ser mejor,</l>
+            <l>pues la más hermosa tez</l>
+            <l>hará harto en ser mañana</l>
+            <l>tan linda como era ayer.</l>
+            <l>El objeto del oído</l>
+            <l>cada instante crece, en fe</l>
+            <l>de que siempre hay más que oír,</l>
+            <l>pues siempre hay más que saber.</l>
+            <l>De suerte que yendo uno</l>
+            <l>a menguar y otro a crecer,</l>
+            <l>al paso que uno se ilustra</l>
+            <l>fallece el otro, conque</l>
+            <l>entre vista y oído</l>
+            <l>la ventaja es</l>
+            <l>que hay siempre que oír,</l>
+            <l>pero no que ver.</l>
+            <l>El sol o la material</l>
+            <l>luz le acreditan en quien</l>
+            <l>ven en su edad la hermosura,</l>
+            <l>pues le apagan ella o él.</l>
+            <l>Dígalo el que nadie a escuras</l>
+            <l>logró lo hermoso, porque</l>
+            <l>del rosicler de otra dama</l>
+            <l>se adorna su rosicler.</l>
+            <l>Lo entendido de la voz</l>
+            <l>ni aun del sol ha menester,</l>
+            <l>que lo discreto y afable</l>
+            <l>aun lucen sin luz también.</l>
+            <l>Perfección que de la noche</l>
+            <l>no está sujeta al desdén</l>
+            <l>ni pide favor al día,</l>
+            <l>quién duda que prueba…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…que entre vista y oído</l>
+            <l>la ventaja es</l>
+            <l>que hay siempre que oír,</l>
+            <l>pero no que ver.</l>
+            <l>Y si al desvanecimiento</l>
+            <l>apela el galán de que</l>
+            <l>fue dueño de una hermosura,</l>
+            <l>dígame, ¿quién no lo fue?</l>
+            <l>Porque si en el verla estriba</l>
+            <l>de su dicha el mayor bien,</l>
+            <l>el mayor bien es igual</l>
+            <l>a cualquiera que la ve.</l>
+            <l>El no ser vista una dama</l>
+            <l>no puede el recato hacer,</l>
+            <l>porque está sin gusto suyo</l>
+            <l>en otra mano el poder.</l>
+            <l>Pero el no ser oída sí,</l>
+            <l>porque no puede romper</l>
+            <l>sin gusto mío mi voz</l>
+            <l>de mi silencio la ley.</l>
+            <l>Luego, común la hermosura</l>
+            <l>dio a todos qué merecer</l>
+            <l>y no común el ingenio,</l>
+            <l>que aun no adora sólo aquel;</l>
+            <l>siendo así, deja en los ojos</l>
+            <l>lo vulgar de su placer</l>
+            <l>y yendo a lo no vulgar</l>
+            <l>del alma mostrando ven</l>
+            <l>que entre vista y oído</l>
+            <l>la ventaja es</l>
+            <l>que hay siempre que oír,</l>
+            <l>pero no que ver.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Vase.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Oye tú, segundo enigma</l>
+            <l>destos montes, que a crecer</l>
+            <l>la confusión del primero</l>
+            <l>has venido con hacer</l>
+            <l>que neutral el alma dude</l>
+            <l>si dueño más suyo es</l>
+            <l>crueldad que busca piadosa</l>
+            <l>que piedad que huye cruel.</l>
+            <l>Tras cuál iré de los dos,</l>
+            <l>no sé, ¡ay, infeliz!, no sé,</l>
+            <l>que el hierro de mis sentidos</l>
+            <l>tiran con igual poder</l>
+            <l>el norte de lo que oyen</l>
+            <l>y el imán de lo que ven.</l>
+            <l>¿No me dijo una hermosura</l>
+            <l>con desmayada altivez</l>
+            <l>que la siga y no la siga?</l>
+            <l>¿No me dijo una voz, que</l>
+            <l>dulcemente armoniosa</l>
+            <l>me ha podido suspender,</l>
+            <l>que tras ella vaya? Sí.</l>
+            <l>Pues ¿qué dudo? ¿Oh, cuándo fue,</l>
+            <l>¡cielo!, argumento del mal</l>
+            <l>la duplicación del bien?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Sale Escila.</stage>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(Habiendo oído de Caribdis</l>
+            <l>la voz, vuelvo por saber</l>
+            <l>si va tras ella).</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Sale Caribdis.</stage>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(No viendo</l>
+            <l>que me sigue, vuelvo a ver</l>
+            <l>si la hermosura de Escila</l>
+            <l>tras sí le lleva, y no sé</l>
+            <l>si con nuevo afecto, ¡ay, cielos!,</l>
+            <l>que el de la envidia).</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Que haré?</l>
+            <l>Pero aquí de la hermosura,</l>
+            <l>que no tiene más que hacer</l>
+            <l>que ser hermosa una dama;</l>
+            <l>cantar o no cantar es</l>
+            <l>habilidad y no hay</l>
+            <l>más habilidad que ser</l>
+            <l>hermosa; y así yo…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¿Dónde</l>
+            <l>vas?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Si me das a escoger</l>
+            <l>entre quedarme y seguirte,</l>
+            <l>¿qué dudas? ¿Cuándo no fue</l>
+            <l>tan grosero el propio amor,</l>
+            <l>tan villano el interés,</l>
+            <l>que lo mejor para sí</l>
+            <l>no elija?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Sígueme pues,</l>
+            <l>que, aunque ignores tú y yo ignore</l>
+            <l>a qué vas, baste saber</l>
+            <l>que es a dejar la hermosura</l>
+            <l>coronada de laurel.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Ella sola está.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Canta. ¡Ay de ti!</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿De qué calmado bajel</l>
+            <l>se cuenta que fuese el aire</l>
+            <l>la rémora de sus pies?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¿Qué te suspende?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Una voz</l>
+            <l>que traidoramente fiel</l>
+            <l>me ha amenazado, diciendo…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>¡Ay de ti!</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Conmigo ven.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Sí, pero espérame, aguarda</l>
+            <l>un instante, hasta entender</l>
+            <l>qué quiere decirme.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Mira</l>
+            <l>que no me hallarás después.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Pues sígueme tú hasta hallarla.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>No está a mi vanidad bien.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Pues quédate o no te quedes</l>
+            <l>o sígueme o no, saber</l>
+            <l>tengo con qué fin intenta</l>
+            <l>mis dichas desvanecer,</l>
+            <l>antes con sofisterías</l>
+            <l>y con lástimas después.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Pues yendo conmigo, ¿hay cosa</l>
+            <l>que te pueda entristecer?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>No, mas puédeme obligar</l>
+            <l>a que examine por qué</l>
+            <l>se lamenta en mis fortunas.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Sale Caribdis.</stage>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Porque miras y no ves.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Pues entre ver y mirar,</l>
+            <l>¿qué distinción hallas?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Que</l>
+            <l>mirar lo hermoso es mirar</l>
+            <l>y ver el peligro es ver.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Aunque la oigas, no la escuches.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué distinción tú también</l>
+            <l>hallas entre oír y escuchar,</l>
+            <l>que me las divides?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Que</l>
+            <l>el oír es sólo oír</l>
+            <l>y el escuchar, atender.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué me quieres decir tú?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Que no te pares en ver,</l>
+            <l>sin que pases a mirar</l>
+            <l>que el más hermoso vergel</l>
+            <l>contiene tal vez al áspid</l>
+            <l>entre la rosa y clavel.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Tú, entre el escuchar y oír,</l>
+            <l>¿qué quieres darme a entender?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Que no te creas del aire,</l>
+            <l>que el que espira al parecer</l>
+            <l>blandas auras, venir suele</l>
+            <l>inficionado tal vez;</l>
+            <l>no la escuches…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>No la veas…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…y ven tras mí…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…y tras mí ven…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…a argüir,…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…a examinar,…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…a discurrir…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…a entender…</l>
+          </sp>
+          <sp who="#escila #caribdis">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>…que entre vista y oído</l>
+            <l>la ventaja es</l>
+            <l>que hay siempre que oír,</l>
+            <l>pero no que ver.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>De un mismo sentido entrambas</l>
+            <l>equívocas os valéis.</l>
+            <l>Que no hay que ver, dices tú;</l>
+            <l>confieso que verdad es,</l>
+            <l>habiéndote visto a ti;</l>
+            <l>tú dices que hay que oír, también</l>
+            <l>te lo confieso, pues hay</l>
+            <l>tu dulce acento; conque</l>
+            <l>concediendo a cada una</l>
+            <l>que hay que oír, no más que ver,</l>
+            <l>me concedo a mí el dudar</l>
+            <l>lo que tengo de creer.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Pues a mí el dudar me basta</l>
+            <l>para llegarme a ofender.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Para llegarme a sentir,</l>
+            <l>a mí me basta el temer.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Sigue pues su voz, que tú</l>
+            <l>me vengarás de ti.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>Vase.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Ten</l>
+            <l>el paso, que tras ti voy,</l>
+            <l>hermoso hechizo.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Haces bien,</l>
+            <l>pero tú me vengarás</l>
+            <l>de ti.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Vase.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Los pasos detén,</l>
+            <l>dulce encanto, que tras ti</l>
+            <l>también voy, mas mal podré</l>
+            <l>siendo uno seguir a dos.</l>
+          </sp>
+          <sp who="#escila #caribdis">
+            <speaker rend="caps">Las Dos</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Conque diremos los tres:</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Que entre vista y oído,</l>
+            <l>la ventaja es</l>
+            <l>que hay siempre que oír,</l>
+            <l>pero no que ver.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Oye tú, tú espera; cielos,</l>
+            <l>¿quién igual duda vio?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage>Sale Anteo y Celfa.</stage>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Al pie</l>
+            <l>de ese monte, esa villana</l>
+            <l>que venía hacia aquí hallé</l>
+            <l>y te la traigo a que diga</l>
+            <l>lo que pretendes saber.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage>Dante y Alfeo salen.</stage>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Yo penetrando la selva</l>
+            <l>este villano alcancé</l>
+            <l>y segunda vez le traigo</l>
+            <l>a que te informe más bien.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¡Oh, si pudiera uno y otro</l>
+            <l>mis dudas satisfacer!</l>
+            <l>Ven acá, dime, villana,</l>
+            <l>¿quién una hermosura es</l>
+            <l>cazadora destos montes?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Si es una que yo encontré</l>
+            <l>volviendo hacia la cabaña</l>
+            <l>harta de bailar, dempués</l>
+            <l>que forasteras deidades</l>
+            <l>festejamos mal o bien,</l>
+            <l>Escila era.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Calla, calla.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿De qué se enoja?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>De que</l>
+            <l>diciéndome que era Escila,</l>
+            <l>me dices que puede ser</l>
+            <l>traidora aquella hermosura.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Qué hermosura no lo es?</l>
+            <l>Fuera de que ella ¿qué hace</l>
+            <l>más que, en dejándose ver,</l>
+            <l>llevar a su torre a un hombre</l>
+            <l>y dar en el mar con él?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Sin duda, ¡ay de mí, infelice!,</l>
+            <l>deidad favorable fue</l>
+            <l>la que me avisó el peligro.</l>
+            <l>Dime tú, villano, ¿quién</l>
+            <l>es una oculta beldad</l>
+            <l>cuya voz a deshacer</l>
+            <l>vino la traición de esotra?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Yo cosa ninguna sé,</l>
+            <l>lo dicho dicho y no más.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Si es una que yo escuché,</l>
+            <l>Caribdis era.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>La voz</l>
+            <l>suspende.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Por qué?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Porque</l>
+            <l>tal halago no es posible</l>
+            <l>que en sí pudiera esconder</l>
+            <l>de Caribdis las crueldades.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Ahora sabe su merced</l>
+            <l>que el engañar con halagos</l>
+            <l>lo hace cualquiera mujer?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¡Ay, infeliz!</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>¿Qué suspiras?</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>¿Qué tienes?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué he de tener,</l>
+            <l>si una hermosura que vi</l>
+            <l>y si una voz que escuché,</l>
+            <l>por dar dos muertes, han dado</l>
+            <l>una vida al conocer…</l>
+          </sp>
+          <sp who="#escila #caribdis">
+            <speaker rend="caps">Las Dos</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>…que entre vista y oído</l>
+            <l>la ventaja es</l>
+            <l>que hay siempre que oír,</l>
+            <l>pero no que ver?</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>¿No dices que los sentidos</l>
+            <l>tú solo sabes vencer?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¡Ay, que es fácil de decir,</l>
+            <l>pero no fácil de hacer!</l>
+            <l>Y siendo así que me dan</l>
+            <l>dos muertes en que escoger,</l>
+            <l>muera a las mejores armas:</l>
+            <l>tras Escila hermosa iré,</l>
+            <l>que morir de una hermosura</l>
+            <l>es achaque más cortés.</l>
+            <l>Mas no, vaya tras Caribdis,</l>
+            <l>que más noble elección es</l>
+            <l>morir a manos del alma.</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Mira…</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Advierte…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué he de hacer?</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Huir de aquí, que estos contrarios</l>
+            <l>huyendo se vencen.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Bien</l>
+            <l>me aconsejáis, no se diga</l>
+            <l>de Ulises que envilecer</l>
+            <l>una voz o una hermosura</l>
+            <l>su valor pudo, después</l>
+            <l>que en Circe hermosura y voz</l>
+            <l>vencer supo; vamos, pues,</l>
+            <l>salgamos presto de aquí.</l>
+            <l>Pero ¿cómo puede ser,</l>
+            <l>si el esquife que nos trajo,</l>
+            <l>dando en la roca al través,</l>
+            <l>pedazos se hizo?</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>En la playa</l>
+            <l>varados barcos hay.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Quién</l>
+            <l>nos aprestará uno?</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Este</l>
+            <l>pescador.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Has dicho bien.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>No ha dicho sino muy mal.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Tu barco, amigo, prevén.</l>
+            <l>Llega a la orilla, que yo</l>
+            <l>te lo sabré agradecer</l>
+            <l>en echándome a otra playa.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Harto tengo yo que hacer</l>
+            <l>en lo que dije de Escila</l>
+            <l>y Caribdis sin querer</l>
+            <l>enojarlas con libraros.</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Pues si no lo haces por bien,</l>
+            <l>morirás a nuestras manos.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Celfa, pues eres mujer,</l>
+            <l>ruégales tú que me dejen.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Señores, no le llevéis,</l>
+            <l>que es tonto y no sabe más</l>
+            <l>que remar y conocer</l>
+            <l>los bajos de aqueste puerto</l>
+            <l>sin dar en ningún través</l>
+            <l>por más bravo que ande el mar.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Muy buenas señas, ¡pardiez!,</l>
+            <l>para dejarme; ¿qué dices?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Digo lo que verdad es.</l>
+            <l>¿Sabéis otra cosa vos</l>
+            <l>que en dos paladas o tres</l>
+            <l>atravesar todo el golfo?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Que me destruyes, mujer.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Por eso lo digo yo.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>De grado, villano, ven</l>
+            <l>o arrastrando irás.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Será</l>
+            <l>andar el mundo al revés</l>
+            <l>ser yo el arrastrado, siendo</l>
+            <l>el sentenciado vusted.</l>
+            <l>Celfa mía, que me llevan.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Los tales habían de ser</l>
+            <l>y los cuales…</l>
+          </sp>
+          <sp who="#anteo #alfeo">
+            <speaker rend="caps">Los Dos</speaker>
+
+
+            <l>De aquí vamos.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Mátenme a coces y iré,</l>
+            <l>porque yo soy muy galante</l>
+            <l>en llevándome por bien.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Llevadle y llevadme a mí,</l>
+            <l>que voy forzado también,</l>
+            <l>tanto que licencia os doy,</l>
+            <l>si me viéredes volver</l>
+            <l>el rostro, que los oídos</l>
+            <l>y los ojos me vendéis,</l>
+            <l>atado al árbol; y aun todo</l>
+            <l>no basta si oigo otra vez…</l>
+          </sp>
+          <sp who="#escila #celfa">
+            <speaker rend="caps">Las Dos</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>…que entre vista y oído</l>
+            <l>la ventaja es</l>
+            <l>que hay siempre que oír,</l>
+            <l>pero no que ver.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage>Vanse Ulises, Dante y Anteo.</stage>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Aquel adagio que dijo</l>
+            <l>la ida del humo y aquel</l>
+            <l>de allá vayas y no tornes,</l>
+            <l>nunca han venido más bien.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage>Sale Caribdis.</stage>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(¡Qué mal descansa un rigor!).</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
+          <stage>Sale Escila.</stage>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(¡Qué mal sosiega un desdén!).</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(Sin duda, pues no está aquí</l>
+            <l>ni en todo el monte se ve,</l>
+            <l>fue tras Escila).</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(Sin duda,</l>
+            <l>pues ya no está aquí, que fue</l>
+            <l>tras Caribdis).</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(Y no ya</l>
+            <l>lo siento por mi altivez</l>
+            <l>tanto como por mi envidia).</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(Y no ya tanto cruel</l>
+            <l>lo siento como celosa).</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>(¡Oh, ira vil!).</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>(¡Oh, afecto infiel!).</l>
+          </sp>
+          <sp who="#caribdis #escila">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>¿Villana?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Quién llama?</l>
+          </sp>
+          <sp who="#caribdis #escila">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>Yo.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Conformaos las dos, porque,</l>
+            <l>llamada a un tiempo de entrambas,</l>
+            <l>ignoro a cuál responder.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>A ella, que viéndola aquí</l>
+            <l>no tengo yo qué saber.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Viéndote a ti, yo tampoco.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Según eso viene a ser</l>
+            <l>una la duda; podrás</l>
+            <l>respondernos de una vez:</l>
+            <l>¿viste un derrotado huésped</l>
+            <l>del mar que ahora aquí dejé?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Por señas de que me puso</l>
+            <l>en gran obligación.</l>
+          </sp>
+          <sp who="#caribdis #escila">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>¿Qué es?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Dejarme sin mi marido,</l>
+            <l>porque apenas le nombré</l>
+            <l>quién erais, cuando por fuerza</l>
+            <l>le hizo aprestar su bajel</l>
+            <l>en que huyendo de las dos</l>
+            <l>se volvió…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>La voz detén.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Calla, calla, que me has muerto</l>
+            <l>por darle la vida a él.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Pues qué le dije yo más</l>
+            <l>de quién erais?</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Cielos, ¿quién</l>
+            <l>creerá que muera yo a manos</l>
+            <l>de un desprecio? ¡Oh, nunca fiel</l>
+            <l>se hubiera dado a partido</l>
+            <l>mi siempre altiva esquivez!</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>El primero día que afable</l>
+            <l>me llegó a reconocer,</l>
+            <l>es el primero, ¡ay de mí!,</l>
+            <l>que me miró padecer</l>
+            <l>el desaire de una fuga.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Ya la barquilla romper</l>
+            <l>se ve desde aquí las ondas.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Ahí que no os miento veréis.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>¡Viven los cielos, villana,</l>
+            <l>que has de pagarme el haber</l>
+            <l>dicho quién soy!</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Bella Escila,</l>
+            <l>ya que igual el rencor es,</l>
+            <l>pase nuestra competencia</l>
+            <l>a venganza, y para que</l>
+            <l>no quede ejemplar que hubo</l>
+            <l>quien nos venció, yo pondré,</l>
+            <l>pues que soy deidad del mar,</l>
+            <l>nuevos encantos en él</l>
+            <l>de las sirenas, haciendo</l>
+            <l>que armonioso el tropel</l>
+            <l>le entre en su golfo; pon tú,</l>
+            <l>pues que te llegas a ver</l>
+            <l>deidad de la tierra, escollos</l>
+            <l>en que choque; y pues aquel</l>
+            <l>villano de las dos dijo</l>
+            <l>lo que escuchamos tal vez</l>
+            <l>y ésta quién éramos, tú</l>
+            <l>te venga en ella, yo en él.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Yo desde estas altas rocas,</l>
+            <l>basas de ese azul dosel,</l>
+            <l>peñas arrojaré al mar,</l>
+            <l>aunque se desplome el ej</l>
+            <l>que en ellas estriba, haciendo</l>
+            <l>que el impulso del caer</l>
+            <l>le zozobre a los embates</l>
+            <l>de un vaivén y otro vaivén.</l>
+            <l>Y a esta villana…</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¡Ay de mí!</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…en esa torre daré</l>
+            <l>la prisión que a él esperaba,</l>
+            <l>adonde encantada esté</l>
+            <l>para más pena hasta que haya</l>
+            <l>quien la libre.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Mire usted</l>
+            <l>que para cantada soy</l>
+            <l>mala letra, pues se ven</l>
+            <l>cantar villancicos, no</l>
+            <l>villancicas.</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+            <stage type="withText">Subiendo a la torre.</stage>
+
+
+            <l>Fiera, ven</l>
+            <l>a esa cumbre en cuyo seno</l>
+            <l>miras del aire pender</l>
+            <l>una cueva que su luz</l>
+            <l>su despeñadero es.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Mal agasajo para una</l>
+            <l>huéspeda como yo, aunque</l>
+            <l>por lo menos me consuela</l>
+            <l>el que Alfeo no lo ve,</l>
+            <l>y cantada o no cantada</l>
+            <l>al fin viviré sin él.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
+          <stage>Vanse las dos.</stage>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Yo en tanto de las sirenas</l>
+            <l>el coro convocaré,</l>
+            <l>cantando y llorando a un tiempo,</l>
+            <l>supuesto que es menester</l>
+            <l>para que me oigan mezclar</l>
+            <l>el pesar con el placer</l>
+            <l>¡Hola, ahó! ¡Ah del golfo de las sirenas!</l>
+          </sp>
+          <sp who="#sirena-primera #sirena-segunda #sirena-tercera #sirena-cuarta #escila #caribdis">
+            <speaker rend="caps">Todas</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>¡Hola, ahó! ¿Quién nos llama desde la selva?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>¿Ya la voz de Caribdis, no hay quien conozca?</l>
+          </sp>
+          <sp who="#sirena-primera #sirena-segunda #sirena-tercera #sirena-cuarta #escila #caribdis">
+            <speaker rend="caps">Todas</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>¿Quién conoce a quien canta, la vez que llora?</l>
+            <l>Pero dinos, ¿qué quieres de nuestra esfera?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Que el que apenas las sulque, las sulque a penas.</l>
+            <l>Aquel mísero bajel</l>
+            <l>–que, monstruo de dos especies,</l>
+            <l>siendo del aire delfín,</l>
+            <l>águila del mar parece–</l>
+            <l>de un forajido huésped</l>
+            <l>sagrado intenta ser, no siendo albergue.</l>
+          </sp>
+          <sp who="#unas">
+            <speaker rend="caps">Unas</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>Pues ¿qué mandas?</l>
+          </sp>
+          <sp who="#otras">
+            <speaker rend="caps">Otras</speaker>
+
+
+            <l>¿Qué quieres?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Que en calma sienta, llore, gima y pene.</l>
+          </sp>
+          <sp who="#sirena-primera">
+            <speaker rend="caps">Sirena Primera</speaker>
+
+
+            <l>Sienta.</l>
+          </sp>
+          <sp who="#sirena-segunda">
+            <speaker rend="caps">Sirena Segunda</speaker>
+
+
+            <l>Llore.</l>
+          </sp>
+          <sp who="#sirena-tercera">
+            <speaker rend="caps">Sirena Tercera</speaker>
+
+
+            <l>Gima.</l>
+          </sp>
+          <sp who="#sirena-cuarta">
+            <speaker rend="caps">Sirena Cuarta</speaker>
+
+
+            <l>Pene.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Entre Caribdis y Escila,</l>
+            <l>coronado de laureles,</l>
+            <l>es el primero adalid</l>
+            <l>que piensa que huyendo vence,</l>
+            <l>como si ser pudiese</l>
+            <l>quedar mejor el que huya que el que muere.</l>
+            <l>De una voz y una hermosura</l>
+            <l>triunfando va y os compete</l>
+            <l>por hermosas y por dulces</l>
+            <l>que el ejemplar le escarmiente.</l>
+            <l>Llamadle, detenedle.</l>
+          </sp>
+          <stage>Terremoto dentro y dice Escila, durando el ruido y la música.</stage>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Llamadle, detenedle,</l>
+            <l>que yo también guerra le haré de suerte…</l>
+          </sp>
+          <sp who="#sirena-primera #sirena-segunda #sirena-tercera #sirena-cuarta #escila #caribdis">
+            <speaker rend="caps">Todas Juntas</speaker>
+
+
+            <l>…que en calma sienta, llore, gima y pene,</l>
+            <l>conociendo que el golfo de las sirenas</l>
+            <l>el que apenas le sulca, le sulca a penas.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
+          <stage>Con el terremoto sale el barco y en él Ulises, Dante, Anteo y Alfeo remando.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>No costees, barquerol,</l>
+            <l>sino hazte al mar, que de tierra</l>
+            <l>nos hacen los montes guerra</l>
+            <l>con terremotos que al sol</l>
+            <l>turban, despeñando encima</l>
+            <l>del barco una y otra cumbre,</l>
+            <l>de su inmensa pesadumbre</l>
+            <l>la más eminente cima.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Peor será que, si lanzado</l>
+            <l>tomó el golfo vuestras penas,</l>
+            <l>aumente de las sirenas</l>
+            <l>la voz que ya se ha escuchado.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué sirenas? Hazte al mar,</l>
+            <l>que esas sabré vencer yo.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Basta esto para quien no</l>
+            <l>tiene gana de remar.</l>
+          </sp>
+          <stage>Deja los remos y para el barco.</stage>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿No dijeron que correr</l>
+            <l>el golfo en un punto puedes?</l>
+            <l>Pues ¿qué esperas?</l>
+          </sp>
+          <stage>El terremoto.</stage>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Luego ustedes</l>
+            <l>creyeron a mi mujer?</l>
+            <l>En su vida habló verdad</l>
+            <l>y esa es la mayor mentira</l>
+            <l>que en su vida dijo.</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Mira</l>
+            <l>que es loca temeridad</l>
+            <l>pararte cuando se viene</l>
+            <l>sobre nosotros la sierra.</l>
+          </sp>
+          <stage>El terremoto.</stage>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Yo soy pescador de tierra,</l>
+            <l>y ir a terrado conviene,</l>
+            <l>tierra a tierra, tan despacio</l>
+            <l>que me entierre la terraza</l>
+            <l>de un terrado de la plaza</l>
+            <l>o un terrero de palacio</l>
+            <l>antes que de un terremoto</l>
+            <l>el temor que me sotierra</l>
+            <l>en los terraños de tierra</l>
+            <l>me dé sepulcro remoto</l>
+            <l>en el agua.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Un loco es.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Y aún dos.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>¿Qué haremos?</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Tomemos</l>
+            <l>nosotros, Anteo, los remos.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Y de mí, ¿qué harán después?</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+            <stage type="withText">Agárranle.</stage>
+
+
+            <l>Echarte, villano, al mar.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Y el aligerarse gana</l>
+            <l>el barco.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Aunque so un Juan Rana,</l>
+            <l>miren que no sé nadar.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Vaya al mar por embustero.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Mijor por eso era haber</l>
+            <l>arrojado a mi mujer</l>
+            <l>un poquitico primero.</l>
+          </sp>
+          <stage>Échanle al mar.</stage>
+          <sp who="#anteo #ulises">
+            <speaker rend="caps">Los Dos</speaker>
+
+
+            <l>¡Hombre a la mar!</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¡Qué pesar!</l>
+            <l>Pero que me echéis os dejo,</l>
+            <l>porque en llegando a ser viejo</l>
+            <l>¿qué hombre no es hombre a la mar?</l>
+            <l>Mas ¡ay, ahogado de mí!</l>
+            <stage>Sale el pescado.</stage>
+            <l>¿Qué pez horrible y cruel</l>
+            <l>que hacia aquí viene es aquel?</l>
+            <l>¿Si querrá tragarme? Sí</l>
+            <l>parece y pues escapar</l>
+            <l>no puedo, usté, señor pez,</l>
+            <l>me trague por esta vez,</l>
+            <l>mas no sirva de ejemplar.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
+          <stage>Trágale y vase.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Nada en mar y tierra vemos</l>
+            <l>que otro prodigio no sea.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Vencido el mayor se vea,</l>
+            <l>conque el golfo atravesemos.</l>
+          </sp>
+          <stage>Reman ellos.</stage>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+            <stage type="withText">dentro</stage>
+
+
+            <l>No podréis, porque el golfo de las sirenas,</l>
+            <l>el que apenas le sulca, le sulca a penas.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+            <stage type="withText">Suspéndese.</stage>
+
+
+            <l>¿Qué nuevo sonoro canto</l>
+            <l>es el que habemos oído?</l>
+          </sp>
+          <sp who="#anteo #dante">
+            <speaker rend="caps">Los Dos</speaker>
+
+
+            <l>A todos ha suspendido</l>
+            <l>de su dulzura el encanto.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Quién canta en el mar tan bien?</l>
+          </sp>
+          <sp who="#sirena-primera">
+            <speaker rend="caps">Sirena Primera</speaker>
+
+
+            <l>Quien…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Cuándo otra vez me destierra…</l>
+          </sp>
+          <sp who="#sirena-segunda">
+            <speaker rend="caps">Sirena Segunda</speaker>
+
+
+            <l>…de tierra…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>…de que yo escapar pretendo…</l>
+          </sp>
+          <sp who="#sirena-tercera">
+            <speaker rend="caps">Sirena Tercera</speaker>
+
+
+            <l>…huyendo…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>…porque a mi honor le conviene?</l>
+          </sp>
+          <sp who="#sirena-cuarta">
+            <speaker rend="caps">Sirena Cuarta</speaker>
+
+
+            <l>…viene.</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Misterio el eco contiene.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>No es eco, ¿no ves veloces</l>
+            <l>sirenas decir a voces…</l>
+          </sp>
+          <sp who="#sirena-primera #sirena-segunda #sirena-tercera #sirena-cuarta #escila #caribdis">
+            <speaker rend="caps">Todas</speaker>
+
+
+            <l>Quien de tierra huyendo viene…?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿De quién pretendo yo huir?</l>
+          </sp>
+          <sp who="#sirena-primera">
+            <speaker rend="caps">Sirena Primera</speaker>
+
+
+            <l>De oír.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué más intento vencer?</l>
+          </sp>
+          <sp who="#sirena-segunda">
+            <speaker rend="caps">Sirena Segunda</speaker>
+
+
+            <l>Y ver.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Pues ¿quién tiene por disgusto…</l>
+          </sp>
+          <sp who="#sirena-tercera">
+            <speaker rend="caps">Sirena Tercera</speaker>
+
+
+            <l>…gusto…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>…que yo a mí me quiera dar…</l>
+          </sp>
+          <sp who="#sirena-cuarta">
+            <speaker rend="caps">Sirena Cuarta</speaker>
+
+
+            <l>…pesar?</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Sentido tray singular</l>
+            <l>el canto que nos persigue.</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Sí, pues dice que se sigue…</l>
+          </sp>
+          <sp who="#sirena-primera #sirena-segunda #sirena-tercera #sirena-cuarta #escila #caribdis">
+            <speaker rend="caps">Todas</speaker>
+
+
+            <l>…de oír y ver, gusto y pesar.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Pues si me juzgué muriendo…</l>
+          </sp>
+          <sp who="#sirena-primera">
+            <speaker rend="caps">Sirena Primera</speaker>
+
+
+            <l>Viendo…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>…un peligro a otro añadiendo…</l>
+          </sp>
+          <sp who="#sirena-segunda">
+            <speaker rend="caps">Sirena Segunda</speaker>
+
+
+            <l>…oyendo…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>…durar mi dolor cruel…</l>
+          </sp>
+          <sp who="#sirena-tercera">
+            <speaker rend="caps">Sirena Tercera</speaker>
+
+
+            <l>…en el…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿no era morir y no amar?</l>
+          </sp>
+          <sp who="#sirena-cuarta">
+            <speaker rend="caps">Sirena Cuarta</speaker>
+
+
+            <l>…mar.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Mas, ¡ay!, que para vengar</l>
+            <l>la fuga que haciendo voy,</l>
+            <l>en el mismo riesgo estoy…</l>
+          </sp>
+          <sp who="#sirena-primera #sirena-segunda #sirena-tercera #sirena-cuarta #escila #caribdis">
+            <speaker rend="caps">Todas</speaker>
+
+
+            <l>…viendo y oyendo en el mar.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Y así el que vencer intenta,…</l>
+          </sp>
+          <sp who="#sirena-primera">
+            <speaker rend="caps">Sirena Primera</speaker>
+
+
+            <l>Sienta…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>…el que una voz le enamore…</l>
+          </sp>
+          <sp who="#sirena-segunda">
+            <speaker rend="caps">Sirena Segunda</speaker>
+
+
+            <l>…llore…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>…y el que una beldad no estima…</l>
+          </sp>
+          <sp who="#sirena-tercera">
+            <speaker rend="caps">Sirena Tercera</speaker>
+
+
+            <l>…gima…</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>…y pues remedio no tiene…</l>
+          </sp>
+          <sp who="#sirena-cuarta">
+            <speaker rend="caps">Sirena Cuarta</speaker>
+
+
+            <l>…pene.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Sólo este medio conviene:</l>
+            <l>que quien librarse procura</l>
+            <l>de una voz y una hermosura…</l>
+          </sp>
+          <sp who="#sirena-primera #sirena-segunda #sirena-tercera #sirena-cuarta #escila #caribdis">
+            <speaker rend="caps">Todas</speaker>
+
+
+            <l>…sienta, llore, gima y pene.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Mas ¡ay, infeliz de mí!</l>
+            <l>¿Qué querrán mares y vientos?</l>
+          </sp>
+          <stage>En lo alto Escila y Caribdis.</stage>
+          <sp who="#escila #caribdis">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>Junta todos sus acentos.</l>
+          </sp>
+          <sp who="#anteo #dante #ulises">
+            <speaker rend="caps">Los Tres</speaker>
+
+
+            <l>¿Y cómo dirán?</l>
+          </sp>
+          <sp who="#escila #caribdis">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>Así:</l>
+          </sp>
+          <sp who="#escila #caribdis #anteo #dante #ulises">
+            <speaker rend="caps">Juntas Todas</speaker>
+
+
+            <l>Quien de tierra huyendo viene</l>
+            <l>de oír y ver, gusto y pesar,</l>
+            <l>viendo y oyendo en el mar,</l>
+            <l>sienta, llore, gima y pene.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Pues si llorar y gemir</l>
+            <l>fuerza es, sentir y penar,</l>
+            <l>mejor es que acabe el mar</l>
+            <l>de una vez tanto sufrir</l>
+            <l>embates de la fortuna.</l>
+          </sp>
+          <sp who="#anteo #dante">
+            <speaker rend="caps">Los Dos</speaker>
+
+
+            <l>¿Qué haces?</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>Arrojarme donde</l>
+            <l>quien tantas vidas esconde</l>
+            <l>añada al número una.</l>
+            <l>Y más si, después de oír</l>
+            <l>las sonoras amenazas</l>
+            <l>de esas hermosas sirenas</l>
+            <l>que a un tiempo cantan y encantan</l>
+            <l>tanto que aun los dos suspensos</l>
+            <l>dejáis sin remos la barca,</l>
+            <l>veo sobre aquella roca</l>
+            <l>la hermosura soberana</l>
+            <l>de Escila y sobre aquel risco</l>
+            <l>escucho las voces blandas</l>
+            <l>de Caribdis, las dos siendo</l>
+            <l>vivos imanes del alma.</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Todos aquesos peligros</l>
+            <l>contra una industria no bastan.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué es?</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Que pues que ya en la vela</l>
+            <l>sopla favorable el aura</l>
+            <l>y de ella el barco impelido</l>
+            <l>no le hacen los remos falta,</l>
+            <l>cerrados oídos y ojos,</l>
+            <l>correr nos dejemos, hasta</l>
+            <l>que dé del hado el arbitrio</l>
+            <l>con nosotros a otra playa.</l>
+          </sp>
+          <sp who="#escila #caribdis">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>Agora, agora, sirenas,</l>
+            <l>repetid en voces altas.</l>
+          </sp>
+          <sp who="#sirena-primera #sirena-segunda #sirena-tercera #sirena-cuarta #escila #caribdis">
+            <speaker rend="caps">Todas</speaker>
+
+
+            <l>Quien de tierra huyendo viene</l>
+            <l>de oír y ver, gusto y pesar,</l>
+            <l>viendo y oyendo en el mar,</l>
+            <l>sienta, llore, gima y pene.</l>
+            <l>Conociendo que el golfo de las sirenas,</l>
+            <l>el que apenas le sulca, le sulque a penas.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué importa que yo las manos</l>
+            <l>ponga en los oídos y haga</l>
+            <l>fuerza a los ojos, si ojos</l>
+            <l>y oídos, ladrones de casa,</l>
+            <l>saben los rincones della</l>
+            <l>y, viendo impedir sus causas,</l>
+            <l>retiran al corazón</l>
+            <l>las especies y él las guarda</l>
+            <l>tan vivas que a los sentidos</l>
+            <l>volver el uso les manda?</l>
+            <l>Conque menos que arrojado</l>
+            <l>al mar ni el fuego se apaga</l>
+            <l>ni el corazón se sosiega</l>
+            <l>ni los sentidos descansan.</l>
+          </sp>
+          <sp who="#anteo">
+            <speaker rend="caps">Anteo</speaker>
+
+
+            <l>Harás que de la licencia</l>
+            <l>que nos diste usemos hasta</l>
+            <l>pasar el golfo.</l>
+          </sp>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿Qué fue?</l>
+          </sp>
+          <sp who="#dante">
+            <speaker rend="caps">Dante</speaker>
+
+
+            <l>Que al árbol atado vayas,</l>
+            <l>vendados ojos y oídos.</l>
+          </sp>
+          <stage>Átanle y pónenle una banda en los ojos.</stage>
+          <sp who="#ulises">
+            <speaker rend="caps">Ulises</speaker>
+
+
+            <l>¿A qué loco no le atan?</l>
+            <l>Bien hacéis; Escila hermosa,</l>
+            <l>suave Caribdis sagrada,</l>
+            <l>sirenas del negro golfo,</l>
+            <l>altos montes de Tinacria,</l>
+            <l>decid a voces que Ulises,</l>
+            <l>dándole el viento sus alas,</l>
+            <l>entre Caribdis y Escila,</l>
+            <l>atado y vendado, escapa</l>
+            <l>de vuestros riesgos por que</l>
+            <l>le quede al mundo enseñanza</l>
+            <l>que así se ven los estremos</l>
+            <l>de la hermosura y la gracia.</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Seguidle, seguidle todas.</l>
+          </sp>
+          <sp who="#sirena-primera">
+            <speaker rend="caps">Sirena</speaker>
+
+
+            <l>¿A qué, si no sirve nada</l>
+            <l>contra quien ojos y oídos</l>
+            <l>de voz y hermosura guarda?</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>Pues si no bastan mis ecos…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>Si mi hermosura no basta…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…contra quien vencerlas quiera…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…contra quien quiera postrarla…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…dando la rienda a la ira…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…soltando el freno a la rabia…</l>
+          </sp>
+          <sp who="#caribdis">
+            <speaker rend="caps">Caribdis</speaker>
+
+
+            <l>…caiga despeñada al mar…</l>
+          </sp>
+          <sp who="#escila">
+            <speaker rend="caps">Escila</speaker>
+
+
+            <l>…al mar despeñada caiga…</l>
+          </sp>
+          <sp who="#caribdis #escila">
+            <speaker rend="caps">Las Dos</speaker>
+
+
+            <l>…muriendo como él había</l>
+            <l>de morir, en cuya saña</l>
+            <l>las funerales exequias</l>
+            <l>montes y piélagos hagan.</l>
+          </sp>
+          <stage>Arrójanse al mar.</stage>
+          <sp who="#villana-primera #villana-segunda">
+            <speaker rend="caps">Villanos</speaker>
+
+
+            <l>¿Qué segundo terremoto</l>
+            <l>la luz del sol nos apaga?</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker rend="caps">Astrea</speaker>
+
+
+            <l>Abajo el orbe se viene.</l>
+          </sp>
+          <sp who="#pescador-primero">
+            <speaker rend="caps">Pescador Primero</speaker>
+
+
+            <l>De todo ese azul alcázar,</l>
+            <l>los peñascos de su centro,</l>
+            <l>proceloso viento arranca.</l>
+          </sp>
+          <sp who="#pescador-segundo">
+            <speaker rend="caps">Pescador Segundo</speaker>
+
+
+            <l>Sí, pues el mar a su esfera</l>
+            <l>parece que los traslada.</l>
+          </sp>
+          <sp who="#pescador-tercero">
+            <speaker rend="caps">Pescador Tercero</speaker>
+
+
+            <l>Es verdad, que dos escollos</l>
+            <l>miramos sobre las aguas,</l>
+            <l>nunca hasta ahora descubiertos.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¿Qué será?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
+          <stage>Sale Sileno.</stage>
+          <sp who="#sileno">
+            <speaker rend="caps">Sileno</speaker>
+
+
+            <l>El cielo me valga.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¿Qué es esto, Sileno?</l>
+          </sp>
+          <sp who="#sileno">
+            <speaker rend="caps">Sileno</speaker>
+
+
+            <l>Que,</l>
+            <l>mirando el mar en bonanza,</l>
+            <l>salí a pescar y a lo lejos</l>
+            <l>vi arrojarse despeñadas</l>
+            <l>al mar Escila y Caribdis</l>
+            <l>cuyo sepulcro de plata</l>
+            <l>construyen nuevos montes</l>
+            <l>en dos pirámides altas,</l>
+            <l>contra cuantos marineros</l>
+            <l>tocaren en esas playas,</l>
+            <l>pues quien escape de Escila,</l>
+            <l>tendrá en Caribdis borrasca.</l>
+            <l>Y no paró aquí el prodigio,</l>
+            <l>sino que la red que echada</l>
+            <l>tenía al mar, al recogerla</l>
+            <l>la sentí con tan gran carga</l>
+            <l>que de remolque ha venido</l>
+            <l>sin conocer lo que traiga.</l>
+          </sp>
+          <sp who="#pescador-primero">
+            <speaker rend="caps">Pescador Primero</speaker>
+
+
+            <l>Por que todos lo veamos,</l>
+            <l>ayudemos a sacarla.</l>
+          </sp>
+          <sp who="#viejo">
+            <speaker rend="caps">Viejo</speaker>
+
+
+            <l>Marino monstruo que abre</l>
+            <l>la boca de sus entrañas,</l>
+            <l>arroja otro horrible monstruo</l>
+            <l>todo vestido de escamas. Sale Alfeo.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Gracias a Dios que he llegado</l>
+            <l>a la orilla; para, para,</l>
+            <l>cohete pez que me has traído</l>
+            <l>en ti como en una caja.</l>
+            <l>Todos estamos acá,</l>
+            <l>amigos.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¡Qué fiera estraña!</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker rend="caps">Astrea</speaker>
+
+
+            <l>¡Qué salvaje tan cruel!</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Tú eres la fiera y tu alma,</l>
+            <l>y tú la salvaja, puesto</l>
+            <l>que aquí no hay otra salvaja</l>
+            <l>ni otra fiera. Pues prodigios</l>
+            <l>es hoy toda esta comarca,</l>
+            <l>huyamos todos.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Huyamos.</l>
+          </sp>
+          <sp who="#sileno">
+            <speaker rend="caps">Sileno</speaker>
+
+
+            <l>Pues con dejar transformada</l>
+            <l>en escollos a Caribdis</l>
+            <l>y a Escila, queda acabada</l>
+            <l>la fábula y ahora viendo</l>
+            <l>arrojar en esta playa</l>
+            <l>aquese marino monstruo,</l>
+            <l>empieza la mojiganga.</l>
+            <stage>Vanse todos y queda Alfeo solo.</stage>
+          </sp>
+        </div>
+
+
+      </div>
+      <div type="act" n="3">
+        <head rend="caps">MOJIGANGA</head>
+        <div type="scene" resp="#rojas" n="1">
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Qué mojiganga? Esperad,</l>
+            <l>oíd; ¡el cielo me valga!</l>
+            <l>Agora que caigo en ello,</l>
+            <l>¿dónde estoy? Que aquesta estancia</l>
+            <l>no es mi tierra, pues en ella</l>
+            <l>no había aquellas peñas altas</l>
+            <l>y había cierta mujer mía;</l>
+            <l>pero si ella de aquí falta…</l>
+            <l>Mas, que esté donde estuviere,</l>
+            <l>manos a labor y vaya</l>
+            <l>de náufrago peregrino</l>
+            <l>que derrotado se halla</l>
+            <l>sin saber cuándo ni cómo.</l>
+            <l>¡Ah de los montes!</l>
+          </sp>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>¿Quién llama?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Qué sé yo quién soy, porque</l>
+            <l>una marina tarasca</l>
+            <l>que me concibió en el mar</l>
+            <l>con dos cosas tan contrarias</l>
+            <l>como son aborrecerme</l>
+            <l>y meterme en sus entrañas</l>
+            <l>me ha malparido a esta tierra</l>
+            <l>donde, aunque he sido vianda,</l>
+            <l>ni soy carne ni pescado.</l>
+          </sp>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>Pues ¿qué quieres?</l>
+          </sp>
+          <sp who="#otros">
+            <speaker rend="caps">Otros</speaker>
+
+
+            <l>Pues ¿qué mandas?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Ya que ustedes me responden,</l>
+            <l>sea quien fuere, con tanta</l>
+            <l>melanoche o melodía,</l>
+            <l>¿qué tierra es?, que como en zarzas</l>
+            <l>en ella estoy.</l>
+          </sp>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>La Zarzuela.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿La Zarzuela?</l>
+          </sp>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>¿Qué te espantas?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿No he de espantarme si en este</l>
+            <l>instante en Tinacria estaba?</l>
+          </sp>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>¿Pues quién le quita que sea</l>
+            <l>la Zarzuela de Tinacria?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Algún crítico que ponga</l>
+            <l>en razón las mojigangas.</l>
+            <l>Mas, ya que lo saben todo,</l>
+            <l>¿saben quién soy yo?</l>
+          </sp>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>Juan Rana.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Gloria a Dios que di conmigo,</l>
+            <l>que ha rato que me buscaba</l>
+            <l>y no me podía encontrar.</l>
+            <l>Mas digan, si no se cansan,</l>
+            <l>en este bosque vustedes,</l>
+            <l>¿qué son, qué cantan, qué rabian</l>
+            <l>y a qué he venido yo a él?</l>
+          </sp>
+          <sp who="#música">
+            <speaker rend="caps">Música</speaker>
+
+
+            <l>Tú lo sabrás si le andas.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Ve aquí que le ando y que no</l>
+            <l>lo sé.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¡Ay, triste, ay, desdichada,</l>
+            <l>ay, mísera, ay, afligida,</l>
+            <l>ay, amarrida y cuitada,</l>
+            <l>y ay, encantada de mí!</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¡Oh, tú, voz que a longe ayas!</l>
+            <l>¿Dónde estás y cúya eres?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Los ojos al desván alza</l>
+            <l>deste monte, verás dónde</l>
+            <l>me dejó Escila encerrada</l>
+            <l>por último encantamiento</l>
+            <l>de su póstuma venganza,</l>
+            <l>hasta que haya caballero</l>
+            <l>que me libre, con tan rara</l>
+            <l>condición en la aventura</l>
+            <l>que lo primero que manda</l>
+            <l>es que cuando entre, un salvaje</l>
+            <l>venza; un dragón, cuando salga;</l>
+            <l>pena de que, si venciere</l>
+            <l>uno sin otro, se vayan</l>
+            <l>los encantados y él quede</l>
+            <l>en la prisión.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Grande infanta</l>
+            <l>sin duda es, que estos primores</l>
+            <l>las de las villas no gastan.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>No se me acuerda por ahora</l>
+            <l>bien de cómo me llamaba</l>
+            <l>en el sigro, pero sé</l>
+            <l>que estoy aquí con tal rabia,</l>
+            <l>con tal cólera, tal ira,</l>
+            <l>tal impaciencia y tal saña,</l>
+            <l>que todos los encantados</l>
+            <l>me llaman la Mari-Brava.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Mari-Brava y Zarzuela?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Ahí</l>
+            <l>verás lo que el diablo enzarza.</l>
+            <l>De buena ventura eres</l>
+            <l>si desta prisión me sacas,</l>
+            <l>porque sacarás conmigo</l>
+            <l>cuantos encantados andan</l>
+            <l>por aquestos vericuetos.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Llevará Bercebú el alma</l>
+            <l>que tal sacara, que fuera</l>
+            <l>muy heroica patarata</l>
+            <l>que la que me prendió antaño</l>
+            <l>desprendiera hogaño.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Gracias</l>
+            <l>a tu valor.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Pues de qué</l>
+            <l>las gracias son?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>De que tratas</l>
+            <l>tomar la demanda mía.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>No hago tal, devota santa.</l>
+            <l>Por mi vida, ¿para qué</l>
+            <l>tomara yo su demanda?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Encantados caballeros</l>
+            <l>y princesas encantadas</l>
+            <l>que andáis por aquestos montes</l>
+            <l>en diversas formas varias,</l>
+            <l>un aventurero dice</l>
+            <l>que quiere tomar las armas</l>
+            <l>por mi amor.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>No dice tal.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Yo que me lo entienda basta,</l>
+            <l>que esto de verse servidas</l>
+            <l>basta soñarlo las damas.</l>
+            <l>Venid todos, venid todas</l>
+            <l>a recibirle.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Deo gracias.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>En toda mi vida vi</l>
+            <l>fieras tan buenas cristianas.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Desencantadorcito del alma,</l>
+            <l>mira aquí lo que desencantas.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Pues encantadorcitos del cuerpo,</l>
+            <l>veis aquí que me voy huyendo.</l>
+          </sp>
+          <sp who="#uno">
+            <speaker rend="caps">Uno</speaker>
+
+
+            <l>No irás tal, que ya empezado,</l>
+            <l>no puedes volver la espalda.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Sí iré tal, porque vendido,</l>
+            <l>la puedo volver.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Aguarda,</l>
+            <l>desencantadorcito del alma,</l>
+            <l>mira aquí lo que desencantas.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Pues encantadorcitos del cuerpo,</l>
+            <l>veis aquí que me voy huyendo.</l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker rend="caps">Salvaje</speaker>
+
+
+            <l>¿Quién eres, oh, tú, que osado</l>
+            <l>hasta aquí mueves las plantas,</l>
+            <l>dándome a entender que quieres</l>
+            <l>entrar conmigo en batalla?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Para salvaje ese es mucho</l>
+            <l>discurrir, porque en mi alma</l>
+            <l>que no quiero tal.</l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker rend="caps">Salvaje</speaker>
+
+
+            <l>Sí quieres,</l>
+            <l>pues de sus términos pasas</l>
+            <l>eso lo que tiene puesto</l>
+            <l>a los encantos que guarda</l>
+            <l>el grande cuento de cuentos,</l>
+            <l>Gasparilis de Aravaca.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Si es usté, ponga entre esotros</l>
+            <l>cuentos que cuenta que el que haga</l>
+            <l>guerra yo a usted es el cuento</l>
+            <l>de nunca acabar.</l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker rend="caps">Salvaje</speaker>
+
+
+            <l>No basta</l>
+            <l>ya ese propósito; escucha,</l>
+            <l>tenía una dueña una enana…</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Ya ese es viejo y no he de oírle.</l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker rend="caps">Salvaje</speaker>
+
+
+            <l>¿Pues hay más de que otro vaya?</l>
+            <l>A cuatro o cinco chiquillos…</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>También ese tiene canas</l>
+            <l>y no te canses, que ese</l>
+            <l>ni otro alguno, si me matas,</l>
+            <l>no he de oírle.</l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker rend="caps">Salvaje</speaker>
+
+
+            <l>Aqueso es</l>
+            <l>matarme tú con ventaja.</l>
+            <l>¡Ay, que me ha muerto!</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Al salvaje</l>
+            <l>mató.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Él lo vendría de casa,</l>
+            <l>que yo no he llegado a él.</l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker rend="caps">Salvaje</speaker>
+
+
+            <l>Tú me has muerto.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Con qué armas?</l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker rend="caps">Salvaje</speaker>
+
+
+            <l>Con no oírme, que a un salvaje,</l>
+            <l>quien no le escucha le mata.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Con que ya volver podemos</l>
+            <l>a nuestras formas pasadas.</l>
+            <l>Desencantadorcito del alma,</l>
+            <l>mira aquí lo que desencantas.</l>
+          </sp>
+          <sp who="#primera">
+            <speaker rend="caps">Primera</speaker>
+
+
+            <l>Yo que fui en el modo tía,</l>
+            <l>era una arpía.</l>
+          </sp>
+          <sp who="#primero">
+            <speaker rend="caps">Primero</speaker>
+
+
+            <l>Yo que me asombro y me arrobo,</l>
+            <l>cogí un lobo.</l>
+          </sp>
+          <sp who="#segunda">
+            <speaker rend="caps">Segunda</speaker>
+
+
+            <l>Yo, serpiente verdinegra,</l>
+            <l>era una suegra.</l>
+          </sp>
+          <sp who="#segundo">
+            <speaker rend="caps">Segundo</speaker>
+
+
+            <l>Yo que fui un grande lebrón,</l>
+            <l>me hice león.</l>
+          </sp>
+          <sp who="#tercera">
+            <speaker rend="caps">Tercera</speaker>
+
+
+            <l>Yo, tercera en quien peligre</l>
+            <l>trancado el honor, fui tigre.</l>
+          </sp>
+          <sp who="#tercero">
+            <speaker rend="caps">Tercero</speaker>
+
+
+            <l>Y yo, atento a mi interés,</l>
+            <l>gato montés.</l>
+          </sp>
+          <sp who="#cuarta">
+            <speaker rend="caps">Cuarta</speaker>
+
+
+            <l>Yo que fui una dueña flaca,</l>
+            <l>era una urraca.</l>
+          </sp>
+          <sp who="#cuarto">
+            <speaker rend="caps">Cuarto</speaker>
+
+
+            <l>Y yo que un gran puerco fui,</l>
+            <l>soy jabalí.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Con que nuestras formas cobradas,</l>
+            <l>mira tú lo que desencantas.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Ya lo miro y ya reconozco</l>
+            <l>que hacéis el bosque cuadro del Bosco.</l>
+          </sp>
+          <sp who="#primero">
+            <speaker rend="caps">Primero</speaker>
+
+
+            <l>Tú a quien la vista debemos,</l>
+            <l>agora que bajes falta.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Ya yo bajo en una nube.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Esa es nube o es banasta?</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¿Qué se espanta,</l>
+            <l>si es nube de mojiganga?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>¿Quién es el que me ha librado?</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Vesle aquí.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Humilde a tus plantas…</l>
+            <l>Mas ¡qué miro!</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Mas ¡qué veo!</l>
+            <l>¿Tú eres, fiero?</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Tú eres, falsa?</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>¿Qué es eso?</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Que es mi marido.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Que es mi mujer y ¿qué sacan</l>
+            <l>deso? Que su libertad</l>
+            <l>no quiero, ni yo librarla.</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker rend="caps">Astrea</speaker>
+
+
+            <l>Pues buen remedio.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>¿Qué es?</l>
+          </sp>
+          <sp who="#astrea">
+            <speaker rend="caps">Astrea</speaker>
+
+
+            <l>Que pues de vencer te falta</l>
+            <l>el dragón de la salida,</l>
+            <l>escuses esa batalla</l>
+            <l>y que tú preso te quedes</l>
+            <l>y que ella libre se vaya.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Yo soy contenta.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>Y yo.</l>
+          </sp>
+          <sp who="#primero">
+            <speaker rend="caps">Primero</speaker>
+
+
+            <l>Pues</l>
+            <l>metámosle en la banasta.</l>
+            <l>Señores desencantados,</l>
+            <l>adviertan no hable palabra,</l>
+            <l>porque en el punto que hable,</l>
+            <l>dará una gran zaparrada.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>No hablaré más que un marido</l>
+            <l>encantado.</l>
+          </sp>
+          <sp who="#unos">
+            <speaker rend="caps">Unos</speaker>
+
+
+            <l>Arriba vaya.</l>
+          </sp>
+          <sp who="#otros">
+            <speaker rend="caps">Otros</speaker>
+
+
+            <l>Vaya arriba.</l>
+          </sp>
+          <sp who="#primero">
+            <speaker rend="caps">Primero</speaker>
+
+
+            <l>¿Qué haces, mozo?</l>
+          </sp>
+          <sp who="#segundo">
+            <speaker rend="caps">Segundo</speaker>
+
+
+            <l>Está la cuerda enredada.</l>
+            <l>¡Que se va el torno, Jesús</l>
+            <l>mil veces!</l>
+          </sp>
+          <sp who="#tercero">
+            <speaker rend="caps">Tercero</speaker>
+
+
+            <l>¡Qué gran desgracia!</l>
+            <l>Juan Rana se ha hecho pedazos.</l>
+          </sp>
+          <sp who="#cuarto">
+            <speaker rend="caps">Cuarto</speaker>
+
+
+            <l>Acabemos sin Juan Rana.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Sin marido y desencantada,</l>
+            <l>qué dos venturas, venturas tan raras.</l>
+          </sp>
+          <sp who="#alfeo">
+            <speaker rend="caps">Alfeo</speaker>
+
+
+            <l>No os veréis en ese gozo,</l>
+            <l>pícara desvergonzada.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Que con marido y desencantada,</l>
+            <l>qué dos venturas, venturas tan raras.</l>
+          </sp>
+          <sp who="#todos">
+            <speaker rend="caps">Todos</speaker>
+
+
+            <l>Quedo, quedo, sed amigos.</l>
+          </sp>
+          <sp who="#celfa">
+            <speaker rend="caps">Celfa</speaker>
+
+
+            <l>Sin marido y desencantada</l>
+            <l>qué dos venturas, venturas tan raras.</l>
+          </sp>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

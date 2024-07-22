@@ -3588,16 +3588,6 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="TEI[@xml:id='cal000114']//person[@xml:id = 'merlín']">
-    <!-- Copy the person element and its attributes -->
-    <xsl:copy>
-      <xsl:apply-templates select="@*|node()"/>
-      <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
-        <desc xmlns="http://www.tei-c.org/ns/1.0"> </desc>
-      </trait>
-    </xsl:copy>
-  </xsl:template>
 
   <xsl:template match="TEI[@xml:id='cal000114']//person[@xml:id = 'apolo']">
     <!-- Copy the person element and its attributes -->
