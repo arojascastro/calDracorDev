@@ -33,28 +33,28 @@
         <listPerson>
           <person xml:id="espínola" sex="MALE">
             <persName>El Marqués Espínola</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán general</desc>
             </trait>
           </person>
           <person xml:id="alonso" sex="MALE">
             <persName>Alonso Ladrón</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán español</desc>
             </trait>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
           </person>
           <person xml:id="juan" sex="MALE">
             <persName>El Conde Juan de Nasau</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán alemán</desc>
             </trait>
           </person>
           <person xml:id="barlanzón" sex="MALE">
             <persName>Marqués de Barlanzón</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán tudesco</desc>
             </trait>
           </person>
@@ -63,43 +63,43 @@
           </person>
           <person xml:id="belveder" sex="MALE">
             <persName>Marqués de Belveder</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán italiano</desc>
             </trait>
           </person>
           <person xml:id="medina" sex="MALE">
             <persName>Don Francisco de Medina</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán español</desc>
             </trait>
           </person>
           <person xml:id="fadrique" sex="MALE">
             <persName>Don Fadrique Bazán</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán español</desc>
             </trait>
           </person>
           <person xml:id="gonzalo" sex="MALE">
             <persName>Don Gonzalo de Córdoba</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán español</desc>
             </trait>
           </person>
           <person xml:id="luis" sex="MALE">
             <persName>Don Luis de Velasco</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán español</desc>
             </trait>
           </person>
           <person xml:id="vicente" sex="MALE">
             <persName>Don Vicente Pimentel</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán español</desc>
             </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Madama Flora</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>noble</desc>
             </trait>
           </person>
@@ -126,13 +126,13 @@
           </person>
           <person xml:id="justino" sex="MALE">
             <persName>Justino de Nasau</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>gobernador</desc>
             </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
             <persName>Laura</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
@@ -141,7 +141,7 @@
           </person>
           <person xml:id="estela" sex="FEMALE">
             <persName>Estela</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
@@ -162,7 +162,7 @@
           </person>
           <person xml:id="vergas" sex="MALE">
             <persName>Conde Enrique de Vergas</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>capitán español</desc>
             </trait>
           </person>
@@ -171,10 +171,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia histórica</term>
-          <term source="kroll" type="main">comedia histórica</term>
+          <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

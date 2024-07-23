@@ -33,25 +33,25 @@
         <listPerson>
           <person xml:id="enrique" sex="MALE">
             <persName>Enrique</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>galán</desc>
             </trait>
           </person>
           <person xml:id="ponleví" sex="MALE">
             <persName>Ponleví</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
           </person>
           <person xml:id="duque" sex="MALE">
             <persName>El Duque de Florencia</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
           </person>
           <person xml:id="otavio" sex="MALE">
             <persName>Otavio</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>caballero noble</desc>
             </trait>
           </person>
@@ -75,13 +75,13 @@
           </person>
           <person xml:id="nise" sex="FEMALE">
             <persName>Nise</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
           <person xml:id="celia" sex="FEMALE">
             <persName>Celia</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
           </person>
@@ -93,10 +93,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia palatina</term>
-          <term source="kroll" type="main">comedia cómica</term>
+          <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

@@ -33,7 +33,7 @@
         <listPerson>
           <person xml:id="lucanor" sex="MALE">
             <persName>Lucanor</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
           </person>
@@ -45,73 +45,73 @@
           </person>
           <person xml:id="federico" sex="MALE">
             <persName>Federico</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>duque</desc>
             </trait>
           </person>
           <person xml:id="roberto" sex="MALE">
             <persName>Roberto</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>noble</desc>
             </trait>
           </person>
           <person xml:id="astolfo" sex="MALE">
             <persName>Astolfo</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
           </person>
           <person xml:id="casimiro" sex="MALE">
             <persName>Casimiro</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
           </person>
           <person xml:id="pasquín" sex="MALE">
             <persName>Pasquín</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
           </person>
           <person xml:id="rosimunda" sex="FEMALE">
             <persName>Rosimunda</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>duquesa</desc>
             </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
             <persName>Clori</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
           <person xml:id="irifela" sex="FEMALE">
             <persName>Irifela</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>maga</desc>
             </trait>
           </person>
           <person xml:id="estela" sex="FEMALE">
             <persName>Estela</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
             <persName>Sirene</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
             <persName>Libia</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
@@ -135,10 +135,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia novelesca</term>
-          <term source="kroll" type="main">comedia novelesca y caballeresca</term>
+          <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

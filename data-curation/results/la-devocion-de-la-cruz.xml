@@ -29,13 +29,13 @@
         <listPerson>
           <person xml:id="eusebio" sex="MALE">
             <persName>Eusebio</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
           </person>
           <person xml:id="lisardo" sex="MALE">
             <persName>Lisardo</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>hermano</desc>
             </trait>
           </person>
@@ -47,25 +47,25 @@
           </person>
           <person xml:id="octavio" sex="MALE">
             <persName>Octavio</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>villano</desc>
             </trait>
           </person>
           <person xml:id="celio" sex="MALE">
             <persName>Celio</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>bandolero</desc>
             </trait>
           </person>
           <person xml:id="ricardo" sex="MALE">
             <persName>Ricardo</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>bandolero</desc>
             </trait>
           </person>
           <person xml:id="arminda" sex="FEMALE">
             <persName>Arminda</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
           </person>
@@ -77,13 +77,13 @@
           </person>
           <person xml:id="menga" sex="FEMALE">
             <persName>Menga</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>graciosa</desc>
             </trait>
           </person>
           <person xml:id="julia" sex="FEMALE">
             <persName>Julia</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
@@ -92,7 +92,7 @@
           </personGrp>
           <person xml:id="alberto" sex="MALE">
             <persName>Alberto</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>monje</desc>
             </trait>
           </person>
@@ -101,25 +101,25 @@
           </personGrp>
           <person xml:id="chilindrina" sex="FEMALE">
             <persName>Chilindrina</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>bandolero</desc>
             </trait>
           </person>
           <person xml:id="blas" sex="MALE">
             <persName>Blas</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>villano</desc>
             </trait>
           </person>
           <person xml:id="tirso" sex="MALE">
             <persName>Tirso</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>villano</desc>
             </trait>
           </person>
           <person xml:id="toribio" sex="MALE">
             <persName>Toribio</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>villano</desc>
             </trait>
           </person>
@@ -131,10 +131,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia religiosa</term>
-          <term source="kroll" type="main">comedia religiosa</term>
+          <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

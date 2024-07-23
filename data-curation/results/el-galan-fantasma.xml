@@ -34,13 +34,13 @@
           </person>
           <person xml:id="carlos" sex="MALE">
             <persName>Carlos</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>galán</desc>
             </trait>
           </person>
           <person xml:id="duque" sex="MALE">
             <persName>El Duque</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>duque</desc>
             </trait>
           </person>
@@ -70,13 +70,13 @@
           </person>
           <person xml:id="leonelo" sex="MALE">
             <persName>Leonelo</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
           </person>
           <person xml:id="otavio" sex="MALE">
             <persName>Otavio</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
           </person>
@@ -100,10 +100,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
-          <term source="kroll" type="main">comedia cómica</term>
+          <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

@@ -30,25 +30,25 @@
         <listPerson>
           <person xml:id="leonido" sex="MALE">
             <persName>Leonido</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="adolfo">
             <persName>Adolfo</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="florante">
             <persName>Florante</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="polidoro">
             <persName>Polidoro</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>amigo</desc>
             </trait>
           </person>
@@ -78,43 +78,43 @@
           </person>
           <person sex="FEMALE" xml:id="marfisa">
             <persName>Marfisa</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>joven salvaje</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="arminda">
             <persName>Arminda</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>princesa</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="mitilene">
             <persName>Mitilene</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>princesa</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="alfreda">
             <persName>Alfreda</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="casimiro">
             <persName>Casimiro</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>rey</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="flavio">
             <persName>Flavio</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>soldado</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="flerida">
             <persName>Flérida</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
@@ -138,10 +138,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia novelesca</term>
-          <term source="kroll" type="main">comedia novelesca y caballeresca</term>
+          <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

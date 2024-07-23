@@ -33,7 +33,7 @@
         <listPerson>
           <person xml:id="egle" sex="FEMALE">
             <persName>Egle</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>ninfa</desc>
             </trait>
           </person>
@@ -78,13 +78,13 @@
           </person>
           <person xml:id="cupido" sex="MALE">
             <persName>Cupido</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dios</desc>
             </trait>
           </person>
           <person xml:id="venus" sex="FEMALE">
             <persName>Venus</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>diosa</desc>
             </trait>
           </person>
@@ -162,10 +162,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia mitológica</term>
-          <term source="kroll" type="main">comedia mitológica</term>
+          <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

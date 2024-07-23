@@ -27,7 +27,7 @@
         <listPerson>
           <person xml:id="tetrarca" sex="MALE">
             <persName>El Tetrarca de Jerusalén</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>gobernador</desc>
             </trait>
           </person>
@@ -63,7 +63,7 @@
           </person>
           <person xml:id="polidoro" sex="MALE">
             <persName>Polidoro</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
           </person>
@@ -105,10 +105,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia</term>
-          <term source="kroll" type="main">comedia mitológica</term>
+          <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>
