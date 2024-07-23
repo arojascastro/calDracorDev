@@ -256,1069 +256,1069 @@
       <xsl:apply-templates select="@* | node()"/>
       <!-- Add a new term element with the specified value and source attribute -->
       <xsl:if test="ancestor::TEI/@xml:id = $id1">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id2">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id3">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id4">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id5">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id6">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id7">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id8">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id9">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <!-- Actually Kroll does not list the second version of cal000009 -->
       <xsl:if test="ancestor::TEI/@xml:id = $id10">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id12">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id13">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id14">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id15">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id16">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id17">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id18">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue4"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id19">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id20">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id21">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id22">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id23">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id24">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id25">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id26">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id27">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id28">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id29">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id30">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id31">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id32">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id32">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id33">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id34">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id35">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id36">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id37">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue4"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id39">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id40">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue10"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id41">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id42">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id43">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id44">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue10"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id45">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue10"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id46">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue10"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id47">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue10"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id48">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id49">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id50">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id51">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id52">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id53">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id54">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id55">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue4"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id56">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id57">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id58">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id59">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id60">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id61">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id62">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue6"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id63">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue6"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id64">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue6"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id65">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id66">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id67">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id68">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue5"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id69">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id70">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id71">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id72">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id73">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id74">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id75">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id76">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id77">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id78">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id79">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id80">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue4"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id81">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id82">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue6"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id83">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue6"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id84">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id85">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id86">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue5"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id87">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id88">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id89">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id90">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue5"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id91">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id92">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id93">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id94">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id95">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue10"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <!-- Ojo: también aparece en auto en Kroll -->
       <xsl:if test="ancestor::TEI/@xml:id = $id96">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue4"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id97">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id98">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id99">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id100">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id101">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id102">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id103">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id104">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id105">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id106">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id107">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id108">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id109">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue6"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id110">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id111">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id112">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id113">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id114">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id115">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id116">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id117">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id118">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id119">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue4"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id120">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue6"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id121">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue5"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id122">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id123">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id124">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id125">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id126">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id127">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id128">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue4"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id129">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id130">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id131">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id132">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue6"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id133">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id134">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id135">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id136">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id137">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id138">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id139">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id140">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id141">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue7"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id142">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id143">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue4"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id144">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id145">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue3"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id146">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id147">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id148">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id149">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue2"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id150">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id151">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue4"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id152">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id153">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id154">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id155">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id156">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue10"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id157">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id158">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id159">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id160">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id161">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id162">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue10"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id163">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id164">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id165">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id166">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id166">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id167">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id168">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id169">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id170">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <!-- Aquí hay un desacuerdo importante -->
       <xsl:if test="ancestor::TEI/@xml:id = $id171">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id172">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id173">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id174">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id175">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id176">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id177">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id178">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id179">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id180">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id181">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id182">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id183">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id184">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id185">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id186">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id187">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id188">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id189">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id190">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id191">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id192">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id193">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id194">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id195">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id196">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id197">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id198">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id199">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id200">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id201">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id202">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id203">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id204">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id205">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <!-- aquí hay un error en Kroll: El segundo blasón de Austria -->
       <xsl:if test="ancestor::TEI/@xml:id = $id206">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue1"/>
         </term>
       </xsl:if>
       <xsl:if test="ancestor::TEI/@xml:id = $id207">
-        <term source="kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
+        <term source="#kroll" type="main" xmlns="http://www.tei-c.org/ns/1.0">
           <xsl:value-of select="$termValue8"/>
         </term>
       </xsl:if>

@@ -19,7 +19,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -31,7 +31,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Duque</desc>
       </trait>
     </xsl:copy>
@@ -44,7 +44,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -56,7 +56,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Traidor</desc>
       </trait>
     </xsl:copy>
@@ -68,7 +68,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -80,7 +80,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -92,7 +92,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Reina</desc>
       </trait>
     </xsl:copy>
@@ -104,7 +104,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -116,7 +116,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Jefe morisco</desc>
       </trait>
     </xsl:copy>
@@ -129,7 +129,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -141,7 +141,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hija</desc>
       </trait>
     </xsl:copy>
@@ -153,7 +153,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -166,7 +166,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -178,7 +178,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Jefe morisco</desc>
       </trait>
     </xsl:copy>
@@ -190,7 +190,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
       </trait>
     </xsl:copy>
@@ -202,7 +202,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -214,7 +214,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -226,7 +226,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
       </trait>
     </xsl:copy>
@@ -238,7 +238,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -250,7 +250,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -262,7 +262,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -274,7 +274,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -286,7 +286,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -298,7 +298,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Conde</desc>
       </trait>
     </xsl:copy>
@@ -310,7 +310,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Condesa</desc>
       </trait>
     </xsl:copy>
@@ -322,7 +322,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -334,7 +334,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Seductor</desc>
       </trait>
     </xsl:copy>
@@ -346,7 +346,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -359,7 +359,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -371,7 +371,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -383,7 +383,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Padre</desc>
       </trait>
     </xsl:copy>
@@ -395,7 +395,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -407,7 +407,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dios</desc>
       </trait>
     </xsl:copy>
@@ -419,7 +419,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -431,7 +431,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -443,7 +443,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -455,7 +455,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -467,7 +467,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -479,7 +479,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -492,7 +492,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -505,7 +505,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -517,7 +517,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Mayoral</desc>
       </trait>
     </xsl:copy>
@@ -529,7 +529,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -541,7 +541,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dios</desc>
       </trait>
     </xsl:copy>
@@ -553,7 +553,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -566,7 +566,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Delfín</desc>
       </trait>
     </xsl:copy>
@@ -577,7 +577,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
       </trait>
     </xsl:copy>
@@ -588,7 +588,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
       </trait>
     </xsl:copy>
@@ -599,7 +599,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Embajador</desc>
       </trait>
     </xsl:copy>
@@ -610,7 +610,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Mensajero</desc>
       </trait>
     </xsl:copy>
@@ -621,7 +621,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enemigo</desc>
       </trait>
     </xsl:copy>
@@ -633,7 +633,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -644,7 +644,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -655,7 +655,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
       </trait>
     </xsl:copy>
@@ -666,7 +666,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -677,7 +677,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -688,7 +688,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -699,7 +699,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
       </trait>
     </xsl:copy>
@@ -710,7 +710,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -721,7 +721,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -732,7 +732,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -744,7 +744,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -755,7 +755,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -766,7 +766,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
       </trait>
     </xsl:copy>
@@ -777,7 +777,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
       </trait>
     </xsl:copy>
@@ -789,7 +789,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -800,7 +800,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -811,7 +811,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -822,7 +822,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -833,7 +833,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Privado</desc>
       </trait>
     </xsl:copy>
@@ -844,7 +844,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -855,7 +855,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -866,7 +866,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -877,7 +877,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -888,7 +888,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
       </trait>
     </xsl:copy>
@@ -899,7 +899,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Infanta</desc>
       </trait>
     </xsl:copy>
@@ -910,7 +910,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -921,7 +921,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -932,7 +932,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -943,7 +943,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -954,7 +954,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -965,7 +965,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado gracioso</desc>
       </trait>
     </xsl:copy>
@@ -976,7 +976,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Privado</desc>
       </trait>
     </xsl:copy>
@@ -987,7 +987,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Pastora</desc>
       </trait>
     </xsl:copy>
@@ -998,7 +998,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -1009,7 +1009,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Pastor</desc>
       </trait>
     </xsl:copy>
@@ -1020,7 +1020,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Pastor</desc>
       </trait>
     </xsl:copy>
@@ -1031,7 +1031,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Pastor</desc>
       </trait>
     </xsl:copy>
@@ -1042,7 +1042,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -1053,7 +1053,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hija</desc>
       </trait>
     </xsl:copy>
@@ -1064,7 +1064,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Zagala</desc>
       </trait>
     </xsl:copy>
@@ -1075,7 +1075,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Zagala</desc>
       </trait>
     </xsl:copy>
@@ -1086,7 +1086,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Zagala</desc>
       </trait>
     </xsl:copy>
@@ -1097,7 +1097,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Zagala</desc>
       </trait>
     </xsl:copy>
@@ -1108,7 +1108,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1119,7 +1119,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1130,7 +1130,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -1141,7 +1141,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -1153,7 +1153,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
       </trait>
     </xsl:copy>
@@ -1164,7 +1164,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -1175,7 +1175,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -1186,7 +1186,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1197,7 +1197,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -1208,7 +1208,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1219,7 +1219,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -1230,7 +1230,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -1241,7 +1241,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1252,7 +1252,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1263,7 +1263,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -1275,7 +1275,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Duque</desc>
       </trait>
     </xsl:copy>
@@ -1286,7 +1286,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -1297,7 +1297,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -1308,7 +1308,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -1319,7 +1319,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -1330,7 +1330,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Duquesa</desc>
       </trait>
     </xsl:copy>
@@ -1341,7 +1341,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1352,7 +1352,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Maga</desc>
       </trait>
     </xsl:copy>
@@ -1363,7 +1363,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1374,7 +1374,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1385,7 +1385,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1396,7 +1396,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1407,7 +1407,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -1418,7 +1418,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -1429,7 +1429,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -1441,7 +1441,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -1452,7 +1452,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dios</desc>
       </trait>
     </xsl:copy>
@@ -1463,7 +1463,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -1474,7 +1474,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -1485,7 +1485,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -1496,7 +1496,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -1507,7 +1507,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -1518,7 +1518,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -1529,7 +1529,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Graciosa</desc>
       </trait>
     </xsl:copy>
@@ -1541,7 +1541,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1552,7 +1552,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -1563,7 +1563,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Duque</desc>
       </trait>
     </xsl:copy>
@@ -1574,7 +1574,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1585,7 +1585,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1596,7 +1596,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -1607,7 +1607,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1618,7 +1618,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1629,7 +1629,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1640,7 +1640,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Estudiante</desc>
       </trait>
     </xsl:copy>
@@ -1651,7 +1651,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -1662,7 +1662,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -1673,7 +1673,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1684,7 +1684,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1695,7 +1695,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1706,7 +1706,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Héroe</desc>
       </trait>
     </xsl:copy>
@@ -1717,7 +1717,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Compañero</desc>
       </trait>
     </xsl:copy>
@@ -1728,7 +1728,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Compañero</desc>
       </trait>
     </xsl:copy>
@@ -1739,7 +1739,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1750,7 +1750,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Compañero</desc>
       </trait>
     </xsl:copy>
@@ -1761,7 +1761,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Compañero</desc>
       </trait>
     </xsl:copy>
@@ -1772,7 +1772,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1783,7 +1783,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1794,7 +1794,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -1805,7 +1805,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amante</desc>
       </trait>
     </xsl:copy>
@@ -1816,7 +1816,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Maga</desc>
       </trait>
     </xsl:copy>
@@ -1827,7 +1827,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amante</desc>
       </trait>
     </xsl:copy>
@@ -1838,7 +1838,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1849,7 +1849,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -1860,7 +1860,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1871,7 +1871,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1882,7 +1882,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1893,7 +1893,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -1904,7 +1904,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -1915,7 +1915,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gigante</desc>
       </trait>
     </xsl:copy>
@@ -1926,7 +1926,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -1937,7 +1937,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1948,7 +1948,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Héroe</desc>
       </trait>
     </xsl:copy>
@@ -1959,7 +1959,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -1970,7 +1970,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gobernador</desc>
       </trait>
     </xsl:copy>
@@ -1981,7 +1981,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -1992,7 +1992,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -2003,7 +2003,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -2014,7 +2014,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -2025,7 +2025,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -2036,7 +2036,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -2047,7 +2047,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -2058,7 +2058,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -2069,7 +2069,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Vasallo</desc>
       </trait>
     </xsl:copy>
@@ -2080,7 +2080,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -2091,7 +2091,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -2102,7 +2102,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Infante</desc>
       </trait>
     </xsl:copy>
@@ -2113,7 +2113,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Infante</desc>
       </trait>
     </xsl:copy>
@@ -2124,7 +2124,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -2136,7 +2136,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
       </trait>
     </xsl:copy>
@@ -2147,7 +2147,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
       </trait>
     </xsl:copy>
@@ -2158,7 +2158,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -2169,7 +2169,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -2180,7 +2180,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Infante</desc>
       </trait>
     </xsl:copy>
@@ -2191,7 +2191,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -2202,7 +2202,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -2213,7 +2213,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Cortesano</desc>
       </trait>
     </xsl:copy>
@@ -2224,7 +2224,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
       </trait>
     </xsl:copy>
@@ -2235,7 +2235,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hija</desc>
       </trait>
     </xsl:copy>
@@ -2246,7 +2246,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán pirata</desc>
       </trait>
     </xsl:copy>
@@ -2257,7 +2257,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán pirata</desc>
       </trait>
     </xsl:copy>
@@ -2268,7 +2268,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -2279,7 +2279,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -2290,7 +2290,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán general</desc>
       </trait>
     </xsl:copy>
@@ -2301,10 +2301,10 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán español</desc>
       </trait>
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -2315,7 +2315,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán alemán</desc>
       </trait>
     </xsl:copy>
@@ -2326,7 +2326,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán tudesco</desc>
       </trait>
     </xsl:copy>
@@ -2337,7 +2337,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán italiano</desc>
       </trait>
     </xsl:copy>
@@ -2348,7 +2348,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán español</desc>
       </trait>
     </xsl:copy>
@@ -2359,7 +2359,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán español</desc>
       </trait>
     </xsl:copy>
@@ -2370,7 +2370,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán español</desc>
       </trait>
     </xsl:copy>
@@ -2381,7 +2381,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán español</desc>
       </trait>
     </xsl:copy>
@@ -2392,7 +2392,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán español</desc>
       </trait>
     </xsl:copy>
@@ -2403,7 +2403,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -2414,7 +2414,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gobernador</desc>
       </trait>
     </xsl:copy>
@@ -2425,7 +2425,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -2436,7 +2436,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -2447,7 +2447,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán español</desc>
       </trait>
     </xsl:copy>
@@ -2458,7 +2458,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -2469,7 +2469,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Reina</desc>
       </trait>
     </xsl:copy>
@@ -2480,7 +2480,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hija</desc>
       </trait>
     </xsl:copy>
@@ -2491,7 +2491,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -2502,7 +2502,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -2513,7 +2513,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Joven salvaje</desc>
       </trait>
     </xsl:copy>
@@ -2524,7 +2524,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Joven salvaje</desc>
       </trait>
     </xsl:copy>
@@ -2535,7 +2535,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -2546,7 +2546,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -2557,7 +2557,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -2568,7 +2568,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Joven salvaje</desc>
       </trait>
     </xsl:copy>
@@ -2579,7 +2579,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Mago</desc>
       </trait>
     </xsl:copy>
@@ -2590,7 +2590,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -2601,7 +2601,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Héroe</desc>
       </trait>
     </xsl:copy>
@@ -2612,7 +2612,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dios</desc>
       </trait>
     </xsl:copy>
@@ -2623,7 +2623,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -2634,7 +2634,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa</desc>
       </trait>
     </xsl:copy>
@@ -2656,7 +2656,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -2667,7 +2667,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -2678,7 +2678,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -2689,7 +2689,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -2700,7 +2700,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -2711,7 +2711,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -2722,7 +2722,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hija</desc>
       </trait>
     </xsl:copy>
@@ -2733,7 +2733,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -2744,7 +2744,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -2755,7 +2755,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -2766,7 +2766,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Monstruo</desc>
       </trait>
     </xsl:copy>
@@ -2777,7 +2777,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -2788,7 +2788,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dios</desc>
       </trait>
     </xsl:copy>
@@ -2799,7 +2799,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
       </trait>
     </xsl:copy>
@@ -2810,7 +2810,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dios</desc>
       </trait>
     </xsl:copy>
@@ -2821,7 +2821,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dios</desc>
       </trait>
     </xsl:copy>
@@ -2833,7 +2833,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -2844,7 +2844,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -2855,7 +2855,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Monstruo</desc>
       </trait>
     </xsl:copy>
@@ -2866,7 +2866,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Monstruo</desc>
       </trait>
     </xsl:copy>
@@ -2877,7 +2877,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -2888,7 +2888,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -2899,7 +2899,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ser mitológico</desc>
       </trait>
     </xsl:copy>
@@ -2910,7 +2910,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ser mitológico</desc>
       </trait>
     </xsl:copy>
@@ -2921,7 +2921,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ser mitológico</desc>
       </trait>
     </xsl:copy>
@@ -2932,7 +2932,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa marina</desc>
       </trait>
     </xsl:copy>
@@ -2943,7 +2943,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa marina</desc>
       </trait>
     </xsl:copy>
@@ -2954,7 +2954,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa marina</desc>
       </trait>
     </xsl:copy>
@@ -2965,7 +2965,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Ninfa marina</desc>
       </trait>
     </xsl:copy>
@@ -2976,7 +2976,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Padre</desc>
       </trait>
     </xsl:copy>
@@ -2987,7 +2987,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Privado</desc>
       </trait>
     </xsl:copy>
@@ -2998,7 +2998,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -3009,7 +3009,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -3020,7 +3020,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -3031,7 +3031,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -3042,7 +3042,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
       </trait>
     </xsl:copy>
@@ -3053,7 +3053,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Joven salvaje</desc>
       </trait>
     </xsl:copy>
@@ -3064,7 +3064,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
       </trait>
     </xsl:copy>
@@ -3075,7 +3075,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
       </trait>
     </xsl:copy>
@@ -3086,7 +3086,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3097,7 +3097,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -3108,7 +3108,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
       </trait>
     </xsl:copy>
@@ -3119,7 +3119,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3130,7 +3130,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -3141,7 +3141,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -3152,7 +3152,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
       </trait>
     </xsl:copy>
@@ -3163,7 +3163,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -3174,7 +3174,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -3185,7 +3185,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gobernador</desc>
       </trait>
     </xsl:copy>
@@ -3196,7 +3196,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3207,7 +3207,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
       </trait>
     </xsl:copy>
@@ -3218,7 +3218,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3229,7 +3229,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -3240,7 +3240,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -3251,7 +3251,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -3262,7 +3262,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -3273,7 +3273,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Sacerdotisa</desc>
       </trait>
     </xsl:copy>
@@ -3284,7 +3284,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Deidad</desc>
       </trait>
     </xsl:copy>
@@ -3295,7 +3295,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Jaíra</desc>
       </trait>
     </xsl:copy>
@@ -3306,7 +3306,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
       </trait>
     </xsl:copy>
@@ -3317,7 +3317,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -3328,7 +3328,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -3340,7 +3340,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -3351,7 +3351,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Caballero noble</desc>
       </trait>
     </xsl:copy>
@@ -3362,7 +3362,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3373,7 +3373,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -3384,7 +3384,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Caballero</desc>
       </trait>
     </xsl:copy>
@@ -3395,7 +3395,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -3406,7 +3406,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -3417,7 +3417,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -3428,7 +3428,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
       </trait>
     </xsl:copy>
@@ -3450,7 +3450,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -3461,7 +3461,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -3472,7 +3472,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -3483,7 +3483,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Bandolero</desc>
       </trait>
     </xsl:copy>
@@ -3494,7 +3494,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -3505,7 +3505,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Graciosa</desc>
       </trait>
     </xsl:copy>
@@ -3516,7 +3516,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3527,7 +3527,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Monje</desc>
       </trait>
     </xsl:copy>
@@ -3538,7 +3538,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Bandolero</desc>
       </trait>
     </xsl:copy>
@@ -3549,7 +3549,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -3560,7 +3560,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -3571,7 +3571,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -3582,7 +3582,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Bandolero</desc>
       </trait>
     </xsl:copy>
@@ -3605,7 +3605,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -3616,7 +3616,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -3627,7 +3627,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hija</desc>
       </trait>
     </xsl:copy>
@@ -3638,7 +3638,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villana</desc>
       </trait>
     </xsl:copy>
@@ -3649,7 +3649,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Escultor</desc>
       </trait>
     </xsl:copy>
@@ -3660,7 +3660,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dios</desc>
       </trait>
     </xsl:copy>
@@ -3671,7 +3671,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hijo</desc>
       </trait>
     </xsl:copy>
@@ -3682,7 +3682,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -3693,7 +3693,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Padre</desc>
       </trait>
     </xsl:copy>
@@ -3704,7 +3704,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
       </trait>
     </xsl:copy>
@@ -3715,7 +3715,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -3726,7 +3726,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -3737,7 +3737,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -3748,7 +3748,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Mujer vestida de pieles</desc>
       </trait>
     </xsl:copy>
@@ -3759,7 +3759,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -3770,7 +3770,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3781,7 +3781,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -3792,7 +3792,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3803,7 +3803,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -3814,7 +3814,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3825,7 +3825,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
@@ -3836,7 +3836,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3847,7 +3847,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dios</desc>
       </trait>
     </xsl:copy>
@@ -3858,7 +3858,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Personaje alegórico</desc>
       </trait>
     </xsl:copy>
@@ -3869,7 +3869,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -3880,7 +3880,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Emperador</desc>
       </trait>
     </xsl:copy>
@@ -3891,7 +3891,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
       </trait>
     </xsl:copy>
@@ -3902,7 +3902,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado gracioso</desc>
       </trait>
     </xsl:copy>
@@ -3913,7 +3913,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Traidor</desc>
       </trait>
     </xsl:copy>
@@ -3924,7 +3924,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Profetisa</desc>
       </trait>
     </xsl:copy>
@@ -3935,7 +3935,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
       </trait>
     </xsl:copy>
@@ -3946,7 +3946,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -3957,7 +3957,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
       </trait>
     </xsl:copy>
@@ -3968,7 +3968,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gobernador</desc>
       </trait>
     </xsl:copy>
@@ -3979,7 +3979,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -3990,7 +3990,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
       </trait>
     </xsl:copy>
@@ -4001,7 +4001,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -4012,7 +4012,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Reina</desc>
       </trait>
     </xsl:copy>
@@ -4023,7 +4023,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -4034,7 +4034,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -4045,7 +4045,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villana</desc>
       </trait>
     </xsl:copy>
@@ -4056,7 +4056,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
       </trait>
     </xsl:copy>
@@ -4067,7 +4067,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Reina</desc>
       </trait>
     </xsl:copy>
@@ -4078,7 +4078,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Reina</desc>
       </trait>
     </xsl:copy>
@@ -4089,7 +4089,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hija</desc>
       </trait>
     </xsl:copy>
@@ -4100,7 +4100,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -4111,7 +4111,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -4122,7 +4122,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Vasallo</desc>
       </trait>
     </xsl:copy>
@@ -4133,7 +4133,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hijo</desc>
       </trait>
     </xsl:copy>
@@ -4144,7 +4144,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Vasallo</desc>
       </trait>
     </xsl:copy>
@@ -4155,7 +4155,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -4166,7 +4166,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villano</desc>
       </trait>
     </xsl:copy>
@@ -4177,7 +4177,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -4188,7 +4188,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -4199,7 +4199,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Consejero</desc>
       </trait>
     </xsl:copy>
@@ -4210,7 +4210,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hijo</desc>
       </trait>
     </xsl:copy>
@@ -4221,7 +4221,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Conde</desc>
       </trait>
     </xsl:copy>
@@ -4232,7 +4232,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Cabellero</desc>
       </trait>
     </xsl:copy>
@@ -4243,7 +4243,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -4254,7 +4254,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -4265,7 +4265,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hija</desc>
       </trait>
     </xsl:copy>
@@ -4276,7 +4276,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -4287,7 +4287,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -4298,7 +4298,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -4309,7 +4309,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hijo</desc>
       </trait>
     </xsl:copy>
@@ -4321,7 +4321,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -4332,7 +4332,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hijo</desc>
       </trait>
     </xsl:copy>
@@ -4343,7 +4343,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -4354,7 +4354,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -4365,7 +4365,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -4376,7 +4376,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hijo</desc>
       </trait>
     </xsl:copy>
@@ -4387,7 +4387,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Villana</desc>
       </trait>
     </xsl:copy>
@@ -4399,7 +4399,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -4410,7 +4410,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -4421,7 +4421,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -4433,7 +4433,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Joven</desc>
       </trait>
     </xsl:copy>
@@ -4445,7 +4445,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Capitán</desc>
       </trait>
     </xsl:copy>
@@ -4457,7 +4457,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Condesa</desc>
       </trait>
     </xsl:copy>
@@ -4468,7 +4468,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -4479,7 +4479,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -4490,7 +4490,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -4501,7 +4501,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -4512,7 +4512,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -4523,7 +4523,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -4534,7 +4534,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Noble</desc>
       </trait>
     </xsl:copy>
@@ -4545,7 +4545,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
       </trait>
     </xsl:copy>
@@ -4556,7 +4556,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -4567,7 +4567,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -4578,7 +4578,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -4589,7 +4589,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Príncipe</desc>
       </trait>
     </xsl:copy>
@@ -4600,7 +4600,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -4611,7 +4611,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Princesa</desc>
       </trait>
     </xsl:copy>
@@ -4622,7 +4622,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Adivina</desc>
       </trait>
     </xsl:copy>
@@ -4633,7 +4633,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Consejero</desc>
       </trait>
     </xsl:copy>
@@ -4644,7 +4644,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -4655,7 +4655,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">General</desc>
       </trait>
     </xsl:copy>
@@ -4666,7 +4666,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Anciano</desc>
       </trait>
     </xsl:copy>
@@ -4677,7 +4677,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -4688,7 +4688,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -4699,7 +4699,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -4710,7 +4710,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -4721,7 +4721,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -4732,7 +4732,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Caballero</desc>
       </trait>
     </xsl:copy>
@@ -4743,7 +4743,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Caballero</desc>
       </trait>
     </xsl:copy>
@@ -4754,7 +4754,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Tío</desc>
       </trait>
     </xsl:copy>
@@ -4765,7 +4765,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Vecino</desc>
       </trait>
     </xsl:copy>
@@ -4776,7 +4776,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -4787,7 +4787,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -4798,7 +4798,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Labrador</desc>
       </trait>
     </xsl:copy>
@@ -4809,7 +4809,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -4820,7 +4820,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -4831,7 +4831,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -4842,7 +4842,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Vejete</desc>
       </trait>
     </xsl:copy>
@@ -4853,7 +4853,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -4864,7 +4864,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -4875,7 +4875,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -4886,7 +4886,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -4897,7 +4897,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dueña</desc>
       </trait>
     </xsl:copy>
@@ -4908,7 +4908,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -4919,7 +4919,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
       </trait>
     </xsl:copy>
@@ -4930,7 +4930,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -4941,7 +4941,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -4952,7 +4952,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
       </trait>
     </xsl:copy>
@@ -4963,7 +4963,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -4974,7 +4974,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -4985,7 +4985,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorado</desc>
       </trait>
     </xsl:copy>
@@ -4996,7 +4996,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
       </trait>
     </xsl:copy>
@@ -5007,7 +5007,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -5018,7 +5018,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -5029,7 +5029,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -5040,7 +5040,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Rey</desc>
       </trait>
     </xsl:copy>
@@ -5051,7 +5051,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -5062,7 +5062,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -5073,7 +5073,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -5084,7 +5084,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -5095,7 +5095,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5106,7 +5106,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5117,7 +5117,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5128,7 +5128,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5139,7 +5139,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -5150,7 +5150,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5161,7 +5161,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
       </trait>
     </xsl:copy>
@@ -5173,7 +5173,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Estudiante</desc>
       </trait>
     </xsl:copy>
@@ -5184,7 +5184,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hereje</desc>
       </trait>
     </xsl:copy>
@@ -5195,7 +5195,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hereje</desc>
       </trait>
     </xsl:copy>
@@ -5206,7 +5206,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
       </trait>
     </xsl:copy>
@@ -5217,7 +5217,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
       </trait>
     </xsl:copy>
@@ -5228,7 +5228,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Mora</desc>
       </trait>
     </xsl:copy>
@@ -5239,7 +5239,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Soldado</desc>
       </trait>
     </xsl:copy>
@@ -5251,7 +5251,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Asturiano</desc>
       </trait>
     </xsl:copy>
@@ -5262,7 +5262,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Moro</desc>
       </trait>
     </xsl:copy>
@@ -5273,7 +5273,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Mozárabe</desc>
       </trait>
     </xsl:copy>
@@ -5284,7 +5284,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -5295,7 +5295,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5306,7 +5306,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amigo</desc>
       </trait>
     </xsl:copy>
@@ -5317,7 +5317,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Gracioso</desc>
       </trait>
     </xsl:copy>
@@ -5328,7 +5328,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -5339,7 +5339,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
       </trait>
     </xsl:copy>
@@ -5350,7 +5350,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -5361,7 +5361,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -5372,7 +5372,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5383,7 +5383,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -5394,7 +5394,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -5405,7 +5405,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5416,7 +5416,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -5427,7 +5427,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -5438,7 +5438,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -5449,7 +5449,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -5460,7 +5460,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5471,7 +5471,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5482,7 +5482,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermano</desc>
       </trait>
     </xsl:copy>
@@ -5493,7 +5493,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Enamorada</desc>
       </trait>
     </xsl:copy>
@@ -5504,7 +5504,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Amiga</desc>
       </trait>
     </xsl:copy>
@@ -5515,7 +5515,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Hermana</desc>
       </trait>
     </xsl:copy>
@@ -5526,7 +5526,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Privado</desc>
       </trait>
     </xsl:copy>
@@ -5537,7 +5537,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Cortesano</desc>
       </trait>
     </xsl:copy>
@@ -5548,7 +5548,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Cortesano</desc>
       </trait>
     </xsl:copy>
@@ -5559,7 +5559,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -5570,7 +5570,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5581,7 +5581,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -5592,7 +5592,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5603,7 +5603,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criada</desc>
       </trait>
     </xsl:copy>
@@ -5614,7 +5614,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -5625,7 +5625,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Galán</desc>
       </trait>
     </xsl:copy>
@@ -5636,7 +5636,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Dama</desc>
       </trait>
     </xsl:copy>
@@ -5647,7 +5647,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -5658,7 +5658,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Viejo</desc>
       </trait>
     </xsl:copy>
@@ -5669,7 +5669,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
@@ -5680,7 +5680,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
-      <trait source="calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
+      <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
         <desc xmlns="http://www.tei-c.org/ns/1.0">Criado</desc>
       </trait>
     </xsl:copy>
