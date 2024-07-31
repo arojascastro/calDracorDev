@@ -1,103 +1,5 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000048" xml:lang="esp">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">Los encantos de la culpa</title>
-        <title type="sub">Auto sacramental</title>
-        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
-        <respStmt>
-          <resp>Data curation (cleaning, normalization and scene division)</resp>
-          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
-        <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2019-05-01"><time when="10:02:03"/></date>
-        <idno type="quadramaX">Los encantos de la culpa</idno>
-        <availability>
-          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/los-encantos-de-la-culpa--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la de Pedro del Pando y Mier, Autos Sacramentales, alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 455-478.</title></bibl></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person xml:id="gula" sex="FEMALE">
-            <persName>La Gula</persName>
-          </person>
-          <person xml:id="hombre" sex="MALE">
-            <persName>El Hombre</persName>
-            <trait source="castlist">
-              <desc>ulises</desc>
-            </trait>
-          </person>
-          <person xml:id="entendimiento" sex="MALE">
-            <persName>El Entendimiento</persName>
-          </person>
-          <person xml:id="gusto" sex="MALE">
-            <persName>El Gusto</persName>
-          </person>
-          <person xml:id="tacto" sex="MALE">
-            <persName>El Tacto</persName>
-          </person>
-          <person xml:id="olfato" sex="MALE">
-            <persName>El Olfato</persName>
-          </person>
-          <person xml:id="vista" sex="FEMALE">
-            <persName>La Vista</persName>
-          </person>
-          <person xml:id="oído" sex="MALE">
-            <persName>El Oído</persName>
-          </person>
-          <person xml:id="lisonja" sex="FEMALE">
-            <persName>La Lisonja</persName>
-          </person>
-          <person xml:id="penitencia" sex="FEMALE">
-            <persName>La Penitencia</persName>
-          </person>
-          <person xml:id="culpa" sex="FEMALE">
-            <persName>La Culpa</persName>
-            <trait source="castlist">
-              <desc>circe</desc>
-            </trait>
-          </person>
-          <person xml:id="lascivia" sex="FEMALE">
-            <persName>La Lascivia</persName>
-          </person>
-          <person sex="UNKNOWN" xml:id="música">
-            <persName>Música</persName>
-          </person>
-          <person xml:id="acompañamiento" sex="MALE">
-            <persName>Acompañamiento</persName>
-          </person>
-        </listPerson>
-      </particDesc>
-      <textClass>
-        <keywords>
-          <term source="dracor" type="genreTitle">auto sacramental</term>
-          <term source="#kroll" type="main">auto sacramental</term>
-        </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
-      </textClass>
-    </profileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
-        </taxonomy>
-      </classDecl>
-      <classDecl>
-        <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-  </teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000048" xml:lang="esp">
+  <teiHeader><fileDesc><titleStmt><title type="main">Los encantos de la culpa</title><title type="sub">Auto sacramental</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-05-01"><time when="10:02:03"/></date><idno type="quadramaX">Los encantos de la culpa</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/los-encantos-de-la-culpa--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la de Pedro del Pando y Mier, Autos Sacramentales, alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 455-478.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="gula" sex="FEMALE"><persName>La Gula</persName></person><person xml:id="hombre" sex="MALE"><persName>El Hombre</persName><trait source="castlist"><desc>ulises</desc></trait></person><person xml:id="entendimiento" sex="MALE"><persName>El Entendimiento</persName></person><person xml:id="gusto" sex="MALE"><persName>El Gusto</persName></person><person xml:id="tacto" sex="MALE"><persName>El Tacto</persName></person><person xml:id="olfato" sex="MALE"><persName>El Olfato</persName></person><person xml:id="vista" sex="FEMALE"><persName>La Vista</persName></person><person xml:id="oído" sex="MALE"><persName>El Oído</persName></person><person xml:id="lisonja" sex="FEMALE"><persName>La Lisonja</persName></person><person xml:id="penitencia" sex="FEMALE"><persName>La Penitencia</persName></person><person xml:id="culpa" sex="FEMALE"><persName>La Culpa</persName><trait source="castlist"><desc>circe</desc></trait></person><person xml:id="lascivia" sex="FEMALE"><persName>La Lascivia</persName></person><person sex="UNKNOWN" xml:id="música"><persName>Música</persName></person><person xml:id="acompañamiento" sex="MALE"><persName>Acompañamiento</persName></person></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords><classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1717">
@@ -137,22 +39,18 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene" resp="#rojas" n="1">
-          <stage>Suena un clarín y descúbrese una nave, y en ella el HOMBRE, el ENTENDIMIENTO, el GUSTO, el OLFATO, la VISTA, el OÍDO, y dicen todos dentro de ella.</stage>
-          <sp who="#entendimiento">
+        <div type="scene" resp="#rojas" n="1"><stage>Suena un clarín y descúbrese una nave, y en ella el HOMBRE, el ENTENDIMIENTO, el GUSTO, el OLFATO, la VISTA, el OÍDO, y dicen todos dentro de ella.</stage><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>En la anchurosa plaza</l>
             <l>del mar del mundo hoy, Hombre, te amenaza</l>
             <l part="I">gran tormenta.</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l part="F">Yo he sido</l>
             <l>de tus cinco sentidos el Oído,</l>
             <l n="5">y así el primero siento</l>
             <l>bramar las olas y gemir el viento.</l>
-          </sp>
-          <sp who="#vista">
+          </sp><sp who="#vista">
             <speaker>VISTA</speaker>
             <l>Yo, que he sido la Vista</l>
             <l>que al sol los rayos perspicaz conquista,</l>
@@ -160,60 +58,47 @@
             <l n="10">uno y otro huracán, a cuyo viso</l>
             <l>en esta cristalina</l>
             <l>campaña te previene fatal ruina.</l>
-          </sp>
-          <sp who="#tacto">
+          </sp><sp who="#tacto">
             <speaker>TACTO</speaker>
             <l>El Tacto soy, a horrores te provoco,</l>
             <l>pues ya cercanos los peligros toco.</l>
-          </sp>
-          <sp who="#olfato">
+          </sp><sp who="#olfato">
             <speaker>OLFATO</speaker>
             <l n="15">El Olfato te dice que se crea</l>
             <l>el húmedo vapor de la marea.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>Yo en trance tan injusto,</l>
             <l>con ser el Gusto, estoy aquí sin gusto.</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l>¡Gran tormenta corremos!</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l n="20">¡En el mar de la vida nos perdemos!</l>
-          </sp>
-          <sp who="#tacto">
+          </sp><sp who="#tacto">
             <speaker>TACTO</speaker>
             <l part="I">¡Larga aquella mayor!</l>
-          </sp>
-          <sp who="#olfato">
+          </sp><sp who="#olfato">
             <speaker>OLFATO</speaker>
             <l part="F">¡Iza el trinquete!</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l part="I">¡A la triza!</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l part="M">¡A la escota!</l>
-          </sp>
-          <sp who="#vista">
+          </sp><sp who="#vista">
             <speaker>VISTA</speaker>
             <l part="F">¡Al chafaldete!</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>En alterados hielos</l>
             <l>corre tormenta el Hombre.</l>
-          </sp>
-          <sp who="#penitencia #culpa #lisonja #gula #lascivia">
+          </sp><sp who="#penitencia #culpa #lisonja #gula #lascivia">
             <speaker>TODOS</speaker>
             <l n="25">¡Piedad, cielos!</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>En el texto sagrado,</l>
             <l>cuantas veces las aguas se han nombrado,</l>
@@ -239,35 +124,28 @@
             <l>corra tanta tormenta,</l>
             <l>confusos y perdidos</l>
             <l>en mis tribulaciones mis sentidos.</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l n="50">Sólo se escuchan en la selva fría</l>
             <l>ráfagas que nos dan por travesía.</l>
-          </sp>
-          <sp who="#vista">
+          </sp><sp who="#vista">
             <speaker>VISTA</speaker>
             <l>Sólo se ven en esos horizontes</l>
             <l>montes que se deshacen sobre montes.</l>
-          </sp>
-          <sp who="#tacto">
+          </sp><sp who="#tacto">
             <speaker>TACTO</speaker>
             <l>Sólo se tocan ondas, con quien sube</l>
             <l n="55">el mar, que nace mar, a morir nube.</l>
-          </sp>
-          <sp who="#olfato">
+          </sp><sp who="#olfato">
             <speaker>OLFATO</speaker>
             <l>Unos son ya los dos azules velos.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>¡Que nos vamos a pique!</l>
-          </sp>
-          <sp who="#penitencia #culpa #lisonja #gula #lascivia">
+          </sp><sp who="#penitencia #culpa #lisonja #gula #lascivia">
             <speaker>TODOS</speaker>
             <l>¡Piedad, cielos!</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Si los llamáis, serenidades crea</l>
             <l n="60">vuestro temor cobarde, y que no sea</l>
@@ -275,47 +153,38 @@
             <l>sepulcro de cristal, tumba de nieve,</l>
             <l>que el cielo, humildes voces, siempre abierto,</l>
             <l>al náufrago piloto es feliz puerto.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l n="65">Acordémonos de él ahora, que estamos</l>
             <l>en riesgo los que el mundo navegamos.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Dadle voces en tales desconsuelos,</l>
             <l>pues él siempre responde.</l>
-          </sp>
-          <sp who="#penitencia #culpa #lisonja #gula #lascivia">
+          </sp><sp who="#penitencia #culpa #lisonja #gula #lascivia">
             <speaker>TODOS</speaker>
             <l>¡Piedad, cielos!</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l n="70">Ya escucho que se llena</l>
             <l>de paz la vaga habitación serena.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>Y el mar tranquilo ya, con ira suma</l>
             <l>no riñe, sino juega con la espuma.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Todo el aire es cambiantes y reflejos.</l>
-          </sp>
-          <sp who="#vista">
+          </sp><sp who="#vista">
             <speaker>VISTA</speaker>
             <l n="75">Todo es serenidad, y ya no lejos,</l>
             <l>antes que todos miro</l>
             <l>cumbres que tocan al azul zafiro</l>
             <l>del mar, burlando la sañuda guerra.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Celajes se descubren. ¡Tierra, tierra!</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="80">Prudente Entendimiento,</l>
             <l>piloto que al gobierno estás atento</l>
@@ -329,13 +198,10 @@
             <l>es donde se roba al sol la lumbre,</l>
             <l n="90">y así, sus puertas inconstantes cierra</l>
             <l>a este humano bajel.</l>
-          </sp>
-          <stage>Desembarcan y escóndese la nave.</stage>
-          <sp who="#penitencia #culpa #lisonja #gula #lascivia">
+          </sp><stage>Desembarcan y escóndese la nave.</stage><sp who="#penitencia #culpa #lisonja #gula #lascivia">
             <speaker>TODOS</speaker>
             <l>¡A tierra, a tierra!</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Humanos sentidos míos,</l>
             <l>vasallos que componéis</l>
@@ -368,12 +234,10 @@
             <l>y entremos a examinar</l>
             <l>estos montes, que han de ser</l>
             <l>puerto de nuestra fortuna.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l part="I">¿Qué tierra es ésta?</l>
-          </sp>
-          <sp who="#tacto">
+          </sp><sp who="#tacto">
             <speaker>TACTO</speaker>
             <l part="F">No sé;</l>
             <l n="125">mas quiera el cielo que sea</l>
@@ -381,16 +245,14 @@
             <l>holandas, sedas y ropas</l>
             <l>donde regalado esté</l>
             <l part="I">mi tacto.</l>
-          </sp>
-          <sp who="#olfato">
+          </sp><sp who="#olfato">
             <speaker>OLFATO</speaker>
             <l part="F">¿Mejor no fuera</l>
             <l n="130">que fuera a tanta altivez</l>
             <l>la gran India de Sabá,</l>
             <l>donde hubiera, para oler</l>
             <l>yo, suavísimos aromas?</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l>Ninguno ha pedido bien.</l>
             <l n="135">Pedir la India oriental</l>
@@ -398,16 +260,14 @@
             <l>dulces aves, cuyos cantos</l>
             <l>sonora música den</l>
             <l>que regalen mis oídos.</l>
-          </sp>
-          <sp who="#vista">
+          </sp><sp who="#vista">
             <speaker>VISTA</speaker>
             <l n="140">Necios sois; pues no queréis</l>
             <l>que sea Tiro, y que haya aquí</l>
             <l>oro y diamantes, en que</l>
             <l>mi vista halle más reflejos</l>
             <l>que el sol en su rosicler.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l n="145">Mal habéis deseado todos</l>
             <l>en no desear y creer</l>
@@ -417,8 +277,7 @@
             <l n="150">que en ella dejó Moisés,</l>
             <l>pues no hay en el mundo gusto</l>
             <l>sin comer y sin beber.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>¡Que como humanos sentidos</l>
             <l>todos deseado habéis</l>
@@ -432,8 +291,7 @@
             <l>puesto que tan cierto es</l>
             <l>que sin pena de esta vida</l>
             <l>no haya en la eterna placer?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="165">¡Y como el Entendimiento</l>
             <l>has hablado tú! ¡Que estés</l>
@@ -444,8 +302,7 @@
             <l>alivios que los diviertan</l>
             <l>de las fatigas en que</l>
             <l part="I">han nacido?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">¿Cómo tú</l>
             <l>siendo su señor y rey</l>
@@ -460,8 +317,7 @@
             <l>con tantas tribulaciones?</l>
             <l>¿Ya no te acuerdas de que</l>
             <l n="185">el cielo te libró de ellas?</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>No tienes que responder;</l>
             <l>yo responderé por ti,</l>
@@ -480,14 +336,12 @@
             <l n="200">y que se olvida después</l>
             <l>que lo uno esté mejorado</l>
             <l>u esotro alcanzado esté?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Esa ingratitud le pienso</l>
             <l>quitar yo, que aqueste fue</l>
             <l n="205">del Entendimiento oficio.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Mi gusto os ha dicho bien;</l>
             <l>sentidos, seguid al Gusto,</l>
@@ -511,70 +365,44 @@
             <l>y todos buscad delicias</l>
             <l part="I">para mí.</l>
             <stage>A la VISTA.Al OÍDO.Al OLFATO.Al TACTO.Al GUSTO.</stage>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">Aunque deseé</l>
             <l>que halles penitencia, yendo</l>
             <l n="230">a eso, la Culpa hallaréis.</l>
-          </sp>
-          <sp who="#vista">
+          </sp><sp who="#vista">
             <speaker>VISTA</speaker>
             <l>Yo veré si hay población.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
-          <stage>Vase.</stage>
-          <sp who="#hombre">
+            
+          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Vase.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Y yo me quedo sin ver.</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l>Yo escucharé si oigo voces.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage>Vase.</stage>
-          <sp who="#hombre">
+            
+          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Vase.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Yo, ausente tú, nada oiré.</l>
-          </sp>
-          <sp who="#tacto">
+          </sp><sp who="#tacto">
             <speaker>TACTO</speaker>
             <l n="235">Yo, si hay lecho en que descanses.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
-          <stage>Vase.</stage>
-          <sp who="#hombre">
+            
+          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Vase.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Ya yo no lo he menester.</l>
-          </sp>
-          <sp who="#olfato">
+          </sp><sp who="#olfato">
             <speaker>OLFATO</speaker>
             <l>Yo, si hallo blandos aromas.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage>Vase.</stage>
-          <sp who="#hombre">
+            
+          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Vase.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Ya no tienes para qué.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>Yo, si hallo dulces manjares.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
-          <stage>Vase.</stage>
-          <sp who="#hombre">
+            
+          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Vase.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="240">Ahora no quiero comer,</l>
             <l>porque mientras vais vosotros</l>
@@ -582,8 +410,7 @@
             <l>al pie de este ciprés quedo,</l>
             <l part="I">echado a dormir.</l>
             <stage>échase a dormir debajo de un ciprés.</stage>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">¡Qué bien!</l>
             <l n="245">Para dormir, los sentidos</l>
@@ -618,13 +445,8 @@
             <l>se queda el Hombre a la vez</l>
             <l n="275">que duerme, y que sepultado</l>
             <l>temporal cadáver es.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage>Vase.</stage>
-          <stage>Van saliendo, de fieras, los sentidos. Y hacen lo que dicen los versos.</stage>
-          <sp who="#hombre">
+            
+          </sp></div><div type="scene" resp="#rojas" n="7"><stage>Vase.</stage><stage>Van saliendo, de fieras, los sentidos. Y hacen lo que dicen los versos.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>¡Ay de mí! Pesado sueño,</l>
             <l>no tanto me aflijas; ten</l>
@@ -645,11 +467,7 @@
             <l>parece; desesperados,</l>
             <l>se entran al monte otra vez.</l>
             <l part="I">¿Qué es esto, cielos?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
-          <stage>Vanse los sentidos, y sale el ENTENDIMIENTO como asombrado.</stage>
-          <sp who="#entendimiento">
+          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Vanse los sentidos, y sale el ENTENDIMIENTO como asombrado.</stage><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l n="295" part="F">Escucha,</l>
             <l>Ulises, yo lo diré,</l>
@@ -752,12 +570,10 @@
             <l>Hombre, te pide mi acento;</l>
             <l>escucha a tu Entendimiento,</l>
             <l part="I">que es el que te habla.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="395" part="F">Di.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>La Vista, en tigre cruel</l>
             <l>fue de la Envidia despojos,</l>
@@ -799,8 +615,7 @@
             <l>del viento sólo fiado,</l>
             <l>es el más vivo traslado</l>
             <l n="435">de la Lisonja en que muere.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Docto Entendimiento mío,</l>
             <l>en gran peligro me veo;</l>
@@ -818,8 +633,7 @@
             <l>a libertarlos, porque</l>
             <l n="450">bien de la empresa saldré</l>
             <l>si voy con mi Entendimiento.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Pues que conmigo has de ir</l>
             <l>a cobrarlos, ha de ser</l>
@@ -833,8 +647,7 @@
             <l>aunque ellos, Ulises, fueron</l>
             <l>los que entregarse quisieron;</l>
             <l>y otra haberte arrepentido.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Digo que pido perdón</l>
             <l n="465">del mal ejemplo, ¡ay de mí!,</l>
@@ -844,39 +657,29 @@
             <l>de que se hayan entregado</l>
             <l n="470">a las manos del pecado,</l>
             <l>y que voy arrepentido.</l>
-          </sp>
-          <stage>Tocan chirimías y cantan.</stage>
-          <sp who="#música">
+          </sp><stage>Tocan chirimías y cantan.</stage><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Ya que el Hombre confiesa su culpa</l>
             <l>y arrepentido me pide perdón,</l>
             <l>¡oh Penitencia!, pues eres el iris,</l>
             <l n="475">acude volando a darle favor.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
-          <stage>Mientras cantan sale un arco en lo alto, y en él la PENITENCIA.</stage>
-          <sp who="#penitencia">
+          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Mientras cantan sale un arco en lo alto, y en él la PENITENCIA.</stage><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Ya corro veloz</l>
             <l>en el arco de paz, en quien nacen</l>
             <l>las amistades del Hombre y de Dios.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>¿Mas qué música sonora</l>
             <l n="480">es la que oímos los dos?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Auxilio es que te da Dios.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>¿Y aquel bello arco que ahora</l>
             <l>sobre las nubes se asienta?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Arco es que la paz abona,</l>
             <l n="485">y que ya cesó pregona</l>
@@ -884,41 +687,34 @@
             <l>Dios le puso por señal</l>
             <l>de paz entre sí y el Hombre,</l>
             <l>y así el verle no te asombre.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="490">¿Y la Ninfa celestial</l>
             <l>quién es? Que saberlo espero.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>La Iris, embajatriz</l>
             <l>más solícita y feliz</l>
             <l>del Júpiter verdadero,</l>
             <l n="495">la que a los hombres envía</l>
             <l>a consolar su dolencia.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="I">Pues ¿quién es?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">La Penitencia;</l>
             <l>bien que en esta alegoría</l>
             <l>probado está con decir</l>
             <l n="500">que es la que con dulce nombre</l>
             <l>se pone entre Dios y el Hombre.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Su voz volvamos a oír.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Pues el Hombre confiesa, etc.</l>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Ya corro veloz, etc.</l>
             <l n="505">Cristiano Ulises, tus voces</l>
@@ -950,37 +746,30 @@
             <l>porque siempre que me llames</l>
             <l>verás que a tus voces vuelvo.</l>
             <stage>Cantando.Dale unas flores.</stage>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Corriendo veloz</l>
             <l>en el arco de Paz, en quien nacen</l>
             <l n="535">las amistades del Hombre y de Dios.</l>
-          </sp>
-          <stage>Tocan chirimías y desaparece el arco.</stage>
-          <sp who="#hombre">
+          </sp><stage>Tocan chirimías y desaparece el arco.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Iris bello, hermosa ninfa;</l>
             <l>no desvanezcas tan presto</l>
             <l>tanta multitud de estrellas,</l>
             <l>tanta copia de luceros.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l n="540">Rasgo de luz que has corrido</l>
             <l>por las campañas del viento,</l>
             <l>señal de paz, que a Moisés</l>
             <l>Dios señaló en el desierto.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="I">Tente, aguarda.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">Escucha, espera.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="545">Fuese, dejándome impreso</l>
             <l>un renglón de tres colores</l>
@@ -989,34 +778,28 @@
             <l>Dichoso soy, pues que tengo</l>
             <l n="550">con que vencer los encantos</l>
             <l part="I">de esa Circe.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">Alza del suelo</l>
             <l part="I">esas flores.</l>
             <stage>Alza las flores del suelo.</stage>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">¡Ay de mí!</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="I">¿Qué sientes?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">Herirme siento</l>
             <l part="I">con sus espinas.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">Las flores</l>
             <l n="555">de la Penitencia, es cierto</l>
             <l>que ásperas son al principio</l>
             <l>cuanto fragantes son luego.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Espinas de mi pecado,</l>
             <l>con temor a alzaros llego.</l>
@@ -1024,11 +807,7 @@
             <l>estén cautivos y presos</l>
             <l>de su bellísimo encanto,</l>
             <l>así libertarles tengo.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage>Salen la LASCIVIA, la CULPA, detrás de todos; trae una salvilla, un vaso de plata, y otra una toalla al hombro.</stage>
-          <sp who="#entendimiento">
+          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Salen la LASCIVIA, la CULPA, detrás de todos; trae una salvilla, un vaso de plata, y otra una toalla al hombro.</stage><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>No tienes que ir a buscarla,</l>
             <l n="565">que ella a buscarte a este puesto</l>
@@ -1038,8 +817,7 @@
             <l>a estos jardines amenos</l>
             <l n="570">el peregrino del mar,</l>
             <l>donde halle seguro puerto.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>En hora dichosa venga,</l>
             <l>digan los dulces acentos</l>
@@ -1091,30 +869,25 @@
             <l>que está de dulzuras lleno,</l>
             <l n="620">en tanto que en mis palacios</l>
             <l>más regalos os prevengo.</l>
-          </sp>
-          <sp who="#lascivia">
+          </sp><sp who="#lascivia">
             <speaker>LASCIVIA</speaker>
             <l>Bebe, señor, el sabroso</l>
             <l>licor que yo te presento.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>¡Ay de ti, si le bebieres,</l>
             <l n="625">que todo es lascivo fuego!</l>
             <l part="I">¿Qué haces?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">¡Para resistirme</l>
             <l>conmigo mismo peleo!</l>
             <stage>Tómale.</stage>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>No le bebas; ¿ya no sabes</l>
             <l>que es tósigo y es veneno?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="630">Sí, Entendimiento; y tu aviso</l>
             <l>ha llegado a muy buen tiempo.</l>
@@ -1132,33 +905,25 @@
             <l>se atreven a ser groseros</l>
             <l>tanto mis labios, que lleguen</l>
             <l n="645">sin aqueste cumplimiento.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
-          <stage>Toca el ramillete al vaso y sale fuego de él.</stage>
-          <sp who="#lascivia">
+          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Toca el ramillete al vaso y sale fuego de él.</stage><sp who="#lascivia">
             <speaker>LASCIVIA</speaker>
             <l>¡Ay de mí! El fuego que había</l>
             <l>en este vaso encubierto</l>
             <l part="I">reventó.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">Es verdad. ¡Qué mal</l>
             <l>arde encendido tu fuego,</l>
             <l part="I">vil Lascivia!</l>
-          </sp>
-          <sp who="#lascivia">
+          </sp><sp who="#lascivia">
             <speaker>LASCIVIA</speaker>
             <l n="650" part="F">¡Ay, infeliz!</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¡Mortales furias! ¿Qué es esto</l>
             <l>saber hoy que mis encantos</l>
             <l part="I">desvanezca?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">Sí, que habiendo</l>
             <l>llegado aquí acompañado</l>
@@ -1169,8 +934,7 @@
             <l>desvanecer tus intentos,</l>
             <l n="660">porque es el ramo del Iris,</l>
             <l>que está de virtudes lleno.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¡Ay, infelice de mí,</l>
             <l>habiendo volado el fuego</l>
@@ -1180,8 +944,7 @@
             <l>la que me abraso? ¿Qué es esto?</l>
             <l>¿Tú eres quien la mina enciendes,</l>
             <l>y soy yo quien la reviento?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="670">Sí, que sabiendo que eres</l>
             <l>horror de aquestos desiertos</l>
@@ -1192,8 +955,7 @@
             <l>y a rescatar mis sentidos</l>
             <l>de la prisión de tus hierros.</l>
             <stage>Saca la daga.</stage>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Detén la daga -¡ay de mí!-;</l>
             <l>no manches tan noble acero</l>
@@ -1209,78 +971,53 @@
             <l>que tu dulce encanto fueron,</l>
             <l n="690">por quien te tuvo trocado</l>
             <l>en camaleón tu afecto.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
-          <stage>Los sentidos salen, asombrados. Sale el OÍDO, asombrado.</stage>
-          <sp who="#oído">
+          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Los sentidos salen, asombrados. Sale el OÍDO, asombrado.</stage><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l>¿De qué letargo tan dulce</l>
             <l>a esta nueva voz despierto?</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Olfato, murmurador</l>
             <l n="695">de lo malo y de lo bueno,</l>
             <l>que fuiste león que diste</l>
             <l>dañado olor con tu aliento.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="13">
-          <stage>Sale del mismo modo.</stage>
-          <sp who="#olfato">
+          </sp></div><div type="scene" resp="#rojas" n="13"><stage>Sale del mismo modo.</stage><sp who="#olfato">
             <speaker>OLFATO</speaker>
             <l>¡Oh, nunca yo despertara</l>
             <l>de tan regalado sueño!</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="700">Tacto, que lascivamente</l>
             <l>empleado en tus deseos,</l>
             <l>oso fuiste, pues que nace</l>
             <l>sin forma, sin vista y cuerpo.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="14">
-          <stage>Sale el TACTO, asombrado.</stage>
-          <sp who="#tacto">
+          </sp></div><div type="scene" resp="#rojas" n="14"><stage>Sale el TACTO, asombrado.</stage><sp who="#tacto">
             <speaker>TACTO</speaker>
             <l>¡Que a mi pesar me levanto</l>
             <l n="705">de tan regalado lecho!</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Vista, que manchado tigre</l>
             <l>has pacido este desierto,</l>
             <l>pues, envidioso, eres ojos</l>
             <l>que sientes bienes ajenos.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
-          <stage>Sale la VISTA, como asombrada.</stage>
-          <sp who="#vista">
+          </sp></div><div type="scene" resp="#rojas" n="15"><stage>Sale la VISTA, como asombrada.</stage><sp who="#vista">
             <speaker>VISTA</speaker>
             <l n="710">Si noche han de ser los míos,</l>
             <l>¿de qué sirve los que veo?</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Gusto, que animal inmundo</l>
             <l>eres, porque siempre hambriento</l>
             <l>sólo en esta vida cuidas</l>
             <l n="715">de sustentarte a ti mesmo.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="16">
-          <stage>Sale el GUSTO, asombrado.</stage>
-          <sp who="#gusto">
+          </sp></div><div type="scene" resp="#rojas" n="16"><stage>Sale el GUSTO, asombrado.</stage><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>Que era un gran puerco soñaba;</l>
             <l>nadie que hay que creer en sueños</l>
             <l>diga... ¡Si diga, que yo</l>
             <l>lo soy dormido y despierto!</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="720">Ya están aquí tus sentidos,</l>
             <l>ya a tu poder te los vuelvo.</l>
@@ -1290,82 +1027,68 @@
             <l n="725">por vosotros; pues es cierto</l>
             <l>que está en su mano el cobraros</l>
             <l>como en su mano el perderos.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>No esperes más; ven a este</l>
             <l>bajel de tu Entendimiento.</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l n="730">¿Dónde hemos de ir tan aprisa?</l>
             <l>¿Apenas llegado habemos</l>
             <l>a estos palacios, y ya</l>
             <l>nos quieres ausentar de ellos?</l>
-          </sp>
-          <sp who="#vista">
+          </sp><sp who="#vista">
             <speaker>VISTA</speaker>
             <l>¿Adónde quieres llevarnos</l>
             <l n="735">por ese mar padeciendo?</l>
-          </sp>
-          <sp who="#olfato">
+          </sp><sp who="#olfato">
             <speaker>OLFATO</speaker>
             <l>Deja que de las fortunas</l>
             <l>pasadas nos reparemos.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>Déjame, señor, que sea</l>
             <l>puerco otro poco tiempo,</l>
             <l n="740">pues no hay más seguridad</l>
             <l>en el mundo que ser puerco.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>En fin, sois bruto, sentidos</l>
             <l>tan brutos que holgáis de serlo.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>¿No sabes cuán bueno es</l>
             <l n="745">estar comiendo y gruñendo?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Vamos, ¿qué esperas, Ulises?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Vamos, pero no tan presto,</l>
             <l>porque de haber visto aquí</l>
             <l>mis sentidos mal contentos</l>
             <l n="750">de dejar estas delicias,</l>
             <l>no sé (¡ay de mí!) lo que siento.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Yo te llevaré por fuerza.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>No harás tal, que tu consejo</l>
             <l>arrastrarme no podrá;</l>
             <l n="755">moverme sí, ya lo has hecho.</l>
             <l>Ve a prevenir el bajel,</l>
             <l part="I">pues piloto eres.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">Ya vuelvo.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Por poder más libremente</l>
             <l>ver esta deidad, le ausento</l>
             <l n="760">de mí aqueste breve instante,</l>
             <l>sin temor de sus preceptos.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Ahora podré hablarte, pues</l>
             <l>aparto su Entendimiento.</l>
@@ -1482,8 +1205,7 @@
             <l>placeres, dichas, favores,</l>
             <l n="875">músicas, bailes y juegos.</l>
             <stage>Aparte.Aparte.Aparte.Aparte.El HOMBRE va dejando caer algunas flores del ramillete, mientras oye a la CULPA.</stage>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>No sé qué he de responder,</l>
             <l>porque, divertido oyendo</l>
@@ -1503,9 +1225,7 @@
             <l>porque ser tu huésped quiero</l>
             <l>desde hoy, estimando humilde</l>
             <l>tan corteses cumplimientos.</l>
-          </sp>
-          <stage type="object">Descúbrese un palacio muy vistoso.</stage>
-          <sp who="#culpa">
+          </sp><stage type="object">Descúbrese un palacio muy vistoso.</stage><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Vencí; la música vuelva</l>
             <l n="895">a repetir sus acentos,</l>
@@ -1513,38 +1233,29 @@
             <l>que están en el puro centro</l>
             <l>del monte, sus puertas abran,</l>
             <l>que va su huésped a ellos.</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l n="900">Al Entendimiento aguarda</l>
             <l>antes, señor, que entres dentro</l>
             <l>por que sepas dónde estás.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>¿Para qué, pues es tan cierto</l>
             <l>que no entrara si supiera,</l>
             <l n="905">¡ay de mí!, mi Entendimiento?</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>Dices bien; vamos sin él;</l>
             <l>¿para qué acá le queremos?,</l>
             <l>que es un ministro cansado,</l>
             <l>todo limpio y nada puerco.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="910">En hora dichosa venga</l>
             <l>a estos jardines amenos</l>
             <l>el peregrino del mar,</l>
             <l>donde halle seguro el puerto.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="17">
-          <stage>Entran el HOMBRE y la CULPA asidos de las manos, y los demás tras ellos, y sale el ENTENDIMIENTO y dice desde lejos.</stage>
-          <stage>Sale.</stage>
-          <sp who="#entendimiento">
+          </sp></div><div type="scene" resp="#rojas" n="17"><stage>Entran el HOMBRE y la CULPA asidos de las manos, y los demás tras ellos, y sale el ENTENDIMIENTO y dice desde lejos.</stage><stage>Sale.</stage><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Hombre, espera; escucha, aguarda;</l>
             <l n="915">no entres en ese soberbio</l>
@@ -1560,16 +1271,11 @@
             <l n="925">retirado. Porque es cierto</l>
             <l>que a tenerme a mí consigo</l>
             <l>no se rindiera tan presto.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="18">
-          <stage>Sale la PENITENCIA.</stage>
-          <sp who="#penitencia">
+          </sp></div><div type="scene" resp="#rojas" n="18"><stage>Sale la PENITENCIA.</stage><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Entendimiento, ¿qué voces</l>
             <l>son estas que das al viento?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l n="930">Lástimas son, de haber dado</l>
             <l>mala cuenta de un sujeto</l>
@@ -1582,21 +1288,18 @@
             <l>que tuvo, desperdiciadas</l>
             <l>en el aire las encuentro.</l>
             <stage>Mira en el suelo las flores que tenía el HOMBRE.</stage>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l n="940">Pues yo las recogeré,</l>
             <l>guardándolas para el tiempo,</l>
             <l>que arrepentido me busque</l>
             <l>de su culpa y de su yerro.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Sin mí está, que no estuviera</l>
             <l n="945">conmigo (¡ay de mí!) tan ciego</l>
             <l>que se olvidara de sí.</l>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Darte yo una industria quiero</l>
             <l>para sacarle de aquese</l>
@@ -1609,18 +1312,13 @@
             <l n="955">creerá, advertido y atento,</l>
             <l>a su Entendimiento, donde</l>
             <l>está sin Entendimiento.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="19">
-          <stage>Vanse. Salen el HOMBRE, la CULPA y los sentidos, y MÚSICA y damas.</stage>
-          <sp who="#música">
+          </sp></div><div type="scene" resp="#rojas" n="19"><stage>Vanse. Salen el HOMBRE, la CULPA y los sentidos, y MÚSICA y damas.</stage><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Compitiendo con las selvas</l>
             <l>donde las flores madrugan,</l>
             <l n="960">los pájaros en el viento</l>
             <l>forman abriles de plumas.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Ven por aquestos jardines,</l>
             <l>adonde crítica y culta</l>
@@ -1630,8 +1328,7 @@
             <l>pues su varia compostura</l>
             <l>academia es, donde el mayo</l>
             <l>de un año para otro estudia.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="970">Tan hermosa es esta estancia,</l>
             <l>que el mismo sol que la alumbra</l>
@@ -1647,13 +1344,11 @@
             <l>esas estrellas cerúleas,</l>
             <l>donde en brazos de la noche</l>
             <l>duermen las esferas mudas.</l>
-          </sp>
-          <sp who="#hombre #música">
+          </sp><sp who="#hombre #música">
             <speaker>éL y/&gt; MÚSICA</speaker>
             <l>Compitiendo con las selvas,</l>
             <l n="985">donde las flores madrugan.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Todo el jardín es delicias;</l>
             <l>no hay planta, no hay hoja alguna</l>
@@ -1679,20 +1374,17 @@
             <l>de la tierra como industria</l>
             <l>pájaros forman de rosas</l>
             <l>por igualar su hermosura.</l>
-          </sp>
-          <sp who="#culpa #música">
+          </sp><sp who="#culpa #música">
             <speaker>ELLA y/&gt; MÚSICA</speaker>
             <l n="1010">Los pájaros en el viento</l>
             <l>forman abriles de plumas.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>De una belleza engañados</l>
             <l>por aurora la saludan</l>
             <l>y viendo sus bellos ojos</l>
             <l n="1015">quedan vanos de su culpa.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Toda esa belleza, toda</l>
             <l>esa varia compostura</l>
@@ -1712,20 +1404,17 @@
             <l>que cendales de oro enjuga</l>
             <l>el verte segunda vez</l>
             <l>con nueva salva segunda.</l>
-          </sp>
-          <sp who="#hombre #música">
+          </sp><sp who="#hombre #música">
             <speaker>éL y/&gt; MÚSICA</speaker>
             <l>De su belleza engañados</l>
             <l n="1035">por aurora la saludan.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Culpa fuera de las aves</l>
             <l>y las flores, por que nunca</l>
             <l>para equivocar deidades</l>
             <l>hallar pudieran disculpa.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="1040">Si es Culpa o acierto, no</l>
             <l>es justo que yo lo arguya;</l>
@@ -1737,13 +1426,11 @@
             <l>ni las flores se disculpan</l>
             <l>de esa Culpa, porque antes</l>
             <l>sé que con causa más justa...</l>
-          </sp>
-          <sp who="#hombre #música">
+          </sp><sp who="#hombre #música">
             <speaker>éL y/&gt; MÚSICA</speaker>
             <l n="1050">En viendo tus bellos ojos</l>
             <l>quedan vanos de su Culpa.</l>
-          </sp>
-          <sp who="#gula">
+          </sp><sp who="#gula">
             <speaker>GULA</speaker>
             <l>Ya que me ha tocado a mí,</l>
             <l>que, en efecto, soy la Gula,</l>
@@ -1755,28 +1442,21 @@
             <l>de piel, de escama y de pluma,</l>
             <l n="1060">mirad adónde queréis</l>
             <l part="I">comer hoy.</l>
-          </sp>
-          <sp who="#lisonja">
+          </sp><sp who="#lisonja">
             <speaker>LISONJA</speaker>
             <l part="F">Sea con una</l>
             <l>ceremonia lisonjera.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l>La Lisonja es muy astuta,</l>
             <l>pues que sabe sembrar mesas</l>
             <l n="1065">tan cándidas y purpúreas.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="20">
-          <stage>Sale la mesa por debajo del tablado con muchas viandas; siéntanse la CULPA y el HOMBRE y los demás sirven, y los sentidos se sientan en el suelo.</stage>
-          <sp who="#culpa">
+          </sp></div><div type="scene" resp="#rojas" n="20"><stage>Sale la mesa por debajo del tablado con muchas viandas; siéntanse la CULPA y el HOMBRE y los demás sirven, y los sentidos se sientan en el suelo.</stage><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Siéntate, Ulises, y todos</l>
             <l>os sentad en la verdura</l>
             <l part="I">de esas flores.</l>
-          </sp>
-          <sp who="#lascivia">
+          </sp><sp who="#lascivia">
             <speaker>LASCIVIA</speaker>
             <l part="F">Pues yo quiero</l>
             <l>que no todas se atribuyan</l>
@@ -1784,93 +1464,74 @@
             <l>el huésped me deba una.</l>
             <l>Aquella letra cantad</l>
             <l part="I">que yo hice.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">Pues si es tuya</l>
             <l part="I">será amorosa.</l>
-          </sp>
-          <sp who="#lascivia">
+          </sp><sp who="#lascivia">
             <speaker>LASCIVIA</speaker>
             <l part="F">Sí es.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="1075">No hay dama aquí que no acuda</l>
             <l part="I">a un sentido.</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l part="F">Sí, señor;</l>
             <l part="I">¡pero víctor!</l>
-          </sp>
-          <stage>Come mucho el GUSTO.</stage>
-          <sp who="#hombre">
+          </sp><stage>Come mucho el GUSTO.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="M">¿Quién?</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l part="F">La Gula.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Si quieres gozar florida</l>
             <l>edad entre dulce suerte,</l>
             <l n="1080">olvídate de la muerte</l>
             <l>y acuérdate de la vida.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>No cantéis más, que atrevida</l>
             <l>voz nuestros gustos advierte.</l>
-          </sp>
-          <stage>En cantando tocan cajas dentro y alborótanse todos, y dice el ENTENDIMIENTO.</stage>
-          <sp who="#entendimiento">
+          </sp><stage>En cantando tocan cajas dentro y alborótanse todos, y dice el ENTENDIMIENTO.</stage><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <stage>Dentro.</stage>
             <l>Ulises, capitán fuerte,</l>
             <l n="1085">si quieres dicha crecida,</l>
             <stage>Dentro.</stage>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <stage>Dentro.</stage>
             <l>olvídate de la vida</l>
             <l>y acuérdate de la muerte.</l>
             <stage>Dentro.</stage>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Quién con tanto atrevimiento</l>
             <l>trueca el gusto en confusión?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="1090">Circe, las que escuchas son</l>
             <l>voces de mi Entendimiento;</l>
             <l>él me ha llamado e intento</l>
             <l part="I">responderle.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">De él te olvida.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="I">Suelta.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Es acción atrevida.</l>
             <l n="1095">Cantad, por que no se asombre</l>
             <l>de oír aquella voz el Hombre.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Acuérdate de la vida.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Sí haré, que bien larga es</l>
             <l>y después tendré lugar</l>
@@ -1878,26 +1539,21 @@
             <l>pues me bastará después.</l>
             <l>A tus brazos vuelvo, pues,</l>
             <l part="I">dulce sueño.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">¡Feliz suerte!</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Tu hermosura me divierte,</l>
             <l n="1105">contigo ufano me nombre;</l>
             <l part="I">no quiero más dicha.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <stage>Dentro.</stage>
             <l part="F">Hombre,</l>
             <l>acuérdate de la muerte.</l>
             <stage>Dentro.</stage>
-          </sp>
-          <stage>Tocan cajas.</stage>
-          <sp who="#hombre">
+          </sp><stage>Tocan cajas.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Fuerza es que me acuerde, ¡ay triste!,</l>
             <l>cuando mi afecto se mueve,</l>
@@ -1906,49 +1562,39 @@
             <l>Entendimiento, que hiciste</l>
             <l>en mí tal afecto, advierte</l>
             <l>que ya voy a obedecerte.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1115">Vuestra voz al paso impida.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Acuérdate de la vida.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Acuérdate de la muerte.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Aquí me están halagando</l>
             <l>gusto, placer y contento,</l>
             <l n="1120">cuando allí mi Entendimiento</l>
             <l>alarma me está tocando.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Qué dudas?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">¿Qué estás pensando?</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>No de esa voz confundida</l>
             <l>tu memoria está afligida.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l n="1125">En aqueste canto advierte.</l>
             <l>Acuérdate de la muerte.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Acuérdate de la vida.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>En dos mitades estoy</l>
             <l>partido (pasión tirana):</l>
@@ -1959,23 +1605,16 @@
             <l>o me aflige o me divierte.</l>
             <l n="1135">¿Cuál ha de ser preferida</l>
             <l part="I">de mis glorias?</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F">Vida, vida.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="I">¿De mis penas?</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F">Muerte, muerte.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="21">
-          <stage>Sale el ENTENDIMIENTO.</stage>
-          <sp who="#entendimiento">
+          </sp></div><div type="scene" resp="#rojas" n="21"><stage>Sale el ENTENDIMIENTO.</stage><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Y aunque me la den a mí,</l>
             <l n="1140">los encantos de esta fiera</l>
@@ -1987,8 +1626,7 @@
             <l>a unos placeres fingidos,</l>
             <l>que sin mí y con tus sentidos</l>
             <l>aquí vives engañado?</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Estará, dime, mejor</l>
             <l n="1150">creído de tu prudencia</l>
@@ -1997,122 +1635,93 @@
             <l>todo tristeza y pavor,</l>
             <l>que aquí, donde le divierte</l>
             <l part="I">tanta gloria?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l n="1155" part="F">Sí, si advierte</l>
             <l>que aquella gloria es fingida.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">Cantad, cantad.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F">Vida, vida.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Tocad, tocad; muerte, muerte.</l>
-          </sp>
-          <stage>La caja.</stage>
-          <sp who="#hombre">
+          </sp><stage>La caja.</stage><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Dicen bien, a ti te creen</l>
             <l n="1160">los influjos de mi estrella.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">Pues ¿déjasme?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">¡Ay, Culpa bella,</l>
             <l>que tú también dices bien!</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Valor mis voces te den.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Muévate al verme rendida.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l n="1165">Nada en seguirme te impida.</l>
             <l part="I">Tocad.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="M">Cantad.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">¡Pena fuerte!</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="I">Vida, vida.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">Muerte, muerte;</l>
             <l part="I">muerte, muerte.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F">Vida, vida.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Este bien perecedero.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1170">Aquélla es pena cruel.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Por eso espera el laurel.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Goza tu vida primero.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Mira que es encanto fiero.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Mira que es tormento fuerte.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l n="1175">En que eres mortal advierte.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>No te acuerdes de eso, no.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="I">Vida.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="M">¡Muerte!</l>
-          </sp>
-          <sp who="#culpa #entendimiento">
+          </sp><sp who="#culpa #entendimiento">
             <speaker>CULPA y/&gt; ENTENDIMIENTO</speaker>
             <l part="F">¿Quién venció?</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>La memoria de la muerte.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué importa que haya vencido</l>
             <l n="1180">si escaparte no podrás</l>
@@ -2125,8 +1734,7 @@
             <l>tú mismo las deshiciste;</l>
             <l>pues ¿qué alivio de mí esperan</l>
             <l part="I">hoy tus ansias?</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l part="F">No te dé</l>
             <l n="1190">aquello desconfianza;</l>
@@ -2137,15 +1745,10 @@
             <l n="1195">las habías esparcido,</l>
             <l>para guardarlas llegó</l>
             <l part="I">a recogerlas.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="M">¿Quién?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="22">
-          <stage>Sale la PENITENCIA en un carro triunfal.</stage>
-          <sp who="#penitencia">
+          </sp></div><div type="scene" resp="#rojas" n="22"><stage>Sale la PENITENCIA en un carro triunfal.</stage><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l part="F">Yo,</l>
             <l>que el arco de paz he sido,</l>
@@ -2185,8 +1788,7 @@
             <l>las especies, que aquí estaban</l>
             <l>los accidentes no más,</l>
             <l>quedaron en Hostia blanca.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1235">¿Cómo quieres que te crean</l>
             <l>los Sentidos con quien hablas</l>
@@ -2195,40 +1797,31 @@
             <l>Llega, Olfato, llega a oler</l>
             <l n="1240">este Pan. En él qué hallas,</l>
             <l part="I">¿pan o carne?</l>
-          </sp>
-          <stage>Van llegando los sentidos.</stage>
-          <sp who="#olfato">
+          </sp><stage>Van llegando los sentidos.</stage><sp who="#olfato">
             <speaker>OLFATO</speaker>
             <l part="F">De pan es</l>
             <l part="I">el olor.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Llega. ¿Qué aguardas, </l>
             <l part="I">Gusto?</l>
-          </sp>
-          <sp who="#gusto">
+          </sp><sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l part="F">Este gusto es de pan. </l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Llega, Tacto; ¿qué te espantas?</l>
             <l part="I">Di lo que tocas.</l>
-          </sp>
-          <sp who="#tacto">
+          </sp><sp who="#tacto">
             <speaker>TACTO</speaker>
             <l n="1245" part="F">Pan toco.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Vista, a ver, ¿qué es lo que alcanzas?</l>
-          </sp>
-          <sp who="#vista">
+          </sp><sp who="#vista">
             <speaker>VISTA</speaker>
             <l part="I">Pan solamente.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Tú, Oído,</l>
             <l>rompe esa Forma, que llama</l>
@@ -2236,8 +1829,7 @@
             <l n="1250">y luego las desengaña</l>
             <l>al ruido de la fracción;</l>
             <l part="I">¿qué respondes?</l>
-          </sp>
-          <sp who="#oído">
+          </sp><sp who="#oído">
             <speaker>OÍDO</speaker>
             <l part="F">Culpa ingrata;</l>
             <l>aunque en la fracción se escucha</l>
@@ -2246,12 +1838,10 @@
             <l>a quien oigo que la llaman</l>
             <l>carne; por carne la creo,</l>
             <l>pues que ella lo diga basta.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Esa razón me cautiva.</l>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l n="1260">Ea, Hombre, ¿pues qué aguardas?</l>
             <l>Cautivo tu Entendimiento</l>
@@ -2266,128 +1856,104 @@
             <l n="1270">ya que estos secretos hallan</l>
             <l>en el Júpiter divino</l>
             <l>quien sus encantos deshaga.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Dices bien, Entendimiento;</l>
             <l>de aquí mis sentidos saca.</l>
-          </sp>
-          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          </sp><sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <l n="1275">Vamos al bajel, que aquí</l>
             <l>todo es sombras y fantasmas.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¡Qué importa, ay de mí! ¿Qué importa</l>
             <l>que así de mi poder salgas</l>
             <l>si mis encantos sabrán</l>
             <l n="1280">seguirte por donde vayas?</l>
             <l>Yo sabré alterar las ondas.</l>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Y yo sabré serenarlas.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="23">
-          <stage>Tocan clarines y descúbrese otra vez la Nave. Llega al tablado y entran todos en ella.</stage>
-          <sp who="#culpa">
+          </sp></div><div type="scene" resp="#rojas" n="23"><stage>Tocan clarines y descúbrese otra vez la Nave. Llega al tablado y entran todos en ella.</stage><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Tribulaciones no son</l>
             <l>en la Escritura las aguas?</l>
             <l n="1285">Luego a padecer le llevas</l>
             <l>trabajos, afanes y ansias.</l>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Sí; pero éstos son regalos</l>
             <l>con que más mérito alcanza.</l>
-          </sp>
-          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          </sp><sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l>¡Buen viaje! ¡Buen viaje!</l>
             <stage>Dentro</stage>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1290">Aquestas voces me matan.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Circe crüel, pues que supe</l>
             <l>vencer prodigiosas magias,</l>
             <l>quédate donde te sirva</l>
             <l>de monumento tu alcázar.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1295">Ondas que tanto bajel</l>
             <l>sufrís sobre las espaldas,</l>
             <l>en vuestros senos de nieve</l>
             <l>le dan sepulcro de plata.</l>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Ondas, serenad el blando</l>
             <l n="1300">movimiento de las aguas,</l>
             <l>por que vuestros pavimentos</l>
             <l>no sean montes, sino alcázar.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Vientos que sopláis del Norte,</l>
             <l>no le saquéis de Trinacia</l>
             <l n="1305">y chocad, cascado el pino,</l>
             <l>en aquellas peñas altas.</l>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Notos que venís del Austro,</l>
             <l>soplad con süaves auras,</l>
             <l>por que hasta el puerto de Hostia</l>
             <l n="1310">hoy a salvamento salga.</l>
-          </sp>
-          <sp who="#entendimiento">
+          </sp><sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>Buen viaje nos prometen</l>
             <l>las señas de la bonanza.</l>
-          </sp>
-          <sp who="#culpa">
+          </sp><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Haced, vicios, que el velamen</l>
             <l>todo pedazos se haga,</l>
             <l n="1315">y, vuelto el barco, sea tumba,</l>
             <l>con pirámides y jarcias.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Haced, Virtudes, que rompa</l>
             <l>la quilla, suave y blanda,</l>
             <l>encrespando las espumas</l>
             <l n="1320">vidrios de nieve y de plata.</l>
-          </sp>
-          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          </sp><sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <l>Buen viaje, buen viaje,</l>
             <l>que vientos y ondas se amansan.</l>
-          </sp>
-          <sp who="#hombre">
+          </sp><sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Circe, poco tus encantos</l>
             <l>han podido, pues me saca,</l>
             <l n="1325">¡ay de mí!, la Iris divina</l>
             <l>coronado de esperanzas.</l>
-          </sp>
-          <sp who="#penitencia">
+          </sp><sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Circe, ya su Entendimiento</l>
             <l>va con él; poco las trazas</l>
             <l>de tu magia te han valido.</l>
-          </sp>
-          <stage>Desaparece la Nave.</stage>
-          <sp who="#culpa">
+          </sp><stage>Desaparece la Nave.</stage><sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1330">Llena estoy de furia y rabia.</l>
             <l>Si yo soy víbora, ¿cómo</l>
@@ -2415,8 +1981,7 @@
             <l>en virtud de aquel divino</l>
             <l>manjar que da por vianda.</l>
             <stage>Ruido de terremoto y húndense los palacios.</stage>
-          </sp>
-          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          </sp><sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <l n="1355">A cuyo grande milagro</l>
             <l>el mundo mil fiestas haga,</l>
@@ -2424,11 +1989,9 @@
             <l>noble corazón de España,</l>
             <l>que en celebrar a Dios fiestas</l>
             <l n="1360">con la opinión se levanta.</l>
-          </sp>
-          <stage>Con esta repetición y al son de las chirimías se da fin al auto.</stage>
-        </div>
-
-      </div>
+          </sp><stage>Con esta repetición y al son de las chirimías se da fin al auto.</stage></div>
+      
+    </div>
     </body>
   </text>
 </TEI>

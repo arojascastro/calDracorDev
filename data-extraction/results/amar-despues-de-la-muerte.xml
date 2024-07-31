@@ -27,8 +27,8 @@
         <listPerson>
           <person xml:id="don-álvaro" sex="MALE">
             <persName>Don Álvaro Tuzaní</persName>
-            <trait source="calderondigital">
-              <desc>jefe morisco</desc>
+            <trait source="#calderondigital">
+              <desc>jefe</desc>
             </trait>
           </person>
           <person xml:id="malec" sex="MALE">
@@ -39,8 +39,8 @@
           </person>
           <person xml:id="válor" sex="MALE">
             <persName>Don Fernando de Válor</persName>
-            <trait source="calderondigital">
-              <desc>jefe morisco</desc>
+            <trait source="#calderondigital">
+              <desc>jefe</desc>
             </trait>
           </person>
           <person xml:id="alcuzcuz" sex="MALE">
@@ -48,31 +48,31 @@
             <trait source="castlist">
               <desc>morisco</desc>
             </trait>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
           </person>
           <person xml:id="cadí" sex="MALE">
             <persName>Cadí</persName>
             <trait source="castlist">
-              <desc>morisco viejo</desc>
+              <desc>morisco</desc>
             </trait>
           </person>
           <person xml:id="mendoza" sex="MALE">
             <persName>Don Juan de Mendoza</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>noble</desc>
             </trait>
           </person>
           <person xml:id="don-juan" sex="MALE">
             <persName>El Señor Don Juan de Austria</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>hermano</desc>
             </trait>
           </person>
           <person xml:id="don-lope" sex="MALE">
             <persName>Don Lope de Figueroa</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>general</desc>
             </trait>
           </person>
@@ -90,13 +90,13 @@
           </person>
           <person xml:id="doña-isabel" sex="FEMALE">
             <persName>Doña Isabel Tuzaní</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>hermana</desc>
             </trait>
           </person>
           <person xml:id="doña-clara" sex="FEMALE">
             <persName>Doña Clara Malec</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>hija</desc>
             </trait>
           </person>
@@ -150,10 +150,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia histórica</term>
-          <term source="kroll" type="main">comedia histórica</term>
+          <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

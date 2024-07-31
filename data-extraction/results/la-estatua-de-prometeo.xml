@@ -45,9 +45,7 @@
           </person>
           <person xml:id="timantes" sex="MALE">
             <persName>Timantes</persName>
-            <trait source="castlist">
-              <desc>barba</desc>
-            </trait>
+            <trait source="castlist"/>
           </person>
           <person xml:id="merlín" sex="MALE">
             <persName>Merlín</persName>
@@ -60,25 +58,25 @@
           </person>
           <person xml:id="minerva" sex="FEMALE">
             <persName>Minerva</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>diosa</desc>
             </trait>
           </person>
           <person xml:id="palas" sex="FEMALE">
             <persName>Palas</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>diosa</desc>
             </trait>
           </person>
           <person xml:id="discordia" sex="FEMALE">
             <persName>Discordia</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>hija</desc>
             </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
             <persName>Libia</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>villana</desc>
             </trait>
           </person>
@@ -102,10 +100,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia mitológica</term>
-          <term source="kroll" type="main">comedia mitológica</term>
+          <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

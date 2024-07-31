@@ -28,25 +28,25 @@
         <listPerson>
           <person xml:id="sigismundo" sex="MALE">
             <persName>Sigismundo</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>galán</desc>
             </trait>
           </person>
           <person xml:id="casimiro" sex="MALE">
             <persName>Casimiro</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>duque</desc>
             </trait>
           </person>
           <person xml:id="federico" sex="MALE">
             <persName>Federico</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
           </person>
           <person xml:id="roberto" sex="MALE">
             <persName>Roberto</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>traidor</desc>
             </trait>
           </person>
@@ -58,25 +58,25 @@
           </person>
           <person xml:id="turín" sex="MALE">
             <persName>Turín</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
           </person>
           <person xml:id="auristela" sex="FEMALE">
             <persName>Auristela</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>hermana</desc>
             </trait>
           </person>
           <person xml:id="cristerna" sex="FEMALE">
             <persName>Cristerna</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>reina</desc>
             </trait>
           </person>
           <person xml:id="lesbia" sex="FEMALE">
             <persName>Lesbia</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
           </person>
@@ -106,10 +106,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia histórica</term>
-          <term source="kroll" type="main">comedia histórica</term>
+          <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

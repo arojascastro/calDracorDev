@@ -39,7 +39,7 @@
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
           </person>
@@ -93,19 +93,19 @@
           </person>
           <person xml:id="estela" sex="FEMALE">
             <persName>Estela</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
             <persName>Fabio</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
           </person>
           <person xml:id="nise" sex="FEMALE">
             <persName>Nise</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
           </person>
@@ -117,10 +117,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
-          <term source="kroll" type="main">comedia novelesca y caballeresca</term>
+          <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

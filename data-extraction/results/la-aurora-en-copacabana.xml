@@ -35,19 +35,19 @@
           </person>
           <person xml:id="yupanguí" sex="MALE">
             <persName>Yupanguí</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>noble</desc>
             </trait>
           </person>
           <person xml:id="glauca" sex="MALE">
             <persName>Glauca</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
           </person>
           <person xml:id="tucapel" sex="MALE">
             <persName>Tucapel</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
           </person>
@@ -56,14 +56,14 @@
           </person>
           <person xml:id="guacolda" sex="FEMALE">
             <persName>Guacolda</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>sacerdotisa</desc>
             </trait>
           </person>
           <person xml:id="idolatría" sex="FEMALE">
             <persName>La Idolatría</persName>
-            <trait source="calderondigital">
-              <desc>deidad</desc>
+            <trait source="#calderondigital">
+              <desc>diosa</desc>
             </trait>
           </person>
           <personGrp xml:id="unos-indios" sex="MALE">
@@ -71,7 +71,7 @@
           </personGrp>
           <person xml:id="un-indio-llamado-andrés" sex="MALE">
             <persName>Un Indio Llamado Andrés</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>jaíra</desc>
             </trait>
           </person>
@@ -89,7 +89,7 @@
           </person>
           <person xml:id="pizarro" sex="MALE">
             <persName>Pizarro</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>general</desc>
             </trait>
           </person>
@@ -146,10 +146,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">drama religioso</term>
-          <term source="kroll" type="main">comedia religiosa</term>
+          <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

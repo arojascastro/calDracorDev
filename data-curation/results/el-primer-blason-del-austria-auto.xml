@@ -1,99 +1,5 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000206" xml:lang="esp">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">El primer blasón del Austria</title>
-        <title type="sub"/>
-        <author cert="medium"><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname>(attrib.)</persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
-        <respStmt>
-          <resp>Data curation (cleaning, normalization and scene division)</resp>
-          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <authority>University of Vienna, Institute of Romance Languages and Literatures</authority>
-        <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2022-01-12"><time when="14:08:14"/></date>
-        <idno type="quadramaX">El primer blasón del Austria</idno>
-        <availability>
-          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra/el-primer-blason-del-austria--0/</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de Victoriano Roncero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN: 3-931887-04-9.</title></bibl></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person sex="FEMALE" xml:id="iglesia">
-            <persName>Iglesia</persName>
-          </person>
-          <person sex="MALE" xml:id="san-miguel">
-            <persName>San Miguel</persName>
-          </person>
-          <person sex="MALE" xml:id="hornos">
-            <persName>Hornos</persName>
-          </person>
-          <person sex="MALE" xml:id="weimar">
-            <persName>Weimar</persName>
-          </person>
-          <person sex="MALE" xml:id="fabricio">
-            <persName>Fabricio</persName>
-          </person>
-          <person sex="MALE" xml:id="rey">
-            <persName>Rey</persName>
-            <trait resp="#rojas">
-              <desc>rey</desc>
-            </trait>
-          </person>
-          <person sex="MALE" xml:id="infante">
-            <persName>Infante</persName>
-          </person>
-          <person sex="MALE" xml:id="teutonico">
-            <persName>Teutónico</persName>
-          </person>
-          <person sex="MALE" xml:id="galaso">
-            <persName>Galaso</persName>
-          </person>
-          <person sex="MALE" xml:id="leganes">
-            <persName>Leganés</persName>
-          </person>
-          <person sex="MALE" xml:id="idiaquez">
-            <persName>Idiáquez</persName>
-          </person>
-          <person sex="MALE" xml:id="rivera">
-            <persName>Rivera</persName>
-          </person>
-          <person sex="FEMALE" xml:id="reina">
-            <persName>Reina</persName>
-            <trait resp="#rojas">
-              <desc>reina</desc>
-            </trait>
-          </person>
-        </listPerson>
-      </particDesc>
-      <textClass>
-        <keywords>
-          <term source="dracor" type="genreTitle">auto sacramental</term>
-          <term source="#kroll" type="main">auto sacramental</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
-        </taxonomy>
-      </classDecl>
-      <classDecl>
-        <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-  </teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000206" xml:lang="esp">
+  <teiHeader><fileDesc><titleStmt><title type="main">El primer blasón del Austria</title><title type="sub"/><author cert="medium"><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname>(attrib.)</persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Vienna, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2022-01-12"><time when="14:08:14"/></date><idno type="quadramaX">El primer blasón del Austria</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra/el-primer-blason-del-austria--0/</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de Victoriano Roncero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN: 3-931887-04-9.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person sex="FEMALE" xml:id="iglesia"><persName>Iglesia</persName></person><person sex="MALE" xml:id="san-miguel"><persName>San Miguel</persName></person><person sex="MALE" xml:id="hornos"><persName>Hornos</persName></person><person sex="MALE" xml:id="weimar"><persName>Weimar</persName></person><person sex="MALE" xml:id="fabricio"><persName>Fabricio</persName></person><person sex="MALE" xml:id="rey"><persName>Rey</persName><trait resp="#rojas"><desc>rey</desc></trait></person><person sex="MALE" xml:id="infante"><persName>Infante</persName></person><person sex="MALE" xml:id="teutonico"><persName>Teutónico</persName></person><person sex="MALE" xml:id="galaso"><persName>Galaso</persName></person><person sex="MALE" xml:id="leganes"><persName>Leganés</persName></person><person sex="MALE" xml:id="idiaquez"><persName>Idiáquez</persName></person><person sex="MALE" xml:id="rivera"><persName>Rivera</persName></person><person sex="FEMALE" xml:id="reina"><persName>Reina</persName><trait resp="#rojas"><desc>reina</desc></trait></person></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1717">
@@ -127,1080 +33,969 @@
         <castItem>REINA</castItem>
       </castList>
     </front>
-    <body>
-      <div type="act">
-        <div type="scene" resp="#rojas" n="1">
-          <stage>Aparece con música la IGLESIA en un bofetón, con Cáliz y Hostia</stage>
-          <sp who="#iglesia">
-            <speaker>IGLESIA</speaker>
-            <l>Dulcísimo esposo mío,</l>
-            <l>soberano Rey eterno,</l>
-            <l>a quien cantan «santo, santo»</l>
-            <l>los coros de tu luz llenos</l>
-            <l n="5">desde el inmóvil impíreo</l>
-            <l>eternamente atendiendo</l>
-            <l>al decoro de tu iglesia,</l>
-            <l>a mi amparo, a mi consuelo,</l>
-            <l>lleguen hoy al sacro trono</l>
-            <l n="10">de tu majestad envueltos</l>
-            <l>mis suspiros y mi llanto</l>
-            <l>en humos de sacro incienso.</l>
-            <l>Bien sabes, señor, bien sabes,</l>
-            <l>los agravios que padezco,</l>
-            <l n="15">las sin razones que sufro</l>
-            <l>y los rigores que siento;</l>
-            <l>Roma tiembla, que es alcázar</l>
-            <l>adonde tengo mi asiento,</l>
-            <l>fundado por esas manos</l>
-            <l n="20">en la firmeza de Pedro.</l>
-            <l>Inundaciones de herejes</l>
-            <l>combaten mi pobre leño,</l>
-            <l>que, sin perder el timón,</l>
-            <l>mira al norte verdadero.</l>
-            <l n="25">Weimar tala poderoso</l>
-            <l>con el campo del soeco,</l>
-            <l>y con cuantos alemanes</l>
-            <l>engaña el falso Lutero,</l>
-            <l>las católicas provincias,</l>
-            <l n="30">a saco, a sangre y a fuego,</l>
-            <l>ejecutando crueldades,</l>
-            <l>cometiendo sacrilegios,</l>
-            <l>con tan continuas victorias,</l>
-            <l>con ejército tan grueso</l>
-            <l n="35">que se promete de Roma</l>
-            <l>triunfar después del imperio.</l>
-            <l>El rey de Hungría, Fernando,</l>
-            <l>está en gran peligro puesto,</l>
-            <l>pollo del nido imperial,</l>
-            <l n="40">águila del sol espejo;</l>
-            <l>no permitáis que se pierda</l>
-            <l>este joven, que yo espero,</l>
-            <l>capitán y defensor</l>
-            <l>de mi católico celo,</l>
-            <l n="45">eterna sabiduría</l>
-            <l>con vuestro poder inmenso:</l>
-            <l>levantad otro David</l>
-            <l>contra aqueste filisteo;</l>
-            <l>enviad de vuestra mano</l>
-            <l n="50">el socorro y el remedio.</l>
-            <l>Librad de este faraón</l>
-            <l>a vuestro afligido pueblo,</l>
-            <l>pues librastes a Betulia</l>
-            <l>de Holofernes, monstro fiero,</l>
-            <l n="55">y por su llanto a Ezequías</l>
-            <l>de Senaquerib soberbio.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
-          <stage>Al son de música sale en otro bofetón el arcángel SAN MIGUEL</stage>
-          <sp who="#san-miguel">
-            <speaker>SAN MIGUEL</speaker>
-            <l>Llegaron tus oraciones,</l>
-            <l>Iglesia, al impíreo asiento</l>
-            <l>y esos globos de zafiros</l>
-            <l n="60">taladraron y rompieron;</l>
-            <l>yo te vengo a referir</l>
-            <l>provisiones del acuerdo,</l>
-            <l>a tu ruego despachadas</l>
-            <l>del consistorio supremo.</l>
-            <l n="65">La casa de Austria, oprimida,</l>
-            <l>tiene un hereje blasfemo</l>
-            <l>que habla mal y siente mal</l>
-            <l>de tu mayor sacramento,</l>
-            <l>la casa de Austria, que siempre</l>
-            <l n="70">rindió el católico pecho</l>
-            <l>a la debida obediencia</l>
-            <l>de la fe, digno trofeo,</l>
-            <l>y en tan santa devoción</l>
-            <l>el maravilloso ejemplo</l>
-            <l n="75">que en el cielo y en la tierra</l>
-            <l>alcanza divinos premios.</l>
-            <l>Por esto, la casa de Austria</l>
-            <l>tiene brillando y luciendo</l>
-            <l>tu púrpura y el arnés</l>
-            <l n="80">que en tu defensa se ha puesto</l>
-            <l>otro Fernando glorioso,</l>
-            <l>arzobispo de Toledo,</l>
-            <l>hermano del rey Felipe,</l>
-            <l>de tantas provincias dueño,</l>
-            <l n="85">que ya ha salido del nido</l>
-            <l>imperial, alzando el vuelo,</l>
-            <l>a que el sol le reconozca</l>
-            <l>por águila del imperio.</l>
-            <l>Despídense los hermanos</l>
-            <l n="90">en el encumbrado cerro</l>
-            <l>de Montserrate sagrado,</l>
-            <l>atlante del mejor cielo;</l>
-            <l>embárcase en Barcelona</l>
-            <l>ya con militar estruendo</l>
-            <l n="95">en las galeras de España</l>
-            <l>y del siciliano reino;</l>
-            <l>el marqués de Villafranca</l>
-            <l>y el del Viso le sirvieron,</l>
-            <l>que son de estas dos armadas</l>
-            <l n="100">dos generales perfectos;</l>
-            <l>llega a Italia, y le reciben</l>
-            <l>todos dentro de sus pechos,</l>
-            <l>que roba los corazones,</l>
-            <l>noble, agradable y discreto.</l>
-            <l n="105">Previene gente en Milán</l>
-            <l>sin la que le va siguiendo,</l>
-            <l>levanta caballería,</l>
-            <l>coroneles y tercios,</l>
-            <l>llamado del rey de Hungría,</l>
-            <l n="110">que es su ejército pequeño,</l>
-            <l>y el de Weimar muy pujante</l>
-            <l>de bravos soldados viejos.</l>
-            <l>El húngaro a Nördlingen</l>
-            <l>tiene sitiado y estrecho,</l>
-            <l n="115">fortificando cuarteles</l>
-            <l>para sus alojamientos.</l>
-            <l>¡Guárdate, Weimar, que llega</l>
-            <l>Fernando, rayo del cielo,</l>
-            <l>que el monte de tu soberbia</l>
-            <l n="120">ha de volver polvo y viento!</l>
-            <l>Iglesia santa, confía</l>
-            <l>y porfía en dulces ruegos,</l>
-            <l>porque venza tu oración,</l>
-            <l>y de Fernando el esfuerzo,</l>
-            <l n="125">que la devoción que tiene</l>
-            <l>al soberano misterio</l>
-            <l>del Cáliz y de la Hostia</l>
-            <l>le ha de dar mil vencimientos,</l>
-            <l>que Jerusalén le aguarda</l>
-            <l n="130">otro segundo Grofedo</l>
-            <l>y hace temblar ambos polos</l>
-            <l>el resplandor de su acero.</l>
-          </sp>
-          <sp who="#iglesia">
-            <speaker>IGLESIA</speaker>
-            <l>Ya me vuelvo a mi oración,</l>
-            <l>llena de gozo y consuelo.</l>
-            <l n="135">Miguel, mi amparo y custodia,</l>
-            <l>en tus manos me encomiendo.</l>
-          </sp>
-          <sp who="#san-miguel">
-            <speaker>SAN MIGUEL</speaker>
-            <l>Iglesia de Dios, adiós,</l>
-            <l>que yo a los cielos me vuelvo,</l>
-            <l>adonde tendrá Fernando</l>
-            <l n="140">el socorro verdadero.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage>Vanse. Salen WEIMAR, HORNOS, GUSTAVO y GRANZ</stage>
-          <sp who="#hornos">
-            <speaker>HORNOS</speaker>
-            <l>Gran duque de Weimar, rayo encendido,</l>
-            <l>vengador de la muerte de tu tío,</l>
-            <l>cuya vida ha costado tanto precio</l>
-            <l>como lo mereció su heroico brío.</l>
-            <l n="145">¿Quién se puede oponer con valor necio</l>
-            <l>a tu valiente ejército y el mío?</l>
-            <l>pues temeroso vemos cada día</l>
-            <l>el campo rehusar el rey de Hungría;</l>
-            <l>si cerca a Nördlingen, se ha defendido.</l>
-            <l n="150">Pólvora le metiste y municiones,</l>
-            <l>y de gentes está fortalecido</l>
-            <l>sin causa de temer sus invasiones;</l>
-            <l>a la batalla provocado ha sido</l>
-            <l>el húngaro en diversas ocasiones;</l>
-            <l n="155">luego temor tiene y acobarda</l>
-            <l>quien sus alojamientos sólo guarda.</l>
-          </sp>
-          <sp who="#weimar">
-            <speaker>WEIMAR</speaker>
-            <l>Hornos y Granz, valientes capitanes</l>
-            <l>con cuya generosa compañía</l>
-            <l>desplegaré mis nobles tafetanes,</l>
-            <l n="160">aeiou</l>
-            <l>honor de los soecos y alemanes,</l>
-            <l>que han probado mejor su valentía,</l>
-            <l>que presto rendiréis a cautiverio</l>
-            <l>las águilas sagradas del imperio.</l>
-            <l n="165">Vamos a Nördlingen, no a socorrella,</l>
-            <l>que está bastantemente socorrida;</l>
-            <l>no a descercalla, no, ni a defendella,</l>
-            <l>sino a quitar al húngaro la vida,</l>
-            <l>que como sigo mi marcial estrella</l>
-            <l n="170">que a mayores victorias me convida,</l>
-            <l>de que el húngaro asista ya me corro,</l>
-            <l>a cercar la ciudad que yo hoy socorro;</l>
-            <l>en sus alojamientos encerrado</l>
-            <l>hace razón de Estado lo que es miedo;</l>
-            <l n="175">pues verá, si el palenque y estacado</l>
-            <l>le defiende a mi cólera y denuedo,</l>
-            <l>que mis valientes armas no ha probado,</l>
-            <l>aunque ya reconoce lo que puedo</l>
-            <l>en tantas leguas de ganada tierra,</l>
-            <l n="180">que le poseo en tan sangrienta guerra.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
-          <stage>Sale FABRICIO</stage>
-          <sp who="#fabricio">
-            <speaker>FABRICIO</speaker>
-            <l>Este hipogrifo con alas</l>
-            <l>aeiou</l>
-            <l>que ahora dejo rendido</l>
-            <l>en esa florida margen;</l>
-            <l n="185">he corrido algunas millas</l>
-            <l>sólo por venir a darte</l>
-            <l>un aviso, que en la guerra</l>
-            <l>suele ser tan importante.</l>
-            <l>El infante don Fernando</l>
-            <l n="190">(que españoles llaman Marte),</l>
-            <l>hermano del rey Felipe,</l>
-            <l>iba a socorrer a Flandes,</l>
-            <l>y del húngaro avisado</l>
-            <l>viene con él a juntarse</l>
-            <l n="195">trayendo lucida gente</l>
-            <l>y bizarros capitanes,</l>
-            <l>de infantería española</l>
-            <l>dos tercios inexpugnables,</l>
-            <l>napolitanos nombrados,</l>
-            <l n="200">borgoñones y alemanes.</l>
-            <l>Por eso vine, señor,</l>
-            <l>antes que acometas, antes</l>
-            <l>que embistas solo al de Hungría</l>
-            <l>y acompañado le halles</l>
-            <l n="205">de italianos y españoles.</l>
-            <l>Son gente tan arrogante</l>
-            <l>que rabian ya por llegar</l>
-            <l>donde mueran o te maten.</l>
-          </sp>
-          <sp who="#weimar">
-            <speaker>WEIMAR</speaker>
-            <l>Calla, cobarde, no quieras</l>
-            <l n="210">que mi paciencia se agravie.</l>
-            <l>¡Pluguiera a Dios que del orbe</l>
-            <l>las cabezas se juntasen,</l>
-            <l>para que juntas, de un golpe</l>
-            <l>divididas por el aire,</l>
-            <l n="215">postradas entre mis plantas,</l>
-            <l>mi sed de su sangre aplaque!</l>
-            <l>Ese, que celebran tanto</l>
-            <l>por soldado y arrogante,</l>
-            <l>¿es más que un polluelo tierno,</l>
-            <l n="220">que ahora del nido sale</l>
-            <l>a examinarse en los rayos</l>
-            <l>de mi sol para abrasarse,</l>
-            <l>y buscar su atrevimiento</l>
-            <l>sus precipicios fatales;</l>
-            <l n="225">sino es que con la nobleza,</l>
-            <l>heredada de sus padres,</l>
-            <l>venga ya diestro en las lides</l>
-            <l>sin ejercitar examen?</l>
-            <l>¿Qué gente puede traer,</l>
-            <l n="230">puesto que a Flandes pasase,</l>
-            <l>adonde tiene más fuerza</l>
-            <l>que tendrá por estas partes?</l>
-          </sp>
-          <sp who="#hornos">
-            <speaker>HORNOS</speaker>
-            <l>Cuatro o cinco mil descalzos</l>
-            <l>que ni la milicia saben,</l>
-            <l n="235">y si algunos la ejercitan</l>
-            <l>es con desnudos alardes.</l>
-            <l>Y a poco tiempo que esperes</l>
-            <l>tendrás número más grande,</l>
-            <l>que ya a nuestro campo marcha</l>
-            <l n="240">el socorro del Ringrave.</l>
-          </sp>
-          <sp who="#weimar">
-            <speaker>WEIMAR</speaker>
-            <l>Hornos valiente, ¿eso dices?</l>
-            <l>¿Agora quieres que aguarde</l>
-            <l>cuando de cólera rabio</l>
-            <l>y reviento de coraje?</l>
-            <l n="245">Hoy veré los españoles</l>
-            <l>que mañana he de almorzarme,</l>
-            <l>que aún no tengo en todos ellos</l>
-            <l>para mi sed y mi hambre,</l>
-            <l>y ese Infante Cardenal</l>
-            <l n="250">haré que tiemble y se espante,</l>
-            <l>y que huya de mi vista,</l>
-            <l>y, si arrogante esperare,</l>
-            <l>átomos indivisibles,</l>
-            <l>que apenas puedan juntarse,</l>
-            <l n="255">le haré a tajos y reveses,</l>
-            <l>si se volviere gigante.</l>
-            <l>¡Suene el clarín alentado</l>
-            <l>y toque a marchar el parche,</l>
-            <l>que la dilación ofende</l>
-            <l n="260">de lo que tardo en vengarme!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage>Vanse. Salen por una puerta el REY DE HUNGRÍA, el MAESTRO TEUTÓNICO, GALASO, PICOLOMINI, y por la otra el INFANTE CARDENAL, el de LEGANÉS, DON MARTÍN IDIÁQUEZ, y RIVERA, soldado, al son de cajas y clarines</stage>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Vuestra alteza, señor, sea bien venido.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Y vuestra majestad muy bien hallado.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Mi deseo con verle se ha cumplido.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>El mío con mirarle se ha logrado.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l n="265">De todo el mundo me veré temido</l>
-            <l>con tal hermano y tal amigo al lado;</l>
-            <l>desde hoy ya desestimo, ya desprecio</l>
-            <l>las arrogantes armas del soecio.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Meréceos mi deseo esos favores.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l n="270">¡Oh, gran Fernando!, honor de los mayores</l>
-            <l>vuestros, cuya grandeza</l>
-            <l>coronó de laureles su cabeza,</l>
-            <l>que, sobre sacra púrpura vestido</l>
-            <l>el arnés de la fe resplandeciente,</l>
-            <l n="275">desde España has corrido</l>
-            <l>tantas provincias de diversa gente,</l>
-            <l>hecho un Marte cristiano,</l>
-            <l>a quien la religión puso en la mano</l>
-            <l>la católica espada,</l>
-            <l n="280">que presto el hombre asombrará bañada</l>
-            <l>en sangre de esta hidra que vomita,</l>
-            <l>atónito retrato del Cerbero,</l>
-            <l>que ya tiembla los filos de tu acero;</l>
-            <l>con tu venida este cercado muro</l>
-            <l n="285">de Nördlingen, si fuera de diamante,</l>
-            <l>no estuviera seguro.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>¡Oh rey famoso!, a quien la fama cante</l>
-            <l>en brevedad hazañas tan lucidas,</l>
-            <l>que eran bastantes para largas vidas;</l>
-            <l n="290">a aprender me han traído mis deseos</l>
-            <l>en vuestra escuela, glorias y trofeos.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Dadme otra vez los brazos</l>
-            <l>que han de hacer la herejía mil pedazos.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>En los vuestros, la Iglesia soberana,</l>
-            <l n="295">el estoque y la púrpura imperiales</l>
-            <l>ha de poner mañana,</l>
-            <l>merecidas de hazañas inmortales,</l>
-            <l>ya que tenéis mi vida</l>
-            <l>a la Hostia y el Cáliz ofrecida,</l>
-            <l n="300">como al servicio vuestro dedicada.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Cansado llegaréis de esta jornada.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Pues he llegado a tiempo, ya descanso,</l>
-            <l>que por Dios y por vos nunca descanso.</l>
-          </sp>
-          <sp who="#teutonico">
-            <speaker>TEUTÓNICO</speaker>
-            <l>Dé la mano vuestra alteza</l>
-            <l n="305">al teutónico maestre;</l>
-            <l>aeiou</l>
-            <l>mi amor a tanta nobleza.</l>
-          </sp>
-          <sp who="#galaso">
-            <speaker>GALASO</speaker>
-            <l>A Galaso vuestra alteza</l>
-            <l>le dé su mano a besar.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l n="310">Siempre he sabido estimar</l>
-            <l>vuestra heroica fortaleza.</l>
-          </sp>
-          <sp who="#leganes">
-            <speaker>LEGANÉS</speaker>
-            <l>Dele vuestra majestad</l>
-            <l>al marqués de Leganés</l>
-            <l part="I">la mano.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l part="F">Noble marqués,</l>
-            <l n="315">pecho y brazos ocupad.</l>
-          </sp>
-          <sp who="#idiaquez">
-            <speaker>IDIÁQUEZ</speaker>
-            <l>Don Martín Idiáquez llega</l>
-            <l>por vuestra mano, señor.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>¡Oh vizcaíno valor</l>
-            <l>que los rayos del sol ciega!</l>
-            <l n="320">De tan valientes soldados,</l>
-            <l>de tan bravos capitanes</l>
-            <l>temblarán los alemanes</l>
-            <l>herejes y rebelados.</l>
-            <l>Ya me prometo victoria</l>
-            <l n="325">seguramente con tales</l>
-            <l>defensores imperiales</l>
-            <l>que a España dan tanta gloria.</l>
-            <l>¿Qué gente trae vuestra alteza?</l>
-            <l>El número saber quiero,</l>
-            <l n="330">que en lo demás ya yo infiero</l>
-            <l>su valor y fortaleza.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Tres mil caballos armados,</l>
-            <l>diez y siete mil infantes,</l>
-            <l>para el socorro bastantes</l>
-            <l n="335">de través tan apretados;</l>
-            <l>tres tercios de Lombardía</l>
-            <l>y cuatro napolitanos,</l>
-            <l>dos de españoles lozanos</l>
-            <l>de briosa infantería,</l>
-            <l n="340">y traigo dos regimientos</l>
-            <l>de Borgoña; de Alemania</l>
-            <l>otros dos, con capitanes</l>
-            <l>dignos de grandes aumentos;</l>
-            <l>traigo quinientos dragones,</l>
-            <l n="345">caballeros de mi guarda,</l>
-            <l>que ninguno se acobarda</l>
-            <l>de pelear con leones;</l>
-            <l>y por la fe que peleo</l>
-            <l>de nuestra Iglesia romana,</l>
-            <l n="350">que hemos de vencer mañana</l>
-            <l>nuestros enemigos, creo.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Dios a nuestro celo acuda,</l>
-            <l>que así, hermano, lo confío,</l>
-            <l>que vuestro celo es el mío,</l>
-            <l n="355">y Dios a su casa ayuda.</l>
-            <l>Vuestra alteza a sus cuarteles</l>
-            <l>venga y comerá conmigo.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Con tal hermano y amigo</l>
-            <l>vengo a ganar mil laureles.</l>
-          </sp>
-          <sp who="#teutonico">
-            <speaker>TEUTÓNICO</speaker>
-            <l n="360">Vueseñorías también</l>
-            <l>han de ser mis convidados.</l>
-          </sp>
-          <sp who="#idiaquez">
-            <speaker>IDIÁQUEZ</speaker>
-            <l>A serviros obligados.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
-          <stage>Vanse</stage>
-          <sp who="#rivera">
-            <speaker>RIVERA</speaker>
-            <l>Irá Rivera también.</l>
-            <l>De Rivera no hacen caso,</l>
-            <l n="365">porque me ven pobre y roto,</l>
-            <l>mas, ¡voto a Dios!... mas no voto</l>
-            <l>el no, la hambre que paso,</l>
-            <l>que por lo hidalgo pudiera</l>
-            <l>ser al más pintado igual,</l>
-            <l n="370">que ya ha habido general</l>
-            <l>que se ha llamado Rivera.</l>
-            <l>La milicia es religión;</l>
-            <l>paso mal que en casos tales</l>
-            <l>se brinden los generales</l>
-            <l n="375">y ayune este motilón;</l>
-            <l>por comer no se ha de hablar,</l>
-            <l>pero yo no lo sé hacer,</l>
-            <l>que cuando otros veo comer</l>
-            <l>siento mucho el ayunar.</l>
-            <l n="380">Cogeré mi pan y vaca;</l>
-            <l>lo que monte mi ración</l>
-            <l>diré: ¡hágote capón!</l>
-            <l>¡no está la ternera flaca!</l>
-            <l>¡qué sazonado jigote!</l>
-            <l n="385">¡qué gazapo y francolín!</l>
-            <l>Aqueste es vino del Rin</l>
-            <l>y me hacen un brindiscote;</l>
-            <l>yo haré la razón, señor,</l>
-            <l>y beberé en la campaña</l>
-            <l n="390">la salud del rey de España</l>
-            <l>y del propio Emperador.</l>
-            <l>Aquesto es mental historia,</l>
-            <l>engañar el pensamiento,</l>
-            <l>llenar las tripas de viento,</l>
-            <l n="395">y comida de memoria.</l>
-            <l>Mas ¿por qué estoy encogido</l>
-            <l>donde habrá tanto sobrado?</l>
-            <l>¡Oh, lleve el diablo lo honrado</l>
-            <l>en un hombre mal comido!</l>
-            <l n="400">Yo voy a matar la gana</l>
-            <l>si ha quedado algo fiambre,</l>
-            <l>que si hoy mato bien mi hambre</l>
-            <l>mataré herejes mañana.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage>Vase. Salen WEIMAR, HORNOS y GRANZ</stage>
-          <sp who="#hornos">
-            <speaker>HORNOS</speaker>
-            <l>Vengo de reconocer</l>
-            <l n="405">sitio y fortificaciones</l>
-            <l>que ocupan en sus cuarteles</l>
-            <l>alemanes y españoles;</l>
-            <l>dos leguas de nuestros reales,</l>
-            <l>junto a los suyos, un bosque</l>
-            <l n="410">importa mucho ocupar</l>
-            <l>para nuestras pretensiones;</l>
-            <l>ya le ocupan mosqueteros</l>
-            <l>suyos, mas echando golpe</l>
-            <l>de gente le cobraremos</l>
-            <l n="415">con el plomo y con el bronce.</l>
-            <l>Hay también una colina</l>
-            <l>que de por medio se pone,</l>
-            <l>del uno y del otro campo</l>
-            <l>sitio eminente, de donde</l>
-            <l n="420">se pueden batir sus reales</l>
-            <l>hasta que se desaloje,</l>
-            <l>y así importará ocuparla</l>
-            <l>con valor, industria y orden.</l>
-            <l>Ayer la ciudad batieron</l>
-            <l n="425">con bizarros corazones</l>
-            <l>y desembocando el foso</l>
-            <l>nos ganaron una torre,</l>
-            <l>mas recóbrase con fuego</l>
-            <l>que abrasó los borgoñones</l>
-            <l n="430">que la ocupaban, que pocos</l>
-            <l>se escaparon con la noche.</l>
-          </sp>
-          <sp who="#weimar">
-            <speaker>WEIMAR</speaker>
-            <l>Al bosque vaya a cobrarle</l>
-            <l>Biteremberg con mil hombres,</l>
-            <l>y, para darle la mano,</l>
-            <l n="435">Granz con otros mil sajones;</l>
-            <l>a la colina caminen</l>
-            <l>dos regimientos valones,</l>
-            <l>y lo restante del campo,</l>
-            <l>puestos en armas conformes,</l>
-            <l n="440">salga la caballería</l>
-            <l>y marchen los escuadrones,</l>
-            <l>que hoy les pondré esos polluelos</l>
-            <l>pigüelas y capirote,</l>
-            <l>y haré que su atrevimiento</l>
-            <l n="445">sus cortas vidas malogre,</l>
-            <l>que no quiero, si les doy</l>
-            <l>un día más, que ellos se tomen</l>
-            <l>presunciones de vencer</l>
-            <l>sin que yo se las acorte.</l>
-            <l n="450">Verán que soy como el rayo</l>
-            <l>que apenas la nube rompe,</l>
-            <l>como víbora de fuego</l>
-            <l>que baje en cercos veloces,</l>
-            <l>cuando deslumbra y espanta</l>
-            <l n="455">y mata todo de un golpe,</l>
-            <l>que tengo gana de verme</l>
-            <l>ya degollando españoles.</l>
-          </sp>
-          <sp who="#hornos">
-            <speaker>HORNOS</speaker>
-            <l>Pues ¡a embestir la colina!</l>
-          </sp>
-          <sp who="#weimar">
-            <speaker>WEIMAR</speaker>
-            <l>¡Ea! ¡a recobrar el bosque,</l>
-            <l n="460">a presentar la batalla</l>
-            <l>del peso de todo el orbe!</l>
-            <l>¡Resuene el clarín templado,</l>
-            <l>el parche en ecos rimbombe,</l>
-            <l>repetidos de las huecas</l>
-            <l n="465">cavernas de aquesos montes!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
-          <stage>Vanse. Salen el INFANTE, el REY, LEGANÉS, IDIÁQUEZ y DON PEDRO GIRÓN. Suenan clarines y cajas</stage>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>El enemigo soberbio</l>
-            <l>embiste nuestras batallas</l>
-            <l>y nos ganó el bosquecillo</l>
-            <l>que era de tanta importancia.</l>
-            <l n="470">Esta colina conviene</l>
-            <l>defenderla y sustentarla,</l>
-            <l>que en el paso de este día</l>
-            <l>es el fiel de las balanzas.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Aunque está bien guarnecida</l>
-            <l n="475">de gente napolitana</l>
-            <l>con el tercio de Toralto</l>
-            <l>y con el conde de Salma</l>
-            <l>y su tercio, y el de Ubormes</l>
-            <l>de la gente de Alemania,</l>
-            <l n="480">es menester socorrella,</l>
-            <l>que el enemigo la carga.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Con un tercio de españoles</l>
-            <l>don Martín Idiáquez vaya,</l>
-            <l>que su gente es tan valiente</l>
-            <l n="485">que quedará en la campaña</l>
-            <l>antes que perder un paso</l>
-            <l>de este puesto que se guarda.</l>
-          </sp>
-          <sp who="#idiaquez">
-            <speaker>IDIÁQUEZ</speaker>
-            <l>Parto luego a obedecerte</l>
-            <l>conduciendo mis escuadras.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l n="490">Desde este puesto se miran</l>
-            <l>por la colina y sus faldas</l>
-            <l>embestir el enemigo,</l>
-            <l>y la resistencia honrada</l>
-            <l>que hacen los nuestros ¡Ay cielos,</l>
-            <l n="495">que en los alemanes hallan</l>
-            <l>flaqueza que los retiran</l>
-            <l>de su puesto, los rechazan,</l>
-            <l>que vienen desordenados!</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Hacia aquella parte cargan</l>
-            <l n="500">que defiende don Martín,</l>
-            <l>que, porque no le deshagan</l>
-            <l>sus escuadrones viendo,</l>
-            <l>con las picas los aparta,</l>
-            <l>con las espadas castiga,</l>
-            <l n="505">con la lengua los infama;</l>
-            <l>del bravo Paniguerola</l>
-            <l>y Guasco, los tercios bajan</l>
-            <l>a ayudar a Gambacurta,</l>
-            <l>que lo perdido restaura.</l>
-            <l n="510">El conde Juan Cervellón</l>
-            <l>y Picolomini andan</l>
-            <l>gobernando y restaurando</l>
-            <l>puesto de tanta importancia.</l>
-            <l>Sobre Toralto se arrojan</l>
-            <l n="515">unas escocesas mangas,</l>
-            <l>las más fuertes de Weimar,</l>
-            <l>que los amarillos llaman,</l>
-            <l>¡con qué valor los resiste!</l>
-            <l>¡qué diestro que los rechaza!</l>
-            <l n="520">¡qué notable estrago ha hecho</l>
-            <l>la mosquetería italiana!</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Paniguerola ha caído,</l>
-            <l>y tal que no se levanta.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>¡Oh valiente capitán,</l>
-            <l n="525">laureles te dé la fama!</l>
-            <l>Juan de Orozco, su sargento,</l>
-            <l>gobierna, que también matan</l>
-            <l>a su alférez; buen soldado</l>
-            <l>es Orozco, ¡qué bien anda,</l>
-            <l n="530">cómo gobierna y embiste,</l>
-            <l>y parte del bosque gana!</l>
-            <l>Con los españoles tiene</l>
-            <l>Weimar tema temeraria,</l>
-            <l>que son de diamantes pienso,</l>
-            <l n="535">o rocas que bate el agua.</l>
-            <l>El gran duque de Lorena</l>
-            <l>hacia la colina marcha,</l>
-            <l>que es general de la Liga</l>
-            <l>Católica de Alemania,</l>
-            <l n="540">¡qué valeroso pelea!</l>
-            <l>¡qué sangrienta que se ataca</l>
-            <l>la porfiada escaramuza</l>
-            <l>y rigurosa batalla!</l>
-            <l>¡cuál juega la artillería!</l>
-          </sp>
-          <sp who="#leganes">
-            <speaker>LEGANÉS</speaker>
-            <l n="545">A Yaso mató una bala</l>
-            <l>al lado de vuestra alteza.</l>
-            <l>Su vida importa guardarla</l>
-            <l>que con esto la vitoria</l>
-            <l>nos dará el cielo más llana.</l>
-            <l n="550">Su alteza deje este puesto</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Cuando miro tan trabada</l>
-            <l>la guerra por tantas partes,</l>
-            <l>y los campos de esmeralda</l>
-            <l>hechos jaspe con la sangre</l>
-            <l n="555">española y italiana</l>
-            <l>¿queréis que yo me retire?</l>
-            <l>Señor, esta es vuestra causa;</l>
-            <l>bien sabéis que yo defiendo</l>
-            <l>vuestra ley divina y santa,</l>
-            <l n="560">vuestra verdadera fe,</l>
-            <l>y vuestra Iglesia romana;</l>
-            <l>¡ayudadme aqueste día</l>
-            <l>a que se rompa y deshaga</l>
-            <l>el poder de los herejes</l>
-            <l n="565">que la afligen y maltratan!</l>
-            <l>¡Rey don Fernando, embistamos!</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Dios nos ayuda y ampara</l>
-            <l>¡a ellos!, que de este modo</l>
-            <l>nuestra vitoria se allana.</l>
-            <l n="570">¡San Esteban, pues, y a ellos!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
-          <stage>Vanse. Suena ruido de artillería; salen acuchillándose. Y luego sale RIVERA con un hereje a cuestas</stage>
-          <sp who="#rivera">
-            <speaker>RIVERA</speaker>
-            <l>Mientras siguen el alcance,</l>
-            <l>mientras la vitoria cantan,</l>
-            <l>de este hereje los despojos,</l>
-            <l>que he ganado con mi espada,</l>
-            <l n="575">quiero ver y recoger,</l>
-            <l>por si hay oro o por si hay plata.</l>
-            <l>En aquesta faltriquera</l>
-            <l>tiene una bolsa pesada.</l>
-            <l>¡Yo he cogido linda presa!,</l>
-            <l n="580">mas, ¡vive Dios!, que son balas;</l>
-            <l>Bercebú lleve la fruta</l>
-            <l>que es buena para tirada;</l>
-            <l>en esta otra faltriquera</l>
-            <l>trae una cosa tan larga</l>
-            <l n="585">¡ay! que es hueso de tocino,</l>
-            <l>aunque con poca substancia.</l>
-            <l>Con esto, que al apetito</l>
-            <l>suele servir de mostaza,</l>
-            <l>gastó el hereje esta bota</l>
-            <l n="590">que casi no tiene nada;</l>
-            <l>apárola, y vuelvo a ver</l>
-            <l>si hallo mayores ganancias,</l>
-            <l>que cuando a todos les sobra</l>
-            <l>a un desdichado le falta.</l>
-            <l n="595">¡Vive Dios!, que he peleado</l>
-            <l>con desesperada rabia,</l>
-            <l>y en bañando aquestos campos</l>
-            <l>de la sangre rebelada,</l>
-            <l>al lado de don Martín</l>
-            <l n="600">Idiáquez (cuyas hazañas</l>
-            <l>han restaurado perdida</l>
-            <l>la vitoria que hoy se gana),</l>
-            <l>cuando astuto y valeroso</l>
-            <l>a su tercio ordena y manda</l>
-            <l n="605">que no dispare ninguno,</l>
-            <l>y al tirarles se agazapan</l>
-            <l>y dispara el enemigo,</l>
-            <l>por alto las balas pasan,</l>
-            <l>y luego disparan todos,</l>
-            <l n="610">que no se perdió una bala,</l>
-            <l>enflaqueciendo a Weimar</l>
-            <l>ver tan extraña matanza,</l>
-            <l>que van los cuerpos rodando</l>
-            <l>desde aquestas cumbres altas</l>
-            <l n="615">en los raudales crecidos</l>
-            <l>de la sangre que derraman.</l>
-            <l>Dios sabe cómo he servido</l>
-            <l>que para mi premio basta,</l>
-            <l>pues un don Diego de Bustos,</l>
-            <l n="620">sargento mayor, que tanta</l>
-            <l>opinión gana este día,</l>
-            <l>después de tantas hazañas</l>
-            <l>que con mortales heridas</l>
-            <l>dijo, ya en la boca el alma:</l>
-            <l n="625">«dichoso yo, pues que muero</l>
-            <l>donde tanto honor se gana».</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage>Vase. Salen como primero SAN MIGUEL y la IGLESIA</stage>
-          <sp who="#san-miguel">
-            <speaker>SAN MIGUEL</speaker>
-            <l>Ahora sí militante</l>
-            <l>Iglesia, triunfante Roma,</l>
-            <l>de tus fieros enemigos</l>
-            <l n="630">has de quedar vitoriosa,</l>
-            <l>deshechas y consumidas</l>
-            <l>ya las heréticas tropas,</l>
-            <l>anulado su poder,</l>
-            <l>y todas sus fuerzas rotas,</l>
-            <l n="635">porque la mano de Dios</l>
-            <l>obra siempre vencedora</l>
-            <l>en los dos Fernandos que</l>
-            <l>son columnas de su honra.</l>
-            <l>El ave de dos cabezas,</l>
-            <l n="640">que a ver el sol se remonta,</l>
-            <l>que a Júpiter administra</l>
-            <l>sus venganzas tronadoras</l>
-            <l>han sido estos dos mancebos</l>
-            <l>del Austria perlas preciosas,</l>
-            <l n="645">cuyo católico celo</l>
-            <l>les dio tan grande vitoria,</l>
-            <l>correspondiendo a tus ruegos</l>
-            <l>la suma deidad piadosa.</l>
-            <l>Con estos dos hijos tuyos</l>
-            <l n="650">te asegura y te decora.</l>
-            <l>Enjuga, pues, las mejillas</l>
-            <l>resplandecientes y hermosas</l>
-            <l>que bañó tu sentimiento</l>
-            <l>del rocío del aurora,</l>
-            <l n="655">y con alegre semblante</l>
-            <l>en tus dos hijos te goza,</l>
-            <l>y da a Dios debidas gracias</l>
-            <l>que yo me subo a la gloria,</l>
-            <l>que en la ciudad de Toledo,</l>
-            <l n="660">la más ilustre y famosa,</l>
-            <l>antigua, opulenta y rica</l>
-            <l>de los límites de Europa,</l>
-            <l>en su santa iglesia (que es</l>
-            <l>de nuestro Fernando esposa)</l>
-            <l n="665">tan honrada de las plantas</l>
-            <l>de mi reina y mi señora,</l>
-            <l>han estado intercediendo,</l>
-            <l>en esta ocasión forzosa,</l>
-            <l>en la Virgen del Sagrario</l>
-            <l n="670">su imagen más viva y propia,</l>
-            <l>su generoso cabildo,</l>
-            <l>su clerecía devota,</l>
-            <l>todo su rebaño, que ama</l>
-            <l>de su infante la persona.</l>
-          </sp>
-          <sp who="#iglesia">
-            <speaker>IGLESIA</speaker>
-            <l n="675">Mil gracias te doy, señor,</l>
-            <l>cuya mano poderosa</l>
-            <l>arma mis amados hijos</l>
-            <l>de corazones de rocas,</l>
-            <l>y el caballo y caballero</l>
-            <l n="680">has sumergido en las ondas</l>
-            <l>de su ciega confusión,</l>
-            <l>de su propia sangre roja.</l>
-            <l>Mercedes son, y favores</l>
-            <l>de esa mano generosa,</l>
-            <l n="685">con que mi pecho respira</l>
-            <l>y mis deseos se logran.</l>
-            <l>Siempre arderá en mis altares</l>
-            <l>las más felices aromas</l>
-            <l>con holocaustos debidos</l>
-            <l n="690">a mi Cáliz y a mi Hostia,</l>
-            <l>de quien es la casa de Austria</l>
-            <l>tan peregrina devota,</l>
-            <l>que por eso la sublima</l>
-            <l>y la ensalza más que a todas.</l>
-            <l n="695">Agradecido el Infante</l>
-            <l>hará que se reconozca,</l>
-            <l>dando en Toledo su iglesia</l>
-            <l>de este suceso memorias,</l>
-            <l>aumentando devoción</l>
-            <l n="700">en cualquiera alma piadosa</l>
-            <l>con las banderas que envía</l>
-            <l>y con la fiesta que dota.</l>
-            <l>El principal estandarte</l>
-            <l>suyo, vencedor, adorna,</l>
-            <l n="705">entre los de los vencidos,</l>
-            <l>esta iglesia victoriosa.</l>
-            <l>Para este tiempo aperciba</l>
-            <l>Febo su ardiente carroza</l>
-            <l>que, a tan nobles vencedores,</l>
-            <l n="710">aún es pequeña lisonja,</l>
-            <l>y la ingrata Damnes forme</l>
-            <l>de sus ramas y sus hojas,</l>
-            <l>para su frente guirnaldas,</l>
-            <l>para su triunfo coronas.</l>
-            <l n="715">Suene el clarín de la Fama,</l>
-            <l>sus veloces alas rompan</l>
-            <l>desde los hielos de Escitia</l>
-            <l>a la abrasada Etiopia,</l>
-            <l>y todo el orbe celebre,</l>
-            <l n="720">en cuanto el sol ciñe y dora,</l>
-            <l>la victoria de este día</l>
-            <l>dando a Dios de ella la gloria.</l>
-          </sp>
-          <sp who="#san-miguel">
-            <speaker>SAN MIGUEL</speaker>
-            <l>Bien lo permite la fe</l>
-            <l>de las armas españolas,</l>
-            <l n="725">que después de Dios han sido</l>
-            <l>de su mano ejecutoras.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
-          <stage>Vanse. Suena dentro: ¡victoria, victoria!, y al son de clarines y cajas, salen el INFANTE, el REY y los demás</stage>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>¡Gran victoria, amado hermano!</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>¡Gran victoria, y muy sangrienta!</l>
-            <l>Poderosos enemigos</l>
-            <l n="730">del todo deshechos quedan.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>¿Qué falta de nuestra gente?</l>
-          </sp>
-          <sp who="#leganes">
-            <speaker>LEGANÉS</speaker>
-            <l>Señor, entre hombres de cuenta,</l>
-            <l>entre heridos y entre muertos</l>
-            <l>a seiscientos hombres llegan;</l>
-            <l n="735">del enemigo se hallan</l>
-            <l>ocho mil en la refriega,</l>
-            <l>nueve mil en el alcance</l>
-            <l>que ha durado cuatro leguas.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Los despojos son gruesos,</l>
-            <l n="740">entran con sesenta piezas</l>
-            <l>de artillería, caballos,</l>
-            <l>armas, municiones, tiendas,</l>
-            <l>y prisioneros los más</l>
-            <l>de las rebeldes cabezas.</l>
-            <l n="745">Sólo Weimar se escapó;</l>
-            <l>Ulma le cerró las puertas</l>
-            <l>y a Ubitembergue pasó</l>
-            <l>en un caballo que vuela.</l>
-            <l>Hanse ganado este día</l>
-            <l n="750">estandartes y banderas</l>
-            <l>en la batalla y alcance,</l>
-            <l>en número de trescientas,</l>
-            <l>que a vuestras plantas, de alfombras</l>
-            <l>sirvan para fama eterna</l>
-            <l n="755">de tan lucido socorro,</l>
-            <l>de amistad tan verdadera.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Enviaré las que he ganado</l>
-            <l>a mi toledana iglesia,</l>
-            <l>a mi esposa, por quien venzo,</l>
-            <l n="760">que a Dios siempre por mí ruega.</l>
-            <l>Don Martín, dadme los brazos.</l>
-            <l>Ser Alejandro quisiera</l>
-            <l>y daros de todo el mundo</l>
-            <l>la mitad, debida deuda</l>
-            <l n="765">a tan bizarro valor.</l>
-          </sp>
-          <sp who="#idiaquez">
-            <speaker>IDIÁQUEZ</speaker>
-            <l>Más estimo a vuestra alteza</l>
-            <l>este favor que mil mundos,</l>
-            <l>y mil vidas que tuviera</l>
-            <l>perderé en vuestro servicio,</l>
-            <l n="770">pues con tal honra me premia.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Valerosos capitanes,</l>
-            <l>la victoria ha sido vuestra</l>
-            <l>y vuestra fama inmortal</l>
-            <l>se rotulará en estrellas.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l n="775">A gozar de la victoria</l>
-            <l>viene mi esposa la reina.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>¡A recibir a mi hermana!</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>Ya con las damas se apea.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
-          <stage>Sale la REINA con las damas</stage>
-          <sp who="#reina">
-            <speaker>REINA</speaker>
-            <l>Parabién de la victoria</l>
-            <l n="780">os doy con lágrimas tiernas</l>
-            <l>de gozo, de veros libre</l>
-            <l>de tan peligrosa empresa.</l>
-            <l>En estas firmes columnas</l>
-            <l>la Cristiandad se sustenta.</l>
-            <l n="785">Palmas, coronas y olivas</l>
-            <l>coronen vuestras cabezas;</l>
-            <l>mis damas también os canten</l>
-            <l>la victoria en dulces letras,</l>
-            <l>como Israel del gigante</l>
-            <l n="790">vencido al pastor profeta.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Hermana y señora mía,</l>
-            <l>vuestra majestad alegra</l>
-            <l>nuestros campos vencedores</l>
-            <l>con su gallarda presencia.</l>
-            <l n="795">Pisé rebeldes despojos,</l>
-            <l>que es bien que a sus pies se ofrezcan,</l>
-            <l>ganados por el valor</l>
-            <l>de su esposo en esta guerra.</l>
-          </sp>
-          <sp who="#rey">
-            <speaker>REY</speaker>
-            <l>El todo de esta victoria</l>
-            <l n="800">sólo ha sido vuestra alteza.</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Dense a Dios iguales gracias</l>
-            <l>en todas nuestras iglesias,</l>
-            <l>y acábese en un sarao</l>
-            <l>de arpas y de vihuelas,</l>
-            <l n="805">porque las damas no canten</l>
-            <l>de Belona las fierezas.</l>
-          </sp>
-          <sp who="#rivera">
-            <speaker>RIVERA</speaker>
-            <l>¿Y a Rivera no dan algo?</l>
-          </sp>
-          <sp who="#infante">
-            <speaker>INFANTE</speaker>
-            <l>Tenga ahora una bandera,</l>
-            <l>y al senado perdón pida,</l>
-            <l n="810">aunque donaire no tenga.</l>
-          </sp>
-          <sp who="#rivera">
-            <speaker>RIVERA</speaker>
-            <l>Por la brevedad del tiempo</l>
-            <l>puede pedir el poeta,</l>
-            <l>en premio de sus deseos,</l>
-            <l>el agrado que os desea.</l>
-            <l n="815">Advertid que es hijo vuestro</l>
-            <l>y, adonde llegan sus fuerzas,</l>
-            <l>os ofrece confiado</l>
-            <l>de que el perdón os merezca.</l>
-          </sp>
-        </div>
-      </div>
-    </body>
+    <body><div type="act"><div type="scene" resp="#rojas" n="1"><stage>Aparece con música la IGLESIA en un bofetón, con Cáliz y Hostia</stage><sp who="#iglesia">
+        <speaker>IGLESIA</speaker>
+        <l>Dulcísimo esposo mío,</l>
+        <l>soberano Rey eterno,</l>
+        <l>a quien cantan «santo, santo»</l>
+        <l>los coros de tu luz llenos</l>
+        <l n="5">desde el inmóvil impíreo</l>
+        <l>eternamente atendiendo</l>
+        <l>al decoro de tu iglesia,</l>
+        <l>a mi amparo, a mi consuelo,</l>
+        <l>lleguen hoy al sacro trono</l>
+        <l n="10">de tu majestad envueltos</l>
+        <l>mis suspiros y mi llanto</l>
+        <l>en humos de sacro incienso.</l>
+        <l>Bien sabes, señor, bien sabes,</l>
+        <l>los agravios que padezco,</l>
+        <l n="15">las sin razones que sufro</l>
+        <l>y los rigores que siento;</l>
+        <l>Roma tiembla, que es alcázar</l>
+        <l>adonde tengo mi asiento,</l>
+        <l>fundado por esas manos</l>
+        <l n="20">en la firmeza de Pedro.</l>
+        <l>Inundaciones de herejes</l>
+        <l>combaten mi pobre leño,</l>
+        <l>que, sin perder el timón,</l>
+        <l>mira al norte verdadero.</l>
+        <l n="25">Weimar tala poderoso</l>
+        <l>con el campo del soeco,</l>
+        <l>y con cuantos alemanes</l>
+        <l>engaña el falso Lutero,</l>
+        <l>las católicas provincias,</l>
+        <l n="30">a saco, a sangre y a fuego,</l>
+        <l>ejecutando crueldades,</l>
+        <l>cometiendo sacrilegios,</l>
+        <l>con tan continuas victorias,</l>
+        <l>con ejército tan grueso</l>
+        <l n="35">que se promete de Roma</l>
+        <l>triunfar después del imperio.</l>
+        <l>El rey de Hungría, Fernando,</l>
+        <l>está en gran peligro puesto,</l>
+        <l>pollo del nido imperial,</l>
+        <l n="40">águila del sol espejo;</l>
+        <l>no permitáis que se pierda</l>
+        <l>este joven, que yo espero,</l>
+        <l>capitán y defensor</l>
+        <l>de mi católico celo,</l>
+        <l n="45">eterna sabiduría</l>
+        <l>con vuestro poder inmenso:</l>
+        <l>levantad otro David</l>
+        <l>contra aqueste filisteo;</l>
+        <l>enviad de vuestra mano</l>
+        <l n="50">el socorro y el remedio.</l>
+        <l>Librad de este faraón</l>
+        <l>a vuestro afligido pueblo,</l>
+        <l>pues librastes a Betulia</l>
+        <l>de Holofernes, monstro fiero,</l>
+        <l n="55">y por su llanto a Ezequías</l>
+        <l>de Senaquerib soberbio.</l>
+      </sp></div><div type="scene" resp="#rojas" n="2"><stage>Al son de música sale en otro bofetón el arcángel SAN MIGUEL</stage><sp who="#san-miguel">
+        <speaker>SAN MIGUEL</speaker>
+        <l>Llegaron tus oraciones,</l>
+        <l>Iglesia, al impíreo asiento</l>
+        <l>y esos globos de zafiros</l>
+        <l n="60">taladraron y rompieron;</l>
+        <l>yo te vengo a referir</l>
+        <l>provisiones del acuerdo,</l>
+        <l>a tu ruego despachadas</l>
+        <l>del consistorio supremo.</l>
+        <l n="65">La casa de Austria, oprimida,</l>
+        <l>tiene un hereje blasfemo</l>
+        <l>que habla mal y siente mal</l>
+        <l>de tu mayor sacramento,</l>
+        <l>la casa de Austria, que siempre</l>
+        <l n="70">rindió el católico pecho</l>
+        <l>a la debida obediencia</l>
+        <l>de la fe, digno trofeo,</l>
+        <l>y en tan santa devoción</l>
+        <l>el maravilloso ejemplo</l>
+        <l n="75">que en el cielo y en la tierra</l>
+        <l>alcanza divinos premios.</l>
+        <l>Por esto, la casa de Austria</l>
+        <l>tiene brillando y luciendo</l>
+        <l>tu púrpura y el arnés</l>
+        <l n="80">que en tu defensa se ha puesto</l>
+        <l>otro Fernando glorioso,</l>
+        <l>arzobispo de Toledo,</l>
+        <l>hermano del rey Felipe,</l>
+        <l>de tantas provincias dueño,</l>
+        <l n="85">que ya ha salido del nido</l>
+        <l>imperial, alzando el vuelo,</l>
+        <l>a que el sol le reconozca</l>
+        <l>por águila del imperio.</l>
+        <l>Despídense los hermanos</l>
+        <l n="90">en el encumbrado cerro</l>
+        <l>de Montserrate sagrado,</l>
+        <l>atlante del mejor cielo;</l>
+        <l>embárcase en Barcelona</l>
+        <l>ya con militar estruendo</l>
+        <l n="95">en las galeras de España</l>
+        <l>y del siciliano reino;</l>
+        <l>el marqués de Villafranca</l>
+        <l>y el del Viso le sirvieron,</l>
+        <l>que son de estas dos armadas</l>
+        <l n="100">dos generales perfectos;</l>
+        <l>llega a Italia, y le reciben</l>
+        <l>todos dentro de sus pechos,</l>
+        <l>que roba los corazones,</l>
+        <l>noble, agradable y discreto.</l>
+        <l n="105">Previene gente en Milán</l>
+        <l>sin la que le va siguiendo,</l>
+        <l>levanta caballería,</l>
+        <l>coroneles y tercios,</l>
+        <l>llamado del rey de Hungría,</l>
+        <l n="110">que es su ejército pequeño,</l>
+        <l>y el de Weimar muy pujante</l>
+        <l>de bravos soldados viejos.</l>
+        <l>El húngaro a Nördlingen</l>
+        <l>tiene sitiado y estrecho,</l>
+        <l n="115">fortificando cuarteles</l>
+        <l>para sus alojamientos.</l>
+        <l>¡Guárdate, Weimar, que llega</l>
+        <l>Fernando, rayo del cielo,</l>
+        <l>que el monte de tu soberbia</l>
+        <l n="120">ha de volver polvo y viento!</l>
+        <l>Iglesia santa, confía</l>
+        <l>y porfía en dulces ruegos,</l>
+        <l>porque venza tu oración,</l>
+        <l>y de Fernando el esfuerzo,</l>
+        <l n="125">que la devoción que tiene</l>
+        <l>al soberano misterio</l>
+        <l>del Cáliz y de la Hostia</l>
+        <l>le ha de dar mil vencimientos,</l>
+        <l>que Jerusalén le aguarda</l>
+        <l n="130">otro segundo Grofedo</l>
+        <l>y hace temblar ambos polos</l>
+        <l>el resplandor de su acero.</l>
+      </sp><sp who="#iglesia">
+        <speaker>IGLESIA</speaker>
+        <l>Ya me vuelvo a mi oración,</l>
+        <l>llena de gozo y consuelo.</l>
+        <l n="135">Miguel, mi amparo y custodia,</l>
+        <l>en tus manos me encomiendo.</l>
+      </sp><sp who="#san-miguel">
+        <speaker>SAN MIGUEL</speaker>
+        <l>Iglesia de Dios, adiós,</l>
+        <l>que yo a los cielos me vuelvo,</l>
+        <l>adonde tendrá Fernando</l>
+        <l n="140">el socorro verdadero.</l>
+      </sp></div><div type="scene" resp="#rojas" n="3"><stage>Vanse. Salen WEIMAR, HORNOS, GUSTAVO y GRANZ</stage><sp who="#hornos">
+        <speaker>HORNOS</speaker>
+        <l>Gran duque de Weimar, rayo encendido,</l>
+        <l>vengador de la muerte de tu tío,</l>
+        <l>cuya vida ha costado tanto precio</l>
+        <l>como lo mereció su heroico brío.</l>
+        <l n="145">¿Quién se puede oponer con valor necio</l>
+        <l>a tu valiente ejército y el mío?</l>
+        <l>pues temeroso vemos cada día</l>
+        <l>el campo rehusar el rey de Hungría;</l>
+        <l>si cerca a Nördlingen, se ha defendido.</l>
+        <l n="150">Pólvora le metiste y municiones,</l>
+        <l>y de gentes está fortalecido</l>
+        <l>sin causa de temer sus invasiones;</l>
+        <l>a la batalla provocado ha sido</l>
+        <l>el húngaro en diversas ocasiones;</l>
+        <l n="155">luego temor tiene y acobarda</l>
+        <l>quien sus alojamientos sólo guarda.</l>
+      </sp><sp who="#weimar">
+        <speaker>WEIMAR</speaker>
+        <l>Hornos y Granz, valientes capitanes</l>
+        <l>con cuya generosa compañía</l>
+        <l>desplegaré mis nobles tafetanes,</l>
+        <l n="160">aeiou</l>
+        <l>honor de los soecos y alemanes,</l>
+        <l>que han probado mejor su valentía,</l>
+        <l>que presto rendiréis a cautiverio</l>
+        <l>las águilas sagradas del imperio.</l>
+        <l n="165">Vamos a Nördlingen, no a socorrella,</l>
+        <l>que está bastantemente socorrida;</l>
+        <l>no a descercalla, no, ni a defendella,</l>
+        <l>sino a quitar al húngaro la vida,</l>
+        <l>que como sigo mi marcial estrella</l>
+        <l n="170">que a mayores victorias me convida,</l>
+        <l>de que el húngaro asista ya me corro,</l>
+        <l>a cercar la ciudad que yo hoy socorro;</l>
+        <l>en sus alojamientos encerrado</l>
+        <l>hace razón de Estado lo que es miedo;</l>
+        <l n="175">pues verá, si el palenque y estacado</l>
+        <l>le defiende a mi cólera y denuedo,</l>
+        <l>que mis valientes armas no ha probado,</l>
+        <l>aunque ya reconoce lo que puedo</l>
+        <l>en tantas leguas de ganada tierra,</l>
+        <l n="180">que le poseo en tan sangrienta guerra.</l>
+      </sp></div><div type="scene" resp="#rojas" n="4"><stage>Sale FABRICIO</stage><sp who="#fabricio">
+        <speaker>FABRICIO</speaker>
+        <l>Este hipogrifo con alas</l>
+        <l>aeiou</l>
+        <l>que ahora dejo rendido</l>
+        <l>en esa florida margen;</l>
+        <l n="185">he corrido algunas millas</l>
+        <l>sólo por venir a darte</l>
+        <l>un aviso, que en la guerra</l>
+        <l>suele ser tan importante.</l>
+        <l>El infante don Fernando</l>
+        <l n="190">(que españoles llaman Marte),</l>
+        <l>hermano del rey Felipe,</l>
+        <l>iba a socorrer a Flandes,</l>
+        <l>y del húngaro avisado</l>
+        <l>viene con él a juntarse</l>
+        <l n="195">trayendo lucida gente</l>
+        <l>y bizarros capitanes,</l>
+        <l>de infantería española</l>
+        <l>dos tercios inexpugnables,</l>
+        <l>napolitanos nombrados,</l>
+        <l n="200">borgoñones y alemanes.</l>
+        <l>Por eso vine, señor,</l>
+        <l>antes que acometas, antes</l>
+        <l>que embistas solo al de Hungría</l>
+        <l>y acompañado le halles</l>
+        <l n="205">de italianos y españoles.</l>
+        <l>Son gente tan arrogante</l>
+        <l>que rabian ya por llegar</l>
+        <l>donde mueran o te maten.</l>
+      </sp><sp who="#weimar">
+        <speaker>WEIMAR</speaker>
+        <l>Calla, cobarde, no quieras</l>
+        <l n="210">que mi paciencia se agravie.</l>
+        <l>¡Pluguiera a Dios que del orbe</l>
+        <l>las cabezas se juntasen,</l>
+        <l>para que juntas, de un golpe</l>
+        <l>divididas por el aire,</l>
+        <l n="215">postradas entre mis plantas,</l>
+        <l>mi sed de su sangre aplaque!</l>
+        <l>Ese, que celebran tanto</l>
+        <l>por soldado y arrogante,</l>
+        <l>¿es más que un polluelo tierno,</l>
+        <l n="220">que ahora del nido sale</l>
+        <l>a examinarse en los rayos</l>
+        <l>de mi sol para abrasarse,</l>
+        <l>y buscar su atrevimiento</l>
+        <l>sus precipicios fatales;</l>
+        <l n="225">sino es que con la nobleza,</l>
+        <l>heredada de sus padres,</l>
+        <l>venga ya diestro en las lides</l>
+        <l>sin ejercitar examen?</l>
+        <l>¿Qué gente puede traer,</l>
+        <l n="230">puesto que a Flandes pasase,</l>
+        <l>adonde tiene más fuerza</l>
+        <l>que tendrá por estas partes?</l>
+      </sp><sp who="#hornos">
+        <speaker>HORNOS</speaker>
+        <l>Cuatro o cinco mil descalzos</l>
+        <l>que ni la milicia saben,</l>
+        <l n="235">y si algunos la ejercitan</l>
+        <l>es con desnudos alardes.</l>
+        <l>Y a poco tiempo que esperes</l>
+        <l>tendrás número más grande,</l>
+        <l>que ya a nuestro campo marcha</l>
+        <l n="240">el socorro del Ringrave.</l>
+      </sp><sp who="#weimar">
+        <speaker>WEIMAR</speaker>
+        <l>Hornos valiente, ¿eso dices?</l>
+        <l>¿Agora quieres que aguarde</l>
+        <l>cuando de cólera rabio</l>
+        <l>y reviento de coraje?</l>
+        <l n="245">Hoy veré los españoles</l>
+        <l>que mañana he de almorzarme,</l>
+        <l>que aún no tengo en todos ellos</l>
+        <l>para mi sed y mi hambre,</l>
+        <l>y ese Infante Cardenal</l>
+        <l n="250">haré que tiemble y se espante,</l>
+        <l>y que huya de mi vista,</l>
+        <l>y, si arrogante esperare,</l>
+        <l>átomos indivisibles,</l>
+        <l>que apenas puedan juntarse,</l>
+        <l n="255">le haré a tajos y reveses,</l>
+        <l>si se volviere gigante.</l>
+        <l>¡Suene el clarín alentado</l>
+        <l>y toque a marchar el parche,</l>
+        <l>que la dilación ofende</l>
+        <l n="260">de lo que tardo en vengarme!</l>
+      </sp></div><div type="scene" resp="#rojas" n="5"><stage>Vanse. Salen por una puerta el REY DE HUNGRÍA, el MAESTRO TEUTÓNICO, GALASO, PICOLOMINI, y por la otra el INFANTE CARDENAL, el de LEGANÉS, DON MARTÍN IDIÁQUEZ, y RIVERA, soldado, al son de cajas y clarines</stage><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Vuestra alteza, señor, sea bien venido.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Y vuestra majestad muy bien hallado.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Mi deseo con verle se ha cumplido.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>El mío con mirarle se ha logrado.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l n="265">De todo el mundo me veré temido</l>
+        <l>con tal hermano y tal amigo al lado;</l>
+        <l>desde hoy ya desestimo, ya desprecio</l>
+        <l>las arrogantes armas del soecio.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Meréceos mi deseo esos favores.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l n="270">¡Oh, gran Fernando!, honor de los mayores</l>
+        <l>vuestros, cuya grandeza</l>
+        <l>coronó de laureles su cabeza,</l>
+        <l>que, sobre sacra púrpura vestido</l>
+        <l>el arnés de la fe resplandeciente,</l>
+        <l n="275">desde España has corrido</l>
+        <l>tantas provincias de diversa gente,</l>
+        <l>hecho un Marte cristiano,</l>
+        <l>a quien la religión puso en la mano</l>
+        <l>la católica espada,</l>
+        <l n="280">que presto el hombre asombrará bañada</l>
+        <l>en sangre de esta hidra que vomita,</l>
+        <l>atónito retrato del Cerbero,</l>
+        <l>que ya tiembla los filos de tu acero;</l>
+        <l>con tu venida este cercado muro</l>
+        <l n="285">de Nördlingen, si fuera de diamante,</l>
+        <l>no estuviera seguro.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>¡Oh rey famoso!, a quien la fama cante</l>
+        <l>en brevedad hazañas tan lucidas,</l>
+        <l>que eran bastantes para largas vidas;</l>
+        <l n="290">a aprender me han traído mis deseos</l>
+        <l>en vuestra escuela, glorias y trofeos.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Dadme otra vez los brazos</l>
+        <l>que han de hacer la herejía mil pedazos.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>En los vuestros, la Iglesia soberana,</l>
+        <l n="295">el estoque y la púrpura imperiales</l>
+        <l>ha de poner mañana,</l>
+        <l>merecidas de hazañas inmortales,</l>
+        <l>ya que tenéis mi vida</l>
+        <l>a la Hostia y el Cáliz ofrecida,</l>
+        <l n="300">como al servicio vuestro dedicada.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Cansado llegaréis de esta jornada.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Pues he llegado a tiempo, ya descanso,</l>
+        <l>que por Dios y por vos nunca descanso.</l>
+      </sp><sp who="#teutonico">
+        <speaker>TEUTÓNICO</speaker>
+        <l>Dé la mano vuestra alteza</l>
+        <l n="305">al teutónico maestre;</l>
+        <l>aeiou</l>
+        <l>mi amor a tanta nobleza.</l>
+      </sp><sp who="#galaso">
+        <speaker>GALASO</speaker>
+        <l>A Galaso vuestra alteza</l>
+        <l>le dé su mano a besar.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l n="310">Siempre he sabido estimar</l>
+        <l>vuestra heroica fortaleza.</l>
+      </sp><sp who="#leganes">
+        <speaker>LEGANÉS</speaker>
+        <l>Dele vuestra majestad</l>
+        <l>al marqués de Leganés</l>
+        <l part="I">la mano.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l part="F">Noble marqués,</l>
+        <l n="315">pecho y brazos ocupad.</l>
+      </sp><sp who="#idiaquez">
+        <speaker>IDIÁQUEZ</speaker>
+        <l>Don Martín Idiáquez llega</l>
+        <l>por vuestra mano, señor.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>¡Oh vizcaíno valor</l>
+        <l>que los rayos del sol ciega!</l>
+        <l n="320">De tan valientes soldados,</l>
+        <l>de tan bravos capitanes</l>
+        <l>temblarán los alemanes</l>
+        <l>herejes y rebelados.</l>
+        <l>Ya me prometo victoria</l>
+        <l n="325">seguramente con tales</l>
+        <l>defensores imperiales</l>
+        <l>que a España dan tanta gloria.</l>
+        <l>¿Qué gente trae vuestra alteza?</l>
+        <l>El número saber quiero,</l>
+        <l n="330">que en lo demás ya yo infiero</l>
+        <l>su valor y fortaleza.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Tres mil caballos armados,</l>
+        <l>diez y siete mil infantes,</l>
+        <l>para el socorro bastantes</l>
+        <l n="335">de través tan apretados;</l>
+        <l>tres tercios de Lombardía</l>
+        <l>y cuatro napolitanos,</l>
+        <l>dos de españoles lozanos</l>
+        <l>de briosa infantería,</l>
+        <l n="340">y traigo dos regimientos</l>
+        <l>de Borgoña; de Alemania</l>
+        <l>otros dos, con capitanes</l>
+        <l>dignos de grandes aumentos;</l>
+        <l>traigo quinientos dragones,</l>
+        <l n="345">caballeros de mi guarda,</l>
+        <l>que ninguno se acobarda</l>
+        <l>de pelear con leones;</l>
+        <l>y por la fe que peleo</l>
+        <l>de nuestra Iglesia romana,</l>
+        <l n="350">que hemos de vencer mañana</l>
+        <l>nuestros enemigos, creo.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Dios a nuestro celo acuda,</l>
+        <l>que así, hermano, lo confío,</l>
+        <l>que vuestro celo es el mío,</l>
+        <l n="355">y Dios a su casa ayuda.</l>
+        <l>Vuestra alteza a sus cuarteles</l>
+        <l>venga y comerá conmigo.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Con tal hermano y amigo</l>
+        <l>vengo a ganar mil laureles.</l>
+      </sp><sp who="#teutonico">
+        <speaker>TEUTÓNICO</speaker>
+        <l n="360">Vueseñorías también</l>
+        <l>han de ser mis convidados.</l>
+      </sp><sp who="#idiaquez">
+        <speaker>IDIÁQUEZ</speaker>
+        <l>A serviros obligados.</l>
+      </sp></div><div type="scene" resp="#rojas" n="6"><stage>Vanse</stage><sp who="#rivera">
+        <speaker>RIVERA</speaker>
+        <l>Irá Rivera también.</l>
+        <l>De Rivera no hacen caso,</l>
+        <l n="365">porque me ven pobre y roto,</l>
+        <l>mas, ¡voto a Dios!... mas no voto</l>
+        <l>el no, la hambre que paso,</l>
+        <l>que por lo hidalgo pudiera</l>
+        <l>ser al más pintado igual,</l>
+        <l n="370">que ya ha habido general</l>
+        <l>que se ha llamado Rivera.</l>
+        <l>La milicia es religión;</l>
+        <l>paso mal que en casos tales</l>
+        <l>se brinden los generales</l>
+        <l n="375">y ayune este motilón;</l>
+        <l>por comer no se ha de hablar,</l>
+        <l>pero yo no lo sé hacer,</l>
+        <l>que cuando otros veo comer</l>
+        <l>siento mucho el ayunar.</l>
+        <l n="380">Cogeré mi pan y vaca;</l>
+        <l>lo que monte mi ración</l>
+        <l>diré: ¡hágote capón!</l>
+        <l>¡no está la ternera flaca!</l>
+        <l>¡qué sazonado jigote!</l>
+        <l n="385">¡qué gazapo y francolín!</l>
+        <l>Aqueste es vino del Rin</l>
+        <l>y me hacen un brindiscote;</l>
+        <l>yo haré la razón, señor,</l>
+        <l>y beberé en la campaña</l>
+        <l n="390">la salud del rey de España</l>
+        <l>y del propio Emperador.</l>
+        <l>Aquesto es mental historia,</l>
+        <l>engañar el pensamiento,</l>
+        <l>llenar las tripas de viento,</l>
+        <l n="395">y comida de memoria.</l>
+        <l>Mas ¿por qué estoy encogido</l>
+        <l>donde habrá tanto sobrado?</l>
+        <l>¡Oh, lleve el diablo lo honrado</l>
+        <l>en un hombre mal comido!</l>
+        <l n="400">Yo voy a matar la gana</l>
+        <l>si ha quedado algo fiambre,</l>
+        <l>que si hoy mato bien mi hambre</l>
+        <l>mataré herejes mañana.</l>
+      </sp></div><div type="scene" resp="#rojas" n="7"><stage>Vase. Salen WEIMAR, HORNOS y GRANZ</stage><sp who="#hornos">
+        <speaker>HORNOS</speaker>
+        <l>Vengo de reconocer</l>
+        <l n="405">sitio y fortificaciones</l>
+        <l>que ocupan en sus cuarteles</l>
+        <l>alemanes y españoles;</l>
+        <l>dos leguas de nuestros reales,</l>
+        <l>junto a los suyos, un bosque</l>
+        <l n="410">importa mucho ocupar</l>
+        <l>para nuestras pretensiones;</l>
+        <l>ya le ocupan mosqueteros</l>
+        <l>suyos, mas echando golpe</l>
+        <l>de gente le cobraremos</l>
+        <l n="415">con el plomo y con el bronce.</l>
+        <l>Hay también una colina</l>
+        <l>que de por medio se pone,</l>
+        <l>del uno y del otro campo</l>
+        <l>sitio eminente, de donde</l>
+        <l n="420">se pueden batir sus reales</l>
+        <l>hasta que se desaloje,</l>
+        <l>y así importará ocuparla</l>
+        <l>con valor, industria y orden.</l>
+        <l>Ayer la ciudad batieron</l>
+        <l n="425">con bizarros corazones</l>
+        <l>y desembocando el foso</l>
+        <l>nos ganaron una torre,</l>
+        <l>mas recóbrase con fuego</l>
+        <l>que abrasó los borgoñones</l>
+        <l n="430">que la ocupaban, que pocos</l>
+        <l>se escaparon con la noche.</l>
+      </sp><sp who="#weimar">
+        <speaker>WEIMAR</speaker>
+        <l>Al bosque vaya a cobrarle</l>
+        <l>Biteremberg con mil hombres,</l>
+        <l>y, para darle la mano,</l>
+        <l n="435">Granz con otros mil sajones;</l>
+        <l>a la colina caminen</l>
+        <l>dos regimientos valones,</l>
+        <l>y lo restante del campo,</l>
+        <l>puestos en armas conformes,</l>
+        <l n="440">salga la caballería</l>
+        <l>y marchen los escuadrones,</l>
+        <l>que hoy les pondré esos polluelos</l>
+        <l>pigüelas y capirote,</l>
+        <l>y haré que su atrevimiento</l>
+        <l n="445">sus cortas vidas malogre,</l>
+        <l>que no quiero, si les doy</l>
+        <l>un día más, que ellos se tomen</l>
+        <l>presunciones de vencer</l>
+        <l>sin que yo se las acorte.</l>
+        <l n="450">Verán que soy como el rayo</l>
+        <l>que apenas la nube rompe,</l>
+        <l>como víbora de fuego</l>
+        <l>que baje en cercos veloces,</l>
+        <l>cuando deslumbra y espanta</l>
+        <l n="455">y mata todo de un golpe,</l>
+        <l>que tengo gana de verme</l>
+        <l>ya degollando españoles.</l>
+      </sp><sp who="#hornos">
+        <speaker>HORNOS</speaker>
+        <l>Pues ¡a embestir la colina!</l>
+      </sp><sp who="#weimar">
+        <speaker>WEIMAR</speaker>
+        <l>¡Ea! ¡a recobrar el bosque,</l>
+        <l n="460">a presentar la batalla</l>
+        <l>del peso de todo el orbe!</l>
+        <l>¡Resuene el clarín templado,</l>
+        <l>el parche en ecos rimbombe,</l>
+        <l>repetidos de las huecas</l>
+        <l n="465">cavernas de aquesos montes!</l>
+      </sp></div><div type="scene" resp="#rojas" n="8"><stage>Vanse. Salen el INFANTE, el REY, LEGANÉS, IDIÁQUEZ y DON PEDRO GIRÓN. Suenan clarines y cajas</stage><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>El enemigo soberbio</l>
+        <l>embiste nuestras batallas</l>
+        <l>y nos ganó el bosquecillo</l>
+        <l>que era de tanta importancia.</l>
+        <l n="470">Esta colina conviene</l>
+        <l>defenderla y sustentarla,</l>
+        <l>que en el paso de este día</l>
+        <l>es el fiel de las balanzas.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Aunque está bien guarnecida</l>
+        <l n="475">de gente napolitana</l>
+        <l>con el tercio de Toralto</l>
+        <l>y con el conde de Salma</l>
+        <l>y su tercio, y el de Ubormes</l>
+        <l>de la gente de Alemania,</l>
+        <l n="480">es menester socorrella,</l>
+        <l>que el enemigo la carga.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Con un tercio de españoles</l>
+        <l>don Martín Idiáquez vaya,</l>
+        <l>que su gente es tan valiente</l>
+        <l n="485">que quedará en la campaña</l>
+        <l>antes que perder un paso</l>
+        <l>de este puesto que se guarda.</l>
+      </sp><sp who="#idiaquez">
+        <speaker>IDIÁQUEZ</speaker>
+        <l>Parto luego a obedecerte</l>
+        <l>conduciendo mis escuadras.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l n="490">Desde este puesto se miran</l>
+        <l>por la colina y sus faldas</l>
+        <l>embestir el enemigo,</l>
+        <l>y la resistencia honrada</l>
+        <l>que hacen los nuestros ¡Ay cielos,</l>
+        <l n="495">que en los alemanes hallan</l>
+        <l>flaqueza que los retiran</l>
+        <l>de su puesto, los rechazan,</l>
+        <l>que vienen desordenados!</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Hacia aquella parte cargan</l>
+        <l n="500">que defiende don Martín,</l>
+        <l>que, porque no le deshagan</l>
+        <l>sus escuadrones viendo,</l>
+        <l>con las picas los aparta,</l>
+        <l>con las espadas castiga,</l>
+        <l n="505">con la lengua los infama;</l>
+        <l>del bravo Paniguerola</l>
+        <l>y Guasco, los tercios bajan</l>
+        <l>a ayudar a Gambacurta,</l>
+        <l>que lo perdido restaura.</l>
+        <l n="510">El conde Juan Cervellón</l>
+        <l>y Picolomini andan</l>
+        <l>gobernando y restaurando</l>
+        <l>puesto de tanta importancia.</l>
+        <l>Sobre Toralto se arrojan</l>
+        <l n="515">unas escocesas mangas,</l>
+        <l>las más fuertes de Weimar,</l>
+        <l>que los amarillos llaman,</l>
+        <l>¡con qué valor los resiste!</l>
+        <l>¡qué diestro que los rechaza!</l>
+        <l n="520">¡qué notable estrago ha hecho</l>
+        <l>la mosquetería italiana!</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Paniguerola ha caído,</l>
+        <l>y tal que no se levanta.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>¡Oh valiente capitán,</l>
+        <l n="525">laureles te dé la fama!</l>
+        <l>Juan de Orozco, su sargento,</l>
+        <l>gobierna, que también matan</l>
+        <l>a su alférez; buen soldado</l>
+        <l>es Orozco, ¡qué bien anda,</l>
+        <l n="530">cómo gobierna y embiste,</l>
+        <l>y parte del bosque gana!</l>
+        <l>Con los españoles tiene</l>
+        <l>Weimar tema temeraria,</l>
+        <l>que son de diamantes pienso,</l>
+        <l n="535">o rocas que bate el agua.</l>
+        <l>El gran duque de Lorena</l>
+        <l>hacia la colina marcha,</l>
+        <l>que es general de la Liga</l>
+        <l>Católica de Alemania,</l>
+        <l n="540">¡qué valeroso pelea!</l>
+        <l>¡qué sangrienta que se ataca</l>
+        <l>la porfiada escaramuza</l>
+        <l>y rigurosa batalla!</l>
+        <l>¡cuál juega la artillería!</l>
+      </sp><sp who="#leganes">
+        <speaker>LEGANÉS</speaker>
+        <l n="545">A Yaso mató una bala</l>
+        <l>al lado de vuestra alteza.</l>
+        <l>Su vida importa guardarla</l>
+        <l>que con esto la vitoria</l>
+        <l>nos dará el cielo más llana.</l>
+        <l n="550">Su alteza deje este puesto</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Cuando miro tan trabada</l>
+        <l>la guerra por tantas partes,</l>
+        <l>y los campos de esmeralda</l>
+        <l>hechos jaspe con la sangre</l>
+        <l n="555">española y italiana</l>
+        <l>¿queréis que yo me retire?</l>
+        <l>Señor, esta es vuestra causa;</l>
+        <l>bien sabéis que yo defiendo</l>
+        <l>vuestra ley divina y santa,</l>
+        <l n="560">vuestra verdadera fe,</l>
+        <l>y vuestra Iglesia romana;</l>
+        <l>¡ayudadme aqueste día</l>
+        <l>a que se rompa y deshaga</l>
+        <l>el poder de los herejes</l>
+        <l n="565">que la afligen y maltratan!</l>
+        <l>¡Rey don Fernando, embistamos!</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Dios nos ayuda y ampara</l>
+        <l>¡a ellos!, que de este modo</l>
+        <l>nuestra vitoria se allana.</l>
+        <l n="570">¡San Esteban, pues, y a ellos!</l>
+      </sp></div><div type="scene" resp="#rojas" n="9"><stage>Vanse. Suena ruido de artillería; salen acuchillándose. Y luego sale RIVERA con un hereje a cuestas</stage><sp who="#rivera">
+        <speaker>RIVERA</speaker>
+        <l>Mientras siguen el alcance,</l>
+        <l>mientras la vitoria cantan,</l>
+        <l>de este hereje los despojos,</l>
+        <l>que he ganado con mi espada,</l>
+        <l n="575">quiero ver y recoger,</l>
+        <l>por si hay oro o por si hay plata.</l>
+        <l>En aquesta faltriquera</l>
+        <l>tiene una bolsa pesada.</l>
+        <l>¡Yo he cogido linda presa!,</l>
+        <l n="580">mas, ¡vive Dios!, que son balas;</l>
+        <l>Bercebú lleve la fruta</l>
+        <l>que es buena para tirada;</l>
+        <l>en esta otra faltriquera</l>
+        <l>trae una cosa tan larga</l>
+        <l n="585">¡ay! que es hueso de tocino,</l>
+        <l>aunque con poca substancia.</l>
+        <l>Con esto, que al apetito</l>
+        <l>suele servir de mostaza,</l>
+        <l>gastó el hereje esta bota</l>
+        <l n="590">que casi no tiene nada;</l>
+        <l>apárola, y vuelvo a ver</l>
+        <l>si hallo mayores ganancias,</l>
+        <l>que cuando a todos les sobra</l>
+        <l>a un desdichado le falta.</l>
+        <l n="595">¡Vive Dios!, que he peleado</l>
+        <l>con desesperada rabia,</l>
+        <l>y en bañando aquestos campos</l>
+        <l>de la sangre rebelada,</l>
+        <l>al lado de don Martín</l>
+        <l n="600">Idiáquez (cuyas hazañas</l>
+        <l>han restaurado perdida</l>
+        <l>la vitoria que hoy se gana),</l>
+        <l>cuando astuto y valeroso</l>
+        <l>a su tercio ordena y manda</l>
+        <l n="605">que no dispare ninguno,</l>
+        <l>y al tirarles se agazapan</l>
+        <l>y dispara el enemigo,</l>
+        <l>por alto las balas pasan,</l>
+        <l>y luego disparan todos,</l>
+        <l n="610">que no se perdió una bala,</l>
+        <l>enflaqueciendo a Weimar</l>
+        <l>ver tan extraña matanza,</l>
+        <l>que van los cuerpos rodando</l>
+        <l>desde aquestas cumbres altas</l>
+        <l n="615">en los raudales crecidos</l>
+        <l>de la sangre que derraman.</l>
+        <l>Dios sabe cómo he servido</l>
+        <l>que para mi premio basta,</l>
+        <l>pues un don Diego de Bustos,</l>
+        <l n="620">sargento mayor, que tanta</l>
+        <l>opinión gana este día,</l>
+        <l>después de tantas hazañas</l>
+        <l>que con mortales heridas</l>
+        <l>dijo, ya en la boca el alma:</l>
+        <l n="625">«dichoso yo, pues que muero</l>
+        <l>donde tanto honor se gana».</l>
+      </sp></div><div type="scene" resp="#rojas" n="10"><stage>Vase. Salen como primero SAN MIGUEL y la IGLESIA</stage><sp who="#san-miguel">
+        <speaker>SAN MIGUEL</speaker>
+        <l>Ahora sí militante</l>
+        <l>Iglesia, triunfante Roma,</l>
+        <l>de tus fieros enemigos</l>
+        <l n="630">has de quedar vitoriosa,</l>
+        <l>deshechas y consumidas</l>
+        <l>ya las heréticas tropas,</l>
+        <l>anulado su poder,</l>
+        <l>y todas sus fuerzas rotas,</l>
+        <l n="635">porque la mano de Dios</l>
+        <l>obra siempre vencedora</l>
+        <l>en los dos Fernandos que</l>
+        <l>son columnas de su honra.</l>
+        <l>El ave de dos cabezas,</l>
+        <l n="640">que a ver el sol se remonta,</l>
+        <l>que a Júpiter administra</l>
+        <l>sus venganzas tronadoras</l>
+        <l>han sido estos dos mancebos</l>
+        <l>del Austria perlas preciosas,</l>
+        <l n="645">cuyo católico celo</l>
+        <l>les dio tan grande vitoria,</l>
+        <l>correspondiendo a tus ruegos</l>
+        <l>la suma deidad piadosa.</l>
+        <l>Con estos dos hijos tuyos</l>
+        <l n="650">te asegura y te decora.</l>
+        <l>Enjuga, pues, las mejillas</l>
+        <l>resplandecientes y hermosas</l>
+        <l>que bañó tu sentimiento</l>
+        <l>del rocío del aurora,</l>
+        <l n="655">y con alegre semblante</l>
+        <l>en tus dos hijos te goza,</l>
+        <l>y da a Dios debidas gracias</l>
+        <l>que yo me subo a la gloria,</l>
+        <l>que en la ciudad de Toledo,</l>
+        <l n="660">la más ilustre y famosa,</l>
+        <l>antigua, opulenta y rica</l>
+        <l>de los límites de Europa,</l>
+        <l>en su santa iglesia (que es</l>
+        <l>de nuestro Fernando esposa)</l>
+        <l n="665">tan honrada de las plantas</l>
+        <l>de mi reina y mi señora,</l>
+        <l>han estado intercediendo,</l>
+        <l>en esta ocasión forzosa,</l>
+        <l>en la Virgen del Sagrario</l>
+        <l n="670">su imagen más viva y propia,</l>
+        <l>su generoso cabildo,</l>
+        <l>su clerecía devota,</l>
+        <l>todo su rebaño, que ama</l>
+        <l>de su infante la persona.</l>
+      </sp><sp who="#iglesia">
+        <speaker>IGLESIA</speaker>
+        <l n="675">Mil gracias te doy, señor,</l>
+        <l>cuya mano poderosa</l>
+        <l>arma mis amados hijos</l>
+        <l>de corazones de rocas,</l>
+        <l>y el caballo y caballero</l>
+        <l n="680">has sumergido en las ondas</l>
+        <l>de su ciega confusión,</l>
+        <l>de su propia sangre roja.</l>
+        <l>Mercedes son, y favores</l>
+        <l>de esa mano generosa,</l>
+        <l n="685">con que mi pecho respira</l>
+        <l>y mis deseos se logran.</l>
+        <l>Siempre arderá en mis altares</l>
+        <l>las más felices aromas</l>
+        <l>con holocaustos debidos</l>
+        <l n="690">a mi Cáliz y a mi Hostia,</l>
+        <l>de quien es la casa de Austria</l>
+        <l>tan peregrina devota,</l>
+        <l>que por eso la sublima</l>
+        <l>y la ensalza más que a todas.</l>
+        <l n="695">Agradecido el Infante</l>
+        <l>hará que se reconozca,</l>
+        <l>dando en Toledo su iglesia</l>
+        <l>de este suceso memorias,</l>
+        <l>aumentando devoción</l>
+        <l n="700">en cualquiera alma piadosa</l>
+        <l>con las banderas que envía</l>
+        <l>y con la fiesta que dota.</l>
+        <l>El principal estandarte</l>
+        <l>suyo, vencedor, adorna,</l>
+        <l n="705">entre los de los vencidos,</l>
+        <l>esta iglesia victoriosa.</l>
+        <l>Para este tiempo aperciba</l>
+        <l>Febo su ardiente carroza</l>
+        <l>que, a tan nobles vencedores,</l>
+        <l n="710">aún es pequeña lisonja,</l>
+        <l>y la ingrata Damnes forme</l>
+        <l>de sus ramas y sus hojas,</l>
+        <l>para su frente guirnaldas,</l>
+        <l>para su triunfo coronas.</l>
+        <l n="715">Suene el clarín de la Fama,</l>
+        <l>sus veloces alas rompan</l>
+        <l>desde los hielos de Escitia</l>
+        <l>a la abrasada Etiopia,</l>
+        <l>y todo el orbe celebre,</l>
+        <l n="720">en cuanto el sol ciñe y dora,</l>
+        <l>la victoria de este día</l>
+        <l>dando a Dios de ella la gloria.</l>
+      </sp><sp who="#san-miguel">
+        <speaker>SAN MIGUEL</speaker>
+        <l>Bien lo permite la fe</l>
+        <l>de las armas españolas,</l>
+        <l n="725">que después de Dios han sido</l>
+        <l>de su mano ejecutoras.</l>
+      </sp></div><div type="scene" resp="#rojas" n="11"><stage>Vanse. Suena dentro: ¡victoria, victoria!, y al son de clarines y cajas, salen el INFANTE, el REY y los demás</stage><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>¡Gran victoria, amado hermano!</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>¡Gran victoria, y muy sangrienta!</l>
+        <l>Poderosos enemigos</l>
+        <l n="730">del todo deshechos quedan.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>¿Qué falta de nuestra gente?</l>
+      </sp><sp who="#leganes">
+        <speaker>LEGANÉS</speaker>
+        <l>Señor, entre hombres de cuenta,</l>
+        <l>entre heridos y entre muertos</l>
+        <l>a seiscientos hombres llegan;</l>
+        <l n="735">del enemigo se hallan</l>
+        <l>ocho mil en la refriega,</l>
+        <l>nueve mil en el alcance</l>
+        <l>que ha durado cuatro leguas.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Los despojos son gruesos,</l>
+        <l n="740">entran con sesenta piezas</l>
+        <l>de artillería, caballos,</l>
+        <l>armas, municiones, tiendas,</l>
+        <l>y prisioneros los más</l>
+        <l>de las rebeldes cabezas.</l>
+        <l n="745">Sólo Weimar se escapó;</l>
+        <l>Ulma le cerró las puertas</l>
+        <l>y a Ubitembergue pasó</l>
+        <l>en un caballo que vuela.</l>
+        <l>Hanse ganado este día</l>
+        <l n="750">estandartes y banderas</l>
+        <l>en la batalla y alcance,</l>
+        <l>en número de trescientas,</l>
+        <l>que a vuestras plantas, de alfombras</l>
+        <l>sirvan para fama eterna</l>
+        <l n="755">de tan lucido socorro,</l>
+        <l>de amistad tan verdadera.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Enviaré las que he ganado</l>
+        <l>a mi toledana iglesia,</l>
+        <l>a mi esposa, por quien venzo,</l>
+        <l n="760">que a Dios siempre por mí ruega.</l>
+        <l>Don Martín, dadme los brazos.</l>
+        <l>Ser Alejandro quisiera</l>
+        <l>y daros de todo el mundo</l>
+        <l>la mitad, debida deuda</l>
+        <l n="765">a tan bizarro valor.</l>
+      </sp><sp who="#idiaquez">
+        <speaker>IDIÁQUEZ</speaker>
+        <l>Más estimo a vuestra alteza</l>
+        <l>este favor que mil mundos,</l>
+        <l>y mil vidas que tuviera</l>
+        <l>perderé en vuestro servicio,</l>
+        <l n="770">pues con tal honra me premia.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Valerosos capitanes,</l>
+        <l>la victoria ha sido vuestra</l>
+        <l>y vuestra fama inmortal</l>
+        <l>se rotulará en estrellas.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l n="775">A gozar de la victoria</l>
+        <l>viene mi esposa la reina.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>¡A recibir a mi hermana!</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>Ya con las damas se apea.</l>
+      </sp></div><div type="scene" resp="#rojas" n="12"><stage>Sale la REINA con las damas</stage><sp who="#reina">
+        <speaker>REINA</speaker>
+        <l>Parabién de la victoria</l>
+        <l n="780">os doy con lágrimas tiernas</l>
+        <l>de gozo, de veros libre</l>
+        <l>de tan peligrosa empresa.</l>
+        <l>En estas firmes columnas</l>
+        <l>la Cristiandad se sustenta.</l>
+        <l n="785">Palmas, coronas y olivas</l>
+        <l>coronen vuestras cabezas;</l>
+        <l>mis damas también os canten</l>
+        <l>la victoria en dulces letras,</l>
+        <l>como Israel del gigante</l>
+        <l n="790">vencido al pastor profeta.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Hermana y señora mía,</l>
+        <l>vuestra majestad alegra</l>
+        <l>nuestros campos vencedores</l>
+        <l>con su gallarda presencia.</l>
+        <l n="795">Pisé rebeldes despojos,</l>
+        <l>que es bien que a sus pies se ofrezcan,</l>
+        <l>ganados por el valor</l>
+        <l>de su esposo en esta guerra.</l>
+      </sp><sp who="#rey">
+        <speaker>REY</speaker>
+        <l>El todo de esta victoria</l>
+        <l n="800">sólo ha sido vuestra alteza.</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Dense a Dios iguales gracias</l>
+        <l>en todas nuestras iglesias,</l>
+        <l>y acábese en un sarao</l>
+        <l>de arpas y de vihuelas,</l>
+        <l n="805">porque las damas no canten</l>
+        <l>de Belona las fierezas.</l>
+      </sp><sp who="#rivera">
+        <speaker>RIVERA</speaker>
+        <l>¿Y a Rivera no dan algo?</l>
+      </sp><sp who="#infante">
+        <speaker>INFANTE</speaker>
+        <l>Tenga ahora una bandera,</l>
+        <l>y al senado perdón pida,</l>
+        <l n="810">aunque donaire no tenga.</l>
+      </sp><sp who="#rivera">
+        <speaker>RIVERA</speaker>
+        <l>Por la brevedad del tiempo</l>
+        <l>puede pedir el poeta,</l>
+        <l>en premio de sus deseos,</l>
+        <l>el agrado que os desea.</l>
+        <l n="815">Advertid que es hijo vuestro</l>
+        <l>y, adonde llegan sus fuerzas,</l>
+        <l>os ofrece confiado</l>
+        <l>de que el perdón os merezca.</l>
+      </sp></div></div></body>
   </text>
 </TEI>

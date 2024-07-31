@@ -66,7 +66,7 @@
           </person>
           <person xml:id="fauno" sex="MALE">
             <persName>Fauno</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>noble</desc>
             </trait>
           </person>
@@ -84,20 +84,20 @@
           </person>
           <person xml:id="sirene" sex="FEMALE">
             <persName>Sirene</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
           <person xml:id="arminda" sex="FEMALE">
             <persName>Arminda</persName>
-            <trait source="calderondigital">
+            <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
           </person>
           <person xml:id="claridiana" sex="FEMALE">
             <persName>Claridiana</persName>
             <trait source="castlist">
-              <desc>dama disfrazada</desc>
+              <desc>ninfa</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
@@ -120,10 +120,22 @@
       <textClass>
         <keywords>
           <term source="dracor" type="genreTitle">comedia novelesca</term>
-          <term source="kroll" type="main">comedia novelesca y caballeresca</term>
+          <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
       </textClass>
     </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
   </teiHeader>
   <standOff>
     <listEvent>

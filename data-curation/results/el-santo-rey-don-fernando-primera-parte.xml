@@ -1,97 +1,5 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000021" xml:lang="esp">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">El santo rey don Fernando</title>
-        <title type="sub">Auto historial alegórico intitulado. Primera parte</title>
-        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
-        <respStmt>
-          <resp>Data curation (cleaning, normalization and scene division)</resp>
-          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
-        <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2019-04-30"><time when="21:57:46"/></date>
-        <idno type="quadramaX">El santo rey don Fernando</idno>
-        <availability>
-          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-santo-rey-don-fernando-primera-parte--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Ignacio Arellano, Juan Manuel Escudero y Mª Carmen Pinillos procedente de la edición Calderón de la Barca, Pedro, El santo rey don Fernando (primera parte), ed. Ignacio Arellano, Juan Manuel Escudero y Mª Carmen Pinillos, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1999. ISBN: 3-931887-69-3.</title></bibl></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person xml:id="alcorán" sex="MALE">
-            <persName>Alcorán</persName>
-          </person>
-          <person xml:id="hebraísmo" sex="MALE">
-            <persName>Hebraísmo</persName>
-          </person>
-          <person xml:id="rústico" sex="MALE">
-            <persName>Rústico</persName>
-          </person>
-          <person xml:id="rey" sex="MALE">
-            <persName>Santo Rey</persName>
-            <trait resp="#rojas">
-              <desc>rey</desc>
-            </trait>
-          </person>
-          <person xml:id="leandro" sex="MALE">
-            <persName>San Leandro</persName>
-          </person>
-          <person xml:id="viejo" sex="MALE">
-            <persName>Un Viejo</persName>
-          </person>
-          <person xml:id="apostasía" sex="FEMALE">
-            <persName>Apostasía</persName>
-          </person>
-          <person xml:id="fe" sex="FEMALE">
-            <persName>Fe</persName>
-          </person>
-          <person xml:id="esperanza" sex="FEMALE">
-            <persName>Esperanza</persName>
-          </person>
-          <person xml:id="caridad" sex="FEMALE">
-            <persName>Caridad</persName>
-          </person>
-          <person xml:id="isidro" sex="MALE">
-            <persName>San Isidro</persName>
-          </person>
-          <person xml:id="religión-de-santo-domingo" sex="FEMALE">
-            <persName>La Religión de Santo Domingo</persName>
-          </person>
-          <personGrp sex="UNKNOWN" xml:id="músicos">
-            <persName>Músicos</persName>
-          </personGrp>
-        </listPerson>
-      </particDesc>
-      <textClass>
-        <keywords>
-          <term source="dracor" type="genreTitle">auto sacramental</term>
-          <term source="#kroll" type="main">auto sacramental</term>
-        </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
-      </textClass>
-    </profileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
-        </taxonomy>
-      </classDecl>
-      <classDecl>
-        <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-  </teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000021" xml:lang="esp">
+  <teiHeader><fileDesc><titleStmt><title type="main">El santo rey don Fernando</title><title type="sub">Auto historial alegórico intitulado. Primera parte</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-04-30"><time when="21:57:46"/></date><idno type="quadramaX">El santo rey don Fernando</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-santo-rey-don-fernando-primera-parte--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Ignacio Arellano, Juan Manuel Escudero y Mª Carmen Pinillos procedente de la edición Calderón de la Barca, Pedro, El santo rey don Fernando (primera parte), ed. Ignacio Arellano, Juan Manuel Escudero y Mª Carmen Pinillos, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1999. ISBN: 3-931887-69-3.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="alcorán" sex="MALE"><persName>Alcorán</persName></person><person xml:id="hebraísmo" sex="MALE"><persName>Hebraísmo</persName></person><person xml:id="rústico" sex="MALE"><persName>Rústico</persName></person><person xml:id="rey" sex="MALE"><persName>Santo Rey</persName><trait resp="#rojas"><desc>rey</desc></trait></person><person xml:id="leandro" sex="MALE"><persName>San Leandro</persName></person><person xml:id="viejo" sex="MALE"><persName>Un Viejo</persName></person><person xml:id="apostasía" sex="FEMALE"><persName>Apostasía</persName></person><person xml:id="fe" sex="FEMALE"><persName>Fe</persName></person><person xml:id="esperanza" sex="FEMALE"><persName>Esperanza</persName></person><person xml:id="caridad" sex="FEMALE"><persName>Caridad</persName></person><person xml:id="isidro" sex="MALE"><persName>San Isidro</persName></person><person xml:id="religión-de-santo-domingo" sex="FEMALE"><persName>La Religión de Santo Domingo</persName></person><personGrp sex="UNKNOWN" xml:id="músicos"><persName>Músicos</persName></personGrp></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords><classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1671">
@@ -120,207 +28,161 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene" resp="#rojas" n="1">
-          <stage>Sale el ALCORÁN, vestido de moro con un azadón; el HEBRAÍSMO, de judío, con otro; RÚSTICO, villano, con otro; y representan los primeros versos, como en acción de estar cavando.</stage>
-          <sp who="#alcorán">
+        <div type="scene" resp="#rojas" n="1"><stage>Sale el ALCORÁN, vestido de moro con un azadón; el HEBRAÍSMO, de judío, con otro; RÚSTICO, villano, con otro; y representan los primeros versos, como en acción de estar cavando.</stage><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>¿No habrá alivio para mí,</l>
             <l>mientras del cielo no caiga</l>
             <l>un rayo que me destruya?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>¿Mientras la tierra no abra</l>
             <l n="5">su centro que me sepulte,</l>
             <l>no habrá consuelo en mis ansias?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>¡Que este moro y este hebreo</l>
             <l>no den una azadonada,</l>
             <l>el uno sin un zalá,</l>
             <l n="10">y el otro sin una guaya!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>¿Qué hace tu profeta, Alá,</l>
             <l>que ni me vale ni ampara?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Estará comiendo setas,</l>
             <l>que es el fruto de sus plantas.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="15">¿Qué hace, oh gran Dios de Israel,</l>
             <l>tu piedad, que tanto tarda?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Tan bien contigo le fue</l>
             <l part="I">una vez que vino...</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">Calla,</l>
             <l part="I">loco.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="M">Calla, vil.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">¿No es bueno</l>
             <l n="20">que nunca nos falte gana,</l>
             <l>a mí de darles mohína,</l>
             <l>y a ellos de darme puñadas?</l>
             <stage>Atropellándole.</stage>
-          </sp>
-          <sp who="#hebraísmo #alcorán">
+          </sp><sp who="#hebraísmo #alcorán">
             <speaker>HEBRAÍSMO Y ALCORÁN</speaker>
             <l>A otra parte a trabajar</l>
             <l>lejos de los dos te aparta.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l n="25">Sí haré; y si mal no me salen</l>
             <l>los versos de cierta traza,</l>
             <l>los bien vengados cachetes</l>
             <l>se ha de intitular mi farsa.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
-          <stage>Vase, y ellos vuelven a trabajar.</stage>
-          <sp who="#alcorán">
+          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Vase, y ellos vuelven a trabajar.</stage><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>¡Oh gran profeta de Alá!</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="30">¡Oh gran Dios de las batallas!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>¡Duélate que abriendo peñas</l>
             <l>está tu nación esclava!</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>¡Duélate que fugitivo</l>
             <l>tu pueblo rompa montañas!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l n="35">Y más al ver que no es</l>
             <l>el afán el que la agravia.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Y más cuando la fatiga</l>
             <l>no es la que le oprime y cansa.</l>
-          </sp>
-          <sp who="#hebraísmo #alcorán">
+          </sp><sp who="#hebraísmo #alcorán">
             <speaker>LOS DOS</speaker>
             <l>Pues el ser en tu desprecio,</l>
             <l n="40">este templo que se labra</l>
             <l part="I">es mi angustia.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Es mi dolor.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="I">¡Oh, ira!</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="M">¡Oh, pena!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="M">¡Oh, muerte!</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">¡Oh, rabia!</l>
-          </sp>
-          <sp who="#hebraísmo #alcorán">
+          </sp><sp who="#hebraísmo #alcorán">
             <speaker>LOS DOS</speaker>
             <l>¿Cuándo has de acabar conmigo?</l>
-          </sp>
-          <stage>Ruido, y dice dentro la APOSTASÍA.</stage>
-          <sp who="#apostasía">
+          </sp><stage>Ruido, y dice dentro la APOSTASÍA.</stage><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Cuando en el abismo caigas,</l>
             <l n="45">a tu centro, ¡oh bruto!, corres.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="I">¿Qué es esto?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Del monte baja</l>
             <l>un caballo, que a su dueño</l>
             <l>desesperado le arrastra.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Lleguemos, por si es posible,</l>
             <l part="I">a socorrerle.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage>Éntrase, y vuelve con él en brazos.</stage>
-          <sp who="#hebraísmo">
+          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Éntrase, y vuelve con él en brazos.</stage><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="50" part="F">Mis canas</l>
             <l part="I">no son tan veloces.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">Hombre,</l>
             <l>quienquiera que eres, levanta</l>
             <l part="I">en mis brazos.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">¡Harto es,</l>
             <l>que piedad para mí haya</l>
             <l n="55">en ningún humano pecho!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Cobra el aliento y descansa,</l>
             <l>ya que el cielo te permite</l>
             <l part="I">la vida.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">Esa es mi desgracia;</l>
             <l>porque vida aborrecida</l>
             <l n="60">no sé para qué la guarda.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Si desesperado vives,</l>
             <l>¡buen consuelo en los dos hallas!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Sí, si es que es verdad aquel</l>
             <l>bárbaro adagio que entabla</l>
             <l n="65">que es consuelo el mal de muchos.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Pues ¿quién sois, para que haga</l>
             <l>alivio de vuestras penas?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Si eso puede consolarlas,</l>
             <l>yo soy un hebreo, que hoy</l>
@@ -347,8 +209,7 @@
             <l n="90">si mis prédicas les faltan,</l>
             <l>otro rabino que hoy sepa</l>
             <l part="I">su Levítico.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">Y añada</l>
             <l>tu consuelo el que también</l>
@@ -365,15 +226,13 @@
             <l>pues entre mis gentes varias,</l>
             <l n="105">vivo Alcorán de Mahoma</l>
             <l>me nombra la antonomasia.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Dinos tú agora quién eres,</l>
             <l>pues es merecida paga</l>
             <l>al retorno de una pena</l>
             <l n="110">el consuelo de dos ansias.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Si haré, pues entre dos leyes,</l>
             <l>al católico contrarias,</l>
@@ -447,8 +306,7 @@
             <l n="180">azar en que me amenaza</l>
             <l>no sé qué fatal agüero</l>
             <l>del fin que en ella me aguarda.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Si un cristianísimo rey</l>
             <l>huyendo vienes, muy mala</l>
@@ -469,8 +327,7 @@
             <l>conservándonos en nuestra</l>
             <l n="200">ley, el vasallaje y parias</l>
             <l>que ofrecimos a su abuelo.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Ya que tanto agrado hallan</l>
             <l>en vosotros mis fortunas,</l>
@@ -480,29 +337,22 @@
             <l>a otros reinos, os suplico</l>
             <l>me informéis de cuanto pasa</l>
             <l>muy por menor en Castilla.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="I">Sí haré.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="210" part="F">Yo en tanto que hablas</l>
             <l>despacio con él, porque</l>
             <l>no hagamos entrambos falta</l>
             <l>a la tarea de hoy,</l>
             <l>por los dos iré a acabarlas.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
-          <stage>Vase.</stage>
-          <sp who="#apostasía">
+            
+          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Vase.</stage><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l n="215">Sepa, pues, las novedades</l>
             <l part="I">que en ella hay.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">Oye, y sabráslas.</l>
             <l>Fe-dando... ¡torpe la lengua</l>
@@ -686,55 +536,40 @@
             <l n="395">tan benigno entre nosotros</l>
             <l>conversa, que veces varias</l>
             <l>nos ha obligado a decirle...</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage>Sale el HEBRAÍSMO alborotado, con un libro de tablas.</stage>
-          <sp who="#hebraísmo">
+          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Sale el HEBRAÍSMO alborotado, con un libro de tablas.</stage><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>¡El Dios de Israel me valga!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="I">¿Qué es esto?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="M">No sé.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">¿Qué traes?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="I">No sé.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="M">No te turbes.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l n="400" part="F">Habla.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="I">No puedo.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="M">Pues ¿qué hay?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">No sé.</l>
-          </sp>
-          <sp who="#alcorán #apostasía">
+          </sp><sp who="#alcorán #apostasía">
             <speaker>LOS DOS</speaker>
             <l part="I">Mira.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">No me digáis nada,</l>
             <l>hasta ver si el desaliento</l>
@@ -743,26 +578,19 @@
             <l>que había dejado empezada,</l>
             <l>de desmontar una peña</l>
             <l part="I">de su centro para...</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>DENTRO</speaker>
             <l part="F">Para.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>El rey a mirar se apea,</l>
             <l n="410">como otras veces, las cavas</l>
             <l>que van dejando en los montes</l>
             <l>los peñascos que se arrancan.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
-          <stage>Dentro, voces y ruido; sale el REY y acompañamiento.</stage>
-          <sp who="#apostasía">
+          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Dentro, voces y ruido; sale el REY y acompañamiento.</stage><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>¡Qué amable presencia tiene!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¡Qué es esto, amigos? ¡Pues tanta</l>
             <l n="415">ociosidad! Mal cumplís</l>
@@ -784,8 +612,7 @@
             <l>para haberlo merecido</l>
             <l>el veros pobres me basta:</l>
             <l part="I">llegad, no os retireis.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">¡Cielos!;</l>
             <l>¿cómo a costa de mi saña</l>
@@ -797,8 +624,7 @@
             <l n="440">que con sus obreros anda</l>
             <l>tan piadoso, que a la tarde</l>
             <l>les da los sueldos del alba?</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>No es, señor, ociosidad</l>
             <l>el espacio en que nos hallas,</l>
@@ -806,25 +632,21 @@
             <l>lo que a ese hebreo le pasa,</l>
             <l>que fuera de sí, cual ves,</l>
             <l>se eleva, suspende y pasma.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Ven acá, amigo, ¿qué tienes?,</l>
             <l n="450">¿qué has menester?, ¿qué te falta?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Si un asombro era, señor,</l>
             <l>el que hasta aquí me turbaba,</l>
             <l>¿qué harán agora respeto,</l>
             <l part="I">y asombro?</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">No temas nada;</l>
             <l part="I">di, ¿qué tienes?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="455" part="F">Sí haré, si es</l>
             <l>que puedo cobrar el habla.</l>
@@ -855,8 +677,7 @@
             <l>y no atreviéndome a leerlas</l>
             <l>aún no he hecho más que mirarlas.</l>
             <stage>Dale el libro.</stage>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Con los principios que yo</l>
             <l>tengo de letras humanas,</l>
@@ -887,19 +708,16 @@
             <l>hallaré la inteligencia</l>
             <l n="510">aun de escrituras más altas,</l>
             <l>y así, vuelva en busca suya.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Si en eso el gusto adelantas,</l>
             <l>de la latina pudiera</l>
             <l>ser, señor, que declarara</l>
             <l part="I">yo la tradución.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="515" part="F">¿Quién eres?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Un extranjero que pasa</l>
             <l>a Toledo, donde vine</l>
@@ -908,30 +726,22 @@
             <l n="520">la venturosa desgracia</l>
             <l>de una caída, pues fue</l>
             <l>para ponerme a tus plantas.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage>Sale la FE, y hace como que ella le encamina al libro sin verla nadie.</stage>
-          <sp who="#rey">
+          </sp></div><div type="scene" resp="#rojas" n="7"><stage>Sale la FE, y hace como que ella le encamina al libro sin verla nadie.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l>Ya que aquí te hallaste, llega.</l>
-          </sp>
-          <sp who="#fe">
+          </sp><sp who="#fe">
             <speaker>FE</speaker>
             <l>Llega, que me importa que haga</l>
             <l n="525">un acto de fe contigo.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Voluntario a leer llegaba,</l>
             <l>y en un instante parece</l>
             <l>que hay violencia que me arrastra.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Lee, pues, y ve traduciendo.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <stage>Lee.</stage>
             <l n="530">Para redimir las almas,</l>
@@ -939,29 +749,24 @@
             <l>Dios hizo a su semejanza,</l>
             <l part="I">Cristo nacerá...</l>
             <stage>Lee.</stage>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Prosigue.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <stage>Lee.</stage>
             <l>...de una virgen soberana</l>
             <l n="535">antes del parto, en el parto,</l>
             <l>y después del parto intacta.</l>
             <stage>Lee.</stage>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¿De qué te espantas y admiras?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>¿Tan gran prodigio no es para</l>
             <l part="I">admirar y espantar?</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">No,</l>
             <l n="540">que doctrina tan cristiana,</l>
@@ -993,31 +798,24 @@
             <l>de mis ojos me le aparta;</l>
             <l>pues que tú le has menester,</l>
             <l part="I">tenle tú.</l>
-          </sp>
-          <sp who="#fe">
+          </sp><sp who="#fe">
             <speaker>FE</speaker>
             <l part="F">¡Cuánto me ensalza</l>
             <l>tan heroico acto de fe,</l>
             <l n="570">que deseche circustancias</l>
             <l>tan graves, por ya creídas!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Pero vuelve, espera, aguarda;</l>
             <l>no por mí, sino por ti,</l>
             <l>lee la letra hebrea a que pasa,</l>
             <l n="575">puesto que es natural lengua</l>
             <l>que no puedes tú ignorarla.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
-          <stage>Sale la CARIDAD, y hace lo mismo que la FE.</stage>
-          <sp who="#caridad">
+          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Sale la CARIDAD, y hace lo mismo que la FE.</stage><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Lee, porque de caridad</l>
             <l>resulte en mí otra alabanza.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>¡Con qué temor a leer llego</l>
             <l n="580">que aunque es el rey quien me llama,</l>
@@ -1031,8 +829,7 @@
             <l>su sangre infinita paga</l>
             <l>de su infinito delito...</l>
             <stage>Lee.</stage>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="590">¿Ves cómo contigo habla,</l>
             <l>y no conmigo? Y pues quiso</l>
@@ -1051,34 +848,26 @@
             <l>Que más su triunfo estimara,</l>
             <l n="605">que el de la mayor victoria,</l>
             <l>que pueden darme las armas.</l>
-          </sp>
-          <sp who="#caridad">
+          </sp><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Ya el acto de fe en mí crece,</l>
             <l>pues el objeto en Dios ama</l>
             <l>más al prójimo que a sí.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="610">La letra griega que falta,</l>
             <l>me dirá la Religión.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Si me atreveré a explicarla</l>
             <l>yo...; pero no la sé bien.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
-          <stage>Sale la ESPERANZA y hace lo mismo.</stage>
-          <sp who="#esperanza">
+          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Sale la ESPERANZA y hace lo mismo.</stage><sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l>Tras una Fe confirmada,</l>
             <l n="615">y una Caridad movida,</l>
             <l>entra agora la Esperanza:</l>
             <l>atrévete, que bien puedes.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Mas aunque esto me acobarda,</l>
             <l>por otra parte me anima.</l>
@@ -1089,12 +878,10 @@
             <l>no hay moro que algo no alcanza</l>
             <l n="625">de su idioma y podrá ser</l>
             <l>que acierte yo a declararla.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Poco en que pruebes se pierde.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Tras que en virgen madre, humana</l>
             <l>carne Cristo tomará,</l>
@@ -1104,17 +891,14 @@
             <l>ocultaré hasta que un rey</l>
             <l>Fernando en Castilla nazca.</l>
             <stage>Lee.</stage>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I">¿Qué dices?</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l n="635" part="F">Lo que la letra</l>
             <l part="I">griega dice.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">¿Luego habla</l>
             <l>también la peña conmigo?</l>
@@ -1141,35 +925,27 @@
             <l>de que habéis vos de ampararlas</l>
             <l>como Dios, pues sólo en vos</l>
             <l n="660">llevo puesta la esperanza.</l>
-          </sp>
-          <sp who="#esperanza">
+          </sp><sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l>Ya veis si resulta en mí</l>
             <l>la ejercitación de entrambas,</l>
             <l>puesta su esperanza en Dios.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Divina Religión santa,</l>
             <l n="665">ya sé la letra; a saber</l>
             <l part="I">tu sentido iré.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage>Sale DOMINGO, de estudiante.</stage>
-          <sp who="#religión-de-santo-domingo">
+          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Sale DOMINGO, de estudiante.</stage><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l part="F">No vayas,</l>
             <l>que la Religión no espera</l>
             <l>que la busque quien la llama.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Tú seas muy bien venida,</l>
             <l n="670">que aunque aquí no has hecho falta,</l>
             <l part="I">te deseaba.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l part="F">Los desvelos</l>
             <l>de argüir contra esta falsa</l>
@@ -1177,21 +953,18 @@
             <l>tanto las horas me gastan,</l>
             <l n="675">que una a la dicha no dejan</l>
             <l part="I">de estar yo contigo.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Aguarda,</l>
             <l>que más esa ocupación</l>
             <l>que tu asistencia, me agrada.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Ya el rato que me da treguas</l>
             <l n="680">vengo en tu busca. ¿Qué mandas?,</l>
             <l>que me ha puesto en confusión</l>
             <l>el decir que me deseabas.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Ese libro te lo diga,</l>
             <l>léele despacio y repara,</l>
@@ -1207,21 +980,15 @@
             <l>ya que en tres lenguas me hablan</l>
             <l n="695">extranjero, judío y moro,</l>
             <l>fe, caridad y esperanza.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
-          <stage>Vanse.</stage>
-          <sp who="#caridad">
+          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Vanse.</stage><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Hasta aquí iguales las tres</l>
             <l part="I">estamos.</l>
-          </sp>
-          <sp who="#esperanza">
+          </sp><sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l part="F">Si nos enlaza</l>
             <l part="I">un amor, ¿qué mucho?</l>
-          </sp>
-          <sp who="#fe">
+          </sp><sp who="#fe">
             <speaker>FE</speaker>
             <l part="F">Es cierto;</l>
             <l n="700">porque presumir que pasa</l>
@@ -1229,56 +996,42 @@
             <l>que a acrisolar que se exaltan</l>
             <l>en Fernando las virtudes,</l>
             <l>si no error, será ignorancia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
-          <stage>Vanse.</stage>
-          <sp who="#apostasía">
+          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Vanse.</stage><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l n="705">¿Cristo nacerá de virgen,</l>
             <l>porque inmortales las almas</l>
             <l>vivan a gloria o a pena?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>¿Cristo morirá a la saña</l>
             <l part="I">del hebreo?</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">¿Cuando un rey</l>
             <l n="710">Fernando en Castilla nazca,</l>
             <l>se hallará esta profecía?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="I">¡Qué asombro!</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="M">¡Qué horror!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">¡Qué ansia!</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="I">Israelita.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">¿Qué me quieres?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="I">Africano.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">¿Qué me mandas?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l n="715">Que ya que nuestros sucesos,</l>
             <l>el día que a ti te aclaman</l>
@@ -1294,8 +1047,7 @@
             <l>en la desigual batalla,</l>
             <l>tomando, cuando no en él,</l>
             <l>en sus gentes la venganza.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Dices bien, y la licencia</l>
             <l n="730">usando de que no haya</l>
@@ -1309,8 +1061,7 @@
             <l>moveré mis asechanzas</l>
             <l>contra la Caridad, que es</l>
             <l n="740">el amor con que le aman.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>A mí me ofende en la parte</l>
             <l>que mis ruinas amenaza,</l>
@@ -1324,8 +1075,7 @@
             <l n="750">con Córdoba y con Granada,</l>
             <l>a fin de que se prevengan,</l>
             <l>iré contra la Esperanza.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Pues yo, sembrando en la mies</l>
             <l>de la Iglesia la cizaña</l>
@@ -1334,24 +1084,17 @@
             <l>negaré contra la Fe,</l>
             <l>(sobre heredarse las almas)</l>
             <l>en el pan real asistencia.</l>
-          </sp>
-          <sp who="#alcorán #hebraísmo">
+          </sp><sp who="#alcorán #hebraísmo">
             <speaker>LOS DOS</speaker>
             <l part="I">¡Pues al arma!</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l n="760" part="F">¡Pues al arma!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Quedo, quedo, porque vuelve</l>
             <l>quien es toda su privanza.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="13">
-          <stage>Sale DOMINGO.</stage>
-          <sp who="#religión-de-santo-domingo">
+          </sp></div><div type="scene" resp="#rojas" n="13"><stage>Sale DOMINGO.</stage><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Amigos, puesto que el rey</l>
             <l>os deja siempre que pasa</l>
@@ -1360,66 +1103,51 @@
             <l>le divirtió, porque no</l>
             <l>le perdáis, volver me manda</l>
             <l>a repartirle; tomad.</l>
-          </sp>
-          <sp who="#alcorán #hebraísmo">
+          </sp><sp who="#alcorán #hebraísmo">
             <speaker>LOS DOS</speaker>
             <l n="770">Él y vos edades largas</l>
             <l part="I">viváis.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l part="M">¿No llegáis vos?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">No.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="14">
-          <stage>Sale RÚSTICO.</stage>
-          <sp who="#rústico">
+          </sp></div><div type="scene" resp="#rojas" n="14"><stage>Sale RÚSTICO.</stage><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Yo sí, que a esto el buscón llama</l>
             <l>llegar en buena ocasión.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Tomad, y delante aparta;</l>
             <l n="775">pues ¿por qué vos no llegáis?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Porque yo no pido nada.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Mirad que es misericordia</l>
             <l>que usa con todos; tomadla.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>No pido misericordia</l>
             <l n="780">yo, porque a mí no me falta</l>
             <l>caudal para no pedirla.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Esa es señal de no darla;</l>
             <l>no desprecies los socorros</l>
             <l part="I">de un rey soberano.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">Basta</l>
             <l n="785">que diga que no la quiero.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Ved que, aunque yo la reparta,</l>
             <l>limosna es suya, y de un rey</l>
             <l>puede el más noble tomarla.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Ved vos que es esa porfía</l>
             <l n="790">inútil, y no me haga</l>
@@ -1441,22 +1169,14 @@
             <l>¿Que viendo acciones contrarias,</l>
             <l>ruegas con misericordias</l>
             <l>y con incendios espantas?</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
-          <stage>Vase.</stage>
-          <sp who="#religión-de-santo-domingo">
+            
+          </sp></div><div type="scene" resp="#rojas" n="15"><stage>Vase.</stage><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Este hombre importa seguir</l>
             <l n="810">y saber su nombre y patria,</l>
             <l>su oficio, vida y costumbres.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="16">
-          <stage>Vase.</stage>
-          <sp who="#rústico">
+            
+          </sp></div><div type="scene" resp="#rojas" n="16"><stage>Vase.</stage><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Aquí los dos camaradas,</l>
             <l>íntimos amigos míos,</l>
@@ -1470,13 +1190,11 @@
             <l>déjame, que a ellos mil veces</l>
             <l part="I">me arroje.</l>
             <stage>Al HEBRAÍSMO.</stage>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">¿Cómo con tanta</l>
             <l>humildad vuelves ahora?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Como al oír que tú hallas</l>
             <l n="825">el escondido tesoro</l>
@@ -1488,240 +1206,188 @@
             <l>a una duda sola, que es</l>
             <l>la que me hace repugnancia,</l>
             <l>seré tu menor jodío.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Una y mil veces me abraza.</l>
             <l n="835">Di la duda, que no puede</l>
             <l>tener duda tu ignorancia</l>
             <l>a que no responda yo.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Pues si es con toda eficacia</l>
             <l>ha de haber juez que lo juzgue.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="840">Si es cristiano, cosa es clara</l>
             <l part="I">que será contra mí.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">Y si es</l>
             <l part="I">jodío contra mí.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Pues haya</l>
             <l>juez que ni uno ni otro sea.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Ya que presente se halla,</l>
             <l n="845">séalo el moro, que es</l>
             <l>independiente de ambas</l>
             <l part="I">leyes.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">Yo os haré justicia.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="I">Pues vaya de duda.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Vaya.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>¿Cuántos profetas mayores</l>
             <l part="I">hay?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="M">Diez.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l n="850" part="F">Ves ahí que me engañas,</l>
             <l part="I">que son once.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">¿Cómo puedo</l>
             <l>yo engañarme en tan usada</l>
             <l part="I">cuestión?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">¿Hay más de contarlos?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="I">Moisés, David, Elías...</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">Pasa</l>
             <l part="I">adelante.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="855" part="F">Samuel,</l>
             <l part="I">Ezequiel, Baruc...</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">¿Qué tardas?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Eliseo, Jeremías,</l>
             <l>Daniel y Esaías: repara</l>
             <l part="I">si son diez.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">Pues falta uno.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="860">Di tú, ¿qué profeta falta?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>El gran profeta Mahoma,</l>
             <l part="I">mira si son once.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Calla,</l>
             <l>bárbaro, que Mahoma no</l>
             <l part="I">es profeta.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="M">Pues ¿qué es?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Nada:</l>
             <l n="865">¿cómo quieres que Mahoma</l>
             <l part="I">sea profeta?</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">¿Cómo hablas</l>
             <l>tú así del mayor que tuvo</l>
             <l part="I">Alá?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">Ya están en la trampa.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Si Alá es Dios, Mahoma no fue</l>
             <l part="I">profeta suyo.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l n="870" part="F">Mil almas</l>
             <l>te sacaré, si eso asientas.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Yo mil vidas, si eso entablas.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>¡Ay, señores, qué contento</l>
             <l>es el ver cómo se cascan!</l>
-          </sp>
-          <stage>Luchan.</stage>
-          <sp who="#alcorán">
+          </sp><stage>Luchan.</stage><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l n="875">Vil nación hebrea, a mis manos</l>
             <l part="I">morirás.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Torpe canalla,</l>
             <l>tú morirás a las mías.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Barrabás lleve mi alma</l>
             <l>si yo los pusiere en paz.</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>DENTRO</speaker>
             <l n="880">Corred todos, que se matan</l>
             <l part="I">dos hombres.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="F">¡Si no viniera</l>
             <l part="I">gente...!</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">¡Pues si no llegara...!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Otro día nos veremos.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="I">Norabuena.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">Una palabra</l>
             <l part="I">antes de irse.</l>
-          </sp>
-          <sp who="#alcorán #hebraísmo">
+          </sp><sp who="#alcorán #hebraísmo">
             <speaker>LOS DOS</speaker>
             <l part="M">¿Qué es?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l n="885" part="F">Que miren</l>
             <l>qué hermosísimas puñadas</l>
             <l>echaban a mal en mí</l>
             <l>pudiendo en sí aprovecharlas.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="I">¡Oh infame!</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="M">¡Oh villano!</l>
-          </sp>
-          <sp who="#alcorán #hebraísmo">
+          </sp><sp who="#alcorán #hebraísmo">
             <speaker>LOS DOS</speaker>
             <l part="F">Tú</l>
             <l part="I">lo pagarás.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l n="890" part="F">Si me alcanzan.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="17">
-          <stage>Vanse los tres. Salen el REY y DOMINGO.</stage>
-          <sp who="#rey">
+          </sp></div><div type="scene" resp="#rojas" n="17"><stage>Vanse los tres. Salen el REY y DOMINGO.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l>Ya que el libro has leído,</l>
             <l>y que en su tradución has convenido,</l>
             <l>dime, ¿qué sientes dél?, ¿qué te parece?</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>La admiración con el discurso crece:</l>
             <l n="895">antes de la venida</l>
@@ -1739,15 +1405,13 @@
             <l>de que antes que naciera</l>
             <l>de siempre virgen madre, y padeciera,</l>
             <l part="I">había previsto en ti...</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">No me lo digas,</l>
             <l n="910">que al temor, más que al ánimo me obligas;</l>
             <l>pues con el mismo extremo</l>
             <l>que amo su honor mi insuficiencia temo.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Si tu modestia desto hablar no gusta,</l>
             <l>a otra plática iré no menos justa.</l>
@@ -1761,21 +1425,15 @@
             <l>de conocer sus causas; mi cuidado</l>
             <l>reconoce también su insuficiencia,</l>
             <l part="I">y así...</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Mira si hay quien pida audiencia.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l n="925">Con no darte, señor, por entendido,</l>
             <l>harto en no responder has respondido.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="18">
-          <stage>Vase.</stage>
-          <sp who="#rey">
+            
+          </sp></div><div type="scene" resp="#rojas" n="18"><stage>Vase.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l>¡Oh, Señor, si a tu suma providencia</l>
             <l>tal vez rastreara el hombre los motivos,</l>
@@ -1791,21 +1449,15 @@
             <l>si en fe, esperanza y caridad fundada,</l>
             <l>pendes de otra, con quien tu monarquía</l>
             <l n="940">es viento, es polvo, es humo, es sombra, es nada.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
-
+            
             <l>Aquel hebreo, señor,</l>
             <l>para quien se abrió la peña,</l>
             <l>dice que tú le mandaste</l>
             <l>que viniese a tu presencia.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="19">
-          <stage>Sale.</stage>
-          <stage>Sale.</stage>
-          <sp who="#rey">
+            
+          </sp></div><div type="scene" resp="#rojas" n="19"><stage>Sale.</stage><stage>Sale.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l n="945">Dile, que entre. Aquí, Señor,</l>
             <l>de la gran caridad vuestra,</l>
@@ -1823,43 +1475,33 @@
             <l>porque un alma se os convierta,</l>
             <l>toda mi vida de ayunos,</l>
             <l n="960">silicios y penitencias.</l>
-          </sp>
-          <sp who="#caridad">
+          </sp><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <stage>Dentro.</stage>
             <l part="I">¡Alerta al triunfo de Caridad!</l>
             <stage>Dentro.</stage>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>TODA LA MÚSICA</speaker>
             <l part="F">¡Alerta!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="20">
-          <stage>Salen el HEBRAÍSMO y DOMINGO.</stage>
-          <sp who="#rey">
+          </sp></div><div type="scene" resp="#rojas" n="20"><stage>Salen el HEBRAÍSMO y DOMINGO.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l>Seas, amigo, bien venido.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Forzoso es serlo, quien besa</l>
             <l part="I">la tierra a tus pies.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Levanta,</l>
             <l part="I">dame los brazos.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="965" part="F">Que adviertas</l>
             <l>te suplico, que no es</l>
             <l>capaz, señor, la bajeza</l>
             <l>de un mísero hebreo, de tanto</l>
             <l part="I">supremo honor.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Llega, llega,</l>
             <l n="970">que mejor eres que yo;</l>
@@ -1873,16 +1515,13 @@
             <l>trocar mi estado contigo,</l>
             <l>tú fueras el rey, yo fuera</l>
             <l n="980">el que me echara a tus plantas.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Señor, ¿qué acciones son estas?</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Alerta al triunfo de Caridad, alerta!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Amigo, hermano..., seamos,</l>
             <l>si no mejores, siquiera</l>
@@ -1902,16 +1541,13 @@
             <l>el día que a la Fe vengas,</l>
             <l>que no han de decir que puse</l>
             <l n="1000">yo a la Caridad en venta.</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Alerta al triunfo de Caridad, alerta!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I">Vete pues.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Tanto, señor,</l>
             <l>tus acciones me penetran</l>
@@ -1933,49 +1569,34 @@
             <l>que es verdad que Cristo era,</l>
             <l n="1020">el verdadero Mesías</l>
             <l>que por siglos vive y reina.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="21">
-          <stage>Vase.</stage>
-          <sp who="#rey">
+            
+          </sp></div><div type="scene" resp="#rojas" n="21"><stage>Vase.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l>Religión, síguele y tráele</l>
             <l>contigo al punto a la Iglesia,</l>
             <l>donde seas su ministro</l>
             <l n="1025">y yo su padrino sea.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>¿Quién vio acto de caridad</l>
             <l>tan heroico que le deba</l>
             <l part="I">lágrimas a un rey?</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">¿Qué mucho,</l>
             <l>cuando un alma se granjea,</l>
             <l n="1030">que a mí lágrimas me cueste</l>
             <l>si a Cristo sangre le cuesta?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="22">
-          <stage>Vanse.</stage>
-          <sp who="#músicos">
+          </sp></div><div type="scene" resp="#rojas" n="22"><stage>Vanse.</stage><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Alerta al triunfo de Caridad, alerta!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="23">
-          <stage>Sale la APOSTASÍA.</stage>
-          <sp who="#alcorán #hebraísmo #rústico #rey #leandro #viejo #fe #esperanza #caridad #isidro #religión-de-santo-domingo">
+          </sp></div><div type="scene" resp="#rojas" n="23"><stage>Sale la APOSTASÍA.</stage><sp who="#alcorán #hebraísmo #rústico #rey #leandro #viejo #fe #esperanza #caridad #isidro #religión-de-santo-domingo">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l>Cristo es el Dios verdadero,</l>
             <l>que por siglos vive y reina.</l>
             <stage>Dentro.</stage>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l n="1035">«Cristo es el Dios verdadero,</l>
             <l>que por siglos vive y reina»,</l>
@@ -1983,28 +1604,21 @@
             <l>¿qué novedad será esta,</l>
             <l>que el vulgo en confusas tropas</l>
             <l n="1040">corre desalado a verla?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
-
+            
             <l>No dejaré de ir allá,</l>
             <l>y hallarme en cuanto soceda,</l>
             <l>si me diese dos mil palos</l>
             <l part="I">la guarda.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="24">
-          <stage>Sale.</stage>
-          <stage>Sale.</stage>
-          <sp who="#apostasía">
+            
+          </sp></div><div type="scene" resp="#rojas" n="24"><stage>Sale.</stage><stage>Sale.</stage><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">Villano, espera,</l>
             <l n="1045">y di qué tumulto es ese,</l>
             <l>que tras sí plebe y nobleza</l>
             <l part="I">de Toledo arrastra.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">Es</l>
             <l>que un anciano hebreo, que era</l>
@@ -2013,12 +1627,10 @@
             <l>y como a los niños suelen</l>
             <l>poner el Cristus en ella,</l>
             <l>él en ella aprendió el Cristus.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="I">¿Qué es lo que oigo?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">De manera,</l>
             <l n="1055">que a voces pide el bautismo,</l>
@@ -2047,77 +1659,60 @@
             <l>que yo esas voces diversas,</l>
             <l>que repiten, ya en confusos</l>
             <l n="1080">ecos, ya en cláusulas tiernas...</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Alerta al triunfo de Caridad, alerta!</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>¡Oh infame hebreo! ¿Esta fue</l>
             <l>la unión que dejamos hecha?</l>
-          </sp>
-          <sp who="#alcorán #hebraísmo #rey #leandro #viejo #fe #esperanza #caridad #isidro #religión-de-santo-domingo">
+          </sp><sp who="#alcorán #hebraísmo #rey #leandro #viejo #fe #esperanza #caridad #isidro #religión-de-santo-domingo">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l>Cristo es el Dios verdadero,</l>
             <l n="1085">que por siglos vive y reina.</l>
             <stage>Dentro.</stage>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Alerta al triunfo de Caridad, alerta!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="25">
-          <stage>Tócanse chirimías, y sale la CARIDAD delante, con un ramo de oliva en la mano; detrás de ella el JUDAÍSMO, con toda la Música, y hombres y mujeres que puedan, todos vestidos a lo judío, con ramos en las manos; detrás el REY, y por otra parte sale DOMINGO.</stage>
-          <sp who="#caridad">
+          </sp></div><div type="scene" resp="#rojas" n="25"><stage>Tócanse chirimías, y sale la CARIDAD delante, con un ramo de oliva en la mano; detrás de ella el JUDAÍSMO, con toda la Música, y hombres y mujeres que puedan, todos vestidos a lo judío, con ramos en las manos; detrás el REY, y por otra parte sale DOMINGO.</stage><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>¡Abrid las puertas, abrid!</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Abrid las puertas!</l>
-          </sp>
-          <sp who="#caridad">
+          </sp><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Y aun las del cielo, pues es</l>
             <l n="1090">la Iglesia cielo en la tierra.</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Abrid las puertas!</l>
-          </sp>
-          <sp who="#caridad">
+          </sp><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Abrid, que es la caridad</l>
             <l>de un rey la que llama a ellas,</l>
             <l>para que al príncipe vuestro</l>
             <l n="1095">aún pueda decir la letra.</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Abrid las puertas!</l>
-          </sp>
-          <sp who="#caridad">
+          </sp><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Abrid al Rey de la Gloria</l>
             <l>que hoy la caridad ostenta,</l>
             <l>pues hoy de la Caridad</l>
             <l n="1100">el triunfo es que se celebra.</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Abrid las puertas!</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>¿Cuándo las tuvo cerradas</l>
             <l>a la Caridad la Iglesia?</l>
             <l>Entrad, que yo en nombre suyo,</l>
             <l n="1105">ya a todos las tengo abiertas.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¡Oh, Señor! ¡Qué feliz día</l>
             <l>fuera para mí, si fuera</l>
@@ -2127,8 +1722,7 @@
             <l>mi majestad, mas porque ella,</l>
             <l>en culto de vuestro amor</l>
             <l>fuese la primer ofrenda!</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Todos, mientras el rey pasa,</l>
             <l n="1115">poned la rodilla en tierra,</l>
@@ -2139,26 +1733,21 @@
             <l n="1120">echad a sus pies, diciendo</l>
             <l>conmigo en primer protesta:</l>
             <l>Cristo es el Dios verdadero.</l>
-          </sp>
-          <sp who="#hebraísmo #rey #religión-de-santo-domingo #apostasía #músicos #caridad #rústico">
+          </sp><sp who="#hebraísmo #rey #religión-de-santo-domingo #apostasía #músicos #caridad #rústico">
             <speaker>TODO Y MÚSICAS</speaker>
             <l>Cristo es el Dios verdadero.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Que por siglos vive y reina.</l>
-          </sp>
-          <sp who="#hebraísmo #rey #religión-de-santo-domingo #apostasía #músicos #caridad #rústico">
+          </sp><sp who="#hebraísmo #rey #religión-de-santo-domingo #apostasía #músicos #caridad #rústico">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1125">Que por siglos vive y reina.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Para que mejor digamos,</l>
             <l>ya en el umbral de su Iglesia:</l>
             <l part="I">¡abrid las puertas!</l>
-          </sp>
-          <sp who="#hebraísmo #rey #religión-de-santo-domingo #apostasía #músicos #caridad #rústico">
+          </sp><sp who="#hebraísmo #rey #religión-de-santo-domingo #apostasía #músicos #caridad #rústico">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">¡Abrid las puertas!;</l>
             <l>abrid, que es la caridad</l>
@@ -2166,9 +1755,7 @@
             <l>para que al príncipe vuestro</l>
             <l>aún pueda decir la letra:</l>
             <l>¡abrid las puertas, abrid las puertas!</l>
-          </sp>
-          <stage>Con esta repetición, cantando y representando, se ponen en dos alas, arrojando a sus pies los ramos, si no es la CARIDAD, que irá delante dél. El rey pasa entre todos y al mismo tiempo que representa y canta, tocarán atabalillos, trompetas y chirimías.</stage>
-          <sp who="#apostasía">
+          </sp><stage>Con esta repetición, cantando y representando, se ponen en dos alas, arrojando a sus pies los ramos, si no es la CARIDAD, que irá delante dél. El rey pasa entre todos y al mismo tiempo que representa y canta, tocarán atabalillos, trompetas y chirimías.</stage><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>¡Cielos! ¿Qué rasgo, qué viso,</l>
             <l n="1135">qué luz, qué sombra, qué idea</l>
@@ -2194,22 +1781,16 @@
             <l n="1155">a la caridad opuesta,</l>
             <l>lo que siento es que un Domingo,</l>
             <l>otro Domingo me acuerda.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="26">
-          <stage>Sale RÚSTICO.</stage>
-          <sp who="#rústico">
+          </sp></div><div type="scene" resp="#rojas" n="26"><stage>Sale RÚSTICO.</stage><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Lindamente lo vi todo,</l>
             <l>sin aventurar, que fuera</l>
             <l n="1160">pecado el rebautizarme.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Pues de allá sales, espera,</l>
             <l>y dime lo que ha pasado.</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Hombre, ¿has tomado por tema</l>
             <l>pensar de mí que soy yo</l>
@@ -2219,11 +1800,7 @@
             <l>gente que ya dividida</l>
             <l>va cada uno por su senda,</l>
             <l part="I">puedes informarte.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="27">
-          <stage>Vase y sale el HEBRAÍSMO.</stage>
-          <sp who="#hebraísmo">
+          </sp></div><div type="scene" resp="#rojas" n="27"><stage>Vase y sale el HEBRAÍSMO.</stage><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="1170" part="F">Gracias</l>
             <l>os doy, Señor, de que sea</l>
@@ -2231,8 +1808,7 @@
             <l>aquella perdida oveja</l>
             <l>que vos llevasteis en hombros</l>
             <l n="1175">al redil de la ley vuestra.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Decidme vos: mas... ¡qué miro!</l>
             <l>Caduco hebreo, ¿fue esta</l>
@@ -2244,8 +1820,7 @@
             <l>al romano rito llevas</l>
             <l part="I">tras ti tantas gentes?</l>
             <stage>Maltrátale.</stage>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Como</l>
             <l n="1185">el cielo para mí ordena,</l>
@@ -2255,113 +1830,85 @@
             <l>de sus auxilios me advierta.</l>
             <l n="1190">Y así, cumpliendo con todo,</l>
             <l part="I">rey y libro y risco...</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">Cesa,</l>
             <l>que porque de aquese hallazgo,</l>
             <l>risco, libro ni rey tenga</l>
             <l>el logro, sabré quitarte</l>
             <l n="1195">la vida.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="28">
-          <stage>Saca el puñal, detiénele el brazo y salen algunos y después el REY, DOMINGO y la CARIDAD.</stage>
-          <sp who="#hebraísmo">
+          </sp></div><div type="scene" resp="#rojas" n="28"><stage>Saca el puñal, detiénele el brazo y salen algunos y después el REY, DOMINGO y la CARIDAD.</stage><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Pues defenderla</l>
             <l>sin armas no puedo, el ruido</l>
             <l>de las voces me defienda;</l>
             <l>¡favor, cielos, que me matan!</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l n="1200">Acudid todos apriesa.</l>
-          </sp>
-          <sp who="#hebraísmo #rey">
+          </sp><sp who="#hebraísmo #rey">
             <speaker>UNOS</speaker>
             <l part="I">Teneos.</l>
-          </sp>
-          <sp who="#apostasía #caridad">
+          </sp><sp who="#apostasía #caridad">
             <speaker>OTROS</speaker>
             <l part="F">¿Tal atrevimiento,</l>
             <l>hallándose el rey tan cerca?</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I">¿Qué es eso?</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Aquese albigense...</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l part="I">¿Qué veo? Él es.</l>
-          </sp>
-          <sp who="#hebraísmo">
+          </sp><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="F">Con ira ciega,</l>
             <l n="1205">porque he dejado mi ley,</l>
             <l>quitarme la vida intenta.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="29">
-          <stage>Vase.</stage>
-          <sp who="#apostasía">
+            
+          </sp></div><div type="scene" resp="#rojas" n="29"><stage>Vase.</stage><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="I">¡Ay de mí, infeliz!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">¿Qué escucho?</l>
             <l part="I">¿Albigense eres?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">¡Qué pena!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I">Habla.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="M">¡Qué asombro!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">¿Qué aguardas?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="I">¡Qué sentimiento!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="1210" part="F">¿Qué esperas,</l>
             <l part="I">preguntándote yo?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">¡Qué ansia!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¿En vez de responder, tiemblas?</l>
             <l part="I">¿Eres albigense?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">Sí.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¿De su depravada seta</l>
             <l part="I">sigues la doctrina?</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l n="1215" part="F">No</l>
             <l>lo he de negar, aunque pierda</l>
@@ -2371,28 +1918,21 @@
             <l n="1220">quien sus doctrinas sustenta,</l>
             <l>y en públicas conclusiones</l>
             <l>se atreverá a defenderlas.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Para esas cuestiones, nunca</l>
             <l>daré en mis reinos licencia,</l>
             <l n="1225">que a la Fe cerrar los ojos,</l>
             <l>y al hereje las orejas.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="30">
-          <stage>Sale la FE.</stage>
-          <sp who="#caridad">
+          </sp></div><div type="scene" resp="#rojas" n="30"><stage>Sale la FE.</stage><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Aquí de la Caridad</l>
             <l>quedó la oliva suspensa.</l>
-          </sp>
-          <sp who="#fe">
+          </sp><sp who="#fe">
             <speaker>FE</speaker>
             <l>Y aquí de la Fe la cruz</l>
             <l n="1230">a lograr su triunfo empieza.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¡Quitadme ese horror, quitadme</l>
             <l>ese vestiglo, esa fiera,</l>
@@ -2408,29 +1948,23 @@
             <l>entró a sentarse a la mesa</l>
             <l>de gran padre de familias.</l>
             <l part="I">Llevadle, pues.</l>
-          </sp>
-          <sp who="#apostasía">
+          </sp><sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l part="F">Aunque muera</l>
             <l n="1245">no he de dejar de seguir</l>
             <l>verdades tan manifiestas.</l>
             <stage>Llévanle.</stage>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Religión, ¿qué haremos para</l>
             <l>que esta alma no se nos pierda?</l>
-          </sp>
-          <sp who="#caridad">
+          </sp><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Aún dura en mi Caridad.</l>
-          </sp>
-          <stage>Vuélvense a trocar, FE y CARIDAD.</stage>
-          <sp who="#fe">
+          </sp><stage>Vuélvense a trocar, FE y CARIDAD.</stage><sp who="#fe">
             <speaker>FE</speaker>
             <l n="1250">Tiempo habrá en que a mí se vuelva.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Ve tras él, que tus estudios</l>
             <l>no dudo que le convenzan,</l>
@@ -2441,50 +1975,34 @@
             <l>la muerte del pecador,</l>
             <l>sino antes que se arrepienta</l>
             <l part="I">y viva.</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l part="F">Tras él iré,</l>
             <l n="1260">y haré que se le requiera</l>
             <l>primero con dos edictos,</l>
             <l>después con una anatema.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="31">
-          <stage>Vase.</stage>
-          <sp who="#caridad">
+            
+          </sp></div><div type="scene" resp="#rojas" n="31"><stage>Vase.</stage><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>La Caridad va contigo,</l>
             <l>pues vas tú a rogar con ella.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="32">
-          <stage>Vase.</stage>
-          <sp who="#fe">
+            
+          </sp></div><div type="scene" resp="#rojas" n="32"><stage>Vase.</stage><sp who="#fe">
             <speaker>FE</speaker>
             <l n="1265">Ve, que no harás falta, pues</l>
             <l>la Fe con Fernando queda.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¡Señor, muera yo y no haya</l>
             <l>quien en mi Reino os ofenda!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="33">
-          <stage>Sale RÚSTICO con un palo.</stage>
-          <sp who="#rústico">
+          </sp></div><div type="scene" resp="#rojas" n="33"><stage>Sale RÚSTICO con un palo.</stage><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>¿Adónde está aqueste hereje,</l>
             <l n="1270">que inmortal al alma niega?</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¿A dónde, villano, vas?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>A hacerle una consecuencia,</l>
             <l>llevando por sinlogismo</l>
@@ -2504,12 +2022,8 @@
             <l>y en habiéndole esto dicho,</l>
             <l>un palmito de la oreja,</l>
             <l>zas, darle con el garrote.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="34">
-          <stage>Vase.</stage>
-          <sp who="#rey">
+            
+          </sp></div><div type="scene" resp="#rojas" n="34"><stage>Vase.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l n="1290">De la verdad es la fuerza</l>
             <l>tal, que aun dicha de un villano,</l>
@@ -2520,16 +2034,11 @@
             <l>en tan bárbaras, tan ciegas</l>
             <l>proposiciones: ¡Señor,</l>
             <l>haced que sobre sí vuelva!</l>
-          </sp>
-          <sp who="#fe">
+          </sp><sp who="#fe">
             <speaker>FE</speaker>
             <l>¡Haced, Señor, que la Fe</l>
             <l n="1300">su triunfo en Fernando tenga!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="35">
-          <stage>Sale DOMINGO.</stage>
-          <sp who="#religión-de-santo-domingo">
+          </sp></div><div type="scene" resp="#rojas" n="35"><stage>Sale DOMINGO.</stage><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Ni argumentos, ni razones</l>
             <l>son mis ruegos, ni protestas</l>
@@ -2542,8 +2051,7 @@
             <l>la pena o gloria del alma,</l>
             <l n="1310">pero la real asistencia</l>
             <l>de Cristo sacramentado.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>No lo digas, cesa, cesa,</l>
             <l>porque es rayo en el oído</l>
@@ -2554,13 +2062,11 @@
             <l>importaque no lo vea,</l>
             <l>si basta que lo imagine</l>
             <l n="1320">para llorar yo con ella?</l>
-          </sp>
-          <sp who="#fe">
+          </sp><sp who="#fe">
             <speaker>FE</speaker>
             <l>¡Ay de ti, Fe, a no tener</l>
             <l>rey que tus agravios sienta!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¿Hemos hecho, di, Domingo,</l>
             <l>(que bien ya desta manera</l>
@@ -2569,16 +2075,14 @@
             <l>de Religión) hemos hecho</l>
             <l>cuanto a la caridad nuestra</l>
             <l part="I">toca en su reparo?</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l part="F">Sí,</l>
             <l n="1330">señor, pero está tan terca</l>
             <l>su obstinada rebeldía,</l>
             <l>que ni caridad acepta,</l>
             <l>ni pide misericordia.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Pues ¿qué aguardas? Pues ¿qué esperas,</l>
             <l n="1335">si obró ya la Caridad,</l>
@@ -2625,12 +2129,8 @@
             <l>este brazo corta y quema.</l>
             <l>No me dejes, Fe, pues ves,</l>
             <l>que a vengar voy tus ofensas.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="36">
-          <stage>Vase.</stage>
-          <sp who="#fe">
+            
+          </sp></div><div type="scene" resp="#rojas" n="36"><stage>Vase.</stage><sp who="#fe">
             <speaker>FE</speaker>
             <l>¿Cómo te puedo dejar,</l>
             <l n="1380">si en el corazón me llevas</l>
@@ -2640,12 +2140,8 @@
             <l>sea ella verdad y tenga,</l>
             <l n="1385">si herejes que la dudaren,</l>
             <l>católicos que la crean.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="37">
-          <stage>Vase.</stage>
-          <sp who="#religión-de-santo-domingo">
+            
+          </sp></div><div type="scene" resp="#rojas" n="37"><stage>Vase.</stage><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>¿Qué acción será esta? ¿Mas quién</l>
             <l>podrá discurrir en ella,</l>
@@ -2655,20 +2151,12 @@
             <l>y deje a las venideras</l>
             <l>edades, que diga el tiempo,</l>
             <l>todo alas y todo lenguas...</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="38">
-          <stage>Vase.</stage>
-          <sp who="#músicos">
+            
+          </sp></div><div type="scene" resp="#rojas" n="38"><stage>Vase.</stage><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l n="1395">¡Alerta al primer triunfo suyo, alerta!</l>
             <l>¡Viva la Fe y el albigense muera!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="39">
-          <stage>Sale el ALCORÁN.</stage>
-          <sp who="#alcorán">
+          </sp></div><div type="scene" resp="#rojas" n="39"><stage>Sale el ALCORÁN.</stage><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>¿«Viva la Fe y el albigense muera»?</l>
             <l>¿Dónde corre mi recelo,</l>
@@ -2703,12 +2191,10 @@
             <l>obstinación contra él,</l>
             <l>pues piadoso, ni cruel</l>
             <l>me importa, aunque decir quiera...</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l n="1430">¡Viva la Fe y el albigense muera!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Mas ¡ay! Que aunque no dé asombro</l>
             <l>a la invasión de mi ley,</l>
@@ -2722,54 +2208,41 @@
             <l n="1440">en tan nunca vista acción</l>
             <l>mejorar la admiración</l>
             <l>por más que la Fe me advierta.</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Alerta al alto triunfo suyo, alerta!</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>VOZ</speaker>
             <l>¡Lucid, estrellas, lucid!</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l n="1445">¡Lucid, estrellas!</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>VOZ</speaker>
             <l>Y pues sois hijas del fuego,</l>
             <l>que el sol de justicia engendra...</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Lucid, estrellas!</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>VOZ</speaker>
             <l>¡Lucid!, que es la voz de un rey</l>
             <l n="1450">la que por ser virtud ciega,</l>
             <l>ha menester quien la guíe</l>
             <l>a la luz de la luz vuestra.</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Lucid, estrellas!</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>VOZ</speaker>
             <l>¡Lucid!, que de vuestra lumbre</l>
             <l n="1455">necesita su clemencia,</l>
             <l>y es bien que en triunfos de Fe,</l>
             <l>fuego del cielo descienda.</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>¡Lucid, estrellas!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="40">
-          <stage>Sale la FE, delante de todos, con una cruz verde, y después el REY, con un haz de leña, y todos los músicos y demás compañeros con sus haces al hombro.</stage>
-          <sp who="#fe">
+          </sp></div><div type="scene" resp="#rojas" n="40"><stage>Sale la FE, delante de todos, con una cruz verde, y después el REY, con un haz de leña, y todos los músicos y demás compañeros con sus haces al hombro.</stage><sp who="#fe">
             <speaker>FE</speaker>
             <l>Mortales, pues os enseña</l>
             <l n="1460">en estos extremos dos,</l>
@@ -2780,12 +2253,10 @@
             <l n="1465">antorcha que arda en mi hoguera</l>
             <l>es la lumbre de su Fe,</l>
             <l>¿qué mucho que digáis que...</l>
-          </sp>
-          <sp who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #isidro #leandro #músicos #religión-de-santo-domingo #rey #rústico #viejo">
+          </sp><sp who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #isidro #leandro #músicos #religión-de-santo-domingo #rey #rústico #viejo">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Viva la Fe y el albigense muera!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Si mi ejemplar os obliga</l>
             <l n="1470">a honor de la Fe, en igual</l>
@@ -2817,23 +2288,16 @@
             <l>para que viva, labrad</l>
             <l>esta obra y publicad,</l>
             <l>porque más la Fe lo advierta:</l>
-          </sp>
-          <sp who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #músicos #religión-de-santo-domingo #rey #rústico">
+          </sp><sp who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #músicos #religión-de-santo-domingo #rey #rústico">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Alerta al alto triunfo suyo, alerta!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="1500">¡Alerta pues, y en encendida hoguera...</l>
-          </sp>
-          <sp who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #religión-de-santo-domingo #rey #rústico">
+          </sp><sp who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #religión-de-santo-domingo #rey #rústico">
             <speaker>TODOS</speaker>
             <l>¡Viva la Fe y el albigense muera!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="41">
-          <stage>Tocan chirimías y vanse.</stage>
-          <sp who="#alcorán">
+          </sp></div><div type="scene" resp="#rojas" n="41"><stage>Tocan chirimías y vanse.</stage><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>¡Oh, qué de cosas me advierte</l>
             <l>ver como en profundo sueño,</l>
@@ -2851,17 +2315,12 @@
             <l n="1515">también yo soy doble espía</l>
             <l>de toda el Andalucía,</l>
             <l part="I">¿quién me vencerá a mí?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="42">
-          <stage>Sale un VIEJO venerable, de camino.</stage>
-          <sp who="#viejo">
+          </sp></div><div type="scene" resp="#rojas" n="42"><stage>Sale un VIEJO venerable, de camino.</stage><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l part="F">¿El rey,</l>
             <l>sabréisme decir si acaso</l>
             <l>ha de volver por aquí?</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l n="1520">¿Qué sé yo? Mas ¿cómo así</l>
             <l>de un fácil proverbio caso</l>
@@ -2869,8 +2328,7 @@
             <l>que tengo y debo tener</l>
             <l>de que por mí no ha de haber</l>
             <l n="1525">triunfo para la Esperanza?</l>
-          </sp>
-          <sp who="#viejo">
+          </sp><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l>Con notable ceguedad</l>
             <l>me habéis respondido, y yo</l>
@@ -2880,36 +2338,27 @@
             <l>con general expulsión,</l>
             <l>arranque a vuestra nación</l>
             <l>las mal brotadas raíces.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l part="I">Si el rey no viniera...</l>
-          </sp>
-          <sp who="#viejo">
+          </sp><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l part="F">Pues</l>
             <l part="I">si tardara...</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="43">
-          <stage>Ruido, y sale el REY, con capa.</stage>
-          <sp who="#rey">
+          </sp></div><div type="scene" resp="#rojas" n="43"><stage>Ruido, y sale el REY, con capa.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l n="1535" part="F">Uno que sea</l>
             <l>su ministro; otro que vea</l>
             <l part="I">su espectáculo.</l>
-          </sp>
-          <sp who="#viejo">
+          </sp><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l part="F">Los pies</l>
             <l>me dad, señor, a besar.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I">¿Quién sois?</l>
             <stage>Dale una carta, y hace que la lee.</stage>
-          </sp>
-          <sp who="#viejo">
+          </sp><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l part="F">Esta carta diga</l>
             <l n="1540">quién soy, y lo que me obliga</l>
@@ -2917,37 +2366,31 @@
             <l>espacio a que en otra audiencia</l>
             <l>hable, por ser importante</l>
             <l>que no se pierda un instante.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="1545">Esta carta es de creencia,</l>
             <l>remitiéndose don Arias,</l>
             <l>arzobispo, a que de vos</l>
             <l part="I">me informe; decid.</l>
-          </sp>
-          <sp who="#viejo">
+          </sp><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l part="F">¡Ay Dios!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I">¿Qué os suspendéis?</l>
-          </sp>
-          <sp who="#viejo">
+          </sp><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l part="F">Son tan varias</l>
             <l n="1550">las nuevas, señor, que no</l>
             <l>quisiera de paso en ellas</l>
             <l part="I">hablar.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Esa de sabellas</l>
             <l>también el deseo abrevió;</l>
             <l>decid, que de paso oiré,</l>
             <l part="I">sin perder tiempo.</l>
-          </sp>
-          <sp who="#viejo">
+          </sp><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l n="1555" part="F">Almanzor,</l>
             <l>rey de Córdoba, señor,</l>
@@ -2985,8 +2428,7 @@
             <l>conque a tu piedad apela</l>
             <l>para ver restituido</l>
             <l n="1590">el templo a su lustre, y...</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>No más; yo responderé</l>
             <l>al punto, y después iré</l>
@@ -2994,46 +2436,33 @@
             <l>de otra suerte, en confianza</l>
             <l n="1595">de que el patrón me dará</l>
             <l part="I">su favor.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="44">
-          <stage>Vase el REY, y sale la ESPERANZA.</stage>
-          <sp who="#esperanza">
+          </sp></div><div type="scene" resp="#rojas" n="44"><stage>Vase el REY, y sale la ESPERANZA.</stage><sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l part="F">Conque tendrá</l>
             <l>su triunfo allá la Esperanza.</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Si supiera que traías</l>
             <l>tales nuevas, nunca yo</l>
             <l part="I">descortés te hablara.</l>
-          </sp>
-          <sp who="#viejo">
+          </sp><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l n="1600" part="F">No</l>
             <l>importa, que en breves días</l>
             <l>podrá ser que tome el cielo</l>
             <l>de todo justa venganza.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="45">
-          <stage>Vase.</stage>
-          <sp who="#alcorán">
+          </sp></div><div type="scene" resp="#rojas" n="45"><stage>Vase.</stage><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>Porque con esa esperanza</l>
             <l n="1605">no vuelvas a dar consuelo</l>
             <l>a tu patria en su conflicto</l>
             <l>que te doy muerte verás.</l>
-          </sp>
-          <sp who="#esperanza">
+          </sp><sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l>Mal la esperanza podrás</l>
             <l>quitarle, si yo te quito</l>
             <l part="I">las armas.</l>
-          </sp>
-          <stage>Quítale la espada.</stage>
-          <sp who="#alcorán">
+          </sp><stage>Quítale la espada.</stage><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l n="1610" part="F">Mas (¡ay de mí!)</l>
             <l>la espada se me cayó</l>
@@ -3054,23 +2483,15 @@
             <l>basta el amago, detén</l>
             <l>el golpe y dimequién eres.</l>
             <l>¿Qué me afliges, qué me quieres?</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="46">
-          <stage>Vase.</stage>
-          <sp who="#esperanza">
+            
+          </sp></div><div type="scene" resp="#rojas" n="46"><stage>Vase.</stage><sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l>Presto sabrás que soy quien</l>
             <l n="1630">(pues el Alcorán no alcanza</l>
             <l>más estudios que lidiar)</l>
             <l>piensa en la espada fundar</l>
             <l>los triunfos de la Esperanza.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="47">
-          <stage>Vase. Ábrese el carro, y vése en él el REY, sentado en una silla, escribiendo sobre un bufete en que habrá luces.</stage>
-          <sp who="#rey">
+          </sp></div><div type="scene" resp="#rojas" n="47"><stage>Vase. Ábrese el carro, y vése en él el REY, sentado en una silla, escribiendo sobre un bufete en que habrá luces.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l>Ya que en público, Señor,</l>
             <l n="1635">con lágrimas responder</l>
@@ -3108,11 +2529,7 @@
             <l>mis sentidos; ¡oh desdén</l>
             <l>mortal! Déjame el oír,</l>
             <l>ya que me quitas el ver.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="48">
-          <stage>Tocan chirimías, quédase dormido y salen en otro carro SAN ISIDORO y SAN LEANDRO, vestidos de pontifical, con báculos pastorales.</stage>
-          <sp who="#leandro">
+          </sp></div><div type="scene" resp="#rojas" n="48"><stage>Tocan chirimías, quédase dormido y salen en otro carro SAN ISIDORO y SAN LEANDRO, vestidos de pontifical, con báculos pastorales.</stage><sp who="#leandro">
             <speaker>LEANDRO</speaker>
             <l>Si para hablar a un prelado</l>
             <l>ofendido, has menester</l>
@@ -3122,15 +2539,13 @@
             <l>dos prelados que se ven</l>
             <l>ofendidos de las sañas</l>
             <l n="1680">del torpe Alcorán también?</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¿Quién sois, quién sois, venerables</l>
             <l>ancianos, que me ponéis,</l>
             <l>cuando os oigo en gran pesar,</l>
             <l>cuando os miro en gran placer?</l>
-          </sp>
-          <sp who="#isidro">
+          </sp><sp who="#isidro">
             <speaker>ISIDORO</speaker>
             <l n="1685">Leandro y Isidoro somos;</l>
             <l>cuya iglesia, que antes fue</l>
@@ -3138,8 +2553,7 @@
             <l>hoy profanada posee</l>
             <l>rey de Sevilla, el tirano</l>
             <l n="1690">y bárbaro Abenyucef.</l>
-          </sp>
-          <sp who="#leandro">
+          </sp><sp who="#leandro">
             <speaker>LEANDRO</speaker>
             <l>Si a fin de desagraviar</l>
             <l>la de Santiago te ves</l>
@@ -3151,35 +2565,29 @@
             <l>entre otros mil santos, fue</l>
             <l>de Hermenegildo, y te toca</l>
             <l n="1700">por lo santo y por lo rey.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Para tan altas empresas</l>
             <l>como ambos me proponéis,</l>
             <l>¿qué méritos hay en mí?,</l>
             <l>¿quién me ha de favorecer?</l>
-          </sp>
-          <sp who="#isidro">
+          </sp><sp who="#isidro">
             <speaker>ISIDORO</speaker>
             <l n="1705">Tus virtudes, que ellas son</l>
             <l>el más superior poder</l>
             <l part="I">de las armas.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">¿Qué virtudes</l>
             <l>hay en mí, si a conocer</l>
             <l>llego cuán ingrato a Dios</l>
             <l n="1710">agradecerle no sé</l>
             <l part="I">yo lo que él me sufre?</l>
-          </sp>
-          <sp who="#isidro #leandro">
+          </sp><sp who="#isidro #leandro">
             <speaker>LOS DOS</speaker>
             <l part="F">A eso</l>
             <l>a ellas toca el responder.</l>
-          </sp>
-          <stage>En otro carro, las Virtudes, con la oliva, la cruz y la espada.</stage>
-          <sp who="#caridad">
+          </sp><stage>En otro carro, las Virtudes, con la oliva, la cruz y la espada.</stage><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Yo, que soy la Caridad,</l>
             <l>primera virtud, en quien</l>
@@ -3193,8 +2601,7 @@
             <l>para tus sienes haré</l>
             <l>guirnalda, que será en ellas</l>
             <l>oliva a un tiempo y laurel.</l>
-          </sp>
-          <sp who="#fe">
+          </sp><sp who="#fe">
             <speaker>FE</speaker>
             <l n="1725">Yo de aqueste verde tronco,</l>
             <l>de cuyas ramas ayer</l>
@@ -3208,8 +2615,7 @@
             <l>hay silla, estrado u dosel,</l>
             <l n="1735">como la cruz que preside</l>
             <l>al tribunal de la Fe.</l>
-          </sp>
-          <sp who="#esperanza">
+          </sp><sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l>Yo, como Esperanza, no</l>
             <l>te puedo ahora ofrecer</l>
@@ -3227,37 +2633,30 @@
             <l n="1750">reservo el mío, porque</l>
             <l>la Esperanza siempre guarda</l>
             <l>sus triunfos para después.</l>
-          </sp>
-          <sp who="#caridad">
+          </sp><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l>Nunca será igual al mío.</l>
-          </sp>
-          <sp who="#esperanza">
+          </sp><sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l part="I">Quizá mayor.</l>
-          </sp>
-          <sp who="#caridad">
+          </sp><sp who="#caridad">
             <speaker>CARIDAD</speaker>
             <l part="F">Esto no es</l>
             <l n="1755">lidiar, sino competir;</l>
             <l>¿cómo mayor puede ser,</l>
             <l part="I">que el desta oliva?</l>
-          </sp>
-          <sp who="#esperanza">
+          </sp><sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l part="F">Acudiendo</l>
             <l part="I">el desta espada.</l>
-          </sp>
-          <sp who="#fe">
+          </sp><sp who="#fe">
             <speaker>FE</speaker>
             <l part="F">Tened</l>
             <l>la acción, y advertid que desta</l>
             <l n="1760">imaginada lid es</l>
             <l>arco de paz de la cruz,</l>
             <l>verde y rojo el rosicler.</l>
-          </sp>
-          <stage>Forman las tres las armas de la Inquisición.</stage>
-          <sp who="#rey">
+          </sp><stage>Forman las tres las armas de la Inquisición.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l>¿Qué jeroglífico es, cielos,</l>
             <l>formado en el aire aquel,</l>
@@ -3265,9 +2664,7 @@
             <l>uniéndose todas tres,</l>
             <l>me proponen la Esperanza,</l>
             <l>la Caridad y la Fe?</l>
-          </sp>
-          <stage>DOMINGO en el carro del jardín.</stage>
-          <sp who="#religión-de-santo-domingo">
+          </sp><stage>DOMINGO en el carro del jardín.</stage><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Yo te responderé a eso,</l>
             <l n="1770">desde este nuevo vergel</l>
@@ -3289,47 +2686,35 @@
             <l>formado ahora se ve,</l>
             <l>serán armas que guarnezcan</l>
             <l>de mi escudo el coronel.</l>
-          </sp>
-          <sp who="#isidro #leandro">
+          </sp><sp who="#isidro #leandro">
             <speaker>LOS DOS</speaker>
             <l>Conque en los dos animado...</l>
-          </sp>
-          <sp who="#esperanza #caridad #fe">
+          </sp><sp who="#esperanza #caridad #fe">
             <speaker>LAS TRES</speaker>
             <l n="1790">Conque inspirado en las tres...</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l>Podremos todos a un tiempo</l>
             <l part="I">decir:</l>
-          </sp>
-          <sp who="#esperanza #fe #caridad #leandro #isidro">
+          </sp><sp who="#esperanza #fe #caridad #leandro #isidro">
             <speaker>TODOS</speaker>
             <l part="M">¡Ven Fernando...!</l>
-          </sp>
-          <sp who="#músicos">
+          </sp><sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l part="F">¡Ven...!</l>
-          </sp>
-          <sp who="#esperanza #fe #caridad #leandro #isidro">
+          </sp><sp who="#esperanza #fe #caridad #leandro #isidro">
             <speaker>TODOS</speaker>
             <l>¡A lograr en los triunfos de la Esperanza,</l>
             <l>méritos que adquirieron Caridad y Fe!</l>
             <l n="1795">¡Al arma, pues, al arma, pues!</l>
-          </sp>
-          <stage>Cajas y trompetas.</stage>
-          <sp who="#rey">
+          </sp><stage>Cajas y trompetas.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l>¿Qué nuevo rumor de cajas</l>
             <l>y trompas pudo romper</l>
             <l>con militares estruendos</l>
             <l>el alegre sueño en que</l>
             <l n="1800">tan bien hallado me vía?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="49">
-          <stage>Sale el ALCORÁN.</stage>
-          <sp who="#alcorán">
+          </sp></div><div type="scene" resp="#rojas" n="49"><stage>Sale el ALCORÁN.</stage><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>¿Dónde esconderme podré,</l>
             <l>si no cobrada la espada,</l>
@@ -3339,29 +2724,19 @@
             <l>de lo horroroso y lo dulce,</l>
             <l>lo apacible y lo cruel,</l>
             <l part="I">diciendo...</l>
-          </sp>
-          <sp who="#esperanza #fe #caridad #leandro #isidro">
+          </sp><sp who="#esperanza #fe #caridad #leandro #isidro">
             <speaker>TODOS</speaker>
             <l part="F">¡Al arma, pues, al arma, pues!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>Hola, ¿qué trompas, qué cajas</l>
             <l part="I">son estas? ¿Qué es eso?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="50">
-          <stage>Sale el HEBRAÍSMO.</stage>
-          <sp who="#hebraísmo">
+          </sp></div><div type="scene" resp="#rojas" n="50"><stage>Sale el HEBRAÍSMO.</stage><sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l n="1810" part="F">Es</l>
             <l>que van llegando las tropas,</l>
             <l>señor, que has mandado hacer.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="51">
-          <stage>Sale el VIEJO.</stage>
-          <sp who="#viejo">
+          </sp></div><div type="scene" resp="#rojas" n="51"><stage>Sale el VIEJO.</stage><sp who="#viejo">
             <speaker>VIEJO</speaker>
             <l>Los Maestres de las tres cruces</l>
             <l>militares, y también</l>
@@ -3369,17 +2744,12 @@
             <l>de San Juan, en parabién</l>
             <l>de su llegada, te hacen</l>
             <l part="I">esta salva.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="52">
-          <stage>Sale RÚSTICO.</stage>
-          <sp who="#rústico">
+          </sp></div><div type="scene" resp="#rojas" n="52"><stage>Sale RÚSTICO.</stage><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="F">Desta vez</l>
             <l>dejo el azadón, y trueco</l>
             <l n="1820">el sayo por el arnés.</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l>¡A qué buen tiempo han venido!</l>
             <l>Gran patrón, yo vengaré</l>
@@ -3390,28 +2760,23 @@
             <l>a mi ejército valor;</l>
             <l>Virtudes, no me dejéis,</l>
             <l>aunque indigno de vosotras...</l>
-          </sp>
-          <sp who="#religión-de-santo-domingo">
+          </sp><sp who="#religión-de-santo-domingo">
             <speaker>RELIGIÓN</speaker>
             <l n="1830">¿Quién te ha de faltar, si ves,</l>
             <l>que todos en tu Esperanza</l>
             <l part="I">decimos?</l>
-          </sp>
-          <sp who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico">
+          </sp><sp who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico">
             <speaker>TODOS</speaker>
             <l part="F">¡Fernando, ven!</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I">¡Al arma, pues!</l>
-          </sp>
-          <sp who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico #religión-de-santo-domingo">
+          </sp><sp who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico #religión-de-santo-domingo">
             <speaker>TODOS</speaker>
             <l part="F">¡Al arma, pues,</l>
             <l>a lograr en los triunfos de la Esperanza,</l>
             <l n="1835">méritos que adquirieron Caridad y Fe!</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l>¿Qué triunfos ha de lograr,</l>
             <l>si enviaré delante dél,</l>
@@ -3422,16 +2787,13 @@
             <l>para que halle prevenidos</l>
             <l>a Almanzor y Abenyucef,</l>
             <l>que su ejército destruya?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l part="I">Eso ha de decirlo...</l>
-          </sp>
-          <sp who="#alcorán">
+          </sp><sp who="#alcorán">
             <speaker>ALCORÁN</speaker>
             <l n="1845" part="F">¿Quién?</l>
-          </sp>
-          <sp who="#rústico">
+          </sp><sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>En segunda parte el auto</l>
             <l>que se ha de seguir después,</l>
@@ -3439,16 +2801,14 @@
             <l>el eco una y otra vez,</l>
             <l n="1850">mientras se pone su autor,</l>
             <l>siempre humilde a vuestros pies:</l>
-          </sp>
-          <sp who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico #religión-de-santo-domingo #músicos">
+          </sp><sp who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico #religión-de-santo-domingo #músicos">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Ven, Fernando, ven</l>
             <l>a lograr en los triunfos de la Esperanza,</l>
             <l>méritos que adquirieron Caridad y Fe!</l>
-          </sp>
-        </div>
-
-      </div>
+          </sp></div>
+      
+    </div>
     </body>
   </text>
 </TEI>

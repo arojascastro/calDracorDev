@@ -54,5 +54,23 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Template for 'ASTREA' -->
+  <xsl:template match="person[@sex = 'MALE' and persName[contains(., 'Astrea')]]">
+    <xsl:copy>
+      <xsl:attribute name="sex">FEMALE</xsl:attribute>
+      <xsl:apply-templates select="@*[name() != 'sex']"/>
+      <xsl:apply-templates select="node()"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <!-- Template for 'GLAUCA' -->
+  <xsl:template match="person[@sex = 'MALE' and persName[contains(., 'Glauca')]]">
+    <xsl:copy>
+      <xsl:attribute name="sex">FEMALE</xsl:attribute>
+      <xsl:apply-templates select="@*[name() != 'sex']"/>
+      <xsl:apply-templates select="node()"/>
+    </xsl:copy>
+  </xsl:template>
+
 
 </xsl:stylesheet>

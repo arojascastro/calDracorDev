@@ -1,111 +1,5 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000042" xml:lang="esp">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">Loa a El divino Orfeo</title>
-        <title type="sub">Auto sacramental</title>
-        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
-        <respStmt>
-          <resp>Data curation (cleaning, normalization and scene division)</resp>
-          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
-        <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2019-05-01"><time when="10:30:37"/></date>
-        <idno type="quadramaX">Loa a El divino Orfeo</idno>
-        <availability>
-          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-a-el-divino-orfeo--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de E. Duarte, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1999.</title></bibl></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person xml:id="placer" sex="MALE">
-            <persName>El Placer</persName>
-            <trait source="castlist">
-              <desc>villano</desc>
-            </trait>
-          </person>
-          <person xml:id="galán-1" sex="MALE">
-            <persName>Galán 1º</persName>
-          </person>
-          <person xml:id="galán-2" sex="MALE">
-            <persName>Galán 2º</persName>
-          </person>
-          <person xml:id="galán-3" sex="MALE">
-            <persName>Galán 3º</persName>
-          </person>
-          <person xml:id="galán-4" sex="MALE">
-            <persName>Galán 4º</persName>
-          </person>
-          <person xml:id="galán-5" sex="MALE">
-            <persName>Galán 5º</persName>
-          </person>
-          <person xml:id="dama-1" sex="FEMALE">
-            <persName>Dama 1ª</persName>
-            <trait resp="#rojas">
-              <desc>dama</desc>
-            </trait>
-          </person>
-          <person xml:id="dama-2" sex="FEMALE">
-            <persName>Dama 2ª</persName>
-            <trait resp="#rojas">
-              <desc>dama</desc>
-            </trait>
-          </person>
-          <person xml:id="dama-3" sex="FEMALE">
-            <persName>Dama 3ª</persName>
-            <trait resp="#rojas">
-              <desc>dama</desc>
-            </trait>
-          </person>
-          <person xml:id="dama-4" sex="FEMALE">
-            <persName>Dama 4ª</persName>
-            <trait resp="#rojas">
-              <desc>dama</desc>
-            </trait>
-          </person>
-          <person xml:id="dama-5" sex="FEMALE">
-            <persName>Dama 5ª</persName>
-            <trait resp="#rojas">
-              <desc>dama</desc>
-            </trait>
-          </person>
-          <person xml:id="viejo-venerable" sex="MALE">
-            <persName>Un Viejo Venerable</persName>
-          </person>
-          <personGrp sex="UNKNOWN" xml:id="música">
-            <persName>Músicos</persName>
-          </personGrp>
-        </listPerson>
-      </particDesc>
-      <textClass>
-        <keywords>
-          <term source="dracor" type="genreTitle">auto sacramental</term>
-          <term source="#kroll" type="main">auto sacramental</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
-        </taxonomy>
-      </classDecl>
-      <classDecl>
-        <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-  </teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000042" xml:lang="esp">
+  <teiHeader><fileDesc><titleStmt><title type="main">Loa a El divino Orfeo</title><title type="sub">Auto sacramental</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-05-01"><time when="10:30:37"/></date><idno type="quadramaX">Loa a El divino Orfeo</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-a-el-divino-orfeo--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de E. Duarte, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1999.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="placer" sex="MALE"><persName>El Placer</persName><trait source="castlist"><desc>villano</desc></trait></person><person xml:id="galán-1" sex="MALE"><persName>Galán 1º</persName></person><person xml:id="galán-2" sex="MALE"><persName>Galán 2º</persName></person><person xml:id="galán-3" sex="MALE"><persName>Galán 3º</persName></person><person xml:id="galán-4" sex="MALE"><persName>Galán 4º</persName></person><person xml:id="galán-5" sex="MALE"><persName>Galán 5º</persName></person><person xml:id="dama-1" sex="FEMALE"><persName>Dama 1ª</persName><trait resp="#rojas"><desc>dama</desc></trait></person><person xml:id="dama-2" sex="FEMALE"><persName>Dama 2ª</persName><trait resp="#rojas"><desc>dama</desc></trait></person><person xml:id="dama-3" sex="FEMALE"><persName>Dama 3ª</persName><trait resp="#rojas"><desc>dama</desc></trait></person><person xml:id="dama-4" sex="FEMALE"><persName>Dama 4ª</persName><trait resp="#rojas"><desc>dama</desc></trait></person><person xml:id="dama-5" sex="FEMALE"><persName>Dama 5ª</persName><trait resp="#rojas"><desc>dama</desc></trait></person><person xml:id="viejo-venerable" sex="MALE"><persName>Un Viejo Venerable</persName></person><personGrp sex="UNKNOWN" xml:id="música"><persName>Músicos</persName></personGrp></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1759">
@@ -138,9 +32,7 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene" resp="#rojas" n="1">
-          <stage>Salen los MÚSICOS y, oyendo lo que cantan el PLACER, vestido de villano.</stage>
-          <sp who="#música">
+        <div type="scene" resp="#rojas" n="1"><stage>Salen los MÚSICOS y, oyendo lo que cantan el PLACER, vestido de villano.</stage><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Ya que al día del Señor</l>
             <l>aplauden hoy y celebran</l>
@@ -148,8 +40,7 @@
             <l>divinas y humanas letras,</l>
             <l n="5">sepamos cuál de ellas</l>
             <l>incluye feliz su mayor excelencia.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l>¡Oh tú, coro de la fe,</l>
             <l>que la católica iglesia</l>
@@ -163,21 +54,15 @@
             <l>compones y en blandas muestras</l>
             <l>de placer sin el Placer</l>
             <l>dices, desafiando letras...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Sepamos cuál de ellas</l>
             <l n="20">incluye feliz su mayor excelencia.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l>Eso no es satisfacer</l>
             <l part="I">a mis dudas.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
-          <stage>Sale la DAMA 1ª con un escudo y en él pintada una E.</stage>
-          <sp who="#dama-1">
+          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Sale la DAMA 1ª con un escudo y en él pintada una E.</stage><sp who="#dama-1">
             <speaker>DAMA 1ª</speaker>
             <l part="F">Pues espera,</l>
             <l>que ya que el primer lugar</l>
@@ -189,15 +74,13 @@
             <l>la primera ha de tocarme</l>
             <l n="30">dar a tus dudas respuesta.</l>
             <l part="I">¿Qué preguntas?</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="F">¿Cómo siendo</l>
             <l>yo el Placer, sin mí se alegran?</l>
             <l>¿Y cómo, si es desafío,</l>
             <l>duelos y músicas mezclan?</l>
-          </sp>
-          <sp who="#dama-1">
+          </sp><sp who="#dama-1">
             <speaker>DAMA 1ª</speaker>
             <l n="35">Como eres Placer humano,</l>
             <l>la primer duda convenza</l>
@@ -219,13 +102,11 @@
             <l>de ingenio y en otra fiesta,</l>
             <l>a campal festín nos llama</l>
             <l>en quien amigas y opuestas...</l>
-          </sp>
-          <sp who="#dama-1 #música">
+          </sp><sp who="#dama-1 #música">
             <speaker>ELLA y MÚSICA</speaker>
             <l n="55">Sepamos cuál de ellas</l>
             <l>incluye feliz su mayor excelencia.</l>
-          </sp>
-          <sp who="#dama-1">
+          </sp><sp who="#dama-1">
             <speaker>DAMA 1ª</speaker>
             <l>Y siendo así que a saber</l>
             <l>qué letra a todas prefiera</l>
@@ -255,15 +136,10 @@
             <l>que cometida en sí mesma</l>
             <l>la retórica figura</l>
             <l>con la que en sí explica ella...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="85">Incluye feliz su mayor excelencia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage>Sale el GALÁN 1º y en su escudo una A.</stage>
-          <sp who="#galán-1">
+          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Sale el GALÁN 1º y en su escudo una A.</stage><sp who="#galán-1">
             <speaker>GALÁN 1º</speaker>
             <l>Esa excelencia que incluye</l>
             <l>la retórica licencia</l>
@@ -277,15 +153,10 @@
             <l n="95">quedó del amor en prendas?,</l>
             <l>luego el A, que dice amor,</l>
             <l>es cierto que en la lid nuestra...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Incluye feliz su mayor excelencia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
-          <stage>Sale el GALÁN 2º y en su escudo una V.</stage>
-          <sp who="#galán-2">
+          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Sale el GALÁN 2º y en su escudo una V.</stage><sp who="#galán-2">
             <speaker>GALÁN 2º</speaker>
             <l>Que el fin corona la obra,</l>
             <l n="100">nadie al amor se lo niega;</l>
@@ -301,15 +172,10 @@
             <l n="110">en significada prueba</l>
             <l>de que el corazón escribe</l>
             <l>que es vida y aún vida eterna...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Incluye feliz su mayor excelencia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage>Sale la DAMA 2ª y en su escudo una I.</stage>
-          <sp who="#dama-2">
+          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Sale la DAMA 2ª y en su escudo una I.</stage><sp who="#dama-2">
             <speaker>DAMA 2ª</speaker>
             <l>Si Juan vida a ese misterio</l>
             <l n="115">llama, Pablo le interpreta</l>
@@ -321,15 +187,10 @@
             <l>a nuestros afectos rienda</l>
             <l>y, al ver que es juicio de Dios,</l>
             <l>es aviso de la enmienda...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Incluye feliz su mayor excelencia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
-          <stage>Sale la DAMA 3ª y en su escudo una C.</stage>
-          <sp who="#dama-3">
+          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Sale la DAMA 3ª y en su escudo una C.</stage><sp who="#dama-3">
             <speaker>DAMA 3ª</speaker>
             <l n="125">Para enmienda a que no bastan</l>
             <l>las humanas fuerzas nuestras,</l>
@@ -341,11 +202,7 @@
             <l>siendo Él la caridad mesma,</l>
             <l>tiene en la C su mejor</l>
             <l part="I">atributo.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage>Sale el GALÁN 3º y en su escudo una T.</stage>
-          <sp who="#galán-3">
+          </sp></div><div type="scene" resp="#rojas" n="7"><stage>Sale el GALÁN 3º y en su escudo una T.</stage><sp who="#galán-3">
             <speaker>GALÁN 3º</speaker>
             <l part="F">El que lo sea,</l>
             <l n="135">consta del temor con que</l>
@@ -356,39 +213,28 @@
             <l n="140">al temor la reverencia</l>
             <l>con que obra la caridad,</l>
             <l>en fe del temor dispuesta.</l>
-          </sp>
-          <sp who="#dama-3">
+          </sp><sp who="#dama-3">
             <speaker>DAMA 3ª</speaker>
             <l>La caridad siempre es suma.</l>
-          </sp>
-          <sp who="#galán-3">
+          </sp><sp who="#galán-3">
             <speaker>GALÁN 3º</speaker>
             <l>Sí, mas al temor atenta.</l>
-          </sp>
-          <sp who="#dama-3">
+          </sp><sp who="#dama-3">
             <speaker>DAMA 3ª</speaker>
             <l n="145">Con que es argumento.</l>
-          </sp>
-          <sp who="#galán-3">
+          </sp><sp who="#galán-3">
             <speaker>GALÁN 3º</speaker>
             <l>Con que es consecuencia.</l>
-          </sp>
-          <sp who="#dama-3">
+          </sp><sp who="#dama-3">
             <speaker>DAMA 3ª</speaker>
             <l>Que el lograr quien ama...</l>
-          </sp>
-          <sp who="#galán-3">
+          </sp><sp who="#galán-3">
             <speaker>GALÁN 3º</speaker>
             <l>Que el gozar quien tema...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Incluye feliz su mayor excelencia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
-          <stage>Sale el GALÁN 4º y en su escudo una H.</stage>
-          <sp who="#galán-4">
+          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Sale el GALÁN 4º y en su escudo una H.</stage><sp who="#galán-4">
             <speaker>GALÁN 4º</speaker>
             <l n="150">Honra de Dios Cipriano</l>
             <l>a esa caridad inmensa</l>
@@ -399,11 +245,7 @@
             <l>su pronunciación el H:</l>
             <l>¿quién duda que el lugar tenga</l>
             <l part="I">preeminente a todos?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
-          <stage>Sale la DAMA 4ª y en su escudo una S.</stage>
-          <sp who="#dama-4">
+          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Sale la DAMA 4ª y en su escudo una S.</stage><sp who="#dama-4">
             <speaker>DAMA 4ª</speaker>
             <l part="F">Quien</l>
             <l>el primer lugar pretenda</l>
@@ -419,33 +261,24 @@
             <l>este misterio se deba,</l>
             <l n="170">como a sabiduría suma,</l>
             <l>¿quién me ha de hacer competencia?</l>
-          </sp>
-          <sp who="#galán-4">
+          </sp><sp who="#galán-4">
             <speaker>GALÁN 4º</speaker>
             <l>Quien ese mismo argumento</l>
             <l>en honra de Dios convierta,</l>
             <l>pues es cierta cosa...</l>
-          </sp>
-          <sp who="#dama-4">
+          </sp><sp who="#dama-4">
             <speaker>DAMA 4ª</speaker>
             <l n="175">También cosa es cierta...</l>
-          </sp>
-          <sp who="#galán-4">
+          </sp><sp who="#galán-4">
             <speaker>GALÁN 4º</speaker>
             <l>Que la honra de Dios...</l>
-          </sp>
-          <sp who="#dama-4">
+          </sp><sp who="#dama-4">
             <speaker>DAMA 4ª</speaker>
             <l>Que de Dios la ciencia...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Incluye feliz su mayor excelencia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage>Sale la DAMA 5ª y en su escudo otra A.</stage>
-          <sp who="#dama-5">
+          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Sale la DAMA 5ª y en su escudo otra A.</stage><sp who="#dama-5">
             <speaker>DAMA 5ª</speaker>
             <l>Segunda vez por el A,</l>
             <l n="180">que fue del amor empresa,</l>
@@ -460,11 +293,7 @@
             <l>sabiduría de Dios</l>
             <l n="190">su definición encierra</l>
             <l>en ser aumento de Gracia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
-          <stage>Sale el GALÁN 5º y en su escudo una I.</stage>
-          <sp who="#galán-5">
+          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Sale el GALÁN 5º y en su escudo una I.</stage><sp who="#galán-5">
             <speaker>GALÁN 5º</speaker>
             <l>Es verdad, mas ya que llegas</l>
             <l>tú a duplicar la A, ¿qué mucho</l>
@@ -473,51 +302,38 @@
             <l>sino para que se vea</l>
             <l>que hay otra definición</l>
             <l>que más que tú le comprenda.</l>
-          </sp>
-          <sp who="#dama-5">
+          </sp><sp who="#dama-5">
             <speaker>DAMA 5ª</speaker>
             <l>¿Más que el aumento de Gracia?</l>
-          </sp>
-          <sp who="#galán-5">
+          </sp><sp who="#galán-5">
             <speaker>GALÁN 5º</speaker>
             <l part="I">Sí</l>
-          </sp>
-          <sp who="#dama-5">
+          </sp><sp who="#dama-5">
             <speaker>DAMA 5ª</speaker>
             <l part="M">¿Cuál es?</l>
-          </sp>
-          <sp who="#galán-5">
+          </sp><sp who="#galán-5">
             <speaker>GALÁN 5º</speaker>
             <l n="200" part="F">Ser su grandeza</l>
             <l>inefable, que es decir</l>
             <l>que no puede humana lengua</l>
             <l>en él hablar, sin que quede</l>
             <l>absorta, muda y suspensa.</l>
-          </sp>
-          <sp who="#dama-5">
+          </sp><sp who="#dama-5">
             <speaker>DAMA 5ª</speaker>
             <l n="205">Decir aumento de Gracia...</l>
-          </sp>
-          <sp who="#galán-5">
+          </sp><sp who="#galán-5">
             <speaker>GALÁN 5º</speaker>
             <l>Callar y creer a ciegas...</l>
-          </sp>
-          <sp who="#dama-5">
+          </sp><sp who="#dama-5">
             <speaker>DAMA 5ª</speaker>
             <l part="I">¿Quién duda?</l>
-          </sp>
-          <sp who="#galán-5">
+          </sp><sp who="#galán-5">
             <speaker>GALÁN 5º</speaker>
             <l part="F">¿Quién niega?</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Incluye feliz su mayor excelencia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
-          <stage>Sale un VIEJO VENERABLE y en su escudo una R.</stage>
-          <sp who="#viejo-venerable">
+          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Sale un VIEJO VENERABLE y en su escudo una R.</stage><sp who="#viejo-venerable">
             <speaker>VIEJO</speaker>
             <l>Que sea el aumento de Gracia</l>
             <l n="210">su definición perfecta</l>
@@ -526,12 +342,10 @@
             <l>no me acobarda a pensar</l>
             <l>que yo el lauro no merezca</l>
             <l n="215">para la R de mi escudo.</l>
-          </sp>
-          <sp who="#dama-5 #galán-5">
+          </sp><sp who="#dama-5 #galán-5">
             <speaker>LOS DOS</speaker>
             <l>¿Pues qué es lo que representa?</l>
-          </sp>
-          <sp who="#viejo-venerable">
+          </sp><sp who="#viejo-venerable">
             <speaker>VIEJO</speaker>
             <l>La redención, en quien cifra</l>
             <l>Dios todas las dichas vuestras,</l>
@@ -550,33 +364,26 @@
             <l>¿qué fe no publica?,</l>
             <l>¿qué fe no confiesa...?</l>
             <stage>Va señalando a cada uno con su letra.</stage>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>¿Que incluye feliz su mayor excelencia?</l>
-          </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5">
+          </sp><sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5">
             <speaker>GALANES</speaker>
             <l part="I">Yo lo concedo.</l>
-          </sp>
-          <sp who="#dama-1 #dama-2 #dama-3 #dama-4 #dama-5">
+          </sp><sp who="#dama-1 #dama-2 #dama-3 #dama-4 #dama-5">
             <speaker>DAMAS</speaker>
             <l part="F">Yo y todo.</l>
-          </sp>
-          <sp who="#dama-1">
+          </sp><sp who="#dama-1">
             <speaker>DAMA 1ª</speaker>
             <l n="235">Y ya que a todos comprenda</l>
             <l>la universal redención,</l>
             <l>antes que más letras vengan,</l>
             <l>de la R el atributo</l>
             <l part="I">celebremos.</l>
-          </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
+          </sp><sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="F">Norabuena.</l>
-          </sp>
-          <stage>Canta la MÚSICA y a su compás bailando todos hacen una mudanza, de cuyo lazo resulte que al impedirlos el PLACER queden en ala, en tal orden que juntos los escudos formen un renglón que diga EUCHARISTIA.</stage>
-          <sp who="#música">
+          </sp><stage>Canta la MÚSICA y a su compás bailando todos hacen una mudanza, de cuyo lazo resulte que al impedirlos el PLACER queden en ala, en tal orden que juntos los escudos formen un renglón que diga EUCHARISTIA.</stage><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="240">Ya que el día del Señor</l>
             <l>aplauden hoy y celebran</l>
@@ -584,16 +391,13 @@
             <l>divinas y humanas letras,</l>
             <l>sepamos cuál de ellas</l>
             <l n="245">incluye feliz su mayor excelencia.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="I">Oíd, esperad.</l>
-          </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          </sp><sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué pretendes?</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l>Atento a las glorias vuestras</l>
             <l>callé hasta aquí; pero ya</l>
@@ -605,92 +409,72 @@
             <l>tan claramente que le haya</l>
             <l n="255">conocido mi rudeza.</l>
             <l part="I">¿Qué misterio es este?</l>
-          </sp>
-          <sp who="#viejo-venerable">
+          </sp><sp who="#viejo-venerable">
             <speaker>VIEJO</speaker>
             <l part="F">Lee</l>
             <l>lo que contienen las letras,</l>
             <l>que fueron sus atributos.</l>
             <l part="I">Sabrás cuál es.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="F">Llego a leerlas.</l>
-          </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          </sp><sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué dicen?</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l n="260" part="F">Eucharistía.</l>
-          </sp>
-          <sp who="#dama-1">
+          </sp><sp who="#dama-1">
             <speaker>DAMA 1ª</speaker>
             <l>Esa es de Dios la excelencia.</l>
-          </sp>
-          <sp who="#galán-2">
+          </sp><sp who="#galán-2">
             <speaker>GALÁN 2º</speaker>
             <l>Esa la vida del alma.</l>
-          </sp>
-          <sp who="#dama-3">
+          </sp><sp who="#dama-3">
             <speaker>DAMA 3ª</speaker>
             <l>Y la caridad inmensa.</l>
-          </sp>
-          <sp who="#galán-4">
+          </sp><sp who="#galán-4">
             <speaker>GALÁN 4º</speaker>
             <l part="I">La honra de Dios.</l>
-          </sp>
-          <sp who="#dama-5">
+          </sp><sp who="#dama-5">
             <speaker>DAMA 5ª</speaker>
             <l part="F">El aumento</l>
             <l part="I">de la Gracia.</l>
-          </sp>
-          <sp who="#galán-5">
+          </sp><sp who="#galán-5">
             <speaker>GALÁN 5º</speaker>
             <l n="265" part="F">La suprema</l>
             <l>inefabilidad suya.</l>
-          </sp>
-          <sp who="#dama-4">
+          </sp><sp who="#dama-4">
             <speaker>DAMA 4ª</speaker>
             <l>Su sabiduría y su ciencia.</l>
-          </sp>
-          <sp who="#galán-3">
+          </sp><sp who="#galán-3">
             <speaker>GALÁN 3º</speaker>
             <l part="I">Su temor.</l>
-          </sp>
-          <sp who="#dama-2">
+          </sp><sp who="#dama-2">
             <speaker>DAMA 2ª</speaker>
             <l part="M">Juicio.</l>
-          </sp>
-          <sp who="#galán-1">
+          </sp><sp who="#galán-1">
             <speaker>GALÁN 1º</speaker>
             <l part="F">Y amor.</l>
-          </sp>
-          <sp who="#viejo-venerable">
+          </sp><sp who="#viejo-venerable">
             <speaker>VIEJO</speaker>
             <l>Y pues todo esto se encierra</l>
             <l n="270">en ser redención de todos,</l>
             <l>vuelvan a decir sus letras:</l>
             <l>¡Viva la que de ellas</l>
             <l>incluye feliz su mayor excelencia!</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>¡Viva la que de ellas</l>
             <l n="275">incluye feliz su mayor excelencia!</l>
-          </sp>
-          <stage>Con esta repetición vuelven a bailar y trocándose de lugares hacen segundo renglón que diga al impedirlos el PLACER: CITHARA IESU.</stage>
-          <sp who="#placer">
+          </sp><stage>Con esta repetición vuelven a bailar y trocándose de lugares hacen segundo renglón que diga al impedirlos el PLACER: CITHARA IESU.</stage><sp who="#placer">
             <speaker>PLACER</speaker>
             <l>No, no prosigáis, oíd</l>
             <l>que aún otra duda me queda.</l>
-          </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          </sp><sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué es la duda?</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="F">¿Cómo siendo</l>
             <l>el misterio que celebra</l>
@@ -704,37 +488,29 @@
             <l>lágrimas y penitencias?</l>
             <l>¿Pues cómo hoy queréis que el llanto</l>
             <l>en música se convierta?</l>
-          </sp>
-          <sp who="#viejo-venerable">
+          </sp><sp who="#viejo-venerable">
             <speaker>VIEJO</speaker>
             <l n="290">Las mismas letras podrán</l>
             <l>dar a esa duda respuesta.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="I">¿Las mismas letras?</l>
-          </sp>
-          <sp who="#viejo-venerable">
+          </sp><sp who="#viejo-venerable">
             <speaker>VIEJO</speaker>
             <l part="M">Sí.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="F">¿Cómo?</l>
-          </sp>
-          <sp who="#viejo-venerable">
+          </sp><sp who="#viejo-venerable">
             <speaker>VIEJO</speaker>
             <l>Volviendo otra vez a leerlas.</l>
-          </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          </sp><sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué lees?</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="F">Cíthara Iesu.</l>
-          </sp>
-          <sp who="#viejo-venerable">
+          </sp><sp who="#viejo-venerable">
             <speaker>VIEJO</speaker>
             <l n="295">Luego claramente muestran</l>
             <l>que ayer cruento sacrificio</l>
@@ -743,8 +519,7 @@
             <l>y a otra Cítara, se deba</l>
             <l n="300">celebrar con regocijos</l>
             <l>hoy lo que ayer con exequias.</l>
-          </sp>
-          <sp who="#dama-1">
+          </sp><sp who="#dama-1">
             <speaker>DAMA 1ª</speaker>
             <l>Y no ha de parar en que</l>
             <l>este anagrama contenga</l>
@@ -752,12 +527,10 @@
             <l n="305">sino que se siga a ellas</l>
             <l>otra representación</l>
             <l>al mismo asunto compuesta.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="I">¿De qué?</l>
-          </sp>
-          <sp who="#dama-4">
+          </sp><sp who="#dama-4">
             <speaker>DAMA 4ª</speaker>
             <l part="F">La sabiduría,</l>
             <l>que llamó a la competencia</l>
@@ -773,96 +546,76 @@
             <l>también la cítara tenga,</l>
             <l n="320">pues cítara de Jesús</l>
             <l part="I">es la Cruz.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l part="F">De tanta fiesta,</l>
             <l>¿cuál ha de ser el teatro?</l>
-          </sp>
-          <sp who="#dama-2">
+          </sp><sp who="#dama-2">
             <speaker>DAMA 2ª</speaker>
             <l>Madrid, como corte excelsa</l>
             <l>del más católico rey...</l>
-          </sp>
-          <sp who="#galán-1">
+          </sp><sp who="#galán-1">
             <speaker>GALÁN 1º</speaker>
             <l n="325">De la más cristiana reina...</l>
-          </sp>
-          <sp who="#dama-3">
+          </sp><sp who="#dama-3">
             <speaker>DAMA 3ª</speaker>
             <l>Del príncipe más amado...</l>
-          </sp>
-          <sp who="#galán-2">
+          </sp><sp who="#galán-2">
             <speaker>GALÁN 2º</speaker>
             <l>Y de la infanta más bella...</l>
-          </sp>
-          <sp who="#dama-4">
+          </sp><sp who="#dama-4">
             <speaker>DAMA 4ª</speaker>
             <l>De las más hermosas damas...</l>
-          </sp>
-          <sp who="#galán-4">
+          </sp><sp who="#galán-4">
             <speaker>GALÁN 4º</speaker>
             <l>Y centro de armas y ciencias...</l>
-          </sp>
-          <sp who="#dama-5">
+          </sp><sp who="#dama-5">
             <speaker>DAMA 5ª</speaker>
             <l n="330">En sus doctos tribunales...</l>
-          </sp>
-          <sp who="#galán-5">
+          </sp><sp who="#galán-5">
             <speaker>GALÁN 5º</speaker>
             <l>En sus ilustes noblezas...</l>
-          </sp>
-          <sp who="#viejo-venerable">
+          </sp><sp who="#viejo-venerable">
             <speaker>VIEJO</speaker>
             <l>Y, sobre todo, teatro</l>
             <l>de los triunfos de la Iglesia.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l>Pues el papel del placer</l>
             <l n="335">tocarme en el auto es fuerza,</l>
             <l>le he de empezar por la loa</l>
             <l>con aquel antiguo tema</l>
             <l>del silencio y del perdón.</l>
-          </sp>
-          <sp who="#dama-1">
+          </sp><sp who="#dama-1">
             <speaker>DAMA 1ª</speaker>
             <l>Mejor es que en lugar de esa</l>
             <l n="340">antigua, necia costumbre,</l>
             <l>la música y el festín vuelva.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l>Pues vaya de baile.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Pues vaya de baile.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l>Pues vaya de fiesta.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="345">Pues vaya de fiesta.</l>
-          </sp>
-          <sp who="#placer">
+          </sp><sp who="#placer">
             <speaker>PLACER</speaker>
             <l>En vez de perdón, aplauso y licencia.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>En vez de perdón, aplauso y licencia.</l>
-          </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
+          </sp><sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
             <speaker>TODOS</speaker>
             <l>Pues vaya de baile, vaya de fiesta,</l>
             <l>en vez de perdón, aplauso y licencia.</l>
-          </sp>
-        </div>
-
-      </div>
+          </sp></div>
+      
+    </div>
     </body>
   </text>
 </TEI>

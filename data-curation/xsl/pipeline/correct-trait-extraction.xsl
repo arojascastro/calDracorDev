@@ -25,6 +25,16 @@
 
   <xsl:template match="trait[desc = 'y Villanos']"/>
 
+  <xsl:template match="desc[contains(., 'barba')]"/>
+
+  <xsl:template match="desc[contains(., 'BARBA')]"/>
+
+  <xsl:template match="desc[contains(., 'de pieles')]"/>
+
+  <xsl:template match="desc[contains(., 'vestida de imagen')]"/>
+
+ <xsl:template match="desc[contains(., 'seta')]"/>
+
   <xsl:template match="person[@xml:id = 'lope-hijo']">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
