@@ -1,172 +1,5 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000058" xml:lang="esp">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">Amar después de la muerte o el tuzaní de la Alpujarra</title>
-        <title type="sub"/>
-        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
-        <respStmt>
-          <resp>Data curation (cleaning, normalization and scene division)</resp>
-          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <authority>Automatisch generiertes XML/TEI</authority>
-        <publisher xml:id="dracor">DraCor</publisher>
-        <idno type="URL">https://dracor.org</idno>
-        <date when="2021-09-12"><time when="15:39:43"/></date>
-        <idno type="quadramaX">Amar después de la muerte o el tuzaní de la Alpujarra</idno>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/amar-despues-de-la-muerte-o-el-tuzani-de-las-alpujarras--0/html/</idno><bibl type="originalSource"><title>Edición digital basada en la de Madrid, Espasa Calpe, 1970, pp.135-244.</title></bibl></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person xml:id="don-álvaro" sex="MALE">
-            <persName>Don Álvaro Tuzaní</persName>
-            <trait source="#calderondigital">
-              <desc>jefe morisco</desc>
-            </trait>
-          </person>
-          <person xml:id="malec" sex="MALE">
-            <persName>Don Juan Malec</persName>
-            <trait source="castlist">
-              <desc>viejo</desc>
-            </trait>
-          </person>
-          <person xml:id="válor" sex="MALE">
-            <persName>Don Fernando de Válor</persName>
-            <trait source="#calderondigital">
-              <desc>jefe morisco</desc>
-            </trait>
-          </person>
-          <person xml:id="alcuzcuz" sex="MALE">
-            <persName>Alcuzcuz</persName>
-            <trait source="castlist">
-              <desc>morisco</desc>
-            </trait>
-            <trait source="#calderondigital">
-              <desc>gracioso</desc>
-            </trait>
-          </person>
-          <person xml:id="cadí" sex="MALE">
-            <persName>Cadí</persName>
-            <trait source="castlist">
-              <desc>morisco viejo</desc>
-            </trait>
-          </person>
-          <person xml:id="mendoza" sex="MALE">
-            <persName>Don Juan de Mendoza</persName>
-            <trait source="#calderondigital">
-              <desc>noble</desc>
-            </trait>
-          </person>
-          <person xml:id="don-juan" sex="MALE">
-            <persName>El Señor Don Juan de Austria</persName>
-            <trait source="#calderondigital">
-              <desc>hermano</desc>
-            </trait>
-          </person>
-          <person xml:id="don-lope" sex="MALE">
-            <persName>Don Lope de Figueroa</persName>
-            <trait source="#calderondigital">
-              <desc>general</desc>
-            </trait>
-          </person>
-          <person xml:id="don-alonso" sex="MALE">
-            <persName>Don Alonso de Zúñiga</persName>
-            <trait source="castlist">
-              <desc>corregidor</desc>
-            </trait>
-          </person>
-          <person xml:id="garcés" sex="MALE">
-            <persName>Garcés</persName>
-            <trait source="castlist">
-              <desc>soldado</desc>
-            </trait>
-          </person>
-          <person xml:id="doña-isabel" sex="FEMALE">
-            <persName>Doña Isabel Tuzaní</persName>
-            <trait source="#calderondigital">
-              <desc>hermana</desc>
-            </trait>
-          </person>
-          <person xml:id="doña-clara" sex="FEMALE">
-            <persName>Doña Clara Malec</persName>
-            <trait source="#calderondigital">
-              <desc>hija</desc>
-            </trait>
-          </person>
-          <person xml:id="beatriz" sex="FEMALE">
-            <persName>Beatriz</persName>
-            <trait source="castlist">
-              <desc>criada</desc>
-            </trait>
-          </person>
-          <person xml:id="inés" sex="FEMALE">
-            <persName>Inés</persName>
-            <trait source="castlist">
-              <desc>criada</desc>
-            </trait>
-          </person>
-          <person xml:id="criado" sex="MALE">
-            <persName>Un Criado</persName>
-          </person>
-          <personGrp xml:id="moriscos" sex="MALE">
-            <persName>Moriscos</persName>
-          </personGrp>
-          <person xml:id="morisco" sex="MALE">
-            <persName>Un Morisco</persName>
-          </person>
-          <person xml:id="morisca" sex="FEMALE">
-            <persName>Una Morisca</persName>
-          </person>
-          <personGrp xml:id="moriscas" sex="FEMALE">
-            <persName>Moriscas</persName>
-          </personGrp>
-          <personGrp xml:id="soldados-cristianos" sex="MALE">
-            <persName>Soldados cristianos</persName>
-          </personGrp>
-          <personGrp xml:id="soldados-moriscos" sex="MALE">
-            <persName>Soldados moriscos</persName>
-          </personGrp>
-          <personGrp xml:id="soldado-1" sex="MALE">
-            <persName>Soldados moriscos</persName>
-          </personGrp>
-          <person xml:id="soldado-2" sex="MALE">
-            <persName>Soldado 2</persName>
-          </person>
-          <person xml:id="soldado-3" sex="MALE">
-            <persName>Soldado 3</persName>
-          </person>
-          <person sex="UNKNOWN" xml:id="música">
-            <persName>Música</persName>
-          </person>
-        </listPerson>
-      </particDesc>
-      <textClass>
-        <keywords>
-          <term source="dracor" type="genreTitle">comedia histórica</term>
-          <term source="#kroll" type="main">comedia histórica</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
-        </taxonomy>
-      </classDecl>
-      <classDecl>
-        <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-  </teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000058" xml:lang="esp">
+  <teiHeader><fileDesc><titleStmt><title type="main">Amar después de la muerte o el tuzaní de la Alpujarra</title><title type="sub"/><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>Automatisch generiertes XML/TEI</authority><publisher xml:id="dracor">DraCor</publisher><idno type="URL">https://dracor.org</idno><date when="2021-09-12"><time when="15:39:43"/></date><idno type="quadramaX">Amar después de la muerte o el tuzaní de la Alpujarra</idno></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/amar-despues-de-la-muerte-o-el-tuzani-de-las-alpujarras--0/html/</idno><bibl type="originalSource"><title>Edición digital basada en la de Madrid, Espasa Calpe, 1970, pp.135-244.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="don-álvaro" sex="MALE"><persName>Don Álvaro Tuzaní</persName><trait source="#calderondigital"><desc>jefe</desc></trait></person><person xml:id="malec" sex="MALE"><persName>Don Juan Malec</persName><trait source="castlist"><desc>viejo</desc></trait></person><person xml:id="válor" sex="MALE"><persName>Don Fernando de Válor</persName><trait source="#calderondigital"><desc>jefe</desc></trait></person><person xml:id="alcuzcuz" sex="MALE"><persName>Alcuzcuz</persName><trait source="castlist"><desc>morisco</desc></trait><trait source="#calderondigital"><desc>gracioso</desc></trait></person><person xml:id="cadí" sex="MALE"><persName>Cadí</persName><trait source="castlist"><desc>morisco</desc></trait></person><person xml:id="mendoza" sex="MALE"><persName>Don Juan de Mendoza</persName><trait source="#calderondigital"><desc>noble</desc></trait></person><person xml:id="don-juan" sex="MALE"><persName>El Señor Don Juan de Austria</persName><trait source="#calderondigital"><desc>hermano</desc></trait></person><person xml:id="don-lope" sex="MALE"><persName>Don Lope de Figueroa</persName><trait source="#calderondigital"><desc>general</desc></trait></person><person xml:id="don-alonso" sex="MALE"><persName>Don Alonso de Zúñiga</persName><trait source="castlist"><desc>corregidor</desc></trait></person><person xml:id="garcés" sex="MALE"><persName>Garcés</persName><trait source="castlist"><desc>soldado</desc></trait></person><person xml:id="doña-isabel" sex="FEMALE"><persName>Doña Isabel Tuzaní</persName><trait source="#calderondigital"><desc>hermana</desc></trait></person><person xml:id="doña-clara" sex="FEMALE"><persName>Doña Clara Malec</persName><trait source="#calderondigital"><desc>hija</desc></trait></person><person xml:id="beatriz" sex="FEMALE"><persName>Beatriz</persName><trait source="castlist"><desc>criada</desc></trait></person><person xml:id="inés" sex="FEMALE"><persName>Inés</persName><trait source="castlist"><desc>criada</desc></trait></person><person xml:id="criado" sex="MALE"><persName>Un Criado</persName></person><personGrp xml:id="moriscos" sex="MALE"><persName>Moriscos</persName></personGrp><person xml:id="morisco" sex="MALE"><persName>Un Morisco</persName></person><person xml:id="morisca" sex="FEMALE"><persName>Una Morisca</persName></person><personGrp xml:id="moriscas" sex="FEMALE"><persName>Moriscas</persName></personGrp><personGrp xml:id="soldados-cristianos" sex="MALE"><persName>Soldados cristianos</persName></personGrp><personGrp xml:id="soldados-moriscos" sex="MALE"><persName>Soldados moriscos</persName></personGrp><personGrp xml:id="soldado-1" sex="MALE"><persName>Soldados moriscos</persName></personGrp><person xml:id="soldado-2" sex="MALE"><persName>Soldado 2</persName></person><person xml:id="soldado-3" sex="MALE"><persName>Soldado 3</persName></person><person sex="UNKNOWN" xml:id="música"><persName>Música</persName></person></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">comedia histórica</term><term source="#kroll" type="main">comedia histórica</term></keywords></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1691">
@@ -1738,10 +1571,9 @@
             <l>que todo acabado quede</l>
             <l n="795">sin sangre, pues vence más</l>
             <l>aquel que sin sangre vence.</l>
-
+            
             <l>Idos, señoras, con Dios.</l>
-          </sp>
-          <stage>Sale INÉS.</stage>
+          </sp><stage>Sale INÉS.</stage>
           <sp who="#doña-isabel">
             <speaker>DOÑA ISABEL</speaker>
             <stage>Aparte.</stage>
@@ -1823,141 +1655,107 @@
             <l part="I">haré...</l>
           </sp>
         </div>
-        <div type="scene" resp="#rojas" n="14">
-          <stage>Escena XIV</stage>
-          <stage>UN CRIADO.-Dichos.</stage>
-          <sp who="#criado">
+        <div type="scene" resp="#rojas" n="14"><stage>Escena XIV</stage><stage>UN CRIADO.-Dichos.</stage><sp who="#criado">
             <speaker>CRIADO</speaker>
             <l part="F">En casa se entra gente.</l>
-          </sp>
-          <sp who="#don-alonso">
+          </sp><sp who="#don-alonso">
             <speaker>DON ALONSO</speaker>
             <l>Pues todos disimulad;</l>
             <l>que al cargo mi valor vuelve.</l>
             <l n="845">Vos, don Juan, aquí os quedad</l>
             <l part="I">preso.</l>
-          </sp>
-          <sp who="#mendoza">
+          </sp><sp who="#mendoza">
             <speaker>MENDOZA</speaker>
             <l part="F">A todo os obedece</l>
             <l part="I">mi valor.</l>
-          </sp>
-          <sp who="#don-alonso">
+          </sp><sp who="#don-alonso">
             <speaker>DON ALONSO</speaker>
             <l part="F">Los dos os id.</l>
-          </sp>
-          <sp who="#mendoza">
+          </sp><sp who="#mendoza">
             <speaker>MENDOZA</speaker>
             <l>Y si desto os pareciere</l>
             <l part="I">satisfaceros...</l>
-          </sp>
-          <sp who="#don-alonso">
+          </sp><sp who="#don-alonso">
             <speaker>DON ALONSO</speaker>
             <l part="F">A mí</l>
             <l n="850">y a don Juan, donde eligiereis...</l>
-          </sp>
-          <sp who="#mendoza">
+          </sp><sp who="#mendoza">
             <speaker>MENDOZA</speaker>
             <l>Nos hallaréis con la espada...</l>
-          </sp>
-          <sp who="#don-alonso">
+          </sp><sp who="#don-alonso">
             <speaker>DON ALONSO</speaker>
             <l>Y la capa solamente.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
-          <stage>Vase DON ALONSO, y DON JUAN DE MENDOZA va acompañándole.</stage>
-          <sp who="#válor">
+          </sp></div><div type="scene" resp="#rojas" n="15"><stage>Vase DON ALONSO, y DON JUAN DE MENDOZA va acompañándole.</stage><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l>¡Esto consiente mi honor!</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>¡Esto mi valor consiente!</l>
-          </sp>
-          <sp who="#válor">
+          </sp><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l n="855">Porque me volví cristiano,</l>
             <l>¿este baldón me sucede?</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Porque su ley recibí,</l>
             <l>¿ya no hay quien de mí se acuerde?</l>
-          </sp>
-          <sp who="#válor">
+          </sp><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l>¡Vive Dios, que es cobardía</l>
             <l n="860">que mi venganza no intente!</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>¡Vive el cielo, que es infamia</l>
             <l>que yo de vengarme deje!</l>
-          </sp>
-          <sp who="#válor">
+          </sp><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l>¡El cielo me dé ocasión...</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>¡Ocasión me dé la suerte...</l>
-          </sp>
-          <sp who="#válor">
+          </sp><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l n="865">Que si me la dan los cielos...</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Si el hado me la concede...</l>
-          </sp>
-          <sp who="#válor">
+          </sp><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l>Yo haré que veáis muy presto...</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Llorar a España mil veces...</l>
-          </sp>
-          <sp who="#válor">
+          </sp><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l part="I">El valor...</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="F">El ardimiento</l>
             <l n="870">deste brazo altivo y fuerte...</l>
-          </sp>
-          <sp who="#válor">
+          </sp><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l>¡De los Válores altivos!</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>¡De los Tuzanís valientes!</l>
-          </sp>
-          <sp who="#válor">
+          </sp><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l part="I">¿Habéisme escuchado?</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="F">Sí.</l>
-          </sp>
-          <sp who="#válor">
+          </sp><sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l>Pues de hablar la lengua cese</l>
             <l n="875">y empiecen a hablar las manos.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Pues ¿quién dice que no empiecen?</l>
-          </sp>
-        </div>
-
-
-
-      </div>
+          </sp></div>
+      
+      
+      
+    </div>
       <div type="act" n="2">
         <head>Jornada II</head>
         <div type="scene" n="1">
@@ -3229,9 +3027,8 @@
             <l>ni ver, Alcuzcuz: advierte</l>
             <l n="730">que puede darte la muerte</l>
             <l>si lo llegas a probar.</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
         </div>
         <div type="scene" n="10">
           <stage>Escena X</stage>
@@ -3258,9 +3055,8 @@
             <l>Seguir quiero al Tozaní.</l>
             <l n="750">¿Haber alguien por ahí</l>
             <l>que querer deste voneno?</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
           <stage>Cercanías de Galera.</stage>
         </div>
         <div type="scene" n="11">
@@ -3552,7 +3348,7 @@
             <l>que yo hacer por ti otra cosa</l>
             <l>que me pedir tú. No puedo</l>
             <l n="930">alcanzar...-¡Ay, Alcuzcuz!</l>
-
+            
             <l>¡Muy buena hacienda haber hecho!</l>
             <l>¿En qué volverse mi amo?</l>
             <l>Que él me ha de matar, ser cierto,</l>
@@ -3596,8 +3392,7 @@
             <l>para otro matar voneno,</l>
             <l>será piedad. ¿Dónde estar</l>
             <l>me boca, que no la encuentro?</l>
-          </sp>
-          <stage>Sale.</stage>
+          </sp><stage>Sale.</stage>
           <stage>Cajas dentro.</stage>
           <sp who="#soldado-1 #soldado-2 #soldado-3">
             <speaker>SOLDADOS</speaker>
@@ -3612,68 +3407,54 @@
             <l>¿quién duda que ha de haber truenos?</l>
           </sp>
         </div>
-        <div type="scene" resp="#rojas" n="15">
-          <stage>Escena XV</stage>
-          <stage>DON ÁLVARO y DOÑA CLARA, asustados.-ALCUZCUZ.</stage>
-          <sp who="#doña-clara">
+        <div type="scene" resp="#rojas" n="15"><stage>Escena XV</stage><stage>DON ÁLVARO y DOÑA CLARA, asustados.-ALCUZCUZ.</stage><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l>Las centinelas, señor,</l>
             <l n="975">hacen de las torres fuego.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Sin duda el campo cristiano</l>
             <l>en el nocturno silencio</l>
             <l>amparado de las sombras,</l>
             <l>sobre Galera se ha puesto.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l n="980">Vete, señor; que ya ves</l>
             <l>todo el castillo revuelto.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>¿Y será gloriosa acción</l>
             <l>que digan de mí que dejo</l>
             <l part="I">sitiada a mi dama...</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l part="F">¡Ay triste!</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l n="985">Y que las espaldas vuelvo?</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l>Sí; que en defender a Gavia</l>
             <l>está tu honor de por medio,</l>
             <l>y quizá han ido sobre ella:</l>
             <l>también es de advertir esto.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l n="990">¿Quién vio mayor confusión</l>
             <l>que yo en un punto padezco?</l>
             <l>Mi honor y mi amor están</l>
             <l>dándome voces a un tiempo.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l>Responde a las de tu honor.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l n="995">Antes responder pretendo</l>
             <l part="I">a las dos.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l part="F">¿De qué manera?</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>En llevarte me resuelvo</l>
             <l>conmigo; que si en dejarte</l>
@@ -3683,101 +3464,80 @@
             <l>Vente conmigo: una yegua,</l>
             <l>veloz injuria del viento,</l>
             <l part="I">nos llevará.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l part="F">Con mi esposo</l>
             <l n="1005">voy: nada aventuro en esto.</l>
             <l part="I">Tuya soy.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="F">¡Hola, Alcuzcuz!</l>
-          </sp>
-          <sp who="#alcuzcuz">
+          </sp><sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l part="I">¿Quién llama?</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="F">Yo soy, trae presto</l>
             <l part="I">la yegua.</l>
-          </sp>
-          <sp who="#alcuzcuz">
+          </sp><sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l part="M">¿El yegua?</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="F">¿Qué aguardas?</l>
-          </sp>
-          <sp who="#alcuzcuz">
+          </sp><sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l>Aguardo el yegua, que luego</l>
             <l n="1010">me decir que volvería.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="I">Pues ¿dónde está?</l>
-          </sp>
-          <sp who="#alcuzcuz">
+          </sp><sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l part="F">Fuese huyendo;</l>
             <l>mas yegua es de su palabra,</l>
             <l>e volver luego al momento.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>¡Viven los cielos, traidor!...</l>
-          </sp>
-          <sp who="#alcuzcuz">
+          </sp><sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l n="1015">No tocar a mé, teneros,</l>
             <l>porque estar avonenado,</l>
             <l>e matar con el aliento.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Que tengo de darte muerte.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l part="I">Detente. ¡Ay de mí!</l>
             <stage>Va a detenerle, y se hiere la mano.</stage>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="F">¿Qué es eso?</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l n="1020">Por detenerte, la mano</l>
             <l>me corté con el acero.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Cueste esa sangre una vida.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l>Pues por la mía te ruego</l>
             <l part="I">que no le mates.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="F">¿Qué en mí</l>
             <l n="1025">no podrá ese juramento?</l>
             <l part="I">¿Es mucha la sangre?</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l part="F">No.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Apriétate a ella ese lienzo.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l>Y pues ves que no es posible</l>
             <l>seguirte ya, vete presto:</l>
@@ -3786,84 +3546,67 @@
             <l>irme mañana contigo,</l>
             <l>pues nos queda el paso abierto</l>
             <l>siempre por aquesta parte.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l n="1035">Con esa esperanza acepto</l>
             <l part="I">el partido.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l part="F">Alá te guarde.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>¿Para qué, si yo aborrezco</l>
             <l part="I">vivir ya?</l>
-          </sp>
-          <sp who="#alcuzcuz">
+          </sp><sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l part="F">Pues aquí haber</l>
             <l>para la perder remedio:</l>
             <l n="1040">que a mí me sobrar un poco</l>
             <l>de dolcísimo voneno.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l part="I">Vete, pues.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="F">¡Qué triste voy!</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l>Y yo ¡qué afligida quedo!</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Por saber qué opuesta estrella...</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l n="1045">Por saber qué hado severo...</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Es éste que entre mi amor...</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l>Es el que entre mis deseos...</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="I">Siempre se pone...</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l part="F">Está siempre...</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>A mis desdichas atento.</l>
-          </sp>
-          <sp who="#doña-clara">
+          </sp><sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l n="1050">Puesto que un arma cristiana</l>
             <l>nos estorba por momentos.</l>
-          </sp>
-          <sp who="#alcuzcuz">
+          </sp><sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l>¿Esto es dormer o morer?</l>
             <l>Mas todo diz que es el mesmo,</l>
             <l>y ser verdad, pues no sé</l>
             <l n="1055">si me muero o si me duermo.</l>
-          </sp>
-        </div>
-
-
-      </div>
+          </sp></div>
+      
+      
+    </div>
       <div type="act" n="3">
         <head>Jornada III</head>
         <div type="scene" n="1">
@@ -4114,9 +3857,8 @@
             <l n="135">a Maleca hermosa saque,</l>
             <l>Galera y el mundo todo</l>
             <l>más que se queme y se abrase.</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
           <sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l>Ni ser amante ni noble,</l>
@@ -4127,10 +3869,9 @@
             <l>haber: y como escaparme</l>
             <l>yo, que Zara y que Galera</l>
             <l n="145">más que se queme y se abrase.</l>
-
+            
             <stage>Ruinas de Galera.</stage>
-          </sp>
-          <stage>Vase.</stage>
+          </sp><stage>Vase.</stage>
         </div>
         <div type="scene" n="4">
           <stage>Escena IV</stage>
@@ -4145,9 +3886,8 @@
             <speaker>GARCÉS</speaker>
             <l part="F">A pegarla fuego</l>
             <l part="I">entraré.</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
           <sp who="#soldado-1">
             <speaker>SOLDADO 1.º</speaker>
             <l part="F">Yo a aprovecharme</l>
@@ -4279,9 +4019,8 @@
             <l>apagándolas con sangre...</l>
             <l n="200">¡Y es Maleca! ¡Oh santos cielos!</l>
             <l>O dadla vida o matadme.</l>
-
-          </sp>
-          <stage>Entra, y saca a DOÑA CLARA, suelto el cabello, sangriento el rostro, y medio vestida.</stage>
+            
+          </sp><stage>Entra, y saca a DOÑA CLARA, suelto el cabello, sangriento el rostro, y medio vestida.</stage>
           <sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l>Soldado español, en quien</l>
@@ -4507,9 +4246,8 @@
             <l>porque aun ella no se alabe</l>
             <l n="380">que dividió su poder</l>
             <l>los dos más firmes amantes.</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
           <sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l part="I">Detente, espera.</l>
@@ -4531,9 +4269,8 @@
             <l>si para venganzas tales,</l>
             <l>vuestro rey Abenhumeya</l>
             <l>no ciñe este acero en balde.</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
           <sp who="#doña-isabel">
             <speaker>DONA ISABEL</speaker>
             <stage>Aparte.</stage>
@@ -4545,9 +4282,8 @@
             <l>ya caducar se mirasen,</l>
             <l n="400">porque dieran fin en ellos</l>
             <l>tantas infelicidades!</l>
-
-          </sp>
-          <stage>Vanse.</stage>
+            
+          </sp><stage>Vanse.</stage>
           <stage>Campo inmediato a Berja.</stage>
         </div>
         <div type="scene" n="8">
@@ -4646,9 +4382,8 @@
           <sp who="#mendoza">
             <speaker>MENDOZA</speaker>
             <l part="I">A servirte voy.</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
         </div>
         <div type="scene" n="9">
           <stage>Escena IX</stage>
@@ -5106,9 +4841,8 @@
             <l n="675">como una vez quién es sepa,</l>
             <l>le mataré a puñaladas.)</l>
             <l part="I">Vamos.</l>
-
-          </sp>
-          <stage>Vanse.</stage>
+            
+          </sp><stage>Vanse.</stage>
           <stage>Vista exterior de un cuerpo de guardia.</stage>
         </div>
         <div type="scene" n="13">
@@ -5183,9 +4917,8 @@
             <stage>A DON ÁLVARO.</stage>
             <l>La vida os debo, soldado:</l>
             <l>yo, yo os pagaré la deuda.</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
           <sp who="#don-lope">
             <speaker>DON LOPE</speaker>
             <l part="I">Deteneos.</l>
@@ -5346,10 +5079,9 @@
             <l>primero que ellos se venzan:</l>
             <l>no hagamos suya la hazaña,</l>
             <l n="795">si hacerla podemos nuestra.</l>
-
+            
             <stage>Prisión en el cuerpo de guardia.</stage>
-          </sp>
-          <stage>Vanse.</stage>
+          </sp><stage>Vanse.</stage>
         </div>
         <div type="scene" n="16">
           <stage>Escena XVI</stage>
@@ -5621,9 +5353,8 @@
             <speaker>SOLDADO</speaker>
             <l>Y así, el tal mudo este día,</l>
             <l>de todos tres, morirá.</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
         </div>
         <div type="scene" n="18">
           <stage>Escena XVIII</stage>
@@ -5971,10 +5702,9 @@
             <l>¿Qué voces son éstas? Abre</l>
             <l>la puerta; que Garcés llama,</l>
             <l n="1110">a quien yo vengo a buscar.</l>
-
+            
             <l part="I">¿Qué es esto?</l>
-          </sp>
-          <stage>Salen DON JUAN DE MENDOZA y SOLDADOS.</stage>
+          </sp><stage>Salen DON JUAN DE MENDOZA y SOLDADOS.</stage>
           <stage>Quita DON ÁLVARO la espada a un SOLDADO.</stage>
           <sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
@@ -6106,9 +5836,8 @@
             <l n="1175">y por tu respeto basta</l>
             <l>que la defensa que intento</l>
             <l>sea volverte la espalda.</l>
-
-          </sp>
-          <stage>Vase.</stage>
+            
+          </sp><stage>Vase.</stage>
           <sp who="#don-juan">
             <speaker>DON JUAN</speaker>
             <l>Seguidle todos, seguidle.</l>
@@ -6116,66 +5845,45 @@
           <stage>Éntranse todos siguiendo a DON ÁLVARO.</stage>
           <stage>Vista exterior de los muros de Berja.</stage>
         </div>
-        <div type="scene" resp="#rojas" n="21">
-          <stage>Escena XXI</stage>
-          <stage>DOÑA ISABEL y SOLDADOS MORISCOS en el muro; después, DON ÁLVARO, DON JUAN DE AUSTRIA y SOLDADOS.</stage>
-          <sp who="#doña-isabel">
+        <div type="scene" resp="#rojas" n="21"><stage>Escena XXI</stage><stage>DOÑA ISABEL y SOLDADOS MORISCOS en el muro; después, DON ÁLVARO, DON JUAN DE AUSTRIA y SOLDADOS.</stage><sp who="#doña-isabel">
             <speaker>DOÑA ISABEL</speaker>
             <l>Haz con esa seña blanca</l>
             <l n="1180">llamada al campo cristiano.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="22">
-          <stage>Sale DON ÁLVARO.</stage>
-          <sp who="#don-álvaro">
+          </sp></div><div type="scene" resp="#rojas" n="22"><stage>Sale DON ÁLVARO.</stage><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Entre picas y alabardas</l>
             <l>he rompido, hasta llegar</l>
             <l>a los pies desta montaña.</l>
-          </sp>
-          <sp who="#soldado-1">
+          </sp><sp who="#soldado-1">
             <speaker>UN SOLDADO</speaker>
             <stage>Dentro.</stage>
             <l>Antes que entre en la espesura,</l>
             <l n="1185">un mosquete le dispara.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Todos sois pocos: cercadme.</l>
-          </sp>
-          <sp who="#morisco">
+          </sp><sp who="#morisco">
             <speaker>UN MORISCO</speaker>
             <l part="I">A Berja subid.</l>
-          </sp>
-          <sp who="#doña-isabel">
+          </sp><sp who="#doña-isabel">
             <speaker>DOÑA ISABEL</speaker>
             <l part="F">Aguarda.</l>
             <l part="I">¡Tuzaní, señor!</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="F">Lidora,</l>
             <l>toda esa gente, esas armas</l>
             <l part="I">tras mí vienen.</l>
-          </sp>
-          <sp who="#doña-isabel">
+          </sp><sp who="#doña-isabel">
             <speaker>DOÑA ISABEL</speaker>
             <l n="1190" part="F">Pues no temas.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="23">
-          <stage>Vanse del muro ella y los MORISCOS.</stage>
-          <sp who="#don-juan">
+            
+          </sp></div><div type="scene" resp="#rojas" n="23"><stage>Vanse del muro ella y los MORISCOS.</stage><sp who="#don-juan">
             <speaker>DON JUAN</speaker>
             <stage>Dentro.</stage>
             <l>Tronco a tronco y rama a rama</l>
             <l>talad el campo hasta hallarle.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="24">
-          <stage>Salen DON JUAN DE AUSTRIA y SOLDADOS, y por otro lado DOÑA ISABEL y MORISCOS.</stage>
-          <sp who="#doña-isabel">
+          </sp></div><div type="scene" resp="#rojas" n="24"><stage>Salen DON JUAN DE AUSTRIA y SOLDADOS, y por otro lado DOÑA ISABEL y MORISCOS.</stage><sp who="#doña-isabel">
             <speaker>DOÑA ISABEL</speaker>
             <l>Generoso don Juan de Austria,</l>
             <l>hijo del águila hermosa</l>
@@ -6232,8 +5940,7 @@
             <l n="1245">Tuzaní; que yo postrada</l>
             <l>a tus pies, más que el ser reina</l>
             <l>estimara ser tu esclava.</l>
-          </sp>
-          <sp who="#don-juan">
+          </sp><sp who="#don-juan">
             <speaker>DON JUAN</speaker>
             <l>Poco has pedido en albricias:</l>
             <l>hermosa Isabel, levanta.</l>
@@ -6241,29 +5948,24 @@
             <l>la más amorosa hazaña</l>
             <l>del mundo escrita en los bronces</l>
             <l>del olvido y de la fama.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l part="I">Dame tus pies.</l>
-          </sp>
-          <sp who="#alcuzcuz">
+          </sp><sp who="#alcuzcuz">
             <speaker>ALCUZCUZ</speaker>
             <l part="F">Y mé ¿estar</l>
             <l part="I">perdonado?</l>
-          </sp>
-          <sp who="#don-juan">
+          </sp><sp who="#don-juan">
             <speaker>DON JUAN</speaker>
             <l part="M">Sí.</l>
-          </sp>
-          <sp who="#don-álvaro">
+          </sp><sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l n="1255" part="F">Aquí acaba</l>
             <l>Amar después de la muerte</l>
             <l>y el sitio de la Alpujarra.</l>
-          </sp>
-        </div>
-
-      </div>
+          </sp></div>
+      
+    </div>
     </body>
   </text>
 </TEI>

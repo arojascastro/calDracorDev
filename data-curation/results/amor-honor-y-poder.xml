@@ -1,111 +1,5 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000004" xml:lang="esp">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">Amor, honor y poder</title>
-        <title type="sub">Comedia famosa</title>
-        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
-        <respStmt>
-          <resp>Data curation (cleaning, normalization and scene division)</resp>
-          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
-        <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2019-05-28"><time when="17:45:16"/></date>
-        <idno type="quadramaX">Amor, honor y poder</idno>
-        <availability>
-          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/amor-honor-y-poder--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la Segunda parte de Comedias de don Pedro Calderón de la Barca, Madrid, Por María de Quiñónez, 1637. Localización: Base de DatosTeatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title></bibl></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person xml:id="rey" sex="MALE">
-            <persName>El Rey</persName>
-            <trait resp="#rojas">
-              <desc>rey</desc>
-            </trait>
-            <trait source="#calderondigital">
-              <desc>seductor</desc>
-            </trait>
-          </person>
-          <person xml:id="teobaldo" sex="MALE">
-            <persName>Teobaldo</persName>
-            <trait source="#calderondigital">
-              <desc>noble</desc>
-            </trait>
-          </person>
-          <person xml:id="conde" sex="MALE">
-            <persName>El Conde</persName>
-            <trait source="#calderondigital">
-              <desc>padre</desc>
-            </trait>
-          </person>
-          <person xml:id="ludovico" sex="MALE">
-            <persName>Ludovico</persName>
-            <trait source="#calderondigital">
-              <desc>noble</desc>
-            </trait>
-          </person>
-          <person xml:id="enrico" sex="MALE">
-            <persName>Enrico</persName>
-            <trait source="#calderondigital">
-              <desc>conde</desc>
-            </trait>
-          </person>
-          <person xml:id="estela" sex="FEMALE">
-            <persName>Estela</persName>
-            <trait source="#calderondigital">
-              <desc>condesa</desc>
-            </trait>
-          </person>
-          <person xml:id="infanta" sex="FEMALE">
-            <persName>Infanta</persName>
-            <trait source="#calderondigital">
-              <desc>hermana</desc>
-            </trait>
-          </person>
-          <person xml:id="cazador" sex="MALE">
-            <persName>Un Cazador</persName>
-          </person>
-          <person xml:id="tosco" sex="MALE">
-            <persName>Tosco</persName>
-            <trait source="castlist">
-              <desc>villano</desc>
-            </trait>
-            <trait source="#calderondigital">
-              <desc>criado</desc>
-            </trait>
-          </person>
-        </listPerson>
-      </particDesc>
-      <textClass>
-        <keywords>
-          <term source="dracor" type="genreTitle">comedia palatina</term>
-          <term source="#kroll" type="main">comedia cómica</term>
-        </keywords>
-      </textClass>
-    </profileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
-        </taxonomy>
-      </classDecl>
-      <classDecl>
-        <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-  </teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000004" xml:lang="esp">
+  <teiHeader><fileDesc><titleStmt><title type="main">Amor, honor y poder</title><title type="sub">Comedia famosa</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-05-28"><time when="17:45:16"/></date><idno type="quadramaX">Amor, honor y poder</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/amor-honor-y-poder--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la Segunda parte de Comedias de don Pedro Calderón de la Barca, Madrid, Por María de Quiñónez, 1637. Localización: Base de DatosTeatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="rey" sex="MALE"><persName>El Rey</persName><trait resp="#rojas"><desc>rey</desc></trait><trait source="#calderondigital"><desc>seductor</desc></trait></person><person xml:id="teobaldo" sex="MALE"><persName>Teobaldo</persName><trait source="#calderondigital"><desc>noble</desc></trait></person><person xml:id="conde" sex="MALE"><persName>El Conde</persName><trait source="#calderondigital"><desc>padre</desc></trait></person><person xml:id="ludovico" sex="MALE"><persName>Ludovico</persName><trait source="#calderondigital"><desc>noble</desc></trait></person><person xml:id="enrico" sex="MALE"><persName>Enrico</persName><trait source="#calderondigital"><desc>conde</desc></trait></person><person xml:id="estela" sex="FEMALE"><persName>Estela</persName><trait source="#calderondigital"><desc>condesa</desc></trait></person><person xml:id="infanta" sex="FEMALE"><persName>Infanta</persName><trait source="#calderondigital"><desc>hermana</desc></trait></person><person xml:id="cazador" sex="MALE"><persName>Un Cazador</persName></person><person xml:id="tosco" sex="MALE"><persName>Tosco</persName><trait source="castlist"><desc>villano</desc></trait><trait source="#calderondigital"><desc>criado</desc></trait></person></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">comedia palatina</term><term source="#kroll" type="main">comedia cómica</term></keywords></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1637">
@@ -141,10 +35,7 @@
     </front>
     <body>
       <div type="act" n="1">
-        <div type="scene" resp="#rojas" n="1">
-          <head>Jornada I</head>
-          <stage>Salen ENRICO y ESTELA.</stage>
-          <sp who="#enrico">
+        <div type="scene" resp="#rojas" n="1"><head>Jornada I</head><stage>Salen ENRICO y ESTELA.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> No salgas, Estela, al monte, </l>
             <l> vuélvete al castillo, hermana, </l>
@@ -173,42 +64,35 @@
             <l n="25"> Por tu vida que te quedes </l>
             <l> en Salveric y no salgas </l>
             <l part="I"> hoy al monte. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F"> No saldré, </l>
             <l> que ser gusto tuyo basta. </l>
             <l> Desde aquí al castillo vuelvo </l>
             <l n="30"> a obedecer lo que mandas. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Yo, hermana, te lo suplico, </l>
             <l part="I"> queda a Dios. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>UNA VOZ</speaker>
             <stage>Dentro.</stage>
             <l part="F"> ¡Aparta, aparta! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> ¿Qué voz es esta? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>UNA VOZ</speaker>
             <stage>Dentro.</stage>
             <l part="F">Poned </l>
             <l> delante dellas espadas. </l>
             <l n="35"> Tente indómito caballo. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Desde aquellas cumbres altas </l>
             <l> un caballo se despeña </l>
             <l part="I"> con una mujer. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F"> Hoy baja </l>
             <l> despeñado otro Faetonte. </l>
@@ -216,12 +100,8 @@
             <l> más ocasión mi valor, </l>
             <l> para mostrarse, pues basta </l>
             <l part="I"> el ser mujer.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
-          <stage>Vase.</stage>
-          <sp who="#estela">
+            
+          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Vase.</stage><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F"> En el viento </l>
             <l> apenas pone las plantas, </l>
@@ -273,25 +153,16 @@
             <l n="90"> al valle mi hermano baja, </l>
             <l> que parece que del sol </l>
             <l> harto su esplendor la llama. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage>Sale ENRICO con la INFANTA en los brazos.</stage>
-          <sp who="#enrico">
+          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Sale ENRICO con la INFANTA en los brazos.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Hermana, Estrella! Volando </l>
             <l> trae de aquesa fuente agua </l>
             <l n="95"> o entra por ella al castillo. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Yo voy presto; aquí me aguarda. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
-          <stage>Vase.</stage>
-          <sp who="#enrico">
+            
+          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Vase.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Trae el agua, que mis ojos </l>
             <l> no me darán la que basta, </l>
@@ -318,29 +189,23 @@
             <l> que de tan forzoso efeto </l>
             <l n="120"> no determino la causa. </l>
             <l part="I"> ¡Señora! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F"> ¡Válgame el cielo! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Albricias, cielos, que habla! </l>
             <l part="I"> ¡Alma, albricias! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F">¿Dónde estoy? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> ¡Ah señora! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F">¿Quién me llama? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="125"> Quien del alma la mitad, </l>
             <l> hoy a tu vida consagra </l>
@@ -355,38 +220,32 @@
             <l n="135"> Europa de Inglaterra, </l>
             <l> y él el caballo de España. </l>
             <l part="I"> ¿Cómo te sientes? </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F">Mejor. </l>
             <l> Mas ¿quién eres tú, que amparas </l>
             <l part="I"> mi vida? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Soy quien la tuya </l>
             <l n="140"> también ofrece a tus plantas. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> ¿La vida te debo? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Es cierto; </l>
             <l> mas procedes tan tirana, </l>
             <l> que cuando te doy la vida, </l>
             <l> en satisfación me matas. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l n="145"> (Agradecida le escucho, </l>
             <l> que del honor fuera falta </l>
             <l> la ingratitud a quien debo </l>
             <l> la vida.) ¿Cómo te llamas? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Enrico de Salveric, </l>
             <l n="150"> que vivo en estas montañas, </l>
@@ -395,56 +254,42 @@
             <l> Aquí podrás descansar. </l>
             <l> Yo quisiera que el alcázar </l>
             <l n="155"> fuera del sol. Mas ¿quién eres? </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> Yo soy... </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage>Sale el REY, LUDOVICO, TEOBALDO y acompañamiento.</stage>
-          <sp who="#ludovico">
+          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Sale el REY, LUDOVICO, TEOBALDO y acompañamiento.</stage><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F"> Aquí está la Infanta. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Hermana, dame tus brazos. </l>
             <l part="I"> ¿Cómo te sientes? </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F">No es nada </l>
             <l> el dolor, aunque no puedo </l>
             <l part="I"> estar en pie. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="160" part="F"> Pues llevadla </l>
             <l> a ese castillo y en él </l>
             <l> descanse lo que le falta </l>
             <l> al día, que ya con sombras </l>
             <l> negras la noche amenaza. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l n="165"> ¡Dichoso quien llega a verte </l>
             <l> con vida, porque presaga </l>
             <l> el alma de tus desdichas, </l>
             <l> temió tu muerte temprana! </l>
             <l> ¡Vida te dio mi deseo! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="170"> Yo procuraré pagarla, </l>
             <l> que a quien me ha dado la vida, </l>
             <l> no es mucho que le dé el alma. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
-          <stage>Vase.</stage>
-          <sp who="#enrico">
+            
+          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Vase.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> (¡Ay arrogantes deseos! </l>
@@ -459,101 +304,81 @@
             <l> a besar sus Reales plantas, </l>
             <l> si de la tierra que piso </l>
             <l> merezco tocar la estampa. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿Quién eres? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="185" part="F">Enrico soy. </l>
             <l> de Salveric, que mi casa </l>
             <l> es hoy, pues a honrarla vienes, </l>
             <l> venturosa en tal desgracia. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> ¿Cómo retirado vives </l>
             <l part="I"> de la corte? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="190" part="F">Porque halla </l>
             <l> mi padre en la soledad </l>
             <l> más quietud a su edad larga. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> ¿Vive todavía el Conde? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Sí señor. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Fue la privanza </l>
             <l n="195"> de mi padre. ¿Y solo tú </l>
             <l> su soledad acompañas </l>
             <l> o vive también Estela </l>
             <l part="I"> con vosotros? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Cosa extraña </l>
             <l> que no pudiese encubrirlo! </l>
             <l n="200"> Aquí está, señor, mi hermana, </l>
             <l> que también del campo gusta. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Mucho le debe a la fama. </l>
             <l> ¿Qué dicen, que es muy hermosa? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Siempre la opinión se alarga, </l>
             <l n="205"> que no es muy hermosa Estela, </l>
             <l> el no ser fea le basta. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Dícenme que es muy discreta. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Sabe, señor, cosa es clara, </l>
             <l> lo que tiene obligación </l>
             <l n="210"> una mujer en su casa. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Mucho me holgara de verla. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> No es el traje en que ella anda, </l>
             <l> digno, señor, de tus ojos; </l>
             <l> y esta sola fue la causa </l>
             <l n="215"> para excusar de que tú </l>
             <l part="I"> la vieras. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage>Sale ESTELA.</stage>
-          <sp who="#estela">
+          </sp></div><div type="scene" resp="#rojas" n="7"><stage>Sale ESTELA.</stage><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F">Aquí está el agua. </l>
             <l part="I"> Mas ¡qué miro! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Estela es esta, </l>
             <l> que cuando cayó la Infanta </l>
             <l> fue por agua y viene agora. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="220"> Mejor dijeras que el alba, </l>
             <l> vestida de resplandores </l>
@@ -562,15 +387,13 @@
             <l> y que entre sus manos blancas </l>
             <l n="225"> trae congelado el rocío, </l>
             <l> que por lágrimas derrama. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Vuestra Majestad, señor, </l>
             <l> disculpando la ignorancia </l>
             <l> que me permite este traje, </l>
             <l part="I"> me dé sus manos. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="230" part="F"> Levanta, </l>
             <l> no me acuse la soberbia </l>
@@ -578,29 +401,24 @@
             <l> porque si otras hermosuras </l>
             <l> un mundo pequeño llaman, </l>
             <l n="235"> tú eres un cielo pequeño. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Qué bien la humildad ensalzas! </l>
             <l> El cielo aumente tu vida. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l> (¡Oh lo que este hermano habla!) </l>
             <l part="I"> ¡Ah Ludovico! </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F">Señor. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="240"> No sé qué siento en el alma, </l>
             <l> que con decirme que es mía, </l>
             <l> ya como ajena me trata. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> (¡Ay Estela! ¡Quién creyera, </l>
@@ -608,8 +426,7 @@
             <l n="245"> vencieran celos de un rey </l>
             <l> el contento que me causas!) </l>
             <l part="I"> ¿Qué sientes? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Siento temor, </l>
             <l> con el amor en batalla </l>
@@ -617,24 +434,20 @@
             <l n="250"> tanto el amor me acobarda. </l>
             <l> Estela me da contento </l>
             <l> y aqueste hermano me cansa. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Échale de aquí, que todo </l>
             <l> es invenciones quien ama. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> Bien me aconsejas. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l n="255" part="F"> ¡Ay cielos! </l>
             <l> ¡Oh mal haya, amor, mal haya </l>
             <l> el que contra sí aconseja! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Su Alteza, Estela, está en casa </l>
             <l> y pues ha sido ventura </l>
@@ -644,8 +457,7 @@
             <l> Vuestra Majestad, señor, </l>
             <l> dé licencia. Vete hermana, </l>
             <l n="265"> que la agua no es menester. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Mejor será que tú vayas, </l>
             <l> que aunque yo no haya caído </l>
@@ -654,20 +466,15 @@
             <l n="270"> pensión propia de la caza, </l>
             <l> me tienen con sed y quiero </l>
             <l> beber. Vete, pues, ¿qué aguardas? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> Mi muerte decir pudiera, </l>
             <l> pues voy, por suertes contrarias, </l>
             <l n="275"> de tu hermana enamorado </l>
             <l> y celoso de mi hermana. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
-          <stage>Vase.</stage>
-          <sp who="#rey">
+            
+          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Vase.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l> Turbado a tu vista llego, </l>
             <l> que cuando amor me provoca, </l>
@@ -698,16 +505,13 @@
             <l> el agua a los ojos llevo, </l>
             <l> que en tan confusos enojos, </l>
             <l n="305"> tienen sed labios y ojos. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> Bebed ya. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Pues ya ¿no bebo? </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Lisonjera, libre, ingrata, </l>
             <l> dulce y süave una fuente, </l>
@@ -731,28 +535,23 @@
             <l> el fuego de vuestro pecho. </l>
             <l> Bebed, templad los enojos </l>
             <l> de tan sedientos agravios. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Ya doy el agua a los labios, </l>
             <l n="330"> teniendo el fuego en los ojos. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> De tan contrarios despojos </l>
             <l> la causa a decir me atrevo. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> A la boca el agua llevo </l>
             <l> y mis ojos me la dan, </l>
             <l n="335"> que ya con más sed están. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> Bebed ya. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Pues ya ¿no bebo? </l>
             <l> Pero este cristal pretende </l>
@@ -765,8 +564,7 @@
             <l> el agua, si es lisonjera! </l>
             <l n="345"> ¡Oh cómo en pena tan fiera, </l>
             <l> siendo tan clara, me engaña! </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Claro y ardiendo pretende </l>
             <l> experiencia tan extraña, </l>
@@ -780,18 +578,15 @@
             <l> en mis manos un espejo. </l>
             <l> Vuestra Majestad me dé </l>
             <l part="I"> licencia. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Un instante espera. </l>
             <stage>Aparte.</stage>
             <l> (¡Ay, Ludovico! quisiera...) </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="I"> ¿Qué quisieras? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="360" part="F">No lo sé. </l>
             <l> Toda mi vida pensé </l>
@@ -820,12 +615,8 @@
             <l> di que ya tendido lloro, </l>
             <l n="385"> di que su rigor adoro </l>
             <l> y al fin dila que la vi. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
-          <stage>Vase.</stage>
-          <sp who="#ludovico">
+            
+          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Vase.</stage><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> (¡Yo le diré tus desvelos </l>
@@ -858,8 +649,7 @@
             <l> Pero en confusión tan brava, </l>
             <l n="415"> si otro en los celos acaba, </l>
             <l> mi amor se empieza en los celos. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> El Rey de una misma suerte </l>
             <l> a ti te ha dado ocasión </l>
@@ -871,12 +661,8 @@
             <l> pues dices lo que a él le obliga, </l>
             <l n="425"> dirasle al Rey que te diga </l>
             <l> lo que le respondí a él. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage>Vase.</stage>
-          <sp who="#ludovico">
+            
+          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Vase.</stage><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> ¿Quién en el mundo se ha hallado, </l>
             <l> cuando tal rigor me ofreces, </l>
@@ -888,36 +674,26 @@
             <l> Si el desprecio solicitas </l>
             <l n="435"> por los celos que me quitas, </l>
             <l> yo te perdono el rigor. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
-          <stage>Vase.</stage>
-          <stage>Sale un CAZADOR por una puerta, y TOSCO villano por otra y dicen dentro primero.</stage>
-          <sp who="#cazador">
+            
+          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Vase.</stage><stage>Sale un CAZADOR por una puerta, y TOSCO villano por otra y dicen dentro primero.</stage><sp who="#cazador">
             <speaker>CAZADOR</speaker>
             <l part="I"> ¡Hola, hao, pastor! </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">¿A quién </l>
             <l part="I"> dan estas voces?</l>
-          </sp>
-          <sp who="#cazador">
+          </sp><sp who="#cazador">
             <speaker>CAZADOR</speaker>
             <l part="F"> A vós. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Yo no só hola, juro a Dios, </l>
             <l n="440"> y avísole que habre bien. </l>
-          </sp>
-          <sp who="#cazador">
+          </sp><sp who="#cazador">
             <speaker>CAZADOR</speaker>
             <l> ¡Hola! ¿Una palabra sola </l>
             <l> a un cazador no dirás? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Él es el hola no más, </l>
             <l> porque aquí no hay otra hola. </l>
@@ -930,8 +706,7 @@
             <l> quien muera sópitamente, </l>
             <l> pues todos mueren oleados? </l>
             <l> No debe de hablar conmigo. </l>
-          </sp>
-          <sp who="#cazador">
+          </sp><sp who="#cazador">
             <speaker>CAZADOR</speaker>
             <l> Dime el camino en que estoy, </l>
             <l n="455"> que [ni] sé por dónde voy, </l>
@@ -940,17 +715,14 @@
             <l> con otros monteros yo </l>
             <l> y en el monte me cogió </l>
             <l n="460"> el crepúscolo del día. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> ¡Lleve Barrabás el nombre! </l>
             <l> ¿El qué le cogió, señor? </l>
-          </sp>
-          <sp who="#cazador">
+          </sp><sp who="#cazador">
             <speaker>CAZADOR</speaker>
             <l part="I"> El crepúsculo. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">¿Es traidor </l>
             <l> o es encantado ese hombre? </l>
@@ -958,8 +730,7 @@
             <l> ¿Aquesto en el monte había? </l>
             <l> ¿Crepúsculo tiene el día? </l>
             <l> Y diga, ¿no le hizo mal? </l>
-          </sp>
-          <sp who="#cazador">
+          </sp><sp who="#cazador">
             <speaker>CAZADOR</speaker>
             <stage>Aparte.</stage>
             <l> (El Villano se ha creído, </l>
@@ -967,14 +738,12 @@
             <l> y ha de quedar con su engaño.) </l>
             <l> En fin, hasta aquí he venido </l>
             <l> huyendo de aquese hombre. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Diga, ¿los hechos son buenos </l>
             <l n="475"> de aquese que por lo menos </l>
             <l> tiene peligroso nombre? </l>
-          </sp>
-          <sp who="#cazador">
+          </sp><sp who="#cazador">
             <speaker>CAZADOR</speaker>
             <stage>Aparte.</stage>
             <l> (Con esto engañarle puedo, </l>
@@ -984,8 +753,7 @@
             <l> Un hombre se traga entero </l>
             <l> si está con hambre, dos </l>
             <l part="I"> juntos. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F"> ¡Oh güego de Dios! </l>
             <l> ¿Tan güerte tiene el guargero? </l>
@@ -999,21 +767,14 @@
             <l> no tiene para un bocado. </l>
             <l> Yo vine por leña y vo </l>
             <l> sin ella, hablalle no puedo. </l>
-          </sp>
-          <sp who="#cazador">
+          </sp><sp who="#cazador">
             <speaker>CAZADOR</speaker>
             <stage>Aparte.</stage>
             <l n="495"> Él va temblando de miedo. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Si él me agarra, muerto só. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
-          <stage>Vanse.</stage>
-          <stage>Sale TEOBALDO y la INFANTA.</stage>
-          <sp who="#teobaldo">
+          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Vanse.</stage><stage>Sale TEOBALDO y la INFANTA.</stage><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> No salga Vuestra Alteza, </l>
             <l> que un bárbaro accidente, </l>
@@ -1021,8 +782,7 @@
             <l n="500"> respeto a la belleza, </l>
             <l> cuando en muertos colores </l>
             <l> halló el campo la vida de las flores. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> El riesgo, más que el daño, </l>
             <l> amenazó mi vida </l>
@@ -1030,12 +790,10 @@
             <l> temí el rigor extraño. </l>
             <l> Ya estoy más descansada, </l>
             <l> menos mortal y más enamorada. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Descanse Vuestra Alteza. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l n="510"> Pero ¡qué es lo que veo! </l>
@@ -1044,20 +802,17 @@
             <l> pero al revés ha sido, </l>
             <l> yo tropecé después de haber caído. </l>
             <l n="515"> Muy bien podré ir en coche. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Porque tu Alteza pueda </l>
             <l> descansar, aquí queda </l>
             <l> el Rey aquesta noche. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Debo a Enrico la vida. </l>
             <stage>Aparte.</stage>
             <l n="520"> Enamorada estoy y agradecida. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <stage>Aparte.</stage>
             <l> ¡Oh quién fuera el dichoso </l>
@@ -1066,11 +821,7 @@
             <l> ¡Mil veces venturoso, </l>
             <l n="525"> quien por extraños modos, </l>
             <l> hoy da la vida a quien la quita a todos! </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="13">
-          <stage>Salen LUDOVICO, el REY, el CONDE, ENRICO y acompañamiento.</stage>
-          <sp who="#conde">
+          </sp></div><div type="scene" resp="#rojas" n="13"><stage>Salen LUDOVICO, el REY, el CONDE, ENRICO y acompañamiento.</stage><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> De la suerte que sale </l>
             <l> el sol resplandeciente, </l>
@@ -1084,68 +835,56 @@
             <l> de cuya luz confío, </l>
             <l> que será eterno al día, </l>
             <l> por tuya celestial, noble por mía. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Alzad, Conde, del suelo, </l>
             <l n="540"> dadme, dadme los brazos. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> Será, con tales lazos, </l>
             <l> poco llegar al cielo. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Mirad, que porque tardan, </l>
             <l> envidiosos los míos os aguardan. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l n="545"> De tu padre heredaste </l>
             <l> honrar la humildad mía. </l>
             <l> ¡Cuántas veces solía </l>
             <l part="I"> el Rey, mi señor...! </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Baste, </l>
             <l> que como los blasones, </l>
             <l n="550"> heredé de mi padre obligaciones. </l>
             <l> Ya sois de mi Consejo </l>
             <l part="I"> de Estado. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l part="F">Señor, mira... </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Vuestra razón me admira. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> Que estoy cansado y viejo. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="555"> Conde, yo sé que tengo </l>
             <l part="I"> necesidad de vós. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l part="F">Ya no prevengo </l>
             <l> disculpa, aunque pudiera. </l>
             <l> Que suplas te suplico </l>
             <l part="I"> esta ignorancia. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Enrico, </l>
             <l n="560"> agradecer quisiera</l>
             <l> de la Infanta la vida. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Con dársela ha quedado agradecida </l>
             <l> y no hay en mi cuidado </l>
@@ -1154,36 +893,30 @@
             <l> el habérsela dado </l>
             <l> y de nuevo la mía, </l>
             <l> que el monte no gastó la cortesía. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Galán andáis, Enrico, </l>
             <l n="570"> y aunque en esto no os pago, </l>
             <l> de mi cámara os hago... </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Ya los labios aplico </l>
             <l> a la tierra que doras. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Porque entréis donde estoy a todas horas. </l>
             <l n="575"> La Infanta hará mercedes </l>
             <l> a Estela de su mano. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> Tantos honores gano, </l>
             <l> que ya Alejandro excedes. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l> Pues en un mismo día, </l>
             <l n="580"> su vida halló donde perdí la mía. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> ¿Qué merced hacer puedo </l>
             <l> a Estela, o qué favores, </l>
@@ -1191,8 +924,7 @@
             <l> corta y corrida quedo? </l>
             <l n="585"> Por la de Enrico, beso </l>
             <l part="I"> tus pies. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Amor, yo he de perder el seso! </l>
@@ -1202,8 +934,7 @@
             <l n="590"> pues solo es bien que intente, </l>
             <l> estar viendo y amando, </l>
             <l> vivir muriendo, por morir callando.) </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>A LUDOVICO.</stage>
             <l> Hoy, Ludovico, muero </l>
@@ -1211,31 +942,26 @@
             <l n="595"> he me desesperado </l>
             <l> y amando desespero. </l>
             <l> En fin, ¿qué te responde? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Al honor más que al gusto corresponde. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Esta noche he quedado </l>
             <l n="600"> aquí, por ver si puedo, </l>
             <l> atropellando el miedo, </l>
             <l> ciego y desesperado, </l>
             <l> entrar donde está Estela. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Haces bien, que el amor todo es cautela. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="605"> Por esto, sin que haya </l>
             <l> razón de haberle honrado, </l>
             <l> hoy al Conde he obligado </l>
             <l> a que a la corte vaya. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> (¡Cuántas honras hay dadas, </l>
@@ -1243,31 +969,24 @@
             <l> La industria solo ha sido </l>
             <l> hija de la fortuna,</l>
             <l> ya no espero ninguna. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <stage>Al REY.</stage>
             <l> Como no prevenido, </l>
             <l n="615"> hoy a tener disponte </l>
             <l> cama de campo y cena como en monte. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> A aqueso solo vengo, </l>
             <l> que si gustos quisiera, </l>
             <l> en palacio estuviera. </l>
             <l n="620"> Ya, Conde, me prevengo </l>
             <l> a penas y desvelos. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> Y yo rabio de amor, vivo de celos. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="14">
-          <stage>Vanse.</stage>
-          <sp who="#infanta">
+          </sp></div><div type="scene" resp="#rojas" n="14"><stage>Vanse.</stage><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Determinad pensamiento, </l>
             <l> si tan confuso rigor </l>
@@ -1309,11 +1028,7 @@
             <l n="660"> Luego estar tan obligada </l>
             <l> es estar enamorada </l>
             <l> y es estar agradecida. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
-          <stage>Sale ENRICO.</stage>
-          <sp who="#enrico">
+          </sp></div><div type="scene" resp="#rojas" n="15"><stage>Sale ENRICO.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Qué bien la gentilidad </l>
             <l> llamaba Dios al amor, </l>
@@ -1345,8 +1060,7 @@
             <l n="690"> Ojos, lengua, deteneos, </l>
             <l> basta la ocasión, deseos, </l>
             <l> que hay lealtad donde hay nobleza. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l> (Disimular me conviene, </l>
@@ -1357,40 +1071,33 @@
             <l> majestad que al sol admira. </l>
             <stage>Aparte.</stage>
             <l> Cobarde el alma suspira. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l n="700"> ¡Mal mi deseo se entabla! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l> ¡Ay cielos, aún no me habla! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> ¡Ay cielos, aún no me mira! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l> Quiero apurar el temor, </l>
             <l> haciendo a los celos jueces, </l>
             <l n="705"> que son los ojos a veces, </l>
             <l> intérpretes del amor. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> Ya va faltando el valor. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> ¿Adónde Teobaldo está? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> (Faltó el sufrimento ya.) </l>
@@ -1402,202 +1109,161 @@
             <l n="715"> de tan generosa unión. </l>
             <stage>Aparte.</stage>
             <l part="I"> (No le pesa.) </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l part="F"> No lo siente. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> De un siglo a otro siglo cuente, </l>
             <l> pues el cielo le previene </l>
             <l> aquesta gloria que tiene </l>
             <l n="720"> por suya Teobaldo. ¡Ay cielos! </l>
             <l> No estima quien me da celos. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> No ama quien celos no tiene, </l>
             <l> Enrico, Enrico, no des. </l>
             <stage>Aparte.</stage>
             <l> (Declarándome voy mucho.) </l>
             <l part="I"> Parabién... </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="725" part="F">¿Qué es lo que escucho? </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> A quien casada no ves. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Mas que en tu vida lo estés, </l>
             <l> si no ha de ser con tu gusto. </l>
             <l> ¿Qué es esto, tormento injusto? </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="730"> Basta Enrico, bien está, </l>
             <l> que con mi gusto será, </l>
             <l> pues sabes que deso gusto. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Si del parabién te ofendes, </l>
             <l> yo lo que el mundo publico. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l n="735"> ¡Qué mal me entiendes, Enrico! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> Flérida, ¡qué mal me entiendes! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> ¿Darme parabién prendes? </l>
             <l> Pesar me fuera mejor. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Declárate. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F">Tengo honor. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Habla. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="740" part="F">Prometí secreto. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Mal haya tanto respeto! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> ¡Mal haya tanto valor! </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="16">
-          <stage>Vanse.</stage>
-          <stage>Sale TOSCO con luz, y ESTELA.</stage>
-          <sp who="#estela">
+          </sp></div><div type="scene" resp="#rojas" n="16"><stage>Vanse.</stage><stage>Sale TOSCO con luz, y ESTELA.</stage><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> ¿Cerraste la puerta? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">Sí, </l>
             <l> con dos trancas la cerré. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> Ten cuenta della. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l n="745" part="F">Sí haré. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Y pon esa luz aquí. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Mandasme que della tenga </l>
             <l> cuenta, a mi cargo lo tomo, </l>
             <l> el cerrar la puerta, como </l>
             <l n="750"> el crepúsculo no venga. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Antes que venga te irás. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> ¿Antes que venga me he de ir? </l>
             <stage>Aparte.</stage>
             <l> Él sin duda ha de venir. </l>
             <l> ¿Qué tengo de saber más? </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l n="755"> Alerta está el enemigo, </l>
             <l> el verla, honor, me conviene. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l> Yo apostaré que si viene, </l>
             <l> topa primero conmigo. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l> Entremos en cuenta honor, </l>
             <l n="760"> ¿cómo podré defenderme? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l> No es el peor el comerme. </l>
             <l> El mascarme es lo peor. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l> El poder de un rey es rayo</l>
             <l> que lo más alto abrasó. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l n="765"> Si aquesto supiera yo, </l>
             <l> me pusiera el otro sayo... </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l> La industria y el nombre valga, </l>
             <l> pues no hay resistencia ya. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l> Que este es el nuevo y saldrá </l>
             <l n="770"> muy manchado cuando salga. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l> Direle que he de pagar </l>
             <l> lo que a mi mismo honor debo. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l> Diré, que es el sayo nuevo, </l>
             <l> que me deje desnudar. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l n="775"> Si en su apetito se ciega, </l>
             <l part="I"> dareme muerte. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> No hay más, </l>
@@ -1605,64 +1271,51 @@
             <l> del vientre de la Gallega, </l>
             <l> pero mejor será ir </l>
             <l n="780"> donde no me halle jamás. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Pues Tosco, ¿dónde te vas? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Tengo un poco que dormir, </l>
             <l> duerme tú por vida mía. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Yo no dormiré, ¡ay de mí!, </l>
             <l n="785"> porque me ha de hallar así </l>
             <l> el crepúsculo del día. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> ¡Pésete quien me parió! </l>
             <l> ¿Qué es lo que dices, señora, </l>
             <l> con eso sales ahora? </l>
             <stage>Aparte.</stage>
             <l n="790"> No en vano le temo yo. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Soy de mi honor centinela </l>
             <l> y a no dormirme me obligo, </l>
             <l> que está cerca el enemigo </l>
             <l> y importa pasarla en vela. </l>
-          </sp>
-          <stage>Llaman.</stage>
-          <sp who="#tosco">
+          </sp><stage>Llaman.</stage><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l n="795"> A la puerta siento ruido. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> No abras sin saber a quién. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> El crepúsculo es sin duda. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Enrico debe de ser. </l>
             <stage>Llaman.</stage>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Otra vez vuelve a llamar. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> Abre la puerta. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l n="800" part="F">Voy pues. </l>
             <stage>Aparte.</stage>
@@ -1670,54 +1323,43 @@
             <l> y me zampa, ¿qué he de her? </l>
             <l> Porque hoy só Tosco y mañana </l>
             <l> Dios sabe lo que seré. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="17">
-          <stage>Sale LUDOVICO y el REY rebozados.</stage>
-          <sp who="#tosco">
+            
+          </sp></div><div type="scene" resp="#rojas" n="17"><stage>Sale LUDOVICO y el REY rebozados.</stage><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l n="805"> ¡Señora Estela, señora!, </l>
             <l> él es, y tan descortés, </l>
             <l> que se ha entrado sin licencia. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> ¡Qué atrevido es el poder! </l>
             <l> Ni pone límite al miedo, </l>
             <l n="810"> ni guarda al respeto ley. </l>
             <l part="I"> Aquí está Estela. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F"> ¡Ay de mí! </l>
             <l> ¿Qué es lo que miro? ¿Quién es </l>
             <l> quien desta suerte se atreve...? </l>
             <l part="I"> Hombre, ¿quién eres? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">El Rey. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l n="815"> ¡Qué mal hice en preguntarlo!, </l>
             <l> que si no fueras tú, ¿quién </l>
             <l> tuviera este atrevimiento? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> Óyeme Estela. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F">Detén </l>
             <l> el paso y mira que ofendes</l>
             <l n="820"> el vasallo más fïel, </l>
             <l> el honor más invencible </l>
             <l> y la más constante fe. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l> Acercándose va a ella, </l>
@@ -1728,12 +1370,8 @@
             <l> mientras la come? Pues yo, </l>
             <l> que en mí por diferenciar </l>
             <l n="830"> hará lo mismo después. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="18">
-          <stage>Vase.</stage>
-          <sp who="#rey">
+            
+          </sp></div><div type="scene" resp="#rojas" n="18"><stage>Vase.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l> Estela, nunca he querido </l>
             <l> con imperios ofender </l>
@@ -1767,8 +1405,7 @@
             <l n="860"> Y porque veas también </l>
             <l> que soy rey y soy amante, </l>
             <l> mírame humilde a tus pies. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> Temiendo estoy y dudando. </l>
@@ -1781,8 +1418,7 @@
             <l n="870"> Amor, no consideréis </l>
             <l> que es, si queréis que yo viva, </l>
             <l> él señor y ella mujer. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Señor Vuestra Majestad </l>
             <l> mire quién soy y quién es, </l>
@@ -1792,8 +1428,7 @@
             <l> que si en un vasallo fiel </l>
             <l> no hay contra el poder espada, </l>
             <l n="880"> hay honor contra el poder. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> (Dejadme, celos, un rato, </l>
@@ -1804,25 +1439,21 @@
             <l> ¡Qué amigos son de saber </l>
             <l> los celos! No puedo más.) </l>
             <l part="I"> ¡Señor! </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="M">¿Qué queréis? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F">No sé. </l>
             <l> ¿Cómo Estela te responde? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="890"> ¿No lo supieras después? </l>
             <l> Con desprecio a mis regalos, </l>
             <l> a mis ruegos con desdén, </l>
             <l> con rigor a mis amores, </l>
             <l> con honor a mi poder. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l n="895"> (¡Buenas nuevas te dé Dios!) </l>
@@ -1831,40 +1462,33 @@
             <stage>Aparte.</stage>
             <l> aunque más desesperado </l>
             <l n="900"> a sufrir y padecer. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> Estela. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F">Señor advierte </l>
             <l part="I"> que soy... </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Estela, mi bien, </l>
             <l> quien me da la muerte y puede </l>
             <l> darme la vida. ¿Por qué </l>
             <l n="905"> a un rey desprecias que humilde </l>
             <l> te adora? </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l> (¡Cielos! ¿Qué haré? </l>
             <l> Porque al más leal vasallo </l>
             <l> ofendes, que tuvo rey.) </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="910"> No tiene término amor. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Ni el honor tiene interés. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> (¡Qué mal sosiega un celoso! </l>
@@ -1874,33 +1498,27 @@
             <l> su agravio supla el oído </l>
             <l> su pesar con su placer.) </l>
             <l part="I"> Señor, ¿cómo va? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Muy mal. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> Mejor dijeras muy bien. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="920"> Nunca ha sido más ingrata. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> Nunca más hermosa fue. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Porque no preguntas más </l>
             <l> más ingrata y más crüel, </l>
             <l> dice que aunque su rey soy, </l>
             <l n="925"> en honor no hay interés. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> (Eso sí, partid oídos </l>
@@ -1911,8 +1529,7 @@
             <l> mézclale el decir y hacer, </l>
             <l> con desprecio en los favores </l>
             <l part="I"> y enfádate. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>A LUDOVICO.</stage>
             <l part="F"> (Dices bien. </l>
@@ -1924,14 +1541,12 @@
             <l> es ira, si favor fue. </l>
             <l n="940"> Cierra, Ludovico, luego </l>
             <l part="I"> esa puerta. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> Y cerraré </l>
             <l> los ojos a mis desdichas. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l> (¡Piadosos cielos! ¿Qué haré? </l>
@@ -1954,109 +1569,84 @@
             <l n="960"> qué gente hay en esta sala </l>
             <l> para que tú entres después, </l>
             <l> adonde mi amor te espera. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="19">
-          <stage>Vase.</stage>
-          <sp who="#rey">
+            
+          </sp></div><div type="scene" resp="#rojas" n="19"><stage>Vase.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l> Aquí espero, porque dé </l>
             <l> esta breve dilación </l>
             <l n="965"> por pensión a tanto bien. </l>
             <l part="I"> ¡Ah Ludovico! </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F"> Señor, </l>
             <l part="I"> ¿qué hay de nuevo? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Que llegué, </l>
             <l> vi y vencí, ya Estela hermosa </l>
             <l part="I"> se ha declarado. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Ah crüel! </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="970"> Por no disgustarme fácil, </l>
             <l> todo su desprecio fue. </l>
             <l part="I"> Pero ya me espera. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Ay cielos! </l>
             <l> Mas ¿qué me espanto? Es mujer. </l>
-          </sp>
-          <stage>Golpe dentro.</stage>
-          <sp who="#rey">
+          </sp><stage>Golpe dentro.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿Cerraron la puerta? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F"> Sí. </l>
-          </sp>
-          <stage>Dentro ESTELA.</stage>
-          <sp who="#estela">
+          </sp><stage>Dentro ESTELA.</stage><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> ¡Eduardo! </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="975" part="F"> Llegaré </l>
             <l part="I"> a ver quién me llama. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F">Entra. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> Está cerrado. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F">Esta es </l>
             <l> la industria contra la fuerza </l>
             <l> y el honor contra el poder. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="980"> Vengose de mi porfía, </l>
             <l> hoy con mis ojos pondré </l>
             <l part="I"> fuego al Castillo. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> Volvió </l>
             <l> el alma a su propio ser.) </l>
             <l part="I"> Sosiégate. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">¿Cómo puedo? </l>
             <l n="985"> ¿De qué me sirve ser rey, </l>
             <l> si hay contra la fuerza industria </l>
             <l> y hay honor contra el poder? </l>
-          </sp>
-        </div>
-
-
-
-      </div>
+          </sp></div>
+      
+      
+      
+    </div>
       <div type="act" n="2">
-        <div type="scene" resp="#rojas" n="1">
-          <head>Jornada II</head>
-          <stage>Sale el REY, TEOBALDO, LUDOVICO y ENRICO.</stage>
-          <sp who="#teobaldo">
+        <div type="scene" resp="#rojas" n="1"><head>Jornada II</head><stage>Sale el REY, TEOBALDO, LUDOVICO y ENRICO.</stage><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> La esperanza en el amor </l>
             <l> es un dorado veneno, </l>
@@ -2069,8 +1659,7 @@
             <l> un martirio del deseo, </l>
             <l n="10"> y una imaginada gloria, </l>
             <l> verdugo de la memoria. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Basta, Teobaldo, yo creo </l>
             <l> que es amando la esperanza, </l>
@@ -2081,18 +1670,15 @@
             <l> aquel que la va buscando, </l>
             <l> piensa que se va ausentando </l>
             <l n="20"> o que se va huyendo ella. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Pues siendo así que el que espera </l>
             <l> muere en el mismo favor, </l>
             <l> como tú sabes mejor. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> ¡Pluguiera a Dios no supiera! </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l n="25"> Mira el tiempo que he vivido </l>
             <l> del pensamiento engañado, </l>
@@ -2110,8 +1696,7 @@
             <l> ni de esperar me entretenga, </l>
             <l> que bien por presto que venga, </l>
             <l n="40"> no dejará de ser tarde. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Que yo he tratado, es verdad, </l>
             <l> este casamiento justo </l>
@@ -2129,8 +1714,7 @@
             <l> y aunque su obediencia sé, </l>
             <l n="55"> aconsejarla podré, </l>
             <l> pero no podré forzarla. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Pues si tú has de hablarla es vano </l>
             <l> el favor que me prometo, </l>
@@ -2143,81 +1727,65 @@
             <l n="65"> Que la hable, te suplico </l>
             <l> de mi parte y con tu intento, </l>
             <l> quien sepa mi pensamiento. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Presente está Ludovico </l>
             <l> y Enrico, en los dos advierte, </l>
             <l n="70"> quien puede hablarla mejor. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Uno de los dos, señor. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Su Alteza ha venido a verte. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Pues quédese ansí y después </l>
             <l part="I"> se verá mejor. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Ay cielos! </l>
             <l n="75"> ¡Tan adelantados celos! </l>
             <l> ¡Qué cierto mi daño es! </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
-          <stage>Sale la INFANTA.</stage>
-          <sp who="#infanta">
+          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Sale la INFANTA.</stage><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Oí decir que no tenía </l>
             <l> salud vuestra Majestad </l>
             <l part="I"> y vine a verle. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Es verdad, </l>
             <l n="80"> una gran melancolía </l>
             <l part="I"> me aflige. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F"> ¡Qué injusta ley! </l>
             <l> ¿En qué la pena consiste? </l>
             <l> ¿De que un rey puede estar triste? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> ¿No es hombre también el Rey? </l>
             <l n="85"> ¡Ay, hermana, si supieras, </l>
             <l> cuando en tus manos me ofrezco, </l>
             <l> templar el mal que padezco, </l>
             <l> qué fácilmente pudieras! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> ¿Pues eso dudas, señor? </l>
             <l n="90"> Si importa a tu bien mi vida, </l>
             <l> mírala a tus pies rendida. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Retiraos todos; mejor </l>
             <l> se remedia mi mortal </l>
             <l part="I"> pena. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F"> Contarla procura, </l>
             <l n="95"> que ningún médico cura </l>
             <l> sin informarse del mal. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Ya sabes, Flérida bella, </l>
             <l> que a caza al monte salí, </l>
@@ -2279,8 +1847,7 @@
             <l> solo te sabré decir, </l>
             <l n="155"> que al principio de mi amor </l>
             <l> estoy de mi vida al fin. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Agradecida te escucho </l>
             <l> y pues te fías de mí, </l>
@@ -2302,8 +1869,7 @@
             <l> tendrá lástima de ti; </l>
             <l n="175"> porque a lágrimas de amor, </l>
             <l> ¿quién se podrá resistir? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> ¿Qué divino entendimiento </l>
             <l> iguala al tuyo sutil? </l>
@@ -2319,12 +1885,8 @@
             <l> también hay industria en mí, </l>
             <l> porque contra el honor </l>
             <l n="190"> no hay poder, industria sí. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage>Vase.</stage>
-          <sp who="#teobaldo">
+            
+          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Vase.</stage><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Hoy, Flérida, si pudiera </l>
             <l> hacer lengua el corazón, </l>
@@ -2339,13 +1901,11 @@
             <l> En mí un esclavo tenéis, </l>
             <l> de quien servida seréis, </l>
             <l part="I"> si yo os merezco. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F">Mirad, </l>
             <l> que se va su Majestad. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l n="205"> ¿Y aqueso me respondéis? </l>
             <l> Pero no ha sido en mi daño </l>
@@ -2353,12 +1913,8 @@
             <l> tu desprecio no es rigor, </l>
             <l> que ya merece un favor, </l>
             <l n="210"> quien alcanza un desengaño. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
-          <stage>Vase.</stage>
-          <sp who="#infanta">
+            
+          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Vase.</stage><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l> Remedio me pide a mí </l>
@@ -2371,8 +1927,7 @@
             <l> manifestarle un cuidado </l>
             <l> y revelarle también </l>
             <l n="220"> celos que a mi amor ha dado! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Qué miro! Ya el Rey se ha ido </l>
             <l> y yo en mis dulces antojos </l>
@@ -2386,35 +1941,28 @@
             <l n="230"> y ellos me tienen aquí. </l>
             <l> Amor, ¡tanto os atrevéis!, </l>
             <l> desta suerte os venceréis. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> Espera Enrico. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Mirad, </l>
             <l> que se va su Majestad. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="235"> ¿Y aqueso me respondéis? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Yo, señora, he respondido </l>
             <l part="I"> lo que... </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F"> Ya tengo entendido. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> No tengo esperanza ya. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> No se va; que ya se ha ido. </l>
             <l n="240"> Y supuesto que llegáis </l>
@@ -2442,8 +1990,7 @@
             <l> bien podéis decirme quién, </l>
             <l> que si yo quisiera bien, </l>
             <l> desta suerte lo dijera. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="265"> Al sol, con vanos antojos </l>
             <l> y con arrogancia loca, </l>
@@ -2489,8 +2036,7 @@
             <l> siendo tercera tan bella, </l>
             <l> pienso que fuera buscar </l>
             <l> con todo el sol una estrella. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Mal a estos tiempos conviene </l>
             <l n="310"> tanto amoroso rigor, </l>
@@ -2500,51 +2046,40 @@
             <l> No digo que os declaréis, </l>
             <l n="315"> pero que no la neguéis, </l>
             <l> si es la dama que sospecho. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Yo lo diré, satisfecho </l>
             <l> de que no la nombraréis. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> ¿Es Belisarda? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">No es ella, </l>
             <l n="320"> ni de sus luces centella. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> ¿Y Celia? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F"> Es más su hermosura. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> ¿Es Jacinta por ventura? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Es más discreta y más bella. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> ¿Es Flora o Laura? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">¡Por Dios!, </l>
             <l n="325"> no es ninguna de las dos. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> ¿Es Arminda? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">No os canséis, </l>
             <l> porque no la nombraréis, </l>
@@ -2554,8 +2089,7 @@
             <l> presumo que él se diría </l>
             <l> y no por el sentimiento, </l>
             <l> sino por la cortesía. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Yo quiero hacer un favor </l>
             <l n="335"> a quien también sabe amar. </l>
@@ -2566,8 +2100,7 @@
             <l n="340"> vuestro dueño me diréis, </l>
             <l> porque en quien llegare a vella </l>
             <l> es señal que la queréis. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Pues vós os quedad con ella, </l>
             <l> que si tanta gloria gano </l>
@@ -2589,26 +2122,19 @@
             <l n="360"> disculpado en todo estoy </l>
             <l> pues vós la rosa tenéis, </l>
             <l> que yo mismo no os la doy. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Tomad la rosa, por ver </l>
             <l> a quién la vais a ofrecer. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="365"> Pues no os habéis de ir, </l>
             <l> que ya lo quiero decir. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Ya no lo quiero saber. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage>Vase.</stage>
-          <sp who="#enrico">
+            
+          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Vase.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Oye, Flérida, ya es ida. </l>
             <l> Ya me determino tarde, </l>
@@ -2650,34 +2176,26 @@
             <l n="405"> no las oye a su hermosura. </l>
             <l> Muera quien no sabe amando </l>
             <l> gozar de la coyuntura. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
-          <stage>Sale TOSCO villano con capa y calza.</stage>
-          <sp who="#tosco">
+          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Sale TOSCO villano con capa y calza.</stage><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> ¿No es Enrico aquel que está </l>
             <l> hablando consigo? Sí, </l>
             <l part="I"> señor. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="410" part="F"> ¿Cómo entraste aquí? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Todos estamos acá, </l>
             <l> por Dios hasta acá me he entrado, </l>
             <l> a pesar de los porteros, </l>
             <l> de las bardas y albarderos. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="415"> ¿Y hasta el jardín has llegado? </l>
             <l> ¿Pues qué tengo de decir, </l>
             <l> si te ven adónde estás? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> ¿Pueden obligarme a más </l>
             <l> de que me vuelva a salir? </l>
@@ -2686,12 +2204,10 @@
             <l> tan galanes, tan pulidos, </l>
             <l> que el verlos daba contento </l>
             <l> y de imaginarlo alegra. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="425"> Salte del jardín, acaba. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> En uno vi un reis que estaba </l>
             <l> habrando con una negra, </l>
@@ -2699,23 +2215,19 @@
             <l> dijo: «Estos tapices son </l>
             <l n="430"> la historia del rey Salomón, </l>
             <l> y la reina que se va». </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Sabá y Salomón. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">No es justo </l>
             <l> tener tal conversación, </l>
             <l> dije, y el reis Salmerón </l>
             <l n="435"> tiene muy bellaco gusto. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Hay ignorancia mayor! </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Mire, estaba el Rey sentado </l>
             <l> y vestida de brocado </l>
@@ -2727,53 +2239,43 @@
             <l> Él dijo: «Rey es también», </l>
             <l n="445"> aunque al revés lo decía, </l>
             <l> del fin del Ave María. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> ¿Cómo? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F"> De Jesús, amén. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> De Jerusalén dirás. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> ¡Bueno es aqueso, pardiez! </l>
             <l n="450"> ¿Es mucho errarse una vez? </l>
             <l> Pero en el jardín vi más. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Vete de aquí. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">He de decillo </l>
             <l> y en diciéndolo me iré, </l>
             <l> en una huente miré </l>
             <l n="455"> una fulana de ovillo. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Fábula de Ovidio. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">Sí, </l>
             <l> fábula de olvido era, </l>
             <l> y pasó desta manera. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> Diviértete amor ansí, </l>
             <l n="460"> suspende tanto pesar. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Yo le dije al hortelano: </l>
             <l> «Contadme lo que es, hermano, </l>
@@ -2782,120 +2284,93 @@
             <l n="465"> destos dos que miras son </l>
             <l> la historia del rey Antón, </l>
             <l> y de la Diosa doña Ana». </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> La diosa Diana diría, </l>
             <l part="I"> y el rey Anteón. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">¡Pardiez! </l>
             <l n="470"> ¿Es mucho errarse una vez? </l>
             <l> Eso o esotro sería. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> El Rey es este. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">¡Ay de mí! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Hoy has de echarme a perder. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> ¿Qué es lo que tengo de her? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="475"> Escóndete, Tosco, allí </l>
             <l> y mira que no te vea. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Eso de ver o no ver </l>
             <l> él es el que lo ha de hacer. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage>Salen LUDOVICO y el REY.</stage>
-          <sp who="#ludovico">
+          </sp></div><div type="scene" resp="#rojas" n="7"><stage>Salen LUDOVICO y el REY.</stage><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> ¿Quién hay que tu intento crea? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="480"> Alguna esperanza gano. </l>
             <l part="I"> ¿Enrico? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">A tus pies estoy. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l> ¡Que a ninguna parte voy, </l>
             <l> donde no tope este hermano! </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="I"> ¿Qué harás? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Echarle de aquí. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l n="485"> Será darle más sospechas. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> Causa habrá. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F">¡Bien te aprovechas </l>
             <l> de la lición que te di! </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Enrico, mucho me he holgado </l>
             <l part="I"> de hallarte agora. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Señor, </l>
             <l part="I"> ¿en qué te sirvo?</l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="490" part="F">Mi amor </l>
             <l> parece que te ha llamado. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> El mío me trajo aquí. </l>
             <stage>Aparte.</stage>
             <l> Bien digo, amor me obligó. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l> Bien digo, amor te llamó </l>
             <l n="495"> para apartarte de mí. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> ¿Qué me mandas? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Hoy confío </l>
             <l> de tu cordura un secreto </l>
@@ -2903,43 +2378,35 @@
             <l> de tu entendimiento fío. </l>
             <l n="500"> Teobaldo y la Infanta agora, </l>
             <l> la ocasión has de notar. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¿En fin, él se ha de casar </l>
             <l> con la Reina mi señora? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Tratado está el casamiento </l>
             <l n="505"> y no efectuado en rigor. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¿Y será cierto, señor, </l>
             <l> el fin de tan justo intento? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Yo tuviera gusto en esto </l>
             <l> y pienso que le tendrá. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="510"> Sí, ¿mas sabes si se hará </l>
             <l> el casamiento tan presto? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Si me dejases decir, </l>
             <l> el preguntar te excusara. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Yo también, señor, callara, </l>
             <l n="515"> si me dejaras sentir. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Por quitarte la ocasión </l>
             <l> de tantas preguntas fieras, </l>
@@ -2957,8 +2424,7 @@
             <l> el fin de lo que procuro </l>
             <l n="530"> y yo estaré más seguro </l>
             <l> que no lo preguntarás. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Bien el intento has fïado, </l>
             <l> señor, de mi amor fïel, </l>
@@ -2976,88 +2442,67 @@
             <l n="545"> ser feliz, si al preguntar </l>
             <l> si se pretende casar, </l>
             <l> te respondiere conmigo. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
-          <stage>Vase.</stage>
-          <sp who="#rey">
+            
+          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Vase.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿Fuese ya? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F">Sí, ya se ha ido. </l>
             <l> Bien le supiste engañar. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="550"> Vete, que aquí he de esperar </l>
             <l> en esta fuente escondido. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="I"> Mira... </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Ya mi gusto es ley </l>
             <l> y no hay temor que me asombre. </l>
             <l> Mas ¡qué miro! ¿No es un hombre? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l n="555"> Mírame de zaino el Rey. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿Quién eres? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">Tosco, señor. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿Y el nombre? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="M">Tosco. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">¿Qué quieres? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Quiero lo que tú quisieres. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¡Traidor! </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">Só Tosco traidor. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿Qué haces? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l n="560" part="F"> (¡Muerto só! ¡Ay de mí!) </l>
             <l> Irme, que a esto he venido. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> ¿Y por qué te has escondido? </l>
             <l part="I"> ¿Cómo aquí entraste? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">Hoy vi </l>
             <l> el palacio y engañado </l>
@@ -3067,12 +2512,10 @@
             <l> que me escondiera de ti </l>
             <l> y fue porque no me vieras </l>
             <l n="570"> con aquestas pedorretas. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿Quién es tu amo? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l part="F">(¡Ay de mí! </l>
@@ -3088,31 +2531,25 @@
             <l> que a ninguna se igualó, </l>
             <l> pues aunque me siente yo, </l>
             <l> ella se me queda en pie. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿De Enrico eres? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F"> Lo seré, </l>
             <l n="585"> si no te disgustas desto. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿Dónde está Estela? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">Muy presto </l>
             <l> con la respuesta vendré. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> No te has de ir sin que me digas </l>
             <l> en que está agora ocupada. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l n="590"> Diré lo sin faltar nada, </l>
             <l> que eres rey y a mucho obrigas. </l>
@@ -3157,8 +2594,7 @@
             <l n="630"> licencia, me quiero ir, </l>
             <l> que yo volveré a decir </l>
             <l> cuatrocientas cosas más. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Vete, que ya el alba hermosa, </l>
             <l> entre azucenas y lirios, </l>
@@ -3173,15 +2609,10 @@
             <l> trofeos a tu hermosura, </l>
             <l> bello Adonis, Marte altivo. </l>
             <stage>Escóndese el REY entre los ramos.</stage>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
-          <stage>Sale la INFANTA y ESTELA.</stage>
-          <sp who="#infanta">
+          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Sale la INFANTA y ESTELA.</stage><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="645"> ¿Qué te parece el jardín? </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Que adelantarse en él quiso </l>
             <l> el arte a lo natural, </l>
@@ -3210,32 +2641,26 @@
             <l n="670"> que si ya no se ha movido, </l>
             <l> pienso que es porque en las ondas </l>
             <l> se está contemplando él mismo. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> No es la mejor esta fuente, </l>
             <l> aunque el cincel peregrino </l>
             <l n="675"> se esmeró en su perfección. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Como nunca la había visto... </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Vesme tan de tarde en tarde... </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Que disculpes te suplico, </l>
             <l> esta culpa, si la tengo. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="680"> Ven poco a poco conmigo </l>
             <l> hacia la fuente de Venus. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Los ojos tan divertidos </l>
             <l> están en la variedad </l>
@@ -3244,28 +2669,23 @@
             <l> entretenerme. El rüido </l>
             <l> desta fuente me llevó </l>
             <l> el alma tras el oído. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Parece melancolía. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> Triste estoy. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="690" part="F">Ese es indicio </l>
             <l> de amor. ¿Quieres bien, Estela? </l>
             <l> Bien puedes hablar conmigo. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Dijéralo a ser verdad, </l>
             <l> mas ni quiero, ni he querido </l>
             <l part="I"> bien en mi vida. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="695" part="F"> ¡Ay Estela! </l>
             <l> ¡Tan neciamente has vivido! </l>
@@ -3273,19 +2693,14 @@
             <l> quizá viendo su artificio, </l>
             <l> te obligará a querer bien </l>
             <l n="700"> un Adonis escondido. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l> Ya Estela llega la fuente </l>
             <l> y yo trabado imagino </l>
             <l> varias máquinas, mas luego </l>
             <l> unas con otras olvido. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage>Sale ENRICO y dice.</stage>
-          <sp who="#enrico">
+          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Sale ENRICO y dice.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l n="705"> (Si mis labios, si mis ojos, </l>
@@ -3305,51 +2720,43 @@
             <l> Mas es por darme en tu boca </l>
             <l n="720"> disimulado el castigo.) </l>
             <l part="I"> Buscando te vengo. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Ay cielos! </l>
             <l> Al paso le salió Enrico. </l>
             <l> Con lo que pensé ausentarle </l>
             <l> es la causa con que vino. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Escucha. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l n="725" part="F"> ¡Ay de mí! ¿Si acaso </l>
             <l> este mi amor ha entendido </l>
             <l> y se declarase agora </l>
             <l> estando el Rey escondido? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Si no te han dicho mis ojos, </l>
             <l n="730"> Flérida, si no te han dicho </l>
             <l> mi turbación lo que veo... </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l> Él se declara conmigo. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Escúchame atento un rato. </l>
             <l part="I"> El Rey... </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Ay cielo divino! </l>
             <l n="735"> Por el Rey turbado empieza. </l>
             <l> ¿Qué puede haber sucedido? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> El Rey trata de casarte </l>
             <l> y por honrarme a mí, quiso, </l>
@@ -3360,59 +2767,50 @@
             <stage>Aparte.</stage>
             <l> el cielo quiere que sea </l>
             <l> de mis desdichas testigo. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="745"> ([Aparte.] Él se declara, ¿qué haré? </l>
             <l> Si donde está el Rey le digo, </l>
             <l> será darle más sospechas </l>
             <l> y es fuerza atajarle.) Enrico, </l>
             <l> si el Rey pretende casarme... </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Óyeme. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="750" part="F">Ya te entendido. </l>
             <l> Dirasle al Rey que no tengo </l>
             <l> más gusto que su albedrío. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¿Eso respondes? ¡Ay cielos! </l>
             <l> ¡Cómo no pierdo el sentido! </l>
             <l n="755"> ¿Y sabes ya que es Teobaldo</l>
             <l> el que te dan por marido? </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> Ya lo sé. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Pues ya, señora, </l>
             <l> del Rey el recado he dicho </l>
             <l> y soy otro del que era, </l>
             <l n="760"> escucha un recado mío. </l>
             <l> Esta flor... </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l> ( El Rey lo escucha, </l>
             <l part="I"> ¿qué he de hacer?) </l>
             <l part="F">Vente conmigo, </l>
             <l> Enrico, si hablarme quieres. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="765"> Pues, Estela, yo te pido, </l>
             <l> por ser negocio que importa, </l>
             <l part="I"> te quedes aquí. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F">En el rico </l>
             <l> adorno de aquesta fuente, </l>
@@ -3420,8 +2818,7 @@
             <l n="770"> de cristal riega las rosas </l>
             <l> de esmeraldas guarnecidas, </l>
             <l> me hallarás entretenida. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l> Ninguna cosa he entendido, </l>
@@ -3433,13 +2830,11 @@
             <l> llevándole divertido, </l>
             <l n="780"> y deja a Estela. ¡Qué ingenio </l>
             <l> iguala al suyo divino! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Aquí me puedes hablar </l>
             <l part="I"> que estamos solos. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Pues digo </l>
             <l> que esta flor, a quien abril </l>
@@ -3458,8 +2853,7 @@
             <l> la flor, en cuyos hechizos </l>
             <l> el alma bebió el veneno </l>
             <l> que ha de quitarme el jüicio. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="800"> Esta flor te di, es verdad, </l>
             <l> por señas de que ella ha sido </l>
@@ -3476,33 +2870,25 @@
             <l> ¡Qué buena ocasión te ha dado </l>
             <l> el casamiento fingido </l>
             <l part="I"> para volvérmela! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Mira, </l>
             <l n="815"> señora, que nada finjo. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> ¿Tú me dices que me quieres? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Yo, Flérida, no lo digo. </l>
             <l> Pero si ansí lo entendiste, </l>
             <l> señora, lo dicho dicho. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
-          <stage>Vanse.</stage>
-          <sp who="#rey">
+          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Vanse.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l n="820"> Ya se perdieron de vista. </l>
             <l> ¡Oh qué bien la Infanta hizo </l>
             <l> en apartarle de aquí! </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Sobre molduras y frisos </l>
             <l> hermosas basas se asientan </l>
@@ -3533,11 +2919,7 @@
             <l> Al mismo Rey le dijera, </l>
             <l> que en más que su Reino estimo, </l>
             <l n="850"> y más que el mundo, mi honor. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
-          <stage>Sale el REY.</stage>
-          <sp who="#rey">
+          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Sale el REY.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l> (Parece que habla conmigo, </l>
@@ -3563,22 +2945,19 @@
             <l> de libre con pecho altivo? </l>
             <l> Mira que es en el soberbio </l>
             <l> siempre mayor el castigo. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Porque de mí no se queje, </l>
             <l n="875"> ni culpe el intento mío, </l>
             <l> Vuestra Majestad, señor, </l>
             <l> que me escuche le suplico. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Si es culparme ya bastan tus enojos. </l>
             <l> No culpes tú mi amor, culpa tus ojos, </l>
             <l n="880"> ellos la caüsa han sido, </l>
             <l> solo por adorallos me he perdido. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Si Vuestra Majestad verme quería, </l>
             <l> ¿por qué más descubierto no venía? </l>
@@ -3586,34 +2965,25 @@
             <l n="885"> que nunca el que hizo bien huye la cara, </l>
             <l> que ningún bien ha habido, </l>
             <l> que no guste de ser agradecido. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l> Estela, el que deseo. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> Suelta la mano. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="890" part="F">Si en mis labios veo </l>
             <l> su nieve hermosa y bella. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> Suelta. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Tápame con ella </l>
             <l part="I"> la boca y callaré. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="13">
-          <stage>Sale ENRICO.</stage>
-          <sp who="#enrico">
+          </sp></div><div type="scene" resp="#rojas" n="13"><stage>Sale ENRICO.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Fuese ofendida, </l>
             <l> Flérida bella y yo quedé sin vida. </l>
@@ -3623,17 +2993,14 @@
             <l> ¿Si en los celos de amor da el honor celos? </l>
             <l> Pero erraron los labios, </l>
             <l n="900"> que estos ya no son celos, sino agravios. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Suelta, suelta la mano, </l>
             <l> que viene, ¡ay de mí triste!, allí mi hermano. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Mal mi pena resisto. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l> ¡Oh quién no hubiera visto </l>
@@ -3643,27 +3010,22 @@
             <l> culpa el mundo también al inocente. </l>
             <l> ¡Tirana ley!, doblada infamia hallara, </l>
             <l n="910"> si, mirando mi agravio, me tornara. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> Tu Majestad se esconda. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F"> Yo no puedo, </l>
             <l> amor pudo esconderme, mas no el miedo. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> Escóndete por mí. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Solo pudiera. </l>
             <l> ese ruego alcanzar que me escondiera. </l>
             <stage>Escóndese.</stage>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l n="915"> (El Rey se ha retirado, </l>
@@ -3677,12 +3039,10 @@
             <l> Hermana, ¿qué miras en estas fuentes, </l>
             <l> con tantos artificios diferentes, </l>
             <l n="925"> mármores y figuras? </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Estaba contemplando sus pinturas. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Es propio de los Reyes </l>
             <l> estas grandezas tales. </l>
@@ -3691,14 +3051,12 @@
             <stage>Aparte.</stage>
             <l> Yo pienso, hermana, que el mejor no has visto, </l>
             <l part="I"> llega y verasle. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Ay cielos! Él se atreve </l>
             <l> a descubrir al Rey y él no se mueve. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="935"> Este es del Rey tan natural retrato </l>
             <l> que siempre que su imagen considero, </l>
@@ -3714,56 +3072,43 @@
             <l> quizá por mis mayores conservados, </l>
             <l> con tu sangre adquiridos, </l>
             <l> también ganados, como defendidos. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> ¡Qué arrogante y soberbio atrevimiento! </l>
             <l n="950"> Ya a mi cólera falta sufrimiento. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="14">
-          <stage>Sale TEOBALDO y LUDOVICO.</stage>
-          <sp who="#teobaldo">
+          </sp></div><div type="scene" resp="#rojas" n="14"><stage>Sale TEOBALDO y LUDOVICO.</stage><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l part="I"> Aquí está el Rey. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Ay cielos! </l>
             <l> Vengo a morir donde me matan celos. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Aqueste atrevimiento tuyo ha sido. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Fuiste desvergonzado y atrevido. </l>
             <stage>Dale un bofetón.</stage>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="955"> Ofenderme pudiste, no afrentarme </l>
             <l> y pues en ti no puedo, </l>
             <l> que eres mi rey, vengarme, </l>
             <l> satisfaré mi ofensa en los testigos. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Todos somos, Enrico, tus amigos. </l>
             <stage>Saca la espada y hiere a TEOBALDO.</stage>
             <l n="960"> ¡Oye Enrico! ¡Ay de mí triste! </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Muere, infeliz, pues mi desdicha viste! </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> ¿Tú para mí la espada? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Rendida está a tus plantas y arrojada, </l>
             <l> no quiera el cielo que en tu ofensa sea, </l>
@@ -3796,80 +3141,58 @@
             <l> ninguno mi desdicha habrá sabido </l>
             <l> que no sepa primero por qué ha sido </l>
             <l> y que aquesto me obliga a ser honrado. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
-          <stage>Sale el CONDE.</stage>
-          <sp who="#conde">
+          </sp></div><div type="scene" resp="#rojas" n="15"><stage>Sale el CONDE.</stage><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> ¿Quién a Teobaldo hirió, señor? ¿Qué es esto? </l>
             <l n="995"> ¿Pues Vuestra Majestad tan descompuesto, </l>
             <l> con la mano en la espada </l>
             <l> y la de Enrico, ¡ay cielos!, </l>
             <l> toda ensangrentada? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Enrico hirió a Teobaldo. </l>
             <l n="1000"> Sustanciad el delito y castigadlo. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="16">
-          <stage>Vase.</stage>
-          <sp who="#conde">
+            
+          </sp></div><div type="scene" resp="#rojas" n="16"><stage>Vase.</stage><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> Pues Enrico, ¿qué es esto? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Es la desdicha en que el honor me ha puesto. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> Yo, Enrico, he de prenderte. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Piadoso juez serás en darme muerte. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l n="1005"> No he de saber qué ha sido ni ha pasado, </l>
             <l> que no quiero escucharte apasionado. </l>
             <l part="I"> Ven preso. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="M">Ya lo estoy. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l part="F">Y yo estoy loco. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Contra el poder, honor importa poco. </l>
-          </sp>
-        </div>
-
-
-      </div>
+          </sp></div>
+      
+      
+    </div>
       <div type="act" n="3">
-        <div type="scene" resp="#rojas" n="1">
-          <head>Jornada III</head>
-          <stage>Salen LUDOVICO, ENRICO y TOSCO villano.</stage>
-          <sp who="#ludovico">
+        <div type="scene" resp="#rojas" n="1"><head>Jornada III</head><stage>Salen LUDOVICO, ENRICO y TOSCO villano.</stage><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> El obedecer es ley, </l>
             <l> por su mandado he venido. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Gracias al cielo que ha sido </l>
             <l> en algo piadoso el Rey! </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l n="5"> Mandome que yo asistiese </l>
             <l> y no sé con qué ocasión, </l>
@@ -3886,8 +3209,7 @@
             <l> y que este no salga fuera. </l>
             <l> Sino que, juntos los dos, </l>
             <l> tan preso esté como vós. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l n="20"> Preguntar, señor, quisiera, </l>
             <l> ¿qué delito cometí, </l>
@@ -3902,13 +3224,11 @@
             <l n="30"> estando escondido allí, </l>
             <l> también me descubrió a mí </l>
             <l> y no tomé enojo yo. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Pues no es bien que desa suerte, </l>
             <l> vós mismo os quitéis la vida. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="35"> Ella fuera bien perdida </l>
             <l> y bien hallada mi muerte, </l>
@@ -3916,31 +3236,26 @@
             <l> que el temor no me acobarda. </l>
             <l> Pero presumo que tarda, </l>
             <l n="40"> por no serme lisonjera. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> El jüez más riguroso, </l>
             <l> que habéis, Enrico, tenido, </l>
             <l part="I"> es vuestro padre. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Y ha sido </l>
             <l> en eso padre piadoso. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l n="45"> Ya Teobaldo de la herida </l>
             <l> convaleció y ha quedado </l>
             <l part="I"> con salud. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F"> Hubiera dado, </l>
             <l> en albricias de su vida, </l>
             <l part="I"> la que no tengo. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F"> Con esto </l>
             <l n="50"> y con que mañana ha de ir </l>
@@ -3949,8 +3264,7 @@
             <l> que sin riesgo alguno está, </l>
             <l> será fácil el perdón. </l>
             <l n="55"> ¿De qué los extremos son? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Faltó el sufrimiento ya. </l>
             <l> ¿A pedir mi vida ha de ir, </l>
@@ -3960,25 +3274,21 @@
             <l> ¡Ay Ludovico! ¡Ay amigo! </l>
             <l> ¡Quién estorbarla pudiera, </l>
             <l> que ni le hablara, ni viera! </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Si hay remedio, yo me obligo </l>
             <l n="65"> ayudar tan justo intento. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¿Qué remedio puede haber, </l>
             <l> si no es...? Mas no puede ser. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> ¿Por qué? Yo también lo siento. </l>
             <l> Pedid: ¿qué queréis que os doy </l>
             <l n="70"> palabra de hacer aquí </l>
             <l> cuanto quisiereis de mí? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Pues que tan dichoso soy, </l>
             <l> que aquese consuelo gana </l>
@@ -4011,8 +3321,7 @@
             <l n="100"> que es mucho lo que he pedido, </l>
             <l> pues no lo hagáis y no estéis </l>
             <l part="I"> triste. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">Mientras Ludovico </l>
             <l> piensa y repiensa, os suplico, </l>
@@ -4031,8 +3340,7 @@
             <l> él a mí me descubrió. </l>
             <l> Que esto por aquello sea </l>
             <l part="I"> y estemos en paz. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l part="F">¡Hay cosa </l>
@@ -4053,53 +3361,41 @@
             <l> Yo iré, porque no penséis, </l>
             <l> que fue temor o dudar, </l>
             <l n="135"> las guardas he de quitar. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Con eso me las ponéis, </l>
             <l> que la confïanza es </l>
             <l part="I"> prisión del alma. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F">Las puertas </l>
             <l> todas se quedan abiertas. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="140"> Tomad esa llave, pues, </l>
             <l> y decid que si rendida </l>
             <l> a pedir mi vida ha de ir, </l>
             <l> porque no haya que pedir, </l>
             <l> yo me quitaré la vida. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l n="145"> Yo le diré que el honor </l>
             <l> más que la vida estimáis. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Vos pienso que me le dais. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
-          <stage>Vase LUDOVICO.</stage>
-          <sp who="#tosco">
+          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Vase LUDOVICO.</stage><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Ya se fue. Solos estamos </l>
             <l> y de par en par las puertas, </l>
             <l n="150"> sin guardas están y abiertas. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Pues ¿qué quieres? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">Que nos vamos. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Viven los cielos, villano, </l>
             <l> bajo, vil, que si no fuera </l>
@@ -4111,16 +3407,11 @@
             <l> y la lealtad a un amigo? </l>
             <l n="160"> ¿Ese consuelo me ofreces? </l>
             <l> ¿Aqueso me has de decir? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Sí, señor, porque el morir, </l>
             <l> no es burla para dos veces. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage>Sale la INFANTA, con hábito de hombre, de noche.</stage>
-          <sp who="#infanta">
+          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Sale la INFANTA, con hábito de hombre, de noche.</stage><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Pasos de un amor cobarde </l>
             <l n="165"> y de un ánimo valiente, </l>
@@ -4139,42 +3430,35 @@
             <l> haber sucedido? Aquí </l>
             <l> hay luz y con ella gente. </l>
             <l n="180"> Quiero llegar. ¿Es Enrico? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Helo sido, que el que muere </l>
             <l> ya no es, porque la vida </l>
             <l> no es vida cuando es tan breve. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> Enrico. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l part="F"> No habla conmigo, </l>
             <l n="185"> porque Enrico solamente </l>
             <l> ha dicho: ¡Plegue a los cielos </l>
             <l> que nunca de mí se acuerde! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Lo primero que has de hacer </l>
             <l> es que no has de responderme, </l>
             <l n="190"> ni preguntarme mi nombre. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l> Castillo encantado es este. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Si esta palabra me das, </l>
             <l part="I"> diré a lo que vengo. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Excede </l>
             <l> mi confusión a mi espanto. </l>
@@ -4186,8 +3470,7 @@
             <l n="200"> palabra te doy aquí </l>
             <l> de no querer conocerte, </l>
             <l> aunque me importe la vida. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l> ¡Por San Pito, que parecen </l>
@@ -4195,8 +3478,7 @@
             <l n="205"> a los andantes suceden! </l>
             <l> Mas no va hasta aquí muy malo, </l>
             <l> pues no hay quien de mí se acuerde. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Ya, Enrico, que del valor </l>
             <l> estoy satisfecho, advierte </l>
@@ -4218,8 +3500,7 @@
             <l n="225"> que algún día más alegre, </l>
             <l> pues debo lo que te pago, </l>
             <l> me pagues lo que me debes. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l> ¡Vive Cristo, que el mancebo </l>
@@ -4230,8 +3511,7 @@
             <l> Ya Enrico del sueño vuelve, </l>
             <l> veamos qué le responde. </l>
             <l n="235"> Mas, ¿qué dice que no quiere? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Si supiera a qué venías, </l>
             <l> no ofreciera neciamente </l>
@@ -4281,16 +3561,14 @@
             <l> que la fama te celebre, </l>
             <l> que la memoria retenga </l>
             <l> y el olvido te respete. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l> ¿No lo dije yo? ¡Que haya </l>
             <l n="285"> hombre tan impertinente, </l>
             <l> que no tan sola la vida, </l>
             <l> pero que el oro desprecie! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Enrico, si tú supieras </l>
             <l> lo que a pedirme te atreves, </l>
@@ -4299,8 +3577,7 @@
             <l> corresponder al honor, </l>
             <l> pues sabes lo que me debes, </l>
             <l> una palabra has de darme. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="295"> Ya mi discurso previene </l>
             <l> imposibles y el mayor </l>
@@ -4308,39 +3585,32 @@
             <l> ¿Pero qué puedes pedir </l>
             <l> a un hombre que apenas tiene </l>
             <l part="I"> vida? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <stage>Aparte.</stage>
             <l n="300" part="F"> ¿Y a un hombre que está </l>
             <l> sin tabardillo a la muerte? </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Que si acaso te perdona </l>
             <l> el Rey y libre te vieres, </l>
             <l> no has de serme nunca ingrato. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="305"> Más que me obligas, me ofendes. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> ¿Esa palabra me das </l>
             <l part="I"> con la mano? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Y si rompiere </l>
             <l> la fe que te juro, el cielo </l>
             <l part="I"> me falte, mas tú... </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F">¿Qué sientes? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="310"> No sé, no sé qué blandura, </l>
             <l> qué suavidad diferente </l>
@@ -4354,18 +3624,15 @@
             <l> y me regocija el verte, </l>
             <l n="320"> sino temiera enojarte, </l>
             <l part="I"> dijera, que era... </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="F">¡Detente! </l>
             <l part="I"> ¿Conócesme ya? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Sí y no. </l>
             <l> Que no sé qué responderte. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Enrico, Flérida soy, </l>
             <l n="325"> que ahora vengo a ofrecerte </l>
@@ -4378,8 +3645,7 @@
             <l> Mira lo que quieres más, </l>
             <l> o que a Teobaldo le ruegue, </l>
             <l> que pida tu vida al Rey. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="335"> Cuanto antes que te viese </l>
             <l> no conocerte sentía, </l>
@@ -4410,8 +3676,7 @@
             <l> mientras espero mi muerte, </l>
             <l> solamente lloraré </l>
             <l> hallarte para perderte. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> No te arrepientas después, </l>
             <l n="365"> mira Enrico, que no vuelve </l>
@@ -4421,69 +3686,49 @@
             <l> es que no estima o no quiere, </l>
             <l n="370"> no hagas del favor desprecio, </l>
             <l part="I"> mira que me voy. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Pues vete. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> Enrico, adiós. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F">Él te guarde. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> ¡Ah señor, que no hay, advierte </l>
             <l> dos infantas, ni dos vidas! </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l part="I"> ¿Que no me llamas? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="375" part="F">¿Que vuelves? </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Pues aunque me llames ya, </l>
             <l> no tengo de responderte. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
-          <stage>Vase.</stage>
-          <sp who="#enrico">
+            
+          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Vase.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Yo nunca te llamaré. </l>
             <l part="I"> ¿Fuese ya Flérida? </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l part="F">Fuese. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> ¡Oye, Flérida! </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l n="380" part="F">A buena hora. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> ¡Ay honor, lo que me debes! </l>
             <l> Dos vidas quisiste darme, </l>
             <l> porque dos vidas me cuestes. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage>Vanse.</stage>
-          <stage>Salen el CONDE y ESTELA.</stage>
-          <sp who="#conde">
+          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Vanse.</stage><stage>Salen el CONDE y ESTELA.</stage><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> Solo tu quietud procuro, </l>
             <l n="385"> pues viéndote el Rey casada, </l>
@@ -4497,8 +3742,7 @@
             <l> porque en confusión tan fiera, </l>
             <l> primero mil veces muera </l>
             <l n="395"> para matarle una vez. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Aumente mi pena el llanto, </l>
             <l> pues él aumenta el dolor, </l>
@@ -4516,8 +3760,7 @@
             <l> rompiere los de la fe, </l>
             <l n="410"> con mis manos me daré </l>
             <l> en su presencia la muerte. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> De tu valor satisfecho, </l>
             <l> solo puedo en trance tal, </l>
@@ -4527,12 +3770,8 @@
             <l> contra el valor que en ti veo, </l>
             <l> que la justicia deseo, </l>
             <l> pero no la ejecución. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
-          <stage>Vase.</stage>
-          <sp who="#estela">
+            
+          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Vase.</stage><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l n="420"> Afligido pensamiento, </l>
             <l> que en tan confusos enojos, </l>
@@ -4564,11 +3803,7 @@
             <l> las finezas que él hacía </l>
             <l> cuando amante me ofendía, </l>
             <l> podrá obligarme marido. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage>Sale LUDOVICO.</stage>
-          <sp who="#ludovico">
+          </sp></div><div type="scene" resp="#rojas" n="7"><stage>Sale LUDOVICO.</stage><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l n="450"> Hasta su cuarto he llegado, </l>
@@ -4587,34 +3822,27 @@
             <l> porque ya no se desea. </l>
             <l> Mi valor es bien se vea. </l>
             <l part="I"> Estela es esta. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l n="465" part="F">¡Ay de mí! </l>
             <l> ¡Ay cielos! ¿Quién está aquí? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="I"> No te alborotes. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F">¿Quién eres? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="I"> ¿No me conoces? </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F">¿Qué quieres? </l>
             <l part="I"> ¿No eres Ludovico? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="F">Sí. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l n="470"> Sin duda que te ofrece </l>
             <l> formado el pensamiento, </l>
@@ -4624,8 +3852,7 @@
             <l n="475"> a entrar aquí, rompiendo </l>
             <l> las puertas a mi cuarto </l>
             <l> y a la noche el silencio? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Escucha Estela, escucha, </l>
             <l> sabrás a lo que vengo </l>
@@ -4649,12 +3876,10 @@
             <l> de que me voy huyendo, </l>
             <l> porque el amor no venza </l>
             <l> la lealtad y el respeto. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l n="500"> Escucha, Ludovico. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Perdona, que no puedo, </l>
             <l> que no vengo a escucharte, </l>
@@ -4663,12 +3888,8 @@
             <l n="505"> de la ocasión que pierdo, </l>
             <l> mas donde honor es más </l>
             <l> es el amor lo menos. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
-          <stage>Vase.</stage>
-          <sp who="#estela">
+            
+          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Vase.</stage><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l> Ludovico, no hagas </l>
             <l> de la ocasión desprecio, </l>
@@ -4702,17 +3923,11 @@
             <l> que alumbre ardiente el cielo, </l>
             <l> que comunique el mar </l>
             <l> y que suspenda el viento. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
-          <stage>Vase.</stage>
-          <stage>Salen la INFANTA y TEOBALDO.</stage>
-          <sp who="#infanta">
+            
+          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Vase.</stage><stage>Salen la INFANTA y TEOBALDO.</stage><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="540"> Aquesto has de hacer por mí. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Verás cómo al Rey suplico </l>
             <l> que le dé la vida a Enrico, </l>
@@ -4725,31 +3940,25 @@
             <l> como mi amor advirtió, </l>
             <l n="550"> quisiera pedirla yo </l>
             <l> y que tú no la pidieras. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Débole a Enrico la vida. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Pues bien es que satisfagas, </l>
             <l> si lo que debes le pagas. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l n="555"> Ha de ser encarecida </l>
             <l> con el Rey la petición. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Y tú misma la verás, </l>
             <l> puesto que presente estás. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Él llega a buena ocasión. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l n="560"> No sé qué llego a sentir, </l>
             <l> que, si mi temor repara, </l>
@@ -4758,30 +3967,23 @@
             <l> Vuestra Majestad, señor, </l>
             <l n="565"> me dé por ventura tanta </l>
             <l part="I"> a besar los pies. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage>Sale el REY.</stage>
-          <sp who="#rey">
+          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Sale el REY.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Levanta, </l>
             <l part="I"> ¿Cómo te sientes? </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l part="F">Mejor. </l>
             <l> Que pensé he convalecido </l>
             <l> y por solo haber llegado </l>
             <l n="570"> a tus pies, se ha adelantado </l>
             <l part="I"> la salud. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">¿Qué ha sucedido? </l>
             <l> Álzate del suelo y di, </l>
             <l part="I"> ¿qué quieres? </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l part="F">Hasta tener </l>
             <l> lo que pido, me has de ver </l>
@@ -4798,12 +4000,10 @@
             <l n="585"> quien más agraviado es, </l>
             <l> señor, que la vida des, </l>
             <l part="I"> ¿mira Enrico? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F"> ¿Bien está? </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Yo, señor, agradecida </l>
             <l> en tan trágicos enojos, </l>
@@ -4817,58 +4017,41 @@
             <l> teniendo por mí el perdón, </l>
             <l> la suya en satisfación, </l>
             <l part="I"> ¿mira Enrico? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Ya lo sé. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l n="600"> Licencia el honor te dio, </l>
             <l> si no es que de ti te olvidas, </l>
             <l> para que su vida pidas, </l>
             <l> para que le llores no. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
-          <stage>Sale LUDOVICO.</stage>
-          <sp who="#ludovico">
+          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Sale LUDOVICO.</stage><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Una dama a quien el manto </l>
             <l n="605"> cubre el rostro y cuya voz, </l>
             <l> con suspiros divididos </l>
             <l> rompe el viento con temor, </l>
             <l> a solas te quiere hablar. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> Dejadme solo. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l part="F"> ¡Ay amor! </l>
             <l n="610"> ¡Lo que me debes me pagas! </l>
             <l> ¡Amorosa confusión! </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
-          <stage>Vase.</stage>
-          <sp who="#teobaldo">
+            
+          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Vase.</stage><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <stage>Aparte.</stage>
             <l> Si ya creíste los celos, </l>
             <l> ¿por qué dudas el rigor? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l> Ya en la sala entra la dama. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="13">
-          <stage>Sale ESTELA con un manto.</stage>
-          <sp who="#rey">
+          </sp></div><div type="scene" resp="#rojas" n="13"><stage>Sale ESTELA con un manto.</stage><sp who="#rey">
             <speaker>REY</speaker>
             <l n="615"> Sombra que de luz vistió </l>
             <l> este cuarto, aunque eclipsado </l>
@@ -4883,13 +4066,11 @@
             <l n="625"> deme dolor su dolor. </l>
             <l> ¿Por qué los rayos escondes? </l>
             <l part="I"> Dime, ¿quién eres? </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <stage type="descubrese-character">Descúbrese.</stage>
             <l part="F"> Yo soy. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Tú solamente pudieras </l>
             <l> causar tal admiración </l>
@@ -4923,8 +4104,7 @@
             <l> Solos estamos los dos, </l>
             <l> hasta aquí el rigor fue cuerdo, </l>
             <l> pero ya es necio el rigor. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l n="660"> Eduardo generoso, </l>
             <l> Tercero de Inglaterra, </l>
@@ -5006,37 +4186,28 @@
             <l> que hay industria contra fuerza </l>
             <l> y que hay en mujeres nobles </l>
             <l> vida, honor, lauro y defensa. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="740"> Esconde, Estela, el riguroso acero, </l>
             <l> no te vean con él, que hacer espero </l>
             <l> inmortal esta hazaña. </l>
             <l part="I"> ¿Quién está aquí? </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="F">¡Severidad extraña! </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="14">
-          <stage>Salen LUDOVICO, la INFANTA y TEOBALDO.</stage>
-          <sp who="#ludovico #infanta #teobaldo">
+          </sp></div><div type="scene" resp="#rojas" n="14"><stage>Salen LUDOVICO, la INFANTA y TEOBALDO.</stage><sp who="#ludovico #infanta #teobaldo">
             <speaker>TODOS</speaker>
             <l part="I"> ¿Qué mandas? </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Ludovico, </l>
             <l n="745"> llámame al Conde, tú Teobaldo a Enrico. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <stage>Aparte.</stage>
             <l> ¡Estela con el Rey! Ya sus enojos </l>
             <l> claros se ven en los airados ojos. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <stage>Aparte.</stage>
             <l> ¡Que una mujer ha sido </l>
@@ -5047,61 +4218,47 @@
             <l> por honor se atrevieron a la muerte. </l>
             <l> Yo solamente he sido, </l>
             <l n="755"> quien vencedor se coronó vencido. </l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
-          <stage>Salen LUDOVICO y el CONDE por una puerta y por otra TEOBALDO, ENRICO y TOSCO villano.</stage>
-          <sp who="#enrico">
+          </sp></div><div type="scene" resp="#rojas" n="15"><stage>Salen LUDOVICO y el CONDE por una puerta y por otra TEOBALDO, ENRICO y TOSCO villano.</stage><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Vós, Teobaldo, ¿venís por mí? </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l part="F"> Quisiera </l>
             <l> ser quien la vida y libertad os diera. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="I"> Llama el Rey. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l part="F">¿Qué hay de nuevo, Ludovico? </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <l part="I"> Aquí está el Conde ya. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l part="F">Y aquí está Enrico. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l n="760"> Si a escuchar mi sentencia me has traído, </l>
             <l> habiéndote de ver, piadosa ha sido, </l>
             <l> pues la piedad declara, </l>
             <l> que nadie muere viendo al rey la cara. </l>
-          </sp>
-          <sp who="#tosco">
+          </sp><sp who="#tosco">
             <speaker>TOSCO</speaker>
             <l> Yo también quiero vella, </l>
             <l n="765"> por no morir. Por cierto que es muy bella. </l>
-          </sp>
-          <sp who="#ludovico">
+          </sp><sp who="#ludovico">
             <speaker>LUDOVICO</speaker>
             <stage>Aparte.</stage>
             <l> Su Majestad se sienta </l>
             <l> y a su lado la Infanta. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <stage>Aparte.</stage>
             <l part="I"> El Rey airado, </l>
             <l part="F">¡con gravedad admira! </l>
             <l> severo y grave a todas partes mira. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l n="770"> Caballeros, mis deudos y vasallos, </l>
             <l> leales, nobles y amigos, </l>
@@ -5119,80 +4276,66 @@
             <l> No repliquéis, sentaos en esta silla, </l>
             <l> que es solo merecisteis ocupalla, </l>
             <l n="785"> siendo del mundo espanto y maravilla. </l>
-          </sp>
-          <sp who="#estela">
+          </sp><sp who="#estela">
             <speaker>ESTELA</speaker>
             <l part="I"> No merezco esos pies. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="F">Y cuando fuera </l>
             <l> del mundo emperador, lo mismo fuera. </l>
-          </sp>
-          <sp who="#conde">
+          </sp><sp who="#conde">
             <speaker>CONDE</speaker>
             <l> Pues a mi Reina quiero </l>
             <l> besar la mano, siendo yo el primero </l>
             <l n="790"> que le dé la obediencia. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l> Y todos esperamos tu licencia, </l>
             <l> para deciros ya con voz altiva, </l>
             <l> ¡Viva Edüardo con Estela, viva! </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l part="I"> ¿Pues no llegáis, Enrico? </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="F"> No he llegado, </l>
             <l n="795"> que ninguno a su rey mira culpado, </l>
             <l> mas si culpa en mi inocencia abonas, </l>
             <l> yo llegaré contento, </l>
             <l> pues con darme licencia, me perdonas. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> En días de mis bodas, </l>
             <l n="800"> quiero que sean alegrías todas. </l>
             <l> Dé Flérida la mano </l>
             <l part="I"> a Teobaldo. </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l part="F"> Yo soy quien gano. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Pues, ¿no es bien que te asombre </l>
             <l> mano de quien lloró por otro hombre? </l>
-          </sp>
-          <sp who="#teobaldo">
+          </sp><sp who="#teobaldo">
             <speaker>TEOBALDO</speaker>
             <l n="805"> Yo la culpa he tenido. </l>
-          </sp>
-          <sp who="#infanta">
+          </sp><sp who="#infanta">
             <speaker>INFANTA</speaker>
             <l> Y licencia te pido </l>
             <l> para darla, señor, a quien me ha dado </l>
             <l> causa de que por él haya llorado. </l>
-          </sp>
-          <sp who="#rey">
+          </sp><sp who="#rey">
             <speaker>REY</speaker>
             <l> Yo la doy y contento </l>
             <l n="810"> de que así queda satisfecho Enrico. </l>
-          </sp>
-          <sp who="#enrico">
+          </sp><sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l> Que me dejes besar tus pies suplico, </l>
             <l> porque a tus plantas puesto, </l>
             <l> poder, amor y honor den fin con esto. </l>
-          </sp>
-        </div>
-
-      </div>
+          </sp></div>
+      
+    </div>
     </body>
   </text>
 </TEI>

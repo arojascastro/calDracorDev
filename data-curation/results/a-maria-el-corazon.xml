@@ -1,100 +1,5 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000002" xml:lang="esp">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">A María el corazón</title>
-        <title type="sub">Auto historial alegórico</title>
-        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
-        <respStmt>
-          <resp>Data curation (cleaning, normalization and scene division)</resp>
-          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
-        <publisher xml:id="dracor">DraCor</publisher>
-        <date when="2019-03-11"><time when="13:46:15"/></date>
-        <idno type="quadramaX">A María el corazón</idno>
-        <availability>
-          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/a-maria-el-corazon--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Ignacio Arellano, Ildefonso Adeva, Francisco Crosas y Miguel Zugasti procedente de la edición Calderón de la Barca, Pedro, A María el corazón, ed. Ignacio Arellano, Ildefonso Adeva, Francisco Crosas y Miguel Zugasti, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1999. ISBN: 3-931887-56-1.</title></bibl></bibl>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <particDesc>
-        <listPerson>
-          <person xml:id="el-furor" sex="MALE">
-            <persName>El Furor</persName>
-          </person>
-          <person xml:id="la-culpa" sex="FEMALE">
-            <persName>La Culpa</persName>
-          </person>
-          <person xml:id="la-soberbia" sex="FEMALE">
-            <persName>La Soberbia</persName>
-          </person>
-          <person xml:id="la-avaricia" sex="FEMALE">
-            <persName>La Avaricia</persName>
-          </person>
-          <person xml:id="la-lascivia" sex="FEMALE">
-            <persName>La Lascivia</persName>
-          </person>
-          <person xml:id="la-ira" sex="FEMALE">
-            <persName>La Ira</persName>
-          </person>
-          <person xml:id="envidia" sex="FEMALE">
-            <persName>Envidia</persName>
-          </person>
-          <person xml:id="la-gula" sex="FEMALE">
-            <persName>La Gula</persName>
-          </person>
-          <person xml:id="la-pereza" sex="FEMALE">
-            <persName>La Pereza</persName>
-          </person>
-          <person xml:id="el-peregrino" sex="MALE">
-            <persName>El Peregrino</persName>
-          </person>
-          <person xml:id="el-pensamiento" sex="MALE">
-            <persName>El Pensamiento</persName>
-          </person>
-          <person xml:id="laureta" sex="FEMALE">
-            <persName>Laureta</persName>
-            <trait source="castlist">
-              <desc>dama</desc>
-            </trait>
-          </person>
-          <person xml:id="el-ángel" sex="MALE">
-            <persName>El Ángel</persName>
-          </person>
-          <person sex="UNKNOWN" xml:id="música">
-            <persName>Música</persName>
-          </person>
-        </listPerson>
-      </particDesc>
-      <textClass>
-        <keywords>
-          <term source="dracor" type="genreTitle">auto sacramental</term>
-          <term source="#kroll" type="main">auto sacramental</term>
-        </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
-      </textClass>
-    </profileDesc>
-    <encodingDesc>
-      <classDecl>
-        <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
-        </taxonomy>
-      </classDecl>
-      <classDecl>
-        <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-  </teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000002" xml:lang="esp">
+  <teiHeader><fileDesc><titleStmt><title type="main">A María el corazón</title><title type="sub">Auto historial alegórico</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-03-11"><time when="13:46:15"/></date><idno type="quadramaX">A María el corazón</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/a-maria-el-corazon--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Ignacio Arellano, Ildefonso Adeva, Francisco Crosas y Miguel Zugasti procedente de la edición Calderón de la Barca, Pedro, A María el corazón, ed. Ignacio Arellano, Ildefonso Adeva, Francisco Crosas y Miguel Zugasti, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1999. ISBN: 3-931887-56-1.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="el-furor" sex="MALE"><persName>El Furor</persName></person><person xml:id="la-culpa" sex="FEMALE"><persName>La Culpa</persName></person><person xml:id="la-soberbia" sex="FEMALE"><persName>La Soberbia</persName></person><person xml:id="la-avaricia" sex="FEMALE"><persName>La Avaricia</persName></person><person xml:id="la-lascivia" sex="FEMALE"><persName>La Lascivia</persName></person><person xml:id="la-ira" sex="FEMALE"><persName>La Ira</persName></person><person xml:id="envidia" sex="FEMALE"><persName>Envidia</persName></person><person xml:id="la-gula" sex="FEMALE"><persName>La Gula</persName></person><person xml:id="la-pereza" sex="FEMALE"><persName>La Pereza</persName></person><person xml:id="el-peregrino" sex="MALE"><persName>El Peregrino</persName></person><person xml:id="el-pensamiento" sex="MALE"><persName>El Pensamiento</persName></person><person xml:id="laureta" sex="FEMALE"><persName>Laureta</persName><trait source="castlist"><desc>dama</desc></trait></person><person xml:id="el-ángel" sex="MALE"><persName>El Ángel</persName></person><person sex="UNKNOWN" xml:id="música"><persName>Música</persName></person></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords><classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1717">
@@ -132,61 +37,47 @@
     </front>
     <body>
       <div type="act" n="1">
-        <div type="scene" resp="#rojas" n="1">
-          <stage type="unassigned">Óyense en el primero carro instrumentos músicos, y mientras se canta dentro la primer copla, sale el FUROR como oyéndola con asombro.</stage>
-          <sp who="#el-ángel">
+        <div type="scene" resp="#rojas" n="1"><stage type="unassigned">Óyense en el primero carro instrumentos músicos, y mientras se canta dentro la primer copla, sale el FUROR como oyéndola con asombro.</stage><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <stage type="entrance">Dentro.</stage>
             <l>Salga del Asia infiel...</l>
             <stage type="exit">Dentro.</stage>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <stage type="entrance">Dentro.</stage>
             <l> Salga del Asia infiel...</l>
             <stage type="exit">Dentro.</stage>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Esta sagrada fábrica divina...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Esta sagrada fábrica divina...</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l n="5">Y vaya a Europa, donde...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Y vaya a Europa, donde...</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Más venerada triunfe, reine y viva...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Más venerada triunfe, reine y viva...</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Que no ha de estar cautiva...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="10">Que no ha de estar cautiva...</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>En tirano poder la casa de María.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>En tirano poder la casa de María.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>«¿Que no ha de estar cautiva</l>
             <l>en tirano poder la casa de María?».</l>
@@ -210,13 +101,11 @@
             <l>atormentadas mis iras,</l>
             <l>a vista de tanto asombro</l>
             <l>suspiren, lloren y giman...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="35">Salga del Asia infiel</l>
             <l>esta sagrada fábrica divina.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Si es porque vitorioso Saladino</l>
             <l>el servil yugo vuelve a la garganta</l>
@@ -238,13 +127,11 @@
             <l>¿qué me asombra, qué me admira</l>
             <l n="55">que de su centro se arranque,</l>
             <l>de su asiento se divida?</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Y vaya a Europa, donde</l>
             <l>más venerada triunfe, reine y viva.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Y aún no aquí para de portento tanto</l>
             <l n="60">la causa, pues se añade a este portento</l>
@@ -266,20 +153,17 @@
             <l>elevada, esas festivas,</l>
             <l>esas angélicas voces,</l>
             <l>una y otra vez repitan...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Que no ha de estar cautiva</l>
             <l n="80">en tirano poder la casa de María.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Haciendo, porque al tomar</l>
             <l>tierra aumente mis fatigas,</l>
             <l>que sus cláusulas confusas</l>
             <l>vuelvan a decir distintas...</l>
-          </sp>
-          <sp who="#el-ángel #música #el-furor">
+          </sp><sp who="#el-ángel #música #el-furor">
             <speaker>ÁNGEL, MÚSICA Y ÉL</speaker>
             <l n="85">Salga del Asia infiel</l>
             <l>esta sagrada fábrica divina</l>
@@ -287,9 +171,7 @@
             <l>más venerada triunfe, reine y viva;</l>
             <l>que no ha de estar cautiva</l>
             <l n="90">en tirano poder la casa de María.</l>
-          </sp>
-          <stage type="unassigned">Con esta repetición y las chirimías se descubra en el primer carro por elevación una fábrica pequeña sobre nubes, con cuatro ángeles en las cuatro esquinas trayéndola como en hombros, y en la fachada principal uno que viene delante, como guiando a los demás, el cual representa cantando.</stage>
-          <sp who="#el-ángel">
+          </sp><stage type="unassigned">Con esta repetición y las chirimías se descubra en el primer carro por elevación una fábrica pequeña sobre nubes, con cuatro ángeles en las cuatro esquinas trayéndola como en hombros, y en la fachada principal uno que viene delante, como guiando a los demás, el cual representa cantando.</stage><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>En esta de Dalmacia</l>
             <l>católica provincia,</l>
@@ -305,13 +187,11 @@
             <l>desde un tránsito en otro peregrina,</l>
             <l>y pues para que aquí</l>
             <l>hoy quede, determina...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="105">Salga del Asia infiel</l>
             <l>esta sagrada fábrica divina.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Aquí descanse, en tanto</l>
             <l>que su piedad benigna</l>
@@ -319,13 +199,11 @@
             <l n="110">a otra estación traslade sus reliquias,</l>
             <l>ya que de paso quiere</l>
             <l>comunique esta dicha.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Y venga a Europa, donde</l>
             <l>más venerada triunfe, reine y viva.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l n="115">Abata, pues, el vuelo</l>
             <l>de tan dulce fatiga,</l>
@@ -333,20 +211,17 @@
             <l>que lo que carga dulcemente alivia,</l>
             <l>mostrando en nuevos rumbos,</l>
             <l n="120">pues de infieles la libra...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Que no ha de estar cautiva</l>
             <l>en tirano poder la casa de María.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Y repita pidiendo</l>
             <l>de tan no merecida</l>
             <l n="125">piedad, tan no esperado</l>
             <l>favor, a Europa albricias.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Pues salió de Asia infiel</l>
             <l>esta sagrada fábrica divina,</l>
@@ -355,8 +230,7 @@
             <l>que no ha de estar cautiva</l>
             <l>en tirano poder la casa de María.</l>
             <stage type="exit">Con esta repetición, dejando la casa descubierta y fija en el aire, desaparecen los ángeles.</stage>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>¿Cómo si tu Furor</l>
             <l>soy, ¡oh sañuda hidra!,</l>
@@ -371,11 +245,7 @@
             <l>viéndome padecer</l>
             <l>de tanto asombro a vista,</l>
             <l n="145">no en mi socorro vienes?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="2">
-          <stage type="unassigned">Ábrese el segundo carro, que será una montaña bruta, y sale de ella una hidra de siete cabezas coronadas, de cuyas bocas penderán unas cintas que traerán, como que vienen tirando de ella la SOBERBIA, la AVARICIA, la GULA, la LASCIVIA, la IRA, la ENVIDIA y la PEREZA. Y sobre su espalda la CULPA con una copa de oro en la mano.</stage>
-          <sp who="#la-culpa">
+          </sp></div><div type="scene" resp="#rojas" n="2"><stage type="unassigned">Ábrese el segundo carro, que será una montaña bruta, y sale de ella una hidra de siete cabezas coronadas, de cuyas bocas penderán unas cintas que traerán, como que vienen tirando de ella la SOBERBIA, la AVARICIA, la GULA, la LASCIVIA, la IRA, la ENVIDIA y la PEREZA. Y sobre su espalda la CULPA con una copa de oro en la mano.</stage><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Como el ver repetida</l>
             <l>en la exención hoy de esa</l>
@@ -404,8 +274,7 @@
             <l n="170">en cuantas sañas vibran</l>
             <l>esas siete gargantas,</l>
             <l>cerviz que no se rinda.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Dígalo la Soberbia,</l>
             <l>de su humildad vencida</l>
@@ -418,12 +287,8 @@
             <l>ella se nombra esclava,</l>
             <l>cuya piedad sencilla</l>
             <l>de sus triunfos me ahuyenta. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="3">
-          <stage type="exit">Vase.</stage>
-          <sp who="#la-avaricia">
+            
+          </sp></div><div type="scene" resp="#rojas" n="3"><stage type="exit">Vase.</stage><sp who="#la-avaricia">
             <speaker>AVARICIA</speaker>
             <l>Dígalo la Avaricia,</l>
             <l n="185">cuando su heredamiento</l>
@@ -432,12 +297,8 @@
             <l>que a la alta medicina</l>
             <l>de la salud del pobre</l>
             <l n="190">se labró en la picina.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="4">
-          <stage type="exit">Vase.</stage>
-          <sp who="#la-lascivia">
+            
+          </sp></div><div type="scene" resp="#rojas" n="4"><stage type="exit">Vase.</stage><sp who="#la-lascivia">
             <speaker>LASCIVIA</speaker>
             <l>Dígalo, no sé cómo</l>
             <l>pronuncie, la Lascivia</l>
@@ -446,12 +307,8 @@
             <l n="195">que concibe doncella</l>
             <l>y después de parida</l>
             <l>doncella permanece.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="5">
-          <stage type="exit">Vase.</stage>
-          <sp who="#la-ira">
+            
+          </sp></div><div type="scene" resp="#rojas" n="5"><stage type="exit">Vase.</stage><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l>Y dígalo la Ira,</l>
             <l>también de ella postrada,</l>
@@ -460,43 +317,27 @@
             <l>el hombre la apellida,</l>
             <l>sin que su amparo falte</l>
             <l>a nadie que le pida.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="6">
-          <stage type="exit">Vase.</stage>
-          <sp who="#envidia">
+            
+          </sp></div><div type="scene" resp="#rojas" n="6"><stage type="exit">Vase.</stage><sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l n="205">También lo diga, pero</l>
             <l>¿cómo podrá, la Envidia,</l>
             <l>si que envidiar no tiene?</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="7">
-          <stage type="exit">Vase.</stage>
-          <sp who="#la-gula">
+            
+          </sp></div><div type="scene" resp="#rojas" n="7"><stage type="exit">Vase.</stage><sp who="#la-gula">
             <speaker>GULA</speaker>
             <l>Ni la Gula, pues pía</l>
             <l>empobrece a limosnas,</l>
             <l n="210">y a la labor se aplica,</l>
             <l>y al afán de su esposo. </l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="8">
-          <stage type="exit">Vase.</stage>
-          <sp who="#la-pereza">
+            
+          </sp></div><div type="scene" resp="#rojas" n="8"><stage type="exit">Vase.</stage><sp who="#la-pereza">
             <speaker>PEREZA</speaker>
             <l>En que también rendida</l>
             <l>se mira la Pereza</l>
             <l>ganando la comida.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="9">
-          <stage type="exit">Vase.</stage>
-          <sp who="#la-culpa">
+            
+          </sp></div><div type="scene" resp="#rojas" n="9"><stage type="exit">Vase.</stage><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="215">Pues siendo así, Furor,</l>
             <l>que ni en la primitiva</l>
@@ -514,8 +355,7 @@
             <l>cuando en tal maravilla</l>
             <l>aun antes que el mirarla</l>
             <l n="230">me atormentó el oírla?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Culpa en común del hombre,</l>
             <l>ya sé que no militan</l>
@@ -530,24 +370,19 @@
             <l>no pequeño trofeo</l>
             <l>que de un milagro a vista</l>
             <l>tus vicios coronases.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Empresa tan altiva,</l>
             <l n="245">de la escamada espalda</l>
             <l>que oprimí, me derriba</l>
             <l>ya a tus conjuros. ¿Cómo?</l>
-          </sp>
-          <stage type="unassigned">Apéase de la hidra, que desaparecerá cerrándose la montaña.</stage>
-          <sp who="#el-furor">
+          </sp><stage type="unassigned">Apéase de la hidra, que desaparecerá cerrándose la montaña.</stage><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="I">Oye la causa.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">Dila.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Ya esta tierra... No extrañes</l>
             <l n="250">el ver que te anticipa</l>
@@ -580,8 +415,7 @@
             <l>una fábrica antes</l>
             <l>que comenzada antigua,</l>
             <l>discurre en su extrañeza...</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="280">Y más cuando examina</l>
             <l>sus viviendas y halla</l>
@@ -619,8 +453,7 @@
             <l>que hizo Cristo a los cielos,</l>
             <l>comulgando a María</l>
             <l part="I">apóstoles, que...</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F" n="315">¡Calla!</l>
             <l>No, Culpa, me repitas</l>
@@ -637,23 +470,19 @@
             <l>translación, en que juntos</l>
             <l>Encarnación se miran</l>
             <l part="I">y Sacramento.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">Pues</l>
             <l n="330">volvamos a que admira</l>
             <l>su novedad la tierra.</l>
-          </sp>
-          <stage type="unassigned">Mirando dentro, como que ven en sombras lo que representan.</stage>
-          <sp who="#el-furor">
+          </sp><stage type="unassigned">Mirando dentro, como que ven en sombras lo que representan.</stage><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Ella, pues, discursiva</l>
             <l>en qué casa sea ésta</l>
             <l>que halla como nacida</l>
             <l n="335">y no como labrada,</l>
             <l>en su verdad delira.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Hasta que, padeciendo</l>
             <l>ciciones de prolija</l>
@@ -674,14 +503,12 @@
             <l>las celestiales luces,</l>
             <l>que sobre ella iluminan</l>
             <l n="355">la cúpula a su esfera.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Aunque el milagro admiran</l>
             <l>todos, no todos, Culpa,</l>
             <l>por tal le califican.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué importa, si a ese efeto</l>
             <l n="360">Dalmacia a Judea envía</l>
@@ -695,12 +522,10 @@
             <l>ser desaparecida,</l>
             <l>sin que haya seña de ella</l>
             <l n="370">en toda Palestina?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>El sitio reconocen...</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Y en las dejadas ruinas</l>
             <l>de sus quiebras, habiendo</l>
@@ -709,32 +534,27 @@
             <l>y ámbitos examinan,</l>
             <l>sin que sobre ni falte</l>
             <l>un átomo a sus líneas.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Con esa información</l>
             <l n="380">vuelven donde acreditan</l>
             <l>la verdad de Alejandro.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Con que, una vez creída,</l>
             <l>es inmenso el concurso</l>
             <l>de gentes infinitas,</l>
             <l n="385">infinitas naciones</l>
             <l>que al templo peregrinan.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>En eso, Culpa, es</l>
             <l>en lo que necesita</l>
             <l>de ti ahora mi furor.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="390">Pues ¿qué es lo que imaginas?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Que todos los concursos</l>
             <l>de varias romerías</l>
@@ -755,95 +575,69 @@
             <l>que el concurso previertan,</l>
             <l>la devoción impidan</l>
             <l>y la estación profanen.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="410">Sí haré, y cuán presto mira:</l>
             <l>¡salgan de entre vosotros!...</l>
-          </sp>
-          <stage>Dentro.</stage>
-          <sp who="#música">
+          </sp><stage>Dentro.</stage><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l> Salgan de entre nosotros...</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Donde nocivas...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Donde nocivas...</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="415">Hagan sus efetos Gula y Lascivia.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Vaya, vaya de fiesta, vaya de jira,</l>
             <l>y hagan sus efetos Gula y Lascivia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="10">
-          <stage type="unassigned">Salen los vicios con instrumentos, cantando y bailando.</stage>
-          <sp who="#la-lascivia">
+          </sp></div><div type="scene" resp="#rojas" n="10"><stage type="unassigned">Salen los vicios con instrumentos, cantando y bailando.</stage><sp who="#la-lascivia">
             <speaker>LASCIVIA</speaker>
             <l>Ya a tu obediencia atenta...</l>
-          </sp>
-          <sp who="#la-gula">
+          </sp><sp who="#la-gula">
             <speaker>GULA</speaker>
             <l>No habrá en cuantas cuadrillas...</l>
-          </sp>
-          <sp who="#la-lascivia">
+          </sp><sp who="#la-lascivia">
             <speaker>LASCIVIA</speaker>
             <l n="420">Contiene el campo, apenas...</l>
-          </sp>
-          <sp who="#la-gula">
+          </sp><sp who="#la-gula">
             <speaker>GULA</speaker>
             <l>Una que se resista...</l>
-          </sp>
-          <sp who="#la-gula #la-lascivia">
+          </sp><sp who="#la-gula #la-lascivia">
             <speaker>LAS DOS</speaker>
             <l part="I">A nuestro hechizo.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">Pues</l>
             <l>porque más repetidas</l>
             <l>sus voces oigan todos,</l>
             <l n="425">también las nuestras digan...</l>
-          </sp>
-          <sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
+          </sp><sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
             <speaker>TODOS</speaker>
             <l>Vaya, vaya de fiesta, vaya de jira,</l>
             <l>y hagan sus efetos Gula y Lascivia.</l>
-          </sp>
-          <sp who="#la-lascivia">
+          </sp><sp who="#la-lascivia">
             <speaker>LASCIVIA</speaker>
             <l>Mientras yo abraso a todos, tú a todos brinda,</l>
             <l>que sin Baco y Ceres, Venus se entibia.</l>
-          </sp>
-          <sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
+          </sp><sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
             <speaker>TODOS</speaker>
             <l n="430">Vaya, vaya de fiesta, vaya de jira.</l>
-          </sp>
-          <sp who="#la-gula">
+          </sp><sp who="#la-gula">
             <speaker>GULA</speaker>
             <l>Si mañana a la muerte todos caminan,</l>
             <l>bébase hoy, que mañana será otro día.</l>
-          </sp>
-          <sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
+          </sp><sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
             <speaker>TODOS</speaker>
             <l>Hagan sus efetos Gula y Lascivia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="11">
-          <stage type="unassigned">Mientras ellos cantan y bailan, han salido al tablado el PEREGRINO, viejo venerable, y el PENSAMIENTO, también vestido de peregrino, luchando con él.</stage>
-          <sp who="#el-peregrino">
+          </sp></div><div type="scene" resp="#rojas" n="11"><stage type="unassigned">Mientras ellos cantan y bailan, han salido al tablado el PEREGRINO, viejo venerable, y el PENSAMIENTO, también vestido de peregrino, luchando con él.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>¿Dónde vas, Pensamiento?</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="435">¿Dónde he de ir, cuando miras</l>
             <l>que se canta y se baila,</l>
@@ -851,59 +645,47 @@
             <l>sino donde con todos</l>
             <l>mi voz repita:</l>
             <stage type="exit">Desásese dél y mézclase con los demás, bailando.</stage>
-          </sp>
-          <sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia #el-pensamiento #el-peregrino">
+          </sp><sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia #el-pensamiento #el-peregrino">
             <speaker>CON TODOS</speaker>
             <l n="440">Vaya, vaya de bulla, de fiesta y jira,</l>
             <l>y hagan sus efetos Gula y Lascivia.</l>
-          </sp>
-          <stage type="unassigned">Con esta repetición se van bailando y cantando con varios instrumentos los vicios, y el PEREGRINO detiene al PENSAMIENTO luchando con él.</stage>
-          <sp who="#el-peregrino">
+          </sp><stage type="unassigned">Con esta repetición se van bailando y cantando con varios instrumentos los vicios, y el PEREGRINO detiene al PENSAMIENTO luchando con él.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Tente, Pensamiento, no</l>
             <l>vayas tras ellos, aguarda.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>¿Cómo, si soy Pensamiento,</l>
             <l n="445">me quieres tener a raya?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Ya van sembrando venenos</l>
             <l>por todas esas campañas</l>
             <l part="I"> Gula y Lascivia.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">¿Qué importa,</l>
             <l>si de cuantos triunfos ganan</l>
             <l n="450">en todos, en solo ese hombre</l>
             <l>fallecen mis esperanzas?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="I">Pues ¿quién es ese?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">¿Qué más</l>
             <l>pueden decirte mis ansias</l>
             <l>dél de lo que tú te has dicho?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Yo?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="M">Sí.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="M">¿En qué?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F" n="455">En lo que le extrañas,</l>
             <l>pues no saber dél la Culpa</l>
@@ -911,53 +693,42 @@
             <l>Un dálmata sacerdote</l>
             <l>es, que buscando esta casa</l>
             <l n="460">le tray un piadoso voto.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Con su Pensamiento anda</l>
             <l>luchando a brazo partido.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Oye, que esa es la batalla</l>
             <l>del Hombre y su pensamiento.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">¡Tente!</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="M">¡Suelta!</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="M">¡Mira!</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F" n="465">¡Aparta!,</l>
             <l>que donde se come y bebe</l>
             <l>ir tengo, y donde se canta.</l>
-          </sp>
-          <stage type="unassigned">Desásese y baila con la MÚSICA, que canta dentro.</stage>
-          <sp who="#el-pensamiento #música">
+          </sp><stage type="unassigned">Desásese y baila con la MÚSICA, que canta dentro.</stage><sp who="#el-pensamiento #música">
             <speaker>ÉL Y MÚSICA</speaker>
             <l>Vaya, vaya de fiesta, de jira vaya,</l>
             <l>y Lascivia y Gula su efeto hagan.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l n="470">¡Ay de mí!, que a detenerte</l>
             <l>humanas fuerzas no bastan.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>¿Cómo han de bastar, si son</l>
             <l>plumas de viento las alas</l>
             <l>con que el Pensamiento vuela?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l n="475">Sin mi voluntad te apartas</l>
             <l>de mí en la oración que haciendo</l>
@@ -965,19 +736,14 @@
             <l>de aquel templo. Y pues sin ella</l>
             <l>vas, quizá presto a su instancia</l>
             <l n="480">volverás, no consentido.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Una cosa es que no hagas</l>
             <l>tú que deje de irme, y otra</l>
             <l>que la voluntad me traiga;</l>
             <l part="I">y hasta entonces...</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="12">
-          <stage type="exit">Vase apartando dél, y con lo que representa se suspende en el camino.</stage>
-          <sp who="#el-peregrino">
+            
+          </sp></div><div type="scene" resp="#rojas" n="12"><stage type="exit">Vase apartando dél, y con lo que representa se suspende en el camino.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">¿Es posible</l>
             <l n="485">que siendo todas mis ansias</l>
@@ -1000,28 +766,22 @@
             <l>que en tal consideración,</l>
             <l>Pensamiento, te distraigas?</l>
             <stage type="exit">Va volviendo a él.</stage>
-          </sp>
-          <stage type="unassigned">Suenan los instrumentos y él da vueltas a una parte y otra.</stage>
-          <sp who="#el-pensamiento">
+          </sp><stage type="unassigned">Suenan los instrumentos y él da vueltas a una parte y otra.</stage><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>No haré tal, ya vuelvo a ti.</l>
             <l part="I">Mas no, no vuelvo.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F" n="505">¡Oh, cuál anda</l>
             <l>dando el Pensamiento vueltas!</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>En contemplación tan alta,</l>
             <l part="I">¿no te paras?</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="M">Sí.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">¿Qué fuera</l>
             <l>de mí, ¡ay mortal!, si llegaras</l>
@@ -1029,14 +789,11 @@
             <l>tanto con el cielo alcanza,</l>
             <l>si la voluntad se enciende,</l>
             <l>que el Pensamiento se pasma?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Vuelvan para divertirlos</l>
             <l n="515">a decir las voces altas.</l>
-          </sp>
-          <stage type="unassigned">Aparecen segunda vez, como primero, los ángeles en su elevación, y dando vuelta con la casa desaparecen con ella, a tiempo que están como elevados PEREGRINO y PENSAMIENTO sin ver la mudanza.</stage>
-          <sp who="#el-ángel">
+          </sp><stage type="unassigned">Aparecen segunda vez, como primero, los ángeles en su elevación, y dando vuelta con la casa desaparecen con ella, a tiempo que están como elevados PEREGRINO y PENSAMIENTO sin ver la mudanza.</stage><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Soberana Jerarquía,</l>
             <l>a quien puso Dios en guarda</l>
@@ -1048,59 +805,48 @@
             <l>sus arcanos juicios mandan</l>
             <l>que, como de Asia salió,</l>
             <l n="525">también desta tierra salga.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Salga y corte los vientos, hasta que vaya</l>
             <l>donde más reverente culto la aguarda.</l>
-          </sp>
-          <sp who="#la-avaricia #la-lascivia">
+          </sp><sp who="#la-avaricia #la-lascivia">
             <speaker>UNOS</speaker>
             <stage>Dentro.</stage>
             <l>¡Qué asombro!</l>
             <stage>Dentro.</stage>
-          </sp>
-          <sp who="#la-pereza #la-soberbia">
+          </sp><sp who="#la-pereza #la-soberbia">
             <speaker>OTROS</speaker>
             <l>¡Qué confusión!</l>
-          </sp>
-          <sp who="#el-furor #la-culpa">
+          </sp><sp who="#el-furor #la-culpa">
             <speaker>CULPA Y FUROR</speaker>
             <l>Mejor dijeran, ¡qué rabia!</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">¿Qué ruido es éste?</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F" n="530">Si el mismo</l>
             <l>Pensamiento no lo alcanza,</l>
             <l part="I">¿quién podrá decirlo?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">¿A dónde</l>
             <l>el templo, que ya dejaba</l>
             <l>verse desde aquí, se ha ido,</l>
             <l n="535">que de la vista nos falta?</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Donde más reverente culto le aguarda.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">¿Qué es esto, cielos?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">Porque</l>
             <l>no en novedad tan extraña</l>
             <l>se pierda todo, pon, Culpa,</l>
             <l n="540">a aqueste en desconfianza.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué ha de ser?, que viendo el cielo</l>
             <l>que de entre infieles no saca</l>
@@ -1111,54 +857,43 @@
             <l>según presente justicia,</l>
             <l>del centro otra vez la arranca,</l>
             <l>negándosela a esta tierra.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l n="550">¡Ay, que no es esa la causa!</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="I">¿Pues cuál puede ser?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Que como</l>
             <l>ese sacro erario el arca</l>
             <l>es del Nuevo Testamento,</l>
             <l>de un tránsito en otro anda.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="555">¿Del Nuevo Testamento es</l>
             <l part="I">arca?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="M">Sí.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">¿De qué lo sacas?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>¿Qué era lo que contenía</l>
             <l part="I">aquélla?</l>
-          </sp>
-          <sp who="#el-furor #la-culpa">
+          </sp><sp who="#el-furor #la-culpa">
             <speaker>LOS DOS</speaker>
             <l part="F">Ley, Maná y Vara.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Pues ésta también: Maná,</l>
             <l part="I">Vara y Ley.</l>
-          </sp>
-          <sp who="#el-furor #la-culpa">
+          </sp><sp who="#el-furor #la-culpa">
             <speaker>LOS DOS</speaker>
             <l part="M">¿Cómo?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F" n="560">En la santa</l>
             <l>imagen de un crucifijo</l>
@@ -1173,77 +908,61 @@
             <l n="570">viene a ser en ese alcázar</l>
             <l>la Vara, el Maná y la Ley,</l>
             <l>María, la Cruz y el Ara.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Y a pagar de mi desvelo,</l>
             <l>que es la moneda que gasta</l>
             <l n="575">el Pensamiento, lo afirmo.</l>
-          </sp>
-          <sp who="#el-furor #la-culpa">
+          </sp><sp who="#el-furor #la-culpa">
             <speaker>LOS DOS</speaker>
             <l>¡Loco, decrépito, calla!</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Que no ha de poder tu ingenio...</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Mejor dirás su ignorancia...</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Persuadirnos a que no...</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="580">Sea el ver que de aquí falta...</l>
-          </sp>
-          <sp who="#el-furor #la-culpa">
+          </sp><sp who="#el-furor #la-culpa">
             <speaker>LOS DOS</speaker>
             <l>Lo vicioso desta tierra.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>¡Ay de mí, si esa es la causa!,</l>
             <l>pues yo sólo soy el malo</l>
             <l>que no merecí adorarla.</l>
             <l n="585">Decís bien, por mí, sin duda,</l>
             <l part="I">se ausenta.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">Por ti y por cuantas</l>
             <l>gentes más a su festejo</l>
             <l part="I">que al culto van.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">Y así trata...</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>De desconfiar de que...</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="590">Dios ese favor te haga...</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Pues que nunca merecer</l>
             <l part="I">podrás...</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="M">Ni verla...</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">Ni hallarla.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>De que yo no lo merezca</l>
             <l>ya estoy en desconfïanza;</l>
@@ -1266,18 +985,13 @@
             <l>No te apartes, Pensamiento,</l>
             <l>de mí en tan justa demanda</l>
             <l part="I">un instante.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Mal podré,</l>
             <l>que, imán piadoso del alma,</l>
             <l n="615">tú presumes que me llevas</l>
             <l>y yo pienso que me arrastras.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="13">
-          <stage type="unassigned">Vanse los dos.</stage>
-          <sp who="#el-furor">
+          </sp></div><div type="scene" resp="#rojas" n="13"><stage type="unassigned">Vanse los dos.</stage><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>¡Ay de mí, Culpa! Que puesto</l>
             <l>que en la alegoría pasada</l>
@@ -1306,8 +1020,7 @@
             <l>su distrito, es quien la admite</l>
             <l>al regazo de su falda.</l>
             <stage type="exit">Mirando dentro.</stage>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>No por vencidos, Furor,</l>
             <l>nos demos porque se hayan</l>
@@ -1317,33 +1030,24 @@
             <l>ella, después de abrazarla,</l>
             <l>¿no fue quien más la afligió</l>
             <l n="650">con persecuciones y ansias?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="I">Sí.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">Pues en nuestras insidias</l>
             <l>se vean significadas</l>
             <l part="I">ellas también.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">¿De qué suerte?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="I">¡Ira y Soberbia!</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="14">
-          <stage type="unassigned">Salen del peñasco la SOBERBIA y la IRA.</stage>
-          <sp who="#la-soberbia #la-ira">
+          </sp></div><div type="scene" resp="#rojas" n="14"><stage type="unassigned">Salen del peñasco la SOBERBIA y la IRA.</stage><sp who="#la-soberbia #la-ira">
             <speaker>LOS DOS</speaker>
             <l part="F">¿Qué mandas?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="655">Que tú, Ira, pues te tocan</l>
             <l>los robos y muertes, vayas</l>
@@ -1363,125 +1067,97 @@
             <l n="670">por tierra y por mar sitiada,</l>
             <l>más tributos en Europa</l>
             <l>pagará que pagó en Asia.</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l>Tú verás con cuánto estrago...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Tú verás con cuánta saña...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="I">Los pasos corto...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F" n="675">Los mares</l>
             <l part="I">impido...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="F">De sus comarcas.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="I">De sus puertos.</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="F">Que no nueva</l>
             <l>en mí es la bandida rabia</l>
             <l>de robar los peregrinos,</l>
             <l n="680">u díganlo las campañas</l>
             <l part="I">de Jericó.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">En mí tampoco</l>
             <l>los náufragos, pues me llama</l>
             <l>la Apocalipsi la bestia</l>
             <l>del mar, y por mí las aguas</l>
             <l n="685">se entienden tribulaciones.</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="I">Y así espera...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Y así aguarda...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="I">Que en sus selvas...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Que en sus golfos...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="I">Nadie entre...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Nadie salga...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="I">Sin peligros...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Sin zozobras...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="I">Sin desdichas...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F" n="690">Sin desgracias...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l>Hasta que mal asistida...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Hasta que no bien cursada...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="I">Su estación...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Su devoción...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="I">Escondida...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Sepultada...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l n="695">Quede a los incultos senos...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Quede a las duras entrañas...</l>
-          </sp>
-          <sp who="#la-soberbia #la-ira">
+          </sp><sp who="#la-soberbia #la-ira">
             <speaker>LOS DOS</speaker>
             <l>De los montes del Laureto.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Pues yo a quien (bien como incauta</l>
             <l>serpiente que maldecida</l>
@@ -1490,8 +1166,7 @@
             <l>en iras las asechanzas,</l>
             <l part="I">contigo iré.IRA</l>
             <stage type="exit">A la IRA.</stage>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">Yo contigo, SOBERBIA</l>
             <l>pues como a dragón que explaya</l>
@@ -1501,78 +1176,61 @@
             <l>de vestirla el cielo de alas,</l>
             <l>también del agua me tocan</l>
             <l n="710">las tormentas y borrascas.</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l>Pues si tú, Culpa, me asistes...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Si tú, Furor, me acompañas...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="I">Haz aprehensión...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Imagina...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l>Que desde aquí se retrata</l>
             <l n="715">en mí la Gentilidad,</l>
             <l>cuando en los montes andaba</l>
             <l>tras la primitiva Iglesia.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Que en mí la seta africana</l>
             <l>desde aquí se representa,</l>
             <l n="720">cuando haciendo esclavos anda</l>
             <l>en las católicas costas.</l>
-          </sp>
-          <sp who="#el-furor #la-culpa">
+          </sp><sp who="#el-furor #la-culpa">
             <speaker>FUROR Y CULPA</speaker>
             <l>Pues, Ira y Soberbia, ¡al arma!</l>
-          </sp>
-          <sp who="#la-ira #la-soberbia">
+          </sp><sp who="#la-ira #la-soberbia">
             <speaker>IRA Y SOBERBIA</speaker>
             <l>¡Al arma!, Furor y Culpa.</l>
-          </sp>
-          <sp who="#el-furor #la-culpa">
+          </sp><sp who="#el-furor #la-culpa">
             <speaker>LOS DOS</speaker>
             <l>Sin que escándalo nos hagan</l>
             <l part="I">esos ecos.</l>
-          </sp>
-          <sp who="#la-ira #la-soberbia">
+          </sp><sp who="#la-ira #la-soberbia">
             <speaker>LOS OTROS</speaker>
             <l part="F" n="725">Por más que</l>
             <l>repitan en voces varias:</l>
-          </sp>
-          <sp who="#el-furor #la-culpa #la-ira #la-soberbia #música">
+          </sp><sp who="#el-furor #la-culpa #la-ira #la-soberbia #música">
             <speaker>LOS 4 Y MÚSICA</speaker>
             <l>Salga y corte los vientos hasta que vaya</l>
             <l>donde más reverente culto la aguarda.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="15">
-          <stage type="unassigned">Vanse los cuatro y, durando la repetición de la MÚSICA, salen atravesando el tablado como que la van siguiendo el PEREGRINO y el PENSAMIENTO.</stage>
-          <sp who="#el-peregrino">
+          </sp></div><div type="scene" resp="#rojas" n="15"><stage type="unassigned">Vanse los cuatro y, durando la repetición de la MÚSICA, salen atravesando el tablado como que la van siguiendo el PEREGRINO y el PENSAMIENTO.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>«¿Hasta que vaya</l>
             <l n="730">donde más reverente culto la aguarda?».</l>
             <l part="I">Sigue estas voces.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Si vas</l>
             <l>tan en las alas del viento,</l>
             <l>que con ser yo el Pensamiento</l>
             <l>me deja el afecto atrás,</l>
             <l part="I">¿cómo es posible?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F" n="735">Si el día</l>
             <l>que aquel gran milagro oí,</l>
@@ -1594,8 +1252,7 @@
             <l>admiras que no me igualas,</l>
             <l>si al fin volamos con alas</l>
             <l>tú de aire y yo de fuego.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="755">Dices bien, y siendo así</l>
             <l>que en espacio imaginado</l>
@@ -1604,56 +1261,41 @@
             <l>dónde vive una Señora</l>
             <l n="760">que sin mudarse se pasa</l>
             <l>de un barrio a otro con su casa?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>En tal despoblado agora</l>
             <l>a quién preguntar no vi;</l>
             <l>mas oye, por si veloces</l>
             <l n="765">vuelven a sonar las voces</l>
             <l part="I">que dijeron.</l>
-          </sp>
-          <stage type="unassigned">Dentro LAURETA, dama.</stage>
-          <sp who="#laureta">
+          </sp><stage type="unassigned">Dentro LAURETA, dama.</stage><sp who="#laureta">
             <speaker>LAURETA</speaker>
             <l part="F">¡Ay de mí,</l>
             <l part="I">infeliz!</l>
-          </sp>
-          <sp who="#la-soberbia #la-lascivia">
+          </sp><sp who="#la-soberbia #la-lascivia">
             <speaker>UNOS</speaker>
             <l part="F">¡Socorro, cielos!</l>
-          </sp>
-          <sp who="#la-avaricia #la-pereza">
+          </sp><sp who="#la-avaricia #la-pereza">
             <speaker>OTROS</speaker>
             <l part="I">¡Cielos, favor!</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">¡Qué pesar!</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Aqueste es otro cantar.</l>
-          </sp>
-          <sp who="#la-culpa #el-furor">
+          </sp><sp who="#la-culpa #el-furor">
             <speaker>CULPA Y FUROR</speaker>
             <l part="I">¡Mueran todos!</l>
-          </sp>
-          <stage type="unassigned">Dentro disparando algunas pistolas.</stage>
-          <sp who="#el-peregrino">
+          </sp><stage type="unassigned">Dentro disparando algunas pistolas.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F" n="770">Torpes hielos</l>
             <l>nos van sembrando el camino.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>¿Qué mucho, si lo que dice</l>
             <l part="I">el eco sólo es?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="16">
-          <stage type="unassigned">Sale LAURETA huyendo despavorida.</stage>
-          <sp who="#laureta">
+          </sp></div><div type="scene" resp="#rojas" n="16"><stage type="unassigned">Sale LAURETA huyendo despavorida.</stage><sp who="#laureta">
             <speaker>LAURETA</speaker>
             <l part="F">Felice</l>
             <l>y infelice peregrino;</l>
@@ -1751,29 +1393,22 @@
             <l>los términos, que a una queja</l>
             <l>reducidas las demás</l>
             <l part="I">sólo se oye...</l>
-          </sp>
-          <stage type="unassigned">Vuelven a disparar.</stage>
-          <sp who="#el-pensamiento #el-peregrino">
+          </sp><stage type="unassigned">Vuelven a disparar.</stage><sp who="#el-pensamiento #el-peregrino">
             <speaker>LOS DOS</speaker>
             <l part="F">¡Todos mueran!</l>
-          </sp>
-          <sp who="#la-soberbia #la-lascivia">
+          </sp><sp who="#la-soberbia #la-lascivia">
             <speaker>UNOS</speaker>
             <l part="I">¡Piedad, Señora!</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F">¡Piedad!</l>
-          </sp>
-          <sp who="#la-avaricia #la-pereza">
+          </sp><sp who="#la-avaricia #la-pereza">
             <speaker>OTROS</speaker>
             <l part="I">¡Clemencia, Virgen!</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F" n="870">¡Clemencia!</l>
-          </sp>
-          <sp who="#laureta">
+          </sp><sp who="#laureta">
             <speaker>LAURETA</speaker>
             <l>Mas ¿para qué lo repite</l>
             <l>mi voz, si ya de más cerca</l>
@@ -1782,23 +1417,17 @@
             <l n="875">como dueño sé del monte,</l>
             <l>y alguna habrá que nos pueda</l>
             <l part="I">dar escape.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="17">
-          <stage type="exit">Vase.</stage>
-          <sp who="#el-peregrino">
+            
+          </sp></div><div type="scene" resp="#rojas" n="17"><stage type="exit">Vase.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">¡Ay, infelice!,</l>
             <l>que aunque yo seguirte quiera</l>
             <l>dos imposibilidades</l>
             <l part="I">lo estorban.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="M">¿Qué son?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F" n="880">Las fuerzas</l>
             <l>fallecidas a la edad</l>
@@ -1808,20 +1437,16 @@
             <l n="885">sin lograr la dicha, solo,</l>
             <l>sacando el decir, sin verla:</l>
             <l part="I">¡piedad, Señora!</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F">¡Piedad!</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">¡Clemencia, Virgen!</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F">¡Clemencia!</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>¿Pero qué temor, qué asombro,</l>
             <l n="890">qué horror, qué ira, qué fiereza</l>
@@ -1829,199 +1454,148 @@
             <l>Pues aunque mil vidas pierda,</l>
             <l>menos importa que no</l>
             <l>que tan gran motivo tuerza.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">¿A dónde vas?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F" n="895">A morir</l>
             <l part="I">en igual demanda.</l>
-          </sp>
-          <stage type="unassigned">Vuelven a luchar.</stage>
-          <sp who="#el-pensamiento">
+          </sp><stage type="unassigned">Vuelven a luchar.</stage><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Piensa</l>
             <l part="I">primero el riesgo.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Ya tú,</l>
             <l>Pensamiento, me le acuerdas;</l>
             <l part="I">mas no basta.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="M">Mira.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Aparta.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">Advierte.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="M">Quita.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="M">Oye.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F" n="900">Suelta,</l>
             <l>que aunque puedes, Pensamiento,</l>
             <l>moverme, no hacerme fuerza.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Si ya otra vez me detuve</l>
             <l>yo por ti, ¿por qué tú esta</l>
             <l n="905">por mí no te detendrás?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Porque no está en mano nuestra</l>
             <l>que el Pensamiento nos lidie,</l>
             <l part="I">y está...</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="M">¿Qué?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Que no nos venza;</l>
             <l>y así a pesar tuyo tengo</l>
             <l part="I">de pasar.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="18">
-          <stage type="unassigned">Arroja de sí al PENSAMIENTO y al entrarse salen IRA y CULPA vestidos de bandoleros, y pónenle al pecho las pistolas.</stage>
-          <sp who="#la-ira #la-culpa">
+          </sp></div><div type="scene" resp="#rojas" n="18"><stage type="unassigned">Arroja de sí al PENSAMIENTO y al entrarse salen IRA y CULPA vestidos de bandoleros, y pónenle al pecho las pistolas.</stage><sp who="#la-ira #la-culpa">
             <speaker>LOS DOS</speaker>
             <l part="M">¿Dónde?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F" n="910">A esas selvas,</l>
             <l>donde el templo de María</l>
             <l>está, pues oír me alienta...</l>
-          </sp>
-          <sp who="#el-peregrino #la-ira #la-culpa">
+          </sp><sp who="#el-peregrino #la-ira #la-culpa">
             <speaker>CON LOS OTROS</speaker>
             <l part="I">¡Piedad, Señora!</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F">¡Piedad!</l>
-          </sp>
-          <sp who="#música #el-peregrino #la-ira #la-culpa">
+          </sp><sp who="#música #el-peregrino #la-ira #la-culpa">
             <speaker>ÉL Y TODOS</speaker>
             <l part="I">¡Clemencia, Virgen!</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l part="F">¡Clemencia!</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="915">Antes perderás la vida.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>¿Qué más vida que perderla</l>
             <l part="I">en busca suya?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">Veamos</l>
             <l>si lo es o no. Ira, ¿qué esperas?</l>
             <l>¡Muera en este peregrino</l>
             <l part="I">de María la fee!</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="F" n="920">¡Muera!</l>
-          </sp>
-          <stage type="unassigned">Disparan los dos y no dan fuego las pistolas, y dice dentro el ÁNGEL.</stage>
-          <sp who="#el-ángel">
+          </sp><stage type="unassigned">Disparan los dos y no dan fuego las pistolas, y dice dentro el ÁNGEL.</stage><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>No hará, que para mayor</l>
             <l>fin Dios su vida reserva.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>¡Ay de mí! Faltó a mis armas</l>
             <l part="I">el fuego.</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="F">Conque fue fuerza,</l>
             <l n="925">no dando fuego la Culpa,</l>
             <l>que la Ira no le encienda.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Pues tan suspensos quedaron,</l>
             <l part="I">¡huye!</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Inspiración me alienta,</l>
             <l>no temor de dar la vida</l>
             <l n="930">por vos, pura Virgen bella,</l>
             <l>pues no he de desistir hasta</l>
             <l>que a vuestras plantas la ofrezca.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="19">
-          <stage type="exit">Vase.</stage>
-          <sp who="#el-pensamiento">
+            
+          </sp></div><div type="scene" resp="#rojas" n="19"><stage type="exit">Vase.</stage><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Gran cosa es ser Pensamiento;</l>
             <l>conmigo no salen ni entran,</l>
             <l n="935">que hasta ver lo que hace un hombre</l>
             <l>no hay ver lo que un hombre piensa.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="20">
-          <stage type="exit">Vase.</stage>
-          <sp who="#la-culpa">
+            
+          </sp></div><div type="scene" resp="#rojas" n="20"><stage type="exit">Vase.</stage><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Síguelos, Ira, que absorta,</l>
             <l>helada, muda y suspensa</l>
             <l part="I">yo no puedo.</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="F">Sí haré, puesto</l>
             <l n="940">que la Culpa al que huye de ella</l>
             <l>no le sigue, aunque su ira</l>
             <l part="I">vaya tras él.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="21">
-          <stage type="exit">Vase.</stage>
-          <sp who="#la-culpa">
+            
+          </sp></div><div type="scene" resp="#rojas" n="21"><stage type="exit">Vase.</stage><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">Fortaleza</l>
             <l>de Dios, ¿qué quieres de mí,</l>
             <l>que en la piadosa defensa</l>
             <l n="945">deste hombre me amenazas</l>
             <l part="I">algún prodigio?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="22">
-          <stage type="unassigned">Sale el ÁNGEL.</stage>
-          <sp who="#el-ángel">
+          </sp></div><div type="scene" resp="#rojas" n="22"><stage type="unassigned">Sale el ÁNGEL.</stage><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Que veas</l>
             <l>(pues fortaleza de Dios</l>
@@ -2029,14 +1603,12 @@
             <l>Gabriel) que Gabriel es justo</l>
             <l n="950">que ser la guarda se entienda</l>
             <l>de esa casa de María.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>De buen cuidado te precias</l>
             <l>por una vida que salvas</l>
             <l>donde hay tantas que perezcan.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l n="955">Si en la significación</l>
             <l>de alguna pasada idea</l>
@@ -2061,62 +1633,49 @@
             <l n="975">manifestar sin los riesgos</l>
             <l>de las pasadas malezas,</l>
             <l>adonde vivió escondida.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Cómo?</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">De aquesta manera:</l>
             <l>¡Ah de la guardia del templo,</l>
             <l n="980">aladas inteligencias,</l>
             <l>a quien sus mansiones tocan!</l>
             <stage type="exit">Cantado.</stage>
-          </sp>
-          <stage type="unassigned">Esta responsía es en ecos.</stage>
-          <sp who="#música">
+          </sp><stage type="unassigned">Esta responsía es en ecos.</stage><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>¿Qué mandas?, ¿qué quieres?, ¿qué dices?, ¿qué ordenas?</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Que tercera vez salga de aquestas selvas...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Salga de aquestas selvas.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l n="985">Porque más descollada, más descubierta...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Salga de aquestas selvas.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Pueda visitarse mientras no llega</l>
             <l>donde más reverente culto la espera.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Salga de aquestas selvas</l>
             <l n="990">porque más descollada, más descubierta</l>
             <l>pueda visitarse mientras no llega</l>
             <l>donde más reverente culto la espera,</l>
             <l>salga también, salga de aquestas selvas.</l>
-          </sp>
-          <stage type="unassigned">Suenan las chirimías y vese en el segundo cuerpo del segundo carro otra casa con la misma fábrica y pintura que la primera, con diferencia sólo de que ésta ha de estar fija y puedan abrirse sus puertas a su tiempo.</stage>
-          <sp who="#el-ángel">
+          </sp><stage type="unassigned">Suenan las chirimías y vese en el segundo cuerpo del segundo carro otra casa con la misma fábrica y pintura que la primera, con diferencia sólo de que ésta ha de estar fija y puedan abrirse sus puertas a su tiempo.</stage><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Mira cómo ya en aquel</l>
             <l n="995">vecino collado, fuera</l>
             <l>de los peligros del monte,</l>
             <l>cercana del mar se asienta.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué importa, ya hechos los ojos</l>
             <l>a ver una vez tan nueva</l>
@@ -2133,12 +1692,10 @@
             <l n="1010">más gargantas que desate,</l>
             <l>con que perseguirla pueda</l>
             <l part="I">también allí.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="M">¿Cómo?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">¿No es</l>
             <l>el collado en que se asienta</l>
@@ -2147,24 +1704,20 @@
             <l>heredad de dos hermanos</l>
             <l>que por árida y por seca</l>
             <l>no la han partido hasta agora?</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="I">Sí.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">Pues siguiendo la mesma</l>
             <l n="1020">metáfora, si en los montes</l>
             <l>la guerra la hizo la ciega</l>
             <l>Gentilidad, en los llanos</l>
             <l>verás que la hacen la guerra.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="I">¿Quién?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">Los ladrones de casa,</l>
             <l n="1025">a quien también se refiera</l>
@@ -2174,31 +1727,23 @@
             <l>para cuyo efeto, al verla</l>
             <l n="1030">los dos en su heredad, mira</l>
             <l>cómo te los representan.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="I">¿Quién?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">La Avaricia y la Envidia.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="23">
-          <stage type="unassigned">De dentro de la casa salen luchando la ENVIDIA y la AVARICIA, en un tabladillo que habrá delante de ella.</stage>
-          <sp who="#envidia">
+          </sp></div><div type="scene" resp="#rojas" n="23"><stage type="unassigned">De dentro de la casa salen luchando la ENVIDIA y la AVARICIA, en un tabladillo que habrá delante de ella.</stage><sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l>A mí me toca en herencia</l>
             <l>este terreno, pues soy</l>
             <l part="I">mayor hermano.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F" n="1035">No fuera</l>
             <l>del texto al mayor hermano</l>
             <l part="I">la Envidia hace.</l>
-          </sp>
-          <sp who="#la-avaricia">
+          </sp><sp who="#la-avaricia">
             <speaker>AVARICIA</speaker>
             <l part="F">Considera</l>
             <l>que pues está no diviso</l>
@@ -2212,39 +1757,33 @@
             <l>que pueden hacerme rico</l>
             <l>a mí, ya que tú lo seas</l>
             <l part="I">por mayor.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Bien la Codicia</l>
             <l>en el segundo se muestra,</l>
             <l n="1050">pues ya hubo segundo hermano</l>
             <l>que puso lo sacro en venta.</l>
-          </sp>
-          <sp who="#envidia">
+          </sp><sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l>Yo las partiré contigo,</l>
             <l>como tú el nombre no tengas</l>
             <l part="I">de dueño.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">¡Qué propia envidia,</l>
             <l n="1055">no querer que otro parezca</l>
             <l part="I">dueño de nada!</l>
-          </sp>
-          <sp who="#la-avaricia">
+          </sp><sp who="#la-avaricia">
             <speaker>AVARICIA</speaker>
             <l part="F">Pues como</l>
             <l>yo los intereses tenga,</l>
             <l>¿qué se me da a mí del nombre?</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>¡Ah, Codicia! ¡Que no sientas</l>
             <l n="1060">ver que se pierda el honor</l>
             <l>como el caudal no se pierda!</l>
-          </sp>
-          <sp who="#la-avaricia">
+          </sp><sp who="#la-avaricia">
             <speaker>AVARICIA</speaker>
             <l>Y así remitir podemos</l>
             <l>la lucha a la convenencia;</l>
@@ -2253,81 +1792,57 @@
             <l>y la devoción de todos</l>
             <l>venga a ser granjería nuestra,</l>
             <l>¿qué me importa a mí el dominio?</l>
-          </sp>
-          <sp who="#envidia">
+          </sp><sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l part="I">Pues sea así.</l>
-          </sp>
-          <sp who="#la-avaricia">
+          </sp><sp who="#la-avaricia">
             <speaker>AVARICIA</speaker>
             <l part="F">Pues así sea.</l>
-          </sp>
-          <sp who="#envidia">
+          </sp><sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l n="1070">Medre él, como mande yo.</l>
-          </sp>
-          <sp who="#la-avaricia">
+          </sp><sp who="#la-avaricia">
             <speaker>AVARICIA</speaker>
             <l>Mande él, como yo enriquezca.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="24">
-          <stage type="unassigned">Vanse por los dos lados de la casa y ciérrase el peñasco.</stage>
-          <sp who="#la-culpa">
+          </sp></div><div type="scene" resp="#rojas" n="24"><stage type="unassigned">Vanse por los dos lados de la casa y ciérrase el peñasco.</stage><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué dirás desto, al ver que hay</l>
             <l>hechos, cuestiones y temas</l>
             <l part="I">de casa enemigos?</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Que</l>
             <l n="1075">si supo de otras violencias</l>
             <l>ponerse en salvo, también</l>
             <l>¿quién duda que sabrá desta?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Dónde?</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">El tiempo lo dirá.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="25">
-          <stage type="unassigned">Vase el ÁNGEL.</stage>
-          <sp who="#la-culpa">
+          </sp></div><div type="scene" resp="#rojas" n="25"><stage type="unassigned">Vase el ÁNGEL.</stage><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Sí dirá, mas dondequiera</l>
             <l part="I">sabré seguirte.</l>
-          </sp>
-          <stage type="unassigned">Dentro el PENSAMIENTO.</stage>
-          <sp who="#el-pensamiento">
+          </sp><stage type="unassigned">Dentro el PENSAMIENTO.</stage><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F" n="1080">Hoy verás</l>
             <l>que en vano seguirme intentas.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué oráculo de su culto</l>
             <l>ha respondido en defensa?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="26">
-          <stage type="unassigned">Dentro el FUROR, y sale la IRA.</stage>
-          <sp who="#el-furor">
+          </sp></div><div type="scene" resp="#rojas" n="26"><stage type="unassigned">Dentro el FUROR, y sale la IRA.</stage><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>El viento abrazo, por más</l>
             <l n="1085">que entre mis brazos le tenga.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>«¿El viento abrazo, por más</l>
             <l>que entre mis brazos le tenga?».</l>
             <l part="I">¿Qué es eso, Ira?</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="F">Al peregrino,</l>
             <l>como mandaste, seguí,</l>
@@ -2357,8 +1872,7 @@
             <l>va del remo condenado,</l>
             <l>va alegre con que ha dejado</l>
             <l n="1115">en Loreto el Pensamiento.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Aunque de esa prisión fío</l>
             <l>no logre el voto su fee,</l>
@@ -2367,71 +1881,51 @@
             <l n="1120">procura tú por ahí</l>
             <l>atajarle, mientras yo</l>
             <l part="I">por aquí le sigo.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="27">
-          <stage type="unassigned">Sale el PENSAMIENTO huyendo del FUROR, y siempre que llega a abrazarse con él se le escapa dentre los brazos, abrazando al viento. Lo mismo sucede a CULPA y IRA, y él huye libre de los tres.</stage>
-          <sp who="#el-pensamiento">
+          </sp></div><div type="scene" resp="#rojas" n="27"><stage type="unassigned">Sale el PENSAMIENTO huyendo del FUROR, y siempre que llega a abrazarse con él se le escapa dentre los brazos, abrazando al viento. Lo mismo sucede a CULPA y IRA, y él huye libre de los tres.</stage><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">No</l>
             <l>has de alabarte que a mí</l>
             <l>jamás pudiste prenderme.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l n="1125">¿Pues dónde te has de amparar?</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Donde me manda quedar</l>
             <l>mi dueño; y así a ponerme</l>
             <l part="I">en salvo iré.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">Mi agonía</l>
             <l part="I">te saldrá al paso.</l>
             <stage type="exit">Abraza al aire.</stage>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l part="F">Y mi aliento.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="1130">Nada teme pensamiento</l>
             <l>que quedó puesto en María.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="28">
-          <stage type="exit">Vase.</stage>
-          <sp who="#el-furor">
+            
+          </sp></div><div type="scene" resp="#rojas" n="28"><stage type="exit">Vase.</stage><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>¡Ay de mí!, que aquel fervor</l>
             <l part="I">esta fuga es.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">¿Qué te inquieta,</l>
             <l>si del Alcorán la seta</l>
             <l n="1135">que hoy la Soberbia es, Furor,</l>
             <l>dueño de ese hombre se halla?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Nada en el hombre tenemos</l>
             <l part="I">sin Pensamiento.</l>
-          </sp>
-          <sp who="#la-ira #el-pensamiento #el-furor #la-culpa">
+          </sp><sp who="#la-ira #el-pensamiento #el-furor #la-culpa">
             <speaker>TODOS</speaker>
             <l part="F">Intentemos</l>
             <l part="I">seguirle.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="29">
-          <stage type="unassigned">Vanse los tres y óyese un clarín en el tercero carro, que será una galera, y dando vuelta se ven en ella la SOBERBIA en la popa, vestido de mozo, y el PEREGRINO, entre otros, puesto al remo, vestido de cautivo.</stage>
-          <sp who="#la-soberbia">
+          </sp></div><div type="scene" resp="#rojas" n="29"><stage type="unassigned">Vanse los tres y óyese un clarín en el tercero carro, que será una galera, y dando vuelta se ven en ella la SOBERBIA en la popa, vestido de mozo, y el PEREGRINO, entre otros, puesto al remo, vestido de cautivo.</stage><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">¡Boga, canalla,</l>
             <l n="1140">boga!, y corte la esfera</l>
@@ -2448,8 +1942,7 @@
             <l>a tales propensiones de la vida</l>
             <l>que, imagen de la culpa y de la pena,</l>
             <l>leva el remo y arrastra la cadena.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Ya sé que las pasiones</l>
             <l n="1155">humanas todas son tribulaciones</l>
@@ -2458,16 +1951,13 @@
             <l>al llanto, significa su consuelo;</l>
             <l>y más cuando la fee, piedad y celo</l>
             <l part="I">puesto en María...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F" n="1160">No prosigas, ¡calla!</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">Nada deja temer.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">¡Boga, canalla!,</l>
             <l>proejando hasta doblar de aquel celaje</l>
@@ -2476,24 +1966,18 @@
             <l n="1165">que descanse la proa, porque espero</l>
             <l>aún con mayor vitoria saludalla,</l>
             <l>y así, hasta dar con él, ¡boga, canalla!</l>
-          </sp>
-          <stage type="unassigned">El clarín, y da vuelta la galera.</stage>
-          <sp who="#el-peregrino">
+          </sp><stage type="unassigned">El clarín, y da vuelta la galera.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>¿Cómo, si ya de la vecina tierra</l>
             <l part="I">los bajos roza el buque?</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Pues, ¡a tierra!</l>
             <l n="1170">¡A costa!, y tú no más salta conmigo.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Sí haré, pues sin tu ley tus leyes sigo.</l>
-          </sp>
-          <stage type="unassigned">Saltan los dos de la galera al tablado.</stage>
-          <sp who="#la-soberbia">
+          </sp><stage type="unassigned">Saltan los dos de la galera al tablado.</stage><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Ya ves, miserable anciano,</l>
             <l>que si perdió el Asia un templo</l>
@@ -2532,40 +2016,33 @@
             <l>¿No me respondes? Bien haces,</l>
             <l>que es dar a entender suspenso</l>
             <l part="I">el que lo piensas.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Te engañas,</l>
             <l>porque ¿cómo, ¡ay de mí!, puedo</l>
             <l n="1210">yo aquí pensar nada, cuando</l>
             <l>está allá mi Pensamiento?</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Persuádele, que él vendrá</l>
             <l>a la voluntad atento.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>No hará, que es norte muy fijo</l>
             <l n="1215">adonde le dejé puesto.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>¿Pues no es de la voluntad</l>
             <l part="I">vasallo?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Sí, mas no habiendo</l>
             <l>voluntad para mandarlo,</l>
             <l>mal podrá él obedecerlo.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l n="1220">¿Por qué no habrá voluntad?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Porque es fuerza que primero</l>
             <l>por el Pensamiento a ella</l>
@@ -2574,55 +2051,45 @@
             <l n="1225">y no estando él aquí, es cierto</l>
             <l>que no le puede pasar</l>
             <l>a ella por el pensamiento.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>El tiempo sabrá mudar,</l>
             <l>con los malos tratamientos,</l>
             <l part="I">buenos propósitos.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F" n="1230">No</l>
             <l>esperes que podrá hacerlo.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="I">¿Por qué?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Porque para hacer</l>
             <l>mudanza tan de un extremo</l>
             <l>a otro extremo, es fuerza que haya</l>
             <l n="1235">libertad; yo no la tengo,</l>
             <l>que no soy dueño de mí.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Es verdad, yo soy tu dueño,</l>
             <l part="I">y yo te lo mando.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">No hablo</l>
             <l>yo deste caduco imperio</l>
             <l part="I">de la vida.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F" n="1240">¿Pues de cuál?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">Del del alma.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">¿Y es ajeno</l>
             <l part="I">ése en ti?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Sí, que no es mío</l>
             <l>mi corazón, y no siendo</l>
@@ -2632,27 +2099,22 @@
             <l>y último muere), mal puedo</l>
             <l>enajenar monarquía</l>
             <l>de dominio que no tengo.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l n="1250">¿Pues cúyo es tu corazón,</l>
             <l part="I">que no es tuyo?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">De otro dueño</l>
             <l part="I">a quien ya le di.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">¿Mi esclavo</l>
             <l part="I">no eres?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="M">Sí, en la vida.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Luego</l>
             <l>si el corazón de la vida</l>
@@ -2660,76 +2122,62 @@
             <l>es, tampoco enajenarle</l>
             <l>pudiste, y tengo derecho</l>
             <l>a poder cobrarle yo.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">¿Cómo?</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">Rasgándote el pecho</l>
             <l n="1260">para ver si está o no está</l>
             <l part="I">en él.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Sagrado precepto</l>
             <l>nos manda que no temamos</l>
             <l>a poder que a sólo el cuerpo</l>
             <l>puede extenderse y no al alma.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="I">Considera...</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F" n="1265">Nada temo.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="I">Advierte...</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Nada reparo.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="I">Piénsalo mejor...</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Mal puedo</l>
             <l>sin pensamiento pensar;</l>
             <l>demás que aun con pensamiento</l>
             <l n="1270">no lo pensara mejor,</l>
             <l>pues lo mejor sin él pienso.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="I">¿Qué es?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Perder una y mil vidas</l>
             <l>antes que cometa yerro</l>
             <l>de tan vil estelionato</l>
             <l n="1275">que obligue lo que no tengo.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="I">¿Por qué?</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Porque tan grabado</l>
             <l>de María el nombre tengo</l>
             <l>en el corazón, tan fijo</l>
             <l>en vida y alma, tan dentro</l>
             <l part="I">de las entrañas, que...</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F" n="1280">¡Calla!,</l>
             <l>que, ¡vivo yo!, que he de verlo,</l>
@@ -2737,8 +2185,7 @@
             <l>alma y corazón impreso</l>
             <l>está el nombre de María.</l>
             <stage type="exit">Embiste a él con el puñal, y echándole en el suelo le saca del pecho un corazón ensangrentado.</stage>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l n="1285">Ella sabe que no siento</l>
             <l>la muerte, sino no ser</l>
@@ -2747,18 +2194,15 @@
             <l>lograr el dichoso trueco</l>
             <l n="1290">de, dándola el corazón,</l>
             <l>recebir el Sacramento.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>¡Muere, caduco, a mis manos!</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Virgen bella de Loreto,</l>
             <l>en protección vuestra, a Dios</l>
             <l n="1295">el spíritu encomiendo.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Ya el corazón arrancado</l>
             <l>de sus entrañas, no veo</l>
@@ -2776,13 +2220,10 @@
             <l>María el hermoso dueño,</l>
             <l n="1310">toma y llévale a María.</l>
             <stage type="exit">Arrójaselo.</stage>
-          </sp>
-          <stage type="unassigned">Levántase ensangrentado el PEREGRINO y toma del suelo el corazón.</stage>
-          <sp who="#el-peregrino">
+          </sp><stage type="unassigned">Levántase ensangrentado el PEREGRINO y toma del suelo el corazón.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">Sí haré.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">¡Ay infeliz! ¿Qué veo?</l>
             <l>¿Cómo contra todo el orden</l>
@@ -2802,8 +2243,7 @@
             <l>Y aún no aquí el prodigio para,</l>
             <l>pues alzándole del suelo,</l>
             <l part="I">con él camina.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">Mortal,</l>
             <l>si te admiró en un desierto</l>
@@ -2823,19 +2263,14 @@
             <l>puesto en ella el pensamiento,</l>
             <l>todos nuestros corazones</l>
             <l n="1345">en nuestras manos tenemos.</l>
-
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="30">
-          <stage type="exit">Vase con el corazón en la mano y canta toda la MÚSICA.</stage>
-          <sp who="#música">
+            
+          </sp></div><div type="scene" resp="#rojas" n="30"><stage type="exit">Vase con el corazón en la mano y canta toda la MÚSICA.</stage><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Pues para darle a María,</l>
             <l>puesto en ella el pensamiento,</l>
             <l>todos nuestros corazones</l>
             <l>en nuestras manos tenemos.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l n="1350">Sonoras músicas siguen</l>
             <l>entre cambiantes reflejos</l>
@@ -2861,57 +2296,43 @@
             <l>que, repetidas del eco,</l>
             <l>no hay cóncavo en que no suenen</l>
             <l>una y otra vez, diciendo:</l>
-          </sp>
-          <sp who="#la-soberbia #música">
+          </sp><sp who="#la-soberbia #música">
             <speaker>ÉL Y MÚSICA</speaker>
             <l>Que para darle a María,</l>
             <l n="1375">puesto en ella el pensamiento,</l>
             <l>todos nuestros corazones</l>
             <l>en nuestras manos tenemos.</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="31">
-          <stage type="unassigned">Vase la SOBERBIA con esta repetición, y salen con la misma FUROR y CULPA como oyéndola.</stage>
-          <sp who="#la-culpa">
+          </sp></div><div type="scene" resp="#rojas" n="31"><stage type="unassigned">Vase la SOBERBIA con esta repetición, y salen con la misma FUROR y CULPA como oyéndola.</stage><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>¿«Que para darle a María»...</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>«Puesto en ella el pensamiento»...</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l n="1380">«Todos nuestros corazones»...</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>«En nuestras manos tenemos»?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Furor?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="M">¿Culpa?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">¿Has escuchado</l>
             <l>armoniosos acentos</l>
             <l>en el aire repetidos?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l n="1385">Y hubiera a sus voces muerto,</l>
             <l>a ser capaz de morir.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué nos dice Dios en ellos?</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>No sé; que como al obrar</l>
             <l>el soberano misterio</l>
@@ -2922,8 +2343,7 @@
             <l>viso suyo, tropezando</l>
             <l n="1395">con todo, con nada encuentro</l>
             <l>desta misteriosa casa.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Ni yo, pues que no penetro</l>
             <l>más de que huyendo delitos</l>
@@ -2934,8 +2354,7 @@
             <l>en real camino se ha puesto,</l>
             <l>que no siendo de ninguno</l>
             <l part="I">es de todos.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F" n="1405">¡Ay!, que eso</l>
             <l>es cerrar la alegoría,</l>
@@ -2943,33 +2362,25 @@
             <l>que la Iglesia en real camino,</l>
             <l>ya para todos abierto,</l>
             <l n="1410">está en la romana curia.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Lo alegórico dejemos</l>
             <l>y vamos a lo historial;</l>
             <l>¿qué ecos habrán sido estos</l>
             <l>que, hiriendo nuestros oídos,</l>
             <l n="1415">han pronunciado en el viento?</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="32">
-          <stage type="unassigned">Dentro LAURETA, y sale despavorida al segundo verso.</stage>
-          <sp who="#laureta">
+          </sp></div><div type="scene" resp="#rojas" n="32"><stage type="unassigned">Dentro LAURETA, y sale despavorida al segundo verso.</stage><sp who="#laureta">
             <speaker>LAURETA</speaker>
             <l>¿Adónde podré ampararme</l>
             <l>segunda vez de otro miedo,</l>
             <l>otro pavor, otro asombro?</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="I">¡Mujer, tente!</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">Di, ¿qué es eso?</l>
-          </sp>
-          <sp who="#laureta">
+          </sp><sp who="#laureta">
             <speaker>LAURETA</speaker>
             <l n="1420">A la orilla de ese mar</l>
             <l>estaba, ¡ay de mí!, sintiendo</l>
@@ -2993,39 +2404,28 @@
             <l>le acompañan; mas no puedo</l>
             <l n="1440">proseguir, pero ¿qué mucho?,</l>
             <l>si todos huyen diciendo:</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="33">
-          <stage type="unassigned">Salen por varias partes.</stage>
-          <sp who="#la-lascivia">
+          </sp></div><div type="scene" resp="#rojas" n="33"><stage type="unassigned">Salen por varias partes.</stage><sp who="#la-lascivia">
             <speaker>LASCIVIA</speaker>
             <l>¿Adónde irán mis desdichas?</l>
-          </sp>
-          <sp who="#la-gula">
+          </sp><sp who="#la-gula">
             <speaker>GULA</speaker>
             <l>¿Adónde mis desconsuelos?</l>
-          </sp>
-          <sp who="#envidia">
+          </sp><sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l>¿Dónde a parar van mis ansias?</l>
-          </sp>
-          <sp who="#la-avaricia">
+          </sp><sp who="#la-avaricia">
             <speaker>AVARICIA</speaker>
             <l n="1445">¿Dónde a morir mis tormentos?</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l>¿Dónde a descansar mis iras?</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>¿Dónde a fallecer mis riesgos?</l>
-          </sp>
-          <sp who="#la-ira #la-soberbia">
+          </sp><sp who="#la-ira #la-soberbia">
             <speaker>LOS DOS</speaker>
             <l>¿Qué es esto, mortales vicios?</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Volver a ti, pretendiendo,</l>
             <l n="1450">dos veces mortales, que</l>
@@ -3037,14 +2437,12 @@
             <l>que desahoguen las furias</l>
             <l>y los rencores de vernos</l>
             <l>postrados a tal asombro.</l>
-          </sp>
-          <sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira">
+          </sp><sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira">
             <speaker>TODOS</speaker>
             <l>Pues vendrá a importarnos menos,</l>
             <l n="1460">que ver nuevos triunfos fuera,</l>
             <l>sentir nuevas penas dentro.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Y para que veas con cuánta</l>
             <l>causa huimos y tememos,</l>
@@ -3055,177 +2453,141 @@
             <l>dio muerte: verás que tray</l>
             <l>de su voto en cumplimiento</l>
             <l n="1470">a María el corazón.</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l>Y a quien de todos los pueblos</l>
             <l>que ha pasado sigue el vulgo,</l>
             <l>a coros con él diciendo</l>
             <l>de su oficio los más dulces,</l>
             <l n="1475">más enamorados versos.</l>
-          </sp>
-          <sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira">
+          </sp><sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira">
             <speaker>TODOS</speaker>
             <l>A cuyo cántico todos</l>
             <l>fuerza es postrarnos oyendo:</l>
-          </sp>
-        </div>
-        <div type="scene" resp="#rojas" n="34">
-          <stage type="unassigned">Salen los cuatro ángeles que aparecieron en la casa con hachas, alumbrando al PEREGRINO, que ensangrentado tray el corazón en las manos. Detrás dél todos los músicos, y delante de todos, guiándolos, el ÁNGEL. Los vicios se postran como va pasando hasta llegar al cuarto carro, que será un templo suntuoso, el cual, abriéndose en dos mitades, descubrirá una fábrica rica con un altar, y en él una imagen a imitación de la de Loreto. En la mesa del altar habrá un cáliz y hostia con su araceli y al pie dél el PENSAMIENTO, como en oración, arrodillado.</stage>
-          <sp who="#el-peregrino">
+          </sp></div><div type="scene" resp="#rojas" n="34"><stage type="unassigned">Salen los cuatro ángeles que aparecieron en la casa con hachas, alumbrando al PEREGRINO, que ensangrentado tray el corazón en las manos. Detrás dél todos los músicos, y delante de todos, guiándolos, el ÁNGEL. Los vicios se postran como va pasando hasta llegar al cuarto carro, que será un templo suntuoso, el cual, abriéndose en dos mitades, descubrirá una fábrica rica con un altar, y en él una imagen a imitación de la de Loreto. En la mesa del altar habrá un cáliz y hostia con su araceli y al pie dél el PENSAMIENTO, como en oración, arrodillado.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Ave, estrella de la mar,</l>
             <l>Madre de Dios soberana.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="1480">Ave, maris stella,</l>
             <l>Dei mater alma.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Ave, siempre Virgen pura,</l>
             <l>feliz puerta de la gloria.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Atque semper virgo,</l>
             <l n="1485">felix celli porta.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Ave, ¡oh, tú!, que concebiste</l>
             <l>oyendo a Gabriel las voces.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l rend="italic">Summens illud Ave</l>
             <l rend="italic">Gabrielis ore.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l n="1490">Tú, que para nuestra paz</l>
             <l>mudaste a Eva en ¡Ave! el nombre.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l rend="italic">Funda nos in pace,</l>
             <l rend="italic">mutans Evæ nomen.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Ave, y dando al ciego luz,</l>
             <l n="1495">los lazos al reo disuelve.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l rend="italic">Solve vincla reis,</l>
             <l rend="italic">profert lumen cæcis.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Y para que nuestros males</l>
             <l>con tus bienes se mejoren.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l rend="italic" n="1500">Mala nostra pelle,</l>
             <l rend="italic">bona cuncta posce.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Muéstrate ser madre, haciendo</l>
             <l>por ti nuestro ruego acete.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Monstra te esse matrem,</l>
             <l n="1505">summat per te præces.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>El que de tu vientre quiso</l>
             <l>ser el más bendito fruto.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l rend="italic">Qui pro nobis natus</l>
             <l rend="italic">tullit esse tuus.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="1510">Dése al Padre la alabanza,</l>
             <l>la honra al Hijo Cristo, y luego...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l rend="italic">Sit laus Deo Patri,</l>
             <l rend="italic">Summo Cristo decus.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Al Espíritu la gloria,</l>
             <l n="1515">porque sea en este triunfo.</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l rend="italic">Spiritui Santo,</l>
             <l rend="italic">tribus honor unus.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Hollando nuestras cervices</l>
             <l>y pisando nuestros cuellos,</l>
             <l n="1520">por encima de nosotros</l>
             <l part="I">ha pasado.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="F">Y hasta el templo</l>
             <l>ha llegado, a cuyas puertas,</l>
             <l>que a admitirle se han abierto,</l>
             <l>retraído de nosotros</l>
             <l n="1525">encuentra su Pensamiento.</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l>Cobrado, con él se abraza.</l>
-          </sp>
-          <sp who="#el-pensamiento">
+          </sp><sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>No me dirás, por lo menos,</l>
             <l>que donde quedé no me hallas.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Claro está, pues por ti vuelvo,</l>
             <l n="1530">que si no estuvieras vivo</l>
             <l>tú, ya estuviera yo muerto.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Sube al altar, y con él</l>
             <l>suba nuestra voz al cielo</l>
             <l>para que con experiencia</l>
             <l n="1535">reconozca el Universo...</l>
-          </sp>
-          <sp who="#música">
+          </sp><sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Que para darle a María,</l>
             <l>puesto en ella el pensamiento,</l>
             <l>todos nuestros corazones</l>
             <l>en nuestras manos tenemos.</l>
-          </sp>
-          <sp who="#la-avaricia #la-soberbia">
+          </sp><sp who="#la-avaricia #la-soberbia">
             <speaker>UNOS</speaker>
             <l part="I">¡Qué asombro!</l>
-          </sp>
-          <sp who="#la-lascivia #la-pereza">
+          </sp><sp who="#la-lascivia #la-pereza">
             <speaker>OTROS</speaker>
             <l part="F" n="1540">¡Qué confusión!</l>
-          </sp>
-          <stage type="unassigned">Sube, acompañado de los ángeles, al altar.</stage>
-          <sp who="#el-peregrino">
+          </sp><stage type="unassigned">Sube, acompañado de los ángeles, al altar.</stage><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>A vuestras plantas ofrezco,</l>
             <l>Virgen pura y sin pecado,</l>
@@ -3248,59 +2610,49 @@
             <l>este sancto Sacramento,</l>
             <l n="1560">mostrando que para hallarle</l>
             <l>sois el camino más cierto.</l>
-          </sp>
-          <sp who="#el-ángel">
+          </sp><sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Yo te ofrezco de su parte</l>
             <l>esa piedad, porque luego</l>
             <l>que le hayas recebido</l>
             <l n="1565">sea tu piadoso entierro</l>
             <l>la peana de su altar.</l>
-          </sp>
-          <sp who="#el-furor">
+          </sp><sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Llegó a su extremo el extremo</l>
             <l part="I">de mis desdichas.</l>
-          </sp>
-          <sp who="#la-culpa">
+          </sp><sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l part="F">¡Qué mucho,</l>
             <l>si llegó al mayor aumento</l>
             <l part="I">de la Gracia!</l>
-          </sp>
-          <sp who="#la-soberbia">
+          </sp><sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F" n="1570">Declarando</l>
             <l>al mundo con este ejemplo</l>
             <l>que para atropellar vicios...</l>
-          </sp>
-          <sp who="#la-ira">
+          </sp><sp who="#la-ira">
             <speaker>IRA</speaker>
             <l>Y recebir el inmenso</l>
             <l>milagro de los milagros...</l>
-          </sp>
-          <sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira #el-ángel #la-culpa #el-peregrino">
+          </sp><sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira #el-ángel #la-culpa #el-peregrino">
             <speaker>TODOS</speaker>
             <l n="1575">Es María el mejor medio.</l>
-          </sp>
-          <sp who="#el-peregrino">
+          </sp><sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Pues confesaldo vosotros</l>
             <l>para mayor dolor vuestro,</l>
             <l>mientras para mayor honra</l>
             <l>suya decimos a un tiempo:</l>
-          </sp>
-          <sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira #el-ángel #la-culpa #el-peregrino #música">
+          </sp><sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira #el-ángel #la-culpa #el-peregrino #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1580">Que para darle a María,</l>
             <l>puesto en ella el pensamiento,</l>
             <l>todos nuestros corazones</l>
             <l>en nuestras manos tenemos.</l>
-          </sp>
-          <stage type="unassigned">Con esta repetición y chirimías se cierra el carro y acaba el auto.</stage>
-        </div>
-
-      </div>
+          </sp><stage type="unassigned">Con esta repetición y chirimías se cierra el carro y acaba el auto.</stage></div>
+      
+    </div>
     </body>
   </text>
 </TEI>
