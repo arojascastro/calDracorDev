@@ -3285,7 +3285,7 @@
       <xsl:apply-templates select="@*|node()"/>
       <!-- Add new trait element with specified structure -->
       <trait source="#calderondigital" xmlns="http://www.tei-c.org/ns/1.0">
-        <desc xmlns="http://www.tei-c.org/ns/1.0">Deidad</desc>
+        <desc xmlns="http://www.tei-c.org/ns/1.0">Diosa</desc>
       </trait>
     </xsl:copy>
   </xsl:template>

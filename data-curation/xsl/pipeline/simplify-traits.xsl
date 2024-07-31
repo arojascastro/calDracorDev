@@ -197,7 +197,7 @@
       <xsl:apply-templates select="@*"/>
       <!-- Replace specific patterns -->
       <xsl:value-of select="
-          replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(., 'primera dama', 'dama'), 'criado de poliarco', 'criado'), 'primer galán', 'galán'), 'una esclava', 'esclava'), 'primer adán','adán'), 'segundo adán','adán'), 'primero galán','galán'), 'segundo galán','galán'), 'tercero galán','galán'), 'primero adán','adán'),'principe','príncipe'), 'galan','galán'), 'deidad','diosa'), 'cabellero','caballero')"/>
+          replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(., 'primera dama', 'dama'), 'criado de poliarco', 'criado'), 'primer galán', 'galán'), 'una esclava', 'esclava'), 'primer adán', 'adán'), 'segundo adán', 'adán'), 'primero galán', 'galán'), 'segundo galán', 'galán'), 'tercero galán', 'galán'), 'primero adán', 'adán'), 'principe', 'príncipe'), 'galan', 'galán'), 'deidad', 'diosa'), 'cabellero', 'caballero'), 'deidad marina', 'diosa')"/>
     </xsl:copy>
   </xsl:template>
 
