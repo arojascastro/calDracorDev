@@ -1,5 +1,116 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000008" xml:lang="esp">
-  <teiHeader><fileDesc><titleStmt><title type="main">El cordero de Isaías</title><title type="sub">Auto sacramental alegórico</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-05-13"><time when="13:16:34"/></date><idno type="quadramaX">El cordero de Isaías</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-cordero-de-isaias--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Mª Carmen Pinillos procedente de la edición Calderón de la Barca, Pedro, El cordero de Isaías , ed. Mª Carmen Pinillos, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1996. ISBN: 3-930700-67-0.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="behomud" sex="MALE"><persName>Behomud</persName></person><person xml:id="demonio" sex="MALE"><persName>El Demonio</persName></person><person xml:id="pitonisa" sex="FEMALE"><persName>La Pitonisa</persName></person><person xml:id="candaces" sex="MALE"><persName>Candaces</persName></person><person xml:id="descuido" sex="MALE"><persName>El Descuido</persName></person><person xml:id="fe" sex="FEMALE"><persName>La Fe</persName></person><person xml:id="pueblo-hebreo" sex="MALE"><persName>Pueblo Hebreo</persName></person><person xml:id="pueblo-romano" sex="MALE"><persName>Pueblo Romano</persName></person><person xml:id="filipo" sex="MALE"><persName>Filipo</persName><trait source="castlist"/></person><person xml:id="cuidado" sex="MALE"><persName>El Cuidado</persName></person><person xml:id="dama-1" sex="FEMALE"><persName>Dama 1.ª</persName><trait resp="#rojas"><desc>dama</desc></trait></person><person xml:id="dama-2" sex="FEMALE"><persName>Dama 2.ª</persName><trait resp="#rojas"><desc>dama</desc></trait></person><person xml:id="ángel" sex="MALE"><persName>Un Ángel</persName></person><person xml:id="criado" sex="MALE"><persName>Un Criado</persName></person><person xml:id="pastor-1" sex="MALE"><persName>Pastor 1.º</persName></person><person xml:id="pastor-2" sex="MALE"><persName>Pastor 2.º</persName></person><person xml:id="gentil" sex="MALE"><persName>Gentil</persName></person><person sex="UNKNOWN" xml:id="música"><persName>Música</persName></person></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords><classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000008" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El cordero de Isaías</title>
+        <title type="sub">Auto sacramental alegórico</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-13"><time when="13:16:34"/></date>
+        <idno type="quadramaX">El cordero de Isaías</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-cordero-de-isaias--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Mª Carmen Pinillos procedente de la edición Calderón de la Barca, Pedro, El cordero de Isaías , ed. Mª Carmen Pinillos, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1996. ISBN: 3-930700-67-0.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="behomud" sex="MALE">
+            <persName>Behomud</persName>
+          </person>
+          <person xml:id="demonio" sex="MALE">
+            <persName>El Demonio</persName>
+          </person>
+          <person xml:id="pitonisa" sex="FEMALE">
+            <persName>La Pitonisa</persName>
+          </person>
+          <person xml:id="candaces" sex="MALE">
+            <persName>Candaces</persName>
+          </person>
+          <person xml:id="descuido" sex="MALE">
+            <persName>El Descuido</persName>
+          </person>
+          <person xml:id="fe" sex="FEMALE">
+            <persName>La Fe</persName>
+          </person>
+          <person xml:id="pueblo-hebreo" sex="MALE">
+            <persName>Pueblo Hebreo</persName>
+          </person>
+          <person xml:id="pueblo-romano" sex="MALE">
+            <persName>Pueblo Romano</persName>
+          </person>
+          <person xml:id="filipo" sex="MALE">
+            <persName>Filipo</persName>
+            <trait source="castlist"/>
+          </person>
+          <person xml:id="cuidado" sex="MALE">
+            <persName>El Cuidado</persName>
+          </person>
+          <person xml:id="dama-1" sex="FEMALE">
+            <persName>Dama 1.ª</persName>
+            <trait resp="#rojas">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <person xml:id="dama-2" sex="FEMALE">
+            <persName>Dama 2.ª</persName>
+            <trait resp="#rojas">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <person xml:id="ángel" sex="MALE">
+            <persName>Un Ángel</persName>
+          </person>
+          <person xml:id="criado" sex="MALE">
+            <persName>Un Criado</persName>
+          </person>
+          <person xml:id="pastor-1" sex="MALE">
+            <persName>Pastor 1.º</persName>
+          </person>
+          <person xml:id="pastor-2" sex="MALE">
+            <persName>Pastor 2.º</persName>
+          </person>
+          <person xml:id="gentil" sex="MALE">
+            <persName>Gentil</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="#kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1759">
@@ -35,32 +146,45 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene" resp="#rojas" n="1"><stage>Dentro, ruido de terremoto, y después de las primeras voces salen por una parte CANDACES Reina de Etiopia, y por otra BEHOMUD, vestido a lo indio.</stage><sp who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Dentro, ruido de terremoto, y después de las primeras voces salen por una parte CANDACES Reina de Etiopia, y por otra BEHOMUD, vestido a lo indio.</stage>
+          <sp who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo">
             <speaker>UNOS</speaker>
             <l part="I">¡Qué asombro!</l>
-          </sp><sp who="#candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
+          </sp>
+          <sp who="#candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
             <speaker>OTROS</speaker>
             <l part="F">¡Qué confusión!</l>
-          </sp><sp who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo">
+          </sp>
+          <sp who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo">
             <speaker>OTROS</speaker>
             <l part="I">¡Qué sobresalto!</l>
-          </sp><sp who="#candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
+          </sp>
+          <sp who="#candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
             <speaker>OTROS</speaker>
             <l part="F">¡Qué pena!</l>
-          </sp><sp who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo">
+          </sp>
+          <sp who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo">
             <speaker>OTROS</speaker>
             <l part="I">¡Qué angustia!</l>
-          </sp><sp who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo #candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
+          </sp>
+          <sp who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo #candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
             <speaker>TODOS</speaker>
             <l part="F">¡Cielos, piedad!</l>
-          </sp><sp who="#candaces #behomud">
+          </sp>
+          <sp who="#candaces #behomud">
             <speaker>LOS DOS</speaker>
             <l>¡Clemencia, cielos, clemencia!</l>
-          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Salen los dos.</stage><sp who="#behomud">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Salen los dos.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="5">¿Dónde, divina Candaces,</l>
             <l>vas tan velozmente ciega?</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>¿Dónde quieres, ¡oh Behomud!</l>
             <l>que vaya, cuando no deja</l>
@@ -90,12 +214,15 @@
             <l>bañado en lágrimas tiernas,</l>
             <l>música de Dios el llanto,</l>
             <l>repita en voces diversas?</l>
-          </sp><stage>Terremoto.</stage><sp who="#pastor-1 #pastor-2 #música">
+          </sp>
+          <stage>Terremoto.</stage>
+          <sp who="#pastor-1 #pastor-2 #música">
             <speaker>VOCES y MÚSICA</speaker>
             <stage>Cantan.</stage>
             <l n="35">¡Misericordia, Señor!</l>
             <l>¡Señor, clemencia, clemencia!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Si fuera natural causa,</l>
             <l>pudiera ser que dijera</l>
@@ -109,13 +236,16 @@
             <l>panteón de sus exequias;</l>
             <l>mas tan sobrenatural</l>
             <l>es, que no alcanzo a entenderla.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Pues alcanza a discurrilla:</l>
             <l n="50">¿qué será que en pardas nieblas</l>
             <l>de súbito parasismo</l>
             <l>el sol sin tiempo anochezca?</l>
-          </sp><stage>El terremoto.</stage><sp who="#behomud">
+          </sp>
+          <stage>El terremoto.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>No sé; que eclipsarse el sol,</l>
             <l>sin que a el eclipse preceda</l>
@@ -123,7 +253,8 @@
             <l>esté la luna interpuesta</l>
             <l>entre él y la tierra, es causa</l>
             <l>que en sí sola se reserva.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Pues ¿qué será que la luna,</l>
             <l n="60">ya que a él no se mire opuesta,</l>
@@ -131,11 +262,14 @@
             <l>tan menguantemente envuelta</l>
             <l>que para luciente es poca</l>
             <l>y mucha para sangrienta?</l>
-          </sp><stage>El terremoto.</stage><sp who="#behomud">
+          </sp>
+          <stage>El terremoto.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="65">No sé, si no es que del sol</l>
             <l>el mismo crisis padezca.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>¿Que será que de uno y otro</l>
             <l>no se desmande una estrella</l>
@@ -147,13 +281,15 @@
             <l>que infaustamente estremezca</l>
             <l n="75">pavorosa a quien la juzga</l>
             <l>nunca afable y siempre adversa?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>No sé, si no es que oprimido</l>
             <l>vapor que el aire congela,</l>
             <l>con la vecindad del fuego</l>
             <l n="80">a helados soplos la encienda.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>¿Qué será que ese aire mismo</l>
             <l>tan flechadas iras llueva,</l>
@@ -163,7 +299,9 @@
             <l>haciendo que la soberbia</l>
             <l>de sus flujos y reflujos</l>
             <l>montes y edificios sientan?</l>
-          </sp><stage>El terremoto.</stage><sp who="#behomud">
+          </sp>
+          <stage>El terremoto.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>No sé, si ya no es que como</l>
             <l n="90">los montes por entreabiertas</l>
@@ -191,21 +329,26 @@
             <l>son dulces lágrimas tiernas</l>
             <l>música de Dios, a un tiempo</l>
             <l>repite en voces diversas.</l>
-          </sp><stage>VOCES y MÚSICA.</stage><sp who="#pastor-1 #pastor-2 #música">
+          </sp>
+          <stage>VOCES y MÚSICA.</stage>
+          <sp who="#pastor-1 #pastor-2 #música">
             <speaker>[VOCES y MÚSICA]</speaker>
             <stage>Cantan.</stage>
             <l n="115">¡Misericordia, Señor!</l>
             <l>¡Señor, clemencia, clemencia!</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Pues ya que tú por vencido</l>
             <l>te das a su inteligencia,</l>
             <l>acobardado al dudarla,</l>
             <l n="120">me he de atrever yo a saberla.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="I">Pues ¿qué discurres?</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l part="F">Que el Dios</l>
             <l>de Israel, cuya suprema</l>
@@ -305,10 +448,12 @@
             <l>en varas de incienso asciendan</l>
             <l>donde, ante Dios, más el humo</l>
             <l>que la llama resplandezca.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Por tanto favor tus plantas...</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l n="220">Eso no; a mis brazos llega,</l>
             <l>y pues a Jerusalén</l>
@@ -332,56 +477,71 @@
             <l>por si acaso les consuela</l>
             <l>ver que lo que sienten siento,</l>
             <l n="240">repito con todas ellas.</l>
-          </sp><sp who="#candaces #pastor-1 #pastor-2">
+          </sp>
+          <sp who="#candaces #pastor-1 #pastor-2">
             <speaker>ELLA y VOCES</speaker>
             <stage>Cantan.</stage>
             <l>¡Misericordia, Señor!</l>
             <l>¡Clemencia, Señor, clemencia!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Queda en paz, que a obedecerte</l>
             <l>tan a toda diligencia</l>
             <l n="245">iré, que de mi partida</l>
             <l>sea síncopa la vuelta.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Pues sea diciendo (porque</l>
             <l>todos lo que temes teman)</l>
             <l>que el conflito en que se halla</l>
             <l n="250">toda esta fábrica inmensa</l>
             <l>es que ella o su autor espiran.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Y añadamos, porque sea</l>
             <l>más, al eco de sus voces</l>
             <l>el gemido de las nuestras,</l>
             <l n="255">diciendo con todos, cuando</l>
             <l>himnos y lamentos mezclan.</l>
-          </sp><sp who="#candaces #behomud">
+          </sp>
+          <sp who="#candaces #behomud">
             <speaker>LOS DOS</speaker>
             <l>Misericordia, Señor.</l>
-          </sp><sp who="#música #pastor-1 #pastor-2">
+          </sp>
+          <sp who="#música #pastor-1 #pastor-2">
             <speaker>MÚSICA y VOCES</speaker>
             <l>Misericordia, Señor.</l>
-          </sp><sp who="#candaces #behomud">
+          </sp>
+          <sp who="#candaces #behomud">
             <speaker>LOS DOS</speaker>
             <l>¡Clemencia, Señor, clemencia!</l>
-          </sp><sp who="#música #pastor-1 #pastor-2">
+          </sp>
+          <sp who="#música #pastor-1 #pastor-2">
             <speaker>MÚSICA y VOCES</speaker>
             <l n="260">¡Clemencia, Señor, clemencia!</l>
-          </sp><sp who="#candaces #behomud">
+          </sp>
+          <sp who="#candaces #behomud">
             <speaker>LOS DOS</speaker>
             <l>Que espira su autor o espira.</l>
-          </sp><sp who="#candaces #behomud #música #pastor-1 #pastor-2">
+          </sp>
+          <sp who="#candaces #behomud #música #pastor-1 #pastor-2">
             <speaker>TODOS</speaker>
             <l>Toda la Naturaleza.</l>
-          </sp><sp who="#candaces #behomud #música #pastor-1 #pastor-2">
+          </sp>
+          <sp who="#candaces #behomud #música #pastor-1 #pastor-2">
             <speaker>JUNTOS TODOS</speaker>
             <l>¡Misericordia, Señor!</l>
             <l>¡Clemencia, Señor, clemencia!</l>
             <l n="265">Que espira su autor o espira</l>
             <l>toda la Naturaleza.</l>
-          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Repiten la copla, y con esta repetición, sonando a un tiempo música y terremoto, se van los dos, y sale el DEMONIO, vestido de pieles.</stage><sp who="#demonio">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Repiten la copla, y con esta repetición, sonando a un tiempo música y terremoto, se van los dos, y sale el DEMONIO, vestido de pieles.</stage>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¿«Que espira su autor o espira,</l>
             <l>toda la Naturaleza»?</l>
@@ -444,7 +604,11 @@
             <l n="325">pirata a un tiempo y bandida</l>
             <l>de sentidos y potencias,</l>
             <l part="I">atiende a mi voz!</l>
-          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Sale PITONISA.</stage><sp who="#pitonisa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Sale PITONISA.</stage>
+          <sp who="#pitonisa">
             <speaker>[PITONISA]</speaker>
             <l part="F">¿Quién eres,</l>
             <l>¡oh tú!, que con tal violencia,</l>
@@ -453,7 +617,8 @@
             <l>más que me atraes con la voz</l>
             <l>con el aspecto me ausentas?</l>
             <l>¿Quién eres, pues, y qué quieres?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Yo soy, Pitonisa bella,</l>
             <l n="335">aquél espíritu noble</l>
@@ -462,10 +627,12 @@
             <l>bien que no perdió la ciencia</l>
             <l>cuya plenitud, ninguno</l>
             <l n="340">sabe mejor que tú mesma.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="I">¿Yo mesma?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">Sí, que no hay</l>
             <l>criatura que más me deba</l>
@@ -675,7 +842,8 @@
             <l>caribe de Dios le beba,</l>
             <l>recibiendo en vino y pan</l>
             <l>su carne y su sangre mesma.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>No solo atenta, Lucero,</l>
             <l n="550">pero absorta, más que atenta,</l>
@@ -689,18 +857,24 @@
             <l>tan próxima la experiencia,</l>
             <l>que de esquilas y balidos</l>
             <l n="560">se escuchan los ecos cerca.</l>
-          </sp><stage>Dentro esquilas y VOCES de pastores, BEHOMUD, CUIDADO, y el DESCUIDO.</stage><sp who="#cuidado">
+          </sp>
+          <stage>Dentro esquilas y VOCES de pastores, BEHOMUD, CUIDADO, y el DESCUIDO.</stage>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <l>Echa por aquí, Descuido.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l>Cuidado, ¿qué me atormentas</l>
             <l part="I">siempre de prisa?</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <l part="F">¿Qué mucho,</l>
             <l>si siempre estás tú de flema?</l>
-          </sp><stage>Las esquilas, y VOCES.</stage><sp who="#pitonisa">
+          </sp>
+          <stage>Las esquilas, y VOCES.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="565">Y aun se ven, pues ya de aquel</l>
             <l>ribazo mirar se deja</l>
@@ -708,7 +882,9 @@
             <l>que como que se despeña,</l>
             <l>porque el sol no le derrita,</l>
             <l n="570">viene venciendo la cuesta.</l>
-          </sp><stage>Dentro VOCES, y ruido.</stage><sp who="#pastor-1 #pastor-2">
+          </sp>
+          <stage>Dentro VOCES, y ruido.</stage>
+          <sp who="#pastor-1 #pastor-2">
             <speaker>VOCES</speaker>
             <l>Por aquí una gran maraña</l>
             <l>de inútiles hojas secas,</l>
@@ -717,7 +893,8 @@
             <l n="575">embarazando el camino,</l>
             <l>impide que pasar pueda</l>
             <l>sin peligro la carroza.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Dentro.</stage>
             <l>No hay peligro que no venza</l>
@@ -725,7 +902,8 @@
             <l n="580">la peregrinación nuestra;</l>
             <l>y así, atropellando este,</l>
             <l>pasarle a pie será fuerza.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>También por estotra parte,</l>
             <l>a pesar de incultas breñas,</l>
@@ -736,14 +914,17 @@
             <l>Cuando no supiera yo</l>
             <l n="590">quién es el que viene en ella,</l>
             <l>su grandeza lo diría.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>Aún no es su mayor grandeza</l>
             <l>el fausto y el aparato.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¿De qué has quedado suspensa?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="595">De ver que un blanco cordero,</l>
             <l>si bien percibo las señas,</l>
@@ -754,17 +935,20 @@
             <l>es el manso a quien siguiendo</l>
             <l>vienen las demás ovejas</l>
             <l part="I">de todo el rebaño.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">Ese</l>
             <l>es el que elegido llevan</l>
             <l part="I">al sacrificio.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="605" part="F">Pues ¿cómo</l>
             <l>le eligen, para que muera,</l>
             <l>siendo ese cordero el manso?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>No ahora en eso te detengas,</l>
             <l>que manso y a sacrificio,</l>
@@ -779,11 +963,13 @@
             <l>les da de balde la yerba,</l>
             <l>vamos a empezar nosotros</l>
             <l n="620">nuestras sañudas propuestas.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>Dices bien. ¡A tus astucias</l>
             <l part="I">Lucero!</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">Tú, a tus cautelas,</l>
             <l>Pitonisa, que si haces</l>
@@ -794,67 +980,89 @@
             <l>de estacadas redes cercan</l>
             <l>los rediles, miraré</l>
             <l n="630">por dónde podré romperlas.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>Ya llegan; a retirarnos</l>
             <l>porque más seguros duerman</l>
             <l>de que hay fieras en el monte</l>
             <l>si ven las pieles de fieras.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l n="635">Dices bien, y así, cuando ellos</l>
             <l part="I">dicen...</l>
-          </sp><sp who="#cuidado #descuido #música">
+          </sp>
+          <sp who="#cuidado #descuido #música">
             <speaker>UNOS</speaker>
             <l part="F">¡Al valle, a la selva!</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Digan también nuestros ecos...</l>
-          </sp><stage>OTROS y los dos dicen juntos.</stage><sp who="#pitonisa #demonio #behomud #pastor-1 #pastor-2 #música">
+          </sp>
+          <stage>OTROS y los dos dicen juntos.</stage>
+          <sp who="#pitonisa #demonio #behomud #pastor-1 #pastor-2 #música">
             <speaker>[LOS DOS y OTROS]</speaker>
             <l>¡A la cumbre, a la aspereza!</l>
-          </sp><sp who="#behomud #pastor-1 #pastor-2 #música">
+          </sp>
+          <sp who="#behomud #pastor-1 #pastor-2 #música">
             <speaker>OTROS</speaker>
             <l>¡A la cumbre, a la aspereza!</l>
-          </sp><sp who="#cuidado #descuido #música">
+          </sp>
+          <sp who="#cuidado #descuido #música">
             <speaker>UNOS</speaker>
             <l n="640">Donde descanse el ganado.</l>
-          </sp><sp who="#behomud #pastor-1 #pastor-2 #música">
+          </sp>
+          <sp who="#behomud #pastor-1 #pastor-2 #música">
             <speaker>OTROS</speaker>
             <l>Donde descanse el ganado.</l>
-          </sp><sp who="#pitonisa #demonio">
+          </sp>
+          <sp who="#pitonisa #demonio">
             <speaker>LOS DOS</speaker>
             <l>Donde el ganado perezca.</l>
-          </sp><sp who="#behomud #pastor-1 #pastor-2 #música">
+          </sp>
+          <sp who="#behomud #pastor-1 #pastor-2 #música">
             <speaker>OTROS</speaker>
             <l>Donde el ganado perezca.</l>
-          </sp><sp who="#cuidado #descuido #música">
+          </sp>
+          <sp who="#cuidado #descuido #música">
             <speaker>UNOS</speaker>
             <l>Al llano, a la cumbre, al valle.</l>
-          </sp><sp who="#behomud #pastor-1 #pastor-2 #música">
+          </sp>
+          <sp who="#behomud #pastor-1 #pastor-2 #música">
             <speaker>OTROS</speaker>
             <l n="645">A la espesura, a la selva.</l>
-          </sp><sp who="#cuidado #descuido #música">
+          </sp>
+          <sp who="#cuidado #descuido #música">
             <speaker>UNOS</speaker>
             <l>Donde descanse el ganado.</l>
-          </sp><sp who="#behomud #pastor-1 #pastor-2 #música">
+          </sp>
+          <sp who="#behomud #pastor-1 #pastor-2 #música">
             <speaker>OTROS</speaker>
             <l>Donde el ganado perezca.</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <stage>Dentro.</stage>
             <l>Echa por aquí, Descuido.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <stage>Dentro.</stage>
             <l>Cuidado, ¿qué me atormentas,</l>
             <l part="I">siempre de prisa?</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <stage>Dentro.</stage>
             <l n="650" part="F">¿Qué mucho,</l>
             <l>si siempre estás tú de flema?</l>
-          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Con esta repetición, salen BEHOMUD, el CUIDADO y el DESCUIDO, y PASTORES.</stage><sp who="#behomud">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Con esta repetición, salen BEHOMUD, el CUIDADO y el DESCUIDO, y PASTORES.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>¡Oh gran Dios de Israel! Tu fe,</l>
             <l>¿qué riesgo habrá que no venza?</l>
@@ -878,39 +1086,52 @@
             <l>el nudado recinto de las redes,</l>
             <l>que junta nos la tenga</l>
             <l>para marchar luego que el alba venga.</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <l>Bien de las ansias mías</l>
             <l n="675">la paz, señor, de tu descanso fías.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Id todos, id con él para ayudalle.</l>
-          </sp><sp who="#pitonisa #behomud #cuidado #descuido #demonio #pastor-1 #pastor-2 #música">
+          </sp>
+          <sp who="#pitonisa #behomud #cuidado #descuido #demonio #pastor-1 #pastor-2 #música">
             <speaker>TODOS</speaker>
             <l>No hay ninguno, que prompto no se halle</l>
             <l>a conseguir tu agrado.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Ya le lleváis, pues vais con mi Cuidado.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l n="680">Ahora bien: aunque yo nunca le espero,</l>
             <l>esta vez al Cuidado seguir quiero.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="I">¿Dónde vas tú?</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l part="F">También a obedecerte.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>No hay para qué, bien puedes detenerte,</l>
             <l>que quiero que conmigo</l>
             <l part="I">te quedes tú.</l>
-          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Vanse los PASTORES.</stage><sp who="#descuido">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Vanse los PASTORES.</stage>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l part="M">¿Yo?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="685" part="F">Sí, por si consigo</l>
             <l>ver, habiendo fiado</l>
@@ -925,7 +1146,8 @@
             <l n="695">aunque duerma el Descuido, duerme en vela,</l>
             <l>pues de sentidos falto</l>
             <l>aun la misma quietud le es sobresalto.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l>Yo no entiendo esa historia;</l>
             <l>solo sé que soy flaco de memoria,</l>
@@ -933,7 +1155,8 @@
             <l>Señor, entre el Descuido y el Cuidado,</l>
             <l>es, que grande y pequeño,</l>
             <l>iguales son lo que les dura el sueño.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Pues seamos iguales,</l>
             <l n="705">o bien soñemos bienes o bien males.</l>
@@ -943,26 +1166,33 @@
             <l>esta noche mi tienda de campaña</l>
             <l n="710">habrá de ser, y el catre de su lecho</l>
             <l part="I">esta peña.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l part="F">¿De más honra y provecho</l>
             <l>no será un almohadón de la carroza,</l>
             <l>que atascada entre el légamo y la broza</l>
             <l>del pantano quedó, mientras la gente</l>
             <l part="I">no acaba de sacarla?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="715" part="F">Cuerdamente</l>
             <l>has prevenido; ve por él volando.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l>El Descuido no vuela; pero andando,</l>
             <l>«almohadón, almohadón» iré diciendo</l>
             <l>que así no errar a lo que voy pretendo.</l>
             <l n="720">Almohadón; mas ¿para qué es la gana</l>
             <l>de estudiar hoy lo que he de errar mañana?</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="7"><stage>Vase.</stage><sp who="#behomud">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Vase.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Ya que solo he quedado,</l>
             <l>arbitrio del Descuido y del Cuidado,</l>
@@ -991,15 +1221,18 @@
             <l>que hay escondido enigma reservado</l>
             <l>en ir a vuestro altar sacrificado,</l>
             <l>¿cuándo, Señor, sabrá lo que predice?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Dentro cantando en tono triste, con cadencias del llanto.</stage>
             <l>¡Ay mísera de mí! ¡Ay infelice!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="750">Mas ¿qué triste lamento</l>
             <l>es el que esparce en lástimas el viento?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>El que fingiendo el llanto de la hiena,</l>
             <l>tu discurrir le ha hecho verdad la pena;</l>
@@ -1007,7 +1240,8 @@
             <stage>Canta.</stage>
             <l n="755">¡Ay mísera de mí! ¡Ay infelice!</l>
             <l>¡Ay mísera de mí! ¡Ay infelice!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>A esta parte parece</l>
             <l>que se formó el gemido;</l>
@@ -1017,7 +1251,8 @@
             <l>pues es fuerza buscalla y socorrella,</l>
             <l>que a mi valor desdice</l>
             <l part="I">mujer y desamparo.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>En estilo recitativo, llorando.</stage>
             <l part="F">¡Ay infelice</l>
@@ -1025,12 +1260,17 @@
             <l>de la noche asaltada,</l>
             <l>de fieras en un monte amenazada,</l>
             <l>se halla sin luz, sin senda y sin camino!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>No soy quien soy si no me determino</l>
             <l part="I">a ir en socorro suyo.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Vase.</stage><sp who="#pitonisa">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Vase.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Representa.</stage>
             <l n="770" part="F">Hacia aquí viene;</l>
@@ -1039,7 +1279,8 @@
             <l>valiéndome a contrario de otro arte,</l>
             <l>al llanto de la hiena</l>
             <l n="775">sucederá la voz de la sirena.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Dentro.</stage>
             <l>Triste gemido, ya intrincadas ramas</l>
@@ -1049,11 +1290,13 @@
             <l n="780">O si me llamas, ¿para qué me huyes?</l>
             <l>Vuelve al suspiro en que tu queja arguyes;</l>
             <l>llévame tú a reparar tu daño.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Canta en tono alto y alegre dentro, al otro lado.</stage>
             <l>¡Hola, hau! ¡Ah del rebaño!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Dentro a otra parte.</stage>
             <l>Pero ¿qué es lo que escucho?</l>
@@ -1061,7 +1304,8 @@
             <l>pues otra voz más dulce y más sonora</l>
             <l>alegre canta lo que aquella llora;</l>
             <l>vuelva a escuchar, por si es que yo me engaño.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Cantado.</stage>
             <l>¡Hola, hau! ¡Ah del rebaño!</l>
@@ -1075,7 +1319,11 @@
             <l>nievas, buscando el abril,</l>
             <l>ven a mi voz, que siguiéndome a mí,</l>
             <l>lo feliz trocarás por lo infeliz.</l>
-          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Sale BEHOMUD.</stage><sp who="#behomud">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Sale BEHOMUD.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="800">Mi espíritu este acento tras sí lleva,</l>
             <l>que si la una enternece, la otra eleva.</l>
@@ -1083,7 +1331,9 @@
             <l>yendo a quien su descanso a gozar llama,</l>
             <l>y no a quien llama a reparar su daño?</l>
             <l part="I">Y así, tras esta...</l>
-          </sp><stage>Canta PITONISA.</stage><sp who="#pitonisa">
+          </sp>
+          <stage>Canta PITONISA.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="805" part="F">¡Hola, hau! ¡Ah del rebaño!</l>
             <l>No a esotro confín te vuelvas,</l>
@@ -1104,12 +1354,17 @@
             <l>delicias en que elegir.</l>
             <l>Ven, pues, ven, que siguiéndome a mí,</l>
             <l>lo feliz trocarás por lo infeliz.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Bien me aconsejas; seguiré tu canto;</l>
             <l n="825">no siempre queda ventajoso el llanto.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Vase.</stage><sp who="#pitonisa">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Vase.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Representa PITONISA.</stage>
             <l>Hacia aquí vuelve; pero aquí tampoco</l>
@@ -1118,8 +1373,12 @@
             <l>perdiéndose él, se pierda en busca suya</l>
             <l n="830">toda su gente, y sin pastores huya</l>
             <l>destrozado del lobo su rebaño.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Vase.</stage><sp who="#behomud">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Vase.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Dentro.</stage>
             <l>Nuevo prodigio extraño</l>
@@ -1130,14 +1389,20 @@
             <l>Mal con ambos afectos correspondes,</l>
             <l>que favor y crueldad frase es que dice</l>
             <l part="I">contradición, y...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>A otra parte.</stage>
             <l part="F">¡Ay mísera, infelice!</l>
-          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Sale BEHOMUD.</stage><sp who="#behomud">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Sale BEHOMUD.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="840">Perdido he vuelto a dar donde primero.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>¡Oh tú!, quienquiera que eres pasajero,</l>
             <l>que a ampararme venías,</l>
@@ -1150,12 +1415,14 @@
             <l>que de zarzas y troncos el quebranto</l>
             <l n="850">en quien rendida quedo</l>
             <l>es tal, que dél salir por mí no puedo.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>¿Qué duda el valor mío?</l>
             <l>Del natural afecto acuda el brío,</l>
             <l>más que al deleite, al daño.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>A un lado.</stage>
             <stage>Canta.</stage>
@@ -1172,19 +1439,23 @@
             <l n="865">solo en dejarte servir,</l>
             <l>ven, pues, ven, que siguiéndome a mí</l>
             <l>lo feliz trocarás por lo infeliz.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>¿Quién deja de averiguar</l>
             <l>desta fe el piadoso fin?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>A otro lado.</stage>
             <l n="870">¡Ay mísera de mí!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>¿Ni quién, oyendo esta queja,</l>
             <l>a ella deja de acudir?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>A un lado.</stage>
             <l>Siguiéndome a mí,</l>
@@ -1192,55 +1463,65 @@
             <stage>A otro lado.</stage>
             <l n="875">No siguiéndome a mí,</l>
             <l>será trocar lo noble por lo vil.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>¿Qué acero entre dos imanes</l>
             <l>tirado, por acudir</l>
             <l>a entrambos, no va a ninguno,</l>
             <l part="I">como yo, oyendo...</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <stage>Dentro.</stage>
             <l n="880" part="F">Venid,</l>
             <l>venid a mi voz, pastores,</l>
             <l part="I">que un fiero monstruo...</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">¿Qué oí?</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <stage>Dentro.</stage>
             <l>...buscando a quien devorar,</l>
             <l>anda rondando el redil.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="885">Esta es la voz del Cuidado,</l>
             <l>ya aquí no hay que discurrir,</l>
             <l>que donde el Cuidado llama</l>
             <l>es donde debo acudir</l>
             <l part="I">antes que todo.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">Eso fuera</l>
             <l n="890">si te dejara salir</l>
             <l>monte y noche antes que logre</l>
             <l>el Lucero destruir</l>
             <l part="I">todo el rebaño.</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <stage>Dentro.</stage>
             <l part="F">Soltad</l>
             <l>los perros y desceñid</l>
             <l part="I">las hondas.</l>
-          </sp><sp who="#pastor-1 #pastor-2">
+          </sp>
+          <sp who="#pastor-1 #pastor-2">
             <speaker>VOCES</speaker>
             <l n="895" part="F">¡Al risco, al valle!</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <l>Ven, Behomud, ven a asistir</l>
             <l>donde con tu vista alienten</l>
             <l part="I">tus pastores.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">¡Ay de mí!,</l>
             <l>que la noche y lo fragoso</l>
@@ -1251,10 +1532,15 @@
             <l>siendo acto de tu fe el fin</l>
             <l n="905">de mi peregrinación,</l>
             <l part="I">¿no habrá quien me ampare?</l>
-          </sp></div><div type="scene" resp="#rojas" n="13"><stage>Música, y ÁNGEL sale.</stage><sp who="#ángel">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Música, y ÁNGEL sale.</stage>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Sí.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>¿Quién? ¿Cuándo? Yo... mas ¿qué es esto?</l>
             <l>¡Vista y aliento perdí!</l>
@@ -1262,19 +1548,23 @@
             <l n="910">la que abrasándome allí</l>
             <l>aquí me pasma, trocando</l>
             <l>el pronunciar en gemir?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>¿Qué divina luz es, cielos,</l>
             <l>la que alumbrándome aquí</l>
             <l part="I">allí me ilumina?</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l n="915" part="F">No</l>
             <l part="I">lo examines, que eso...</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">Di.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>El acto de fe a que vas</l>
             <l>es el que lo ha de decir;</l>
@@ -1293,31 +1583,42 @@
             <l>dejando a su esfinge,</l>
             <l>y siguiéndome a mí,</l>
             <l>lo infeliz trocarás por lo feliz.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>A tanto asombro responda,</l>
             <l n="935">no el hablar, sino el sentir.</l>
-          </sp></div><div type="scene" resp="#rojas" n="14"><stage>Salen todos los PASTORES, y el CUIDADO por una parte, y por otra el DESCUIDO, con un alero del coche.</stage><sp who="#cuidado">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Salen todos los PASTORES, y el CUIDADO por una parte, y por otra el DESCUIDO, con un alero del coche.</stage>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <l>Gracias a Dios que te hallamos.</l>
-          </sp><sp who="#descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #demonio #pitonisa #música">
+          </sp>
+          <sp who="#descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #demonio #pitonisa #música">
             <speaker>TODOS</speaker>
             <l>A todos nos da una y mil</l>
             <l>veces tu mano a besar.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l>Y más que a todos, a mí,</l>
             <l n="940">que te traigo en que descanses.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>¿Pues qué es lo que traes ahí?</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l>De la carroza un alero.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="I">¿Qué dices?</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l part="F">Que como fui</l>
             <l>con prisa a servirte, en medio</l>
@@ -1334,20 +1635,24 @@
             <l n="955">a ti te busco, y así,</l>
             <l>traigo el susodicho alero</l>
             <l>en que te eches a dormir.</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <l>Calla, que este tiempo es más</l>
             <l>de atender que de reír.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="960">Bien le reprendes, Cuidado,</l>
             <l>pues solo es tiempo de ir</l>
             <l>tras aquella luz, que lleva</l>
             <l>vida y sentidos tras sí.</l>
-          </sp><sp who="#descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #demonio #pitonisa #música">
+          </sp>
+          <sp who="#descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #demonio #pitonisa #música">
             <speaker>TODOS</speaker>
             <l>Todos su norte sigamos.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l n="965">Pues venid todos, venid,</l>
             <l>que como una vez salgáis</l>
@@ -1358,57 +1663,76 @@
             <l n="970">lo infeliz trocaréis por lo feliz.</l>
             <stage>Yéndose.</stage>
             <l part="I">Venid, venid.</l>
-          </sp><sp who="#pitonisa #descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #pitonisa #música">
+          </sp>
+          <sp who="#pitonisa #descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #pitonisa #música">
             <speaker>TODOS</speaker>
             <stage>Cantando.</stage>
             <l part="F">Pues dejando su esfinge,</l>
             <l>y siguiéndote a ti,</l>
             <l>lo infeliz trocaremos a feliz.</l>
-          </sp></div><div type="scene" resp="#rojas" n="15"><stage>Vanse, y queda PITONISA.</stage><sp who="#pitonisa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Vanse, y queda PITONISA.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>¡Oh, nunca fingido hubiera</l>
             <l n="975">la incauta voz que fingí,</l>
             <l>pues, víbora, con mi misma</l>
             <l>ponzoña, yo misma a mí</l>
             <l part="I">me he dado la muerte!</l>
-          </sp></div><div type="scene" resp="#rojas" n="16"><stage>Sale el DEMONIO.</stage><sp who="#demonio">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Sale el DEMONIO.</stage>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">Y nunca</l>
             <l>hubiera sido mi ardid</l>
             <l n="980">de basilisco, que vuelve</l>
             <l>su veneno contra sí.</l>
             <l part="I">¿Quién va?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="M">¿Quién es?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">No lo sé.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="I">Ni yo.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="M">¿Pitonisa?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">Sí.</l>
             <l part="I">¿Lucero?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="M">Sí.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">¿Dónde vas?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l n="985">Si morir puedo, a morir</l>
             <l>a manos de mi rencor,</l>
             <l>mi rabia, o mi frenesí.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="I">¿Qué te ha sucedido?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">Que</l>
             <l>apenas llegué a embestir</l>
@@ -1427,7 +1751,8 @@
             <l>de cuya boca jurara</l>
             <l>que había visto salir</l>
             <l part="I">una llama.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">¡Ay! que esa llama</l>
             <l n="1005">debió de ser la que vi,</l>
@@ -1438,18 +1763,22 @@
             <l n="1010">de que a sus ángeles Dios</l>
             <l>ha de mandar asistir</l>
             <l>en sus caminos al hombre.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¿Luego no hay que proseguir</l>
             <l>tú en tus encantos, ni yo</l>
             <l part="I">mis astucias?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="M">Sí hay.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="M">¿Qué es?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="1015" part="F">Ir</l>
             <l>en su seguimiento en otro</l>
@@ -1480,28 +1809,36 @@
             <l>se hayan de contradecir</l>
             <l>con lo idólatra el hebreo,</l>
             <l>con lo apóstata el gentil.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Si una cosa es intentar</l>
             <l n="1045">y otra cosa es conseguir,</l>
             <l>intentemos el vencer</l>
             <l>y consígase el morir.</l>
             <l part="I">Vamos, pues.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">Pues sea, Lucero</l>
             <l>empezando desde aquí</l>
             <l n="1050">para mezclarnos con ellos</l>
             <l>ensayados a fingir</l>
             <l part="I">con ellos diciendo.</l>
-          </sp><sp who="#pitonisa #demonio #cuidado #descuido #ángel">
+          </sp>
+          <sp who="#pitonisa #demonio #cuidado #descuido #ángel">
             <speaker>LOS DOS y UNOS</speaker>
             <stage>Dentro.</stage>
             <l part="F">Venid, venid,</l>
             <l>y dejando su esfinge,</l>
             <l>y siguiéndome a mí,</l>
             <l n="1055">lo infeliz trocareis a lo feliz.</l>
-          </sp></div><div type="scene" resp="#rojas" n="17"><stage>Vanse.</stage><stage>Ábrese el carro de palacio y vese CANDACES sentada en real trono, y dos DAMAS a su lado cantando.</stage><sp who="#dama-1 #dama-2">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Vanse.</stage>
+          <stage>Ábrese el carro de palacio y vese CANDACES sentada en real trono, y dos DAMAS a su lado cantando.</stage>
+          <sp who="#dama-1 #dama-2">
             <speaker>DAMAS</speaker>
             <stage>Cantan.</stage>
             <l>¡Oh! ¡Cómo yace postrada,</l>
@@ -1509,55 +1846,66 @@
             <l>la emperatriz de las gentes,</l>
             <l>diciendo cuantos la ven:</l>
             <l n="1060">Jerusalén, Jerusalén!</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <stage>Dentro.</stage>
             <l>Pues no hay dolor que iguale a tu dolor,</l>
             <l>conviértete a tu Dios y tu Señor,</l>
             <l>que es el último bien.</l>
-          </sp><sp who="#candaces #dama-1 #dama-2 #música">
+          </sp>
+          <sp who="#candaces #dama-1 #dama-2 #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l>¡Jerusalén, Jerusalén!</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l n="1065">Doris ¿qué triste canción</l>
             <l part="I">es esa?</l>
-          </sp><sp who="#dama-1">
+          </sp>
+          <sp who="#dama-1">
             <speaker>DAMA 1.ª</speaker>
             <l part="F">Una que leí</l>
             <l part="I">en un libro tuyo.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l part="F">Di,</l>
             <l part="I">¿qué libro?</l>
-          </sp><sp who="#dama-1">
+          </sp>
+          <sp who="#dama-1">
             <speaker>DAMA 1.ª</speaker>
             <l part="F">Lamentación</l>
             <l>se llama, de Jeremías.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l n="1070">Algo me da que pensar</l>
             <l>que le moviera a llorar</l>
             <l>en todas sus profecías</l>
             <l>ruinas de Jerusalén.</l>
-          </sp><sp who="#dama-2">
+          </sp>
+          <sp who="#dama-2">
             <speaker>DAMA 2.ª</speaker>
             <l>Como sus cautividades</l>
             <l n="1075">fueron en varias edades,</l>
             <l>sería alguna de ellas quien</l>
             <l>a llorarla le obligó.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Dices bien; pero ahora aquí</l>
             <l>acordármelas a mí</l>
             <l part="I">no acaso parece.</l>
-          </sp><sp who="#dama-2">
+          </sp>
+          <sp who="#dama-2">
             <speaker>DAMA 2.ª</speaker>
             <l n="1080" part="F">No</l>
             <l>tus melancolías, señora,</l>
             <l>te persuadan a que pudo</l>
             <l part="I">ser más que acaso.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l part="F">No dudo</l>
             <l>que sea así; mas ¿quién ignora</l>
@@ -1601,20 +1949,26 @@
             <l>que pendiente el alma está</l>
             <l>hasta saber qué le habrá</l>
             <l>pasado en Jerusalén.</l>
-          </sp></div><div type="scene" resp="#rojas" n="18"><stage>Sale la FE.</stage><sp who="#fe">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>Sale la FE.</stage>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l n="1125">Duerme tú, que a ojos cerrados,</l>
             <l>creyendo lo que no ve,</l>
             <l>hasta su triunfo, mi fe</l>
             <l>asistirá a tus cuidados.</l>
-          </sp><sp who="#dama-1 #dama-2">
+          </sp>
+          <sp who="#dama-1 #dama-2">
             <speaker>DAMAS</speaker>
             <stage>Cantan.</stage>
             <l>¡Oh!, ¡Cómo sola y viuda,</l>
             <l n="1130">sin quien la alivie ni quien</l>
             <l>la consuele, llora y gime,</l>
             <l>oyendo una y otra vez!</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <stage>Dentro.</stage>
             <l>Jerusalén, Jerusalén,</l>
@@ -1622,33 +1976,44 @@
             <l n="1135">conviértete a tu Dios y tu Señor,</l>
             <l>que es el último bien,</l>
             <l>¡Jerusalén, Jerusalén!</l>
-          </sp><sp who="#dama-1">
+          </sp>
+          <sp who="#dama-1">
             <speaker>DAMA 1.ª</speaker>
             <l>Parece que se ha dormido.</l>
-          </sp><sp who="#dama-2">
+          </sp>
+          <sp who="#dama-2">
             <speaker>DAMA 2.ª</speaker>
             <l>Dejémosla descansar,</l>
             <l n="1140">que la cura del pesar</l>
             <l>solo el sueño la ha sabido.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>¿Qué pesadez tan crüel</l>
             <l>es la que me aflige esquiva?</l>
-          </sp></div><div type="scene" resp="#rojas" n="19"><stage>Vanse las DAMAS, y ella en sueños representa, y salen por una parte, el PUEBLO HEBREO con algunos soldados, y por otra el PUEBLO ROMANO; y entre unos, y otros, la PITONISA, a lo judío, el DEMONIO a lo romano, y en medio de ellos FILIPO, viejo venerable, vestido de antiguo sacerdote en diciendo dentro.</stage><sp who="#demonio">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Vanse las DAMAS, y ella en sueños representa, y salen por una parte, el PUEBLO HEBREO con algunos soldados, y por otra el PUEBLO ROMANO; y entre unos, y otros, la PITONISA, a lo judío, el DEMONIO a lo romano, y en medio de ellos FILIPO, viejo venerable, vestido de antiguo sacerdote en diciendo dentro.</stage>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <stage>Dentro.</stage>
             <l>¡El romano imperio viva!</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l n="1145">¡El romano imperio viva!</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Dentro.</stage>
             <l>¡Viva el pueblo de Israel!</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>¡Viva el pueblo de Israel!</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>Ya que ha logrado el ardid</l>
             <l>disfraz que nuestro deseo,</l>
@@ -1657,38 +2022,48 @@
             <l>haya encendido el tumulto</l>
             <l>de ambos bandos, avivemos</l>
             <l part="I">su llama.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">El aire infestemos</l>
             <l n="1155">contra ese piadoso culto,</l>
             <l>siempre andando a vista dél,</l>
             <l>diciendo con voz altiva:</l>
-          </sp><sp who="#pueblo-romano #demonio #fe #filipo">
+          </sp>
+          <sp who="#pueblo-romano #demonio #fe #filipo">
             <speaker>UNOS</speaker>
             <l>El romano imperio viva.</l>
-          </sp><sp who="#pueblo-hebreo #pitonisa #candaces">
+          </sp>
+          <sp who="#pueblo-hebreo #pitonisa #candaces">
             <speaker>OTROS</speaker>
             <l>Viva el pueblo de Israel.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l n="1160">La víctima ha de ser mía.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>Que a mí se me entregue es bien.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <stage>Entre sueños.</stage>
             <l>¡Ay de ti, Jerusalén!</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="I">Teneos.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l part="M">Aparta.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">Desvía.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Aunque aventure una y mil</l>
             <l n="1165">vidas en glorioso empleo</l>
@@ -1719,107 +2094,134 @@
             <l n="1190">la nueva ley, que yo admito,</l>
             <l>que no la antigua, que él pierde;</l>
             <l part="I">con que a mí toca.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <stage>Entre sueños.</stage>
             <l part="F">¡Mortal</l>
             <l>congoja! ¡Cielos, valedme!</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="I">Pues a mí...</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">Ten el acento.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l n="1195">La voz, Filipo, suspende.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>Que si discípulo tú...</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l part="I">Que si tú secuaz...</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">...De ese</l>
             <l>que intruso Hijo de Dios, quiso</l>
             <l>Dios de Palestina hacerse.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l n="1200">...De ese que en Jerusalén</l>
             <l part="I">Rey pensó aclamarse.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">¿Quieres</l>
             <l part="I">morir como él?</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l part="F">¿Imaginas</l>
             <l>que yo he de vengar su muerte?</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>Fácil será a mis rencores</l>
             <l part="I">conseguirlo.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l n="1205" part="F">No lo intentes,</l>
             <l>que no fácil a mis iras</l>
             <l>será que al culpado vengue,</l>
             <l>cuando mi mayor anhelo</l>
             <l>es vengar al inocente.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l n="1210">Y pues nada ha de servirte...</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l>Y pues nada ha de valerte...</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>El que persuadirme quieras...</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l>El que reducirme intentes...</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>A que yo deje la anciana</l>
             <l part="I">ley, que heredé.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l n="1215" part="F">A que yo deje</l>
             <l>la adoración de mis dioses.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>Y otro sacrificio acepte,</l>
             <l>que no sea el sacrificio</l>
             <l>de mis inmoladas reses.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l n="1220">Ni consienta que ese templo</l>
             <l>ignoto Dios reverencie.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>Arderá Jerusalén</l>
             <l>en muertas cenizas leves.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l>Sí arderá, pues su huracán</l>
             <l n="1225">serán mis romanas huestes.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>Y así, huyendo de mi saña,</l>
             <l part="I">vete de mi vista.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l part="F">Vete</l>
             <l>también de la mía, que no</l>
             <l part="I">quiero oírte.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">Ni yo verte.</l>
-          </sp><sp who="#pueblo-romano #pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-romano #pueblo-hebreo">
             <speaker>LOS DOS</speaker>
             <l n="1230">¿Qué esperas, pues? ¿A qué aguardas?</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>¡Oh Señor, quién mereciese</l>
             <l>ver que víctima que vino</l>
@@ -1828,41 +2230,56 @@
             <l n="1235">que decir mi fe pudiese</l>
             <l>que vino cruento cordero</l>
             <l>y incruento cordero vuelve!</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="20"><stage>Vase.</stage><sp who="#candaces">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage>Vase.</stage>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <stage>En sueños.</stage>
             <l>No desmayes, corazón,</l>
             <l>que aún hay aura que te aliente.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l n="1240">Ahora, para que veas</l>
             <l>quién de pueblo a pueblo vence,</l>
             <l>a que no entre en la ciudad</l>
             <l part="I">el indio, iré.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">Yo, a que entre.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l>¿A qué, si ya en ti cesaron</l>
             <l n="1245">del Levítico las leyes?</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>Mientras que yo otras no admito,</l>
             <l>¿quién me obligará a que cesen?</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l>Yo, el día que me declare</l>
             <l>enemigo de ambas leyes.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l n="1250">¿Qué importará, si constante</l>
             <l part="I">yo...</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l part="M">Mucho, si yo...</l>
-          </sp></div><div type="scene" resp="#rojas" n="21"><stage>Sale BEHOMUD.</stage><sp who="#behomud">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage>Sale BEHOMUD.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">Impaciente</l>
             <l>Romano Pueblo, y Hebreo,</l>
@@ -1873,7 +2290,8 @@
             <l>que según tarda parece</l>
             <l>que es, trayéndola el Cuidado,</l>
             <l>el Descuido quien la lleve.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l n="1260">No te admires, oriental</l>
             <l>joven, que al más noble huésped</l>
@@ -1884,104 +2302,134 @@
             <l>mi cólera; allá el hebreo,</l>
             <l>que mayor espera tiene,</l>
             <l part="I">te lo dirá.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">Sí dirá,</l>
             <l>y sin perder tiempo; vente</l>
             <l n="1270">conmigo, que en el camino</l>
             <l part="I">lo sabrás.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l part="F">Pues ¿dónde quieres</l>
             <l part="I">que contigo vaya?</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">Al templo</l>
             <l>a que su voto celebre.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l>¿A qué templo si, ya muerta</l>
             <l n="1275">tu sinagoga, no tienes</l>
             <l>según las contrariedades</l>
             <l>de tus divididas gentes,</l>
             <l>ni templo, ni ara, ni altar?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Ya es muy otro caso este:</l>
             <l n="1280">¿muerta está la sinagoga?</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l>Sí, y pues a la oblación de ese</l>
             <l>sacrificio le ha faltado</l>
             <l>a quien dedicada viene</l>
             <l part="I">lógrala en mi templo.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">No</l>
             <l n="1285">haré tal, que si de oriente</l>
             <l>por no celebrar en templo</l>
             <l>que fue gentil, vengo a este</l>
             <l>¿cómo de este iré al gentil?</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l>Dándote yo una y mil muertes</l>
             <l n="1290">si no adoras a mis dioses.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>No harás, que yo defenderle</l>
             <l part="I">sabré.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">También sabré yo</l>
             <l>sentir que tú me defiendes,</l>
             <l>mientras no sé qué entreoí</l>
             <l part="I">de la sinagoga.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l n="1295" part="F">Advierte</l>
             <l>que también sabré quitarte</l>
             <l part="I">la vida yo.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l part="F">Y yo oponerme</l>
             <l part="I">en su defensa.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">¿Quién vio</l>
             <l>tan equívoco accidente</l>
             <l n="1300">como, por matarme dos,</l>
             <l>ser dos los que me defienden?</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="I">Conmigo ven.</l>
-          </sp><sp who="#pueblo-romano">
+          </sp>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l part="F">Ven conmigo.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Sin que uno ni otro me lleve,</l>
             <l>iguales dejaré a entrambos.</l>
-          </sp><sp who="#pueblo-hebreo #pueblo-romano">
+          </sp>
+          <sp who="#pueblo-hebreo #pueblo-romano">
             <speaker>LOS DOS</speaker>
             <l part="I">¿De qué suerte?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="1305" part="F">De esta suerte:</l>
             <l>que osadamente librarme</l>
             <l>no es huir cobardemente.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="22"><stage>Vase.</stage><sp who="#pueblo-romano">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage>Vase.</stage>
+          <sp who="#pueblo-romano">
             <speaker>ROMANO</speaker>
             <l>Aunque tus plantas sean alas,</l>
             <l part="I">te he de alcanzar.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="23"><stage>Vase.</stage><sp who="#pueblo-hebreo">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage>Vase.</stage>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">Aunque vueles</l>
             <l n="1310">con las alas de tus plumas,</l>
             <l part="I">he de seguirte.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="24"><stage>Vase.</stage><sp who="#candaces">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
+          <stage>Vase.</stage>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <stage>Despierta.</stage>
             <l part="F">¡Oh, aleves,</l>
@@ -1997,7 +2445,11 @@
             <l>de mí misma, mientras llegue</l>
             <l>a cobrarme en mis sentidos,</l>
             <l>¡valedme, Cielos, valedme!</l>
-          </sp></div><div type="scene" resp="#rojas" n="25"><stage>Ciérrase la aparición, y sale el DEMONIO, y PITONISA.</stage><sp who="#demonio">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
+          <stage>Ciérrase la aparición, y sale el DEMONIO, y PITONISA.</stage>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>No mal conseguido habemos</l>
             <l n="1325">hasta aquí ver que se mueven</l>
@@ -2011,7 +2463,8 @@
             <l>a la ligera se vuelve</l>
             <l>a consultar con Candaces</l>
             <l part="I">lo que ha de hacer.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="1335" part="F">Bien se infiere</l>
             <l>de que de solo el Cuidado</l>
@@ -2020,7 +2473,8 @@
             <l>pues la carroza previene</l>
             <l n="1340">la demás familia, y solos</l>
             <l>los dos en ella se meten.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Pues si él se lleva el Cuidado,</l>
             <l>fuerza es que al Descuido deje</l>
@@ -2034,7 +2488,8 @@
             <l>solicitar detenerle,</l>
             <l>que no siempre ha de tener;</l>
             <l>quien le alumbre y quien le adiestre.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>Pues no bastó de mi voz</l>
             <l n="1355">ni lo triste ni lo alegre</l>
@@ -2043,8 +2498,12 @@
             <l>Veamos si tiene más fuerza</l>
             <l>el encanto en las mujeres,</l>
             <l n="1360">que en el oído, en la vista.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="26"><stage>Vase.</stage><sp who="#demonio">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
+          <stage>Vase.</stage>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Yo ahora al rebaño me acerque</l>
             <l>a ver qué disposición</l>
@@ -2055,48 +2514,61 @@
             <l>donde entre las demás reses,</l>
             <l>despedazando el cordero,</l>
             <l>toda mi ojeriza vengue.</l>
-          </sp><sp who="#pastor-1 #pastor-2">
+          </sp>
+          <sp who="#pastor-1 #pastor-2">
             <speaker>PASTORES</speaker>
             <stage>Dentro.</stage>
             <l part="I">¿Descuido?</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <stage>Dentro.</stage>
             <l part="M">¿Quién llama?</l>
-          </sp><sp who="#pastor-1">
+          </sp>
+          <sp who="#pastor-1">
             <speaker>PASTOR 1.º</speaker>
             <stage>Dentro.</stage>
             <l n="1370" part="F">Mira</l>
             <l>que anda en el ejido gente.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <stage>Dentro.</stage>
             <l>Yo lo veré en despertando.</l>
-          </sp><sp who="#pastor-2">
+          </sp>
+          <sp who="#pastor-2">
             <speaker>PASTOR 2.º</speaker>
             <stage>Dentro.</stage>
             <l>¡Corre a apartarla, no llegue</l>
             <l>y se lleve alguna oveja!</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <stage>Dentro.</stage>
             <l n="1375">Pardiez, como no me lleve</l>
             <l>a mí, donde haya de aquello</l>
             <l>de despertar a quien duerme,</l>
             <l>¡mas que se lleve el rebaño!</l>
-          </sp></div><div type="scene" resp="#rojas" n="27"><stage>Salen algunos PASTORES y el DESCUIDO.</stage><sp who="#pastor-1 #pastor-2">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
+          <stage>Salen algunos PASTORES y el DESCUIDO.</stage>
+          <sp who="#pastor-1 #pastor-2">
             <speaker>PASTORES</speaker>
             <l part="I">Hacia allí está.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">Aquí conviene</l>
             <l n="1380">fingir alguna deshecha.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l>Hombre u Demonio, ¿quién eres,</l>
             <l>que sin querer que me duerma</l>
             <l>has querido que te sueñe?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>No os enojéis: extranjero</l>
             <l n="1385">pastor soy, que hallar pretende</l>
@@ -2105,14 +2577,17 @@
             <l>merced de que compañero</l>
             <l>vuestro sea, os seré siempre</l>
             <l part="I">fiel amigo.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l n="1390" part="F">Yo lo hiciera,</l>
             <l>mas hay dos inconvenientes.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="I">¿Qué son?</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l part="F">Tener en las caras</l>
             <l>nuestras dos trigueñas teces,</l>
@@ -2125,15 +2600,21 @@
             <l n="1400">y así idos, si no queréis</l>
             <l>que llame la demás gente,</l>
             <l>que os mate a palos y a coces.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Antes, villano, que lleguen,</l>
             <l>te habré dado muerte a ti.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l n="1405">¡Ay señores, que me mueren!</l>
             <l>¡Socorro, cielos, socorro!</l>
-          </sp></div><div type="scene" resp="#rojas" n="28"><stage>Vase, y los PASTORES.</stage><sp who="#demonio">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
+          <stage>Vase, y los PASTORES.</stage>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Ya que he llegado a valerme</l>
             <l>del Descuido Humano, y él,</l>
@@ -2142,18 +2623,24 @@
             <l>tras él en su aprisco entre,</l>
             <l>¿qué aguardo para robarle</l>
             <l part="I">dél el cordero?</l>
-          </sp></div><div type="scene" resp="#rojas" n="29"><stage>Sale la FE.</stage><sp who="#fe">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
+          <stage>Sale la FE.</stage>
+          <sp who="#fe">
             <speaker>[FE]</speaker>
             <l part="F">Detente,</l>
             <l>bárbaro, que hay otra guarda</l>
             <l n="1415">que este rebaño defiende.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¿Quién eres, que con la espada</l>
             <l>de fuego más me pareces</l>
             <l>guarda aquí de Paraíso</l>
             <l>que de rebaño? ¿Quién eres?</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l n="1420">No conocerme debiera</l>
             <l>ser causa de conocerme,</l>
@@ -2171,15 +2658,22 @@
             <l>en que más gloriosamente</l>
             <l>la fe de ti, y tus secuaces,</l>
             <l n="1435">triunfe, goce, viva y reine.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¡No más! ¡No más! ¡Que ese tiempo</l>
             <l>aun en sombras me estremece!</l>
             <l>Pero no me desconfía</l>
             <l>de que he de triunfar yo en este.</l>
-          </sp><stage>Dentro.</stage><sp who="#pastor-1 #pastor-2">
+          </sp>
+          <stage>Dentro.</stage>
+          <sp who="#pastor-1 #pastor-2">
             <l part="I">Para, para.</l>
-          </sp></div><div type="scene" resp="#rojas" n="30"><stage>Dentro, ruido, y salen BEHOMUD, y CUIDADO.</stage><sp who="#behomud">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="30">
+          <stage>Dentro, ruido, y salen BEHOMUD, y CUIDADO.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="1440" part="F">En la siempre verde esfera</l>
             <l>de aqueste florido prado,</l>
@@ -2217,13 +2711,18 @@
             <l>y así, de lo que ha pasado</l>
             <l>nada le digas, Cuidado,</l>
             <l n="1475">que hay qué hablar y hay qué callar.</l>
-          </sp><sp who="#cuidado">
+          </sp>
+          <sp who="#cuidado">
             <speaker>CUIDADO</speaker>
             <l>De todo advertido voy;</l>
             <l>y así, solo la diré</l>
             <l>que en Gaza me adelanté.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="31"><stage>Vase.</stage><sp who="#behomud">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="31">
+          <stage>Vase.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Dejadme todos: ya estoy</l>
             <l n="1480">solo a vista de Sabá,</l>
@@ -2254,26 +2753,37 @@
             <l n="1505">vado la imaginación,</l>
             <l>divertida en la lección.</l>
             <l part="I">¡Hola!</l>
-          </sp></div><div type="scene" resp="#rojas" n="32"><stage>Sale un CRIADO.</stage><sp who="#criado">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="32">
+          <stage>Sale un CRIADO.</stage>
+          <sp who="#criado">
             <speaker>CRIADO</speaker>
             <l part="M">¿Qué me mandas?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">Que</l>
             <l>un libro de esos, cualquiera</l>
             <l>que a divertir el camino</l>
             <l n="1510">traigo, me dad. Imagino</l>
-            
+
             <l>que sólo de esta manera</l>
             <l>podré el discurso vencer,</l>
             <l>o por lo menos quietar</l>
             <l>el discurrir y el pensar</l>
             <l n="1515">si pudo o no pudo ser.</l>
-          </sp></div><div type="scene" resp="#rojas" n="33"><stage>Vase el CRIADO.</stage><stage>Sale con el libro.</stage><sp who="#criado">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="33">
+          <stage>Vase el CRIADO.</stage>
+          <stage>Sale con el libro.</stage>
+          <sp who="#criado">
             <speaker>CRIADO</speaker>
             <l>Ya tienes el libro aquí.</l>
             <stage>Dale un libro y vase.</stage>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Muestra: la escritura dice</l>
             <l>del Dios de Israel; felice</l>
@@ -2300,7 +2810,11 @@
             <l>libre este instante me siento,</l>
             <l>sea aun el divertimiento</l>
             <l>quien de ti me haya acordado?</l>
-          </sp></div><div type="scene" resp="#rojas" n="34"><stage>Sale PITONISA al paño.</stage><sp who="#pitonisa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="34">
+          <stage>Sale PITONISA al paño.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="1540">Leyendo está las Verdades</l>
             <l>de quien yo tanto temí.</l>
@@ -2328,7 +2842,8 @@
             <l>y ardientes las suavidades,</l>
             <l>con cuyo rigor turbar</l>
             <l n="1565">su discurso he de poder.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Todo el esfuerzo del leer</l>
             <l>voy convirtiendo en dudar.</l>
@@ -2345,13 +2860,15 @@
             <l>que por las iniquidades</l>
             <l>nuestras, quiso en sus piedades</l>
             <l>morir, porque morir quiso...»</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="1580">¿A qué aguardo ya entre tanto</l>
             <l>miedo? ¡Cómo se apresura!</l>
             <l>Turbe su ansia mi hermosura,</l>
             <l>ciegue su atención mi canto.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Lee.</stage>
             <l>«Nuestro castigo sobre él</l>
@@ -2364,14 +2881,19 @@
             <l>resistir tanto misterio,</l>
             <l>si no es que para sacarme</l>
             <l>de tal confusión encuentre...</l>
-          </sp></div><div type="scene" resp="#rojas" n="35"><stage>Sale cantando PITONISA.</stage><sp who="#pitonisa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="35">
+          <stage>Sale cantando PITONISA.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Canta.</stage>
             <l>Quien pueda decirte</l>
             <l n="1595">que en dudas tan fuertes</l>
             <l>quien más las apura</l>
             <l>menos las entiende.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Repite.</stage>
             <l>«¿Quien pueda decirte</l>
@@ -2412,17 +2934,20 @@
             <l>a la que menos le importa</l>
             <l>la que más le pertenece;</l>
             <l part="I">y así, la lección...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">Aguarda.</l>
             <stage>Aparte.</stage>
             <l n="1635">¿Cómo el encanto consiente</l>
             <l>de mi voz, y mi hermosura</l>
             <l part="I">tal desaire?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">¿Qué pretendes?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Canta.</stage>
             <l>Que lo que ninguno</l>
@@ -2445,7 +2970,8 @@
             <l>en pechos fieles</l>
             <l>el que uno hace obliga</l>
             <l n="1655">a que otro se llegue.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Porque no es todo uno, monte,</l>
             <l>sombra, canto, y que se mezclen</l>
@@ -2465,7 +2991,8 @@
             <l>que la sangre...; mas no intente</l>
             <l>puesto que nada he de oírte,</l>
             <l>en nada satisfacerte.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>Pues bástame a mí saber,</l>
             <l n="1675">ya que te opones rebelde</l>
@@ -2493,10 +3020,15 @@
             <l>tan cruel lazo y aleve,</l>
             <l>que de mi propia voz nace</l>
             <l n="1695">y contra mi voz se vuelve?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="I">¿Qué tienes?</l>
-          </sp></div><div type="scene" resp="#rojas" n="36"><stage>Chirimías y descúbrese una nube, en que trae el ÁNGEL a FILIPO.</stage><sp who="#pitonisa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="36">
+          <stage>Chirimías y descúbrese una nube, en que trae el ÁNGEL a FILIPO.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">Yo no lo sé;</l>
             <l>mas sí sé, pues confidente</l>
@@ -2515,16 +3047,22 @@
             <l n="1710">que esconde callada lluvia</l>
             <l>que lave; mas ya no puede</l>
             <l>el susto, el ansia, la angustia...</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>Ya estás adonde Dios quiere</l>
             <l>que te halle quien te desea</l>
             <l part="I">y no te conoce.</l>
-          </sp></div><div type="scene" resp="#rojas" n="37"><stage>Vase el ÁNGEL, dejando a FILIPO en el tablado, y retírase a un lado PITONISA.</stage><sp who="#pitonisa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="37">
+          <stage>Vase el ÁNGEL, dejando a FILIPO en el tablado, y retírase a un lado PITONISA.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="1715" part="F">¡Oh, pese</l>
             <l part="I">a mis iras!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">Venerable</l>
             <l>anciano, que en transparente</l>
@@ -2539,20 +3077,23 @@
             <l>su vaga esfera fatiguen</l>
             <l>y su azul campaña infesten,</l>
             <l part="I">¿quién eres?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">¡Qué bien temí!</l>
             <l>Pero retirada intente</l>
             <l n="1730">que lo que présaga el ansia</l>
             <l part="I">me avisa, estorbe.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">¿Quién eres?</l>
             <l>Pues me está diciendo el alma,</l>
             <l>que a asistir mi duda vienes,</l>
             <l>que en un piélago profundo</l>
             <l part="I">yace.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l n="1735" part="F">Bien, Behomud, lo crees;</l>
             <l>pues el Señor, que a Habacuc</l>
@@ -2571,13 +3112,16 @@
             <l>en un psalmo, y más si adviertes</l>
             <l n="1750">que quizá habrá cazador</l>
             <l part="I">que oculto...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="M">¡Ay de mí!</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="F">...te aceche.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Muy posible es que le haya,</l>
             <l>pues sin saber dónde puede</l>
@@ -2585,19 +3129,23 @@
             <l n="1755">una...; pero nada llegue</l>
             <l>a estorbarme el que yo vuelva</l>
             <l>a preguntar que quién eres.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Un enviado soy de Dios;</l>
             <l part="I">mas responde...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">¿Hay mal tan fuerte</l>
             <l part="I">como el mío?</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l n="1760" part="F">...si esas líneas</l>
             <l>que leyendo estás entiendes?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>¿Cómo he de entenderlas, cuando</l>
             <l>no hallo ninguna que llegue</l>
@@ -2612,7 +3160,8 @@
             <l>vino él, quedando el culpado</l>
             <l>libre y muerto el inocente.</l>
             <l>¿Cabe esta contrariedad?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="1775">Aquí sus dudas empiecen,</l>
             <l>ayudadas de mi hechizo</l>
@@ -2622,13 +3171,15 @@
             <l n="1780">¡Oh, quién pudiera obstinarle</l>
             <l>la propensión con que atiende</l>
             <l part="I">a la verdad!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">Considera</l>
             <l>que las dudas que pusiere</l>
             <l>no son para que me obstine,</l>
             <l n="1785">sino para que me quiete.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Pues antes que en ellas pases,</l>
             <l>dime: ¿qué pudo moverte</l>
@@ -2638,7 +3189,8 @@
             <l>sus montes de ampos vivientes,</l>
             <l>dedicado al sacrificio</l>
             <l>un manso cordero lleves?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Fue que viendo el sol sin causa</l>
             <l n="1795">natural obscurecerse,</l>
@@ -2661,7 +3213,8 @@
             <l>reino primero ministro</l>
             <l>me hallo suyo, que le lleve</l>
             <l part="I">me mandó.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="F">Pues asentado</l>
             <l n="1815">que ese cordero que ofreces</l>
@@ -2683,13 +3236,15 @@
             <l>Cristo, Hombre y Dios de las gentes,</l>
             <l>que es el cordero por quien</l>
             <l>las profecías se entienden.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Canta.</stage>
             <l>Si es Dios ¿cómo es hombre?</l>
             <stage>Al oído de BEHOMUD.</stage>
             <l n="1835">Si es Dios, ¿cómo muere?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Repite.</stage>
             <l>«Si es Dios ¿cómo es hombre?</l>
@@ -2707,18 +3262,21 @@
             <l>de que sea así: cuando llegue</l>
             <l>a morir, será forzoso,</l>
             <l>pues no podrá de otra suerte...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Canta.</stage>
             <l n="1850">Para morir hombre,</l>
             <stage>Al oído de BEHOMUD.</stage>
             <l>que sin ser Dios quede.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Repite.</stage>
             <l>«Para morir hombre,</l>
             <l>que sin ser Dios quede».</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Juntarse en una las dos</l>
             <l n="1855">naturalezas fue ardiente</l>
@@ -2734,17 +3292,20 @@
             <l n="1865">entrañas de quien merece,</l>
             <l>siendo virgen, el ser madre</l>
             <l>de Dios y hombre juntamente...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Canta.</stage>
             <l>Pues pureza y parto,</l>
             <l>¿quién juntarlas puede?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Repite.</stage>
             <l n="1870">«Pues pureza y parto,</l>
             <l>¿quién juntarlas puede?»</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>El sumo poder de Dios</l>
             <l>la concedió a esta excelente</l>
@@ -2754,37 +3315,45 @@
             <l>del parto, y no interviniese</l>
             <l>más obra que la del Santo</l>
             <l>Espíritu, que desciende.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="1880">¿Luego aquí ya me das tres</l>
             <l>a quien adorar se debe,</l>
             <l>pues cada acto de por sí</l>
             <l>digna adoración merece?</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Son tres personas, mas solo</l>
             <l part="I">un Dios.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="1885" part="F">Aguarda, detente.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <stage>Canta.</stage>
             <l>¿Tres en uno unirse</l>
             <l>y tres uno hacerse?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <stage>Repite.</stage>
             <l>«¿Tres en uno unirse</l>
             <l>y tres uno hacerse?»</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l n="1890">Sí, porque la esencia es una</l>
             <l>y tres las personas, y este</l>
             <l>verbo, que tomó la carne</l>
             <l>mortal, voluntario ofrece</l>
             <l part="I">a una cruz su vida.</l>
-          </sp><stage>Apártanse los dos a hablar.</stage><sp who="#pitonisa">
+          </sp>
+          <stage>Apártanse los dos a hablar.</stage>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">¡Ay triste!</l>
             <l n="1895">Pues ora sea que al verme</l>
@@ -2794,8 +3363,12 @@
             <l>el duro castigo llegue,</l>
             <l n="1900">sin que pueda resistir</l>
             <l>huyo como delincuente.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="38"><stage>Vase.</stage><sp who="#behomud">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="38">
+          <stage>Vase.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Convencido a tus palabras</l>
             <l>estoy, porque ya parece</l>
@@ -2805,10 +3378,12 @@
             <l>las hacía que creciesen;</l>
             <l>pero un sentimiento solo</l>
             <l part="I">me queda.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="M">¿Cuál es?</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">Que deje</l>
             <l n="1910">Candaces de lograr dicha</l>
@@ -2820,7 +3395,8 @@
             <l>ha de desear que las dichas</l>
             <l>suyas en dichas se truequen</l>
             <l part="I">de su príncipe.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="F">Ese noble</l>
             <l>cuidado, Behomud, que tienes,</l>
@@ -2834,7 +3410,8 @@
             <l>en un grande acto...: mas deje</l>
             <l>esto hasta después; y ahora</l>
             <l>solo a ti, Behomud, atiende.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="1930">Pues si creer cuanto dices</l>
             <l>y cuanto callas, resuelve</l>
@@ -2845,24 +3422,29 @@
             <l>¿a qué aguardas, que en el suave</l>
             <l>rebaño no haces que entre?</l>
             <l part="I">Ya cristiano soy.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="F">Espera,</l>
             <l>pues falta, aunque lo desees,</l>
             <l part="I">lo principal.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="1940" part="F">¿Y qué es?</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="I">Que de nuevo nazcas.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">¿Quieres</l>
             <l>que otra vez vuelva a mis dudas?</l>
             <l>El que nació, ¿cómo puede</l>
             <l part="I">volver a nacer?</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="F">Notando</l>
             <l n="1945">que no es posible que entre</l>
@@ -2871,10 +3453,12 @@
             <l>por la puerta del bautismo,</l>
             <l>que es por quien el texto entiende</l>
             <l n="1950">volver a nacer primero.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="I">¿Y qué es bautismo?</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="F">Una breve</l>
             <l>ablución, que aunque exterior</l>
@@ -2893,15 +3477,18 @@
             <l n="1965">se escuchó que dijo: «Este</l>
             <l>mi Hijo querido es, en quien</l>
             <l part="I">me complazco».</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">Y di: ¿tú puedes</l>
             <l part="I">bautizarme?</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="F">Sí, que soy</l>
             <l part="I">ministro de Dios.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">No dejes</l>
             <l n="1970">pasar un instante; allí</l>
@@ -2915,7 +3502,8 @@
             <l>pidámosle a sus cristales</l>
             <l>que uno el más puro nos preste,</l>
             <l part="I">para que yo...</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l n="1980" part="F">Falta antes</l>
             <l>catequizarte y ponerte</l>
@@ -2925,34 +3513,44 @@
             <l n="1985">márgenes, antes que llegues</l>
             <l>a la feliz agua, haré,</l>
             <l>Behomud, que industriado quedes.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Aves, montes, cielos, mares,</l>
             <l>ríos, brutos, hombres, peces,</l>
             <l n="1990">mirad si puede haber dicha</l>
             <l part="I">que a esta iguale.</l>
-          </sp></div><div type="scene" resp="#rojas" n="39"><stage>Vanse los dos, y al mismo tiempo salen el DEMONIO, y PITONISA, cada uno por su puerta.</stage><sp who="#demonio #pitonisa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="39">
+          <stage>Vanse los dos, y al mismo tiempo salen el DEMONIO, y PITONISA, cada uno por su puerta.</stage>
+          <sp who="#demonio #pitonisa">
             <speaker>DEMONIO y PITONISA</speaker>
             <l part="F">Ni si puede</l>
             <l>desdicha haber que a la mía</l>
             <l>(¡ay de mí infelice!) llegue.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="I">¿Lucero?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">¿Pitonisa?</l>
-          </sp><sp who="#pitonisa #demonio">
+          </sp>
+          <sp who="#pitonisa #demonio">
             <speaker>LOS DOS</speaker>
             <l part="I">¿Tú aquí? Pues ¿cómo?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l n="1995" part="F">Ya tu voz me avisa,</l>
             <l>y tus trémulos pasos,</l>
             <l>de asombro llenos y de brío escasos,</l>
             <l>me dicen el que igual en desventura,</l>
             <l>como tu canto fue, fue tu hermosura.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="2000">Me dicen que has tocado</l>
             <l>el último renglón de desdichado;</l>
@@ -2963,7 +3561,8 @@
             <l>cuya imagen asusta a mi desgracia,</l>
             <l>porque en él de la ley se ve de gracia</l>
             <l part="I">la venturosa seña?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">Que ha logrado</l>
             <l>el haber esparcido y derramado</l>
@@ -2975,7 +3574,8 @@
             <l n="2015">de Etiopia a estas lúgubres ciudades,</l>
             <l>adelantando aquí, ya que cobarde</l>
             <l part="I">fui allá, vine a estorbar...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">Ya llegas tarde;</l>
             <l>pues en Etiopia su esplendor se siente,</l>
@@ -2985,49 +3585,65 @@
             <stage>Mirando adentro.</stage>
             <l>dando a Behomud la seña de que se halla</l>
             <l part="I">con esa nueva ley.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">¡Qué miro! Calla;</l>
             <l>que ese asombro, ese agravio</l>
             <l part="I">ahoga el pecho.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="2025" part="F">¡A mí me anuda el labio!</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Y no solo el volcán, en que me quemo</l>
             <l part="I">temo; pero otra ira.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">También temo</l>
             <l part="I">yo mayor mal.</l>
-          </sp><sp who="#pitonisa #demonio">
+          </sp>
+          <sp who="#pitonisa #demonio">
             <speaker>LOS DOS</speaker>
             <l part="F">¿Pues qué mayor sería?</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="I">Si en mi dolor...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">Si en la desdicha mía...</l>
-          </sp><sp who="#pitonisa #demonio">
+          </sp>
+          <sp who="#pitonisa #demonio">
             <speaker>LOS DOS</speaker>
             <l n="2030">Hubiese quien juntando los procesos</l>
             <l part="I">de nuestras culpas diga.</l>
-          </sp></div><div type="scene" resp="#rojas" n="40"><stage>Sale el ÁNGEL.</stage><sp who="#ángel">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="40">
+          <stage>Sale el ÁNGEL.</stage>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">¡Venid presos!</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¡Qué espanto! ¡Qué ansia! ¡Qué susto!</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>¡Qué temor! ¡Qué mal! ¡Qué miedo!</l>
-          </sp><sp who="#pitonisa #demonio">
+          </sp>
+          <sp who="#pitonisa #demonio">
             <speaker>LOS DOS</speaker>
             <l>¿Quién eres tú, que a nosotros</l>
             <l part="I">nos prendes?</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l n="2035" part="F">Quien puede hacerlo;</l>
             <l>pues ministro de la fe</l>
@@ -3042,12 +3658,14 @@
             <l n="2045">hacer inquisición...; pero</l>
             <l>venid, que no es necesario</l>
             <l part="I">deciros más.</l>
-          </sp><sp who="#pitonisa #demonio">
+          </sp>
+          <sp who="#pitonisa #demonio">
             <speaker>LOS DOS</speaker>
             <l part="F">Pues el nuestro</l>
             <l>¿qué delito es que te obligue</l>
             <l part="I">a tal demonstración?</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Eso</l>
             <l n="2050">de que se sepa la causa</l>
@@ -3058,27 +3676,34 @@
             <l n="2055">podéis mejor responderos</l>
             <l>que yo; pues solo me toca</l>
             <l part="I">llevaros.</l>
-          </sp><sp who="#pitonisa #demonio">
+          </sp>
+          <sp who="#pitonisa #demonio">
             <speaker>LOS DOS</speaker>
             <l part="F">¡Ya no hay aliento</l>
             <l part="I">para resistir!</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="F">Pues débil</l>
             <l part="I">el valor...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="F">Flaco el esfuerzo...</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="I">Solo sabe...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="2060" part="F">Acierta solo...</l>
-          </sp><sp who="#pitonisa #demonio">
+          </sp>
+          <sp who="#pitonisa #demonio">
             <speaker>LOS DOS</speaker>
             <l>A mostrar su desaliento.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>Venid, infelices, donde</l>
             <l>otros de mis compañeros</l>
@@ -3090,7 +3715,8 @@
             <l>de la fe el cándido velo,</l>
             <l n="2070">por quien ya en anticipada</l>
             <l>gloria entonan los acentos.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <stage>Dentro.</stage>
             <l>Venid, mortales, venid,</l>
@@ -3100,34 +3726,43 @@
             <l>corriendo los días,</l>
             <l>volando los tiempos.</l>
             <l>Venid, venid a mi acento.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¿Esto más? ¿Hay tal coraje?</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="2080">¿Esto más?¿Hay tal tormento?</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>Venid, pues, que se apresura</l>
             <l>tal gloria, y sea repitiendo.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Pues aunque diga la voz.</l>
             <stage>Aparte.</stage>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>Pues aunque repita el eco.</l>
             <stage>Aparte.</stage>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="I">Tal cláusula...</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="2085" part="F">Tan cruel canto...</l>
-          </sp><sp who="#pitonisa #demonio">
+          </sp>
+          <sp who="#pitonisa #demonio">
             <speaker>LOS DOS</speaker>
             <l>No he de decir yo con ellos.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <stage>Dentro.</stage>
             <l>Venid, mortales, venid,</l>
@@ -3137,7 +3772,11 @@
             <l>corriendo los días,</l>
             <l>volando los tiempos.</l>
             <l>Venid, venid a mi acento.</l>
-          </sp></div><div type="scene" resp="#rojas" n="41"><stage>Vanse, y sale BEHOMUD, y FILIPO.</stage><sp who="#behomud">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="41">
+          <stage>Vanse, y sale BEHOMUD, y FILIPO.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Apenas, ministro grande</l>
             <l n="2095">de Dios, lavado me veo</l>
@@ -3146,7 +3785,11 @@
             <l>de Cristo, cuando esas voces,</l>
             <l>con armonioso festejo,</l>
             <l part="I">mi dicha aplauden.</l>
-          </sp></div><div type="scene" resp="#rojas" n="42"><stage>Sale el CUIDADO.</stage><sp who="#cuidado">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="42">
+          <stage>Sale el CUIDADO.</stage>
+          <sp who="#cuidado">
             <speaker>[CUIDADO]</speaker>
             <l n="2100" part="F">Señor,</l>
             <l>dame albricias, pues habiendo</l>
@@ -3156,11 +3799,13 @@
             <l n="2105">aquí te sale al encuentro</l>
             <l>con todo el real aparato</l>
             <l part="I">de su Corte.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">Vamos presto</l>
             <l part="I">a recibirla.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="F">Aunque más</l>
             <l>los pasos apresuremos,</l>
@@ -3169,7 +3814,9 @@
             <l>ya métricas armonías,</l>
             <l>que en varios distintos ecos</l>
             <l part="I">repiten.</l>
-          </sp><stage>Las chirimías, y dentro MÚSICA, y VOCES.</stage><sp who="#música #pastor-1 #pastor-2">
+          </sp>
+          <stage>Las chirimías, y dentro MÚSICA, y VOCES.</stage>
+          <sp who="#música #pastor-1 #pastor-2">
             <speaker>MÚSICA y VOCES</speaker>
             <stage>Dentro.</stage>
             <l part="F">¡Viva Candaces,</l>
@@ -3180,14 +3827,20 @@
             <l>de Jerusalén al templo!</l>
             <l n="2120">¡Vivan, vivan entrambos</l>
             <l>siglos eternos!</l>
-          </sp></div><div type="scene" resp="#rojas" n="43"><stage>Salen CANDACES, y acompañamiento.</stage><sp who="#behomud">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="43">
+          <stage>Salen CANDACES, y acompañamiento.</stage>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="I">A tus plantas...</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l part="F">A mis brazos</l>
             <l part="I">dirás mejor.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="F">Feliz llego,</l>
             <l>y tan feliz, que no solo</l>
@@ -3208,7 +3861,8 @@
             <l>como en aquel propio tiempo</l>
             <l n="2140">que lograba yo la dicha</l>
             <l>la lograbas tú y tu reino.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Justamente el feliz nombre</l>
             <l>la das de dicha, si advierto,</l>
@@ -3216,10 +3870,12 @@
             <l n="2145">autorizado proverbio,</l>
             <l>el que es la fe la mayor</l>
             <l>felicidad de los reinos.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="I">Pues sabrás...</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l part="F">Nada me digas,</l>
             <l>pues en las sombras de un sueño</l>
@@ -3243,7 +3899,9 @@
             <l>segunda luz de los cielos,</l>
             <l>ha de celebrar en una</l>
             <l part="I">ocasión dicen...</l>
-          </sp><stage>Pasa el ÁNGEL cantando, por el tablado.</stage><sp who="#ángel">
+          </sp>
+          <stage>Pasa el ÁNGEL cantando, por el tablado.</stage>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <stage>Canta.</stage>
             <l part="F">Silencio, silencio;</l>
@@ -3261,8 +3919,12 @@
             <l>y mándalo pregonar</l>
             <l>para más notorio hacerlo;</l>
             <l>silencio, silencio.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="44"><stage>Vase.</stage><sp who="#candaces">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="44">
+          <stage>Vase.</stage>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Felice el reino que goza</l>
             <l n="2185">tan heroico privilegio</l>
@@ -3279,7 +3941,8 @@
             <l n="2195">se ve, sembrando luceros-,</l>
             <l>viene, y se oye que en festivo</l>
             <l>aplauso dicen los ecos.</l>
-          </sp><sp who="#candaces #música">
+          </sp>
+          <sp who="#candaces #música">
             <speaker>ELLA y MÚSICA</speaker>
             <l>Venid, mortales, venid,</l>
             <l>al triunfo mayor,</l>
@@ -3288,26 +3951,34 @@
             <l>corriendo los días,</l>
             <l>volando los tiempos.</l>
             <l>Venid, venid a mi acento.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="2205">Salgamos a recibirla.</l>
-          </sp></div><div type="scene" resp="#rojas" n="45"><stage>Dale el estandarte y vanse acercando a la puerta por donde todos vienen.</stage><sp who="#filipo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="45">
+          <stage>Dale el estandarte y vanse acercando a la puerta por donde todos vienen.</stage>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Toma tú antes el supremo</l>
             <l>estandarte de la fe,</l>
             <l>que ha de ir delante del leño</l>
             <l>sacrosanto de la cruz</l>
             <l part="I">de la esperanza.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l n="2210" part="F">Agradezco</l>
             <l>por el más supremo honor</l>
             <l>este de cuantos poseo.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Pues llega ya, con sus voces</l>
             <l>repitan nuestros acentos.</l>
-          </sp><sp who="#candaces #música">
+          </sp>
+          <sp who="#candaces #música">
             <speaker>ELLA y MÚSICA</speaker>
             <l n="2215">Venid, mortales, venid,</l>
             <l>al triunfo mayor,</l>
@@ -3316,98 +3987,127 @@
             <l>corriendo los días,</l>
             <l n="2220">volando los tiempos.</l>
             <l>Venid, venid a mi acento.</l>
-          </sp></div><div type="scene" resp="#rojas" n="46"><stage>Con esta repetición, al son de chirimías, salen el ÁNGEL delante con la vara, con la cruz de la Santa Inquisición, y en un carro que vienen tirando el Gentilismo, el Hebraísmo, el DEMONIO y la PITONISA, la FE, que trae una cruz cubierta con un velo negro, y en descubriéndola a su tiempo, se verá por remate un cáliz y una hostia, y entre todos el DESCUIDO.</stage><sp who="#candaces">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="46">
+          <stage>Con esta repetición, al son de chirimías, salen el ÁNGEL delante con la vara, con la cruz de la Santa Inquisición, y en un carro que vienen tirando el Gentilismo, el Hebraísmo, el DEMONIO y la PITONISA, la FE, que trae una cruz cubierta con un velo negro, y en descubriéndola a su tiempo, se verá por remate un cáliz y una hostia, y entre todos el DESCUIDO.</stage>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Salve, bello resplandor.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Salve, ilustrado reflejo.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Salve, puerta de la gloria.</l>
-          </sp><sp who="#candaces #behomud #filipo">
+          </sp>
+          <sp who="#candaces #behomud #filipo">
             <speaker>LOS TRES</speaker>
             <l n="2225">Y celebren tus misterios</l>
             <l>la tierra con flores,</l>
             <l>con luces el cielo.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>La tierra con flores,</l>
             <l>con luces el cielo.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l n="2230">Salve, centro de la ley.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Salve, universal remedio.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Salve, origen de la luz.</l>
-          </sp><sp who="#candaces #behomud #filipo">
+          </sp>
+          <sp who="#candaces #behomud #filipo">
             <speaker>LOS TRES</speaker>
             <l>Y celebren tus misterios</l>
             <l>la luna con giros,</l>
             <l n="2235">el sol con luceros.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>La luna con giros</l>
             <l>el sol con luceros.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¡Que esto mi soberbia sufra!</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>¡Que mi rabia sufra esto!</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l n="2240">¡Que en tal deshonor me vea!</l>
-          </sp><sp who="#gentil">
+          </sp>
+          <sp who="#gentil">
             <speaker>GENTIL</speaker>
             <l>Yo lo erré; ya lo confieso.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l>¿Creerán que hasta de la causa</l>
             <l>por que aquí estoy no me acuerdo?</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l>Nada dilate este triunfo</l>
             <l n="2245">en que mis contrarios venzo.</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l>Toma tu sitial, señora.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l>Que es este el más propio creo,</l>
             <l>a vista de deidad donde</l>
             <l>es sacrificio el respeto.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="I">¡De ira rabio!</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l n="2250" part="F">¡De ansia gimo!</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>En mi dictamen primero</l>
             <l part="I">constante moriré.</l>
-          </sp><sp who="#gentil">
+          </sp>
+          <sp who="#gentil">
             <speaker>GENTIL</speaker>
             <l part="F">Solo</l>
             <l>haber delinquido siento.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l part="I">¿A qué aguardáis?</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l part="F">A que hagas</l>
             <l n="2255">el preciso juramento</l>
             <l>en el libro de la ley</l>
             <l>y en el sagrado madero</l>
             <l part="I">de la cruz.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l part="F">Pues ¿a qué esperas?</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <stage>Pónele un misal y una cruz a la Reina para hacer el juramento.</stage>
             <l>¿Juráis que en todos los tiempos,</l>
@@ -3416,35 +4116,43 @@
             <l>de la Religión Cristiana,</l>
             <l>arrojando y persiguiendo</l>
             <l>a todos sus enemigos?</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l n="2265">Así lo juro, y prometo</l>
             <l>por mi fe y palabra real.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Seréis dichosa con eso,</l>
             <l>y dilatará el Señor</l>
             <l>vuestra progenie al respecto</l>
             <l n="2270">de las arenas del mar,</l>
             <l>de las estrellas del cielo.</l>
-          </sp><stage>Pónense los delincuentes a un lado todos, y los van relatando como se siguen.</stage><sp who="#fe">
+          </sp>
+          <stage>Pónense los delincuentes a un lado todos, y los van relatando como se siguen.</stage>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l part="I">Empezad.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">La Pitonisa</l>
             <l>es esta, que en hechiceros</l>
             <l>encantos, supersticiosos</l>
             <l n="2275">conjuros, pacto teniendo,</l>
             <l>violentaba el albedrío.</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l>Sí lo hice, y no me arrepiento.</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l>Con pública afrenta pague</l>
             <l>su delito; echadla al fuego.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l n="2280">Éste el Lucero enemigo</l>
             <l>es, que sembró en el terreno</l>
@@ -3457,14 +4165,17 @@
             <l>es el que con piel de lobo</l>
             <l>matar intentó el cordero</l>
             <l n="2290">preparado al sacrificio.</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Sí lo hice; y no me arrepiento.</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l>De su desesperación</l>
             <l>le arrojen en el incendio.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>Éste el Hebraísmo es,</l>
             <l n="2295">que ingrato, traidor, protervo,</l>
@@ -3475,12 +4186,14 @@
             <l n="2300">que el prometido Mesías</l>
             <l>era, que a salvar el pueblo</l>
             <l>bajó del seno del Padre.</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l>Es verdad, no me arrepiento;</l>
             <l>y si mil vidas tuviera,</l>
             <l part="I">mil vidas...</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l n="2305" part="F">Calla, blasfemo;</l>
             <l>ponedle dura mordaza,</l>
@@ -3488,7 +4201,8 @@
             <l>muera en la pública llama,</l>
             <l>con general perdimiento</l>
             <l n="2310">de sus bienes y heredades.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>El Gentilismo, que ciego</l>
             <l>adoró deidades falsas,</l>
@@ -3496,7 +4210,8 @@
             <l>en sus ídolos las minas</l>
             <l n="2315">de oro, plata, cobre y hierro,</l>
             <l>este delincuente es.</l>
-          </sp><sp who="#gentil">
+          </sp>
+          <sp who="#gentil">
             <speaker>GENTIL</speaker>
             <l>Verdad es; mas me arrepiento,</l>
             <l>y lloro mi ceguedad,</l>
@@ -3509,47 +4224,58 @@
             <l n="2325">exclamó mi voz, diciendo:</l>
             <l>«Hijo de Dios era este»</l>
             <l>lo cual afirmo y confieso.</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l>Admitido en la ley nueva</l>
             <l>quede, y con el privilegio</l>
             <l n="2330">de que la viña y esotras</l>
             <l>heredades que al hebreo</l>
             <l>confiscaron se le apliquen.</l>
-          </sp><sp who="#demonio #pitonisa">
+          </sp>
+          <sp who="#demonio #pitonisa">
             <speaker>DEMONIO y PITONISA</speaker>
             <l part="I">¡Hay tal rabia!</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">¡Hay tal tormento!</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>Éste es el Descuido humano,</l>
             <l n="2335">que por errores ligeros</l>
             <l part="I">se presenta.</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l part="F">Pues de cuantos</l>
             <l>me acordare, me arrepiento.</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l part="I">Jure «de levi».</l>
-          </sp><sp who="#descuido">
+          </sp>
+          <sp who="#descuido">
             <speaker>DESCUIDO</speaker>
             <l part="F">Sí haré</l>
             <l>pero acuérdelo a su tiempo.</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l part="I">¿Falta alguien?</l>
-          </sp><sp who="#ángel #filipo">
+          </sp>
+          <sp who="#ángel #filipo">
             <speaker>ÁNGEL y FILIPO</speaker>
             <l n="2340" part="F">Ninguno falta.</l>
-          </sp><sp who="#candaces #filipo #behomud">
+          </sp>
+          <sp who="#candaces #filipo #behomud">
             <speaker>CANDACES, FILIPO y BEHOMUD</speaker>
             <l>Pues a tan grande portento</l>
             <l>repitan las consonancias</l>
             <l>en agradecidos ecos.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Venid, mortales, venid,</l>
             <l n="2345">al triunfo mayor,</l>
@@ -3558,7 +4284,8 @@
             <l>corriendo los días,</l>
             <l>volando los tiempos.</l>
             <l n="2350">Venid, venid a mi acento.</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l>Pues ya se ve concluido</l>
             <l>acto tan grande y supremo</l>
@@ -3570,7 +4297,8 @@
             <l>a la más precisa atiendo,</l>
             <l>corriendo el velo a la cruz.</l>
             <stage>Corre el velo a la cruz.</stage>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l n="2360">Cuyo sagrado madero</l>
             <l>ara fue donde ofreció</l>
@@ -3579,13 +4307,15 @@
             <l>sacramentado su cuerpo</l>
             <l n="2365">en la noche de la cena</l>
             <l>para universal remedio.</l>
-          </sp><sp who="#fe">
+          </sp>
+          <sp who="#fe">
             <speaker>FE</speaker>
             <l>Que en esta hostia, este cáliz,</l>
             <l>nos da su Sangre y su Cuerpo,</l>
             <l>milagro de los milagros,</l>
             <l n="2370">misterio de los misterios.</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Pues que de la fe instruidos</l>
             <l>sois, y en el conocimiento,</l>
@@ -3600,28 +4330,36 @@
             <l>fueron imagen, rendidos</l>
             <l n="2380">a tan alto sacramento,</l>
             <l part="I">digamos.</l>
-          </sp><sp who="#candaces">
+          </sp>
+          <sp who="#candaces">
             <speaker>CANDACES</speaker>
             <l part="F">¡Felice suerte!</l>
-          </sp><sp who="#behomud">
+          </sp>
+          <sp who="#behomud">
             <speaker>BEHOMUD</speaker>
             <l part="I">¡Qué alegría!</l>
-          </sp><sp who="#gentil">
+          </sp>
+          <sp who="#gentil">
             <speaker>GENTIL</speaker>
             <l part="F">¡Qué contento!</l>
-          </sp><sp who="#pitonisa">
+          </sp>
+          <sp who="#pitonisa">
             <speaker>PITONISA</speaker>
             <l part="I">¡Qué horror!</l>
-          </sp><sp who="#demonio">
+          </sp>
+          <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="M">¡Qué muerte!</l>
-          </sp><sp who="#pueblo-hebreo">
+          </sp>
+          <sp who="#pueblo-hebreo">
             <speaker>HEBREO</speaker>
             <l part="F">¡Qué rabia!</l>
-          </sp><sp who="#filipo">
+          </sp>
+          <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>Humildes a sus pies puestos.</l>
-          </sp><sp who="#pitonisa #pueblo-hebreo #ángel #demonio #fe #descuido #dama-1 #dama-2 #cuidado #behomud #candaces #filipo #música">
+          </sp>
+          <sp who="#pitonisa #pueblo-hebreo #ángel #demonio #fe #descuido #dama-1 #dama-2 #cuidado #behomud #candaces #filipo #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l n="2385">Venid, mortales, venid</l>
             <l>al triunfo mayor,</l>
@@ -3634,9 +4372,11 @@
             <l>con luces el cielo</l>
             <l>la luna con giros,</l>
             <l n="2395">el sol con luceros.</l>
-          </sp><stage>Tocan chirimías, y cerrándose los carros, se da fin al auto.</stage></div>
-      
-    </div>
+          </sp>
+          <stage>Tocan chirimías, y cerrándose los carros, se da fin al auto.</stage>
+        </div>
+
+      </div>
     </body>
   </text>
 </TEI>

@@ -1,5 +1,111 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000039" xml:lang="esp">
-  <teiHeader><fileDesc><titleStmt><title type="main">Las Órdenes Militares</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-04-30"><time when="10:23:28"/></date><idno type="quadramaX">Las Órdenes Militares</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/las-ordenes-militares--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la de Pedro Pando y Mier, Autos Sacramentales, alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 479-516.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="culpa" sex="FEMALE"><persName>La Culpa</persName></person><person xml:id="gracia" sex="FEMALE"><persName>La Gracia</persName></person><person xml:id="naturaleza" sex="FEMALE"><persName>La Naturaleza</persName></person><person xml:id="lucero" sex="MALE"><persName>El Lucero</persName></person><person xml:id="mundo" sex="MALE"><persName>El Mundo</persName></person><person xml:id="gentilidad" sex="FEMALE"><persName>La Gentilidad</persName></person><person xml:id="judaísmo" sex="MALE"><persName>El Judaísmo</persName></person><person xml:id="inocencia" sex="FEMALE"><persName>La Inocencia</persName></person><person xml:id="segundo-adán" sex="MALE"><persName>El Segundo Adán</persName></person><person xml:id="josué" sex="MALE"><persName>Josué</persName></person><person xml:id="moisés" sex="MALE"><persName>Moisés</persName></person><person xml:id="job" sex="MALE"><persName>Job</persName></person><person xml:id="david" sex="MALE"><persName>David</persName></person><person xml:id="isaías" sex="MALE"><persName>Isaías</persName></person><person xml:id="santiago" sex="MALE"><persName>Santiago</persName></person><person xml:id="benito" sex="MALE"><persName>San Benito</persName></person><person xml:id="bernardo" sex="MALE"><persName>San Bernardo</persName></person><personGrp sex="UNKNOWN" xml:id="música"><persName>Músicos</persName></personGrp><person xml:id="acompañamiento" sex="MALE"><persName>Acompañamiento</persName></person></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords><classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000039" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Las Órdenes Militares</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-04-30"><time when="10:23:28"/></date>
+        <idno type="quadramaX">Las Órdenes Militares</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/las-ordenes-militares--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la de Pedro Pando y Mier, Autos Sacramentales, alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 479-516.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="culpa" sex="FEMALE">
+            <persName>La Culpa</persName>
+          </person>
+          <person xml:id="gracia" sex="FEMALE">
+            <persName>La Gracia</persName>
+          </person>
+          <person xml:id="naturaleza" sex="FEMALE">
+            <persName>La Naturaleza</persName>
+          </person>
+          <person xml:id="lucero" sex="MALE">
+            <persName>El Lucero</persName>
+          </person>
+          <person xml:id="mundo" sex="MALE">
+            <persName>El Mundo</persName>
+          </person>
+          <person xml:id="gentilidad" sex="FEMALE">
+            <persName>La Gentilidad</persName>
+          </person>
+          <person xml:id="judaísmo" sex="MALE">
+            <persName>El Judaísmo</persName>
+          </person>
+          <person xml:id="inocencia" sex="FEMALE">
+            <persName>La Inocencia</persName>
+          </person>
+          <person xml:id="segundo-adán" sex="MALE">
+            <persName>El Segundo Adán</persName>
+          </person>
+          <person xml:id="josué" sex="MALE">
+            <persName>Josué</persName>
+          </person>
+          <person xml:id="moisés" sex="MALE">
+            <persName>Moisés</persName>
+          </person>
+          <person xml:id="job" sex="MALE">
+            <persName>Job</persName>
+          </person>
+          <person xml:id="david" sex="MALE">
+            <persName>David</persName>
+          </person>
+          <person xml:id="isaías" sex="MALE">
+            <persName>Isaías</persName>
+          </person>
+          <person xml:id="santiago" sex="MALE">
+            <persName>Santiago</persName>
+          </person>
+          <person xml:id="benito" sex="MALE">
+            <persName>San Benito</persName>
+          </person>
+          <person xml:id="bernardo" sex="MALE">
+            <persName>San Bernardo</persName>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="música">
+            <persName>Músicos</persName>
+          </personGrp>
+          <person xml:id="acompañamiento" sex="MALE">
+            <persName>Acompañamiento</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="#kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1717">
@@ -47,7 +153,9 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene" resp="#rojas" n="1"><stage>Sale la CULPA con un libro en la mano, pluma y escribanía.</stage><sp who="#culpa">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Sale la CULPA con un libro en la mano, pluma y escribanía.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¡Ah de la celeste curia</l>
             <l>de Dios; ah del firmamento,</l>
@@ -296,21 +404,30 @@
             <l n="245">allí el que a las puertas llama</l>
             <l>del mundo audiencia pidiendo.</l>
             <stage>Hojea el libro, y como que va a escribir en él, con los cendales asidos a la pluma, mancha una hoja.</stage>
-          </sp><stage>Dentro LUCERO, cantando.</stage><sp who="#lucero">
+          </sp>
+          <stage>Dentro LUCERO, cantando.</stage>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Y allí el que su voz no oye,</l>
             <l n="250">en otras voces suspenso.</l>
-          </sp><stage>Dentro se oye la MÚSICA a otra parte.</stage><sp who="#música">
+          </sp>
+          <stage>Dentro se oye la MÚSICA a otra parte.</stage>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Selvas y bosques del mundo,</l>
             <l>en cuyos olmos y fresnos</l>
             <l>aún viven tristes memorias</l>
             <l>de un antiguo tronco vuestro.</l>
-          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Con esta música y acompañamiento sale el MUNDO vestido de galán; el JUDAÍSMO, de hebreo, y la GENTILIDAD, de romano.</stage><sp who="#mundo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Con esta música y acompañamiento sale el MUNDO vestido de galán; el JUDAÍSMO, de hebreo, y la GENTILIDAD, de romano.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="255">No prosigas, que no es</l>
             <l>ya de estas memorias tiempo,</l>
@@ -344,7 +461,9 @@
             <l>ya que en él me represento,</l>
             <l n="285">nada deshaga la pompa</l>
             <l>de mis desvanecimientos.</l>
-          </sp><stage>Esto dice mirando al primer carro, que será un pavón grande y hermoso, bien imitado en los colores de las plumas y rueda.</stage><sp who="#gentilidad">
+          </sp>
+          <stage>Esto dice mirando al primer carro, que será un pavón grande y hermoso, bien imitado en los colores de las plumas y rueda.</stage>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Dices bien, pues cuando no</l>
             <l>fuere ese pájaro bello</l>
@@ -364,7 +483,8 @@
             <l>a pesar de otros recelos,</l>
             <l>inspiren en tus aplausos</l>
             <l>favorables tus alientos.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l n="305">¿Que como gentil hablaste?</l>
             <l>Pues cuando para los miedos</l>
@@ -385,19 +505,24 @@
             <l>de la invasión de las aguas</l>
             <l>(¡Oh, así fuera la del fuego!)</l>
             <l part="I">asegurarle.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F"> ¡Y que como </l>
             <l>hebreo hablaste tú, poniendo</l>
             <l n="325">en tu Génesis la mira!</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>¿Son mejores fundamentos</l>
             <l>los de tu Metamorfosis?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">Sí, pues yo...</l>
-          </sp><stage>Empuñan las espadas.</stage><sp who="#mundo">
+          </sp>
+          <stage>Empuñan las espadas.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F"> No más; suspenso </l>
             <l>quede el duelo de los dos.</l>
@@ -424,25 +549,31 @@
             <l n="350">halla en el daño el remedio.</l>
             <l>Cuando de un árbol en otro</l>
             <l>reparado diga el viento.</l>
-          </sp><stage>Cantando, dentro.</stage><sp who="#lucero">
+          </sp>
+          <stage>Cantando, dentro.</stage>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="355">Esperad, ¿qué nueva voz</l>
             <l>rompe de nuestro silencio</l>
             <l part="I">la quietud?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F"> Yo no la oí, </l>
             <l>y así, no dudo que el eco</l>
             <l>de estas cláusulas sería.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l n="360">Yo sí, mas que sea no creo</l>
             <l>más que un acaso del aire.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>No descubre poco esto</l>
             <l>de que escuchando su voz</l>
@@ -451,33 +582,43 @@
             <l>al acaso y no al misterio,</l>
             <l>y así, a lamira de todo</l>
             <l>estar retirada tengo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Pues proseguid con el canto,</l>
             <l n="370">no cese el divertimiento.</l>
-          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Retírase la CULPA, y, cantando aparte, divertidos, MUNDO, y GENTILIDAD, y JUDAÍSMO; salen por otra el SEGUNDO ADÁN, de soldado; el LUCERO, de pieles, y la INOCENCIA, de villano.</stage><sp who="#música">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Retírase la CULPA, y, cantando aparte, divertidos, MUNDO, y GENTILIDAD, y JUDAÍSMO; salen por otra el SEGUNDO ADÁN, de soldado; el LUCERO, de pieles, y la INOCENCIA, de villano.</stage>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Selvas y bosques del mundo,</l>
             <l>en cuyos olmos y fresnos...</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l>A mala ocasión llegamos,</l>
             <l>que el Mundo, olvidado y ciego,</l>
             <l n="375">en pasatiempos está.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>¿Cuándo él no está en pasatiempos?</l>
             <l>sin ver, ¡oh montes!, por más</l>
             <l>que pasen, que en vuestros senos.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Aún viven tristes memorias</l>
             <l n="380">de un antiguo tronco vuestro.</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l>En vano pienso que hoy</l>
             <l part="I">su audiencia aguardas.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F">Por eso </l>
             <l>quise que tu voz llegara</l>
@@ -485,58 +626,69 @@
             <l n="385">que mi persona a sus ojos,</l>
             <l>por si inclinaba su afecto</l>
             <l part="I">a alguna atención.</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l part="F"> De poco </l>
             <l>te sirvió, que, desatento,</l>
             <l part="I">mi voz no escuchó.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> Qué mucho, </l>
             <l n="390">si es voz que clama en desierto,</l>
             <l>donde no escuchan los troncos,</l>
             <l>aunque diga alguno de ellos.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Por lo que os tiene obligados,</l>
             <l>os ruega le estéis atentos.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l n="395">Vuelve a llamar, y los dos</l>
             <l>no desconfiéis tan presto;</l>
             <l>quizá una vez y otra, instado,</l>
             <l>oirá su conocimiento.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Y veréis cuán dulcemente</l>
             <l n="400">halla en el daño el remedio.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Ve, pues, delante de mí</l>
             <l>a reconocer si es tiempo</l>
             <l part="I">de que llegue yo.</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l part="F"> Si haré </l>
             <l>el camino prevïendo</l>
             <l part="I">de tus huellas.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="405" part="F"> Si él es sol, </l>
             <l>ya va delante el lucero.</l>
             <l>Atención con su venida,</l>
             <l>por si ha de inferirse de esto.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Cuando de un árbol en otro</l>
             <l n="410">reparado diga el viento.</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <stage>Cantando.</stage>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
             <stage>Cantando.</stage>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Ahora no fue ilusión:</l>
             <l>oh tú, gallardo mancebo,</l>
@@ -545,7 +697,8 @@
             <l>en que le tenía el olvido</l>
             <l>de sus pasados tormentos.</l>
             <l part="I">¿Quién eres?</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l part="F"> Soy un soldado, </l>
             <l n="420">que en el militante gremio</l>
@@ -553,43 +706,54 @@
             <l>a merced sirve del sueldo</l>
             <l>de un valiente capitán,</l>
             <l>de quien a darte luz vengo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿A darme luz?</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l part="M"> Sí.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="425" part="F"> ¿Pues eres </l>
             <l part="I">tú luz?</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l part="F"> No lo soy yo, pero </l>
             <l>testimonio de luz, sí.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿Y qué pretendes?</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l part="F"> Pretendo</l>
             <l>que audiencia le des.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="430">¿Por qué no llega él?</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l>Porque primero</l>
             <l>que él llegue, quiso que esté</l>
             <l part="I">de mí prevenida.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F"> Puesto</l>
             <l>que el Mundo a nadie la niega,</l>
             <l n="435">llegue. Mas de todos esos</l>
             <l>que están a mi puerta, dime,</l>
             <l part="I">¿cuál es?</l>
-          </sp><stage>Cantando y señalando al SEGUNDO ADÁN.</stage><sp who="#lucero">
+          </sp>
+          <stage>Cantando y señalando al SEGUNDO ADÁN.</stage>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l part="F"> El que con el dedo </l>
             <l>te señalo. Éste es el agnus,</l>
@@ -604,36 +768,45 @@
             <l>de Pathmos, éste el Cordero,</l>
             <l>que a quitar del mundo viene</l>
             <l part="I">los pecados.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F"> No te entiendo. </l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">Tampoco yo.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l n="450" part="F"> Yo tampoco. </l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">Ni aun yo.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> Yo sí, y soy un necio. </l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Tú, villano?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> Yo, con ser </l>
             <l>la Inocencia; pero esto</l>
             <l>no es mucho, que él al no sabio</l>
             <l n="455">se revela, que aun por eso</l>
             <l part="I">lo sé yo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F"> Pues bien, ¿qué aguarda? </l>
             <l part="I">Llegue, pues.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Humilde llego </l>
             <l>a tus umbrales, ¡oh mundo!,</l>
@@ -642,38 +815,47 @@
             <l>bien de mis mercedes); pero</l>
             <l>por ahora importa que diga</l>
             <l part="I">de mis servicios.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F"> No creo </l>
             <l>que en mis ejércitos nunca</l>
             <l part="I">te vi asistir.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="465" part="F"> Por lo menos, </l>
             <l>el mundo no le conoce.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Dirálo así el Sacro Texto.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿De dónde eres?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> De otra patria </l>
             <l>peregrino y extranjero,</l>
             <l n="470">llamado de los aplausos</l>
             <l>que en ésta ganar pretendo</l>
             <l>vine en ella a militar.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Y esto dirá?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> También esto. </l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿Tu nombre?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Segundo Adán. </l>
             <l n="475">Hermano soy del primero;</l>
@@ -681,40 +863,51 @@
             <l>en sus fatigas intento</l>
             <l>que conozcas, Mundo, cuánto</l>
             <l>de ser su hermano me precio.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿Segundo Adán eres?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l n="480" part="F">Sí.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Otra vez a decir vuelvo</l>
             <l>que no te conoce el Mundo.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>También dirá que los mesmos</l>
             <l>que crió no le conocen.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="I">Absorto estoy.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="485" part="F"> Yo suspenso. </l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Si por mí no me conoces,</l>
             <l>conóceme por mis hechos.</l>
             <l>Éstos los papeles son,</l>
             <l>y fes de oficios del tiempo</l>
             <l n="490">que milité en tus campañas.</l>
-          </sp><stage>Va dando memoriales, como lo dicen los versos.</stage><sp who="#culpa">
+          </sp>
+          <stage>Va dando memoriales, como lo dicen los versos.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Atención importa en esto.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿Cúya es esta fe?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> De Lucas: </l>
             <l>en que abona, firma y sello,</l>
@@ -725,11 +918,13 @@
             <l>me dio la primera herida,</l>
             <l>primera sangre vertiendo</l>
             <l part="I">en tu ejército.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="500" part="F"> ¿Y aquésta, </l>
             <l part="I">cúya es?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Es de Mateo: </l>
             <l>certifica que me hallé</l>
@@ -739,11 +934,13 @@
             <l>de la tierna infantería</l>
             <l>te degolló el primer tercio;</l>
             <l part="I">y prosigue en ésta.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F"> Pues</l>
             <l part="I">¿cúya es aquésta?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Del mesmo, </l>
             <l n="510">que habiéndome retirado</l>
@@ -768,11 +965,13 @@
             <l>rechazado de mi esfuerzo,</l>
             <l n="530">levantó el sitio, quedando</l>
             <l>yo triunfando y él huyendo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Y esta certificación,</l>
             <l part="I">¿cúya es?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> De Juan, en que habiendo </l>
             <l>al socorro del castillo</l>
@@ -785,14 +984,17 @@
             <l>le restituí el aliento,</l>
             <l>que había ya cuatro días</l>
             <l part="I">que le faltaba.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F"> ¿Y aquesto, </l>
             <l>también, villano, es verdad?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l n="545">Cuanto dice, es Evangelio.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>En la marcha que hizo el campo</l>
             <l>por las campañas del heno,</l>
@@ -806,14 +1008,17 @@
             <l n="555">los víveres conduciendo,</l>
             <l>pero aumentando, no hiciera</l>
             <l>que les sobrara el sustento.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="I">Yo le oigo, y lo dudo.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F"> Yo,</l>
             <l>ni lo dudo ni lo creo.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l n="560">El bagaje socorrí</l>
             <l>en que iban los enfermos</l>
@@ -847,11 +1052,13 @@
             <l>todo lo demás, el premio</l>
             <l n="590">que de tus manos aguardo</l>
             <l>y de mis obras espero.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Muchos tus servicios son:</l>
             <l>¿a qué han llegado tus puestos?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Aunque en las levas del mundo</l>
             <l n="595">soy yo quien la gente ha hecho,</l>
@@ -859,42 +1066,52 @@
             <l>de doce soldados, y esos</l>
             <l>tan sin humanos caudales,</l>
             <l>que a mi mesa los sustento.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="600">Pongan en algo los ojos</l>
             <l>tan altos merecimientos.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Antes que viniera a ti,</l>
             <l>ya, Mundo, los tenía puestos</l>
             <l>en el premio que has de darme.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿Qué es?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l n="605" part="F"> Un hábito, que siendo </l>
             <l>roja insignia militar</l>
             <l>de cruz que me adorne el pecho,</l>
             <l>es propio honor del soldado.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Cruz a nadie hasta hoy la he puesto</l>
             <l n="610">que no sea por baldón.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Yo haré de baldón aprecio.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="I">¡Rara pretensión!</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F"> ¡Extraña!</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>¿Aprecio el baldón? No entiendo</l>
             <l part="I">cómo puede serlo.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Dando</l>
             <l n="615">lustre a la infamia mis hechos,</l>
@@ -904,11 +1121,13 @@
             <l>la medicina, vea el cielo</l>
             <l n="620">que es del mundo una cruz sola</l>
             <l>el sumo honor que pretendo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>El fin de tan nunca oída</l>
             <l part="I">pretensión dudo.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Oye atento: </l>
             <l>A merced de los reyes,</l>
@@ -1005,30 +1224,41 @@
             <l n="715">demos satisfacción al cielo, ¡oh Mundo!,</l>
             <l>yo en el primero Adán, tú en el segundo.</l>
             <stage>Señalando a un carro, que será un pelícano con sus polluelos, herido el pecho.</stage>
-          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Vase, y con él el LUCERO y la INOCENCIA; quedan confusos los tres.</stage><sp who="#mundo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Vase, y con él el LUCERO y la INOCENCIA; quedan confusos los tres.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Absorto y mudo he quedado</l>
             <l>de tan nueva pretensión.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>No es menos mi confusión.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l n="720">Ni menos es mi cuidado.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>No sé a qué me resolver.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Atenta me importa estar.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>A inquirir y averiguar</l>
             <l part="I">el fin.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="M"> ¿Cómo?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F"> Con hacer </l>
             <l n="725">las pruebas que él ha pedido,</l>
@@ -1037,7 +1267,8 @@
             <l>de si ha sido o si no ha sido</l>
             <l>verdad, que hermano de Adán,</l>
             <l n="730">enmendar sus ansias quiera.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Extraña flojedad fuera,</l>
             <l>cuando pendientes están</l>
@@ -1045,12 +1276,14 @@
             <l>de proposición tan rara,</l>
             <l n="735">que no se le averiguara</l>
             <l>si es baldón o si es trofeo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Pues si de este parecer</l>
             <l>vos estáis y también vos,</l>
             <l part="I">la merced le hago.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> Y los dos </l>
             <l n="740">informantes, si han de ser</l>
@@ -1059,14 +1292,17 @@
             <l>con cruz, para no faltar</l>
             <l>en el examen primero</l>
             <l part="I">a la ceremonia?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="745" part="F"> No</l>
             <l>lo sé, mas sí, ya lo sé.</l>
-          </sp><sp who="#judaísmo #gentilidad">
+          </sp>
+          <sp who="#judaísmo #gentilidad">
             <speaker>LAS DOS</speaker>
             <l part="I">¿Quién?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F"> Moisés y Josué: </l>
             <l>Moisés en el monte oró</l>
@@ -1109,7 +1345,8 @@
             <l n="785">de su comisión traslado,</l>
             <l>conque hecha la diligencia,</l>
             <l>daréis los dos la sentencia.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Fía de mí tu cuidado,</l>
             <l>que yo al juzgarlo veré</l>
@@ -1119,12 +1356,14 @@
             <l>de enmendar yerros de Adán,</l>
             <l>no siendo en mis profecías</l>
             <l n="795">el prometido Mesías.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>En mí tus gentes verán</l>
             <l>si es digno o no del blasón.</l>
             <stage>A los músicos.</stage>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Pues publicad el decreto</l>
             <l>vosotros, por que su efeto</l>
@@ -1133,38 +1372,53 @@
             <l>qué merced me tocó hacerle,</l>
             <l>mas ponerle o no ponerle</l>
             <l>la cruz, tocará a los dos.</l>
-          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Vanse el MUNDO y los músicos cantando.</stage><sp who="#música">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Vanse el MUNDO y los músicos cantando.</stage>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="805">El Mundo al Adán Segundo</l>
             <l>roja cruz en premio ha dado,</l>
             <l>propio hábito de soldado</l>
             <l>y propia merced del mundo.</l>
-          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Oyendo el pregón, sale la GRACIA por una parte y la NATURALEZA por otra, ambas con dos memoriales.</stage><sp who="#gracia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Oyendo el pregón, sale la GRACIA por una parte y la NATURALEZA por otra, ambas con dos memoriales.</stage>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>El Mundo al Adán Segundo</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="810">roja cruz en premio ha dado.</l>
-          </sp><sp who="#naturaleza #gracia">
+          </sp>
+          <sp who="#naturaleza #gracia">
             <speaker>LAS DOS</speaker>
             <l>Propio hábito de soldado</l>
             <l>y propia merced del mundo.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Luego bien fía de mí</l>
             <l>traer su genealogía.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="815">Luego bien conmigo envía</l>
             <l part="I">su alto origen.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> Pues yo vi </l>
             <l>su primera majestad.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Pues yo animé su conceto.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Mi representable objeto</l>
             <l n="820">se va haciendo realidad,</l>
@@ -1174,82 +1428,105 @@
             <l>y allí la Naturaleza;</l>
             <l n="825">conque bien contra mi fundo</l>
             <l>sea la cruz que le han dado.</l>
-          </sp><sp who="#música #culpa">
+          </sp>
+          <sp who="#música #culpa">
             <speaker>ELLA y MÚSICA</speaker>
             <l>Propio hábito de soldado.</l>
-          </sp><sp who="#acompañamiento">
+          </sp>
+          <sp who="#acompañamiento">
             <speaker>Acompañamiento</speaker>
             <stage>Dentro.</stage>
             <l>Y propia merced del mundo.</l>
             <stage>Dentro.</stage>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Ya que el Mundo, que le oyó,</l>
             <l n="830">su premio de los dos fía,</l>
             <l>¿quién de su genealogía</l>
             <l part="I">traerá las noticias?</l>
-          </sp><sp who="#naturaleza #gracia">
+          </sp>
+          <sp who="#naturaleza #gracia">
             <speaker>LAS DOS</speaker>
             <l part="F"> Yo.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Cuando una hubiera bastado,</l>
             <l>dos nos habéis respondido?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l n="835">La parte que yo he sabido.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>La parte que me ha tocado.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>De tu patria celestial.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>En su humano nacimiento.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>En este origen presento.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="840">Traigo en este memorial.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Pues quién eres, soberana</l>
             <l part="I">deidad?</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> ¿Quién tú, peregrina </l>
             <l part="I">mujer?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> La gracia divina. </l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>La Naturaleza humana.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l n="845">Éstos los lustres altivos</l>
             <l>son de su divinidad.</l>
-          </sp><stage>Da el memorial a la GENTILIDAD.</stage><sp who="#naturaleza">
+          </sp>
+          <stage>Da el memorial a la GENTILIDAD.</stage>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Y éstos, por la humanidad,</l>
             <l>son los actos positivos</l>
             <l>de su limpieza y nobleza.</l>
-          </sp><stage>Da el memorial al JUDAÍSMO.</stage><sp who="#culpa">
+          </sp>
+          <stage>Da el memorial al JUDAÍSMO.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="850">Al gentil la Gracia dio</l>
             <l>la parte que a ella tocó;</l>
             <l>pero la Naturaleza,</l>
             <l part="I">al hebreo.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F"> Mal reservo </l>
             <l>lo que me toca de ti.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="I">¿Cómo dice?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="855" part="F"> Dice así: </l>
             <l>En el principio era el Verbo,</l>
@@ -1259,70 +1536,88 @@
             <l n="860">que todo por él fue hecho,</l>
             <l>y sin Él no fue hecho nada.</l>
             <stage>Leyendo.</stage>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>¿A qué propósito es esto?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>No sin propósito es,</l>
             <l>pues viene a ceñirse luego</l>
             <l n="865">en que el Verbo fue hecho carne,</l>
             <l part="I">y prosigue.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> Estoy suspenso. </l>
             <l>Que habitando entre nosotros,</l>
             <l>Unigénito heredero</l>
             <l>del Padre, su gloria vimos,</l>
             <l n="870">de gracia y de verdad lleno.</l>
-          </sp></div><div type="scene" resp="#rojas" n="7"><stage>Sale la INOCENCIA, como acechando, y se encuentra con la CULPA.</stage><sp who="#inocencia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Sale la INOCENCIA, como acechando, y se encuentra con la CULPA.</stage>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Laus tibi, Christe, bergantes,</l>
             <l>¿no decís al oír aqueso?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿A qué, simple, entras aquí?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>A acechar lo que hacen dentro,</l>
             <l n="875">ya que, a fuer de pretendiente,</l>
             <l>a mi amo a la puerta dejo</l>
             <l>ensayando sumisiones.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">Salte allá fuera.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> No quiero. </l>
             <l>Que he de rastrear cómo admiten</l>
             <l n="880">su origen entrambos pueblos.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Señas son del que yo aguardo,</l>
             <l>mas no convienen en él</l>
             <l>las semanas de Daniel,</l>
             <l>y así, mal en mirar tardo</l>
             <l n="885">estotra genealogía.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">Veamos cómo dice.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <stage>Leyendo.</stage>
             <l part="F">Libro</l>
             <l>de la gran Generación.</l>
             <stage>Leyendo.</stage>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">Prosigue.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> De Jesucristo. </l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Como quien no dice nada,</l>
             <l n="890">y dice humano y divino.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>¿Cómo, si es Segundo Adán,</l>
             <l>errado das el principio,</l>
@@ -1331,51 +1626,61 @@
             <l n="895">es que le hace sospechoso</l>
             <l>callar nombre y apellido,</l>
             <l>siendo uno y dando otro?</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>¿Pues quién quita que haya sido</l>
             <l>sin dejar de ser segundo</l>
             <l n="900">Adán, Salvador y Ungido?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>No en eso estribes, que eso</l>
             <l>han de decir los testigos,</l>
             <l>si no prosigue hasta él</l>
             <l part="I">la narración.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> Ya prosigo. </l>
             <l n="905">Libro de Generación</l>
             <l part="I">de Jesucristo.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="M"> Di.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> Hijo</l>
             <l>de David y de Abraham:</l>
             <l>¿Cómo habiendo David sido</l>
             <l>después, le pone primero?</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="910">Ser rey le hace preferido.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>¿Y de David y de Abraham</l>
             <l>cómo hijo es, siendo distintos</l>
             <l part="I">en tiempo?</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="F"> Como a los dos </l>
             <l>fue a quien el cielo previno</l>
             <l n="915">que de ellos descendería,</l>
             <l>y así los pone al principio.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>No te embaraces ahora</l>
             <l>en tantos como aquí miro,</l>
             <l part="I">si no vamos a él.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> Pues dejo </l>
             <l n="920">el gran número infinito</l>
@@ -1386,10 +1691,12 @@
             <l n="925">María, de la cual nació</l>
             <l>Jesús, que se llama Cristo.</l>
             <stage>Leyendo.</stage>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">¡Rara nobleza!</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> Si es </l>
             <l>así; y puesto que tú has dicho</l>
@@ -1402,14 +1709,17 @@
             <l n="935">¿Quién depósito y fianza</l>
             <l>ha de hacer a los ministros</l>
             <l>de sus salarios y costas?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Fiador abonado y rico</l>
             <l part="I">será.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="M"> ¿Quién?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> Melquisedec,</l>
             <l n="940">sacerdote y rey invicto;</l>
@@ -1421,25 +1731,30 @@
             <l>al que de ella al mundo vino,</l>
             <l>que el que la administración</l>
             <l>tiene de sus beneficios?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">Bueno es el fiador.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> No mucho, </l>
             <l n="950">que aunque abonado le miro,</l>
             <l>rey, y sacerdote, no es</l>
             <l part="I">lego y llano.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="F"> Uso y servicio </l>
             <l>de los bienes obligados,</l>
             <l>sanean ese peligro,</l>
             <l part="I">siendo ellos.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="M"> ¿Cómo?</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="955" part="F"> Como</l>
             <l>yo, que la línea he traído</l>
@@ -1447,10 +1762,12 @@
             <l>en Melquisedec obligo</l>
             <l>seglares frutos, que son</l>
             <l n="960">de Adán patrimonio antiguo.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="I">¿En qué especie?</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="F"> En vino y pan, </l>
             <l>que en los sagrados archivos</l>
@@ -1460,29 +1777,36 @@
             <l>hasta que habiendo salido</l>
             <l>con la cruz, todas las costas</l>
             <l>se paguen en pan y vino.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>No hay palabras sin misterio.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l n="970">Ni misterio sin prodigio.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Está bien; agitar vamos,</l>
             <l>informantes y testigos,</l>
             <l>que a ese palacio del mundo</l>
             <l>vengan a decir sus dichos.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="975">Favorables serán todos.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>So pena de ser mal vistos</l>
             <l>testigos de la ley vieja.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="I">¿Por qué lo decís?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F"> Lo digo, </l>
             <l>porque en dos naturalezas</l>
@@ -1490,7 +1814,8 @@
             <l>me han dado en sus esplendores</l>
             <l>no sé qué lejanos visos</l>
             <l part="I">de alta nobleza.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> A mí no, </l>
             <l>porque antes para conmigo,</l>
@@ -1498,24 +1823,32 @@
             <l>en el gran Daniel previsto,</l>
             <l>el dar dos Naturalezas</l>
             <l>más sospechoso le hizo.</l>
-          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Vanse los dos.</stage><sp who="#inocencia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Vanse los dos.</stage>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Para juez, mucha pasión</l>
             <l n="990">va mostrando el Judaísmo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Quién te mete a ti en notarlo?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>¿Quién te mete a ti en sentirlo?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Hermosa Naturaleza,</l>
             <l>ya que juntas concurrimos</l>
             <l n="995">en pretensión, que ha de ser</l>
             <l>honor tuyo, y blasón mío,</l>
             <l>¿cómo no me das los brazos?</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Como con temor te miro</l>
             <l>desde el día, Gracia hermosa,</l>
@@ -1530,7 +1863,8 @@
             <l>que imán del alma lo lindo</l>
             <l>lleve tras sus perfecciones</l>
             <l n="1010">elevados mis sentidos.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Pues confía, alienta y vive;</l>
             <l>que el hábito a que venimos,</l>
@@ -1539,14 +1873,17 @@
             <l n="1015">que ha de volver a enlazar</l>
             <l>en primer yugo sencillo</l>
             <l>de Gracia y Naturaleza.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Por blandos que tus cariños</l>
             <l>me animen, a cada paso</l>
             <l n="1020">que hacia ti doy, torpe piso,</l>
             <l>en la sombra de mi muerte,</l>
             <l>la falta de mi delito.</l>
-          </sp><stage>Al irse a acercar a la GRACIA, tropieza la NATURALEZA.</stage><sp who="#gracia">
+          </sp>
+          <stage>Al irse a acercar a la GRACIA, tropieza la NATURALEZA.</stage>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Pues yo me acercaré a ti,</l>
             <l>y con tan alto motivo,</l>
@@ -1556,7 +1893,9 @@
             <l>se va allanando el camino</l>
             <l>en que a la Naturaleza</l>
             <l part="I">se acerque la Gracia.</l>
-          </sp><stage>Al irse a acercar a la NATURALEZA la GRACIA, la detiene la CULPA.</stage><sp who="#culpa">
+          </sp>
+          <stage>Al irse a acercar a la NATURALEZA la GRACIA, la detiene la CULPA.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1030" part="F"> Oírlo</l>
             <l>tiemblo; ¿a la Naturaleza</l>
@@ -1567,10 +1906,12 @@
             <l>sin arrojarme a impedirlo?</l>
             <l part="I">Detente, Gracia.</l>
             <stage>Pónese en medio de las dos.</stage>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> ¿Por qué? </l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Porque los siempre benignos</l>
             <l>favores, tuyos están</l>
@@ -1580,18 +1921,21 @@
             <l>desde aquel de su concepto</l>
             <l>primero instante nativo,</l>
             <l part="I">antes que con ella.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="1045" part="F"> No,</l>
             <l>engañoso basilisco;</l>
             <l>puesto que la Gracia quiere</l>
             <l>hacer las paces conmigo,</l>
             <l>me quites tan grande bien.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1050">No soy yo quien te lo quito;</l>
             <l>tú misma te le quitaste.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Harto lo lloro y lo gimo;</l>
             <l>bien que ya con la esperanza</l>
@@ -1599,21 +1943,26 @@
             <l n="1055">que se acerque el tiempo en que</l>
             <l>no has de poder impedirnos</l>
             <l part="I">tan dulce abrazo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F"> ¿En qué fundas </l>
             <l part="I">esa esperanza?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="M"> ¿En qué? </l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F"> Dilo.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Las pruebas del nuevo Adán</l>
             <l part="I">la han de ilustrar.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1060" part="F"> Conseguirlo</l>
             <l>¿cómo podrá, ni aun salir</l>
@@ -1631,12 +1980,14 @@
             <l>en el pechado tributo</l>
             <l>del padrón de mis registros?</l>
             <stage>Aparte.</stage>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l n="1075">La que exenta de la Culpa</l>
             <l>le dio el ser, habiendo sido</l>
             <l>hidalga de privilegio.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Si por alguna lo has dicho,</l>
             <l>que, como el Segundo Adán,</l>
@@ -1645,16 +1996,20 @@
             <l>volarse por alto quiso,</l>
             <l part="I">aquí está.</l>
             <stage>Hojea el libro.</stage>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="M"> ¿Dónde?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F"> Aquí está. </l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="I">¿Dónde?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F"> ¡Ah infeliz! ¿Qué miro? </l>
             <l n="1085">En la plana que juzgué</l>
@@ -1667,27 +2022,33 @@
             <l>es la que queda al arbitrio</l>
             <l>de si es ella, o si no es ella</l>
             <l>la que miro, y que no miro.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="I">¿Dónde está?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1095" part="F"> Un borrón no deja </l>
             <l>verse el nombre bien distinto.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="I">¡Ay, que no es eso!</l>
             <l part="F"> ¿Pues qué es? </l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Es que por no haber caído</l>
             <l>en ella, Culpa, el borrón,</l>
             <l n="1100">cayó el borrón en el libro.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Cómo puede ser, que siendo</l>
             <l part="I">humana?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> No has de argüirlo </l>
             <l>tú; yo defenderlo sí,</l>
@@ -1701,16 +2062,19 @@
             <l>antes estén; ven, humana</l>
             <l>Naturaleza, conmigo,</l>
             <l>dejando la Culpa atrás.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Absorta tus pasos sigo,</l>
             <l n="1115">Gracia elevada y confusa.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Cómo, si yo me anticipo</l>
             <l>a las dos, podréis primero</l>
             <l>informarlos y advertirlos?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Tomando la puerta yo,</l>
             <l n="1120">y conmigo al punto mismo</l>
@@ -1718,7 +2082,11 @@
             <l>con que entrando ella conmigo,</l>
             <l>y quedándote tú fuera,</l>
             <l>cómo puede ser te he dicho</l>
-          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Vanse las dos. Ha de haber en uno de los carros una puerta, que ha de estar cerrada, y queriendo adelantarse la CULPA a abrirla y entrar por ella, llega primero la GRACIA, y llevando consigo la NATURALEZA, al llegar la CULPA, las dos cierran la puerta.</stage><sp who="#culpa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Vanse las dos. Ha de haber en uno de los carros una puerta, que ha de estar cerrada, y queriendo adelantarse la CULPA a abrirla y entrar por ella, llega primero la GRACIA, y llevando consigo la NATURALEZA, al llegar la CULPA, las dos cierran la puerta.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1125">Adelantóse la Gracia,</l>
             <l>y llevándose consigo</l>
@@ -1726,7 +2094,8 @@
             <l>fuera me dejó. Divinos</l>
             <l>cielos, ¿quién ha visto nunca</l>
             <l part="I">igual dolor?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l n="1130" part="F"> Yo le he visto, </l>
             <l>por señas que entrando ella</l>
@@ -1735,16 +2104,19 @@
             <l>visto he, sin haber visto</l>
             <l n="1135">cómo pudo ser, quebrarte</l>
             <l>los ojos con el postigo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>En ti, villano, mis iras</l>
             <l part="I">se vengarán.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> Eso es lindo; </l>
             <l>¿ha de pagar la Inocencia</l>
             <l n="1140">cosas que la Gracia hizo?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>La Inocencia ha de pagarlas,</l>
             <l>y pues la Inocencia he dicho</l>
@@ -1772,35 +2144,48 @@
             <l>tengo de ver si consigo</l>
             <l n="1165">el deslucirle en lo humano,</l>
             <l>pues no puedo en lo divino.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Maltrátala.Aparte.Vase.</stage><sp who="#inocencia">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Maltrátala.Aparte.Vase.</stage>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>¡Ay de mí, que me ha dejado</l>
             <l>ni bien muerto ni bien vivo!</l>
-          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Sale el SEGUNDO ADÁN.</stage><sp who="#segundo-adán">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Sale el SEGUNDO ADÁN.</stage>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>¿Qué ha sido, Inocencia, esto?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l n="1170">Qué ha de haber (¡ay de mí!) sido,</l>
             <l>sino no perderse nada,</l>
             <l>viendo en exterior sentido</l>
             <l>maltratada la Inocencia</l>
             <l part="I">de la Culpa.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> ¿Qué inquirido </l>
             <l part="I">has del despacho?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l n="1175" part="F"> ¿Pues tú </l>
             <l part="I">dudas nada?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Éste es aviso, </l>
             <l>que nada ignorando en todo</l>
             <l>me ajusto al humano estilo.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Pues Gracia y Naturaleza,</l>
             <l n="1180">para informar los testigos</l>
@@ -1814,85 +2199,108 @@
             <l>fuera, buscando resquicio</l>
             <l>por donde entrar, me ha dejado</l>
             <l n="1190">tocado, pero no herido.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>¿Y qué informantes me ha dado?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="I">Moisés y Josué.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Son dignos </l>
             <l>por la espada y por la vara,</l>
             <l>ambas de cruz, sombra y viso.</l>
             <l n="1195">¿Y qué testigos citaron?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Por los canceles de vidrio,</l>
             <l>que son nubes de tu sol,</l>
             <l>recatado, no escondido,</l>
             <l>podrás tú desde aquí verlos,</l>
             <l n="1200">y aun también, Señor, oírlos.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Pues retírate a esta parte.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Ninguno extraña el retiro,</l>
             <l>que tal vez habrá quien diga,</l>
             <l>se ocultó por no ser visto.</l>
-          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Retíranse los dos a una parte del tablado, córrese en medio una cortina y vense sentados a MOISÉS y JOSUÉ, teniendo delante un bufete con recado de escribir, y al mismo tiempo salen por la otra parte GRACIA y NATURALEZA hablando a JOB, que saldrá vestido de pobre llagado. Y adviértese que él y los demás testigos, como fueren saliendo, hablen a la GRACIA con respeto y agrado, y a la NATURALEZA con despego; los criados, que corran la cortina, y llegando el bufete, se retiran.</stage><sp who="#moisés">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Retíranse los dos a una parte del tablado, córrese en medio una cortina y vense sentados a MOISÉS y JOSUÉ, teniendo delante un bufete con recado de escribir, y al mismo tiempo salen por la otra parte GRACIA y NATURALEZA hablando a JOB, que saldrá vestido de pobre llagado. Y adviértese que él y los demás testigos, como fueren saliendo, hablen a la GRACIA con respeto y agrado, y a la NATURALEZA con despego; los criados, que corran la cortina, y llegando el bufete, se retiran.</stage>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l n="1205">Llegad esa mesa aquí,</l>
             <l>y retiraos todos luego.</l>
-          </sp><sp who="#job">
+          </sp>
+          <sp who="#job">
             <speaker>JOB</speaker>
             <l>Llamado a mi dicho llego.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Advierte, Job, que de mí</l>
             <l part="I">has de decir.</l>
-          </sp><sp who="#job">
+          </sp>
+          <sp who="#job">
             <speaker>JOB</speaker>
             <l part="F"> Ya lo sé, </l>
             <l n="1210">y no tienes que informarme.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="I">Y de mí también.</l>
-          </sp><sp who="#job">
+          </sp>
+          <sp who="#job">
             <speaker>JOB</speaker>
             <l part="F"> Pesarme</l>
             <l>será fuerza, pero habré</l>
             <l>de decir verdad hablando,</l>
             <l>humana Naturaleza,</l>
             <l n="1215">de ti, atento a mi tristeza.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Job es el que viene entrando.</l>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>Por religioso, te obliga</l>
             <l>en lo que hayan de decir</l>
             <l>a ti el cargo de escribir.</l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l n="1220">El Pentateuco lo diga.</l>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>Llegad a Job una silla.</l>
-          </sp><sp who="#job">
+          </sp>
+          <sp who="#job">
             <speaker>JOB</speaker>
             <l>No, señor, no hay para qué;</l>
             <l>en el suelo me echaré,</l>
             <l>que es el lecho a que me humilla</l>
             <l n="1225">mi dolor continuamente.</l>
             <stage>Échase en el suelo.</stage>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>¿Pues a lo que venís veis,</l>
             <l>de esa línea qué sabéis</l>
             <l>paterna del pretendiente?</l>
-          </sp><stage>Dale el memorial, léele para sí, y prosigue.</stage><sp who="#job">
+          </sp>
+          <stage>Dale el memorial, léele para sí, y prosigue.</stage>
+          <sp who="#job">
             <speaker>JOB</speaker>
             <stage>Leyendo</stage>
             <l>Que es su esplendor infinito,</l>
@@ -1900,11 +2308,13 @@
             <l>que él los dio y los quitó,</l>
             <l>sea su nombre bendito.</l>
             <stage>Leyendo</stage>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l>Y de esa materna, ¿qué</l>
             <l part="I">sabéis?</l>
-          </sp><sp who="#job">
+          </sp>
+          <sp who="#job">
             <speaker>JOB</speaker>
             <l part="F"> De esta línea humana, </l>
             <l n="1235">que fue flor a la mañana</l>
@@ -1929,56 +2339,76 @@
             <l>que habrá en esotra nobleza</l>
             <l n="1255">quien de esta Naturaleza</l>
             <l>tenga el daño y no la Culpa.</l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l part="I">Firmad, e id en paz.</l>
-          </sp></div><div type="scene" resp="#rojas" n="13"><stage>Firma y vase.</stage><sp who="#naturaleza">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Firma y vase.</stage>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="F"> ¡Ay cielos!, </l>
             <l>que cuanto bien de ti habló</l>
             <l>te lo he deslucido yo.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l n="1260">No son vanos los recelos,</l>
             <l>de lo que humano te entrega</l>
             <l>a padecer sinrazones</l>
             <l>de oprobios y de baldones.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Callad, porque David llega.</l>
-          </sp></div><div type="scene" resp="#rojas" n="14"><stage>Sale DAVID con arpa.</stage><sp who="#inocencia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Sale DAVID con arpa.</stage>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l n="1265">Tan a la música es dado,</l>
             <l>que el salterio es su fatiga,</l>
             <l>y pienso que cuanto diga</l>
             <l>nos lo ha de decir cantado.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Como son salmos, sí hará.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="I">¿Hasme conocido?</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l n="1270" part="F"> Sí;</l>
             <l>porque aunque mi Culpa vi,</l>
             <l>conozco a la Gracia ya,</l>
             <l>llorándola arrepentido.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Mira que de mí también</l>
             <l part="I">has de decir.</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l n="1275" part="F"> Está bien. </l>
-          </sp><stage>Levántanse los dos.</stage><sp who="#josué">
+          </sp>
+          <stage>Levántanse los dos.</stage>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>Seáis, David, bien venido.</l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l>Aquí os habéis de asentar,</l>
             <l>o hemos de estarnos en pie.</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>A lo que he venido sé,</l>
             <l n="1280">y pues de paso he de hablar,</l>
@@ -1999,19 +2429,23 @@
             <l n="1295">escabeles de tus pies</l>
             <l>se han de ver tus enemigos.»</l>
             <stage>Canta DAVID y MOISÉS escribe.</stage>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>Eso es cuanto a ser dosel</l>
             <l>suyo, el sol, de hombre en el nombre,</l>
             <l part="I">¿qué sabéis?</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l part="F"> Ya en cuanto hombre </l>
             <l n="1300">he dicho ser deudo de él.</l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l>Con todo, es bien lo acredites.</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>Pues diga dél mi dolor.</l>
             <l>¿Quién es el hombre, Señor,</l>
@@ -2020,141 +2454,189 @@
             <l>hoy por mí y por todos trato</l>
             <l part="I">decir.</l>
             <stage>Cantan.</stage>
-          </sp><sp who="#moisés #david">
+          </sp>
+          <sp who="#moisés #david">
             <speaker>LOS DOS</speaker>
             <l part="M"> ¿Qué?</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="15"><stage>Vase y repite.</stage><sp who="#david">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Vase y repite.</stage>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l part="F"> Que et in peccato</l>
             <l>concepit me mater mea.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <stage>Dentro.</stage>
             <l>Et in peccato</l>
             <l>concepit me mater mea.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>¡Ay de las miserias mías!</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Lo humano desmerecer</l>
             <l part="I">te hace.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Eso ha de padecer. </l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="I">¿Quién es aquél?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Isaías.</l>
-          </sp></div><div type="scene" resp="#rojas" n="16"><stage>Sale ISAÍAS.</stage><sp who="#gracia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Sale ISAÍAS.</stage>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="I">Yo...</l>
-          </sp><sp who="#isaías">
+          </sp>
+          <sp who="#isaías">
             <speaker>ISAÍAS</speaker>
             <l n="1315" part="F"> Quién eres supe ya. </l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Isaías, caballero</l>
             <l>eres; tu favor espero</l>
             <l part="I">que me ampare.</l>
-          </sp><sp who="#isaías">
+          </sp>
+          <sp who="#isaías">
             <speaker>ISAÍAS</speaker>
             <l part="F"> Bien está. </l>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l part="I">Pasad.</l>
-          </sp><sp who="#isaías">
+          </sp>
+          <sp who="#isaías">
             <speaker>ISAÍAS</speaker>
             <l part="F"> Son vanas porfías. </l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l n="1320">Habéis de sentaros, pues</l>
             <l>sabemos cuán clara es</l>
             <l>la nobleza de Isaías.</l>
             <stage>Siéntase con ellos.</stage>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>¿Qué sabéis de este blasón</l>
             <l>que en paterna línea da?</l>
             <stage>Lee para sí y dice luego.</stage>
-          </sp><sp who="#isaías">
+          </sp>
+          <sp who="#isaías">
             <speaker>ISAÍAS</speaker>
             <l n="1325">Que es tal, que nadie podrá</l>
             <l>contar su generación.</l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l part="I">¿Désta?</l>
-          </sp><sp who="#isaías">
+          </sp>
+          <sp who="#isaías">
             <speaker>ISAÍAS</speaker>
             <l part="F"> Que son sus honores </l>
             <l>muchos, mas de achaques llenos.</l>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l part="I">¿De achaques?</l>
-          </sp><sp who="#isaías">
+          </sp>
+          <sp who="#isaías">
             <speaker>ISAÍAS</speaker>
             <l part="F"> Sí, pero ajenos, </l>
             <l n="1330">pues llevó nuestros dolores.</l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l>Ya que ese aviso a otro llama,</l>
             <l>a una pregunta habéis</l>
             <l>de responder: ¿Qué sabéis</l>
             <l>de pública voz y fama?</l>
-          </sp><sp who="#isaías">
+          </sp>
+          <sp who="#isaías">
             <speaker>ISAÍAS</speaker>
             <l n="1335">En cuanto a aqueso, forzoso</l>
             <l>decir lo que sé será.</l>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l part="I">¿Pues qué sabéis?</l>
-          </sp><sp who="#isaías">
+          </sp>
+          <sp who="#isaías">
             <speaker>ISAÍAS</speaker>
             <l part="F"> Sé que está </l>
             <l>reputado por leproso.</l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l>Pecado en la lepra arguyo.</l>
-          </sp><sp who="#isaías">
+          </sp>
+          <sp who="#isaías">
             <speaker>ISAÍAS</speaker>
             <l n="1340">Ya he dicho que él es tan bueno,</l>
             <l>que hizo propio el que era ajeno</l>
             <l>y le llevó como suyo.</l>
-          </sp></div><div type="scene" resp="#rojas" n="17"><stage>Firma y vase, y sale la CULPA con una banda al rostro.</stage><sp who="#inocencia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Firma y vase, y sale la CULPA con una banda al rostro.</stage>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Aquel testigo que ha entrado,</l>
             <l part="I">¿quién es?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Bien le he reconocido, </l>
             <l n="1345">pero aunque de mí lo ha sido,</l>
             <l>quede de otros ignorado.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="I">¿Quién será éste? </l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="F"> Estoy mortal, </l>
             <l>ni hablarle quiero, ni oír.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Lo que yo puedo decir</l>
             <l n="1350">dirá aqueste memorial.</l>
-          </sp></div><div type="scene" resp="#rojas" n="18"><stage>Deja un memorial sobre el bufete y vase.</stage><sp who="#josué">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>Deja un memorial sobre el bufete y vase.</stage>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l part="I">Esperad.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="F"> Veloz huyó. </l>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>Aunque con firma no viene,</l>
             <l>veamos lo que contiene</l>
             <l>el memorial que dejó.</l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <stage>Leyendo.</stage>
             <l n="1355">Sin lustre y sin esplendor,</l>
@@ -2170,36 +2652,54 @@
             <l n="1365">Naturaleza es villana,</l>
             <l>y ésta le toca por madre.</l>
             <stage>Leyendo.</stage>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>¡Ay, infelice de mí!</l>
             <l>¿Adónde hallará consuelo</l>
             <l part="I">igual dolor?</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="19"><stage>Vase llorando.</stage><sp who="#gracia">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Vase llorando.</stage>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> En el cielo, </l>
             <l n="1370">que ha de apiadarse de ti.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="20"><stage>Vase.</stage><sp who="#segundo-adán">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage>Vase.</stage>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Y no es esperanza vana,</l>
             <l>pues no tiene otra disculpa,</l>
             <l>acusada de la Culpa</l>
             <l>la Naturaleza humana.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="21"><stage>Vase.</stage><sp who="#inocencia">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage>Vase.</stage>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l n="1375">A llorar esta injusticia</l>
             <l>habré de hacer de aquí ausencia,</l>
             <l>que no está bien la Inocencia</l>
             <l>adonde está la Malicia.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="22"><stage>Vase.</stage><sp who="#josué">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage>Vase.</stage>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>¿Qué haremos en duda igual</l>
             <l n="1380">los dos con aquestas nuevas?</l>
-          </sp><sp who="#moisés">
+          </sp>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l>Llevar cerradas las pruebas,</l>
             <l>incluso este memorial,</l>
@@ -2208,21 +2708,29 @@
             <l n="1385">darán lo que toque de ellas</l>
             <l>a una y otra calidad.</l>
             <stage>Hace un pliego.</stage>
-          </sp><sp who="#josué">
+          </sp>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>Ya los dos vienen aquí.</l>
-          </sp></div><div type="scene" resp="#rojas" n="23"><stage>Salen JUDAÍSMO y GENTILIDAD.</stage><sp who="#moisés">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage>Salen JUDAÍSMO y GENTILIDAD.</stage>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l>Estos los méritos son</l>
             <l>que de nuestra información</l>
             <l part="I">resultan.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l n="1390" part="F"> Pues siendo así, </l>
             <l>que este uso para después</l>
             <l>quedará mientras leamos,</l>
             <l>vuestros informes oigamos.</l>
-          </sp><stage>Leen JUDAÍSMO y GENTILIDAD para sí.</stage><sp who="#moisés">
+          </sp>
+          <stage>Leen JUDAÍSMO y GENTILIDAD para sí.</stage>
+          <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l>Sea éste el de Moisés.</l>
             <l n="1395">Yo vi una zarza que ardía</l>
@@ -2241,8 +2749,12 @@
             <l>que honrarle debes prudente,</l>
             <l>pues es digno el pretendiente</l>
             <l n="1410">de los honores del Mundo.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="24"><stage>Vase.</stage><sp who="#josué">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
+          <stage>Vase.</stage>
+          <sp who="#josué">
             <speaker>JOSUÉ</speaker>
             <l>Yo vi que a la humana voz</l>
             <l>de hombre mortal suspendía,</l>
@@ -2260,8 +2772,12 @@
             <l>el Mundo premiar intente,</l>
             <l n="1425">pues es digno el pretendiente</l>
             <l>de los honores del Mundo.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="25"><stage>Vase.</stage><sp who="#judaísmo">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
+          <stage>Vase.</stage>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Aunque la vida le cueste</l>
             <l>al que le ha de redimir,</l>
@@ -2271,20 +2787,24 @@
             <l>de horrores los aires llenos,</l>
             <l>ni de Isaías los truenos</l>
             <l>ni los días de Daniel.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="1435">Según eso, y lo que aquí</l>
             <l>consta de esta información,</l>
             <l>pocos sus méritos son</l>
             <l part="I">para la cruz.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F"> Antes, sí. </l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Cómo, si del villanaje</l>
             <l n="1440">de Adán le toca el rigor?</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Teniéndola Él por honor</l>
             <l>y nosotros por ultraje,</l>
@@ -2300,12 +2820,14 @@
             <l>lograr fin tan soberano,</l>
             <l>si con las notas de humano</l>
             <l>por oprobio se le da.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="1455">Yo, hasta que llegue a tener</l>
             <l>de lo uno y otro más luz,</l>
             <l>no le he de poner la cruz.</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Pues yo se la he de poner</l>
             <l>con sola esta información,</l>
@@ -2313,20 +2835,30 @@
             <l>como ya dije, el traella</l>
             <l>por infamia y por baldón,</l>
             <l>en voz de honra y calidad.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Mi voto suspendo, puesto</l>
             <l n="1465">que no se ha de oír que en esto</l>
             <l>vino la Gentilidad.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="26"><stage>Vase.</stage><sp who="#judaísmo">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
+          <stage>Vase.</stage>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Bastará que venga yo.</l>
             <l part="I">¿Segundo Adán?</l>
-          </sp></div><div type="scene" resp="#rojas" n="27"><stage>Sale el SEGUNDO ADÁN.</stage><sp who="#segundo-adán">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
+          <stage>Sale el SEGUNDO ADÁN.</stage>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> ¿Qué me quieres?</l>
-          </sp><sp who="#judaísmo">
+          </sp>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Que pues tan ilustre eres</l>
             <l n="1470">que tu valor mereció</l>
@@ -2338,13 +2870,18 @@
             <l>te deje la cruz tan lleno,</l>
             <l>que diga: este nazareno</l>
             <l>es el rey de los judíos.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Contigo iré, en claro indicio,</l>
             <l n="1480">si a Isaías considero,</l>
             <l>de que voy como el cordero</l>
             <l>sin balar al sacrificio.</l>
-          </sp></div><div type="scene" resp="#rojas" n="28"><stage>Vase, y sale la NATURALEZA llorando.</stage><sp who="#naturaleza">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
+          <stage>Vase, y sale la NATURALEZA llorando.</stage>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>¿Qué consuelo habrá que cuadre</l>
             <l>a tanto dolor? ¿La humana</l>
@@ -2373,7 +2910,8 @@
             <l>del rosicler de los días?</l>
             <l>¿Mas quién mis penas oyó?</l>
             <l part="I">¿Quién vio mis lástimas? </l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <stage>Saliendo.</stage>
             <l part="F"> Yo,</l>
@@ -2394,16 +2932,19 @@
             <l>sintamos las dos aquí</l>
             <l part="I">diciendo ambas.</l>
             <stage>Saliendo.</stage>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <stage>Dentro.</stage>
             <l n="1525" part="F">¡Ay de mí! </l>
             <stage>Dentro.</stage>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>¿Pero quién nuestra desgracia</l>
             <l part="I">lamenta también?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <stage>Saliendo.</stage>
             <l part="F"> ¿Quién quieres </l>
@@ -2411,10 +2952,12 @@
             <l>las calumnias de la Culpa,</l>
             <l n="1530">Gracia, si no es la Inocencia?</l>
             <stage>Saliendo.</stage>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>¿Pues qué es lo que ha sucedido?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Que habiendo visto las pruebas,</l>
             <l>aunque la Gentilidad</l>
@@ -2426,63 +2969,77 @@
             <l>que la buscó como honra,</l>
             <l n="1540">y la llevó como afrenta</l>
             <l>a vista de todo el pueblo.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>¿Cómo a despacharle llegan,</l>
             <l>puesto que la antigua Ley</l>
             <l>aun no ha pasado a la nueva,</l>
             <l n="1545">sin que esté en la información</l>
             <l>la fe de bautismo puesta?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>Sí está, que Juan se la dio</l>
             <l>del Jordán en la Ribera.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Cédula de comunión,</l>
             <l n="1550">que también llevar es fuerza,</l>
             <l part="I">¿quién se la dio?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> El otro Juan, </l>
             <l>testimonio en una cena</l>
             <l>dio, que había comulgado.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>¿Quién para que más lo sienta</l>
             <l n="1555">le dio los golpes de espada?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>La Sinagoga, que, fiera,</l>
             <l>ensangrentó en él las manos.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>¿Quién el manto, que antes era,</l>
             <l>siendo blanca vestidura,</l>
             <l n="1560">de los no capaces seña,</l>
             <l part="I">le mandó poner?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> Herodes.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>¿Y quién le calzó la espuela?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>La Apocalipsis, en blanco</l>
             <l>caballo le vio en la guerra.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l n="1565">¿A quién dio por sustituto?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="I">A Pedro.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="F"> De las galeras, </l>
             <l>¿quién de la relevación</l>
             <l part="I">le hizo fianza?</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> Ésa</l>
             <l>hicieron Diego y Andrés,</l>
@@ -2493,12 +3050,17 @@
             <l>para que mejor se entienda,</l>
             <l n="1575">que al paso que a él le escarnecen</l>
             <l>enmudece su Inocencia.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="29"><stage>Vase.</stage><sp who="#naturaleza">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
+          <stage>Vase.</stage>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>¡Ay de mí!, que yo soy causa</l>
             <l>de que tanto mal padezca.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>No te desconsueles, puesto</l>
             <l n="1580">que estas ansias, estas penas</l>
@@ -2506,7 +3068,8 @@
             <l>cuando con sus cruces vengan</l>
             <l>los que, siguiendo la suya,</l>
             <l>a sus enemigos venzan.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="1585">No me desconsuela, Gracia,</l>
             <l>el ignorar cuánto sean</l>
@@ -2532,15 +3095,18 @@
             <l>siendo así que el de la deuda,</l>
             <l>si quiso, pudo librarla;</l>
             <l part="I">y si pudo, quiso.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> Espera,</l>
             <l>que habrá tiempo que esa duda</l>
             <l part="I">se aclare.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="1610" part="F"> ¿De qué manera? </l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Pídele al tiempo que corra</l>
             <l>y en alegórica idea</l>
@@ -2563,57 +3129,74 @@
             <l>ya la cruz que pretendió,</l>
             <l n="1630">se añada después que sea</l>
             <l>noble por padre y por Madre.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Si tú me animas y alientas,</l>
             <l>Gracia hermosa, ¿qué haré yo</l>
             <l>con las alas que me prestas</l>
             <l n="1635">en ir a hacer la demanda?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>¿No miras, no consideras</l>
             <l>que Naturaleza y Gracia</l>
             <l>son aquí una cosa mesma?</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Pues siendo así que a ambas toca</l>
             <l n="1640">el salir con la sentencia,</l>
             <l part="I">digamos ambas.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> Y sigan </l>
             <l>nuestras voces cielo y tierra.</l>
-          </sp><sp who="#gracia #naturaleza">
+          </sp>
+          <sp who="#gracia #naturaleza">
             <speaker>LAS DOS</speaker>
             <l>Luz, sol, luna, noche y día.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Luz, sol, luna, noche y día.</l>
-          </sp><sp who="#gracia #naturaleza">
+          </sp>
+          <sp who="#gracia #naturaleza">
             <speaker>LAS DOS</speaker>
             <l n="1645">Allanadme tierra y mar.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Allanadme tierra y mar.</l>
-          </sp><sp who="#gracia #naturaleza">
+          </sp>
+          <sp who="#gracia #naturaleza">
             <speaker>LAS DOS</speaker>
             <l>Ved que voy a liquidar.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Mirad que va a liquidar.</l>
-          </sp><sp who="#gracia #naturaleza">
+          </sp>
+          <sp who="#gracia #naturaleza">
             <speaker>LAS DOS</speaker>
             <l>La nobleza de María.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="1650">La nobleza de María.</l>
-          </sp></div><div type="scene" resp="#rojas" n="30"><stage>Repite la MÚSICA, y sale la CULPA.</stage><sp who="#culpa #música">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="30">
+          <stage>Repite la MÚSICA, y sale la CULPA.</stage>
+          <sp who="#culpa #música">
             <speaker>CULPA y MÚSICA</speaker>
             <l>Luz, sol, luna, noche y día,</l>
             <l>allanad la tierra y mar,</l>
             <l>ved que parte a litigar</l>
             <l>la nobleza de MARÍA.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1655">Después de puesta la cruz,</l>
             <l>en que logró mi cautela</l>
@@ -2743,43 +3326,54 @@
             <l n="1780">Pues mudando tono y letra,</l>
             <l>una y otra vez repiten</l>
             <l>los coros del cielo y tierra.</l>
-          </sp><sp who="#acompañamiento #job #judaísmo">
+          </sp>
+          <sp who="#acompañamiento #job #judaísmo">
             <speaker>CORO PRIMERO</speaker>
             <l>¡Ah, de la esfera del orbe!</l>
-          </sp><sp who="#naturaleza #gracia #música">
+          </sp>
+          <sp who="#naturaleza #gracia #música">
             <speaker>CORO SEGUNDO</speaker>
             <l>¡Ah, de la celeste esfera!</l>
-          </sp><sp who="#acompañamiento #job #judaísmo">
+          </sp>
+          <sp who="#acompañamiento #job #judaísmo">
             <speaker>CORO PRIMERO</speaker>
             <l n="1785">Verde cielo de flores y rosas.</l>
-          </sp><sp who="#naturaleza #gracia #música">
+          </sp>
+          <sp who="#naturaleza #gracia #música">
             <speaker>CORO SEGUNDO</speaker>
             <l>Azul paraíso de soles y estrellas.</l>
-          </sp><sp who="#acompañamiento #job #judaísmo">
+          </sp>
+          <sp who="#acompañamiento #job #judaísmo">
             <speaker>CORO PRIMERO</speaker>
             <l>¡Albricias, albricias!</l>
-          </sp><sp who="#naturaleza #gracia #música">
+          </sp>
+          <sp who="#naturaleza #gracia #música">
             <speaker>CORO SEGUNDO</speaker>
             <l>¿De qué alegres nuevas?</l>
-          </sp><sp who="#acompañamiento #job #judaísmo">
+          </sp>
+          <sp who="#acompañamiento #job #judaísmo">
             <speaker>CORO PRIMERO</speaker>
             <l>De que vuelve ufana</l>
             <l n="1790">la Naturaleza,</l>
             <l>con la información</l>
             <l>a memoria perpetua.</l>
-          </sp><sp who="#naturaleza #gracia #música">
+          </sp>
+          <sp who="#naturaleza #gracia #música">
             <speaker>CORO SEGUNDO</speaker>
             <l>Vuelva norabuena.</l>
-          </sp><sp who="#culpa #judaísmo #job #gracia #naturaleza #música">
+          </sp>
+          <sp who="#culpa #judaísmo #job #gracia #naturaleza #música">
             <speaker>TODOS</speaker>
             <l>Norabuena vuelva.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1795">¡Oh, malhayan mis oídos!,</l>
             <l>¿de qué me sirve que sea</l>
             <l>serpiente, si no me sirve</l>
             <l>de que al conjuro me duerma?</l>
-          </sp><sp who="#culpa #judaísmo #job #gracia #naturaleza #música">
+          </sp>
+          <sp who="#culpa #judaísmo #job #gracia #naturaleza #música">
             <speaker>TODOS</speaker>
             <l>Vuelva norabuena,</l>
             <l n="1800">norabuena vuelva,</l>
@@ -2787,7 +3381,8 @@
             <l>y alégrense al verla.</l>
             <l>Verde cielo de flores y rosas,</l>
             <l>azul paraíso de soles y estrellas.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <stage>Saliendo.</stage>
             <l n="1805">¿Qué dulces sonoras voces</l>
@@ -2799,7 +3394,11 @@
             <l>que es gran dicha la que aguarda,</l>
             <l>que es grande bien el que espera.</l>
             <stage>Saliendo.</stage>
-          </sp></div><div type="scene" resp="#rojas" n="31"><stage>Sale el LUCERO, cantando.</stage><sp who="#lucero">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="31">
+          <stage>Sale el LUCERO, cantando.</stage>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l>Y cómo que aguarda,</l>
             <l>y cómo que espera;</l>
@@ -2809,11 +3408,13 @@
             <l>airosa y contenta;</l>
             <l>con que cielos y tierra se alegren</l>
             <l n="1820">al oírla y verla.</l>
-          </sp><sp who="#mundo #culpa #judaísmo #job #lucero #gracia #naturaleza">
+          </sp>
+          <sp who="#mundo #culpa #judaísmo #job #lucero #gracia #naturaleza">
             <speaker>TODOS</speaker>
             <l>Verde cielo de flores y rosas,</l>
             <l>azul paraíso de soles y estrellas.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>¡Oh tú, que segunda vez</l>
             <l>con tus acentos elevas</l>
@@ -2823,7 +3424,8 @@
             <l>armonïosa sirena,</l>
             <l>festivos himnos entonas,</l>
             <l n="1830">en vez de tristes endechas!</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <stage>Cantando.</stage>
             <l>Como el pueblo es voz de Dios,</l>
@@ -2851,25 +3453,31 @@
             <l>con que queda enriquecida,</l>
             <l>diciendo en voces diversas.</l>
             <stage>Cantando.</stage>
-          </sp><sp who="#acompañamiento #job #judaísmo">
+          </sp>
+          <sp who="#acompañamiento #job #judaísmo">
             <speaker>CORO PRIMERO</speaker>
             <l n="1855">¡Ah, de la esfera del orbe!</l>
-          </sp><sp who="#naturaleza #gracia #música">
+          </sp>
+          <sp who="#naturaleza #gracia #música">
             <speaker>CORO SEGUNDO</speaker>
             <l>¡Ah, de la celeste esfera!</l>
-          </sp><sp who="#acompañamiento #job #judaísmo">
+          </sp>
+          <sp who="#acompañamiento #job #judaísmo">
             <speaker>CORO PRIMERO</speaker>
             <l>¡Albricias, albricias!</l>
-          </sp><sp who="#naturaleza #gracia #música">
+          </sp>
+          <sp who="#naturaleza #gracia #música">
             <speaker>CORO SEGUNDO</speaker>
             <l>¿De qué alegres nuevas?</l>
-          </sp><sp who="#acompañamiento #job #judaísmo #naturaleza #gracia #música">
+          </sp>
+          <sp who="#acompañamiento #job #judaísmo #naturaleza #gracia #música">
             <speaker>CORO</speaker>
             <l>De que vuelva ufana</l>
             <l n="1860">la Naturaleza,</l>
             <l>con la información</l>
             <l>a memoria perpetua.</l>
-          </sp><sp who="#mundo #culpa #judaísmo #job #lucero #gracia #naturaleza">
+          </sp>
+          <sp who="#mundo #culpa #judaísmo #job #lucero #gracia #naturaleza">
             <speaker>TODOS</speaker>
             <l>Vuelva norabuena,</l>
             <l>norabuena vuelva,</l>
@@ -2877,7 +3485,11 @@
             <l>y alégrense al verla.</l>
             <l>Verde cielo de flores y rosas,</l>
             <l>azul paraíso de soles y estrellas.</l>
-          </sp></div><div type="scene" resp="#rojas" n="32"><stage>Vase el LUCERO con esa repetición.</stage><sp who="#culpa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="32">
+          <stage>Vase el LUCERO con esa repetición.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Oye, escucha, espera, aguarda,</l>
             <l n="1870">donde la Naturaleza,</l>
@@ -2885,7 +3497,9 @@
             <l>hoy edades casi eternas,</l>
             <l>con aqueste triunfo está</l>
             <l>tan alegre y tan contenta.</l>
-          </sp><stage>Con música ábrese un carro, que será un jardín lleno de ángeles, con los atributos de Nuestra Señora, y entre ellos la NATURALEZA en elevación.</stage><sp who="#naturaleza">
+          </sp>
+          <stage>Con música ábrese un carro, que será un jardín lleno de ángeles, con los atributos de Nuestra Señora, y entre ellos la NATURALEZA en elevación.</stage>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="1875">En el nuevo paraíso</l>
             <l>de este jardín, donde vueltas</l>
@@ -2907,25 +3521,31 @@
             <l>y, en fin, las fuentes sus perlas;</l>
             <l>por que vuelva ufana</l>
             <l>la Naturaleza.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="1895">Por que vuelva ufana</l>
             <l>la Naturaleza.</l>
-          </sp><sp who="#naturaleza #música">
+          </sp>
+          <sp who="#naturaleza #música">
             <speaker>ELLA y MÚSICA</speaker>
             <l>Con la información</l>
             <l>a memoria perpetua.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Qué información?</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="F"> La de aqueste </l>
             <l part="I">edicto.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1900" part="F"> En suma, ¿qué encierra? </l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Si lo he de decir en suma,</l>
             <l>oye, que de esta manera</l>
@@ -3004,19 +3624,23 @@
             <l n="1975">por tribunales de fe,</l>
             <l part="I">como reo, y...</l>
             <stage>Leyendo.</stage>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F"> Cesa, cesa, </l>
             <l>no prosigas, no prosigas,</l>
             <l>que al oírlo el pecho tiembla,</l>
             <l>el corazón se estremece</l>
             <l n="1980">y se entorpece la lengua.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Aunque tú me atajes, Culpa,</l>
             <l>no estorbarás que lo sepa</l>
             <l>el Mundo, que ya lo oyó.</l>
-          </sp><stage>Ciérrase la apariencia.</stage><sp who="#mundo">
+          </sp>
+          <stage>Ciérrase la apariencia.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Y con alegría tan nueva</l>
             <l n="1985">que no ve la hora felice</l>
@@ -3024,7 +3648,8 @@
             <l>en que sea ejecutoria</l>
             <l>la información, que a perpetua</l>
             <l part="I">memoria es hoy.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <stage>Saliendo.</stage>
             <l part="F"> Sí, verás: </l>
@@ -3050,17 +3675,23 @@
             <l>o díganlo aquellas voces,</l>
             <l n="2010">que una y otra vez alientan.</l>
             <stage>Saliendo.</stage>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>La Cruz que al Adán Segundo</l>
             <l>afrenta a la espalda fue,</l>
             <l>ya abrazado a ella se ve</l>
             <l>ser al pecho honor del mundo.</l>
-          </sp></div><div type="scene" resp="#rojas" n="33"><stage>Con esta repetición sale el SEGUNDO ADÁN con manto capitular y hábito de Cristo. El LUCERO, con manto negro y cruz blanca de San Juan. DIEGO, con manto y cruz de Santiago. BENITO, con manto y cruz de Calatrava. La NATURALEZA, con manto y cruz de Montesa. BERNARDO, con manto y cruz de Alcántara. La GRACIA, con manto azul e imagen de la Purísima Concepción bordada en él.</stage><sp who="#mundo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="33">
+          <stage>Con esta repetición sale el SEGUNDO ADÁN con manto capitular y hábito de Cristo. El LUCERO, con manto negro y cruz blanca de San Juan. DIEGO, con manto y cruz de Santiago. BENITO, con manto y cruz de Calatrava. La NATURALEZA, con manto y cruz de Montesa. BERNARDO, con manto y cruz de Alcántara. La GRACIA, con manto azul e imagen de la Purísima Concepción bordada en él.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="2015">¡De tan nuevo visto auto</l>
             <l part="I">admirado estoy!</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Cualquiera</l>
             <l>tome su cruz, y me siga.</l>
@@ -3071,7 +3702,8 @@
             <l>que a nadie el poder violenta,</l>
             <l>y con llevarla que puede,</l>
             <l>cumple conmigo, y con ellas.</l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l n="2025">Yo sobre este negro manto</l>
             <l>esmalté esta blanca seña,</l>
@@ -3079,14 +3711,16 @@
             <l>desterrando las tinieblas;</l>
             <l>pues solamente hasta Juan</l>
             <l n="2030">duraron ley y profetas.</l>
-          </sp><sp who="#santiago">
+          </sp>
+          <sp who="#santiago">
             <speaker>DIEGO</speaker>
             <l>Yo, que el primero bebí</l>
             <l>tu cáliz, el lugar tenga</l>
             <l>primero en la antigüedad</l>
             <l>de la militante escuela</l>
             <l part="I">de la Caballería.</l>
-          </sp><sp who="#benito">
+          </sp>
+          <sp who="#benito">
             <speaker>BENITO</speaker>
             <l n="2035" part="F"> Cuando</l>
             <l>en ti la fe resplandezca</l>
@@ -3098,23 +3732,28 @@
             <l>de tantos como en su Regla</l>
             <l>darán la vida por Ti,</l>
             <l>Benito quien la presenta.</l>
-          </sp><sp who="#bernardo">
+          </sp>
+          <sp who="#bernardo">
             <speaker>BERNARDO</speaker>
             <l n="2045">Bien; como por la Esperanza</l>
             <l>hoy de los prelados llega</l>
             <l>Bernardo con esta verde</l>
             <l>cruz, que su esperanza alienta.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Como a mí de ésta el honor.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="2050">Como a mí el aplauso de ésta.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>¿Qué cruz tomaste tú, Gracia?</l>
             <l>¿Qué cruz tú, Naturaleza?</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Como es María, Señor,</l>
             <l>de Nazareth montañesa,</l>
@@ -3123,7 +3762,8 @@
             <l>sincopado el nombre, traigo</l>
             <l>la ilustre cruz de Montesa,</l>
             <l>como patronato suyo.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="2060">Yo, en la misma consecuencia,</l>
             <l>viendo cuánto noble hoy</l>
@@ -3137,7 +3777,8 @@
             <l>con que no podrá la Culpa</l>
             <l n="2070">estorbarme, Gracia bella,</l>
             <l part="I">ya tu abrazo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F"> Sí podrá, </l>
             <l>pues contra toda esa excelsa</l>
@@ -3146,72 +3787,94 @@
             <l n="2075">En primer instante, cuando</l>
             <l>yo sí. ¡Qué rabia! ¡Qué pena!</l>
             <l part="I">¿En primer instante?</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l part="F"> Di.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="I">Prosigue.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> No te suspendas. </l>
-          </sp><sp who="#lucero">
+          </sp>
+          <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l part="I">Habla.</l>
-          </sp><sp who="#santiago">
+          </sp>
+          <sp who="#santiago">
             <speaker>DIEGO</speaker>
             <l part="M"> Articula.</l>
-          </sp><sp who="#benito">
+          </sp>
+          <sp who="#benito">
             <speaker>BENITO</speaker>
             <l part="F"> Pronuncia.</l>
-          </sp><sp who="#bernardo">
+          </sp>
+          <sp who="#bernardo">
             <speaker>BERNARDO</speaker>
             <l part="I">Arguye.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l n="2080" part="F"> Mueve la lengua. </l>
-          </sp><sp who="#acompañamiento #job #judaísmo #naturaleza #gracia #mundo #inocencia #santiago #segundo-adán #benito #bernardo">
+          </sp>
+          <sp who="#acompañamiento #job #judaísmo #naturaleza #gracia #mundo #inocencia #santiago #segundo-adán #benito #bernardo">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué ibas a decir?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F"> Absorta,</l>
             <l>muda, confusa y suspensa</l>
             <l part="I">quedó la Culpa.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l part="F"> Que no </l>
             <l>puede hablar, dice por señas.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l n="2085">Furiosa el pecho se rasga.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>El corazón, loca y ciega</l>
             <l part="I">se despedaza.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="F"> Las manos </l>
             <l>tuerce; aunque gime, no alienta.</l>
-          </sp></div><div type="scene" resp="#rojas" n="34"><stage>Vase la CULPA, haciendo los extremos que dicen los versos.</stage><sp who="#job #judaísmo #naturaleza #gracia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="34">
+          <stage>Vase la CULPA, haciendo los extremos que dicen los versos.</stage>
+          <sp who="#job #judaísmo #naturaleza #gracia">
             <speaker>UNOS</speaker>
             <l>De sí las plumas arroja,</l>
             <l n="2090">de sí los libros desecha.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Y huyendo va, por que a mí</l>
             <l>en ventura como ésta,</l>
             <l>del pavón de mi fortuna</l>
             <l>la pompa me desvanezca.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l n="2095">Antes por esta ventura</l>
             <l>la desvanecida rueda</l>
             <l part="I">debiera abatir.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F"> ¿Por qué? </l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Porque no es esta materia</l>
             <l>para el desvanecimiento,</l>
@@ -3224,7 +3887,9 @@
             <l>cadáver que representa</l>
             <l>dentro de su seno, donde</l>
             <l>deshecho se manifiesta.</l>
-          </sp><stage>Ábrese el pavón y vese el JUDAÍSMO vestido de cadáver.</stage><sp who="#judaísmo">
+          </sp>
+          <stage>Ábrese el pavón y vese el JUDAÍSMO vestido de cadáver.</stage>
+          <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>¿Es verdad que esta exterior</l>
             <l n="2110">pompa del mundo en sí encierra</l>
@@ -3235,10 +3900,13 @@
             <l n="2115">y en triunfo de María,</l>
             <l>que ha de ser su vida eterna,</l>
             <l>no busques tú aplauso en mí.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿Pues en quién?</l>
-          </sp><stage>Ábrese el pelícano y vese dentro una hostia y cáliz y la GENTILIDAD.</stage><sp who="#gentilidad">
+          </sp>
+          <stage>Ábrese el pelícano y vese dentro una hostia y cáliz y la GENTILIDAD.</stage>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F"> En la clemencia del </l>
             <l>pelícano, que el pecho</l>
@@ -3257,39 +3925,47 @@
             <l>pagó del otro la deuda.</l>
             <l>TODOS Pues dando al cielo las gracias,</l>
             <l>diga en su aplauso la tierra.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="2135">Cobre lenguas y plumas la gracia bella,</l>
             <l>pues perdió la Culpa plumas y lenguas.</l>
-          </sp><sp who="#segundo-adán">
+          </sp>
+          <sp who="#segundo-adán">
             <speaker>SEGUNDO ADÁN</speaker>
             <l>Y pues queda ufana</l>
             <l>la Naturaleza.</l>
-          </sp><sp who="#gracia">
+          </sp>
+          <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Con la información</l>
             <l n="2140">a memoria perpetua.</l>
-          </sp><sp who="#naturaleza">
+          </sp>
+          <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>El perdón pidiendo</l>
             <l>de faltas nuestras.</l>
-          </sp><sp who="#inocencia">
+          </sp>
+          <sp who="#inocencia">
             <speaker>INOCENCIA</speaker>
             <l>En nombre de quien</l>
             <l>serviros desea.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="2145">Repitamos todos,</l>
             <l>en voces diversas.</l>
-          </sp><sp who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia #música">
+          </sp>
+          <sp who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l>Cobre lenguas y plumas</l>
             <l>la Gracia bella,</l>
             <l>pues perdió la Culpa</l>
             <l n="2150">plumas y lenguas.</l>
-          </sp></div>
-      
-    </div>
+          </sp>
+        </div>
+
+      </div>
     </body>
   </text>
 </TEI>

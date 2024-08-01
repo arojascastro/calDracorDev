@@ -1,5 +1,109 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000016" xml:lang="esp">
-  <teiHeader><fileDesc><titleStmt><title type="main">El indulto general</title><title type="sub">Auto sacramental alegórico</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-05-20"><time when="13:28:02"/></date><idno type="quadramaX">El indulto general</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-indulto-general--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Ignacio Arellano y Juan Manuel Escudero procedente de la edición Calderón de la Barca, Pedro, El indulto general , ed. Ignacio Arellano y Juan Manuel Escudero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1996. ISBN: 3-930700-64-6.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="culpa" sex="FEMALE"><persName>La Culpa</persName></person><person xml:id="mundo" sex="MALE"><persName>El Mundo</persName></person><person xml:id="adán" sex="MALE"><persName>Adán</persName></person><person xml:id="caín" sex="MALE"><persName>Caín</persName></person><person xml:id="abel" sex="MALE"><persName>Abel</persName></person><person xml:id="david" sex="MALE"><persName>David</persName></person><person xml:id="salomón" sex="MALE"><persName>Salomón</persName></person><person xml:id="abraham" sex="MALE"><persName>Abraham</persName></person><person xml:id="dimas" sex="MALE"><persName>Dimas</persName></person><person xml:id="gestas" sex="FEMALE"><persName>Gestas</persName></person><person xml:id="ángel" sex="MALE"><persName>Ángel</persName></person><person xml:id="justicia" sex="FEMALE"><persName>La Justicia</persName></person><person xml:id="misericordia" sex="FEMALE"><persName>La Misericordia</persName></person><person xml:id="príncipe" sex="MALE"><persName>El Príncipe</persName><trait resp="#rojas"><desc>príncipe</desc></trait></person><person xml:id="esposa" sex="FEMALE"><persName>La Esposa</persName></person><person sex="UNKNOWN" xml:id="música"><persName>Música</persName></person><person xml:id="acompañamiento" sex="MALE"><persName>Acompañamiento</persName></person></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords><classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000016" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El indulto general</title>
+        <title type="sub">Auto sacramental alegórico</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-20"><time when="13:28:02"/></date>
+        <idno type="quadramaX">El indulto general</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-indulto-general--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Ignacio Arellano y Juan Manuel Escudero procedente de la edición Calderón de la Barca, Pedro, El indulto general , ed. Ignacio Arellano y Juan Manuel Escudero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1996. ISBN: 3-930700-64-6.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="culpa" sex="FEMALE">
+            <persName>La Culpa</persName>
+          </person>
+          <person xml:id="mundo" sex="MALE">
+            <persName>El Mundo</persName>
+          </person>
+          <person xml:id="adán" sex="MALE">
+            <persName>Adán</persName>
+          </person>
+          <person xml:id="caín" sex="MALE">
+            <persName>Caín</persName>
+          </person>
+          <person xml:id="abel" sex="MALE">
+            <persName>Abel</persName>
+          </person>
+          <person xml:id="david" sex="MALE">
+            <persName>David</persName>
+          </person>
+          <person xml:id="salomón" sex="MALE">
+            <persName>Salomón</persName>
+          </person>
+          <person xml:id="abraham" sex="MALE">
+            <persName>Abraham</persName>
+          </person>
+          <person xml:id="dimas" sex="MALE">
+            <persName>Dimas</persName>
+          </person>
+          <person xml:id="gestas" sex="FEMALE">
+            <persName>Gestas</persName>
+          </person>
+          <person xml:id="ángel" sex="MALE">
+            <persName>Ángel</persName>
+          </person>
+          <person xml:id="justicia" sex="FEMALE">
+            <persName>La Justicia</persName>
+          </person>
+          <person xml:id="misericordia" sex="FEMALE">
+            <persName>La Misericordia</persName>
+          </person>
+          <person xml:id="príncipe" sex="MALE">
+            <persName>El Príncipe</persName>
+            <trait resp="#rojas">
+              <desc>príncipe</desc>
+            </trait>
+          </person>
+          <person xml:id="esposa" sex="FEMALE">
+            <persName>La Esposa</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+          <person xml:id="acompañamiento" sex="MALE">
+            <persName>Acompañamiento</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="#kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1759">
@@ -37,31 +141,40 @@
     </front>
     <body>
       <div type="act" n="1">
-        <div type="scene" resp="#rojas" n="1"><stage>Dentro la MÚSICA y sale la CULPA como oyendo a lo lejos.</stage><sp who="#música">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Dentro la MÚSICA y sale la CULPA como oyendo a lo lejos.</stage>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>¿Cuándo, Señor, será el día</l>
             <l>de aquel gran prometimiento...</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>"¿Cuándo, Señor, será el día</l>
             <l>de aquel gran prometimiento..."</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="5">...en que cielo y tierra unidos...</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>"...en que cielo y tierra unidos..."</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...en admirable comercio...</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>"...en admirable comercio..."</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...el cielo en la tierra,</l>
             <l n="10">la tierra sea cielo?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>"...el cielo en la tierra,</l>
             <l>la tierra sea cielo?"</l>
@@ -73,12 +186,14 @@
             <l>consonancias de lamento,</l>
             <l>desde lo profundo clama</l>
             <l n="20">una y otra vez diciendo...</l>
-          </sp><sp who="#culpa #música">
+          </sp>
+          <sp who="#culpa #música">
             <speaker>ELLA y MÚSICA</speaker>
             <l>...que en admirable comercio</l>
             <l>el cielo en la tierra</l>
             <l>la tierra sea cielo?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Pero, ¿qué me desconfía,</l>
             <l n="25">cante o llore, el día que preso</l>
@@ -121,7 +236,11 @@
             <l>a la sombra de la muerte,</l>
             <l>en el más profundo sueño</l>
             <l part="I">de la vida!</l>
-          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Sale el MUNDO.</stage><sp who="#mundo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Sale el MUNDO.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">¿A qué fin, Culpa,</l>
             <l n="65">hoy, de tu siempre severo</l>
@@ -150,7 +269,8 @@
             <l>así, que están a mi cargo,</l>
             <l>¿a qué fin, a decir vuelvo,</l>
             <l n="90">vienes hoy tan asustada?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>A fin de no sé qué acento,</l>
             <l>sólo de mí percebido,</l>
@@ -225,7 +345,8 @@
             <l>sea, cuando llegue el tiempo,</l>
             <l>memoria de sus olvidos</l>
             <l>el libro de mis acuerdos.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Siendo tú la querellante</l>
             <l n="165">parte, a cuyo pedimiento</l>
@@ -267,70 +388,91 @@
             <l>Adán de su error primero,</l>
             <l>con sus familias está</l>
             <l>a todas horas diciendo:</l>
-          </sp><stage>ábrese el carro primero; se ven en él a ADÁN, CAÍN y ABEL.</stage><sp who="#adán">
+          </sp>
+          <stage>ábrese el carro primero; se ven en él a ADÁN, CAÍN y ABEL.</stage>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l>Pequé, Señor, y aunque infinito ha sido,...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="205">...pequé, Señor, y aunque infinito ha sido,...</l>
-          </sp><sp who="#adán">
+          </sp>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l>...por tu infinito objeto, mi pecado,...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...por tu infinito objeto, mi pecado,...</l>
-          </sp><sp who="#adán">
+          </sp>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l>...que temo en tu justicia ser perdido,...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...que temo en tu justicia ser perdido,...</l>
-          </sp><sp who="#adán">
+          </sp>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l n="210">...espero en tu bondad ser perdonado.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...espero en tu bondad ser perdonado.</l>
-          </sp><sp who="#adán">
+          </sp>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l>Todo el género humano, contraído...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Todo el género humano, contraído...</l>
-          </sp><sp who="#adán">
+          </sp>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l>...en mi deuda, tras mí truje obligado.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="215">...en mi deuda, tras mí truje obligado.</l>
-          </sp><sp who="#adán">
+          </sp>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l>Duélate, que no puede mi delito...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Duélate, que no puede mi delito...</l>
-          </sp><sp who="#adán">
+          </sp>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l>...lo infinito pagar sin lo infinito.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...lo infinito pagar sin lo infinito.</l>
-          </sp><sp who="#caín">
+          </sp>
+          <sp who="#caín">
             <speaker>CAÍN</speaker>
             <l n="220">Inútilmente porfías,</l>
             <l>pues no son más tus lamentos</l>
             <l>que dar al mar lo llorado</l>
             <l>y lo suspirado al viento.</l>
-          </sp><sp who="#abel">
+          </sp>
+          <sp who="#abel">
             <speaker>ABEL</speaker>
             <l>No digas eso, Caín,</l>
             <l n="225">que el llanto es llave del cielo,</l>
             <l>y quien abre sus candados</l>
             <l>también abrirá los nuestros.</l>
-          </sp><sp who="#caín">
+          </sp>
+          <sp who="#caín">
             <speaker>CAÍN</speaker>
             <l>Eso será tarde, o nunca.</l>
-          </sp><sp who="#adán">
+          </sp>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l>Al humano entendimiento</l>
             <l n="230">no le toca saber más</l>
@@ -361,7 +503,8 @@
             <l>piadosos ofrecimientos,</l>
             <l>que si en ésta son primicias</l>
             <l n="255">en otra edad serán diezmos.</l>
-          </sp><sp who="#abel">
+          </sp>
+          <sp who="#abel">
             <speaker>ABEL</speaker>
             <l>De mis ganados, señor,</l>
             <l>iré a escoger el cordero</l>
@@ -372,7 +515,8 @@
             <l>que símbolo, desde ahora,</l>
             <l>de algún alto sacramento</l>
             <l part="I">a ser venga.</l>
-          </sp><sp who="#caín">
+          </sp>
+          <sp who="#caín">
             <speaker>CAÍN</speaker>
             <l part="F">Si a eso va,</l>
             <l n="265">también yo en trigo te ofrezco</l>
@@ -384,17 +528,23 @@
             <l>a su destemplanza expuesto,</l>
             <l>lo mejor, cuando lo habré</l>
             <l>menester para mí mesmo.</l>
-          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Vanse CAÍN y ABEL.</stage><sp who="#adán">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vanse CAÍN y ABEL.</stage>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l>Id, pues, que yo quedaré</l>
             <l n="275">pidiendo a Dios sean acetos</l>
             <l>uno y otro sacrificio</l>
             <l>hasta que logre mi anhelo.</l>
-          </sp><sp who="#adán #música">
+          </sp>
+          <sp who="#adán #música">
             <speaker>éL y MÚSICA</speaker>
             <l>Que el cielo en la tierra,</l>
             <l>la tierra sea cielo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="280">Dejemos la natural</l>
             <l>ley en su estado primero,</l>
@@ -408,7 +558,8 @@
             <l>castigo a unos, si a otros premio.</l>
             <l n="290">Vamos, pues, más adelante,</l>
             <l part="I">Mundo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Si de mi primero</l>
             <l>tránsito, primera edad</l>
@@ -427,13 +578,15 @@
             <l n="305">la segunda transcendiendo,</l>
             <l>de Abraham a Moisés. Vamos</l>
             <l part="I">a la tercera.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Primero</l>
             <l>di ¿por qué la edad segunda</l>
             <l>pasas sin hacerme acuerdo</l>
             <l n="310">de qué presos hay en ella?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Porque, en aquese intermedio</l>
             <l>que hay desde Adán a Moisés,</l>
@@ -470,106 +623,137 @@
             <l>donde siguiendo el concepto</l>
             <l>de tu idea, también yace</l>
             <l n="345">entre sus gentes, diciendo:</l>
-          </sp><stage>ábrese el segundo carro, y se ven DAVID y SALOMÓN.</stage><sp who="#david">
+          </sp>
+          <stage>ábrese el segundo carro, y se ven DAVID y SALOMÓN.</stage>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>Inmenso Dios, de mí te compadece...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Inmenso Dios, de mí te compadece...</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>...al verme envuelto en mi mortal discordia,...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...al verme envuelto en mi mortal discordia,...</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l n="350">...no según que mi culpa lo merece,...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...no según que mi culpa lo merece,...</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>...sino según tu gran misericordia,...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...sino según tu gran misericordia,...</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>...y según el gran número que ofrece...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="355">...y según el gran número que ofrece...</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>...de conmiseraciones la concordia.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...de conmiseraciones la concordia.</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>De tu piedad, del libro de los días,...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>De tu piedad, del libro de los días,...</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l n="360">...borra, Señor, iniquidades mías.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...borra, Señor, iniquidades mías.</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>Con amplia gracia, pues tu gracia ha sido</l>
             <l>la viva fuente de inmortal pureza,...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Con amplia gracia, pues tu gracia ha sido</l>
             <l n="365">la viva fuente de inmortal pureza,...</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>...lava las manchas en que me ha tenido</l>
             <l>el lodo vil de mi naturaleza,...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...lava las manchas en que me ha tenido</l>
             <l>el lodo vil de mi naturaleza,...</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l n="370">...no porque yo lo tengo merecido,</l>
             <l>sino porque conozco mi flaqueza.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>...no porque yo lo tengo merecido,</l>
             <l>sino porque conozco mi flaqueza.</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>Y confieso que siempre conjurado</l>
             <l n="375">va contra mí, conmigo mi pecado.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Y confieso que siempre conjurado</l>
             <l>va contra mí, conmigo mi pecado.</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>Pequé, Señor, pequé contra ti sólo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Ve adelante, que no quiero</l>
             <l n="380">que encienda mi ira la blanda</l>
             <l>voz de su arrepentimiento.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Oye antes a Salomón.</l>
-          </sp><sp who="#salomón">
+          </sp>
+          <sp who="#salomón">
             <speaker>SALOMÓN</speaker>
             <l>¿Hasta cuándo tus extremos</l>
             <l part="I">han de durar?</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l part="F">Hasta cuando</l>
             <l n="385">Dios se compadezca de ellos.</l>
-          </sp><sp who="#salomón">
+          </sp>
+          <sp who="#salomón">
             <speaker>SALOMÓN</speaker>
             <l>Todos ese feliz día,</l>
             <l>Señor, esperamos, pero</l>
@@ -579,7 +763,8 @@
             <l>a Dios y que le alabemos</l>
             <l>con júbilos y con himnos,</l>
             <l>con tímpanos y salterios?</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>Sí, que el día del Señor</l>
             <l n="395">también es culto el contento,</l>
@@ -593,11 +778,13 @@
             <l>porque es la vista veneno</l>
             <l>del alma tan poderoso</l>
             <l n="405">que ha menester por remedio...</l>
-          </sp><sp who="#david #música">
+          </sp>
+          <sp who="#david #música">
             <speaker>éL y MÚSICA</speaker>
             <l>...que el cielo en la tierra,</l>
             <l>la tierra sea cielo.</l>
-          </sp><sp who="#salomón">
+          </sp>
+          <sp who="#salomón">
             <speaker>SALOMÓN</speaker>
             <l>Bien me aconsejas, mas no</l>
             <l>sé si (por más que los cielos</l>
@@ -609,8 +796,12 @@
             <l n="415">podré vencer el afecto</l>
             <l>que a idólatras hermosuras</l>
             <l>arrastra mi entendimiento.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Vase.</stage><sp who="#culpa">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Vase.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Bien me dijiste en que oyera</l>
             <l>a Salomón, pues con eso,</l>
@@ -626,7 +817,8 @@
             <l>perficionada, en diseños</l>
             <l n="430">de lo que espera ser, sólo</l>
             <l>tiene echados los cimientos?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Un cuarto, que aún no labrado</l>
             <l>está, por falta de medios;</l>
@@ -640,80 +832,102 @@
             <l>esperan su advenimiento:</l>
             <l>profetas y patriarcas</l>
             <l part="I">son.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Abre su obscuro centro</l>
             <l>que para escribir sus causas</l>
             <l n="445">me importa reconocerlos;</l>
             <l part="I">abre.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="M">Sí haré.</l>
-          </sp><sp who="#acompañamiento">
+          </sp>
+          <sp who="#acompañamiento">
             <speaker>VOCES</speaker>
             <stage>Dentro.</stage>
             <l part="F">¡Ah de la cárcel!</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿Quién llama?</l>
-          </sp><sp who="#acompañamiento">
+          </sp>
+          <sp who="#acompañamiento">
             <speaker>VOCES</speaker>
             <stage>Dentro.</stage>
             <l part="F">Allá van dos presos.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>La ronda de la justicia</l>
             <l>presos tray. Veamos primero</l>
             <l n="450">quién son y por qué los tray.</l>
-          </sp><sp who="#acompañamiento">
+          </sp>
+          <sp who="#acompañamiento">
             <speaker>VOCES</speaker>
             <stage>Dentro.</stage>
             <l>Por ladrones bandoleros,</l>
             <l>salteadores de caminos.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Entren pues, que el Mundo expuesto</l>
             <l>está en recebir a cuantos</l>
             <l part="I">a él vengan.</l>
-          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Salen DIMAS y GESTAS de bandidos.</stage><sp who="#dimas">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Salen DIMAS y GESTAS de bandidos.</stage>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l n="455" part="F">¡Valedme, cielos,</l>
             <l>que ya sé que mis insultos</l>
             <l part="I">a morir me trayn!</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l part="F">¡Infiernos,</l>
             <l>valedme, que por los míos</l>
             <l>también sé que a morir vengo!</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="460">Para asentar la partida,</l>
             <l>de que ya a mi cargo os tengo,</l>
             <l part="I">decid vuestro nombre.</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l part="F">Dimas.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Decid vos también el vuestro.</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l part="I">Gestas.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">¿Por qué vos venís?</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l n="465">Por delitos que confieso</l>
             <l part="I">haber cometido.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">¿Vos?</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l>Por otros dicen, mas niego</l>
             <l>haberlos yo cometido.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>De modo que, ¿vos confeso</l>
             <l n="470">venís y vos negativo?</l>
@@ -724,68 +938,82 @@
             <l n="475">Venid, pues, porque, en abriendo</l>
             <l>este calabozo, en él</l>
             <l>aseguraros pretendo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Haces bien, facinerosos</l>
             <l>tales en su obscuro centro</l>
             <l part="I">es justo que estén.</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l n="480" part="F">¡Ay, Culpa,</l>
             <l>en qué desdicha me has puesto!</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Luego me conoces?</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l part="F">Sí.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Más valiera que no; pero,</l>
             <l>aun conocida, seguirte</l>
             <l n="485">sabré hasta el último aliento.</l>
             <l>Llegad, pues, llegad entrambos</l>
             <l part="I">a esos umbrales.</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l part="F">Lleguemos</l>
             <l>dónde nuestra Culpa, Gestas,</l>
             <l part="I">nos lleva.</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l part="F">Llega tú, puesto</l>
             <l n="490">que la conoces; que yo</l>
             <l>ni la conozco ni quiero</l>
             <l part="I">conocerla.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Yo te haré</l>
             <l>que me conozcas bien presto.</l>
             <l part="I">Mundo, abre esa puerta.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <stage>Intenta abrir la puerta.</stage>
             <l part="F">Ya</l>
             <l n="495">lo procuro, mas no puedo</l>
             <l part="I">abrirla.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="M">¿Por qué?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Porque,</l>
             <l>aunque la busco, no tengo</l>
             <l>su llave yo en mi poder.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Como no la encuentro</l>
             <l n="500">entre cuantas, de infinitos</l>
             <l>tristes calabozos, tengo,</l>
             <l part="I">sepulcros de otros.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Aparta</l>
             <l>que yo la romperé. ¡Cielos!,</l>
@@ -800,7 +1028,9 @@
             <l>y sus candados de acero,</l>
             <l>imposibles de que pueda</l>
             <l>yo, ni abrirlos ni romperlos.</l>
-          </sp><stage>Dentro instrumentos.</stage><sp who="#mundo">
+          </sp>
+          <stage>Dentro instrumentos.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Aún no es esa la mayor</l>
             <l n="515">confusión, sino que, dentro,</l>
@@ -808,52 +1038,63 @@
             <l>de Adán y David siguiendo</l>
             <l>la aclamación, también dice</l>
             <l>en lastimosos acentos...</l>
-          </sp><sp who="#abraham">
+          </sp>
+          <sp who="#abraham">
             <speaker>ABRAHAM</speaker>
             <stage>Dentro.</stage>
             <l n="520">¡Cuándo, Señor, será el día</l>
             <l>que abra la tierra su centro</l>
             <l>y produzca al Salvador!</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <stage>Dentro.</stage>
             <l>¡Cuándo, Señor, será el día</l>
             <l>que abra la tierra su centro</l>
             <l n="525">y produzca al Salvador!</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l>¡Qué no esperado consuelo</l>
             <l>en mí han causado estas voces!</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l>En mí, ¡qué aborrecimiento!</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¡Qué ira en mí!</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Y en mí, ¡qué pasmo!</l>
-          </sp><sp who="#abraham">
+          </sp>
+          <sp who="#abraham">
             <speaker>ABRAHAM</speaker>
             <stage>Dentro.</stage>
             <l n="530">¡Cuándo en blando rocío tierno</l>
             <l>darán las nubes al justo!</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <stage>Dentro.</stage>
             <l>¡Cuándo en blando rocío tierno</l>
             <l>darán las nubes al justo!</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>¡Cuándo el paraninfo bello,</l>
             <l n="535">que ha de dominar la tierra,</l>
             <l>consolará al universo!</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>¡Cuándo el paraninfo bello,</l>
             <l>que ha de dominar la tierra,</l>
             <l>consolará al universo!</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="540">Cuando a morir, sin morir,</l>
             <l>se apure mi sufrimiento,</l>
@@ -861,7 +1102,8 @@
             <l>de Adán y David al seno</l>
             <l>de Abraham, juntas en él,</l>
             <l n="545">repiten todas a un tiempo...</l>
-          </sp><sp who="#culpa #david #abraham #mundo #gestas #dimas #música">
+          </sp>
+          <sp who="#culpa #david #abraham #mundo #gestas #dimas #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l>¡Cuándo, Señor, será el día</l>
             <l>de aquel gran prometimiento,</l>
@@ -869,17 +1111,22 @@
             <l>en admirable comercio,</l>
             <l n="550">el cielo en la tierra,</l>
             <l>la tierra sea cielo!</l>
-          </sp><stage>Ciérranse los carros.</stage><sp who="#mundo">
+          </sp>
+          <stage>Ciérranse los carros.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>¡Qué mucho que tú te admires,</l>
             <l>si se admira el Mundo, oyendo</l>
             <l>que de esas confusas voces</l>
             <l n="555">repite lejano el eco...!</l>
-          </sp><stage>Canta dentro el ÁNGEL.</stage><sp who="#ángel">
+          </sp>
+          <stage>Canta dentro el ÁNGEL.</stage>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>...pax hominibus in terris,</l>
             <l>et gloria in excelsis Deo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Al hombre en la tierra paz</l>
             <l>y gloria a Dios en el cielo?</l>
@@ -887,45 +1134,54 @@
             <l>tan contra el uso del eco,</l>
             <l>que oyendo unas, vuelve otras</l>
             <l>articuladas del viento?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>No sé, no sé; porque sólo</l>
             <l n="565">sé que su dulce concento</l>
             <l>suena en el aire, y que yo,</l>
             <l>en mis ámbitos, no tengo</l>
             <l>al dueño que las pronuncia.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Pues, ¿quién puede ser su dueño,</l>
             <l n="570">que ni la Culpa ni el Mundo</l>
             <l part="I">le conocen?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Más atentos</l>
             <l>oigamos, por si otra vez</l>
             <l>se repiten y podemos</l>
             <l part="I">algo entender.</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l part="F">¿Has oído</l>
             <l n="575">jamás más dulces acentos?</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l>¿Qué acentos? Que yo no oigo</l>
             <l>sino gemidos y estruendos.</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l>¿Cómo, cuando a cielo y tierra</l>
             <l>dicen voces y instrumentos...</l>
-          </sp><sp who="#ángel #música">
+          </sp>
+          <sp who="#ángel #música">
             <speaker>ÁNGEL y MÚSICA</speaker>
             <l>...pax hominibus in terris,</l>
             <l>et gloria in excelsis Deo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>En pie se queda mi duda.</l>
             <l>Mucho escucho y nada entiendo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>La mía más adelante</l>
             <l n="585">pasa, pues pasa su extremo</l>
@@ -935,22 +1191,26 @@
             <l>dudando el mundo y creyendo,</l>
             <l n="590">ni creyendo ni dudando,</l>
             <l>es enigma de sí mesmo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué hará la Culpa si al Mundo</l>
             <l>en tal confusión ha puesto?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Lo que el Mundo: ir a inquerir,</l>
             <l n="595">los rumbos del sol siguiendo,</l>
             <l>quién el músico es de tanto</l>
             <l>armonïoso portento.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Espera, ¿cómo en la cárcel,</l>
             <l>sin encerrar, a unos presos</l>
             <l n="600">tan incorregibles dejas?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Seguros quedan, supuesto</l>
             <l>que si en la cárcel entraron</l>
@@ -961,7 +1221,8 @@
             <l>dejando a los dos en medio,</l>
             <l>seguros los dejo, Culpa,</l>
             <l>pues entre puertas los dejo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="610">¡Oh, no sea que edificio</l>
             <l>cerrado uno, otro aún no abierto,</l>
@@ -969,31 +1230,42 @@
             <l>pasen, sincopando el tiempo,</l>
             <l>a ser sombras de algún alto</l>
             <l n="615">Viejo y Nuevo Testamento!</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">¿De qué lo temes?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">De que</l>
             <l>otra vez a dudar vuelvo...</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l part="I">Yo, a alegrarme...</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l part="F">Yo, a afligirme...</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Yo, a estar absorto y suspenso...</l>
-          </sp><sp who="#mundo #dimas #gestas #culpa">
+          </sp>
+          <sp who="#mundo #dimas #gestas #culpa">
             <speaker>LOS CUATRO</speaker>
             <l n="620">...oyendo que vuelven</l>
             <l>a decir los ecos...</l>
-          </sp><sp who="#mundo #dimas #gestas #culpa #música">
+          </sp>
+          <sp who="#mundo #dimas #gestas #culpa #música">
             <speaker>ELLOS y MÚSICA</speaker>
             <l>...gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
-          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Con esta repetición se van los cuatro, y sale el ÁNGEL, cantando en un bofetón, que dé vuelta al carro.</stage><sp who="#ángel">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Con esta repetición se van los cuatro, y sale el ÁNGEL, cantando en un bofetón, que dé vuelta al carro.</stage>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <stage>Canta.</stage>
             <l>¡Gloria a Dios y paz al hombre</l>
@@ -1018,11 +1290,16 @@
             <l>porque de todos repita el consuelo,</l>
             <l>en felices albricias de ver</l>
             <l n="645">que, el cielo en la tierra, la tierra sea cielo.</l>
-          </sp><sp who="#mundo #dimas #gestas #culpa #ángel #música">
+          </sp>
+          <sp who="#mundo #dimas #gestas #culpa #ángel #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l>¡Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo!</l>
-          </sp></div><div type="scene" resp="#rojas" n="7"><stage>Con esta repetición pasa el ÁNGEL, y salen el PRÍNCIPE, mirando un retrato, la JUSTICIA, dama, con espada, y la MISERICORDIA, con un ramo de oliva.</stage><sp who="#príncipe">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Con esta repetición pasa el ÁNGEL, y salen el PRÍNCIPE, mirando un retrato, la JUSTICIA, dama, con espada, y la MISERICORDIA, con un ramo de oliva.</stage>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Bella imagen que copié</l>
             <l>del ejemplar de mi idea</l>
@@ -1064,7 +1341,8 @@
             <l n="685">que se funda, porque en todo</l>
             <l>nos ajustemos al modo</l>
             <l>de mística alegoría.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>Una república bella</l>
             <l>consta, Señor, de la gente;</l>
@@ -1072,13 +1350,15 @@
             <l>que a poblalla y poseella</l>
             <l>nazcan vasallos en ella,</l>
             <l>que comercien en su abismo.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Suceda en ésta lo mismo,</l>
             <l n="695">pues cuantos a ella vendrán</l>
             <l>Misericordia, podrán</l>
             <l>renacer en el Baptismo.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Nacer, Señor, no es bastante,</l>
             <l>si no se sigue al nacer</l>
@@ -1088,12 +1368,14 @@
             <l>confirme en su corazón</l>
             <l>la ley y la religión</l>
             <l part="I">que le des.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="705" part="F">Justicia es;</l>
             <l>y, así, tú podrás después</l>
             <l>darle la Confirmación.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>Nacer, Señor, y crecer</l>
             <l>a perfecta juventud</l>
@@ -1102,12 +1384,14 @@
             <l>y, así, le importa tener</l>
             <l>remedios a la dolencia</l>
             <l>de una y otra intercadencia.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="715">Misericordia, a esa ruina</l>
             <l>saludable medicina</l>
             <l>le dará la Penitencia.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Aunque ella le ha de curar,</l>
             <l>será fuerza que le des</l>
@@ -1115,14 +1399,16 @@
             <l>en que pueda desechar</l>
             <l>las reliquias que dejar</l>
             <l part="I">suele el mal.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l part="F">De esa aflición,</l>
             <l>Justicia, supla otra acción</l>
             <l n="725">la extrema necesidad</l>
             <l>que deje la enfermedad</l>
             <l>con nombre de Extrema Unción.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>Ves aquí, Señor, que atento,</l>
             <l>nace el hombre, vive y crece,</l>
@@ -1132,12 +1418,14 @@
             <l>Pues, el más fuerte varón,</l>
             <l>sin esta vital porción,</l>
             <l part="I">perecerá.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="735" part="F">Pan de vida</l>
             <l>todos, para su comida,</l>
             <l>tendrán en la Comunión.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>¿Qué importará que nacido</l>
             <l>se vea el hombre, confirmado,</l>
@@ -1148,11 +1436,13 @@
             <l>que le gobierne en igual</l>
             <l n="745">ley, en que habrá menester</l>
             <l part="I">juez supremo?</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l part="F">Ese ha de ser</l>
             <l>el Orden Sacerdotal.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>Aunque todos lograr puedan</l>
             <l>altos favores, ningunos</l>
@@ -1161,7 +1451,8 @@
             <l>Monarquías que se heredan</l>
             <l>de una en otra duración</l>
             <l>las más políticas son.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="755">De esa verdad, testimonio</l>
             <l>será dar el Matrimonio</l>
@@ -1186,29 +1477,38 @@
             <l n="775">al vasallo más fiel,</l>
             <l>para que en mi nombre él</l>
             <l>me fuese a capitular.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>¿Pues hubo dificultad</l>
             <l>en que la elegida fuese?</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="780">No, que yo quise que hubiese</l>
             <l>mérito en su voluntad,</l>
             <l>resignada en la verdad</l>
             <l part="I">de mi amor.</l>
-          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Sale el ÁNGEL.</stage><sp who="#ángel">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Sale el ÁNGEL.</stage>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Bien de ese amor</l>
             <l>logrado traigo el favor.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l n="785" part="F">Como a tu propuesta,</l>
             <l>sólo escuché por respuesta:</l>
             <l>"esclava soy del Señor".</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Con esa resignación</l>
             <l>que la más pura belleza</l>
@@ -1227,19 +1527,22 @@
             <l>lealtad y veneración,</l>
             <l>gloriosamente festiva</l>
             <l>de mis gentes la reciba.</l>
-          </sp><sp who="#príncipe #ángel #justicia #misericordia">
+          </sp>
+          <sp who="#príncipe #ángel #justicia #misericordia">
             <speaker>TODOS</speaker>
             <l n="805">Todos, desde luego, en muestra</l>
             <l>diremos de la fe nuestra</l>
             <l>que felices siglos viva.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Viva, y publicad por toda</l>
             <l>la capacidad que encierra</l>
             <l n="810">la redondez de la tierra,</l>
             <l>la felicísima boda</l>
             <l>a que mi ser se acomoda.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>En voz de pregón que, altiva,</l>
             <l>el tiempo en bronces escriba,</l>
@@ -1247,32 +1550,44 @@
             <l>publique que igual belleza</l>
             <stage>Cantado.</stage>
             <l>reine, goce, triunfe y viva.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>En voz de pregón que, altiva,</l>
             <l>el tiempo en bronces escriba,</l>
             <l n="820">toda la naturaleza</l>
             <l>publique que igual belleza</l>
             <l>reine, goce, triunfe y viva.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <stage>Canta.</stage>
             <l>Sepa el Mundo que el Deseado,</l>
             <l>príncipe por apellido,...</l>
-          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Sale el MUNDO.</stage><sp who="#mundo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Sale el MUNDO.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="825">Sepa el Mundo que el Deseado</l>
             <l>príncipe por apellido,...</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <stage>Canta.</stage>
             <l>...con la esposa que ha elegido,</l>
             <l>donde la Culpa no ha entrado,...</l>
-          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Sale la CULPA.</stage><sp who="#música #culpa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Sale la CULPA.</stage>
+          <sp who="#música #culpa">
             <speaker>MÚSICA y CULPA</speaker>
             <l>"...con la esposa que ha elegido</l>
             <l n="830">donde la Culpa no ha entrado,..."</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <stage>Canta.</stage>
             <l>...del rey, su padre, enviado</l>
@@ -1281,44 +1596,58 @@
             <l>a siglos el tiempo aumente,</l>
             <l n="835">y a átomos el sol le cuente,</l>
             <l>reine, goce, triunfe y viva.</l>
-          </sp><sp who="#culpa #mundo #música">
+          </sp>
+          <sp who="#culpa #mundo #música">
             <speaker>CULPA, MUNDO y MÚSICA</speaker>
             <l>"...y con prole sucesiva,</l>
             <l>a siglos el tiempo aumente,</l>
             <l>y a átomos el sol la cuente,</l>
             <l n="840">reine, goce, triunfe y viva..."</l>
-          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Vanse y quedan solos el MUNDO y la CULPA.</stage><sp who="#culpa #mundo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Vanse y quedan solos el MUNDO y la CULPA.</stage>
+          <sp who="#culpa #mundo">
             <speaker>LOS DOS</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="M">¡Culpa!</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="M">¡Mundo!</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">¿Oíste</l>
             <l>aquella voz que seguí?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Sí, que yo te seguí a ti.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>¿Qué es lo que de ella entendiste?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="845">Nada. Ciega, absorta y triste,</l>
             <l>de ti, Mundo, a saber llego</l>
             <l part="I">qué Príncipe es éste.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Luego,</l>
             <l part="I">¿tú no le conoces?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">No.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Ni yo tampoco, que yo</l>
             <l n="850">también, triste, absorto y ciego,</l>
@@ -1326,7 +1655,8 @@
             <l>me dices cuál es la esposa</l>
             <l>tan perfectamente hermosa,</l>
             <l part="I">quizá por ella...</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">¡Ay de mí!,</l>
             <l n="855">que jamás la vi ni oí.</l>
@@ -1335,31 +1665,37 @@
             <l>¿Cómo, Mundo, pudo ser</l>
             <l>príncipe en el mundo haber</l>
             <l n="860">y no conocerle el Mundo?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Como, para mi disculpa,</l>
             <l>hubo quien para exaltada</l>
             <l>reina halló en el mundo entrada,</l>
             <l>sin conocerla la Culpa.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="865">Eso, más que te disculpa,</l>
             <l>mi sentimiento atropella;</l>
             <l>y es querer a mi querella</l>
             <l>responderme poco fiel.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>No es, que no saber yo de él,</l>
             <l n="870">es por no saber tú de ella.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Aún no para en eso, pues,</l>
             <l>a tercer duda, que acuda</l>
             <l part="I">quiere el cielo.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">¿Qué es la duda?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Atiende y sabrás la que es.</l>
             <l n="875">Para cautelarme, Mundo,</l>
@@ -1438,7 +1774,8 @@
             <l>lamentos y regocijos,</l>
             <l>aquí, el cielo todo glorias</l>
             <l n="950">y todo allí, ansias el limbo?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Tu razón de dudar, Culpa,</l>
             <l>en mi pecho ha introducido</l>
@@ -1491,7 +1828,8 @@
             <l>como segunda persona</l>
             <l n="1000">suya, a sacar de captivo</l>
             <l part="I">a su pueblo y..."</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">No prosigas,</l>
             <l>que ya que oráculo vivo</l>
@@ -1511,15 +1849,18 @@
             <l>mi sobresalto y tu aviso,</l>
             <l>veamos qué camino habrá</l>
             <l>de apurarlos.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Un camino</l>
             <l>se me ofrece, ya que no</l>
             <l n="1020">de apurarlos, de inferirlos.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Qué camino?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Pues nosotros</l>
             <l>una idea introdujimos</l>
@@ -1529,10 +1870,12 @@
             <l>que el venir desconocido</l>
             <l>también dice alegoría,</l>
             <l>corrámoslas a dos visos.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿De qué suerte?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">De esta suerte:</l>
             <l n="1030">prosigue tú en tus registros,</l>
@@ -1548,36 +1891,42 @@
             <l n="1040">careados a nuestro arbitrio,</l>
             <l>veremos si entrambas líneas</l>
             <l>van a dar a un punto fijo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Así sea; y, porque más</l>
             <l>el alegórico estilo</l>
             <l n="1045">en todos introduzcamos,</l>
             <l part="I">démosle nombre.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Sea el mismo</l>
             <l>que le dio su epitalamio:</l>
             <l part="I">el Deseado.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Bien has dicho.</l>
             <l part="I">¿Y qué apellido?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Supuesto</l>
             <l n="1050">que del padre enviado vino,</l>
             <l>segunda persona suya,</l>
             <l>a gobernar sus dominios,</l>
             <l>su apellido sea el Segundo.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Conque nombre y apellido,</l>
             <l n="1055">a quien ya quiera explicarlos,</l>
             <l>Segundo y Deseado ha oído.</l>
             <l>¿Y qué nombre le daremos</l>
             <l part="I">a la esposa?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Pues ha sido</l>
             <l>la que halló gracia en sus ojos,</l>
@@ -1586,7 +1935,8 @@
             <l>María sea, pues quien dijo</l>
             <l>María, dijo Exaltada,</l>
             <l part="I">Elegida y Gracia.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">De oírlo,</l>
             <l n="1065">estremecida, no sé</l>
@@ -1599,24 +1949,32 @@
             <l>que es forzoso dividirnos,</l>
             <l>parte tú en su seguimiento</l>
             <l>y vuelva yo a mis registros.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="1075">Ve, que en él te buscaré</l>
             <l>con lo que traiga sabido.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¡Oh, sea algo que nos diga</l>
             <l>este ignorado prodigio!</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Sí será, que al Mundo, Culpa,</l>
             <l n="1080">nada oculto hay ni escondido</l>
             <l>que no sea revelado.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">Yo lo espero.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Vase.</stage><sp who="#mundo">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Vase.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Y yo lo afirmo.</l>
             <l>En fe de cuya palabra</l>
@@ -1635,7 +1993,8 @@
             <l>conque una vez repetido</l>
             <l>y otra vez, vuelve a decir</l>
             <l>del epitalamio el himno:</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>El príncipe, que Deseado</l>
             <l n="1100">dio el cielo por apellido,</l>
@@ -1644,7 +2003,11 @@
             <l>él de laurel coronado</l>
             <l>y ella de triunfante oliva,</l>
             <l n="1105">reine, goce, triunfe y viva.</l>
-          </sp></div><div type="scene" resp="#rojas" n="13"><stage>Con esta repetición salen por una parte JUSTICIA, MISERICORDIA y el PRÍNCIPE; y por otra, el ÁNGEL y la ESPOSA, con todo el acompañamiento que puedan, sonando a un tiempo música, chirimías y atabalillos.</stage><sp who="#príncipe">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Con esta repetición salen por una parte JUSTICIA, MISERICORDIA y el PRÍNCIPE; y por otra, el ÁNGEL y la ESPOSA, con todo el acompañamiento que puedan, sonando a un tiempo música, chirimías y atabalillos.</stage>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Feliz, alegre y venturoso el día,</l>
             <l>bellísima deidad, cuya mañana,</l>
@@ -1656,7 +2019,8 @@
             <l>para ser coronada</l>
             <l>como reina exaltada,</l>
             <l n="1115">que tray consigo el nombre de María.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>Feliz, alegre y venturoso el día,</l>
             <l>cuya mañana fue el esposo hallado</l>
@@ -1665,7 +2029,8 @@
             <l n="1120">de la esposa, el cabello coronado,</l>
             <l>sobre el ofir que la madeja dora,</l>
             <l>del nevado rocío del aurora.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Vos seáis tan bien venida</l>
             <l>como deseada del que, ya elegida,</l>
@@ -1673,7 +2038,8 @@
             <l>en la penalidad, de la esperanza,</l>
             <l>con haber sido, en el antes del antes,</l>
             <l>siglos las horas y horas los instantes.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>Por tan sumo favor tan cortesano,</l>
             <l n="1130">os suplico a besar me deis la mano;</l>
@@ -1682,42 +2048,53 @@
             <l>que no en vano el temor intenta sabio</l>
             <l>que le explique mejor la acción que el labio:</l>
             <l part="I">a vuestras plantas...</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="1135" part="F">No, sino a mis brazos.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l part="I">¡Qué blandas redes!</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l part="F">¡Qué apacibles lazos!</l>
             <l>Venid, pues, donde, en tanto que aperciba</l>
             <l>mi Corte real aplauso que os reciba,</l>
             <l>de un retiro ocupéis la corta esfera,</l>
             <l n="1140">¡qué mucho, pues, aun la del sol lo fuera!</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>Todo mi esposo es gala.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Toda mi esposa es bella.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>Ni el lirio ni el clavel su pompa iguala.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Ni una pequeña mancha no hay en ella.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l part="I">Feliz estado.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="1145" part="F">Venturosa estrella.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>Pues justo es los sigamos,</l>
             <l>a repetir el cántico volvamos.</l>
-          </sp><sp who="#ángel #príncipe #esposa #justicia #misericordia #música">
+          </sp>
+          <sp who="#ángel #príncipe #esposa #justicia #misericordia #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l>El príncipe, que Deseado</l>
             <l>dio el cielo por apellido,</l>
@@ -1726,7 +2103,9 @@
             <l>él de laurel coronado</l>
             <l>y ella de triunfante oliva,</l>
             <l>reine, goce, triunfe y viva.</l>
-          </sp><stage>Con esta repetición, atabalillos y chirimías, se van todos, y queda solo el MUNDO.</stage><sp who="#mundo">
+          </sp>
+          <stage>Con esta repetición, atabalillos y chirimías, se van todos, y queda solo el MUNDO.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="1155">¿Qué nuevo afecto, qué nuevo</l>
             <l>impulso es el que arrebata</l>
@@ -1772,43 +2151,55 @@
             <l>están a las consonancias</l>
             <l>que dentro se escuchan, pues</l>
             <l>repiten en voces varias...</l>
-          </sp><sp who="#música #ángel #príncipe #esposa #justicia #misericordia">
+          </sp>
+          <sp who="#música #ángel #príncipe #esposa #justicia #misericordia">
             <speaker>MÚSICA y TODOS</speaker>
             <stage>Dentro.</stage>
             <l>¡Misericordia, Señor!</l>
             <l n="1200">¡Señor, duélante las ansias</l>
             <l>de los que en tristes calabozos claman...</l>
-          </sp></div><div type="scene" resp="#rojas" n="14"><stage>Salen.</stage><sp who="#ángel #príncipe #esposa #justicia #misericordia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Salen.</stage>
+          <sp who="#ángel #príncipe #esposa #justicia #misericordia">
             <speaker>TODOS</speaker>
             <l>...en fe de la palabra</l>
             <l>del prometido bien de su esperanza!</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>«¿En fe de la palabra</l>
             <l n="1205">del prometido bien de su esperanza?»</l>
             <l>Misericordia, ¿qué voces</l>
             <l>son las que por ti me hablan?</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>Ésta es la cárcel, Señor,</l>
             <l>del Mundo; sienten que pasas</l>
             <l n="1210">por aquí, y todos sus presos</l>
             <l>tu misericordia claman...</l>
-          </sp><sp who="#misericordia #música">
+          </sp>
+          <sp who="#misericordia #música">
             <speaker>ELLA y MÚSICA</speaker>
             <l>...en fe de la palabra</l>
             <l>del prometido bien de su esperanza.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>Su clamor me ha enternecido.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l n="1215">Fuerza es que justicia haya.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>Sí, mas justicia hay en quien</l>
             <l>tiene su lugar la gracia.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>No es menor la piedad mía,</l>
             <l>que a mí también me traspasan</l>
@@ -1816,17 +2207,20 @@
             <l>y más día cuya alba</l>
             <l>para mi dicha amanece</l>
             <l>a vista de su desgracia.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>Pues enternécete de ella;</l>
             <l n="1225">no des lugar a que añadan...</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Aplica el piadoso oído,</l>
             <l>olvidado en nuestras faltas,</l>
             <l>que perecemos, si tú</l>
             <l>sus iniquidades guardas.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l n="1230">Piedad, Señor, en fe de la palabra</l>
             <l>del prometido bien de su esperanza,</l>
@@ -1836,7 +2230,8 @@
             <l n="1235">ni de estimación más alta,</l>
             <l>Señor, que el perdón de todas</l>
             <l part="I">las culpas.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l part="F">Llamarte basta</l>
             <l>María, para que seas</l>
@@ -1853,7 +2248,8 @@
             <l>las dos, en pública sala,</l>
             <l n="1250">iréis a hacer la visita</l>
             <l part="I">en mi nombre.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Al cielo gracias</l>
             <l>dé, que ya, Mundo, saliste</l>
@@ -1861,7 +2257,8 @@
             <l>de no saber a qué punto</l>
             <l n="1255">iban a dar tan contrarias</l>
             <l>líneas como boda y cárcel.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Id, pues, con la circunstancia</l>
             <l>de que vas, Misericordia,</l>
@@ -1872,32 +2269,38 @@
             <l>vas también para guardarla;</l>
             <l>que no será acierto en una</l>
             <l n="1265">si no se da unión en ambas.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>A obedecerte, Señor,</l>
             <l>iremos, en voces altas</l>
             <l>público haciendo el indulto.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>Y yo es bien con ellas vaya,</l>
             <l n="1270">que procurador de pobres</l>
             <l>soy, a defender su causa.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Id; y tú, beldad hermosa,</l>
             <l>ven adonde retirada</l>
             <l>en tus jardines estés,</l>
             <l n="1275">hasta que en público salgas.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>Tu precepto y mi obediencia</l>
             <l part="I">una cosa son.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">¡Oh, humana</l>
             <l>naturaleza, qué bien</l>
             <l>cuando te humillas, te ensalzas!</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <stage>Canta.</stage>
             <l n="1280">¡Albricias, género humano!,</l>
@@ -1908,11 +2311,16 @@
             <l n="1285">a honor de sus bodas manda</l>
             <l>que se celebre, porque</l>
             <l>tú de tus prisiones salgas.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>En fe de la palabra</l>
             <l>del prometido bien de su esperanza.</l>
-          </sp></div><div type="scene" resp="#rojas" n="15"><stage>Vanse, y sale la CULPA.</stage><sp who="#culpa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Vanse, y sale la CULPA.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1290">Nunca creí que era tan áspid,</l>
             <l>hasta ver que lo que cantan</l>
@@ -1921,11 +2329,13 @@
             <l>todo es para mí conjuro,</l>
             <l n="1295">cuya música me saca</l>
             <l part="I">de mí, tan sin mí.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">¿Qué es esto?</l>
             <l part="I">¿Dónde vas, Culpa?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Llevada</l>
             <l>de un furor, huyendo voy</l>
@@ -1934,13 +2344,16 @@
             <l>¿qué es lo que a saber alcanzas,</l>
             <l>pues tras él fuiste, de aqueste</l>
             <l part="I">intruso rey?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Mucho y nada.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Cómo nada y mucho?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Como</l>
             <l n="1305">es mucho lo que me pasma</l>
@@ -1961,21 +2374,25 @@
             <l n="1320">que, no en vano, las dos líneas</l>
             <l>que se tiraron contrarias</l>
             <l part="I">vienen a unirse.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Pues, ¿cómo</l>
             <l>sin parte puede indultarlas,</l>
             <l>siendo yo parte fiscal</l>
             <l part="I">de todas?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="1325" part="F">Por más que añadas</l>
             <l>ira a ira, temo, Culpa,</l>
             <l>que bien del empeño salgas.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Por qué?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Porque da este joven</l>
             <l>muchas señales de que anda</l>
@@ -1983,17 +2400,20 @@
             <l>encubierta y disfrazada,</l>
             <l>a un viso de esposa y a otro</l>
             <l>de naturaleza humana.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Muy mudado, Mundo, vienes</l>
             <l part="I">de parecer.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="1335" part="F">No es mudanza,</l>
             <l>sino confusión, que todo</l>
             <l>el Mundo a entender no basta,</l>
             <l>dividido en opiniones.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Presto verás que te engañas</l>
             <l n="1340">en pensar que la visita</l>
@@ -2008,21 +2428,28 @@
             <l>con la noticia de que haya</l>
             <l n="1350">general indulto, todos</l>
             <l>repitan en voces varias...</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Mucho temo que no en vano</l>
             <l>se oiga en todas sus estancias...</l>
-          </sp><sp who="#mundo #culpa #justicia #esposa #príncipe #ángel">
+          </sp>
+          <sp who="#mundo #culpa #justicia #esposa #príncipe #ángel">
             <speaker>TODOS</speaker>
             <l>¡Albricias, albricias!</l>
             <l n="1355">Pase la palabra</l>
             <l>de que ya se acerca,</l>
             <l>en el rey del Austria,</l>
             <l>el esperado bien de su esperanza.</l>
-          </sp></div><div type="scene" resp="#rojas" n="16"><stage>Con esta repetición se entran los dos, y salen GESTAS y DIMAS.</stage><sp who="#gestas">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Con esta repetición se entran los dos, y salen GESTAS y DIMAS.</stage>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l part="I">¡Albricias, Dimas!</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l part="F">¿Qué albricias</l>
             <l n="1360">ha de dar el que no aguarda,</l>
@@ -2032,16 +2459,19 @@
             <l>y es fuerza que satisfaga</l>
             <l n="1365">a las partes ofendidas</l>
             <l part="I">la Justicia?</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l part="F">Con negarlas,</l>
             <l>en la ratificación,</l>
             <l>de haberlas dicho te salvas.</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l>Mejor espero salvarme</l>
             <l n="1370">muriendo por confesarlas.</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l>Yo, por negarlas, viviendo</l>
             <l>espero hacer otras tantas.</l>
@@ -2051,38 +2481,49 @@
             <l>los brazos, que con mil almas</l>
             <l>siento el ver que mueras por</l>
             <l>capricho de tu ignorancia.</l>
-          </sp><stage>Las chirimías.</stage><sp who="#dimas">
+          </sp>
+          <stage>Las chirimías.</stage>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l>Quizá es por mi dicha; pero,</l>
             <l part="I">¿qué salva es ésta?</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l n="1380" part="F">Esta salva,</l>
             <l>a lo que desde aquí veo,</l>
             <l>es de gentes que acompañan</l>
             <l>la visita, que ya viene</l>
             <l>entrando en aquesta cuadra.</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l n="1385">¿Y qué ruido será aquel</l>
             <l>que se hace en una ventana?</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l>¿Ahora sabes que ha mandado</l>
             <l>el rey que a todas las salas</l>
             <l>se haga una escucha, por ver</l>
             <l n="1390">cómo se juzgan las causas?</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l>Retirémonos los dos</l>
             <l>en tanto que no nos llaman.</l>
-          </sp></div><div type="scene" resp="#rojas" n="17"><stage>Sale la JUSTICIA, con una espada desnuda al hombro, y la MISERICORDIA, con un ramo de oliva, y el ÁNGEL con una cruz dorada, y acompañamiento, y siéntanse los dos, la MISERICORDIA a mano derecha, el ÁNGEL, a un lado del bufete en pie, y el MUNDO al otro lado.</stage><sp who="#justicia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Sale la JUSTICIA, con una espada desnuda al hombro, y la MISERICORDIA, con un ramo de oliva, y el ÁNGEL con una cruz dorada, y acompañamiento, y siéntanse los dos, la MISERICORDIA a mano derecha, el ÁNGEL, a un lado del bufete en pie, y el MUNDO al otro lado.</stage>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Aquél es, Misericordia,</l>
             <l>tu lugar; ceda la espada</l>
             <l n="1395">de la justicia a la paz</l>
             <l part="I">de la oliva.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="F">Por sus ramas,</l>
             <l>materia de Sacramentos,</l>
@@ -2091,30 +2532,40 @@
             <l n="1400">preeminencia ni distancia.</l>
             <l>¿Adónde el alcaide está</l>
             <l part="I">de esta prisión?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">A tus plantas.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>¿Tenéis hecha ya la lista</l>
             <l>de los que hoy en esta instancia</l>
             <l part="I">se visitan?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="1405" part="F">Sí, Señora.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>Pues id llamando a que salgan;</l>
             <l>y vosotros los decretos</l>
             <l>publicad en voces altas.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Adán el primero es</l>
             <l n="1410">que espera lograr tu gracia.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="I">¿Por qué está preso?</l>
-          </sp></div><div type="scene" resp="#rojas" n="18"><stage>Sale ADÁN.</stage><sp who="#adán">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>Sale ADÁN.</stage>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l part="F">Por deudas</l>
             <l>a que mi caudal no alcanza</l>
@@ -2128,10 +2579,15 @@
             <l n="1420">de mis lágrimas el agua,</l>
             <l>aún con toda esta fatiga</l>
             <l>a satisfacer no bastan.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="I">¿Quién es la parte?</l>
-          </sp></div><div type="scene" resp="#rojas" n="19"><stage>Sale la CULPA.</stage><sp who="#culpa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Sale la CULPA.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Su culpa.</l>
             <l>No sólo en aquesta causa,</l>
@@ -2143,11 +2599,13 @@
             <l n="1430">mientras no me satisfaga</l>
             <l>le embargo en la cárcel, donde</l>
             <l>el indulto no le valga.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Dice bien: justicia es</l>
             <l part="I">que quien debe pague.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Si se halla</l>
             <l n="1435">con caudales; pero habiendo</l>
@@ -2158,25 +2616,30 @@
             <l n="1440">pues también ley asentada</l>
             <l>es que nadie a lo imposible</l>
             <l part="I">esté obligado.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">¿Quién tanta</l>
             <l>licencia de hablar aquí</l>
             <l part="I">os dio?</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Nadie, que el tomarla</l>
             <l n="1445">por procurador de pobres</l>
             <l>me toca, sin esperarla</l>
             <l part="I">de otro.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Con todo eso, es mucha</l>
             <l part="I">licencia y...</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="M">No es, sino...</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="F">Basta;</l>
             <l>y pues dar satisfación</l>
@@ -2201,25 +2664,34 @@
             <l>vendrán a gozar sus ansias</l>
             <l>de la deuda, la justicia,</l>
             <l n="1470">y del indulto, la gracia.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Publicad así el decreto.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Salga Adán, si no libre,</l>
             <l>con esperanza</l>
             <l>de que halló en el indulto</l>
             <l n="1475">justicia y gracia.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="I">¿Quién se sigue ahora?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Caín.</l>
-          </sp></div><div type="scene" resp="#rojas" n="20"><stage>Sale CAÍN.</stage><sp who="#misericordia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage>Sale CAÍN.</stage>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="I">¿Por qué está preso?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Su causa</l>
             <l>un fratricidio es; la muerte</l>
@@ -2227,15 +2699,18 @@
             <l n="1480">odio y rencor de que fuese</l>
             <l>a Dios su ofrenda más grata</l>
             <l part="I">que la suya.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="F">¿Quién la parte</l>
             <l part="I">es?</l>
-          </sp><sp who="#abel">
+          </sp>
+          <sp who="#abel">
             <speaker>ABEL</speaker>
             <l part="F">Es la sangre que clama</l>
             <l>pidiendo justicia al cielo.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l n="1485">¿Cuando no lo sea, no basta</l>
             <l>para condenarle a muerte</l>
@@ -2246,45 +2721,57 @@
             <l>en los indultos de gracia,</l>
             <l>retiralde condenado</l>
             <l part="I">a muerte.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Mortal, repara</l>
             <l>que hay delitos a quien vuelve</l>
             <l n="1495">Misericordia la cara</l>
             <l>al oírlos; por que no</l>
             <l>peques en su confianza.</l>
-          </sp><sp who="#caín">
+          </sp>
+          <sp who="#caín">
             <speaker>CAÍN</speaker>
             <l>¡Oh Justicia de Dios! ¿Quién</l>
             <l>hará a tu ley repugnancia,</l>
             <l n="1500">si aun el condenado va</l>
             <l>confesando que eres santa?</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>En que Abel viva, y muera</l>
             <l>Caín, se declara</l>
             <l>que la muerte del cuerpo</l>
             <l n="1505">vida es del alma.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>David es el que presente</l>
             <l part="I">tienes.</l>
-          </sp></div><div type="scene" resp="#rojas" n="21"><stage>Sale DAVID.</stage><sp who="#misericordia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage>Sale DAVID.</stage>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="F">Su culpa relata.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Son dos: adulterio una,</l>
             <l part="I">y otra homicidio.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Que añada</l>
             <l n="1510">yo, es justo, que apartamiento</l>
             <l>de parte tiene en entrambas.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Como Bersabé,</l>
             <l>viuda del que matar manda</l>
@@ -2300,128 +2787,161 @@
             <l>pues desde la noche al alba</l>
             <l>y desde el alba a la noche,</l>
             <l n="1525">culpas llora y himnos canta.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>Goce David del indulto,</l>
             <l>pues que la parte se aparta.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Gócele más porque llora,</l>
             <l>que porque su perdón traya.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="1530">Salga David libre</l>
             <l>porque le valga</l>
             <l>que llorando culpas,</l>
             <l>cante alabanzas.</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>Aunque perdonadas culpas</l>
             <l n="1535">no son culpas, estimara</l>
             <l>más no verlas cometidas</l>
             <l>que el mirarlas perdonadas.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Salomón su hijo se sigue.</l>
-          </sp></div><div type="scene" resp="#rojas" n="22"><stage>Sale SALOMÓN.</stage><sp who="#misericordia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage>Sale SALOMÓN.</stage>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>¿Qué es el cargo que le agrava?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1540">Ser sospechoso en la ley.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Como no la guarda.</l>
             <l>Idólatras hermosuras</l>
             <l>tanto su saber arrastran,</l>
             <l>que consta de su proceso</l>
             <l n="1545">haber incensado estatuas.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>¿Consta en su declaración</l>
             <l>que hecho penitencia haya?</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Nada de su penitencia</l>
             <l>en todo el proceso se habla.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l n="1550">Pues, ¿qué en su descargo alega?</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l>Hasta ahora no alega nada,</l>
             <l>porque su declaración</l>
             <l>no consta que esté tomada.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Luego no viene en estado</l>
             <l n="1555">la causa bien substanciada,</l>
             <l>el día que falta en ella</l>
             <l>esa legal circunstancia.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>Pues, ¿qué hemos de hacer sin ella?</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Que mientras no se declara,</l>
             <l n="1560">siga Salomón y quede</l>
             <l>suspensa agora su causa,</l>
             <l>hasta otro juicio que pueda</l>
             <l>con más informe juzgarla.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Salomón, suspensa</l>
             <l n="1565">siga su causa,</l>
             <l>mientras otro juicio</l>
             <l>no la declara.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l part="I">¿Quién se sigue agora?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Quien</l>
             <l>viene a medir la distancia</l>
             <l n="1570">que, en tan general indulto,</l>
             <l>lo excelso y lo humilde iguala,</l>
             <l>sin excepción de personas.</l>
-          </sp></div><div type="scene" resp="#rojas" n="23"><stage>Salen DIMAS y GESTAS.</stage><sp who="#dimas">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage>Salen DIMAS y GESTAS.</stage>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l>Dígalo el que, a vuestras plantas,</l>
             <l>dos bandoleros ladrones</l>
             <l n="1575">también su piedad aguardan.</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l>No aguardan, porque yo niego</l>
             <l>la verdad de la probanza;</l>
             <l>que no soy yo el contenido</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Si hay quien te vio en la campaña,</l>
             <l part="I">¿cómo niegas?</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l n="1580" part="F">Como miente</l>
             <l part="I">quien lo vio.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l part="F">¿Todo esto para</l>
             <l>en más que en estar confeso</l>
             <l part="I">tú, y tú negativo?</l>
-          </sp><sp who="#dimas">
+          </sp>
+          <sp who="#dimas">
             <speaker>DIMAS</speaker>
             <l part="F">Tantas</l>
             <l>son mis culpas, que conozco</l>
             <l part="I">que debo morir.</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <stage>Aparte.</stage>
             <l n="1585" part="F">¡Mal haya</l>
             <l>el que pierde por su lengua!)</l>
             <l>Yo no; ni he de confesarlas.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Para eso se hizo el tormento,</l>
             <l>para las semiprobanzas.</l>
@@ -2430,93 +2950,117 @@
             <l>libre; el que las niega, ya</l>
             <l>lo dije: a tormento vaya</l>
             <l part="I">condenado.</l>
-          </sp><sp who="#gestas">
+          </sp>
+          <sp who="#gestas">
             <speaker>GESTAS</speaker>
             <l part="F">¿Ésa es justicia?</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l n="1595">Sí, pero tan soberana,</l>
             <l>que al que niega le condena</l>
             <l>y al que confiesa le salva.</l>
-          </sp><sp who="#música">
+          </sp>
+          <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Tenga, en Gestas y Dimas,</l>
             <l>para enseñanza,</l>
             <l n="1600">glorias el que confiesa,</l>
             <l>penas quien calla.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>¿Cómo de aquel calabozo</l>
             <l>no hay quien a visita salga?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Como no pueden salir,</l>
             <l n="1605">que está su puerta cerrada</l>
             <l>sin que el Mundo tenga de ella</l>
             <l part="I">llave.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l part="F">Pues, ¿a quién la encargan?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">No sé.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="F">¿Cómo alcaide eres</l>
             <l>y no sabes a quien guardas?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="I">No sé.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l n="1610" part="F">¿Cómo tan turbado...?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>No sé nada, no sé nada</l>
             <l>más de que Abraham, en esa</l>
             <l>prisión, a que venga aguarda</l>
             <l>quien la abra a él y a sus creyentes.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l n="1615">Pues ya vino quien la abra.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¿Quién?</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l part="F">La justicia del nuevo</l>
             <l>deseado rey a quien claman.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Ni a ese rey ni a su justicia</l>
             <l part="I">conozco.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l part="M">¡Quita!</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">Repara</l>
             <l n="1620">que soy yo quien la defiende.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Seré yo quien la quebranta,</l>
             <l>dándote muerte primero.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>¡Espera, detente, aguarda,</l>
             <l part="I">Justicia!</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l part="F">Misericordia,</l>
             <l n="1625">mía es la primera instancia.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l part="I">Mía la segunda.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="F">Ponga</l>
             <l>yo paz entre vuestras armas.</l>
-          </sp><stage>Forman los tres las armas de la Inquisición.</stage><sp who="#culpa">
+          </sp>
+          <stage>Forman los tres las armas de la Inquisición.</stage>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué jeroglífico, ¡cielos!,</l>
             <l>es aquel que me retrata</l>
@@ -2546,7 +3090,11 @@
             <l>si es que ha de ser la de gracia,</l>
             <l>mientras que yo la defienda</l>
             <l n="1655">con las iras de mi saña.</l>
-          </sp></div><div type="scene" resp="#rojas" n="24"><stage>Sale el PRÍNCIPE.</stage><sp who="#príncipe">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
+          <stage>Sale el PRÍNCIPE.</stage>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>¿Cómo que no habrá poder?</l>
             <l>Sólo eso me obligara</l>
@@ -2560,10 +3108,12 @@
             <l n="1665">los cerrojos, las aldabas,</l>
             <l>y candados de los hierros</l>
             <l>que en triste prisión os guardan!</l>
-          </sp><sp who="#culpa #ángel #justicia #misericordia #gestas #dimas">
+          </sp>
+          <sp who="#culpa #ángel #justicia #misericordia #gestas #dimas">
             <speaker>TODOS</speaker>
             <l>¿Quién ilumina sus sombras?</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>El sol de la mejor alba,</l>
             <l n="1670">que resucitado viene</l>
@@ -2573,13 +3123,15 @@
             <l>¡Rompe, Abraham, las cadenas</l>
             <l n="1675">y todas tus gentes saca</l>
             <l part="I">libres de la Culpa!</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">No</l>
             <l>es posible libres salgan,</l>
             <l>si no la dan, de infinito</l>
             <l>delito, infinita paga.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="1680">Ya el monte de la piedad</l>
             <l>satisfizo las pasadas</l>
@@ -2587,16 +3139,20 @@
             <l>el indulto les alcanza</l>
             <l>que yo hice en favor de toda</l>
             <l n="1685">la naturaleza humana.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">Pues, ¿quién eres?</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l part="F">Soy quien soy.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Que tú lo digas, no basta.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Mi padre y yo lo decimos,</l>
             <l>y que hace fe es cosa clara</l>
@@ -2610,57 +3166,77 @@
             <l>que ya está la puerta franca</l>
             <l>por donde salgáis, y entre</l>
             <l>triunfante la ley de gracia!</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="1700">De tan alta maravilla</l>
             <l>el Mundo te dé las gracias.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¡Ah traidor!, ¿en el peligro</l>
             <l>me dejas y desamparas?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Sí, que en todo el Mundo han</l>
             <l n="1705">sonado sus alabanzas.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Pues antes que lleguen ellos,</l>
             <l>mi ira, mi furia, mi rabia,</l>
             <l>dándote muerte, será</l>
             <l>todo el Mundo mi venganza.</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="1710">Huiré de ti, que de ti</l>
             <l>sólo vence el que se aparta.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="I">¡Seguiréte yo!</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l part="F">Tras ella</l>
             <l>id; o prendelda, o matalda.</l>
-          </sp><sp who="#culpa #ángel #justicia #misericordia #gestas #dimas">
+          </sp>
+          <sp who="#culpa #ángel #justicia #misericordia #gestas #dimas">
             <speaker>TODOS</speaker>
             <l>¿Qué más muerta, si la muerte</l>
             <l n="1715">del cuerpo no lo es del alma?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Por más que me sigas no</l>
             <l>has de alcanzarme, tirana.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Intentarélo a lo menos.</l>
-          </sp></div><div type="scene" resp="#rojas" n="25"><stage>Sale la ESPOSA.</stage><sp who="#esposa">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
+          <stage>Sale la ESPOSA.</stage>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>¿Qué ruido se oye en la sala</l>
             <l n="1720">de la audiencia? ¿Cúyas voces...?</l>
-          </sp></div><div type="scene" resp="#rojas" n="26"><stage>Sale el MUNDO.</stage><sp who="#mundo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
+          <stage>Sale el MUNDO.</stage>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>¡Mi vida, Señora, ampara!</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l part="I">¿Qué es esto?</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">Un casual temor,</l>
             <l>que me disculpa el que haya</l>
@@ -2670,29 +3246,36 @@
             <l>de leyes y gentes varias</l>
             <l>fue sólo en fe de que viese</l>
             <l>el Mundo puesto a tus plantas.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="1730">Dice bien, ese fue el fin:</l>
             <l>que por reina te aclamaran.</l>
-          </sp><sp who="#culpa #ángel #justicia #misericordia #gestas #dimas #esposa #mundo">
+          </sp>
+          <sp who="#culpa #ángel #justicia #misericordia #gestas #dimas #esposa #mundo">
             <speaker>TODOS</speaker>
             <l>¡Viva nuestra reina, viva</l>
             <l>con subcesión dilatada!</l>
-          </sp><sp who="#culpa #ángel #justicia #misericordia">
+          </sp>
+          <sp who="#culpa #ángel #justicia #misericordia">
             <speaker>UNOS</speaker>
             <l part="I">¡Qué ventura!</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l part="F">¡Qué desdicha!</l>
-          </sp><sp who="#gestas #dimas #esposa #mundo">
+          </sp>
+          <sp who="#gestas #dimas #esposa #mundo">
             <speaker>OTROS</speaker>
             <l part="I">¡Qué regocijo!</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1735" part="F">¡Qué rabia!</l>
             <l>Aunque libres quedan, queda</l>
             <l>para sus hijos mi saña.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>También habrá para ellos</l>
             <l>espléndida mesa franca,</l>
@@ -2700,55 +3283,72 @@
             <l>su antídoto y su vianda,</l>
             <l>que a tu venenosa ira</l>
             <l>a nueva salud restaura.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Qué mesa puede ser ésa?</l>
-          </sp><stage>Aparece el Santísimo Sacramento.</stage><sp who="#príncipe">
+          </sp>
+          <stage>Aparece el Santísimo Sacramento.</stage>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="1745">La que accidentes disfrazan</l>
             <l>en aquella hostia, que es</l>
             <l>la más tersa, pura y blanca</l>
             <l>de mi ser, sagrado erario,</l>
             <l>donde me quedo, aunque parta.</l>
-          </sp><sp who="#culpa">
+          </sp>
+          <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1750">Por no mirarla, iré huyendo</l>
             <l>donde mi furor me arrastra.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="27"><stage>Vase.</stage><sp who="#príncipe">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
+          <stage>Vase.</stage>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Y tú, amada esposa, ven</l>
             <l>al Alcázar que te aguarda,</l>
             <l>dejando para otra pluma</l>
             <l n="1755">los aplausos de tu entrada.</l>
-          </sp><sp who="#esposa">
+          </sp>
+          <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>El mayor, para mí, es</l>
             <l>ver aliviadas las ansias</l>
             <l part="I">de los afligidos.</l>
-          </sp><sp who="#príncipe">
+          </sp>
+          <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l part="F">Ya</l>
             <l>veis cumplida mi palabra.</l>
-          </sp><sp who="#adán">
+          </sp>
+          <sp who="#adán">
             <speaker>ADÁN</speaker>
             <l n="1760">Siempre la tuve por cierta.</l>
-          </sp><sp who="#david">
+          </sp>
+          <sp who="#david">
             <speaker>DAVID</speaker>
             <l>Jamás faltó mi esperanza.</l>
-          </sp><sp who="#abraham">
+          </sp>
+          <sp who="#abraham">
             <speaker>ABRAHAM</speaker>
             <l>Mi fe siempre la creyó.</l>
-          </sp><sp who="#justicia">
+          </sp>
+          <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Justicia fue el esperarla.</l>
-          </sp><sp who="#misericordia">
+          </sp>
+          <sp who="#misericordia">
             <speaker>MISERICORDIA</speaker>
             <l>Misericordia el cumplirla.</l>
-          </sp><sp who="#ángel">
+          </sp>
+          <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l n="1765">Pues repitan voces varias,...</l>
-          </sp><sp who="#mundo">
+          </sp>
+          <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>...después de pedir perdón</l>
             <l>de los defectos y faltas,</l>
@@ -2760,7 +3360,8 @@
             <l>él de laurel coronado</l>
             <l>y ella de triunfante oliva,</l>
             <l>reine, goce, triunfe y viva.</l>
-          </sp><sp who="#música #culpa #ángel #justicia #misericordia #gestas #dimas #esposa #mundo #abraham #david #adán">
+          </sp>
+          <sp who="#música #culpa #ángel #justicia #misericordia #gestas #dimas #esposa #mundo #abraham #david #adán">
             <speaker>MÚSICA y TODOS</speaker>
             <l n="1775">El príncipe, que deseado</l>
             <l>del cielo por apellido,</l>
@@ -2769,9 +3370,12 @@
             <l>él de laurel coronado</l>
             <l n="1780">y ella de triunfante oliva,</l>
             <l>reine, goce, triunfe y viva.</l>
-          </sp><stage>Con esta repetición de TODOS y la MÚSICA se cierran los carros, y entrándose dentro, y tocando las chirimías, se da fin al auto de El Indulto General.</stage><stage>FIN</stage></div>
-      
-    </div>
+          </sp>
+          <stage>Con esta repetición de TODOS y la MÚSICA se cierran los carros, y entrándose dentro, y tocando las chirimías, se da fin al auto de El Indulto General.</stage>
+          <stage>FIN</stage>
+        </div>
+
+      </div>
     </body>
   </text>
 </TEI>

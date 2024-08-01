@@ -1,5 +1,103 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000035" xml:lang="esp">
-  <teiHeader><fileDesc><titleStmt><title type="main">La protestación de la fe</title><title type="sub">Auto sacramental</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-03-11"><time when="13:51:51"/></date><idno type="quadramaX">La protestación de la fe</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-protestacion-de-la-fe--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Gregory Peter Andrachuk procedente de la edición Calderón de la Barca, Pedro, La protestación de la fe, ed. Gregory Peter Andrachuk, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2001. ISBN: 3-935004-19-2.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="la-herejía" sex="FEMALE"><persName>La Herejía</persName></person><person xml:id="brazo-seglar" sex="MALE"><persName>Brazo Seglar</persName></person><person xml:id="brazo-eclesiástico" sex="MALE"><persName>Brazo Eclesiástico</persName></person><person xml:id="un-etíope" sex="MALE"><persName>Un Etíope</persName></person><person xml:id="san-felipe" sex="MALE"><persName>San Felipe</persName></person><person xml:id="la-sabiduría" sex="FEMALE"><persName>La Sabiduría</persName></person><person xml:id="la-religión" sex="FEMALE"><persName>La Religión</persName></person><person xml:id="la-fe" sex="FEMALE"><persName>La Fe</persName></person><person xml:id="la-penitencia" sex="FEMALE"><persName>La Penitencia</persName></person><person xml:id="la-oración" sex="FEMALE"><persName>La Oración</persName></person><person xml:id="la-reina-cristina" sex="FEMALE"><persName>La Reina Cristina</persName><trait resp="#rojas"><desc>reina</desc></trait></person><personGrp xml:id="soldados" sex="MALE"><persName>Soldados</persName></personGrp><personGrp sex="UNKNOWN" xml:id="músicos"><persName>Músicos</persName></personGrp><person sex="UNKNOWN" xml:id="voz-triste"><persName>Voz Triste</persName></person><person sex="UNKNOWN" xml:id="voz-alegre"><persName>Voz Alegre</persName></person></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords><classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000035" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La protestación de la fe</title>
+        <title type="sub">Auto sacramental</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-03-11"><time when="13:51:51"/></date>
+        <idno type="quadramaX">La protestación de la fe</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-protestacion-de-la-fe--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Gregory Peter Andrachuk procedente de la edición Calderón de la Barca, Pedro, La protestación de la fe, ed. Gregory Peter Andrachuk, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2001. ISBN: 3-935004-19-2.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="la-herejía" sex="FEMALE">
+            <persName>La Herejía</persName>
+          </person>
+          <person xml:id="brazo-seglar" sex="MALE">
+            <persName>Brazo Seglar</persName>
+          </person>
+          <person xml:id="brazo-eclesiástico" sex="MALE">
+            <persName>Brazo Eclesiástico</persName>
+          </person>
+          <person xml:id="un-etíope" sex="MALE">
+            <persName>Un Etíope</persName>
+          </person>
+          <person xml:id="san-felipe" sex="MALE">
+            <persName>San Felipe</persName>
+          </person>
+          <person xml:id="la-sabiduría" sex="FEMALE">
+            <persName>La Sabiduría</persName>
+          </person>
+          <person xml:id="la-religión" sex="FEMALE">
+            <persName>La Religión</persName>
+          </person>
+          <person xml:id="la-fe" sex="FEMALE">
+            <persName>La Fe</persName>
+          </person>
+          <person xml:id="la-penitencia" sex="FEMALE">
+            <persName>La Penitencia</persName>
+          </person>
+          <person xml:id="la-oración" sex="FEMALE">
+            <persName>La Oración</persName>
+          </person>
+          <person xml:id="la-reina-cristina" sex="FEMALE">
+            <persName>La Reina Cristina</persName>
+            <trait resp="#rojas">
+              <desc>reina</desc>
+            </trait>
+          </person>
+          <personGrp xml:id="soldados" sex="MALE">
+            <persName>Soldados</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="músicos">
+            <persName>Músicos</persName>
+          </personGrp>
+          <person sex="UNKNOWN" xml:id="voz-triste">
+            <persName>Voz Triste</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="voz-alegre">
+            <persName>Voz Alegre</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="#kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1717">
@@ -42,13 +140,16 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene" resp="#rojas" n="1"><stage type="unassigned">Suena dentro la música, y sale oyéndola la HEREJÍA vestido de marinero, con un pedazo de remo en la mano.</stage><sp who="#músicos">
+        <div type="scene" resp="#rojas" n="1">
+          <stage type="unassigned">Suena dentro la música, y sale oyéndola la HEREJÍA vestido de marinero, con un pedazo de remo en la mano.</stage>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>Venid, venid a la fiesta</l>
             <l>que hace la Iglesia este día,</l>
             <l>que ya la Sabiduría</l>
             <l>os tiene la mesa puesta.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="5">¿Qué cláusulas son suaves</l>
             <l>las que en ritmos diferentes</l>
@@ -58,11 +159,13 @@
             <l n="10">convidan con la alegría</l>
             <l>de su métrica armonía,</l>
             <l>diciendo por la floresta:</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>Venid, venid a la fiesta</l>
             <l>que hace la Iglesia este día.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="15">Porque aunque llego a escuchar</l>
             <l>que es a la fiesta que hace</l>
@@ -72,11 +175,13 @@
             <l n="20">que con la media respuesta</l>
             <l>se queda el eco, pues resta</l>
             <l>saber por qué añadiría…</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>Que ya la Sabiduría</l>
             <l>os tiene la mesa puesta.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="25">Dulce misterioso acento,</l>
             <l>ya que disuenes veloz,</l>
@@ -84,13 +189,15 @@
             <l>o dale el sentido al viento.</l>
             <l>Sepa, pues, mi pensamiento,</l>
             <l n="30">qué fiesta y qué mesa es ésta.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>Venid, venid a la fiesta</l>
             <l>que hace la Iglesia este día,</l>
             <l>que ya la Sabiduría</l>
             <l>os tiene la mesa puesta.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="35">Aun no bien me responde;</l>
             <l>la voz permite y el misterio esconde.</l>
@@ -150,11 +257,13 @@
             <l n="90">oso decir quien soy, habiendo oído</l>
             <l>cuán sonoramente pía</l>
             <l>dice en su primer propuesta:</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>Venid, venid a la fiesta</l>
             <l>que hace la Iglesia este día.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="95">Pero en vano es la duda,</l>
             <l>pues la ruina del mar mi intento ayuda.</l>
@@ -167,12 +276,17 @@
             <l>apóstata primero</l>
             <l>de aquel gran Sol de quien nací lucero.</l>
             <l n="105">¡Ah de este nuevo templo de la fama!</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Abrid, abrid las puertas a quien llama,</l>
             <l>sea quien fuere, pues a esta</l>
             <l>parte el escuchar le guía.</l>
-          </sp></div><div type="scene" resp="#rojas" n="2"><stage type="unassigned">Salen cantando la FE con su cruz, la ORACIÓN con un instrumento, la RELIGIÓN con un incensario, la PENITENCIA con una fuente, y en ella una camisa de velillo blanco con muchas flores, y detrás, la SABIDURÍA con un penacho de plumas de diversos colores: pajizos, azules, verdes, carmesíes y blancos.</stage><sp who="#la-fe #la-oración #la-religión #la-penitencia #la-sabiduría #músicos">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage type="unassigned">Salen cantando la FE con su cruz, la ORACIÓN con un instrumento, la RELIGIÓN con un incensario, la PENITENCIA con una fuente, y en ella una camisa de velillo blanco con muchas flores, y detrás, la SABIDURÍA con un penacho de plumas de diversos colores: pajizos, azules, verdes, carmesíes y blancos.</stage>
+          <sp who="#la-fe #la-oración #la-religión #la-penitencia #la-sabiduría #músicos">
             <speaker>ELLAS Y MÚSICOS</speaker>
             <l>Que ya la Sabiduría</l>
             <l n="110">le tiene la mesa puesta.</l>
@@ -180,7 +294,8 @@
             <l>que hace la Iglesia este día,</l>
             <l>que ya la Sabiduría</l>
             <l>os tiene la mesa puesta.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="115">Hermosísima deidad,</l>
             <l>de estos montes y estas selvas</l>
@@ -210,7 +325,8 @@
             <l n="140">porque la vista suspensa,</l>
             <l>se han levantado con todos</l>
             <l>los oficios de la lengua.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Derrotado peregrino,</l>
             <l>quienquiera que fueres seas,</l>
@@ -406,7 +522,8 @@
             <l>y humana naturaleza,</l>
             <l n="335">siendo sangre el vino, el pan</l>
             <l part="I">carne, y…</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">No prosigas; cesa,</l>
             <l>que primero que yo escuche</l>
@@ -437,7 +554,8 @@
             <l>las siete colunas bellas</l>
             <l>porque todo el edificio</l>
             <l>desplomado al suelo venga.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="365">Ya te he conocido, y no</l>
             <l>podrás, aunque eres la fiera</l>
@@ -457,7 +575,8 @@
             <l n="380">la Isla de Domingo alberga,</l>
             <l>cuando huyendo de sus armas</l>
             <l>al mar rechazado vuelvas.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Rey soy del norte, y el Anglia,</l>
             <l>corte mía, hará en tu ofensa,</l>
@@ -493,7 +612,8 @@
             <l>porque otra mujer te venza,</l>
             <l n="415">que tener por reina suya</l>
             <l>a Cristina de Suecia?</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Quizá Cristina, que el nombre</l>
             <l>hoy imperfecto conserva</l>
@@ -507,7 +627,8 @@
             <l>algún día y que a ser venga</l>
             <l>cristiana perfectamente</l>
             <l>quien hoy lo es mente imperfecta.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>¿Cómo ha de serlo si docta</l>
             <l n="430">desde su niñez se emplea</l>
@@ -517,53 +638,65 @@
             <l>refutarlos, son el tema</l>
             <l n="435">de sus desvelos los Padres</l>
             <l>que acá llamáis de la Iglesia.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>En eso está mi esperanza.</l>
             <l>Si estudia, fuerza es que sepa,</l>
             <l>y quien sabe, el bien y el mal</l>
             <l n="440">también distinguir es fuerza.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>¿Cómo ha de darse al partido</l>
             <l>de tu Fe, cuando eso sea,</l>
             <l>si sin protestar la suya</l>
             <l>ninguno en su reino reina?</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="445">La política de Dios</l>
             <l>es filosofía discreta,</l>
             <l>que sabe que sólo goza</l>
             <l>imperios quien los desprecia.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>En su espíritu no cabe</l>
             <l n="450">no mandar; tan bien maneja</l>
             <l>la espada como la pluma.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Huélgome de que le tenga</l>
             <l>porque cosas grandes, no</l>
             <l>sin espíritu se intentan.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="455">Ella es sabia y es altiva.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Ahí están mis conveniencias.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="F">En buscarme, si es sabia.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="I">¿Si altiva?</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="F">En que se resuelva.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Vive con esa esperanza</l>
             <l n="460">mientras yo vivo con esta</l>
@@ -571,33 +704,45 @@
             <l>en mi poder, iré a hacerla</l>
             <l>acuerdos de que homicida</l>
             <l part="I">fuiste de su padre.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="F">Esa</l>
             <l n="465">razón milita por mí.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="I">¿Por qué?</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="F">Porque verá en ella…</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="I">¿Qué?</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="F">Que no pelea dichoso…</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="I">¿Quién?</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="F">Quien contra Dios pelea.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Ella (volviendo al asunto)</l>
             <l n="470">no ha de sentarse a la mesa</l>
-          </sp></div><div type="scene" resp="#rojas" n="3"><stage type="exit">Vase.</stage><sp who="#la-sabiduría">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage type="exit">Vase.</stage>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Suyo es su albedrío, mas yo</l>
             <l>la convidaré con ella.</l>
@@ -633,45 +778,57 @@
             <l>al septentrión no vuelvas</l>
             <l>sin dar noticias de ti</l>
             <l>a Cristina de Suecia.</l>
-          </sp><sp who="#la-religión">
+          </sp>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l n="505">Católica Religión</l>
             <l>soy, alada inteligencia,</l>
             <l>y así, elevada en el viento,</l>
             <l>penetrando iré su esfera.</l>
-          </sp><sp who="#la-oración">
+          </sp>
+          <sp who="#la-oración">
             <speaker>ORACIÓN</speaker>
             <l>Yo transcendiendo veloz</l>
             <l n="510">del mar las cerúleas selvas.</l>
-          </sp><sp who="#la-fe">
+          </sp>
+          <sp who="#la-fe">
             <speaker>FE</speaker>
             <l>Rayo es la Fe, y así el fuego</l>
             <l>hoy su actividad me presta.</l>
-          </sp><sp who="#la-penitencia">
+          </sp>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Y a mí me da franco paso</l>
             <l>en sus límites la tierra.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="515">Pues decid todas a un tiempo,</l>
             <l>para que todos atiendan</l>
             <l>y nadie alegue ignorancia…</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Venid, venid a la fiesta</l>
             <l>que hace la Iglesia este día.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="520">Y añadid, porque lo sepan</l>
             <l>en América, África, Asia</l>
             <l>y Europa, Judaísmo, Secta,</l>
             <l>Gentilidad y Herejía,</l>
             <l>por mar, aire, fuego y tierra…</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l n="525">Que ya la Sabiduría</l>
             <l>les tiene la mesa puesta.</l>
-          </sp></div><div type="scene" resp="#rojas" n="4"><stage type="unassigned">Vanse. Tócanse cajas y trompetas, y salen los SOLDADOS que las tienen, y detrás, CRISTINA, vestida de corto, armada. Y como lo dicen los versos, se va desarmando, recibiendo plumas, espada, y bengala en fuentes de plata.</stage><sp who="#la-reina-cristina">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage type="unassigned">Vanse. Tócanse cajas y trompetas, y salen los SOLDADOS que las tienen, y detrás, CRISTINA, vestida de corto, armada. Y como lo dicen los versos, se va desarmando, recibiendo plumas, espada, y bengala en fuentes de plata.</stage>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Ya que de mi pupilar</l>
             <l>edad el tiempo pasó,</l>
@@ -700,24 +857,29 @@
             <l>toga, que en la militar</l>
             <l part="I">túnica de Marte.</l>
             <stage type="exit">Llegan una mesa con libros, recado de escribir, y una silla.</stage>
-          </sp><sp who="#soldados">
+          </sp>
+          <sp who="#soldados">
             <speaker>SOLDADO 1.º</speaker>
             <l part="F">En esta</l>
             <l part="I">mesa están.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="F">Idos; molesta</l>
             <l>me es cualquiera compañía.</l>
             <stage type="exit">Siéntase y lee.</stage>
-          </sp><sp who="#soldados">
+          </sp>
+          <sp who="#soldados">
             <speaker>SOLDADO 1.º</speaker>
             <l n="555">Lee, pues la Sabiduría</l>
             <l>te tiene la mesa puesta.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>Lee, pues la Sabiduría</l>
             <l>te tiene la mesa puesta.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>¿Qué interior música ha sido</l>
             <l n="560">(que la escucho y no la veo)</l>
@@ -797,7 +959,9 @@
             <l>me da cuando ver querría</l>
             <l>de qué suerte Dios envía</l>
             <l part="I">un auxilio!</l>
-          </sp><stage type="unassigned">Ábrese la nube y se ve en ella un ETÍOPE vestido de indio, ricamente aderezado, sentado en una peña leyendo en un libro.</stage><sp who="#un-etíope">
+          </sp>
+          <stage type="unassigned">Ábrese la nube y se ve en ella un ETÍOPE vestido de indio, ricamente aderezado, sentado en una peña leyendo en un libro.</stage>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l part="F">De esta suerte</l>
             <l>el día me ha de coger</l>
@@ -806,30 +970,38 @@
             <l>hasta que llegue a saber,</l>
             <l>a penetrar y entender</l>
             <l>este lugar de Isaías.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <stage type="entrance">En sueños.</stage>
             <l n="635">Aparentes fantasías,</l>
             <l>¿un etíope leyendo</l>
             <l>me enseñáis? No, no os entiendo.</l>
             <stage type="exit">En sueños.</stage>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l>Atiende a las voces mías,</l>
             <l>Causa de Causas, y no</l>
             <l n="640">te niegues a mi deseo,</l>
             <l>pues es justo. Esto que leo,</l>
             <l part="I">¿quién me lo explicará?</l>
-          </sp></div><div type="scene" resp="#rojas" n="5"><stage type="unassigned">Sale por detrás de la nube FELIPE, en lo alto, vestido de apóstol.</stage><sp who="#san-felipe">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage type="unassigned">Sale por detrás de la nube FELIPE, en lo alto, vestido de apóstol.</stage>
+          <sp who="#san-felipe">
             <speaker>FELIPE</speaker>
             <l part="F">Yo,</l>
             <l>pues a este fin me inspiró</l>
             <l>Dios que a este lugar viniese.</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l n="645">¿Quién eres, y quién es ese</l>
             <l part="I">Dios que te envía?</l>
-          </sp><sp who="#san-felipe">
+          </sp>
+          <sp who="#san-felipe">
             <speaker>FELIPE</speaker>
             <l part="F">Yo soy</l>
             <l>Felipe, y el Dios que hoy</l>
@@ -838,18 +1010,22 @@
             <l n="650">cuya doctrina aprendí;</l>
             <l>qué quieres saber me di.</l>
             <stage type="exit">Siéntase con él.</stage>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l>Este lugar de Isaías.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>¿Maestro a quien estudia envías,</l>
             <l part="I">gran Dios?</l>
-          </sp><sp who="#san-felipe">
+          </sp>
+          <sp who="#san-felipe">
             <speaker>FELIPE</speaker>
             <l part="F">Ya el lugar espero</l>
             <l part="I">ver cuál es.</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l part="F" n="655">Leértele quiero</l>
             <l>por si de él me das indicio.</l>
@@ -862,37 +1038,46 @@
             <l>¿De qué profeta inferir</l>
             <l part="I">debo esto?</l>
             <stage type="exit">Lee.</stage>
-          </sp><sp who="#san-felipe">
+          </sp>
+          <sp who="#san-felipe">
             <speaker>FELIPE</speaker>
             <l part="F">Del Inmolado</l>
             <l n="665">Cordero Sacrificado,</l>
             <l>para dar al mundo luz</l>
             <l>en el ara de la cruz.</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l part="I">¿Dónde está?</l>
-          </sp><sp who="#san-felipe">
+          </sp>
+          <sp who="#san-felipe">
             <speaker>FELIPE</speaker>
             <l part="F">Sacramentado</l>
             <l part="I">en el ara del altar.</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l part="F">¿Como?</l>
-          </sp><sp who="#san-felipe">
+          </sp>
+          <sp who="#san-felipe">
             <speaker>FELIPE</speaker>
             <l n="670">Con Real Asistencia,</l>
             <l>Presencia, Esencia y Potencia.</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l>Dime, ¿y podréle yo hallar?</l>
-          </sp><sp who="#san-felipe">
+          </sp>
+          <sp who="#san-felipe">
             <speaker>FELIPE</speaker>
             <l part="I">Sí.</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l part="F">¿En qué parte o lugar?</l>
             <stage type="exit">Levántase.</stage>
-          </sp><sp who="#san-felipe">
+          </sp>
+          <sp who="#san-felipe">
             <speaker>FELIPE</speaker>
             <l>En aquella fuente, en cuanto,</l>
             <l n="675">pues no basta la del llanto,</l>
@@ -903,7 +1088,9 @@
             <l n="680">pues lees, y discursos haces</l>
             <l>del eunuco de Candaces.</l>
             <stage>A CRISTINA.</stage>
-          </sp><stage type="unassigned">Ciérrase la nube, y despierta CRISTINA.</stage><sp who="#la-reina-cristina">
+          </sp>
+          <stage type="unassigned">Ciérrase la nube, y despierta CRISTINA.</stage>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Oye, aguarda, no ligera</l>
             <l>te devanezca la esfera</l>
@@ -924,11 +1111,16 @@
             <l>de los auxilios traído</l>
             <l>sombras a la fantasía,</l>
             <l n="700">y que ésta a otras se anticipe.</l>
-          </sp></div><div type="scene" resp="#rojas" n="6"><stage type="unassigned">Sale un SOLDADO.</stage><sp who="#soldados">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage type="unassigned">Sale un SOLDADO.</stage>
+          <sp who="#soldados">
             <speaker>SOLDADO</speaker>
             <l>El católico Felipe</l>
             <l>un embajador te envía.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Cuando estoy leyendo ¿es cuando</l>
             <l>leyendo a un gentil atiendo?</l>
@@ -941,7 +1133,11 @@
             <l>alma, ¡albricias! que también</l>
             <l>hay Felipe para ti.</l>
             <l part="I">Decidle que entre.</l>
-          </sp></div><div type="scene" resp="#rojas" n="7"><stage type="unassigned">Salen el BRAZO SEGLAR con hábito de Santiago, el ECLESIÁSTICO, de español, también con un báculo de oliva, y en el remate, un escudo de las armas de Santo Domingo, y en medio de los dos, la RELIGIÓN.</stage><sp who="#brazo-seglar">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage type="unassigned">Salen el BRAZO SEGLAR con hábito de Santiago, el ECLESIÁSTICO, de español, también con un báculo de oliva, y en el remate, un escudo de las armas de Santo Domingo, y en medio de los dos, la RELIGIÓN.</stage>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l part="F">A tus reales</l>
             <l>plantas (¡oh hermosa Cristina</l>
@@ -971,7 +1167,8 @@
             <l>cuyas condiciones libra</l>
             <l>al pliego en que tú su buena</l>
             <l n="740">Fe verás, como la admitas.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Alzad del suelo, que ya</l>
             <l>os entiendo, y recibida</l>
@@ -980,7 +1177,8 @@
             <l n="745">en mi cabeza la pongo.</l>
             <l>¿Quién viene en vuestra familia?</l>
             <stage type="exit">Besa la carta, y ve a la RELIGIÓN con algún espanto.</stage>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l>A quien de parte de España</l>
             <l>viene, y a quien acredita</l>
@@ -992,11 +1190,13 @@
             <l>¿quién queréis vos que le asista</l>
             <l n="755">si no es la Religión</l>
             <l part="I">Católica?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="F">¿Qué os admira</l>
             <l part="I">no conocerla?</l>
-          </sp><sp who="#la-religión">
+          </sp>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l part="F">Aun por eso</l>
             <l>solicitaron mis dichas</l>
@@ -1019,10 +1219,12 @@
             <l n="775">mesa, de quien testimonio</l>
             <l>dará quien todos los signa.</l>
             <stage type="exit">Señala al ECLESIÁSTICO.</stage>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="I">¿Quién sois?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="F">Quien por secretario</l>
             <l>de aquesta embajada envía</l>
@@ -1036,42 +1238,53 @@
             <l>de la legalidad mía</l>
             <l>el poder confesarás</l>
             <l>si tus secretos me fías.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="I">¿Cómo os llamáis?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="F">Juan, que en esto</l>
             <l n="790">aun también corre el enigma</l>
             <l>de ser Juan el secretario.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>¿Y a mí esa Verdad Divina</l>
             <l>para su fiesta me llama?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>Y ser fiesta lo acredita</l>
             <l n="795">la orden que traigo en el pecho.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="I">¿Qué orden?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="F">Aunque no la diga,</l>
             <l part="I">baste saber.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="M">¿Qué?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="F">Que es fiesta.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="F">Como es dominica.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>También os entiendo a vos,</l>
             <l n="800">y para salir de cifras</l>
@@ -1144,22 +1357,35 @@
             <l>que oculto traes, de que sabio</l>
             <l>me iluminen tus noticias.</l>
             <stage type="exit">Lee.Al SEGLAR.Al ECLESIÁSTICO.</stage>
-          </sp><sp who="#la-religión">
+          </sp>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l>Contenta con esta nueva</l>
             <l part="I">vuelvo.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="8"><stage type="exit">Vase.</stage><sp who="#brazo-seglar">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage type="exit">Vase.</stage>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l part="F" n="870">Yo con esta dicha</l>
             <l part="I">felice voy.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="9"><stage type="exit">Vase.</stage><sp who="#brazo-eclesiástico">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage type="exit">Vase.</stage>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="F">Y yo ufano</l>
             <l>de que en tan gran acción sirva.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="10"><stage type="exit">Vase.</stage><sp who="#la-reina-cristina">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage type="exit">Vase.</stage>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Ea, soberano auxilio,</l>
             <l>dame tu luz, no se diga</l>
@@ -1202,18 +1428,25 @@
             <l>al ver que la abjuración</l>
             <l>con ella me reconcilia</l>
             <l part="I">cuando en su mesa…</l>
-          </sp></div><div type="scene" resp="#rojas" n="11"><stage type="unassigned">Sale la HEREJÍA, de gala.</stage><sp who="#la-herejía">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage type="unassigned">Sale la HEREJÍA, de gala.</stage>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">¿Qué mesa?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>¿Quién eres, oh tú que habitas</l>
             <l n="915">de mis retiros la estancia,</l>
             <l>sin que antes licencia pidas?</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="I">¿No me conoces?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="F">No sé,</l>
             <l>que titubeada la vista,</l>
@@ -1222,14 +1455,16 @@
             <l>aunque te ha visto otras veces</l>
             <l>por ahora no determina</l>
             <l part="I">bien quién seas.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">No me espanto</l>
             <l>que cuando ciega me miras,</l>
             <l n="925">no me conozcas, habiendo</l>
             <l>vivido en tu compañía</l>
             <l part="I">tantos años.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="F">Pues, ¿quién eres?</l>
             <l>que aunque real te significas,</l>
@@ -1241,7 +1476,8 @@
             <l>moviendo en mi fantasía</l>
             <l n="935">mal formado embrión de todos</l>
             <l>los sucesos de mi vida.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>¿Qué mucho, si soy a quien</l>
             <l>la heresis, (que el griego explica:</l>
@@ -1249,152 +1485,187 @@
             <l n="940">le dio el nombre de Herejía,</l>
             <l>que civilmente interior</l>
             <l>con tus afectos te embista?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Pues si eres de quien deseo</l>
             <l>huir, ¡deténte, no me sigas!</l>
             <l n="945">Herejía Antes, porque huir deseas,</l>
             <l>es tu rémora mi ira.</l>
             <l part="I">¿Dónde vas?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="F">Soy convidada</l>
             <l part="I">a un real banquete.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">¿Y no miras</l>
             <l>que pocos en fiesta empiezan</l>
             <l n="950">que no acaben en desdicha?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Engáñaste, que antes son</l>
             <l>efectos de la alegría,</l>
             <l>de la unión y de la paz.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>La experiencia te lo diga.</l>
             <l n="955">El primer convite fue</l>
             <l>de una manzana nociva</l>
             <l>que avenenada dejó</l>
             <l>de Adán toda la familia.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Por eso resultó de él</l>
             <l n="960">que Cristo encarne en tan limpia</l>
             <l>madre, y que de ese veneno</l>
             <l>su sangre al mundo redima.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Sobre los hijos de Job</l>
             <l>un banquete fue la ruina.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l n="965">Por eso, Dios su paciencia</l>
             <l>premió con dobladas dichas.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>El convite de Jacob</l>
             <l>del mayorazgo a Esaú priva.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Por eso Jacob fue dueño</l>
             <l n="970">de la Raquel más divina.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Al pueblo previrtió el ciego</l>
             <l>banquete de los moabitas.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Por eso el blanco maná</l>
             <l>todo el mal sabor le quita.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="975">El convite de Absalón</l>
             <l>fue de Amón el fratricida.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Por eso Salomón fue</l>
             <l>quien a Dios templo fabrica.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>El repudio de Vastí</l>
             <l n="980">fue de Asuero en la comida.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Por eso le sucedió</l>
             <l>que a la hermosa Ester elija.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>El banquete de Ester, luego</l>
             <l>la horca para Amán aplica.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l n="985">Por eso el cautivo pueblo</l>
             <l>de sus rencores se libra.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>De Baltasar la cena hizo</l>
             <l>que un dedo su muerte escriba.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Por eso Daniel, profeta</l>
             <l n="990">de Dios, quedó en más estima.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Al Bautista dio la muerte</l>
             <l>el convite de Herodías.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Por eso, canonizado</l>
             <l>de mártir quedó el Bautista.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="995">La cena a que vas, costó</l>
             <l>azotes, clavos y espinas.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Por eso resultó de ella</l>
             <l>que en la pura, tersa y pía</l>
             <l>mesa del pan a que voy,</l>
             <l n="1000">Cristo triunfe, reine y viva.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>¿Qué importa, si es pan de muerte?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>¿Qué importa, si es pan de vida?</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Por más que me digas sabia…</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Por más que ciego me digas…</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="1005">En fin, ninguno hay sin pena.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>En fin, ninguno hay sin dicha.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Tú lo verás, cuando de una</l>
             <l>corona desposeída,</l>
             <l>su soledad toque al arma.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l n="1010">¿No sabré yo prevenirla,</l>
             <l>lugar adónde ponerla,</l>
             <l>en que me haga compañía</l>
             <l part="I">más que soledad?</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">¿Adónde?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>A las plantas de María,</l>
             <l n="1015">si es tal mi dicha, que puerto</l>
             <l>toma en Loreto mi dicha.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Primero diré yo a voces</l>
             <l>tu intento; mas ¿quién me priva</l>
@@ -1403,13 +1674,15 @@
             <l>¡Suecos nobles, nobles godos,</l>
             <l>Cristina (¡ay de mí!), Cristina…!</l>
             <l part="I">Hablar no puedo.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="F">¿Qué mucho</l>
             <l>que quien la frente te pisa</l>
             <l n="1025">para que no abras la boca</l>
             <l>a morder, hablar te impida?</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>¡Qué importa, que en vez de hablar</l>
             <l>llore, en vez de alentar, gima,</l>
@@ -1422,37 +1695,51 @@
             <l n="1035">sobre la mesa se vierta,</l>
             <l>manchando al mantel la riza</l>
             <l>nieve de su puridad.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>No podrás, que es infinita.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Infinito es mi dolor.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="I">Eterna es.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F" n="1040">También mi envidia.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="I">Inmortal es.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">Y mi pena.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="I">Durable es.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">Y mi desdicha.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Allá lo verán mis gozos.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Y allá lo dirán mis iras.</l>
-          </sp></div><div type="scene" resp="#rojas" n="12"><stage type="unassigned">Vanse. Sale la SABIDURÍA.</stage><sp who="#la-sabiduría">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage type="unassigned">Vanse. Sale la SABIDURÍA.</stage>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="1045">Aunque yo nada dudar</l>
             <l>puedo, porque lo veo todo,</l>
@@ -1473,13 +1760,19 @@
             <l>¡Ah de Asia, a quien nombre dan</l>
             <l>de fértil por excelencia!</l>
             <l>¿Cómo va de Penitencia?</l>
-          </sp></div><div type="scene" resp="#rojas" n="13"><stage type="unassigned">Sale la PENITENCIA, llorando.</stage><sp who="#la-penitencia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage type="unassigned">Sale la PENITENCIA, llorando.</stage>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Mis lágrimas lo dirán.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="I">¿Llorando vuelves?</l>
-          </sp><sp who="#la-penitencia">
+          </sp>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l part="F" n="1065">Quien vuelve</l>
             <l>no solamente admitida</l>
@@ -1500,20 +1793,24 @@
             <l>tanto, que de mí llamado,</l>
             <l>sin llegar a conocerme</l>
             <l>ni hablarme quiso ni verme.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>¡Oh pueblo siempre obstinado!</l>
             <l n="1085">Consuelo en tu error me dé</l>
             <l>ver si otro mejor se aplica.</l>
             <l>¡Ah de América la rica!</l>
             <l>¿Cómo le va en ti a la Fe?</l>
-          </sp><stage type="unassigned">Canta dentro la FE.</stage><sp who="#la-fe">
+          </sp>
+          <stage type="unassigned">Canta dentro la FE.</stage>
+          <sp who="#la-fe">
             <speaker>FE</speaker>
             <stage type="entrance">Dentro.</stage>
             <l>¡Viva en la Gentilidad</l>
             <l part="I">la Fe victoriosa!</l>
             <stage type="exit">Dentro.</stage>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l part="F" n="1090">¡Viva!</l>
             <l>Pues es por la sinagoga</l>
@@ -1521,16 +1818,23 @@
             <l>¡La Fe viva!</l>
             <l>Pues es por la sinagoga</l>
             <l n="1095">la heredera de la viña.</l>
-          </sp></div><div type="scene" resp="#rojas" n="14"><stage type="exit">Salen cantando la FE y el ETÍOPE.</stage><sp who="#la-sabiduría">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage type="exit">Salen cantando la FE y el ETÍOPE.</stage>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>¿Cantando vienes, Fe hermosa?</l>
-          </sp><sp who="#la-fe">
+          </sp>
+          <sp who="#la-fe">
             <speaker>FE</speaker>
             <l>Sí, pues traigo a quien deseas.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="I">¿Qué hay de América?</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l part="F">Que veas</l>
             <l>cuán felizmente piadosa</l>
@@ -1548,12 +1852,14 @@
             <l>siendo su dueño Felipe,</l>
             <l>viene a hallarse en tu banquete,</l>
             <l>diciendo alegre y festiva:</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>¡La Fe viva!</l>
             <l n="1115">pues es por la sinagoga</l>
             <l>heredera de la viña.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Vengas muy enhorabuena.</l>
             <l>Penitencia, la nupcial</l>
@@ -1562,7 +1868,11 @@
             <l>¡Ah del África arrogante!</l>
             <l>Sepa como en tu región</l>
             <l>su efecto hace mi Oración.</l>
-          </sp></div><div type="scene" resp="#rojas" n="15"><stage type="unassigned">Sale la ORACIÓN, llorando.</stage><sp who="#la-oración">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage type="unassigned">Sale la ORACIÓN, llorando.</stage>
+          <sp who="#la-oración">
             <speaker>ORACIÓN</speaker>
             <l>Dígatelo mi semblante,</l>
             <l n="1125">que aunque lloroso, pudiera</l>
@@ -1573,62 +1883,79 @@
             <l n="1130">y tan de la parte están</l>
             <l>hoy todos de su Alcorán,</l>
             <l>que no oyen las voces mías.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>¡Ah de Europa hermosa y bella!</l>
             <l>¿Cómo en tu septentrión</l>
             <l n="1135">lo pasa mi Religión</l>
             <l>Católica? ¿Son en ella</l>
             <l>oídos mis auxilios? ¡Di!</l>
-          </sp><sp who="#voz-triste">
+          </sp>
+          <sp who="#voz-triste">
             <stage type="entrance">Canta dentro voz triste.</stage>
             <l part="I">No.</l>
             <stage type="exit">Canta dentro voz triste.</stage>
-          </sp><sp who="#voz-alegre">
+          </sp>
+          <sp who="#voz-alegre">
             <stage type="entrance">Canta dentro voz alegre.</stage>
             <l part="M">Sí.</l>
             <stage type="exit">Canta dentro voz alegre.</stage>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="F">Eso no entiendo yo.</l>
             <l part="I">Despreciáronlos?</l>
-          </sp><sp who="#voz-triste">
+          </sp>
+          <sp who="#voz-triste">
             <stage type="entrance">Canta dentro voz triste.</stage>
             <l part="M">Sí.</l>
             <stage type="exit">Canta dentro voz triste.</stage>
-          </sp><sp who="#voz-alegre">
+          </sp>
+          <sp who="#voz-alegre">
             <stage type="entrance">Canta dentro voz alegre.</stage>
             <l part="F">No.</l>
             <stage type="exit">Canta dentro voz alegre.</stage>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="I">¿Admitiéronlos?</l>
-          </sp><sp who="#voz-triste">
+          </sp>
+          <sp who="#voz-triste">
             <stage type="entrance">Voz triste.</stage>
             <l part="M">No.</l>
             <stage type="exit">Voz triste.</stage>
-          </sp><sp who="#voz-alegre">
+          </sp>
+          <sp who="#voz-alegre">
             <stage type="entrance">Voz alegre.</stage>
             <l part="F" n="1140">Sí.</l>
             <stage type="exit">Voz alegre.</stage>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>¿Qué quieren a mis sentidos</l>
             <l>decir el no y sí mezclados?</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>Que son muchos los llamados,</l>
             <l>y pocos los escogidos.</l>
-          </sp></div><div type="scene" resp="#rojas" n="16"><stage type="unassigned">Sale la RELIGIÓN.</stage><sp who="#la-religión">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage type="unassigned">Sale la RELIGIÓN.</stage>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l n="1145">Y así de unos admitida,</l>
             <l>y de otros despreciada,</l>
             <l>bien que en una parte alegre,</l>
             <l>vuelvo, Señora, a tus plantas.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#la-religión">
+          </sp>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l part="F">Como ya Cristina</l>
             <l n="1150">(tú lo dijiste) a quien falta</l>
@@ -1702,7 +2029,8 @@
             <l>representado en la clara</l>
             <l>luz alegórica, el mundo</l>
             <l part="I">en sombras verá…</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="F" n="1220">Te engañas,</l>
             <l>que si es la Sabiduría</l>
@@ -1737,10 +2065,12 @@
             <l n="1250">porque no ha de haber sentada</l>
             <l>persona a mi mesa que</l>
             <l>cándida veste no traiga.</l>
-          </sp><sp who="#la-fe">
+          </sp>
+          <sp who="#la-fe">
             <speaker>FE</speaker>
             <l>Todas te obedeceremos.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Pues para más alabanza</l>
             <l n="1255">de una constante mujer,</l>
@@ -1750,11 +2080,19 @@
             <l>voces traduzcan aquel</l>
             <l n="1260">que preguntando, repara</l>
             <l>«¿Quién hallará mujer fuerte?»</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="17"><stage type="exit">Vase.</stage><sp who="#la-religión">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage type="exit">Vase.</stage>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l>Haremos lo que nos mandas.</l>
-          </sp></div><div type="scene" resp="#rojas" n="18"><stage type="unassigned">Vanse.</stage><sp who="#la-penitencia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage type="unassigned">Vanse.</stage>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Y yo de gala hoy a todos</l>
             <l>vestiré, y así tú, sabia</l>
@@ -1762,38 +2100,49 @@
             <l>en la Causa de las Causas</l>
             <l>la mejor filosofía,</l>
             <l part="I">ven por la tuya.</l>
-          </sp></div><div type="scene" resp="#rojas" n="19"><stage type="unassigned">Sale la HEREJÍA, de peregrino.</stage><sp who="#un-etíope">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage type="unassigned">Sale la HEREJÍA, de peregrino.</stage>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l part="F">Repara</l>
             <l>en que un peregrino llega,</l>
             <l n="1270">por si también has de darla,</l>
             <l>que se venga con nosotros.</l>
-          </sp><sp who="#la-penitencia">
+          </sp>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Por delante de mí pasa</l>
             <l>sin hacer caso de mí;</l>
             <l>no me busca. ¡Ven! ¿Qué aguardas?</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l n="1275">Pues ¿cómo aquí te le dejas?</l>
-          </sp><sp who="#la-penitencia">
+          </sp>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l>¿Por qué el dejármele extrañas?</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l>Que no se siente a la mesa</l>
             <l>(supuesto que del Alcázar</l>
             <l>ha pasado los umbrales),</l>
             <l n="1280">sin la vestidura blanca.</l>
-          </sp><sp who="#la-penitencia">
+          </sp>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l>A quien no llega a pedirla,</l>
             <l>mal la Penitencia darla</l>
             <l part="I">puede.</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l part="M">¿Y si te engaña?</l>
-          </sp><sp who="#la-penitencia">
+          </sp>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l part="F">A mí</l>
             <l>no puede engañarme en nada,</l>
@@ -1801,7 +2150,11 @@
             <l>se sienta a esta mesa es clara</l>
             <l>cosa que no engaña a otro</l>
             <l>porque a sí solo se engaña.</l>
-          </sp></div><div type="scene" resp="#rojas" n="20"><stage type="unassigned">Vanse los dos.</stage><sp who="#la-herejía">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage type="unassigned">Vanse los dos.</stage>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Fortuna, ya que dos veces</l>
             <l n="1290">peregrino, mis desgracias</l>
@@ -1861,14 +2214,19 @@
             <l>de los Proverbios se añada:</l>
             <l n="1345">«¿Quién hallará mujer fuerte?»</l>
             <stage type="exit">Las chirimías.Una voz.</stage>
-          </sp><sp who="#músicos #un-etíope #la-penitencia #la-herejía">
+          </sp>
+          <sp who="#músicos #un-etíope #la-penitencia #la-herejía">
             <speaker>TODOS Y MÚSICOS</speaker>
             <l>Quien advierte</l>
             <l>que hay quien noblemente pía</l>
             <l>tantas dichas se previene,</l>
             <l>que de los fines más últimos viene</l>
             <l n="1350">buscando feliz a la Sabiduría.</l>
-          </sp></div><div type="scene" resp="#rojas" n="21"><stage type="unassigned">Suenan las chirimías y dan vueltas a un tiempo los dos carros; en el uno viene la SABIDURÍA con tiara, manto imperial, y la cruz de tres cruces en la mano; y en el otro, CRISTINA, con corona de laurel y manto imperial. Del primer carro salen las VIRTUDES y la GENTILIDAD, todos con túnicas de velillos blancos y flores de nácar; y del segundo, el BRAZO SEGLAR, con el estoque al hombro. Y el ECLESIÁSTICO, con vestido blanco y manto negro y la oliva levantada. Dan vuelta, y parando los carros, representan.</stage><sp who="#la-reina-cristina">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage type="unassigned">Suenan las chirimías y dan vueltas a un tiempo los dos carros; en el uno viene la SABIDURÍA con tiara, manto imperial, y la cruz de tres cruces en la mano; y en el otro, CRISTINA, con corona de laurel y manto imperial. Del primer carro salen las VIRTUDES y la GENTILIDAD, todos con túnicas de velillos blancos y flores de nácar; y del segundo, el BRAZO SEGLAR, con el estoque al hombro. Y el ECLESIÁSTICO, con vestido blanco y manto negro y la oliva levantada. Dan vuelta, y parando los carros, representan.</stage>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>¡Salve, Alcázar de Dios! ¡Salve triunfante</l>
             <l>Fábrica Militante</l>
@@ -1879,10 +2237,12 @@
             <l>un afecto que impulsos celestiales,</l>
             <l>no sin auxilio, traen a tus umbrales,</l>
             <l>diciendo al verte:</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l n="1360">¿Quién hallará mujer fuerte?</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>¡Salve, Reina feliz! que coronada</l>
             <l>del vencedor laurel, serlo blasonas,</l>
@@ -1892,40 +2252,51 @@
             <l>¡Salve, otra vez! y venturosa vengas,</l>
             <l>donde en mi gremio tu hospedaje tengas</l>
             <l>diciendo al verte:</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>¿Quién hallará mujer fuerte?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l n="1370">¡Oh tú, Esposa Divina</l>
             <l>del más amante Esposo!</l>
-          </sp><stage type="unassigned">Bajando las dos de los carros.</stage><sp who="#la-sabiduría">
+          </sp>
+          <stage type="unassigned">Bajando las dos de los carros.</stage>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>¡Oh tú, del más dichoso,</l>
             <l>huéspeda peregrina!</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Felice quien camina</l>
             <l n="1375">al puerto de tus plantas.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Felice quien de tantas</l>
             <l>dichas, bella Cristina,</l>
             <l>cumplidos ve los plazos.</l>
             <stage type="exit">En el tablado, besa el suelo, y abrázanse.</stage>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Dame a besar el pie.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="1380">Llega a mis brazos...</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Diciendo al adorarte...</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Diciendo al conocerte...</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>¿Quién hallará mujer fuerte?</l>
             <l>Quien advierte</l>
@@ -1933,38 +2304,49 @@
             <l>tantas dichas se previene,</l>
             <l>que de los fines más últimos viene</l>
             <l>buscando feliz a la Sabiduría.</l>
-          </sp><sp who="#la-fe">
+          </sp>
+          <sp who="#la-fe">
             <speaker>FE</speaker>
             <l part="I">¡Qué dicha!</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l part="M">¡Qué ventura!</l>
-          </sp><sp who="#la-religión">
+          </sp>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l part="F">¡Qué contento!</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="I">¡Qué amor!</l>
-          </sp><sp who="#la-penitencia">
+          </sp>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l part="M">¡Qué paz!</l>
-          </sp><sp who="#la-reina-cristina #san-felipe">
+          </sp>
+          <sp who="#la-reina-cristina #san-felipe">
             <speaker>GENTILIDAD</speaker>
             <l part="M">¡Qué gozo!</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F" n="1390">¡Qué tormento!</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="I">Mucho es mi gozo.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="F">Aunque mi dicha es mucha,</l>
             <l part="I">puedo hacerla mayor.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="M">Di, ¿cómo?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="F">Escucha.</l>
             <l>Yo, Cristina Adolfo, Reina</l>
@@ -2055,37 +2437,45 @@
             <l>sujeta hoy, como vasalla</l>
             <l>de su imperio, la que ayer</l>
             <l n="1480">era reina de su patria.</l>
-          </sp><stage type="unassigned">Envaina la espada el BRAZO SEGLAR; la SABIDURÍA toma la oliva y la toca con ella.</stage><sp who="#la-sabiduría">
+          </sp>
+          <stage type="unassigned">Envaina la espada el BRAZO SEGLAR; la SABIDURÍA toma la oliva y la toca con ella.</stage>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Ya con esa abjuración</l>
             <l>que entre la oliva y la espada</l>
             <l>has hecho, la paz te toque,</l>
             <l>pues la justicia se envaina.</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l n="1485">Por España nos tocó</l>
             <l>el venir a acompañarla.</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>Y bien se ve, pues no pudo</l>
             <l>darla otro reino estas armas.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Con la vara la ha tocado</l>
             <l n="1490">en el hombro: ¡Oh ira! ¡Oh rabia!</l>
             <l>¿Cómo sufres verla absuelta</l>
             <l>con Penitencia tan blanda?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Sujeta al piadoso golpe,</l>
             <l>otra vez beso tus plantas</l>
             <l n="1495">y te pido que confirmes</l>
             <l>la protestación pasada.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>En la confesión que has hecho,</l>
             <l>yo te confirmo; levanta.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Cariñosamente puesta</l>
             <l n="1500">la mano (¡ay de mí) en la cara,</l>
@@ -2093,57 +2483,71 @@
             <l>no falte esa circunstancia,</l>
             <l>cuando no sólo la deja</l>
             <l>absuelta, mas confirmada.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="1505">Penitencia la nupcial</l>
             <l>ropa la trae, y a adornarla</l>
             <l>lleguen todas las Virtudes.</l>
-          </sp><stage type="unassigned">Saca la túnica blanca la PENITENCIA.</stage><sp who="#la-fe">
+          </sp>
+          <stage type="unassigned">Saca la túnica blanca la PENITENCIA.</stage>
+          <sp who="#la-fe">
             <speaker>FE</speaker>
             <l>La fe pone al Sol el alba.</l>
             <stage type="exit">Pónesela la FE.</stage>
-          </sp><sp who="#la-penitencia">
+          </sp>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l>La Penitencia la ciñe.</l>
             <stage type="exit">Cíñesela.</stage>
-          </sp><sp who="#la-oración">
+          </sp>
+          <sp who="#la-oración">
             <speaker>ORACIÓN</speaker>
             <l n="1510">La Oración la da la Gracia.</l>
             <stage type="exit">Compónesela.</stage>
-          </sp><sp who="#la-religión">
+          </sp>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l>Y la Religión la lleva</l>
             <l>a la mesa que la aguarda.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Ven, Gentilidad también,</l>
             <l>y vosotras; pues sentadas</l>
             <l n="1515">las Virtudes han de estar</l>
             <l>para esta cena, entre ambas.</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l>Gentilidad y Herejía,</l>
             <l>si llegas a ver con cuánta</l>
             <l>piedad te admite la Iglesia</l>
             <l n="1520">siempre que llegas, ¿qué aguardas?</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l part="I">¡Qué felicidad!</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">¡Qué ira!</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Todas id a acompañarla.</l>
-          </sp><sp who="#la-religión">
+          </sp>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l>Todas iremos, señora,</l>
             <l>cantando tus alabanzas.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="1525">Cantad hoy las de Cristina,</l>
             <l>que son las que más me ensalzan.</l>
-          </sp><sp who="#la-herejía #la-religión #la-sabiduría #un-etíope #la-reina-cristina #la-penitencia #la-oración #la-fe">
+          </sp>
+          <sp who="#la-herejía #la-religión #la-sabiduría #un-etíope #la-reina-cristina #la-penitencia #la-oración #la-fe">
             <speaker>TODOS</speaker>
             <l>¿Quién hallará mujer fuerte?</l>
             <l>Quien advierte</l>
@@ -2151,7 +2555,11 @@
             <l n="1530">tantas dichas se previene</l>
             <l>que de los fines más últimos viene</l>
             <l>buscando feliz a la Sabiduría.</l>
-          </sp></div><div type="scene" resp="#rojas" n="22"><stage type="unassigned">Éntranse con majestad al carro de la mesa.</stage><sp who="#la-herejía">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage type="unassigned">Éntranse con majestad al carro de la mesa.</stage>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Que de lo oculto la Iglesia</l>
             <l>no juzga, fue la palabra</l>
@@ -2161,24 +2569,32 @@
             <l>me mezcle esta confianza</l>
             <l>para llegar a la mesa</l>
             <l n="1540">a profanar sus viandas.</l>
-          </sp></div><div type="scene" resp="#rojas" n="23"><stage type="exit">Vase con ellos.</stage><sp who="#brazo-eclesiástico">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage type="exit">Vase con ellos.</stage>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>Feliz es para los dos</l>
             <l part="I">el día.</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l part="F">Y para ti, que alcanzas</l>
             <l>todos los misterios, más.</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>¿Pues cuál de entender te falta?</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l n="1545">Seglar Brazo soy, y así</l>
             <l>disculpa mis ignorancias.</l>
             <l>¿Cómo la Sabiduría</l>
             <l>aquí es la de la tiara?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>Como a Cristo representa</l>
             <l n="1550">dondequiera que se halla,</l>
@@ -2188,11 +2604,13 @@
             <l>y es el vice-Cristo el Papa,</l>
             <l n="1555">que ella en esta alegoría</l>
             <l>entrambos papeles haga.</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l>Y ¿el confirmarla, que ha sido,</l>
             <l>primero que bautizarla?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>A no estarlo ya, no fuera</l>
             <l n="1560">hereje sino pagana,</l>
@@ -2202,19 +2620,23 @@
             <l>pero no porque no haya</l>
             <l n="1565">recibido en el bautismo</l>
             <l part="I">el sacramento.</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l part="F">Oye, aguarda;</l>
             <l>si el sacramento recibe,</l>
             <l>la Gracia de él, ¿cómo falta?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>Como Sacramento es una</l>
             <l part="I">cosa, y otra…</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l part="F" n="1570">Di, ¿qué aguardas?</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>La Gracia del sacramento</l>
             <l>bien como, si uno llegara</l>
@@ -2225,31 +2647,39 @@
             <l>el sacramento, mas no</l>
             <l>del sacramento la Gracia.</l>
             <l>Y esto mismo es el bautismo.</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l n="1580">Prosiguiera en tu enseñanza</l>
             <l>si la música y la mesa</l>
             <l>la atención no arrebataran</l>
             <l part="I">a mis sentidos.</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="F">Atiende,</l>
             <l>escuchemos lo que cantan.</l>
-          </sp><stage type="unassigned">Chirimías. Ábrese el carro de la mesa, sentadas en la frente la SABIDURÍA y CRISTINA. Luego, a un lado y a otro, las VIRTUDES y los últimos, de una parte la GENTILIDAD, de otra la HEREJÍA; ha de haber en medio de la mesa un cordero.</stage><sp who="#la-oración">
+          </sp>
+          <stage type="unassigned">Chirimías. Ábrese el carro de la mesa, sentadas en la frente la SABIDURÍA y CRISTINA. Luego, a un lado y a otro, las VIRTUDES y los últimos, de una parte la GENTILIDAD, de otra la HEREJÍA; ha de haber en medio de la mesa un cordero.</stage>
+          <sp who="#la-oración">
             <speaker>VOZ</speaker>
             <l n="1585">Pan del cielo preveniste.</l>
-          </sp><sp who="#la-sabiduría #la-reina-cristina #la-herejía">
+          </sp>
+          <sp who="#la-sabiduría #la-reina-cristina #la-herejía">
             <speaker>TODOS</speaker>
             <l part="I">¡Alegría!</l>
-          </sp><sp who="#la-oración">
+          </sp>
+          <sp who="#la-oración">
             <speaker>VOZ</speaker>
             <l part="F">¡Oh eterna Sabiduría,</l>
             <l>en cuya Fe al hombre diste</l>
             <l>todo el consuelo en un día!</l>
-          </sp><sp who="#la-sabiduría #la-reina-cristina #la-herejía">
+          </sp>
+          <sp who="#la-sabiduría #la-reina-cristina #la-herejía">
             <speaker>TODOS</speaker>
             <l>¡Alegría!</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="1590">Este es de Abel el Cordero,</l>
             <l>ofrecido en la pasada</l>
@@ -2261,52 +2691,64 @@
             <l>ahora en la Ley de Gracia</l>
             <l>es el que sacramentado</l>
             <l>está en tersa forma blanca.</l>
-          </sp><stage type="unassigned">Vuelve el Cordero, y se ve el sacramento.</stage><sp who="#la-sabiduría #la-reina-cristina #la-herejía">
+          </sp>
+          <stage type="unassigned">Vuelve el Cordero, y se ve el sacramento.</stage>
+          <sp who="#la-sabiduría #la-reina-cristina #la-herejía">
             <speaker>TODOS</speaker>
             <l n="1600">A tan alto sacramento</l>
             <l>venere el mundo rendido,</l>
             <l>y el antiguo documento</l>
             <l>ceda al Nuevo Testamento,</l>
             <l>supliendo la Fe al sentido.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l n="1605">Mientras su alabanza todos</l>
             <l>tan alegremente cantan,</l>
             <l>he de alcanzarle yo, haciendo</l>
             <l>ultraje de la alabanza.</l>
-          </sp><sp who="#la-oración">
+          </sp>
+          <sp who="#la-oración">
             <speaker>VOZ</speaker>
             <l>Pan del cielo preveniste.</l>
-          </sp><sp who="#la-sabiduría #la-reina-cristina #la-herejía">
+          </sp>
+          <sp who="#la-sabiduría #la-reina-cristina #la-herejía">
             <speaker>TODOS</speaker>
             <l n="1610">¡Alegría!</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Esperad, no prosigáis;</l>
             <l>¿quién es aquél, que con tanta</l>
             <l>osadía, sin traer</l>
             <l>la nupcial veste, adelanta</l>
             <l n="1615">la mano al plato conmigo?</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>¡Aliento y vida me faltan!</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="I">¿Quién eres?</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">No sé quién soy.</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Yo, como ladrón de casa</l>
             <l>le conozco; la Herejía</l>
             <l part="I">sacramental es.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="F" n="1620">Levanta,</l>
             <l>bárbaro, atrevido, loco,</l>
             <l part="I">de mi mesa.</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="F">Espera, aguarda</l>
             <l>que yo le levantaré,</l>
@@ -2315,25 +2757,30 @@
             <l>en esta mesa te hallas,</l>
             <l>vil apóstata, sin que</l>
             <l>te pongan miedo estas armas?</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>Ya las conozco y las temo.</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l n="1630">¡Pues deja la mesa y baja</l>
             <l part="I">de ella despeñado!</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l part="F">¿Dónde</l>
             <l part="I">voy a parar?</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l part="F">A mis plantas;</l>
             <l>y pues al Brazo Seglar</l>
             <l>del Eclesiástico pasas,</l>
             <l n="1635">sin ensangrentar su oliva,</l>
             <l>en ti teñiré mi espada.</l>
-          </sp><sp who="#la-herejía">
+          </sp>
+          <sp who="#la-herejía">
             <speaker>HEREJÍA</speaker>
             <l>No me da la muerte ella</l>
             <l>tanto, no, como mi rabia</l>
@@ -2350,49 +2797,61 @@
             <l>sus gargantas el abismo</l>
             <l n="1650">y ocúlteme en sus entrañas</l>
             <l>para que yo no lo vea!</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Pues si ésa es su mayor saña,</l>
             <l>para aumentársela, todos</l>
             <l>proseguid sus alabanzas.</l>
-          </sp><sp who="#la-sabiduría">
+          </sp>
+          <sp who="#la-sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l n="1655">A cuyo compás, pues ya…</l>
-          </sp><sp who="#brazo-eclesiástico">
+          </sp>
+          <sp who="#brazo-eclesiástico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>Queda la virtud premiada…</l>
-          </sp><sp who="#la-fe">
+          </sp>
+          <sp who="#la-fe">
             <speaker>FE</speaker>
             <l>Y castigado el delito…</l>
-          </sp><sp who="#brazo-seglar">
+          </sp>
+          <sp who="#brazo-seglar">
             <speaker>SEGLAR</speaker>
             <l>Conque cumplido se halla…</l>
-          </sp><sp who="#la-religión">
+          </sp>
+          <sp who="#la-religión">
             <speaker>RELIGIÓN</speaker>
             <l>El lugar de los Proverbios…</l>
-          </sp><sp who="#un-etíope">
+          </sp>
+          <sp who="#un-etíope">
             <speaker>ETÍOPE</speaker>
             <l n="1660">Viendo entre dos luces claras…</l>
-          </sp><sp who="#la-oración">
+          </sp>
+          <sp who="#la-oración">
             <speaker>ORACIÓN</speaker>
             <l>La Historia y la Alegoría…</l>
-          </sp><sp who="#la-penitencia">
+          </sp>
+          <sp who="#la-penitencia">
             <speaker>PENITENCIA</speaker>
             <l>Digamos todas ufanas…</l>
-          </sp><sp who="#la-reina-cristina">
+          </sp>
+          <sp who="#la-reina-cristina">
             <speaker>CRISTINA</speaker>
             <l>Después que hayamos pedido</l>
             <l>el perdón de nuestras faltas…</l>
-          </sp><sp who="#la-sabiduría #la-reina-cristina #la-herejía #la-penitencia #la-oración #un-etíope #la-fe #la-religión">
+          </sp>
+          <sp who="#la-sabiduría #la-reina-cristina #la-herejía #la-penitencia #la-oración #un-etíope #la-fe #la-religión">
             <speaker>TODOS</speaker>
             <l n="1665">A tan grande sacramento</l>
             <l>venere el mundo rendido,</l>
             <l>y el antiguo documento</l>
             <l>ceda al Nuevo Testamento,</l>
             <l>supliendo la Fe al sentido.</l>
-          </sp></div>
-      
-    </div>
+          </sp>
+        </div>
+
+      </div>
     </body>
   </text>
 </TEI>

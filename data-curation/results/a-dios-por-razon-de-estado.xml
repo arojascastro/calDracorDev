@@ -1,5 +1,114 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000001" xml:lang="esp">
-  <teiHeader><fileDesc><titleStmt><title type="main">A Dios por razón de estado</title><author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author><respStmt><resp>Data curation (cleaning, normalization and scene division)</resp><persName xml:id="rojas">Rojas Castro, Antonio</persName></respStmt></titleStmt><publicationStmt><authority>University of Tübingen, Institute of Romance Languages and Literatures</authority><publisher xml:id="dracor">DraCor</publisher><date when="2019-05-02"><time when="13:08:14"/></date><idno type="quadramaX">A Dios por razón de estado</idno><availability><licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence></availability></publicationStmt><sourceDesc><bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/a-dios-por-razon-de-estado--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la de Pedro Pando y Mier, Autos Sacramentales, alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 618-651.</title></bibl></bibl></sourceDesc></fileDesc><profileDesc><particDesc><listPerson><person xml:id="ingenio" sex="MALE"><persName>El Ingenio</persName><trait source="castlist"><desc>galán</desc></trait></person><person xml:id="pensamiento" sex="MALE"><persName>El Pensamiento</persName><trait source="castlist"><desc>loco</desc></trait></person><person xml:id="gentilidad" sex="FEMALE"><persName>La Gentilidad</persName></person><person xml:id="sinagoga" sex="FEMALE"><persName>La Sinagoga</persName></person><person xml:id="áfrica" sex="FEMALE"><persName>África</persName></person><person xml:id="ateísmo" sex="MALE"><persName>El Ateísmo</persName></person><person xml:id="pablo" sex="MALE"><persName>San Pablo</persName></person><person xml:id="bautismo" sex="MALE"><persName>El Bautismo</persName></person><person xml:id="confirmación" sex="FEMALE"><persName>La Confirmación</persName></person><person xml:id="penitencia" sex="FEMALE"><persName>La Penitencia</persName></person><person xml:id="extremaunción" sex="FEMALE"><persName>La Extremaunción</persName></person><person xml:id="orden-sacerdotal" sex="MALE"><persName>El Orden Sacerdotal</persName></person><person xml:id="matrimonio" sex="MALE"><persName>El Matrimonio</persName></person><person xml:id="ley-natural" sex="FEMALE"><persName>La Ley Natural</persName></person><person xml:id="ley-escrita" sex="FEMALE"><persName>La Ley Escrita</persName></person><person xml:id="ley-de-gracia" sex="FEMALE"><persName>La Ley de Gracia</persName></person><personGrp xml:id="tres-mujeres-que-cantan" sex="FEMALE"><persName>Tres mujeres que cantan</persName></personGrp><personGrp sex="UNKNOWN" xml:id="músicos"><persName>Coros de Música</persName></personGrp></listPerson></particDesc><textClass><keywords><term source="dracor" type="genreTitle">auto sacramental</term><term source="#kroll" type="main">auto sacramental</term></keywords><classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass></profileDesc><encodingDesc><classDecl><taxonomy xml:id="kroll"><bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl></taxonomy></classDecl><classDecl><taxonomy xml:id="calderondigital"><bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl></taxonomy></classDecl></encodingDesc></teiHeader>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000001" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">A Dios por razón de estado</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-02"><time when="13:08:14"/></date>
+        <idno type="quadramaX">A Dios por razón de estado</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/a-dios-por-razon-de-estado--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la de Pedro Pando y Mier, Autos Sacramentales, alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 618-651.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ingenio" sex="MALE">
+            <persName>El Ingenio</persName>
+            <trait source="castlist">
+              <desc>galán</desc>
+            </trait>
+          </person>
+          <person xml:id="pensamiento" sex="MALE">
+            <persName>El Pensamiento</persName>
+            <trait source="castlist">
+              <desc>loco</desc>
+            </trait>
+          </person>
+          <person xml:id="gentilidad" sex="FEMALE">
+            <persName>La Gentilidad</persName>
+          </person>
+          <person xml:id="sinagoga" sex="FEMALE">
+            <persName>La Sinagoga</persName>
+          </person>
+          <person xml:id="áfrica" sex="FEMALE">
+            <persName>África</persName>
+          </person>
+          <person xml:id="ateísmo" sex="MALE">
+            <persName>El Ateísmo</persName>
+          </person>
+          <person xml:id="pablo" sex="MALE">
+            <persName>San Pablo</persName>
+          </person>
+          <person xml:id="bautismo" sex="MALE">
+            <persName>El Bautismo</persName>
+          </person>
+          <person xml:id="confirmación" sex="FEMALE">
+            <persName>La Confirmación</persName>
+          </person>
+          <person xml:id="penitencia" sex="FEMALE">
+            <persName>La Penitencia</persName>
+          </person>
+          <person xml:id="extremaunción" sex="FEMALE">
+            <persName>La Extremaunción</persName>
+          </person>
+          <person xml:id="orden-sacerdotal" sex="MALE">
+            <persName>El Orden Sacerdotal</persName>
+          </person>
+          <person xml:id="matrimonio" sex="MALE">
+            <persName>El Matrimonio</persName>
+          </person>
+          <person xml:id="ley-natural" sex="FEMALE">
+            <persName>La Ley Natural</persName>
+          </person>
+          <person xml:id="ley-escrita" sex="FEMALE">
+            <persName>La Ley Escrita</persName>
+          </person>
+          <person xml:id="ley-de-gracia" sex="FEMALE">
+            <persName>La Ley de Gracia</persName>
+          </person>
+          <personGrp xml:id="tres-mujeres-que-cantan" sex="FEMALE">
+            <persName>Tres mujeres que cantan</persName>
+          </personGrp>
+          <personGrp sex="UNKNOWN" xml:id="músicos">
+            <persName>Coros de Música</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="#kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
   <standOff>
     <listEvent>
       <event type="print" when="1717">
@@ -40,17 +149,21 @@
     </front>
     <body>
       <div type="act">
-        <div type="scene" resp="#rojas" n="1"><stage>Suenan instrumentos, y mientras se canta la primera copla sale al tablado EL PENSAMIENTO, vestido de loco, como huyendo del INGENIO, que procura detenerlo.</stage><sp who="#músicos">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Suenan instrumentos, y mientras se canta la primera copla sale al tablado EL PENSAMIENTO, vestido de loco, como huyendo del INGENIO, que procura detenerlo.</stage>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Gran Dios, que ignoramos,</l>
             <l>abrevia el tiempo</l>
             <l>y haz que te conozcamos,</l>
             <l>pues te creemos.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="5">¿Dónde, Pensamiento, vas?</l>
             <l part="I">Detente.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Si eres tan necio</l>
             <l>que haces pretensión de que</l>
@@ -58,7 +171,8 @@
             <l>¿cómo de sabio blasonas</l>
             <l n="10">y altivamente soberbio</l>
             <l part="I">Ingenio te llamas?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Como</l>
             <l>una cosa es que el Ingenio</l>
@@ -83,7 +197,8 @@
             <l>párate, porque tú quieras</l>
             <l>pararte, no porque quiero</l>
             <l part="I">pararte yo.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Sí lo haré,</l>
             <l>persuadido, no sujeto;</l>
@@ -92,13 +207,15 @@
             <l>de que no hay loco tan loco</l>
             <l>que no esté algún rato cuerdo.</l>
             <l part="I">¿Qué me quieres, pues?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Saber</l>
             <l n="40">adónde vas, que, violento,</l>
             <l>hoy más que nunca, me llevas</l>
             <l part="I">tras ti.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Los dulces acentos</l>
             <l>de una métrica armonía</l>
@@ -107,13 +224,15 @@
             <l>cuyo sentido no entiendo),</l>
             <l>me arrebatan a saber</l>
             <l>qué quieren decir, diciendo.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Gran Dios, que ignoramos,</l>
             <l n="50">abrevia el tiempo,</l>
             <l>y haz que te conozcamos,</l>
             <l>pues te creemos.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>La misma duda que tienes</l>
             <l>es también la que yo tengo,</l>
@@ -121,41 +240,49 @@
             <l>que tú padeces, padezco;</l>
             <l>a Dios, que ignoran, aclaman</l>
             <l part="I">estas gentes.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Sí, pues vemos</l>
             <l>cuán claramente sus voces</l>
             <l n="60">lo publican, repitiendo.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Gran Dios, que ignoramos,</l>
             <l>abrevia el tiempo...</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Pues ¿cómo es posible que</l>
             <l>den, o bárbaros, o ciegos,</l>
             <l n="65">culto a Dios, de quien no saben</l>
             <l>que Dios sea, prosiguiendo?</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Haz que te conozcamos,</l>
             <l>pues te creemos.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Eso es lo que yo no sé,</l>
             <l part="I">y saber quisiera.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="70" part="F">Luego,</l>
             <l>yendo a un mismo fin los dos,</l>
             <l>¿así no iremos opuestos?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Claro está, pues a un fin mismo</l>
             <l>van Ingenio y Pensamiento,</l>
             <l n="75">fuerza es por aquel instante</l>
             <l part="I">avenirse.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Según ello,</l>
             <l>ya por este instante amigos,</l>
@@ -163,7 +290,8 @@
             <l>penetrar lo enmarañado</l>
             <l n="80">de ese monte, en cuyo centro</l>
             <l part="I">las voces se escuchan?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Sí,</l>
             <l>y de mi parte te ofrezco</l>
@@ -173,7 +301,8 @@
             <l>en alcance del misterio,</l>
             <l>a mí me toca el pensarlo</l>
             <l>y a ti te toca el saberlo.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Pues para que con mejor</l>
             <l n="90">noticia pueda el concepto</l>
@@ -184,7 +313,8 @@
             <l n="95">que lo discurra a esta parte</l>
             <l>ocultos examinemos</l>
             <l part="I">voces y acciones.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Bien dices</l>
             <l>y es a propósito el puesto,</l>
@@ -192,7 +322,9 @@
             <l n="100">en el más oculto seno</l>
             <l>de esa bárbara montaña,</l>
             <l>un edificio soberbio.</l>
-          </sp><stage type="object">Descúbrese una montaña y vese la fábrica de un templo abierto a todas partes, y en el frontispicio esta letra: «Ignoto Deo».</stage><sp who="#ingenio">
+          </sp>
+          <stage type="object">Descúbrese una montaña y vese la fábrica de un templo abierto a todas partes, y en el frontispicio esta letra: «Ignoto Deo».</stage>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Rústica casa, sus riscos</l>
             <l>son de la joya de un templo,</l>
@@ -200,7 +332,8 @@
             <l>la Gentilidad de aquellos</l>
             <l>ingeniosos moradores</l>
             <l part="I">de la Grecia.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Y aunque abierto</l>
             <l>a cuatro vientos está,</l>
@@ -208,7 +341,8 @@
             <l>ni imagen, ni simulacro</l>
             <l>de quien se intitule dueño</l>
             <l part="I">de su culto.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Solamente</l>
             <l>en el frontispicio veo,</l>
@@ -217,25 +351,31 @@
             <l>como inscripción que dedica</l>
             <l>la fábrica de su bello</l>
             <l part="I">edificio.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">¿Y cómo dice</l>
             <l part="I">la inscripción?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="120" part="F">«Ignoto Deo».</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">¿Al Dios ignorado?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Sí.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Pues ¿cómo puede ser eso?</l>
             <l>Dios ignorado, ¿no implica</l>
             <l part="I">contradicción?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Y es tan cierto</l>
             <l n="125">que a no ser comunicable,</l>
@@ -262,8 +402,12 @@
             <l>dicen cantando y tañendo.</l>
             <l>Dios no sabido hasta ahora,</l>
             <l>pues solamente por Fe.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="2"><stage>Sale la MÚSICA cantando y los hombres que puedan y mujeres vestidas a lo romano, bailando, y detrás LA GENTILIDAD, con corona de laurel, manto imperial, espada y bengala, y mientras cantan va hacia el templo.;Cantando.;</stage><sp who="#músicos">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Sale la MÚSICA cantando y los hombres que puedan y mujeres vestidas a lo romano, bailando, y detrás LA GENTILIDAD, con corona de laurel, manto imperial, espada y bengala, y mientras cantan va hacia el templo.;Cantando.;</stage>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Gran Dios, que ignoramos,</l>
             <l n="150">abrevia el tiempo.</l>
@@ -271,7 +415,9 @@
             <l>entre los dioses que adora,</l>
             <l>permite que quien te ignora</l>
             <l>te conozca, a cuyo efecto.</l>
-          </sp><stage>Bailando, cruzados atravesados.</stage><sp who="#tres-mujeres-que-cantan">
+          </sp>
+          <stage>Bailando, cruzados atravesados.</stage>
+          <sp who="#tres-mujeres-que-cantan">
             <speaker>MUJER</speaker>
             <l n="155">Ser, que sólo imaginado</l>
             <l>te adivina la noticia</l>
@@ -279,11 +425,13 @@
             <l>y tal vez Dios del agrado:</l>
             <l>permite que declarado</l>
             <l n="160">te merezca el amor nuestro.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Y haz que te conozcamos,</l>
             <l>pues te creemos.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Dios de pocos prevenido</l>
             <l>y de pocos esperado,</l>
@@ -291,11 +439,13 @@
             <l>todo este pueblo ha venido:</l>
             <l>ya que el templo te ha ofrecido,</l>
             <l>ven a poseer el templo.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Y haz que te conozcamos,</l>
             <l part="I">pues...</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="170" part="F">Deteneos,</l>
             <l>suspended los regocijos,</l>
@@ -313,13 +463,15 @@
             <l>¿Cómo es posible, que haya</l>
             <l>en la ignorancia pretexto</l>
             <l part="I">que a eso os persuada?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="185" part="F">¿Quién eres,</l>
             <l>advenedizo extranjero,</l>
             <l>que sacrílego en dudarlo,</l>
             <l>eres curioso en saberlo?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Si de dudar la razón</l>
             <l n="190">no lo ha dicho, pues es cierto</l>
@@ -411,7 +563,8 @@
             <l>saber con qué fundamento</l>
             <l>se da al templo, y no al altar</l>
             <l part="I">ni al simulacro.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">Oye atento,</l>
             <l>que aunque en rigor no me toca</l>
@@ -526,7 +679,8 @@
             <l>de nuestra Música, puesto</l>
             <l>que en materias de fe, sólo</l>
             <l n="390">toca callar al Ingenio.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Bien dices, pues aunque ya</l>
             <l>quiera responder, no puedo</l>
@@ -536,18 +690,21 @@
             <l>ni lo apruebo ni repruebo.</l>
             <l>¡Ay, Pensamiento, contigo</l>
             <l>qué de cosas que hablar tengo!</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Pues luego me las dirás,</l>
             <l n="400">que, por ahora, más quiero</l>
             <l>introducirme en el baile</l>
             <l part="I">que en la duda.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Según ello,</l>
             <l>¿no me cumples la palabra,</l>
             <l part="I">pues me dejas?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">No te dejo</l>
             <l n="405">sino es póngome de esotra</l>
@@ -556,7 +713,8 @@
             <l>de cascos, y más deseo</l>
             <l>verme por aqueste rato</l>
             <l n="410">bailando que discurriendo.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Cuando tú no te pusieras</l>
             <l>de parte de tus festejos,</l>
@@ -564,114 +722,153 @@
             <l>te pusiera yo, y aún tengo</l>
             <l n="415">(por notarlos de más cerca)</l>
             <l>de introducirme con ellos.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Pues va de máscara y baile.</l>
-          </sp><sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
+          </sp>
+          <sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
             <speaker>TODOS</speaker>
             <l>De tono y letra mudemos.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">¿En él entras?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Esto sólo</l>
             <l n="420">es seguir mi Pensamiento.</l>
-          </sp><stage>Empieza la Máscara, guiando LA GENTILIDAD y EL INGENIO, y luego EL PENSAMIENTO y los demás.</stage><sp who="#músicos">
+          </sp>
+          <stage>Empieza la Máscara, guiando LA GENTILIDAD y EL INGENIO, y luego EL PENSAMIENTO y los demás.</stage>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Al sacrificio de Dios ignorado</l>
             <l>acude devoto y festivo el afecto.</l>
-          </sp><stage>Vueltas en cruz.</stage><sp who="#gentilidad">
+          </sp>
+          <stage>Vueltas en cruz.</stage>
+          <sp who="#gentilidad">
             <speaker>UNA VOZ</speaker>
             <l>Mostrando si es causa</l>
             <l>de todas las causas,</l>
             <l n="425">que humano responda a la</l>
             <l part="I">causa el efecto.</l>
-          </sp><sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
+          </sp>
+          <sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
             <speaker>TODOS</speaker>
             <l part="F">Mostrando.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Al sacrificio.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>OTRA VOZ</speaker>
             <l>Pidiendo, si es manos,</l>
             <l>oídos y ojos,</l>
             <l n="430">que venga a tocarnos, oírnos</l>
             <l part="I">y vernos.</l>
-          </sp><sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
+          </sp>
+          <sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
             <speaker>TODOS</speaker>
             <l part="F">Pidiendo.</l>
-          </sp><stage>Cruzados en ala.</stage><sp who="#músicos">
+          </sp>
+          <stage>Cruzados en ala.</stage>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Al sacrificio.</l>
-          </sp><stage>Bandas hechas.</stage><sp who="#pensamiento">
+          </sp>
+          <stage>Bandas hechas.</stage>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Pues ya tres mil dioses no</l>
             <l>valen por uno,</l>
             <l n="435">cuando el tres es uno</l>
             <l>y los otros son ceros.</l>
-          </sp><stage>Bandas deshechas.</stage><sp who="#músicos">
+          </sp>
+          <stage>Bandas deshechas.</stage>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Al sacrificio.</l>
-          </sp><stage>Suena ruido de terremoto y se asustan.</stage><sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
+          </sp>
+          <stage>Suena ruido de terremoto y se asustan.</stage>
+          <sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
             <speaker>TODOS</speaker>
             <l>¿Qué es esto, cielos, qué es esto?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Qué impensado terremoto</l>
             <l n="440">en todos cuatro elementos</l>
             <l>se amotina contra el sol?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>PRIMERO</speaker>
             <l part="I">¡Qué prodigio!</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>SEGUNDO</speaker>
             <l part="F">¡Qué portento!</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>TERCERO</speaker>
             <l part="I">¡Qué maravilla!</l>
-          </sp><sp who="#tres-mujeres-que-cantan">
+          </sp>
+          <sp who="#tres-mujeres-que-cantan">
             <speaker>CUARTO</speaker>
             <l part="F">¡Qué asombro!</l>
-          </sp><stage>Suena el terremoto siempre.</stage><sp who="#gentilidad">
+          </sp>
+          <stage>Suena el terremoto siempre.</stage>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Abajo se viene el Cielo.</l>
-          </sp><sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
+          </sp>
+          <sp who="#ingenio #gentilidad #músicos #pensamiento #tres-mujeres-que-cantan">
             <speaker>TODOS</speaker>
             <l n="445">A las grutas de los montes</l>
             <l>vamos todos a escondernos.</l>
-          </sp></div><div type="scene" resp="#rojas" n="3"><stage>Vanse, y quedan LA GENTILIDAD, EL INGENIO y EL PENSAMIENTO.</stage><sp who="#pensamiento">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vanse, y quedan LA GENTILIDAD, EL INGENIO y EL PENSAMIENTO.</stage>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>De iras de Dios no es posible.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Cómo pudo en un momento,</l>
             <l>estando del sol y luna</l>
             <l n="450">la interposición tan lejos,</l>
             <l>haberse eclipsado el sol</l>
             <l>sin que ella se ponga en medio?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">No eres el Ingenio.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Sí.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">Pues dínoslo tú.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">No puedo,</l>
             <l n="455">que el Ingenio humano aún no</l>
             <l>se halla capaz de saberlo;</l>
             <l>mas veme tú preguntando,</l>
             <l>quizá iré yo respondiendo.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Y esté yo a lo que discurren</l>
             <l n="460">absorto, mudo y suspenso.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Qué quiere ser, que el cielo oscurecido</l>
             <l>a media tarde de un tupido velo,</l>
@@ -680,10 +877,12 @@
             <l n="465">bien como para dar un estallido,</l>
             <l>si se cae, o no se cae el cielo,</l>
             <l>se turba, se desploma o se estremece?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Que expira el cielo, o su Hacedor padece.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Qué quiere ser, que el Sol sin el ocaso</l>
             <l n="470">siente tan melancólica agonía,</l>
@@ -693,10 +892,12 @@
             <l>se deje de su trágica osadía</l>
             <l n="475">tanto ultrajar, que súbito fallece?</l>
             <stage>Terremoto.</stage>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Que expira el Sol, o su Hacedor padece.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Qué quiere ser, que errantes las estrellas,</l>
             <l>cómplices de su robo al mismo punto</l>
@@ -705,10 +906,12 @@
             <l>quedando todas las esferas bellas</l>
             <l>como casa de príncipe difunto,</l>
             <l>adonde nada en su lugar parece?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Que expiran hoy, o su Hacedor padece.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="485">¿Qué quiere ser, que en desigual fortuna</l>
             <l>la Luna, al ver al Sol, tan decaída</l>
@@ -717,10 +920,12 @@
             <l>pues sin piedad, sin lástima ninguna,</l>
             <l n="490">de sí misma sacrílega homicida,</l>
             <l>baja la luz con que ella resplandece?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>La Luna expira, o su Hacedor padece.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Qué quiere ser, que el mar gima violento,</l>
             <l>dando a la tierra horror, y que la tierra,</l>
@@ -730,10 +935,12 @@
             <l>que el tiempo se haga a ráfagas la guerra,</l>
             <l>con que del mundo el paroxismo crece?</l>
             <stage>Terremoto.</stage>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="500">Que el Mundo expira, o su Hacedor padece.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Cubrirse el Cielo, el Sol oscurecerse,</l>
             <l>faltar la luz, la luna ensangrentarse,</l>
@@ -742,49 +949,60 @@
             <l n="505">el fuego helarse, el aire entumecerse,</l>
             <l>y todo, en fin, que quiere ser turbarse</l>
             <l>tanto que vuelve todo el caos parece?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Que todo expira, o su Hacedor padece.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Que todo expira y su Hacedor padece</l>
             <l part="I">sólo me respondes?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="510" part="F">Sí.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Pues cómo puede ser ello?</l>
             <l>Quien dice Hacedor, ¿no dice</l>
             <l part="I">primer principio?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Concedo.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Quien dice primer principio,</l>
             <l n="515">¿no dice poder inmenso,</l>
             <l>de quien se origina todo</l>
             <l>antes y después Eterno?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">Concedo también.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">Pues, cómo,</l>
             <l>¿si sólo un Dios puede serlo,</l>
             <l n="520">ha de padecer? ¿No implica</l>
             <l part="I">Dios, y pasible?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Mal puedo</l>
             <l>negarte la consecuencia</l>
             <l>si ya no es que a tu argumento</l>
             <l>tu argumento te responda.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">¿De qué suerte?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="525" part="F">Con el mesmo,</l>
             <l>si Dios ignorado implica</l>
@@ -795,100 +1013,126 @@
             <l>entre tu yerro y mi yerro,</l>
             <l>tú creyendo y yo dudando,</l>
             <l part="I">a discurrir me resuelvo.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">¿Qué?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Que aunque implique, uno y otro</l>
             <l part="I">puede haber.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="M">Di.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="535" part="F">Fundamento,</l>
             <l>pues tú le estás ignorando</l>
             <l>para estar él padeciendo.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Entre una y otra razón</l>
             <l>ambas dudo y ambas creo.</l>
             <l n="540">Y así, sin parar en una,</l>
             <l>de una en otra voy y vengo.</l>
             <stage>Dando vueltas entre los dos.</stage>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Yo no he de creer que haya</l>
             <l part="I">Dios pasible.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">A ti me atengo.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Yo que haya ignorado Dios</l>
             <l part="I">tampoco creeré.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="545" part="F">A ti vuelvo.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Bien puede ser ignorado</l>
             <l part="I">de mí y de otro no.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Esto es cierto.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>También puede padecer</l>
             <l part="I">no como Dios.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">También esto.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="550">¿Pues ha de ser otra cosa</l>
             <l part="I">siendo Dios?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Tu duda apruebo.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>No sé; mas, siendo Dios, todo</l>
             <l part="I">lo podrá.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">La tuya aprecio.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">Ése es error.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Tras ti voy.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">Es engaño.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="555" part="F">A ti me acerco.</l>
-          </sp><sp who="#gentilidad #ingenio">
+          </sp>
+          <sp who="#gentilidad #ingenio">
             <speaker>LOS DOS</speaker>
             <l>¡Oh, cuál anda entre los dos</l>
             <l>vacilando el Pensamiento!</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>¿Qué ha de hacer si ambos iguales</l>
             <l>tiráis de mí, tan a un tiempo,</l>
             <l n="560">que yendo y viniendo a entrambos</l>
             <l>descanso en ninguno tengo?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Vente conmigo, que yo,</l>
             <l>que en mí lo hallarás, te ofrezco.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Como desvelada</l>
             <l n="565">la confusión de mi ingenio</l>
@@ -903,10 +1147,12 @@
             <l>que sea pasible, he de hacer</l>
             <l n="575">de ambas dudas un compuesto</l>
             <l>para asunto de este acto.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">¿De qué suerte?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Discurriendo</l>
             <l>el Mundo por cuantas Leyes,</l>
@@ -920,76 +1166,99 @@
             <l>toda ojos, toda manos)</l>
             <l>la conveniencia de serlo</l>
             <l part="I">para padecer.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">Si intentas</l>
             <l>hallar tal Dios, ¿dónde, ciego,</l>
             <l n="590">le has de hallar si no es en mí,</l>
             <l>que en todas partes le tengo?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>En mí, pues Ingenio soy.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Mercurio es dios del Ingenio.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Pues iré al Cielo a buscarlo.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="595">Júpiter el Dios del Cielo.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Pues buscaréle en la tierra.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Ceres diosa es de su centro.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Iré a buscarle en los mares.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Neptuno es Dios de su Imperio.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="600">En el fuego le hallaré.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Apolo es el Dios del Fuego.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>El viento me dirá de él.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Juno es la diosa del viento.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Buscaréle en las campañas.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="605">Marte es dios de sus estruendos.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Quizá estará en los jardines.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Sus diosas son Flora y Venus.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>En las paces de las Cortes.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Minerva está en su gobierno.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="610">En los bosques más incultos.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Diana es la diosa de ellos.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Pues el tiempo sabrá de él.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Saturno es el dios del Tiempo;</l>
             <l>de suerte que no hallarás</l>
@@ -998,14 +1267,17 @@
             <l>te imagine el pensamiento,</l>
             <l>parte donde no esté un dios</l>
             <l part="I">que yo adore.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Y aun por eso</l>
             <l n="620">no le he de buscar en ti.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">¿Por qué?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Porque considero</l>
             <l>que quien tiene muchos dioses</l>
@@ -1016,11 +1288,13 @@
             <l>de los dos discursos nuestros</l>
             <l>añades otra imposible</l>
             <l part="I">de vencer.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">Eso no entiendo.</l>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="630" part="F">¿Cómo en lo ignorado</l>
             <l>y en lo pasible cubierto</l>
@@ -1046,7 +1320,8 @@
             <l>efecto útil si en ti veo</l>
             <l>pecaminosas las causas</l>
             <l part="I">de las causas?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">El aliento</l>
             <l>suspende; no, no prosigas,</l>
@@ -1055,20 +1330,24 @@
             <l>sin que hagas de mí desprecio.</l>
             <l>Ven, Pensamiento, conmigo;</l>
             <l part="I">deja ese loco.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">No puedo</l>
             <l part="I">ir tras de ti.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="M">¿Por qué?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="660" part="F">Porque</l>
             <l>la agudeza soy del Ingenio;</l>
             <l>tras la natural razón</l>
             <l>me arrebata el Pensamiento.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Pues dejaréte con él,</l>
             <l n="665">que si la verdad confieso</l>
@@ -1080,13 +1359,16 @@
             <l>yo os vengaré, y para esto</l>
             <l>serán Tito y Vespasiano</l>
             <l>los Césares de mi Imperio.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¡Ea, Pensamiento, vamos!</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">¿Dónde hemos de ir?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="675" part="F">Transcendiendo,</l>
             <l>supuesto que no se da</l>
@@ -1095,37 +1377,44 @@
             <l>hasta que halle Ley en ellos</l>
             <l n="680">de un dios ignoto y pasible</l>
             <l>le cuadre a mi entendimiento.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>No ha sido muy mal arbitrio</l>
             <l> para entablar este intento acompañarte de mí.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">¿Cómo?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Como el más severo</l>
             <l n="685">crítico no hará censura</l>
             <l>de ver, que el mundo corremos,</l>
             <l>si su pensamiento viene</l>
             <l>siguiendo a tu Pensamiento.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Dices bien, pues viendo al suyo</l>
             <l n="690">volar dejará el ajeno.</l>
             <l>Sin que el Ingenio padezca</l>
             <l>la objeción de otros Ingenios.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Pues en esa confianza</l>
             <l>ven, y ya que a tu concepto</l>
             <l n="695">desagradan muchos dioses,</l>
             <l>pasemos de extremo a extremo,</l>
             <l>vamos donde no hay ninguno.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">¿Cómo eso puede ser?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Viendo</l>
             <l>que aquel que de brutas pieles,</l>
@@ -1133,68 +1422,88 @@
             <l>en lo bárbaro del traje</l>
             <l>indio bozal y grosero</l>
             <l>se muestra, es el Ateísmo.</l>
-          </sp></div><div type="scene" resp="#rojas" n="4"><stage>Descúbrese un peñasco, y se ve en él EL ATEÍSMO en el traje que dicen los versos.</stage><sp who="#ingenio">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Descúbrese un peñasco, y se ve en él EL ATEÍSMO en el traje que dicen los versos.</stage>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Qué hace?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="705">Rendido está al sueño.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Día de tan grande asombro</l>
             <l part="I">duerme?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="M">Sí.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Yo le despierto,</l>
             <l>más del sosiego admirado</l>
             <l>que envidioso del sosiego.</l>
             <l part="I">¿Ateísmo?</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l n="710" part="F">¿Quién me llama?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Yo, que en busca tuya vengo.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>¿Quién eres y qué me quieres</l>
             <l>tú, que me das tantas voces?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Al Ingenio no conoces?</l>
             <l n="715">Bien se ve cuán bruto eres.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l part="I">¿Tú eres el Ingenio?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Sí,</l>
             <l>y de ti saber quisiera.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>Si eres el Ingenio, espera.</l>
             <l>¿Cómo dudas que yo oí</l>
             <l n="720">que el Ingenio respondía</l>
             <l>cuando se le preguntaba,</l>
             <l>no que el Ingenio dudaba?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Ésa es la excelencia mía.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l part="I">Di, ¿cuál?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Saber preguntar</l>
             <l n="725">para saber responder.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>Pues di, ¿qué quieres saber</l>
             <l part="I">de mí?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">De este singular</l>
             <l>eclipse, que no hay persona</l>
@@ -1206,7 +1515,8 @@
             <l>(y en la tuya la primera)</l>
             <l n="735">las opiniones que he hallado</l>
             <l part="I">para todo el Orbe.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l part="F">Pues</l>
             <l>si la mía he de decir</l>
@@ -1232,60 +1542,75 @@
             <l>si moría o si sanaba</l>
             <l>de ella, mientras se pasaba</l>
             <l>la ascensión me eché a dormir.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="760">¿Luego tú no has discurrido</l>
             <l>en que efecto ser pudiera</l>
             <l>de alguna causa primera?</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>¿Quién primera causa ha sido?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Un dios, que vamos buscando</l>
             <l n="765">por todo el mundo los dos.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l part="I">¿Un dios?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="M">Sí.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l part="F">¿Qué cosa es Dios?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Eso voy investigando.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>Nunca en eso me cansara</l>
             <l>yo, porque nunca creyera</l>
             <l n="770">que le hallara ni pudiera.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>En lo que dices repara,</l>
             <l>que esta opinión satisfizo</l>
             <l>a cuantos el mundo ven</l>
             <l part="I">criado.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l part="M">A mí, no.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Pues di, ¿quién</l>
             <l part="I">hizo este mundo?</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l n="775" part="F">Él se hizo.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Quién para nuestros provechos</l>
             <l>hizo con fábrica igual</l>
             <l>esos orbes de cristal?</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>Ahí nos los hallamos hechos.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="780">¿Quién aquese luminar</l>
             <l>del sol, que es alma del día,</l>
@@ -1294,10 +1619,12 @@
             <l>que del Oriente al Ocaso</l>
             <l n="785">accidente tal no ha habido</l>
             <l>que los haya pervertido?</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>Uno y otro sería acaso.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Y di, ¿el acaso podía</l>
             <l>darte a ti vida, alma y ser?</l>
@@ -1309,7 +1636,8 @@
             <l n="795">es todos cuantos sentidos</l>
             <l>con superior armonía</l>
             <l>le dieron ser al no ser?</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>Yo no hice más que nacer,</l>
             <l>sin saber a qué nacía,</l>
@@ -1317,38 +1645,46 @@
             <l>no habrá razón que me cuadre:</l>
             <l>como otro engendró a mi padre,</l>
             <l>mi padre me engendró a mí.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Sí; pero al primero, ¿quién?</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l n="805">Del uno la corrupción,</l>
             <l>dime, ¿no es generación</l>
             <l part="I">del otro?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="M">Sí.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l part="F">Luego bien</l>
             <l>puedo pensar que la prima</l>
             <l>materia se corrompió</l>
             <l n="810">y al primer hombre engendró.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Y el alma que en él anima,</l>
             <l>¿pudo de corrupción tal</l>
             <l>engendrarse? ¿No lo ves,</l>
             <l>siendo inmortal como es?</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l n="815">¿Luego el alma es inmortal?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Bien nos lo deja inferir</l>
             <l>la Divinidad que trae</l>
             <l part="I">consigo.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l part="F">Yo no sé que hay</l>
             <l>más que nacer y morir.</l>
@@ -1356,13 +1692,15 @@
             <l>y por que amigos seamos</l>
             <l>comamos hoy y bebamos,</l>
             <l>que mañana moriremos.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Calla, calla, que tan ciega</l>
             <l n="825">doctrina no se ha de oír,</l>
             <l>pues no se debe argüir</l>
             <l>con quien los principios niega.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Discursos buenos ni malos</l>
             <l>con él no tienes que hacer,</l>
@@ -1372,23 +1710,28 @@
             <l>causa, ¿quién mueve mi acción</l>
             <l>a darte este mojicón?</l>
             <stage>;Dale un golpe.;</stage>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l part="I">Loco.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="835" part="F">Pensamiento, espera.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>Pensamiento, de él intento</l>
             <l>huir, que no me ha de dar</l>
             <l>a mí placer ni penar</l>
             <l>en mi vida el Pensamiento.</l>
             <stage>;Huye. ;</stage>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">¿Qué dices de esto?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="840" part="F">No en vano</l>
             <l>confieso sus devaneos</l>
@@ -1398,17 +1741,20 @@
             <l n="845">por quien David repetía</l>
             <l>que el no haber Dios lo decía</l>
             <l>el necio en su corazón.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Y aun</l>
             <l>ése es el argumento</l>
             <l n="850">con que una canción que oí</l>
             <l part="I">lo prueba bien claro.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Di</l>
             <l part="I">la canción.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Escucha atento.</l>
             <l>En su corazón el necio</l>
@@ -1416,21 +1762,25 @@
             <l n="855">luego hay Dios, pues hay quien supo</l>
             <l>lo que él dijo a solas en su corazón.</l>
             <stage>Cantar.</stage>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Huir de este error conviene.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>¿Y dónde habrá en quien reposes</l>
             <l>si huyes de quien tiene dioses</l>
             <l n="860">y huyes de quien no los tiene?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>En quien tenga sólo uno,</l>
             <l>que si un error a otro igualo,</l>
             <l>tener muchos es tan malo</l>
             <l>como no tener ninguno.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="865">Pues si uno quieres hallar,</l>
             <l>África sus montes llenos</l>
@@ -1439,13 +1789,15 @@
             <l>descienden, y sólo un Dios</l>
             <l n="870">adora, a quien llama Alá,</l>
             <l part="I">que es Dios grande.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Sí, pues ya</l>
             <l>muero, por que a ver los dos</l>
             <l>lleguemos al fundamento</l>
             <l part="I">de esa ley.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Presto podrás,</l>
             <l n="875">puesto que para eso vas</l>
@@ -1453,21 +1805,30 @@
             <l>verla allí; en bailes, amores</l>
             <l>y banquetes divertida</l>
             <l>pasa lo más de su vida.</l>
-          </sp><stage>Dentro instrumentos.</stage><sp who="#ingenio">
+          </sp>
+          <stage>Dentro instrumentos.</stage>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="880">Aunque adore un Dios errores</l>
             <l>debe padecer, pües</l>
             <l>canta cuando todo llora.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Atiende a su zambra ahora,</l>
             <l>que de eso hablarás después.</l>
-          </sp></div><div type="scene" resp="#rojas" n="5"><stage>Sale ÁFRICA de mora, y en el mismo traje músicos, hombres y mujeres, bailando todos los que pudieren.</stage><sp who="#músicos">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Sale ÁFRICA de mora, y en el mismo traje músicos, hombres y mujeres, bailando todos los que pudieren.</stage>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l n="885">Bailad, africanos, bailad,</l>
             <l>que ya se os acerca el profeta</l>
             <l part="I">de Alá.</l>
-          </sp><stage>Dos cruzados.</stage><sp who="#áfrica">
+          </sp>
+          <stage>Dos cruzados.</stage>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">Ya que en turbadas estrellas</l>
             <l>la mágica nuestra vio</l>
@@ -1475,10 +1836,13 @@
             <l n="890">previne en sus luces bellas,</l>
             <l>diciendo este eclipse en ellas</l>
             <l>que presto a vernos vendrá.</l>
-          </sp><stage>Vueltas.</stage><sp who="#músicos">
+          </sp>
+          <stage>Vueltas.</stage>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Bailad, africanos, bailad.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l>De nubes los aires llenos</l>
             <l n="895">ni os den sustos ni desmayos,</l>
@@ -1486,13 +1850,16 @@
             <l>los relámpagos y truenos,</l>
             <l>y pues los cielos serenos</l>
             <l>aplacan su enojo ya.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l n="900">Bailad, africanos, bailad.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">Tente, ¿dónde vas?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">¿No es llano</l>
             <l>que en oyendo son no es</l>
@@ -1500,27 +1867,32 @@
             <l>como otros van a la mano?</l>
             <l n="905">Y pues tenerme es en vano,</l>
             <l>ya estamos todos acá.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Bailad, africanos, bailad.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Cómo, África hermosa, el día</l>
             <l>de tan grande sentimiento</l>
             <l n="910">en tierra, agua, fuego y viento,</l>
             <l>celebras con alegría?</l>
             <l part="I">¿Qué causa te mueve?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">¿Quién</l>
             <l>eres, que aunque ya te vi</l>
             <l part="I">no bien te conozco?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">A mí</l>
             <l n="915">pocos me conocen bien.</l>
             <l>El Ingenio soy humano.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l>Así en casa de Abraham,</l>
             <l>cuyas aras culto dan</l>
@@ -1532,23 +1904,28 @@
             <l>le echó de casa porque</l>
             <l n="925">unos ídolos le halló,</l>
             <l part="I">no te vi más.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Es que yo</l>
             <l>ese día le falté,</l>
             <l>pues con Ingenio mal pudo</l>
             <l>los ídolos adorar.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l n="930">Que un Dios se ha de venerar</l>
             <l>ni lo niego ni lo dudo.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Vida los cielos te den.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l>¿De qué ese gozo le da?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>De que parece que ya</l>
             <l n="935">me vas conociendo bien,</l>
@@ -1556,7 +1933,8 @@
             <l>en la adoración de un Dios</l>
             <l>hasta aquí asiste a los dos,</l>
             <l part="I">¿qué fiesta es ésta?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">Oye atento:</l>
             <l n="940">Descendiente de Ismael,</l>
@@ -1597,14 +1975,17 @@
             <l n="975">los claustros de mi sentido</l>
             <l>fiestas le haga, como quien</l>
             <l>con escándalo le espera.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Pues siendo de esa manera</l>
             <l>aún no me conoces bien.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="I">¿Por qué?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="980" part="F">Porque si buscando</l>
             <l>hoy a un Dios vamos los dos,</l>
@@ -1615,7 +1996,8 @@
             <l>estés sin Dios, con que es</l>
             <l>más justo hacer de ti ausencia</l>
             <l part="I">que no asistirte.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">¿Pues qué</l>
             <l>importa en mí ley no haya</l>
@@ -1625,24 +2007,29 @@
             <l>pues no escogió ser ninguno</l>
             <l>que se salve cada uno</l>
             <l n="995">en la religión que nace?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">¿Qué dices?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">Lo que yo creo,</l>
             <l>y si este dogma nos dan</l>
             <l>los ritos del Alcorán,</l>
             <l>que ya profesar deseo,</l>
             <l part="I">¿no la he de admitir?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1000" part="F">Pues di,</l>
             <l>¿no dices que hay sólo un Dios?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="I">Sí.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">¿Pues cómo puede en dos</l>
             <l>leyes servirse? Ve aquí</l>
@@ -1662,7 +2049,8 @@
             <l>que error en los tres se arguya,</l>
             <l>¿quién podrá en desgracia suya</l>
             <l part="I">de él gozar sin él?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">A mí</l>
             <l n="1020">no me toca disputar</l>
@@ -1673,26 +2061,33 @@
             <l n="1025">mira, has de ver y callar,</l>
             <l>vuelva a cantar y bailar</l>
             <l>cada uno con sus mujeres.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">¿Sus mujeres?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="M">Sí.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">¿Pues cuántas</l>
             <l>hay que ese rito conceda?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l n="1030">Las que uno sustentar pueda.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">¡Linda ley!</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">¿De qué te espantas?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>De que a la razón no impida</l>
             <l>que yo en dos esposas quiera</l>
@@ -1710,70 +2105,86 @@
             <l n="1045">segura en ellas amor,</l>
             <l>¿cómo lo será el honor</l>
             <l part="I">ofendido?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">No te ofenda</l>
             <l>eso a ti, pues peor hallar</l>
             <l>será (si apurarlo quieres)</l>
             <l n="1050">que tenga un hombre mujeres</l>
             <l>que no pueda sustentar.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Y este precepto también</l>
             <l>has de conservar en ti</l>
             <l part="I">venido el Profeta?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">Sí.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1055">De aquí, Pensamiento, ven,</l>
             <l>que ley que ya me propongo,</l>
             <l>fundar uno y otro error</l>
             <l>no será ley en rigor.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">¿Qué será?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="M">Secta.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Y aun hongo.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1060">Y si en ello has de creer,</l>
             <l>que pueda el que nazca y muera</l>
             <l>salvarse en otra cualquiera,</l>
             <l>¿para qué la has menester?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l>Para mayor perfección.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1065">¿Perfección habrá en aquella</l>
             <l>ley que me salva sin ella?</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l>Sí, pues no fuera blasón</l>
             <l>de Alá que me condenara</l>
             <l>en el rito que naciera</l>
             <l part="I">sin culpa mía.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="M">Sí fuera.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l n="1070" part="F">¿Cómo?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>La razón es clara:</l>
             <l>el Dios que hallar imagino</l>
             <l part="I">ha de ser un ente.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">Di.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>De sí solo, en sí y por sí,</l>
             <l n="1075">incomprensible y divino,</l>
@@ -1791,64 +2202,81 @@
             <l>y basta el que nos envía</l>
             <l>cada día su cuidado</l>
             <l>en Tierra, Aire, Fuego y Mar.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l n="1090">Ya digo que argumentar</l>
             <l>no es a mi cólera dado;</l>
             <l>cantad y bailad y no</l>
             <l>hagáis caso, sino desprecio</l>
             <l>de Filósofo tan necio.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="1095">Lo mismo me hiciera yo,</l>
             <l>si pudiera, y por si no</l>
             <l>vuelva otra vez a cantar.</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>MÚSICA</speaker>
             <l>Bailad, africanos, bailad,</l>
             <l>que ya se os acerca el profeta</l>
             <l part="I">Alá.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="M">Que ya se os acerca.</l>
-          </sp><sp who="#gentilidad #pensamiento #ingenio #áfrica #músicos">
+          </sp>
+          <sp who="#gentilidad #pensamiento #ingenio #áfrica #músicos">
             <speaker>TODOS</speaker>
             <l n="1100" part="F">Bailad.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿De un abismo en otro abismo,</l>
             <l>dónde, Pensamiento, vas?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Pues un Dios tiene no más.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Pero sin Ley es lo mismo</l>
             <l part="I">que el no tenerle.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="1105" part="F">Aun bien,</l>
             <l>que es la Sinagoga aquella,</l>
             <l>y hay un Dios y Ley en ella.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Ley y un Dios. Conmigo ven;</l>
             <l>mas ¿no es Pablo con quien viene,</l>
             <l n="1110">de quien me hizo amigo fiel</l>
             <l>la escuela de Gamaliel</l>
             <l>por el Ingenio que tiene?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">Sí, llega.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Envuelto está en ira;</l>
             <l>retírate hasta después.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="1115">No es bueno lo que hablan, pues</l>
             <l>el Ingenio se retira.</l>
-          </sp></div><div type="scene" resp="#rojas" n="6"><stage>Sale LA SINAGOGA a lo judío y SAN PABLO a lo romano.</stage><sp who="#sinagoga">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Sale LA SINAGOGA a lo judío y SAN PABLO a lo romano.</stage>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Aunque el Centurión me asombre,</l>
             <l>diciendo con voz severa:</l>
@@ -1881,7 +2309,8 @@
             <l n="1145">el orbe van publicando</l>
             <l>cuatro humildes pescadores.</l>
             <stage>;Dásele. ;</stage>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Estimo honor y decreto,</l>
             <l>y cree que es con una acción,</l>
@@ -1904,80 +2333,99 @@
             <l n="1165">relámpago, trueno y rayo,</l>
             <l>Pablo de esa nueva fe.</l>
             <stage>;Quédase como suspenso y que habla consigo. ;</stage>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Así lo creo de ti.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Dame los brazos y adiós.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Ya se despiden los dos.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="I">¿No es Pablo tu amigo?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1170" part="F">Sí.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Llega a hablarle, quizá aquí</l>
             <l>buen padrino en él tendrás.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">¿Pablo?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="M">¿Ingenio?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">¿Dónde vas?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>No puedo en el fin que sigo</l>
             <l n="1175">detenerme a hablar contigo;</l>
             <l>otro día lo sabrás.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Pues así al Ingenio dejas,</l>
             <l>que amigo tan tuyo fue?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Otra vez satisfaré</l>
             <l n="1180">con más espacio a tus quejas.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Mira que de quien te alejas</l>
             <l part="I">soy yo.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="F">Ya lo veo, mas hoy</l>
             <l>déjame, Ingenio, que voy</l>
             <l>tan veloz que hacer quisiera</l>
             <l n="1185">que mi pensamiento fuera</l>
             <l part="I">mi caballo.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Yo lo soy,</l>
             <l>pues bruto es el Pensamiento</l>
             <l>de quien el Ingenio va</l>
             <l part="I">atrás dejándose.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Ya.</l>
             <l n="1190">Que huye mi conocimiento</l>
             <l>sin él a ella haberla intento;</l>
             <l>mas, ¡ay!, que al mirarla, ¡asombra!</l>
             <l part="I">Sinagoga.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">¿Quién me nombra?</l>
             <stage>;Vuelve con espanto. ;</stage>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>El Ingenio soy. ¿De qué</l>
             <l part="I">temes?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l n="1195" part="F">Cualquier sombra fue</l>
             <l>hoy de mi cadáver sombra,</l>
@@ -1999,13 +2447,16 @@
             <l>en mí no he vuelto, y así</l>
             <l>tú, si lo sabes, me di,</l>
             <l>¿qué se hizo el día aquel día?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1215">A eso también yo venía.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="I">¿A qué?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">A preguntarte a ti;</l>
             <l>pero ya que me has ganado</l>
@@ -2018,7 +2469,8 @@
             <l>se ve en su primer vigor,</l>
             <l n="1225">no ha sido él, sino su autor,</l>
             <l part="I">el que...</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">No ha sido, no ha sido,</l>
             <l>si ya no quieres que sea</l>
@@ -2030,10 +2482,12 @@
             <l>dio a entender que era el Mesías,</l>
             <l>Hijo de Dios verdadero,</l>
             <l n="1235">que ha tantos siglos que espero.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">¿Y qué es de él?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">Las ansias mías</l>
             <l>en un palo le pusieron</l>
@@ -2044,17 +2498,21 @@
             <l>misterio hagan del fracaso,</l>
             <l>que acaso les salió al paso</l>
             <l part="I">al expirar.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">¿Luego el día</l>
             <l n="1245">el sol murió, que él moría?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="I">Sí.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Pues no fue muy acaso.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Sólo me faltaba ahora</l>
             <l>el que tú quisieses ser</l>
@@ -2064,11 +2522,13 @@
             <l>para arrojarte a creer</l>
             <l>con los necios de mi pueblo</l>
             <l>si hice mal o hice bien.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1255">Hasta pensar e inferir,</l>
             <l>¿a quién se ha negado?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>A quien infiera o piense que yo</l>
             <l>no soy del Dios de Israel</l>
@@ -2164,18 +2624,25 @@
             <l>otra saña, otra esquivez,</l>
             <l>otro azote u otro acero,</l>
             <l n="1350">otra cruz u otro cordel.</l>
-            
-          </sp></div><div type="scene" resp="#rojas" n="7"><stage>;Vase. ;</stage><sp who="#ingenio">
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>;Vase. ;</stage>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">¿Pensamiento?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Nada digas,</l>
             <l>que todas tus dudas sé.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">Pues, ¿qué sabes?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">Que has hallado</l>
             <l>en la Sinagoga ley.</l>
@@ -2184,15 +2651,18 @@
             <l>y con todo eso te queda</l>
             <l>de averiguar y saber</l>
             <l>lo que a lo posible toca.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1360">Dices, Pensamiento, bien;</l>
             <l>mas fáltate de añadir</l>
             <l part="I">a esas dos razones...</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">¿Qué?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Que si adora, como dijo,</l>
             <l>sólo un Dios, ¿cómo después</l>
@@ -2200,10 +2670,12 @@
             <l>Hijo y padre, ¿fuerza no es</l>
             <l>que sean dos? ¿Pues cómo a uno</l>
             <l part="I">adora sólo?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">No sé.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Y dejando esta razón</l>
             <l n="1370">pendiente, ¿a qué causa, a qué</l>
@@ -2222,27 +2694,34 @@
             <l>En tan grandes confusiones,</l>
             <l>¿quién, cielos divinos, quién</l>
             <l part="I">sabrá responder?</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>VOZ</speaker>
             <l n="1385" part="F">Pablo.</l>
-          </sp><stage>Suena dentro un trueno y vese como una luz de un relámpago.</stage><sp who="#ingenio">
+          </sp>
+          <stage>Suena dentro un trueno y vese como una luz de un relámpago.</stage>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">¿Qué estruendo es éste?</l>
-          </sp><sp who="#músicos">
+          </sp>
+          <sp who="#músicos">
             <speaker>VOZ</speaker>
             <l part="F">¿Por qué</l>
             <l part="I">me persigues?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="F">¡Ay de mí!</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Qué voz, qué ruido es aquél,</l>
             <l>que parece que los cielos</l>
             <l n="1390">se han desplegado otra vez,</l>
             <l>aquí para iluminar</l>
             <l>y allá para oscurecer?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>A las vislumbres de una</l>
             <l>nube, que ha dado al romper</l>
@@ -2250,31 +2729,44 @@
             <l>luz y voz al parecer,</l>
             <l>sobresaltado el caballo</l>
             <l part="I">de Pablo le arrastra.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Ve,</l>
             <l>pues eres tú más veloz;</l>
             <l n="1400">llégale a favorecer.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Sí haré, por si cae en mí.</l>
-          </sp></div><div type="scene" resp="#rojas" n="8"><stage>Descúbrese a PABLO a caballo y vase cayendo, y recíbele EL PENSAMIENTO, y le pasa, según los versos, al INGENIO.</stage><sp who="#pablo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Descúbrese a PABLO a caballo y vase cayendo, y recíbele EL PENSAMIENTO, y le pasa, según los versos, al INGENIO.</stage>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>El rayo, señor, detén;</l>
             <l>basta el trueno de tu voz.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>Ayúdamele a tener,</l>
             <l n="1405">que no basto, Ingenio, yo</l>
             <l part="I">a levantarle.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Sí haré.</l>
-          </sp></div><div type="scene" resp="#rojas" n="9"><stage>Sale LA SINAGOGA.</stage><sp who="#sinagoga">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Sale LA SINAGOGA.</stage>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Si Pablo muere, yo muero.</l>
             <l part="I">¿Qué es esto, Pablo?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="F">Caer</l>
             <l>en el Pensamiento antes</l>
@@ -2283,17 +2775,21 @@
             <l>que nunca he llegado a ver</l>
             <l>más que cuando estoy más ciego.</l>
             <stage>;Levántase como ciego. ;</stage>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Pues di, no viendo, ¿qué ves?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l n="1415">No conviene que lo diga</l>
             <l part="I">el hombre al hombre.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">¿Por qué?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Porque no es fácil decir</l>
             <l>lo que es difícil saber.</l>
@@ -2305,124 +2801,154 @@
             <l>si fue en espíritu o fue</l>
             <l n="1425">en cuerpo no sé, que yo</l>
             <l>sólo sé que no lo sé.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Ven a mis brazos, adonde</l>
             <l part="I">descanses.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="F">La acción detén,</l>
             <l>no halagüeñamente fiera</l>
             <l part="I">te acerques.</l>
             <stage>;Huye.;</stage>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l n="1430" part="F">¿Con tal desdén</l>
             <l>de tu Sinagoga huyes?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí escandalosa, sí infiel,</l>
             <l>sí tirana, sí alevosa,</l>
             <l>sí traidora, sí crüel.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="I">¡Pablo!</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l n="1435" part="F">Ya Pablo no soy</l>
             <l part="I">ni vivo yo en mí.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">¿Pues quién?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Cristo es el que vive en mí.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>¿No es contra quien te envié?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí; pero a luz de eficaz</l>
             <l n="1440">auxilio he sabido que es</l>
             <l>el crucificado Cristo,</l>
             <l>que sentenció tu esquivez,</l>
             <l>hijo de Dios verdadero.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Bien que estás ciego se ve,</l>
             <l n="1445">o yo lo estoy, pues lo escucho</l>
             <l part="I">sin darte la muerte.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Ten</l>
             <l>el acero, que por ti</l>
             <l>lo quiero yo convencer.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Argúyele, Ingenio, tú,</l>
             <l n="1450">que yo ni puedo ni sé.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿El Crucificado dices</l>
             <l part="I">que era Hijo de Dios?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="M">Sí.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Pues,</l>
             <l part="I">¿hay más de un Dios?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="M">No.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">¿Pues cómo</l>
             <l>es Hijo de Dios sin ser</l>
             <l part="I">Dios también?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l n="1455" part="F">También es Dios.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Pues, cómo, si es Dios también,</l>
             <l>sólo un Dios son dos personas?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Aún más son, porque son tres.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="I">¿Tres, y un Dios sólo?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="M">Sí.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">¿Cómo?</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="1460">A aquesto importa atender,</l>
             <l>por si es Pablo el que a Dionisio</l>
             <l>le llega a satisfacer.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>El bien no comunicado,</l>
             <l>¿no fuera imperfecto bien?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1465">Proposición es que yo</l>
             <l>dejé pendiente otra vez.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Ser, que fuera comprendido</l>
             <l>de quien infinito no es,</l>
             <l part="I">¿fuera infinito ser?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">No.</l>
             <l n="1470">Claro está, porque caber</l>
             <l>lo más no podía en lo menos.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Pues siendo infinito ser,</l>
             <l>Dios, y siendo bien perfecto,</l>
@@ -2457,10 +2983,12 @@
             <l>de personas, ni después</l>
             <l>ni antes, primero, o postrero;</l>
             <l part="I">mayor, o menor.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="M">Sí.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="F">Pues</l>
             <l n="1505">una en los tres la deidad,</l>
@@ -2474,17 +3002,20 @@
             <l>parte del alma, he quedado</l>
             <l>satisfecho, al parecer,</l>
             <l part="I">hasta aquí.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l n="1515" part="F">Y hasta aquí yo</l>
             <l>poco me debo ofender,</l>
             <l>pues ver tres y adorar uno</l>
             <l>me enseñó de Abraham la fe.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Pero ese hijo a qué a la tierra</l>
             <l part="I">había de venir?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l n="1520" part="F">A que,</l>
             <l>siendo infinita la culpa</l>
@@ -2501,129 +3032,161 @@
             <l>contacto la candidez</l>
             <l>del botón de la azucena,</l>
             <l>ni el capillo del clavel.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1535">Hasta aquí por respondido</l>
             <l part="I">también me doy.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">Yo también,</l>
             <l>pues es cierto que vendrá.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Y aunque ha venido, lo es.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="I">¿Cómo que ha venido?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="F">Como</l>
             <l n="1540">al que diste muerte fue,</l>
             <l>siendo el divino Mesías</l>
             <l part="I">que esperaba.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">No era él;</l>
             <l>pues que no trajo cumplidas</l>
             <l>las semanas de Daniel.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l n="1545">Sí era; pues tú no supiste</l>
             <l>hacer los cómputos bien.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>No era; pues no vino en nube,</l>
             <l>como Isaías prevé.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí era; pues traje de siervo</l>
             <l n="1550">dijo que traería también.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>No era; pues que había de dar</l>
             <l>su venida qué temer.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí era; pues ese temor</l>
             <l>dará al venir como juez.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l n="1555">No era; pues de humilde madre</l>
             <l>al hielo le vi nacer.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí era; pues quedó en el parto</l>
             <l>virgen, antes y después.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>No era; pues simples pastores</l>
             <l n="1560">le adoraron en Belén.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí era; pues a Belén vino</l>
             <l>a verle uno y otro rey.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>No era; pues a Egipto huye,</l>
             <l>temiendo ajeno poder.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l n="1565">Sí era; pues derriba huyendo</l>
             <l>los ídolos de Beel.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>No era; pues su madre llora</l>
             <l>el que le llegó a perder.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí era; pues le halló explicando</l>
             <l n="1570">los misterios de la Ley.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>No era; pues en un desierto</l>
             <l>se rindió al hambre y la sed.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí era; pues huye vencido</l>
             <l>espíritu inmundo de él.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l n="1575">No era; pues ver su peligro</l>
             <l>no supo al irlo a prender.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí era; pues todo era ojos</l>
             <l>haciendo a los ciegos ver.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>No era; pues de pies y manos</l>
             <l n="1580">le atan nudoso cordel.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí era; pues al impedido</l>
             <l>todo era manos y pies.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>No era; pues o sordo, o mudo,</l>
             <l>no sabe qué responder.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l n="1585">Sí era; pues al mudo y sordo,</l>
             <l>todo lenguas y oídos fue.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>No era; pues muere pasible.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Sí era; pues fue el padecer</l>
             <l>como hombre, no como Dios.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="I">No era.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="M">Sí era.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1590" part="F">Suspended</l>
             <l>la cuestión, que escuchar</l>
@@ -2638,26 +3201,32 @@
             <l n="1600">ese hombre de Dios (o quien es)</l>
             <l part="I">concedes?</l>
             <stage>;A PABLO. ;;A LA SINAGOGA. ;</stage>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">Negar no puedo</l>
             <l>que hizo andar, oír y ver.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Pues de qué le hiciste causa?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>De que dar quiso a entender</l>
             <l n="1605">(escandalizando al pueblo)</l>
             <l part="I">que era Hijo de Dios.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">Saber</l>
             <l>conviene si le esperabas.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="I">Sí esperaba.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">¿Pues en quién,</l>
             <l>esperándole, podías</l>
@@ -2667,10 +3236,12 @@
             <l>Pero quizá habrá otra causa</l>
             <l>para condenarle: ¿Qué</l>
             <l n="1615">delitos le averiguaste?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="I">¿No bastó éste?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l part="F">No, porque</l>
             <l>hombre tan malo, que quiso</l>
@@ -2684,34 +3255,42 @@
             <l n="1625">los efectos manifiestan</l>
             <l>de los pechos el doblez.</l>
             <l part="I">¿Qué ambición tuvo?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">Ninguna;</l>
             <l>descalzo de pierna y pie,</l>
             <l>peregrino en pobre traje.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l n="1630">¿Qué valimiento tener</l>
             <l>con príncipes intentó?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Ninguno, pues sólo fue</l>
             <l>con humildes pescadores.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿Y qué medraron con él?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l n="1635">Sola la necesidad</l>
             <l>de volverse al barco y red.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>¿A qué humano afecto</l>
             <l part="I">le viste?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">Ninguno sé.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Luego convencida estás;</l>
             <l n="1640">pues no había de querer</l>
@@ -2725,10 +3304,15 @@
             <l>por el África Ismael,</l>
             <l>por América Ateísmo,</l>
             <l n="1650">que vives sin Dios ni Ley.</l>
-          </sp></div><div type="scene" resp="#rojas" n="10"><stage>Salen LOS CUATRO.</stage><sp who="#gentilidad #áfrica #ateísmo">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Salen LOS CUATRO.</stage>
+          <sp who="#gentilidad #áfrica #ateísmo">
             <speaker>LOS CUATRO</speaker>
             <l>¿Para qué otra vez nos llamas?</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Para que todos notéis,</l>
             <l>sin que ninguno alegar</l>
@@ -2737,32 +3321,40 @@
             <l>que ojos, manos y oídos es,</l>
             <l>y primer causa de causas,</l>
             <l>en boca de Pablo hallé.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Primero que se lo digas,</l>
             <l n="1660">muerte a uno y otro daré.</l>
-          </sp><stage>Saca la espada y se amparan LOS DOS de LA GENTILIDAD.</stage><sp who="#áfrica #ateísmo">
+          </sp>
+          <stage>Saca la espada y se amparan LOS DOS de LA GENTILIDAD.</stage>
+          <sp who="#áfrica #ateísmo">
             <speaker>LOS DOS</speaker>
             <l part="I">Primero, no.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">Pues, ¿adónde</l>
             <l part="I">habéis de huir?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">A mis pies.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>¿Quién eres, deidad hermosa,</l>
             <l>que, ceñida de laurel,</l>
             <l n="1665">temor y respeto infundes</l>
             <l part="I">a la Sinagoga?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">¿Quién,</l>
             <l>sino la Gentilidad</l>
             <l>tuviera en ti ese poder?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Es verdad, colonia hoy</l>
             <l n="1670">es la gran Jerusalén</l>
@@ -2770,7 +3362,8 @@
             <l>aquí en persona te ves,</l>
             <l>si hasta aquí sólo asististe</l>
             <l>en ella por su virrey?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="1675">A causa de que, sabiendo</l>
             <l>cuanto apasionado juez</l>
@@ -2788,24 +3381,29 @@
             <l>de aquella voz que escuché</l>
             <l>a defender estas vidas</l>
             <l part="I">me he adelantado.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l n="1690" part="F">Y es bien</l>
             <l>que viendo la Sinagoga</l>
             <l part="I">me defiendas tú.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">¿Por qué?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Por que la predicación</l>
             <l>hoy de la tercera Ley,</l>
             <l n="1695">que a la Gentilidad pasa</l>
             <l>con esto explicada esté.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="I">¿Qué tercera Ley?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">A mí</l>
             <l>eso me toca entender,</l>
@@ -2813,39 +3411,49 @@
             <l n="1700">vengo, conviene saber,</l>
             <l>¿qué tercera Ley ese hombre</l>
             <l part="I">quiso introducir?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="F">La Ley</l>
             <l>misma que yo me tenía</l>
             <l>(como ya dije) en Moisés,</l>
             <l n="1705">creciendo la natural</l>
             <l>de dos preceptos a diez.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Y la natural, ¿cuál era?</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Ella lo dirá más bien,</l>
             <l>que entre las caducas ruinas</l>
             <l n="1710">de esta deshecha pared</l>
             <l>yace lamentando el siglo</l>
             <l>que tan sin ella se ve.</l>
-          </sp></div><div type="scene" resp="#rojas" n="11"><stage>Descúbrese LA LEY NATURAL al pie de un árbol, el cual ha de tener revuelta una serpiente.</stage><sp who="#gentilidad">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Descúbrese LA LEY NATURAL al pie de un árbol, el cual ha de tener revuelta una serpiente.</stage>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Ah, de la Ley natural,</l>
             <l part="I">atiende a mis voces.</l>
-          </sp><sp who="#ley-natural">
+          </sp>
+          <sp who="#ley-natural">
             <speaker>LEY NATURAL</speaker>
             <l part="F">¿Quién,</l>
             <l n="1715">de las malicias del mundo</l>
             <l>huyendo el vago tropel,</l>
             <l>vuelve a pisar mis umbrales?</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Quien de ti intenta saber</l>
             <l>los fundamentos que Dios</l>
             <l n="1720">puso en tu primero ser.</l>
-          </sp><sp who="#ley-natural">
+          </sp>
+          <sp who="#ley-natural">
             <speaker>LEY NATURAL</speaker>
             <l>Que amase a Dios más que a mí</l>
             <l>y a mi prójimo después</l>
@@ -2855,16 +3463,19 @@
             <l>pues desde entonces quedé</l>
             <l>sujeta a las inclemencias</l>
             <l>de saber del mal y el bien.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Sobre esos dos fundamentos,</l>
             <l n="1730">los que tuvisteis después</l>
             <l part="I">cuáles son?</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l part="F">La Ley Escrita</l>
             <l part="I">también lo dirá.</l>
-          </sp><sp who="#ley-escrita">
+          </sp>
+          <sp who="#ley-escrita">
             <speaker>LEY ESCRITA</speaker>
             <l part="F">Sí haré.</l>
             <l>Pues a la Ley natural</l>
@@ -2878,10 +3489,15 @@
             <l>no envidies, ni quieras de otro</l>
             <l>la hacienda, ni la mujer.</l>
             <stage>Ábrese el segundo carro, y en otro peñasco LA LEY ESCRITA, con las Tablas en la mano y la serpiente de metal, como pintan a Moisés.</stage>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>¿Qué quitó o añadió a esto?</l>
-          </sp></div><div type="scene" resp="#rojas" n="12"><stage>Descúbrese LA LEY DE GRACIA con una cruz en la mano, como pintan a la FE, con los ojos vendados.</stage><sp who="#ley-de-gracia">
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Descúbrese LA LEY DE GRACIA con una cruz en la mano, como pintan a la FE, con los ojos vendados.</stage>
+          <sp who="#ley-de-gracia">
             <speaker>LEY DE GRACIA</speaker>
             <l>Eso yo lo explicaré,</l>
             <l n="1745">pues por Ley de Gracia soy</l>
@@ -2894,15 +3510,19 @@
             <l>Sacramentos, que allí ves,</l>
             <l>de la fuente de la gracia</l>
             <l>perennemente correr.</l>
-          </sp><stage type="object">Descúbrese una fuente, cuyo remate será hostia y cáliz, y alrededor los siete sacramentos, teniendo cada uno en la mano una cinta blanca, como caños que salen de la hostia.</stage><sp who="#sinagoga">
+          </sp>
+          <stage type="object">Descúbrese una fuente, cuyo remate será hostia y cáliz, y alrededor los siete sacramentos, teniendo cada uno en la mano una cinta blanca, como caños que salen de la hostia.</stage>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l n="1755">¿Y cuándo lo estableció?</l>
-          </sp><sp who="#bautismo">
+          </sp>
+          <sp who="#bautismo">
             <speaker>BAUTISMO</speaker>
             <l>El Bautismo claro es</l>
             <l>que en el Jordán, donde el hombre</l>
             <l>renace segunda vez.</l>
-          </sp><sp who="#confirmación">
+          </sp>
+          <sp who="#confirmación">
             <speaker>CONFIRMACIÓN</speaker>
             <l>El de la Confirmación,</l>
             <l n="1760">cuando la mano a poner</l>
@@ -2910,25 +3530,29 @@
             <l>diciendo que para ser</l>
             <l>perfecto el varón, volviese</l>
             <l>al puerto de la niñez.</l>
-          </sp><sp who="#penitencia">
+          </sp>
+          <sp who="#penitencia">
             <speaker>PENITENCIA</speaker>
             <l n="1765">El de Penitencia, cuando</l>
             <l>a Pedro le dio el poder</l>
             <l>de ligar y desligar,</l>
             <l>de hacer y de deshacer.</l>
-          </sp><sp who="#extremaunción">
+          </sp>
+          <sp who="#extremaunción">
             <speaker>EXTREMAUNCIÓN</speaker>
             <l>Y el de Extremaunción al mismo</l>
             <l n="1770">tiempo, pues, segundo de él,</l>
             <l>el de todas sus reliquias</l>
             <l>es la verdadera red.</l>
-          </sp><sp who="#orden-sacerdotal">
+          </sp>
+          <sp who="#orden-sacerdotal">
             <speaker>ORDEN</speaker>
             <l>El Orden sacerdotal,</l>
             <l>cuando en la Cena le ven</l>
             <l n="1775">decir: esto siempre en mi</l>
             <l>conmemoración haced.</l>
-          </sp><sp who="#matrimonio">
+          </sp>
+          <sp who="#matrimonio">
             <speaker>MATRIMONIO</speaker>
             <l>Y el del Matrimonio cuando</l>
             <l>Architriclino le ve</l>
@@ -2946,7 +3570,8 @@
             <l n="1790">por estar cifrado en él</l>
             <l>cuerpo y sangre de quien quiso</l>
             <l>por nosotros padecer.</l>
-          </sp><sp who="#ingenio">
+          </sp>
+          <sp who="#ingenio">
             <speaker>INGENIO</speaker>
             <l>Hasta aquí todo es tan justo,</l>
             <l>y tan suave yugo es</l>
@@ -2964,29 +3589,35 @@
             <l>llegando a amar y creer,</l>
             <l>por razón de estado, cuando</l>
             <l>faltara la de la fe.</l>
-          </sp><sp who="#sinagoga">
+          </sp>
+          <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Primero que yo lo crea</l>
             <l n="1810">veré al mundo fallecer</l>
             <l>con mayor ruina, que cuando</l>
             <l part="I">le vi expirar.</l>
-          </sp><sp who="#áfrica">
+          </sp>
+          <sp who="#áfrica">
             <speaker>ÁFRICA</speaker>
             <l part="F">Yo también.</l>
-          </sp><sp who="#ateísmo">
+          </sp>
+          <sp who="#ateísmo">
             <speaker>ATEÍSMO</speaker>
             <l>Yo no; que haber Dios no dudo,</l>
             <l>cuando que hay también Dios sé.</l>
-          </sp><sp who="#gentilidad">
+          </sp>
+          <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="1815">Ni yo, pues a uno no más</l>
             <l>reduzco mi parecer.</l>
-          </sp><sp who="#pablo">
+          </sp>
+          <sp who="#pablo">
             <speaker>PABLO</speaker>
             <l>Y lo mismo harán los dos</l>
             <l>cuando el mundo venga a ser</l>
             <l>sólo un pastor y un rebaño.</l>
-          </sp><sp who="#pensamiento">
+          </sp>
+          <sp who="#pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l n="1820">Yo, que hasta ahora callé</l>
             <l>(porque el pensamiento es fuerza</l>
@@ -2994,7 +3625,8 @@
             <l>con fiestas, con regocijos</l>
             <l>la verdad celebraré</l>
             <l part="I">de esta verdad.</l>
-          </sp><sp who="#penitencia #áfrica #ingenio #pensamiento #gentilidad #bautismo #ateísmo #confirmación #extremaunción #ley-de-gracia #ley-escrita #ley-natural #sinagoga #matrimonio #orden-sacerdotal #pablo">
+          </sp>
+          <sp who="#penitencia #áfrica #ingenio #pensamiento #gentilidad #bautismo #ateísmo #confirmación #extremaunción #ley-de-gracia #ley-escrita #ley-natural #sinagoga #matrimonio #orden-sacerdotal #pablo">
             <speaker>TODOS</speaker>
             <l n="1825" part="F">Y contigo</l>
             <l>todos, diciendo otra vez</l>
@@ -3002,9 +3634,10 @@
             <l>llegarlo a amar y creer</l>
             <l>por razón de estado cuando</l>
             <l n="1830">faltara la de la fe.</l>
-          </sp></div>
-      
-    </div>
+          </sp>
+        </div>
+
+      </div>
     </body>
   </text>
 </TEI>
