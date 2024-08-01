@@ -72,5 +72,14 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Template for 'Simón' -->
+  <xsl:template match="person[@sex = 'FEMALE' and persName[contains(., 'Simón')]]">
+    <xsl:copy>
+      <xsl:attribute name="sex">MALE</xsl:attribute>
+      <xsl:apply-templates select="@*[name() != 'sex']"/>
+      <xsl:apply-templates select="node()"/>
+    </xsl:copy>
+  </xsl:template>
+
 
 </xsl:stylesheet>
