@@ -11,7 +11,7 @@
   </xsl:template>
 
   <!-- Template to trim spaces at the start and end of text nodes -->
-  <xsl:template match="teiHeader//text()">
+  <xsl:template match="profileDesc//text()">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
   
