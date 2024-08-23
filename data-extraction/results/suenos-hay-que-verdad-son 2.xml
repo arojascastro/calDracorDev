@@ -1,0 +1,3990 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000053" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Sueños hay que verdad son</title>
+        <title type="sub">Auto sacramental alegórico intitulado</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-03"><time when="10:48:36"/></date>
+        <idno type="quadramaX">Sueños hay que verdad son</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/suenos-hay-que-verdad-son--0/html/</idno><bibl type="originalSource"><title>Texto crítico preparado por Michael D. McGaha procedente de la edición Calderón de la Barca, Pedro, Sueños hay que verdad son, ed. Michael D. McGaha, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN: 3-931887-00-6.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="castidad" sex="FEMALE">
+            <persName>La Castidad</persName>
+          </person>
+          <person xml:id="asenet" sex="MALE">
+            <persName>Asenet</persName>
+          </person>
+          <person xml:id="sueño" sex="MALE">
+            <persName>El Sueño</persName>
+          </person>
+          <person xml:id="sombra-1" sex="FEMALE">
+            <persName>Sombra Primera</persName>
+          </person>
+          <person xml:id="sombra-2" sex="FEMALE">
+            <persName>Sombra Segunda</persName>
+          </person>
+          <person xml:id="copero" sex="MALE">
+            <persName>El Copero</persName>
+          </person>
+          <person xml:id="panadero" sex="MALE">
+            <persName>El Panadero</persName>
+          </person>
+          <person xml:id="alcaide" sex="MALE">
+            <persName>El Alcaide</persName>
+          </person>
+          <person xml:id="rubén" sex="MALE">
+            <persName>Rubén</persName>
+          </person>
+          <person xml:id="judás" sex="MALE">
+            <persName>Judás</persName>
+          </person>
+          <person xml:id="gad" sex="MALE">
+            <persName>Gad</persName>
+          </person>
+          <person xml:id="aser" sex="MALE">
+            <persName>Aser</persName>
+          </person>
+          <person xml:id="neftalí" sex="MALE">
+            <persName>Neftalí</persName>
+          </person>
+          <person xml:id="manasés" sex="MALE">
+            <persName>Manasés</persName>
+          </person>
+          <person xml:id="simeón" sex="MALE">
+            <persName>Simeón</persName>
+          </person>
+          <person xml:id="leví" sex="MALE">
+            <persName>Leví</persName>
+          </person>
+          <person xml:id="isacar" sex="MALE">
+            <persName>Isacar</persName>
+          </person>
+          <person xml:id="zabulón" sex="MALE">
+            <persName>Zabulón</persName>
+          </person>
+          <person xml:id="josef" sex="MALE">
+            <persName>Josef</persName>
+          </person>
+          <person xml:id="benjamín" sex="MALE">
+            <persName>Benjamín</persName>
+          </person>
+          <person xml:id="rey" sex="MALE">
+            <persName>El Rey</persName>
+            <trait resp="#rojas">
+              <desc>rey</desc>
+            </trait>
+          </person>
+          <person xml:id="jacob" sex="MALE">
+            <persName>Jacob</persName>
+          </person>
+          <person xml:id="la-fe" sex="FEMALE">
+            <persName>La Fe</persName>
+          </person>
+          <person xml:id="bato" sex="MALE">
+            <persName>Bato</persName>
+          </person>
+          <person xml:id="dama-1" sex="FEMALE">
+            <persName>Dama 1</persName>
+            <trait resp="#rojas">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <person xml:id="dama-2" sex="FEMALE">
+            <persName>Dama 2</persName>
+            <trait resp="#rojas">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <personGrp sex="UNKNOWN" xml:id="música">
+            <persName>Músicos</persName>
+          </personGrp>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="#kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1717">
+        <label/>
+      </event>
+      <event type="written" when="1670">
+        <label/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000053" passive="http://www.wikidata.org/entity/Q69031569"/>
+    </listRelation>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">Sueños hay que verdad son </titlePart>
+        <titlePart type="sub">Auto sacramental alegórico intitulado</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas</head>
+        <castItem>LA CASTIDAD.</castItem>
+        <castItem>ASENET.</castItem>
+        <castItem>EL SUEÑO.</castItem>
+        <castItem>SOMBRA PRIMERA.</castItem>
+        <castItem>SOMBRA SEGUNDA.</castItem>
+        <castItem>EL COPERO.</castItem>
+        <castItem>EL PANADERO.</castItem>
+        <castItem>EL ALCAIDE.</castItem>
+        <castItem>RUBÉN.</castItem>
+        <castItem>JUDÁS.</castItem>
+        <castItem>GAD.</castItem>
+        <castItem>ASER.</castItem>
+        <castItem>NEFTALÍ.</castItem>
+        <castItem>MANASÉS.</castItem>
+        <castItem>SIMEÓN.</castItem>
+        <castItem>LEVÍ.</castItem>
+        <castItem>ISACAR.</castItem>
+        <castItem>ZABULÓN.</castItem>
+        <castItem>JOSEF.</castItem>
+        <castItem>BENJAMÍN.</castItem>
+        <castItem>EL REY.</castItem>
+        <castItem>JACOB.</castItem>
+        <castItem>LA FE.</castItem>
+        <castItem>BATO.</castItem>
+        <castItem>MÚSICOS.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Sale la CASTIDAD, dama, coronada de flores, y el SUEÑO.</stage>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l>¿Dónde me llevas, hermosa</l>
+            <l>virtud, que entre los diversos</l>
+            <l>coros de cuantas virtudes</l>
+            <l>siguen al legal Cordero,</l>
+            <l n="5">tú sola los crespos rizos</l>
+            <l>coronas de tus cabellos,</l>
+            <l>de cuantas vírgenes rosas</l>
+            <l>guarnecen los rizos crespos</l>
+            <l>de todas las demás, dando</l>
+            <l n="10">a entender que en tu obsequio</l>
+            <l>todas se complacen? ¿Dónde</l>
+            <l>me llevas (a decir vuelvo)?;</l>
+            <l>porque siendo, como eres,</l>
+            <l>en tantos Sagrados Textos</l>
+            <l n="15">triunfante laurel, que arrastra</l>
+            <l>los no fáciles trofeos</l>
+            <l>de la lid de los sentidos,</l>
+            <l>vencedores de sí mesmos,</l>
+            <l>parece que hace no poca</l>
+            <l n="20">repugnancia a tu respecto</l>
+            <l>que la virtud, que es de todas</l>
+            <l>las virtudes ornamento,</l>
+            <l>me traiga a centro que es</l>
+            <l>de todos los vicios centro.</l>
+            <l n="25">Esta es la cárcel de Egipto;</l>
+            <l>bien claro te dice el serlo</l>
+            <l>que es la posada que alberga</l>
+            <l>por huéspedes de aposento</l>
+            <l>al homicidio y al robo,</l>
+            <l n="30">al fraude y al adulterio.</l>
+            <l>¿Pues, cómo cabe en razón</l>
+            <l>(repito otra vez) que siendo</l>
+            <l>(si no lo han dicho las señas,</l>
+            <l>tu nombre lo diga excelso)</l>
+            <l n="35">la castidad, que es la suma</l>
+            <l>pureza, que vence a un tiempo,</l>
+            <l>para los triunfos del alma,</l>
+            <l>las rebeliones del cuerpo;</l>
+            <l>y ella la sentina, donde</l>
+            <l n="40">el político gobierno</l>
+            <l>de la república arroja</l>
+            <l>los perniciosos desechos,</l>
+            <l>que son escorias del siglo,</l>
+            <l>tú te atreves a entrar dentro,</l>
+            <l n="45">sin temor de que te empañe</l>
+            <l>el vapor de sus alientos?</l>
+            <l>Y aun no cesa aquí mi duda,</l>
+            <l>sino en que para este efecto</l>
+            <l>aparentemente hayas</l>
+            <l n="50">tomado el semblante bello</l>
+            <l>de Asenet, hermosa hija</l>
+            <l>del sacerdote del Templo</l>
+            <l>de Heliópoli, ciudad del sol,</l>
+            <l>y aun ella, el sol mesmo.</l>
+            <l n="55">Sepa, pues, de estas dos dudas</l>
+            <l>la causa, porque suspenso,</l>
+            <l>hasta oír tu voluntad</l>
+            <l>tendrás a mi entendimiento.</l>
+            <stage>Romance e-o</stage>
+          </sp>
+          <sp who="#castidad">
+            <speaker>CASTIDAD</speaker>
+            <l>Vaga fantasía, que sabes</l>
+            <l n="60">hacer con tus devaneos</l>
+            <l>la quietud de los sentidos,</l>
+            <l>de los sentidos estruendo,</l>
+            <l>pues cuando para el descanso</l>
+            <l>te ha introducido el sosiego,</l>
+            <l n="65">traidoramente has sabido</l>
+            <l>sacar del descanso el riesgo;</l>
+            <l>fantástica aparición,</l>
+            <l>que en imágenes de viento,</l>
+            <l>bien como yo de Asenet</l>
+            <l n="70">(por complacerme en objeto</l>
+            <l>tan gloriosamente amable,</l>
+            <l>tan amablemente honesto)</l>
+            <l>la forma tomé, tomaste,</l>
+            <l>por complacerte, en Morfeo</l>
+            <l n="75">tú de su negro semblante</l>
+            <l>lo adusto, pálido, y yerto:</l>
+            <l>ya, a la una de las dudas</l>
+            <l>te he respondido, supuesto</l>
+            <l>que el haber vestido tú</l>
+            <l n="80">sombras, y luces yo, a efecto</l>
+            <l>habrá sido de hacer más</l>
+            <l>representable un concepto,</l>
+            <l>en que importa que seamos</l>
+            <l>debajo de los dos velos</l>
+            <l n="85">de Morfeo y Asenet,</l>
+            <l>yo la Castidad, tú el Sueño;</l>
+            <l>y aunque también a la otra</l>
+            <l>duda responderte puedo,</l>
+            <l>en cuanto a que sea una cárcel</l>
+            <l n="90">campaña de nuestro duelo,</l>
+            <l>no lo he de hacer hasta que</l>
+            <l>te digan mis sentimientos</l>
+            <l>la razón con que quejarme</l>
+            <l>de tu sinrazón pretendo.</l>
+            <l n="95">Y, pues no tiene el oírlo</l>
+            <l>la fuerza que tendrá el verlo,</l>
+            <l>llega conmigo. ¿Qué escuchas?</l>
+          </sp>
+          <stage>Dentro voces y cadenas.</stage>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l>Lo que ves, escucho y veo:</l>
+            <l>de la cadena el ruido</l>
+            <l n="100">y de la queja el lamento.</l>
+          </sp>
+          <sp who="#castidad">
+            <speaker>CASTIDAD</speaker>
+            <l>Retírate ahora, y atiende</l>
+            <l>a su pavoroso acento.</l>
+            <l part="I">¡Ah del calabozo!</l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#aser #neftalí #manasés #leví #isacar #asenet #rubén #judás #benjamín #gad #simeón #josef #jacob #bato #sombra-1 #sombra-2 #la-fe #panadero #alcaide #zabulón #rey #copero">
+            <speaker>TODOS</speaker>
+            <l part="F"> ¿Quién </l>
+            <l part="I">es quien llama?</l>
+            <l part="F"> Allá va un preso, </l>
+            <l n="105">que, esclavo, para que sirva</l>
+            <l>a todos, envía su dueño.</l>
+            <stage>Dentro.</stage>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Salen el COPERO y el PANADERO con prisiones.</stage>
+          <sp who="#copero #panadero">
+            <speaker>LOS DOS</speaker>
+            <l>¿Esclavo, para que sirva</l>
+            <l>a todos, envía su dueño?</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>¿Quién será este desdichado,</l>
+            <l n="110">tan desdichado que siendo</l>
+            <l>esclavo a ser preso venga</l>
+            <l>dos veces cautivo, puesto</l>
+            <l>que servidumbre y prisión</l>
+            <l>le están doblando los hierros?</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l n="115">Será algún facineroso</l>
+            <l>que su amo tenga por menos</l>
+            <l>mal, darle a una cárcel que</l>
+            <l part="I">sufrirle en casa.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> ¡Que luego </l>
+            <l>te has de ir hacia lo peor!</l>
+            <l n="120">¿No puede ser, que sea, ¡ay, cielos!,</l>
+            <l>otro infeliz que sin culpa</l>
+            <l>padezca, cual yo padezco?</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>También padezco sin ella</l>
+            <l>yo; mas no he de creer por eso</l>
+            <l n="125">que no padezcan culpados</l>
+            <l part="I">los demás.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> A ver lleguemos </l>
+            <l part="I">quién será este preso.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Sale JOSEF de cautivo, con cadena.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Quien, </l>
+            <l>por saber que aqueste seno</l>
+            <l>es sepultura de vivos,</l>
+            <l n="130">penosamente contento,</l>
+            <l>tiene por buena fortuna</l>
+            <l>ser en él esclavo vuestro.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Alza del suelo. ¡Qué talle</l>
+            <l>tan airoso y bien dispuesto!</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l n="135">Si tiene talle de dar</l>
+            <l>la patente, será bueno.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Un mísero esclavo era</l>
+            <l>en la casa de mi dueño;</l>
+            <l>un mísero esclavo soy</l>
+            <l n="140">aquí, pues a servir vengo:</l>
+            <l>¿qué puedo tener que dar?</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l part="I">Jaqueta y birrete.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> Eso, </l>
+            <l>no es justo que tú lo digas,</l>
+            <l>ni nadie, que no es bien hecho</l>
+            <l n="145">afligir al afligido,</l>
+            <l>principalmente sujeto</l>
+            <l part="I">tan rendido.</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l part="F"> Ya querrás </l>
+            <l part="I">dél compadecerte.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> Es cierto. </l>
+            <l>La buena presencia es</l>
+            <l n="150">el sobrescrito primero</l>
+            <l>de las cartas de favor</l>
+            <l>que escribe piadoso el cielo,</l>
+            <l>encomendando a quien quiere</l>
+            <l>que gane el primer afecto</l>
+            <l part="I">de los demás.</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l n="155" part="F"> Ya eso es </l>
+            <l>filosofar, y no quiero</l>
+            <l>estarte oyendo piedades</l>
+            <l part="I">toda la vida.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Vase.</stage>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> ¿Qué puedo </l>
+            <l>hacer mejor? Y más, cuando</l>
+            <l n="160">presumo que no vi aspecto</l>
+            <l>en mi vida más amable.</l>
+            <l part="I">¿De dónde eres?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Soy hebreo. </l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="I">¿De qué tierra?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> De Canaán. </l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="I">¿Tu nombre?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="M"> Josef. </l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> «Aumento» </l>
+            <l part="I">significa.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="165" part="F"> Soylo de ansias. </l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>¿Qué derrotados sucesos</l>
+            <l part="I">te han traído a Egipto?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Son tales, </l>
+            <l>tan tristes y tan adversos,</l>
+            <l>que son más para sentidos</l>
+            <l part="I">que contados.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l n="170" part="F"> Pues no quiero </l>
+            <l>afligirte la memoria.</l>
+            <l>Este es mi albergue. Copero</l>
+            <l>fui de Faraón; esotro</l>
+            <l>camarada, Panadero.</l>
+            <l n="175">Indiciados de un delito</l>
+            <l>estamos, pero yo espero</l>
+            <l>que presto saldremos libres.</l>
+            <l>He dicho de paso esto,</l>
+            <l>porque sepas hasta entonces</l>
+            <l n="180">rancho y señas, que es inmenso</l>
+            <l>el tráfago de esta cárcel,</l>
+            <l>y no será fácil luego</l>
+            <l>volver aquí sin noticias,</l>
+            <l>adonde que tengas, quiero,</l>
+            <l n="185">algún abrigo. Y ahora,</l>
+            <l>ve a otras partes discurriendo,</l>
+            <l>que pues vienes a servir,</l>
+            <l>según entendí, no quiero</l>
+            <l>malquistarte, con que sea</l>
+            <l n="190">mi agrado tu privilegio.</l>
+            <stage>Yéndose.</stage>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Perdóneme tu piedad,</l>
+            <l>señor, si no la agradezco,</l>
+            <l>que es ésta la vez primera</l>
+            <l>en que obligado me veo</l>
+            <l n="195">a agradecer, porque soy</l>
+            <l>tan desdichado en extremo</l>
+            <l>que nunca le vi la cara</l>
+            <l>al favor; y así, no he puesto</l>
+            <l>cuidado en aprender cómo</l>
+            <l n="200">habla el agradecimiento.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Id con Dios.Sobre galán,</l>
+            <l>parece el joven discreto.</l>
+            <l>El corazón me ha quebrado</l>
+            <l part="I">verle tan mísero.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Aparte.Vase.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¡Cielos! </l>
+            <l n="205">Si, que porque serví leal,</l>
+            <l>no supe agradar a un dueño,</l>
+            <l>¿cómo he de agradar a tantos?</l>
+            <l>¡Oh, nunca hubieran mis sueños</l>
+            <l>dispertado aquella envidia</l>
+            <l n="210">que en este estado me ha puesto!</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Vase.</stage>
+          <sp who="#castidad">
+            <speaker>CASTIDAD</speaker>
+            <l>Cuanto pudiera decir</l>
+            <l>yo, gastando mucho tiempo</l>
+            <l>en encarecer sus penas,</l>
+            <l>ha dicho él en un momento.</l>
+            <l n="215">De aquellos sueños se queja</l>
+            <l>en que le empeñaste, viendo</l>
+            <l>los haces de sus hermanos,</l>
+            <l>que sin impulsos del viento,</l>
+            <l>de sus doradas espigas</l>
+            <l n="220">doblaban los rubios cuellos,</l>
+            <l>como obedeciendo al suyo;</l>
+            <l>y añadiendo empeño a empeño,</l>
+            <l>le hiciste también soñase</l>
+            <l>sol, luna y estrellas puestos</l>
+            <l n="225">a sus pies. No sé si arguya</l>
+            <l>si fue cuerdo, o no fue cuerdo,</l>
+            <l>en revelarlo, porque</l>
+            <l>no hay error donde hay misterio;</l>
+            <l>y así, baste por ahora</l>
+            <l n="230">que por baldón y desprecio</l>
+            <l>el soñador le llamaron,</l>
+            <l>cuya envidia fue creciendo</l>
+            <l>tanto, que desde el cariño</l>
+            <l>de hermano se pasó a ceño</l>
+            <l n="235">de enemigo, de enemigo</l>
+            <l>a empozado; y no contentos,</l>
+            <l>desde empozado a vendido,</l>
+            <l>y desde vendido a preso.</l>
+            <l>Dirásme que por qué yo</l>
+            <l n="240">tanto sus favores siento,</l>
+            <l>y responderéte, que es</l>
+            <l>porque en el mundo no tengo</l>
+            <l>otro alguno que venere</l>
+            <l>más mi alto merecimiento.</l>
+            <l n="245">Por no empañar mi pureza,</l>
+            <l>por no ofender a su dueño,</l>
+            <l>atento a la religión</l>
+            <l>cuanto a la lealtad atento,</l>
+            <l>a la más blanda sirena,</l>
+            <l n="250">al áspid más halagüeño,</l>
+            <l>al más traidor cocodrilo,</l>
+            <l>al más familiar veneno,</l>
+            <l>y a la más incauta hiena,</l>
+            <l>sordo a la voz, mudo al ruego,</l>
+            <l n="255">inmoble al llanto, y veloz</l>
+            <l>a la fuga, venció huyendo.</l>
+            <l>Pero, ¿qué mucho? ¿Qué mucho,</l>
+            <l>si al lunado monstruo fiero</l>
+            <l>supo dejarle la capa?;</l>
+            <l n="260">siendo así, que algún ingenio</l>
+            <l>(no menos que iluminado)</l>
+            <l>dijo que si desde el cielo</l>
+            <l>una piedra se arrojara,</l>
+            <l>detenerse fuera menos</l>
+            <l n="265">prodigio, en el aire, que</l>
+            <l>un hombre en la ocasión puesto.</l>
+            <l>Pues siendo así que tú fuiste</l>
+            <l>a sus ruinas fundamento,</l>
+            <l>y yo estoy de sus victorias</l>
+            <l n="270">obligada a ser el premio,</l>
+            <l>¿qué extrañas que aquí te traiga,</l>
+            <l>a que veas el extremo</l>
+            <l>en que tus sueños le tienen,</l>
+            <l>por si pudiesen tus sueños,</l>
+            <l n="275">ya que acarrearon el daño,</l>
+            <l>solicitarle el remedio?</l>
+            <l>Bien sé que Dios es primera</l>
+            <l>causa, que de Él dependemos,</l>
+            <l>y que sin Él, tú ni yo</l>
+            <l n="280">no valemos nada; pero</l>
+            <l>también sé que quiere Dios</l>
+            <l>que para rastrear lo inmenso</l>
+            <l>de su amor, poder, y ciencia,</l>
+            <l>nos valgamos de los medios</l>
+            <l n="285">que, aplicados,que, aplicados,humano modo</l>
+            <l>nos puedan servir de ejemplo.</l>
+            <l>Y pues lo caduco no</l>
+            <l>puede comprehender lo eterno,</l>
+            <l>y es necesario que para</l>
+            <l n="290">venir en conocimiento</l>
+            <l>suyo haya un medio visible</l>
+            <l>que en el corto caudal nuestro,</l>
+            <l>del concepto imaginado</l>
+            <l>pase a práctico concepto,</l>
+            <l n="295">hagamos representable</l>
+            <l>a los teatros del tiempo</l>
+            <l>que el hombre que se ejercita</l>
+            <l>en una virtud, es cierto</l>
+            <l>que cuando él está penando,</l>
+            <l n="300">le está ella favoreciendo.</l>
+            <l>Y no pare aquí el discurso,</l>
+            <l>pues también es argumento</l>
+            <l>que en términos satisface</l>
+            <l>Dios; dígalo Job, pues vemos,</l>
+            <l n="305">que por los pasos que fue</l>
+            <l>bajando, volvió subiendo,</l>
+            <l>de lo excelso a lo abatido,</l>
+            <l>de lo abatido a lo excelso.</l>
+            <l>Luego bien, cuando que vuelva</l>
+            <l n="310">a su libertad pretendo,</l>
+            <l>no en vano de ti me valgo,</l>
+            <l>por ver si antes con el cielo</l>
+            <l>y después contigo, logro</l>
+            <l>el que en los términos mesmos</l>
+            <l n="315">que los sueños le agraviaron,</l>
+            <l>le desagravien los sueños.</l>
+            <l>Mísero, pobre, afligido,</l>
+            <l>no sólo ya esclavo, pero</l>
+            <l>esclavo de muchos, hoy</l>
+            <l n="320">en tus manos te le dejo.</l>
+            <l>Vuelve por él, y por mí,</l>
+            <l>no tanto porque pretendo</l>
+            <l>que en su miseria enternezca</l>
+            <l>a tu horror su sufrimiento;</l>
+            <l n="325">no tanto porque vea el mundo</l>
+            <l>que no compiten trofeos</l>
+            <l>la noble virtud del alma</l>
+            <l>y vil propensión del cuerpo,</l>
+            <l>cuanto porque en ese joven</l>
+            <l n="330">hay visos, luces, y lejos</l>
+            <l>de mayor asumpto que hoy</l>
+            <l>hasta destinado tiempo</l>
+            <l>anda rebozado en sombras;</l>
+            <l>y así, desde aquí atendiendo</l>
+            <l n="335">a sus acciones, si vieres</l>
+            <l>sobre el aborrecimiento</l>
+            <l>de sus hermanos, y sobre</l>
+            <l>venderle en traje de siervo,</l>
+            <l>y estar preso, que hay en él</l>
+            <l n="340">sobrenaturales hechos:</l>
+            <l>mírale siempre a dos luces,</l>
+            <l>y verás que todo esto</l>
+            <l>va encaminado a que anda</l>
+            <l>aquí oculto y encubierto</l>
+            <l n="345">algún misterio, que venga</l>
+            <l>a ser en los venideros</l>
+            <l>siglos, venciendo las sombras,</l>
+            <l>misterio de los misterios,</l>
+            <l>milagro de los milagros,</l>
+            <l n="350">portento de los portentos,</l>
+            <l>y en fin, luz, verdad, y vida</l>
+            <l>del más alto sacramento.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Vase.</stage>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l>¡Oye, aguarda! No tan sólo</l>
+            <l>confuso, absorto y suspenso</l>
+            <l n="355">mi entendimiento ha dejado</l>
+            <l>(que esto no es mucho, supuesto</l>
+            <l>que el sueño siempre fue obscuro</l>
+            <l>pasmo del entendimiento)</l>
+            <l>sino también convencido,</l>
+            <l n="360">que es más. ¿De cuándo acá suelo</l>
+            <l>dejarme yo convencer</l>
+            <l>de la razón? Pero miento,</l>
+            <l>que en sueños ha revelado</l>
+            <l>Dios infinitos secretos;</l>
+            <l n="365">y cuando no hubiera otros,</l>
+            <l>bastara a suplir por ellos</l>
+            <l>el de su padre en la escala</l>
+            <l>que abrazaba tierra y cielo.</l>
+            <l>Luego, si hay aquí virtud</l>
+            <l n="370">que ruega, y yo me convenzo,</l>
+            <l>aquí hay Dios que manda. Pues,</l>
+            <l>¿qué aguardo que no obedezco?</l>
+            <l>Dormid, dormid, mortales, </l>
+            <l>que el grande y el pequeño</l>
+            <l n="375">iguales son lo que les dura el sueño.</l>
+            <l>Mortales, que en la cárcel</l>
+            <l>del mundo vivís presos,</l>
+            <l>no tan sólo los hierros arrastrando,</l>
+            <l>mas también arrastrados de los yerros:</l>
+            <l n="380">dormid, dormid, al son</l>
+            <l>de mi músico acento,</l>
+            <l>que mudas consonancias de la vida</l>
+            <l>son también las quietudes del silencio.</l>
+            <l>Dormid, dormid, no sólo</l>
+            <l n="385">hoy al descanso atentos</l>
+            <l>pero atentos a ver qué es lo que quiere</l>
+            <l>en vuestras sombras revelar el cielo.</l>
+            <l>Y vosotras, ideas,</l>
+            <l>que en fantásticos cuerpos</l>
+            <l n="390">representáis como retratos vivos</l>
+            <l>ansias y gozos a sentidos muertos,</l>
+            <l>ved que Dios, conmovido</l>
+            <l>de una virtud al ruego,</l>
+            <l>en términos nos manda que las ruinas</l>
+            <l n="395">que el sueño destruyó, restaure el sueño.</l>
+            <stage>Canta.Canciónasonancia e-o</stage>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Salen COPERO y PANADERO.</stage>
+          <sp who="#sueño #música">
+            <speaker>ÉL CON LA MÚSICA</speaker>
+            <l>Dormid, dormid, mortales,</l>
+            <l>que el grande y el pequeño</l>
+            <l>iguales son lo que les dura el sueño.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Vase el SUEÑO.</stage>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>¿Qué perezoso letargo </l>
+            <l n="400">es el que sobre mí tengo?</l>
+            <stage>Romance e-o</stage>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>Parece que hubo patente,</l>
+            <l>según que todo me duermo.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>¿Qué haré yo para vencer</l>
+            <l>esta pesadez que tengo?</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l n="405">Lo que yo: echarse a dormir.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="I">¿A esta hora?</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l part="F"> Aqueso es lo mesmo </l>
+            <l>que comer, porque el reloj</l>
+            <l>da cuando gana no tengo,</l>
+            <l>y cuando tengo la gana,</l>
+            <l n="410">esperar a que dé. Necios,</l>
+            <l>comer cuando hubiere hambre,</l>
+            <l>dormir cuando hubiere sueño,</l>
+            <l>que no han de ser nuestras tripas</l>
+            <l>las cuerdas de su instrumento.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l n="415">Deja locuras. Aquí,</l>
+            <l>a mi pesar, me recuesto.</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>Yo, a mi placer, que dormido,</l>
+            <l>no sé si estoy libre o preso;</l>
+            <l>o dígalo aquel cantar</l>
+            <l n="420">que dijo en no sé qué versos:</l>
+          </sp>
+          <stage>Con esta repetición van saliendo los dos bofetones.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Dormid, dormid, mortales,</l>
+            <l>que el grande y el pequeño</l>
+            <l>iguales son lo que les dura el sueño.</l>
+            <stage>Canción</stage>
+          </sp>
+          <stage>Recuéstanse los dos, divididos: el COPERO en el carro donde está el bofetón en que ha de salir la SOMBRA que ha de venir debajo de la vid; y el PANADERO debajo del que ha de traer la SOMBRA de las aves y canastillos de pan; y dando vuelta ambos bofetones encontrados, cantan:</stage>
+          <sp who="#sombra-1">
+            <speaker>SOMBRA 1</speaker>
+            <l>El pan que del rocío</l>
+            <l n="425">se amasó de los cielos</l>
+            <l>cuando en hermosa aurora, blanda nube</l>
+            <l>trujo la luz, la sombra, y el sustento...</l>
+          </sp>
+          <sp who="#sombra-2">
+            <speaker>SOMBRA 2</speaker>
+            <l>El generoso vino</l>
+            <l>que dio racimo bello</l>
+            <l n="430">cuando de Promisión la fértil Tierra</l>
+            <l>sucedió a la aspereza del desierto...</l>
+          </sp>
+          <sp who="#sombra-1">
+            <speaker>SOMBRA 1</speaker>
+            <l>...con permisión de Dios</l>
+            <l>al hombre se le llevo;</l>
+            <l>mas, ¡ay de aquel que en culpa se le roban</l>
+            <l n="435">funestas aves, que le dan al viento!</l>
+          </sp>
+          <sp who="#sombra-2">
+            <speaker>SOMBRA 2</speaker>
+            <l>...con permisión de Dios</l>
+            <l>al hombre le prevengo,</l>
+            <l>felice en gracia, aquel para quien savia</l>
+            <l>le exprimo, le recojo, y le conservo.</l>
+          </sp>
+          <sp who="#sombra-1">
+            <speaker>SOMBRA 1</speaker>
+            <l n="440">De pájaros nocturnos</l>
+            <l>en vano le defiendo.</l>
+          </sp>
+          <sp who="#sombra-2">
+            <speaker>SOMBRA 2</speaker>
+            <l>En vano intentan malograr los frutos</l>
+            <l>ni el granizo, ni el ábrego, ni el cierzo.</l>
+          </sp>
+          <sp who="#sombra-1">
+            <speaker>SOMBRA 1</speaker>
+            <l>¡Ay de quien no le adore...</l>
+          </sp>
+          <sp who="#sombra-2">
+            <speaker>SOMBRA 2</speaker>
+            <l n="445">¡Feliz quien sea su dueño...</l>
+          </sp>
+          <sp who="#sombra-1">
+            <speaker>SOMBRA 1</speaker>
+            <l>...pues si le come en culpa, es pan de muerte!</l>
+          </sp>
+          <sp who="#sombra-2">
+            <speaker>SOMBRA 2</speaker>
+            <l>...pues si en gracia le bebe, es de los cielos!</l>
+          </sp>
+          <sp who="#aser #neftalí #manasés #leví #isacar #asenet #rubén #judás #benjamín #gad #simeón #josef #jacob #bato #sombra-1 #sombra-2 #la-fe #alcaide #zabulón #rey #música">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>Dormid, dormid, mortales,</l>
+            <l>que el grande y el pequeño</l>
+            <l n="450">iguales son lo que les dura el sueño.</l>
+            <stage>Despiertan despavoridos.</stage>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>¡Huye, infausta sombra horrible! </l>
+            <stage>Romance e-o</stage>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>¡No huyas, dulce asombro bello!</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>Mas yo iré huyendo de ti,...</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Mas yo iré en tu seguimiento,...</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l n="455">...que hasta perderte de vista...</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="I">...que hasta alcanzarte...</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Sale JOSEF.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¿Qué es esto? </l>
+            <l>¿Tan asustados los dos,</l>
+            <l>despavoridos y inquietos,</l>
+            <l>cuando yo con alborozo</l>
+            <l n="460">de qué es, a serviros vuelvo?</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l part="I">No te admires,...</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> No te espantes,... </l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l part="I">...que una pena...</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> ...que un contento... </l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>...aun es de dolor soñada.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>...aun soñado se huye presto.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="465">Si yo tuviera licencia</l>
+            <l>para preguntar, bien creo</l>
+            <l>que me moviera la justa</l>
+            <l>curiosidad de saberlo.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Aunque de los sueños no</l>
+            <l n="470">hay que hacer caso, confieso</l>
+            <l>que la viva aprehensión de éste</l>
+            <l>me obliga a hacer más aprecio</l>
+            <l part="I">dél que de otros sueños.</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l part="F"> Yo </l>
+            <l>puedo asegurar lo mesmo,</l>
+            <l n="475">y por deshacerme dél,</l>
+            <l>le he de decir. Oye atento:</l>
+            <l>como en nuestra fantasía</l>
+            <l>siempre el sueño nos retrata</l>
+            <l>aquello que más se trata</l>
+            <l n="480">en los discursos del día,</l>
+            <l>fue fácil que yo soñase</l>
+            <l>(que al fin panadero soy)</l>
+            <l>que del floreado pan que hoy</l>
+            <l>dispuse que se amasase</l>
+            <l n="485">para el Rey, tres canastillos,</l>
+            <l>blanco y sabroso llevaba,</l>
+            <l>y vi que, cuando esperaba</l>
+            <l>en la real mesa servillos,</l>
+            <l>en el camino embestían</l>
+            <l n="490">tropas de funestas aves</l>
+            <l>que, nocturnamente graves,</l>
+            <l>cebadas en él, hacían</l>
+            <l>tales presas que mis gozos</l>
+            <l>murieron a breves plazos;</l>
+            <l n="495">pues, devorado a pedazos</l>
+            <l>y desmenuzado a trozos,</l>
+            <l>aun migajas no dejaron,</l>
+            <l>y si las dejaron, fue</l>
+            <l>para el viento, puesto que,</l>
+            <l n="500">hechas átomos, volaron</l>
+            <l>de suerte que aquel contento</l>
+            <l>en que esmeraba mi oficio,</l>
+            <l>después de ser desperdicio</l>
+            <l>de aves, fue estrago del viento.</l>
+            <stage>Redondillas</stage>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l n="505">Yo soñé (porque también</l>
+            <l>sean especies del día</l>
+            <l>las que hoy en mi fantasía</l>
+            <l>señas de mi oficio den)</l>
+            <l>que vía en un prado ameno</l>
+            <l n="510">una vid hermosa y bella,</l>
+            <l>y de los pámpanos de ella</l>
+            <l>todo su follaje lleno</l>
+            <l>de tan dulce fruto opimo</l>
+            <l>que, fértilmente lozano,</l>
+            <l n="515">era un rubí cada grano</l>
+            <l>y un ámbar cada racimo.</l>
+            <l>De uno, que entre dos pendía</l>
+            <l>del sarmiento superior,</l>
+            <l>soñé que el blanco licor</l>
+            <l n="520">con una mano exprimía,</l>
+            <l>cuyo líquido tesoro</l>
+            <l>nada se desperdiciaba,</l>
+            <l>porque al exprimirle estaba</l>
+            <l>yo con una copa de oro</l>
+            <l n="525">en la otra mano, de modo</l>
+            <l>que un átomo no perdía,</l>
+            <l>pues todo lo recogía,</l>
+            <l>con que se lograba todo.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¡Oh, válgame el cielo! ¡Cuánto</l>
+            <l n="530">campo la imaginación</l>
+            <l>con una y otra visión</l>
+            <l>corre! ¿Desperdicio tanto</l>
+            <l>en pan? ¿Tanto logro en vino?</l>
+            <l>¿Allí ruina, y aquí aumento?</l>
+            <l n="535">De algún alto sacramento,</l>
+            <l>de algún misterio divino,</l>
+            <l>luces uno y otro dan,</l>
+            <l>pero tan en sombras hoy</l>
+            <l>que pienso que viendo estoy</l>
+            <l n="540">vida y muerte en vino y pan.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>¿Cómo habiéndonos oído,</l>
+            <l>mudo, absorto y elevado</l>
+            <l>parece que te has quedado</l>
+            <l>sin habernos respondido?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="545">Como cuando a ambos escucho,</l>
+            <l>me ofuscan vuestros diseños,</l>
+            <l>que entiendo mucho de sueños,</l>
+            <l>porque ha que me cuestan mucho;</l>
+            <l>y así, no sé si me obliga</l>
+            <l n="550">más el que aquí al discurrir,</l>
+            <l>calle lo que he de decir,</l>
+            <l>que lo que he de callar diga.</l>
+          </sp>
+          <sp who="#panadero #copero">
+            <speaker>LOS DOS</speaker>
+            <l>En tal duda es, a mi ver,</l>
+            <l>mejor decir que callar.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="I">¿Si es pesar?</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l n="555" part="F"> Porque es pesar. </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="I">¿Si es placer?</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> Porque es placer. </l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>Porque al que pesar tocó,</l>
+            <l>pueda resguardarse dél.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Y al que el placer, es cruel</l>
+            <l part="I">cosa ocultársele.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="560" part="F"> Yo, </l>
+            <l>aunque bien quisiera aquí,...</l>
+          </sp>
+          <sp who="#panadero #copero">
+            <speaker>LOS DOS</speaker>
+            <l part="I">Habla.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ...por no dar dolor, </l>
+            <l>no dar gusto, hay superior</l>
+            <l part="I">causa. En fin, ¿he de hablar?</l>
+          </sp>
+          <sp who="#panadero #copero">
+            <speaker>LOS DOS</speaker>
+            <l part="F"> Sí. </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="565">Pues en acción tan unida</l>
+            <l>que una en otra se convierte,</l>
+            <l>hay pan, que es vida y es muerte,</l>
+            <l>hay vino, que es muerte y vida.</l>
+            <l>Libre tú en tu indicio estás,</l>
+            <l n="570">tú convencido en tu indicio:</l>
+            <stage>Al COPERO.</stage>
+            <l>tú volverás a tu oficio,</l>
+            <stage>Al PANADERO.</stage>
+            <l>y tú presto morirás.</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>Mucho cuidado me diera</l>
+            <l>interpretación tan rara,</l>
+            <l n="575">si de ti no imaginara</l>
+            <l>que inútil venganza era</l>
+            <l>de aquel primer lance, en quien</l>
+            <l part="I">te pedí.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> Ten acción tal, </l>
+            <l>y no aprecio hagas del mal,</l>
+            <l n="580">pues yo no le hago del bien.</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>¿Cómo no? Pues, aunque digo</l>
+            <l>que no he de creer su agüero,</l>
+            <l>no por eso de embustero</l>
+            <l>he de excusar el castigo.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l n="585">Mira que en su amparo puesto</l>
+            <l part="I">estoy yo.</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l part="F"> También estoy </l>
+            <l part="I">yo en su ofensa.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Entre ambos hoy </l>
+            <l part="I">tengo de morir.</l>
+          </sp>
+          <stage>Al irse a embestir, se pone JOSEF en medio, deteniendo al uno con una mano y al otro con la otra; se detienen los dos, mirándole suspensos.</stage>
+          <sp who="#panadero #copero">
+            <speaker>LOS DOS</speaker>
+            <l part="F"> ¿Qué es esto? </l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>¿Quién me pudo suspender?</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l n="590">¿Quién me ciega en nueva luz?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Cuando, a manera de cruz,</l>
+            <l>entre ambos me llego a ver,</l>
+            <l>segundo misterio muestra</l>
+            <l>ver que su furor impida</l>
+            <l n="595">a la diestra el que es de vida,</l>
+            <l>y el de muerte a la siniestra.</l>
+            <stage>Vuelve a querer embestirle.</stage>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>Mas, ¿quién me podrá impedir</l>
+            <l>muerte a un vil esclavo dar?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Sale el ALCAIDE.</stage>
+          <sp who="#alcaide">
+            <speaker>ALCAIDE</speaker>
+            <l>Mal hace en querer matar</l>
+            <l n="600">quien tiene por qué morir,</l>
+            <l>pues habiendo ya salido,</l>
+            <l>conforme a justicia y ley,</l>
+            <l>la sentencia, manda el Rey</l>
+            <l>que tú, que estás convencido</l>
+            <l part="I">en tu culpa, mueras.</l>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l n="605" part="F"> ¡Cielos! </l>
+            <l part="I">¿Qué escucho?</l>
+          </sp>
+          <sp who="#alcaide">
+            <speaker>ALCAIDE</speaker>
+            <l part="F"> Y que tú, que estás </l>
+            <l>sin culpa (porque jamás</l>
+            <l>te obsten pasados recelos),</l>
+            <l>a servir su copa vuelvas,</l>
+            <l n="610">restituido a tu honor,</l>
+            <l>a su gracia y su favor;</l>
+            <l>y pues es bien te resuelvas</l>
+            <l>tú a obedecer a tu suerte,</l>
+            <l>con este negro cendal</l>
+            <l n="615">cubro tu rostro, en señal</l>
+            <l>de estar condenado a muerte.</l>
+            <stage>Echale un velo negro por el rostro.</stage>
+          </sp>
+          <sp who="#panadero">
+            <speaker>PANADERO</speaker>
+            <l>¡Ay, infelice de mí!</l>
+            <l>En fin, mi culpa pagué.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>¡Felice yo, que llegué</l>
+            <l part="I">a ver este día!</l>
+          </sp>
+          <sp who="#alcaide">
+            <speaker>ALCAIDE</speaker>
+            <l n="620" part="F"> De aquí </l>
+            <l>ven tú; y tú, cuando quisieres,</l>
+            <l>podrás salir, que ya abierta</l>
+            <l>y franca tienes la puerta.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Vanse los dos ALCAIDE y PANADERO.</stage>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Abrázame tú, que eres</l>
+            <l n="625">a quien debo las albricias</l>
+            <l>de esta dicha, pues tú fuiste</l>
+            <l>quien primero la previste.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Si es que pagarlas codicias,</l>
+            <l>con una cosa podrás.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="I">¿Qué es?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="630" part="F"> Que te acuerdes de mí; </l>
+            <l>y puesto que desde aquí</l>
+            <l>a servir a tu Rey vas,</l>
+            <l>le digas el duro exceso</l>
+            <l>con que yo padezco; y pues</l>
+            <l n="635">sabes cuán penoso es</l>
+            <l>estar inocente y preso,</l>
+            <l>duélete, por Dios, de mí,</l>
+            <l>que es mi mal tan infinito</l>
+            <l>que si cometí delito,</l>
+            <l n="640">es que no le cometí.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Tan compadecido voy</l>
+            <l>de dejarte, mas no quiero,</l>
+            <l>sin merecerlas primero,</l>
+            <l>gracias. Palabra te doy,</l>
+            <l n="645">y con fe y mano prometo</l>
+            <l>el que he de volver por ti.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="I">¿Palabra, fe, y mano?</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> Sí, </l>
+            <l part="I">yo la doy.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Vase el COPERO.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Y yo la acepto. </l>
+            <l>Hermosas luces, en quien miro atento,</l>
+            <stage>Soneto</stage>
+            <l n="650">con rasgos y bosquejos desiguales,</l>
+            <l>el número infinito de mis males</l>
+            <l>y la esfera capaz de mi tormento:</l>
+            <l>¿cuál de vosotras, cuál desde su asiento</l>
+            <l>es la que influye en mí desdichas tales?</l>
+            <l n="655">¿Cuál de vosotros, astros desiguales,</l>
+            <l>a su cargo tomó mi sufrimiento?</l>
+            <l>Tú me parece que serás, ¡oh estrella!,</l>
+            <l>la más pobre de luz, la más obscura.</l>
+            <l>Oyeme tú, que para ti prevengo,</l>
+            <l n="660">ya pensarás que digo una querella;</l>
+            <l>no, sino un galardón por la ventura</l>
+            <l>que no me has de quitar, pues no la tengo.</l>
+            <l>Y ya que mis dichas hoy</l>
+            <stage>Romance u-a</stage>
+            <l>todo su consuelo fundan</l>
+            <l n="665">en que, faltándome todas,</l>
+            <l>no puedo perder ninguna,</l>
+            <l>hidrópico de desdichas,</l>
+            <l>ahora al contrario arguya</l>
+            <l>en que, pues todas las tengo,</l>
+            <l n="670">¿por qué ha de faltarme una?</l>
+            <l>Esta es no habiendo podido</l>
+            <l>saber de mi padre nunca;</l>
+            <l>saber de una vez que yace</l>
+            <l>muerto a manos de mi injuria;</l>
+            <l n="675">porque no acierto a encontrar,</l>
+            <l>por más que en ello discurra,</l>
+            <l>qué habrán dicho mis hermanos</l>
+            <l>para salvarse en disculpa</l>
+            <l>de mi venta. Pero no</l>
+            <l n="680">se la habrán dicho es sin duda,</l>
+            <l>que la traición siempre viste</l>
+            <l>los disfraces de la astucia.</l>
+            <l>Mas, ¡ay de mí!, que no pueden</l>
+            <l>haber hallado ninguna,</l>
+            <l n="685">que ya que encubra su error,</l>
+            <l>mi falta a mi padre encubra.</l>
+            <l>¡Ay, anciano padre mío!</l>
+            <l>¿Quién duda, ¡ay de mí!, ¿quién duda</l>
+            <l>que ella habrá acabado ya</l>
+            <l n="690">contigo, según la suma</l>
+            <l>terneza con que, por hijo</l>
+            <l>de Raquel, cuya hermosura</l>
+            <l>tanto te costó, me amabas?</l>
+            <l>Y aunque sé que no me escuchas,</l>
+            <l n="695">te suplico, ¡oh padre mío!,</l>
+            <l>Benjamín mi falta supla.</l>
+            <l>Más parecido es que yo</l>
+            <l>a la hermosa madre suya;</l>
+            <l>y pues tienes el espejo</l>
+            <l n="700">en él de aquella difunta</l>
+            <l>hermosa beldad, que el fértil</l>
+            <l>campo de Belén sepulta,</l>
+            <l>no me eches menos a mí.</l>
+            <l>Y tú, Benjamín, procura</l>
+            <l n="705">que se consuele contigo;</l>
+            <l>hazle amorosas ternuras,</l>
+            <l>que caduca edad renace</l>
+            <l>cuando en los hijos caduca.</l>
+            <l>Mas, ¡ay!, que en vano este ruego</l>
+            <l n="710">será, si vuelvo a la angustia</l>
+            <l>de que el pesar le habrá muerto</l>
+            <l>con el dolor de mi fuga,</l>
+            <l>que la más fácil razón</l>
+            <l>que habrá encontrado la industria</l>
+            <l n="715">de mis hermanos, será</l>
+            <l>que no saben de mí. ¡Oh, suba</l>
+            <l>mi llanto al cielo! Quizá</l>
+            <l>entre sus virtudes puras</l>
+            <l>habrá alguna que, piadosa,</l>
+            <l n="720">no porque de mí presuma</l>
+            <l>que merezco su favor</l>
+            <l>sino por la piedad suya,</l>
+            <l>haciéndome saber cómo</l>
+            <l>la traición le disimulan,</l>
+            <l n="725">y qué hizo él, mi duda venza.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Sale la CASTIDAD, atravesando el tablado por delante dél.</stage>
+          <sp who="#castidad">
+            <speaker>CASTIDAD</speaker>
+            <l>Sí habrá, que hasta que una duda</l>
+            <l>vehementemente aprehendida</l>
+            <l>forme fantasmas confusas;</l>
+            <l>es tan piadosa licencia</l>
+            <l n="730">que no ha menester disculpa.</l>
+            <l>Juzga tú cómo sería,</l>
+            <l>quizá verás lo que juzgas.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Vase.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¡Oye, aguarda, escucha, espera!</l>
+            <l>Mas ¡ay cielos, qué locura!</l>
+            <l n="735">Jurara que la beldad</l>
+            <l>de una divina hermosura</l>
+            <l>se me había puesto delante.</l>
+            <l>¡Cuánto una aprehensión perturba</l>
+            <l>los sentidos! Y aun no cesa</l>
+            <l n="740">en que ella aparezca y huya,</l>
+            <l>sino que también jurara</l>
+            <l>que veo que en la espesura</l>
+            <l>de Canaán, con Benjamín</l>
+            <l>anda mi padre en mi busca;</l>
+            <l n="745">en cuyo pasmo, el sentido</l>
+            <l>absorto atender procura,</l>
+            <l>por si ilusión que se ve</l>
+            <l>es ilusión que se escucha.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Ábrese el carro, y haciendo en el aire tablado y vestuario, sale JACOB, viejo venerable, con BENJAMÍN, de zagal.</stage>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l>¡Cuánto, hermoso Benjamín,</l>
+            <l n="750">cuidados de amor madrugan!</l>
+            <l>Desde que envié a Josef</l>
+            <l>a ver si crecen fecundas</l>
+            <l>las crías, y en lo que entienden</l>
+            <l>tus hermanos, con ser suma</l>
+            <l n="755">siempre su presteza, no</l>
+            <l>ha vuelto, pues aunque suban</l>
+            <l>de Siquén a Dotaín</l>
+            <l>buscando pastos, ya acusa</l>
+            <l part="I">su tardanza mi amor.</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l part="F"> ¿Cuándo </l>
+            <l n="760">tardanza de amor no es mucha?</l>
+          </sp>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l part="I">¿Son celos, Benjamín?</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l part="F"> ¿Yo, </l>
+            <l>celos de Josef? ¡Qué injusta</l>
+            <l>sospecha! Que yo y Josef</l>
+            <l>somos dos cuerpos con una</l>
+            <l n="765">alma, un alma con dos cuerpos;</l>
+            <l>estrecho lazo nos junta,</l>
+            <l>como, en fin, hijos los dos</l>
+            <l part="I">de Raquel.</l>
+          </sp>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l part="F"> ¡Cuánto me gusta </l>
+            <l>que tanto os améis! Y pues</l>
+            <l n="770">mi amor y tu amor se aúnan,</l>
+            <l>y es ya interés de los dos</l>
+            <l>buscarle, a subir me ayuda</l>
+            <l>a aquel ribazo, de donde</l>
+            <l>más el camino descubra,</l>
+            <l n="775">por si adelanta la vista</l>
+            <l part="I">el gozo de verle.</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l part="F"> Excusa </l>
+            <l>la diligencia, que allí</l>
+            <l>vienen ya Rubén y Judás,</l>
+            <l>Isacar y Manasés,</l>
+            <l part="I">que dirán de él.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Salen los dichos hablando aparte. Traen envuelto en un tafetán una tunicela roja, y ellos de pastores.</stage>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l n="780" part="F"> Pena dura </l>
+            <l>es, que queráis que yo sea</l>
+            <l>el que tal dolor le anuncia.</l>
+          </sp>
+          <sp who="#judás">
+            <speaker>JUDAS</speaker>
+            <l>Tú has de ser, pues por mayor</l>
+            <l>tendrás, Rubén, más cordura,</l>
+            <l n="785">no sólo en fingir el hecho</l>
+            <l>pero en suavizar la angustia.</l>
+          </sp>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l>¿Cómo, cuando a mi presencia</l>
+            <l>llegáis, nadie me saluda,</l>
+            <l>y para no hablar, parece</l>
+            <l n="790">que andáis conciliando excusas?</l>
+            <l>¿Cómo mi Josef no viene</l>
+            <l>con vosotros? ¡Pena injusta!</l>
+            <l>¿No merece más respuesta</l>
+            <l>que lágrimas mi pregunta?</l>
+            <l n="795">¿Qué es esto? ¿Todos calláis,</l>
+            <l part="I">y todos lloráis?</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l part="F"> Si apuras </l>
+            <l>tanto nuestro dolor, fuerza</l>
+            <l>será, ya que no articula</l>
+            <l>el labio, que hable esta vez</l>
+            <l n="800">más retórica y más muda.</l>
+            <l part="I">¿Conoces...</l>
+            <stage>Descubre el tafetán.</stage>
+          </sp>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l part="F"> ¡Ay, infelice! </l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l>...esta talar vestidura</l>
+            <l part="I">que a Josef hiciste?</l>
+          </sp>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l part="F"> No, </l>
+            <l>que son cifras muy obscuras</l>
+            <l n="805">que yo se la diese a él blanca</l>
+            <l>y él me la vuelva purpúrea.</l>
+            <l part="I">¿Qué ha sido esto?</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l part="F"> Una fiera, </l>
+            <l>la más fiera y más sañuda</l>
+            <l>de cuantas aborta el monte,</l>
+            <l n="810">parto horrible de sus grutas,</l>
+            <l>al pasar de Dotaín</l>
+            <l>el valle, de entre sus rudas</l>
+            <l>quiebras salió, ensangrentando</l>
+            <l>en su tierna sangre pura</l>
+            <l n="815">de sus colmillos las presas</l>
+            <l>y de sus garras las uñas.</l>
+            <l>Despedazado el cadáver</l>
+            <l>hallamos, y en mil menudas</l>
+            <l part="I">partes la túnica, y...</l>
+          </sp>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l part="F"> ¡Calla, </l>
+            <l n="820">calla!, que es tu lengua aguda</l>
+            <l>flecha avenenada, que</l>
+            <l>en mil repetidas puntas</l>
+            <l>el corazón me penetra</l>
+            <l>con cada voz que pronuncia.</l>
+            <l n="825">¡Ay, Josef del alma mía!</l>
+            <stage>Toma la túnica.</stage>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l>¿Cómo esto mi amor escucha</l>
+            <l>y no muere de dolor?</l>
+          </sp>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l>¡Funestas, tristes, impuras</l>
+            <l>prendas, por mi mal halladas!</l>
+            <l n="830">¿Qué os hizo esta edad caduca</l>
+            <l>para que de mi mejor</l>
+            <l>espejo eclipséis la luna?</l>
+            <l>Si era la luz de mis ojos,</l>
+            <l>¿por qué me dejáis a escuras,</l>
+            <l n="835">viendo la flor de sus años</l>
+            <l>en su primavera mustia?</l>
+            <l>En el cristal que bebía</l>
+            <l>el licor de sus dulzuras,</l>
+            <l>¿por qué con sangre queréis</l>
+            <l n="840">que beba ponzoña turbia?</l>
+            <l>¡Ay, Josef! Pésima fiera</l>
+            <l>te dio muerte. ¿Quién lo duda?</l>
+            <l>Pésima fiera sería.</l>
+            <l>Señor (antes que discurra</l>
+            <l n="845">en que a la envidia la dieron</l>
+            <l>ese apellido mil plumas),</l>
+            <l>permitid que este dolor</l>
+            <l>dé conmigo en las obscuras</l>
+            <l>mansiones que a tantos padres</l>
+            <l n="850">depositados sepultan.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>Vase.</stage>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l>¡Ay de mí!, que de mi padre</l>
+            <l>la pena, aunque es grande, es una,</l>
+            <l>pero en mí son dos, que siento</l>
+            <l>la de Josef y la suya.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Vase.</stage>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l n="855">En fin, ¿que quisisteis ver,</l>
+            <l>sin darme lugar que acuda</l>
+            <l>de la cisterna a sacarle,</l>
+            <l part="I">esta lástima?</l>
+          </sp>
+          <sp who="#isacar">
+            <speaker>ISACAR</speaker>
+            <l part="F"> Hizo Judas </l>
+            <l part="I">tan presto la venta.</l>
+          </sp>
+          <sp who="#judás">
+            <speaker>JUDAS</speaker>
+            <l part="F"> Eso </l>
+            <l part="I">no es de aquí.</l>
+          </sp>
+          <sp who="#josef #rubén #isacar #manasés">
+            <speaker>LOS CUATRO</speaker>
+            <l n="860" part="F"> ¿Qué, nos acusas? </l>
+            <l>No soñara él, y no viera</l>
+            <l>tan deshecha su fortuna.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage>Vanse, y ciérrase el carro.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¡Aguarda, detente, espera!</l>
+            <l>¡No huyas, ilusión, no huyas,</l>
+            <l n="865">hasta que sepa mi padre</l>
+            <l part="I">que vivo y...</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage>Sale el COPERO.</stage>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> ¿Dónde apresuras </l>
+            <l part="I">el paso?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> No sé, no sé. </l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>No dirás que mis venturas</l>
+            <l part="I">me olvidan de ti.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Ya veo </l>
+            <l n="870">la gran piedad que te ilustra.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Pues no sólo vengo a verte,</l>
+            <l>que vengo por ti. ¿Qué dudas?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Si es dicha, ¿no he de dudarla?</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Pues aun es mayor que juzgas.</l>
+            <l n="875">Este el anillo del Rey</l>
+            <l>es, que tu libertad jura,</l>
+            <l>y el Rey es quien por ti envía.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="I">¿Por mí el Rey?</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="M"> Sí. </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="M"> ¿Cómo? </l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="F"> Escucha: </l>
+            <l>Soñó el Rey...; pero mejor</l>
+            <l n="880">el camino lo descubra.</l>
+            <l>No perdamos tiempo; ven</l>
+            <l part="I">donde te aguarda.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Fortuna, </l>
+            <l>no sea esto ilusión también;</l>
+            <l>mira si de mí te burlas,</l>
+            <l n="885">que para ilusión es poca</l>
+            <l>y para verdad es mucha.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage>Vanse, y sale por una parte ASENET, dama, y todos -músicos, hombres y mujeres con ella- y empezando a cantar, sale el REY por otra parte, paseándose suspenso.</stage>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>¿Quién es aquel que, cabiendo</l>
+            <l>en corta abreviada esfera,</l>
+            <l>quiere que quepa en él todo</l>
+            <l n="890">el ámbito de la tierra,...</l>
+            <stage>Romance e-a</stage>
+          </sp>
+          <sp who="#música">
+            <speaker>TODA LA MÚSICA</speaker>
+            <l>...y no por eso deja</l>
+            <l>de haber lugar en qué caber la queja?</l>
+            <stage>Pareado, estribillo</stage>
+          </sp>
+          <sp who="#dama-1">
+            <speaker>DAMA 1</speaker>
+            <l>El humano corazón,</l>
+            <l>que vive en cárcel estrecha,</l>
+            <l n="895">y el mayor reino, por más</l>
+            <l>que le ocupe, no le llena;</l>
+            <l>y no por eso deja</l>
+            <l>de haber lugar en qué caber la queja.</l>
+            <stage>Romance e-aPareado, estribillo</stage>
+          </sp>
+          <sp who="#dama-2">
+            <speaker>DAMA 2</speaker>
+            <l>El gran Faraón de Egipto</l>
+            <l n="900">lo diga, puesto que reina</l>
+            <l>en cuantos cotos el Nilo</l>
+            <l>baña, fertiliza y riega,...</l>
+            <stage>Romance e-a</stage>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>...y no por eso deja</l>
+            <l>de haber lugar en qué caber la queja.</l>
+            <stage>Pareado, estribillo</stage>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l n="905">Suspended, suspended de vuestras voces</l>
+            <l>los ecos, que aunque dulces y veloces</l>
+            <l>pueblan el aire en métrica armonía,</l>
+            <l>no son remedio a la tristeza mía.</l>
+            <stage>Silva depareados.</stage>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>Viendo, señor, que todos</l>
+            <l n="910">cuantos te aclaman solicitan modos</l>
+            <l>contra esa melancólica tristeza,</l>
+            <l>el coro, cuya métrica destreza</l>
+            <l>al Templo de Heliópoli servía</l>
+            <l>cuando su sacerdote me vivía,</l>
+            <l n="915">mi padre, y yo en él era</l>
+            <l>de sus sacerdotisas la primera,</l>
+            <l>de tonos e instrumentos prevenida,</l>
+            <l>quise hoy tenerte al paso,</l>
+            <l>por si lograse, acaso,</l>
+            <l n="920">la dicha yo de haberte divertido.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>¡Ay, hermosa Asenet! En vano ha sido,</l>
+            <l>que aunque yo la fineza te agradezco,</l>
+            <l>la pena que padezco</l>
+            <l>es tal que, porque más su dolor sienta,</l>
+            <l n="925">lo mismo que la alivia, la acrecienta;</l>
+            <l>y hasta saber qué es lo que quiso el cielo</l>
+            <l>en mis sueños decir, no habrá consuelo</l>
+            <l>para mí; y ya es en vano el esperalle,</l>
+            <l>puesto que no es posible que le halle</l>
+            <l n="930">el número infinito</l>
+            <l>de tantos sabios mágicos de Egipto,</l>
+            <l>pues ninguno me quieta mi deseo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage>Salen COPERO y JOSEF.</stage>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Este es Josef, aquel esclavo hebreo</l>
+            <l>que te dije que había interpretado</l>
+            <l part="I">el sueño de los dos.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="935" part="F"> Y el que postrado </l>
+            <l>logra primero y último consuelo</l>
+            <l part="I">hoy a tus reales pies.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> Alza del suelo. </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <stage>Aparte.</stage>
+            <l>¡Cielos! ¿Qué es lo que miro? ¿No es aquella</l>
+            <l>la divina beldad que vi, sin vella?</l>
+            <stage>Aparte.</stage>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="I">¿De dónde eres?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="940" part="F"> De tierra </l>
+            <l part="I">de Canaán.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> Pues no habiendo habido guerra </l>
+            <l>en tu edad entre hebreos y gitanos,</l>
+            <l part="I">¿adónde captivaste?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Tan tiranos </l>
+            <l>mis casos son, que con contarlos muero</l>
+            <l n="945">por no infamar las cosas que más quiero.</l>
+            <l>Quien pudo me vendió; ismaelitas fueron,</l>
+            <l>señor, los que mi compra y venta hicieron.</l>
+            <stage>Aparte.</stage>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>¿Y por qué estabas preso</l>
+            <l part="I">después de ser esclavo?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Menos eso </l>
+            <l n="950">puedo decir, muriendo consolado</l>
+            <l>de padecer sin culpa ni culpado</l>
+            <l>al precio de que quede de mí honrada</l>
+            <l>una mujer con culpa y disculpada;</l>
+            <l>y pues mi propia pena</l>
+            <l n="955">no he de honestar a costa de honra ajena,</l>
+            <l>y nada te ha importado</l>
+            <l>que otro sea ruin para que yo sea honrado,</l>
+            <l>de mí te sirve en esta corta esfera</l>
+            <l>en cuanto Dios iluminarme quiera.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l n="960">¡Qué cuerdamente atento</l>
+            <l>calló el cómplice, y dijo el sentimiento!</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Aunque a lo que has venido</l>
+            <l>no dudo que lo traigas ya sabido,</l>
+            <l>con todo, he de decirlo, por si acaso</l>
+            <l n="965">no lo contaron bien. Este es el caso:</l>
+            <l>yo soñé que de un río a la ribera</l>
+            <l>siete vacas bellísimas salían,</l>
+            <l>y cuando de sus márgenes pacían</l>
+            <l>las esmeraldas de la primavera,</l>
+            <l n="970">vi que otras siete de la undosa esfera,</l>
+            <l>tan flacas que esqueletos parecían,</l>
+            <l>saliendo contra ellas, consumían</l>
+            <l>la lozanía de su edad primera.</l>
+            <l>Después vi siete fértiles espigas,</l>
+            <l n="975">lágrima cada grano del rocío,</l>
+            <l>y otras siete, que en áridas fatigas</l>
+            <l>sin granarlas abril, taló el estío,</l>
+            <l>y lidiando unas y otras enemigas,</l>
+            <l>venció lo seco con llevarlo el río.</l>
+            <stage>Sonetos</stage>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="980">Que el río jeroglífico haya sido</l>
+            <l>del tiempo, gran señor, prueba es bastante,</l>
+            <l>que siempre corre y siempre va adelante,</l>
+            <l>sin que nunca haya atrás retrocedido.</l>
+            <l>Luego es el tiempo de quien ha nacido</l>
+            <l n="985">en espigas y vacas lo abundante,</l>
+            <l>y es el tiempo también el que, inconstante,</l>
+            <l>todo lo deja a nada reducido.</l>
+            <l>Siete fértiles años imagina</l>
+            <l>en espigas y vacas, cuyo halago</l>
+            <l n="990">en otros siete estériles termina;</l>
+            <l>y pues te avisa el golpe en el amago,</l>
+            <l>la abundancia prevén contra la ruina</l>
+            <l>y la felicidad contra el estrago.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Dame los brazos, que nadie</l>
+            <l n="995">de cuantos en esto hablaron</l>
+            <l>quietaron mi corazón</l>
+            <l>sino tú. Dame los brazos,</l>
+            <l>digo otra vez, y pues habla,</l>
+            <l>según el sumo descanso</l>
+            <l n="1000">que en mí introducen tus voces,</l>
+            <l>en ti tu Dios; y veo cuanto</l>
+            <l>tu infusa divina ciencia</l>
+            <l>excede a todos los sabios</l>
+            <l>que tiene Egipto; has de ser,</l>
+            <l n="1005">ya que preveniste el daño,</l>
+            <l>el que el remedio prevenga;</l>
+            <l>para cuyo efecto mando</l>
+            <l>que a tu obediencia estén todos,</l>
+            <l>desde el más noble vasallo</l>
+            <l n="1010">al más humilde, porque</l>
+            <l>no esté el puesto desairado</l>
+            <l>sin autoridad, que el lustre</l>
+            <l>hace respetuoso al cargo:</l>
+            <l>comprometiéndome en ti,</l>
+            <l n="1015">virrey de Egipto te hago;</l>
+            <l>de mi púrpura te viste,</l>
+            <l>toma mi anillo, y en tanto</l>
+            <l>que, con mi collar al cuello,</l>
+            <l>en el más triunfante carro</l>
+            <l n="1020">salgas en público, donde</l>
+            <l>cuantos te encuentren al paso</l>
+            <l>doblen la rodilla, ven</l>
+            <l>ahora a mi diestro lado,</l>
+            <l>y venid delante todos,</l>
+            <l n="1025">dándole común aplauso.</l>
+            <stage>Romance a-o</stage>
+          </sp>
+          <sp who="#copero #asenet">
+            <speaker>UNOS</speaker>
+            <l part="I">¡Viva Josef!</l>
+          </sp>
+          <sp who="#dama-1 #dama-2 #música">
+            <speaker>OTROS</speaker>
+            <l part="F"> ¡Josef viva! </l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Oíd, escuchad, que extraño</l>
+            <l>ese nombre a nuestro idioma,</l>
+            <l>y pues traducirse es claro</l>
+            <l n="1030">en la siríaca lengua</l>
+            <l>Josef, salvador, en altos</l>
+            <l>ecos: «¡Viva el salvador!»</l>
+            <l>decid, pues viene a salvarnos</l>
+            <l>el amenazado riesgo</l>
+            <l n="1035">a que fuimos condenados.</l>
+          </sp>
+          <sp who="#asenet #copero #dama-1 #dama-2 #música">
+            <speaker>TODOS</speaker>
+            <l>¡Viva el Salvador de Egipto!</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¿Quién creerá, oh piadosos astros,</l>
+            <l>que sean otros los que duermen</l>
+            <l>y sea yo el que estoy soñando?</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l n="1040">Tú, bellísima Asenet,</l>
+            <l>pues preveniste, no acaso,</l>
+            <l>tus coros para otro efecto,</l>
+            <l>mejore asumptos el canto</l>
+            <l part="I">en su alabanza.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="F"> Sí haré, </l>
+            <l n="1045">que aunque no me debió agrado</l>
+            <l>ningún hombre hasta hoy, y fue</l>
+            <l>siempre mi ceño su agravio,</l>
+            <l>no sé qué tiene este joven,</l>
+            <l>que sin violencia el recato</l>
+            <l n="1050">me inclina a su obsequio; ella</l>
+            <l>sin duda fue, con que en cuantos</l>
+            <l>milagros viendo estoy, es</l>
+            <l>éste el más bello milagro.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>¿Qué esperáis? Todos venid.</l>
+            <l n="1055">Decid conmigo, cantando:</l>
+            <l>Puesto que ser salvador...</l>
+            <stage>Quintillas</stage>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Puesto que ser salvador...</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>...de Egipto, Josef previene,...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>...de Egipto, Josef previene,...</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l n="1060">...diga el popular clamor:</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>...diga el popular clamor:</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Bendito sea el que viene</l>
+            <l>en el nombre del Señor.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Bendito sea el que viene</l>
+            <l n="1065">en el nombre del Señor.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Pues de sus iras esquivas</l>
+            <l>por él nos rescata el cielo,</l>
+            <l>aclamaciones festivas</l>
+            <l>echen las capas al suelo,</l>
+            <l n="1070">y de palmas y de olivas</l>
+            <l>corone el fértil verdor</l>
+            <l>sus sienes, que bien conviene</l>
+            <l>decir todos en su loor:</l>
+          </sp>
+          <sp who="#asenet #copero #dama-1 #dama-2 #música">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>Bendito sea el que viene</l>
+            <l part="I">en el nombre del Señor.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
+          <stage>Éntranse todos, llevándose al REY en medio JOSEF y ASENET, y todos echan los mantos en el suelo al pasar; y sale por otra parte el SUEÑO.</stage>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l n="1075" part="F"> ¿Bendito sea el que viene</l>
+            <l>en el nombre del Señor?</l>
+            <l>No en vano aquella divina</l>
+            <l>hermosa virtud, que tanto</l>
+            <l>le favorece, me dijo</l>
+            <l n="1080">que, sus acciones notando,</l>
+            <l>vería en él lejanas luces</l>
+            <l>de asumpto que hoy embozado</l>
+            <l>hasta destinado tiempo,</l>
+            <l>anda en sombras; y no en vano</l>
+            <l n="1085">yo la obedecí. Mas ¿qué</l>
+            <l>logro, consigo, ni alcanzo,</l>
+            <l>si no alcanzo ni consigo,</l>
+            <l>ni logro, por más que hago</l>
+            <l>en su favor, luz ni seña</l>
+            <l n="1090">de aquel inmenso, aquel alto</l>
+            <l>sacramento que me dijo</l>
+            <l>que de todo este aparato</l>
+            <l>había de ser cumplimiento?</l>
+            <l>Y así, he de apurar si salgo</l>
+            <l n="1095">de esta duda. Nueva hermosa</l>
+            <l>deidad, que excedes al ampo</l>
+            <l>de la nieve en la pureza,</l>
+            <l>pues yo acudí a tu mandato,</l>
+            <l>acude a mi ruego tú.</l>
+            <l n="1100">Vuelve, vuelve al soberano</l>
+            <l>disfraz, que en forma visible</l>
+            <l>quiso hacer a los teatros</l>
+            <l>del mundo representable</l>
+            <l>tu amor y mi desagravio.</l>
+            <stage>EstribilloRomance a-o</stage>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
+          <stage>Sale la CASTIDAD.</stage>
+          <sp who="#castidad">
+            <speaker>CASTIDAD</speaker>
+            <l part="I">¿Qué es lo que me quieres?</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l n="1105" part="F"> Que </l>
+            <l>veas que arguye a contrario</l>
+            <l>mi invocación a la tuya.</l>
+          </sp>
+          <sp who="#castidad">
+            <speaker>CASTIDAD</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l part="F"> Como si guiaron </l>
+            <l>tus voces a un calabozo,</l>
+            <l n="1110">las mías guían a un palacio.</l>
+            <l>Tú me llevaste a que viese</l>
+            <l>ansias, penas, y trabajos,</l>
+            <l>y yo a que veas trofeos,</l>
+            <l>dichas y glorias te traigo.</l>
+            <l n="1115">¡El gran salvador de Egipto</l>
+            <l part="I">viva!</l>
+            <stage>Chirimías y atabalillos.Dentro.</stage>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l part="F"> Mira en triunfal carro </l>
+            <l>cómo salvador le aclama</l>
+            <l>el pueblo, y cómo los varios</l>
+            <l>males que causaron sueños</l>
+            <l n="1120">en términos satisfago</l>
+            <l>con las ventajas que hay</l>
+            <l>desde el baldón al aplauso,</l>
+            <l>desde la miseria al triunfo,</l>
+            <l>y desde la ruina al lauro;</l>
+            <l n="1125">y, pues que ya obedecida</l>
+            <l>de mí te miras, en cuanto</l>
+            <l>a causa segunda (puesto</l>
+            <l>que es de la primera el mando),</l>
+            <l>en premio de mi obediencia,</l>
+            <l n="1130">salir de una duda aguardo.</l>
+            <l>Tú me dijiste que anda</l>
+            <l>en estos visibles rasgos</l>
+            <l>de embozo un misterio, que es</l>
+            <l>milagro de los milagros;</l>
+            <l n="1135">y así, humilde te suplico</l>
+            <l>me le adelantes en algo</l>
+            <l>que pueda ser de mi duda</l>
+            <l>arrimo, si no descanso.</l>
+          </sp>
+          <sp who="#castidad">
+            <speaker>CASTIDAD</speaker>
+            <l>Sí haré, mas con una salva.</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l part="I">¿Qué es?</l>
+          </sp>
+          <sp who="#castidad">
+            <speaker>CASTIDAD</speaker>
+            <l n="1140" part="F"> Que los dos parezcamos </l>
+            <l>lo que somos; esto es,</l>
+            <l>como personas tratarnos</l>
+            <l>alegóricas, y no</l>
+            <l>reales, pues con eso es llano</l>
+            <l n="1145">que no habiendo en los dos tiempo</l>
+            <l>ni lugar, daremos paso</l>
+            <l>a que la interpolación</l>
+            <l>(como si acabara un acto</l>
+            <l>y empezara otro) nos supla</l>
+            <l n="1150">la síncopa de los años,</l>
+            <l>dando por vividos siete</l>
+            <l>fértiles, con que empezando</l>
+            <l>los estériles, verás</l>
+            <l>en el pósito o erario</l>
+            <l n="1155">del trigo, que ha recogido</l>
+            <l>de la abundancia el espacio,</l>
+            <l>cómo le reparte a pobres</l>
+            <l>y ricos, no exceptuando</l>
+            <l part="I">personas.</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l part="F"> Eso deseo. </l>
+          </sp>
+          <sp who="#castidad">
+            <speaker>CASTIDAD</speaker>
+            <l n="1160">Pues ven conmigo a lo alto</l>
+            <l>del monte de la visión,</l>
+            <l>patrimonio hereditario</l>
+            <l>de Josef, pues si en él fue</l>
+            <l>Isaac, su abuelo, retrato</l>
+            <l n="1165">de quien también él lo ha sido,</l>
+            <l>justo es que convenga en ambos</l>
+            <l>el mirar desde su cumbre</l>
+            <l>cómo se pueblan los campos</l>
+            <l>de racionales hormigas</l>
+            <l n="1170">que próvidas, tras el rastro</l>
+            <l>de la paja que se lleva</l>
+            <l>el Nilo, buscan el grano;</l>
+            <l>en cuya distribución</l>
+            <l>verás que hasta a sus hermanos</l>
+            <l n="1175">socorre, sin acordarse</l>
+            <l>de que le fueron ingratos;</l>
+            <l>pues subiendo de Canaán</l>
+            <l>a Egipto..., mas no perdamos</l>
+            <l part="I">tiempo. Ven conmigo.</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l part="F"> Ya </l>
+            <l n="1180">me parece que mirando</l>
+            <l>estoy, que en su busca llegan</l>
+            <l part="I">diciendo:</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
+          <stage>Vanse los dos, y salen RUBÉN, JUDAS, ISACAR, ZABULÓN, GAD, ASER, NEFTALÍ, MANASÉS, SIMEÓN, y LEVÍ, de pastores.</stage>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l part="F"> Pues ya miramos </l>
+            <l>desde aquí las altas torres</l>
+            <l>del sumptüoso palacio</l>
+            <l n="1185">del gobernador de Egipto,</l>
+            <l>lleguemos a él, confiados</l>
+            <l>en que su gran providencia</l>
+            <l>no dejará, por extraños,</l>
+            <l>de socorrernos, supuesto</l>
+            <l part="I">que a todos socorre.</l>
+          </sp>
+          <sp who="#judás">
+            <speaker>JUDAS</speaker>
+            <l n="1190" part="F"> Es tanto, </l>
+            <l>según dicen, liberal,</l>
+            <l>piadoso, apacible, y blando</l>
+            <l>que lo será con nosotros.</l>
+          </sp>
+          <sp who="#isacar">
+            <speaker>ISACAR</speaker>
+            <l>Pues a buen tiempo llegamos.</l>
+          </sp>
+          <sp who="#zabulón">
+            <speaker>ZABULÓN</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#neftalí">
+            <speaker>NEFTALÍ</speaker>
+            <l n="1195" part="F"> Como me parece, </l>
+            <l>según el séquito y fausto</l>
+            <l>que le acompaña, que es él</l>
+            <l part="I">el que sale.</l>
+          </sp>
+          <sp who="#manasés">
+            <speaker>MANASÉS</speaker>
+            <l part="F"> No es engaño, </l>
+            <l>pues lo asegura el que todos</l>
+            <l part="I">a él se arrodillan.</l>
+          </sp>
+          <sp who="#simeón">
+            <speaker>SIMEÓN</speaker>
+            <l n="1200" part="F"> Hagamos </l>
+            <l part="I">nosotros lo mesmo.</l>
+          </sp>
+          <sp who="#leví">
+            <speaker>LEVÍ</speaker>
+            <l part="F"> Y sea, </l>
+            <l>porque se mueva a escucharnos,</l>
+            <l>hablándole a nuestro modo</l>
+            <l>desde luego, con el canto</l>
+            <l n="1205">de que usan nuestros mendigos.</l>
+          </sp>
+          <sp who="#gad">
+            <speaker>GAD</speaker>
+            <l>Si lo somos, pues llegamos</l>
+            <l>limosna a pedir, ¿qué haremos</l>
+            <l part="I">en parecerlo?</l>
+          </sp>
+          <sp who="#aser">
+            <speaker>ASER</speaker>
+            <l part="F"> Postrados </l>
+            <l part="I">le esperemos.</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l part="F"> Va de voces, </l>
+            <l n="1210">que mezclen música y llanto.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
+          <stage>Salen JOSEF, el COPERO, y otros.</stage>
+          <sp who="#leví #simeón #manasés #neftalí #aser">
+            <speaker>UNOS</speaker>
+            <stage>Representan.</stage>
+            <l>Ya que del cielo el favor </l>
+            <l>para consuelo te envía</l>
+            <l>con nombre de Salvador...</l>
+            <stage>Representan.Quintilla</stage>
+          </sp>
+          <sp who="#gad #zabulón #isacar #judás #rubén">
+            <speaker>OTROS</speaker>
+            <stage>Cantan...</stage>
+            <l>el pan nuestro de cada día,</l>
+            <l n="1215">dánosle hoy, señor.</l>
+            <stage>Cantan...</stage>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Este tono y este idioma,</l>
+            <l>¿no es hebreo? ¡Cielos santos!</l>
+            <l>¿Aquí hebreo idioma y tono?</l>
+            <l>Mas ya lo que estoy mirando</l>
+            <l n="1220">vence a lo que vine oyendo.</l>
+            <l>¿No son estos mis hermanos?</l>
+            <l>No con poca admiración</l>
+            <l>de oírlos y verlos me espanto;</l>
+            <l>pero infórmense mejor</l>
+            <l n="1225">oídos y ojos.</l>
+            <stage>Romance a-oQuintilla</stage>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser">
+            <speaker>UNOS</speaker>
+            <stage>Representando.</stage>
+            <l>La agonía</l>
+            <l>nuestra goce tu favor.</l>
+            <stage>Representando.</stage>
+          </sp>
+          <sp who="#gad #zabulón #isacar #judás #rubén">
+            <speaker>OTROS</speaker>
+            <stage>Cantando.</stage>
+            <l>El pan nuestro de cada día,</l>
+            <l>dánosle hoy, señor.</l>
+            <stage>Cantando.</stage>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="1230">Ellos son, con que ya el cielo</l>
+            <l>el primer sueño ha explicado,</l>
+            <l>de que habían de adorar</l>
+            <l>sus haces al mío. ¡Oh presagio</l>
+            <l>inescrutable, que el trigo</l>
+            <l n="1235">aquí y allá, todo es pasmo!</l>
+            <l>Pues ellos no me conocen</l>
+            <l>(¿qué mucho, si es el estado</l>
+            <l>mío feliz?), disimule.</l>
+            <l>Mas, ¿cómo he de poder, cuando</l>
+            <l n="1240">me están instando alma y vida</l>
+            <l>a que me arroje a abrazarlos?</l>
+            <l>Mayormente, cuando escucho</l>
+            <l>que me dice su quebranto</l>
+            <l>en el mísero clamor</l>
+            <l n="1245">con que moverme porfía,</l>
+            <l>procurando mi favor.</l>
+            <stage>Romance a-oQuintilla</stage>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #copero #josef #música">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>El pan nuestro de cada día,</l>
+            <l>dánosle hoy, señor.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>A pesar del corazón,</l>
+            <l n="1250">que por salir a los labios</l>
+            <l>me está latiendo en el pecho,</l>
+            <l>aun más que a golpes, a saltos,</l>
+            <l>disimular me conviene</l>
+            <l>hasta saber más de espacio</l>
+            <l n="1255">(sin saber que hablan conmigo)</l>
+            <l>de mi padre y de mi amado</l>
+            <l>Benjamín; no sea que haya</l>
+            <l>mis desdichas heredado,</l>
+            <l>que es el aborrecimiento</l>
+            <l n="1260">infelice mayorazgo</l>
+            <l>con herederos forzosos.</l>
+            <l>Alzaos de la tierra, alzaos,</l>
+            <l>y decid quién sois, de dónde</l>
+            <l part="I">venís, y a qué.</l>
+            <stage>Romance a-o</stage>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l part="F"> Soberano </l>
+            <l n="1265">príncipe de Egipto, a quien</l>
+            <l>puso el cielo en este cargo</l>
+            <l>para redemptor, no sólo</l>
+            <l>suyo, mas también de cuantos</l>
+            <l>convecinos reinos vienen</l>
+            <l n="1270">tu providencia buscando:</l>
+            <l>hebreos somos de nación,</l>
+            <l>aunque hoy en tierra habitamos</l>
+            <l>de Canaán, desde que Dios</l>
+            <l>mandó por sus juicios altos</l>
+            <l n="1275">a nuestro abuelo Abrahán</l>
+            <l>que, casa y patria dejando,</l>
+            <l>a peregrinar saliese,</l>
+            <l>huyendo los simulacros</l>
+            <l>idólatras de Caldea;</l>
+            <l n="1280">pero esto aquí no es del caso...</l>
+            <l>La grande esterilidad</l>
+            <l>que ha que padecen siete años</l>
+            <l>estos orientales climas,</l>
+            <l>a tanto extremo ha llegado</l>
+            <l n="1285">en Canaán que hoja ni flor,</l>
+            <l>hierba, ni planta ha quedado</l>
+            <l>que arista no sea, o espina.</l>
+            <l>Fuentes y arroyos negaron</l>
+            <l>manantiales y corrientes,</l>
+            <l n="1290">con tal sequedad avaros</l>
+            <l>que aun mueren de sed los ríos,</l>
+            <l>y de hambre y sed los ganados,</l>
+            <l>pues en la más fértil dehesa,</l>
+            <l>y en el más puro remanso,</l>
+            <l n="1295">al triste, inútil, y estéril</l>
+            <l>malogro de siete años,</l>
+            <l>hallan catorce febreros,</l>
+            <l>sin ver en balsa ni prado</l>
+            <l>más que guijas por bebida,</l>
+            <l n="1300">ni más que terrón por pasto.</l>
+            <l>Pero, ¿qué mucho, señor,</l>
+            <l>si al inclemente fracaso</l>
+            <l>perecen las gentes, siendo</l>
+            <l>solo consuelo en su estrago</l>
+            <l n="1305">ver que, abierta en duras grietas,</l>
+            <l>la tierra está bostezando</l>
+            <l>horrores, como quien dice?</l>
+            <l>Piedad es que, si el poblado</l>
+            <l>todo es cadáveres, sea</l>
+            <l n="1310">todo sepulcros el campo.</l>
+            <l>Bien pudiéramos nosotros,</l>
+            <l>pues jóvenes nos hallamos,</l>
+            <l>peregrinar a otras tierras,</l>
+            <l>pero tenemos un lazo</l>
+            <l n="1315">tan estrecho que nos tiene</l>
+            <l>atados de pies y manos.</l>
+            <l>Hermanos somos los diez,</l>
+            <l>y un venerable, un anciano</l>
+            <l>padre que no ha de seguirnos</l>
+            <l n="1320">(que pesan mucho los años),</l>
+            <l>nos detiene, y nos obliga</l>
+            <l>a que para él vengamos,</l>
+            <l>aun más que para nosotros,</l>
+            <l>el trigo, señor, buscando</l>
+            <l n="1325">que quisiere concedernos</l>
+            <l>tu piedad. Para pagarlo</l>
+            <l>traemos dineros, y pues</l>
+            <l>cuando está el cielo cerrado,</l>
+            <l>en tu mano ha puesto Dios</l>
+            <l n="1330">la llave de sus candados,</l>
+            <l>no por nosotros, por nuestro</l>
+            <l>viejo padre... ¡Ay de mí! Cuando</l>
+            <l>más pensaba enternecerte,</l>
+            <l>¿vuelves la espalda, mostrando</l>
+            <l part="I">que no me atiendes?</l>
+            <stage>Vuelve la espalda JOSEF.</stage>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser">
+            <speaker>UNOS</speaker>
+            <l n="1335" part="F"> ¡Señor! </l>
+          </sp>
+          <sp who="#gad #zabulón #isacar #judás #rubén">
+            <speaker>OTROS</speaker>
+            <l part="I">¡Señor!</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Ellos han pensado </l>
+            <l>que es sequedad, y es terneza;</l>
+            <l>que es descariño y es llanto.</l>
+            <l>Pero cobrarme me importa,</l>
+            <l n="1340">hasta ver si es fino o falso</l>
+            <l>este afecto, y el contraste</l>
+            <l>ha de ser mi desagrado.</l>
+            <l part="I">¿Hermanos sois?</l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén">
+            <speaker>TODOS</speaker>
+            <l part="F"> Sí, señor. </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¡Lucida tropa de hermanos!</l>
+            <l part="I">Y ¿fuisteis más?</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l n="1345" part="F"> Otros dos. </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Pues, ¿cómo allá se quedaron,</l>
+            <l>y no vienen con vosotros?</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l>Como el uno murió a manos</l>
+            <l part="I">de una fiera.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Bien. ¿Y el otro? </l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l n="1350">Le excusan sus pocos años</l>
+            <l part="I">de caminos.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <stage>Aparte.</stage>
+            <l part="F">¡Oh, no sea </l>
+            <l part="I">que le hayan muerto!</l>
+            <l part="F"> Ahora acabo </l>
+            <l>de saber que sois espías,</l>
+            <l>y que venís a engañarnos</l>
+            <l n="1355">con los pretextos del trigo,</l>
+            <l>para saber de este estado</l>
+            <l>las defensas, por el odio</l>
+            <l>que siempre con los gitanos</l>
+            <l>tenéis los hebreos, y hacernos</l>
+            <l part="I">guerra después.</l>
+            <l n="1360" part="F">Esto hago, </l>
+            <l>no viniendo Benjamín,</l>
+            <l>por el temor que me ha dado</l>
+            <l>que, por hijo de Raquel,</l>
+            <l>de él no hayan hecho otro tanto</l>
+            <l part="I">como de mí.</l>
+            <stage>Aparte.Aparte.</stage>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén">
+            <speaker>TODOS</speaker>
+            <l n="1365" part="F"> No presumas, </l>
+            <l part="I">señor, que...</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Basta, que en vano </l>
+            <l>es persuadirme a que crea</l>
+            <l>que no es traidor vuestro trato;</l>
+            <l>y mientras no me traigáis</l>
+            <l n="1370">a esotro menor hermano,</l>
+            <l>a que yo vivo le vea,</l>
+            <l>ningún crédito he de daros,</l>
+            <l part="I">sino en vez...</l>
+            <l part="F">¿Quién vio jamás </l>
+            <l>dos afectos tan contrarios</l>
+            <l n="1375">como severo el amor</l>
+            <l>y enternecido el agravio?</l>
+            <l>...sino en vez de hallar en mí</l>
+            <l>piedad, que todos hallaron,</l>
+            <l part="I">castigo hallaréis.</l>
+            <stage>Aparte.</stage>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás">
+            <speaker>TODOS</speaker>
+            <l part="F"> ¿Qué es esto? </l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l n="1380">¿Qué ha de ser? Es que pagamos</l>
+            <l>de un hermano en el amor</l>
+            <l part="I">el odio del otro.</l>
+          </sp>
+          <sp who="#judás">
+            <speaker>JUDAS</speaker>
+            <l part="F"> Es claro. </l>
+          </sp>
+          <sp who="#gad">
+            <speaker>GAD</speaker>
+            <l>En términos nos castiga</l>
+            <l part="I">el cielo.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¿Qué estáis hablando </l>
+            <l n="1385">entre vosotros? ¿Es veros</l>
+            <l part="I">convencidos?</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l part="F"> Lo que hablamos </l>
+            <l>no es, señor, sino pensar</l>
+            <l>que si por Benjamín vamos</l>
+            <l>(que éste es del muchacho el nombre),</l>
+            <l n="1390">será arrancarle un pedazo</l>
+            <l>del corazón al buen viejo.</l>
+          </sp>
+          <sp who="#judás">
+            <speaker>JUDAS</speaker>
+            <l>Y quizá su amor fiarlo</l>
+            <l>de nosotros no querrá.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¿Por qué, siendo sus hermanos?</l>
+            <l n="1395">¿Habéis de echarle en un pozo,</l>
+            <l>o venderle a los extraños,</l>
+            <l part="I">o darle a las fieras?</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l part="F"> ¿Qué hombre </l>
+            <l>es éste, que penetrando</l>
+            <l>está nuestros corazones?</l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén">
+            <speaker>TODOS</speaker>
+            <l n="1400">Si nuestra culpa acordamos,</l>
+            <l>justamente padecemos.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <stage>Aparte.</stage>
+            <l>El ver que lo estén rehusando</l>
+            <l>me ha puesto en mayor sospecha.</l>
+            <l>En efecto, ese muchacho</l>
+            <l n="1405">ha de venir a mis ojos,</l>
+            <l>o a todos diez he de daros,</l>
+            <l>por exploradores, muerte.</l>
+            <l>Y para que veáis que parto</l>
+            <l>términos entre justicia</l>
+            <l n="1410">y piedad, he de entregaros</l>
+            <l>el trigo que me pedís,</l>
+            <l>sólo con que por resguardo</l>
+            <l>de que volveréis con él,</l>
+            <l>quede preso y aherrojado</l>
+            <l part="I">uno de vosotros.</l>
+            <stage>Aparte.</stage>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l n="1415" part="F"> Puesto </l>
+            <l>que fuerza es que obedezcamos,</l>
+            <l>mirad cuál queréis que quede.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <stage>Aparte.</stage>
+            <l>Simeón fue el que más tirano</l>
+            <l>en mi venta se mostró;</l>
+            <l n="1420">no es venganza sino halago</l>
+            <l>el darle con que merezca,</l>
+            <l>para que pueda, purgando</l>
+            <l>más quien más pecó, alcanzar</l>
+            <l>el perdón de su pecado.</l>
+            <stage>Aparte.</stage>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén">
+            <speaker>TODOS</speaker>
+            <l part="I">A todos mira.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="1425" part="F"> A éste elijo. </l>
+          </sp>
+          <stage>Señala a SIMEÓN.</stage>
+          <sp who="#simeón">
+            <speaker>SIMEÓN</speaker>
+            <l part="I">¡Ay de mí!</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l part="F"> Como pecamos, </l>
+            <l>padecemos. Simeón fue</l>
+            <l>el que primero la mano</l>
+            <l>puso en él, y así el primero</l>
+            <l n="1430">padece el primero daño.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="I">Siquén.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="M"> Señor. </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Ve con ellos, </l>
+            <l>y di que yo darles mando</l>
+            <l>todo el trigo que pidieren,</l>
+            <l>y al que ves que yo he nombrado</l>
+            <l n="1435">para que se quede en prendas,</l>
+            <l part="I">lleva a una prisión.</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l part="F"> Postrados </l>
+            <l>a tus pies, señor, verás</l>
+            <l>que obedecemos con tanto</l>
+            <l>afecto que haya quien culpe</l>
+            <l n="1440">más la priesa con que vamos</l>
+            <l>y volvemos, que pudiera</l>
+            <l>la tardanza, no mirando</l>
+            <l>que aquí es preciso lo presto,</l>
+            <l>y fuera culpa lo tardo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
+          <stage>Vanse.</stage>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="I">Venid, pues.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="M"> Siquén. </l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l n="1445" part="F"> Señor. </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>En habiendo ellos pagado</l>
+            <l>el trigo, harás que les pongan</l>
+            <l>en las bocas de los sacos</l>
+            <l>el dinero a cada uno</l>
+            <l n="1450">que diere; y luego en llevando</l>
+            <l>a la prisión al que elijo,</l>
+            <l>haz que no como a ordinario</l>
+            <l>preso le traten, y ya</l>
+            <l>que no sea con regalo,</l>
+            <l n="1455">sea con estimación.</l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>En todo servirte aguardo.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
+          <stage>Vase.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¿Cómo es posible, ¡ay, amor!,</l>
+            <l>que haya yo podido tanto</l>
+            <l>conmigo, que haya podido</l>
+            <l n="1460">no admitirlos en mis brazos?</l>
+            <l>Mas hasta saber si es cierto</l>
+            <l>que a Benjamín no ha alcanzado</l>
+            <l>su rencor... Pero esto quede</l>
+            <l>suspenso por este rato,</l>
+            <l n="1465">que Asenet, deidad hermosa,</l>
+            <l>a quien debí el agasajo,</l>
+            <l>sin saber cómo, de aquel</l>
+            <l>delirio, éxtasis, o rapto,</l>
+            <l>si no me engaña el deseo,</l>
+            <l n="1470">que para hablarla obligado</l>
+            <l>otra ocasión no he tenido,</l>
+            <l>entrando viene en palacio.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="30">
+          <stage>Sale ASENET.</stage>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>Quedaos todos. De esta vez</l>
+            <l>he de hablar al Rey tan claro</l>
+            <l n="1475">que sepa si de mi padre...</l>
+            <l>Mas, ¿quién es quien está al paso?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Quien viéndoos, divina aurora</l>
+            <l>del sol que buscando vais,</l>
+            <l>teme que os desvanezcáis,</l>
+            <l n="1480">como otras veces, ahora;</l>
+            <l>y así, os suplico, señora,</l>
+            <l>no en esta ocasión paséis</l>
+            <l>tan veloz como soléis.</l>
+            <l>Ved que es piadoso rigor</l>
+            <l n="1485">el que, si hacéis un favor,</l>
+            <l>con iros le deshacéis.</l>
+            <stage>Décimas</stage>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>Si yo, Josef, entendiera</l>
+            <l>lo que me decís, bien creo</l>
+            <l>que a vuestro cortés deseo</l>
+            <l n="1490">cortés agrado siguiera;</l>
+            <l>pero extraño de manera</l>
+            <l>la voz «favor» en el labio</l>
+            <l>de un hombre tan cuerdo y sabio,</l>
+            <l>que me hace el sonido horror.</l>
+            <l n="1495">¿Qué quiere decir «favor»?,</l>
+            <l>que me suena como agravio.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Si es dejaros ver, y no</l>
+            <l>dejaros agradecer,</l>
+            <l>querer ser noble, y querer</l>
+            <l n="1500">que no lo parezca yo;</l>
+            <l>y, si es que a lo que os debió,</l>
+            <l>el alma no ha respondido,</l>
+            <l>es que ocasión no he tenido;</l>
+            <l>y así, achacad lo tardado</l>
+            <l n="1505">a culpa de desdichado,</l>
+            <l>no de desagradecido.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>Pues, ¿cuándo me dejé ver</l>
+            <l>yo de vos, ni cuándo yo</l>
+            <l>con vos hice acción que no</l>
+            <l n="1510">pudisteis agradecer?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Cuando al verme padecer</l>
+            <l>una duda que tenía,</l>
+            <l>que juzgase que la vía,</l>
+            <l>dijisteis. Ya lo juzgué</l>
+            <l part="I">y la vi.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="M"> Pues pensad... </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="1515" part="F"> ¿Qué? </l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>...que alguna ilusión sería;</l>
+            <l>y pues en sueños estáis</l>
+            <l>tan maestro que os enseñan</l>
+            <l>a explicar lo que otros sueñan,</l>
+            <l n="1520">explicaos lo que soñáis.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Aun no me desconfiáis</l>
+            <l>con todo aquese baldón.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Como la razón </l>
+            <l>publica en mis desempeños</l>
+            <l n="1525">que aunque los sueños son sueños,</l>
+            <l>sueños hay que verdad son.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>¿Cómo puede ser verdad</l>
+            <l>que yo os hablase, ni viese,</l>
+            <l>ni que favor os hiciese,</l>
+            <l n="1530">cuando es tal mi vanidad</l>
+            <l>que si la hermosa deidad</l>
+            <l>de la Castidad hubiera</l>
+            <l>de tomar forma, no fuera</l>
+            <l>posible que otra tomara</l>
+            <l n="1535">que la mía, pues no hallara</l>
+            <l>quien más se la pareciera?</l>
+            <l>Ella y yo somos tan una</l>
+            <l>que nuestra gentilidad,</l>
+            <l>si retrata su deidad,</l>
+            <l n="1540">es de mí espejo en la luna.</l>
+            <l>Apenas veréis alguna</l>
+            <l>estatua suya que no</l>
+            <l>se me parezca, y si vio</l>
+            <l>de paso la fantasía</l>
+            <l n="1545">vuestra alguna, ella sería,</l>
+            <l>porque no pude ser yo.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>No sólo desengañado</l>
+            <l>(para no ser atrevido)</l>
+            <l>quedo, pero agradecido.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="I">¿De qué?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="1550" part="F"> De que mi cuidado </l>
+            <l>se tiene más bien hallado</l>
+            <l>después que sé que ilusión</l>
+            <l>fue, que si en mi religión</l>
+            <l>por virtud la Castidad</l>
+            <l n="1555">adoré, la pariedad</l>
+            <l>disculpa la adoración.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>No disculpa, que el desdén</l>
+            <l>mío hará (mas no hará tal,</l>
+            <l>que no me parece mal</l>
+            <l n="1560">el que le parezca bien)</l>
+            <l>que escarmentados estén</l>
+            <l>todos en el que primero</l>
+            <l part="I">se atreva.</l>
+            <stage>Aparte.</stage>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Aun bien, que no espero </l>
+            <l part="I">serlo yo.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="M"> ¿Por qué? </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Porque </l>
+            <l n="1565">nunca yo me atreveré,</l>
+            <l>señora, a decir que os quiero,</l>
+            <l>porque, como la voz mía,</l>
+            <l>ya ilusión, ya estatua sea</l>
+            <l>la que dio cuerpo a la idea</l>
+            <l n="1570">de mi ciega fantasía,</l>
+            <l>a decir tendría osadía,</l>
+            <l>que desde aquel punto fue</l>
+            <l>desde el que yo os adoré.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="I">Pues...</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Suspended el castigo, </l>
+            <l n="1575">que yo, en decir lo que digo,</l>
+            <l>digo lo que no diré.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>Ya en no decirlo incluyó</l>
+            <l>por lo menos el saberlo.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Si quisisteis entenderlo</l>
+            <l n="1580">vos, ¿qué culpa tengo yo?</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="I">¿Eso no es decirlo?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> No. </l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>¿Pues qué? El darlo a entender es.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="I">¿Daisme licencia?</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="M"> Sí. </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Pues </l>
+            <l>oíd atenta. Nadie ignora...,</l>
+            <l part="I">pero el Rey...</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l n="1585" part="F"> Callad ahora, </l>
+            <l>mas decídmelo después.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="31">
+          <stage>Sale el REY.</stage>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>¿Asenet? ¿Josef? ¡Oh, cuánto</l>
+            <l>de ver a los dos me huelgo!,</l>
+            <l>que sois los dos mi mayor</l>
+            <l n="1590">cuidado, de quien deseo</l>
+            <l part="I">desempeñarme.</l>
+            <stage>Romance e-o</stage>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="F"> A tus pies </l>
+            <l part="I">humilde,...</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> A tus plantas puesto..., </l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>...siempre a tu obediencia estoy.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>...y yo a tu servicio atento.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l n="1595">Tú, Asenet, habrás venido,</l>
+            <l>como otras veces, a efecto,</l>
+            <l>claro está, de que en ti premie</l>
+            <l>los servicios que confieso</l>
+            <l>deber a tu padre. JOSEF Tú,</l>
+            <l n="1600">acreedor de mis afectos</l>
+            <l>también estás, por haberme,</l>
+            <l>no solamente mi reino</l>
+            <l>restaurado, pero el mundo</l>
+            <l>puedo decir, cuando veo</l>
+            <l n="1605">que a todo el mundo le alcanza</l>
+            <l>tu gran providencia, siendo</l>
+            <l>en tres idiomas tus nombres</l>
+            <l>Josef, Salvador, y Aumento;</l>
+            <l>con que viéndome obligado</l>
+            <l n="1610">a dos deudas, no me atrevo</l>
+            <l>a resolver cuál será</l>
+            <l>de ambos el más digno premio;</l>
+            <l>y así, para que no yerre</l>
+            <l>la elección, consultar quiero</l>
+            <l n="1615">primero, Josef, contigo</l>
+            <l>el de Asenet; y luego</l>
+            <l>contigo, hermosa Asenet,</l>
+            <l>el de Josef, pues con eso,</l>
+            <l>siendo vuestro el parecer,</l>
+            <l n="1620">vendrá a ser mío el acierto.</l>
+            <l>Oye, pues, Josef: yo estimo</l>
+            <l>tu persona con extremo</l>
+            <l>tal, que asegurar quisiera</l>
+            <l>el que no como extranjero</l>
+            <l n="1625">de paso en Egipto vivas;</l>
+            <l>para esto es el mejor medio</l>
+            <l>tomar estado. Asenet</l>
+            <l part="I">es...</l>
+            <stage>A JOSEF.Aparte, a JOSEF.</stage>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Sin decirlo, te beso </l>
+            <l>una y mil veces la mano</l>
+            <l n="1630">por tal honra, bien que temo,</l>
+            <l>si la merezco de ti,</l>
+            <l>que de ella no la merezco.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Eso sabré yo. ASENET Asenet,</l>
+            <l>cuanto de Josef aprecio</l>
+            <l n="1635">la persona, pues que todos</l>
+            <l>lo saben, fuerza es saberlo</l>
+            <l>tú también; si en él te diere</l>
+            <l>otro yo, pues yo no puedo</l>
+            <l part="I">darme a mí...</l>
+            <stage>Aparte a ASENET.</stage>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="F"> Que no prosigas </l>
+            <l n="1640">te suplico, pues es cierto</l>
+            <l>que yo no tengo elección,</l>
+            <l>que sólo obediencia tengo.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Pues ya que uno y otro sabe</l>
+            <l>la merced que le prevengo,</l>
+            <l n="1645">particípela uno a otro,</l>
+            <l>que yo, a dos deudas atento,</l>
+            <l>ni puedo pagar con más</l>
+            <l>ni puedo cumplir con menos.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="32">
+          <stage>Vase.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¿Atreveréme a saber</l>
+            <l n="1650">de ti, divino portento</l>
+            <l>(que hasta oírlo de tus labios,</l>
+            <l>no me persuado a creerlo),</l>
+            <l part="I">lo que el Rey te dijo?</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="F"> Nada </l>
+            <l part="I">me dijo a mí.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Según eso, </l>
+            <l n="1655">a mí me lo dijo todo.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l>Pues dítelo tú a ti mesmo,</l>
+            <l>sin que a mí me lo preguntes,</l>
+            <l>que entre cariño y respecto,</l>
+            <l>ni me está bien el decirlo</l>
+            <l n="1660">ni me está bien el saberlo.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="33">
+          <stage>Vase.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Embarazóla el recato.</l>
+            <l>¿Cuándo, oh infinito, oh inmenso</l>
+            <l>Dios de Abrahán, Dios de Isaac,</l>
+            <l>y Dios de Jacob, pudieron</l>
+            <l n="1665">lograr tan altas fortunas</l>
+            <l>tan cortos merecimientos?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="34">
+          <stage>Sale COPERO.</stage>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l part="I">¡Albricias, señor!</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¿De qué? </l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>De que, apresurando el tiempo,</l>
+            <l>que vuela más cuando vuela</l>
+            <l n="1670">con las alas del deseo,</l>
+            <l>ya a tus umbrales están</l>
+            <l>los diez hermanos hebreos.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Diles que entren, y ve tú</l>
+            <l>a hacer que traigan el preso.</l>
+            <l n="1675">Aquí del segundo amor,</l>
+            <l>y no sé si del primero,</l>
+            <l>que entre amor que todo es sangre</l>
+            <l>y entre amor que todo es fuego,</l>
+            <l>a fuego y sangre es forzoso</l>
+            <l n="1680">lidiar con ambos afectos.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="35">
+          <stage>Vase el COPERO. Salen los hermanos, BENJAMÍN con ellos, y BATO, villano rústico.</stage>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #benjamín">
+            <speaker>TODOS</speaker>
+            <l>Danos, gran señor, tus plantas.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Alzad, levantad del suelo.</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l>Ya, señor, a Benjamín,</l>
+            <l>a pesar del sentimiento</l>
+            <l n="1685">y dolor de nuestro padre,</l>
+            <l>como mandaste, traemos</l>
+            <l part="I">a tu presencia.</l>
+          </sp>
+          <sp who="#judás">
+            <speaker>JUDAS</speaker>
+            <stage>A BENJAMÍN.</stage>
+            <l part="F">¿Qué aguardas? </l>
+            <l part="I">Llega a sus pies.</l>
+            <stage>A BENJAMÍN.</stage>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l part="F"> Si merezco </l>
+            <l>besar tu mano, será</l>
+            <l n="1690">la dicha mayor que puedo</l>
+            <l part="I">desear.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Por las noticias </l>
+            <l>que tus hermanos me dieron</l>
+            <l>de ti, quise verte; seas</l>
+            <l>bien venido. ¿Cómo puedo</l>
+            <l n="1695">resistirme a no entrañarle</l>
+            <l>dentro del corazón? Pero</l>
+            <l>aun me falta otra experiencia.</l>
+            <l>¡Cuánto de verte me huelgo!</l>
+            <l>¿Cómo dejas a tu padre?</l>
+            <stage>Aparte.</stage>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l n="1700">Con el sumo desconsuelo</l>
+            <l part="I">de quedar sin mí.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¿Que tanto </l>
+            <l part="I">te ama?</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l part="F"> Soy hijo postrero, </l>
+            <l>y quieren mucho a los hijos</l>
+            <l>los que los consiguen viejos;</l>
+            <l n="1705">y no sólo esto, ni el ser</l>
+            <l>hijo de Raquel, me ha puesto</l>
+            <l>en tanto grado de amor</l>
+            <l>(bien que sin merecimiento),</l>
+            <l>sino que tuve otro hermano,</l>
+            <l n="1710">de ella también hijo, y siendo</l>
+            <l>así que faltó, el amor</l>
+            <l>que en dos partido, era medio,</l>
+            <l>todo se retrajo a mí.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="I">¿De qué murió esotro?</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l part="F"> Eso, </l>
+            <l n="1715">te suplico no preguntes.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="I">¿Por qué?</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l part="F"> Porque me enternezco </l>
+            <l>tanto que hablar no podré</l>
+            <l>si de mi Josef me acuerdo.</l>
+            <l>Baste saber que murió,</l>
+            <l n="1720">sin que refiera el suceso</l>
+            <l> tan trágico, como a manos</l>
+            <l part="I">de una fiera.</l>
+            <stage>Llora.</stage>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¿Cómo, cielos, </l>
+            <l>sus lágrimas y las mías</l>
+            <l>no están a voces diciendo</l>
+            <l part="I">quién es, y quién soy?</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l n="1725" part="F"> En fin </l>
+            <l>(pues que no es del caso esto),</l>
+            <l>mi anciano padre, señor,</l>
+            <l>agradecido en extremo</l>
+            <l>a tu liberalidad,</l>
+            <l n="1730">conmigo te envía un pequeño</l>
+            <l>regalo, porque no da</l>
+            <l>más de sí estéril el tiempo:</l>
+            <l>unos recentales, unos</l>
+            <l>panales, mantecas, quesos,</l>
+            <l n="1735">pobre don de pastor pobre;</l>
+            <l>pero en rendidos obsequios</l>
+            <l>más que lo que brilla el oro</l>
+            <l>vale lo que ahuma el incienso.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="36">
+          <stage>Sale COPERO, y SIMEÓN.</stage>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Ya, señor, tienes aquí</l>
+            <l n="1740">el que en rehenes quedó preso.</l>
+          </sp>
+          <sp who="#simeón">
+            <speaker>SIMEÓN</speaker>
+            <l>Todos los brazos me dad.</l>
+          </sp>
+          <sp who="#judás">
+            <speaker>JUDAS</speaker>
+            <l>No dirás que no volvemos</l>
+            <l>presto por ti, Simeón.</l>
+          </sp>
+          <sp who="#simeón">
+            <speaker>SIMEÓN</speaker>
+            <l>La fineza os agradezco.</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <stage>A BENJAMÍN.</stage>
+            <l n="1745">Pues te escucha con agrado,</l>
+            <l>di que nos despache presto.</l>
+            <stage>A BENJAMÍN.</stage>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l>Ya, señor, que ves cumplido</l>
+            <l>tu mandato, y que el deseo</l>
+            <l>de nuestro padre estará</l>
+            <l n="1750">tan cuidadoso hasta vernos,</l>
+            <l>te suplicamos nos vuelvas</l>
+            <l>a dar licencia y sustento.</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l>Del trigo que mandes darnos</l>
+            <l>traemos doblados los precios,</l>
+            <l n="1755">porque allá tus cobradores,</l>
+            <l>o por olvido o por yerro,</l>
+            <l>en los costales dejaron</l>
+            <l>la cantidad del dinero</l>
+            <l>del que llevamos entonces.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="1760">Está bien; pero primero</l>
+            <l>que os despache ni que os vais,</l>
+            <l>en justo agradecimiento</l>
+            <l>del regalo de Jacob,</l>
+            <l>que comáis conmigo quiero.</l>
+            <l n="1765">Haz tú prevenir las mesas,</l>
+            <l>y mira lo que te advierto:</l>
+            <l>sirvan siempre a Benjamín</l>
+            <l>doblada porción; en esto</l>
+            <l>he de preferirle, hijo</l>
+            <l n="1770">de la hermosa Raquel; luego,</l>
+            <l>al entregarles el trigo,</l>
+            <l>vuelve a poner los dineros</l>
+            <l>como antes; pero añade</l>
+            <l>la copa de oro en que bebo</l>
+            <l n="1775">al costal de Benjamín.</l>
+            <stage>Aparte al COPERO.</stage>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Verás que en todo obedezco.</l>
+            <l>¿Qué misterios estos son</l>
+            <l>que yo ni alcanzo ni entiendo?</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="37">
+          <stage>Aparte.Vase.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Entrad, pues, entrad conmigo,</l>
+            <l n="1780">que éste es mi cuarto, en que quiero</l>
+            <l>que a mi mesa os sentéis todos.</l>
+            <l part="I">¿Qué os detiene?</l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #benjamín #bato">
+            <speaker>TODOS</speaker>
+            <l part="F"> Tu respecto. </l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l>Señor, humildes pastores</l>
+            <l>¿con tan alto, tan supremo</l>
+            <l n="1785">gobernador, que es segunda</l>
+            <l>persona del Rey excelso,</l>
+            <l>sentarse a comer? Ved que es</l>
+            <l part="I">humanaros mucho.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> En eso </l>
+            <l>de ser segunda persona,</l>
+            <l n="1790">humanarme, y dar sustento</l>
+            <l>a todos los peregrinos</l>
+            <l>que a mí vienen, quizá el cielo</l>
+            <l>de otro pósito de pan</l>
+            <l>anda rastreando el misterio.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="38">
+          <stage>Vanse, y queda solo BATO.</stage>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l n="1795">Todo el tiempo que han habrado</l>
+            <l>me'stao un pazguato hecho,</l>
+            <l>la boca abierta. ¿Quién vio</l>
+            <l>habrirla para el silencio?</l>
+            <l>A que sirva en el camino</l>
+            <l n="1800">a Benjamín, mi amo el viejo</l>
+            <l>me invió, porque él no coide</l>
+            <l>de aparejarse el jomento;</l>
+            <l>y ve aquí que de su padre</l>
+            <l>toma a la lletra el consejo,</l>
+            <l n="1805">pues ni del jomento coida</l>
+            <l>ni de mí, que so lo mesmo.</l>
+            <l>¿Tanto hiciera de acordarse,</l>
+            <l>ya que sentado lle veo</l>
+            <l>a tal mesa, de decir:</l>
+            <l n="1810">«lleven a aquel majiadero</l>
+            <l>este prato»? ¡Cuántos amos</l>
+            <l>se sientan a comer ellos,</l>
+            <l>sin saber si los criados</l>
+            <l>comen, o no comen! Pero</l>
+            <l n="1815">yo le quiero disculpar,</l>
+            <l>pues reclinado en el pecho</l>
+            <l>del Virrey, como muchacho</l>
+            <l>se aduerme, quizá suspenso</l>
+            <l>de verse en tanta grandeza.</l>
+            <l n="1820">¡Qué apa'dores tan bellos!</l>
+            <l>¡Qué viandas! ¡Qué bebidas!</l>
+            <l>¡Qué lucidos escoderos,</l>
+            <l>y qué pajes tan golosos!</l>
+            <l>Y deben de ser muy necios,</l>
+            <l n="1825">pues apenas a un rincón</l>
+            <l>habran a un prato en secreto</l>
+            <l>natural, cuando le dejan</l>
+            <l>brumados todos los güesos.</l>
+            <l>Mas ya las mesas levantan,</l>
+            <l n="1830">y despedidos, es cierto</l>
+            <l>que hacia el pósito del trigo</l>
+            <l>irán. A él seguirlos quiero,</l>
+            <l>para ayudar a cargar</l>
+            <l>los costales. Que no tengo</l>
+            <l n="1835">hartos amos que servir,</l>
+            <l>nadie lo dirá, supuesto</l>
+            <l>que estamos aquestas horas,</l>
+            <l>ellos hartos, y yo hambriento.</l>
+            <l>¡Ay, que es tan grande el palacio</l>
+            <l n="1840">que no sé si salgo o entro,</l>
+            <l>ni donde vengo ni voy!</l>
+            <l>Mas ¿cuándo yo vo ni vengo?</l>
+            <l>Haz'aquí el gobirlador</l>
+            <l part="I">viene.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="39">
+          <stage>Sale JOSEF.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="M"> ¿Quién sois? </l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l part="F"> Si me acuerdo, </l>
+            <l part="I">lo diré.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="1845" part="F"> ¿Pues de quién sois </l>
+            <l part="I">os olvidáis?</l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l part="F"> No es muy nuevo, </l>
+            <l>que muchos s'an olvidado</l>
+            <l part="I">de quién son.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¿Cómo aquí dentro </l>
+            <l part="I">entrasteis?</l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <stage>Anda BATO.</stage>
+            <l part="M"> Ansí. </l>
+            <stage>Anda BATO.</stage>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¿Quién sois? </l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l n="1850">So, ahora que caigo en ello,</l>
+            <l>de Benjamín jomentizo.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¿Qué queréis decir en eso?</l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l>¿Caballerizo no llaman</l>
+            <l>el que acá en casa del dueño</l>
+            <l part="I">cuida los caballos?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="1855" part="F"> Sí. </l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l>Lluego será allá llo mesmo,</l>
+            <l>pues será allá jomentizo</l>
+            <l>quien coida de los jomentos.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>¿De Benjamín sois criado?</l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l part="I">Sí, señor.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="1860" part="F"> No sólo quiero </l>
+            <l>enojarme ya con vos,</l>
+            <l>sino antes favoreceros.</l>
+            <l>Tomad aqueste diamante.</l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l>Y ¿para qué es, señor, bueno,</l>
+            <l n="1865">metido en este latón</l>
+            <l>este pedazo de espejo?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="40">
+          <stage>Dentro COPERO y todos; y luego salen.</stage>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Todos habéis de pagar</l>
+            <l part="I">su culpa.</l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #jacob #benjamín">
+            <speaker>TODOS</speaker>
+            <l part="F"> Mirad primero... </l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l>¡Ay, infelice de mí!</l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #jacob #benjamín">
+            <speaker>TODOS</speaker>
+            <l part="I">...que, aunque pastores...</l>
+          </sp>
+          <stage>Sacan como preso a BENJAMÍN, que traerá en la mano un cáliz dorado.</stage>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l n="1870" part="F"> ¿Qué es eso? </l>
+          </sp>
+          <sp who="#copero">
+            <speaker>COPERO</speaker>
+            <l>Es, señor, una osadía</l>
+            <l>tan vil, un atrevimiento</l>
+            <l>tan bajo, como después</l>
+            <l>de honrarlos con tanto exceso</l>
+            <l n="1875">tú, y entregarles yo todo</l>
+            <l>el trigo que me pidieron,</l>
+            <l>llevarse hurtada esta copa</l>
+            <l>de oro, que es el cáliz bello</l>
+            <l>de tu más precioso vino;</l>
+            <l n="1880">y habiéndole echado menos,</l>
+            <l>los he seguido, y hallado</l>
+            <l>en el costal más pequeño</l>
+            <l>del menor hermano, a quien</l>
+            <l>no se le he quitado, atento</l>
+            <l n="1885">a que viéndole en su mano,</l>
+            <l part="I">él diga su error.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Por cierto, </l>
+            <l>que habéis tenido muy poca</l>
+            <l>atención. Pues ¿mi festejo</l>
+            <l part="I">y mi agasajo?</l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #jacob #benjamín #asenet">
+            <speaker>TODOS</speaker>
+            <l part="F"> ¡Señor! </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="I">Callad.</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l n="1890" part="F"> Que me oigas te ruego. </l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l>¡Miren el Benjaminito</l>
+            <l>la maña que ha descubierto!</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l>Si el dinero que llevaron</l>
+            <l>mis hermanos te volvieron,</l>
+            <l n="1895">sin saber ellos quién fuese</l>
+            <l>quien allí le hubiese puesto,</l>
+            <l>¿no es más fácil creer que a mí</l>
+            <l>me ha sucedido lo mesmo,</l>
+            <l>que no creer que hay aquí hurto,</l>
+            <l n="1900">que es humano sacrilegio</l>
+            <l>contra la sangre más noble?</l>
+            <l>Pues, ya que no descendemos</l>
+            <l>de reyes, descenderán</l>
+            <l part="I">reyes de nosotros.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¡Menos </l>
+            <l n="1905">arrogancia, rapaz! ¿Cómo</l>
+            <l>habláis así, cuando veo</l>
+            <l>tan claro vuestro delito?</l>
+            <l>Y aunque de uno y otro, es cierto</l>
+            <l>que todos cómplices sois,</l>
+            <l n="1910">éste castigar pretendo,</l>
+            <l>no más. La ley al que hurta</l>
+            <l>bienes de otro, en este reino</l>
+            <l>dispone que quede esclavo</l>
+            <l>el vil agresor del dueño</l>
+            <l n="1915">a quien los hurta; y así,</l>
+            <l>bien podéis todos volveros,</l>
+            <l>porque Benjamín esclavo</l>
+            <l part="I">mío ha de quedar.</l>
+          </sp>
+          <sp who="#benjamín">
+            <speaker>BENJAMÍN</speaker>
+            <l part="F"> No siento </l>
+            <l>quedar tu esclavo, señor,</l>
+            <l n="1920">que ese no es castigo, es premio.</l>
+            <l>La nota, sí, y el dolor</l>
+            <l>de un anciano padre viejo,</l>
+            <l>que por mí te representa</l>
+            <l>que nunca tuvo consuelo</l>
+            <l n="1925">en la pérdida de un hijo,</l>
+            <l>desdichadamente muerto.</l>
+            <l>Pues, ¿qué será la de otro,</l>
+            <l>muerto infamemente? Habiendo</l>
+            <l>de la desdicha a la culpa</l>
+            <l n="1930">(cuando en mí la hubiera) extremos</l>
+            <l>tales como hay de morir</l>
+            <l>honrado a vivir sin serlo.</l>
+            <l>Duélete de él, no de mí,</l>
+            <l part="I">que yo...</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¡No más! Ea, volveos </l>
+            <l n="1935">vosotros sin él, pues él</l>
+            <l part="I">mi esclavo queda.</l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #jacob #asenet">
+            <speaker>TODOS</speaker>
+            <l part="F"> Primero </l>
+            <l>que sin Benjamín volvamos</l>
+            <l>a vista, señor, de nuestro</l>
+            <l>venerable anciano padre,</l>
+            <l part="I">las vidas nos quita.</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l n="1940" part="F"> Y si eso </l>
+            <l>(que morir el desdichado</l>
+            <l>ya es dicha) no merecemos,</l>
+            <l>mejor para esclavo yo,</l>
+            <l>de más servicio y provecho,</l>
+            <l n="1945">seré; truécale por mí.</l>
+          </sp>
+          <sp who="#manasés">
+            <speaker>MANASÉS</speaker>
+            <l>Yo también por él me ofrezco.</l>
+          </sp>
+          <sp who="#simeón">
+            <speaker>SIMEÓN</speaker>
+            <l>¡Vuélveme a mí a mis prisiones!</l>
+          </sp>
+          <sp who="#judás">
+            <speaker>JUDAS</speaker>
+            <l>¡Sellen mi rostro tus hierros!</l>
+          </sp>
+          <sp who="#leví">
+            <speaker>LEVÍ</speaker>
+            <l>¡Arrastre yo tus cadenas!</l>
+          </sp>
+          <sp who="#isacar">
+            <speaker>ISACAR</speaker>
+            <l n="1950">¡Ponme a mí una argolla al cuello!</l>
+          </sp>
+          <sp who="#neftalí">
+            <speaker>NEFTALÍ</speaker>
+            <l>¡A mí el yugo de tu carro!</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l>Que todos beber queremos...,</l>
+          </sp>
+          <sp who="#gad">
+            <speaker>GAD</speaker>
+            <l>...confesando que esto es</l>
+            <l>pena de un delito nuestro...</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l n="1955">...nuestra muerte en este cáliz</l>
+            <l>que está de amargura lleno...</l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #jacob #asenet">
+            <speaker>TODOS</speaker>
+            <l>...antes que sin Benjamín</l>
+            <l part="I">volver.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> ¿Qué aguardo, qué espero, </l>
+            <l>si confesando el delito</l>
+            <l n="1960">con tan llorosos extremos,</l>
+            <l>en mi cáliz de amarguras</l>
+            <l>bebe su arrepentimiento?</l>
+            <l>Dame, Benjamín, los brazos,</l>
+            <l>que ya no cabe en el pecho</l>
+            <l n="1965">roto el corazón. Rubén,</l>
+            <l>llega tú también a ellos.</l>
+          </sp>
+          <sp who="#rubén">
+            <speaker>RUBÉN</speaker>
+            <l>Sin haberte dicho nunca,</l>
+            <l part="I">¿mi nombre sabes?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> No eso </l>
+            <l>te admire. Llega Judá,</l>
+            <l part="I">Simeón, Leví, Gad...</l>
+          </sp>
+          <sp who="#judás #simeón #leví #gad">
+            <speaker>LOS CUATRO</speaker>
+            <l n="1970" part="F"> ¿Qué es esto? </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>...Isacar y Zabulón,</l>
+            <l>Manasés y Aser, abiertos</l>
+            <l>para todos están, ya</l>
+            <l>que arrepentidos os veo.</l>
+            <l n="1975">¿Qué os admira, qué os espanta</l>
+            <l>en mí este conocimiento</l>
+            <l>si soy Josef, vuestro hermano?</l>
+            <l>No os turbe verme en tal puesto,</l>
+            <l>que de culpas, ya una vez</l>
+            <l n="1980">confesadas, no me acuerdo.</l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #benjamín">
+            <speaker>UNOS</speaker>
+            <l part="I">De confusos...,</l>
+          </sp>
+          <sp who="#gad #zabulón #isacar #judás #rubén #jacob">
+            <speaker>OTROS</speaker>
+            <l part="F"> De turbados..., </l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #benjamín">
+            <speaker>OTROS</speaker>
+            <l part="I">De absortos...,</l>
+          </sp>
+          <sp who="#gad #zabulón #isacar #judás #rubén #jacob">
+            <speaker>OTROS</speaker>
+            <l part="F"> ...y de suspensos, </l>
+          </sp>
+          <sp who="#leví #simeón #manasés #neftalí #aser #benjamín #gad #zabulón #isacar #judás #rubén #jacob">
+            <speaker>TODOS</speaker>
+            <l>...no sabemos qué decirte.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Ni yo sé qué responderos,</l>
+            <l n="1985">y más cuando de estas sombras</l>
+            <l>al ver la luz me enternezco.</l>
+          </sp>
+          <sp who="#bato">
+            <speaker>BATO</speaker>
+            <l>¿Qué hago yo aquí, que no voy</l>
+            <l>con estas nuevas al viejo?</l>
+            <l>¿Cuánto va que con sus años</l>
+            <l n="1990">a cuestas viene corriendo</l>
+            <l>a verle?; que un poco antes</l>
+            <l>u después, todo es del texto.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="41">
+          <stage>Vase, y sale el REY, ASENET, y MÚSICOS.</stage>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>¿Qué es esto, Josef, pues cuando</l>
+            <l>yo mismo a tu cuarto vengo</l>
+            <l n="1995">con Asenet, a lograr</l>
+            <l>tu mayor merecimiento,</l>
+            <l part="I">llorando estás?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Sí, señor, </l>
+            <l>que tal vez llora el contento.</l>
+            <l>Los que ves son mis hermanos,</l>
+            <l n="2000">y no solamente el verlos</l>
+            <l>me arrebató el corazón,</l>
+            <l>sino el pensar que anda entre ellos</l>
+            <l part="I">y entre mí un misterio.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="F"> ¿Cómo? </l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Como estar cerrado el cielo,</l>
+            <l n="2005">necesitada la tierra,</l>
+            <l>venir ansiosos pidiendo</l>
+            <l>pan mis hermanos, y hallarle</l>
+            <l>del pósito que he dispuesto</l>
+            <l>encerrado en la custodia,</l>
+            <l n="2010">sentarse a mi mesa, y luego</l>
+            <l>ver el cáliz de ella en manos</l>
+            <l>del que se durmió en mi pecho,</l>
+            <l>que es el menor de los doce;</l>
+            <l>ser él en su sentimiento</l>
+            <l n="2015">el áspid de su delito;</l>
+            <l>llorarle a voces, diciendo</l>
+            <l>que es pena de su pecado:</l>
+            <l>visos son, sombras y lejos</l>
+            <l>del prometido Mesías</l>
+            <l n="2020">que a nuestros padres y abuelos</l>
+            <l>en vino y pan han previsto</l>
+            <l>el más alto sacramento.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>¿Qué sacramento haber puede</l>
+            <l part="I">en el pan y el vino?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="42">
+          <stage>Descúbrese un monte, y en él al SUEÑO en un carro triunfal.</stage>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l part="F"> Eso </l>
+            <l n="2025">dirán mis ideas. Yo,</l>
+            <l>que desde este monte excelso,</l>
+            <l>adonde la Castidad</l>
+            <l>me dejó, por irse al pecho</l>
+            <l>de Asenet, estoy mirando,</l>
+            <l n="2030">no sólo que quiere el cielo</l>
+            <l>que a quien venció un torpe amor,</l>
+            <l>corone un amor honesto;</l>
+            <l>pero en cuatro sueños míos,</l>
+            <l>las señas deste misterio.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="I">¿En cuatro sueños?</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l part="M"> Sí. </l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l n="2035" part="F"> ¿Cuáles </l>
+            <l part="I">son esos cuatro?</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l part="F"> El primero, </l>
+            <l>el de Jacob, cuando llegue</l>
+            <l>a ver a Josef, diciendo:</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="43">
+          <stage>Salen JACOB y BATO.</stage>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l>Dame, mi Josef, los brazos.</l>
+            <l n="2040">¿Es posible que te veo</l>
+            <l>vivo, al fin de tantos días</l>
+            <l>como te he llorado muerto?</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Habla al Rey y a Asenet, antes</l>
+            <l part="I">que a mí.</l>
+          </sp>
+          <sp who="#jacob">
+            <speaker>JACOB</speaker>
+            <l part="F"> Perdone el respecto, </l>
+            <l n="2045">señor, que no estoy en mí,</l>
+            <l>que me parece que sueño,</l>
+            <l>como cuando vi una escala</l>
+            <l>en que los cielos abiertos</l>
+            <l>se abrazaban con la tierra,</l>
+            <l n="2050">explicando ángeles bellos</l>
+            <l>al hombre cuándo subían,</l>
+            <l>cuándo bajaban, al Verbo.</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l>Ese el primer sueño es</l>
+            <l>de los cuatro, a quien siguieron</l>
+            <l n="2055">después del Verbo Encarnado,</l>
+            <l>el segundo y el tercero,</l>
+            <l>que al propósito de hoy</l>
+            <l>son los del pan y el sarmiento</l>
+            <l>en quien muerte y vida da,</l>
+            <l n="2060">se explicarán, repitiendo:</l>
+          </sp>
+          <stage>Aparecen las dos primeras SOMBRAS, de gala, en el carro del abanico, elevadas en el aire.</stage>
+          <sp who="#sombra-1">
+            <speaker>SOMBRA 1</speaker>
+            <l>El pan, a quien devoraron</l>
+            <l>las aves, para que el reo</l>
+            <l part="I">coma en él su juicio...</l>
+          </sp>
+          <sp who="#sombra-2">
+            <speaker>SOMBRA 2</speaker>
+            <l part="F"> El vino, </l>
+            <l>que exprimió racimo bello</l>
+            <l part="I">para dar la vida...</l>
+          </sp>
+          <sp who="#sombra-1">
+            <speaker>SOMBRA 1</speaker>
+            <l n="2065" part="F"> ...ya </l>
+            <l>es pan que baja del cielo,</l>
+            <l>como se mira en aquel</l>
+            <l>sacrificio que incruento</l>
+            <l part="I">es divina carne.</l>
+          </sp>
+          <sp who="#sombra-2">
+            <speaker>SOMBRA 2</speaker>
+            <l part="F"> ...ya </l>
+            <l n="2070">es la sangre del cordero,</l>
+            <l>sacrificado en el ara</l>
+            <l>de la cruz, de cuyo pecho</l>
+            <l part="I">se recogió el cáliz.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l part="F"> ¿Quién </l>
+            <l>asegura todo eso?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="44">
+          <stage>Descúbrese en un carro un altar, con sacrificio de panes; y al decir los versos de arriba, da vuelta el escotillón, y vese una Forma grande; y en otro carro, un sacrificio de vino; y dando vuelta, se descubre un cáliz, y la FE, elevada entre las dos SOMBRAS.</stage>
+          <sp who="#la-fe">
+            <speaker>FE</speaker>
+            <l n="2075">Yo lo aseguro, que soy</l>
+            <l>la Fe, que interior lo veo,</l>
+            <l>teniendo por el oído</l>
+            <l>captivo el entendimiento.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>Y el cuarto sueño que falta,</l>
+            <l part="I">¿cuál es?</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l n="2080" part="F"> Es tu mismo sueño; </l>
+            <l>pues a la grande abundancia</l>
+            <l>en cuyo siglo primero</l>
+            <l>gozó la naturaleza</l>
+            <l>descanso, paz, y sosiego,</l>
+            <l n="2085">sucedió (por sus pecados)</l>
+            <l>la esterilidad del tiempo,</l>
+            <l>y pudo la Providencia</l>
+            <l>reparar sus daños, siendo</l>
+            <l>la Iglesia la troj del pan</l>
+            <l n="2090">que en general alimento</l>
+            <l>de los hermanos de Cristo,</l>
+            <l>hizo la gracia herederos,</l>
+            <l>explicada en Asenet,</l>
+            <l>que es de Castidad ejemplo.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l part="I">¿Cuándo aqueso ha de ser?</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l n="2095" part="F"> Cuando </l>
+            <l>descendiendo de uno de esos</l>
+            <l>doce linajes o tribus,</l>
+            <l>hombre y Dios en alma y cuerpo,</l>
+            <l>y en cuerpo y alma se dé</l>
+            <l n="2100">en tan alto sacramento.</l>
+          </sp>
+          <sp who="#rey">
+            <speaker>REY</speaker>
+            <l>A tanto prodigio yo,</l>
+            <l>con ser gentil, me convierto.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l>Eso es la gentilidad</l>
+            <l>ser de la viña heredero.</l>
+          </sp>
+          <sp who="#asenet">
+            <speaker>ASENET</speaker>
+            <l n="2105">Yo, a tanto pasmo vencida,</l>
+            <l part="I">ofrezco ser tuya.</l>
+          </sp>
+          <sp who="#josef">
+            <speaker>JOSEF</speaker>
+            <l part="F"> Eso </l>
+            <l>es, con cada virtud Cristo</l>
+            <l>celebrar su casamiento.</l>
+          </sp>
+          <sp who="#jacob #sombra-1 #rey #josef #la-fe">
+            <speaker>UNOS</speaker>
+            <l>Todos a tan grande asombro...,</l>
+          </sp>
+          <sp who="#bato #sombra-2 #sueño #asenet">
+            <speaker>OTROS</speaker>
+            <l n="2110">Todos a tan gran portento,</l>
+            <l>por convencidos nos damos.</l>
+          </sp>
+          <sp who="#sueño">
+            <speaker>SUEÑO</speaker>
+            <l>Pues sea, todos diciendo:</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICOS</speaker>
+            <l>Albricias, mortal, albricias,</l>
+            <l>que aunque los sueños son sueños,</l>
+            <l n="2115">sueños hay que verdad son.</l>
+          </sp>
+          <sp who="#jacob #sombra-1 #rey #josef #la-fe #bato #sombra-2 #sueño #asenet">
+            <speaker>TODOS</speaker>
+            <l>Perdonad sus muchos yerros.</l>
+          </sp>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

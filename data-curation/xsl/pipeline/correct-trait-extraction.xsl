@@ -33,7 +33,17 @@
 
   <xsl:template match="desc[contains(., 'vestida de imagen')]"/>
 
- <xsl:template match="desc[contains(., 'seta')]"/>
+  <xsl:template match="desc[contains(., 'seta')]"/>
+
+  <xsl:template match="person[@xml:id = 'epimeteo']">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:copy-of select="persName"/>
+      <trait source="castlist" xmlns="http://www.tei-c.org/ns/1.0">
+        <desc xmlns="http://www.tei-c.org/ns/1.0">galán</desc>
+      </trait>
+    </xsl:copy>
+  </xsl:template>
 
   <xsl:template match="person[@xml:id = 'lope-hijo']">
     <xsl:copy>

@@ -1,0 +1,4126 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000017" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El jardín de Falerina</title>
+        <title type="sub">Fiesta que se representó a sus majestades</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-20"><time when="21:56:08"/></date>
+        <idno type="quadramaX">El jardín de Falerina</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-jardin-de-falerina-2/html/</idno><bibl type="originalSource"><title>Edición digital a partir de la Quinta parte de Comedias de don Pedro Calderón de la Barca , Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="lisidante" sex="MALE">
+            <persName>Lisidante</persName>
+            <trait source="#calderondigital">
+              <desc>galán</desc>
+            </trait>
+          </person>
+          <person xml:id="reinaldos" sex="MALE">
+            <persName>Reinaldos</persName>
+          </person>
+          <person xml:id="oliveros" sex="MALE">
+            <persName>Oliveros</persName>
+          </person>
+          <person xml:id="marfisa" sex="FEMALE">
+            <persName>Marfisa</persName>
+          </person>
+          <person xml:id="dama-1" sex="FEMALE">
+            <persName>Dama 1ª</persName>
+            <trait resp="#rojas">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <person xml:id="flor-de-lis" sex="FEMALE">
+            <persName>Flor de Lis</persName>
+            <trait source="#calderondigital">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <person xml:id="falerina" sex="FEMALE">
+            <persName>Falerina</persName>
+            <trait source="#calderondigital">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <person xml:id="dama-2" sex="FEMALE">
+            <persName>Dama 2ª</persName>
+            <trait resp="#rojas">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <person xml:id="jaques" sex="MALE">
+            <persName>Jaques</persName>
+          </person>
+          <person xml:id="rugero" sex="MALE">
+            <persName>Rugero</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+          <person xml:id="carlomagno" sex="MALE">
+            <persName>Carlomagno</persName>
+          </person>
+          <person xml:id="dama-3" sex="FEMALE">
+            <persName>Dama 3ª</persName>
+            <trait resp="#rojas">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <person xml:id="dama-4" sex="FEMALE">
+            <persName>Dama 4ª</persName>
+            <trait resp="#rojas">
+              <desc>dama</desc>
+            </trait>
+          </person>
+          <person xml:id="bradamante" sex="FEMALE">
+            <persName>Bradamante</persName>
+          </person>
+          <person xml:id="roldán" sex="MALE">
+            <persName>Roldán</persName>
+          </person>
+          <person xml:id="delfín" sex="MALE">
+            <persName>El Delfín</persName>
+          </person>
+          <person xml:id="zulemilla" sex="FEMALE">
+            <persName>Zulemilla</persName>
+          </person>
+          <person xml:id="salvaje" sex="MALE">
+            <persName>Salvaje</persName>
+          </person>
+          <person xml:id="argalía" sex="FEMALE">
+            <persName>Argalía</persName>
+          </person>
+          <person xml:id="durandarte" sex="MALE">
+            <persName>Durandarte</persName>
+          </person>
+          <person xml:id="marsilio" sex="MALE">
+            <persName>Marsilio</persName>
+          </person>
+          <person xml:id="merlín" sex="MALE">
+            <persName>Merlìn</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">comedia</term>
+          <term source="#kroll" type="main">auto sacramental</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1677">
+        <label/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000017" passive="http://www.wikidata.org/entity/Q69034392"/>
+    </listRelation>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">El jardín de Falerina</titlePart>
+        <titlePart type="sub">Fiesta que se representó a sus majestades</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas que hablan en ella:</head>
+        <castItem>LISIDANTE.</castItem>
+        <castItem>REINALDOS.</castItem>
+        <castItem>OLIVEROS.</castItem>
+        <castItem>MARFISA.</castItem>
+        <castItem>DAMA 1ª.</castItem>
+        <castItem>FLOR DE LIS.</castItem>
+        <castItem>FALERINA.</castItem>
+        <castItem>DAMA 2ª.</castItem>
+        <castItem>JAQUES.</castItem>
+        <castItem>RUGERO.</castItem>
+        <castItem>MÚSICA.</castItem>
+        <castItem>CARLOMAGNO.</castItem>
+        <castItem>DAMA 3ª.</castItem>
+        <castItem>BRADAMANTE.</castItem>
+        <castItem>ROLDÁN.</castItem>
+        <castItem>EL DELFÍN.</castItem>
+        <castItem>[ZULEMILLA.]</castItem>
+        <castItem>[ARGALÍA.]</castItem>
+        <castItem>[DURANDARTE.]</castItem>
+        <castItem>[MARSILIO.]</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <div type="scene" resp="#rojas" n="1">
+          <head>Jornada I</head>
+          <stage>Sale por una puerta MARFISA, vestida de mora, y por otra LISIDANTE, ambos con plumas y bengalas, y representando cada uno aparte sin ver al otro.</stage>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> ¡Oh tú, de aquestos montes </l>
+            <l> que el mar en desiguales horizontes </l>
+            <l> une y desune, oráculo divino... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> ¡Oh tú, destas montañas peregrino </l>
+            <l n="5"> ídolo humano, a cuyo docto anhelo </l>
+            <l> es el abismo intérprete del cielo... </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Tú, que sabia la gran piromancía </l>
+            <l> escribes en pirámides de fuego. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Tú, que en el aire a tus conjuros ciego, </l>
+            <l n="10"> das a las aves la heteromancía... </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Tú, que en sepulcros la nigromancía </l>
+            <l part="I"> ejecutas... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> Y en agua </l>
+            <l> la hidromancía, en quien fragua </l>
+            <l part="I"> su asombro. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="F"> En quien esmera su portento... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="I"> El cielo. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="M"> El mar... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="M"> La tierra. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="M"> El fuego. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l n="15" part="F"> El viento. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Tú, que a líneas divides </l>
+            <l> los ámbitos del sol, que a dedos mides... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Tú, que a rumbos las sombras de sus huellas </l>
+            <l> le pisas a la luna, y las estrellas </l>
+            <l n="20"> le cuentas una a una... </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Anticipada voz de la fortuna... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Futuro vaticinio de la fama... </l>
+          </sp>
+          <sp who="#lisidante #marfisa">
+            <speaker>LOS DOS</speaker>
+            <l part="I"> ¡Mágica Falerina! </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Sale FALERINA vestida de pieles.</stage>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="F"> ¿Quién me llama? </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Quien, bien en fe de un corazón amante... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l n="25"> Quien, en fe bien de un ánimo constante..., </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> ...de ti a valerse, ¡oh sabio asombro!, viene. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> ...en ti, bello prodigio, hallar previene </l>
+            <l> la paz de sus sentidos. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Para nadie piadosos mis oídos, </l>
+            <l n="30"> galán joven, hermosa dama, fueron </l>
+            <l> de cuantos deste escollo trascendieron </l>
+            <l> piélagos y montañas, </l>
+            <l> al duro corazón de sus entrañas, </l>
+            <l> donde de amor la amenazada ira, </l>
+            <l n="35"> quizá más que mi estudio, me retira... </l>
+            <l> Pero esto no es de aquí, y así prosigo. </l>
+            <l> Para nadie, otra vez y otras mil digo, </l>
+            <l> mis oídos piadosos se mostraron </l>
+            <l> de cuantos en mi busca penetraron </l>
+            <l n="40"> estos peñascos, más que para aquellos </l>
+            <l> (o remediallos sea, o no temellos) </l>
+            <l> cuyos estragos han de amor nacido; </l>
+            <l> y pues mis sañas solo a este partido </l>
+            <l> se dan, sepa quién sois, que daros quiero </l>
+            <l part="I"> mi favor. ¿Qué esperáis? </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l n="45" part="F"> Que hable primero </l>
+            <l> esa dama; que fuera infiel locura </l>
+            <l> negar su preeminencia a la hermosura. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Esa cortés licencia que os permito, </l>
+            <l> no por hermosa, por mujer, la admito. </l>
+            <stage>Retirándose LISIDANTE.</stage>
+            <l part="I"> ¿Adónde os retiráis? </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l n="50" part="F"> A no escucharos; </l>
+            <l> que si en fueros de amor llega a costaros </l>
+            <l> vergüenza mi atención, a ser vendría </l>
+            <l> curïosidad, y no cortesía. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Oíd, esperad, no os vais; que mis pasiones </l>
+            <l n="55"> son tan mías, tan mías mis acciones, </l>
+            <l> que podréis vós oíllas, </l>
+            <l part="I"> supuesto... </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="M"> ¿Qué? </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> Que puedo yo decillas. </l>
+            <l> Tan hija de la fortuna </l>
+            <l> vi la luz desde el primero </l>
+            <l n="60"> horóscopo de mi siempre </l>
+            <l> triste, infausto nacimiento, </l>
+            <l> que no conocí más padres, </l>
+            <l> ni aun otros los conocieron. </l>
+            <l> Según, después que ilustrado </l>
+            <l n="65"> en las escuelas del tiempo </l>
+            <l> empezó a dar al discurso </l>
+            <l> lición el entendimiento, </l>
+            <l> me informaron las noticias </l>
+            <l> de los que solo supieron </l>
+            <l n="70"> de mí, ser un inconstante </l>
+            <l> aborto del mar y el viento. </l>
+            <l> Un barco, pues, derrotado, </l>
+            <l> sin vela, jarcia ni remo, </l>
+            <l> supe que fue mi primera </l>
+            <l n="75"> cuna, entregada al inquieto </l>
+            <l> arbitrio de olas y embates: </l>
+            <l> tan infeliz, desde luego, </l>
+            <l> que ráfagas y bramidos </l>
+            <l> del mar y del aire fueron </l>
+            <l n="80"> idioma de mis arrullos </l>
+            <l> y frase de mis gorjeos. </l>
+            <l> Combatida de las ondas </l>
+            <l> flutuaba... ¡Oh no pequeño </l>
+            <l> bien del mar, nacer un triste </l>
+            <l n="85"> tan en las manos del riesgo, </l>
+            <l> que sepa dél el sentido, </l>
+            <l> y no sepa el sentimiento! </l>
+            <l> Combatida de las ondas </l>
+            <l> flutuaba, a decir vuelvo, </l>
+            <l n="90"> cuando, de unos pescadores </l>
+            <l> socorrida, me trajeron </l>
+            <l> a la orilla en tan felice </l>
+            <l> ocasión, que en sus desiertos </l>
+            <l> Aglante, rey africano, </l>
+            <l n="95"> andaba a caza, y oyendo </l>
+            <l> el no prevenido acaso </l>
+            <l> de tomar a sus pies puerto </l>
+            <l> tan contrastada inocencia, </l>
+            <l> que se hallaba en un momento, </l>
+            <l n="100"> sin saberlo, desdichada, </l>
+            <l> y dichosa sin saberlo, </l>
+            <l> me llevó a su corte, adonde </l>
+            <l> me crió. Quédese esto </l>
+            <l> aquí por ahora, y vamos </l>
+            <l n="105"> a otra cosa mientras crezco. </l>
+            <l> Este día, o ya que no </l>
+            <l> este, pocos más o menos, </l>
+            <l> trajeron al rey por rara </l>
+            <l> maravilla, sus monteros </l>
+            <l n="110"> una parida leona </l>
+            <l> que encontraron en lo espeso </l>
+            <l> del bosque, abrigando entre otros </l>
+            <l> cachorros suyos un bello </l>
+            <l> infante, a quien como a hijo </l>
+            <l n="115"> alimentaba a sus pechos. </l>
+            <l> Temiendo que peligrase </l>
+            <l> humana vida entre ellos, </l>
+            <l> el día que más crecidos </l>
+            <l> quisiesen cobrar soberbios </l>
+            <l n="120"> en su alimento lo que él </l>
+            <l> les quitó de su alimento, </l>
+            <l> le pusieron tales lazos, </l>
+            <l> que sin peligro pudieron </l>
+            <l> robársele; mas fue tal </l>
+            <l n="125"> de la fiera el sentimiento, </l>
+            <l> que rotas redes y lazos, </l>
+            <l> les siguió a la corte, haciendo </l>
+            <l> con domesticado instinto </l>
+            <l> tan cariñosos extremos, </l>
+            <l n="130"> que el rey, conmovido aún más </l>
+            <l> que a la piedad al portento, </l>
+            <l> curiosamente, no sé </l>
+            <l> si diga piadoso o fiero, </l>
+            <l> mandó que los otros hijos </l>
+            <l n="135"> la trujesen, y a un pequeño </l>
+            <l> albergue las retirasen </l>
+            <l> con el infante, poniendo </l>
+            <l> a mí por el mar «Marfisa» </l>
+            <l> en nombre, y a él, por los fieros </l>
+            <l n="140"> rugidos de la leona </l>
+            <l> el día que le echó menos </l>
+            <l> «Rugier», de suerte que, iguales </l>
+            <l> en hados y en nacimientos, </l>
+            <l> en influjos, en destinos, </l>
+            <l n="145"> en fortunas y sucesos, </l>
+            <l> «ambos nos criamos juntos»; </l>
+            <l> y como dice el proverbio, </l>
+            <l> «amor en nuestras niñeces, </l>
+            <l> (para seguir el concepto) </l>
+            <l n="150"> hirió nuestros corazones»; </l>
+            <l> pero no prosigo el verso, </l>
+            <l> «con arpones diferentes»; </l>
+            <l> pues fue el arpón uno mesmo; </l>
+            <l> bien que templado en tan dulce </l>
+            <l n="155"> yerba, en tan blando veneno, </l>
+            <l> que confesándole amor, </l>
+            <l> no sé qué linaje nuevo </l>
+            <l> de amor le confiese; pues </l>
+            <l> entre cariño y respeto, </l>
+            <l n="160"> era amor sin esperanza, </l>
+            <l> esperanza sin deseo, </l>
+            <l> deseo sin presunción, </l>
+            <l> y presunción sin afecto </l>
+            <l> de más que amar por amar; </l>
+            <l n="165"> tanto, que asegurar puedo, </l>
+            <l> porque no se alabe el gusto, </l>
+            <l> que hubo interés de por medio, </l>
+            <l> que amándole para todo, </l>
+            <l> para esposo le aborrezco. </l>
+            <l n="170"> En esta confrontación </l>
+            <l> de estrellas crecimos, siendo </l>
+            <l> mi ocupación la asistencia </l>
+            <l> de Argalía, asombro bello </l>
+            <l> sobre un espíritu altivo </l>
+            <l n="175"> de la beldad y el ingenio, </l>
+            <l> hija de Aglante, y la suya, </l>
+            <l> la del militar manejo </l>
+            <l> de las armas en que iguales </l>
+            <l> también corrimos un mesmo </l>
+            <l n="180"> rumbo; pues yo merecí </l>
+            <l> de Argalía el valimiento, </l>
+            <l> y él el de Aglante en las lides </l>
+            <l> que poco antes se movieron </l>
+            <l> entre él y Carlos de Francia; </l>
+            <l n="185"> mas ¿qué mucho, si su esfuerzo </l>
+            <l> mereció regir sus tropas </l>
+            <l> con el claro nombre excelso </l>
+            <l> del Paladín Africano, </l>
+            <l> en oposición de aquellos </l>
+            <l n="190"> que con Carlos en la mesa </l>
+            <l> redonda tienen asiento? </l>
+            <l> Pero como en la fortuna </l>
+            <l> no hay punto fijo, pues vemos </l>
+            <l> de un instante a otro mudar </l>
+            <l n="195"> la serenidad en ceño. </l>
+            <l> Quiso, cansada de haber </l>
+            <l> contra sus estilos hecho </l>
+            <l> de un desdichado un dichoso, </l>
+            <l> sin hacer al mismo tiempo </l>
+            <l n="200"> de un dichoso un desdichado, </l>
+            <l> que en un atacado encuentro, </l>
+            <l> muerto el caballo, quedase </l>
+            <l> de las armas prisionero </l>
+            <l> de Francia: a cuya ocasión </l>
+            <l n="205"> uno y otro rey, atentos </l>
+            <l> a sus razones de Estado, </l>
+            <l> trataron treguas, viniendo </l>
+            <l> a una suspensión de armas, </l>
+            <l> en cuyo espacio, no habiendo </l>
+            <l n="210"> plática de un campo a otro, </l>
+            <l> no se han tratado los medios </l>
+            <l> de su rescate o su canje: </l>
+            <l> su rescate, porque precio </l>
+            <l> no hay a Rugero en el mundo, </l>
+            <l n="215"> y su canje, porque preso </l>
+            <l> tampoco hay en él de igual </l>
+            <l> suposición; conque habiendo </l>
+            <l> la tregua cumplido el plazo, </l>
+            <l> y en él faltado el rey nuestro, </l>
+            <l n="220"> vuelve Francia a la campaña, </l>
+            <l> no sin vanidad, creyendo </l>
+            <l> que por quedar Argalía </l>
+            <l> heredera de su reino </l>
+            <l> será fácil la victoria, </l>
+            <l n="225"> sin atender que no menos </l>
+            <l> belicosa ella que Aglante, </l>
+            <l> sabrá salirle al encuentro. </l>
+            <l> Dígalo el que persuadida </l>
+            <l> de su generoso aliento, </l>
+            <l n="230"> pasar a Trinacria quiso, </l>
+            <l> donde los incultos senos </l>
+            <l> de los campos de Agramante, </l>
+            <l> que han sido el alojamiento </l>
+            <l> y cuartel de sus armadas </l>
+            <l n="235"> huestes, vean que no ha hecho </l>
+            <l> falta Marte donde queda </l>
+            <l> Palas para su gobierno. </l>
+            <l> Embarcose, pues, y apenas, </l>
+            <l> sacra emulación de Venus, </l>
+            <l n="240"> la vio el mar en sus espumas, </l>
+            <l> cuando, dudando o creyendo </l>
+            <l> que era el que iba a litigar </l>
+            <l> de la hermosura el imperio, </l>
+            <l> en favor de su deidad </l>
+            <l n="245"> amotinó su elemento, </l>
+            <l> tan sañudamente airado, </l>
+            <l> tan airadamente fiero, </l>
+            <l> que los campos de cristal, </l>
+            <l> gigantes Flegras de yelo, </l>
+            <l n="250"> se vieron en un instante </l>
+            <l> montes sobre montes puestos. </l>
+            <l> Tal vez vimos su fanal, </l>
+            <l> estrella del firmamento, </l>
+            <l> tal pavesa del abismo, </l>
+            <l n="255"> hasta que, piadoso el cielo, </l>
+            <l> quiso que el pardo celaje </l>
+            <l> deste obelisco soberbio, </l>
+            <l> que entre Caribdis y Scila </l>
+            <l> se deja descollar, siendo </l>
+            <l n="260"> nuestro norte y nuestra aguja, </l>
+            <l> nos diese prestado puerto, </l>
+            <l> en tanto que no serene </l>
+            <l> las arrugas de su ceño </l>
+            <l> el enojado Neptuno. </l>
+            <l n="265"> Y siendo así que, sabiendo </l>
+            <l> antes de ahora de la fama, </l>
+            <l> y agora de los groseros </l>
+            <l> moradores deste escollo, </l>
+            <l> ser tu albergue, a verte vengo </l>
+            <l n="270"> desmandada de las tropas, </l>
+            <l> por si pudiese mi ruego </l>
+            <l> obligarte a que me digas, </l>
+            <l> hermoso, sabio portento, </l>
+            <l> si Rugero muere o vive, </l>
+            <l n="275"> qué modo de tratamiento </l>
+            <l> ha tenido en la prisión, </l>
+            <l> si está afligido o contento, </l>
+            <l> y, en fin, si de mí se acuerda, </l>
+            <l> y qué caminos, qué medios </l>
+            <l n="280"> pondré a su libertad, pues </l>
+            <l> no dudo con tu consejo </l>
+            <l> y mi fineza, que sean </l>
+            <l> en los anales del tiempo </l>
+            <l> prodigiosas las fortunas </l>
+            <l n="285"> de Marfisa y de Rugero. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Antes que a ti te responda, </l>
+            <l> prosigue tú, por si puedo, </l>
+            <l> habiendo escuchado a entrambos, </l>
+            <l> a entrambos satisfaceros. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l n="290"> Lisidante de Asia, hijo </l>
+            <l> de Menodante, supremo </l>
+            <l> soldán, suyo soy; mi padre, </l>
+            <l> de Carlos parcial, sabiendo </l>
+            <l> que con Aglante rompía </l>
+            <l n="295"> la guerra, entre otros opuestos </l>
+            <l> que auxiliares le dispuso, </l>
+            <l> quiso que fuese el no menos </l>
+            <l> estimable mi persona, </l>
+            <l> revalidando los fueros </l>
+            <l n="300"> a la jurada alianza </l>
+            <l> conmigo de amigo y deudo. </l>
+            <l> Honrome Carlos, sentado </l>
+            <l> a su mesa, con que excelso </l>
+            <l> par de Francia me juró. </l>
+            <l n="305"> Si le pagué o no igual premio, </l>
+            <l> la fama lo diga en cuantas </l>
+            <l> ocasiones se ofrecieron </l>
+            <l> hasta la firmada tregua, </l>
+            <l> en cuyo ocioso intermedio </l>
+            <l n="310"> no fue para mí la corte </l>
+            <l> campaña de menos riesgo </l>
+            <l> que la de Agramante, pues </l>
+            <l> pasó tan de extremo a extremo </l>
+            <l> la distancia de una a otra, </l>
+            <l n="315"> cuanto va de vivo a muerto, </l>
+            <l> de vencedor a vencido, </l>
+            <l> y de libre a prisionero. </l>
+            <l> Bradamante de Arles, hija </l>
+            <l> de sus duques, fue el objeto </l>
+            <l n="320"> en quien lidiaron mis ansias </l>
+            <l> aquel repetido duelo </l>
+            <l> a que siempre están retados </l>
+            <l> amor y aborrecimiento; </l>
+            <l> pero como la hermosura, </l>
+            <l n="325"> potentada de su imperio, </l>
+            <l> labra contra sí las armas </l>
+            <l> de su desdén, pues es cierto </l>
+            <l> que da armas contra sí </l>
+            <l> la que desdeñosa al mesmo </l>
+            <l n="330"> que escasea los favores </l>
+            <l> crece los merecimientos; </l>
+            <l> no desconfiado a costa </l>
+            <l> de ansias, penas y desvelos, </l>
+            <l> siendo gala en ella usarlos, </l>
+            <l n="335"> y gala en mí padecerlos. </l>
+            <l> Duraba, no en mi esperanza, </l>
+            <l> sino en mi dolor, a tiempo </l>
+            <l> que despedidas las tropas </l>
+            <l> a causa de los pretextos </l>
+            <l n="340"> de la tregua, me fue fuerza </l>
+            <l> volver a mi patria centro. </l>
+            <l> ¿Quién creerá que hubo quien vuelva </l>
+            <l> a vivir en él violento? </l>
+            <l> Si el que más favorecido </l>
+            <l n="345"> se ausenta, peligra, puesto </l>
+            <l> que ausencia es muerte de amor, </l>
+            <l> ¿qué peligrará el que ajeno </l>
+            <l> de favor se ausenta? Bien </l>
+            <l> que le aventaja el consuelo </l>
+            <l n="350"> de no perder la ventura </l>
+            <l> que no tuvo, con que creo </l>
+            <l> que, ausente y aborrecido, </l>
+            <l> llegué a vivir más contento </l>
+            <l> que favorecido, ausente </l>
+            <l n="355"> viviera, pues por lo menos </l>
+            <l> es sin aquel sobresalto, </l>
+            <l> aquel recato, aquel miedo </l>
+            <l> de que tengo que perder </l>
+            <l> la esperanza que no tengo. </l>
+            <l n="360"> Hasta aquí fue fuerza darte </l>
+            <l> cuenta de mis sentimientos, </l>
+            <l> mas ya desde aquí será </l>
+            <l> prolija relación, puesto </l>
+            <l> que desde aquí son tan unos </l>
+            <l n="365"> de Marfisa los sucesos </l>
+            <l> y los míos, que el contarlos </l>
+            <l> no importa para saberlos. </l>
+            <l> La mesma cumplida tregua </l>
+            <l> que a ella tray en seguimiento </l>
+            <l n="370"> de Argalía, es la que a mí </l>
+            <l> me tray al pasado empeño; </l>
+            <l> bien que ahora forzado más</l>
+            <l> del amor que del esfuerzo. </l>
+            <l> El mesmo temporal que a ella </l>
+            <l n="375"> trajo abrigar a este puerto, </l>
+            <l> me trajo a mí. El mismo informe </l>
+            <l> de huir tú estos desiertos, </l>
+            <l> que a ella la obliga, me obliga </l>
+            <l> también a buscarte, y siendo </l>
+            <l n="380"> así que lo que ella dijo </l>
+            <l> y yo dijera, es lo mismo, </l>
+            <l> séalo también saber </l>
+            <l> si en esta ausencia otro afecto </l>
+            <l> supo servirla mejor; </l>
+            <l n="385"> y ya que a sus ojos vuelvo, </l>
+            <l> qué género de agasajos, </l>
+            <l> qué especie de rendimientos, </l>
+            <l> qué linaje de finezas </l>
+            <l> en su servicio hacer puedo </l>
+            <l n="390"> que más la obliguen, y en fin, </l>
+            <l> si por acaso o por yerro, </l>
+            <l> alhajas de desdichados </l>
+            <l> a Bradamante la debo, </l>
+            <l> ya que no para favores, </l>
+            <l n="395"> memoria para desprecios. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Ya os dije que de amorosas </l>
+            <l> fortunas me compadezco, </l>
+            <l> y aun di a entender que tenía </l>
+            <l> altas causas para hacerlo. </l>
+            <l n="400"> Y no habiendo de salir </l>
+            <l> aquestas jamás del pecho, </l>
+            <l> porque, gusanos del alma, </l>
+            <l> se han de morir a acá dentro; </l>
+            <l> sus afectos salgan, no </l>
+            <l n="405"> diga amor que le reservo, </l>
+            <l> avarienta de sus triunfos, </l>
+            <l> las causas y los efectos. </l>
+            <l> Ya así, obediente a los dos, </l>
+            <l> y a mí obedientes aquellos </l>
+            <l n="410"> espíritus que heredados </l>
+            <l> de Merlín, padre y maestro, </l>
+            <l> cuyo cadáver, aunque </l>
+            <l> yace en los campos amenos </l>
+            <l> de Agramante, desde aquí </l>
+            <l n="415"> me escucha; rasgue sus senos </l>
+            <l> este risco, y en sus duras </l>
+            <l> entrañas descubra, dentro </l>
+            <l> de su pavoroso espacio </l>
+            <l> de Bradamante y Rugero </l>
+            <l n="420"> la acción en que agora se hallan </l>
+            <l part="I"> entrambos. </l>
+          </sp>
+          <stage>Dentro ruido de terremoto.</stage>
+          <sp who="#merlín">
+            <speaker>MERLÍN</speaker>
+            <l part="F"> Ya te obedezco. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="I"> ¡Qué asombro! </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> ¡Qué confusión! </l>
+          </sp>
+          <stage>Con terremoto dentro se corre la cortina, y queda con segunda colgadura el teatro; se ven en él sentados en sillas CARLOS y FLOR DE LIS. Luego, por una banda y otra, Damas y Caballeros en ellas sentadas en almohadas, y ellos hincada la rodilla. La primera, al lado derecho, es BRADAMANTE con RUGERO, y los Músicos, en ala, detrás de todos.</stage>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="I"> ¿Qué veis? </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="F"> El salón excelso </l>
+            <l> del gran palacio de Carlos, </l>
+            <l n="425"> que de gala y de festejo, </l>
+            <l> como suele en reales bodas </l>
+            <l> está, lugares teniendo </l>
+            <l> los galanes con las damas, </l>
+            <l> de cuyos altos sujetos, </l>
+            <l n="430"> después de Carlos, Carloto </l>
+            <l> y Flor de Lis, al derecho </l>
+            <l> lado sigue Bradamante, </l>
+            <l> con quien está un caballero, </l>
+            <l> a quien solamente no </l>
+            <l n="435"> conozco de todos ellos; </l>
+            <l> bien que de verle tal vez, </l>
+            <l> como entre sombras, me acuerdo. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Si es que a contraria razón </l>
+            <l> valer suele el argumento, </l>
+            <l n="440"> el que desconoces tú, </l>
+            <l> el que yo conozco es, puesto </l>
+            <l> que el que con la primer dama </l>
+            <l> está en lugar, es Rugero; </l>
+            <l> bien que yo también debiera </l>
+            <l n="445"> desconocerle, si atiendo </l>
+            <l> que del africano traje </l>
+            <l> el noble adorno depuesto, </l>
+            <l> la francesa moda viste. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> ¿No nos dirás a qué efecto </l>
+            <l part="I"> es el festín? </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l n="450" part="F"> ¿Y a qué causa, </l>
+            <l> cuando le juzgaba preso, </l>
+            <l> triste y afligido, está </l>
+            <l> tan alegre, tan contento, </l>
+            <l> y tan hallado en París? </l>
+          </sp>
+          <sp who="#lisidante #marfisa">
+            <speaker>LOS DOS</speaker>
+            <l part="I"> ¿No nos respondes? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l n="455" part="F"> No puedo, </l>
+            <l> que si habéis visto vosotros </l>
+            <l> vuestras desdichas, no menos </l>
+            <l> he visto yo mis desdichas; </l>
+            <l> y pues que suspensa quedo </l>
+            <l n="460"> más que vosotros, de mí </l>
+            <l> no hay que esperar el saberlo; </l>
+            <l> pues mejor os lo dirá </l>
+            <l> su gozo que mi tormento, </l>
+            <l> cuando pasando al oído </l>
+            <l n="465"> de los ojos el portento, </l>
+            <l> a las músicas de allá </l>
+            <l> repitan aquí los ecos... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Reinando en Francia Carlos el primero, </l>
+            <l> y entrando a ser esposo, sin salir de amante, </l>
+            <l n="470"> así al lado feliz de Bradamante, </l>
+            <l> vencido de su amor, dijo Rugero. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Ya, Magno Carlos, ya, invicto, </l>
+            <l> heroico Delfín excelso, </l>
+            <l> soberana Flor de Lis, </l>
+            <l n="475"> bellas damas, caballeros </l>
+            <l> ilustres, que mi fortuna, </l>
+            <l> mejorando a un mismo tiempo </l>
+            <l> de religión y de estado, </l>
+            <l> mereció, sin merecerlo, </l>
+            <l n="480"> de prisionero de Marte </l>
+            <l> pasarme a ser prisionero </l>
+            <l> de amor en la esclavitud </l>
+            <l> del más soberano dueño, </l>
+            <l> que sin yerros que dorar </l>
+            <l n="485"> doró a mi prisión los yerros; </l>
+            <l> dadme licencia a que empiece </l>
+            <l part="I"> yo el festín. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> Si consiguiendo </l>
+            <l> de paladín africano </l>
+            <l> antes el renombre eterno, </l>
+            <l n="490"> el de francés paladín </l>
+            <l> hoy conseguís, y el empleo </l>
+            <l> de mi sobrino, ¿quién puede </l>
+            <l> competiros ese puesto? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Con esa licencia, bien </l>
+            <l n="495"> humildemente soberbio, </l>
+            <l> y soberbiamente humilde, </l>
+            <l> decir podré, a sus pies puesto... </l>
+          </sp>
+          <stage>Sácala a danzar.</stage>
+          <sp who="#rugero #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l> Reverencia os hace el alma, </l>
+            <l> gloria de mi pensamiento... </l>
+          </sp>
+          <stage>Los instrumentos suenan siempre, aunque se represente.</stage>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l n="500"> Si dispensara el decoro </l>
+            <l> osadías al respeto, </l>
+            <l> y hubiera de hablar la voz </l>
+            <l> donde ha de hablar el silencio, </l>
+            <l> también os dijera yo </l>
+            <l n="505"> que os veneraba mi afecto... </l>
+          </sp>
+          <sp who="#bradamante #música">
+            <speaker>ELLA y MÚSICA</speaker>
+            <l> Por ídolo de su altar, </l>
+            <l> por imagen de su templo. </l>
+          </sp>
+          <stage>Danzan todos.</stage>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> No excediérades, señora, </l>
+            <l> los límites a que atento </l>
+            <l n="510"> [ha] de vivir el recato </l>
+            <l> cuando lo dijerais, puesto </l>
+            <l> que pagarais una fe </l>
+            <l> verdadera; pues yo, es cierto... </l>
+          </sp>
+          <sp who="#rugero #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l> Por vós, francesa gallarda, </l>
+            <l n="515"> la fe verdadera tengo. </l>
+          </sp>
+          <stage>Culebrilla.</stage>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> No deslucir la fineza </l>
+            <l> con no conocerla, quiero; </l>
+            <l> sino antes agradecida </l>
+            <l> estimaros que de extremo </l>
+            <l n="520"> a extremos pasáis el día </l>
+            <l> que pasáis de preso a preso. </l>
+          </sp>
+          <sp who="#bradamante #música">
+            <speaker>ELLA y MÚSICA</speaker>
+            <l>Y de caballero moro </l>
+            <l> sois cristiano caballero. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Vós, hermosa Flor de Lis, </l>
+            <l n="525"> no tengáis a atrevimiento </l>
+            <l> el suplicaros, honréis </l>
+            <l> de mis bodas el festejo; </l>
+            <l> pues para que a danzar saque </l>
+            <l> al más divino sujeto... </l>
+          </sp>
+          <sp who="#rugero #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l n="530"> Licencia ha dado el amor </l>
+            <l> que pueda un aventurero. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> Vós, príncipe generoso, </l>
+            <l> no por mí, mas por vós mesmo </l>
+            <l> el festín honrad, y sea </l>
+            <l n="535"> vuestro el agradecimiento; </l>
+            <l> que darle a un gallardo joven </l>
+            <l> ocasión de parecerlo, </l>
+            <l> ya es lisonja, pues darle </l>
+            <l> causa a que pueda discreto... </l>
+          </sp>
+          <sp who="#bradamante #música">
+            <speaker>ELLA y MÚSICA</speaker>
+            <l n="540"> En el sarao a su dama </l>
+            <l> decirla su pensamiento. </l>
+          </sp>
+          <sp who="#flor-de-lis">
+            <speaker>FLOR DE LIS</speaker>
+            <l> Cuando por mi prima no </l>
+            <l> tuviera razón de hacerlo, </l>
+            <l> por vós, Rugero, saliera, </l>
+            <l n="545"> pues desde hoy el honor vuestro </l>
+            <l> a cuenta corre de todos. </l>
+          </sp>
+          <sp who="#delfín">
+            <speaker>DELFÍN</speaker>
+            <l> Y a la mía obedeceros, </l>
+            <l> no por mi interés, sino </l>
+            <l> por vuestro gusto, creyendo </l>
+            <l n="550"> que mayores obediencias </l>
+            <l> intentaran mis deseos... </l>
+          </sp>
+          <sp who="#delfín #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l> Si quisiéredes, señora, </l>
+            <stage>Danse las manos.</stage>
+            <l> que por el servicio vuestro. </l>
+          </sp>
+          <sp who="#dama-1">
+            <speaker>DAMA 1ª.</speaker>
+            <l> Ya, los príncipes en pie, </l>
+            <l n="555"> todos estarlo debemos. </l>
+            <stage>Por de dentro.</stage>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> Mas quisiera mi valor, </l>
+            <l> para llegar a deberos </l>
+            <l> algún agrado, señora, </l>
+            <l> merecido del esfuerzo </l>
+            <l n="560"> y no de la gala, que hoy </l>
+            <l> al son de otros instrumentos... </l>
+          </sp>
+          <sp who="#roldán #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l>En la plaza de París </l>
+            <l> se celebrase un torneo. </l>
+          </sp>
+          <sp who="#reinaldos">
+            <speaker>REINALDO</speaker>
+            <l> No le pesará a mi fama, </l>
+            <l n="565"> pues cuando suceda el verlo... </l>
+          </sp>
+          <sp who="#reinaldos #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l> Yo seré el mantenedor, </l>
+            <l> y sustentaré que puedo, </l>
+            <l> atento a vuestros desdenes, </l>
+            <l> merecer no merecerlos. </l>
+          </sp>
+          <sp who="#dama-2">
+            <speaker>DAMA 2ª.</speaker>
+            <l n="570">La desconfianza estimo. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUJERO</speaker>
+            <l> Mayor hiciera el empeño </l>
+            <l> yo entonces, pues sustentara </l>
+            <l> que soy solo el que merezco... </l>
+          </sp>
+          <sp who="#rugero #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l> Tener el cielo en mis brazos </l>
+            <l n="575"> después que fuistes mi cielo. </l>
+          </sp>
+          <sp who="#durandarte">
+            <speaker>DURANDARTE</speaker>
+            <l> Para cuando se disponga </l>
+            <stage>Tres cruzados.</stage>
+            <l> trocar el sarao en duelo... </l>
+          </sp>
+          <sp who="#durandarte #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l> Dadme vós vuestras colores, </l>
+            <l> y veréis qué galán entro. </l>
+          </sp>
+          <sp who="#dama-3">
+            <speaker>DAMA 3ª.</speaker>
+            <l n="580">Las que al rostro me salen </l>
+            <stage>Corros.</stage>
+            <l> como asentara primero </l>
+            <l part="I"> una condición. </l>
+          </sp>
+          <sp who="#dama-4">
+            <speaker>DAMA 4ª.</speaker>
+            <l part="F">¿Qué fuera? </l>
+          </sp>
+          <sp who="#oliveros">
+            <speaker>OLIVEROS</speaker>
+            <l> Que me deis cuantos diversos </l>
+            <l> matices significaron </l>
+            <l n="585"> ansias, penas y tormentos. </l>
+          </sp>
+          <sp who="#oliveros #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l>Como no me deis azul, </l>
+            <stage>Cara a cara.</stage>
+            <l> porque significa celos. </l>
+          </sp>
+          <sp who="#dama-1 #dama-2 #dama-3">
+            <speaker>LAS DAMAS</speaker>
+            <l>A esa condición a todas </l>
+            <l> nos tocará responderos. </l>
+            <stage>Por defuera.</stage>
+          </sp>
+          <sp who="#durandarte #oliveros">
+            <speaker>LOS CABALLEROS</speaker>
+            <l n="590"> Y a todos el preguntaros </l>
+            <l part="I"> ¿cómo? </l>
+          </sp>
+          <sp who="#dama-1 #dama-2 #dama-3">
+            <speaker>LAS DAMAS</speaker>
+            <l part="F">Como el satisfecho... </l>
+          </sp>
+          <sp who="#dama-1 #dama-2 #dama-3 #música">
+            <speaker>ELLA y MÚSICA</speaker>
+            <l> Galán que sin celos ama, </l>
+            <l> o no quiere bien, o es necio. </l>
+          </sp>
+          <sp who="#lisidante #rugero">
+            <speaker>GALANES</speaker>
+            <l> ¿Por qué se debe culpar </l>
+            <stage>Paradetas.</stage>
+            <l n="595"> desear huir sin ellos? </l>
+          </sp>
+          <sp who="#dama-1 #dama-2 #dama-3 #música">
+            <speaker>ELLA y MÚSICA</speaker>
+            <l> Porque la desconfianza </l>
+            <l> es madre de los discretos. </l>
+          </sp>
+          <stage>Dentro suenan cajas y trompetas.</stage>
+          <sp who="#jaques #zulemilla">
+            <speaker>[GENTE]</speaker>
+            <stage>Dentro.</stage>
+            <l> ¡Arma, arma! ¡Guerra, guerra! </l>
+          </sp>
+          <sp who="#reinaldos #roldán">
+            <speaker>UNOS</speaker>
+            <l part="I"> ¡Qué horror! </l>
+          </sp>
+          <sp who="#lisidante #delfín">
+            <speaker>OTROS</speaker>
+            <l part="M"> ¡Qué asombro! </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> ¿Qué estruendo </l>
+            <l part="I"> es este? </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l n="600" part="F"> Hacia el campo es </l>
+            <l part="I"> de Agramante. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> Acudid presto </l>
+            <l> todos, y queden por hoy </l>
+            <l> festín y boda suspensos. </l>
+          </sp>
+          <sp who="#roldán #delfín #reinaldos #lisidante">
+            <speaker>TODOS</speaker>
+            <l part="I"> Vamos todos. </l>
+          </sp>
+          <sp who="#jaques #zulemilla">
+            <speaker>[GENTE]</speaker>
+            <stage>Dentro.</stage>
+            <l part="F"> ¡Arma, arma! </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUJERO</speaker>
+            <l n="605"> Aunque la dilación siento </l>
+            <l> de mi dicha, mi valor </l>
+            <l> quizá agradece el empeño, </l>
+            <l> por darme un mérito más. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> No sea ventura menos. </l>
+          </sp>
+          <stage>Tocan las cajas y las trompetas, y corre la cortina.</stage>
+          <sp who="#jaques #zulemilla">
+            <speaker>VOCES</speaker>
+            <stage>Dentro.</stage>
+            <l n="610"> ¡Arma! ¡Guerra! </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Bello prodigio, ¿qué es esto? </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> ¿Qué es esto, divino asombro? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Esto es vengar vuestros celos, </l>
+            <l> (mejor dijera los míos) </l>
+            <l n="615"> espíritus infundiendo </l>
+            <l> en Marsilio, que es quien hoy </l>
+            <l> desde que fue Aglante muerto, </l>
+            <l> hasta que llegue Argalía </l>
+            <l> tiene el militar gobierno </l>
+            <l n="620"> de las tropas africanas; </l>
+            <l> solicitando con eso </l>
+            <l> que se suspendan las bodas, </l>
+            <l> para que ambos tengáis tiempo </l>
+            <l> de llegar, quizá, a impedirlas. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l n="625"> ¡Cuánto el favor te agradezco! </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> ¡Cuánto el amparo te estimo! </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <stage>Aparte.</stage>
+            <l> ¡Ay!, que no sabéis que tengo </l>
+            <l> más causas para estorbarlas </l>
+            <l> yo que vosotros, pues fieros </l>
+            <l n="630"> mis hados dieron conmigo, </l>
+            <l> cuando iba a buscar los vuestros. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <stage>Dentro.</stage>
+            <l part="I"> Marfisa. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> Esta es Argalía, </l>
+            <l> que viene en mi seguimiento. </l>
+          </sp>
+          <sp who="#dama-1 #dama-2 #dama-3">
+            <speaker>OTROS</speaker>
+            <stage>Dentro.</stage>
+            <l part="I"> ¡Lisidante! </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="F"> Y los soldados </l>
+            <l n="635"> que a mí me buscan, son estos. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Pues ya, serenado el mar, </l>
+            <l> podéis sulcar. Al encuentro </l>
+            <l> cada uno a su gente salga, </l>
+            <l part="I"> no a mí me vean. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="F"> ¡Voy muerto... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="I"> ¡Confusa voy... </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l n="640" part="F"> ...de haber visto </l>
+            <l> en los brazos de otro dueño </l>
+            <l part="I"> a Bradamante! </l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vase.</stage>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> ...de haber </l>
+            <l> visto el rostro a sentimientos, </l>
+            <l> que no pensé tener nunca! </l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Vase.</stage>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l n="645"> Tampoco pensé tenerlos </l>
+            <l> yo jamás, y me han venido </l>
+            <l> a buscar donde más lejos </l>
+            <l> dellos pensaba ocultarme. </l>
+            <l> ¿Quién creerá que mis agüeros, </l>
+            <l n="650"> para hallarlos como propios, </l>
+            <l> los buscase como ajenos? </l>
+            <l> Mas, ¡ay!, que cuantos caminos </l>
+            <l> intenta el arbitrio nuestro, </l>
+            <l> para apartar el influjo, </l>
+            <l n="655"> tantos son precisos medios </l>
+            <l> de adelantarle los pasos. </l>
+            <l> Dígalo el infausto sueño </l>
+            <l> en que vi un gallardo joven </l>
+            <l> que ensangrentaba en mi pecho </l>
+            <l n="660"> el dorado arpón de aguda </l>
+            <l> flecha, y escapaba huyendo, </l>
+            <l> tras quien yo, despavorida, </l>
+            <l> intenté correr, a tiempo </l>
+            <l> que a las temerosas voces </l>
+            <l n="665"> de mi mal cobrado aliento, </l>
+            <l> en los brazos de mi padre </l>
+            <l> despierta me hallé, que oyendo </l>
+            <l> la aprehensión del sueño, dijo: </l>
+            <l> «¡Nunca ese galán mancebo </l>
+            <l n="670"> llegues a ver, plegue al hado! </l>
+            <l> Pues ese día los ceños </l>
+            <l> conjurarás contra ti, </l>
+            <l> del amor y de los celos </l>
+            <l> en que solo, ¡desdichada!, </l>
+            <l n="675"> te amenazan los soberbios </l>
+            <l> hados en la esclavitud </l>
+            <l> de su más tirano imperio. </l>
+            <l> Si quieres asegurarlos, </l>
+            <l> pues dicen que tiene el cuerdo </l>
+            <l n="680"> en las estrellas dominio, </l>
+            <l> huye a los montes soberbios; </l>
+            <l> que en ellos no te hallará, </l>
+            <l> si no le buscas tú en ellos; </l>
+            <l> y más mientras dure el pacto </l>
+            <l n="685"> que comprometido tengo </l>
+            <l> en Malgesí, y no descubra </l>
+            <l> cierta lámina un secreto.» </l>
+            <l> Tan fija con el asombro, </l>
+            <l> con el horror, con el miedo, </l>
+            <l n="690"> se grabó en mi fantasía </l>
+            <l> su imagen, que al ver, ¡ay cielos!, </l>
+            <l> hoy a Rugero, jurara </l>
+            <l> estar otra vez durmiendo. </l>
+            <l> Y pues no me bastó, ¡ay triste!, </l>
+            <l n="695"> venir a este risco huyendo, </l>
+            <l> para que, sin que él me busque, </l>
+            <l> le busque yo, hallando el riesgo </l>
+            <l> tan no imaginadas sendas </l>
+            <l> de ejecutar sus decretos; </l>
+            <l n="700"> suelte la rienda al destino, </l>
+            <l> y corra tras él, haciendo, </l>
+            <l> ya que el verle tan gallardo </l>
+            <l> y de dos damas a un tiempo </l>
+            <l> tan querido es torcedor </l>
+            <l n="705"> de tan contrario veneno, </l>
+            <l> que entrando a matar en pasmo, </l>
+            <l> viene acabar en incendio, </l>
+            <l> que, pues los míos perdí, </l>
+            <l> no consigan sus deseos, </l>
+            <l n="710"> ni una en amorosos lazos, </l>
+            <l> ni otra en amantes afectos. </l>
+            <l> Y así, valida de mí, </l>
+            <l> pues yo a mí me basto, tengo </l>
+            <l> de ver si... Pero mejor </l>
+            <l n="715"> será que lo diga el tiempo, </l>
+            <l> cuando sol, luna y estrellas, </l>
+            <l> aire, agua, tierra, fuego, </l>
+            <l> hombres, aves, peces, fieras, </l>
+            <l> montes, valles, cumbres, puertos, </l>
+            <l n="720"> hados, influjos, destinos, </l>
+            <l> vean que a todos opuesto </l>
+            <l> el valor de Falerina </l>
+            <l> sabe turbar a portentos, </l>
+            <l> el amor de Bradamante, </l>
+            <l n="725"> de Marfisa y de Rugero. </l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Vase.</stage>
+          <stage>Tocan arma, y sale por una parte ZULEMILLA moro, y por otra JAQUES francés, armados redículamente.</stage>
+          <sp who="#dama-4">
+            <speaker>VOZ</speaker>
+            <stage>Dentro.</stage>
+            <l> ¡Arma, arma! ¡Guerra, guerra! </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> ¿Adónde podré ocultarme... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ¿Dónde esconderme poder... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> ...mientras la batalle pase... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l n="730"> ...mientras durar el batalia... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> ...que las iras no me alcancen... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ...que no me alcanzar el furias... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> ...destos morillos infames... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ...destos fames cristianilios, </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l n="735"> ...que embisten como unos canes? </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ...que terar como unos perros? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Pero allí la boca abre... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Pero hacia allí abrir el boca... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> ...una gruta, a quien mi hambre </l>
+            <l n="740"> está diciendo «comedme». </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ...un cuva, que estar bastante </l>
+            <l part="I"> para me tragar. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="F"> En ella </l>
+            <l part="I"> me esconda. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="M"> En elia </l>
+            <l part="F"> me ampare. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Al entrar los dos, se ven, y tienen miedo uno de otro.</stage>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <stage>Aparte.</stage>
+            <l> Mas ¡ay!, que viene tras mí... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l n="745"> Mas ¡ay!, que venir mi alcance... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <stage>Aparte.</stage>
+            <l> ...un morillo como un monte. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <stage>Aparte.</stage>
+            <l> ...un francés como un gigante. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Señor moro, buen cuartel. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Monsiur bugre, bon pasaje. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <stage>Aparte.</stage>
+            <l n="750"> ¡Vive el Cielo, que me teme! </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <stage>Aparte.</stage>
+            <l> ¡Por Mahoma, que temblarme! </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Háblame claro, morillo. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Cristianilio, claro hablalde. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> ¿Eres por dicha gallina... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l n="755"> ¿Estar acaso cobarde... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> ...que aquí vienes á esconderte? </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ...que aquí venir a escaparte? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Si tú me dices que sí, </l>
+            <l> yo diré que sí al instante. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l n="760"> ¿Para qué decerlo el voz, </l>
+            <l> si el temor decirlo antes? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Pues cállate tú, y callemos. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Pues caliemus tú, y calialde. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="I"> Y a escondernos... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="F"> Y a ocultarnos... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l n="765"> ...donde el furor no nos halle. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ...donde Marte no poder </l>
+            <l> nos pegar con la del martes. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Pase usted señor morillo... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Seor cristianilio, osted pase... </l>
+          </sp>
+          <sp who="#jaques #zulemilla">
+            <speaker>LOS DOS</speaker>
+            <l n="770">Que sin capitulaciones </l>
+            <l> firman dos gallinas paces. </l>
+          </sp>
+          <sp who="#dama-4 #jaques #zulemilla">
+            <speaker>TODOS</speaker>
+            <l> ¡Arma, arma! ¡Guerra! </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Salen CARLOS, ROLDÁN, OLIVEROS, DURANDARTE, REINALDOS y RUGERO, deteniéndolos CARLOS.</stage>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> No le sigáis el alcance </l>
+            <l> supuesto que se retiran, </l>
+            <l n="775"> y que ya la noche esparce </l>
+            <l> sus sombras; que puede ser </l>
+            <l> que con la fuga nos llamen, </l>
+            <l> y que siendo aquestos montes </l>
+            <l> como son, tan formidables, </l>
+            <l n="780"> sea ardid, y que en alguna </l>
+            <l> emboscada nos aguarden; </l>
+            <l> que el recato en la milicia, </l>
+            <l> siempre fue acuerdo importante, </l>
+            <l> y es pensar lo que yo hiciera, </l>
+            <l n="785"> prevenir lo que ellos hacen. </l>
+            <l> Y así, a retirar, amigos, </l>
+            <l> que mañana en los celajes </l>
+            <l> primeros del alba, pienso </l>
+            <l> en sus cuarteles pagarles </l>
+            <l n="790"> la visita: no se diga </l>
+            <l> que vinieron a buscarme </l>
+            <l> y no fui a buscarles yo. </l>
+            <stage>Caja y clarín.</stage>
+          </sp>
+          <sp who="#roldán #oliveros #durandarte #reinaldos #rugero">
+            <speaker>TODOS</speaker>
+            <l part="I"> A retirar toca. </l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Sale LISIDANTE.</stage>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="F"> Dame </l>
+            <l> tus pies, pues soy tan dichoso, </l>
+            <l n="795"> que al primer paso te halle </l>
+            <l> en estos montes, que el mar </l>
+            <l> repetidamente bate, </l>
+            <l> donde pudo mi fortuna </l>
+            <l part="I"> tomar tierra. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> Lisidante, </l>
+            <l part="I"> ¿qué venida es esta? </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l n="800" part="F"> Habiendo </l>
+            <l> sabido que ya se acaba </l>
+            <l> la tregua, vuelvo al honor </l>
+            <l> de ser tu soldado, y darte </l>
+            <l> noticias de que Argalía </l>
+            <l n="805"> casi en el mismo paraje, </l>
+            <l> desde Escila, en que corrimos </l>
+            <l> unos mismos temporales, </l>
+            <l> viene a reclutar sus tropas; </l>
+            <l> tan altiva y arrogante, </l>
+            <l n="810"> que es en valor y hermosura </l>
+            <l> hija de Venus y Marte. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> Eso habrá más que vencer. </l>
+            <l> Llegad a todos y dadles</l>
+            <l> los brazos, pues todos son </l>
+            <l n="815"> en fineza semejante </l>
+            <l> interesados, teniendo </l>
+            <l> vuestro esfuerzo de su parte. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Roldán invicto, famoso </l>
+            <l> Oliveros, Durandarte, </l>
+            <l n="820"> Reinaldos, dadme los brazos. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l part="I"> Seáis muy bien venido. </l>
+          </sp>
+          <sp who="#oliveros">
+            <speaker>OLIVEROS</speaker>
+            <l part="F"> Edades </l>
+            <l part="I"> eternas viváis. </l>
+          </sp>
+          <sp who="#durandarte">
+            <speaker>DURANDARTE</speaker>
+            <l part="F"> Los cielos </l>
+            <l part="I"> con bien os traigan. </l>
+          </sp>
+          <sp who="#reinaldos">
+            <speaker>REINALDO</speaker>
+            <l part="F"> Y os guarden. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Aunque a mí, al lado del César, </l>
+            <l n="825"> vuestras noticias me extrañen, </l>
+            <l> por las que yo de vós tengo, </l>
+            <l> no daré ventaja a nadie </l>
+            <l> en ser vuestro servidor. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> Rugero ya de los pares </l>
+            <l n="830"> es uno más: el general </l>
+            <l> del ejército de Aglante, </l>
+            <l> fue a quien prisionero vós </l>
+            <l> en esta torre dejastes... </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Agora reparo en él. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l n="835"> Que de los duques de Arles, </l>
+            <l> antiguos alcaides suyos, </l>
+            <l> es heredado homenaje; </l>
+            <l> y a quien han sacado della </l>
+            <l> dos venturas, y tan grandes, </l>
+            <l n="840"> como ser paladín mío </l>
+            <l> y esposo de Bradamante. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Uno y otro parabién </l>
+            <stage>Aparte.</stage>
+            <l> a mi enemigo, sin que </l>
+            <l n="845"> entre mis brazos le mate? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Siempre me tendréis por vuestro. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> Los acentos militares </l>
+            <l> a retirar toquen. Pero </l>
+
+            <l> ¿a quién nueva salva hacen </l>
+            <l n="850"> de cláusulas llenando el aire vano? </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Cajas y trompetas. Salen DELFÍN, FLOR DE LIS, BRADAMANTE, y damas.</stage>
+          <sp who="#delfín">
+            <speaker>DELFÍN</speaker>
+            <l part="I"> Permíteme tus pies... </l>
+          </sp>
+          <sp who="#flor-de-lis">
+            <speaker>FLOR DE LIS</speaker>
+            <l part="F">Dame tu mano. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> ¡Delfín! ¡Flor de Lis bella! </l>
+            <l part="I"> Pues ¿qué venida es esta? </l>
+          </sp>
+          <sp who="#flor-de-lis">
+            <speaker>FLOR DE LIS</speaker>
+            <l part="F">De mi estrella </l>
+            <l> el influjo seguir, con la disculpa </l>
+            <l n="855"> de que nunca el valor pudo ser culpa. </l>
+            <l> Corriendo ya la voz de que venía </l>
+            <l> a gobernar su ejército Argalía, </l>
+            <l> no es justo que blasone </l>
+            <l> una mujer que a tu poder se opone, </l>
+            <l n="860"> sin que otra mujer sea </l>
+            <l> la que a tus pies sus altiveces vea, </l>
+            <l> no menos que ella heroicamente ufana. </l>
+          </sp>
+          <sp who="#delfín">
+            <speaker>DELFÍN</speaker>
+            <l> Ya por los dos te respondió mi hermana; </l>
+            <l> pues tampoco no fuera </l>
+            <l n="865"> justo quedarme yo sin que viniera, </l>
+            <l> señor, a acompañarla. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> Con que no menos disculpado se halla </l>
+            <l> el generoso espíritu de cuantas </l>
+            <l> a su ejemplo llegamos a tus plantas, </l>
+            <l n="870"> trocando el lisonjero </l>
+            <l> espejo de cristal al del acero. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> El amor la fineza os agradece, </l>
+            <l> mas no el temor, que por instantes crece </l>
+            <l> al veros en campaña. </l>
+            <l n="875"> Pero, al fin, sois mis hijos, y no extraña </l>
+            <l> vuestro heroico valor mi fama altiva. </l>
+            <l part="I"> Venid. </l>
+          </sp>
+          <sp who="#roldán #reinaldos">
+            <speaker>UNOS</speaker>
+            <l part="F"> ¡Viva el Delfín! </l>
+          </sp>
+          <sp who="#jaques #zulemilla">
+            <speaker>OTROS</speaker>
+            <l part="I"> ¡Flor de Lis viva! </l>
+          </sp>
+          <stage>Entrándose todos al son de cajas y trompetas.</stage>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <stage>Aparte.</stage>
+            <l part="F"> ¡Ah tirana! Los cielos </l>
+            <l> tiempo me den en que vengar mis celos. </l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Vase.</stage>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l n="880"> ¡Ay bella Bradamante! </l>
+            <l> ¿Quién creerá que el amor que fue bastante, </l>
+            <l> tal vez algún cobarde hacer valiente </l>
+            <l> al contrario hoy en mí trocar intente </l>
+            <l part="I"> extremos? </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l part="M"> ¿Cómo? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> Como mi despecho </l>
+            <l n="885"> tiembla al saber que tú vas en mi pecho </l>
+            <l> y por guardarte, temo... </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> No tienes qué, pues a contrario extremo, </l>
+            <l> si en ti fallece, en mí se aumenta el brío </l>
+            <l> al conocer que tú vas en el mío, </l>
+            <l n="890"> y después de aquel día que en la torre </l>
+            <l> de mi antiguo homenaje te vi, corre </l>
+            <l> el amor nuestro una fortuna. Vamos </l>
+            <l> donde juntos vivamos o muramos. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Vanse, y dice FALERINA dentro.</stage>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Eso será mas cierto </l>
+            <l n="895"> si a ese fin tomo en vuestros montes puerto. </l>
+            <l> Sobre aquesta oscura cueva, </l>
+            <l> que oculta el grande cadáver </l>
+            <l> de Merlín, llega esta noche </l>
+            <l> el encanto a fabricarse </l>
+            <l n="900"> del jardín de Falerina. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Salen, como a escuras, ZULEMA y JAQUES.</stage>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Camarada, ¡qué de lance </l>
+            <l part="I"> me dio el miedo! </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="F"> Cumorada, </l>
+            <l> ¿que darme el tumor de balde? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="I"> ¿Dónde estás? </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="F"> Alá saber. </l>
+            <l part="I"> ¿Dónde estar tú? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l n="905" part="F"> Aunque me halles </l>
+            <l> no me hallarás, que no estoy </l>
+            <l> en mí, pues desde el instante </l>
+            <l> que entramos en esta cueva </l>
+            <l> y vimos que solo guarde </l>
+            <l n="910"> un sepulcro, pienso que </l>
+            <l> me fui a huir a otra parte. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> El mesmo a mí soceder, </l>
+            <l> e más, si añadir el grande </l>
+            <l> romor con que el noche el paso </l>
+            <l n="915"> cerrar con oscoridades. </l>
+            <stage>Tópanse los dos.</stage>
+            <l> Mas ¡ay triste Zolemilla! </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Mas ¡ay desdichado Jaques! </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="I"> ¿Qué estar eso? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="F"> ¿Qué sé yo? </l>
+            <l> Pero algún dragón me ase, </l>
+            <l n="920"> según que las garras tiene. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> A mé algún lobón rapante, </l>
+            <l> según que tener él presas. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Señor dragón, no me trague, </l>
+            <l> porque aunque gallina soy, </l>
+            <l n="925"> no soy buen gigote de ave. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Ni mé estar bon alcoscuz, </l>
+            <l> aunque tener calbezate. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="I"> Mas ¡qué miro! </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="F"> ¡Que el primera </l>
+            <l> luz del sol nos desangañe! </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="I"> ¡Zulemilla! </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l n="930" part="F"> ¡Jaqueciños! </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="I"> ¿Tú eres? </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="M"> ¿Ser tú? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="F"> Que te abrace </l>
+            <l part="I"> deja en albricias. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="F"> Mé y todo. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Al abrazarse los dos sale un salvaje y pónese en medio, y abraza a los dos.</stage>
+          <sp who="#salvaje">
+            <speaker>SALVAJE</speaker>
+            <l> Eso ha de ser a mí antes. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="I"> ¡San Jaco! </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="F"> ¡San Zancarrón! </l>
+            <l n="935"> ¿Quién ser vós, que nos despartes? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> ¿Quién puede entre dos amigos </l>
+            <l> meterse, sino un salvaje? </l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker>SALVAJE</speaker>
+            <l> Miserables hombrecillos... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Conmigo no habla, que antes </l>
+            <l n="940"> soy en esta ocasión un </l>
+            <l> perdido que un miserable. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Con mé sí, pues que no dar </l>
+            <l> por mi vida cuatro reales. </l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker>SALVAJE</speaker>
+            <l> ¿Cómo a entrar os atrevisteis, </l>
+            <l n="945"> cómo a penetrar osasteis </l>
+            <l> deste encantado palacio </l>
+            <l> los reservados umbrales? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> ¿Qué palacio es una cueva? </l>
+            <stage>Aparte a ZULEMILLA.</stage>
+            <l> Borracho está este gigante. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l n="950"> ¿Qué gegante no lo estar? </l>
+            <l> Y si no él, el que le trae. </l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker>SALVAJE</speaker>
+            <l> El que veréis, en abriendo </l>
+            <l> esas puertas de diamante </l>
+            <l> que están dentro de la cueva. </l>
+            <stage>Aparte.</stage>
+            <l n="955"> (Esto es llevar a encerrarles, </l>
+            <l> porque estando los jardines </l>
+            <l> sobre ella, no es bien que pasen </l>
+            <l> por ellos, y lo que vieren </l>
+            <l> lo puedan decir a nadie.) </l>
+            <l n="960"> Entrad, pues, porque lleguéis </l>
+            <l> a besar las plantas reales </l>
+            <l> de su reina Falerina, </l>
+            <l> y ver qué castigo os mande </l>
+            <l> dar por estar aquí dentro. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l n="965"> ¿Dónde estar el majestades </l>
+            <l> della reina bailarina? </l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker>SALVAJE</speaker>
+            <l part="I"> Allá lo veréis. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="F"> Agrajes, </l>
+            <l part="I"> no digas más. </l>
+          </sp>
+          <sp who="#salvaje">
+            <speaker>SALVAJE</speaker>
+            <l part="F"> Entrad presto </l>
+            <l> si no queréis que os arrastre. </l>
+          </sp>
+          <sp who="#jaques #zulemilla">
+            <speaker>LOS DOS</speaker>
+            <stage>Aparte.</stage>
+            <l n="970"> ¿Quién vio más penas que estar </l>
+            <l> a obediencias de un salvaje? </l>
+          </sp>
+          <stage>Vanse.</stage>
+        </div>
+
+
+      </div>
+      <div type="act" n="2">
+        <div type="scene" resp="#rojas" n="1">
+          <head>Jornada II</head>
+          <stage>Salen por una puerta mirando a lo lejos algunos moros, y detrás MARSILIO, MARFISA y ARGALÍA. Y por la otra CARLOSEL DELFÍN y FLOR DE LIS, BRADAMANTE, LISIDANTE, RUGERO y los cuatro paladines.</stage>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l> Ya que la primera luz </l>
+            <l> del sol sus rayos esparce... </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> Ya que el alba rompe el velo </l>
+            <l> de sus primeros cendales. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l n="5"> Y en buena ordenanza, Carlos </l>
+            <l> manda que su campo marche </l>
+            <l> al nuestro, porque sin duda </l>
+            <l> que le gobierno no sabe, </l>
+            <l> pues no le he puesto en temor... </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l n="10"> Y el africano arrogante, </l>
+            <l> en fe quizá de Argalía, </l>
+            <l> al opósito nos sale... </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l> No hay que esperar: las primeras </l>
+            <l> tropas de vanguardia avancen. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l n="15"> No hay que perder la ocasión.</l>
+          </sp>
+          <sp who="#marsilio #marfisa">
+            <speaker>UNOS</speaker>
+            <l part="I"> Brame el bronce. </l>
+          </sp>
+          <sp who="#flor-de-lis #lisidante">
+            <speaker>OTROS</speaker>
+            <l part="F"> Gima el parche. </l>
+          </sp>
+          <sp who="#marsilio #marfisa #flor-de-lis #lisidante">
+            <speaker>TODOS</speaker>
+            <l> ¡Arma, arma! ¡Guerra, guerra! </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Trábase la batalla, y éntranse peleando.</stage>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> ¡Oh, quiera el cielo que halle </l>
+            <l> en la batalla a Rugero! </l>
+            <l n="20"> Y para que no recate </l>
+            <l> entrar en duelo conmigo, </l>
+            <l> destos tapidos cendales </l>
+            <l> tengo de cubrir el rostro. </l>
+            <stage>Cúbrese y vase.</stage>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> ¡Oh, si la ocasión hallase </l>
+            <l n="25"> de dar a Rugero muerte! </l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vase.</stage>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> De tu vida, Bradamante, </l>
+            <l> mi pecho será el escudo. </l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Vase.</stage>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> Del tuyo, pavés mi imagen.</l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>(Vase.)</stage>
+          <sp who="#marsilio #marfisa #flor-de-lis #lisidante">
+            <speaker>TODOS</speaker>
+            <stage>Dentro.</stage>
+            <l> ¡Arma, arma! ¡Guerra, guerra! </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Salen por dos partes ARGALÍA y FLOR DE LIS.</stage>
+          <sp who="#flor-de-lis">
+            <speaker>FLOR DE LIS</speaker>
+            <l n="30"> Ya que en lid los campos arden, </l>
+            <l> ¡ah, si fuese tan dichosa </l>
+            <l> mi suerte, que me encontrase </l>
+            <l> con ella. ¡Argalía! ¡Argalía! </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l> El nombre acudir me hace </l>
+            <l n="35"> donde me llaman. ¿Quién eres, </l>
+            <l> que de tu riesgo ignorante, </l>
+            <l part="I"> a mí me buscas? </l>
+          </sp>
+          <sp who="#flor-de-lis">
+            <speaker>FLOR DE LIS</speaker>
+            <l part="F"> Porque </l>
+            <l> solo con la voz te espante, </l>
+            <l> y antes que con el acero </l>
+            <l n="40"> con el sonido te mate, </l>
+            <l part="I"> Flor de Lis soy yo. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l part="F"> ¡Ay de ti </l>
+            <l> infelice! Que no sabes </l>
+            <l> que la espada de Argalía </l>
+            <l> templada está en yerbas tales, </l>
+            <l n="45"> que a sus golpes derribó </l>
+            <l> cuanto se puso delante. </l>
+            <l part="I"> Muere a mis manos. </l>
+          </sp>
+          <stage>Riñen y cae FLOR DE LIS.</stage>
+          <sp who="#flor-de-lis">
+            <speaker>FLOR DE LIS</speaker>
+            <l part="F"> ¡Ay triste! </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l part="I"> ¡Soldados! </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Salen MARSILIO y otros.</stage>
+          <sp who="#marsilio">
+            <speaker>MARSILIO</speaker>
+            <l part="F"> ¿Qué hay que nos mandes? </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l> Que a Flor de Lis retiréis, </l>
+            <l n="50"> y hoy para triunfo nos baste, </l>
+            <l> pues con ella la vitoria </l>
+            <l> segura está de mi parte. </l>
+            <l part="I"> Y así, a retirar. </l>
+          </sp>
+          <sp who="#flor-de-lis">
+            <speaker>FLOR DE LIS</speaker>
+            <l part="F">¡Piadosos </l>
+            <l> cielos, valedme, amparadme! </l>
+            <stage>Llévanla.</stage>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <stage>Dentro.</stage>
+            <l n="55"> A la voz de Flor de Lis </l>
+            <l> allí todo el grueso carguen. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <stage>Dentro.</stage>
+            <l> Sígueme, Rugero. </l>
+          </sp>
+          <sp who="#marsilio #argalía #flor-de-lis">
+            <speaker>TODOS</speaker>
+            <stage>Dentro.</stage>
+            <l> Moriremos en su alcance. </l>
+            <l> ¡Arma, arma! ¡Guerra, guerra! </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Tocan cajas, y salen riñendo RUGERO y MARFISA.</stage>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l n="60"> Ya que de uno en otro trance </l>
+            <l> barajada la batalla, </l>
+            <l> a la voz de Bradamante </l>
+            <l> te reconocí, y llamado </l>
+            <l> de mí a singular combate </l>
+            <l n="65"> has tenido a esta, del monte </l>
+            <l> la más retirada parte, </l>
+            <l part="I"> vuelve a la lid. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> Bien creerás </l>
+            <l> no excusarla de cobarde, </l>
+            <l> sino de atento, al mirar </l>
+            <l n="70"> en mujer valor tan grande. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="I"> ¿Por qué? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> Porque si te venzo </l>
+            <l> dirán que es vitoria fácil </l>
+            <l> los que tu valor ignoran; </l>
+            <l> y si me vences, desaire </l>
+            <l n="75"> mi rendimiento; y así, </l>
+            <l> pues no es posible que gane, </l>
+            <l> ni vencedor ni vencido, </l>
+            <l> te suplico que dilates </l>
+            <l> conmigo el duelo, y me digas </l>
+            <l n="80"> ¿qué te ha obligado a buscarme </l>
+            <l part="I"> a mí más que a otro? </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> Ser tú </l>
+            <l> el más vil, el más infame </l>
+            <l> de los hombres, más traidor </l>
+
+            <l> a ti, tu patria y tu sangre. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Sale BRADAMANTE.</stage>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l n="85"> Yendo presa Flor de Lis, </l>
+            <l> y viendo que en semejante </l>
+            <l> empeño falta Rugero, </l>
+            <l> con temor vuelvo a buscarle; </l>
+            <l> pues no es posible que vivo, </l>
+            <l n="90"> a mí y a su opinión falte. </l>
+            <l> Hacia esta parte fue adonde </l>
+            <l> de vista le perdí: dame, </l>
+            <l> montes, dél noticia. Pero </l>
+            <l> con una africana aparte </l>
+            <l part="I"> retirado está. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l n="95" part="F"> Por más </l>
+            <l> que me injuries y me ultrajes, </l>
+            <l> no has de obligarme a la lid, </l>
+            <l> porque solo has de obligarme </l>
+            <l part="I"> a saber quién eres. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> ¿Cómo? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="I"> Desta suerte. </l>
+            <stage>Descúbrela.</stage>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l n="100" part="F"> ¿Que dudases, </l>
+            <l> ¡ah cruel!, que era yo a quien </l>
+            <l> le tocaban más que a nadie </l>
+            <l part="I"> tus sinrazones? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> Marfisa, </l>
+            <l part="I"> mi bien, mi cielo... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> No trates </l>
+            <l n="105"> desenojar con lisonjas </l>
+            <l> a quien matas con pesares. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l part="I"> ¡Qué escucho! </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> ¿Tú eres aquel </l>
+            <l> paladín abencerraje, </l>
+            <l> que en real alimento tuvo </l>
+            <l n="110"> una leona por madre? </l>
+            <l> Pues ¿cómo desde prodigio </l>
+            <l> tan presto has pasado a ultraje, </l>
+            <l> que de tu patria y tu ley </l>
+            <l> y mi amor olvido haces, </l>
+            <l part="I"> tan del todo, que...? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l n="115" part="F"> Marfisa, </l>
+            <l> no me culpes de inconstante; </l>
+            <l> que aunque mudé religión </l>
+            <l> por más superior dictamen, </l>
+            <l> de amor no mudé; que el tuyo </l>
+            <l n="120"> es en el alma carácter. </l>
+            <l> Como te quise, te quiero, </l>
+            <l> y que no te quise, sabes, </l>
+            <l part="I"> para esposa. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l part="F"> Dama era </l>
+            <l part="I"> suya sin duda. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> No baste </l>
+            <l n="125"> aquesa satisfación; </l>
+            <l> que celos son unos males </l>
+            <l> tan fáciles de nacer, </l>
+            <l> que de cualquier amor nacen. </l>
+            <l> Cuando no me ofenda el gusto </l>
+            <l n="130"> ¿puede el olvido dejarme </l>
+            <l> de ofender, con que abandonas </l>
+            <l> tu fama, pues que la abates </l>
+            <l part="I"> al ciego amor de...? </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l part="F"> Detente, </l>
+            <l> no a decir su nombre pases, </l>
+            <l n="135"> africana; que no es </l>
+            <l> sujeto tan relevante </l>
+            <l> para los labios de quien </l>
+            <l> se da a partido tan fácil, </l>
+            <l> que en que la aman se consuela, </l>
+            <l n="140"> sin que para esposa la amen. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Quizá es más decoro que </l>
+            <l> ni aun para eso me mirase </l>
+            <l> su esperanza, por no haber </l>
+            <l> tenido primero amante </l>
+            <l n="145"> en quien me perdiese el miedo, </l>
+            <l> como alguna en Lisidante. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="I"> ¿Qué escuché, cielos? </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l part="F"> A ser </l>
+            <l> servida una dama, no hace </l>
+            <l> consecuencia a los favores, </l>
+            <l n="150"> cuando constan las crueldades. </l>
+            <l> Y así, aunque no me desluzga </l>
+            <l> tu voz, que me enoje baste, </l>
+            <l> para que ya que no vengue, </l>
+            <l part="I"> castigue... </l>
+            <stage>Va a embestirla.</stage>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> Ten, Bradamante, </l>
+            <l part="I"> la espada. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADOMÍN</speaker>
+            <l n="155" part="F"> ¿Tú la defiendes? </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Quita, y deja que la mate. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Ten el acero, Marfisa. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="I"> ¿Tú la amparas? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> ¿Habrá alguien </l>
+            <l> tenido entre dos afectos </l>
+            <l n="160"> poderosamente iguales, </l>
+            <l> el corazón dividido </l>
+            <l> en tan enteras mitades, </l>
+            <l> que aunque Marfisa me injuria </l>
+            <l> con sus despechos, la ampare, </l>
+            <l n="165"> y aunque me dé con sus celos </l>
+            <l> pena, valga a Bradamante, </l>
+            <l> siendo mi vida un acero </l>
+            <l> tirado de dos imanes, </l>
+            <l part="I"> tan a un tiempo? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <stage>Dentro.</stage>
+            <l part="F"> Ya lo es, </l>
+            <l n="170"> de que él no se desengañe, </l>
+            <l> ni ninguna fe asegure. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Estando riñendo las dos, y él en medio, salen JAQUES y ZULEMA de leones y cargan con él, y suena un terremoto.</stage>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l part="I"> Quita. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="M"> Aparta. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> ¡Bradamante, </l>
+            <l> Marfisa...! ¡Valedme, cielos! </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Ya obedecer tus mandates. </l>
+            <stage>Llévanle.</stage>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l n="175"> Ya tus preceptos cumplimos. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l part="I"> ¡Qué desdichas! </l>
+            <stage>El terremoto.</stage>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> ¡Qué pesares! </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>UNOS</speaker>
+            <stage>Dentro.</stage>
+            <l part="I"> ¡Qué asombros! </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>OTROS</speaker>
+            <l part="F"> ¡Qué confusiones! </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> Dos leones de delante </l>
+            <l> le han robado de nosotras. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l n="180"> Porque muera como nace </l>
+            <l> quien no como nace vive, </l>
+            <l> a cuyo pasmo en mortales </l>
+            <l> parasismos muerto el sol </l>
+            <l> fallece a la media tarde. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l n="185"> Anticipada la noche, </l>
+            <l> no hay nube que no se rasgue </l>
+            <l> a relámpagos y truenos, </l>
+            <stage>El terremoto.</stage>
+            <l> mas nada, mas nada baste </l>
+            <l> a que a mis manos no mueras. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l n="190"> Ni tú a las mías no acabes. </l>
+          </sp>
+          <stage>Terremoto grande.</stage>
+          <sp who="#jaques">
+            <speaker>UNOS</speaker>
+            <stage>Dentro.</stage>
+            <l part="I"> ¡Qué prodigio! </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>OTROS</speaker>
+            <l part="F"> ¡Qué portento! </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+
+            <l> De Flor de Lis el alcance </l>
+            <l> no es posible que prosiga; </l>
+            <l> que en negras obscuridades </l>
+            <l n="195"> voy tropezando en mis sombras. </l>
+            <stage>El terremoto.</stage>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Sale.</stage>
+          <sp who="#oliveros">
+            <speaker>OLIVEROS</speaker>
+
+            <l> Envidioso de ver tales </l>
+            <l> iras, aun el viento quiere </l>
+            <l> entrar en duro combate </l>
+            <l part="I"> con los montes. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Sale.</stage>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+
+            <l part="F"> Y no solo </l>
+            <l n="200"> de los estruendos se vale, </l>
+            <stage>El terremoto.</stage>
+            <l> pero de la artillería </l>
+            <l part="I"> de los rayos. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Sale.</stage>
+          <sp who="#delfín">
+            <speaker>DELFÍN</speaker>
+
+            <l part="F"> Sí, pues de aves, </l>
+            <l> de globos de fuego pueblan </l>
+            <l> de crinado vulgo el aire. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Sale.</stage>
+          <sp who="#durandarte">
+            <speaker>DURANDARTE</speaker>
+
+            <l n="205"> En embrïones de luz </l>
+            <l> sus senos los riscos abren. </l>
+            <stage>El terremoto.</stage>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Sale.</stage>
+          <sp who="#reinaldos">
+            <speaker>REINALDOS</speaker>
+
+            <l> Y auxiliares de los riscos </l>
+            <l> contra ellos braman los mares. </l>
+            <stage>Terremoto.</stage>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Sale.</stage>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+
+            <l> Sin duda, contra nosotros </l>
+            <l n="210"> hoy Argalía se vale </l>
+            <l> de Merlín, a quien le dieron </l>
+            <l> torpe espíritu por padre </l>
+            <stage>Terremoto.</stage>
+            <l> tantas diabólicas ciencias, </l>
+            <l> siendo siempre favorables </l>
+            <l n="215"> al África sus encantos; </l>
+            <l> y así, porque no embarace </l>
+            <l> el que cobre a Flor de Lis </l>
+            <l> y con toda África acabe </l>
+            <l> de una vez, nuestra conquista </l>
+            <l n="220"> será la cueva en que yace </l>
+            <l> hasta que abrasado vuele </l>
+            <l> en cenizas su cadáver. </l>
+
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Sale.</stage>
+          <stage>Vase.</stage>
+          <sp who="#reinaldos #durandarte #delfín #lisidante">
+            <speaker>TODOS</speaker>
+            <l> Todos en tan alta empresa </l>
+            <l> te ayudaremos constantes, </l>
+            <l n="225"> luego que cobrar el sol, </l>
+            <l> diga, publicando paces: </l>
+            <l> «Cesen, cesen rigores, cesen crueldades.» </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>Vanse todos.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> «Cesen, cesen rigores, cesen crueldades, </l>
+            <l> y cobrando fuentes, flores y aves, </l>
+            <l n="230"> sus matices, sus voces y sus cristales, </l>
+            <l> firmen blandas treguas, ya que no paces, </l>
+            <l> luna, sol, agua, fuego, tierra y aire. </l>
+          </sp>
+          <stage>Con esta música se descubre el teatro de los jardines, y en un cenador o nicho se ve FALERINA vestida de ninfa en acción de estatua de una fuente, y sacan dos leones a RUGERO haciendo canciones lo que dicen los versos.</stage>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Pues que desde las primeras </l>
+            <l> luces que gocé, en mí son </l>
+            <l n="235"> verdad y contradición </l>
+            <l> veros piadosas y fieras, </l>
+            <l> oh crueldades lisonjeras, </l>
+            <l> (o por decir más verdades, </l>
+            <l> crueles lisonjas), piedades </l>
+            <l n="240"> o iras de una vez usad, </l>
+            <l> o vida o muerte me dad: </l>
+            <l> no para contrariedades... </l>
+          </sp>
+          <sp who="#rugero #música">
+            <speaker>ÉL y MÚSICA</speaker>
+            <l>Cesen, cesen rigores... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ¡Oh, quien hablalde pudiera, </l>
+            <l n="245"> ya que mi amo moro ser...! </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Ya que, cristiano, placer </l>
+            <l> tuvo en que yo le sirviera... </l>
+          </sp>
+          <sp who="#jaques #zulemilla">
+            <speaker>LOS DOS</speaker>
+            <l>La hablaré desta manera. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Vanse los dos con las señas.</stage>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> A mis pies con ceños graves, </l>
+            <l n="250"> halagüeños y suaves </l>
+            <l> me enseñan, yéndose aquella </l>
+            <l> estatua divina y bella, </l>
+            <l> a quien dio el abril las llaves... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Pues cobrando fuentes, flores y aves... </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l n="255"> Su primero resplandor </l>
+            <l> en bello jardín me veo, </l>
+            <l> que no pudiera el deseo </l>
+            <l> imaginarle mejor... </l>
+            <l> Mil aromas cada flor, </l>
+            <l n="260"> cada fuente mil raudales, </l>
+            <l> cada ave mil celestiales </l>
+            <l> tonos... en prodigio tanto, </l>
+            <l> todo junto es un encanto, </l>
+            <l> pues que suspenden iguales... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="265"> Sus matices, sus voces, [y sus cristales].</l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> ¡Oh tú, que en confusa calma </l>
+            <l> tienes, de jazmín vestida, </l>
+            <l> para estatua mucha vida, </l>
+            <l> para deidad poca alma! </l>
+            <l n="270"> Si deste jardín la palma </l>
+            <l> eres, pues de cuanto aplaces </l>
+            <l> vitoriosamente haces </l>
+            <l> triunfos a tu pie rendidos, </l>
+            <l> haz que también mis sentidos </l>
+            <l n="275"> entre asombros y solaces... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Firmen blandas treguas, ya que no paces. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Luna es, pues siente desmayos; </l>
+            <l> sol, pues brilla luces tales; </l>
+            <l> agua, pues toda es cristales; </l>
+            <l n="280"> fuego, pues que toda es rayos; </l>
+            <l> tierra, pues florece mayos, </l>
+            <l> y aire, pues a su donaire </l>
+            <l> no hay lustre que no desaire: </l>
+            <l> con que viene en mi consuelo </l>
+            <l n="285"> a ser de todo esto el cielo, </l>
+            <l> pues padecen su desaire... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Luna, sol, agua, fuego, tierra, aire. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> ¿Cúya eres, oh peregrina, </l>
+            <l> bella imagen soberana? </l>
+            <l n="290"> ¿De Venus u de Diana? </l>
+            <l> Que uno y otro te imagina </l>
+            <l> el que, dos veces divina, </l>
+            <l> en ti adoradas deidades. </l>
+            <l> Si a mi llanto te persuades, </l>
+            <l n="295"> sepa; pues ídolo eres, </l>
+            <l> y responderás si quieres, </l>
+            <l> ¿Qué me dicen tus piedades? </l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Cesen, cesen rigores, cesen crueldades, </l>
+            <l> y cobrando fuentes, flores y aves </l>
+            <l n="300"> sus matices, sus voces y sus cristales </l>
+            <l> firmen blandas treguas, ya que no paces, </l>
+            <l> luna, sol, agua, fuego, tierra y aire. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage>Sale del nicho al tablado.</stage>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Joven, cuyo valor </l>
+            <l> nació a más alto fin, </l>
+            <l n="305"> que a caudillo africano, </l>
+            <l> ni a francés paladín; </l>
+            <l> no solo mi voz creas, </l>
+            <l> viendo restitüir </l>
+            <l> a vida y alma un mármol, </l>
+            <l n="310"> pues hablarán por mí, </l>
+            <l> para mayor abono... </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage>Salen todas las músicas que puedan, vestidas de ninfas, con cendales en los rostros, y mientras ella representa y ellas cantan, él está suspenso.</stage>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> Deste hermoso jardín </l>
+            <l> en fuentes el cristal, </l>
+            <l> en flores el matiz... </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l n="315"> El grande origen tuyo </l>
+            <l> que te trajo hasta aquí </l>
+            <l> de la otomana luna </l>
+            <l> a la francesa Lis, </l>
+            <l> presagio fue que dijo </l>
+            <l n="320"> cuán bajo has de vivir </l>
+            <l> de una en otra ley, hasta </l>
+            <l> dar en la de gentil, </l>
+            <l> de cuyos dioses vienes. </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> Dígalo el ver vivir </l>
+            <l n="325"> fatigas de un cincel, </l>
+            <l> afanes de un buril. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Estatua viva te habla </l>
+            <l> la diosa, que feliz </l>
+            <l> ídolo es deste templo, </l>
+            <l n="330"> deidad deste pensil. </l>
+            <l> No es Venus, ni Diana, </l>
+            <l> ninfa celeste sí, </l>
+            <l> en cuyas sacras bodas </l>
+            <l> estrella has de lucir </l>
+            <l n="335"> cuando goces por ella... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> En ese azul viril, </l>
+            <l> dosel de rosicler, </l>
+            <l> tálamo de zafir. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> No, pues es consorte humana, </l>
+            <l n="340"> llegues a permitir </l>
+            <l> que las distancias mida </l>
+            <l> que hay del alta cerviz </l>
+            <l> del monte al valle; pues </l>
+            <l> aunque es noble, es así </l>
+            <l n="345"> que lo humano más noble, </l>
+            <l> con lo divino es vil, </l>
+            <l> y más cuando los hados... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> Te saben prevenir</l>
+            <l> en rayos de otro sol, </l>
+            <l n="350"> luces de otro cenit. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Hasta entonces conmigo </l>
+            <l> goza deste país, </l>
+            <l> donde dichoso vivas, </l>
+            <l> sin llegarte a afligir </l>
+            <l n="355"> de Bradamante ausencias </l>
+            <l> que ella no ha de sentir, </l>
+            <l> ni de Marfisa celos, </l>
+            <l> que sabrá echar de sí, </l>
+            <l> y cuando no los eche... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l n="360"> El que en mejor confín </l>
+            <l> tiene que merecer, </l>
+            <l> ¿qué tiene que sentir? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Vuelve a ver ese alcázar </l>
+            <l> que labró para ti </l>
+            <l n="365"> arquitecto el amor, </l>
+            <l> en cuyo camarín </l>
+            <l> son el bronce y el jaspe </l>
+            <l> material más civil; </l>
+            <l> pues de pórfido y oro </l>
+            <l n="370"> contienen entre sí </l>
+            <l> colunas y dinteles... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> Cuestión sobre argüir </l>
+            <l> cual desangró más venas: </l>
+            <l> el Catay o el Ofir. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l n="375"> Vuelve a ver el vergel, </l>
+            <l> cuya menor raíz </l>
+            <l> da en hojas de esmeralda </l>
+            <l> claveles de rubí. </l>
+            <l> Aroma es de coral </l>
+            <l n="380"> cada flor carmesí, </l>
+            <l> zafiro cada lirio, </l>
+            <l> también cada alhelí </l>
+            <l> topacio, en cuya aurora... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> Perla es cada jazmín, </l>
+            <l n="385"> que se engendró al llorar, </l>
+            <l> y se cuajó al reír. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Eterna primavera </l>
+            <l> el año será aquí, </l>
+            <l> sin que de doce meses </l>
+            <l n="390"> sepas más que el abril. </l>
+            <l> Tu mesa será el ampo, </l>
+            <l> sin que, por acudir </l>
+            <l> su blancura al mantel, </l>
+            <l> su frío deje de ir </l>
+            <l n="395"> al néctar y ambrosía... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> En copas, que sutil </l>
+            <l> filigrana de oro </l>
+            <l> guarnezcan el perfil. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Tu lecho será el mayo, </l>
+            <l n="400"> pues le verás mullir </l>
+            <l> rasos de primavera </l>
+            <l> en catres de marfil; </l>
+            <l> siendo regazo de uno </l>
+            <l> y de otro transportín; </l>
+            <l n="405"> las plumas de aquel ave, </l>
+            <l> que al nacer del morir </l>
+            <l> reservará la hoguera... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> Cuyo hermoso terliz </l>
+            <l> del colchado algodón, </l>
+            <l n="410"> respirará ámbar gris. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Tendrás a todas horas </l>
+            <l> en continuo festín </l>
+            <l> mis damas, en quien hay </l>
+            <l> aun más que ver, que oír; </l>
+            <l n="415"> y cuando echares menos </l>
+            <l> tu espíritu la lid, </l>
+            <l> también sabré batallas </l>
+            <l> en el aire fingir </l>
+            <l> que tu valor diviertan... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l n="420"> Viendo en embestir </l>
+            <l> escuadras ciento a ciento, </l>
+            <l> y tropas mil a mil. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> En fin, tendrás, Rugero, </l>
+            <l> bien que no tendrás fin, </l>
+            <l n="425"> pues semidiós conmigo </l>
+            <l> eterno has de vivir, </l>
+            <l> mientras de colocarte </l>
+            <l> no llegue el tiempo en mí, </l>
+            <l> un alma que te adore, </l>
+            <l n="430"> con quien siempre feliz </l>
+            <l> vivirás, cuando el iris... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> Desplegará por ti </l>
+            <l> las hojas de esmeralda, </l>
+            <l> de gualda y de carmín. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l n="435"> Hermoso enigma, en quien, </l>
+            <l> no sin asombro, vi </l>
+            <l> que pudo alcanzar más </l>
+            <l> el ver que el discurrir. </l>
+            <l> Si deidad eres, ¿cómo </l>
+            <l n="440"> puedes dudar de mí, </l>
+            <l> que al decirme que soy </l>
+            <l> más noble que creí, </l>
+            <l> en más obligación </l>
+            <l> me pones de acudir </l>
+            <l n="445"> a esa misma nobleza? </l>
+            <l> Y siendo aquesto así, </l>
+            <l> ¿contradición no implica </l>
+            <l> que intentes conseguir </l>
+            <l> el hacerme más noble </l>
+            <l n="450"> para verme más ruin? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="I"> ¿Cómo? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> Pues ¿hay mayor </l>
+            <l part="I"> ruindad....</l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="M"> ¿Qué? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> ...que mentir? </l>
+            <l> Y más a una mujer, </l>
+            <l> obligándome aquí </l>
+            <l n="455"> a que te ofrezca un alma, </l>
+            <l> que ya a otro dueño di. </l>
+            <l> Verdad es que a Marfisa </l>
+            <l> la quiero como a mí; </l>
+            <l> mas no como a mi esposa. </l>
+            <l n="460"> Y si grosero fui, </l>
+            <l> dígalo la contienda </l>
+            <l> en que a los dos perdí </l>
+            <l> en querer allá dos; </l>
+            <l> ¿qué será a tres aquí? </l>
+            <l n="465"> Y pues desengañar </l>
+            <l> más noble es que fingir, </l>
+            <l> permíteme que vuelva </l>
+            <l> donde estaba, al oír </l>
+            <l> que estoy en mi fortuna, </l>
+            <l n="470"> desde que merecí </l>
+            <l> para admitirme esposo </l>
+            <l> de Bradamante el sí, </l>
+            <l> tan feliz que no puedes </l>
+            <l> hacerme más feliz. </l>
+            <l n="475"> Por ser estrella yo, </l>
+            <l> ¿cómo he de permitir </l>
+            <l> que ella mi sol no sea, </l>
+            <l> llegando a preferir </l>
+            <l> a todo un sol un astro? </l>
+            <l part="I"> Y así, humilde... </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l n="480" part="F"> ¡Ay de ti! </l>
+            <l> Que no sabes que solo </l>
+            <l> no es el engaño vil </l>
+            <l> que se hace a declarada </l>
+            <l> mujer, pues siempre vi </l>
+            <l n="485"> sentir más el desprecio </l>
+            <l> que el engaño; que, en fin, </l>
+            <l> uno da que temer, </l>
+            <l> pero otro que sentir. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Eso es juzgarla a ella, </l>
+            <l n="490"> mas no juzgarme a mí, </l>
+            <l> que soy el que no quiero </l>
+            <l> finezas deslucir </l>
+            <l> con engañarte; fuera </l>
+            <l> de que ¿eres, como oí, </l>
+            <l n="495"> deidad, o no? Si lo eres, </l>
+            <l> ¿cómo he de presumir </l>
+            <l> engañarte? Y si no, </l>
+            <l> ¿qué aventuro en huir </l>
+            <l part="I"> de quien me engaña? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="F"> El ver... </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="I"> ¿Qué? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l n="500" part="F"> Que aun sin prevenir </l>
+            <l> tantas felicidades, </l>
+            <l> como te prometí, </l>
+            <l> por mí sola el desaire </l>
+            <l part="I"> tomar debo, y que... </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> Di. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l n="505"> ...es poca la distancia </l>
+            <l> que se da entre rendir </l>
+            <l> un afecto o vengar </l>
+            <l part="I"> un desdén. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> Es así; </l>
+            <l> mas si es ruin (yo lo dije) </l>
+            <l n="510"> quien miente por mentir, </l>
+            <l> quien miente por temer </l>
+            <l> será dos veces ruin. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="I"> ¿Que aún no fingirás? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> No. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="I"> ¿Y quieres irte? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="F"> Sí. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l n="515"> Pues ¿que vendrán finezas </l>
+            <l> contigo a conseguir? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Darme que agradecer, </l>
+            <l> pero no que admitir. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> ¿En eso te resuelves? </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l n="520"> No está mi arbitrio en mí. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Pues pasen a otro extremo </l>
+            <l part="I"> mis iras. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="M"> ¿Cómo? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="F"> Así. </l>
+            <l> El tono que adormece </l>
+            <l> los sentidos decid. </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l n="525"> ¡Ay mísero de ti, </l>
+            <l> que lo feliz desdeñas, </l>
+            <l> y eliges lo infeliz! </l>
+            <l> ¡Ay mísero de ti! </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> ¡Cielos! ¿Qué confusión </l>
+            <l n="530"> esta que ha entrado en mí, </l>
+            <l> que no me deja, ay triste, </l>
+            <l> ni hablar ni discurrir? </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> ¡Ay mísero de ti! </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Un letargo, un delirio, </l>
+            <l n="535"> un pasmo, un frenesí </l>
+            <l> los sentidos embarga, </l>
+            <l> sin ver, ni hablar, ni oír. </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> ¡Ay mísero de ti! </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Trabado el corazón, </l>
+            <l n="540"> late, tan sin latir, </l>
+            <l> que a no animar, anima, </l>
+            <l> y vive a no vivir. </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> ¡Ay mísero de ti! </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Tan turbado el aliento, </l>
+            <l n="545"> el pecho echa de sí, </l>
+            <l> que empieza en pronunciar </l>
+            <l> y remata en gemir. </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> ¡Ay mísero de ti! </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Todo es entorpecer </l>
+            <l n="550"> y temblar, tan sin mí, </l>
+            <l> que viene a ser mi pena </l>
+            <l> sentir de no sentir. </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> ¡Ay mísero de ti! </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l part="I"> ¿Qué es esto, cielos? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="F"> Esto </l>
+            <l n="555"> es que, pues yo por ti </l>
+            <l> pasé de estatua a viva, </l>
+            <l> pases tú ahora por mí </l>
+            <l> de vivo a estatua, siendo </l>
+            <l> mármol deste jardín, </l>
+            <l n="560"> para que en mi venganza </l>
+            <l> mejor pueda decir... </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> También lo diré yo, </l>
+            <l> por si descanso así: </l>
+            <l> ¡ay mísero de mí... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA TODA</speaker>
+            <l n="565"> ¡Ay mísero de ti! </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> ...que lo feliz desdeño, </l>
+            <l> y elijo lo infeliz! </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> ¡Que lo feliz desdeñas, </l>
+            <l> y eliges lo infeliz! </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l n="570"> Ministros míos, a quien </l>
+            <l> las brutas formas di, </l>
+            <l> por haber penetrado </l>
+            <l> desta cueva el sibil!... </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage>Salen JAQUES y ZULEMILLA.</stage>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="I"> ¿Qué mandas? </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="F"> ¿Qué querer? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l n="575"> ¿Puesto que, para ti, </l>
+            <l> somos los que antes fuimos? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> Que ya que me servís, </l>
+            <l> me guardéis esta estatua, </l>
+            <l> y a cualquiera que aquí </l>
+            <l n="580"> en busca suya entre, </l>
+            <l> le hagáis pedazos mil. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ¿Y si él se contentar </l>
+            <l part="I"> con novecintos? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="F"> Y si, </l>
+            <l> aunque a otros león parezca, </l>
+            <l n="585"> soy puerco, y aún respira, </l>
+            <l> ¿cómo he de defenderle? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> No temáis, porque aquí </l>
+            <l> lo formidable basta; </l>
+            <l> y para resistir, </l>
+            <l n="590"> si alguien se atreve a entrar, </l>
+            <l> el que pueda salir </l>
+            <l> continuamente el eco </l>
+            <l> que aduerme, repetid </l>
+            <l> vosotros, mientras yo </l>
+            <l n="595"> siembro todo el confín </l>
+            <l> de venenosas yerbas, </l>
+            <l> que al pisarlas, herir </l>
+            <l> puedan la planta a cuantos </l>
+            <l> entrar osen aquí. </l>
+            <l n="600"> Fuera de que, ¿qué temo, </l>
+            <l> si mientras de Merlín </l>
+            <l> dure el sepulcro y nadie </l>
+            <l> se atreve a descubrir </l>
+            <l> lo que en sí encierra el pacto </l>
+            <l n="605"> de sus ciencias, el fin </l>
+            <l> nadie ha de haber? En cuyo </l>
+            <l> asombro ha de vivir, </l>
+            <l> hecho mármol a todos, </l>
+            <l> quien lo fue para mí. </l>
+            <l n="610"> A cuyo encanto una </l>
+            <l> y mil veces decid... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA TODA</speaker>
+            <l> ¡Ay mísero de ti, </l>
+            <l> que lo feliz desdeñas </l>
+            <l> y eliges lo infeliz! </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage>Vuélvese a cerrar la cortina, y sale por una parte ROLDÁN y DURANDARTE, deteniendo a MARFISA. Y por otra LISIDANTE, OLIVEROS y REINALDOS, deteniendo a BRADAMANTE.</stage>
+          <sp who="#roldán #durandarte">
+            <speaker>UNOS</speaker>
+            <l part="I"> Tente, Bradamante. </l>
+          </sp>
+          <sp who="#lisidante #oliveros">
+            <speaker>OTROS</speaker>
+            <l n="615" part="F"> Tente, </l>
+            <l part="I"> africana. </l>
+          </sp>
+          <sp who="#roldán #durandarte #lisidante #oliveros">
+            <speaker>LAS DOS</speaker>
+            <l part="F"> Es desvarío... </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> Que yo he de ser la primera </l>
+            <l> que examine ese prodigio, </l>
+            <l> de cuya boca las fieras </l>
+            <l n="620"> salieron, que el dueño mío </l>
+            <l> me robaron de los ojos; </l>
+            <l> que como a esposo le estimo... </l>
+            <stage>Aparte.</stage>
+            <l> Aunque me ofendan sus celos. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Que solo ha de ser mi brío </l>
+            <l n="625"> el que examine el portento </l>
+            <l> de aquese insulto retiro, </l>
+            <l> de cuyo bostezo fueron </l>
+            <l> partos los monstruos esquivos </l>
+            <l> que a Rugero arrebataron... </l>
+            <stage>Aparte.</stage>
+            <l n="630"> Aunque me ofenda su olvido </l>
+            <l> que como amante le adoro. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Aunque pudiera, ofendido </l>
+            <l> de ti, darme por vengado, </l>
+            <l> fuera a mi valor indigno; </l>
+            <l n="635"> porque la mejor venganza </l>
+            <l> que para una dama ha habido </l>
+            <l> es, cuando ella ha un desprecio, </l>
+            <l> vengarle con un servicio. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> ¡Bueno fuera que Roldán, </l>
+            <l n="640"> estuviera por testigo </l>
+            <l> de un peligro, y viera ir </l>
+            <l> una mujer al peligro </l>
+            <l part="I"> y él se quedara! </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="F"> Y así, </l>
+            <l> por ti y por mí, solicito </l>
+            <l n="645"> ser el primero que entre </l>
+            <l> en el pavoroso sitio </l>
+            <l part="I"> de aquesa gruta. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l part="F"> Y así, </l>
+            <l> el primero determino </l>
+            <l> ser, que los senos penetre </l>
+            <l part="I"> de ese asombro. </l>
+          </sp>
+          <sp who="#durandarte">
+            <speaker>DURANDARTE</speaker>
+            <l n="650" part="F"> Ese desvío </l>
+            <l> no consentirá mi fama. </l>
+          </sp>
+          <sp who="#oliveros">
+            <speaker>OLIVEROS</speaker>
+            <l> Tampoco mi pecho invicto. </l>
+          </sp>
+          <sp who="#reinaldos">
+            <speaker>REINALDOS</speaker>
+            <l part="I"> Ni mi valor. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
+          <stage>Sale CARLOS.</stage>
+          <sp who="#roldán #durandarte #lisidante #oliveros #reinaldos">
+            <speaker>TODOS</speaker>
+            <l part="M"> Yo... </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> ¿Qué es esto? </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Que habiendo tú anoche dicho </l>
+            <l n="655"> que para cobrar a Flor, </l>
+            <l> y acabar la lid, camino </l>
+            <l> no hay mientras militaren </l>
+            <l> los diabólicos hechizos </l>
+            <l> del cadáver de Merlín </l>
+            <l n="660"> por África, conferimos </l>
+            <l> que era bien reconocer </l>
+            <l> qué contiene el laberinto </l>
+            <l> de sus intrincadas quiebras, </l>
+            <l> para aplicar los disignios, </l>
+            <l n="665"> más a su ruina conformes: </l>
+            <l> a que Bradamante dijo... </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> Rugero, de dos leones, </l>
+            <l> que no sé si compasivos </l>
+            <l> o crueles le ausentaron, </l>
+            <l n="670"> vivo o muerto en su distrito </l>
+            <l> yace, y así a nadie toca </l>
+            <l> más que a mí entrar en su abismo. </l>
+            <l> Si es muerto, a morir con él, </l>
+            <l> o a vivir con él si es vivo. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l n="675"> Prosiguió a esto esa africana... </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Habiendo anoche perdido, </l>
+            <l> con la oscura confusión </l>
+            <l> de aquel terremoto, el tino, </l>
+            <l> que impidió mi retirada; </l>
+            <l n="680"> y habiendo entre otros cautivos </l>
+            <l> quedado a ser prisionero. </l>
+            <stage>Aparte.</stage>
+            <l> (Lo que me movió no digo: </l>
+            <l> quien lo ha de saber, lo sabe.) </l>
+            <l> Proseguí: siempre fue estilo </l>
+            <l n="685"> de averiguar de las simas </l>
+            <l> los secretos escondidos, </l>
+            <l> abandonar un esclavo; </l>
+            <l> y pues yo lo soy, me obligo </l>
+            <l> a la ley de serlo, entrando </l>
+            <l part="I"> la primera. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l n="690" part="F"> Yo el peligro </l>
+            <l> de Bradamante excusaba. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> Yo el de esta mujer, movido </l>
+            <l> a que basta ser mujer; </l>
+            <l> pues no hay tan opuesto rito </l>
+            <l n="695"> que sus privilegios rompa. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Cuando intentando lo mismo </l>
+            <l part="I"> todos... </l>
+          </sp>
+          <sp who="#marfisa #bradamante #roldán">
+            <speaker>LOS TRES</speaker>
+            <l part="F">Todos pretendemos </l>
+            <l> ser al riesgo preferidos. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> En cuanto a que es buen acuerdo </l>
+            <l n="700"> saber que haya contenido </l>
+            <l> aquesa gruta, convengo; </l>
+            <l> pero no me determino </l>
+            <l> a cuál haya de vosotros </l>
+            <l> de ser el que ha de inquerirlo. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l n="705"> Escúchame a mí: quizá </l>
+            <l> a una razón convencido </l>
+            <l> que milita en mí y no en otro, </l>
+            <l> podré a todos reduciros. </l>
+            <l> Ya sabéis que por la bella </l>
+            <l n="710"> Angélica perdí el juicio, </l>
+            <l> y que le cobré sabéis </l>
+            <l> en virtud de aqueste anillo, </l>
+            <l> que el mágico Malgesí</l>
+            <l> me dio. Pues si yo conmigo </l>
+            <l n="715"> llevo tal contraveneno </l>
+            <l> que fue bastante aforismo </l>
+            <l> contra el hechizo de celos, </l>
+            <l> ¿qué hará contra otros hechizos? </l>
+            <l> Seguro, pues con él voy, </l>
+            <l n="720"> de que haya tan noscivo </l>
+            <l> espíritu que me ofenda; </l>
+            <l> y así, a tus plantas te pido </l>
+            <l> me nombres, pues no es desdén </l>
+            <l> para los que no han tenido </l>
+            <l part="I"> igual antídoto. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l n="725" part="F"> Dices </l>
+            <l> bien. Ve, pues, y trae aviso </l>
+            <l> de lo que vieres, porque </l>
+            <l> sepa, una vez advertido, </l>
+            <l> si han de ser acero o fuego </l>
+            <l n="730"> los que arruinen su obelisco. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> Fía de mí, que te traiga </l>
+            <l part="I"> buen informe. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
+          <stage>Vase, y suena el clarín.</stage>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> Si no fío </l>
+            <l> de Roldán, ¿de quién podré? </l>
+            <l> Pero, ¿qué trompeta ha herido </l>
+            <l part="I"> el aire? </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="26">
+          <stage>Sale DELFÍN.</stage>
+          <sp who="#delfín">
+            <speaker>DELFÍN</speaker>
+            <l n="735" part="F"> Llamada es </l>
+            <l> de paz que hace el enemigo </l>
+            <l> para que a un embajador </l>
+            <l part="I"> oigas. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> ¿Qué habrá sucedido? </l>
+            <l> ¡Ay Flor de Lis de mi vida! </l>
+            <l n="740"> Llegue, que yo le permito, </l>
+            <l> de embajador el seguro. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="27">
+          <stage>Sale ARGALÍA.</stage>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l> Con ese salvo te pido </l>
+            <l part="I"> mano y audiencia. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> ¿Quién eres? </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l n="745"> Argalía, que no he querido </l>
+            <l> fiar de otro que de mi </l>
+            <l> prática en que solicito, </l>
+            <l> embajatriz de mí misma, </l>
+            <l> participarte motivos </l>
+            <l part="I"> que a esto me obligan. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l n="750" part="F"> Di, pues. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l> Anoche mi valor hizo </l>
+            <l> a Flor de Lis prisionera; </l>
+            <l> y aunque triunfo tan altivo </l>
+            <l> pudo anticiparme medios </l>
+            <l n="755"> de adelantar mis partidos </l>
+            <l> con tantas ventajas cuantas </l>
+            <l> me propusiera el arbitrio, </l>
+            <l> pues no hay canje que ser pueda </l>
+            <l> de tanto mérito digno; </l>
+            <l n="760"> con todo, en su estimación, </l>
+            <l> no tocando mi delirio </l>
+            <l> en la locura de hacer </l>
+            <l> la dicha a desprecio indigno, </l>
+            <l> vengo hacer liberal trueco </l>
+            <l n="765"> della a dos vidas, que han sido, </l>
+            <l> si no precio suyo, precio </l>
+            <l> de mi odio y de mi cariño. </l>
+            <l> Marfisa, una dama mía, </l>
+            <l> que criándose conmigo </l>
+            <l n="770"> ha merecido tener </l>
+            <l> las llaves de mi albedrío, </l>
+            <l> predominante estrella, </l>
+            <l> en mí gozando el dominio; </l>
+            <l> si es que escapó viva anoche, </l>
+            <l n="775"> de tanto mortal conflito, </l>
+            <l> es la una; la otra es </l>
+            <l> Rugero, un advenedizo</l>
+            <l> hijo espúreo de los hados, </l>
+            <l> que infiel, desagradecido </l>
+            <l n="780"> y ingrato a tantos honores, </l>
+            <l> como mi padre le hizo </l>
+            <l> contra mí, contra su ley </l>
+            <l> y contra su patria ha sido </l>
+            <l> tan vil traidor, que ha tomado </l>
+            <l n="785"> las armas en tu servicio. </l>
+            <l> Y así, volviendo a la salva </l>
+            <l> de que no cuerda remito, </l>
+            <l> por los dos a Flor de Lis, </l>
+            <l> disculpen el desvarío </l>
+            <l n="790"> lo que a Rugero aborrezco </l>
+            <l> y lo que Marfisa estimo. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> Sepa antes que responda, </l>
+            <l> quién esta esclava haya sido, </l>
+            <l part="I"> y si vive. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> Sí señor. </l>
+            <l n="795"> Y a tus plantas te suplico </l>
+            <l> me des licencia de que </l>
+            <l> la mano a mi dueño invicto </l>
+            <l> bese por tanta fineza. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> No solo eso te permito, </l>
+            <l n="800"> mas que con ella te vayas, </l>
+            <l> sin pasar a más partidos </l>
+            <l> en cuanto a la libertad </l>
+            <l> de Flor de Lis; que indeciso, </l>
+            <l> no me atreveré a tratarlos, </l>
+            <l n="805"> por no atreverme a cumplirlos. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l part="I"> ¿Por qué? </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> Porque aun no tocando </l>
+            <l> en humanos ni en divinos </l>
+            <l> fueros de ser ya cristiano, </l>
+            <l> que importa más que mis hijos, </l>
+            <l n="810"> y estar en mi protección, </l>
+            <l part="I"> aun hay otro requisito. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l part="F"> ¿Qué es? </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> Que no se sabe dél, </l>
+            <l> de que Marfisa es testigo; </l>
+            <l> pues sabe que en esa cueva </l>
+            <l n="815"> de Merlín, despojo ha sido </l>
+            <l> de dos leones: a cuya </l>
+            <l> causa abrasar solicito </l>
+            <l> su cadáver, y acabar </l>
+            <l> de una vez con sus prodigios. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="28">
+          <stage>Sale ROLDÁN.</stage>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l n="820"> Aun en sabiendo, señor, </l>
+            <l> cuán raros, cuán exquisitos </l>
+            <l part="I"> son, mejor lo dirás. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> ¿Cómo? </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> Como dentro de ese risco </l>
+            <l> entrando, sin que llegase </l>
+            <l n="825"> ninguna guarda a impedirlo, </l>
+            <l> solo vi reales palacios </l>
+            <l> entre jardines tan ricos </l>
+            <l> y tan hermosos, que son </l>
+            <l> retratos de un paraíso; </l>
+            <l n="830"> de suerte que sin horror </l>
+            <l> ninguno, yendo conmigo, </l>
+            <l> pues conmigo vais seguros </l>
+            <l> de que sus encantos rindo, </l>
+            <l> podréis todos entrar dentro. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l n="835"> Guía, pues, que ya te sigo, </l>
+            <l> que no es tan no visto asombro</l>
+            <l> para dejar de ser visto. </l>
+          </sp>
+          <sp who="#roldán #marfisa #argalía">
+            <speaker>TODOS</speaker>
+            <l> Si tú vas, ¿quién dejará </l>
+            <l part="I"> de seguirte? </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="29">
+          <stage>Entran todos por una puerta, y sale por otra FALERINA, descubriéndose otra vez los jardines con RUGERO, y los leones a sus pies.</stage>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="F"> Ea, ministros, </l>
+            <l n="840"> ya dentro de mis jardines </l>
+            <l> todos nuestros enemigos </l>
+            <l> están, pues con Bradamante </l>
+            <l> y Marfisa, que han tenido </l>
+            <l> la culpa de mis desprecios, </l>
+            <l n="845"> vienen cuantos destruirnos </l>
+            <l> tratan. Y pues a Roldán, </l>
+            <l> en virtud de aquel anillo </l>
+            <l> que entre Malgesí y Merlín </l>
+            <l> pacto contra pacto hizo, </l>
+            <l n="850"> no le alcancen mis rencores; </l>
+            <l> los demás, a ellos rendidos, </l>
+            <l> sientan las dos venenosas </l>
+            <l> fuerzas de los dos hechizos </l>
+            <l> de la yerba y de la voz, </l>
+            <l n="855"> mientras que yo me retiro </l>
+            <l> al sepulcro de Merlín; </l>
+            <l> porque no dando conmigo </l>
+            <l> Roldán, contra quien no tengo </l>
+            <l> poder, no tema el castigo </l>
+            <l n="860"> de la venganza de todos. </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="30">
+          <stage>Vase, y van saliendo por la otra parte todos.</stage>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="I"> León manso... </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="F"> León pacífico... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Pues no podemos hablarnos </l>
+            <l> como en aquel tiempecillo </l>
+            <l> en que hablaban los leones, </l>
+            <l n="865"> en tiempo del rey Perico, </l>
+            <l> dime por señas si anda </l>
+            <l> en el jardín algún ruido. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> ¡Y cómo que andar! Mas no </l>
+            <l> atreverme ni aun a oírlo; </l>
+            <l n="870"> que la reina bailarina </l>
+            <l> por qui travesar he visto,</l>
+            <l> hacendo no bon mandanca </l>
+            <l> y así, callar el hocico, </l>
+            <l> por no poderse decer </l>
+            <l n="875"> por los dos callar el pico. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> ¿Quién vio jamás tan hermoso, </l>
+            <l> bello, deleitable sitio? </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l> Ni aun la imaginación pudo </l>
+            <l> atreverse a describirlo. </l>
+          </sp>
+          <sp who="#jaques #zulemilla">
+            <speaker>TODOS</speaker>
+            <l n="880"> ¿Debajo de tierra, ¡cielos!, </l>
+            <l> cupo tan grande edificio? </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> Ved si con seguridad </l>
+            <l> que podéis entrar he dicho. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Y no es lo más admirable </l>
+            <l n="885"> lo suntuoso y lo lindo, </l>
+            <l> sino lo que a mirar llego, </l>
+            <l> pues estatua de aquel nicho </l>
+            <l part="I"> Rugero está. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l part="F"> Y tan inútil, </l>
+            <l> que no sé si muerto o vivo. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l n="890"> Pero a mirarlo me atrevo. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> A verlo me determino. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Mas ¡ay infeliz! </l>
+          </sp>
+          <sp who="#bradamante #marfisa">
+            <speaker>LAS DOS</speaker>
+            <l> Los dos leones, que impíos </l>
+            <l> nos le robaron, le guardan. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l n="895"> Por Dios que nos han temido, </l>
+            <l> con ser leones de paz. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Como esos mondo haber visto. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l part="I"> No los temáis... </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l part="F"> Harán bien. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> Pues yo a mis golpes los rindo. </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l n="900"> Y aun mucho menos bastar. </l>
+          </sp>
+          <stage>Dentro instrumentos.</stage>
+          <sp who="#bradamante #marfisa #zulemilla #jaques #roldán">
+            <speaker>TODOS</speaker>
+            <l> ¿Qué es esto, cielos divinos? </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> Espera, que quizá quieren </l>
+            <l> sonoras voces decirlo. </l>
+          </sp>
+          <sp who="#música">
+            <speaker>LA MÚSICA</speaker>
+            <l> En esta galería, </l>
+            <l n="905"> que Amor para sí hizo, </l>
+            <l> y que tirano dueño </l>
+            <l> se la entregó al olvido, </l>
+            <l> todos han de sentir tan sin sentido, </l>
+            <l> que a ser vengan, estatuas de sí mismos. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l n="910"> ¡Qué dulce voz! A sus ecos </l>
+            <l> quedé absorto y suspendido. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="I"> Turbada yo. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l part="F"> Yo confusa. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l part="I"> ¿Qué veneno... </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l part="F"> ¿Qué delirio... </l>
+          </sp>
+          <sp who="#durandarte">
+            <speaker>DURANDARTE</speaker>
+            <l part="I"> ¿Qué frenesí... </l>
+          </sp>
+          <sp who="#oliveros">
+            <speaker>OLIVEROS</speaker>
+            <l part="F">¿Qué letargo... </l>
+          </sp>
+          <sp who="#reinaldos">
+            <speaker>REINALDOS</speaker>
+            <l part="I"> ¿Qué pasmo... </l>
+          </sp>
+          <sp who="#delfín">
+            <speaker>DELFÍN</speaker>
+            <l n="915" part="F"> ¿Qué parasismo... </l>
+          </sp>
+          <sp who="#bradamante #marfisa #lisidante #argalía #durandarte #oliveros">
+            <speaker>TODOS</speaker>
+            <l> ...es el que me yela el pecho? </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> ¿Qué es esto, cielos, que miro? </l>
+          </sp>
+          <sp who="#bradamante #marfisa #lisidante #argalía #durandarte #oliveros #música">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l> En esta galería, </l>
+            <l> que Amor para sí hizo, </l>
+            <l n="920"> y que tirano dueño </l>
+            <l> se la entregó al olvido, </l>
+            <l> todos han de sentir tan sin sentido, </l>
+            <l> que a ser vengan estatuas de sí mismos. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> Ajenos de sí, elevados, </l>
+            <l n="925"> atónitos y rendidos </l>
+            <l> a profundo embargo, yacen</l>
+            <l> cuantos la voz han oído, </l>
+            <l> sino yo solo, ¡ay de mí!, </l>
+            <l> a cuya cuenta ha corrido </l>
+            <l n="930"> su riesgo. Y pues a mi cuenta </l>
+            <l> habrá de correr su alivio, </l>
+            <l> sea desta suerte. Fieras, </l>
+            <l> ya que a vosotros me libro, </l>
+            <l> no a mí os libraréis vosotras. </l>
+            <l n="935"> De Durandana a los filos </l>
+            <l> moriréis, ya que sois </l>
+            <l> tan fantásticos vestiglos, </l>
+            <l> ¿no me decís quién es dueño </l>
+            <l part="I"> deste encanto? </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l part="F"> ¿Quién decirlo </l>
+            <l n="940"> poder, si no tener voz, </l>
+            <l> que no sonar a rogido? </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l> Sea galán de mondonga </l>
+            <l> usted un rato, por Cristo, </l>
+            <l> y sabrá hablar por la mano. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l n="945"> A aquella parte me han dicho </l>
+            <l> sus señas, donde lo inculto </l>
+            <l> del jardín abre un resquicio. </l>
+            <l> Veré qué hay en él, en tanto </l>
+            <l> que dicen voz y gemido... </l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="31">
+          <stage>Entra por una puerta y sale por otra, y FALERINA huyendo, y ROLDÁN en su seguimiento.</stage>
+          <sp who="#bradamante #marfisa #lisidante #argalía #durandarte #oliveros #música">
+            <speaker>TODOS y MÚSICA</speaker>
+            <l n="950"> En esta galería, </l>
+            <l> que Amor para sí hizo, </l>
+            <l> y que tirano dueño </l>
+            <l> se la entregó al olvido, </l>
+            <l> todos han de sentir tan sin sentido, </l>
+            <l n="955"> que a ser vengan estatua de sí mismo. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l> ¿Quién eres, ¡oh prodigiosa </l>
+            <l> mujer!, que en este retiro </l>
+            <l> te ocultas acompañando </l>
+            <l> un hierto cadáver frío, </l>
+            <l n="960"> de cuyas manos quité </l>
+            <l> en fe de no haber temido </l>
+            <l> su horror, esta de metal </l>
+            <l part="I"> lámina? </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="F"> ¿Quién, de haber visto </l>
+            <l> que tú, Roldán, la has quitado </l>
+            <l n="965"> de donde hasta hoy no ha podido </l>
+            <l> quitarla nadie, ni aun yo, </l>
+            <l> con haberlo pretendido </l>
+            <l> muchas veces, a tus pies </l>
+            <l> postrada de sus prodigios, </l>
+            <l n="970"> rendirá la fuerza a precio </l>
+            <l part="I"> de la vida. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l part="F"> Yo te admito </l>
+            <l part="I"> la condición. </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l part="F"> Pues las voces </l>
+            <l> vuelvan a su contrahechizo. </l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> De aquesta galería, </l>
+            <l n="975"> que Amor para sí hizo, </l>
+            <l> aunque tirano dueño </l>
+            <l> se la entregó al olvido. </l>
+            <l> Cese, cese el encanto, y en su sentido </l>
+            <l> vuelva los que estatuas son de sí mismo. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l n="980"> ¿Qué es lo que pasa por mí? </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l> Con nuevo aliento respiro. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>BRADAMANTE</speaker>
+            <l> Como de un sueño despierto. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l> ¿Quién restaura mi sentido? </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> ¿Quién en mi acuerdo me cobra? </l>
+          </sp>
+          <sp who="#durandarte">
+            <speaker>DURANDARTE</speaker>
+            <l n="985"> ¿Me restituye en mi juicio? </l>
+          </sp>
+          <sp who="#oliveros">
+            <speaker>OLIVEROS</speaker>
+            <l> ¿A la nueva luz me vuelve? </l>
+          </sp>
+          <sp who="#reinaldos">
+            <speaker>REINALDOS</speaker>
+            <l> ¿Quién me rescata en mi arbitrio? </l>
+          </sp>
+          <sp who="#delfín">
+            <speaker>DELFÍN</speaker>
+            <l> ¿Y a mí en mí me restituye? </l>
+          </sp>
+          <sp who="#zulemilla">
+            <speaker>ZULEMILLA</speaker>
+            <l> Hasta en mí faltar el chizo. </l>
+          </sp>
+          <sp who="#jaques">
+            <speaker>JAQUES</speaker>
+            <l n="990"> Hasta en mí falta el encanto. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> ¿Quién, cielos, dudar me hizo, </l>
+            <l> viendo aquí todos, que agora </l>
+            <l> es cuando estoy más rendido </l>
+            <l> a aquella divina fiera? </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l n="995"> La voz que a todos os dijo... </l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l> Cese, cese el encanto, y en su sentido </l>
+            <l> vuelvan cuantos estatuas son de sí mismos. </l>
+          </sp>
+          <sp who="#bradamante #lisidante #argalía #durandarte #oliveros #reinaldos #delfín #rugero">
+            <speaker>TODOS</speaker>
+            <l part="I"> ¿Qué es esto, Roldán? </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l part="F"> Haber </l>
+            <l> aqueste asombro vencido, </l>
+            <l n="1000"> con solo haber arrancado </l>
+            <l> de un cadáver que allí he visto, </l>
+            <l part="I"> esta lámina. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l part="F"> Sepamos </l>
+            <l> qué es lo que está en ella escrito. </l>
+          </sp>
+          <sp who="#roldán">
+            <speaker>ROLDÁN</speaker>
+            <l part="I"> Está en arábigo. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l part="F"> Muestra </l>
+            <l n="1005"> pues, que yo podré decilo.</l>
+            <stage>Lee.</stage>
+            <l> «¡Ay, Falerina, de ti, </l>
+            <l> el día que los dos hijos </l>
+            <l> de Agramante se conozcan </l>
+            <l> por herederos de Egipto! </l>
+            <l n="1010"> Que es el término en que está </l>
+            <l> el pacto comprometido </l>
+            <l> que hice, para haber obrado </l>
+            <l> tantos extraños prodigios. </l>
+            <l> A cuya causa, teniendo </l>
+            <l n="1015"> en sus fortunas dominio, </l>
+            <l> y no en sus vidas, porque </l>
+            <l> nunca llegase, atrevido </l>
+            <l> hurté a los dos de sus cunas, </l>
+            <l> a los ásperos retiros </l>
+            <l n="1020"> de Aglante huyendo con ellos; </l>
+            <l> y para más dividirlos, </l>
+            <l> al uno en un barco al mar </l>
+            <l> entregué, y entre unos riscos </l>
+            <l> el otro a las fieras. Esto </l>
+            <l n="1025"> en el último suspiro </l>
+            <l> de mi vida te declaro; </l>
+            <l> porque vivas sobre aviso, </l>
+            <l> que en tu sueño y en la mira </l>
+            <l> con que siempre los asisto. </l>
+            <l n="1030"> Marfisa y Rugero son </l>
+            <l> en quien está su peligro.» </l>
+          </sp>
+          <sp who="#falerina">
+            <speaker>FALERINA</speaker>
+            <l> No más, no más; que al oír </l>
+            <l> que el fatal plazo cumplido </l>
+            <l> está a mis hados, al mar </l>
+            <l n="1035"> me echaré desde este risco, </l>
+            <l> donde despeñada muera </l>
+            <l> en trágico precipicio. </l>
+          </sp>
+          <stage>Con terremoto se vuelven a cubrir los jardines.</stage>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Los jardines y palacios, </l>
+            <l> todo ha desaparecido. </l>
+          </sp>
+          <sp who="#bradamante #lisidante">
+            <speaker>UNOS</speaker>
+            <l part="I"> ¡Qué asombro! </l>
+          </sp>
+          <sp who="#argalía #durandarte">
+            <speaker>OTROS</speaker>
+            <l n="1040" part="F"> ¡Qué confusión! </l>
+          </sp>
+          <sp who="#oliveros #reinaldos">
+            <speaker>OTROS</speaker>
+            <l part="I"> ¡Qué portento! </l>
+          </sp>
+          <sp who="#delfín #rugero">
+            <speaker>OTROS</speaker>
+            <l part="F"> ¡Qué prodigio! </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> Sin duda, escribiendo esto </l>
+            <l> murió, y el cielo previno </l>
+            <l> que esta lámina en sus manos </l>
+            <l part="I"> durase. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l n="1045" part="F"> Con que habrás visto </l>
+            <l> siendo Rugero mi hermano, </l>
+            <l> si fue justo el amor mío, </l>
+            <l part="I"> Bradamante. </l>
+          </sp>
+          <sp who="#bradamante">
+            <speaker>[BRADAMANTE]</speaker>
+            <l part="F"> Y tú, Marfisa, </l>
+            <l> si en mis celos causa ha habido </l>
+            <l n="1050"> hasta aquí para tenerlos, </l>
+            <l> que no la hay para sentirlos. </l>
+            <l> Y así la mano le doy. </l>
+          </sp>
+          <sp who="#lisidante">
+            <speaker>LISIDANTE</speaker>
+            <l> Con que yo, destitüido </l>
+            <l> de su amor, pues sé, Marfisa, </l>
+            <l n="1055"> cuánto tu amor era digno, </l>
+            <l part="I"> la mano te ofrezco. </l>
+          </sp>
+          <sp who="#marfisa">
+            <speaker>MARFISA</speaker>
+            <l part="F"> Yo, </l>
+            <l> Lisidante, la recibo. </l>
+          </sp>
+          <sp who="#carlomagno">
+            <speaker>CARLOS</speaker>
+            <l> Para que cobréis el reino, </l>
+            <l> mis militares auxilios </l>
+            <l part="I"> ofrezco. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l n="1060" part="F"> Mis armas yo. </l>
+          </sp>
+          <sp who="#rugero">
+            <speaker>RUGERO</speaker>
+            <l> Con que a una acción reducidos, </l>
+            <l> ambos ejércitos, paces </l>
+            <l part="I"> firmaron. </l>
+          </sp>
+          <sp who="#argalía">
+            <speaker>ARGALÍA</speaker>
+            <l part="F"> Y habiendo sido </l>
+            <l> Flor de Lis el iris de ella, </l>
+            <l n="1065"> verás que al punto la envío, </l>
+            <l> si no festejada, al menos </l>
+            <l> servida de mis cariños. </l>
+            <l> Con que podremos dar fin </l>
+            <l> todos, a los pies rendidos </l>
+            <l n="1070"> de dos vidas, que del cielo </l>
+            <l> nos deje gozar mil siglos. </l>
+          </sp>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

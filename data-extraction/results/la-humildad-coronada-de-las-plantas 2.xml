@@ -1,0 +1,3008 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000030" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La humildad coronada</title>
+        <title type="sub">Auto sacramental alegórico</title>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2019-05-02"><time when="13:22:09"/></date>
+        <idno type="quadramaX">La humildad coronada</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>Biblioteca Virtual Miguel de Cervantes</name><idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-humildad-coronada-de-las-plantas--0/html/</idno><bibl type="originalSource"><title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de Datos de Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="espino" sex="MALE">
+            <persName>El Espino</persName>
+          </person>
+          <person xml:id="moral" sex="MALE">
+            <persName>El Moral</persName>
+          </person>
+          <person xml:id="olivo" sex="MALE">
+            <persName>El Olivo</persName>
+          </person>
+          <person xml:id="cedro" sex="MALE">
+            <persName>El Cedro</persName>
+          </person>
+          <person xml:id="almendro" sex="MALE">
+            <persName>El Almendro</persName>
+          </person>
+          <person xml:id="encina" sex="FEMALE">
+            <persName>La Encina</persName>
+          </person>
+          <person xml:id="espiga" sex="FEMALE">
+            <persName>La Espiga</persName>
+          </person>
+          <person xml:id="vid" sex="FEMALE">
+            <persName>La Vid</persName>
+          </person>
+          <person xml:id="laurel" sex="MALE">
+            <persName>El Laurel</persName>
+          </person>
+          <person xml:id="ángel-primero" sex="MALE">
+            <persName>Ángel Primero</persName>
+          </person>
+          <person xml:id="ángel-segundo" sex="MALE">
+            <persName>Ángel Segundo</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="música">
+            <persName>Música</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="#kroll" type="main">auto sacramental</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1717">
+        <label/>
+      </event>
+      <event type="written" when="1644">
+        <label/>
+      </event>
+      <event type="premiere" when="1644">
+        <label/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <docAuthor>Pedro Calderón de la Barca</docAuthor>
+      <docTitle>
+        <titlePart type="main">La humildad coronada de las plantas</titlePart>
+        <titlePart type="sub">Auto sacramental alegórico</titlePart>
+      </docTitle>
+      <castList>
+        <head>Personas</head>
+        <castItem>EL ESPINO.</castItem>
+        <castItem>EL MORAL.</castItem>
+        <castItem>EL OLIVO.</castItem>
+        <castItem>EL CEDRO.</castItem>
+        <castItem>EL ALMENDRO.</castItem>
+        <castItem>LA ENCINA.</castItem>
+        <castItem>LA ESPIGA.</castItem>
+        <castItem>LA VID.</castItem>
+        <castItem>EL LAUREL.</castItem>
+        <castItem>ÁNGEL PRIMERO.</castItem>
+        <castItem>ÁNGEL SEGUNDO.</castItem>
+        <castItem>MÚSICA.</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Salen los dos ángeles en dos bofetones.</stage>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l>árboles, plantas y flores</l>
+            <l>deste universal Jardín</l>
+            <l>del Mundo, pues que con alma</l>
+            <l>vegetativa venís...</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l n="5">... sabed que hay entre vosotros</l>
+            <l>fruto tan dulce y feliz,</l>
+            <l>que ha de guarnecer su frente,</l>
+            <l>rayos de mejor Ofir.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Venid, venid</l>
+            <l n="10">a coronaros en la nueva lid,</l>
+            <l>y formando lenguas las hojas,</l>
+            <l>de acentos el aire, que hiere sutil</l>
+            <l>para entrar al Divino Certamen,</l>
+            <l>naced, otad, creced, y vivid.</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l n="15">Y para obligar a todos</l>
+            <l>a engendrar, y producir</l>
+            <l>con más virtud los verdores</l>
+            <l>de que os adorna el a il,</l>
+            <l>en nom e del Venturoso,</l>
+            <l n="20">que ha de merecer ceñir</l>
+            <l>esta Sagrada Diadema,</l>
+            <l>dirá deste duelo el fin.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Venid, venid,1</l>
+            <l>[a coronaros en la nueva lid,</l>
+            <l n="25">y formando lenguas las hojas,</l>
+            <l>de acentos el aire, que hiere sutil</l>
+            <l>para entrar al Divino Certamen,</l>
+            <l>naced, otad, creced, y vivid.]</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l>Suponed que tenéis voz,</l>
+            <l n="30">pues tenéis alma; y así,</l>
+            <l>sin decir lo que queréis,</l>
+            <l>lo que quisiereis decid,</l>
+            <l>porque al que mejor lidiare</l>
+            <l>en esta sangrienta lid</l>
+            <l n="35">será premio esta corona,</l>
+            <l>que queda pendiente aquí.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Venid, venid,</l>
+            <l>a coronaros en la nueva lid,</l>
+            <l>[y formando lenguas las hojas,</l>
+            <l n="40">de acentos el aire, que hiere sutil</l>
+            <l>para entrar al Divino Certamen,</l>
+            <l>naced, otad, creced, y vivid.]</l>
+          </sp>
+          <stage>Desaparecen los dos ángeles y van saliendo cada árbol de por sí.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Venid, venid,</l>
+            <l>a coronaros en la nueva lid,</l>
+            <l n="45">[y formando lenguas las hojas,</l>
+            <l>de acentos el aire, que hiere sutil</l>
+            <l>para entrar al Divino Certamen,</l>
+            <l>naced, otad, creced, y vivid.]</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¿Qué articulado acento</l>
+            <l n="50">es hoy afable escándalo del viento?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>¿Qué confusa harmonía</l>
+            <l>es hoy ruidosa cláusula del día?</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>¿Qué conceptos süaves</l>
+            <l>son hoy métrica envidia de las aves?</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l n="55">¿Qué dulces ruiseñores</l>
+            <l>hoy son blandos clarines de las flores?</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>¿Qué tonos diferentes</l>
+            <l>al compás acompañan de las fuentes?</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>¿Qué músicos veloces</l>
+            <l n="60">meten el pleito de mi sueño a voces?</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>¿Qué harmoniosa salva</l>
+            <l>letras entona al alba sin el alba?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>¿Qué música sonora</l>
+            <l>al aurora despierta sin la aurora...</l>
+          </sp>
+          <sp who="#espino #moral #laurel #olivo">
+            <speaker>LOS 4</speaker>
+            <l n="65">... diciendo en dulce acento...</l>
+          </sp>
+          <sp who="#encina #almendro #espiga #vid">
+            <speaker>LOS OTROS</speaker>
+            <l>... hablando con los árboles al viento...</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>... venid, venid,</l>
+            <l>a coronaros en la nueva lid,</l>
+            <l>[y formando lenguas las hojas,</l>
+            <l n="70">de acentos el aire, que hiere sutil</l>
+            <l>para entrar al Divino Certamen,</l>
+            <l>naced, otad, creced, y vivid?]</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¿Has por ventura oído,</l>
+            <l>sacro Laurel, este acordado ruido?</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l n="75">Preguntarte quería,</l>
+            <l>armado Espino, si oíste su harmonía.</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>Cuerdo Moral, ¿acaso has escuchado</l>
+            <l>la voz que nueva vida nos ha dado?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>A ti, sagrada Oliva,</l>
+            <l n="80">a consultar mis confusiones iba.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>¿Qué novedad, Almendro, es la que toco?</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>¿No sabes, ruda Encina, que soy loco,</l>
+            <l>y que yo no sé nada?</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>Fértil Vid, de racimos coronada,</l>
+            <l n="85">¿qué música es aquesta?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>¿Cómo quieres que yo te dé respuesta</l>
+            <l>si soy en mi fatiga</l>
+            <l>villana como tú, dorada Espiga?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Supuesto que hoy, a efecto</l>
+            <l n="90">de querer explicar algún concepto,</l>
+            <l>el Cielo nos desata</l>
+            <l>la voz, que el viento aprisionar nos trata,</l>
+            <l>siendo en tanta ventura</l>
+            <l>los árboles retórica figura</l>
+            <l n="95">que allá en sus tropos la elegante Fama</l>
+            <l>prosopopeya llama,</l>
+            <l>el Valle discurramos.</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>Has dicho bien, a examinarle vamos,</l>
+            <l>ya que las plantas, esta vez felices,</l>
+            <l n="100">dispensan la prisión de las raíces,</l>
+            <l>y que li es nos veemos,</l>
+            <l>sepamos lo que es.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>El monte penetremos.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Ven, Almendro, conmigo.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l n="105">Yo nunca atrás me quedo; ya te sigo.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>Si a saber vais lo que es novedad tanta,</l>
+            <l>parad la voz, y suspended la planta,</l>
+            <l>que ya a la vista, con prodigio nuevo,</l>
+            <l>más que al oído admiraciones debo,</l>
+            <l n="110">pues si una voz allí sonora admiro,</l>
+            <l>aquí pendiente una corona miro</l>
+            <l>que es en su vago asiento,</l>
+            <l>imperial jeroglífico del viento.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¿Para quién este Iris peregrino</l>
+            <l n="115">en la media región del aire vino?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>¿A quién viene guïado</l>
+            <l>este rasgo de luz iluminado?</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>¿Quién será digno de una pompa bella</l>
+            <l>que empieza en flor y se remata estrella?</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l n="120">¿A quién, oh clara exhalación no eve,</l>
+            <l>el grande aplauso de su luz se debe?</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>¿Quién será quien espera</l>
+            <l>ceñir los arreboles de tu esfera?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>¡Oh, mil veces felice</l>
+            <l n="125">a quien el triunfo tu esplendor predice!</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>¡Oh, mil veces dichoso</l>
+            <l>quien trofeo merece tan glorioso!</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Eso, ¿qué duda tiene?</l>
+          </sp>
+          <sp who="#espino #moral #laurel #olivo #encina #espiga #vid">
+            <speaker>TODOS</speaker>
+            <l part="I">Pues, ¿a quién viene?</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l part="F">A mí es, que a mí me viene:</l>
+            <l n="130">y así, ser el primero</l>
+            <l>que le llegue a beber los rayos quiero,</l>
+            <l>anticipado a tanta primavera.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>No te adelantes; tente, Almendro, espera.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Suelta, Moral filósofo, mas, ¡cielos!,</l>
+            <l n="135">nieve mis hojas son, mis flores hielo,</l>
+            <l>contra mí sólo airado</l>
+            <l>el cierzo, de rigor, de furia armado,</l>
+            <l>la espada de sus ráfagas esgrime,</l>
+            <l>que airado ama, que enojado gime,</l>
+            <l n="140">quedando en esqueleto informe mío,</l>
+            <l>desnudo y yerto, deshojado y frío,</l>
+            <l>porque, sin repararme,</l>
+            <l>intenté a los demás anticiparme,</l>
+            <l>tu consejo, Moral, teniendo en poco.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l n="145">Por eso yo soy cuerdo, y tú eres loco;</l>
+            <l>y con este escarmiento,</l>
+            <l>de que castiga el viento</l>
+            <l>tempranas osadías,</l>
+            <l>aconsejado de las canas mías,</l>
+            <l n="150">ya que prestada voz articulamos,</l>
+            <l>al Cielo que declare le pidamos</l>
+            <l>de esta enigma el efecto.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Has advertido bien, eres discreto.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Con los veloces</l>
+            <l n="155">acentos de mis repetidas voces...</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>... Monarca soberano...</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="I">... a cuya majestad...</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l part="F">... a cuya mano...</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>... los montes obedecen...</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l part="I">... los mares menguan...</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">... los arroyos crecen...</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l n="160">... las plantas resucitan...</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>... y los almendros míseros tiritan</l>
+            <l>heridos de los vientos.</l>
+          </sp>
+          <sp who="#espino #moral #laurel #olivo #encina #espiga #vid">
+            <speaker>TODOS</speaker>
+            <l part="I">¿Quién este premio aguarda?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Sale el CEDRO con un bastón en forma de cruz, en un azo de ella hojas de palma, en el otro hojas de ciprés, y en el medio otras ramas de las que más le imiten.</stage>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l part="F">Estadme atentos,</l>
+            <l>que yo, sin que os asom e</l>
+            <l n="165">mi voz, puedo deciros en su nom e.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¿Qué árbol estranjero</l>
+            <l>este es, que no vi, ni veer espero?</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Armado Espino, ¡qué rigor me ofreces!</l>
+            <l>Presto, porque me ignoras, me aborreces.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l n="170">¿Qué tronco es, peregrino,</l>
+            <l>el que a nacer entre nosotros vino?</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>¡Oh prudente Moral, cuando me miras,</l>
+            <l>cuérdamente me dudas, y me admiras!</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>AÚn no le he conocido yo tampoco.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l n="175">Soy igual confusión del cuerdo y loco.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>En toda esta montaña</l>
+            <l>planta no vi más nueva, y más estraña.</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>Aunque fruto ni flor no he conocido,</l>
+            <l>me huelgo de que al Valle haya venido.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l n="180">Bien Olivo y Laurel se han alegrado</l>
+            <l>al veerme, pues de entrambos coronado</l>
+            <l>me ha de mirar la Tierra,</l>
+            <l>árbitro de la paz y de la guerra.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Como a ti, Espino, el veerle así me mata.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l n="185">¿Qué Encina con su dueño no fue ingrata?</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>Sea el que fuere, ¿viste igual belleza?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>él es de superior naturaleza</l>
+            <l part="I">que nosotros.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l part="F">El veerle a amor me obliga.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>¡Qué bien la fe comienza en Vid y Espiga!</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l n="190">árbol entre nosotros estranjero,</l>
+            <l>que eres en estos valles el primero</l>
+            <l>que de tu especie vimos,</l>
+            <l>una duda ofreciste, que tuvimos</l>
+            <l>declarar, ya son dos. Dinos, ¿quién eres,</l>
+            <l n="195">o qué corona es esta, si es que quieres</l>
+            <l>quietar humanos nuestros pensamientos?</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Uno y otro sa éis; estadme atentos.</l>
+            <l>árboles, plantas y flores</l>
+            <l>de este hermoso, de este ameno</l>
+            <l n="200">Valle del Mundo, aunque valle</l>
+            <l>de lágrimas y tormentos.</l>
+            <l>Ya sabéis antes de ahora</l>
+            <l>que en el principio era el Verbo,</l>
+            <l>que el Verbo estaba conjunto</l>
+            <l n="205">a Dios, y Dios era el mesmo</l>
+            <l>Verbo; esto era en el principio,</l>
+            <l>que todo por él fue hecho,</l>
+            <l>y sin él no fue hecho nada,</l>
+            <l>que cuanto hizo en un momento</l>
+            <l n="210">fue vida y luz de las gentes;</l>
+            <l>y que la luz esparciendo</l>
+            <l>entre las som as, las som as</l>
+            <l>esta luz no comprehendieron.</l>
+            <l>Hasta aquí pala as son</l>
+            <l n="215">de aquel águila que el vuelo</l>
+            <l>remontó a luciente examen</l>
+            <l>del Sol de justicia eterno.</l>
+            <l>Y volviendo a otro principio,</l>
+            <l>del Génesis dice el texto</l>
+            <l n="220">que en el principio crió</l>
+            <l>Dios a la tierra y al cielo,</l>
+            <l>la tierra estaba vacía,</l>
+            <l>informes los elementos,</l>
+            <l>siendo (según los poetas)</l>
+            <l n="225">caos todo el Universo.</l>
+            <l>Dios, que se estaba en sí mismo</l>
+            <l>sin tiempo gozando el tiempo,</l>
+            <l>por ostentarse Criador</l>
+            <l>sin necesidad de serlo,</l>
+            <l n="230">crió la luz en esas dos</l>
+            <l>antorchas que presidiendo</l>
+            <l>al día y la noche están</l>
+            <l>tanta tropa de luceros,</l>
+            <l>tanto número de estrellas</l>
+            <l n="235">sustentando de alimentos.</l>
+            <l>Y desatando las som as,</l>
+            <l>y apartando, y dividiendo</l>
+            <l>a las aguas de las aguas,</l>
+            <l>unas en cavados senos</l>
+            <l n="240">dejó de la tierra, y otras</l>
+            <l>puso so e el firmamento</l>
+            <l>para poblar las estancias</l>
+            <l>y las mansiones que hicieron</l>
+            <l>los cuatro elementos, siempre</l>
+            <l n="245">amigos, y siempre opuestos.</l>
+            <l>Los peces entregó al mar,</l>
+            <l>los pájaros fió del viento,</l>
+            <l>y de la tierra las fieras,</l>
+            <l>dando a cada cual su centro.</l>
+            <l n="250">De plantas pobló después</l>
+            <l>su verde esfera, añadiendo</l>
+            <l>aquesta hermosura más</l>
+            <l>de los árboles al bello</l>
+            <l>espacio suyo, en quien son</l>
+            <l n="255">pompa ilustre y ornamento,</l>
+            <l>ya de sus humildes valles,</l>
+            <l>ya de sus montes soberbios.</l>
+            <l>Jurado príncipe de esta</l>
+            <l>república, de este imperio,</l>
+            <l n="260">crió al hom e con más noble</l>
+            <l>alma que todas, pues veemos</l>
+            <l>que la suya es vegetable</l>
+            <l>y sensitiva, y so e esto</l>
+            <l>racional; la de los utos,</l>
+            <l n="265">un grado de estos tres menos</l>
+            <l>vegetable y sensitiva,</l>
+            <l>y la del tronco, en efecto,</l>
+            <l>solamente vegetable,</l>
+            <l>porque uno a otro prefiriendo</l>
+            <l n="270">crezca el árbol. Crezca, y sienta</l>
+            <l>el uto, y el hom e luego</l>
+            <l>crezca, sienta y raciocine,</l>
+            <l>que como a señor y dueño</l>
+            <l>de todos le dio la noble</l>
+            <l n="275">porción del entendimiento;</l>
+            <l>mas no porque fuese el árbol</l>
+            <l>inferior, dejó por eso</l>
+            <l>de dotarle y componerle</l>
+            <l>de naturales secretos,</l>
+            <l n="280">por donde a tener llegase</l>
+            <l>la virtud que puso en ellos</l>
+            <l>merecimiento, que fuera</l>
+            <l>un como cuasi defecto,</l>
+            <l>que aún lo insensible tuviese</l>
+            <l n="285">virtud sin merecimiento.</l>
+            <l>Y pues hoy en este acto</l>
+            <l>introducidos nos veemos,</l>
+            <l>usando, para explicarle,</l>
+            <l>metafórico el ingenio</l>
+            <l n="290">de poéticas licencias</l>
+            <l>y retóricos preceptos,</l>
+            <l>dejando aparte una y otra</l>
+            <l>naturaleza, y viniendo</l>
+            <l>solamente a la que más</l>
+            <l n="295">hace al propósito nuestro,</l>
+            <l>del primer delito fue</l>
+            <l>el principal instrumento</l>
+            <l>un árbol; y porque a donde</l>
+            <l>halló la culpa el veneno,</l>
+            <l n="300">el antídoto la Gracia</l>
+            <l>halle también, ha dispuesto</l>
+            <l>la eterna sabiduría</l>
+            <l>otro árbol, previniendo</l>
+            <l>que, por donde vino el daño,</l>
+            <l n="305">venga también el remedio.</l>
+            <l>Así pues, fértiles plantas,</l>
+            <l>naced con mejor aliento,</l>
+            <l> otad con mejor sazón,</l>
+            <l>creced con mejor esfuerzo</l>
+            <l n="310">y venid con mejor alma</l>
+            <l>que hasta aquí, reconociendo</l>
+            <l>que aspirar cada uno puede</l>
+            <l>de aquella corona al cetro;</l>
+            <l>pues como entre hom es y fieras,</l>
+            <l n="315">aves y peces, el Cielo</l>
+            <l>dispuso un rey que tuviese</l>
+            <l>de las demás el imperio,</l>
+            <l>así entre las plantas hoy</l>
+            <l>quiere que haya rey que, siendo</l>
+            <l n="320">superior, presida, bien</l>
+            <l>como el águila en los vientos,</l>
+            <l>como el delfín en los mares,</l>
+            <l>y el león en los desiertos.</l>
+            <l>Pero aquesta dignidad</l>
+            <l n="325">la ha de tener, advirtiendo</l>
+            <l>que ha de merecer por sí</l>
+            <l>de su república el cetro,</l>
+            <l>porque siendo así que no hay</l>
+            <l>árbol, planta ni renuevo</l>
+            <l n="330">que no tenga oculta alguna</l>
+            <l>calidad en los secretos</l>
+            <l>de la gran Naturaleza,</l>
+            <l>la ha de aplicar a este intento</l>
+            <l>alguna virtud, tomando</l>
+            <l n="335">religión, con que su afecto</l>
+            <l>simbolice; porque así</l>
+            <l>el Sol, que nos mira atento,</l>
+            <l>halle en la alegoría</l>
+            <l>de este imaginado ejemplo</l>
+            <l n="340">que si la fruta de un árbol</l>
+            <l>fue tósigo, fue veneno</l>
+            <l>del hom e, los frutos de otro</l>
+            <l>son antídoto y sustento,</l>
+            <l>en cuya gran competencia,</l>
+            <l n="345">aunque yo de ser me precio</l>
+            <l>árbol, y quizá de vida,</l>
+            <l>no he de entrar, porque no tengo</l>
+            <l>de ser yo el que se corone,</l>
+            <l>sino el que el merecimiento</l>
+            <l n="350">ha de ajustar al que sea</l>
+            <l>más feliz, a cuyo efecto</l>
+            <l>me dad vuestros memoriales,</l>
+            <l>pues a ser ministro llego</l>
+            <l>de esta causa; y aunque ahora</l>
+            <l n="355">ignoréis mi nacimiento,</l>
+            <l>vendréis a saberlo cuando</l>
+            <l>en los jardines amenos</l>
+            <l>del Alcázar de Sión</l>
+            <l>quién es (por mí os diga el Cielo)</l>
+            <l n="360">el árbol del mejor fruto,</l>
+            <l>que ha de ser príncipe vuestro.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vase.</stage>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">Oye.</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l part="M">Aguarda.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="M">Escucha.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l part="F">Espera.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Por los fragosos espesos</l>
+            <l>laberintos de la vida</l>
+            <l n="365">va de nosotros huyendo.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Con grande gusto he escuchado</l>
+            <l>sus discursos, conociendo,</l>
+            <l>que aunque han hablado con todos,</l>
+            <l>parece que todos fueron</l>
+            <l n="370">encaminados a mí.</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l part="I">¿Por qué lo juzgas?</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l part="F">Por esto:</l>
+            <l>porque yo soy el Laurel,</l>
+            <l>árbol que conserva eternos</l>
+            <l>todo el año sus verdores,</l>
+            <l n="375">y que a los rayos exempto,</l>
+            <l>ni el relámpago me asusta,</l>
+            <l>ni me atemoriza el trueno.</l>
+            <l>Y si es que a profanas letras</l>
+            <l>crédito alguno debemos,</l>
+            <l n="380">ninfa, del Sol adorada,</l>
+            <l>me cele aron un tiempo.</l>
+            <l>Mi virtud es el honor,</l>
+            <l>virtud política, puesto</l>
+            <l>que la humana idolatría</l>
+            <l n="385">de los césares aumento,</l>
+            <l>y así, de su religión</l>
+            <l>tengo de valerme, siendo</l>
+            <l>desde hoy la Gentilidad;</l>
+            <l>pues si tantos dioses tengo,</l>
+            <l n="390">¿quién me podrá competir</l>
+            <l part="I">de todos?</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l part="F">Yo solo puedo</l>
+            <l>oponerme a tu arrogancia;</l>
+            <l>pues siendo la Oliva, es cierto</l>
+            <l>que, árbol de Paz coronado,</l>
+            <l n="395">al de la Guerra prefiero,</l>
+            <l>¿cuánto va de ser mejor</l>
+            <l>lo afable que lo sangriento?</l>
+            <l>Ella es mi virtud, y así,</l>
+            <l>la religión que venero</l>
+            <l n="400">es la adoración de un solo</l>
+            <l>Dios, desde este instante siendo</l>
+            <l>como símbolo de paz</l>
+            <l>la Ley Natural, perfecto</l>
+            <l>candor y yugo sencillo</l>
+            <l n="405">de aquellos siglos primeros.</l>
+          </sp>
+          <stage>Mira el LAUREL a la OLIVA.</stage>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¿Qué importa que tú en la guerra</l>
+            <l>laureles des al Imperio?</l>
+            <l>¿Qué importa que tú en la paz</l>
+            <l>des políticos consejos?</l>
+            <l n="410">¿Que tú adores sólo un Dios,</l>
+            <l>ni que tú, dioses diversos?</l>
+            <l>Si para reinar ninguno</l>
+            <l>tiene los merecimientos</l>
+            <l>que yo en la campaña armado</l>
+            <l n="415">de agudas puntas de acero,</l>
+            <l>por no herirse en mí, tal vez</l>
+            <l>aún no se me atreve el Tiempo.</l>
+            <l>Cuando alguno de vosotros,</l>
+            <l>o todos juntos, atentos</l>
+            <l n="420">a guarecer vuestros frutos,</l>
+            <l>solicitáis defenderos</l>
+            <l>de las ham es del ganado,</l>
+            <l>¿yo no soy el que os defiendo,</l>
+            <l>fortificándoos conmigo,</l>
+            <l n="425">para mantener el cerco?</l>
+            <l>Pues, ¿qué calidad mejor</l>
+            <l>para rey que veer exemptos</l>
+            <l>a la som a de sus armas</l>
+            <l>sus vasallos? Fuera de esto,</l>
+            <l n="430">la virtud a que me inclino</l>
+            <l>es a la de justiciero:</l>
+            <l>y así, al ladrón que os despoja,</l>
+            <l>entre mis redes le prendo,</l>
+            <l>tal que, cuando escapa vivo</l>
+            <l n="435">de mis garras, por lo menos</l>
+            <l>me deja en vellones suyos</l>
+            <l>más que lleva en frutos vuestros;</l>
+            <l>a cuya causa es la ley</l>
+            <l>que más me agrada, en efecto,</l>
+            <l n="440">la gran ley del Judaísmo,</l>
+            <l>porque en los varios preceptos</l>
+            <l>de su Levítico tiene</l>
+            <l>mucho lugar lo severo</l>
+            <l>de mi condición, y así,</l>
+            <l n="445">desde hoy me juzgad el mesmo.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Bien a esa ley aplicaste</l>
+            <l>lo esca oso, lo sangriento,</l>
+            <l>pero yo, que soy la Encina,</l>
+            <l>con más justicia pretendo</l>
+            <l n="450">de la república nuestra</l>
+            <l>el ignorado gobierno,</l>
+            <l>pues yo fui al dorado siglo</l>
+            <l>el natural alimento,</l>
+            <l>por quien la Naturaleza</l>
+            <l n="455">se sustentó en los desiertos.</l>
+            <l>Su tienda fui de campaña</l>
+            <l>contra el Sol, y en mí tuvieron</l>
+            <l>su descanso, la fatiga,</l>
+            <l>su seguridad, el sueño.</l>
+            <l n="460">Pues ¿qué calidad mejor,</l>
+            <l>para merecer un reino,</l>
+            <l>que alimentar y hacer som a?</l>
+            <l>La virtud de que me precio</l>
+            <l>es la abundancia: y así,</l>
+            <l n="465">en el instante, el momento,</l>
+            <l>que a ajeno manjar se den</l>
+            <l>mayores merecimientos</l>
+            <l>que a mí, desde aqueste instante,</l>
+            <l>con dogmas, con argumentos,</l>
+            <l n="470">a ellos me opongo, con nom e</l>
+            <l>de Herejía, que no quiero,</l>
+            <l>siendo yo alimento, que</l>
+            <l>se haga de otros sacramentos.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Todo eso no importa nada;</l>
+            <l n="475">pues todos los que comieron</l>
+            <l>de ti entonces, no podrás</l>
+            <l>negar ahora que fueron</l>
+            <l>animales de bellota,</l>
+            <l>y o aron como unos puercos;</l>
+            <l n="480">fuera de que tú, ¿qué hiciste</l>
+            <l>en darles tu fruto, si ellos</l>
+            <l>te lo quitaron a palos?</l>
+            <l>Yo sí que reinar merezco,</l>
+            <l>que por dar luego, dos veces</l>
+            <l n="485">doy, como dice el proverbio.</l>
+            <l>Y si vamos a los frutos,</l>
+            <l>¿en qué banquete opulento</l>
+            <l>no soy principio? Y en fin,</l>
+            <l>pues de mí para este efecto</l>
+            <l n="490">se hacen también los turrones,</l>
+            <l>almendradas para el sueño,</l>
+            <l>aceites de almendras dulces,</l>
+            <l>almendrones, caramelos,</l>
+            <l>y peladillas tostadas.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="I">Quita, loco.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l n="495" part="F">Aparta, necio.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Di, Moral, tu pretensión.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Para que yo hable aún no es tiempo.</l>
+            <l>Solamente lo que ahora</l>
+            <l>puedo decir es que espero</l>
+            <l n="500">consultar con la Prudencia,</l>
+            <l>virtud de que me guarnezco,</l>
+            <l>la religión por que aguardo,</l>
+            <l>según las noticias tengo</l>
+            <l>de Ley Natural y Escrita,</l>
+            <l n="505">en las som as y bosquejos</l>
+            <l>una, que ha de preferir.</l>
+            <l>Soy tardo, no me resuelvo:</l>
+            <l>hablen la Vid y la Espiga.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>¿Qué es lo que yo decir puedo?</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l n="510">Cuerpo de Dios, que das vino,</l>
+            <l>que es el mejor compañero</l>
+            <l>de mis almendras del baile.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>Si desde aquí me confieso</l>
+            <l>planta tan po e y humilde</l>
+            <l n="515">que apenas sale del suelo,</l>
+            <l>y arrastrando por la tierra,</l>
+            <l>los azos de sus sarmientos</l>
+            <l>cule as vegetativas</l>
+            <l>son, tan sin vigor y aliento</l>
+            <l n="520">que sin arrimo del olmo</l>
+            <l>no intentan mirar al Cielo;</l>
+            <l>pues si sólo mi virtud</l>
+            <l>es la Humildad, ¿cómo puedo</l>
+            <l>competir con majestades?</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l n="525">Y yo respondo lo mesmo,</l>
+            <l>que mal pudiera una caña,</l>
+            <l>tan débil que el blando peso</l>
+            <l>de sus granos la derriba,</l>
+            <l>antes que el fácil aliento</l>
+            <l n="530">de cualquier soplo la haga</l>
+            <l>besar de la tierra el centro,</l>
+            <l>sustentar una corona.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>¡Qué humildes villanos estos!</l>
+            <l>Y en no lloviendo, no hay</l>
+            <l n="535">quien se averigüe con ellos,</l>
+            <l>siendo su pan y su vino</l>
+            <l>quien más nos sube los precios.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Puesto que ninguno puede</l>
+            <l>competirme a mí, yo quiero</l>
+            <l n="540">seguir aquel ignorado</l>
+            <l>árbol; y si a mi sangriento</l>
+            <l>espíritu no prefiere,</l>
+            <l>ha de conocer que llevo</l>
+            <l>en mí todo el Judaísmo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Vase.</stage>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l n="545">Yo sa é hallarle primero,</l>
+            <l>pues que van conmigo tantos</l>
+            <l>dioses como reverencio.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Vase.</stage>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>Uno sólo reconoce</l>
+            <l>la paz de mis pensamientos,</l>
+            <l n="550">y he de coronarme, pues</l>
+            <l>la Ley Natural defiendo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Vase.</stage>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Guárdese el Mundo de mí,</l>
+            <l>pues soy la Herejía, y llego</l>
+            <l>a veer que otro fruto sea</l>
+            <l n="555">más saludable alimento.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Vase.</stage>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Tras ellos voy, porque no o en</l>
+            <l>sin prudencia o sin consejo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Vase.</stage>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Y yo, por veer sólo si es</l>
+            <l>verdad, si un loco hace ciento.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Vase.</stage>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l n="560">Pues solos hemos quedado,</l>
+            <l>ya que a tanta competencia</l>
+            <l>no da la Humildad licencia</l>
+            <l>en que nos hemos crïado,</l>
+            <l>discurra nuestro cuidado</l>
+            <l n="565">cual será en nuestro placer</l>
+            <l>árbol que ha de merecer</l>
+            <l>dar el felice tributo,</l>
+            <l>cuyo sazonado fruto</l>
+            <l>el antídoto ha de ser</l>
+            <l n="570">de aquel tasado veneno.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>Si a la virtud que eligió</l>
+            <l>y ley cada uno, yo,</l>
+            <l>si bien de ignorancia lleno</l>
+            <l>el pecho, y de ciencia ajeno,</l>
+            <l n="575">ofrecer mi voto hubiera,</l>
+            <l>a la Oliva se le diera,</l>
+            <l>porque de reinar capaz,</l>
+            <l>tiene por virtud la Paz,</l>
+            <l>símbolo de la primera</l>
+            <l part="I">Ley Natural.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l n="580" part="F">Es así;</l>
+            <l>mas ya esa ley prescribió,</l>
+            <l>desde que la Escrita dio</l>
+            <l>en el monte Sinaí</l>
+            <l>Dios a Moisén, cuando allí</l>
+            <l n="585">desterrado y peregrino</l>
+            <l>su pueblo al desierto vino:</l>
+            <l>y así, yo, si dar hubiera</l>
+            <l>hoy mi voto, se le diera</l>
+            <l>en esta parte al Espino,</l>
+            <l n="590">porque con la libertad</l>
+            <l>de que usa nuestra malicia,</l>
+            <l>necesita de Justicia</l>
+            <l part="I">virtud que eligió.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l part="F">Es verdad;</l>
+            <l>pero la sinceridad</l>
+            <l n="595">de aquella ley me llevó</l>
+            <l>el afecto, porque yo</l>
+            <l>en eterna paz quisiera</l>
+            <l>que todo el mundo viviera,</l>
+            <l>desde que el Cielo me dio</l>
+            <l n="600">en las som as y figuras</l>
+            <l>de vislum es y bosquejos,</l>
+            <l>unos rasgos, unos lejos,</l>
+            <l>de que están las Escrituras</l>
+            <l>llenas, para mis venturas,</l>
+            <l n="605">en orden a que sería</l>
+            <l>pacífica monarquía</l>
+            <l>la que a veer en mi alimento</l>
+            <l>mereciese el cumplimiento</l>
+            <l>de una y otra profecía;</l>
+            <l n="610">que no misteriosamente</l>
+            <l>en vano nos dijo ya</l>
+            <l>Isaías, pan será</l>
+            <l>el polvo de la serpiente;</l>
+            <l>no en vano, confusamente,</l>
+            <l n="615">de Jeremías el celo,</l>
+            <l>el madero, ¡qué consuelo!,</l>
+            <l>¡Echemos en el pan», dijo,</l>
+            <l>y Job mil veces bendijo</l>
+            <l>el Pan que vendrá del Cielo;</l>
+            <l n="620">y no en vano, en fin, no están,</l>
+            <l>si sus sentidos penetras,</l>
+            <l>llenas las Sagradas Letras</l>
+            <l>de qué significa el Pan,</l>
+            <l>según los nom es le dan,</l>
+            <l n="625">la tristeza y alegría,</l>
+            <l>el manjar de cada día,</l>
+            <l>la Fe de la Trinidad,</l>
+            <l>Beatitud y Caridad,</l>
+            <l>Iglesia y Eucaristía;</l>
+            <l n="630">pues, ¿qué mucho, siendo así,</l>
+            <l>que viva con esperanza</l>
+            <l>de que es la Paz quien alcanza</l>
+            <l>los Misterios que hay en mí?</l>
+            <l>Po e y humilde nací,</l>
+            <l n="635">y aunque no tengo ambición</l>
+            <l>de reinar, mi inclinación</l>
+            <l>ha de dar a esta virtud,</l>
+            <l>en las espigas de Ruth,</l>
+            <l>el Pan de proposición.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l n="640">No porque tu voz se funda</l>
+            <l>en la Paz, que el Mundo espera,</l>
+            <l>atenta a la ley primera,</l>
+            <l>ha de olvidar la segunda,</l>
+            <l>blanda süave coyunda</l>
+            <l n="645">la Ley Escrita nos dio,</l>
+            <l>y en una y en otra yo</l>
+            <l>misterios también hallé.</l>
+            <l>Hable el primero Noé,</l>
+            <l>pues él primero exprimió</l>
+            <l n="650">racimos, cuyo no usado</l>
+            <l>licor le deja rendido</l>
+            <l>al sueño, en que suspendido,</l>
+            <l>ajeno y arrebatado,</l>
+            <l>secretos mil le han hallado</l>
+            <l n="655">los descendientes de Adán,</l>
+            <l>por quien divisos están</l>
+            <l>los bandos del Mal y el Bien,</l>
+            <l>en la bendición de Sen</l>
+            <l>y en la maldición de Can.</l>
+            <l n="660">Dígalo en otra ocasión</l>
+            <l>el gran caudillo de Oreb,</l>
+            <l>el racimo de Caleb</l>
+            <l>y Tierra de Promisión.</l>
+            <l>No menos alta visión</l>
+            <l n="665">es veerle, si se repara,</l>
+            <l>pendiente de aquella vara</l>
+            <l>que acudiendo a otro lugar</l>
+            <l>es la viga del lagar,</l>
+            <l>que Isaías nos declara,</l>
+            <l n="670">exprimiendo en dulce lid</l>
+            <l>racimos, por quien allá</l>
+            <l>dice Ezequiel que será</l>
+            <l>del madero de la Vid.</l>
+            <l>En otra parte David</l>
+            <l n="675">a la Espiga la aplicó,</l>
+            <l>y por Juan la pronunció</l>
+            <l>Dios en misteriosa calma,</l>
+            <l>si vosotros sois la Palma,</l>
+            <l>la Vid verdadera yo.</l>
+            <l n="680">Luego si tan alto bien</l>
+            <l>de Justicia se codicia,</l>
+            <l>¿a la ley de la Justicia</l>
+            <l>haberme inclinado es bien?</l>
+            <l>Sus preceptos, pues, me den</l>
+            <l n="685">luces, que ocultas están,</l>
+            <l>pues que no en vano a A ahán</l>
+            <l>Melquisedec le previno</l>
+            <l>ofrenda de pan y vino.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>Pues si en el Vino y el Pan,</l>
+            <l n="690">frutos que ambos hemos dado,</l>
+            <l>tan altos misterios veemos,</l>
+            <l>sin vanidad esperemos</l>
+            <l>veernos en mejor estado.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>¿Quién, pues, de tantos cuidados</l>
+            <l n="695">podrá sacarnos? Decid,</l>
+            <l part="I">Cielos.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l part="F">Cielos, advertid,</l>
+            <l>¿quién nuestras dudas abona?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <stage>Dentro.</stage>
+            <l>Quien hoy la Humildad ensalza y corona,</l>
+            <l>virtud que eligieron la Espiga y la Vid.</l>
+            <stage>Dentro.</stage>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l n="700">Segunda vez, ¡ay de mí!,</l>
+            <l>dulce música se oyó.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="I">¿Si es ilusión nuestra?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">No.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="I">¿Si aviso es del Cielo?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>¿Quién, dulces voces, así</l>
+            <l n="705">a discurrir nos obliga?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>¿Quién en tan dulce fatiga</l>
+            <l>nuestros aplausos pregona?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¿Quién la Humildad ensalza y corona,</l>
+            <l>virtud que eligieron la Vid y la Espiga?</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l n="710">¿Planta humilde mereció</l>
+            <l part="I">tanto favor?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="F">¿Y que a mí</l>
+            <l part="I">busca vuestro acento?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Sí.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="I">¿Es soberbia creerlo?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l part="F">No.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>Pues sepa más claro yo</l>
+            <l part="I">quién me habla.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l n="715" part="F">Proseguid,</l>
+            <l>dulces voces, y decid,</l>
+            <l>¿quién nuestros triunfos corona?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Quien hoy la Humildad ensalza y corona,</l>
+            <l>virtud que eligieron la Espiga y la Vid.</l>
+          </sp>
+          <stage>Tocan chirimías y van subiendo las voces, o si quieren por apariencia, y se verán los dos ángeles, el uno en un Arco Iris y el otro en un pirámide.</stage>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l n="720">Ya no solamente, ¡ha, cielos!,</l>
+            <l>nos da que admirar la voz,</l>
+            <l>pero una nube veloz,</l>
+            <l>rasgando entre azules velos</l>
+            <l>coluros y paralelos,</l>
+            <l n="725">allí remontada sube.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>Yo atento a veella no estuve,</l>
+            <l>porque bien a estotra parte,</l>
+            <l>que Naturaleza y Arte</l>
+            <l>han fa icado otra nube</l>
+            <l n="730">que a aliviar nuestras congojas,</l>
+            <l>siendo el viento su jardín,</l>
+            <l>flor de púrpura y jazmín</l>
+            <l>va desplegando las hojas.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>De nácar las líneas rojas</l>
+            <l n="735">al Sol le causan desmayos,</l>
+            <l>y a iles vertiendo y mayos,</l>
+            <l>son ya del viento narcisos,</l>
+            <l>tornasoleándole a visos,</l>
+            <l>iluminándole a rayos.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l n="740">¡Oh tú, Iris celestial,</l>
+            <l>que al Sol la campaña corre!</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>Globo de quien esa torre</l>
+            <l>aguja es piramidal.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>Garza de nieve y cristal,</l>
+            <l n="745">que no hay halcón que te siga.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l part="I">¿Quién te mueve?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="F">¿Quién te obliga</l>
+            <l>a correr de zona en zona?</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¿Quien hoy la Humildad ensalza y corona,</l>
+            <l>virtud que eligieron la Vid y la Espiga?</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l n="750">¡Dorado golfo de espigas!</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l>¡Verde vulgo de racimos,</l>
+            <l>qué fértiles, pues, y opimos!</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l>Ya rigurosas, ya amigas,</l>
+            <l>resistís tantas fatigas...</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l n="755">... sufrís tantas inclemencias...</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l>... como ofrecen las violencias...</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l>... del tiempo y sus destemplanzas.</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l>Atiende a tus alabanzas.</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l>Escucha tus excelencias.</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l n="760">En la gran Jerusalén,</l>
+            <l>eterno nom e darán</l>
+            <l>de casa a Belén. Dé pan</l>
+            <l>cuando Dios nazca en Belén.</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l>La Vid en Caná también,</l>
+            <l n="765">eterno nom e divino,</l>
+            <l>para la de Arquiteclino,</l>
+            <l>cuando dé Dios el poder.</l>
+          </sp>
+          <sp who="#ángel-primero #ángel-segundo">
+            <speaker>LOS DOS</speaker>
+            <l>Muestre en som as que ha de ser</l>
+            <l>carne el Pan y sangre el Vino.</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l n="770">Y así, no ya tu Humildad</l>
+            <l>deje de aspirar a ella,</l>
+            <l>de aquesta corona bella</l>
+            <l>a la inmensa majestad.</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l>Y así, no por vanidad,</l>
+            <l n="775">sino por merecimiento,</l>
+            <l>aspire tu pensamiento</l>
+            <l>a esa sagrada diadema...</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l>... sin que coronarse tema...</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l>... de la luz del firmamento.</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l n="780">Yo que tus triunfos estimo...</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l>... yo que tus aplausos amo...</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l>... para la empresa te llamo...</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l>... para la guerra te animo.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>Ya yo tus voces imprimo</l>
+            <l part="I">en el alma.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l n="785" part="F">Yo a la lid</l>
+            <l part="I">me prevengo.</l>
+          </sp>
+          <sp who="#espiga #vid">
+            <speaker>ESPIGA Y VID</speaker>
+            <l part="F">Pues decid,</l>
+            <l>¿a quién de los dos abona?</l>
+          </sp>
+          <sp who="#ángel-primero #ángel-segundo">
+            <speaker>LOS DOS ÁNGELES</speaker>
+            <l>¿Quién hoy la Humildad ensalza y corona,</l>
+            <l>virtud que eligieron la Espiga y la Vid?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Vanse, y sale el CEDRO con una cruz, y una palma en un brazo de ella, repitiendo los dos versos de la MÚSICA.</stage>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l n="790">¿Quién hoy la Humildad ensalza y corona,</l>
+            <l>virtud que eligieron [la Espiga y la Vid?]</l>
+            <l>Grande ser de los mortales,</l>
+            <l>dame albricias, que ya tienes</l>
+            <l>cercanos todos tus bienes,</l>
+            <l n="795">ausentes todos tus males.</l>
+            <l>Bien la guerra introducida</l>
+            <l>en los árboles te advierte</l>
+            <l>que, contra la envejecida</l>
+            <l>culpa, al árbol de la Muerte</l>
+            <l n="800">venza el árbol de la Vida,</l>
+            <l>después que haya merecido</l>
+            <l>tanto bien el Mundo; pero</l>
+            <l>estar (aunque esto no ha venido,</l>
+            <l>hasta que sea tiempo) quiero</l>
+            <l n="805">ignorado, y escondido,</l>
+            <l>y así, a mi sombra podré</l>
+            <l>descansar la siesta, dando</l>
+            <l>tiempo al tiempo, para que,</l>
+            <l>las Hebdogmadas pasando,</l>
+            <l n="810">llegue el tiempo de la Fe.</l>
+            <l>Al blando sueño rendido</l>
+            <l>estoy, y aunque no he podido</l>
+            <l>dormir yo, cúmplase aquí</l>
+            <l>la voz del Psalmo, en que oí</l>
+            <l n="815">juzgarme David dormido.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Arrímase al paño, y la cruz delante, que sea de su estatura, a manera de enclavada, en los brazos hojas de ciprés, de cedro y palma, y échase al pie de ella, y sale el ESPINO.</stage>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Por aquesta parte vino</l>
+            <l>sin duda aquel ignorado</l>
+            <l part="I">árbol.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Sale ENCINA.</stage>
+          <sp who="#encina">
+            <speaker>[ENCINA]</speaker>
+            <l part="F">Por aquí imagino</l>
+            <l>que ha de estar, sino es que ha errado</l>
+            <l n="820">torpe mi planta el camino.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Sale el LAUREL.</stage>
+          <sp who="#laurel">
+            <speaker>[LAUREL]</speaker>
+            <l>Entre una y otra torcida</l>
+            <l>senda de la humana vida</l>
+            <l>no es posible hallarle; pero</l>
+            <l>dar con él muy presto espero,</l>
+            <l n="825">aunque ahora voy perdida.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Salen el MORAL y el ALMENDRO.</stage>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="I">¿Siguiéndome vienes?</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l part="F">Sí,</l>
+            <l>porque quien hüir intente</l>
+            <l>de ti, venga a dar en mí.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¡Oh loco Almendro! ¡Oh prudente</l>
+            <l n="830">Moral! ¿TÚ estabas aquí?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Por veer vuestra competencia</l>
+            <l>vengo. ¿Qué buscáis los tres?</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Aquel árbol de la Ciencia.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Pues miradle allí, aquel es.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l part="I">¿Quién lo dice?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l n="835" part="F">La Prudencia,</l>
+            <l>que es la que sólo ha sabido</l>
+            <l>hallarse bien escondido.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Si la Locura le hubiera</l>
+            <l>visto, también lo dijera.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l n="840">¿Parece que está dormido?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="I">No es sueño.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l part="M">¿Qué es?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="F">Suspensión,</l>
+            <l>por quien allá Salomón</l>
+            <l>en sus Cantares dirá</l>
+            <l>que, aunque está dormido, está</l>
+            <l n="845">velando su corazón.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Pues ya que en la alegoría</l>
+            <l>de los árboles parece</l>
+            <l>que el misterio de este día</l>
+            <l>las pasiones nos ofrece</l>
+            <l n="850">como hermanas, no querría</l>
+            <l>despertarle hasta saber</l>
+            <l>qué árbol este pudo ser.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Dices bien, los tres lleguemos,</l>
+            <l>y las hojas le arranquemos,</l>
+            <l n="855">para que podamos veer</l>
+            <l>más de cerca qué hojas son.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Lleguemos, pues. ¿Qué esperáis?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Tened, no hagáis tal acción.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Si a la Prudencia escucháis,</l>
+            <l n="860">perderase la ocasión.</l>
+            <l part="I">Quita.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="F">Si tanta violencia</l>
+            <l>los tres vais a ejecutar,</l>
+            <l>no ha de ser con mi asistencia:</l>
+            <l>y así, se habrá de apartar</l>
+            <l n="865">de vosotros la Prudencia.</l>
+            <stage>Apártase el MORAL.</stage>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Aunque apartarse procura,</l>
+            <l>¿qué os suspende? ¿Qué os admira?</l>
+            <l>Pues si para esta ventura</l>
+            <l>la Prudencia se os retira,</l>
+            <l n="870">se os acerca la Locura.</l>
+            <stage>Arranca las hojas de ciprés.</stage>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Llego el primero. ¡Qué abismo!</l>
+            <l>¡Temblando estoy de mí mismo!</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Bien claro estaba de veer</l>
+            <l>que el primero había de ser</l>
+            <l n="875">quien le ultraje el Judaísmo.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Y a la segunda crueldad</l>
+            <l>estraña mi acción se funda.</l>
+            <stage>Arranca las hojas de cedro.</stage>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>¿Qué mucho si con verdad</l>
+            <l>su persecución segunda</l>
+            <l n="880">será la Gentilidad?</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Tercera la mano nuestra</l>
+            <l>le despoja. ¡Qué agonía!</l>
+            <stage>Arranca las hojas de palma.</stage>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Bien en las ansias que espera</l>
+            <l>su persecución tercera</l>
+            <l n="885">habrá de ser la Herejía.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Cedro es el árbol que ves.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Ya salimos de esta calma.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Engáñaste, palma es.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¿Cómo ha de ser cedro y palma,</l>
+            <l n="890">si es solamente ciprés?</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Cedro aquestas hojas son.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">¡Qué delirio!</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="F">¡Qué ilusión!</l>
+            <l part="I">¿Palma no es esta?</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l part="F">¡Qué engaño!</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">¡Qué locura!</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l part="F">¡árbol estraño!</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">Ciprés es.</l>
+          </sp>
+          <sp who="#cedro #encina #moral #almendro">
+            <speaker>TODOS</speaker>
+            <l n="895" part="F">¡Qué confusión!</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l part="I">¿Prudencia?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="F">Siempre que a mí</l>
+            <l>me llamáis, hallarme es bien.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>¿Aqueste no es cedro, di?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="I">Cedro es.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="M">¿No es palma?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="F">También.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">¿Aqueste no es ciprés?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l n="900" part="F">Sí.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Pues ¿cómo, si un árbol es,</l>
+            <l>es cedro, palma y ciprés?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>No sé; que tan alta ciencia</l>
+            <l>no la alcanza la Prudencia,</l>
+            <l n="905">porque ser uno y ser tres,</l>
+            <l>mayor misterio incluyó</l>
+            <l>que yo pueda apercibir.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Pues ¿quién, si a ti te faltó</l>
+            <l>discurso, podrá decir</l>
+            <l part="I">qué secreto es este?</l>
+          </sp>
+          <stage>Levántase el CEDRO.</stage>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l n="910" part="F">Yo.</l>
+            <l>Cedro, árbol eterno es,</l>
+            <l>la palma triunfos advierte,</l>
+            <l>el ciprés, muerte después;</l>
+            <l>luego eterno hay triunfo y muerte</l>
+            <l n="915">en cedro, palma y ciprés.</l>
+            <l>Del Cedro, lo incorruptible</l>
+            <l>un padre dice innacible;</l>
+            <l>de la palma, lo triunfante</l>
+            <l>un espíritu inflamante;</l>
+            <l n="920">y un hijo humano y pasible</l>
+            <l>lo funesto del ciprés;</l>
+            <l>luego, bien este árbol es</l>
+            <l>jeroglífico oportuno</l>
+            <l>de quien en su ciencia es uno,</l>
+            <l n="925">siendo en sus personas tres.</l>
+            <l>Ser de la Gentilidad</l>
+            <l>la parte que ha profanado</l>
+            <l>el Cedro es clara verdad;</l>
+            <l>que por haber adorado</l>
+            <l n="930">varios dioses, la deidad</l>
+            <l>del Padre ofendió, que ha sido</l>
+            <l>sólo un Dios haber habido.</l>
+            <l>La palma a la Apostasía</l>
+            <l>da a entender que la Herejía</l>
+            <l n="935">al Espíritu ha ofendido,</l>
+            <l>que es quien los triunfos advierte</l>
+            <l>de la Iglesia: caer la suerte</l>
+            <l>del ciprés al Judaísmo</l>
+            <l>es dar a entender que él mismo</l>
+            <l n="940">al Hijo ha de dar la muerte.</l>
+            <l>Con que en tan clara evidencia</l>
+            <l>se vee, contra vuestro error,</l>
+            <l>del Padre la omnipotencia,</l>
+            <l>del Espíritu, el amor,</l>
+            <l n="945">como del Hijo, la esencia,</l>
+            <l>siendo en una esencia tres</l>
+            <l>personas y un Dios: y así es</l>
+            <l>de todos tres sombra y luz,</l>
+            <l>árbol que en sombra de cruz,</l>
+            <l n="950">es cedro, palma y ciprés.</l>
+          </sp>
+          <stage>Estarán los árboles la mitad a un lado y la otra mitad al otro, el MORAL y el ALMENDRO juntos.</stage>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Por más que hayáis pretendido</l>
+            <l>con sutiles ingeniosos</l>
+            <l>argumentos convencernos,</l>
+            <l>no podréis, y yo respondo</l>
+            <l n="955">en la parte que me toca.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>De ti apartarme es forzoso,</l>
+            <l>porque vas a responder</l>
+            <l>de esta verdad en oprobio.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Pues con eso podré yo</l>
+            <l part="I">acercarme.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l n="960" part="F">Dime, ¿cómo</l>
+            <l>solicitas que yo creea,</l>
+            <l>que pueda haber un Dios solo,</l>
+            <l>si como Gentilidad</l>
+            <l>treinta mil dioses adoro?</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l n="965">Y aún, para como ellos son,</l>
+            <l>trecientos mil son muy pocos.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Yo un Dios creeo solamente.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Bien; hasta aquí me conformo</l>
+            <l>contigo. Dí, yo te asisto.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l n="970">Mas qué pueda ser ignoro</l>
+            <l>árbol que en forma de cruz</l>
+            <l>es instrumento afrentoso,</l>
+            <l>figura, ni sombra suya:</l>
+            <l>y así, con mortal enojo,</l>
+            <l n="975">aunque le confieso a él,</l>
+            <l>a ti por él no conozco.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Presto de ti me alejaste.</l>
+            <stage>Apártase el MORAL.</stage>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Yo en tu lugar me acomodo.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Que hay un Dios solo confieso;</l>
+            <l n="980">que este humanado sea el propio</l>
+            <l>que esa cruz me representa,</l>
+            <l part="I">confieso también.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="F">Gozoso</l>
+            <l>estoy contigo, prosigue.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Pero que este Dios en otro</l>
+            <l n="985">manjar pueda en ningún tiempo</l>
+            <l>comunicarse a nosotros</l>
+            <l>no lo tengo de creer.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Ya de tu vista me escondo.</l>
+            <stage>Apártase el MORAL.</stage>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Y yo me acerco porque,</l>
+            <l n="990">como Locura me nombro,</l>
+            <l>en faltando la Prudencia,</l>
+            <l>luego en su lugar me pongo.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Pues ¿cómo, si tres principios</l>
+            <l>negáis los tres, tan forzosos</l>
+            <l n="995">como son, que hay sólo un Dios,</l>
+            <l>que humano está entre vosotros,</l>
+            <l>y después sacramentado,</l>
+            <l>intentáis llegar al solio</l>
+            <l>de la Majestad, poniéndoos</l>
+            <l n="1000">delante tantos estorbos?</l>
+            <l>Si la virtud que elegisteis</l>
+            <l>y religión en lo heroico</l>
+            <l>de esta acción os ha de dar</l>
+            <l>aquel imperial adorno,</l>
+            <l n="1005">¿cómo queréis conseguirle,</l>
+            <l>si con errores tan locos</l>
+            <l>para ser de troncos reyes,</l>
+            <l>aún no dejáis de ser troncos?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>No le responda ninguno,</l>
+            <l n="1010">yo responderé por todos.</l>
+            <l>Dame una señal de que</l>
+            <l>secretos tan misteriosos</l>
+            <l part="I">sean verdad.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l part="F">¡Señal pides,</l>
+            <l>oh pueblo ignorante y loco!</l>
+            <l n="1015">¿Qué más señal que decirlo</l>
+            <l part="I">la verdad misma?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">Eso ignoro;</l>
+            <l>y por decir que lo crees,</l>
+            <l>te he de hacer de escandaloso</l>
+            <l>causa, pues soy el Justicia</l>
+            <l n="1020">del Monte, el Valle y el Soto,</l>
+            <l>prendiéndote entre las redes</l>
+            <l>de tantos aceros corvos.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Pues ¿qué poder tienes tú,</l>
+            <l>si aún no tienes de nosotros</l>
+            <l part="I">el Imperio?</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l n="1025" part="F">Dice bien;</l>
+            <l>y pues que venimos sólo</l>
+            <l>a dar nuestros memoriales,</l>
+            <l>en orden al generoso</l>
+            <l>triunfo que cada uno espera,</l>
+            <l n="1030">no intentes ponerle estorbos.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Luego ¿no queréis los dos</l>
+            <l>ser parte en que riguroso</l>
+            <l>o justiciero examine</l>
+            <l part="I">su verdad?</l>
+          </sp>
+          <sp who="#encina #laurel">
+            <speaker>LOS DOS</speaker>
+            <l part="F">De ningún modo.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l n="1035">Pues dad vuestros memoriales</l>
+            <l>que yo le daré el mío, y todo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Sale el OLIVO con un memorial.</stage>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>Pues a tan buen tiempo llego,</l>
+            <l>la ocasión primera logro.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Estemos a su respuesta</l>
+            <l part="I">atentos.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l n="1040" part="F">A lo que noto,</l>
+            <l>el oficio de la cruz</l>
+            <l>será dar audiencia a todos.</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>Yo, como a legal ministro</l>
+            <l>que eres de todos nosotros,</l>
+            <l n="1045">te digo que soy la Oliva.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Ya de quien eres me informo.</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>La Ley Natural defiendo,</l>
+            <l>diciendo el Cielo en mi abono.</l>
+            <stage>Da el memorial de rodillas, y cantan dentro.</stage>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Pues eres Rey piadoso,</l>
+            <l n="1050">no estés, Señor, a sus lamentos sordo.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Ya como Ley Natural</l>
+            <l>en primer lugar te pongo.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Salen la VID y la ESPIGA.</stage>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>A buena ocasión llegamos.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>Aunque los cielos piadosos</l>
+            <l n="1055">me animaron, mi humildad</l>
+            <l part="I">me acobarda.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="F">Y a mí, y todo.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>Pues porque no nos turbemos</l>
+            <l>dejemos que lleguen otros.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¡Con qué espanto y turbación</l>
+            <l n="1060">hoy a sus plantas me postro!</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Fiesta de Roma es mirar</l>
+            <l>de la Oliva lo amoroso</l>
+            <l>a sus pies, y veer tras ella</l>
+            <l>ya del Espino lo bronco.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l n="1065">Yo represento la Ley</l>
+            <l part="I">Escrita.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l part="F">Ya te conozco.</l>
+            <l part="I">¿TÚ conócesme a mí?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">No.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Pues pasad; ¿llegad vosotros,</l>
+            <l>que aunque el segundo lugar</l>
+            <l n="1070">tienes, perderle es forzoso?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Pues ¿cómo no habla por mí</l>
+            <l>la voz que ha hablado por otros?</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Como hasta que me conozcas</l>
+            <l>ella está muda y yo sordo.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l n="1075">Yo, Señor, con la Humildad</l>
+            <l>que de mi ser reconozco,</l>
+            <l>sin haber ley elegido,</l>
+            <l>sino este título solo</l>
+            <l>de Humildad, llego a tus plantas.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l part="I">¿Qué pides?</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l n="1080" part="F">No los heroicos</l>
+            <l>imperios, que de justicia</l>
+            <l>no merecerlos conozco;</l>
+            <l>pero de gracia te pido,</l>
+            <l part="I">que me honres.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="F">Yo lo propio</l>
+            <l n="1085">te suplico, intercediendo</l>
+            <l>por mí el Cielo en dulces coros.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Pues eres Rey piadoso,</l>
+            <l>no estés, Señor, a sus lamentos sordo.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>¿De manera que los dos</l>
+            <l n="1090">de gracia pretendéis solo?</l>
+          </sp>
+          <sp who="#espiga #vid">
+            <speaker>LOS DOS</speaker>
+            <l part="I">Sí.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l part="F">Pues yo os daré de gracia</l>
+            <l>el favor, que ya es forzoso</l>
+            <l>que haya Ley de Gracia en mí</l>
+            <l>que se vincule en vosotros,</l>
+            <l n="1095">porque a primera y segunda</l>
+            <l part="I">siga la tercera.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">¿Cómo</l>
+            <l>esto mi furor consiente?</l>
+            <l>¿Cómo esto sufre mi enojo?</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Yo soy la Encina, que tengo</l>
+            <l n="1100">de ser de la Tierra asombro,</l>
+            <l>a otro alimento negando</l>
+            <l>antídotos misteriosos,</l>
+            <l>y así nueva religión</l>
+            <l>de apostasía me nombro,</l>
+            <l n="1105">y aunque sigo la Tercera</l>
+            <l>Ley, que establecerla oigo,</l>
+            <l>desta huiré, contra ella haciendo</l>
+            <l>silogismos ingeniosos:</l>
+            <l>aqueste es mi memorial.</l>
+            <stage>Dale el memorial, y no se levanta hasta que llega el LAUREL.</stage>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l n="1110">Con cuanto temor le tomo;</l>
+            <l>pero es fuerza que lo admita,</l>
+            <l>puesto que en él reconozco</l>
+            <l>que, habiendo a la Ley seguido</l>
+            <l>de Gracia, aunque nada docto,</l>
+            <l n="1115">viene ya en papel sellado,</l>
+            <l>con el sello misterioso</l>
+            <l>del carácter del Bautismo.</l>
+            <stage>Toma el memorial.</stage>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Yo soy de reinos remotos,</l>
+            <l>donde ese papel sellado</l>
+            <l part="I">no está admitido.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l n="1120" part="F">Ya noto</l>
+            <l>que eres la Gentilidad,</l>
+            <l>y aunque sin sello, le tomo</l>
+            <l>para hacer cuanto pudiere,</l>
+            <l>Gentilidad, en tu abono,</l>
+            <l n="1125">pues por ambas pide el Cielo,</l>
+            <l>diciendo acentos sonoros.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>Pues eres Rey piadoso,</l>
+            <l>no estés, Señor, a sus lamentos sordo.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Por todos han suplicado</l>
+            <l n="1130">aquestas voces, por todos</l>
+            <l>han intercedido, y han</l>
+            <l>faltado para mí solo.</l>
+            <l part="I">¿Por qué ha sido?</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l part="F">¿Por qué? Yo</l>
+            <l>lo diré, con ser un tonto.</l>
+            <l n="1135">Este el árbol de la Cruz</l>
+            <l>es, según advierto, y toco,</l>
+            <l>y el Oficio de la Cruz</l>
+            <l>al Cielo ruega por todos;</l>
+            <l>y aunque por el Judaísmo</l>
+            <l n="1140">ruega, no responde el Coro.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Pues ¿qué aguarda mi paciencia?</l>
+            <l>Ya aplausos no quiero heroicos,</l>
+            <l>sino saber, ¿con qué causa,</l>
+            <l>con qué título o qué modo</l>
+            <l n="1145">de los árboles pretendes</l>
+            <l part="I">hacerte juez?</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l part="F">No respondo</l>
+            <l>más de por qué soy quien soy.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Aqueso es lo que yo ignoro,</l>
+            <l>y pues que no sé quién eres,</l>
+            <l n="1150">y yo el justicia me nombro</l>
+            <l>de estos valles, de estos montes,</l>
+            <l>como a árbol pernicioso</l>
+            <l>te he de arrancar las raíces,</l>
+            <l>por venir entre nosotros</l>
+            <l n="1155">a introducir nuevas leyes,</l>
+            <l>escándalos y alborotos:</l>
+            <l part="I">date a prisión.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l part="F">¿TÚ me prendes?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Sí, y antes que deste hermoso</l>
+            <l>huerto salgas, has de veerlo.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l n="1160">Ni me resisto, ni escondo.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="I">¿Qué haces bárbaro?</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l part="F">¿Qué intentas?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¿Qué? Lo primero de todo,</l>
+            <l>que veean que a la Prudencia</l>
+            <l>y a la Ley Natural rompo.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l part="I">¿Qué solicitas?</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l n="1165" part="F">¿Qué intentas?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Que veea el Mundo, que yo solo,</l>
+            <l>pues que contra la Herejía,</l>
+            <l>y Gentilidad me arrojo</l>
+            <l>a esta acción, que en ella no</l>
+            <l n="1170">tuvisteis parte vosotros.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="I">Detente, bárbaro.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l part="F">Mira.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Atropellaraos mi enojo,</l>
+            <l>por veer que en las dos a toda</l>
+            <l>la Ley de Gracia me opongo.</l>
+            <l n="1175">árbol que eres uno y tres,</l>
+            <l>humano te desconozco:</l>
+            <l>y así, he de hacerte pedazos,</l>
+            <l>si entre mis brazos te cojo.</l>
+            <stage>Abrázase con la cruz, y sale sangre.</stage>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Herido estoy de tus puntas,</l>
+            <l n="1180">y ya este divino tronco,</l>
+            <l>salpicado con mi sangre,</l>
+            <l>nace verde y muere rojo.</l>
+          </sp>
+          <sp who="#encina #laurel #moral #almendro #olivo #vid #espiga #música">
+            <speaker>TODOS</speaker>
+            <l part="I">¿Qué has hecho?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">No sé, no sé.</l>
+            <l>¡Sobre mí los cielos todos</l>
+            <l part="I">se trastornan!</l>
+            <stage>Turbado.</stage>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l n="1185" part="F">¡Qué prodigio!</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="I">¡Qué maravilla!</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l part="F">¡Qué asombro!</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="I">¡Qué pasmo!</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l part="F">¡Qué confusión!</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l part="I">¡Qué temor!</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="M">¡Qué ansia!</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">¡Qué ahogo!</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Toda la Naturaleza</l>
+            <l n="1190">me desampara, y absortos</l>
+            <l>todos andan, al mirar</l>
+            <l>teatro tan lastimoso;</l>
+            <l>con mi sangre iré bañando</l>
+            <l>todo el Orbe, porque todo</l>
+            <l n="1195">sea partícipe de ella.</l>
+          </sp>
+          <stage>Llegan la VID y la ESPIGA.</stage>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>Yo en mis mieses la recojo.</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>Yo en mis vides la recibo.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Pues humildes, pues piadosos,</l>
+            <l>los dos recibís mi Cuerpo</l>
+            <l n="1200">y mi Sangre, en los dos sólo</l>
+            <l>(desde hoy) mi Cuerpo y mi Sangre</l>
+            <l>será divino tesoro,</l>
+            <l>que os dé méritos con que</l>
+            <l>reyes os llaméis de todos.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Vase.</stage>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l n="1205">¿Cómo su Cuerpo y su Sangre?</l>
+            <l>Aqueste misterio ignoro.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Yo también, y ensangrentado,</l>
+            <l>helado, mudo y absorto,</l>
+            <l>con mis lágrimas me anego,</l>
+            <l n="1210">con mis suspiros me ahogo.</l>
+            <l part="I">¿Oliva?</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVA</speaker>
+            <l part="F">¿Cómo me llamas,</l>
+            <l>si la Ley Natural formo,</l>
+            <l>y en mí fue el mayor delito</l>
+            <l>un homicidio alevoso?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>Vase.</stage>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">¿Encina?</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l n="1215" part="F">Aunque la Herejía</l>
+            <l>pienso ser, no te conozco,</l>
+            <l>que asombrado de tu saña,</l>
+            <l>desde aquí enemigos somos.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Vase.</stage>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">¿Laurel?</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l part="F">Gentilidad soy,</l>
+            <l n="1220">y de tu furor rabioso</l>
+            <l>he de tomar la venganza,</l>
+            <l>destruyendo mis enojos</l>
+            <l>tus alcázares y muros,</l>
+            <l>en venganza de este oprobio.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage>Vase.</stage>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l n="1225">óyeme tú; mas ¿quién eres?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="I">El Moral.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">No te conozco.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>¿Qué mucho, si soy Prudencia,</l>
+            <l>que no me conozca el Loco?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">¿Almendro?</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l part="F">Aunque loco soy,</l>
+            <l n="1230">no tanto que te respondo,</l>
+            <l>que soy loco tolerado</l>
+            <l>y tú eres loco furioso.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage>Vase.</stage>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>¡Ay de mí! Todos me dejan,</l>
+            <l>y me desamparan todos,</l>
+            <l n="1235">aun mi gran patria la Tierra</l>
+            <l>me echa de sí; donde pongo</l>
+            <l>la planta, un áspid parece</l>
+            <l>que nace, armado de abrojos.</l>
+            <l>Todo el Cielo contra mí</l>
+            <l n="1240">se amotina pavoroso,</l>
+            <l>el Sol a la media tarde</l>
+            <l>espira, lleno de asombros,</l>
+            <l>y anticipada la Noche</l>
+            <l>le eclipsa la faz, y como</l>
+            <l n="1245">toda esta fábrica inmensa</l>
+            <l>desquiciada de sus polos,</l>
+            <l>titubea y se estremece;</l>
+            <l>los montes, poniendo el hombro</l>
+            <l>al estrago de la ruina,</l>
+            <l n="1250">y chocando unos con otros,</l>
+            <l>batallas se dan los riscos,</l>
+            <l>piedra a piedra y tronco a tronco;</l>
+            <l>la sangre con que manché</l>
+            <l>aquel madero, hecha golfos</l>
+            <l n="1255">de púrpura y de jazmín,</l>
+            <l>justicia pide, bien como</l>
+            <l>la sangre de Abel. ¡Oh, quién</l>
+            <l>arrancando los escollos</l>
+            <l>arrojárselos encima</l>
+            <l n="1260">pudiera, su mauseolo</l>
+            <l>labrando en bárbaras tumbas</l>
+            <l>de rústicos promontorios!</l>
+            <l>No me viera, no me viera</l>
+            <l>el Mundo, pues es forzoso,</l>
+            <l n="1265">que sin casa y domicilio,</l>
+            <l>pobre, forajido y solo,</l>
+            <l>el Espino en los desiertos</l>
+            <l>más silvestres, más ignotos,</l>
+            <l>ya prófugo y vago viva,</l>
+            <l n="1270">aborrecido de todos,</l>
+            <l>porque así representando</l>
+            <l>vaya el Judaísmo: absorto,</l>
+            <l>helado, ciego y confuso,</l>
+            <l>razón ni discurso formo.</l>
+            <l n="1275">Y aún no es mi mayor tormento,</l>
+            <l>mi mayor pena ni enojo</l>
+            <l>todo aquesto, sino haber</l>
+            <l>llegado, sin saber como,</l>
+            <l>del Alcázar de Sión</l>
+            <l n="1280">a veer desde sus contornos</l>
+            <l>el segundo Paraíso</l>
+            <l>de sus jardines hermosos.</l>
+            <l>Cerradas para mí están</l>
+            <l>sus puertas, y entre el adorno</l>
+            <l n="1285">de sus delicias, que patria</l>
+            <l>son del descanso y el ocio,</l>
+            <l>a escuchar van los decretos</l>
+            <l>de sus memoriales todos</l>
+            <l>los árboles, coronados</l>
+            <l n="1290">de sus flores, ya contornos,</l>
+            <l>acompañando las fuentes</l>
+            <l>a sus acentos sonoros,</l>
+            <l>cítaras son de cristal.</l>
+            <l>¡Oh cómo, cielos, oh cómo</l>
+            <l n="1295">no oyera ya su harmonía</l>
+            <l>por la boca y por los ojos!</l>
+            <l>¡Volcán soy, llamas escupo!</l>
+            <l>¡Etna soy, rayos arrojo!</l>
+            <l>En la mejor fuente, que es</l>
+            <l n="1300">corona de sus contornos,</l>
+            <l>el árbol a quien yo herí</l>
+            <l>se coloca y en arroyos</l>
+            <l>de cristal por siete caños</l>
+            <l>fertiliza el Orbe todo.</l>
+            <l n="1305">Mas por vengarme de mí,</l>
+            <l>yo proprio (¡ay de mí!) yo proprio</l>
+            <l>asistiré introducido</l>
+            <l>a la jura del dichoso</l>
+            <l>árbol, que merezca ser</l>
+            <l n="1310">rey absoluto de todos.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage>Aparecen en lo alto de una fuente la Cruz y el CEDRO, y salen todos los árboles.</stage>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¡Ha de las plantas y flores,</l>
+            <l>adornos deste vergel!</l>
+            <l>¡Ha de las flores y frutos,</l>
+            <l>que son hermosura dél!</l>
+          </sp>
+          <sp who="#espino #moral #vid #espiga #almendro #ángel-primero">
+            <speaker>CORO 2.°</speaker>
+            <l n="1315">¿Qué mandáis? ¿Qué queréis?</l>
+          </sp>
+          <sp who="#laurel #encina #olivo #cedro #ángel-segundo">
+            <speaker>CORO 1.°</speaker>
+            <l>¿Qué vamos a oír? ¿Qué vamos a ver?</l>
+            <l>¿Quién merece de todos nosotros</l>
+            <l>ceñir la corona, lograr el Laurel?</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Fuente de divina Gracia,</l>
+            <l n="1320">en quien nos muestra la Fe</l>
+            <l>triunfante aquel árbol hoy</l>
+            <l>que vimos sangriento ayer;</l>
+            <l>la moral, prudencia mía,</l>
+            <l>rústicamente cortés,</l>
+            <l n="1325">te pide en nombre de todos</l>
+            <l>que a sus memoriales des</l>
+            <l>respuesta, y que les declares</l>
+            <l>quién entre nosotros es</l>
+            <l>el árbol de mejor fruto</l>
+            <l n="1330">que hemos de jurar por rey;</l>
+            <l>a cuyo efecto, y compás</l>
+            <l>destos cristales, por quien</l>
+            <l>fructifican sus raíces,</l>
+            <l>dicen una y otra vez.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l n="1335">¿Quién merece de todos nosotros</l>
+            <l>ceñir la corona, lograr el Laurel?</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>Yo, Ley Natural, que fui</l>
+            <l>la primera que llegué</l>
+            <l>a ver las luces del Sol,</l>
+            <l n="1340">soy la primera también</l>
+            <l>que a beber de tus cristales</l>
+            <l>ahora llego, porque</l>
+            <l>a mi primer memorial</l>
+            <l>primero respuesta des.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l n="1345">Símbolo hermoso de Paz,</l>
+            <l>fértil Oliva, porque</l>
+            <l>conozcas cuán de justicia</l>
+            <l>mis decretos han de ser,</l>
+            <l>tú no te has de coronar,</l>
+            <l n="1350">sino coronarme, pues</l>
+            <l>vengo a ser la Paz del Mundo;</l>
+            <l>la razón oye. En la Ley</l>
+            <l>que elegiste, ¿cuántos fueron</l>
+            <l part="I">tus preceptos?</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l part="F">Dos: tener</l>
+            <l n="1355">amor solamente a un Dios,</l>
+            <l>y a mi prójimo después,</l>
+            <l>no queriendo para mí</l>
+            <l>lo que no quiero para él.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>¿A esos dos no se reducen</l>
+            <l n="1360">del Decálogo los diez?</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l part="I">Sí.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l part="F">Luego ya reformada</l>
+            <l>quedaste, viniendo a haber</l>
+            <l part="I">Ley Escrita.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">Según eso,</l>
+            <l>aunque aborrecido esté,</l>
+            <l n="1365">podré hablar yo, pues yo fui</l>
+            <l>el que mereció tener</l>
+            <l>en la gran Ley, que eligió</l>
+            <l>esos preceptos, de quien</l>
+            <l>para esculpirlos en mármol</l>
+            <l n="1370">fue el dedo de Dios pincel.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Sí; pero también perdiste</l>
+            <l>derecho, y acción de ser</l>
+            <l>heredero de la Viña,</l>
+            <l>cuanto soberbio crüel</l>
+            <l n="1375">tus manos tiñó la justa</l>
+            <l>sangre del segundo Abel.</l>
+            <l>Y así, de reino, de casa,</l>
+            <l>de familia y de poder,</l>
+            <l>desde aqueste infausto día</l>
+            <l n="1380">desposeído te ves.</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>Luego yo, que de esa muerte</l>
+            <l>la satisfacción tomé,</l>
+            <l>asolando los altivos</l>
+            <l>muros de Jerusalén,</l>
+            <l n="1385">desde la más baja almena</l>
+            <l>al más alto capitel,</l>
+            <l>en su venganza, mejor</l>
+            <l>derecho vengo a tener.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Si tienes, Gentilidad,</l>
+            <l n="1390">supuesto que tú has de ser</l>
+            <l>la que ocupará el lugar</l>
+            <l>que ha desocupado él,</l>
+            <l>mas no para coronarte,</l>
+            <l>sino para merecer</l>
+            <l n="1395">ser admitida a la Gracia,</l>
+            <l>ofreciéndome también</l>
+            <l>ramas de que me corone</l>
+            <l>vencedor, pues la crüel</l>
+            <l>muerte (muriendo) vencí,</l>
+            <l n="1400">para que se llegue a veer</l>
+            <l>que, árbitro de paz y guerra,</l>
+            <l>admito a Oliva y Laurel.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Según eso, para mí</l>
+            <l>guardáis la corona; pues</l>
+            <l n="1405">nadie la compite ya,</l>
+            <l>y yo la merezco en fee</l>
+            <l>de que creo lo que veo.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Engáñate tu altivez,</l>
+            <l>que has de creer lo que oyeres</l>
+            <l n="1410">primero que lo que ves.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="I">No es posible.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l part="F">Pues tampoco</l>
+            <l>lo es la corona, porque</l>
+            <l>no merece conseguir</l>
+            <l>quien no merece creer.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l n="1415">¿Para quién, Señor, la guardas?</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Para mí debe de ser,</l>
+            <l>que a falta de buenos dice</l>
+            <l>el refrán que el ruin es rey.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Preguntémoselo todos.</l>
+          </sp>
+          <sp who="#espino #vid #espiga #almendro #laurel #encina #olivo #cedro #ángel-primero #ángel-segundo">
+            <speaker>TODOS</speaker>
+            <l n="1420">Dinos, gran Señor, quién es.</l>
+          </sp>
+          <sp who="#música">
+            <speaker>MÚSICA</speaker>
+            <l>¿Quién merece de todos nosotros</l>
+            <l>ceñir la corona, lograr el Laurel?</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Solamente la Humildad</l>
+            <l>merece tan alto bien;</l>
+            <l n="1425">y así, coronada en Vid</l>
+            <l>y en Espiga la veréis.</l>
+            <l>Ellos mi Cuerpo y mi Sangre</l>
+            <l>recibieron para que</l>
+            <l>mi Sangre y mi Cuerpo eternos</l>
+            <l n="1430">en el Pan y el Vino estén.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>¡Dichosa quien mereció</l>
+            <l>por su humildad, tanto bien!</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>¡Feliz quien por su humildad</l>
+            <l>tanta dicha llega a veer!</l>
+          </sp>
+          <sp who="#ángel-primero">
+            <speaker>ÁNGEL 1.°</speaker>
+            <l n="1435">Porque empiece vuestro triunfo,</l>
+            <l>el hermoso rosicler</l>
+            <l>desta corona que aquí</l>
+            <l>depositada otra vez</l>
+            <l>quedó recibid los dos.</l>
+          </sp>
+          <sp who="#ángel-segundo">
+            <speaker>ÁNGEL 2.°</speaker>
+            <l n="1440">Llegad, pues sabemos que es</l>
+            <l>para Vid y Espiga, frutos</l>
+            <l>de la viña y de la mies.</l>
+          </sp>
+          <sp who="#cedro">
+            <speaker>CEDRO</speaker>
+            <l>Aquesas especies dos,</l>
+            <l>antídotos son de aquel</l>
+            <l n="1445">primer veneno del hombre.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>La Prudencia soy, y en fee</l>
+            <l>de que lo dices, lo creo.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Si a aqueso va, yo también.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">Pues yo no.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINO</speaker>
+            <l part="F">Ni yo tampoco.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l n="1450">Porque, ¿cómo puede ser</l>
+            <l>que eso sea, y que su Sangre</l>
+            <l>misma y su Cuerpo nos dé</l>
+            <l part="I">para comer?</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="F">Porque, ¿cómo</l>
+            <l>en el Pan y el Vino es</l>
+            <l n="1455">posible que Cuerpo y Sangre</l>
+            <l>con real asistencia estén?</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>¿Cómo está sacramentado</l>
+            <l>su Cuerpo Divino en él?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>¿Cómo su Divina Sangre</l>
+            <l n="1460">en él transformado esté?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>Sólo aquí se toca Pan.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Sólo aquí Vino se ve.</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l>¿Qué importa, si los sentidos</l>
+            <l>se engañan, y ya no es</l>
+            <l part="I">substancia de Pan?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l n="1465" part="F">¿Qué importa</l>
+            <l>que ellos confusos estén,</l>
+            <l>si huida la substancia, solos</l>
+            <l>los accidentes después</l>
+            <l part="I">quedaron?</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">¿Quién lo asegura?</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="I">¿Quién lo acredita?</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l n="1470" part="F">La Fe.</l>
+          </sp>
+          <sp who="#encina #espino">
+            <speaker>LOS DOS</speaker>
+            <l part="I">¿Cómo puede ser?</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l part="F">Cautivando</l>
+            <l part="I">al Entendimiento.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l part="F">Dél</l>
+            <l>la parte más principal</l>
+            <l>siempre la Prudencia fue;</l>
+            <l n="1475">y pues que yo cuerdamente</l>
+            <l>al mejor tiempo esperé,</l>
+            <l>ahora2 daré mis frutos.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Puesto que ahora lo es,</l>
+            <l part="I">yo me rindo, y lo creo.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="F">Y yo,</l>
+            <l n="1480">no sólo me rendiré,</l>
+            <l>mas contra ese Sacramento</l>
+            <l>escándalo pienso ser</l>
+            <l part="I">del Mundo.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="F">De sus Misterios</l>
+            <l>seré yo asombro también.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l n="1485">Por eso en la Cristiandad</l>
+            <l>un tribunal de la Fe</l>
+            <l>habrá, que a la depravada</l>
+            <l>Apostasía infiel,</l>
+            <l>al Judaísmo arroje rayos</l>
+            <l part="I">de fuego.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l n="1490" part="F">La voz detén,</l>
+            <l part="I">que a la Majestad...</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="F">... que al nombre...</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>... de tanto severo juez...</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>... de tanto docto ministro...</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">... mudo el labio...</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l part="F">... helado el pie...</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l part="I">... me confundo...</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l n="1495" part="F">... me estremezco...</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l>... y huyendo dellos iré</l>
+            <l>a los más remotos climas.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Yo, desterrada también</l>
+            <l>a las islas más remotas.</l>
+          </sp>
+          <sp who="#espino">
+            <speaker>ESPINO</speaker>
+            <l n="1500">Llevando, siempre crüel,</l>
+            <l>un Etna en el corazón.</l>
+          </sp>
+          <sp who="#encina">
+            <speaker>ENCINA</speaker>
+            <l>Yo, en la garganta un cordel.</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l>Pues no ha de ser sólo eso</l>
+            <l>vuestro dolor, sino que</l>
+            <l n="1505">también en la gran Toledo</l>
+            <l>hagan con sumo placer</l>
+            <l>fiestas al grande misterio</l>
+            <l>que es el triunfo de la Fe.</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>Y puesto que coronada</l>
+            <l n="1510">en aqueste Acto se vee</l>
+            <l part="I">la Humildad...</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l part="F">... la de un ingenio...</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>... que hoy se rinde a vuestros pies...</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>... coronad, sino de aplausos...</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>... de perdones esta vez...</l>
+          </sp>
+          <sp who="#almendro">
+            <speaker>ALMENDRO</speaker>
+            <l n="1515">... para que con tanto demos...</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>... uno, y otro parabién...</l>
+          </sp>
+          <sp who="#laurel">
+            <speaker>LAUREL</speaker>
+            <l>... y fin al AUTO, sabiendo...</l>
+          </sp>
+          <sp who="#olivo">
+            <speaker>OLIVO</speaker>
+            <l>... que sola la Humildad es...</l>
+          </sp>
+          <sp who="#vid">
+            <speaker>VID</speaker>
+            <l>... quien merece de todos nosotros...</l>
+          </sp>
+          <sp who="#espiga">
+            <speaker>ESPIGA</speaker>
+            <l n="1520">... ceñir la corona...</l>
+          </sp>
+          <sp who="#moral">
+            <speaker>MORAL</speaker>
+            <l>... lograr el laurel.</l>
+          </sp>
+          <stage>Con esta repetición, y al son de las chirimías se da fin al AUTO.</stage>
+        </div>
+
+      </div>
+    </body>
+  </text>
+</TEI>

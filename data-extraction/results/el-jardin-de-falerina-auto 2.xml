@@ -1,0 +1,3572 @@
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000204" xml:lang="esp">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El jardín de Falerina</title>
+        <title type="sub"/>
+        <author><persName><forename>Pedro</forename><surname sort="1">Calderón</surname><nameLink>de la</nameLink><surname>Barca</surname></persName><idno type="wikidata">Q170800</idno><idno type="pnd">118518399</idno></author>
+        <respStmt>
+          <resp>Data curation (cleaning, normalization and scene division)</resp>
+          <persName xml:id="rojas">Rojas Castro, Antonio</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>University of Vienna, Institute of Romance Languages and Literatures</authority>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <date when="2022-01-12"><time when="15:21:46"/></date>
+        <idno type="quadramaX">El jardín de Falerina</idno>
+        <availability>
+          <licence><ab>CC0 1.0</ab><ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource"><name>DADUN Depositorio académico digital Universidad de Navarra</name><idno type="URL">https://dadun.unav.edu/handle/10171/53064</idno><bibl type="originalSource"><title>Edición digital a partir de la edición de L Galván y C. Mata, Pamplona– Kassel, Universidad de Navarra–Reichenberger, 2007.ISBN: 9783937734330.</title></bibl></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="lucero">
+            <persName>Lucero</persName>
+          </person>
+          <person sex="FEMALE" xml:id="culpa">
+            <persName>Culpa</persName>
+          </person>
+          <person sex="MALE" xml:id="hombre">
+            <persName>Hombre</persName>
+          </person>
+          <person sex="UNKNOWN" xml:id="musica">
+            <persName>Música</persName>
+          </person>
+          <person sex="FEMALE" xml:id="gracia">
+            <persName>Gracia</persName>
+          </person>
+          <person sex="MALE" xml:id="oido">
+            <persName>Oído</persName>
+          </person>
+          <person sex="MALE" xml:id="gusto">
+            <persName>Gusto</persName>
+          </person>
+          <person sex="MALE" xml:id="olfato">
+            <persName>Olfato</persName>
+          </person>
+          <person sex="FEMALE" xml:id="lisonja">
+            <persName>Lisonja</persName>
+          </person>
+          <person sex="FEMALE" xml:id="envidia">
+            <persName>Envidia</persName>
+          </person>
+          <person sex="FEMALE" xml:id="murmuracion">
+            <persName>Murmuración</persName>
+          </person>
+          <person sex="FEMALE" xml:id="gula">
+            <persName>Gula</persName>
+          </person>
+          <person sex="FEMALE" xml:id="vista">
+            <persName>Vista</persName>
+          </person>
+          <person sex="MALE" xml:id="tacto">
+            <persName>Tacto</persName>
+          </person>
+          <person sex="MALE" xml:id="febo">
+            <persName>Febo</persName>
+            <trait source="castlist">
+              <desc>galán</desc>
+            </trait>
+          </person>
+          <personGrp sex="MALE" xml:id="ecos">
+            <persName>Ecos</persName>
+          </personGrp>
+          <person sex="UNKNOWN" xml:id="toda-la-musica">
+            <persName>Toda La Música</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="dracor" type="genreTitle">auto sacramental</term>
+          <term source="#kroll" type="main">auto sacramental</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="kroll">
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+        </taxonomy>
+      </classDecl>
+      <classDecl>
+        <taxonomy xml:id="calderondigital">
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1717">
+        <desc/>
+      </event>
+      <event type="written" when="1675">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text xml:lang="es">
+    <front>
+      <castList>
+        <head>Personajes</head>
+        <castItem>EL LUCERO</castItem>
+        <castItem>EL HOMBRE</castItem>
+        <castItem>LA GRACIA</castItem>
+        <castItem>LA VISTA</castItem>
+        <castItem>EL OÍDO</castItem>
+        <castItem>EL OLFATO</castItem>
+        <castItem>EL GUSTO</castItem>
+        <castItem>EL TACTO</castItem>
+        <castItem>LA CULPA</castItem>
+        <castItem>LA ENVIDIA</castItem>
+        <castItem>LA LISONJA</castItem>
+        <castItem>LA MURMURACIÓN</castItem>
+        <castItem>LA GULA</castItem>
+        <castItem>LA LASCIVIA</castItem>
+        <castItem>FEBO, galán</castItem>
+        <castItem>MÚSICOS</castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act">
+        <div type="scene" resp="#rojas" n="1">
+          <stage>Sale el LUCERO de una gruta muy horrorosa con manto de estrellas, plumas, banda y bastón</stage>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>¡Oh tú, parda columna</l>
+            <l>del venenoso monte de la Luna,</l>
+            <l>cuya pálida tez lóbrega y fría</l>
+            <l>sobre los verdes tósigos que cría</l>
+            <l n="5">de la cicuta, el opio y el beleño</l>
+            <l>catres le mulle a la deidad del sueño!</l>
+            <l>Del sueño cuyo blando pasmo fuerte</l>
+            <l>éxtasis es de una prestada muerte.</l>
+            <l>¡Oh tú, otra vez te digo,</l>
+            <l n="10">triste, funesto, pavoroso abrigo</l>
+            <l>y adormecido embargo</l>
+            <l>del mortal que con pálido letargo</l>
+            <l>yace a su no sensible parasismo!</l>
+            <l>¡Oh tú, accesoria fija del abismo,</l>
+            <l n="15">prisión del susto, cárcel del quebranto,</l>
+            <l>adonde huésped de aposento el llanto</l>
+            <l>gime de disonantes quejas lleno,</l>
+            <l>rasga al conjuro de mi voz el seno</l>
+            <l>que en sí contiene aquella</l>
+            <l n="20">hechicera beldad, mágica bella</l>
+            <l>que el águila divina</l>
+            <l>verá, si al sol sus rayos examina,</l>
+            <l>con halagos incautamente bellos</l>
+            <l>brindar sobre el dragón de siete cuellos</l>
+            <l n="25">los venenos que dulcemente impura</l>
+            <l>conficionó su voz en su hermosura!</l>
+            <l>¡Oh tú, si te he de dar tu propio nombre,</l>
+            <l>inordenada voluntad del Hombre,</l>
+            <l>complacido receso</l>
+            <l n="30">de la primera ley, amable exceso</l>
+            <l>que adúltero engendró aquel elocuente</l>
+            <l>pacto de la mujer y la serpiente,</l>
+            <l>coloreado delito</l>
+            <l>de la afectada faz del apetito,</l>
+            <l n="35">doméstico homicida,</l>
+            <l>familiar enemigo de la vida!</l>
+            <l>¡Oh tú, mil veces tú, que no hay extrañas,</l>
+            <l>que no hay comunes señas</l>
+            <l>que te vengan mejor! ¡Rompe esas breñas</l>
+            <l n="40">y, abortado embrión de sus entrañas,</l>
+            <l>vean esas montañas</l>
+            <l>que me aclaman su rey cuánto ligera</l>
+            <l>al eco del león viene la fiera</l>
+            <l>como vasalla suya</l>
+            <l n="45">sin que tu orgullo huya</l>
+            <l>el rostro a lid que faz a faz no luches!</l>
+            <l part="I">¡Culpa en común!</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="M">¿Qué quieres?</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="F">Que me escuches.</l>
+            <stage>Del segundo carro, que será un peñasco muy horroroso, sale la CULPA</stage>
+            <l>Ya sabes, según a todos</l>
+            <l>Isaías se lo cuenta,</l>
+            <l n="50">aquella primer batalla</l>
+            <l>que allá en mi patria primera</l>
+            <l>tuve cuando, comunero</l>
+            <l>del Impíreo, puse en guerra</l>
+            <l>su alta curia; también sabes</l>
+            <l n="55">que inflexible mi soberbia,</l>
+            <l>aun cuando más castigada</l>
+            <l>menos reducida, intenta</l>
+            <l>pasar el odio de Dios</l>
+            <l>al de la naturaleza</l>
+            <l n="60">humana, de que no poco</l>
+            <l>triunfo conseguí en aquella</l>
+            <l>del primer vergel segunda</l>
+            <l>lid, que aquí al silencio deja</l>
+            <l>fiada mi voz por lugar</l>
+            <l n="65">común, pues no hay quien no sepa</l>
+            <l>que si en esotra vencido</l>
+            <l>quedé vencedor en esta.</l>
+            <l>Y siendo así que no es bien</l>
+            <l>en repetidas materias</l>
+            <l n="70">desaprovechar el tiempo</l>
+            <l>que quizá para más nueva,</l>
+            <l>más recóndita noticia</l>
+            <l>ha menester mi impaciencia,</l>
+            <l>entremos en el asumpto</l>
+            <l n="75">desde luego porque veas</l>
+            <l>que aun con ser victoria mía</l>
+            <l>no deja de ser tragedia.</l>
+            <l>Ofendido Dios de ver</l>
+            <l>la golosa inobediencia,</l>
+            <l n="80">que fue sugestión de Adán</l>
+            <l>por no contristar a Eva,</l>
+            <l>entre otras maldiciones</l>
+            <l>que echó a la incauta culebra</l>
+            <l>en quien revestido yo</l>
+            <l n="85">fingí humano rostro y lengua</l>
+            <l>fue no la menor —bien como</l>
+            <l>en piadosa recompensa</l>
+            <l>de que una mujer produzca</l>
+            <l>la culpa y otra la enmienda—</l>
+            <l n="90">que había de haber alguna</l>
+            <l>que del común daño esempta</l>
+            <l>mi cerviz quebrantaría</l>
+            <l>en ella la planta puesta.</l>
+            <l>Aquesta amenaza en una</l>
+            <l n="95">parte, en otra ver que llega</l>
+            <l>el hombre a llorar su culpa</l>
+            <l>y en ambas que de sus tiernas</l>
+            <l>lágrimas compadecido</l>
+            <l>Dios le dé por sus profetas</l>
+            <l n="100">ya en palabras y ya en sombras</l>
+            <l>cierta y segura promesa,</l>
+            <l>restituido a su gracia,</l>
+            <l>de satisfacer su deuda,</l>
+            <l>a mí tan desesperado</l>
+            <l n="105">y a él tan consolado dejan</l>
+            <l>que él, de la gracia asistido,</l>
+            <l>en tranquila paz serena</l>
+            <l>vive, en fe de la esperanza,</l>
+            <l>cuando yo negado a ella</l>
+            <l n="110">no solo la tengo, pero</l>
+            <l>ni esperanza de tenerla.</l>
+            <l>De este rencor, de esta ira</l>
+            <l>el recurso que me queda</l>
+            <l>es, valiéndome de ti,</l>
+            <l n="115">que tú… Pero aguarda, espera,</l>
+            <l>que antes que yo te lo diga</l>
+            <l>—pues no compadecen penas</l>
+            <l>oídas tanto como vistas—</l>
+            <l>quiero, porque más te muevan</l>
+            <l n="120">los ojos que los oídos,</l>
+            <l>que en fantásticas ideas</l>
+            <l>ya que estás viendo mis ansias</l>
+            <l>sus felicidades veas</l>
+            <l>y teniendo de él la envidia,</l>
+            <l n="125">de mí la lástima tengas.</l>
+            <l>Vuelve a ese valle, que siendo</l>
+            <l>de lágrimas es ya selva</l>
+            <l>de delicias, según que</l>
+            <l>saben convertir tristezas</l>
+            <l n="130">en alegrías. ¡Oh, nunca</l>
+            <l>el hombre, Culpa, supiera</l>
+            <l>lo mucho que con Dios valen</l>
+            <l>y lo poco que a él le cuestan!</l>
+            <l>Vuelve a ese valle los ojos,</l>
+            <l n="135">digo, porque en él adviertas</l>
+            <l>la paz de ánimo, quietud</l>
+            <l>de corazón, avenencia</l>
+            <l>de espíritu y concordia</l>
+            <l>de sentidos y potencias</l>
+            <l n="140">con que la tranquilidad</l>
+            <l>de una segura conciencia,</l>
+            <l>de la suficiente gracia</l>
+            <l>asistida, goza quieta</l>
+            <l>en el campo de la vida</l>
+            <l n="145">la florida primavera</l>
+            <l>de una edad a quien no dan</l>
+            <l>ni aun escrúpulos molestia,</l>
+            <l>mayormente cuando en laudes</l>
+            <l>del Criador la mente eleva</l>
+            <l n="150">en sus obras la criatura</l>
+            <l>diciendo en voces diversas:</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="2">
+          <stage>Salen atravesando el tablado la VISTA , con un espejo; el OÍDO , con un instrumento; el OLFATO , con un azafate de flores; el GUSTO , con otro de frutas; y el TACTO , con otro y en él un vellón; detrás el HOMBRE y la GRACIA . El LUCERO y la CULPA se retiran y pasan sin mirarse unos a otros</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>En el cielo y en la tierra</l>
+            <l>te bendigan, Señor, tus obras mesmas.</l>
+          </sp>
+          <sp who="#musica #oido #gusto #olfato #lisonja #envidia #murmuracion #gula #vista #tacto #febo #ecos #toda-la-musica #culpa #lucero #hombre">
+            <speaker>MÚSICA Y TODOS</speaker>
+            <l>En el cielo y en la tierra</l>
+            <l n="155">te bendigan, Señor, tus obras mesmas.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Bendígante tus alados</l>
+            <l>espíritus en la excelsa</l>
+            <l>majestad tuya, la luz</l>
+            <l>te bendiga en las esferas</l>
+            <l n="160">del fuego, con Sol y Luna,</l>
+            <l>luceros, signos y estrellas</l>
+            <l>porque en ellos y en ellas…</l>
+          </sp>
+          <sp who="#musica #oido #gusto #olfato #lisonja #envidia #murmuracion #gula #vista #tacto #febo #ecos #toda-la-musica #culpa #lucero #hombre">
+            <speaker>MÚSICA Y TODOS</speaker>
+            <l>te bendigan, Señor, tus obras mesmas.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>¡Cuánto me alegro de que</l>
+            <l n="165">las bendigas sin que sea</l>
+            <l>el afecto de ensalzarlas</l>
+            <l>vanidad de poseerlas!</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¡Qué vanidad puede el Hombre</l>
+            <l>tener si de la grandeza</l>
+            <l n="170">de Dios es dádiva cuanto</l>
+            <l>ve, toca, gusta y alienta?</l>
+            <l>Si lo recibe, ¿de qué</l>
+            <l>se ha de gloriar, pues es cierta</l>
+            <l>cosa que no es nada suyo?</l>
+            <l n="175">Todo es de Dios, Él lo emplea</l>
+            <l>en quien quiere y como quiere</l>
+            <l>y cuando quiere; que esta</l>
+            <l>de su liberalidad</l>
+            <l>es la mayor providencia:</l>
+            <l n="180">criarlo todo y darlo todo</l>
+            <l>sin que nada le merezca</l>
+            <l>el Hombre, y el ser la Gracia</l>
+            <l part="I">suya tú.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Nada en respuesta</l>
+            <l>diré, por no interrumpir</l>
+            <l n="185">que alegre al cántico vuelvas.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>En las vagas impresiones</l>
+            <l>del aire y las nubes densas</l>
+            <l>te bendigan sus rocíos,</l>
+            <l>escarchas, granizos, nieblas,</l>
+            <l part="I">lluvias y rayos.</l>
+          </sp>
+          <stage>Toca en el instrumento algunas fantasías sin dejar de representar</stage>
+          <sp who="#oido">
+            <speaker>OÍDO</speaker>
+            <l n="190" part="F">Porque</l>
+            <l>más templado objeto tengas</l>
+            <l>que en los espacios del aire</l>
+            <l>te fervorice, que atiendas</l>
+            <l>será bien a que le debes</l>
+            <l n="195">las dulces cláusulas tiernas</l>
+            <l>de las hojas y las guijas,</l>
+            <l>cuando unísonas concuerdan</l>
+            <l>las copas y los arroyos</l>
+            <l>y en fantasías diversas</l>
+            <l n="200">el sentido del Oído</l>
+            <l>te regala y te deleita.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Los montes y los collados</l>
+            <l>con cuanto en su centro engendran</l>
+            <l>los valles de varias frutas,</l>
+            <l n="205">de varias flores las selvas</l>
+            <l>te bendigan, pues no pudo</l>
+            <l>sino tu divina ciencia</l>
+            <l>de sabores y matices</l>
+            <l>unir tan vistosa mezcla</l>
+            <l n="210">como hay en flores y frutas.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>El Gusto lo diga en estas.</l>
+          </sp>
+          <sp who="#olfato">
+            <speaker>OLFATO</speaker>
+            <l>Y en estotras el Olfato.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Quítate de mi presencia,</l>
+            <l>que no eres Gusto sino</l>
+            <l n="215">pesar si en frutas me acuerdas</l>
+            <l>mi original culpa y temo</l>
+            <l>que haya algún veneno en ellas.</l>
+            <stage>Al OLFATO</stage>
+            <l>Y llégate tú, que al ver</l>
+            <l>lirios, rosas y azucenas</l>
+            <l n="220">no sé entre frutas y flores</l>
+            <l>qué hay, que el pensar me consuela</l>
+            <l>que de aquellas el veneno</l>
+            <l>tendrá su antídoto en estas.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Ya que en su cenit el Sol</l>
+            <l n="225">nos hiere con mayor fuerza</l>
+            <l>tomemos por esta parte</l>
+            <l>a mis jardines la vuelta.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Guía tú, que con mis cinco</l>
+            <l>sentidos yo, Gracia bella,</l>
+            <l n="230">te seguiré, repitiendo</l>
+            <l>todos en voces diversas…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>… que en el cielo y en la tierra</l>
+            <l>te bendigan, Señor, tus obras mesmas.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="3">
+          <stage>Vanse y salen el LUCERO y la CULPA</stage>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="I">¿Haslo escuchado?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Y absorta,</l>
+            <l n="235">confusa, helada y suspensa</l>
+            <l>me tendrás mientras no sé</l>
+            <l>qué es lo que contra esto intentas.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="I">¿En qué quedamos?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Quedamos</l>
+            <l>en que, si bien se me acuerda,</l>
+            <l n="240">el hombre llora su culpa,</l>
+            <l>que Dios se conduele de ella,</l>
+            <l>que le restaura a su gracia,</l>
+            <l>que le hace firme promesa</l>
+            <l>de venir, siendo infinita,</l>
+            <l n="245">a pagar por él la deuda,</l>
+            <l>y que en fe desta esperanza</l>
+            <l>él vive en gracia y tú en pena,</l>
+            <l>y yo en duda hasta saber</l>
+            <l part="I">qué quieres de mí.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="F">Oye atenta.</l>
+            <l n="250">Sobre el principio de que</l>
+            <l>Dios satisfaga la deuda</l>
+            <l>del hombre, mis conjeturas</l>
+            <l>—que aunque perdí la belleza</l>
+            <l>y la gracia de ángel, no</l>
+            <l n="255">perdí de querub la ciencia—</l>
+            <l>me han puesto en temor de que</l>
+            <l>ha de venir cuando venga</l>
+            <l>encarnado en tan intacta,</l>
+            <l>en tan virginal pureza,</l>
+            <l n="260">que no la toque el contagio</l>
+            <l>de la miserable herencia</l>
+            <l>de hija de Adán: una zarza</l>
+            <l>que se abrasa y no se quema</l>
+            <l>me lo predice; un vellón</l>
+            <l n="265">que en no manchada piel tersa</l>
+            <l>concibe el rocío al alba</l>
+            <l>que cae llanto y sube perla</l>
+            <l>me lo propone; una escala</l>
+            <l>que desde el cielo a la tierra</l>
+            <l n="270">y desde la tierra al cielo</l>
+            <l>subir y bajar por ella</l>
+            <l>ve espíritus me lo anuncia,</l>
+            <l>significando en su senda</l>
+            <l>ser el que la ascienda el hombre</l>
+            <l n="275">y el Verbo el que la descienda.</l>
+            <l>Estas y otras muchas sombras</l>
+            <l>de que la Escritura llena</l>
+            <l>está me han hecho pensar</l>
+            <l>cómo formaré una idea,</l>
+            <l n="280">cómo dispondré una industria</l>
+            <l>en quien hacer experiencia</l>
+            <l>de cómo he de cautelarme</l>
+            <l>para que cuando suceda</l>
+            <l>venir a pagar por él</l>
+            <l n="285">le halle tan de otra manera</l>
+            <l>prevaricado que no</l>
+            <l>le conozca ni le crea,</l>
+            <l>de suerte que haya quien diga</l>
+            <l>que vino al mundo y las mesmas</l>
+            <l n="290">gentes que crió no solo</l>
+            <l>le admitan pero le ofendan.</l>
+            <l>A este fin es el sacarle</l>
+            <l>la primera diligencia</l>
+            <l>del regazo de la gracia;</l>
+            <l n="295">a cuyo efecto —ahora entras</l>
+            <l>tú— de ti me valgo, pues</l>
+            <l>para que la gracia pierda</l>
+            <l>el que intervenga la culpa</l>
+            <l>en su precipicio es deuda.</l>
+            <l n="300">La industria y la idea que dije</l>
+            <l>—aquí no te me diviertas—</l>
+            <l>en una fábula intento</l>
+            <l>fundarla que, para prueba</l>
+            <l>de que es tuya y mía, no obsta</l>
+            <l n="305">ser fabulosa materia;</l>
+            <l>demás de que cuando haya</l>
+            <l>a quien disuene nos queda</l>
+            <l>en la autoridad de Pablo</l>
+            <l>abonada la respuesta</l>
+            <l n="310">cuando diga que a su gremio</l>
+            <l>vendrán gentes tan perversas</l>
+            <l>que las más puras verdades</l>
+            <l>en fábulas se conviertan.</l>
+            <l>Y pues para una fingida</l>
+            <l n="315">o representable scena</l>
+            <l>la retórica nos da</l>
+            <l>alegórica licencia,</l>
+            <l>no sin propiedad la fundo</l>
+            <l>en las diabólicas ciencias</l>
+            <l n="320">tuyas, pues de encantadora,</l>
+            <l>de mágica y hechicera</l>
+            <l>te dan nombre los venenos</l>
+            <l>de tu voz y tu belleza.</l>
+            <l>David dijo de ellos que</l>
+            <l n="325">era tan grande su fuerza</l>
+            <l>que hacía de los hombres brutos,</l>
+            <l>y sobre David, que sea</l>
+            <l>—Ambrosio dirá— tu voz</l>
+            <l>la de la incauta sirena</l>
+            <l n="330">cuando «voluntad del siglo»</l>
+            <l>te llame y ser te prevenga</l>
+            <l>música adulación que</l>
+            <l>para dar muerte deleitas.</l>
+            <l>La misma Sabiduría</l>
+            <l n="335">en sus Proverbios asienta</l>
+            <l>el ser falaz la hermosura;</l>
+            <l>y pues la latina lengua</l>
+            <l>me da lo falaz a tiempo</l>
+            <l>que es mi ira quien te alienta,</l>
+            <l n="340">de mi ira y tu falacia</l>
+            <l>componte tú el nombre y sea</l>
+            <l>la fábula que sigamos</l>
+            <l>de falaz y ira compuesta</l>
+            <l>la de Falerina cuando</l>
+            <l n="345">de estas montañas la hiena,</l>
+            <l>la Caribdis destos mares</l>
+            <l>y la Esfinge destas selvas,</l>
+            <l>de faleira en Falerina</l>
+            <l>bárbaro el vulgo convierta</l>
+            <l n="350">tu nombre; y pues se convienen</l>
+            <l>ya con el nombre las señas,</l>
+            <l>convéngante las traiciones,</l>
+            <l>los engaños, las cautelas,</l>
+            <l>los hechizos, los encantos</l>
+            <l n="355">y las sañas; de manera</l>
+            <l>que del jardín de la Gracia</l>
+            <l>salga el Hombre donde vea</l>
+            <l>que el jardín de Falerina</l>
+            <l>en otro estado le alberga.</l>
+            <l part="I">¿Nada me respondes?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="360" part="F">No,</l>
+            <l>que no quiero que me debas</l>
+            <l>palabras hoy, sino obras.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">De aquesta manera:</l>
+            <stage>Canta</stage>
+            <l>¡Oh tú, que por el oído</l>
+            <l n="365">el corazón avenenas</l>
+            <l>y monstruo de los palacios</l>
+            <l>matas con lo que recreas!</l>
+            <l part="I">¡Lisonja!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="4">
+          <stage>Sale</stage>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l part="F">¿Qué es lo que mandas?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Luego lo sabrás, espera.</l>
+            <stage>Canta</stage>
+            <l n="370">¡Áspid del siglo encubierto</l>
+            <l>en caducas flores bellas</l>
+            <l>que al tacto que las elige</l>
+            <l>le pagas con que le muerdas!</l>
+            <l part="I">¡Lascivia!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="5">
+          <stage>Sale</stage>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="F">¿Qué es lo que quieres?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="375">Solamente que me atiendas.</l>
+            <stage>Canta</stage>
+            <l>¡Tú que con la vista matas</l>
+            <l>y ser basilisco aprecias</l>
+            <l>criando propia ponzoña</l>
+            <l>solo de la dicha ajena!</l>
+            <l part="I">¡Envidia!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="6">
+          <stage>Sale</stage>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l n="380" part="F">¿Por qué me invocas?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="I">Aguarda.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="F">¿Qué es lo que intentas?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <stage>canta</stage>
+            <l>¡Tú que víbora nociva</l>
+            <l>traes el tósigo en la lengua,</l>
+            <l>pues halagando el oído</l>
+            <l n="385">al más dormido despiertas!</l>
+            <l part="I">¡Murmuración!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="7">
+          <stage>Sale</stage>
+          <sp who="#murmuracion">
+            <speaker>MURMURACIÓN</speaker>
+            <l part="F">¿Qué pretendes?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="I">Que calles.</l>
+          </sp>
+          <sp who="#murmuracion">
+            <speaker>MURMURACIÓN</speaker>
+            <l part="F">Si yo pudiera</l>
+            <l>no fuera murmuración.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>El que ahora calles es fuerza.</l>
+            <stage>Canta</stage>
+            <l n="390">¡Oh tú, Gula, que insaciable</l>
+            <l>de manjares avarienta</l>
+            <l>al paladar rindes cultos</l>
+            <l>y del cielo no te acuerdas!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="8">
+          <stage>Sale</stage>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l part="I">¿En qué te sirvo?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Las cinco</l>
+            <l n="395">me seguid, que en una empresa</l>
+            <l part="I">os he menester.</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l part="F">Si eres</l>
+            <l>la Culpa en común, ¿no es fuerza</l>
+            <l>el que en particular todas</l>
+            <l>estemos a tu obediencia?</l>
+          </sp>
+          <sp who="#toda-la-musica #gracia #lisonja #envidia #murmuracion #culpa #gula">
+            <speaker>TODAS</speaker>
+            <l n="400">Guía, que ya te seguimos.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Venid. Tú, Lucero, espera</l>
+            <l>siempre a la mira: verás</l>
+            <l>si soy o no soy aquella</l>
+            <l>meretriz que sobre el fiero</l>
+            <l n="405">monstruo de siete cabezas</l>
+            <l>brinda con dorada copa</l>
+            <l>de sangre de áspides llena.</l>
+            <l>Y aunque veas que con cinco</l>
+            <l>culpas voy a triunfar della,</l>
+            <l n="410">cabal el número va,</l>
+            <l>que yo he de regir la sexta</l>
+            <l>rienda suya y dejar libre</l>
+            <l>la setena a tu obediencia,</l>
+            <l>pues tu soberbia no tiene</l>
+            <l n="415">quien le tire de la rienda.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="9">
+          <stage>Vanse ella y los vicios</stage>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>¡Oh, si ya que no es posible</l>
+            <l>que yo consolarme pueda,</l>
+            <l>lo fuese el poder vengarme</l>
+            <l>de los sustos que me cuesta</l>
+            <l n="420">el ver en felicidades</l>
+            <l>al Hombre! Que aunque hay quien sienta</l>
+            <l>que son padecer y ver</l>
+            <l>padecer una ansia mesma,</l>
+            <l>es tan al contrario en mí</l>
+            <l n="425">que el dolor que me atormenta</l>
+            <l>no tiene otro alivio más</l>
+            <l>que el ver que otros le padezcan;</l>
+            <l>y más cuando tan gozoso</l>
+            <l>veo que a sombra se sienta</l>
+            <l n="430">en el jardín de la Gracia</l>
+            <l>de un dosel que al verle tiembla</l>
+            <l>el corazón siempre que</l>
+            <l>perspicaz mi vista entra</l>
+            <l>por resquicios de delicias</l>
+            <l n="435">a ver abismos de penas.</l>
+            <l>Iré de su vista huyendo,</l>
+            <l>de voces que otra vez suenan</l>
+            <l>sin ser otras… ¿Hasta cuándo</l>
+            <l>del Criador las excelencias</l>
+            <l n="440">han de durar en sus laudes</l>
+            <l>sin que a repetirme vuelvan…?</l>
+          </sp>
+          <sp who="#hombre #musica">
+            <speaker>HOMBRE Y MÚSICA</speaker>
+            <l>En el cielo y en la tierra</l>
+            <l>te bendigan, Señor, tus obras mesmas.</l>
+
+            <l>Aquí puedes a la sombra</l>
+            <l n="445">de esta hermosa copa bella</l>
+            <l>desquitar en los jardines</l>
+            <l>las fatigas de la selva.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="10">
+          <stage>Vase el LUCERO , y descúbrese el tercero carro del árbol sin sierpe y la GRACIA , el HOMBRE y los sentidos se sientan a sombra de él GRACIA</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¿Qué fatigas, si contigo</l>
+            <l>no hay estancia que no sea</l>
+            <l n="450">descanso y consuelo? Bien</l>
+            <l>que, si es posible que crezcan,</l>
+            <l>es cuando a la sombra deste</l>
+            <l>árbol defiende en la siesta</l>
+            <l>las sañas del sol, y más</l>
+            <l n="455">si advierto que su corteza</l>
+            <l>en lo vegetable escribe</l>
+            <l>de sus arrugadas quiebras</l>
+            <l>algún gran misterio, pues</l>
+            <l>de tres especies compuestas,</l>
+            <l n="460">de una parte es cedro y de otra</l>
+            <l>ciprés, de otra palma: señas</l>
+            <l>que me dan que discurrir</l>
+            <l>que algún enigma contenga.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Tú lo sabrás algún día</l>
+            <l n="465">cuando venturoso sepas</l>
+            <l>que el cedro en lo incorruptible</l>
+            <l>dice duración eterna;</l>
+            <l>la palma, triunfo glorioso;</l>
+            <l>y el ciprés, muerte funesta.</l>
+            <l n="470">Y no para aquí si adviertes</l>
+            <l>que esas mal formadas letras</l>
+            <l>también en tres lenguas hablan,</l>
+            <l>griega, latina y hebrea.</l>
+            <l>Y pues de su enigma aguardas</l>
+            <l n="475">que el velo corra y se vean,</l>
+            <l>desmarañando las nubes,</l>
+            <l>desvaneciendo las nieblas,</l>
+            <l>sus claras luces que hoy andan</l>
+            <l>en altas sombras envueltas,</l>
+            <l n="480">en la paz de los sentidos</l>
+            <l>que te hallas persevera,</l>
+            <l>que no tiene la esperanza</l>
+            <l>mérito sin la paciencia.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Si el uso dellos es quien</l>
+            <l n="485">me ha de dar su inteligencia,</l>
+            <l>no ceséis en la alabanza</l>
+            <l>de Dios; mudad tono y letra</l>
+            <l>y proseguid con sus laudes.</l>
+          </sp>
+          <sp who="#olfato">
+            <speaker>OLFATO</speaker>
+            <l>Justo es que en tu obediencia</l>
+            <l n="490">se vea que a los sentidos</l>
+            <l>la voluntad los gobierna.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Pues ya que hemos de mudar</l>
+            <l>letra y tono, ¿que se vea</l>
+            <l>no será justo también</l>
+            <l n="495">que tienen las voces nuestras</l>
+            <l>en los méritos del Hombre</l>
+            <l part="I">parte?</l>
+          </sp>
+          <sp who="#vista">
+            <speaker>VISTA</speaker>
+            <l part="M">¿Cómo?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l part="F">Haciendo que ellas</l>
+            <l>con nosotros de nosotros</l>
+            <l>se complazcan en sí mesmas,</l>
+            <l n="500">diciendo tal vez…</l>
+          </sp>
+          <stage>Canta la CULPA dentro y responden los cinco sentidos</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>A mi brindis, sentidos, venid,</l>
+            <l>volad, corred.</l>
+          </sp>
+          <sp who="#tacto #febo #ecos #toda-la-musica #oido #lisonja #envidia #murmuracion #gula #lucero #musica #gracia #hombre #olfato #vista #gusto #culpa">
+            <speaker>LOS CINCO</speaker>
+            <l>Venid, volad, corred.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Y veréis que el licor desta copa</l>
+            <l n="505">apaga la sed.</l>
+          </sp>
+          <sp who="#tacto #febo #ecos #toda-la-musica #oido #lisonja #envidia #murmuracion #gula #lucero #musica #gracia #hombre #olfato #vista #gusto #culpa">
+            <speaker>LOS CINCO</speaker>
+            <l>Apaga la sed.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Del oler, del gustar, del tocar,</l>
+            <l>del oír y del ver.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Oíd: ¿qué dulces voces son</l>
+            <l n="510">las que se oyen responder</l>
+            <l>anticipadas del eco</l>
+            <l>antes que las pronunciéis?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="I">¡Oh, nunca lo sepan!</l>
+          </sp>
+          <sp who="#tacto #febo #ecos #toda-la-musica #oido #lisonja #envidia #murmuracion #gula #lucero #musica #olfato #vista #gusto #culpa #hombre #gracia">
+            <speaker>LOS CINCO</speaker>
+            <l part="F">No</l>
+            <l>percibimos más de que</l>
+            <l n="515">al ir a hablar de nosotros</l>
+            <l part="I">con nosotros hablan.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">Pues</l>
+            <l>¿cúyas serán, que han podido</l>
+            <l>mis sentidos suspender?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Vuelve a tu descanso y no</l>
+            <l n="520">lo solicites saber.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¿Cómo no? Vista, a esos montes</l>
+            <l>te dilata y di qué ves.</l>
+          </sp>
+          <sp who="#vista">
+            <speaker>VISTA</speaker>
+            <l>En la fiera de sus fieras,</l>
+            <l>que ya se sabe que es</l>
+            <l n="525">la hidra, veo que triunfante</l>
+            <l>viene una hermosa mujer</l>
+            <l>acompañada de otras.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Sin duda dar a entender</l>
+            <l>en metáfora de libro</l>
+            <l n="530">de caballería que es</l>
+            <l>alguna mágica intenta.</l>
+          </sp>
+          <sp who="#olfato">
+            <speaker>OLFATO</speaker>
+            <l>¡Qué diera yo por no ser</l>
+            <l>Olfato al verla venir</l>
+            <l>en tan fiero palafrén!</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I">¿Oído?</l>
+          </sp>
+          <sp who="#oido">
+            <speaker>OÍDO</speaker>
+            <l n="535" part="F">¿Qué es lo que quieres?</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Aplícate tú porque</l>
+            <l part="I">sepamos qué dice.</l>
+          </sp>
+          <sp who="#oido">
+            <speaker>OÍDO</speaker>
+            <l part="F">Todos</l>
+            <l>con el Oído atended.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Mira, Hombre, que está la Gracia</l>
+            <l n="540">viendo si obras mal o bien.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="11">
+          <stage>Ábrese el cuarto carro, que será peñasco, y salen dél la CULPA en la hidra de siete cabezas; las cinco de muje-res que hacen las cinco culpas traerán unas colonias en las manos que vendrán pendientes de las cinco cabezas; la otra traerá la CULPA y la principal cabeza sin colonia; y así mesmo en la otra mano de la rienda traerá la CULPA una copa dorada donde a sus tiempos saltará un áspid; y canta ella y repiten todas</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>A mi brindis, sentidos, venid,</l>
+            <l>volad, corred.</l>
+          </sp>
+          <sp who="#tacto #febo #ecos #toda-la-musica #lisonja #envidia #murmuracion #gula #lucero #musica #vista #gusto #olfato #hombre #oido #gracia #culpa">
+            <speaker>LAS CINCO</speaker>
+            <l>Venid, volad, corred.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Y veréis que el licor desta copa</l>
+            <l n="545">apaga la sed.</l>
+          </sp>
+          <sp who="#tacto #febo #ecos #toda-la-musica #lisonja #envidia #murmuracion #gula #lucero #musica #vista #gusto #olfato #hombre #oido #gracia #culpa">
+            <speaker>LAS CINCO</speaker>
+            <l>Apaga la sed.</l>
+          </sp>
+          <sp who="#murmuracion">
+            <speaker>MURMURACIÓN</speaker>
+            <l part="I">Del oler.</l>
+          </sp>
+          <sp who="#olfato">
+            <speaker>OLFATO</speaker>
+            <l part="M">Del oler.</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l part="F">Del gustar.</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l part="I">Del gustar.</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="M">Del tocar.</l>
+          </sp>
+          <sp who="#tacto">
+            <speaker>TACTO</speaker>
+            <l part="F">Del tocar.</l>
+          </sp>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l part="I">Del oír.</l>
+          </sp>
+          <sp who="#oido">
+            <speaker>OÍDO</speaker>
+            <l part="F">Del oír.</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="I">Y del ver.</l>
+          </sp>
+          <sp who="#vista">
+            <speaker>VISTA</speaker>
+            <l n="550" part="F">Y del ver.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #musica #hombre #gracia #culpa #murmuracion #olfato #gula #gusto #tacto #lisonja #oido #envidia #vista">
+            <speaker>LOS CINCO</speaker>
+            <l>¡Qué música y qué hermosura!</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Ni la veáis ni escuchéis.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¿Por qué, si süave dice</l>
+            <l part="I">desmintiendo lo cruel…?</l>
+          </sp>
+          <stage>Repiten esto todos menos la GRACIA</stage>
+          <sp who="#ecos #toda-la-musica #lucero #musica #culpa #murmuracion #olfato #gula #gusto #tacto #lisonja #oido #envidia #vista #gracia #hombre">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l part="F">A mi brindis, sentidos, venid,</l>
+            <l n="555">volad, corred,</l>
+            <l>y veréis que el licor desta copa</l>
+            <l>apaga la sed</l>
+            <l>del oler, del gustar, del tocar,</l>
+            <l>del oír y del ver.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="560">Ni la escuchéis ni veáis,</l>
+            <l part="I">vuelvo a deciros.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #culpa #murmuracion #olfato #gula #gusto #tacto #lisonja #oido #envidia #vista #hombre #musica #gracia">
+            <speaker>LOS CINCO</speaker>
+            <l part="F">¿Por qué?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Porque a ese mortal pestífero brindis</l>
+            <l>hacer la razón es dejarla de hacer.</l>
+          </sp>
+          <stage>Canta la CULPA sin moverse más que lo que baste a dejarse ver</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Cuenta Esdras que en un emblema</l>
+            <l n="565">preguntó al mundo una vez</l>
+            <l>qué era la cosa más fuerte</l>
+            <l>de cuanto se hallaba en él.</l>
+            <l>Uno dijo que el león,</l>
+            <l>de todos los brutos rey;</l>
+            <l n="570">otro, el hombre que al león</l>
+            <l>prende en cautelosa red;</l>
+            <l>la mujer, prosiguió otro,</l>
+            <l>fundado en que es ella quien</l>
+            <l>vence al hombre que venció</l>
+            <l n="575">al león con su poder;</l>
+            <l>a que otro añadió que el vino</l>
+            <l>era lo más fuerte, pues</l>
+            <l>si la mujer vence al hombre,</l>
+            <l>él al hombre y la mujer.</l>
+            <l n="580">Luego la cosa más fuerte</l>
+            <l>del mundo vengo yo a ser,</l>
+            <l>pues de la mujer y el vino</l>
+            <l>jeroglífico me veis.</l>
+            <l>Y así, venid, volad, corred,</l>
+            <l n="585">y veréis que el licor desta copa…</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #murmuracion #olfato #gula #gusto #tacto #lisonja #oido #envidia #vista #hombre #musica #gracia #culpa">
+            <speaker>LAS CINCO</speaker>
+            <l>… apaga la sed.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>El agrado de mi voz,</l>
+            <l>de mi hermosura el desdén,</l>
+            <l>el agrio al azar destila</l>
+            <l n="590">y a esotras flores la miel.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #murmuracion #olfato #gula #gusto #tacto #lisonja #oido #envidia #vista #hombre #musica #gracia #culpa">
+            <speaker>LAS CINCO</speaker>
+            <l>Volad, corred.</l>
+          </sp>
+          <stage>Baja al tablado el GUSTO</stage>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l part="I">¿Miel dijo?</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l part="F">Ya el Gusto viene</l>
+            <l>a tu voz; prosigue pues.</l>
+          </sp>
+          <stage>Canta</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Alambicados aromas</l>
+            <l n="595">en su néctar beberéis</l>
+            <l>porque siempre al paladar</l>
+            <l>vecino el Olfato esté.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #murmuracion #olfato #tacto #lisonja #oido #envidia #vista #hombre #musica #gracia #gusto #gula #culpa">
+            <speaker>LAS CINCO</speaker>
+            <l>Volad, corred.</l>
+          </sp>
+          <stage>Baja el OLFATO</stage>
+          <sp who="#olfato">
+            <speaker>OLFATO</speaker>
+            <l part="I">¿Aromas hay?</l>
+          </sp>
+          <sp who="#murmuracion">
+            <speaker>MURMURACIÓN</speaker>
+            <l part="F">Ya el Olfato</l>
+            <l n="600">tras tu voz viene también.</l>
+          </sp>
+          <stage>Canta</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Si tras la bebida el sueño</l>
+            <l>os perturbare tendréis</l>
+            <l>la nieve que os dé en holandas</l>
+            <l>del ampo hilada la tez.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #tacto #lisonja #oido #envidia #vista #hombre #musica #gracia #gusto #gula #olfato #murmuracion #culpa">
+            <speaker>LAS CINCO</speaker>
+            <l n="605">Volad, corred.</l>
+          </sp>
+          <sp who="#tacto">
+            <speaker>TACTO</speaker>
+            <l>¿Pues qué esperan mis delicias?</l>
+            <stage>Baja LASCIVIA</stage>
+            <l>Ya el Tacto tu triunfo fue.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Que el placer os agüe el llanto</l>
+            <l>aquí no temáis, porque</l>
+            <l n="610">aun una lágrima sola</l>
+            <l>no ha de costar el placer.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #lisonja #oido #envidia #vista #hombre #musica #gracia #gusto #gula #olfato #murmuracion #tacto #culpa">
+            <speaker>LAS CINCO</speaker>
+            <l>Volad, corred.</l>
+          </sp>
+          <sp who="#oido">
+            <speaker>OÍDO</speaker>
+            <l>¿Qué aguarda el Oído donde</l>
+            <l>todo lisonja ha de ser?</l>
+          </sp>
+          <stage>Baja Canta</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="615">Tan igual será la dicha</l>
+            <l>que todos en mí logréis</l>
+            <l>que en materia de envidiar</l>
+            <l>la Vista aun no tenga qué.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #lisonja #envidia #vista #hombre #musica #gracia #gusto #gula #olfato #murmuracion #tacto #oido #culpa">
+            <speaker>LAS CINCO</speaker>
+            <l>Volad, corred.</l>
+          </sp>
+          <sp who="#vista">
+            <speaker>VISTA</speaker>
+            <l n="620">Si he de adquirir cuanto vea,</l>
+            <l>¿qué aguardo? ¡Tras ella iré!</l>
+          </sp>
+          <stage>Baja</stage>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Ya de los cinco sentidos</l>
+            <l>seguida, Culpa, te ves.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Pues porque el Hombre a cobrarlos</l>
+            <l n="625">venga, prosiga el tropel</l>
+            <l part="I">de nuestra música.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #lisonja #hombre #musica #gracia #gusto #gula #olfato #murmuracion #tacto #oido #vista #envidia #culpa">
+            <speaker>LOS CINCO</speaker>
+            <l part="F">Todos</l>
+            <l>diremos juntos con él:</l>
+          </sp>
+          <sp who="#musica #ecos #toda-la-musica #lucero #lisonja #hombre #gracia #gusto #gula #olfato #murmuracion #tacto #oido #vista #envidia #culpa">
+            <speaker>MÚSICA Y TODOS</speaker>
+            <l>A mi brindis, sentidos, venid,</l>
+            <l>volad, corred,</l>
+            <l n="630">y veréis que el licor desta copa</l>
+            <l>apaga la sed</l>
+            <l>del oler, del gustar, del tocar,</l>
+            <l>del oír y del ver.</l>
+          </sp>
+          <stage>Con esta repetición se bajan todos del carro donde salió la hidra, y bajan del suyo la GRACIA y el HOMBRE</stage>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="I">¿Dónde vas?</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">Tan sin sentidos</l>
+            <l n="635">estoy que apenas lo sé.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Detente.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¿Cómo es posible</l>
+            <l part="I">no seguirlos?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Como es</l>
+            <l>mejor si te escandalizan</l>
+            <l n="640">tus ojos sacarlos que</l>
+            <l>dejarte escandalizar.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Esa es piedad muy cruel.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="I">Mira…</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="M">¡Aparta!</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="M">Advierte…</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">En vano</l>
+            <l>me procuras detener,</l>
+            <l n="645">que aquella hermosura, aquella</l>
+            <l>sonora música, aquel</l>
+            <l>prodigio de avasallar</l>
+            <l>tanta indómita altivez</l>
+            <l>me arrastra tras mis sentidos.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="650">Mira que es una cruel</l>
+            <l>falaz hija de la ira.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Y aun por eso es menester</l>
+            <l>acudir a restaurarlos.</l>
+            <l>Quita, que después vendré</l>
+            <l part="I">a buscarte.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="655" part="F">¿Y de qué sabes</l>
+            <l>si hallarme podrás después?</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I">¿Por qué no?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Porque la Gracia</l>
+            <l>es más fácil de perder</l>
+            <l part="I">que de cobrar.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="M">¿Cómo?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Como</l>
+            <l n="660">puede el que quiebra la ley</l>
+            <l>perderme por sí y sin Dios,</l>
+            <l>no hallarme por sí sin Él.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Si mis sentidos me llevan</l>
+            <l>tras sí, ¿qué puedo yo hacer?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="665">No irte tú tras tus sentidos</l>
+            <l>sino obligarlos a que</l>
+            <l>ellos se vengan tras ti,</l>
+            <l>que para eso el hombre es rey</l>
+            <l>de todo el pequeño mundo</l>
+            <l part="I">de sí mismo.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="670" part="F">Dices bien:</l>
+            <l>piérdanse ellos y yo no,</l>
+            <l part="I">pues cuando…</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l part="F">Ven, Hombre, ven</l>
+            <l>donde todo es contento, alegría,</l>
+            <l>agrado, festejo, solaz y placer.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="675">¿«Donde todo es contento, alegría,</l>
+            <l>agrado, festejo, solaz y placer»?</l>
+            <l>Perdona, que estos acentos</l>
+            <l>me arrastran segunda vez.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>¿Quién puede hacer que ellos puedan</l>
+            <l n="680">tu alto espíritu mover</l>
+            <l part="I">más que mis suspiros?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="12">
+          <stage>Sale</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Yo.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>¿Pues cómo, equívoco infiel</l>
+            <l>de la ira y la falacia,</l>
+            <l>si conmigo al Hombre ves</l>
+            <l part="I">a él te atreves?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="685" part="F">Como siempre</l>
+            <l>que afecto a mi afecto esté</l>
+            <l>no me puedes tú cerrar</l>
+            <l>la entrada que me da él.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Sí, mas podré suspenderle</l>
+            <l n="690">porque libre siga a quien</l>
+            <l>le dictare su albedrío.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I">¿Te vas?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="M">No.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">¿Pues eso qué es?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Que temas no dé la Gracia</l>
+            <l>atrás los pasos que dé</l>
+            <l n="695">hacia delante la Culpa;</l>
+            <l>que ella y yo no puede ser</l>
+            <l>que estemos contigo iguales.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Dónde me incline no sé.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Donde todo es contento, alegría,</l>
+            <l n="700">agrado, festejo, solaz y placer.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Mortal, no ese dulce engaño</l>
+            <l>te detenga; tras mí ven.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Sí haré, que ese llanto imán</l>
+            <l part="I">es del alma.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Bien se ve</l>
+            <l part="I">que estás ciego.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="M">¿En qué?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="705" part="F">En que vas</l>
+            <l>baldonado de tu ser</l>
+            <l>adonde mortal te llama.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>¿No es piedad de amante fiel</l>
+            <l>si tú de lo que es le olvidas</l>
+            <l n="710">acordarle yo lo que es?</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Dices bien, y pues mortal</l>
+            <l>soy, la Gracia seguiré.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Eso es serlo ahora pudiendo</l>
+            <l>dejarlo para después.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I">También dices bien tú.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="715" part="F">El tiempo</l>
+            <l>no da fianzas de que</l>
+            <l part="I">ha de esperar.</l>
+          </sp>
+          <stage>Canta</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">¡Ay de ti,</l>
+            <l>si sus desengaños crees!</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>¡Si no los crees, ay de ti!</l>
+          </sp>
+          <stage>Llora</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="720">¿De qué calmado bajel</l>
+            <l>se oyó ser música y llanto</l>
+            <l>la rémora de sus pies?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Breve es tu ser, no malogres</l>
+            <l>lo florido de tu ser.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="725">No por deleitar lo breve</l>
+            <l part="I">lo eterno pierdas.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">¿Qué haré?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="I">Seguirme a mí.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">Ya te sigo;</l>
+            <l>mas la senda tuya aunque</l>
+            <l>ha poco que era de rosas</l>
+            <l n="730">ya se ha escabroseado, pues</l>
+            <l>toda es de abrojos y espinas.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="I">Pues sigue estotra.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">Sí haré,</l>
+            <l>pues por la que tú me llevas</l>
+            <l>ya es otro nuevo vergel.</l>
+          </sp>
+          <stage>Llorando la GRACIA y así lo que se sigue</stage>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="735">Sí, pero contiene el áspid</l>
+            <l>entre el jazmín y el clavel.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>El encanto de mi voz</l>
+            <l>se le sabrá adormecer.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Entre estas espinas llora</l>
+            <l n="740">la aurora su rosicler.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Y entre estas flores el alba</l>
+            <l>ríe el que llorar la ve.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Aquí el pesar no es pesar,</l>
+            <l>pues será gozo después.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="745">Aquí el placer desde luego</l>
+            <l>empieza siendo placer.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Lo cruel quizá es piedad.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Lo cruel siempre es cruel.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Al desdén sigue el favor.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="750">Bueno es favor sin desdén.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="I">No la sigas.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">No la veas.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="I">Y ven tras mí.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Tras mí ven…</l>
+          </sp>
+          <sp who="#ella #musica">
+            <speaker>ELLA Y MÚSICA</speaker>
+            <l>… donde todo es contento, alegría,</l>
+            <l>agrado, festejo, solaz y placer.</l>
+          </sp>
+          <sp who="#gracia #culpa">
+            <speaker>LAS DOS</speaker>
+            <l n="755">En fin, ¿en qué te resuelves?</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>A ir, pues me dais a escoger,</l>
+            <l>adonde están mis sentidos</l>
+            <l part="I">tan solazados,</l>
+
+            <l part="F">porque</l>
+            <l>¡fuera muy necio en dejar</l>
+            <l n="760">lo que es por lo que ha de ser!</l>
+            <l>Guía pues que ya te sigo;</l>
+            <l>tú perdona… ¿Mas con quién</l>
+            <l>hablo? ¿Qué se hizo la Gracia?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="13">
+          <stage>Vase la GRACIA</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Sin ser sentida se fue,</l>
+            <l n="765">pero no te desconsuele</l>
+            <l>su ausencia; alégrete el ver</l>
+            <l>desde aquí de mis jardines</l>
+            <l>ya el florido abril en quien</l>
+            <l>hallarás tan bien hallados</l>
+            <l n="770">tus sentidos que me des</l>
+            <l>las gracias, pues con mis damas,</l>
+            <l>cada una admitiendo aquel</l>
+            <l>que la festeja, en alegre</l>
+            <l>festín se dan parabién</l>
+            <l n="775">de que te vengas tras ellos.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Pues di que no me le den</l>
+            <l>si no es de venir contigo,</l>
+            <l>que entonces caerá más bien.</l>
+          </sp>
+          <sp who="#ella #musica">
+            <speaker>ELLA Y MÚSICA</speaker>
+            <l>Ven, Hombre, ven</l>
+            <l n="780">donde todo es contento, alegría,</l>
+            <l>agrado, festejo, solaz y placer.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="14">
+          <stage>Salen cantando y bailando los cinco sentidos y los cinco vicios Canta</stage>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l>Ven adonde veas</l>
+            <l>cuán feliz goza</l>
+            <l>el Oído favores</l>
+            <l n="785">de la Lisonja.</l>
+          </sp>
+          <stage>Canta</stage>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l>Ven adonde mires</l>
+            <l>cuánto rendido</l>
+            <l>está el Tacto al incendio</l>
+            <l>de su sentido.</l>
+          </sp>
+          <stage>Canta</stage>
+          <sp who="#murmuracion">
+            <speaker>MURMURACIÓN</speaker>
+            <l n="790">Ven adonde la fama,</l>
+            <l>que es el buen olor,</l>
+            <l>vuelve en humo al Olfato</l>
+            <l>la Murmuración.</l>
+          </sp>
+          <stage>Canta</stage>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l>Ven adonde felice</l>
+            <l n="795">logra la Vista</l>
+            <l>tal favor que no tiene</l>
+            <l>qué hacer la Envidia.</l>
+          </sp>
+          <stage>Canta</stage>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>Ven, verás de la Gula</l>
+            <l>cuánto tributo</l>
+            <l n="800">a pedir de boca</l>
+            <l>le sirve el Gusto.</l>
+          </sp>
+          <sp who="#ecos #toda-la-musica #lucero #gusto #olfato #tacto #oido #vista #gracia #culpa #hombre #musica #lisonja #murmuracion #envidia #gula">
+            <speaker>TODOS</speaker>
+            <l>Y pues te debemos</l>
+            <l>gozar tanto bien,</l>
+            <l part="I">ven, Hombre…</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">No más,</l>
+            <l n="805">parad, suspended</l>
+            <l>el baile porque quiero</l>
+            <l>que me dejéis a mí</l>
+            <l>halagüeña con él</l>
+            <l>lo alegre del festín.</l>
+            <stage>Aparte</stage>
+            <l n="810">Esto es que al retirarse</l>
+            <l>la Gracia hacer le vi</l>
+            <l>no sé qué acción de echarla</l>
+            <l>menos; y siendo así,</l>
+            <l>porque ningún acuerdo</l>
+            <l n="815">della tenga, añadir</l>
+            <l>fuego al fuego me importa.)</l>
+            <l>Vosotras repetid</l>
+            <l>mis cláusulas finales</l>
+            <l>para que beba aquí</l>
+            <l n="820">más dorado el veneno</l>
+            <l>de mi traidor ardid.</l>
+            <stage>Canta</stage>
+            <l>Breve animado mundo,</l>
+            <l>desde el día feliz</l>
+            <l>que tu primera patria</l>
+            <l n="825">te desterró de sí,</l>
+            <l>de ti compadecida…</l>
+            <l>Aún más iba a decir,</l>
+            <l>pero mejor será</l>
+            <l>que lo digan por mí</l>
+            <l n="830">en sonrosadas voces…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>… de callado carmín</l>
+            <l>lágrimas ciento a ciento,</l>
+            <l>suspiros mil a mil.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>De ti compadecida</l>
+            <l n="835">—digo otra vez— me vi</l>
+            <l>obligada a ampararte,</l>
+            <l>cuyo afecto impedir</l>
+            <l>pudo quien te albergó,</l>
+            <l>conque envidiosa a fin</l>
+            <l n="840">de sacarte de aquel</l>
+            <l>aunque ameno jardín</l>
+            <l>no jardín deleitoso…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>… nos mandó prevenir</l>
+            <l>a luces de otro Sol,</l>
+            <l n="845">rayos de otro cenit.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Y para que mejor</l>
+            <l>pudiese conseguir,</l>
+            <l>apartándote de otra</l>
+            <l>beldad, atraerte a mí,</l>
+            <l n="850">quise que desde luego</l>
+            <l>me vieses discurrir</l>
+            <l>como deidad que soy</l>
+            <l>de todo este confín,</l>
+            <l>sobre el más fiero monstruo…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l n="855">… de cuantos hasta aquí</l>
+            <l>al soberano yugo</l>
+            <l>doblaron la cerviz.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Ufanos tus sentidos,</l>
+            <l>digan si les cumplí</l>
+            <l n="860">aquella liberal</l>
+            <l>palabra que les di</l>
+            <l>a efecto de que sean</l>
+            <l>terceros para unir</l>
+            <l>a tu espíritu noble</l>
+            <l n="865">mi espíritu gentil,</l>
+            <l>siendo de nuestras bodas…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>… todo ese azul viril</l>
+            <l>dosel de rosicler,</l>
+            <l>tálamo de zafir.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="870">Y hasta entonces conmigo</l>
+            <l>goza deste país</l>
+            <l>donde dichoso vivas</l>
+            <l>sin llegarte a afligir</l>
+            <l>memorias de otro dueño</l>
+            <l n="875">que sabrán divertir</l>
+            <l>en fuentes el cristal,</l>
+            <l>en flores el matiz,</l>
+            <l>pues todo primavera…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>… el año será aquí,</l>
+            <l n="880">sin que de doce meses</l>
+            <l>sepas más que el abril.</l>
+          </sp>
+          <stage>Canta</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Ese campo lo diga,</l>
+            <l>cuya menor raíz</l>
+            <l>da en hojas de esmeralda</l>
+            <l n="885">claveles de rubí.</l>
+            <l>Aroma es de coral</l>
+            <l>cada flor carmesí,</l>
+            <l>zafiro cada lirio,</l>
+            <l>oro cada alhelí,</l>
+            <l n="890">siendo de cada aurora…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>… perla cada jazmín</l>
+            <l>que se engendró al llorar</l>
+            <l>y se cuajó al reír.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>U dígalo ese alcázar</l>
+            <l n="895">que labró para ti</l>
+            <l>arquitecto el amor,</l>
+            <l>en cuyo camarín</l>
+            <l>son el bronce y el jaspe</l>
+            <l>el material más vil,</l>
+            <l n="900">pues de pórfido y oro</l>
+            <l>contienen entre sí</l>
+            <l>columnas y dinteles…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>… razón de competir</l>
+            <l>cuál desangró más venas,</l>
+            <l n="905">el Catay o el Ofir.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>En él a todas horas</l>
+            <l>tendrás, tras el festín,</l>
+            <l>poéticas academias</l>
+            <l>en que puedan lucir</l>
+            <l n="910">tus ciencias, que mis damas</l>
+            <l>te sabrán argüir,</l>
+            <l>que no es la del ingenio</l>
+            <l>la menos dulce lid,</l>
+            <l>pues todas estudiosas…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l n="915">… las verás añadir</l>
+            <l>al primor de lo bello</l>
+            <l>del alma lo sutil.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Y en fin, tendrás, no humano</l>
+            <l>—pero mal dije «en fin»,</l>
+            <l n="920">pues semi-dios conmigo</l>
+            <l>eterno has de vivir</l>
+            <l>mientras de colocarte</l>
+            <l>no llega el tiempo— en mí</l>
+            <l>un alma que te adore</l>
+            <l n="925">cuando de esposo el sí</l>
+            <l>desplegar haga el iris…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>… para bajar por ti</l>
+            <l>las hojas de esmeralda,</l>
+            <l>de gualda y de carmín.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="930">Hermoso enigma en quien</l>
+            <l>no sin asombro vi</l>
+            <l>que hay casos en que es más</l>
+            <l>el ver que el discurrir:</l>
+            <l>si esas felicidades</l>
+            <l n="935">el sí esperan de mí</l>
+            <l>de ser tu esposo, en vano</l>
+            <l>lo intentas conseguir.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <stage>aparte</stage>
+            <l part="I">¡Qué escucho!</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #gusto #olfato #tacto #oido #vista #gracia #lisonja #murmuracion #envidia #gula #musica #hombre #culpa">
+            <speaker>LOS CINCO SENTIDOS</speaker>
+            <l part="F">Si de humanos</l>
+            <l>nos puedes convertir</l>
+            <l n="940">en divinos sentidos,</l>
+            <l part="I">¿qué dudas?</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">Advertid</l>
+            <l>que no soy tan grosero,</l>
+            <l>tan bárbaro o tan vil</l>
+            <l>que sin cortés disculpa</l>
+            <l n="945">me atreviera a decir</l>
+            <l>a tan bello prodigio</l>
+            <l>desaire tan civil</l>
+            <l>como que el sí de esposo</l>
+            <l part="I">no he de darla.</l>
+          </sp>
+          <sp who="#ecos #toda-la-musica #lucero #gusto #olfato #tacto #oido #vista #gracia #lisonja #murmuracion #envidia #gula #musica #culpa #hombre">
+            <speaker>TODOS</speaker>
+            <l part="F">Pues di:</l>
+            <l n="950">¿con qué disculpa puedes</l>
+            <l part="I">sanearlo?</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">Con decir</l>
+            <l>que el sí de esposo, no;</l>
+            <l>pero el de esclavo, sí.</l>
+            <stage>Arrodíllase</stage>
+            <l>A tus plantas rendido</l>
+            <l n="955">beso una vez y mil</l>
+            <l>la estampa de tu huella,</l>
+            <l>pues con solo esto fui</l>
+            <l>tan feliz que no quiero</l>
+            <l>pasar a más feliz.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="960">Alza del suelo, llega</l>
+            <l>a mis brazos, no así</l>
+            <l>estés; y ya que supo</l>
+            <l>tu ingenio desmentir</l>
+            <l>con dichas que gocé</l>
+            <l n="965">desdenes que temí,</l>
+            <l>en fe de que te acepto</l>
+            <l>la voluntad que aquí</l>
+            <l>me ofrece tu albedrío,</l>
+            <l>tengo de hacer por ti</l>
+            <l n="970">yo también la fineza</l>
+            <l>que generosa oí</l>
+            <l>usar de su laurel</l>
+            <l>el rito del gentil</l>
+            <l>cuando allá juran dos</l>
+            <l n="975">alianza entre sí</l>
+            <l>de que ya al bien, ya al mal,</l>
+            <l>en la paz o en la lid,</l>
+            <l>han eternos amigos</l>
+            <l>de vivir y morir.</l>
+            <l n="980">Para que sea inviolable</l>
+            <l>haberla de cumplir,</l>
+            <l>la ceremonia es</l>
+            <l>que más los hace unir</l>
+            <l>beber en una misma</l>
+            <l n="985">copa, conque hoy aquí</l>
+            <l>para hacer manifiesto</l>
+            <l>a todos mi sentir</l>
+            <l>la he de revalidar,</l>
+            <l>que aunque pueda decir</l>
+            <l n="990">alguno que ya esto</l>
+            <l>se vio otra vez, no a mí</l>
+            <l>usar de un mismo medio,</l>
+            <l>si voy a un mismo fin</l>
+            <l>me hace fuerza, que no es</l>
+            <l n="995">hurtar el repetir.</l>
+            <l>Aquella copa en cuyo</l>
+            <l>esférico perfil</l>
+            <l>la majestad del oro,</l>
+            <l>a precio de lucir</l>
+            <l n="1000">grabada del cincel</l>
+            <l>obedeció al buril</l>
+            <l>traed, y el néctar en ella</l>
+            <l>de dioses le servid.</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>A obedecerte voy,</l>
+            <l n="1005">que eso me toca a mí.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="15">
+          <stage>Vase</stage>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l>Claro es que lo potable,</l>
+            <l>Gula, te toque a ti</l>
+            <l>si vivir por beber</l>
+            <l>es beber por vivir.</l>
+          </sp>
+          <sp who="#olfato">
+            <speaker>OLFATO</speaker>
+            <l n="1010">Desde hoy con tal favor</l>
+            <l>podremos presumir</l>
+            <l part="I">de inmortales.</l>
+          </sp>
+          <sp who="#culpa #gula #gusto #olfato">
+            <speaker>LOS CUATRO</speaker>
+            <l part="F">Es cierto.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="16">
+          <stage>Sale la GULA con la copa</stage>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>Ya está la copa aquí.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #tacto #oido #vista #gracia #lisonja #murmuracion #envidia #musica #hombre #culpa #gusto #olfato #gula">
+            <speaker>LAS CINCO</speaker>
+            <l part="I">Llega y bebe.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">No sé</l>
+            <l n="1015">cómo deba admitir</l>
+            <l part="I">tal favor.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">En bebiendo</l>
+            <l>lo sabrás. Repetid</l>
+            <l>mientras bebe aquel canto</l>
+            <l>a quien ya otra vez di</l>
+            <l n="1020">fuerza de entorpecer</l>
+            <l part="I">sentidos.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #tacto #oido #vista #gracia #lisonja #murmuracion #envidia #musica #gusto #olfato #gula #hombre #culpa">
+            <speaker>LAS CINCO</speaker>
+            <stage>cantan</stage>
+            <l part="F">¡Ay de ti!…</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¡Ay de mí!…</l>
+          </sp>
+          <stage>Abre el vaso, salta el áspid y suena terremoto</stage>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>… que al quedar sin sentidos…</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>… que al quedar sin sentidos…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l n="1025">… te queda que sentir.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>… me queda que sentir.</l>
+            <l part="I">¿Qué es esto, cielos!</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Es</l>
+            <l>cerrarse para ti</l>
+            <l>su impíreo alcázar viendo</l>
+            <l n="1030">derramar y infundir</l>
+            <l>en todos el veneno</l>
+            <l>del áspid que encubrí</l>
+            <l part="I">en mi copa.</l>
+          </sp>
+          <stage>Suena terremoto</stage>
+          <sp who="#vista">
+            <speaker>VISTA</speaker>
+            <l part="F">¡Qué pasmo!</l>
+          </sp>
+          <sp who="#oido">
+            <speaker>OÍDO</speaker>
+            <l part="I">¡Qué ansia!</l>
+          </sp>
+          <sp who="#olfato">
+            <speaker>OLFATO</speaker>
+            <l part="F">¡Qué frenesí!</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l part="I">¡Qué rabia!</l>
+          </sp>
+          <sp who="#tacto">
+            <speaker>TACTO</speaker>
+            <l part="M">¡Qué ira!</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="1035" part="F">¿Vista?</l>
+          </sp>
+          <sp who="#vista">
+            <speaker>VISTA</speaker>
+            <l>No te acuerdes de mí,</l>
+            <l>que ya ver no merezco</l>
+            <l>ni aun ese azul zafir.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I">¿Oído?</l>
+          </sp>
+          <sp who="#oido">
+            <speaker>OÍDO</speaker>
+            <l part="F">Sentir el rayo</l>
+            <l n="1040">puedo, mas sin oír</l>
+            <l>el trueno.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I">¿Olfato?</l>
+          </sp>
+          <sp who="#olfato">
+            <speaker>OLFATO</speaker>
+            <l part="F">¿Qué</l>
+            <l>intentas conseguir</l>
+            <l>de mí, si en humo leve</l>
+            <l n="1045">mi ser desvanecí!</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I">¿Gusto?</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l part="F">No lo es quien no</l>
+            <l>le tiene para sí.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="I">¿Tacto?</l>
+          </sp>
+          <sp who="#tacto">
+            <speaker>TACTO</speaker>
+            <l part="F">Aparta, que ya</l>
+            <l>es mi halagar herir.</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l n="1050">¡Ay de ti!,</l>
+            <l>que al quedar sin sentidos</l>
+            <l>te queda que sentir.</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #gracia #lisonja #murmuracion #envidia #gula #culpa #vista #oido #olfato #gusto #hombre #tacto #musica">
+            <speaker>LOS CINCO</speaker>
+            <l part="I">Huyamos de él.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l part="F">¿Pues cómo</l>
+            <l>rebeldes contra mí?</l>
+            <l n="1055">¿No vine tras vosotros</l>
+            <l>a cobraros, decid?</l>
+            <l>¿Pues cómo es a perderos?</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #gracia #lisonja #murmuracion #envidia #gula #culpa #vista #oido #olfato #gusto #tacto #musica #hombre">
+            <speaker>LOS CINCO</speaker>
+            <l>Pregúntatelo a ti…</l>
+          </sp>
+          <sp who="#ellos #musica">
+            <speaker>ELLOS Y MÚSICA</speaker>
+            <l>… que al quedar sin sentidos</l>
+            <l n="1060">te queda que sentir.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="17">
+          <stage>Vanse</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¡Ay de mí!,</l>
+            <l>¿«que al quedar sin sentidos,</l>
+            <l>me queda que sentir»?</l>
+            <l>¿Qué insensible torpeza</l>
+            <l n="1065">es la que ha entrado en mí</l>
+            <l>que no permite ¡ay triste!</l>
+            <l>ni hablar ni discurrir?</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>¡Ay de ti!,</l>
+            <l>que al quedar sin sentidos</l>
+            <l n="1070">te queda que sentir.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¿Qué letargo mortal</l>
+            <l>este traidor motín</l>
+            <l>de sentidos me deja</l>
+            <l>tan sin mí mismo a mí?</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l n="1075">¡Ay de ti!,</l>
+            <l>que al quedar sin sentidos</l>
+            <l>te queda que sentir.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Trabado el corazón</l>
+            <l>late tan sin latir</l>
+            <l n="1080">que a no animar anima</l>
+            <l>y vive a no vivir.</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>¡Ay de ti!,</l>
+            <l>que al quedar sin sentidos</l>
+            <l>te queda que sentir.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="1085">Estatua viva soy,</l>
+            <l>pues tengo ¡ay infeliz!</l>
+            <l>ojos para no ver,</l>
+            <l>oídos para no oír,</l>
+            <l>labios para no hablar,</l>
+            <l n="1090">plantas para no huir,</l>
+            <l>para no tocar manos,</l>
+            <l>para no discurrir</l>
+            <l>memoria, entendimiento</l>
+            <l part="I">para no obrar.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Así</l>
+            <l n="1095">en ídolos de bronce</l>
+            <l>te difinió David.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Falaz sirena, incauta</l>
+            <l>Esfinge, hiena vil,</l>
+            <l>¿por qué para llorar</l>
+            <l n="1100">halagas con reír?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Porque es lo uno atraer</l>
+            <l>y lo otro es destruir.</l>
+            <l>Y para que lo veas</l>
+            <l>—que a nadie cegar vi</l>
+            <l n="1105">para no ver desdichas—</l>
+            <l>vuelve a ver el pensil</l>
+            <l>que tan florido viste</l>
+            <l>y verás presidir</l>
+            <l>de sus ya mustias flores</l>
+            <l n="1110">al caduco matiz</l>
+            <l>aquel árbol de cuya</l>
+            <l>infestada raíz</l>
+            <l>la desdichada herencia</l>
+            <l>te quedó de seguir</l>
+            <l n="1115">a mi voz tus sentidos</l>
+            <l>y tú a ellos; mira allí</l>
+            <l>la enroscada serpiente</l>
+            <l part="I">en su tronco.</l>
+          </sp>
+          <sp who="#tacto #musica">
+            <speaker>ÉL Y MÚSICA</speaker>
+            <l part="F">¡Ay de mí!,</l>
+            <l>que al quedar sin sentidos</l>
+            <l n="1120">me queda que sentir.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Y pues ya nueva estatua</l>
+            <l>del mágico jardín</l>
+            <l>de Falerina eres,</l>
+            <l>retiradle de aquí,</l>
+            <l n="1125">inmoble al pie del árbol</l>
+            <l>le colocad, sea allí</l>
+            <l>padrón vegetativo</l>
+            <l>su tronco en que escribir</l>
+            <l>podréis el «Aquí yace</l>
+            <l n="1130">quien murió sin morir.»</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¡Ay de mí!,</l>
+            <l>que al quedar sin sentidos</l>
+            <l>me queda que sentir.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Y por si acaso hubiere</l>
+            <l n="1135">tan valiente adalid</l>
+            <l>que intente de ese alcázar</l>
+            <l>en su favor rendir</l>
+            <l>los altos homenajes,</l>
+            <l>cada una de por sí</l>
+            <l n="1140">—pues texto hay que lo diga—</l>
+            <l>en brutos convertid</l>
+            <l>los sentidos que yo</l>
+            <l>a vuestro cargo di,</l>
+            <l>porque lo formidable</l>
+            <l n="1145">de hacerle guarda a huir</l>
+            <l>obligue a quien tuviere</l>
+            <l>tan alto varonil</l>
+            <l>espíritu que asalte</l>
+            <l>ni aun el primer fortín</l>
+            <l n="1150">de mi menor encanto.</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>Pues estamos en ti</l>
+            <l>comprometidas, fuerza</l>
+            <l part="I">es la obediencia.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Id.</l>
+          </sp>
+          <stage>Llévanle como por fuerza</stage>
+          <sp who="#febo #ecos #toda-la-musica #lucero #gracia #lisonja #murmuracion #envidia #vista #oido #olfato #gusto #tacto #musica #hombre #gula #culpa">
+            <speaker>LAS CINCO</speaker>
+            <l part="I">Ven, mortal.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Mientras yo</l>
+            <l n="1155">todo aqueste confín</l>
+            <l>siembro de venenadas</l>
+            <l>plantas que al más sutil</l>
+            <l>contacto del pie broten</l>
+            <l part="I">abrojos.</l>
+          </sp>
+          <sp who="#hombre #musica">
+            <speaker>HOMBRE Y MÚSICA</speaker>
+            <l part="F">¡Ay de mí!…</l>
+          </sp>
+          <sp who="#febo #ecos #toda-la-musica #lucero #gracia #lisonja #murmuracion #envidia #vista #oido #olfato #gusto #tacto #gula #culpa #hombre #musica">
+            <speaker>LAS CINCO</speaker>
+            <l n="1160">… que al quedar sin sentidos</l>
+            <l>te queda que sentir.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>No queda, pues me queda</l>
+            <l>vida para pedir</l>
+            <l>perdón al cielo y él</l>
+            <l n="1165">se dolerá de mí</l>
+            <l>al verme tan postrado.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Sus voces confundid</l>
+            <l>con las vuestras, no le oiga.</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>¡Ay de ti!</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l n="1170">¿Cómo haber de vivir…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>¡Ay de ti!</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>… entre brutos sentidos…</l>
+          </sp>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l>¡Ay de ti!</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>… sin ver, tocar, oler, gustar ni oír?</l>
+          </sp>
+          <stage>Representan</stage>
+          <sp who="#febo #ecos #toda-la-musica #lucero #gracia #lisonja #murmuracion #envidia #vista #oido #olfato #gusto #tacto #gula #culpa #musica #hombre">
+            <speaker>LAS CINCO</speaker>
+            <l n="1175">No tienes que clamar;</l>
+            <l>ven pues, ven a vivir</l>
+            <l>entre brutos sentidos…</l>
+          </sp>
+          <sp who="#tacto #musica">
+            <speaker>ÉL Y MÚSICA</speaker>
+            <l>… sin ver, tocar, oler, gustar ni oír.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="18">
+          <stage>Con esta repetición, cantando unos y representando otros, se van los vicios, llevando al HOMBRE por una parte, y sale la GRACIA como oyendo a lo lejos</stage>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>«No queda, pues me queda</l>
+            <l n="1180">vida para pedir</l>
+            <l>perdón al cielo y él</l>
+            <l>se dolerá de mí</l>
+            <l>al verme tan postrado.</l>
+            <l>¿Cómo haber de vivir</l>
+            <l n="1185">entre brutos sentidos,</l>
+            <l>sin ver, tocar, oler, gustar ni oír?»</l>
+            <l>Gemidos del hombre son</l>
+            <l>que lamentan su desgracia.</l>
+            <l>¡Oh cuánto desea la Gracia</l>
+            <l n="1190">consolarle en su aflicción!</l>
+            <l>Mas no son</l>
+            <l>bastantes las ansias mías,</l>
+            <l>si no envías,</l>
+            <l>Señor, Tú aquel consuelo</l>
+            <l n="1195">que tan prometido de parte del cielo</l>
+            <l>le tienen las sombras de tus profecías.</l>
+            <l>Y pues el mundo abreviado</l>
+            <l>que tu mayor obra ha sido,</l>
+            <l>de una belleza atraído,</l>
+            <l n="1200">de una traición engañado,</l>
+            <l>tan postrado</l>
+            <l>yace en mágico vergel</l>
+            <l>donde fiel</l>
+            <l>su voz clama, en la mía infiero</l>
+            <l n="1205">que le oigas por ver si una dicha que espero</l>
+            <l>los plazos abrevia a su pena cruel.</l>
+            <l>Y así ¡oh Señor que increado</l>
+            <l>del nada el todo formaste</l>
+            <l>y en el Hombre solo hallaste</l>
+            <l n="1210">recreación a tu cuidado!,</l>
+            <l>del pecado</l>
+            <l>se mira al rigor impío</l>
+            <l>mármol frío,</l>
+            <l>tal que no vuelva a su augusto</l>
+            <l n="1215">candor si no llueven las nubes al justo</l>
+            <l>y el alba más bella le da su rocío.</l>
+            <l>Tal la fuerza es del encanto</l>
+            <l>llorando su suerte esquiva</l>
+            <l>que al jardín estatua viva</l>
+            <l n="1220">le sirve de fuente el llanto;</l>
+            <l>si el mío tanto</l>
+            <l>puede contigo, Señor,</l>
+            <l>porque el rigor</l>
+            <l>venza que en vida le entierra,</l>
+            <l n="1225">haz que abra sus senos fecunda la tierra</l>
+            <l>y que nos produzga le di al Salvador.</l>
+            <l>Y pues en alegoría</l>
+            <l>hoy solicita el Lucero</l>
+            <l>de aquel siglo venidero</l>
+            <l n="1230">ver el esperado día</l>
+            <l>de quien fía</l>
+            <l>cautelarse, que vea es bien</l>
+            <l>yo también</l>
+            <l>si a una idea nos reduces</l>
+            <l n="1235">que a mí los consuelos me den en tus luces</l>
+            <l>las penas que a él en sus sombras le den.</l>
+            <l>Sol eres, conque me atrevo</l>
+            <l>a llamarte Febo, pues</l>
+            <l>Febo nombre de Sol es;</l>
+            <l n="1240">y más cuando sobre Febo,</l>
+            <l>si al fin llevo</l>
+            <l>el concepto, te hallo en él</l>
+            <l>coronado de laurel,</l>
+            <l>caballero militar;</l>
+            <l n="1245">pues con la cruz que es tu insignia triunfar</l>
+            <l>te vio victorioso a caballo Ezequiel.</l>
+            <l>Ven pues, ven tan disfrazado</l>
+            <l>que esa fiera, ese león,</l>
+            <l>vean en su oposición</l>
+            <l n="1250">en lejos representado</l>
+            <l>que el deseado</l>
+            <l>día tal misterio encierra</l>
+            <l>que haciendo al abismo guerra</l>
+            <l>darán en él las criaturas…</l>
+          </sp>
+          <stage>Dentro</stage>
+          <sp who="#musica">
+            <speaker>MÚSICA</speaker>
+            <l n="1255">… gloria a Dios en las alturas</l>
+            <l>y paz al hombre en la tierra.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="19">
+          <stage>Sale el LUCERO</stage>
+          <sp who="#lucero #gracia">
+            <speaker>LUCERO Y GRACIA</speaker>
+            <l>¿«Gloria a Dios en las alturas</l>
+            <l>y paz al hombre en la tierra»?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>¿Qué voces, cielos, serán</l>
+            <l n="1260">las que mi espíritu alegran</l>
+            <l part="I">tanto al oírlas?</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="F">¿Qué voces</l>
+            <l>serán las que me atormentan</l>
+            <l part="I">tanto al escucharlas?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">¿Qué</l>
+            <l>querrán decirme sus tiernas</l>
+            <l n="1265">cláusulas…</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>¿Qué sus discordes</l>
+            <l>acentos decirme intentan…</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>… cuando sonoras repiten:</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>… cuando horrorosas alientan:</l>
+          </sp>
+          <sp who="#gracia #lucero #musica">
+            <speaker>LOS DOS Y MÚSICA</speaker>
+            <l n="1270">«Gloria a Dios en las alturas</l>
+            <l>y paz al hombre en la tierra»?</l>
+          </sp>
+          <sp who="#lucero #musica">
+            <speaker>LOS DOS</speaker>
+            <l part="I">Dime tú…</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">(¿Pero el Lucero</l>
+            <l part="I">no es este?)</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="F">(¿Pero no es esta</l>
+            <l part="I">la Gracia?)</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Huya de él y vaya</l>
+            <l n="1275">a solicitar qué nueva</l>
+            <l>es la que la tierra y cielo</l>
+            <l>de tantos consuelos llena</l>
+            <l>no solo a mí pero a toda</l>
+            <l>la humana naturaleza.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="20">
+          <stage>Vase</stage>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l n="1280">Huyó la Gracia al mirarme,</l>
+            <l>pero no es la vez primera</l>
+            <l>que huye la Gracia de mí;</l>
+            <l>y más cuando es consecuencia</l>
+            <l>de que la Gracia se aparta</l>
+            <l n="1285">ver que la Culpa se acerca.</l>
+            <l part="I">Culpa, ¿dónde vas?</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="21">
+          <stage>Sale la CULPA</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Sembrando</l>
+            <l>voy montes, valles y selvas</l>
+            <l>de venenosas cicutas</l>
+            <l>y ponzoñosas adelfas</l>
+            <l n="1290">porque nadie de mis cotos</l>
+            <l>pasar las márgenes pueda</l>
+            <l>sin mortal daño; que aunque</l>
+            <l>—a tu invocación atenta—</l>
+            <l>tengo al Hombre en mis jardines</l>
+            <l n="1295">tan borrada y tan deshecha</l>
+            <l>en él la imagen de Dios</l>
+            <l>que ni respira ni alienta,</l>
+            <l>convertidos sus sentidos</l>
+            <l>en varias formas de fieras…</l>
+            <l n="1300">—pues la Envidia al de la Vista</l>
+            <l>en tigre le representa</l>
+            <l>cuya piel es toda ojos;</l>
+            <l>la Lisonja toda lenguas</l>
+            <l>al del Oído en un vario</l>
+            <l n="1305">camaleón de diversas</l>
+            <l>colores, bruto en fin que</l>
+            <l>solo de aire se alimenta;</l>
+            <l>la Murmuración, que es quien</l>
+            <l>a perder en la honra echa</l>
+            <l n="1310">el buen olor de la fama,</l>
+            <l>al Olfato le semeja</l>
+            <l>en un león cuyo aliento</l>
+            <l>daña todo cuanto encuentra;</l>
+            <l>al Tacto en un torpe erizo</l>
+            <l n="1315">la Lascivia, pues no llega</l>
+            <l>nadie a tocarle que él mismo</l>
+            <l>voluntario no se hiera;</l>
+            <l>en fin, la Gula al sentido</l>
+            <l>del Gusto en la voraz bestia</l>
+            <l n="1320">que ásperamente cerdosa</l>
+            <l>no levanta de la tierra</l>
+            <l>los ojos al cielo y solo</l>
+            <l>de lo inmundo se alimenta—.</l>
+            <l>Conque volviendo a enlazar</l>
+            <l n="1325">el discurso: aunque deshecha</l>
+            <l>tengo la imagen de Dios</l>
+            <l>y en guarda suya sus mesmas</l>
+            <l>pasiones, con todo eso,</l>
+            <l>para que nadie se atreva</l>
+            <l n="1330">a llegar a restaurarla</l>
+            <l>siendo su horror su defensa,</l>
+            <l>voy sembrando —como dije—</l>
+            <l>por montes, valles y selvas</l>
+            <l>un hechizo en cada planta</l>
+            <l n="1335">y un veneno en cada yerba.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>No en vano lo intentas, pues</l>
+            <l>no sé qué voces que suenan</l>
+            <l>dando a Dios en las alturas</l>
+            <l>gloria y al hombre en la tierra</l>
+            <l n="1340">paz tanto mis conjeturas</l>
+            <l>han confundido, mis ciencias,</l>
+            <l>que andan delirando sobre</l>
+            <l>si el cumplimiento se acerca</l>
+            <l>de aquella palabra; y más</l>
+            <l n="1345">¡ay Culpa! si consideras</l>
+            <l>vestida de fiesta y gala</l>
+            <l>toda la naturaleza</l>
+            <l>en la más árida estancia</l>
+            <l>del año; mira la tierra</l>
+            <l n="1350">reverdecida a pesar</l>
+            <l>de escarchas, nieves y nieblas;</l>
+            <l>mira entre heladas aristas</l>
+            <l>allí una blanca azucena</l>
+            <l>dar en desplegadas hojas</l>
+            <l n="1355">de bruñida plata tersa</l>
+            <l>granos de acendrado oro</l>
+            <l>sin que el cierzo a su pureza</l>
+            <l>la tez empañe; una rosa</l>
+            <l>allí en virgen edad tierna</l>
+            <l n="1360">mira que aún no el botón roto</l>
+            <l>encarnado albor obstenta;</l>
+            <l>el cedro, el lirio, la palma,</l>
+            <l>ciprés y plátano muestran</l>
+            <l>hoy más su pompa que nunca.</l>
+            <l n="1365">Y pasando de la esfera</l>
+            <l>de la tierra al agua, mira</l>
+            <l>cuando más sus ondas hiela</l>
+            <l>que no ufanas con ser vidrios</l>
+            <l>se van elevando a perlas.</l>
+            <l n="1370">¿Sierpecilla de cristal</l>
+            <l>aquel arroyo no era?</l>
+            <l>¿Pues cómo al pie de un jazmín</l>
+            <l>haciendo remanso deja</l>
+            <l>de ser sierpe y no manchado</l>
+            <l n="1375">espejo se representa?</l>
+            <l>El aire mira que cuando</l>
+            <l>con más ráfagas violentas</l>
+            <l>arrancar suele los troncos</l>
+            <l>blando inspira, suave alienta</l>
+            <l n="1380">haciendo a la tarde salva</l>
+            <l>de aurora a un ave que vuela</l>
+            <l>tan sobre todas que juzgo</l>
+            <l>ser de todas la ave reina.</l>
+            <l>La esfera del fuego mira</l>
+            <l n="1385">también a sola una estrella</l>
+            <l>reducida, pues supliendo</l>
+            <l>cuando él declina la ausencia</l>
+            <l>del Sol, estrella del mar,</l>
+            <l>le domina de manera</l>
+            <l n="1390">favorable en sus influjos</l>
+            <l>que sin padecer tormenta</l>
+            <l>—con significar las ondas</l>
+            <l>tribulaciones y penas—</l>
+            <l>allí una nave tomando</l>
+            <l n="1395">viene el puerto tan serena</l>
+            <l>que libre de sus embates,</l>
+            <l>de sus vaivenes esempta,</l>
+            <l>juzgo que es en quien decir</l>
+            <l>se oyó en las lejanas selvas:</l>
+          </sp>
+          <sp who="#tacto #musica">
+            <speaker>ÉL Y MÚSICA</speaker>
+            <l n="1400">«Gloria a Dios en las alturas</l>
+            <l>y paz al hombre en la tierra».</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Aguarda, que no el prodigio</l>
+            <l>con que tome puerto cesa</l>
+            <l>esa nave, sino en que</l>
+            <l n="1405">solo un hombre salga della</l>
+            <l part="I">a tomar puerto.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="F">¿Quién es?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Aunque percibo las señas</l>
+            <l>de hombre, qué hombre sea no sé.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>¿Pues cómo en tus cotos entra,</l>
+            <l n="1410">Culpa, sin que en tus registros</l>
+            <l>a ti te conste quién sea?</l>
+            <l>¿No bastó que una mujer</l>
+            <l>pasase sin saber della,</l>
+            <l>sino que también un hombre</l>
+            <l n="1415">tan en salvamento venga</l>
+            <l part="I">que tú le ignores?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">No sé</l>
+            <l>qué puedo darte en respuesta</l>
+            <l>sino que, pues él es solo</l>
+            <l>el que de mí se reserva,</l>
+            <l n="1420">no extrañes que solo él</l>
+            <l>tan sin otros tome tierra</l>
+            <l>que en su embarcación segura</l>
+            <l>nadie le haga consecuencia.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>Pues antes que llegue entona</l>
+            <l n="1425">tu mágica voz y sea</l>
+            <l>también prisionero tuyo.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Sí haré; letra y tono vuelvan:</l>
+            <stage>Canta la CULPA desentonada y como tartamuda Canta</stage>
+            <l>A mi brindis, sentidos, venid,</l>
+            <l>venid, volad. (¿Quién destempla</l>
+            <l n="1430">el órgano de mi voz?)</l>
+            <l>Venid que la sed… (la lengua</l>
+            <l>muda, balbuciente el labio,</l>
+            <l>tartamudeando, me hielan</l>
+            <l>voz y pecho)… satisface</l>
+            <l part="I">esta copa.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l n="1435" part="F">¿De qué tiemblas?</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>De que a vista de ese asombro</l>
+            <l>perdió mi encanto la fuerza.</l>
+            <l>Y pues para cautelarnos</l>
+            <l>de cuando el remedio venga</l>
+            <l n="1440">al Hombre en el Hombre hicimos</l>
+            <l>esta imaginada idea,</l>
+            <l>no de vista le perdamos</l>
+            <l>que algún gran misterio encierra</l>
+            <l>hombre a quien no conocemos</l>
+            <l n="1445">tú ni yo; y así en defensa</l>
+            <l>nos pongamos: tú, Lucero,</l>
+            <l>de mis jardines la puerta</l>
+            <l>guarda; yo poblaré el monte</l>
+            <l>de dobladas centinelas</l>
+            <l n="1450">que velen toda la noche</l>
+            <l>por si a su muro se acerca,</l>
+            <l>y en amaneciendo el día</l>
+            <l>atalaya de mí mesma</l>
+            <l>sobre la copa del árbol</l>
+            <l n="1455">donde está su estatua puesta</l>
+            <l>registrando la campaña</l>
+            <l>reconoceré la senda</l>
+            <l>que toma, para saber</l>
+            <l>si viene o no en busca nuestra.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l n="1460">Bien lo dispones; y así,</l>
+            <l part="I">Falerina, ¡alerta!</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">¡Alerta,</l>
+            <l part="I">Lucero!</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="F">Que si en su amparo</l>
+            <l part="I">viene…</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Si librarle intenta…</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>… hallándonos prevenidos…</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="1465">… de mi saña y mi cautela…</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>… veremos lo que consigue…</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>… sabremos lo que aprovecha…</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>… nave que sulca los mares</l>
+            <l>segura de la tormenta;…</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="1470">… hombre que sin ejemplar</l>
+            <l>de otro hombre toma tierra;…</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>… y en fin qué quiere decirnos…</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>… toda la naturaleza…</l>
+          </sp>
+          <sp who="#lucero #culpa">
+            <speaker>LOS DOS</speaker>
+            <l>… en tierra, agua, fuego y aire</l>
+            <l n="1475">cuando da en su enhorabuena…</l>
+          </sp>
+          <sp who="#gracia #musica #lucero #culpa">
+            <speaker>LOS CUATRO Y MÚSICA</speaker>
+            <l>… «gloria a Dios en las alturas</l>
+            <l>y paz al hombre en la tierra».</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="22">
+          <stage>Vanse repitiendo la música los cuatro, y salen por una parte FEBO y por otra la GRACIA escuchando</stage>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Allí son las voces; justo</l>
+            <l>es ir la Gracia tras ellas.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l n="1480">Mal la tierra me recibe,</l>
+            <l>pues apenas en su arena</l>
+            <l>la planta pongo cuando es</l>
+            <l>verdad que la pongo a penas,</l>
+            <l>según que al primero paso</l>
+            <l n="1485">de carámbanos cubierta</l>
+            <l>al aire que le traspasa</l>
+            <l>aterido el pecho tiembla.</l>
+            <l>¿Dónde podré reclinarme</l>
+            <l>que algún dulce abrigo tenga</l>
+            <l part="I">mi desnudez?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="1490" part="F">En mis brazos.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>¡Ay Gracia divina y bella!</l>
+            <l>Si quien «Gracia» dijo, dijo</l>
+            <l>«María», preciso era</l>
+            <l>que en los brazos de María</l>
+            <l n="1495">alivio mis ansias tengan.</l>
+            <l>Mas ¡ay! que al paso segundo</l>
+            <l>no hay pedernal que no sea</l>
+            <l>cuchillo de piedra en que</l>
+            <l>la primera sangre vierta</l>
+            <l n="1500">en primicias de más sangre.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>¿Tú, Señor, lágrimas tiernas?</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>Si cuantos entran al mundo</l>
+            <l>sin saber a lo que entran</l>
+            <l>lloran, ¿qué haré yo que sé</l>
+            <l n="1505">los peligros que me esperan</l>
+            <l>el día que tus lamentos</l>
+            <l>me han conmovido a que venga</l>
+            <l>con el nombre que me da</l>
+            <l>—luz de luz— la luz febea</l>
+            <l n="1510">en metáfora de Febo,</l>
+            <l>donde los encantos venza</l>
+            <l>de esa falaz hija de ira</l>
+            <l>porque aun en sombras no tenga</l>
+            <l>duda la verdad de que</l>
+            <l n="1515">tú por el Hombre me ruegas,</l>
+            <l>de que él llora destruido</l>
+            <l>y que yo me compadezca?</l>
+            <l>Y así, en esa hermosa nave</l>
+            <l>—que a dos luces representa</l>
+            <l n="1520">la nave del mercader</l>
+            <l>y la nave de la Iglesia,</l>
+            <l>pues viene de pan cargada,</l>
+            <l>y si paso a la tercera</l>
+            <l>la del diluvio, pues sulca</l>
+            <l n="1525">del común peligro esempta—</l>
+            <l>me embarqué para venir</l>
+            <l>a tus dulces voces tiernas.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Que mis lamentos, Señor,</l>
+            <l>te traigan con la fineza</l>
+            <l n="1530">que siempre a tu amor debí,</l>
+            <l>no lo dudo; mas que adviertas</l>
+            <l>te suplico que no fueron</l>
+            <l>míos, porque si no hubieran</l>
+            <l>sido primero del Hombre</l>
+            <l n="1535">nunca yo los repitiera,</l>
+            <l>que no interviene la Gracia</l>
+            <l>sin que el Hombre se arrepienta.</l>
+            <l>Y aunque Tú todo lo ves,</l>
+            <l>ya que tu suma clemencia</l>
+            <l n="1540">a humano modo se ajusta</l>
+            <l>a obrar, para que le veas</l>
+            <l>en la miseria que yace</l>
+            <l>y oigas las piadosas quejas</l>
+            <l>con que te clama, los ojos</l>
+            <l n="1545">vuelve a la lóbrega esfera</l>
+            <l>de ese encantado jardín</l>
+            <l>y mira cuánto deshecha</l>
+            <l>tu imagen está y cuán brutos</l>
+            <l>sus sentidos cuando, emblema</l>
+            <l n="1550">del pecador, con lo mismo</l>
+            <l>que le halagan le atormentan.</l>
+            <l>Y pues en lo racional</l>
+            <l>del alma libre le queda</l>
+            <l>siempre el uso al albedrío,</l>
+            <l n="1555">oye cómo se lamenta:</l>
+          </sp>
+          <stage>Al pie del tronco de la sierpe aparece el HOMBRE como en éxtasis, a manera de estatua, y alrededor un león, un tigre, un espín, un erizo y un camaleón</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Si este pasmo, este horror hacer pudiera</l>
+            <l>por Dios que el cuerpo y alma le pasara</l>
+            <l>aunque pudiera no lo remediara,</l>
+            <l>fuera elección y no violencia fuera.</l>
+            <l n="1560">Ni el interés del cielo me moviera</l>
+            <l>ni el temor del infierno me obligara;</l>
+            <l>solo por ser quien es le conservara</l>
+            <l>cuando ni premio ni castigo hubiera.</l>
+            <l>Y si el cielo y infierno en este día</l>
+            <l n="1565">abiertos viera, cuya pena o cuya</l>
+            <l>gloria estuviera en mí, si presumía</l>
+            <l>ser voluntad de Dios que me destruya,</l>
+            <l>al infierno me fuera por la mía</l>
+            <l>y no entrara en el cielo sin la suya.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l n="1570">Mira, pecador, por más</l>
+            <l>que incauta la Culpa tenga</l>
+            <l>encantados tus sentidos,</l>
+            <l>cuánto está mi Gracia atenta</l>
+            <l>a que te enternezcas tú</l>
+            <l n="1575">para que yo me enternezca.</l>
+            <l>Y pues ya las sombras bajan</l>
+            <l>en pardos velos envueltas</l>
+            <l>y tus jardines están</l>
+            <l>ahora para mí no cerca,</l>
+            <l n="1580">llévame donde esta noche</l>
+            <l>descanse.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Tiene tan yerma,</l>
+            <l>tan árida y despoblada</l>
+            <l>la Culpa destas riberas</l>
+            <l n="1585">la playa que solo una</l>
+            <l>pequeña choza desierta</l>
+            <l>hay en toda su campaña.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>En ella, Gracia, me alberga,</l>
+            <l>que por ti y contigo no hay</l>
+            <l n="1590">choza que alcázar no sea.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="I">Sígueme.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l part="M">¡Ay de mí!</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">¿Qué sientes?</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>De abrojos está tan llena,</l>
+            <l>zarzas, espinas y cardos</l>
+            <l>la maraña destas selvas</l>
+            <l n="1595">que sus aceradas puntas</l>
+            <l>me taladran la cabeza,</l>
+            <l>y si a apartarlas las manos</l>
+            <l>van, las manos me penetran</l>
+            <l>a tiempo que de los pies</l>
+            <l n="1600">los abrojos me atraviesan</l>
+            <l part="I">también las plantas.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Allí</l>
+            <l>un huerto miro; en él entra</l>
+            <l>para restañar la sangre.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>¡Ay, que más será a verterla!,</l>
+            <l n="1605">pues en él también maraña</l>
+            <l>habrá quizá que me prenda.</l>
+            <l>Cinco mil y más heridas</l>
+            <l>todo el cuerpo me ensangrientan.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Bien dijo quien dijo que</l>
+            <l n="1610">no ocupan lugar las penas,</l>
+            <l>pues en una noche sola</l>
+            <l part="I">caben tantas.</l>
+            <stage>Dentro cantan</stage>
+            <l part="M">Vela.</l>
+          </sp>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l part="F">Vela.</l>
+          </sp>
+          <stage>Dentro en ecos</stage>
+          <sp who="#murmuracion">
+            <speaker>MURMURACIÓN</speaker>
+            <l part="I">Vela.</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="M">Vela.</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l part="F">Vela.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l part="I">¿Hablan con nosotros?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">No;</l>
+            <l n="1615">repartidas centinelas</l>
+            <l>son que, por dar a entender</l>
+            <l>cada una que está despierta,</l>
+            <l>pasan la voz de una en otra</l>
+            <l part="I">repitiendo:</l>
+          </sp>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l part="M">Alerta.</l>
+          </sp>
+          <sp who="#murmuracion">
+            <speaker>MURMURACIÓN</speaker>
+            <l part="F">Alerta.</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l n="1620">Alerta.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>Pues vamos, que con el día</l>
+            <l>en tu jardín, Gracia bella,</l>
+            <l>me hospedaré, desde donde</l>
+            <l>subiendo a la copa excelsa</l>
+            <l n="1625">de aquel árbol de la vida</l>
+            <l>que en él sobre todo reina,</l>
+            <l>siendo en la primera aurora</l>
+            <l>de mí mismo centinela,</l>
+            <l>reconoceré el terreno</l>
+            <l n="1630">para ver por dónde pueda</l>
+            <l>introducirme al jardín</l>
+            <l>de esa venenosa fiera</l>
+            <l>para vencer los encantos</l>
+            <l>de su mágica cautela.</l>
+          </sp>
+          <sp who="#ecos">
+            <speaker>ECOS</speaker>
+            <l n="1635">Vela, vela.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>Pues me ha de costar la vida</l>
+            <l>el verla a mis manos muerta…</l>
+          </sp>
+          <sp who="#ecos">
+            <speaker>ECOS</speaker>
+            <l>Alerta, alerta.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>… ¡ay, Hombre, lo que me debes!</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l n="1640">… ¡ay, Hombre, lo que me cuestas!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="23">
+          <stage>Vanse y salen la LISONJA y la GULA cantando</stage>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l>¡Hola, hau, ah del jardín!</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>¡Hola, hau, ah de la selva!</l>
+          </sp>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l>¿Atalaya de la vida?</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>¿De la muerte centinela?</l>
+          </sp>
+          <sp who="#ecos">
+            <speaker>ECOS</speaker>
+            <l n="1645">Vela, vela.</l>
+          </sp>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l>Vela en defensa del Hombre…</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>Vela del Hombre en defensa…</l>
+          </sp>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l>… y pues decir que le guardes…</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>… es decirte que le pierdas…</l>
+          </sp>
+          <sp who="#ecos">
+            <speaker>ECOS</speaker>
+            <l n="1650">… alerta, alerta.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>De la muerte y de la vida</l>
+            <l>voces en el aire suenan;</l>
+            <l>¡bien previno el que previno</l>
+            <l>que yo sin sentidos sienta!</l>
+            <l n="1655">¿Qué he de hacer en tanto mal</l>
+            <l>como el que me desconsuela?</l>
+          </sp>
+          <sp who="#ecos">
+            <speaker>ECOS</speaker>
+            <l>Vela, vela.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¿Qué más velar? Y no siendo</l>
+            <l>posible que el alma duerma,</l>
+            <l n="1660">¿cómo ha de estar si no basta</l>
+            <l>el estar siempre despierta?</l>
+          </sp>
+          <sp who="#ecos">
+            <speaker>ECOS</speaker>
+            <l>Alerta, alerta.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Si alerta ha de ser, al cielo</l>
+            <l>clame hasta ver si mi pena</l>
+            <l n="1665">del tribunal de justicia</l>
+            <l>para el de piedad apela.</l>
+          </sp>
+          <sp who="#ecos">
+            <speaker>ECOS</speaker>
+            <l>Vela, vela.</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>Y pues solo en la esperanza</l>
+            <l>puede estar segura y cierta…</l>
+          </sp>
+          <sp who="#ecos">
+            <speaker>ECOS</speaker>
+            <l part="I">Alerta, alerta.</l>
+          </sp>
+          <sp who="#toda-la-musica">
+            <speaker>TODA LA MÚSICA</speaker>
+            <l n="1670" part="F">Centinelas de la vida,</l>
+            <l>de la muerte centinelas,</l>
+            <l>pues decir que al Hombre guarden</l>
+            <l>es decir que al Hombre pierdan,</l>
+            <l>vela, vela, alerta, alerta,</l>
+            <l n="1675">alerta, alerta, vela, vela.</l>
+          </sp>
+          <stage>Ábrese el carro y vese la CULPA en la copa del árbol y se eleva</stage>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Ya que la aurora llorando</l>
+            <l>el azul manto despliega</l>
+            <l>porque con cendales de oro</l>
+            <l>el sol enjugue sus perlas,</l>
+            <l n="1680">en la copa deste árbol,</l>
+            <l>pues cátedra es de mis ciencias,</l>
+            <l>trono de mi majestad</l>
+            <l>y dosel de mi soberbia,</l>
+            <l>del Hombre y de sus sentidos</l>
+            <l n="1685">es bien triunfante me vea</l>
+            <l>el peregrino del mar,</l>
+            <l>que aunque mi voz enmudezca</l>
+            <l>no mi espíritu acobarda;</l>
+            <l>y ya que en mis lindes entra</l>
+            <l n="1690">sin que yo sepa quién es,</l>
+            <l>es justo que quién soy sepa;</l>
+            <l>y sea quien fuere al mirarme</l>
+            <l>a acercarse no se atreva</l>
+            <l>a estos muros viendo cuánto</l>
+            <l n="1695">en ellos su vida arriesga.</l>
+          </sp>
+          <stage>Ábrese el carro del árbol donde estaba el HOMBREal principio y se ve FEBO sobre la copa del árbol y se va le-vantando y ha de haber una cruz en su remate</stage>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>Ya que del alba a la risa</l>
+            <l>perezoso el sol despierta</l>
+            <l>restituyendo colores</l>
+            <l>a prados, montes y selvas,</l>
+            <l n="1700">desde la copa deste árbol,</l>
+            <l>pues trono es de mi clemencia,</l>
+            <l>siendo como es de la Gracia</l>
+            <l>el jardín que la conserva,</l>
+            <l>descubriré de la Culpa</l>
+            <l n="1705">las cautelosas defensas</l>
+            <l>de sus mágicos encantos</l>
+            <l>para lograr el vencerla.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>¡Pero qué es esto que miro!</l>
+            <l>¿Cuando pensé que la senda</l>
+            <l n="1710">torciera por otra parte</l>
+            <l>no solo ¡cielos! se alberga</l>
+            <l>en el jardín de la Gracia,</l>
+            <l>mas favorecido della</l>
+            <l>sobre la eminente copa</l>
+            <l n="1715">también del árbol se asienta</l>
+            <l>que tantas veces me dio</l>
+            <l>al verle asombros y penas?</l>
+            <l>¡Pero qué digo! ¿Yo temo?</l>
+            <l>¡Ah de la escabrosa esfera</l>
+            <l n="1720">de la Gracia, cuyas flores</l>
+            <l>yo dejé en espinas vueltas!</l>
+            <l>Peregrino de esos mares</l>
+            <l>de la vida que interpretan</l>
+            <l>tribulaciones, ya que</l>
+            <l n="1725">tomaste en mis montes tierra,</l>
+            <l>si ves cómo tengo al Hombre</l>
+            <l>sin sentidos ni potencias</l>
+            <l>estatua de mis jardines</l>
+            <l>amarrado a la corteza</l>
+            <l n="1730">del árbol cuya raíz</l>
+            <l>toda su familia infesta,</l>
+            <l>¿cómo siendo como él</l>
+            <l>verdadero hombre no tiemblas</l>
+            <l>de mis sañas, de mis iras</l>
+            <l n="1735">y a vista suya te quedas</l>
+            <l>en ese jardín de donde,</l>
+            <l>si otra vez la horrible bestia</l>
+            <l>oprimo, podré sacarte?</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>No podrás, incauta fiera,</l>
+            <l n="1740">que a mí no puede tocarme</l>
+            <l>de tus encantos la fuerza.</l>
+            <l>Enmudecida tu voz</l>
+            <l>lo diga al verme, y no ella</l>
+            <l>solo lo diga sino</l>
+            <l n="1745">todas tus mágicas ciencias,</l>
+            <l>pues he de vencerlas todas</l>
+            <l>al Hombre sacando de esa</l>
+            <l>prisión; que el día que él llora</l>
+            <l>no es justo que tú le tengas</l>
+            <l part="I">en tu poder.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l n="1750" part="F">Mal podrás,</l>
+            <l>que es infinita la deuda</l>
+            <l>que en aqueste árbol contrajo</l>
+            <l>cuya desdichada herencia</l>
+            <l>me le dio para que yo</l>
+            <l n="1755">en mis encantos le prenda.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>Infinito en este árbol</l>
+            <l>será el mérito que pueda</l>
+            <l>aplicar a lo infinito</l>
+            <l>infinita recompensa.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="I">¿Quién ha de abonarle?</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l n="1760" part="F">Yo.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l>Si bien percibo las señas</l>
+            <l>de la mala noche que has</l>
+            <l>pasado en las duras breñas</l>
+            <l>de mis términos, no solo</l>
+            <l n="1765">bañado en sangre te muestras,</l>
+            <l>herido de pies y manos,</l>
+            <l>pero desnudo, depuestas</l>
+            <l>las vestiduras a puros</l>
+            <l>abrojos. ¿Pues en qué piensas,</l>
+            <l n="1770">siendo así, fundar la paga?</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>En aquesa sangre mesma,</l>
+            <l>pues cuando más desangrado</l>
+            <l>en este tronco fallezca</l>
+            <l part="I">más segura está.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">Pues siendo</l>
+            <l n="1775">así que el satisfacerla</l>
+            <l>muriendo ha de ser, estotro</l>
+            <l>es el de la muerte; llega.</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>Será escusado, que aunque</l>
+            <l>este el de mi muerte sea,</l>
+            <l n="1780">el de la vida es del Hombre</l>
+            <l>porque en términos se vea,</l>
+            <l>si en un árbol le venciste,</l>
+            <l>que él en otro árbol te venza</l>
+            <l>muriendo yo porque él viva.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="I">¿Cómo?</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l n="1785" part="F">De aquesta manera:</l>
+            <l part="I">rayo es mi voz.</l>
+          </sp>
+          <sp who="#culpa">
+            <speaker>CULPA</speaker>
+            <l part="F">¡Ay de mí!</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l>Pues libre ya el Hombre queda,</l>
+            <l>en tus manos, Padre mío,</l>
+            <l>mi espíritu se encomienda.</l>
+          </sp>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l part="I">¡Qué asombro!</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="M">¡Qué horror!</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l n="1790" part="F">¡Qué espanto!</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="24">
+          <stage>Desaparecen FEBO y CULPA, huyen los animales y suena ruido de terremoto y vase la GULA</stage>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l>¿Qué confusión será esta</l>
+            <l>que a la voz de un trueno toda</l>
+            <l>nuestra gran fábrica tiembla!</l>
+          </sp>
+          <stage>Baja al tablado el HOMBRE</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¿De qué profundo letargo</l>
+            <l n="1795">¡cielos! el alma despierta?</l>
+            <l>¿Quién en mí me restituye?</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>Quien guardando yo esta puerta</l>
+            <l>pudo por puerta cerrada</l>
+            <l>entrar sin que yo le viera</l>
+            <l n="1800">a dar la muerte a la Culpa.</l>
+          </sp>
+        </div>
+        <div type="scene" resp="#rojas" n="25">
+          <stage>Salen los cinco sentidos en sus trajes como luchando con los cinco vicios, cada uno con el que le toca</stage>
+          <sp who="#vista #oido #olfato #gusto #tacto #musica #murmuracion #gracia #ecos #toda-la-musica #culpa #febo #lisonja #envidia #gula #hombre #lucero">
+            <speaker>LAS CINCO</speaker>
+            <l>¡Qué ansia! ¡Qué dolor! ¡Qué pena!</l>
+          </sp>
+          <sp who="#vista #oido #olfato #gusto #tacto #musica #murmuracion #gracia #ecos #toda-la-musica #culpa #febo #lisonja #envidia #gula #hombre #lucero">
+            <speaker>LOS CINCO</speaker>
+            <l part="I">¡Qué dicha! ¡Y qué gozo!</l>
+          </sp>
+          <sp who="#lisonja">
+            <speaker>LISONJA</speaker>
+            <l part="F">¡Tente!</l>
+          </sp>
+          <sp who="#lascivia">
+            <speaker>LASCIVIA</speaker>
+            <l part="I">¡Oye!</l>
+          </sp>
+          <sp who="#envidia">
+            <speaker>ENVIDIA</speaker>
+            <l part="M">¡Aguarda!</l>
+          </sp>
+          <sp who="#murmuracion">
+            <speaker>MURMURACIÓN</speaker>
+            <l part="M">¡Escucha!</l>
+          </sp>
+          <sp who="#gula">
+            <speaker>GULA</speaker>
+            <l part="F">¡Espera!</l>
+          </sp>
+          <sp who="#vista">
+            <speaker>VISTA</speaker>
+            <l part="I">¡Envidia, quita!</l>
+          </sp>
+          <sp who="#oido">
+            <speaker>OÍDO</speaker>
+            <l part="F">¡Lisonja,</l>
+            <l part="I">aparta!</l>
+          </sp>
+          <sp who="#tacto">
+            <speaker>TACTO</speaker>
+            <l n="1805" part="F">¡Lascivia, suelta!</l>
+          </sp>
+          <sp who="#gusto">
+            <speaker>GUSTO</speaker>
+            <l part="I">¡No, Gula, a mí toques!</l>
+          </sp>
+          <sp who="#olfato">
+            <speaker>OLFATO</speaker>
+            <l part="F">¡No,</l>
+            <l>Murmuración, me detengas!</l>
+          </sp>
+          <sp who="#musica #gracia #ecos #toda-la-musica #culpa #febo #hombre #lucero #lisonja #envidia #murmuracion #gula #vista #oido #tacto #gusto #olfato">
+            <speaker>LOS CINCO</speaker>
+            <l>Y pues que libres nos vemos</l>
+            <l>ya de las traiciones vuestras,</l>
+            <l n="1810">a nuestro dueño volvamos.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>¡Que esto mi furor padezca!</l>
+          </sp>
+          <stage>Van hacia donde está el HOMBRE y los vicios se retiran</stage>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¿Quién cobrando mis sentidos</l>
+            <l>rompió la bruta cadena</l>
+            <l>de la prisión en que estaba?</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="1815">¿Quién quieres, Hombre, que sea</l>
+            <l>sino el amor de la Gracia</l>
+            <l>quien en tu acuerdo te vuelva?</l>
+            <l>Pues cuando más me dejaste</l>
+            <l>por ir siguiendo una fiera</l>
+            <l n="1820">más clamé al cielo por ti;</l>
+            <l>u dígalo la experiencia,</l>
+            <l>pues libre tú de ese encanto</l>
+            <l>ella está en su encanto muerta.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>¿Qué le aseguras? Que como</l>
+            <l n="1825">original culpa muera,</l>
+            <l>si como culpa actual</l>
+            <l>libre el derecho me queda</l>
+            <l>de volverle a la prisión</l>
+            <l>cada y cuando que cometa</l>
+            <l part="I">culpa mortal.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l n="1830" part="F">Para eso</l>
+            <l>dejará Cristo en su Iglesia</l>
+            <l>—cuando lo que ahora es figura</l>
+            <l>realidad entonces sea—</l>
+            <l>dos sacramentos de muertos:</l>
+            <l n="1835">contra la culpa primera</l>
+            <l>el del bautismo; y después</l>
+            <l>también el de penitencia</l>
+            <l>contra la segunda culpa.</l>
+            <l>Y para que el hombre tenga</l>
+            <l n="1840">aumento de gracia, en otro</l>
+            <l>de vivos, por la excelencia,</l>
+            <l>aquel que «aumento de gracia»</l>
+            <l>su difinición perfecta</l>
+            <l>será, que esto Eucaristía</l>
+            <l part="I">significa.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l n="1845" part="F">Qué contenga</l>
+            <l part="I">no sé.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l part="F">Debajo de especies</l>
+            <l>de pan y vino, su mesma</l>
+            <l>carne y sangre en cuerpo y alma</l>
+            <l>vivo con real asistencia.</l>
+          </sp>
+          <stage>Ábrese el carro del árbol de la vida y se ve FEBO en él, vestido de resurrección, con cáliz y hostia</stage>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l part="I">¿Quién eso asegura?</l>
+          </sp>
+          <sp who="#febo">
+            <speaker>FEBO</speaker>
+            <l n="1850" part="F">Yo,</l>
+            <l>pues debajo de esta tersa</l>
+            <l>blanca nube y esta copa</l>
+            <l>a la de la Culpa opuesta</l>
+            <l>estoy en cuerpo, alma y vida;</l>
+            <l n="1855">porque si al jardín aquella</l>
+            <l part="I">le llevó de</l>
+            <l part="F">falaz ira</l>
+            <l>al de la Gracia le vuelva</l>
+            <l>estotra para que en todo</l>
+            <l>la oposición resplandezca</l>
+            <l n="1860">de que quien venció en un leño</l>
+            <l>en otro leño se venza.</l>
+          </sp>
+          <sp who="#lucero">
+            <speaker>LUCERO</speaker>
+            <l>¿A tanto asombro de luces</l>
+            <l>que a resplandores me ciegan</l>
+            <l>qué oposición puede haber</l>
+            <l n="1865">si no es la de las tinieblas?</l>
+          </sp>
+          <sp who="#hombre">
+            <speaker>HOMBRE</speaker>
+            <l>¿Ni qué satisfación puedo</l>
+            <l>dar yo, hermosa Gracia bella,</l>
+            <l>sino a las aras postrado</l>
+            <l>de aquella piedad inmensa,</l>
+            <l n="1870">milagro de los milagros,</l>
+            <l>grandeza de las grandezas</l>
+            <l>de Dios, poner mis sentidos?</l>
+          </sp>
+          <sp who="#musica #ecos #toda-la-musica #culpa #lisonja #envidia #murmuracion #gula #vista #oido #tacto #gusto #olfato #gracia #febo #lucero #hombre">
+            <speaker>LOS CINCO</speaker>
+            <l>Nosotros las culpas nuestras.</l>
+          </sp>
+          <sp who="#musica #ecos #toda-la-musica #culpa #lisonja #envidia #murmuracion #gula #vista #oido #tacto #gusto #olfato #gracia #febo #lucero #hombre">
+            <speaker>LAS CINCO</speaker>
+            <l>Y nosotras una firme</l>
+            <l n="1875">proposición de la enmienda.</l>
+          </sp>
+          <sp who="#gracia">
+            <speaker>GRACIA</speaker>
+            <l>Pues en su alabanza todos</l>
+            <l>decid en voces diversas:</l>
+          </sp>
+          <sp who="#ecos #toda-la-musica #culpa #lisonja #envidia #murmuracion #gula #vista #oido #tacto #gusto #olfato #febo #lucero #hombre #gracia #musica">
+            <speaker>TODOS Y MÚSICA</speaker>
+            <l>Canten la victoria</l>
+            <l>cielos y tierra</l>
+            <l n="1880">y con el Sol y Luna,</l>
+            <l>luces y estrellas.</l>
+            <l>Canten la victoria</l>
+            <l>montes y selvas</l>
+            <l>y con peces y aves,</l>
+            <l n="1885">brutos y fieras.</l>
+            <l>Canten la victoria</l>
+            <l>las flores bellas</l>
+            <l>a los árboles dando</l>
+            <l>la enhorabuena,</l>
+            <l n="1890">pues en uno vencida</l>
+            <l>la Culpa queda,</l>
+            <l>perdonándose en otro</l>
+            <l>las faltas nuestras.</l>
+          </sp>
+          <stage>Con esta repetición y al son de las chirimías se da fin al auto</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
